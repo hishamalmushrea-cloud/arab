@@ -1,0 +1,138 @@
+{
+  "caveats": [
+    "الشعبيات التاريخية منفصلة كليًا عن البلديات الحالية؛ القائمة الحالية متغيرة والمواد القديمة تغطي subset فقط.",
+    "Local coverage remains incomplete; file or directory existence is not a denominator."
+  ],
+  "country": {
+    "entity_id": "ENT-LY-COUNTRY",
+    "iso2": "LY",
+    "name_ar": "ليبيا"
+  },
+  "coverage_record_ids": [
+    "COV-LY-COUNTRY-SCOPE",
+    "COV-LY-CURRENT-MUNICIPALITIES",
+    "COV-LY-HISTORICAL-SHABIYAT-2006",
+    "COV-LY-MAHALLAS"
+  ],
+  "hierarchy": [
+    {
+      "allowed_parent_types": [],
+      "caveat": "Country scope only; not a local coverage assertion.",
+      "entity_type": "country",
+      "level": 0,
+      "local_names": [
+        "دولة"
+      ],
+      "source_ids": [
+        "SRC-ISO-3166-1-2020"
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "disputed",
+        "de_facto",
+        "claimed"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "country"
+      ],
+      "caveat": null,
+      "entity_type": "ly_municipality",
+      "level": 1,
+      "local_names": [
+        "بلدية"
+      ],
+      "source_ids": [
+        "SRC-LY-MOLG-MUNICIPALITIES-2026"
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "ly_municipality"
+      ],
+      "caveat": "الشعبيات التاريخية منفصلة كليًا عن البلديات الحالية؛ القائمة الحالية متغيرة والمواد القديمة تغطي subset فقط.",
+      "entity_type": "ly_mahalla",
+      "level": 2,
+      "local_names": [
+        "محلة"
+      ],
+      "source_ids": [
+        "SRC-LY-MOLG-MUNICIPALITIES-2026"
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "partial"
+    },
+    {
+      "allowed_parent_types": [
+        "country"
+      ],
+      "caveat": "الشعبيات التاريخية منفصلة كليًا عن البلديات الحالية؛ القائمة الحالية متغيرة والمواد القديمة تغطي subset فقط.",
+      "entity_type": "ly_shabiya_historical",
+      "level": 3,
+      "local_names": [
+        "شعبية تاريخية"
+      ],
+      "source_ids": [
+        "SRC-LY-BSC-CENSUS-2006"
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "historical"
+    }
+  ],
+  "next_action": "Reconcile pilot denominators and missing official tiers before local expansion.",
+  "official_authority": {
+    "missing_reason": null,
+    "name": "وزارة الحكم المحلي / مصلحة الإحصاء والتعداد",
+    "source_ids": [
+      "SRC-LY-MOLG-MUNICIPALITIES-2026",
+      "SRC-LY-LAW-59-2012",
+      "SRC-LY-BSC-CENSUS-2006"
+    ],
+    "verification_status": "partial"
+  },
+  "schema_version": "1.0.0",
+  "snapshot": {
+    "as_of": "2026-08-15",
+    "snapshot_id": "SNP-LY-MUNICIPALITIES-2026-08-15",
+    "status": "partial"
+  },
+  "status": "pilot_migrated"
+}

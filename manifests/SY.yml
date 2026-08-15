@@ -1,0 +1,125 @@
+{
+  "caveats": [
+    "أعداد المناطق والنواحي والتغيرات الفعلية متعارضة؛ لا تخلط السيطرة الفعلية بالقانونية.",
+    "Local coverage remains incomplete; file or directory existence is not a denominator."
+  ],
+  "country": {
+    "entity_id": "ENT-SY-COUNTRY",
+    "iso2": "SY",
+    "name_ar": "سوريا"
+  },
+  "coverage_record_ids": [
+    "COV-SY-COUNTRY-SCOPE"
+  ],
+  "hierarchy": [
+    {
+      "allowed_parent_types": [],
+      "caveat": "Country scope only; not a local coverage assertion.",
+      "entity_type": "country",
+      "level": 0,
+      "local_names": [
+        "دولة"
+      ],
+      "source_ids": [
+        "SRC-ISO-3166-1-2020"
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "disputed",
+        "de_facto",
+        "claimed"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "country"
+      ],
+      "caveat": "أعداد المناطق والنواحي والتغيرات الفعلية متعارضة؛ لا تخلط السيطرة الفعلية بالقانونية.",
+      "entity_type": "sy_governorate",
+      "level": 1,
+      "local_names": [
+        "محافظة"
+      ],
+      "source_ids": [],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "pending"
+    },
+    {
+      "allowed_parent_types": [
+        "sy_governorate"
+      ],
+      "caveat": "أعداد المناطق والنواحي والتغيرات الفعلية متعارضة؛ لا تخلط السيطرة الفعلية بالقانونية.",
+      "entity_type": "sy_district",
+      "level": 2,
+      "local_names": [
+        "منطقة"
+      ],
+      "source_ids": [],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "pending"
+    },
+    {
+      "allowed_parent_types": [
+        "sy_district"
+      ],
+      "caveat": "أعداد المناطق والنواحي والتغيرات الفعلية متعارضة؛ لا تخلط السيطرة الفعلية بالقانونية.",
+      "entity_type": "sy_subdistrict",
+      "level": 3,
+      "local_names": [
+        "ناحية"
+      ],
+      "source_ids": [],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "pending"
+    }
+  ],
+  "next_action": "Register an atomic official hierarchy source and dated denominators before migrating local legacy rows.",
+  "official_authority": {
+    "missing_reason": "Authority name is recorded, but no atomic official hierarchy source has yet passed source metadata and snapshot review.",
+    "name": "وزارة الإدارة المحلية والبيئة / المكتب المركزي للإحصاء",
+    "source_ids": [],
+    "verification_status": "pending"
+  },
+  "schema_version": "1.0.0",
+  "snapshot": {
+    "as_of": "2026-08-15",
+    "snapshot_id": "SNP-MIGRATION-2026-08-15",
+    "status": "baseline"
+  },
+  "status": "baseline_only"
+}

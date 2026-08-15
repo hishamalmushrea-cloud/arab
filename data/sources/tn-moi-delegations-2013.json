@@ -1,0 +1,19 @@
+{
+  "archive_url": null,
+  "checksum": null,
+  "country_codes": [
+    "TN"
+  ],
+  "id": "SRC-TN-MOI-DELEGATIONS-2013",
+  "language": "ar",
+  "license": "License not stated on the source page",
+  "locator": "Table of 24 governorates, per-governorate counts, and delegation names",
+  "notes": "Page reported a modification on the retrieval date but left temporal coverage blank. Its detailed table sums to 264; a separate official count page has shown later conflicting totals, so freshness requires reconciliation.",
+  "publication_date": "2013-06-25",
+  "publisher": "وزارة الداخلية التونسية — الإدارة العامة للشؤون الجهوية",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "1.0.0",
+  "source_type": "official_dataset",
+  "title": "معتمديات ولايات الجمهورية",
+  "url": "https://opendata.interieur.gov.tn/ar/catalog/delegations-par-gouvernorats-de-la-republique"
+}

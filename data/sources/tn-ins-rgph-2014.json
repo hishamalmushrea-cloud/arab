@@ -1,0 +1,19 @@
+{
+  "archive_url": null,
+  "checksum": null,
+  "country_codes": [
+    "TN"
+  ],
+  "id": "SRC-TN-INS-RGPH-2014",
+  "language": "fr-ar",
+  "license": "License not stated in the publication metadata",
+  "locator": "Governorate population tables from the 2014 census",
+  "notes": "Used only for the 24 governorate population claims dated 2014.",
+  "publication_date": "2015-04",
+  "publisher": "Institut National de la Statistique, Tunisie",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "1.0.0",
+  "source_type": "census",
+  "title": "Recensement Général de la Population et de l'Habitat 2014 — Principaux indicateurs",
+  "url": "https://www.ins.tn/sites/default/files/publication/pdf/RGPH%202014-V0.pdf"
+}

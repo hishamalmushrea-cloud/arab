@@ -1,0 +1,170 @@
+{
+  "caveats": [
+    "جدول الوزارة التفصيلي يسرد 264 معتمدية بينما ظهرت أعداد رسمية أحدث متعارضة؛ يلزم reconciliation قبل وصف الطبقة بأنها حالية بلا قيد.",
+    "Local coverage remains incomplete; file or directory existence is not a denominator."
+  ],
+  "country": {
+    "entity_id": "ENT-TN-COUNTRY",
+    "iso2": "TN",
+    "name_ar": "تونس"
+  },
+  "coverage_record_ids": [
+    "COV-TN-COUNTRY-SCOPE",
+    "COV-TN-GOVERNORATES",
+    "COV-TN-DELEGATIONS",
+    "COV-TN-MUNICIPALITIES-2018",
+    "COV-TN-IMADAS",
+    "COV-TN-CITIES",
+    "COV-TN-POPULATED-SETTLEMENTS"
+  ],
+  "hierarchy": [
+    {
+      "allowed_parent_types": [],
+      "caveat": "Country scope only; not a local coverage assertion.",
+      "entity_type": "country",
+      "level": 0,
+      "local_names": [
+        "دولة"
+      ],
+      "source_ids": [
+        "SRC-ISO-3166-1-2020"
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "disputed",
+        "de_facto",
+        "claimed"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "country"
+      ],
+      "caveat": null,
+      "entity_type": "tn_governorate",
+      "level": 1,
+      "local_names": [
+        "ولاية"
+      ],
+      "source_ids": [
+        "SRC-TN-MOI-DELEGATIONS-2013"
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "tn_governorate"
+      ],
+      "caveat": null,
+      "entity_type": "tn_delegation",
+      "level": 2,
+      "local_names": [
+        "معتمدية"
+      ],
+      "source_ids": [
+        "SRC-TN-MOI-DELEGATIONS-2013"
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "tn_delegation"
+      ],
+      "caveat": "جدول الوزارة التفصيلي يسرد 264 معتمدية بينما ظهرت أعداد رسمية أحدث متعارضة؛ يلزم reconciliation قبل وصف الطبقة بأنها حالية بلا قيد.",
+      "entity_type": "tn_imada",
+      "level": 3,
+      "local_names": [
+        "عمادة/قطاع ترابي"
+      ],
+      "source_ids": [
+        "SRC-TN-MOI-IMADAS-2013"
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "partial"
+    },
+    {
+      "allowed_parent_types": [
+        "country",
+        "tn_governorate"
+      ],
+      "caveat": "جدول الوزارة التفصيلي يسرد 264 معتمدية بينما ظهرت أعداد رسمية أحدث متعارضة؛ يلزم reconciliation قبل وصف الطبقة بأنها حالية بلا قيد.",
+      "entity_type": "tn_municipality",
+      "level": 4,
+      "local_names": [
+        "بلدية"
+      ],
+      "source_ids": [
+        "SRC-TN-DGCL-MUNICIPALITIES-2018"
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "partial"
+    }
+  ],
+  "next_action": "Reconcile pilot denominators and missing official tiers before local expansion.",
+  "official_authority": {
+    "missing_reason": null,
+    "name": "وزارة الداخلية / الإدارة العامة للشؤون الجهوية / المعهد الوطني للإحصاء",
+    "source_ids": [
+      "SRC-TN-MOI-DELEGATIONS-2013",
+      "SRC-TN-INS-RGPH-2014",
+      "SRC-TN-DGCL-MUNICIPALITIES-2018",
+      "SRC-TN-MOI-IMADAS-2013"
+    ],
+    "verification_status": "conflicted"
+  },
+  "schema_version": "1.0.0",
+  "snapshot": {
+    "as_of": "2026-08-15",
+    "snapshot_id": "SNP-TN-ADMIN-2026-08-15",
+    "status": "partial"
+  },
+  "status": "pilot_migrated"
+}

@@ -1,0 +1,112 @@
+{
+  "checks": {
+    "aliases": {
+      "aliases": 49,
+      "duplicate_aliases": 0,
+      "status": "pass"
+    },
+    "claims": {
+      "claims": 24,
+      "sourced": 24,
+      "status": "pass"
+    },
+    "coordinates": {
+      "coordinate_records": 0,
+      "status": "pass"
+    },
+    "country_mismatch": {
+      "mismatch_count": 0,
+      "status": "pass"
+    },
+    "coverage": {
+      "complete_layers": 25,
+      "coverage_records": 31,
+      "denominators": 31,
+      "status": "pass"
+    },
+    "csv": {
+      "duplicate_ids": 0,
+      "files": 24,
+      "malformed_rows": 0,
+      "rows": 5254,
+      "status": "pass"
+    },
+    "cycles": {
+      "cycle_count": 0,
+      "status": "pass"
+    },
+    "entity_types": {
+      "active_types": 5,
+      "allowed_types": 84,
+      "status": "pass"
+    },
+    "hierarchy": {
+      "declared_pairs": 95,
+      "status": "pass"
+    },
+    "ids": {
+      "duplicate_ids": 0,
+      "global_ids": 977,
+      "status": "pass"
+    },
+    "links": {
+      "broken_links": 0,
+      "checked_links": 945,
+      "status": "pass"
+    },
+    "manifests": {
+      "countries": 22,
+      "manifests": 22,
+      "pilot_migrated": 2,
+      "status": "pass"
+    },
+    "migration": {
+      "duplicate_id_repairs": 58,
+      "ledger_rows": 5254,
+      "legacy_rows": 5254,
+      "link_repairs": 25,
+      "malformed_repairs": 2,
+      "status": "pass"
+    },
+    "orphans": {
+      "orphan_count": 0,
+      "status": "pass"
+    },
+    "parents": {
+      "administrative_relationships": 403,
+      "status": "pass"
+    },
+    "schemas": {
+      "executable_schemas": 9,
+      "status": "pass"
+    },
+    "sources": {
+      "atomic_files": 9,
+      "references": 968,
+      "sources": 9,
+      "status": "pass"
+    },
+    "structured_data": {
+      "record_families": 8,
+      "records": 977,
+      "status": "pass"
+    },
+    "unicode": {
+      "checked": "active JSON, source JSON, and legacy CSV",
+      "status": "pass"
+    }
+  },
+  "counts": {
+    "aliases": 49,
+    "claims": 24,
+    "coverage": 31,
+    "denominators": 31,
+    "entities": 425,
+    "manifests": 22,
+    "relationships": 403,
+    "snapshots": 5,
+    "sources": 9
+  },
+  "errors": [],
+  "status": "pass"
+}

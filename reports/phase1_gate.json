@@ -1,0 +1,109 @@
+{
+  "checks": {
+    "all_manifests": {
+      "detail": "manifests=22, ISO set matches=True",
+      "status": "pass"
+    },
+    "atomic_sources": {
+      "detail": "atomic source files=9",
+      "status": "pass"
+    },
+    "broken_link_repairs": {
+      "detail": "logged link repairs=25",
+      "status": "pass"
+    },
+    "ci_workflow": {
+      "detail": ".github/workflows/validate.yml exists",
+      "status": "pass"
+    },
+    "completion_claims": {
+      "detail": "README declares incomplete local coverage and constrains 100%",
+      "status": "pass"
+    },
+    "country_roots": {
+      "detail": "source-backed country roots=22",
+      "status": "pass"
+    },
+    "duplicate_id_repairs": {
+      "detail": "renamed duplicate ID occurrences=58",
+      "status": "pass"
+    },
+    "four_formats": {
+      "detail": "required generated files present; missing=[]",
+      "status": "pass"
+    },
+    "generated_freshness": {
+      "command": "/usr/bin/python3 scripts/generate.py --check",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "generated output is current (64 files)"
+    },
+    "legacy_authority": {
+      "detail": "legacy CSV README disclaims authority and completeness",
+      "status": "pass"
+    },
+    "libya_denominator": {
+      "detail": "current national municipality denominator remains unresolved",
+      "status": "pass"
+    },
+    "libya_layers": {
+      "detail": "matched current municipality subset=93, historical sha‘biyat=22",
+      "status": "pass"
+    },
+    "libya_temporal_separation": {
+      "detail": "historical-to-current parent links=0",
+      "status": "pass"
+    },
+    "migration_ledger": {
+      "detail": "ledger=5254, legacy rows including template=5254",
+      "status": "pass"
+    },
+    "no_mass_expansion": {
+      "detail": "active entity count=425 (country roots and bounded Tunisia/Libya pilots only)",
+      "status": "pass"
+    },
+    "saudi_rows": {
+      "detail": "malformed Saudi row repairs=2",
+      "status": "pass"
+    },
+    "schema_contract": {
+      "detail": "required schemas present; missing=[]",
+      "status": "pass"
+    },
+    "sourced_claims": {
+      "detail": "source-backed claims=24",
+      "status": "pass"
+    },
+    "sourced_entities": {
+      "detail": "source-backed entities=425",
+      "status": "pass"
+    },
+    "tunisia_core": {
+      "detail": "governorates=24, delegations=264, population claims=24",
+      "status": "pass"
+    },
+    "tunisia_imadas": {
+      "detail": "unverified denominator remains unavailable",
+      "status": "pass"
+    },
+    "tunisia_municipalities": {
+      "detail": "dated 2018 denominator=350, matched=0, missing=350",
+      "status": "pass"
+    },
+    "validation": {
+      "command": "/usr/bin/python3 scripts/validate.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=977\n[PASS] ids: global_ids=977, duplicate_ids=0\n[PASS] entity_types: allowed_types=84, active_types=5\n[PASS] sources: atomic_files=9, sources=9, references=968\n[PASS] parents: administrative_relationships=403\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=95\n[PASS] aliases: aliases=49, duplicate_aliases=0\n[PASS] claims: claims=24, sourced=24\n[PASS] coordinates: coordinate_records=0\n[PASS] coverage: denominators=31, coverage_records=31, complete_layers=25\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=2\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=945, broken_links=0\n\nSchema v1 validation passed with zero errors."
+    },
+    "validator": {
+      "detail": "dependency-free validator exists",
+      "status": "pass"
+    }
+  },
+  "errors": [],
+  "phase": "phase1",
+  "status": "pass"
+}
