@@ -8,7 +8,7 @@
 | AE | الإمارات | 1 | 0 | [AE](countries/AE.md) |
 | BH | البحرين | 1 | 0 | [BH](countries/BH.md) |
 | DZ | الجزائر | 1 | 0 | [DZ](countries/DZ.md) |
-| SA | السعودية | 1 | 0 | [SA](countries/SA.md) |
+| SA | السعودية | 1708 | 1732 | [SA](countries/SA.md) |
 | SD | السودان | 1 | 0 | [SD](countries/SD.md) |
 | SO | الصومال | 1 | 0 | [SO](countries/SO.md) |
 | IQ | العراق | 1 | 0 | [IQ](countries/IQ.md) |

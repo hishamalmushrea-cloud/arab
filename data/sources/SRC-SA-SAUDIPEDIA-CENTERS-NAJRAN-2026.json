@@ -1,0 +1,22 @@
+{
+  "id": "SRC-SA-SAUDIPEDIA-CENTERS-NAJRAN-2026",
+  "schema_version": "1.0.0",
+  "title": "List of Administrative Centers in Najran Region",
+  "author": null,
+  "organization": "Saudipedia",
+  "publisher": "Saudipedia",
+  "source_type": "institutional_page",
+  "url": "https://saudipedia.com/قائمة-المراكز-الإدارية-في-منطقة-نجران",
+  "archive_url": null,
+  "publication_date": null,
+  "retrieved_at": "2026-08-15",
+  "license": "Source copyright; factual extraction with attribution",
+  "language": "ar",
+  "country_codes": [
+    "SA"
+  ],
+  "locator": "first administrative-centers table, all published data rows",
+  "checksum": "sha256:8036be2cf92efcbc96c1ee48e3ca83a7f6c7235861ed474b5ad113bc19291526",
+  "quality_tier": "A",
+  "notes": "Local snapshot: data/imports/saudi/raw/2026-08-15/saudipedia-centers-najran.html. Parsed deterministically as a dated published-row registry; not asserted to be a complete current-national center registry. Publication date unavailable on the captured record."
+}

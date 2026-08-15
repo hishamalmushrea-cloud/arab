@@ -1,0 +1,22 @@
+{
+  "id": "SRC-ACADEMIC-SA-DIALECT-CORPUS-2020",
+  "schema_version": "1.0.0",
+  "title": "SDCT: Multi-Dialects Corpus Classification for Saudi Dialects",
+  "author": null,
+  "organization": "International Journal of Advanced Computer Science and Applications",
+  "publisher": "International Journal of Advanced Computer Science and Applications",
+  "source_type": "academic",
+  "url": "https://thesai.org/Downloads/Volume11No11/Paper_28-SDCT_Multi_Dialects_Corpus_Classification.pdf",
+  "archive_url": null,
+  "publication_date": "2020-12",
+  "retrieved_at": "2026-08-15",
+  "license": "Source copyright; factual extraction with attribution",
+  "language": "en",
+  "country_codes": [
+    "SA"
+  ],
+  "locator": "title and cited locator",
+  "checksum": null,
+  "quality_tier": "B",
+  "notes": "Peer-reviewed article, Vol. 11 No. 11 (2020), DOI 10.14569/IJACSA.2020.0111128. Used only for explicit lexical examples, meanings and informal social-media register; not for a national dialect count."
+}

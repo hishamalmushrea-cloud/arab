@@ -11,6 +11,8 @@
         "regional",
         "historical",
         "disputed",
+        "national",
+        "local",
         null
       ],
       "type": [

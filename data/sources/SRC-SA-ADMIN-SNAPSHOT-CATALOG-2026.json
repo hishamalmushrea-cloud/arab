@@ -1,0 +1,22 @@
+{
+  "id": "SRC-SA-ADMIN-SNAPSHOT-CATALOG-2026",
+  "schema_version": "1.0.0",
+  "title": "Saudi administrative source snapshot catalog, 2026-08-15",
+  "author": null,
+  "organization": "arab data project",
+  "publisher": "arab data project",
+  "source_type": "project_audit",
+  "url": "https://github.com/hishamalmushrea-cloud/arab/blob/arena/01a00307-arab/data/imports/saudi/snapshot_manifest.json",
+  "archive_url": null,
+  "publication_date": "2026-08-15",
+  "retrieved_at": "2026-08-15",
+  "license": "Source copyright; factual extraction with attribution",
+  "language": "en",
+  "country_codes": [
+    "SA"
+  ],
+  "locator": "records array: all 15 retrieval records",
+  "checksum": "sha256:f3c996ae39b3a1e5db9b4ec1832b8c12d430f16551f4a003328e466303da6b3a",
+  "quality_tier": "B",
+  "notes": "Project audit catalog binding fifteen local HTML snapshots to retrieval URLs, byte sizes and SHA-256 checksums. Publication date is the snapshot date."
+}

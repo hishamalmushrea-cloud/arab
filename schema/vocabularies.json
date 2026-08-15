@@ -15,7 +15,9 @@
     "shared",
     "regional",
     "historical",
-    "disputed"
+    "disputed",
+    "national",
+    "local"
   ],
   "claim_statuses": [
     "verified",
@@ -76,6 +78,7 @@
     "dz_commune",
     "sa_region",
     "sa_governorate",
+    "sa_nahiya",
     "sa_markaz",
     "sd_state",
     "sd_locality",
@@ -139,7 +142,10 @@
     "landmark",
     "natural_site",
     "cultural_site",
-    "person"
+    "person",
+    "language",
+    "language_variety",
+    "lexical_form"
   ],
   "forbidden_active_types": [
     "administrative_area_unspecified"
@@ -152,7 +158,10 @@
     "historic_successor",
     "claimed_by",
     "boundary_intersects",
-    "associated_with"
+    "associated_with",
+    "variety_of",
+    "form_of",
+    "attested_in"
   ],
   "schema_version": "1.0.0",
   "source_quality_tiers": [

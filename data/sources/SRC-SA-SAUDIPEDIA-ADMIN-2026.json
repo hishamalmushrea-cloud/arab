@@ -1,0 +1,22 @@
+{
+  "id": "SRC-SA-SAUDIPEDIA-ADMIN-2026",
+  "schema_version": "1.0.0",
+  "title": "Administrative Division of Saudi Arabia",
+  "author": null,
+  "organization": "Saudipedia",
+  "publisher": "Saudipedia",
+  "source_type": "institutional_page",
+  "url": "https://saudipedia.com/التقسيم-الإداري-للسعودية",
+  "archive_url": null,
+  "publication_date": null,
+  "retrieved_at": "2026-08-15",
+  "license": "Source copyright; factual extraction with attribution",
+  "language": "ar",
+  "country_codes": [
+    "SA"
+  ],
+  "locator": "article body: hierarchy names and reported national aggregate counts",
+  "checksum": "sha256:25269cfbe668a8f8055a47ebdd0f5e0f823f3f8525de9bf2c3a7287e4352dd0d",
+  "quality_tier": "A",
+  "notes": "Local snapshot: data/imports/saudi/raw/2026-08-15/saudipedia-national-administrative-divisions.html. Reports 13 regions, 150 governorates and 1,377 centers; governorate and center totals conflict with other/current table evidence and are not adopted as closed national denominators. Publication date unavailable on the captured record."
+}

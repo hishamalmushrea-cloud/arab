@@ -37,7 +37,10 @@
         "historic_successor",
         "claimed_by",
         "boundary_intersects",
-        "associated_with"
+        "associated_with",
+        "variety_of",
+        "form_of",
+        "attested_in"
       ]
     },
     "schema_version": {

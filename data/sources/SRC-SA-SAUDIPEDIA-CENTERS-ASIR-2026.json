@@ -1,0 +1,22 @@
+{
+  "id": "SRC-SA-SAUDIPEDIA-CENTERS-ASIR-2026",
+  "schema_version": "1.0.0",
+  "title": "List of Administrative Centers in Asir Region",
+  "author": null,
+  "organization": "Saudipedia",
+  "publisher": "Saudipedia",
+  "source_type": "institutional_page",
+  "url": "https://saudipedia.com/قائمة-المراكز-الإدارية-في-منطقة-عسير",
+  "archive_url": null,
+  "publication_date": null,
+  "retrieved_at": "2026-08-15",
+  "license": "Source copyright; factual extraction with attribution",
+  "language": "ar",
+  "country_codes": [
+    "SA"
+  ],
+  "locator": "first administrative-centers table, all published data rows",
+  "checksum": "sha256:02ab79db6a8165827ba66a541eeb4ea6d4f94f34aed514d7f23f0f8b792bc80d",
+  "quality_tier": "A",
+  "notes": "Local snapshot: data/imports/saudi/raw/2026-08-15/saudipedia-centers-asir.html. Parsed deterministically as a dated published-row registry; not asserted to be a complete current-national center registry. Publication date unavailable on the captured record."
+}

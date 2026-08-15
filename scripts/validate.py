@@ -283,7 +283,7 @@ def validate_all() -> tuple[Validation, dict[str, list[dict[str, Any]]]]:
     administrative_types = {entity_type for (_iso, entity_type) in hierarchy_pairs}
     contextual_links: dict[str, int] = defaultdict(int)
     for rel in records["relationships"]:
-        if rel.get("relationship_type") in {"located_in", "associated_with"}:
+        if rel.get("relationship_type") in {"located_in", "associated_with", "attested_in", "form_of", "variety_of"}:
             contextual_links[rel.get("child_id", "")] += 1
     for entity in records["entities"]:
         count = len(parents_by_child.get(entity["id"], []))

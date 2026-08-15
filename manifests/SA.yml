@@ -1,125 +1,293 @@
 {
-  "caveats": [
-    "المدينة والمحافظة والمركز كيانات مختلفة؛ الصفوف المركبة القديمة محجورة.",
-    "Local coverage remains incomplete; file or directory existence is not a denominator."
-  ],
-  "country": {
-    "entity_id": "ENT-SA-COUNTRY",
-    "iso2": "SA",
-    "name_ar": "السعودية"
-  },
-  "coverage_record_ids": [
-    "COV-SA-COUNTRY-SCOPE"
-  ],
-  "hierarchy": [
-    {
-      "allowed_parent_types": [],
-      "caveat": "Country scope only; not a local coverage assertion.",
-      "entity_type": "country",
-      "level": 0,
-      "local_names": [
-        "دولة"
-      ],
-      "source_ids": [
-        "SRC-ISO-3166-1-2020"
-      ],
-      "temporal_statuses": [
-        "current",
-        "historical",
-        "disputed",
-        "de_facto",
-        "claimed"
-      ],
-      "verification_status": "verified"
-    },
-    {
-      "allowed_parent_types": [
-        "country"
-      ],
-      "caveat": "المدينة والمحافظة والمركز كيانات مختلفة؛ الصفوف المركبة القديمة محجورة.",
-      "entity_type": "sa_region",
-      "level": 1,
-      "local_names": [
-        "منطقة إدارية"
-      ],
-      "source_ids": [],
-      "temporal_statuses": [
-        "current",
-        "historical",
-        "destroyed",
-        "displaced",
-        "disputed",
-        "de_facto",
-        "claimed",
-        "proposed",
-        "transitional",
-        "uncertain"
-      ],
-      "verification_status": "pending"
-    },
-    {
-      "allowed_parent_types": [
-        "sa_region"
-      ],
-      "caveat": "المدينة والمحافظة والمركز كيانات مختلفة؛ الصفوف المركبة القديمة محجورة.",
-      "entity_type": "sa_governorate",
-      "level": 2,
-      "local_names": [
-        "محافظة"
-      ],
-      "source_ids": [],
-      "temporal_statuses": [
-        "current",
-        "historical",
-        "destroyed",
-        "displaced",
-        "disputed",
-        "de_facto",
-        "claimed",
-        "proposed",
-        "transitional",
-        "uncertain"
-      ],
-      "verification_status": "pending"
-    },
-    {
-      "allowed_parent_types": [
-        "sa_governorate"
-      ],
-      "caveat": "المدينة والمحافظة والمركز كيانات مختلفة؛ الصفوف المركبة القديمة محجورة.",
-      "entity_type": "sa_markaz",
-      "level": 3,
-      "local_names": [
-        "مركز"
-      ],
-      "source_ids": [],
-      "temporal_statuses": [
-        "current",
-        "historical",
-        "destroyed",
-        "displaced",
-        "disputed",
-        "de_facto",
-        "claimed",
-        "proposed",
-        "transitional",
-        "uncertain"
-      ],
-      "verification_status": "pending"
-    }
-  ],
-  "next_action": "Register an atomic official hierarchy source and dated denominators before migrating local legacy rows.",
-  "official_authority": {
-    "missing_reason": "Authority name is recorded, but no atomic official hierarchy source has yet passed source metadata and snapshot review.",
-    "name": "وزارة الداخلية / الهيئة العامة للإحصاء",
-    "source_ids": [],
-    "verification_status": "pending"
-  },
   "schema_version": "1.0.0",
+  "country": {
+    "iso2": "SA",
+    "name_ar": "المملكة العربية السعودية",
+    "entity_id": "ENT-SA-COUNTRY"
+  },
+  "status": "pilot_migrated",
+  "official_authority": {
+    "name": "وزارة الداخلية (التنظيم الإداري) / الهيئة العامة للإحصاء (النطاق الإحصائي)",
+    "source_ids": [
+      "SRC-SA-LAW-OF-PROVINCES-1992",
+      "SRC-SA-GASTAT-HEALTH-METHOD-2026"
+    ],
+    "verification_status": "verified",
+    "missing_reason": null
+  },
   "snapshot": {
     "as_of": "2026-08-15",
-    "snapshot_id": "SNP-MIGRATION-2026-08-15",
-    "status": "baseline"
+    "snapshot_id": "SNP-SA-ADMIN-20260815",
+    "status": "verified"
   },
-  "status": "baseline_only"
+  "hierarchy": [
+    {
+      "level": 0,
+      "entity_type": "country",
+      "local_names": ["دولة", "المملكة العربية السعودية"],
+      "allowed_parent_types": [],
+      "temporal_statuses": ["current", "historical", "disputed"],
+      "source_ids": ["SRC-ISO-3166-1-2020"],
+      "verification_status": "verified",
+      "caveat": "Country scope does not imply completeness of any local layer.",
+      "authority_name": "المملكة العربية السعودية",
+      "denominator": 1,
+      "denominator_id": null,
+      "coverage_record_id": null,
+      "snapshot_date": "2026-08-15",
+      "license": "ISO factual identifier with attribution",
+      "scope_status": "closed",
+      "notes": "ISO alpha-2 SA; the pre-existing country entity is retained.",
+      "special_cases": []
+    },
+    {
+      "level": 1,
+      "entity_type": "sa_region",
+      "local_names": ["منطقة", "منطقة إدارية", "إمارة المنطقة"],
+      "allowed_parent_types": ["country"],
+      "temporal_statuses": ["current", "historical"],
+      "source_ids": ["SRC-SA-LAW-OF-PROVINCES-1992", "SRC-SA-SAUDIPEDIA-ADMIN-2026", "SRC-SA-GASTAT-HEALTH-METHOD-2026"],
+      "verification_status": "verified",
+      "caveat": "The administrative region is distinct from its capital city and the emirate seat.",
+      "authority_name": "وزارة الداخلية / إمارة المنطقة",
+      "denominator": 13,
+      "denominator_id": "DEN-SA-REGIONS-20260815",
+      "coverage_record_id": "COV-SA-REGIONS-20260815",
+      "snapshot_date": "2026-08-15",
+      "license": "Source copyright; factual extraction with attribution",
+      "scope_status": "closed",
+      "notes": "Both accepted national aggregate sources report 13 regions.",
+      "special_cases": ["The 13 separately listed capital rows are cities/seats, not governorates."]
+    },
+    {
+      "level": 2,
+      "entity_type": "sa_governorate",
+      "local_names": ["محافظة"],
+      "allowed_parent_types": ["sa_region"],
+      "temporal_statuses": ["current", "historical"],
+      "source_ids": ["SRC-SA-LAW-OF-PROVINCES-1992", "SRC-SA-ADMIN-SNAPSHOT-CATALOG-2026"],
+      "verification_status": "verified",
+      "caveat": "The 141 materialized records close only the dated 13-page published-row registry. Current-national aggregates conflict at 150 versus 151 and remain unclosed.",
+      "authority_name": "وزارة الداخلية / إمارة المنطقة",
+      "denominator": 141,
+      "denominator_id": "DEN-SA-GOVERNORATE-ROWS-20260815",
+      "coverage_record_id": "COV-SA-GOVERNORATE-ROWS-20260815",
+      "snapshot_date": "2026-08-15",
+      "license": "Source copyright; factual extraction with attribution",
+      "scope_status": "closed",
+      "notes": "141 rows labelled محافظة; the 13 capital-city rows are excluded from this layer by semantic type, not counted as denominator exclusions.",
+      "special_cases": ["National denominator separately recorded as conflicted/unavailable."]
+    },
+    {
+      "level": 3,
+      "entity_type": "sa_nahiya",
+      "local_names": ["ناحية", "النواحي"],
+      "allowed_parent_types": ["sa_region", "sa_governorate"],
+      "temporal_statuses": ["current", "historical"],
+      "source_ids": ["SRC-SA-LAW-OF-PROVINCES-1992"],
+      "verification_status": "partial",
+      "caveat": "Article 3 names nawahi as a legal component, but this cycle found no accepted dated enumerable current-national registry and materializes none.",
+      "authority_name": "وزارة الداخلية / إمارة المنطقة",
+      "denominator": null,
+      "denominator_id": "DEN-SA-CURRENT-NAWAHI-20260815",
+      "coverage_record_id": "COV-SA-CURRENT-NAWAHI-20260815",
+      "snapshot_date": "2026-08-15",
+      "license": "Source copyright; factual extraction with attribution",
+      "scope_status": "unavailable",
+      "notes": "Legal layer preserved in the schema without inventing records.",
+      "special_cases": ["No zero denominator and no 100% assertion."]
+    },
+    {
+      "level": 4,
+      "entity_type": "sa_markaz",
+      "local_names": ["مركز", "المراكز"],
+      "allowed_parent_types": ["sa_region", "sa_governorate", "sa_nahiya"],
+      "temporal_statuses": ["current", "historical"],
+      "source_ids": [
+        "SRC-SA-LAW-OF-PROVINCES-1992",
+        "SRC-SA-SAUDIPEDIA-CENTERS-RIYADH-2026",
+        "SRC-SA-SAUDIPEDIA-CENTERS-MAKKAH-2026",
+        "SRC-SA-SAUDIPEDIA-CENTERS-MADINAH-2026",
+        "SRC-SA-SAUDIPEDIA-CENTERS-QASSIM-2026",
+        "SRC-SA-SAUDIPEDIA-CENTERS-EASTERN-2026",
+        "SRC-SA-SAUDIPEDIA-CENTERS-ASIR-2026",
+        "SRC-SA-SAUDIPEDIA-CENTERS-TABUK-2026",
+        "SRC-SA-SAUDIPEDIA-CENTERS-HAIL-2026",
+        "SRC-SA-SAUDIPEDIA-CENTERS-NORTHERN-BORDERS-2026",
+        "SRC-SA-SAUDIPEDIA-CENTERS-JAZAN-2026",
+        "SRC-SA-SAUDIPEDIA-CENTERS-NAJRAN-2026",
+        "SRC-SA-SAUDIPEDIA-CENTERS-AL-BAHA-2026",
+        "SRC-SA-SAUDIPEDIA-CENTERS-AL-JAWF-2026"
+      ],
+      "verification_status": "verified",
+      "caveat": "Centers in capital-city rows attach directly to the region; centers in governorate rows attach to that governorate. The 1,521 records close only the 1,523-occurrence table scope after two exact duplicate exclusions; conflicting national counts remain unclosed.",
+      "authority_name": "وزارة الداخلية / إمارة المنطقة",
+      "denominator": 1523,
+      "denominator_id": "DEN-SA-CENTER-OCCURRENCES-20260815",
+      "coverage_record_id": "COV-SA-CENTER-OCCURRENCES-20260815",
+      "snapshot_date": "2026-08-15",
+      "license": "Source copyright; factual extraction with attribution",
+      "scope_status": "closed",
+      "notes": "Source-row occurrence scope: 1,521 matched + 2 excluded = 1,523. Regional page declarations sum to 1,528, while deterministic parsing yields 1,523.",
+      "special_cases": ["Duplicate الرقعي under حفر الباطن excluded once.", "Duplicate الربواء under الرين excluded once.", "Riyadh declares 500 but parses to 494; no records are invented.", "Eastern Province declares 116 but parses to 117 before duplicate exclusion."]
+    }
+  ],
+  "pilot_layers": [
+    {
+      "layer": "sa_region",
+      "entity_types": ["sa_region"],
+      "local_names": ["منطقة إدارية"],
+      "authority_name": "وزارة الداخلية / إمارة المنطقة",
+      "denominator": 13,
+      "denominator_id": "DEN-SA-REGIONS-20260815",
+      "coverage_record_id": "COV-SA-REGIONS-20260815",
+      "snapshot_date": "2026-08-15",
+      "source_ids": ["SRC-SA-SAUDIPEDIA-ADMIN-2026", "SRC-SA-GASTAT-HEALTH-METHOD-2026"],
+      "license": "Source copyright; factual extraction with attribution",
+      "scope_status": "closed",
+      "notes": "13 matched; 0 unmatched; 0 excluded.",
+      "special_cases": []
+    },
+    {
+      "layer": "sa_governorate_published_rows",
+      "entity_types": ["sa_governorate"],
+      "local_names": ["محافظة"],
+      "authority_name": "Saudipedia dated regional tables",
+      "denominator": 141,
+      "denominator_id": "DEN-SA-GOVERNORATE-ROWS-20260815",
+      "coverage_record_id": "COV-SA-GOVERNORATE-ROWS-20260815",
+      "snapshot_date": "2026-08-15",
+      "source_ids": ["SRC-SA-ADMIN-SNAPSHOT-CATALOG-2026"],
+      "license": "Source copyright; factual extraction with attribution",
+      "scope_status": "closed",
+      "notes": "141 matched; 0 unmatched; 0 excluded. This is not the current-national denominator.",
+      "special_cases": ["National aggregate conflict recorded separately."]
+    },
+    {
+      "layer": "sa_markaz_published_occurrences",
+      "entity_types": ["sa_markaz"],
+      "local_names": ["مركز"],
+      "authority_name": "Saudipedia dated regional tables",
+      "denominator": 1523,
+      "denominator_id": "DEN-SA-CENTER-OCCURRENCES-20260815",
+      "coverage_record_id": "COV-SA-CENTER-OCCURRENCES-20260815",
+      "snapshot_date": "2026-08-15",
+      "source_ids": ["SRC-SA-ADMIN-SNAPSHOT-CATALOG-2026"],
+      "license": "Source copyright; factual extraction with attribution",
+      "scope_status": "closed",
+      "notes": "1,521 matched + 2 exact duplicate occurrences excluded = 1,523.",
+      "special_cases": ["The sum of declared regional totals is 1,528, five higher than parsed occurrences."]
+    },
+    {
+      "layer": "sa_governorate_current_national",
+      "entity_types": ["sa_governorate"],
+      "local_names": ["محافظة"],
+      "authority_name": "Saudipedia / GASTAT",
+      "denominator": null,
+      "denominator_id": "DEN-SA-CURRENT-GOVERNORATES-20260815",
+      "coverage_record_id": "COV-SA-CURRENT-GOVERNORATES-20260815",
+      "snapshot_date": "2026-08-15",
+      "source_ids": ["SRC-SA-SAUDIPEDIA-ADMIN-2026", "SRC-SA-GASTAT-HEALTH-METHOD-2026"],
+      "license": "Source copyright; factual extraction with attribution",
+      "scope_status": "unavailable",
+      "notes": "Conflicted: 150 versus 151; no percentage and no national-completeness claim.",
+      "special_cases": []
+    },
+    {
+      "layer": "sa_markaz_current_national",
+      "entity_types": ["sa_markaz"],
+      "local_names": ["مركز"],
+      "authority_name": "Saudipedia",
+      "denominator": null,
+      "denominator_id": "DEN-SA-CURRENT-CENTERS-20260815",
+      "coverage_record_id": "COV-SA-CURRENT-CENTERS-20260815",
+      "snapshot_date": "2026-08-15",
+      "source_ids": ["SRC-SA-SAUDIPEDIA-ADMIN-2026", "SRC-SA-ADMIN-SNAPSHOT-CATALOG-2026"],
+      "license": "Source copyright; factual extraction with attribution",
+      "scope_status": "unavailable",
+      "notes": "Conflicted 1,377 national aggregate, 1,528 page declarations and 1,523 parsed occurrences; no percentage.",
+      "special_cases": []
+    },
+    {
+      "layer": "sa_nahiya_current_national",
+      "entity_types": ["sa_nahiya"],
+      "local_names": ["ناحية"],
+      "authority_name": "وزارة الداخلية",
+      "denominator": null,
+      "denominator_id": "DEN-SA-CURRENT-NAWAHI-20260815",
+      "coverage_record_id": "COV-SA-CURRENT-NAWAHI-20260815",
+      "snapshot_date": "2026-08-15",
+      "source_ids": ["SRC-SA-LAW-OF-PROVINCES-1992"],
+      "license": "Source copyright; factual extraction with attribution",
+      "scope_status": "unavailable",
+      "notes": "Legal layer without an accepted enumerable active registry.",
+      "special_cases": []
+    },
+    {
+      "layer": "populated_places",
+      "entity_types": ["city", "historical_place"],
+      "local_names": ["مدينة", "مكان تاريخي"],
+      "authority_name": "UNESCO World Heritage Centre",
+      "denominator": null,
+      "denominator_id": "DEN-SA-POPULATED-PLACES-20260815",
+      "coverage_record_id": "COV-SA-POPULATED-PLACES-20260815",
+      "snapshot_date": "2026-08-15",
+      "source_ids": ["SRC-SA-CULTURAL-FIXTURE-2026"],
+      "license": "Source copyright; factual extraction with attribution",
+      "scope_status": "bounded",
+      "notes": "Four post-administrative context anchors; no current-national registry and no percentage.",
+      "special_cases": ["Qaryat al-Faw is historical, not current."]
+    },
+    {
+      "layer": "neighborhoods",
+      "entity_types": ["neighborhood", "quarter"],
+      "local_names": ["حي", "حارة"],
+      "authority_name": null,
+      "denominator": null,
+      "denominator_id": "DEN-SA-NEIGHBORHOODS-20260815",
+      "coverage_record_id": "COV-SA-NEIGHBORHOODS-20260815",
+      "snapshot_date": "2026-08-15",
+      "source_ids": ["SRC-SA-CULTURAL-FIXTURE-2026"],
+      "license": "Source copyright; factual extraction with attribution",
+      "scope_status": "unavailable",
+      "notes": "No accepted official national registry; zero entities is not a zero denominator.",
+      "special_cases": []
+    },
+    {
+      "layer": "unesco_world_heritage_properties",
+      "entity_types": ["archaeological_site", "cultural_site", "natural_site"],
+      "local_names": ["موقع تراث عالمي"],
+      "authority_name": "UNESCO World Heritage Centre",
+      "denominator": 8,
+      "denominator_id": "DEN-SA-WORLD-HERITAGE-20260815",
+      "coverage_record_id": "COV-SA-WORLD-HERITAGE-20260815",
+      "snapshot_date": "2026-08-15",
+      "source_ids": ["SRC-UNESCO-WHC-SA-STATE-2026"],
+      "license": "Source copyright; factual extraction with attribution",
+      "scope_status": "closed",
+      "notes": "Eight matched institutional property records; this is a heritage-list denominator, not national cultural completeness.",
+      "special_cases": ["Seven cultural properties and one natural property."]
+    }
+  ],
+  "coverage_record_ids": [
+    "COV-SA-REGIONS-20260815",
+    "COV-SA-GOVERNORATE-ROWS-20260815",
+    "COV-SA-CENTER-OCCURRENCES-20260815",
+    "COV-SA-CURRENT-GOVERNORATES-20260815",
+    "COV-SA-CURRENT-CENTERS-20260815",
+    "COV-SA-CURRENT-NAWAHI-20260815",
+    "COV-SA-POPULATED-PLACES-20260815",
+    "COV-SA-NEIGHBORHOODS-20260815",
+    "COV-SA-WORLD-HERITAGE-20260815"
+  ],
+  "caveats": [
+    "Only exact dated source-row registries and the eight-property UNESCO list claim 100%; current-national governorate, center, nahiya, populated-place and neighborhood completeness remains unavailable.",
+    "A region, governorate, administrative center, city, historical place and heritage site are distinct semantic types.",
+    "The 13 regional-capital rows are city/emirate-seat entities and are never counted as governorates.",
+    "Current administration is separated from historical Qaryat al-Faw and historical-period claims.",
+    "No coordinate, population, item-level regional clothing, national dialect-count, or unsupported other-language claim is published.",
+    "Food and custom claims preserve national, regional or shared attribution and do not assert exclusivity.",
+    "GeoNames was not used as a source in this cycle."
+  ],
+  "next_action": "Do not begin another country; monitor for an atomic official current-national register that reconciles governorate, nahiya and center counts."
 }

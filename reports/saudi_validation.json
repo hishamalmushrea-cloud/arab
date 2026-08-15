@@ -1,0 +1,132 @@
+{
+  "checks": {
+    "ab_source_threshold": {
+      "detail": "A/B published claims=1732/1732 (100.00%)",
+      "status": "pass"
+    },
+    "administrative_topology": {
+      "detail": "parent links by type={'sa_markaz': 1521, 'sa_governorate': 141, 'sa_region': 13}, errors=0; direct region→center is legal/source-backed",
+      "status": "pass"
+    },
+    "alias_resolution": {
+      "detail": "aliases=179, duplicate keys=0, alias-as-entity collisions=0",
+      "status": "pass"
+    },
+    "atomic_source_registry": {
+      "detail": "Saudi-specific sources=34, tiers={'B': 4, 'A': 30}, metadata errors=[]",
+      "status": "pass"
+    },
+    "attribution_scope": {
+      "detail": "national-to-local leaks=0, unsupported other languages=0, unsupported superlatives=0",
+      "status": "pass"
+    },
+    "bounded_places_and_sites": {
+      "detail": "bounded places=4, regional seats=13, sites=8, GeoNames refs=0, population claims=0",
+      "status": "pass"
+    },
+    "checksum_bound_inputs": {
+      "detail": "snapshots=15/15, mismatches=[]",
+      "status": "pass"
+    },
+    "claim_traceability": {
+      "detail": "claims=1732, traceability errors=0",
+      "status": "pass"
+    },
+    "conflicts_and_exclusions": {
+      "detail": "duplicate exclusions=['الربواء', 'الرقعي'], unresolved P0/P1=0/0",
+      "status": "pass"
+    },
+    "country_manifest": {
+      "detail": "hierarchy=['country', 'sa_region', 'sa_governorate', 'sa_nahiya', 'sa_markaz'], declared layers=['neighborhoods', 'populated_places', 'sa_governorate_current_national', 'sa_governorate_published_rows', 'sa_markaz_current_national', 'sa_markaz_published_occurrences', 'sa_nahiya_current_national', 'sa_region', 'unesco_world_heritage_properties'], snapshot=2026-08-15",
+      "status": "pass"
+    },
+    "country_specific_method": {
+      "detail": "Saudi production path does not call prior-country importers; production foreign refs=0",
+      "status": "pass"
+    },
+    "declared_scope_closure": {
+      "detail": "matched/excluded/denominator={'sa_region': (13, 0, 13), 'sa_governorate_published_rows': (141, 0, 141), 'sa_markaz_published_occurrences': (1521, 2, 1523), 'unesco_world_heritage_properties': (8, 0, 8)}",
+      "status": "pass"
+    },
+    "denominator_accounting": {
+      "detail": "records=9+9, closed failures=[], unavailable-scope failures=[]",
+      "status": "pass"
+    },
+    "dialect_evidence_chain": {
+      "detail": "varieties=2, forms=4, chain errors=[], count claims=0",
+      "status": "pass"
+    },
+    "entity_counts": {
+      "detail": "actual={'archaeological_site': 4, 'city': 16, 'country': 1, 'cultural_site': 3, 'historical_place': 1, 'language': 1, 'language_variety': 2, 'lexical_form': 4, 'natural_site': 1, 'sa_governorate': 141, 'sa_markaz': 1521, 'sa_region': 13}",
+      "status": "pass"
+    },
+    "finding_closure": {
+      "detail": "review P0/P1=0/0; anomaly P0/P1=0/0",
+      "status": "pass"
+    },
+    "identity_integrity": {
+      "detail": "duplicate_ids=0, orphans=0, country_mismatch=0, cycles=0",
+      "status": "pass"
+    },
+    "independent_review": {
+      "detail": "passed=True, minimum rate=0.1001, fresh=True",
+      "status": "pass"
+    },
+    "legal_nahiya_without_fabrication": {
+      "detail": "materialized nawahi=0, manifest status=unavailable",
+      "status": "pass"
+    },
+    "negative_tests": {
+      "detail": "outcomes={'NEG-SA-ALIAS-AS-ENTITY': 'pass', 'NEG-SA-FOREIGN-COUNTRY-SOURCE': 'pass', 'NEG-SA-HISTORICAL-AS-CURRENT': 'pass', 'NEG-SA-NATIONAL-TO-LOCAL-LEAKAGE': 'pass', 'NEG-SA-POPULATION-WITHOUT-YEAR': 'pass', 'NEG-SA-WRONG-CENTER-LINKAGE': 'pass', 'NEG-SA-WRONG-GOVERNORATE': 'pass'}",
+      "status": "pass"
+    },
+    "record_family_counts": {
+      "detail": "entities/aliases/relationships/claims=1708/179/1726/1732",
+      "status": "pass"
+    },
+    "regional_seat_semantics": {
+      "detail": "capital cities=13, seat relationships=13, capital-row claims=13",
+      "status": "pass"
+    },
+    "registry_parse_totals": {
+      "detail": "actual={'capital_city_rows': 13, 'center_occurrences': 1523, 'excluded_duplicate_occurrences': 2, 'governorate_rows': 141, 'regions': 13, 'sum_of_page_declared_center_totals': 1528, 'unique_parent_scoped_centers': 1521}; parsed 1,523 rather than inventing the five-record declared-total gap",
+      "status": "pass"
+    },
+    "representative_culture": {
+      "detail": "required contexts covered=['coastal', 'desert', 'historical-city', 'major-city', 'mountain', 'oasis', 'rural']; selected claim counts={dish: 13, ICH: 4, clothing-scope: 1}",
+      "status": "pass"
+    },
+    "sensitive_claim_rule": {
+      "detail": "sensitive claims=0, compliant=0; zero-case policy is vacuously satisfied",
+      "status": "pass"
+    },
+    "temporal_separation": {
+      "detail": "historical=[('قرية الفاو', 'historical')], current cities=3",
+      "status": "pass"
+    }
+  },
+  "country_code": "SA",
+  "errors": [],
+  "metrics": {
+    "ab_claim_ratio": 100.0,
+    "aliases": 179,
+    "claims": 1732,
+    "critical_p1": 0,
+    "duplicate_claims": 0,
+    "entities": 1708,
+    "p0": 0,
+    "primary_records": 5345,
+    "records_per_entity": 3.1294,
+    "records_per_unique_source": 152.7143,
+    "relationships": 1726,
+    "repeated_claim_value_occurrences": 127,
+    "saudi_specific_atomic_sources": 34,
+    "sensitive_claims": 0,
+    "sensitive_noncompliant": 0,
+    "text_duplication_rate": 7.3326,
+    "unique_sources_used_including_shared_iso": 35
+  },
+  "schema_version": "1.0.0",
+  "snapshot_date": "2026-08-15",
+  "status": "pass"
+}

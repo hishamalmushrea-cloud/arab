@@ -45,6 +45,17 @@
   },
   {
     "captured_at": "2026-08-15",
+    "checksum": "sha256:f3c996ae39b3a1e5db9b4ec1832b8c12d430f16551f4a003328e466303da6b3a",
+    "id": "SNP-SA-ADMIN-20260815",
+    "method": "GitHub Actions retrieval for administrative HTML; deterministic local parsing; bounded manual extraction for institutional content",
+    "notes": "Administrative records are immutable local inputs. Remote cultural records are bounded by atomic source metadata and exact locators.",
+    "schema_version": "1.0.0",
+    "scope": "15 checksum-verified administrative HTML snapshots plus bounded institutional/scholarly content locators",
+    "source_id": "SRC-SA-ADMIN-SNAPSHOT-CATALOG-2026",
+    "title": "Saudi administrative and bounded-content evidence snapshot"
+  },
+  {
+    "captured_at": "2026-08-15",
     "checksum": null,
     "id": "SNP-TN-ADMIN-2026-08-15",
     "method": "Matched normalized Arabic name and governorate parent against legacy rows; retained one representation per entity",
