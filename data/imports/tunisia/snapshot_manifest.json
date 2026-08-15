@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-08-15",
+  "files": [
+    {
+      "bytes": 56381,
+      "path": "data/imports/tunisia/official_municipalities_2024.csv",
+      "sha256": "b53d328fca053c49c1ee46b6b9e95bfe8cb7ca4a41abc81ce9c37bfe918fe1ad"
+    },
+    {
+      "bytes": 323670,
+      "path": "data/imports/tunisia/institutional_admin_2022.csv",
+      "sha256": "7edfdf49eeb93d1cd7c1443f2fec0a57ade847bae2b08450cc3d99138d5ddac9"
+    },
+    {
+      "bytes": 46130,
+      "path": "data/imports/tunisia/municipality_delegation_overlap_evidence.csv",
+      "sha256": "f0d4da49b77e494caed3d7d74e6f5dc67d15e8ec38eab7c772eff562dec3e95b"
+    },
+    {
+      "bytes": 1221,
+      "path": "data/imports/tunisia/mapping_overrides.csv",
+      "sha256": "dcabccbc8ea9a69fcb3ec514ff58b3c892690e5952c1444497b8942eb834a982"
+    },
+    {
+      "bytes": 15481,
+      "path": "data/imports/tunisia/phase1_population_claims.jsonl",
+      "sha256": "d5cd994ad7344391a2d26171878f20b9afd7f6b0a85237d7586664cd7e2efe60"
+    }
+  ],
+  "upstream": {
+    "administrative": "HDX COD-AB Tunisia v01, INS lineage, valid 2022-11-15",
+    "geometry": "jmgclark/tunisia_shapefiles approximate ODbL research reconstruction",
+    "municipalities": "January 2024 Collectivités Locales workbook rendered via data.gov.tn"
+  }
+}

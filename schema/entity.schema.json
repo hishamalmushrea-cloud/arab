@@ -1,0 +1,145 @@
+{
+  "$id": "https://arab.example/schema/v1/entity.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "canonical_name": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "canonical_name_language": {
+      "minLength": 2,
+      "type": "string"
+    },
+    "canonical_source_id": {
+      "pattern": "^SRC-[A-Z0-9-]+$",
+      "type": "string"
+    },
+    "confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "coordinates": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "latitude": {
+              "maximum": 90,
+              "minimum": -90,
+              "type": "number"
+            },
+            "longitude": {
+              "maximum": 180,
+              "minimum": -180,
+              "type": "number"
+            },
+            "source_id": {
+              "pattern": "^SRC-[A-Z0-9-]+$",
+              "type": "string"
+            }
+          },
+          "required": [
+            "latitude",
+            "longitude",
+            "source_id"
+          ],
+          "type": "object"
+        }
+      ]
+    },
+    "country_code": {
+      "pattern": "^[A-Z]{2}$",
+      "type": "string"
+    },
+    "entity_type": {
+      "minLength": 2,
+      "type": "string"
+    },
+    "id": {
+      "pattern": "^ENT-[A-Z]{2}-[A-Z0-9-]+$",
+      "type": "string"
+    },
+    "legacy_ids": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "source_locator": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ]
+    },
+    "valid_from": {
+      "format": "date",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "valid_to": {
+      "format": "date",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "verification_status": {
+      "enum": [
+        "verified",
+        "source_verified",
+        "partial",
+        "ambiguous",
+        "needs_review"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "schema_version",
+    "country_code",
+    "canonical_name",
+    "canonical_name_language",
+    "entity_type",
+    "status",
+    "canonical_source_id",
+    "source_locator",
+    "legacy_ids",
+    "coordinates",
+    "notes",
+    "verification_status",
+    "confidence"
+  ],
+  "title": "Entity",
+  "type": "object"
+}

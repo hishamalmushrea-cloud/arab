@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": null,
+  "country_codes": [
+    "LY"
+  ],
+  "id": "SRC-LY-LAW-59-2012",
+  "language": "ar",
+  "license": "Public legal text; site reuse terms not stated",
+  "locator": "Full legal file linked from the Ministry laws register",
+  "notes": "Supports the municipality framework, not by itself the identity of each currently listed municipality.",
+  "publication_date": "2012",
+  "publisher": "الجهة التشريعية الليبية; published by Ministry of Local Government",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "1.0.0",
+  "source_type": "law",
+  "title": "قانون رقم 59 لسنة 2012 بشأن نظام الإدارة المحلية",
+  "url": "https://www.lgm.gov.ly/Legal/2"
+}

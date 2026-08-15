@@ -1,0 +1,112 @@
+{
+  "$id": "https://arab.example/schema/v1/denominator.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "as_of": {
+      "format": "date",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "country_code": {
+      "pattern": "^[A-Z]{2}$",
+      "type": "string"
+    },
+    "definition": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "denominator": {
+      "minimum": 0,
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "id": {
+      "pattern": "^DEN-[A-Z0-9-]+$",
+      "type": "string"
+    },
+    "layer": {
+      "pattern": "^[a-z][a-z0-9_]*$",
+      "type": "string"
+    },
+    "license": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "missing_reason": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "snapshot_date": {
+      "format": "date",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_id": {
+      "pattern": "^SRC-[A-Z0-9-]+$",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_locator": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "enum": [
+        "official",
+        "conflicted",
+        "unavailable",
+        "provisional"
+      ]
+    },
+    "value": {
+      "minimum": 0,
+      "type": [
+        "integer",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "schema_version",
+    "country_code",
+    "layer",
+    "definition",
+    "value",
+    "as_of",
+    "status",
+    "source_id",
+    "source_locator",
+    "license",
+    "missing_reason",
+    "notes",
+    "denominator",
+    "snapshot_date"
+  ],
+  "title": "Denominator",
+  "type": "object"
+}

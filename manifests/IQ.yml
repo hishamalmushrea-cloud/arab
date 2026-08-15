@@ -1,0 +1,125 @@
+{
+  "caveats": [
+    "حلبجة أصبحت محافظة في 2025؛ يلزم مصدر رسمي مؤرخ لمسارها الحالي.",
+    "Local coverage remains incomplete; file or directory existence is not a denominator."
+  ],
+  "country": {
+    "entity_id": "ENT-IQ-COUNTRY",
+    "iso2": "IQ",
+    "name_ar": "العراق"
+  },
+  "coverage_record_ids": [
+    "COV-IQ-COUNTRY-SCOPE"
+  ],
+  "hierarchy": [
+    {
+      "allowed_parent_types": [],
+      "caveat": "Country scope only; not a local coverage assertion.",
+      "entity_type": "country",
+      "level": 0,
+      "local_names": [
+        "دولة"
+      ],
+      "source_ids": [
+        "SRC-ISO-3166-1-2020"
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "disputed",
+        "de_facto",
+        "claimed"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "country"
+      ],
+      "caveat": "حلبجة أصبحت محافظة في 2025؛ يلزم مصدر رسمي مؤرخ لمسارها الحالي.",
+      "entity_type": "iq_governorate",
+      "level": 1,
+      "local_names": [
+        "محافظة"
+      ],
+      "source_ids": [],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "pending"
+    },
+    {
+      "allowed_parent_types": [
+        "iq_governorate"
+      ],
+      "caveat": "حلبجة أصبحت محافظة في 2025؛ يلزم مصدر رسمي مؤرخ لمسارها الحالي.",
+      "entity_type": "iq_district",
+      "level": 2,
+      "local_names": [
+        "قضاء"
+      ],
+      "source_ids": [],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "pending"
+    },
+    {
+      "allowed_parent_types": [
+        "iq_district"
+      ],
+      "caveat": "حلبجة أصبحت محافظة في 2025؛ يلزم مصدر رسمي مؤرخ لمسارها الحالي.",
+      "entity_type": "iq_subdistrict",
+      "level": 3,
+      "local_names": [
+        "ناحية"
+      ],
+      "source_ids": [],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "pending"
+    }
+  ],
+  "next_action": "Register an atomic official hierarchy source and dated denominators before migrating local legacy rows.",
+  "official_authority": {
+    "missing_reason": "Authority name is recorded, but no atomic official hierarchy source has yet passed source metadata and snapshot review.",
+    "name": "وزارة التخطيط / الجهاز المركزي للإحصاء",
+    "source_ids": [],
+    "verification_status": "pending"
+  },
+  "schema_version": "1.0.0",
+  "snapshot": {
+    "as_of": "2026-08-15",
+    "snapshot_id": "SNP-MIGRATION-2026-08-15",
+    "status": "baseline"
+  },
+  "status": "baseline_only"
+}

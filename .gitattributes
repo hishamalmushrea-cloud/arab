@@ -1,0 +1,2 @@
+# Legacy CSV inputs retain their original CRLF convention; treat CR as part of EOL.
+قاعدة_بيانات_الأماكن/*.csv whitespace=cr-at-eol

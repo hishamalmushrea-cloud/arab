@@ -1,0 +1,125 @@
+{
+  "caveats": [
+    "محافظة كسروان-جبيل المنفذة حديثًا تغيّر المقام؛ يلزم snapshot رسمي موحد.",
+    "Local coverage remains incomplete; file or directory existence is not a denominator."
+  ],
+  "country": {
+    "entity_id": "ENT-LB-COUNTRY",
+    "iso2": "LB",
+    "name_ar": "لبنان"
+  },
+  "coverage_record_ids": [
+    "COV-LB-COUNTRY-SCOPE"
+  ],
+  "hierarchy": [
+    {
+      "allowed_parent_types": [],
+      "caveat": "Country scope only; not a local coverage assertion.",
+      "entity_type": "country",
+      "level": 0,
+      "local_names": [
+        "دولة"
+      ],
+      "source_ids": [
+        "SRC-ISO-3166-1-2020"
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "disputed",
+        "de_facto",
+        "claimed"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "country"
+      ],
+      "caveat": "محافظة كسروان-جبيل المنفذة حديثًا تغيّر المقام؛ يلزم snapshot رسمي موحد.",
+      "entity_type": "lb_governorate",
+      "level": 1,
+      "local_names": [
+        "محافظة"
+      ],
+      "source_ids": [],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "pending"
+    },
+    {
+      "allowed_parent_types": [
+        "lb_governorate"
+      ],
+      "caveat": "محافظة كسروان-جبيل المنفذة حديثًا تغيّر المقام؛ يلزم snapshot رسمي موحد.",
+      "entity_type": "lb_district",
+      "level": 2,
+      "local_names": [
+        "قضاء"
+      ],
+      "source_ids": [],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "pending"
+    },
+    {
+      "allowed_parent_types": [
+        "lb_district"
+      ],
+      "caveat": "محافظة كسروان-جبيل المنفذة حديثًا تغيّر المقام؛ يلزم snapshot رسمي موحد.",
+      "entity_type": "lb_municipality",
+      "level": 3,
+      "local_names": [
+        "بلدية"
+      ],
+      "source_ids": [],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "pending"
+    }
+  ],
+  "next_action": "Register an atomic official hierarchy source and dated denominators before migrating local legacy rows.",
+  "official_authority": {
+    "missing_reason": "Authority name is recorded, but no atomic official hierarchy source has yet passed source metadata and snapshot review.",
+    "name": "المديرية العامة للإدارات والمجالس المحلية / وزارة الداخلية والبلديات",
+    "source_ids": [],
+    "verification_status": "pending"
+  },
+  "schema_version": "1.0.0",
+  "snapshot": {
+    "as_of": "2026-08-15",
+    "snapshot_id": "SNP-MIGRATION-2026-08-15",
+    "status": "baseline"
+  },
+  "status": "baseline_only"
+}

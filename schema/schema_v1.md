@@ -1,0 +1,84 @@
+# مخطط البيانات المنظّمة — الإصدار 1.0.0
+
+هذا الدليل هو عقد المصدر المنظّم للمشروع. ملفات Markdown القديمة وملفات CSV القديمة موادّ مرجعية غير سلطوية؛ السجلات الفاعلة توجد تحت `data/`، والمخرجات تحت `generated/` تُبنى منها فقط.
+
+## 1. المبادئ الملزمة
+
+1. **الكيان شيء واحد:** المكان أو الوحدة الإدارية سجل `Entity` واحد، وتُحفظ أسماؤه الأخرى كسجلات `Alias`، لا ككيانات مكررة.
+2. **معرّف عالمي ثابت:** كل معرّف فاعل ASCII وغير قابل لإعادة الاستخدام. معرّفات الكيانات تبدأ `ENT-{ISO2}-`، وتُشتق المعرّفات الجديدة حتميًا من مفتاح هوية ثابت؛ تغيير الاسم الظاهر لا يغيّر المعرّف بعد اعتماده.
+3. **المصدر قبل السجل:** لا `Entity` بلا `canonical_source_id` صالح، ولا `Claim` أو `Relationship` بلا `source_id` صالح. لا تُعدّ عبارة اسم مؤسسة وحدها مصدرًا ببليوغرافيًا.
+4. **العلاقات صريحة:** التبعية في `Relationship`، لا في حقل نصّي حر. لكل كيان غير الدولة والدولة الأم علاقة `administrative_parent` فاعلة واحدة على الأكثر في اللقطة نفسها، إلا إذا وُسم التعارض صراحة.
+5. **الزمن والحالة منفصلان عن الاسم:** `status` و`valid_from` و`valid_to` يميزان الحالي والتاريخي والمدمّر والمهجّر والمتنازع عليه والفعلي والمُدّعى والمقترح. الشعبيات التاريخية مثلًا لا تدخل شجرة البلديات الليبية الحالية.
+6. **الادعاء معلومة قابلة للفحص:** السكان، الاشتقاق، الوصف الثقافي، التفرد، المقارنة، واللهجة `Claim` وليست جزءًا غير موثق من نص الكيان.
+7. **التغطية ليست وجود ملف:** كل نسبة تغطية تربط بلدًا وطبقة ومقامًا `Denominator` ولقطة مؤرخة ومصدرًا. لا يُسمح بـ`100%` من دون هذه العناصر.
+8. **الحجر لا الحذف:** كل صف قديم لم يُقبل يُنسخ إلى `data/quarantine/` مع السبب والموقع والتصرف. إصلاحات CSV مسجلة في `legacy_repairs.jsonl` وإصلاحات الروابط في `link_repairs.jsonl`، وقرار كل صف في `migration_ledger.jsonl`.
+9. **NFC وUTF-8:** كل النصوص UTF-8 ومطبّعة Unicode NFC. لا تُقبل محارف تحكم غير أسطر/تبويبات معتادة.
+10. **الإحداثيات اختيارية لا تخمينية:** عند وجودها تكون WGS84، خط العرض `[-90,90]` وخط الطول `[-180,180]`، ومعها مصدر.
+
+## 2. موضع المصدر السلطوي
+
+| النموذج | المسار |
+|---|---|
+| Entity | `data/entities/entities.jsonl` |
+| Alias | `data/aliases/aliases.jsonl` |
+| Relationship | `data/relationships/relationships.jsonl` |
+| Claim | `data/claims/claims.jsonl` |
+| Source | ملف JSON مستقل لكل مصدر في `data/sources/` |
+| Snapshot | `data/snapshots/snapshots.jsonl` |
+| Denominator | `data/coverage/denominators.jsonl` |
+| Coverage | `data/coverage/coverage.jsonl` |
+| Manifest | `manifests/{ISO2}.yml`؛ المحتوى JSON صالح أيضًا بوصفه YAML 1.2 |
+
+اختيار JSON داخل ملفات `.yml` مقصود حتى تعمل الأدوات بمكتبة Python القياسية بلا اعتماد على PyYAML.
+
+## 3. النماذج
+
+### Entity
+هوية مكان أو وحدة إدارية أو موقع أو شخص. الحقول الأساسية: `id`, `country_code`, `canonical_name`, `entity_type`, `status`, `canonical_source_id`, `source_locator`, `verification_status`, `confidence`. تحفظ `legacy_ids` الإحالات القديمة فقط. لا يحمل الكيان سكانًا أو وصفًا ثقافيًا؛ ترد هذه المعلومات في Claims ذرية. تبقى الأماكن المأهولة والوحدات الإدارية والمواقع والأشخاص كيانات منفصلة حتى عند تطابق الاسم أو الموقع.
+
+### Alias
+اسم آخر للكيان نفسه: عربي بديل، لاتيني، محلي، تاريخي، اختصار، أو اسم سابق. يحدد `language`, `script`, `kind`, `status`, `source_id` وفترة الصلاحية عند الحاجة.
+
+### Relationship
+صلة موجهة من `child_id` إلى `parent_id`. تشمل الأنواع `administrative_parent`, `located_in`, `associated_with`, و`boundary_intersects` إلى جانب الأنواع التاريخية/الوظيفية. العلاقات الإدارية الفاعلة وحدها تُفحص ضد مسارات البلد وضد الدورات. علاقة `boundary_intersects` دليل تقاطع لا والد إداري، وتحمل المصدر والمحدد والثقة والتحقق.
+
+### Source
+سجل ذري لمادة منشورة واحدة، لا قائمة مركبة. يتضمن العنوان، الناشر، نوع المصدر، الرابط، تاريخ النشر، تاريخ الاسترجاع، الرخصة، اللغة، النطاق الجغرافي، والمحدد الدقيق، ويصنّف `quality_tier` إلى A/B/C/D. القيمة غير المتاحة تُكتب مع سبب صريح ولا تُخمن.
+
+### Claim
+ثلاثية موضوع/محمول/قيمة مع مصدر ومحدد داخله. `value` ذو نوع صريح (`string`, `integer`, `number`, `boolean`, `date`, `json`). تبيّن الحقول `published`, `verification_status`, `confidence`, و`classification` حالة النشر والدليل. ادعاءات الطعام والملبس والعرف تستخدم تصنيفًا من `official`, `popular`, `shared`, `regional`, `historical`, `disputed`. الادعاءات الحساسة يجب أن تحمل `second_source_id` و`second_source_locator` لمصدر مستقل أو `status: disputed`. يحمل `lexical_context` حقول `form`, `meaning`, `place_id`, `language`, `dialect`, `variety`, `register`, `study_date`, `speaker_or_study`, و`ipa`؛ ولا تُدمج اللغة واللهجة والتنوع والسجل في حقل واحد.
+
+### Snapshot
+لقطة قابلة لإعادة الإنتاج: تاريخ الالتقاط، المصدر، النطاق، طريقة الالتقاط، وchecksum عند توافره. لا يعني تاريخ الاسترجاع أن زمن صلاحية المحتوى معروف.
+
+### Denominator وCoverage
+`Denominator` يعرّف المقام والطبقة والتاريخ والمصدر والرخصة وحالته (`official`, `conflicted`, `unavailable`, `provisional`). يحمل كل سجل طبقة صراحةً `layer`, `denominator`, `snapshot_date`, `source_id`, و`license`. ويسجل `Coverage` كذلك `matched`, `unmatched`, `excluded`, `exclusion_reasons`, `missing`, `missing_reason`, و`coverage_percentage`. الإكمال معرف حرفيًا بـ`matched + excluded = denominator`، ويجب أن يساوي مجموع أسباب الاستبعاد قيمة `excluded`. لا تُحسب النسبة عند غياب المقام، واكتمال طبقة مؤرخة لا يعني اكتمال البلد أو طبقة أخرى.
+
+## 4. المفردات المضبوطة
+
+القائمة القابلة للتنفيذ في `schema/vocabularies.json`، وشرح الأنواع في `schema/entity_types.md`. لا يجوز اختزال المصطلحات المحلية المختلفة في نوع عام اسمه «منطقة». النوع العام `administrative_area_unspecified` محظور في البيانات الفاعلة ومتاح للحجر فقط.
+
+## 5. صيغة JSONL
+
+كل سطر كائن JSON مستقل، بلا تعليقات وبـUTF-8. ترتّب المولّدات السجلات حسب `id` وتكتب مفاتيح مستقرة. ملفات JSON Schema في `schema/*.schema.json` تتبع Draft 2020-12، ويشغّل `scripts/validate.py` فاحصًا قياسيًا بلا اعتماد خارجي إلى جانب فحوص سلامة مترابطة لا يغطيها JSON Schema منفردًا.
+
+## 6. سياسة الادعاءات الثقافية واللهجية
+
+- لا تُرقّى فقرات وطنية إلى ملفات مكانية.
+- المادة الثقافية القديمة تبقى في الحجر حتى تتحول إلى ادعاءات مكانية ذات مصدر ومحدد.
+- لا تُقبل كلمات مثل «الوحيد/الأقدم/الأكبر/الأوسع/وطني» كحقيقة إلا بمصدر يقارن مجالًا محددًا ومقام مقارنة وتاريخًا.
+- الادعاء المتنازع عليه لا يُسوّى بالدمج؛ تحفظ الروايات كسجلات مستقلة بالحالة والمصادر.
+
+## 7. التحقق والتوليد
+
+```bash
+python3 scripts/validate.py
+python3 scripts/generate.py --check
+python3 scripts/check_phase_gate.py phase0
+python3 scripts/check_phase_gate.py phase1
+python3 scripts/import_tunisia_phase2.py
+python3 scripts/review_tunisia.py
+python3 scripts/check_phase_gate.py phase2
+```
+
+يشمل التحقق: بنية schemas، السجلات، المعرّفات، المراجع، الوالد الحقيقي، الدورات، الأيتام، البلد، مسار hierarchy، CSV malformed، Unicode، الروابط المحلية، المصادر، الادعاءات، جودة A/B، سياسة الادعاءات الحساسة، أنواع الكيانات، الإحداثيات، التكرار المركب، الأسماء البديلة، حساب الاستبعادات والتغطية، وعينة تونس المستقلة. ينفذ CI الأوامر نفسها لكل push وpull request.

@@ -1,0 +1,175 @@
+{
+  "caveats": [
+    "All complete percentages are limited to the named dated denominator and source.",
+    "Municipality coordinates and boundary intersections are approximate Tier C research evidence.",
+    "Populated places and cultural domains are bounded sourced pilots with no national denominator."
+  ],
+  "country": {
+    "entity_id": "ENT-TN-COUNTRY",
+    "iso2": "TN",
+    "name_ar": "تونس"
+  },
+  "coverage_record_ids": [
+    "COV-TN-COUNTRY-SCOPE",
+    "COV-TN-GOVERNORATES",
+    "COV-TN-DELEGATIONS",
+    "COV-TN-IMADAS",
+    "COV-TN-MUNICIPALITIES-2024",
+    "COV-TN-WORLD-HERITAGE-2026",
+    "COV-TN-CITIES",
+    "COV-TN-POPULATED-PLACES"
+  ],
+  "hierarchy": [
+    {
+      "allowed_parent_types": [],
+      "caveat": "Country scope only.",
+      "entity_type": "country",
+      "level": 0,
+      "local_names": [
+        "دولة"
+      ],
+      "source_ids": [
+        "SRC-ISO-3166-1-2020"
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "country"
+      ],
+      "caveat": "Dated COD-AB v01 layer valid from 2022-11-15.",
+      "entity_type": "tn_governorate",
+      "level": 1,
+      "local_names": [
+        "ولاية"
+      ],
+      "source_ids": [
+        "SRC-TN-HDX-CODAB-2022"
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "tn_governorate"
+      ],
+      "caveat": "Dated 264-row layer; no claim about later delegation counts.",
+      "entity_type": "tn_delegation",
+      "level": 2,
+      "local_names": [
+        "معتمدية"
+      ],
+      "source_ids": [
+        "SRC-TN-HDX-CODAB-2022"
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "tn_delegation"
+      ],
+      "caveat": "Dated 2,084-row reusable institutional layer; no claim that it is the current 2026 register.",
+      "entity_type": "tn_imada",
+      "level": 3,
+      "local_names": [
+        "عمادة",
+        "قطاع ترابي"
+      ],
+      "source_ids": [
+        "SRC-TN-HDX-CODAB-2022"
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "tn_governorate"
+      ],
+      "caveat": "Municipalities overlap delegations; boundary_intersects is used instead of a false singular delegation parent.",
+      "entity_type": "tn_municipality",
+      "level": 3,
+      "local_names": [
+        "بلدية"
+      ],
+      "source_ids": [
+        "SRC-TN-DGCL-MUNICIPALITIES-2024"
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "next_action": "Hold expansion outside Tunisia until the Phase 2 Tunisia gate is independently reviewed and accepted.",
+  "official_authority": {
+    "missing_reason": null,
+    "name": "المعهد الوطني للإحصاء / بوابة الجماعات المحلية / OCHA HDX",
+    "source_ids": [
+      "SRC-TN-HDX-CODAB-2022",
+      "SRC-TN-DGCL-MUNICIPALITIES-2024"
+    ],
+    "verification_status": "verified"
+  },
+  "schema_version": "1.0.0",
+  "snapshot": {
+    "as_of": "2026-08-15",
+    "snapshot_id": "SNP-TN-CODAB-2022-11-15",
+    "status": "verified"
+  },
+  "status": "pilot_migrated"
+}
