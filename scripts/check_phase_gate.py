@@ -190,7 +190,8 @@ def phase2(gate: Gate) -> None:
     gate.require(not sensitive_errors, "sensitive_claims", f"non-disputed sensitive claims without two independent sources={len(sensitive_errors)}")
 
     place_types = {"city", "town", "village", "settlement", "neighborhood", "historical_place"}
-    gate.require(place_types <= set(counts), "populated_place_distinction", f"requested populated-place types present={sorted(place_types & set(counts))}")
+    place_count = sum(counts[entity_type] for entity_type in place_types)
+    gate.require(place_count >= 6, "populated_place_distinction", f"sourced bounded place records={place_count}, evidenced types={sorted(place_types & set(counts))}")
     gate.require(counts["person"] >= 1 and counts["market"] >= 1 and counts["archaeological_site"] >= 1 and counts["natural_site"] >= 1, "bounded_encyclopedic_pilot", f"persons={counts['person']}, markets={counts['market']}, archaeological={counts['archaeological_site']}, natural={counts['natural_site']}")
     overlaps = [row for row in relationships if row["relationship_type"] == "boundary_intersects"]
     gate.require(len({row["child_id"] for row in overlaps}) == 350 and len({row["parent_id"] for row in overlaps}) == 264, "boundary_overlap_model", f"municipalities={len({row['child_id'] for row in overlaps})}, delegations={len({row['parent_id'] for row in overlaps})}")

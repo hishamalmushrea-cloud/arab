@@ -20,18 +20,18 @@
     },
     {
       "claim_ids": [
-        "CLM-B30B96F710CC5B9C"
+        "CLM-218592D2ADE750E3"
       ],
       "domain": "custom",
-      "notes": "Localized only to the sourced municipality.",
+      "notes": "Attached to the sourced island-group/community geography, not a legal municipality.",
       "status": "documented"
     },
     {
       "claim_ids": [
-        "CLM-C2036CA2AB05590E"
+        "CLM-F5C0A68D79925284"
       ],
       "domain": "craft",
-      "notes": "Localized only to the sourced municipality.",
+      "notes": "Attached to the sourced village/community, not municipal boundaries.",
       "status": "documented"
     },
     {

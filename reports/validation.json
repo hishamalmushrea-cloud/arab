@@ -1,17 +1,17 @@
 {
   "checks": {
     "aliases": {
-      "aliases": 2779,
+      "aliases": 2782,
       "duplicate_aliases": 0,
       "status": "pass"
     },
     "claims": {
-      "claims": 68,
-      "sourced": 68,
+      "claims": 69,
+      "sourced": 69,
       "status": "pass"
     },
     "coordinates": {
-      "coordinate_records": 2739,
+      "coordinate_records": 2734,
       "status": "pass"
     },
     "country_mismatch": {
@@ -41,7 +41,7 @@
       "status": "pass"
     },
     "entity_types": {
-      "active_types": 19,
+      "active_types": 16,
       "allowed_types": 91,
       "status": "pass"
     },
@@ -51,7 +51,7 @@
     },
     "ids": {
       "duplicate_ids": 0,
-      "global_ids": 9055,
+      "global_ids": 9063,
       "status": "pass"
     },
     "independent_review": {
@@ -89,8 +89,8 @@
     "phase2_tunisia": {
       "boundary_intersections": 388,
       "persons": 1,
-      "populated_place_types": 6,
-      "sites": 11,
+      "populated_place_types": 3,
+      "sites": 13,
       "status": "pass",
       "tn_delegation": 264,
       "tn_governorate": 24,
@@ -102,20 +102,20 @@
       "status": "pass"
     },
     "source_quality": {
-      "ab_claims": 68,
+      "ab_claims": 69,
       "ab_ratio": 100.0,
       "status": "pass",
-      "tunisia_published_claims": 68
+      "tunisia_published_claims": 69
     },
     "sources": {
       "atomic_files": 16,
-      "references": 11778,
+      "references": 11781,
       "sources": 16,
       "status": "pass"
     },
     "structured_data": {
       "record_families": 8,
-      "records": 9055,
+      "records": 9063,
       "status": "pass"
     },
     "unicode": {
@@ -124,13 +124,13 @@
     }
   },
   "counts": {
-    "aliases": 2779,
-    "claims": 68,
+    "aliases": 2782,
+    "claims": 69,
     "coverage": 32,
     "denominators": 32,
-    "entities": 2877,
+    "entities": 2879,
     "manifests": 22,
-    "relationships": 3243,
+    "relationships": 3245,
     "snapshots": 8,
     "sources": 16
   },

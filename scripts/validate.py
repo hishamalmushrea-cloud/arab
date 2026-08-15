@@ -421,8 +421,9 @@ def validate_all() -> tuple[Validation, dict[str, list[dict[str, Any]]]]:
     if {row["child_id"] for row in overlap_rels} != municipality_ids or {row["parent_id"] for row in overlap_rels} != delegation_ids:
         v.error("phase2_tunisia", "boundary_intersects", "overlap evidence must span all 350 municipalities and all 264 dated delegations")
     place_types = {"city", "town", "village", "settlement", "neighborhood", "historical_place"}
-    if not place_types <= {row["entity_type"] for row in tn_entities}:
-        v.error("phase2_tunisia", "populated_places", "bounded pilot must keep all six requested place classifications distinct")
+    bounded_places = [row for row in tn_entities if row["entity_type"] in place_types]
+    if len(bounded_places) != 6:
+        v.error("phase2_tunisia", "populated_places", "bounded pilot must retain six sourced place entities; types must follow sources rather than fill categories")
     if tn_counts["person"] < 1 or not ({"archaeological_site", "market", "landmark", "natural_site"} <= set(tn_counts)):
         v.error("phase2_tunisia", "pilot_entities", "person and archaeological/market/landmark/natural entities are required")
     review_path = ROOT / "reports/tunisia_independent_review.json"

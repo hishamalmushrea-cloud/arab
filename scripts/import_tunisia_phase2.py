@@ -191,13 +191,14 @@ def build_core(municipalities: list[dict[str, str]], admin: list[dict[str, str]]
 
 
 PLACE_ROWS = [
-    # id, Arabic, type, English, French, containing municipality/governorate, source locator, coordinates
-    ("ENT-TN-CITY-CARTHAGE", "قرطاج", "city", "Carthage", "Carthage", "ENT-TN-MUNICIPALITY-1115", "Around Carthage and Sidi Bou Said: modern Carthage described as a fashionable city", (36.8528, 10.3233)),
-    ("ENT-TN-TOWN-SOUSSE", "سوسة", "town", "Sousse", "Sousse", "ENT-TN-MUNICIPALITY-3111", "World Heritage property 498: Medina of Sousse, present town context", (35.8278, 10.6386)),
-    ("ENT-TN-VILLAGE-SIDI-BOU-SAID", "سيدي بوسعيد", "village", "Sidi Bou Said", "Sidi Bou Saïd", "ENT-TN-MUNICIPALITY-1116", "World Heritage property 1732: Village of Sidi Bou Saïd", (36.8700, 10.3470)),
-    ("ENT-TN-SETTLEMENT-EL-JEM", "الجم", "settlement", "El Jem", "El Jem", "ENT-TN-MUNICIPALITY-3318", "World Heritage property 38: small settlement of El Jem", (35.2964, 10.7069)),
-    ("ENT-TN-NEIGHBORHOOD-MAGON", "حي ماغون", "neighborhood", "Magon Quarter", "Quartier Magon", "ENT-TN-MUNICIPALITY-1115", "Around Carthage and Sidi Bou Said: Magon quarter within Carthage", (36.8470, 10.3280)),
-    ("ENT-TN-HISTORICAL-PLACE-KERKUANE", "كركوان", "historical_place", "Kerkuane", "Kerkouane", "ENT-TN-GOVERNORATE-EA30E853F598", "World Heritage property 332: Punic Town of Kerkuane", (36.9464, 11.0992)),
+    # id, Arabic, type, English, French, container, source, source locator, optional coordinates
+    ("ENT-TN-CITY-CARTHAGE", "قرطاج", "city", "Carthage", "Carthage", "ENT-TN-MUNICIPALITY-1115", ONTT, "Around Carthage and Sidi Bou Said: modern Carthage described as a fashionable city", None),
+    ("ENT-TN-CITY-SOUSSE", "سوسة", "city", "Sousse", "Sousse", "ENT-TN-MUNICIPALITY-3111", ONTT, "Around Sousse and Port El Kantaoui: Sousse is Tunisia's third biggest city", None),
+    ("ENT-TN-VILLAGE-SIDI-BOU-SAID", "سيدي بوسعيد", "village", "Sidi Bou Said", "Sidi Bou Saïd", "ENT-TN-MUNICIPALITY-1116", UNESCO_WHC, "World Heritage property 1769: Village of Sidi Bou Saïd", (36.871028, 10.348639)),
+    ("ENT-TN-VILLAGE-EL-JEM", "الجم", "village", "El Jem", "El Jem", "ENT-TN-MUNICIPALITY-3318", UNESCO_WHC, "World Heritage property 38: small village of El Jem", None),
+    ("ENT-TN-SITE-MAGON", "حي ماغون الأثري", "archaeological_site", "Magon archaeological quarter", "Quartier archéologique Magon", "ENT-TN-SITE-CARTHAGE", ONTT, "Around Carthage and Sidi Bou Said: remains of the Magon quarter", None),
+    ("ENT-TN-HISTORICAL-PLACE-KERKUANE", "كركوان", "historical_place", "Kerkuane", "Kerkouane", "ENT-TN-GOVERNORATE-EA30E853F598", UNESCO_WHC, "World Heritage property 332: Punic Town of Kerkuane", (36.9464, 11.0992)),
+    ("ENT-TN-VILLAGE-SEJNANE", "سجنان", "village", "Sejnane", "Sejnane", "ENT-TN-GOVERNORATE-B1787F907937", UNESCO_ICH, "ICH element 01406: the village of Sejnane", None),
 ]
 
 SITE_ROWS = [
@@ -211,7 +212,7 @@ SITE_ROWS = [
     ("ENT-TN-SITE-MEDINA-SOUSSE", "مدينة سوسة العتيقة", "cultural_site", "Medina of Sousse", "Médina de Sousse", "ENT-TN-MUNICIPALITY-3111", (35.8278, 10.6386), "Early Islamic coastal town, particularly 9th century", "Fortified medina fabric and monuments", "UNESCO World Heritage property, inscribed 1988", "World Heritage property 498"),
     ("ENT-TN-SITE-DOUGGA", "دقّة", "archaeological_site", "Dougga / Thugga", "Dougga / Thugga", "ENT-TN-MUNICIPALITY-2115", (36.4236, 9.2203), "Numidian settlement and Romanized town", "Extensive archaeological ruins retaining urban components", "UNESCO World Heritage property, inscribed 1997; protected under national heritage law", "World Heritage property 794 and maps"),
     ("ENT-TN-SITE-DJERBA", "جربة: شاهد على نمط تعمير", "cultural_site", "Djerba: Testimony to a settlement pattern in an island territory", "Djerba : témoignage d’un mode d’occupation d’un territoire insulaire", "ENT-TN-GOVERNORATE-902616FE3988", (33.8070, 10.8500), "Island settlement pattern documented from around the 9th century", "Dispersed island cultural landscape", "UNESCO World Heritage property, inscribed 2023", "World Heritage property 1640"),
-    ("ENT-TN-SITE-SIDI-BOU-SAID", "قرية سيدي بوسعيد", "cultural_site", "Village of Sidi Bou Saïd", "Village de Sidi Bou Saïd", "ENT-TN-MUNICIPALITY-1116", (36.8700, 10.3470), "Stratified settlement history including ancient and later Mediterranean periods", "Living cliff-top village and cultural landscape", "UNESCO World Heritage property, inscribed 2026", "World Heritage property 1732"),
+    ("ENT-TN-SITE-SIDI-BOU-SAID", "قرية سيدي بوسعيد", "cultural_site", "Village of Sidi Bou Saïd", "Village de Sidi Bou Saïd", "ENT-TN-MUNICIPALITY-1116", (36.871028, 10.348639), "Settlement developed around the tomb of the Sufi master Sidi Bou Said in the 13th century", "Picturesque cliff-top village whose architecture and urban planning integrate with its natural environment", "UNESCO World Heritage property, inscribed 2026", "World Heritage property 1769"),
 ]
 
 
@@ -220,11 +221,14 @@ def build_pilot() -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict
     aliases: list[dict[str, Any]] = []
     rels: list[dict[str, Any]] = []
     claims: list[dict[str, Any]] = []
-    for identifier, ar, place_type, en, fr, container, locator, point in PLACE_ROWS:
-        source = UNESCO_WHC if "World Heritage" in locator else ONTT
+    for identifier, ar, place_type, en, fr, container, source, locator, point in PLACE_ROWS:
+        coordinates = ({"latitude": point[0], "longitude": point[1], "source_id": source}
+                       if point is not None else None)
+        notes = ("Bounded populated-place pilot entity; not an administrative entity."
+                 if place_type in {"city", "town", "village", "settlement", "neighborhood", "historical_place"}
+                 else "Bounded archaeological entity; not a current neighborhood or administrative entity.")
         entities.append(entity(identifier, ar, place_type, source, locator,
-                               coordinates={"latitude": point[0], "longitude": point[1], "source_id": source},
-                               notes="Populated-place pilot entity; not an administrative entity."))
+                               coordinates=coordinates, notes=notes))
         aliases.append(alias(identifier, en, "en", source, locator, kind="english"))
         if fr != en:
             aliases.append(alias(identifier, fr, "fr", source, locator, kind="official_variant"))
@@ -248,8 +252,8 @@ def build_pilot() -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict
     market = "ENT-TN-MARKET-MEDINA-CENTRAL-SOUKS"
     market_locator = "Around Tunis: central souks of the medina; Souk Medina attraction page"
     entities.append(entity(market, "أسواق مدينة تونس المركزية", "market", ONTT, market_locator,
-                           coordinates={"latitude": 36.7987, "longitude": 10.1714, "source_id": ONTT},
-                           notes="Bounded market entity, not a municipality or neighborhood."))
+                           coordinates=None,
+                           notes="Bounded market entity, not a municipality or neighborhood; no coordinate is published without a source locator for the point."))
     aliases.extend([
         alias(market, "Central Souks of the Medina of Tunis", "en", ONTT, market_locator, kind="english"),
         alias(market, "Souks centraux de la médina de Tunis", "fr", ONTT, market_locator, kind="official_variant"),
@@ -262,7 +266,7 @@ def build_pilot() -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict
     ])
 
     person = "ENT-TN-PERSON-IBN-KHALDUN"
-    person_locator = "African Voices biographical passage: born in Tunis in 1332"
+    person_locator = "UNESCO Courier, 1986-01, pp. 17–18; p. 17: Tunisian historian born in 1332"
     entities.append(entity(person, "ابن خلدون", "person", IBN_SOURCE, person_locator, status="historical",
                            notes="Person entity with an explicitly sourced Tunis connection."))
     aliases.extend([
@@ -272,14 +276,25 @@ def build_pilot() -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict
     rels.append(relationship(person, "ENT-TN-MUNICIPALITY-1111", "associated_with", IBN_SOURCE, person_locator, status="historical"))
     claims.extend([
         claim(person, "place_connection", "Born in Tunis in 1332", IBN_SOURCE, person_locator, classification="historical"),
-        claim(person, "significance", "Historian and author whose work developed a major analysis of society and history", IBN_SOURCE, "African Voices: Ibn Khaldun profile", classification="historical"),
+        claim(person, "significance", "Historian and author whose work developed a major analysis of society and history", IBN_SOURCE, "UNESCO Courier, 1986-01, p. 17: principal work and theory of society and history", classification="historical"),
     ])
 
+    kerkennah = "ENT-TN-NATURAL-SITE-KERKENNAH-ISLANDS"
+    kerkennah_locator = "ICH element 01566: Kerkennah Islands and the entire local community"
+    entities.append(entity(kerkennah, "جزر قرقنة", "natural_site", UNESCO_ICH, kerkennah_locator,
+                           coordinates=None,
+                           notes="Geographic island-group scope for the sourced practice; not a legal municipality."))
+    aliases.extend([
+        alias(kerkennah, "Kerkennah Islands", "en", UNESCO_ICH, kerkennah_locator, kind="english"),
+        alias(kerkennah, "Îles Kerkennah", "fr", UNESCO_ICH, kerkennah_locator, kind="official_variant"),
+    ])
+    rels.append(relationship(kerkennah, COUNTRY, "located_in", UNESCO_ICH, kerkennah_locator))
+
     claims.extend([
-        claim("ENT-TN-MUNICIPALITY-1712", "craft_practice", "Pottery skills of the women of Sejnane", UNESCO_ICH,
-              "ICH element 01406: community in Sejnane", classification="regional"),
-        claim("ENT-TN-MUNICIPALITY-3426", "custom_practice", "Charfia fishing in the Kerkennah Islands", UNESCO_ICH,
-              "ICH element 01566: Kerkennah Islands", classification="regional"),
+        claim("ENT-TN-VILLAGE-SEJNANE", "craft_practice", "Pottery skills of the women of Sejnane", UNESCO_ICH,
+              "ICH element 01406: women from the Sejnane community and village", classification="regional"),
+        claim(kerkennah, "custom_practice", "Charfia fishing in the Kerkennah Islands", UNESCO_ICH,
+              kerkennah_locator, classification="regional"),
         claim(COUNTRY, "food_practice", "Harissa knowledge, skills and culinary and social practices", UNESCO_ICH,
               "ICH element 01710: Tunisia", classification="popular"),
     ])
@@ -305,8 +320,8 @@ def coverage_records() -> tuple[list[dict[str, Any]], list[dict[str, Any]], list
         ("IMADAS", "imadas", 2084, "2022-11-15", INSTITUTIONAL_ADMIN, "Creative Commons Attribution 3.0 IGO", "Imadas/sectors in COD-AB v01 valid from 2022-11-15", "SNP-TN-CODAB-2022-11-15", 2084, None),
         ("MUNICIPALITIES-2024", "municipalities", 350, "2024-01-01", OFFICIAL_MUNICIPALITIES, "Resource-specific license not stated; factual register transcription only", "Coded municipalities in the January 2024 official register", "SNP-TN-MUNICIPALITIES-2024-01", 350, None),
         ("WORLD-HERITAGE-2026", "world_heritage_properties", 10, AS_OF, UNESCO_WHC, "CC BY-SA 3.0 IGO for property descriptions", "World Heritage properties on UNESCO's Tunisia State Party list", "SNP-TN-UNESCO-WHC-2026-08-15", 10, None),
-        ("CITIES", "cities", None, AS_OF, ONTT, "Copyright ONTT; factual extraction only", "National register of places explicitly classified as cities", "SNP-MIGRATION-2026-08-15", 1, "No dated official national city denominator was found; one sourced city is a bounded pilot and no completion is claimed."),
-        ("POPULATED-PLACES", "populated_places", None, AS_OF, ONTT, "Copyright ONTT; factual extraction only", "National register of cities, towns, villages, settlements, neighborhoods, and historical places", "SNP-MIGRATION-2026-08-15", 6, "No dated official national populated-place denominator was found; six distinct types form a bounded sourced pilot only."),
+        ("CITIES", "cities", None, AS_OF, ONTT, "Copyright ONTT; factual extraction only", "National register of places explicitly classified as cities", "SNP-MIGRATION-2026-08-15", 2, "No dated official national city denominator was found; two sourced cities are a bounded pilot and no completion is claimed."),
+        ("POPULATED-PLACES", "populated_places", None, AS_OF, ONTT, "Copyright ONTT; factual extraction only", "National register of cities, towns, villages, settlements, neighborhoods, and historical places", "SNP-MIGRATION-2026-08-15", 6, "No dated official national populated-place denominator was found; six sourced populated or historical places form a bounded pilot only."),
     ]
     for suffix, layer, value, date, source, license_text, definition, snapshot, matched, reason in definitions:
         did = f"DEN-TN-{suffix}"
@@ -403,8 +418,8 @@ def write_domain_status() -> None:
         "domains": [
             {"domain": "food", "status": "documented", "claim_ids": [record_id("CLM", COUNTRY, "food_practice", json.dumps("Harissa knowledge, skills and culinary and social practices", ensure_ascii=False, sort_keys=True))], "notes": "National claim only; not copied to localities."},
             {"domain": "clothing", "status": "documented", "claim_ids": [record_id("CLM", "ENT-TN-MARKET-MEDINA-CENTRAL-SOUKS", "traditional_clothing_goods", json.dumps("Traditional clothing and chechias are among the goods described in the souks", ensure_ascii=False, sort_keys=True))], "notes": "Market-goods claim only."},
-            {"domain": "custom", "status": "documented", "claim_ids": [record_id("CLM", "ENT-TN-MUNICIPALITY-3426", "custom_practice", json.dumps("Charfia fishing in the Kerkennah Islands", ensure_ascii=False, sort_keys=True))], "notes": "Localized only to the sourced municipality."},
-            {"domain": "craft", "status": "documented", "claim_ids": [record_id("CLM", "ENT-TN-MUNICIPALITY-1712", "craft_practice", json.dumps("Pottery skills of the women of Sejnane", ensure_ascii=False, sort_keys=True))], "notes": "Localized only to the sourced municipality."},
+            {"domain": "custom", "status": "documented", "claim_ids": [record_id("CLM", "ENT-TN-NATURAL-SITE-KERKENNAH-ISLANDS", "custom_practice", json.dumps("Charfia fishing in the Kerkennah Islands", ensure_ascii=False, sort_keys=True))], "notes": "Attached to the sourced island-group/community geography, not a legal municipality."},
+            {"domain": "craft", "status": "documented", "claim_ids": [record_id("CLM", "ENT-TN-VILLAGE-SEJNANE", "craft_practice", json.dumps("Pottery skills of the women of Sejnane", ensure_ascii=False, sort_keys=True))], "notes": "Attached to the sourced village/community, not municipal boundaries."},
             {"domain": "lexical", "status": "not_found", "claim_ids": [], "notes": "No Phase 2-ready A/B source with form, meaning, place, register, date, and study/speaker metadata was identified in the bounded review; no lexical claim is published."},
             {"domain": "dialect", "status": "not_documented", "claim_ids": [], "notes": "Language, dialect, variety, and register remain distinct schema fields; no locality claim is inferred."},
             {"domain": "exclusive_local_practices", "status": "N/A", "claim_ids": [], "notes": "No comparative evidence was reviewed, so no exclusivity claim is in scope."},
@@ -416,6 +431,8 @@ def main() -> None:
     municipalities, admin, overlaps = verify_inputs()
     country_rows = [r for r in read_jsonl(ENTITY_PATH) if r["id"] == COUNTRY]
     assert len(country_rows) == 1
+    country_rows[0]["verification_status"] = "verified"
+    country_rows[0]["confidence"] = "high"
     core_e, core_a, core_r = build_core(municipalities, admin, overlaps)
     pilot_e, pilot_a, pilot_r, pilot_c = build_pilot()
 

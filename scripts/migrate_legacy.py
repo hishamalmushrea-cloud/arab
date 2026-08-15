@@ -105,19 +105,19 @@ def source_records() -> list[dict[str, Any]]:
         {
             "id": SRC_TN_POPULATION,
             "schema_version": SCHEMA_VERSION,
-            "title": "Recensement Général de la Population et de l'Habitat 2014 — Principaux indicateurs",
+            "title": "Recensement Général de la Population et de l'Habitat 2014 — Volume 3",
             "publisher": "Institut National de la Statistique, Tunisie",
             "source_type": "census",
-            "url": "https://www.ins.tn/sites/default/files/publication/pdf/RGPH%202014-V0.pdf",
+            "url": "https://www.ins.tn/sites/default/files-ftp1/files/publication/pdf/RGPH%202014-V3.pdf",
             "archive_url": None,
-            "publication_date": "2015-04",
+            "publication_date": "2016",
             "retrieved_at": AS_OF,
             "license": "License not stated in the publication metadata",
             "language": "fr-ar",
             "country_codes": ["TN"],
-            "locator": "Governorate population tables from the 2014 census",
+            "locator": "Volume 3, PDF page 47: exact population table by governorate",
             "checksum": None,
-            "notes": "Used only for the 24 governorate population claims dated 2014.",
+            "notes": "Volume 3 supplies exact values. Volume 0 is rounded and must not be used for exact governorate claims.",
         },
         {
             "id": SRC_TN_MUNICIPALITIES,
@@ -211,11 +211,14 @@ def install_sources() -> list[dict[str, Any]]:
     records = source_records()
     out = DATA / "sources"
     out.mkdir(parents=True, exist_ok=True)
-    for old in out.glob("*.json"):
-        old.unlink()
+    # Install only missing legacy records. Atomic source files are curated
+    # structured inputs and may contain later independent metadata corrections;
+    # a repair must not erase those corrections or Phase-specific records.
     for source in records:
         slug = source["id"].lower().replace("src-", "")
-        write_json(out / f"{slug}.json", source)
+        path = out / f"{slug}.json"
+        if not path.exists():
+            write_json(path, source)
     return records
 
 
@@ -255,6 +258,8 @@ def base_entity(iso: str, name: str, entity_type: str, source_id: str, locator: 
         "source_locator": locator,
         "legacy_ids": sorted(set(legacy_ids or [])),
         "coordinates": None,
+        "verification_status": "verified",
+        "confidence": "high",
         "notes": notes,
     }
 
@@ -271,6 +276,8 @@ def relation(child: dict[str, Any], parent: dict[str, Any], source_id: str, loca
         "valid_to": valid_to,
         "source_id": source_id,
         "source_locator": locator,
+        "verification_status": "verified",
+        "confidence": "high",
         "notes": notes,
     }
 
@@ -363,12 +370,19 @@ def migrate() -> dict[str, Any]:
 
         population = scalar(row.get("السكان"))
         if population and population.isdigit():
+            # Three legacy rows reproduce rounded/incorrect values. Volume 3, PDF
+            # page 47 is the exact table and is authoritative for all 24 claims.
+            exact_population = {
+                "سوسة": "674818",
+                "نابل": "787918",
+                "القيروان": "570436",
+            }.get(name, population)
             claims.append({
-                "id": record_id("CLM", entity["id"], "population", "2014", population),
+                "id": record_id("CLM", entity["id"], "population", "2014", exact_population),
                 "schema_version": SCHEMA_VERSION,
                 "subject_id": entity["id"],
                 "predicate": "population",
-                "value": {"type": "integer", "data": int(population)},
+                "value": {"type": "integer", "data": int(exact_population)},
                 "unit": "person",
                 "status": "verified",
                 "observed_at": "2014-04-23",
@@ -376,9 +390,9 @@ def migrate() -> dict[str, Any]:
                 "valid_to": None,
                 "source_id": SRC_TN_POPULATION,
                 "second_source_id": None,
-                "source_locator": f"Governorate table: {name}",
+                "source_locator": f"Volume 3, PDF p. 47, governorate row: {name}",
                 "sensitivity": "ordinary",
-                "notes": "2014 census value migrated from the legacy row and tied to the official census publication.",
+                "notes": "Exact 2014 governorate total from INS RGPH Volume 3, PDF page 47.",
             })
 
     tn_delegation: dict[tuple[str, str], dict[str, Any]] = {}
@@ -563,9 +577,9 @@ def migrate() -> dict[str, Any]:
             "captured_at": "2014-04-23",
             "source_id": SRC_TN_POPULATION,
             "scope": "24 governorate population values",
-            "method": "Values tied to census year and official publication",
+            "method": "Exact values transcribed from INS RGPH Volume 3, PDF page 47; legacy rounded mismatches are corrected deterministically",
             "checksum": None,
-            "notes": None,
+            "notes": "Volume 0 is a rounded summary and is not evidence for exact values.",
         },
         {
             "id": SNAPSHOT_LY_CURRENT,

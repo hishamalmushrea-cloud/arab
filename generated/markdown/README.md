@@ -15,7 +15,7 @@
 | KW | الكويت | 1 | 0 | [KW](countries/KW.md) |
 | MA | المغرب | 1 | 0 | [MA](countries/MA.md) |
 | YE | اليمن | 1 | 0 | [YE](countries/YE.md) |
-| TN | تونس | 2741 | 68 | [TN](countries/TN.md) |
+| TN | تونس | 2743 | 69 | [TN](countries/TN.md) |
 | KM | جزر القمر | 1 | 0 | [KM](countries/KM.md) |
 | DJ | جيبوتي | 1 | 0 | [DJ](countries/DJ.md) |
 | SY | سوريا | 1 | 0 | [SY](countries/SY.md) |

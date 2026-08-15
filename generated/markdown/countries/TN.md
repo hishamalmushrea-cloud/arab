@@ -8,13 +8,13 @@
 
 | الطبقة | تعريف المقام | المقام | مطابق | غير مطابق | مستبعد | مفقود | النسبة | تاريخ اللقطة | اللقطة | المصدر | الترخيص | مكتمل | سبب النقص |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| cities | National register of places explicitly classified as cities | — | 1 | 0 | 0 | — | — | 2026-08-15 | SNP-MIGRATION-2026-08-15 | SRC-TN-ONTT-PLACES-2018 | Copyright ONTT; factual extraction only | لا | No dated official national city denominator was found; one sourced city is a bounded pilot and no completion is claimed. |
+| cities | National register of places explicitly classified as cities | — | 2 | 0 | 0 | — | — | 2026-08-15 | SNP-MIGRATION-2026-08-15 | SRC-TN-ONTT-PLACES-2018 | Copyright ONTT; factual extraction only | لا | No dated official national city denominator was found; two sourced cities are a bounded pilot and no completion is claimed. |
 | country_scope | ISO country entity in the project's 22-country scope | 1 | 1 | 0 | 0 | 0 | 100% | 2026-08-15 | SNP-MIGRATION-2026-08-15 | SRC-ISO-3166-1-2020 | ISO copyright; reuse is subject to ISO terms of use | نعم | — |
 | delegations | Delegations in COD-AB v01 valid from 2022-11-15 | 264 | 264 | 0 | 0 | 0 | 100% | 2022-11-15 | SNP-TN-CODAB-2022-11-15 | SRC-TN-HDX-CODAB-2022 | Creative Commons Attribution 3.0 IGO | نعم | — |
 | governorates | Governorates in COD-AB v01 valid from 2022-11-15 | 24 | 24 | 0 | 0 | 0 | 100% | 2022-11-15 | SNP-TN-CODAB-2022-11-15 | SRC-TN-HDX-CODAB-2022 | Creative Commons Attribution 3.0 IGO | نعم | — |
 | imadas | Imadas/sectors in COD-AB v01 valid from 2022-11-15 | 2084 | 2084 | 0 | 0 | 0 | 100% | 2022-11-15 | SNP-TN-CODAB-2022-11-15 | SRC-TN-HDX-CODAB-2022 | Creative Commons Attribution 3.0 IGO | نعم | — |
 | municipalities | Coded municipalities in the January 2024 official register | 350 | 350 | 0 | 0 | 0 | 100% | 2024-01-01 | SNP-TN-MUNICIPALITIES-2024-01 | SRC-TN-DGCL-MUNICIPALITIES-2024 | Resource-specific license not stated; factual register transcription only | نعم | — |
-| populated_places | National register of cities, towns, villages, settlements, neighborhoods, and historical places | — | 6 | 0 | 0 | — | — | 2026-08-15 | SNP-MIGRATION-2026-08-15 | SRC-TN-ONTT-PLACES-2018 | Copyright ONTT; factual extraction only | لا | No dated official national populated-place denominator was found; six distinct types form a bounded sourced pilot only. |
+| populated_places | National register of cities, towns, villages, settlements, neighborhoods, and historical places | — | 6 | 0 | 0 | — | — | 2026-08-15 | SNP-MIGRATION-2026-08-15 | SRC-TN-ONTT-PLACES-2018 | Copyright ONTT; factual extraction only | لا | No dated official national populated-place denominator was found; six sourced populated or historical places form a bounded pilot only. |
 | world_heritage_properties | World Heritage properties on UNESCO's Tunisia State Party list | 10 | 10 | 0 | 0 | 0 | 100% | 2026-08-15 | SNP-TN-UNESCO-WHC-2026-08-15 | SRC-UNESCO-WHC-TN-2026 | CC BY-SA 3.0 IGO for property descriptions | نعم | — |
 
 ## الكيانات
@@ -22,6 +22,7 @@
 | المعرّف | الاسم | النوع | الحالة | المصدر القانوني/المرجعي | المحدد داخل المصدر |
 |---|---|---|---|---|---|
 | ENT-TN-CITY-CARTHAGE | قرطاج | city | current | SRC-TN-ONTT-PLACES-2018 | Around Carthage and Sidi Bou Said: modern Carthage described as a fashionable city |
+| ENT-TN-CITY-SOUSSE | سوسة | city | current | SRC-TN-ONTT-PLACES-2018 | Around Sousse and Port El Kantaoui: Sousse is Tunisia's third biggest city |
 | ENT-TN-COUNTRY | تونس | country | current | SRC-ISO-3166-1-2020 | ISO alpha-2 entry TN |
 | ENT-TN-DELEGATION-00555D763B13 | حاسي الفريد | tn_delegation | current | SRC-TN-HDX-CODAB-2022 | ADM3 row / dated 264-delegation research code 4254 |
 | ENT-TN-DELEGATION-00E4826B36E2 | سجنان | tn_delegation | current | SRC-TN-HDX-CODAB-2022 | ADM3 row / dated 264-delegation research code 1754 |
@@ -2747,9 +2748,8 @@
 | ENT-TN-MUNICIPALITY-6317 | رجيم معتوق | tn_municipality | current | SRC-TN-DGCL-MUNICIPALITIES-2024 | January 2024 workbook row: governorate 63; municipality code 6317 |
 | ENT-TN-MUNICIPALITY-6318 | بشلي جرسين البليدات | tn_municipality | current | SRC-TN-DGCL-MUNICIPALITIES-2024 | January 2024 workbook row: governorate 63; municipality code 6318 |
 | ENT-TN-MUNICIPALITY-6319 | الفوار - الابريقات | tn_municipality | current | SRC-TN-DGCL-MUNICIPALITIES-2024 | January 2024 workbook row: governorate 63; municipality code 6319 |
-| ENT-TN-NEIGHBORHOOD-MAGON | حي ماغون | neighborhood | current | SRC-TN-ONTT-PLACES-2018 | Around Carthage and Sidi Bou Said: Magon quarter within Carthage |
-| ENT-TN-PERSON-IBN-KHALDUN | ابن خلدون | person | historical | SRC-UNESCO-IBN-KHALDUN | African Voices biographical passage: born in Tunis in 1332 |
-| ENT-TN-SETTLEMENT-EL-JEM | الجم | settlement | current | SRC-UNESCO-WHC-TN-2026 | World Heritage property 38: small settlement of El Jem |
+| ENT-TN-NATURAL-SITE-KERKENNAH-ISLANDS | جزر قرقنة | natural_site | current | SRC-UNESCO-ICH-TN-2026 | ICH element 01566: Kerkennah Islands and the entire local community |
+| ENT-TN-PERSON-IBN-KHALDUN | ابن خلدون | person | historical | SRC-UNESCO-IBN-KHALDUN | UNESCO Courier, 1986-01, pp. 17–18; p. 17: Tunisian historian born in 1332 |
 | ENT-TN-SITE-AMPHITHEATRE-EL-JEM | مدرج الجم | landmark | current | SRC-UNESCO-WHC-TN-2026 | World Heritage property 38 |
 | ENT-TN-SITE-CARTHAGE | موقع قرطاج الأثري | archaeological_site | current | SRC-UNESCO-WHC-TN-2026 | World Heritage property 37 |
 | ENT-TN-SITE-DJERBA | جربة: شاهد على نمط تعمير | cultural_site | current | SRC-UNESCO-WHC-TN-2026 | World Heritage property 1640 |
@@ -2757,11 +2757,13 @@
 | ENT-TN-SITE-ICHKEUL | الحديقة الوطنية بإشكل | natural_site | current | SRC-UNESCO-WHC-TN-2026 | World Heritage property 8 |
 | ENT-TN-SITE-KAIROUAN | مدينة القيروان التاريخية | cultural_site | current | SRC-UNESCO-WHC-TN-2026 | World Heritage property 499 |
 | ENT-TN-SITE-KERKUANE | مدينة كركوان البونية | archaeological_site | current | SRC-UNESCO-WHC-TN-2026 | World Heritage property 332 |
+| ENT-TN-SITE-MAGON | حي ماغون الأثري | archaeological_site | current | SRC-TN-ONTT-PLACES-2018 | Around Carthage and Sidi Bou Said: remains of the Magon quarter |
 | ENT-TN-SITE-MEDINA-SOUSSE | مدينة سوسة العتيقة | cultural_site | current | SRC-UNESCO-WHC-TN-2026 | World Heritage property 498 |
 | ENT-TN-SITE-MEDINA-TUNIS | مدينة تونس العتيقة | cultural_site | current | SRC-UNESCO-WHC-TN-2026 | World Heritage property 36 |
-| ENT-TN-SITE-SIDI-BOU-SAID | قرية سيدي بوسعيد | cultural_site | current | SRC-UNESCO-WHC-TN-2026 | World Heritage property 1732 |
-| ENT-TN-TOWN-SOUSSE | سوسة | town | current | SRC-UNESCO-WHC-TN-2026 | World Heritage property 498: Medina of Sousse, present town context |
-| ENT-TN-VILLAGE-SIDI-BOU-SAID | سيدي بوسعيد | village | current | SRC-UNESCO-WHC-TN-2026 | World Heritage property 1732: Village of Sidi Bou Saïd |
+| ENT-TN-SITE-SIDI-BOU-SAID | قرية سيدي بوسعيد | cultural_site | current | SRC-UNESCO-WHC-TN-2026 | World Heritage property 1769 |
+| ENT-TN-VILLAGE-EL-JEM | الجم | village | current | SRC-UNESCO-WHC-TN-2026 | World Heritage property 38: small village of El Jem |
+| ENT-TN-VILLAGE-SEJNANE | سجنان | village | current | SRC-UNESCO-ICH-TN-2026 | ICH element 01406: the village of Sejnane |
+| ENT-TN-VILLAGE-SIDI-BOU-SAID | سيدي بوسعيد | village | current | SRC-UNESCO-WHC-TN-2026 | World Heritage property 1769: Village of Sidi Bou Saïd |
 
 ## الأسماء البديلة
 
@@ -2884,6 +2886,7 @@
 | ALS-0C042EC6E125573C | ENT-TN-MUNICIPALITY-5116 | El Hamma | fr | official_variant | SRC-TN-DGCL-MUNICIPALITIES-2024 |
 | ALS-0C11D16F8B625B4B | ENT-TN-MUNICIPALITY-4225 | Ech-Charayaa- Machrek Ech-Chams | fr | official_variant | SRC-TN-DGCL-MUNICIPALITIES-2024 |
 | ALS-0C2FAFC242285B18 | ENT-TN-IMADA-3152952 | Ksibet Sousse | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
+| ALS-0C4BEC2AC0755EBC | ENT-TN-SITE-MAGON | Magon archaeological quarter | en | english | SRC-TN-ONTT-PLACES-2018 |
 | ALS-0C695F32C89D56C1 | ENT-TN-MUNICIPALITY-1214 | Kalaat El Andalos | fr | official_variant | SRC-TN-DGCL-MUNICIPALITIES-2024 |
 | ALS-0C9A3A191B385DC5 | ENT-TN-IMADA-51531701 | Limaoua | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-0CAEAD19F0545A1D | ENT-TN-IMADA-34551264 | El Aouabed | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
@@ -3164,6 +3167,7 @@
 | ALS-267B57B36C055087 | ENT-TN-IMADA-42561505 | El Ahouaz | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-2684B16C22055E07 | ENT-TN-IMADA-1171149 | La Marsa Plage | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-26DC7BF2D7B35DEE | ENT-TN-IMADA-1654463 | Oued El Khadhra | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
+| ALS-26EE776BF8A055FF | ENT-TN-SITE-MAGON | Quartier archéologique Magon | fr | official_variant | SRC-TN-ONTT-PLACES-2018 |
 | ALS-26FFFA99A6E759CF | ENT-TN-DELEGATION-A43DBAE26B8A | Sfax Ville | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-272323A4CCC55099 | ENT-TN-IMADA-42591528 | El Hamed | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-272CAEDDEB045381 | ENT-TN-IMADA-34651341 | Es-Smara | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
@@ -3235,6 +3239,7 @@
 | ALS-2D42C58C1FF852B6 | ENT-TN-IMADA-1362281 | El Kessibi | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-2D4DA59BE7EC5A29 | ENT-TN-IMADA-2360846 | Abida | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-2D574EDE64F552E0 | ENT-TN-DELEGATION-5589DBA6CB89 | Sfax Ouest | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
+| ALS-2D6E5F17EA845B5E | ENT-TN-NATURAL-SITE-KERKENNAH-ISLANDS | Kerkennah Islands | en | english | SRC-UNESCO-ICH-TN-2026 |
 | ALS-2D712BE79F815C82 | ENT-TN-IMADA-52561816 | Taourit | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-2DD666B407285CF3 | ENT-TN-IMADA-2255726 | Tegma | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-2DDC4D913438586E | ENT-TN-IMADA-34571270 | Gargour | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
@@ -3815,6 +3820,7 @@
 | ALS-6049DCAFFEDD558E | ENT-TN-IMADA-52561824 | Erriadh | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-6063687BD694523C | ENT-TN-IMADA-2157651 | Aïn Younes | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-60828F7343AE50DE | ENT-TN-IMADA-115926 | Cité El Khadra | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
+| ALS-60A1EDF068005697 | ENT-TN-CITY-SOUSSE | Sousse | en | english | SRC-TN-ONTT-PLACES-2018 |
 | ALS-60A63CF06C2A58FF | ENT-TN-MUNICIPALITY-3412 | Sakiet Ezzit | fr | official_variant | SRC-TN-DGCL-MUNICIPALITIES-2024 |
 | ALS-60AA65D76A675614 | ENT-TN-IMADA-31601001 | El Garci | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-60C9BE39C65E5BA4 | ENT-TN-IMADA-52511760 | 20 Mars | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
@@ -3866,6 +3872,7 @@
 | ALS-65BB9B7B43775DBC | ENT-TN-MUNICIPALITY-3320 | Chebba | fr | official_variant | SRC-TN-DGCL-MUNICIPALITIES-2024 |
 | ALS-65C808FC9B6E5AC4 | ENT-TN-IMADA-31611007 | Oued El Kharroub | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-65D5F467491E53E0 | ENT-TN-IMADA-42591531 | Sidi Mhammed | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
+| ALS-65D9F971AFE65391 | ENT-TN-NATURAL-SITE-KERKENNAH-ISLANDS | Îles Kerkennah | fr | official_variant | SRC-UNESCO-ICH-TN-2026 |
 | ALS-65E00B56242255E6 | ENT-TN-IMADA-41541393 | El Gfi | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-65F84280BE765F27 | ENT-TN-IMADA-53511860 | Khetma | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-6604BC278E3253A7 | ENT-TN-MUNICIPALITY-3226 | Sidi Bennour | fr | official_variant | SRC-TN-DGCL-MUNICIPALITIES-2024 |
@@ -3899,6 +3906,7 @@
 | ALS-68B1BE8AEACB542D | ENT-TN-IMADA-1760556 | Bach Hamba | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-68CB8943B00E5344 | ENT-TN-DELEGATION-D75198EE6BB5 | Ezzouhour | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-68D3EA24626F5451 | ENT-TN-IMADA-53511856 | Oued El Ghar | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
+| ALS-68FAC6488B9A5149 | ENT-TN-VILLAGE-EL-JEM | El Jem | en | english | SRC-UNESCO-WHC-TN-2026 |
 | ALS-68FBFDF59DE258F6 | ENT-TN-IMADA-31641038 | Ennour | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-692CE05766F0578A | ENT-TN-IMADA-2153610 | Malek | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-695125274F155518 | ENT-TN-MUNICIPALITY-2316 | Menzel Salem | fr | official_variant | SRC-TN-DGCL-MUNICIPALITIES-2024 |
@@ -4216,7 +4224,6 @@
 | ALS-84808EE57AC355B6 | ENT-TN-DELEGATION-7A57DEB42C2E | Gafsa Sud | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-8480FAC197F7527B | ENT-TN-IMADA-1755515 | Berraies | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-8493E4CA7D8A55CD | ENT-TN-IMADA-62552023 | Hazoua | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
-| ALS-8498D164EDB358F6 | ENT-TN-NEIGHBORHOOD-MAGON | Quartier Magon | fr | official_variant | SRC-TN-ONTT-PLACES-2018 |
 | ALS-84B230A21B7853C6 | ENT-TN-IMADA-33571187 | El Mechalet | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-84E84DB06872521E | ENT-TN-DELEGATION-9D23A36B72E1 | Jammel | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-8509578F3C325C05 | ENT-TN-IMADA-42551499 | El Khadhra | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
@@ -4511,6 +4518,7 @@
 | ALS-A13C817151DF5B48 | ENT-TN-IMADA-42621563 | Telept | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-A147586C649E56BD | ENT-TN-IMADA-2253706 | El Koudia | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-A149566C01655316 | ENT-TN-IMADA-2455893 | Hammam Biadha Nord | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
+| ALS-A157064A65D15587 | ENT-TN-VILLAGE-SEJNANE | Sejnane | en | english | SRC-UNESCO-ICH-TN-2026 |
 | ALS-A16BB352688E5DB8 | ENT-TN-IMADA-52511762 | Oum Ettameur Ouest | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-A1790C174DB8549B | ENT-TN-IMADA-34661349 | El Kantra | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-A1915A4A18295A8C | ENT-TN-IMADA-33611218 | Salakta | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
@@ -4579,7 +4587,6 @@
 | ALS-A66BC82BA5F952B7 | ENT-TN-IMADA-52571832 | El May | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-A68F67E4786259F4 | ENT-TN-IMADA-1561392 | Soliman Sud | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-A6EE7D5C293D5A76 | ENT-TN-IMADA-61571966 | Segui Sud | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
-| ALS-A71905AA989C5950 | ENT-TN-TOWN-SOUSSE | Sousse | en | english | SRC-UNESCO-WHC-TN-2026 |
 | ALS-A7393C8D8432506F | ENT-TN-IMADA-34539999 | El Ons | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-A73E30DCD9AE5EE1 | ENT-TN-MUNICIPALITY-1524 | Dar Allouch | fr | official_variant | SRC-TN-DGCL-MUNICIPALITIES-2024 |
 | ALS-A7473DEE1133525D | ENT-TN-IMADA-33511136 | Hiboun | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
@@ -4651,7 +4658,6 @@
 | ALS-AE2F33D6C9035D9B | ENT-TN-MUNICIPALITY-3231 | Cherahil | fr | official_variant | SRC-TN-DGCL-MUNICIPALITIES-2024 |
 | ALS-AE468EE4FA875899 | ENT-TN-MUNICIPALITY-5112 | Chenini Nahal | fr | official_variant | SRC-TN-DGCL-MUNICIPALITIES-2024 |
 | ALS-AE5F29DDA8C65C80 | ENT-TN-MUNICIPALITY-3212 | Khenis | fr | official_variant | SRC-TN-DGCL-MUNICIPALITIES-2024 |
-| ALS-AE79F7268CFC5F1E | ENT-TN-NEIGHBORHOOD-MAGON | Magon Quarter | en | english | SRC-TN-ONTT-PLACES-2018 |
 | ALS-AE7C7836B9D7528F | ENT-TN-IMADA-51551707 | El Metouia Nord | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-AE8235AD69325F60 | ENT-TN-IMADA-1360257 | Mongi Selim | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-AED15EFDFC68527F | ENT-TN-IMADA-1362276 | El Gounna | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
@@ -4700,7 +4706,6 @@
 | ALS-B2D64F3BEA4C55B1 | ENT-TN-MUNICIPALITY-2217 | Ghardimaou | fr | official_variant | SRC-TN-DGCL-MUNICIPALITIES-2024 |
 | ALS-B33CD8C6FA1C53C9 | ENT-TN-IMADA-1152115 | El Taoufik | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-B3565C26E54A5422 | ENT-TN-IMADA-34541258 | Merkez Kâaniche | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
-| ALS-B384BA6FB9FB58CA | ENT-TN-SETTLEMENT-EL-JEM | El Jem | en | english | SRC-UNESCO-WHC-TN-2026 |
 | ALS-B3899DF382CF5D53 | ENT-TN-IMADA-115666 | Es-Sadique | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-B38B269540925977 | ENT-TN-IMADA-33551170 | Ech-Chahda Ouest | fr | official_variant | SRC-TN-HDX-CODAB-2022 |
 | ALS-B3DA607815E15369 | ENT-TN-MUNICIPALITY-1613 | Bir Mchergua | fr | official_variant | SRC-TN-DGCL-MUNICIPALITIES-2024 |
@@ -6148,7 +6153,6 @@
 | REL-2FD811DD6A2F5E72 | ENT-TN-IMADA-41521365 | ENT-TN-DELEGATION-3568AB5821B0 | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
 | REL-2FFE281579C0537F | ENT-TN-GOVERNORATE-47F772AA4A84 | ENT-TN-COUNTRY | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
 | REL-301924140D2D5F76 | ENT-TN-MUNICIPALITY-4217 | ENT-TN-DELEGATION-52AE19694D81 | boundary_intersects | current | SRC-TN-RESEARCH-GEOMETRY-2018 |
-| REL-30425ED0E876501E | ENT-TN-NEIGHBORHOOD-MAGON | ENT-TN-MUNICIPALITY-1115 | located_in | current | SRC-TN-ONTT-PLACES-2018 |
 | REL-304D14ED712D5F7E | ENT-TN-IMADA-1566421 | ENT-TN-DELEGATION-B95D26E1207F | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
 | REL-30709D3CE6CE51F5 | ENT-TN-IMADA-1253178 | ENT-TN-DELEGATION-11CCF21EE571 | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
 | REL-3085AFF9C77050DF | ENT-TN-IMADA-43581633 | ENT-TN-DELEGATION-9846A16575C2 | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
@@ -6247,7 +6251,6 @@
 | REL-387FA71822B85E46 | ENT-TN-IMADA-1358244 | ENT-TN-DELEGATION-7667BCFBBD94 | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
 | REL-38884E8D35C65252 | ENT-TN-MUNICIPALITY-3121 | ENT-TN-GOVERNORATE-07DB5E6D265C | administrative_parent | current | SRC-TN-DGCL-MUNICIPALITIES-2024 |
 | REL-38A3417A36935074 | ENT-TN-IMADA-2159672 | ENT-TN-DELEGATION-34E2240B6A54 | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
-| REL-38B2169FAB1654E2 | ENT-TN-TOWN-SOUSSE | ENT-TN-MUNICIPALITY-3111 | located_in | current | SRC-UNESCO-WHC-TN-2026 |
 | REL-38D148A0C0C95A78 | ENT-TN-DELEGATION-EFAC1514C55E | ENT-TN-GOVERNORATE-5BC9A7217C8C | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
 | REL-38D9EEC1E2E153FA | ENT-TN-IMADA-1754505 | ENT-TN-DELEGATION-00E4826B36E2 | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
 | REL-38E843A2C0ED51C2 | ENT-TN-DELEGATION-3757F6B83BE1 | ENT-TN-GOVERNORATE-97D2B1489F90 | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
@@ -6834,6 +6837,7 @@
 | REL-6B253C8B1BE75C8C | ENT-TN-IMADA-41511358 | ENT-TN-DELEGATION-9CCDCAF94A4A | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
 | REL-6B38AB1D32105707 | ENT-TN-MUNICIPALITY-2111 | ENT-TN-DELEGATION-08DFD967FB8E | boundary_intersects | current | SRC-TN-RESEARCH-GEOMETRY-2018 |
 | REL-6B397D7AC76D5339 | ENT-TN-IMADA-41571424 | ENT-TN-DELEGATION-5E9C54B26170 | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
+| REL-6B453B8D1A0452DA | ENT-TN-NATURAL-SITE-KERKENNAH-ISLANDS | ENT-TN-COUNTRY | located_in | current | SRC-UNESCO-ICH-TN-2026 |
 | REL-6B85B3B24A53536D | ENT-TN-IMADA-2357826 | ENT-TN-DELEGATION-D2E46DB3C8BC | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
 | REL-6B8B49E633D958C3 | ENT-TN-DELEGATION-529F20CCEFFA | ENT-TN-GOVERNORATE-B1787F907937 | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
 | REL-6B8C09A7E11F53E6 | ENT-TN-MUNICIPALITY-3220 | ENT-TN-GOVERNORATE-5BC9A7217C8C | administrative_parent | current | SRC-TN-DGCL-MUNICIPALITIES-2024 |
@@ -6973,6 +6977,7 @@
 | REL-769AE79F9F9452AB | ENT-TN-IMADA-41611459 | ENT-TN-DELEGATION-F9557E5DC693 | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
 | REL-76AC47CA937A5BAA | ENT-TN-MUNICIPALITY-4122 | ENT-TN-DELEGATION-46D8F9A49020 | boundary_intersects | current | SRC-TN-RESEARCH-GEOMETRY-2018 |
 | REL-76C02322AB5D53A7 | ENT-TN-IMADA-2159673 | ENT-TN-DELEGATION-34E2240B6A54 | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
+| REL-76E211B4FA3E572A | ENT-TN-CITY-SOUSSE | ENT-TN-MUNICIPALITY-3111 | located_in | current | SRC-TN-ONTT-PLACES-2018 |
 | REL-76F3279148A2529B | ENT-TN-MUNICIPALITY-2117 | ENT-TN-GOVERNORATE-EA2D44B4F25E | administrative_parent | current | SRC-TN-DGCL-MUNICIPALITIES-2024 |
 | REL-770AA682D6485432 | ENT-TN-IMADA-1762564 | ENT-TN-DELEGATION-F7ED1EE6DC53 | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
 | REL-7783C6BEC4B053E0 | ENT-TN-DELEGATION-9571A404E72D | ENT-TN-GOVERNORATE-DAC2A2592975 | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
@@ -7159,6 +7164,7 @@
 | REL-85AA099287515FD6 | ENT-TN-MUNICIPALITY-3123 | ENT-TN-DELEGATION-9ADFA1D292D9 | boundary_intersects | current | SRC-TN-RESEARCH-GEOMETRY-2018 |
 | REL-85AF60DC935057BC | ENT-TN-MUNICIPALITY-5126 | ENT-TN-GOVERNORATE-DF747014232C | administrative_parent | current | SRC-TN-DGCL-MUNICIPALITIES-2024 |
 | REL-85BA5C69826351AC | ENT-TN-IMADA-1553338 | ENT-TN-DELEGATION-00F12985BEC9 | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
+| REL-85CC214AE37C51B5 | ENT-TN-SITE-MAGON | ENT-TN-SITE-CARTHAGE | located_in | current | SRC-TN-ONTT-PLACES-2018 |
 | REL-85CC39CE366D56F3 | ENT-TN-IMADA-3153961 | ENT-TN-DELEGATION-9D652FC873EB | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
 | REL-85DF9164F9835286 | ENT-TN-IMADA-1653446 | ENT-TN-DELEGATION-FE6A0D05DF67 | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
 | REL-85FD3129A1E8574A | ENT-TN-IMADA-2255718 | ENT-TN-DELEGATION-3D8C44AF7D14 | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
@@ -8423,7 +8429,6 @@
 | REL-ED544EB7DE725B6C | ENT-TN-MUNICIPALITY-2416 | ENT-TN-GOVERNORATE-A460B4F223EB | administrative_parent | current | SRC-TN-DGCL-MUNICIPALITIES-2024 |
 | REL-ED6C4342BC845E56 | ENT-TN-MUNICIPALITY-2417 | ENT-TN-GOVERNORATE-A460B4F223EB | administrative_parent | current | SRC-TN-DGCL-MUNICIPALITIES-2024 |
 | REL-ED8798D92ACD5196 | ENT-TN-MUNICIPALITY-2314 | ENT-TN-DELEGATION-D77747883E55 | boundary_intersects | current | SRC-TN-RESEARCH-GEOMETRY-2018 |
-| REL-ED95F39788455225 | ENT-TN-SETTLEMENT-EL-JEM | ENT-TN-MUNICIPALITY-3318 | located_in | current | SRC-UNESCO-WHC-TN-2026 |
 | REL-ED9A04CF8D195980 | ENT-TN-MUNICIPALITY-5113 | ENT-TN-GOVERNORATE-DF747014232C | administrative_parent | current | SRC-TN-DGCL-MUNICIPALITIES-2024 |
 | REL-EDA91D283BD7560C | ENT-TN-IMADA-61511919 | ENT-TN-DELEGATION-08BF6BF26FFF | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
 | REL-EDBD537C43AD556C | ENT-TN-IMADA-115418 | ENT-TN-DELEGATION-22BE73F7EFB2 | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
@@ -8546,6 +8551,7 @@
 | REL-F6DD513BE8905D5E | ENT-TN-IMADA-41541391 | ENT-TN-DELEGATION-A6D2E459547E | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
 | REL-F6E2F93E55855859 | ENT-TN-MUNICIPALITY-4121 | ENT-TN-DELEGATION-46D8F9A49020 | boundary_intersects | current | SRC-TN-RESEARCH-GEOMETRY-2018 |
 | REL-F6E3501B8CFE5E6D | ENT-TN-IMADA-42611546 | ENT-TN-DELEGATION-52AE19694D81 | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
+| REL-F6EC0E87C41450BE | ENT-TN-VILLAGE-SEJNANE | ENT-TN-GOVERNORATE-B1787F907937 | located_in | current | SRC-UNESCO-ICH-TN-2026 |
 | REL-F70CBEE2356C5D12 | ENT-TN-MUNICIPALITY-3124 | ENT-TN-DELEGATION-E8F02D6B4EF9 | boundary_intersects | current | SRC-TN-RESEARCH-GEOMETRY-2018 |
 | REL-F7416FAA76DB5DFC | ENT-TN-IMADA-1356233 | ENT-TN-DELEGATION-06F62E53748D | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
 | REL-F75F35222FB15D0F | ENT-TN-IMADA-2457911 | ENT-TN-DELEGATION-78A6B0904A2B | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
@@ -8650,6 +8656,7 @@
 | REL-FF47716908095796 | ENT-TN-IMADA-1655467 | ENT-TN-DELEGATION-ECE5F1EB80F4 | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
 | REL-FF5304B7D1435762 | ENT-TN-IMADA-2455890 | ENT-TN-DELEGATION-27DFBC8894A9 | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
 | REL-FF678BDE7E96512F | ENT-TN-IMADA-1557367 | ENT-TN-DELEGATION-6DD1C12A1852 | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
+| REL-FF927F6ED4C251B3 | ENT-TN-VILLAGE-EL-JEM | ENT-TN-MUNICIPALITY-3318 | located_in | current | SRC-UNESCO-WHC-TN-2026 |
 | REL-FFC858D7F8BD5FB6 | ENT-TN-IMADA-41551408 | ENT-TN-DELEGATION-6EC1A2137D0E | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
 | REL-FFD139DA7470584A | ENT-TN-IMADA-2454884 | ENT-TN-DELEGATION-AF66ED06B9B8 | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
 | REL-FFF2C877235F5F16 | ENT-TN-IMADA-116646 | ENT-TN-DELEGATION-D592FC6CD4D2 | administrative_parent | current | SRC-TN-HDX-CODAB-2022 |
@@ -8658,78 +8665,79 @@
 
 | المعرّف | الموضوع | المحمول | القيمة | التصنيف | الثقة | الحالة | المصدر | المحدد |
 |---|---|---|---|---|---|---|---|---|
-| CLM-01F01217FD73549E | ENT-TN-GOVERNORATE-EA2D44B4F25E | population | 303032 | — | high | verified | SRC-TN-INS-RGPH-2014 | Governorate table: باجة |
-| CLM-0440FF23CF945934 | ENT-TN-GOVERNORATE-81845FB6BE40 | population | 176945 | — | high | verified | SRC-TN-INS-RGPH-2014 | Governorate table: زغوان |
+| CLM-01F01217FD73549E | ENT-TN-GOVERNORATE-EA2D44B4F25E | population | 303032 | — | high | verified | SRC-TN-INS-RGPH-2014 | Volume 3, PDF p. 47, governorate row: باجة |
+| CLM-0440FF23CF945934 | ENT-TN-GOVERNORATE-81845FB6BE40 | population | 176945 | — | high | verified | SRC-TN-INS-RGPH-2014 | Volume 3, PDF p. 47, governorate row: زغوان |
 | CLM-05B7541A71DC5946 | ENT-TN-SITE-MEDINA-TUNIS | condition | Historic urban fabric with numerous monuments | — | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 36 |
 | CLM-07DF115D3F5A59CA | ENT-TN-SITE-KERKUANE | period | Punic city abandoned during the First Punic War, about 250 BCE | historical | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 332 |
 | CLM-0A51181AD3EA55FB | ENT-TN-SITE-CARTHAGE | condition | Dispersed archaeological remains | — | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 37 |
 | CLM-12757A27FFEE51E3 | ENT-TN-SITE-DJERBA | condition | Dispersed island cultural landscape | — | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 1640 |
 | CLM-16B2039E442453FE | ENT-TN-SITE-KERKUANE | condition | Archaeological town and necropolis remains | — | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 332 |
-| CLM-1923488F27265729 | ENT-TN-GOVERNORATE-07DB5E6D265C | population | 674971 | — | high | verified | SRC-TN-INS-RGPH-2014 | Governorate table: سوسة |
+| CLM-1EB0B721F65E5B35 | ENT-TN-VILLAGE-EL-JEM | place_classification | village | official | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 38: small village of El Jem |
 | CLM-1FFDA75FB1615918 | ENT-TN-SITE-MEDINA-SOUSSE | condition | Fortified medina fabric and monuments | — | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 498 |
+| CLM-215A9AEDC9675F8A | ENT-TN-SITE-SIDI-BOU-SAID | period | Settlement developed around the tomb of the Sufi master Sidi Bou Said in the 13th century | historical | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 1769 |
+| CLM-218592D2ADE750E3 | ENT-TN-NATURAL-SITE-KERKENNAH-ISLANDS | custom_practice | Charfia fishing in the Kerkennah Islands | regional | high | verified | SRC-UNESCO-ICH-TN-2026 | ICH element 01566: Kerkennah Islands and the entire local community |
 | CLM-273991864A27515C | ENT-TN-COUNTRY | food_practice | Harissa knowledge, skills and culinary and social practices | popular | high | verified | SRC-UNESCO-ICH-TN-2026 | ICH element 01710: Tunisia |
-| CLM-299066B220135F49 | ENT-TN-GOVERNORATE-E7D96FEF5043 | population | 410812 | — | high | verified | SRC-TN-INS-RGPH-2014 | Governorate table: المهدية |
-| CLM-30573A2341B65E91 | ENT-TN-GOVERNORATE-78D6D85AF6A0 | population | 576088 | — | high | verified | SRC-TN-INS-RGPH-2014 | Governorate table: أريانة |
-| CLM-32FC870867E75D62 | ENT-TN-GOVERNORATE-7A4D0C3A889C | population | 401477 | — | high | verified | SRC-TN-INS-RGPH-2014 | Governorate table: جندوبة |
+| CLM-299066B220135F49 | ENT-TN-GOVERNORATE-E7D96FEF5043 | population | 410812 | — | high | verified | SRC-TN-INS-RGPH-2014 | Volume 3, PDF p. 47, governorate row: المهدية |
+| CLM-30573A2341B65E91 | ENT-TN-GOVERNORATE-78D6D85AF6A0 | population | 576088 | — | high | verified | SRC-TN-INS-RGPH-2014 | Volume 3, PDF p. 47, governorate row: أريانة |
+| CLM-32FC870867E75D62 | ENT-TN-GOVERNORATE-7A4D0C3A889C | population | 401477 | — | high | verified | SRC-TN-INS-RGPH-2014 | Volume 3, PDF p. 47, governorate row: جندوبة |
 | CLM-34E1FD0A707D516F | ENT-TN-MARKET-MEDINA-CENTRAL-SOUKS | protection_context | Located within the Medina of Tunis World Heritage property | official | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 36 |
 | CLM-36E23A9B28165DDE | ENT-TN-SITE-CARTHAGE | period | Phoenician foundation traditionally dated to the 9th century BCE; later Roman city | historical | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 37 |
-| CLM-4095A0B2719859AE | ENT-TN-GOVERNORATE-0D738EAC753C | population | 243156 | — | high | verified | SRC-TN-INS-RGPH-2014 | Governorate table: الكاف |
-| CLM-411FC15B5BCD5274 | ENT-TN-SITE-SIDI-BOU-SAID | condition | Living cliff-top village and cultural landscape | — | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 1732 |
-| CLM-44CBB5D9CE635C1E | ENT-TN-NEIGHBORHOOD-MAGON | place_classification | neighborhood | official | high | verified | SRC-TN-ONTT-PLACES-2018 | Around Carthage and Sidi Bou Said: Magon quarter within Carthage |
-| CLM-476452C4482C56BE | ENT-TN-GOVERNORATE-EA30E853F598 | population | 787920 | — | high | verified | SRC-TN-INS-RGPH-2014 | Governorate table: نابل |
+| CLM-4095A0B2719859AE | ENT-TN-GOVERNORATE-0D738EAC753C | population | 243156 | — | high | verified | SRC-TN-INS-RGPH-2014 | Volume 3, PDF p. 47, governorate row: الكاف |
 | CLM-51EBC020C873568F | ENT-TN-SITE-DJERBA | period | Island settlement pattern documented from around the 9th century | historical | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 1640 |
 | CLM-581A9AD7C34351C9 | ENT-TN-SITE-AMPHITHEATRE-EL-JEM | period | Third century CE Roman amphitheatre | historical | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 38 |
 | CLM-58E10A65B0A9518C | ENT-TN-SITE-KERKUANE | protection_status | UNESCO World Heritage property, inscribed 1985 | official | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 332 |
 | CLM-5C5822FCCE295BCE | ENT-TN-MARKET-MEDINA-CENTRAL-SOUKS | market_character | Covered streets historically organized by trade and craft | historical | high | verified | SRC-TN-ONTT-PLACES-2018 | Around Tunis: central souks of the medina; Souk Medina attraction page |
 | CLM-5C925D88368C5AD5 | ENT-TN-SITE-DOUGGA | period | Numidian settlement and Romanized town | historical | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 794 and maps |
-| CLM-5F89225106935E96 | ENT-TN-GOVERNORATE-1864AE41D5B4 | population | 156961 | — | high | verified | SRC-TN-INS-RGPH-2014 | Governorate table: قبلي |
+| CLM-5F89225106935E96 | ENT-TN-GOVERNORATE-1864AE41D5B4 | population | 156961 | — | high | verified | SRC-TN-INS-RGPH-2014 | Volume 3, PDF p. 47, governorate row: قبلي |
 | CLM-6072B3A62B245ABE | ENT-TN-SITE-MEDINA-TUNIS | period | Islamic city founded in 698; major Almohad and Hafsid period | historical | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 36 |
-| CLM-6E14E7C897B25972 | ENT-TN-GOVERNORATE-47F772AA4A84 | population | 429912 | — | high | verified | SRC-TN-INS-RGPH-2014 | Governorate table: سيدي بوزيد |
-| CLM-78470775F84F5AE6 | ENT-TN-VILLAGE-SIDI-BOU-SAID | place_classification | village | official | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 1732: Village of Sidi Bou Saïd |
-| CLM-7A745A4522155266 | ENT-TN-GOVERNORATE-DAC2A2592975 | population | 149453 | — | high | verified | SRC-TN-INS-RGPH-2014 | Governorate table: تطاوين |
-| CLM-82653461C4645BBC | ENT-TN-PERSON-IBN-KHALDUN | significance | Historian and author whose work developed a major analysis of society and history | historical | high | verified | SRC-UNESCO-IBN-KHALDUN | African Voices: Ibn Khaldun profile |
+| CLM-63EBFB67ADC85493 | ENT-TN-GOVERNORATE-EA30E853F598 | population | 787918 | — | high | verified | SRC-TN-INS-RGPH-2014 | Volume 3, PDF p. 47, governorate row: نابل |
+| CLM-6E14E7C897B25972 | ENT-TN-GOVERNORATE-47F772AA4A84 | population | 429912 | — | high | verified | SRC-TN-INS-RGPH-2014 | Volume 3, PDF p. 47, governorate row: سيدي بوزيد |
+| CLM-78470775F84F5AE6 | ENT-TN-VILLAGE-SIDI-BOU-SAID | place_classification | village | official | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 1769: Village of Sidi Bou Saïd |
+| CLM-7A745A4522155266 | ENT-TN-GOVERNORATE-DAC2A2592975 | population | 149453 | — | high | verified | SRC-TN-INS-RGPH-2014 | Volume 3, PDF p. 47, governorate row: تطاوين |
+| CLM-82653461C4645BBC | ENT-TN-PERSON-IBN-KHALDUN | significance | Historian and author whose work developed a major analysis of society and history | historical | high | verified | SRC-UNESCO-IBN-KHALDUN | UNESCO Courier, 1986-01, p. 17: principal work and theory of society and history |
 | CLM-8A66F2010AC25824 | ENT-TN-CITY-CARTHAGE | place_classification | city | official | high | verified | SRC-TN-ONTT-PLACES-2018 | Around Carthage and Sidi Bou Said: modern Carthage described as a fashionable city |
 | CLM-8C5ADE3D085952DA | ENT-TN-SITE-MEDINA-TUNIS | protection_status | UNESCO World Heritage property, inscribed 1979 | official | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 36 |
-| CLM-8DD7671C112B56D5 | ENT-TN-SETTLEMENT-EL-JEM | place_classification | settlement | official | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 38: small settlement of El Jem |
 | CLM-8F03399059915CD3 | ENT-TN-SITE-ICHKEUL | protection_status | National park and UNESCO World Heritage property, inscribed 1980 | official | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 8 |
-| CLM-905829C036E15A70 | ENT-TN-GOVERNORATE-DF747014232C | population | 374300 | — | high | verified | SRC-TN-INS-RGPH-2014 | Governorate table: قابس |
-| CLM-90B00BCDE9A95D2A | ENT-TN-GOVERNORATE-5BC9A7217C8C | population | 548828 | — | high | verified | SRC-TN-INS-RGPH-2014 | Governorate table: المنستير |
+| CLM-905829C036E15A70 | ENT-TN-GOVERNORATE-DF747014232C | population | 374300 | — | high | verified | SRC-TN-INS-RGPH-2014 | Volume 3, PDF p. 47, governorate row: قابس |
+| CLM-90B00BCDE9A95D2A | ENT-TN-GOVERNORATE-5BC9A7217C8C | population | 548828 | — | high | verified | SRC-TN-INS-RGPH-2014 | Volume 3, PDF p. 47, governorate row: المنستير |
 | CLM-9128A4FEDDBF5BC7 | ENT-TN-HISTORICAL-PLACE-KERKUANE | place_classification | historical_place | official | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 332: Punic Town of Kerkuane |
 | CLM-91350C5BD0335062 | ENT-TN-SITE-AMPHITHEATRE-EL-JEM | protection_status | UNESCO World Heritage property, inscribed 1979 | official | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 38 |
-| CLM-96D13B9F1B2156C4 | ENT-TN-SITE-SIDI-BOU-SAID | period | Stratified settlement history including ancient and later Mediterranean periods | historical | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 1732 |
-| CLM-97F4430A55E65437 | ENT-TN-GOVERNORATE-D7972CC63F7E | population | 107912 | — | high | verified | SRC-TN-INS-RGPH-2014 | Governorate table: توزر |
+| CLM-956FBE62EA8D52CB | ENT-TN-VILLAGE-SEJNANE | place_classification | village | official | high | verified | SRC-UNESCO-ICH-TN-2026 | ICH element 01406: the village of Sejnane |
+| CLM-97F4430A55E65437 | ENT-TN-GOVERNORATE-D7972CC63F7E | population | 107912 | — | high | verified | SRC-TN-INS-RGPH-2014 | Volume 3, PDF p. 47, governorate row: توزر |
 | CLM-9A79D1069D98581C | ENT-TN-SITE-DJERBA | protection_status | UNESCO World Heritage property, inscribed 2023 | official | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 1640 |
 | CLM-9B976453C6E85002 | ENT-TN-SITE-ICHKEUL | period | Natural wetland and lake ecosystem | historical | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 8 |
-| CLM-A092AE81190758A5 | ENT-TN-GOVERNORATE-D28A09D558AD | population | 570559 | — | high | verified | SRC-TN-INS-RGPH-2014 | Governorate table: القيروان |
-| CLM-A42C0A6722C957DB | ENT-TN-SITE-SIDI-BOU-SAID | protection_status | UNESCO World Heritage property, inscribed 2026 | official | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 1732 |
-| CLM-A583EEC3020E5A4B | ENT-TN-GOVERNORATE-D5ED89886664 | population | 631842 | — | high | verified | SRC-TN-INS-RGPH-2014 | Governorate table: بن عروس |
-| CLM-A74E4DB0722059B7 | ENT-TN-GOVERNORATE-B1787F907937 | population | 568219 | — | high | verified | SRC-TN-INS-RGPH-2014 | Governorate table: بنزرت |
+| CLM-A42C0A6722C957DB | ENT-TN-SITE-SIDI-BOU-SAID | protection_status | UNESCO World Heritage property, inscribed 2026 | official | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 1769 |
+| CLM-A583EEC3020E5A4B | ENT-TN-GOVERNORATE-D5ED89886664 | population | 631842 | — | high | verified | SRC-TN-INS-RGPH-2014 | Volume 3, PDF p. 47, governorate row: بن عروس |
+| CLM-A74E4DB0722059B7 | ENT-TN-GOVERNORATE-B1787F907937 | population | 568219 | — | high | verified | SRC-TN-INS-RGPH-2014 | Volume 3, PDF p. 47, governorate row: بنزرت |
 | CLM-A75D4E9B80945EEF | ENT-TN-SITE-KAIROUAN | condition | Historic medina and major monuments | — | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 499 |
-| CLM-A968DAF688615537 | ENT-TN-GOVERNORATE-DB8D5C457676 | population | 1056247 | — | high | verified | SRC-TN-INS-RGPH-2014 | Governorate table: تونس |
+| CLM-A968DAF688615537 | ENT-TN-GOVERNORATE-DB8D5C457676 | population | 1056247 | — | high | verified | SRC-TN-INS-RGPH-2014 | Volume 3, PDF p. 47, governorate row: تونس |
 | CLM-B17FF880127E503F | ENT-TN-SITE-CARTHAGE | protection_status | UNESCO World Heritage property, inscribed 1979 | official | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 37 |
-| CLM-B30B96F710CC5B9C | ENT-TN-MUNICIPALITY-3426 | custom_practice | Charfia fishing in the Kerkennah Islands | regional | high | verified | SRC-UNESCO-ICH-TN-2026 | ICH element 01566: Kerkennah Islands |
+| CLM-B5F70004034A5C7F | ENT-TN-CITY-SOUSSE | place_classification | city | official | high | verified | SRC-TN-ONTT-PLACES-2018 | Around Sousse and Port El Kantaoui: Sousse is Tunisia's third biggest city |
+| CLM-BC1B545267C059D1 | ENT-TN-SITE-MAGON | place_classification | archaeological_site | official | high | verified | SRC-TN-ONTT-PLACES-2018 | Around Carthage and Sidi Bou Said: remains of the Magon quarter |
 | CLM-C1D26F7B09655AEE | ENT-TN-SITE-AMPHITHEATRE-EL-JEM | condition | Monumental stone amphitheatre remains | — | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 38 |
-| CLM-C2036CA2AB05590E | ENT-TN-MUNICIPALITY-1712 | craft_practice | Pottery skills of the women of Sejnane | regional | high | verified | SRC-UNESCO-ICH-TN-2026 | ICH element 01406: community in Sejnane |
-| CLM-C6900181BCCF513F | ENT-TN-TOWN-SOUSSE | place_classification | town | official | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 498: Medina of Sousse, present town context |
-| CLM-CA9A7B08C1D45639 | ENT-TN-PERSON-IBN-KHALDUN | place_connection | Born in Tunis in 1332 | historical | high | verified | SRC-UNESCO-IBN-KHALDUN | African Voices biographical passage: born in Tunis in 1332 |
+| CLM-CA9A7B08C1D45639 | ENT-TN-PERSON-IBN-KHALDUN | place_connection | Born in Tunis in 1332 | historical | high | verified | SRC-UNESCO-IBN-KHALDUN | UNESCO Courier, 1986-01, pp. 17–18; p. 17: Tunisian historian born in 1332 |
 | CLM-CA9C3149E6625D46 | ENT-TN-MARKET-MEDINA-CENTRAL-SOUKS | traditional_clothing_goods | Traditional clothing and chechias are among the goods described in the souks | popular | high | verified | SRC-TN-ONTT-PLACES-2018 | Around Tunis: central souks of the medina; Souk Medina attraction page |
 | CLM-CFF3140154B95A9D | ENT-TN-SITE-ICHKEUL | condition | Integrity depends on freshwater inflow; restoration and monitoring documented | — | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 8 |
-| CLM-D08DFE66D5125784 | ENT-TN-GOVERNORATE-97D2B1489F90 | population | 955421 | — | high | verified | SRC-TN-INS-RGPH-2014 | Governorate table: صفاقس |
-| CLM-D267C300CB5C52FD | ENT-TN-GOVERNORATE-A460B4F223EB | population | 223087 | — | high | verified | SRC-TN-INS-RGPH-2014 | Governorate table: سليانة |
+| CLM-D08DFE66D5125784 | ENT-TN-GOVERNORATE-97D2B1489F90 | population | 955421 | — | high | verified | SRC-TN-INS-RGPH-2014 | Volume 3, PDF p. 47, governorate row: صفاقس |
+| CLM-D267C300CB5C52FD | ENT-TN-GOVERNORATE-A460B4F223EB | population | 223087 | — | high | verified | SRC-TN-INS-RGPH-2014 | Volume 3, PDF p. 47, governorate row: سليانة |
+| CLM-D4731C818B175CC3 | ENT-TN-GOVERNORATE-D28A09D558AD | population | 570436 | — | high | verified | SRC-TN-INS-RGPH-2014 | Volume 3, PDF p. 47, governorate row: القيروان |
+| CLM-D4E0848EBD745E66 | ENT-TN-SITE-SIDI-BOU-SAID | condition | Picturesque cliff-top village whose architecture and urban planning integrate with its natural environment | — | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 1769 |
 | CLM-E258A65EA8595837 | ENT-TN-SITE-KAIROUAN | protection_status | UNESCO World Heritage property, inscribed 1988 | official | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 499 |
 | CLM-E2EF36CF34245555 | ENT-TN-SITE-DOUGGA | condition | Extensive archaeological ruins retaining urban components | — | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 794 and maps |
-| CLM-E435BAEFC3495119 | ENT-TN-GOVERNORATE-36E4260B310C | population | 439243 | — | high | verified | SRC-TN-INS-RGPH-2014 | Governorate table: القصرين |
-| CLM-E5866320AD6A5143 | ENT-TN-GOVERNORATE-467CAA2B1928 | population | 337331 | — | high | verified | SRC-TN-INS-RGPH-2014 | Governorate table: قفصة |
+| CLM-E435BAEFC3495119 | ENT-TN-GOVERNORATE-36E4260B310C | population | 439243 | — | high | verified | SRC-TN-INS-RGPH-2014 | Volume 3, PDF p. 47, governorate row: القصرين |
+| CLM-E5866320AD6A5143 | ENT-TN-GOVERNORATE-467CAA2B1928 | population | 337331 | — | high | verified | SRC-TN-INS-RGPH-2014 | Volume 3, PDF p. 47, governorate row: قفصة |
 | CLM-E5F4BEAC5EFB5443 | ENT-TN-SITE-DOUGGA | protection_status | UNESCO World Heritage property, inscribed 1997; protected under national heritage law | official | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 794 and maps |
+| CLM-EBEFBE3E47415FD8 | ENT-TN-GOVERNORATE-07DB5E6D265C | population | 674818 | — | high | verified | SRC-TN-INS-RGPH-2014 | Volume 3, PDF p. 47, governorate row: سوسة |
 | CLM-EE0C3305F4EF517E | ENT-TN-SITE-MEDINA-SOUSSE | period | Early Islamic coastal town, particularly 9th century | historical | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 498 |
 | CLM-F3949BD3AC6C5E87 | ENT-TN-SITE-KAIROUAN | period | Founded in 670 CE | historical | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 499 |
+| CLM-F5C0A68D79925284 | ENT-TN-VILLAGE-SEJNANE | craft_practice | Pottery skills of the women of Sejnane | regional | high | verified | SRC-UNESCO-ICH-TN-2026 | ICH element 01406: women from the Sejnane community and village |
 | CLM-F5F0D9591C685C4A | ENT-TN-SITE-MEDINA-SOUSSE | protection_status | UNESCO World Heritage property, inscribed 1988 | official | high | verified | SRC-UNESCO-WHC-TN-2026 | World Heritage property 498 |
-| CLM-F94336D7DA555AE3 | ENT-TN-GOVERNORATE-CC06DF550344 | population | 379518 | — | high | verified | SRC-TN-INS-RGPH-2014 | Governorate table: منوبة |
-| CLM-FA70F590185150F4 | ENT-TN-GOVERNORATE-902616FE3988 | population | 479520 | — | high | verified | SRC-TN-INS-RGPH-2014 | Governorate table: مدنين |
+| CLM-F94336D7DA555AE3 | ENT-TN-GOVERNORATE-CC06DF550344 | population | 379518 | — | high | verified | SRC-TN-INS-RGPH-2014 | Volume 3, PDF p. 47, governorate row: منوبة |
+| CLM-FA70F590185150F4 | ENT-TN-GOVERNORATE-902616FE3988 | population | 479520 | — | high | verified | SRC-TN-INS-RGPH-2014 | Volume 3, PDF p. 47, governorate row: مدنين |
 
 ## جودة مصادر الادعاءات المنشورة
 
-ادعاءات A/B: 68 من 68 (100.00%).
+ادعاءات A/B: 69 من 69 (100.00%).
 
 ## المصادر الذرية المستخدمة
 
@@ -8738,10 +8746,10 @@
 | SRC-ISO-3166-1-2020 | A | ISO 3166-1:2020 — Codes for the representation of names of countries and their subdivisions — Part 1: Country code | International Organization for Standardization (ISO) | 2020-08 | 2026-08-15 | ISO copyright; reuse is subject to ISO terms of use | https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:ed-4:v1:en |
 | SRC-TN-DGCL-MUNICIPALITIES-2024 | A | Liste des communes — January 2024 coded municipality register | Portail des Collectivités Locales, République Tunisienne | 2024-01 | 2026-08-15 | Resource-specific license not stated; factual register transcription only | http://www.collectiviteslocales.gov.tn/wp-content/uploads/2024/01/liste-communes.xlsx |
 | SRC-TN-HDX-CODAB-2022 | B | Tunisia administrative boundaries COD-AB, version 01 | OCHA Field Information Services Section / HDX | 2022-11-15 | 2026-08-15 | Creative Commons Attribution 3.0 IGO | https://data.humdata.org/dataset/cod-ab-tun |
-| SRC-TN-INS-RGPH-2014 | A | Recensement Général de la Population et de l'Habitat 2014 — Principaux indicateurs | Institut National de la Statistique, Tunisie | 2015-04 | 2026-08-15 | License not stated in the publication metadata | https://www.ins.tn/sites/default/files/publication/pdf/RGPH%202014-V0.pdf |
+| SRC-TN-INS-RGPH-2014 | A | Recensement Général de la Population et de l’Habitat 2014 — Volume 3 | Institut National de la Statistique, Tunisie | 2016 | 2026-08-15 | Institutional publication; factual extraction only | https://www.ins.tn/sites/default/files-ftp1/files/publication/pdf/RGPH%202014-V3.pdf |
 | SRC-TN-ONTT-PLACES-2018 | B | Discover Tunisia place and culture guides | Tunisian National Tourist Office | 2018 | 2026-08-15 | Copyright ONTT; factual extraction only | https://www.discovertunisia.com/en/discover |
 | SRC-TN-RESEARCH-GEOMETRY-2018 | C | Tunisia shapefiles research reconstruction | jmgclark/tunisia_shapefiles contributors | — | 2026-08-15 | Open Database License 1.0 (database); Database Contents License for contents | https://github.com/jmgclark/tunisia_shapefiles |
-| SRC-UNESCO-IBN-KHALDUN | B | African Voices — Ibn Khaldun biographical note | UNESCO Courier / UNESCO Digital Library | 1985 | 2026-08-15 | UNESCO Digital Library terms; factual extraction only | https://unesdoc.unesco.org/ark:/48223/pf0000068103 |
+| SRC-UNESCO-IBN-KHALDUN | B | Tradition and experiment in Arabic letters | UNESCO Courier / UNESCO Digital Library | 1986-01 | 2026-08-15 | UNESCO digital publication; factual extraction only | https://unesdoc.unesco.org/ark:/48223/pf0000068104 |
 | SRC-UNESCO-ICH-TN-2026 | A | Intangible Cultural Heritage — Tunisia elements | UNESCO | — | 2026-08-15 | UNESCO website terms; quoted facts and titles only | https://ich.unesco.org/en/state/tunisia-TN |
 | SRC-UNESCO-WHC-TN-2026 | A | World Heritage List — Tunisia properties | UNESCO World Heritage Centre | — | 2026-08-15 | CC BY-SA 3.0 IGO for property descriptions | https://whc.unesco.org/en/statesparties/tn |
 

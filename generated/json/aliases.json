@@ -1652,6 +1652,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-TN-SITE-MAGON",
+    "id": "ALS-0C4BEC2AC0755EBC",
+    "kind": "english",
+    "language": "en",
+    "name": "Magon archaeological quarter",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-TN-ONTT-PLACES-2018",
+    "source_locator": "Around Carthage and Sidi Bou Said: remains of the Magon quarter",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-MUNICIPALITY-1214",
     "id": "ALS-0C695F32C89D56C1",
     "kind": "official_variant",
@@ -5586,6 +5600,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-TN-SITE-MAGON",
+    "id": "ALS-26EE776BF8A055FF",
+    "kind": "official_variant",
+    "language": "fr",
+    "name": "Quartier archéologique Magon",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-TN-ONTT-PLACES-2018",
+    "source_locator": "Around Carthage and Sidi Bou Said: remains of the Magon quarter",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-DELEGATION-A43DBAE26B8A",
     "id": "ALS-26FFFA99A6E759CF",
     "kind": "official_variant",
@@ -6322,7 +6350,7 @@
     "schema_version": "1.0.0",
     "script": "Latn",
     "source_id": "SRC-UNESCO-IBN-KHALDUN",
-    "source_locator": "African Voices biographical passage: born in Tunis in 1332",
+    "source_locator": "UNESCO Courier, 1986-01, pp. 17–18; p. 17: Tunisian historian born in 1332",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -6575,6 +6603,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM3 row / dated 264-delegation research code 3452",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-TN-NATURAL-SITE-KERKENNAH-ISLANDS",
+    "id": "ALS-2D6E5F17EA845B5E",
+    "kind": "english",
+    "language": "en",
+    "name": "Kerkennah Islands",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-UNESCO-ICH-TN-2026",
+    "source_locator": "ICH element 01566: Kerkennah Islands and the entire local community",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -14784,6 +14826,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-TN-CITY-SOUSSE",
+    "id": "ALS-60A1EDF068005697",
+    "kind": "english",
+    "language": "en",
+    "name": "Sousse",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-TN-ONTT-PLACES-2018",
+    "source_locator": "Around Sousse and Port El Kantaoui: Sousse is Tunisia's third biggest city",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-MUNICIPALITY-3412",
     "id": "ALS-60A63CF06C2A58FF",
     "kind": "official_variant",
@@ -15498,6 +15554,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-TN-NATURAL-SITE-KERKENNAH-ISLANDS",
+    "id": "ALS-65D9F971AFE65391",
+    "kind": "official_variant",
+    "language": "fr",
+    "name": "Îles Kerkennah",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-UNESCO-ICH-TN-2026",
+    "source_locator": "ICH element 01566: Kerkennah Islands and the entire local community",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-41541393",
     "id": "ALS-65E00B56242255E6",
     "kind": "official_variant",
@@ -15969,6 +16039,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 53511856; dated ADM3 parent 5351",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-TN-VILLAGE-EL-JEM",
+    "id": "ALS-68FAC6488B9A5149",
+    "kind": "english",
+    "language": "en",
+    "name": "El Jem",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-UNESCO-WHC-TN-2026",
+    "source_locator": "World Heritage property 38: small village of El Jem",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -20482,20 +20566,6 @@
     "valid_to": null
   },
   {
-    "entity_id": "ENT-TN-NEIGHBORHOOD-MAGON",
-    "id": "ALS-8498D164EDB358F6",
-    "kind": "official_variant",
-    "language": "fr",
-    "name": "Quartier Magon",
-    "schema_version": "1.0.0",
-    "script": "Latn",
-    "source_id": "SRC-TN-ONTT-PLACES-2018",
-    "source_locator": "Around Carthage and Sidi Bou Said: Magon quarter within Carthage",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null
-  },
-  {
     "entity_id": "ENT-TN-IMADA-33571187",
     "id": "ALS-84B230A21B7853C6",
     "kind": "official_variant",
@@ -24696,6 +24766,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-TN-VILLAGE-SEJNANE",
+    "id": "ALS-A157064A65D15587",
+    "kind": "english",
+    "language": "en",
+    "name": "Sejnane",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-UNESCO-ICH-TN-2026",
+    "source_locator": "ICH element 01406: the village of Sejnane",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-52511762",
     "id": "ALS-A16BB352688E5DB8",
     "kind": "official_variant",
@@ -25643,20 +25727,6 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 61571966; dated ADM3 parent 6157",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null
-  },
-  {
-    "entity_id": "ENT-TN-TOWN-SOUSSE",
-    "id": "ALS-A71905AA989C5950",
-    "kind": "english",
-    "language": "en",
-    "name": "Sousse",
-    "schema_version": "1.0.0",
-    "script": "Latn",
-    "source_id": "SRC-UNESCO-WHC-TN-2026",
-    "source_locator": "World Heritage property 498: Medina of Sousse, present town context",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -26698,20 +26768,6 @@
     "valid_to": null
   },
   {
-    "entity_id": "ENT-TN-NEIGHBORHOOD-MAGON",
-    "id": "ALS-AE79F7268CFC5F1E",
-    "kind": "english",
-    "language": "en",
-    "name": "Magon Quarter",
-    "schema_version": "1.0.0",
-    "script": "Latn",
-    "source_id": "SRC-TN-ONTT-PLACES-2018",
-    "source_locator": "Around Carthage and Sidi Bou Said: Magon quarter within Carthage",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null
-  },
-  {
     "entity_id": "ENT-TN-IMADA-51551707",
     "id": "ALS-AE7C7836B9D7528F",
     "kind": "official_variant",
@@ -27393,20 +27449,6 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 34541258; dated ADM3 parent 3454",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null
-  },
-  {
-    "entity_id": "ENT-TN-SETTLEMENT-EL-JEM",
-    "id": "ALS-B384BA6FB9FB58CA",
-    "kind": "english",
-    "language": "en",
-    "name": "El Jem",
-    "schema_version": "1.0.0",
-    "script": "Latn",
-    "source_id": "SRC-UNESCO-WHC-TN-2026",
-    "source_locator": "World Heritage property 38: small settlement of El Jem",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -28400,7 +28442,7 @@
     "schema_version": "1.0.0",
     "script": "Latn",
     "source_id": "SRC-UNESCO-WHC-TN-2026",
-    "source_locator": "World Heritage property 1732: Village of Sidi Bou Saïd",
+    "source_locator": "World Heritage property 1769: Village of Sidi Bou Saïd",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -33426,7 +33468,7 @@
     "schema_version": "1.0.0",
     "script": "Latn",
     "source_id": "SRC-UNESCO-IBN-KHALDUN",
-    "source_locator": "African Voices biographical passage: born in Tunis in 1332",
+    "source_locator": "UNESCO Courier, 1986-01, pp. 17–18; p. 17: Tunisian historian born in 1332",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -35022,7 +35064,7 @@
     "schema_version": "1.0.0",
     "script": "Latn",
     "source_id": "SRC-UNESCO-WHC-TN-2026",
-    "source_locator": "World Heritage property 1732: Village of Sidi Bou Saïd",
+    "source_locator": "World Heritage property 1769: Village of Sidi Bou Saïd",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -35498,7 +35540,7 @@
     "schema_version": "1.0.0",
     "script": "Latn",
     "source_id": "SRC-UNESCO-WHC-TN-2026",
-    "source_locator": "World Heritage property 1732",
+    "source_locator": "World Heritage property 1769",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -38424,7 +38466,7 @@
     "schema_version": "1.0.0",
     "script": "Latn",
     "source_id": "SRC-UNESCO-WHC-TN-2026",
-    "source_locator": "World Heritage property 1732",
+    "source_locator": "World Heritage property 1769",
     "status": "current",
     "valid_from": null,
     "valid_to": null
