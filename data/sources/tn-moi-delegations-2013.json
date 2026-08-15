@@ -11,6 +11,7 @@
   "notes": "Page reported a modification on the retrieval date but left temporal coverage blank. Its detailed table sums to 264; a separate official count page has shown later conflicting totals, so freshness requires reconciliation.",
   "publication_date": "2013-06-25",
   "publisher": "وزارة الداخلية التونسية — الإدارة العامة للشؤون الجهوية",
+  "quality_tier": "A",
   "retrieved_at": "2026-08-15",
   "schema_version": "1.0.0",
   "source_type": "official_dataset",

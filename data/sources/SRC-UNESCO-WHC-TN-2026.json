@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": null,
+  "country_codes": [
+    "TN"
+  ],
+  "id": "SRC-UNESCO-WHC-TN-2026",
+  "language": "ar-fr-en",
+  "license": "CC BY-SA 3.0 IGO for property descriptions",
+  "locator": "Tunisia State Party property list and individual property records",
+  "notes": "Publication date unavailable on the live list. Retrieved list contains ten inscribed properties including the Village of Sidi Bou Saïd (2026).",
+  "publication_date": null,
+  "publisher": "UNESCO World Heritage Centre",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "1.0.0",
+  "source_type": "institutional_dataset",
+  "title": "World Heritage List — Tunisia properties",
+  "url": "https://whc.unesco.org/en/statesparties/tn"
+}

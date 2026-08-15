@@ -6,9 +6,9 @@
 
 أي نسبة 100% أدناه مقيدة بالدولة والطبقة والمقام المؤرخ واللقطة والمصدر الظاهرة في الصف نفسه؛ ولا تمتد إلى طبقة أخرى.
 
-| الطبقة | تعريف المقام | المقام | مطابق | غير مطابق | مستبعد | مفقود | النسبة | تاريخ المقام | اللقطة | المصدر | مكتمل | سبب النقص |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| country_scope | ISO country entity in the project's 22-country scope | 1 | 1 | 0 | 0 | 0 | 100% | 2026-08-15 | SNP-MIGRATION-2026-08-15 | SRC-ISO-3166-1-2020 | نعم | — |
+| الطبقة | تعريف المقام | المقام | مطابق | غير مطابق | مستبعد | مفقود | النسبة | تاريخ اللقطة | اللقطة | المصدر | الترخيص | مكتمل | سبب النقص |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| country_scope | ISO country entity in the project's 22-country scope | 1 | 1 | 0 | 0 | 0 | 100% | 2026-08-15 | SNP-MIGRATION-2026-08-15 | SRC-ISO-3166-1-2020 | ISO copyright; reuse is subject to ISO terms of use | نعم | — |
 
 ## الكيانات
 
@@ -30,11 +30,15 @@ _لا توجد سجلات في المصدر المنظم._
 
 _لا توجد سجلات في المصدر المنظم._
 
+## جودة مصادر الادعاءات المنشورة
+
+ادعاءات A/B: 0 من 0 (0.00%).
+
 ## المصادر الذرية المستخدمة
 
-| المعرّف | العنوان | الناشر | تاريخ النشر | تاريخ الاسترجاع | الترخيص | الرابط |
-|---|---|---|---|---|---|---|
-| SRC-ISO-3166-1-2020 | ISO 3166-1:2020 — Codes for the representation of names of countries and their subdivisions — Part 1: Country code | International Organization for Standardization (ISO) | 2020-08 | 2026-08-15 | ISO copyright; reuse is subject to ISO terms of use | https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:ed-4:v1:en |
+| المعرّف | الفئة | العنوان | الناشر | تاريخ النشر | تاريخ الاسترجاع | الترخيص | الرابط |
+|---|---|---|---|---|---|---|---|
+| SRC-ISO-3166-1-2020 | A | ISO 3166-1:2020 — Codes for the representation of names of countries and their subdivisions — Part 1: Country code | International Organization for Standardization (ISO) | 2020-08 | 2026-08-15 | ISO copyright; reuse is subject to ISO terms of use | https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:ed-4:v1:en |
 
 ---
 _مولّد آليًا؛ لا تعدّل هذا الملف مباشرة._

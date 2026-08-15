@@ -20,5 +20,5 @@ jobs:
           python-version: "3.11"
       - name: Compile dependency-free tools
         run: python3 -m compileall -q scripts
-      - name: Run Phase 0 and Phase 1 gates
+      - name: Run Phase 0, Phase 1, and Tunisia Phase 2 gates
         run: make check

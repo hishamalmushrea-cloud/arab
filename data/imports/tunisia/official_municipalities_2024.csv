@@ -1,0 +1,351 @@
+governorate_code,municipality_code,official_name_ar,official_name_fr,research_mun_uid,mapping_review,latitude,longitude,source_locator
+11,1111,تونس,Tunis Ville,8,exact_or_high_confidence_label_match,36.803948,10.16645,January 2024 workbook row: governorate 11; municipality code 1111
+11,1112,باردو,Le Bardo,4,exact_or_high_confidence_label_match,36.810565,10.130842,January 2024 workbook row: governorate 11; municipality code 1112
+11,1113,الكرم,EL kram,5,exact_or_high_confidence_label_match,36.850494,10.29629,January 2024 workbook row: governorate 11; municipality code 1113
+11,1114,حلق الوادي,La Goulette,3,exact_or_high_confidence_label_match,36.834313,10.27815,January 2024 workbook row: governorate 11; municipality code 1114
+11,1115,قرطاج,Carthage,2,exact_or_high_confidence_label_match,36.855812,10.324494,January 2024 workbook row: governorate 11; municipality code 1115
+11,1116,سيدي بوسعيد,Sidi Bou Said,1,exact_or_high_confidence_label_match,36.871725,10.343223,January 2024 workbook row: governorate 11; municipality code 1116
+11,1117,المرسي,La Marsa,6,exact_or_high_confidence_label_match,36.895871,10.297757,January 2024 workbook row: governorate 11; municipality code 1117
+11,1118,سيدي حسين,Sidi Hassine,7,exact_or_high_confidence_label_match,36.738499,10.092673,January 2024 workbook row: governorate 11; municipality code 1118
+12,1211,اريانة,Ariana,14,exact_or_high_confidence_label_match,36.86474,10.169165,January 2024 workbook row: governorate 12; municipality code 1211
+12,1212,سكرة,Soukra,15,exact_or_high_confidence_label_match,36.87812,10.230881,January 2024 workbook row: governorate 12; municipality code 1212
+12,1213,رواد,Raoued,13,exact_or_high_confidence_label_match,36.929411,10.170922,January 2024 workbook row: governorate 12; municipality code 1213
+12,1214,الجبل الأحمر - حي التحرير,Kalaat El Andalos,10,exact_or_high_confidence_label_match,37.015309,10.129395,January 2024 workbook row: governorate 12; municipality code 1214
+12,1215,سيدي ثابت,Sidi Thabet,9,exact_or_high_confidence_label_match,36.90966,10.048566,January 2024 workbook row: governorate 12; municipality code 1215
+12,1216,التضامن,Ettadhamen,11,exact_or_high_confidence_label_match,36.834476,10.105676,January 2024 workbook row: governorate 12; municipality code 1216
+12,1217,المنيھلة,El Mnihla,12,exact_or_high_confidence_label_match,36.864693,10.111847,January 2024 workbook row: governorate 12; municipality code 1217
+13,1311,بن عروس,Ben Arous,27,exact_or_high_confidence_label_match,36.742642,10.237428,January 2024 workbook row: governorate 13; municipality code 1311
+13,1312,المروج,El Mourouj,28,exact_or_high_confidence_label_match,36.718347,10.216022,January 2024 workbook row: governorate 13; municipality code 1312
+13,1313,حمام الانف,Hammam Lif,23,exact_or_high_confidence_label_match,36.718564,10.336134,January 2024 workbook row: governorate 13; municipality code 1313
+13,1314,حمام الشط,Hammam Chott,19,exact_or_high_confidence_label_match,36.688766,10.379855,January 2024 workbook row: governorate 13; municipality code 1314
+13,1315,بومھل البساتين,Bou Mhel El Bassatine,21,exact_or_high_confidence_label_match,36.719439,10.291315,January 2024 workbook row: governorate 13; municipality code 1315
+13,1316,الزھراء,Ez-Zahra,20,exact_or_high_confidence_label_match,36.745388,10.301611,January 2024 workbook row: governorate 13; municipality code 1316
+13,1317,رادس,Rades,25,exact_or_high_confidence_label_match,36.774184,10.275622,January 2024 workbook row: governorate 13; municipality code 1317
+13,1318,مقرين,Megrine,17,exact_or_high_confidence_label_match,36.774089,10.236606,January 2024 workbook row: governorate 13; municipality code 1318
+13,1319,المحمدية,Mhamedia,26,exact_or_high_confidence_label_match,36.648093,10.119325,January 2024 workbook row: governorate 13; municipality code 1319
+13,1320,مرناق,Mornag,22,exact_or_high_confidence_label_match,36.595019,10.310242,January 2024 workbook row: governorate 13; municipality code 1320
+13,1321,الخليدية,Khelidia,16,exact_or_high_confidence_label_match,36.586359,10.217283,January 2024 workbook row: governorate 13; municipality code 1321
+13,1322,فوشانة,Fouchana,24,exact_or_high_confidence_label_match,36.707606,10.171152,January 2024 workbook row: governorate 13; municipality code 1322
+13,1323,نعسان,Naassen,18,exact_or_high_confidence_label_match,36.67916,10.22152,January 2024 workbook row: governorate 13; municipality code 1323
+14,1411,منوبة,Mannouba,34,exact_or_high_confidence_label_match,36.810106,10.080715,January 2024 workbook row: governorate 14; municipality code 1411
+14,1412,الدندان,Denden,32,exact_or_high_confidence_label_match,36.810548,10.111717,January 2024 workbook row: governorate 14; municipality code 1412
+14,1413,دوار ھيشر,Douar Hicher,38,exact_or_high_confidence_label_match,36.833199,10.08298,January 2024 workbook row: governorate 14; municipality code 1413
+14,1414,وادي الليل,Oued Ellil,37,exact_or_high_confidence_label_match,36.82789,10.025535,January 2024 workbook row: governorate 14; municipality code 1414
+14,1415,المرناقية,Mornaguia,33,exact_or_high_confidence_label_match,36.705226,10.031966,January 2024 workbook row: governorate 14; municipality code 1415
+14,1416,برج العامري,Borj El Amri,30,exact_or_high_confidence_label_match,36.680434,9.853195,January 2024 workbook row: governorate 14; municipality code 1416
+14,1417,الدندان,Djedaida,36,exact_or_high_confidence_label_match,36.863034,9.924573,January 2024 workbook row: governorate 14; municipality code 1417
+14,1418,طبربة,Tebourba,35,exact_or_high_confidence_label_match,36.858009,9.746091,January 2024 workbook row: governorate 14; municipality code 1418
+14,1419,البطان,El Battan,31,exact_or_high_confidence_label_match,36.775488,9.763913,January 2024 workbook row: governorate 14; municipality code 1419
+14,1420,البساتين,El Bassatine,29,exact_or_high_confidence_label_match,36.683973,9.946518,January 2024 workbook row: governorate 14; municipality code 1420
+15,1511,نابل,Nabeul,65,exact_or_high_confidence_label_match,36.478667,10.680073,January 2024 workbook row: governorate 15; municipality code 1511
+15,1512,دار شعبان الفهري,Dar Chaabane El Fehri,61,exact_or_high_confidence_label_match,36.523979,10.701684,January 2024 workbook row: governorate 15; municipality code 1512
+15,1513,بني خيار,Beni Khiar,53,exact_or_high_confidence_label_match,36.507987,10.766252,January 2024 workbook row: governorate 15; municipality code 1513
+15,1514,المعمورة,El Mâamoura,45,exact_or_high_confidence_label_match,36.484653,10.812542,January 2024 workbook row: governorate 15; municipality code 1514
+15,1515,الصمعة,Somaâ,41,exact_or_high_confidence_label_match,36.558511,10.763242,January 2024 workbook row: governorate 15; municipality code 1515
+15,1516,قربة,Korba,64,exact_or_high_confidence_label_match,36.628295,10.806305,January 2024 workbook row: governorate 15; municipality code 1516
+15,1517,تازركة,Tazarka,42,reviewed_label_match,36.541663,10.829159,January 2024 workbook row: governorate 15; municipality code 1517
+15,1518,منزل تميم,Menzel Temime,63,exact_or_high_confidence_label_match,36.818733,10.907726,January 2024 workbook row: governorate 15; municipality code 1518
+15,1519,منزل حر,Menzel Horr,50,exact_or_high_confidence_label_match,36.7531,10.925376,January 2024 workbook row: governorate 15; municipality code 1519
+15,1520,الميدة,El Mida,56,exact_or_high_confidence_label_match,36.720772,10.84955,January 2024 workbook row: governorate 15; municipality code 1520
+15,1521,قليبية,Kelibia,62,exact_or_high_confidence_label_match,36.846241,11.050965,January 2024 workbook row: governorate 15; municipality code 1521
+15,1522,ازمور,Azmour,44,exact_or_high_confidence_label_match,36.912571,10.992994,January 2024 workbook row: governorate 15; municipality code 1522
+15,1523,حمام الأغزام,Hammam El Guezaz,43,exact_or_high_confidence_label_match,36.886406,11.085883,January 2024 workbook row: governorate 15; municipality code 1523
+15,1524,دار علوش,Dar Allouch,40,exact_or_high_confidence_label_match,36.957439,11.059343,January 2024 workbook row: governorate 15; municipality code 1524
+15,1525,الھوارية,El Haouaria,54,exact_or_high_confidence_label_match,37.012672,10.982821,January 2024 workbook row: governorate 15; municipality code 1525
+15,1526,تاكلسة,Takelsa,51,exact_or_high_confidence_label_match,36.810052,10.683275,January 2024 workbook row: governorate 15; municipality code 1526
+15,1527,سليمان,Soliman,58,exact_or_high_confidence_label_match,36.714664,10.480322,January 2024 workbook row: governorate 15; municipality code 1527
+15,1528,قربص,Korbous,39,exact_or_high_confidence_label_match,36.774709,10.574925,January 2024 workbook row: governorate 15; municipality code 1528
+15,1529,منزل بوزلفة,Menzel Bou Zelfa,59,exact_or_high_confidence_label_match,36.698163,10.66997,January 2024 workbook row: governorate 15; municipality code 1529
+15,1530,بني خلاد,Beni Khalled,55,exact_or_high_confidence_label_match,36.634288,10.654183,January 2024 workbook row: governorate 15; municipality code 1530
+15,1531,زاوية الجديدي,Zaouiet Djedidi,46,exact_or_high_confidence_label_match,36.617722,10.586534,January 2024 workbook row: governorate 15; municipality code 1531
+15,1532,قرنبالية,Grombalia,60,exact_or_high_confidence_label_match,36.557355,10.462808,January 2024 workbook row: governorate 15; municipality code 1532
+15,1533,بوعرقوب,Bou Argoub,57,exact_or_high_confidence_label_match,36.530056,10.57926,January 2024 workbook row: governorate 15; municipality code 1533
+15,1534,الحمامات,Hammamet,66,exact_or_high_confidence_label_match,36.427532,10.577481,January 2024 workbook row: governorate 15; municipality code 1534
+15,1535,فندق الجديد - سلتان,Fondek Ejedid - Es Selten,52,reviewed_label_match,36.627433,10.422608,January 2024 workbook row: governorate 15; municipality code 1535
+15,1536,تزغران بوكريم زاوية المقايز,Tazegrane Boukrim Zaouiet Mgaiez,49,reviewed_label_match,36.911387,10.866703,January 2024 workbook row: governorate 15; municipality code 1536
+15,1537,سيدي الجديدي,Sidi Jedidi,48,exact_or_high_confidence_label_match,36.436277,10.437718,January 2024 workbook row: governorate 15; municipality code 1537
+15,1538,الشريفات / بوشراي,Echerifet Boucharray,47,exact_or_high_confidence_label_match,36.684786,10.528445,January 2024 workbook row: governorate 15; municipality code 1538
+16,1611,زغوان‎,Zaghouan,74,exact_or_high_confidence_label_match,36.414703,10.180613,January 2024 workbook row: governorate 16; municipality code 1611
+16,1612,الزريبة,Ez-Zeriba,71,exact_or_high_confidence_label_match,36.307341,10.237372,January 2024 workbook row: governorate 16; municipality code 1612
+16,1613,بئر مشارقة,Bir Mchergua,70,exact_or_high_confidence_label_match,36.487461,9.935114,January 2024 workbook row: governorate 16; municipality code 1613
+16,1614,رواد,Jebel Oust,67,exact_or_high_confidence_label_match,36.561483,10.050317,January 2024 workbook row: governorate 16; municipality code 1614
+16,1615,الفحص,El Fahs,73,exact_or_high_confidence_label_match,36.349008,9.921019,January 2024 workbook row: governorate 16; municipality code 1615
+16,1616,الناظور,En-Nadhour,72,exact_or_high_confidence_label_match,36.117378,9.985995,January 2024 workbook row: governorate 16; municipality code 1616
+16,1617,صواف,Saouaf,69,exact_or_high_confidence_label_match,36.207238,10.149527,January 2024 workbook row: governorate 16; municipality code 1617
+16,1618,العمايم,El Amaiem,68,exact_or_high_confidence_label_match,36.246104,9.796956,January 2024 workbook row: governorate 16; municipality code 1618
+17,1711,بنزرت,Bizerte,91,exact_or_high_confidence_label_match,37.264102,9.670925,January 2024 workbook row: governorate 17; municipality code 1711
+17,1712,سجنان,Sedjnane,82,exact_or_high_confidence_label_match,37.111728,9.186458,January 2024 workbook row: governorate 17; municipality code 1712
+17,1713,ماطر,Mateur,89,exact_or_high_confidence_label_match,36.983795,9.668903,January 2024 workbook row: governorate 17; municipality code 1713
+17,1714,منزل بورقيبة,Menzel Bourguiba,90,exact_or_high_confidence_label_match,37.107223,9.844366,January 2024 workbook row: governorate 17; municipality code 1714
+17,1715,العمران الأعلى,Tinja,83,exact_or_high_confidence_label_match,37.119292,9.723297,January 2024 workbook row: governorate 17; municipality code 1715
+17,1716,غار الملح,Ghar El Meleh,75,exact_or_high_confidence_label_match,37.168525,10.169924,January 2024 workbook row: governorate 17; municipality code 1716
+17,1717,عوسجة,Ousja,76,exact_or_high_confidence_label_match,37.152189,10.067388,January 2024 workbook row: governorate 17; municipality code 1717
+17,1718,منزل جميل,Menzel Djemil,86,exact_or_high_confidence_label_match,37.214564,9.95775,January 2024 workbook row: governorate 17; municipality code 1718
+17,1719,منزل عبد الرحمان,Menzel Abderrahmen,80,exact_or_high_confidence_label_match,37.237671,9.859766,January 2024 workbook row: governorate 17; municipality code 1719
+17,1720,العالية,El Alia,85,exact_or_high_confidence_label_match,37.154537,9.99474,January 2024 workbook row: governorate 17; municipality code 1720
+17,1721,راس الجبل,Ras El Djebel,88,exact_or_high_confidence_label_match,37.217102,10.114019,January 2024 workbook row: governorate 17; municipality code 1721
+17,1722,ماتلين,Metline,78,exact_or_high_confidence_label_match,37.235422,10.044445,January 2024 workbook row: governorate 17; municipality code 1722
+17,1723,رفراف,Rafraf,77,exact_or_high_confidence_label_match,37.192889,10.182415,January 2024 workbook row: governorate 17; municipality code 1723
+17,1724,اوتيك,Utique,81,exact_or_high_confidence_label_match,37.029973,9.974881,January 2024 workbook row: governorate 17; municipality code 1724
+17,1725,جومين,Joumine,87,exact_or_high_confidence_label_match,36.89429,9.397986,January 2024 workbook row: governorate 17; municipality code 1725
+17,1726,غزالة,Ghzala,84,exact_or_high_confidence_label_match,37.083722,9.488999,January 2024 workbook row: governorate 17; municipality code 1726
+17,1727,الحشاشنة,El Hchachna,79,exact_or_high_confidence_label_match,37.161801,9.351588,January 2024 workbook row: governorate 17; municipality code 1727
+21,2111,باجة,Béja,103,exact_or_high_confidence_label_match,36.800283,9.238899,January 2024 workbook row: governorate 21; municipality code 2111
+21,2112,المعقولة,El Mâagoula,95,exact_or_high_confidence_label_match,36.674396,9.202736,January 2024 workbook row: governorate 21; municipality code 2112
+21,2113,زھرة مدين,Zahret Medien,97,exact_or_high_confidence_label_match,36.792966,9.035551,January 2024 workbook row: governorate 21; municipality code 2113
+21,2114,نفزة,Nefza,100,exact_or_high_confidence_label_match,37.036854,9.041225,January 2024 workbook row: governorate 21; municipality code 2114
+21,2115,تبرسق,Teboursouk,99,exact_or_high_confidence_label_match,36.452781,9.232285,January 2024 workbook row: governorate 21; municipality code 2115
+21,2116,تستور,Testour,101,exact_or_high_confidence_label_match,36.577323,9.397067,January 2024 workbook row: governorate 21; municipality code 2116
+21,2117,قبلاط,Goubellat,96,exact_or_high_confidence_label_match,36.529259,9.691234,January 2024 workbook row: governorate 21; municipality code 2117
+21,2118,مجاز الباب,Medjez El Bab,102,exact_or_high_confidence_label_match,36.698458,9.617382,January 2024 workbook row: governorate 21; municipality code 2118
+21,2119,تيبار,Tibar,94,exact_or_high_confidence_label_match,36.507175,9.095985,January 2024 workbook row: governorate 21; municipality code 2119
+21,2120,وشتاتة الجميلة,Ouechtata - El Jamila,98,reviewed_label_match,36.925219,9.099247,January 2024 workbook row: governorate 21; municipality code 2120
+21,2121,سيدي اسماعيل,Sidi Ismail,93,exact_or_high_confidence_label_match,36.59797,9.159799,January 2024 workbook row: governorate 21; municipality code 2121
+21,2122,السلوقية,Slouguia,92,reviewed_label_match,36.601352,9.514829,January 2024 workbook row: governorate 21; municipality code 2122
+22,2211,جندوبة,Jendouba,117,exact_or_high_confidence_label_match,36.512462,8.716487,January 2024 workbook row: governorate 22; municipality code 2211
+22,2212,بوسالم,Bou Salem,115,exact_or_high_confidence_label_match,36.559376,8.975012,January 2024 workbook row: governorate 22; municipality code 2212
+22,2213,طبرقة,Tabarka,113,exact_or_high_confidence_label_match,36.91072,8.737608,January 2024 workbook row: governorate 22; municipality code 2213
+22,2214,عين دراھم,Ain Draham,110,exact_or_high_confidence_label_match,36.798553,8.765431,January 2024 workbook row: governorate 22; municipality code 2214
+22,2215,فرنانة,Fernana,111,exact_or_high_confidence_label_match,36.640929,8.681386,January 2024 workbook row: governorate 22; municipality code 2215
+22,2216,بني مطير,Beni Mtir,104,exact_or_high_confidence_label_match,36.6979,8.743907,January 2024 workbook row: governorate 22; municipality code 2216
+22,2217,غار الدماء,Ghardimaou,116,exact_or_high_confidence_label_match,36.466365,8.359276,January 2024 workbook row: governorate 22; municipality code 2217
+22,2218,وادي مليز,Oued Meliz,109,exact_or_high_confidence_label_match,36.464571,8.569912,January 2024 workbook row: governorate 22; municipality code 2218
+22,2219,بلطة بوعوان,Balta -Bouaouene,112,exact_or_high_confidence_label_match,36.691804,8.911161,January 2024 workbook row: governorate 22; municipality code 2219
+22,2220,سوق السبت,Souk Es-Sabet,114,reviewed_label_match,36.485412,8.877727,January 2024 workbook row: governorate 22; municipality code 2220
+22,2221,القلعة المعدن فرقصان,El Golaa - El Maaden -Forgassen,106,exact_or_high_confidence_label_match,36.56288,8.438077,January 2024 workbook row: governorate 22; municipality code 2221
+22,2222,الجواودة,Jaouaouada,108,exact_or_high_confidence_label_match,36.640484,8.538316,January 2024 workbook row: governorate 22; municipality code 2222
+22,2223,طبرقة الجديدة,Tabarka Nouvelle,105,explicit_reviewed_residual,36.74205,8.569903,January 2024 workbook row: governorate 22; municipality code 2223
+22,2224,حمام بورقيبة,Hammem Bourguiba,107,explicit_reviewed_residual,36.902914,8.887981,January 2024 workbook row: governorate 22; municipality code 2224
+23,2311,الكاف,Le Kef,132,exact_or_high_confidence_label_match,36.148754,8.631014,January 2024 workbook row: governorate 23; municipality code 2311
+23,2312,نبر,Nebeur,125,exact_or_high_confidence_label_match,36.32038,8.779318,January 2024 workbook row: governorate 23; municipality code 2312
+23,2313,الطويرف,Touiref,120,exact_or_high_confidence_label_match,36.346541,8.626097,January 2024 workbook row: governorate 23; municipality code 2313
+23,2314,ساقية سيدي يوسف,Sakiet Sidi Youssef,128,exact_or_high_confidence_label_match,36.179732,8.437737,January 2024 workbook row: governorate 23; municipality code 2314
+23,2315,تاجروين,Tajerouine,130,exact_or_high_confidence_label_match,35.963581,8.552462,January 2024 workbook row: governorate 23; municipality code 2315
+23,2316,منزل سالم,Menzel Salem,122,exact_or_high_confidence_label_match,35.850892,8.476028,January 2024 workbook row: governorate 23; municipality code 2316
+23,2317,قلعة سنان,Kalâat Snan,127,exact_or_high_confidence_label_match,35.80175,8.369563,January 2024 workbook row: governorate 23; municipality code 2317
+23,2318,القلعة الخصباء,Kalâat Khasba,121,exact_or_high_confidence_label_match,35.71625,8.534199,January 2024 workbook row: governorate 23; municipality code 2318
+23,2319,الجريصة,Djerissa,123,exact_or_high_confidence_label_match,35.823216,8.648232,January 2024 workbook row: governorate 23; municipality code 2319
+23,2320,القصور,El Ksour,126,exact_or_high_confidence_label_match,35.834153,8.95636,January 2024 workbook row: governorate 23; municipality code 2320
+23,2321,الدهماني,Dahmani,131,exact_or_high_confidence_label_match,35.949357,8.816239,January 2024 workbook row: governorate 23; municipality code 2321
+23,2322,السرس,Es-Sers,129,exact_or_high_confidence_label_match,36.081898,8.960195,January 2024 workbook row: governorate 23; municipality code 2322
+23,2323,الزعفران دير الكاف,Zâafrane - Dyr El Kef,124,exact_or_high_confidence_label_match,36.180217,8.874101,January 2024 workbook row: governorate 23; municipality code 2323
+23,2324,بھرة,Bahra,119,exact_or_high_confidence_label_match,36.302617,8.896294,January 2024 workbook row: governorate 23; municipality code 2324
+23,2325,المرجي,El Marja,118,exact_or_high_confidence_label_match,36.015993,9.089672,January 2024 workbook row: governorate 23; municipality code 2325
+24,2411,سليانة‎,Siliana,144,exact_or_high_confidence_label_match,36.049734,9.308901,January 2024 workbook row: governorate 24; municipality code 2411
+24,2412,بوعرادة,Bou Arada,142,exact_or_high_confidence_label_match,36.321602,9.623149,January 2024 workbook row: governorate 24; municipality code 2412
+24,2413,قعفور,Gaâfour,139,exact_or_high_confidence_label_match,36.23313,9.343804,January 2024 workbook row: governorate 24; municipality code 2413
+24,2414,الكريب,El Krib,141,exact_or_high_confidence_label_match,36.343114,9.079921,January 2024 workbook row: governorate 24; municipality code 2414
+24,2415,سيدي بورويس,Sidi Bourouis,136,exact_or_high_confidence_label_match,36.185595,9.134929,January 2024 workbook row: governorate 24; municipality code 2415
+24,2416,مكتر‎,Makthar,143,exact_or_high_confidence_label_match,35.857787,9.161687,January 2024 workbook row: governorate 24; municipality code 2416
+24,2417,الروحية,Er-Rouhia,140,exact_or_high_confidence_label_match,35.701967,9.114437,January 2024 workbook row: governorate 24; municipality code 2417
+24,2418,‫كسري,Kesra,138,exact_or_high_confidence_label_match,35.790116,9.382059,January 2024 workbook row: governorate 24; municipality code 2418
+24,2419,برقو,Bargou,135,exact_or_high_confidence_label_match,36.102579,9.616342,January 2024 workbook row: governorate 24; municipality code 2419
+24,2420,العروسة,El Aroussa,134,exact_or_high_confidence_label_match,36.365304,9.460467,January 2024 workbook row: governorate 24; municipality code 2420
+24,2421,سيدي مرشد,Sidi Morched,137,exact_or_high_confidence_label_match,35.94982,9.419068,January 2024 workbook row: governorate 24; municipality code 2421
+24,2422,الحبابسة,El Hababsa,133,exact_or_high_confidence_label_match,35.582673,9.304576,January 2024 workbook row: governorate 24; municipality code 2422
+31,3111,سوسة,Sousse,162,exact_or_high_confidence_label_match,35.816614,10.623241,January 2024 workbook row: governorate 31; municipality code 3111
+31,3112,القصيبة الثريات,Ksibet Sousse et Thrayet,147,reviewed_label_match,35.758199,10.640578,January 2024 workbook row: governorate 31; municipality code 3112
+31,3113,الزھور,Ezzouhour,160,exact_or_high_confidence_label_match,35.79236,10.573964,January 2024 workbook row: governorate 31; municipality code 3113
+31,3114,المسعدين,Zaouiet Sousse,152,exact_or_high_confidence_label_match,35.785005,10.61872,January 2024 workbook row: governorate 31; municipality code 3114
+31,3115,حمام سوسة,Hammam Sousse,158,exact_or_high_confidence_label_match,35.870602,10.586657,January 2024 workbook row: governorate 31; municipality code 3115
+31,3116,اكودة,Akouda,155,exact_or_high_confidence_label_match,35.883198,10.560745,January 2024 workbook row: governorate 31; municipality code 3116
+31,3117,القلعة الكبري,Kalâa Kébira,159,exact_or_high_confidence_label_match,35.869712,10.430094,January 2024 workbook row: governorate 31; municipality code 3117
+31,3118,سيدي بوعلي,Sidi Bou Ali,151,exact_or_high_confidence_label_match,35.969459,10.41825,January 2024 workbook row: governorate 31; municipality code 3118
+31,3119,هرقلة,Hergla,146,exact_or_high_confidence_label_match,36.027973,10.453348,January 2024 workbook row: governorate 31; municipality code 3119
+31,3120,النفيضة,Enfidha,156,exact_or_high_confidence_label_match,36.120449,10.362302,January 2024 workbook row: governorate 31; municipality code 3120
+31,3121,بوفيشة,Bouficha,154,exact_or_high_confidence_label_match,36.275803,10.424761,January 2024 workbook row: governorate 31; municipality code 3121
+31,3122,سيدي الھاني,Sidi El Heni,149,exact_or_high_confidence_label_match,35.711916,10.316621,January 2024 workbook row: governorate 31; municipality code 3122
+31,3123,مساكن,MSaken,161,exact_or_high_confidence_label_match,35.696225,10.52093,January 2024 workbook row: governorate 31; municipality code 3123
+31,3124,القلعة الصغري,Kalâa Seghira,157,exact_or_high_confidence_label_match,35.79992,10.476672,January 2024 workbook row: governorate 31; municipality code 3124
+31,3125,المسعدين,Messâdine,148,exact_or_high_confidence_label_match,35.764,10.600657,January 2024 workbook row: governorate 31; municipality code 3125
+31,3126,كندار,Kandar,150,exact_or_high_confidence_label_match,35.916004,10.258225,January 2024 workbook row: governorate 31; municipality code 3126
+31,3127,القريمات ھيشر,Gerimet Hicher,153,exact_or_high_confidence_label_match,36.09926,10.250273,January 2024 workbook row: governorate 31; municipality code 3127
+31,3128,شط مريم,Chott Meriam,145,exact_or_high_confidence_label_match,35.938226,10.534811,January 2024 workbook row: governorate 31; municipality code 3128
+32,3211,المنستير,Monastir,193,exact_or_high_confidence_label_match,35.759881,10.778976,January 2024 workbook row: governorate 32; municipality code 3211
+32,3212,خنيس,Khenis,178,exact_or_high_confidence_label_match,35.71985,10.791109,January 2024 workbook row: governorate 32; municipality code 3212
+32,3213,الوردانين,Ouerdanine,188,exact_or_high_confidence_label_match,35.699326,10.670813,January 2024 workbook row: governorate 32; municipality code 3213
+32,3214,الساحلين معتمر,Sahline Môotmar,187,exact_or_high_confidence_label_match,35.742472,10.716535,January 2024 workbook row: governorate 32; municipality code 3214
+32,3215,سيدي عامر و مسجد عيسى,Sidi Ameur Mesjed Issa,176,exact_or_high_confidence_label_match,35.723904,10.710321,January 2024 workbook row: governorate 32; municipality code 3215
+32,3216,زرمدين,Zermadine,185,exact_or_high_confidence_label_match,35.562317,10.695473,January 2024 workbook row: governorate 32; municipality code 3216
+32,3217,بني حسان,Beni Hassen,177,exact_or_high_confidence_label_match,35.558859,10.812909,January 2024 workbook row: governorate 32; municipality code 3217
+32,3218,غنادة,Ghnada,167,exact_or_high_confidence_label_match,35.510015,10.727572,January 2024 workbook row: governorate 32; municipality code 3218
+32,3219,جمال,Djammel,191,reviewed_label_match,35.603755,10.767561,January 2024 workbook row: governorate 32; municipality code 3219
+32,3220,منزل كامل,Menzel Kamel,175,exact_or_high_confidence_label_match,35.622625,10.64924,January 2024 workbook row: governorate 32; municipality code 3220
+32,3221,زاوية قنطش,Zouiet Kontoch,172,exact_or_high_confidence_label_match,35.644698,10.762617,January 2024 workbook row: governorate 32; municipality code 3221
+32,3222,بنبلـة و المنارة,Bembla Manara,184,exact_or_high_confidence_label_match,35.688356,10.784691,January 2024 workbook row: governorate 32; municipality code 3222
+32,3223,منزل نور,Menzel En-Nour,179,exact_or_high_confidence_label_match,35.663807,10.77126,January 2024 workbook row: governorate 32; municipality code 3223
+32,3224,المصدور/ منزل حرب,EL Masdour,166,exact_or_high_confidence_label_match,35.684475,10.736276,January 2024 workbook row: governorate 32; municipality code 3224
+32,3225,المكنين,Moknine,192,exact_or_high_confidence_label_match,35.597223,10.896432,January 2024 workbook row: governorate 32; municipality code 3225
+32,3226,سيدي بنور,Sidi Bennour,165,exact_or_high_confidence_label_match,35.526796,10.904207,January 2024 workbook row: governorate 32; municipality code 3226
+32,3227,منزل فارسي,Menzel Farsi,163,exact_or_high_confidence_label_match,35.560206,10.863984,January 2024 workbook row: governorate 32; municipality code 3227
+32,3228,عميرة الفحول,Amiret El Fhoul,168,exact_or_high_confidence_label_match,35.457528,10.816364,January 2024 workbook row: governorate 32; municipality code 3228
+32,3229,عميرة التوازرة,Amiret Touazra,171,exact_or_high_confidence_label_match,35.476659,10.764541,January 2024 workbook row: governorate 32; municipality code 3229
+32,3230,عميرة الحجاج,Amirat Hojjaj,174,reviewed_label_match,35.502464,10.813222,January 2024 workbook row: governorate 32; municipality code 3230
+32,3231,الشراحيل,Cherahil,164,exact_or_high_confidence_label_match,35.509546,10.858427,January 2024 workbook row: governorate 32; municipality code 3231
+32,3232,بقالطة,Bekalta,186,exact_or_high_confidence_label_match,35.600833,11.010795,January 2024 workbook row: governorate 32; municipality code 3232
+32,3233,طبلبة,Teboulba,189,exact_or_high_confidence_label_match,35.639918,10.957132,January 2024 workbook row: governorate 32; municipality code 3233
+32,3234,قصر ھلال,Ksar Helal,190,exact_or_high_confidence_label_match,35.640739,10.869948,January 2024 workbook row: governorate 32; municipality code 3234
+32,3235,قصيبة المديوني,Ksibt El Mediouni,182,exact_or_high_confidence_label_match,35.68614,10.838517,January 2024 workbook row: governorate 32; municipality code 3235
+32,3236,بنان بوضر,Benen Bodher,183,exact_or_high_confidence_label_match,35.663545,10.824164,January 2024 workbook row: governorate 32; municipality code 3236
+32,3237,طوزة,Touza,173,exact_or_high_confidence_label_match,35.623347,10.8307,January 2024 workbook row: governorate 32; municipality code 3237
+32,3238,صيادة,Sayada,181,exact_or_high_confidence_label_match,35.662245,10.908009,January 2024 workbook row: governorate 32; municipality code 3238
+32,3239,لمطة,Lamta,169,exact_or_high_confidence_label_match,35.670432,10.879461,January 2024 workbook row: governorate 32; municipality code 3239
+32,3240,بوحجر,Bou-Hajar,170,exact_or_high_confidence_label_match,35.669288,10.863731,January 2024 workbook row: governorate 32; municipality code 3240
+32,3241,منزل حياة,Menzel Hayet,180,exact_or_high_confidence_label_match,35.546088,10.568653,January 2024 workbook row: governorate 32; municipality code 3241
+33,3311,المهدية,Mahdia,211,exact_or_high_confidence_label_match,35.508679,10.994298,January 2024 workbook row: governorate 33; municipality code 3311
+33,3312,الرجيش,Réjiche,194,exact_or_high_confidence_label_match,35.459375,11.022007,January 2024 workbook row: governorate 33; municipality code 3312
+33,3313,بومرداس,Bou Merdes,199,exact_or_high_confidence_label_match,35.427911,10.748361,January 2024 workbook row: governorate 33; municipality code 3313
+33,3314,اولاد الشامخ,Ouled Chamekh,204,exact_or_high_confidence_label_match,35.4567,10.310257,January 2024 workbook row: governorate 33; municipality code 3314
+33,3315,شربان,Chorbane,207,exact_or_high_confidence_label_match,35.219295,10.422603,January 2024 workbook row: governorate 33; municipality code 3315
+33,3316,ھبيرة,Hebira,195,exact_or_high_confidence_label_match,35.271754,10.259811,January 2024 workbook row: governorate 33; municipality code 3316
+33,3317,السواسي,Essouassi,208,exact_or_high_confidence_label_match,35.324871,10.564784,January 2024 workbook row: governorate 33; municipality code 3317
+33,3318,الجمّ,El Djem,209,exact_or_high_confidence_label_match,35.290593,10.680021,January 2024 workbook row: governorate 33; municipality code 3318
+33,3319,سيدي زيد - أولاد مولاهم,Kerker,200,exact_or_high_confidence_label_match,35.427412,10.648903,January 2024 workbook row: governorate 33; municipality code 3319
+33,3320,الشابة,Chebba,205,exact_or_high_confidence_label_match,35.243669,11.056776,January 2024 workbook row: governorate 33; municipality code 3320
+33,3321,ملولش,Melloulech,203,exact_or_high_confidence_label_match,35.171197,10.981691,January 2024 workbook row: governorate 33; municipality code 3321
+33,3322,سيدي علوان,Sidi Alouane,206,exact_or_high_confidence_label_match,35.369315,10.874895,January 2024 workbook row: governorate 33; municipality code 3322
+33,3323,قصور الساف,Ksour Essef,210,exact_or_high_confidence_label_match,35.417883,10.961823,January 2024 workbook row: governorate 33; municipality code 3323
+33,3324,البرادعة,El Bradâa,201,exact_or_high_confidence_label_match,35.323569,10.982582,January 2024 workbook row: governorate 33; municipality code 3324
+33,3325,سيدي زيد اولاد مولاھم,Sidi Zid-Ouled Moulahem,202,exact_or_high_confidence_label_match,35.373045,10.456762,January 2024 workbook row: governorate 33; municipality code 3325
+33,3326,الحكائمة,El Hekaima,198,exact_or_high_confidence_label_match,35.471019,10.901168,January 2024 workbook row: governorate 33; municipality code 3326
+33,3327,تلالسة,Talalsa,197,reviewed_label_match,35.324296,10.782386,January 2024 workbook row: governorate 33; municipality code 3327
+33,3328,زالبة,Zalba,196,exact_or_high_confidence_label_match,35.248312,10.875157,January 2024 workbook row: governorate 33; municipality code 3328
+34,3411,صفاقس,Sfax,234,exact_or_high_confidence_label_match,34.755457,10.769119,January 2024 workbook row: governorate 34; municipality code 3411
+34,3412,ساقية الزيت,Sakiet Ezzit,233,exact_or_high_confidence_label_match,34.870877,10.736418,January 2024 workbook row: governorate 34; municipality code 3412
+34,3413,شيحية,Chihia,220,exact_or_high_confidence_label_match,34.796592,10.740205,January 2024 workbook row: governorate 34; municipality code 3413
+34,3414,ساقية الداير,Sakiet Eddaier,232,exact_or_high_confidence_label_match,34.848233,10.812712,January 2024 workbook row: governorate 34; municipality code 3414
+34,3415,قرمدة,Gremda,228,exact_or_high_confidence_label_match,34.788706,10.720613,January 2024 workbook row: governorate 34; municipality code 3415
+34,3416,العين,El ain,230,exact_or_high_confidence_label_match,34.769928,10.696604,January 2024 workbook row: governorate 34; municipality code 3416
+34,3417,طينة,Tina,231,exact_or_high_confidence_label_match,34.669499,10.695819,January 2024 workbook row: governorate 34; municipality code 3417
+34,3418,عقارب‎,Agareb,229,exact_or_high_confidence_label_match,34.744788,10.449226,January 2024 workbook row: governorate 34; municipality code 3418
+34,3419,جبنيانة,Djebeniana,222,exact_or_high_confidence_label_match,35.089034,10.878347,January 2024 workbook row: governorate 34; municipality code 3419
+34,3420,الحنشة,El Hencha,224,exact_or_high_confidence_label_match,35.158906,10.716028,January 2024 workbook row: governorate 34; municipality code 3420
+34,3421,منزل شاكر,Menzel Chaker,218,exact_or_high_confidence_label_match,34.981469,10.32632,January 2024 workbook row: governorate 34; municipality code 3421
+34,3422,الغريبة,El Gheraiba,213,exact_or_high_confidence_label_match,34.50135,10.217839,January 2024 workbook row: governorate 34; municipality code 3422
+34,3423,بئر علي بن خليفة,Bir Ali Ben Khelifa,223,exact_or_high_confidence_label_match,34.647996,10.04361,January 2024 workbook row: governorate 34; municipality code 3423
+34,3424,الصخيرة,Skhira,226,exact_or_high_confidence_label_match,34.334937,9.96785,January 2024 workbook row: governorate 34; municipality code 3424
+34,3425,المحرص,Mahrès,225,exact_or_high_confidence_label_match,34.54602,10.436047,January 2024 workbook row: governorate 34; municipality code 3425
+34,3426,قرقنة,Kerkennah,212,exact_or_high_confidence_label_match,34.702852,11.154052,January 2024 workbook row: governorate 34; municipality code 3426
+34,3427,العامرة,El Amra,221,exact_or_high_confidence_label_match,34.945392,10.872894,January 2024 workbook row: governorate 34; municipality code 3427
+34,3428,العوابد - الخزانات,El Aouabed-Khazanet,227,reviewed_label_match,34.82838,10.656449,January 2024 workbook row: governorate 34; municipality code 3428
+34,3429,بئر علي الشمالية,Bir Ali Nord,215,explicit_reviewed_residual,35.057373,10.593825,January 2024 workbook row: governorate 34; municipality code 3429
+34,3430,الحاجب,El Hajeb,217,exact_or_high_confidence_label_match,34.703537,10.652577,January 2024 workbook row: governorate 34; municipality code 3430
+34,3431,حزق اللوزة,Hzag-Ellouza,216,reviewed_label_match,35.052199,10.980567,January 2024 workbook row: governorate 34; municipality code 3431
+34,3432,النور - صفاقس,Ennour - Sfax,219,explicit_reviewed_residual,34.781947,10.140223,January 2024 workbook row: governorate 34; municipality code 3432
+34,3433,النصر,En-Nacer,214,explicit_reviewed_residual,34.995729,10.75838,January 2024 workbook row: governorate 34; municipality code 3433
+41,4111,القيروان,Kairouan,253,exact_or_high_confidence_label_match,35.694893,10.121486,January 2024 workbook row: governorate 41; municipality code 4111
+41,4112,الشبيكة,Echbika,242,exact_or_high_confidence_label_match,35.700202,9.912179,January 2024 workbook row: governorate 41; municipality code 4112
+41,4113,السبيخة,Sbikha,251,exact_or_high_confidence_label_match,35.912381,9.973166,January 2024 workbook row: governorate 41; municipality code 4113
+41,4114,الوسلاتية,El Oueslatia,248,exact_or_high_confidence_label_match,35.904907,9.662731,January 2024 workbook row: governorate 41; municipality code 4114
+41,4115,عين جلولة,Ain Djeloula,235,exact_or_high_confidence_label_match,35.791083,9.769112,January 2024 workbook row: governorate 41; municipality code 4115
+41,4116,حفوز,Haffouz,247,exact_or_high_confidence_label_match,35.666847,9.711771,January 2024 workbook row: governorate 41; municipality code 4116
+41,4117,العلا,El Alâa,249,exact_or_high_confidence_label_match,35.644893,9.464932,January 2024 workbook row: governorate 41; municipality code 4117
+41,4118,حاجب العيون,Hajeb El Ayoun,245,exact_or_high_confidence_label_match,35.362774,9.615566,January 2024 workbook row: governorate 41; municipality code 4118
+41,4119,نصر الله,Nasrallah,243,exact_or_high_confidence_label_match,35.265138,9.824363,January 2024 workbook row: governorate 41; municipality code 4119
+41,4120,منزل المھيري,Menzel Mehiri,237,exact_or_high_confidence_label_match,35.412482,9.80515,January 2024 workbook row: governorate 41; municipality code 4120
+41,4121,الشراردة,Echrarda,239,exact_or_high_confidence_label_match,35.111853,10.055368,January 2024 workbook row: governorate 41; municipality code 4121
+41,4122,بوحجلة,Bouhajla,252,exact_or_high_confidence_label_match,35.362053,10.087297,January 2024 workbook row: governorate 41; municipality code 4122
+41,4123,سيسب - الذريعات,Sisseb-Ed-Dheriaat,250,exact_or_high_confidence_label_match,36.014563,10.156754,January 2024 workbook row: governorate 41; municipality code 4123
+41,4124,جھينة,Jehina,246,exact_or_high_confidence_label_match,35.312043,9.975203,January 2024 workbook row: governorate 41; municipality code 4124
+41,4125,رقادة,Rakada,244,exact_or_high_confidence_label_match,35.540617,10.087831,January 2024 workbook row: governorate 41; municipality code 4125
+41,4126,عبيدة,Abida,241,exact_or_high_confidence_label_match,35.557003,9.909183,January 2024 workbook row: governorate 41; municipality code 4126
+41,4127,الشوايحية,Chwayhia,240,explicit_reviewed_residual,35.205503,10.047227,January 2024 workbook row: governorate 41; municipality code 4127
+41,4128,عين البيضاء,El Aîn El Beidha,238,exact_or_high_confidence_label_match,35.524286,9.6967,January 2024 workbook row: governorate 41; municipality code 4128
+41,4129,الشواشي,Chaouachi,236,explicit_reviewed_residual,35.50616,9.522451,January 2024 workbook row: governorate 41; municipality code 4129
+42,4211,القصرين,Kasserine,268,exact_or_high_confidence_label_match,35.081325,8.702365,January 2024 workbook row: governorate 42; municipality code 4211
+42,4212,سبيطلة,Sbeitla,270,exact_or_high_confidence_label_match,35.209738,9.129683,January 2024 workbook row: governorate 42; municipality code 4212
+42,4213,سبيبة,Sbiba,264,exact_or_high_confidence_label_match,35.538513,9.132043,January 2024 workbook row: governorate 42; municipality code 4213
+42,4214,جدليان,Djedeliane,255,exact_or_high_confidence_label_match,35.650786,8.917973,January 2024 workbook row: governorate 42; municipality code 4214
+42,4215,تالة,Thala,271,exact_or_high_confidence_label_match,35.591414,8.705183,January 2024 workbook row: governorate 42; municipality code 4215
+42,4216,حيدرة,Hidra,254,exact_or_high_confidence_label_match,35.54346,8.491029,January 2024 workbook row: governorate 42; municipality code 4216
+42,4217,فوسانة,Foussana,267,exact_or_high_confidence_label_match,35.351572,8.490198,January 2024 workbook row: governorate 42; municipality code 4217
+42,4218,فريانة,Feriana,269,exact_or_high_confidence_label_match,34.909143,8.432922,January 2024 workbook row: governorate 42; municipality code 4218
+42,4219,تلابت,Telept,258,exact_or_high_confidence_label_match,35.088742,8.488577,January 2024 workbook row: governorate 42; municipality code 4219
+42,4220,ماجل بالعباس,Majel Bel Abbes,265,exact_or_high_confidence_label_match,34.771411,8.548632,January 2024 workbook row: governorate 42; municipality code 4220
+42,4221,العيون,El Ayoun,261,exact_or_high_confidence_label_match,35.510582,8.887692,January 2024 workbook row: governorate 42; municipality code 4221
+42,4222,حاسي الفريد,Hassi El Farid,262,exact_or_high_confidence_label_match,34.959458,8.928029,January 2024 workbook row: governorate 42; municipality code 4222
+42,4223,الشرائع - مشرق الشمس,Ez-Zouhour,263,exact_or_high_confidence_label_match,35.158591,8.830658,January 2024 workbook row: governorate 42; municipality code 4223
+42,4224,النور - القصرين,En-Nour - Kasserine,272,exact_or_high_confidence_label_match,35.166697,8.850772,January 2024 workbook row: governorate 42; municipality code 4224
+42,4225,الشرائع مشرق الشمس,Ech-Charayaa- Machrek Ech-Chams,266,exact_or_high_confidence_label_match,35.336015,9.002965,January 2024 workbook row: governorate 42; municipality code 4225
+42,4226,الرخمات,Er-Rakhmet,257,exact_or_high_confidence_label_match,35.094024,9.210643,January 2024 workbook row: governorate 42; municipality code 4226
+42,4227,عين الخمايسية,Ain El Khemaissia,260,exact_or_high_confidence_label_match,35.455299,9.193327,January 2024 workbook row: governorate 42; municipality code 4227
+42,4228,خمودة,Khmouda,259,exact_or_high_confidence_label_match,35.291182,8.683618,January 2024 workbook row: governorate 42; municipality code 4228
+42,4229,بوزقام,Bouzguam,256,exact_or_high_confidence_label_match,35.168886,8.871852,January 2024 workbook row: governorate 42; municipality code 4229
+43,4311,سيدي بوزيد,Sidi Bouzid,289,exact_or_high_confidence_label_match,35.006173,9.416153,January 2024 workbook row: governorate 43; municipality code 4311
+43,4312,جلمة,Djelma,283,reviewed_label_match,35.27256,9.426898,January 2024 workbook row: governorate 43; municipality code 4312
+43,4313,سبالة,Cebalet,278,exact_or_high_confidence_label_match,35.227724,9.275075,January 2024 workbook row: governorate 43; municipality code 4313
+43,4314,بئر الحفي,Bir El Hafey,287,exact_or_high_confidence_label_match,34.928077,9.262814,January 2024 workbook row: governorate 43; municipality code 4314
+43,4315,سيدي علي بن عون,Sidi Ali Ben Aoun,276,exact_or_high_confidence_label_match,34.820349,9.162076,January 2024 workbook row: governorate 43; municipality code 4315
+43,4316,منزل بوزيان,Menzel Bouzaine,286,exact_or_high_confidence_label_match,34.638211,9.407512,January 2024 workbook row: governorate 43; municipality code 4316
+43,4317,المكناسي,Meknassy,281,exact_or_high_confidence_label_match,34.629862,9.621183,January 2024 workbook row: governorate 43; municipality code 4317
+43,4318,المزونة,Mezzouna,284,exact_or_high_confidence_label_match,34.456242,9.741139,January 2024 workbook row: governorate 43; municipality code 4318
+43,4319,الرّقاب,Regueb,288,exact_or_high_confidence_label_match,34.823207,9.798647,January 2024 workbook row: governorate 43; municipality code 4319
+43,4320,اولاد حفوز,Ouled Haffouz,277,exact_or_high_confidence_label_match,35.108931,9.855752,January 2024 workbook row: governorate 43; municipality code 4320
+43,4321,سعيدة,Essaaida,280,exact_or_high_confidence_label_match,34.972487,9.943393,January 2024 workbook row: governorate 43; municipality code 4321
+43,4322,سوق الجديد,Souk Jedid,279,exact_or_high_confidence_label_match,34.862356,9.563566,January 2024 workbook row: governorate 43; municipality code 4322
+43,4323,لسودة,EL Assouada,285,exact_or_high_confidence_label_match,35.031028,9.549553,January 2024 workbook row: governorate 43; municipality code 4323
+43,4324,الفائض بنور,Faiedh Bennour,282,exact_or_high_confidence_label_match,35.126669,9.633676,January 2024 workbook row: governorate 43; municipality code 4324
+43,4325,باطن الغزال,Batten  El Ghézel,275,exact_or_high_confidence_label_match,35.404461,9.359801,January 2024 workbook row: governorate 43; municipality code 4325
+43,4326,رحال,Rahal,274,exact_or_high_confidence_label_match,34.785105,9.327442,January 2024 workbook row: governorate 43; municipality code 4326
+43,4327,المنصورة,El Mansoura,273,exact_or_high_confidence_label_match,34.760149,9.048783,January 2024 workbook row: governorate 43; municipality code 4327
+51,5111,قابس,Gabes,305,exact_or_high_confidence_label_match,33.882341,10.097178,January 2024 workbook row: governorate 51; municipality code 5111
+51,5112,شنني نحال,Chenini Nahal,300,exact_or_high_confidence_label_match,33.867335,9.97797,January 2024 workbook row: governorate 51; municipality code 5112
+51,5113,غنوش,Ghanouch,302,exact_or_high_confidence_label_match,33.945228,10.054525,January 2024 workbook row: governorate 51; municipality code 5113
+51,5114,المطوية,El Metouia,295,exact_or_high_confidence_label_match,34.012107,9.992843,January 2024 workbook row: governorate 51; municipality code 5114
+51,5115,وذرف,Ouedhref,298,exact_or_high_confidence_label_match,34.075935,9.934028,January 2024 workbook row: governorate 51; municipality code 5115
+51,5116,الحامة,El Hamma,304,exact_or_high_confidence_label_match,33.783159,9.732678,January 2024 workbook row: governorate 51; municipality code 5116
+51,5117,مطماطة,Matmata,290,exact_or_high_confidence_label_match,33.448475,9.805517,January 2024 workbook row: governorate 51; municipality code 5117
+51,5118,مطماطة الجديدة,Nouvelle Matmata,297,exact_or_high_confidence_label_match,33.623296,9.917965,January 2024 workbook row: governorate 51; municipality code 5118
+51,5119,مارث,Mareth,303,exact_or_high_confidence_label_match,33.565298,10.261941,January 2024 workbook row: governorate 51; municipality code 5119
+51,5120,الزرات,Ezzarat,291,exact_or_high_confidence_label_match,33.660356,10.361145,January 2024 workbook row: governorate 51; municipality code 5120
+51,5121,منزل الحبيب,Menzel El Habib,292,exact_or_high_confidence_label_match,34.160313,9.61838,January 2024 workbook row: governorate 51; municipality code 5121
+51,5122,بوشمة,Bou-chemma,294,exact_or_high_confidence_label_match,33.903151,10.022952,January 2024 workbook row: governorate 51; municipality code 5122
+51,5123,طبلبو,Teboulbou,301,exact_or_high_confidence_label_match,33.781381,10.058832,January 2024 workbook row: governorate 51; municipality code 5123
+51,5124,الحامة الغربية,Hamma Ouest,299,reviewed_label_match,33.928479,9.505396,January 2024 workbook row: governorate 51; municipality code 5124
+51,5125,كتانة,Kattana,296,reviewed_label_match,33.715857,10.205076,January 2024 workbook row: governorate 51; municipality code 5125
+51,5126,دخيلة توجان,Dkhilet Toujane,293,exact_or_high_confidence_label_match,33.413782,10.105998,January 2024 workbook row: governorate 51; municipality code 5126
+52,5211,مدنين,Mednine,315,exact_or_high_confidence_label_match,33.354409,10.539265,January 2024 workbook row: governorate 52; municipality code 5211
+52,5212,بني خداش,Beni Khedache,309,exact_or_high_confidence_label_match,33.227949,10.119264,January 2024 workbook row: governorate 52; municipality code 5212
+52,5213,بن قردان,Ben Guerdane,314,exact_or_high_confidence_label_match,32.895071,11.194514,January 2024 workbook row: governorate 52; municipality code 5213
+52,5214,جرجيس,Zarzis,311,exact_or_high_confidence_label_match,33.406114,10.96986,January 2024 workbook row: governorate 52; municipality code 5214
+52,5215,حومة السوق,Djerba Houmet Souk,313,exact_or_high_confidence_label_match,33.851568,10.861461,January 2024 workbook row: governorate 52; municipality code 5215
+52,5216,ميدون,Djerba Midoun,312,exact_or_high_confidence_label_match,33.769892,10.956221,January 2024 workbook row: governorate 52; municipality code 5216
+52,5217,اجيم,Djerba Ajim,307,exact_or_high_confidence_label_match,33.758635,10.809028,January 2024 workbook row: governorate 52; municipality code 5217
+52,5218,سيدي مخلوف,Sidi Makhlouf,308,exact_or_high_confidence_label_match,33.54389,10.522352,January 2024 workbook row: governorate 52; municipality code 5218
+52,5219,جرجيس الشمالية,Zarzis Nord,310,reviewed_label_match,33.55836,11.000842,January 2024 workbook row: governorate 52; municipality code 5219
+52,5220,بوغرارة,Bou-Ghrara,306,exact_or_high_confidence_label_match,33.561115,10.664506,January 2024 workbook row: governorate 52; municipality code 5220
+53,5311,تطاوين‎,Tataouine,322,exact_or_high_confidence_label_match,32.687743,10.701339,January 2024 workbook row: governorate 53; municipality code 5311
+53,5312,بئر الاحمر,Bir Lahmar,318,exact_or_high_confidence_label_match,33.149803,10.450899,January 2024 workbook row: governorate 53; municipality code 5312
+53,5313,غمراسن,Ghomrassen,321,exact_or_high_confidence_label_match,33.044173,10.241326,January 2024 workbook row: governorate 53; municipality code 5313
+53,5314,الذھيبة,Dhehiba,316,exact_or_high_confidence_label_match,31.968402,10.516893,January 2024 workbook row: governorate 53; municipality code 5314
+53,5315,رمادة‎,Remada,319,exact_or_high_confidence_label_match,31.760149,9.697399,January 2024 workbook row: governorate 53; municipality code 5315
+53,5316,الصمار,Smar,320,exact_or_high_confidence_label_match,32.772308,10.96935,January 2024 workbook row: governorate 53; municipality code 5316
+53,5317,تطاوين الجنوبية,Tataouine Sud,317,explicit_reviewed_residual,32.7857,10.182992,January 2024 workbook row: governorate 53; municipality code 5317
+61,6111,قفصة,Gafsa,335,exact_or_high_confidence_label_match,34.505078,8.748287,January 2024 workbook row: governorate 61; municipality code 6111
+61,6112,القصر‎,El Ksar,333,exact_or_high_confidence_label_match,34.413967,8.888521,January 2024 workbook row: governorate 61; municipality code 6112
+61,6113,أم العرائس,Moularès,331,reviewed_label_match,34.519424,8.364074,January 2024 workbook row: governorate 61; municipality code 6113
+61,6114,الرديف,Redeyef,332,exact_or_high_confidence_label_match,34.366822,8.177069,January 2024 workbook row: governorate 61; municipality code 6114
+61,6115,المتلوي,Metlaoui,334,exact_or_high_confidence_label_match,34.225007,8.390319,January 2024 workbook row: governorate 61; municipality code 6115
+61,6116,المظيلة,Mdhila,328,exact_or_high_confidence_label_match,34.203661,8.69966,January 2024 workbook row: governorate 61; municipality code 6116
+61,6117,القطار,Guetar,329,exact_or_high_confidence_label_match,34.270051,9.019287,January 2024 workbook row: governorate 61; municipality code 6117
+61,6118,السند,Sned,330,exact_or_high_confidence_label_match,34.56722,9.203845,January 2024 workbook row: governorate 61; municipality code 6118
+61,6119,بلخير,Belkhir,326,exact_or_high_confidence_label_match,34.325182,9.360853,January 2024 workbook row: governorate 61; municipality code 6119
+61,6120,سيدي عيش,Sidi Aich,325,exact_or_high_confidence_label_match,34.685481,8.826421,January 2024 workbook row: governorate 61; municipality code 6120
+61,6121,لالة,Lala,324,exact_or_high_confidence_label_match,34.380987,8.857219,January 2024 workbook row: governorate 61; municipality code 6121
+61,6122,سيدي بوبكر,Sidi Boubaker,323,exact_or_high_confidence_label_match,34.665531,8.381844,January 2024 workbook row: governorate 61; municipality code 6122
+61,6123,زانوش,Zanouch,327,reviewed_label_match,34.481954,9.091367,January 2024 workbook row: governorate 61; municipality code 6123
+62,6211,توزر,Tozeur,341,exact_or_high_confidence_label_match,33.892133,8.115141,January 2024 workbook row: governorate 62; municipality code 6211
+62,6212,دقاش,De guech,339,exact_or_high_confidence_label_match,33.949177,8.392918,January 2024 workbook row: governorate 62; municipality code 6212
+62,6213,حامة الجريد,Hamet Jerid,338,exact_or_high_confidence_label_match,34.137125,8.154011,January 2024 workbook row: governorate 62; municipality code 6213
+62,6214,نفطة,Nefta,340,exact_or_high_confidence_label_match,33.819111,7.898876,January 2024 workbook row: governorate 62; municipality code 6214
+62,6215,تمغزة,Tameghza,337,exact_or_high_confidence_label_match,34.2636,7.89369,January 2024 workbook row: governorate 62; municipality code 6215
+62,6216,الواحة,Hazoua,336,exact_or_high_confidence_label_match,33.761166,7.686417,January 2024 workbook row: governorate 62; municipality code 6216
+63,6311,قبلي,Kebili,350,exact_or_high_confidence_label_match,33.821042,9.141686,January 2024 workbook row: governorate 63; municipality code 6311
+63,6312,جمنة,Jemna,343,exact_or_high_confidence_label_match,33.596297,9.221713,January 2024 workbook row: governorate 63; municipality code 6312
+63,6313,دوز,Douz,349,exact_or_high_confidence_label_match,33.097738,9.373186,January 2024 workbook row: governorate 63; municipality code 6313
+63,6314,القلعة,El Golâa,344,exact_or_high_confidence_label_match,33.494968,8.995303,January 2024 workbook row: governorate 63; municipality code 6314
+63,6315,سوق الاحد‎,Souk El Ahad,348,exact_or_high_confidence_label_match,33.963287,8.925972,January 2024 workbook row: governorate 63; municipality code 6315
+63,6316,القلعة - المعدن - القصور,Faouar,347,exact_or_high_confidence_label_match,33.074379,8.583999,January 2024 workbook row: governorate 63; municipality code 6316
+63,6317,رجيم معتوق,Rejim Maatoug,342,exact_or_high_confidence_label_match,33.420708,8.110389,January 2024 workbook row: governorate 63; municipality code 6317
+63,6318,بشلي جرسين البليدات,Bechelli-Jersine-El Blidete,346,exact_or_high_confidence_label_match,33.603333,8.805267,January 2024 workbook row: governorate 63; municipality code 6318
+63,6319,الفوار - الابريقات,Bèchri-Fatnassa,345,exact_or_high_confidence_label_match,33.828309,8.651678,January 2024 workbook row: governorate 63; municipality code 6319

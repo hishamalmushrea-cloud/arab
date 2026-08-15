@@ -1,5 +1,41 @@
 {
-  "schema_version": "1.0.0",
+  "alias_kinds": [
+    "alternative",
+    "english",
+    "transliteration",
+    "local",
+    "historical",
+    "former",
+    "abbreviation",
+    "official_variant"
+  ],
+  "claim_classifications": [
+    "official",
+    "popular",
+    "shared",
+    "regional",
+    "historical",
+    "disputed"
+  ],
+  "claim_statuses": [
+    "verified",
+    "reported",
+    "disputed",
+    "historical",
+    "uncertain",
+    "retracted"
+  ],
+  "confidence_levels": [
+    "high",
+    "medium",
+    "low"
+  ],
+  "denominator_statuses": [
+    "official",
+    "conflicted",
+    "unavailable",
+    "provisional"
+  ],
   "entity_statuses": [
     "current",
     "historical",
@@ -11,49 +47,6 @@
     "proposed",
     "transitional",
     "uncertain"
-  ],
-  "alias_kinds": [
-    "alternative",
-    "english",
-    "transliteration",
-    "local",
-    "historical",
-    "former",
-    "abbreviation",
-    "official_variant"
-  ],
-  "relationship_types": [
-    "administrative_parent",
-    "located_in",
-    "capital_of",
-    "seat_of",
-    "historic_successor",
-    "claimed_by"
-  ],
-  "claim_statuses": [
-    "verified",
-    "reported",
-    "disputed",
-    "historical",
-    "uncertain",
-    "retracted"
-  ],
-  "source_types": [
-    "official_dataset",
-    "official_register",
-    "law",
-    "census",
-    "official_report",
-    "standard",
-    "academic",
-    "archive",
-    "project_audit"
-  ],
-  "denominator_statuses": [
-    "official",
-    "conflicted",
-    "unavailable",
-    "provisional"
   ],
   "entity_types": [
     "country",
@@ -139,9 +132,51 @@
     "eg_shiyakha",
     "mr_wilaya",
     "mr_moughataa",
-    "mr_commune"
+    "mr_commune",
+    "settlement",
+    "historical_place",
+    "market",
+    "landmark",
+    "natural_site",
+    "cultural_site",
+    "person"
   ],
   "forbidden_active_types": [
     "administrative_area_unspecified"
+  ],
+  "relationship_types": [
+    "administrative_parent",
+    "located_in",
+    "capital_of",
+    "seat_of",
+    "historic_successor",
+    "claimed_by",
+    "boundary_intersects",
+    "associated_with"
+  ],
+  "schema_version": "1.0.0",
+  "source_quality_tiers": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "source_types": [
+    "official_dataset",
+    "official_register",
+    "law",
+    "census",
+    "official_report",
+    "standard",
+    "academic",
+    "archive",
+    "project_audit"
+  ],
+  "verification_statuses": [
+    "verified",
+    "source_verified",
+    "partial",
+    "ambiguous",
+    "needs_review"
   ]
 }

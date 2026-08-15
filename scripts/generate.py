@@ -71,11 +71,11 @@ def markdown_table(headers: list[str], rows: list[list[Any]]) -> str:
 
 
 def coverage_values(cov: dict[str, Any], den: dict[str, Any]) -> list[Any]:
-    pct = cov.get("coverage_percent")
+    pct = cov.get("coverage_percentage")
     pct_text = "—" if pct is None else f"{pct:g}%"
     return [
         cov["layer"], den.get("definition"), den.get("value"), cov["matched"], cov["unmatched"],
-        cov["excluded"], cov.get("missing"), pct_text, den.get("as_of"), cov["snapshot_id"], cov.get("source_id"),
+        cov["excluded"], cov.get("missing"), pct_text, cov.get("snapshot_date"), cov["snapshot_id"], cov.get("source_id"), cov.get("license"),
         "نعم" if cov.get("complete") else "لا", cov.get("missing_reason"),
     ]
 
@@ -92,6 +92,10 @@ def country_markdown(iso: str, data: dict[str, list[dict[str, Any]]]) -> str:
     needed_sources = {row.get("canonical_source_id") for row in entities}
     needed_sources |= {row.get("source_id") for family in [aliases, relations, claims, covs] for row in family}
     sources = [row for row in data["sources"] if row["id"] in needed_sources]
+    source_by_id = {row["id"]: row for row in data["sources"]}
+    published = [row for row in claims if row.get("published")]
+    ab_count = sum(source_by_id[row["source_id"]].get("quality_tier") in {"A", "B"} for row in published)
+    ab_ratio = (ab_count * 100 / len(published)) if published else 0
 
     out = [
         f"# {name_ar} ({iso}) — عرض مولّد من Schema v1",
@@ -103,7 +107,7 @@ def country_markdown(iso: str, data: dict[str, list[dict[str, Any]]]) -> str:
         "أي نسبة 100% أدناه مقيدة بالدولة والطبقة والمقام المؤرخ واللقطة والمصدر الظاهرة في الصف نفسه؛ ولا تمتد إلى طبقة أخرى.",
         "",
         markdown_table(
-            ["الطبقة", "تعريف المقام", "المقام", "مطابق", "غير مطابق", "مستبعد", "مفقود", "النسبة", "تاريخ المقام", "اللقطة", "المصدر", "مكتمل", "سبب النقص"],
+            ["الطبقة", "تعريف المقام", "المقام", "مطابق", "غير مطابق", "مستبعد", "مفقود", "النسبة", "تاريخ اللقطة", "اللقطة", "المصدر", "الترخيص", "مكتمل", "سبب النقص"],
             [coverage_values(cov, den_by_id[cov["denominator_id"]]) for cov in covs],
         ),
         "## الكيانات",
@@ -127,14 +131,18 @@ def country_markdown(iso: str, data: dict[str, list[dict[str, Any]]]) -> str:
         "## الادعاءات",
         "",
         markdown_table(
-            ["المعرّف", "الموضوع", "المحمول", "القيمة", "الوحدة", "تاريخ الرصد", "الحالة", "المصدر"],
-            [[row["id"], row["subject_id"], row["predicate"], row["value"]["data"], row.get("unit"), row.get("observed_at"), row["status"], row["source_id"]] for row in claims],
+            ["المعرّف", "الموضوع", "المحمول", "القيمة", "التصنيف", "الثقة", "الحالة", "المصدر", "المحدد"],
+            [[row["id"], row["subject_id"], row["predicate"], row["value"]["data"], row.get("classification"), row.get("confidence"), row["status"], row["source_id"], row["source_locator"]] for row in claims],
         ),
+        "## جودة مصادر الادعاءات المنشورة",
+        "",
+        f"ادعاءات A/B: {ab_count} من {len(published)} ({ab_ratio:.2f}%).",
+        "",
         "## المصادر الذرية المستخدمة",
         "",
         markdown_table(
-            ["المعرّف", "العنوان", "الناشر", "تاريخ النشر", "تاريخ الاسترجاع", "الترخيص", "الرابط"],
-            [[row["id"], row["title"], row["publisher"], row["publication_date"], row["retrieved_at"], row["license"], row["url"]] for row in sources],
+            ["المعرّف", "الفئة", "العنوان", "الناشر", "تاريخ النشر", "تاريخ الاسترجاع", "الترخيص", "الرابط"],
+            [[row["id"], row["quality_tier"], row["title"], row["publisher"], row["publication_date"], row["retrieved_at"], row["license"], row["url"]] for row in sources],
         ),
         "---",
         "_مولّد آليًا؛ لا تعدّل هذا الملف مباشرة._",
@@ -170,16 +178,21 @@ def country_html(iso: str, data: dict[str, list[dict[str, Any]]]) -> str:
     den_by_id = {row["id"]: row for row in data["denominators"]}
     source_ids = {row.get("canonical_source_id") for row in entities} | {row.get("source_id") for family in [aliases, relations, claims, covs] for row in family}
     sources = [row for row in data["sources"] if row["id"] in source_ids]
+    source_by_id = {row["id"]: row for row in data["sources"]}
+    published = [row for row in claims if row.get("published")]
+    ab_count = sum(source_by_id[row["source_id"]].get("quality_tier") in {"A", "B"} for row in published)
+    ab_ratio = (ab_count * 100 / len(published)) if published else 0
     parts = [
         f"<h1>{html.escape(name_ar)} <small>({iso})</small></h1>",
         '<p class="notice"><strong>حدود التغطية:</strong> التغطية المحلية غير مكتملة. لا تمثل هذه الصفحة جميع المدن أو القرى أو الأحياء أو الحارات، والبيانات المنظمة هي المصدر.</p>',
         "<h2>التغطية والمقامات</h2><p>أي نسبة 100% مقيدة بالدولة والطبقة والمقام المؤرخ واللقطة والمصدر في الصف نفسه.</p>",
-        html_table(["الطبقة", "التعريف", "المقام", "مطابق", "غير مطابق", "مستبعد", "مفقود", "النسبة", "التاريخ", "اللقطة", "المصدر", "مكتمل", "سبب النقص"], [coverage_values(c, den_by_id[c["denominator_id"]]) for c in covs]),
+        html_table(["الطبقة", "التعريف", "المقام", "مطابق", "غير مطابق", "مستبعد", "مفقود", "النسبة", "التاريخ", "اللقطة", "المصدر", "الترخيص", "مكتمل", "سبب النقص"], [coverage_values(c, den_by_id[c["denominator_id"]]) for c in covs]),
         "<h2>الكيانات</h2>", html_table(["المعرّف", "الاسم", "النوع", "الحالة", "المصدر", "المحدد"], [[r["id"], r["canonical_name"], r["entity_type"], r["status"], r["canonical_source_id"], r["source_locator"]] for r in entities]),
         "<h2>الأسماء البديلة</h2>", html_table(["المعرّف", "الكيان", "الاسم", "اللغة", "النوع", "المصدر"], [[r["id"], r["entity_id"], r["name"], r["language"], r["kind"], r["source_id"]] for r in aliases]),
         "<h2>العلاقات</h2>", html_table(["المعرّف", "الابن", "الأب", "العلاقة", "الحالة", "المصدر"], [[r["id"], r["child_id"], r["parent_id"], r["relationship_type"], r["status"], r["source_id"]] for r in relations]),
-        "<h2>الادعاءات</h2>", html_table(["المعرّف", "الموضوع", "المحمول", "القيمة", "الوحدة", "الرصد", "الحالة", "المصدر"], [[r["id"], r["subject_id"], r["predicate"], r["value"]["data"], r.get("unit"), r.get("observed_at"), r["status"], r["source_id"]] for r in claims]),
-        "<h2>المصادر الذرية</h2>", html_table(["المعرّف", "العنوان", "الناشر", "النشر", "الاسترجاع", "الترخيص", "الرابط"], [[r["id"], r["title"], r["publisher"], r["publication_date"], r["retrieved_at"], r["license"], r["url"]] for r in sources]),
+        "<h2>الادعاءات</h2>", html_table(["المعرّف", "الموضوع", "المحمول", "القيمة", "التصنيف", "الثقة", "الحالة", "المصدر", "المحدد"], [[r["id"], r["subject_id"], r["predicate"], r["value"]["data"], r.get("classification"), r.get("confidence"), r["status"], r["source_id"], r["source_locator"]] for r in claims]),
+        "<h2>جودة مصادر الادعاءات المنشورة</h2>", f"<p>ادعاءات A/B: {ab_count} من {len(published)} ({ab_ratio:.2f}%).</p>",
+        "<h2>المصادر الذرية</h2>", html_table(["المعرّف", "الفئة", "العنوان", "الناشر", "النشر", "الاسترجاع", "الترخيص", "الرابط"], [[r["id"], r["quality_tier"], r["title"], r["publisher"], r["publication_date"], r["retrieved_at"], r["license"], r["url"]] for r in sources]),
     ]
     return page_html(f"{name_ar} — Schema v1", "".join(parts), parent=True)
 

@@ -34,25 +34,25 @@
 ## 3. النماذج
 
 ### Entity
-هوية مكان أو وحدة إدارية. الحقول الأساسية: `id`, `country_code`, `canonical_name`, `entity_type`, `status`, `canonical_source_id`, `source_locator`. تحفظ `legacy_ids` الإحالات القديمة فقط. لا يحمل الكيان سكانًا أو وصفًا ثقافيًا.
+هوية مكان أو وحدة إدارية أو موقع أو شخص. الحقول الأساسية: `id`, `country_code`, `canonical_name`, `entity_type`, `status`, `canonical_source_id`, `source_locator`, `verification_status`, `confidence`. تحفظ `legacy_ids` الإحالات القديمة فقط. لا يحمل الكيان سكانًا أو وصفًا ثقافيًا؛ ترد هذه المعلومات في Claims ذرية. تبقى الأماكن المأهولة والوحدات الإدارية والمواقع والأشخاص كيانات منفصلة حتى عند تطابق الاسم أو الموقع.
 
 ### Alias
 اسم آخر للكيان نفسه: عربي بديل، لاتيني، محلي، تاريخي، اختصار، أو اسم سابق. يحدد `language`, `script`, `kind`, `status`, `source_id` وفترة الصلاحية عند الحاجة.
 
 ### Relationship
-صلة موجهة من `child_id` إلى `parent_id`. الأنواع المضبوطة في الإصدار الأول: `administrative_parent`, `located_in`, `capital_of`, `seat_of`, `historic_successor`, `claimed_by`. العلاقات الإدارية الفاعلة تُفحص ضد مسارات البلد في manifest، وضد الأيتام والدورات واختلاف البلد.
+صلة موجهة من `child_id` إلى `parent_id`. تشمل الأنواع `administrative_parent`, `located_in`, `associated_with`, و`boundary_intersects` إلى جانب الأنواع التاريخية/الوظيفية. العلاقات الإدارية الفاعلة وحدها تُفحص ضد مسارات البلد وضد الدورات. علاقة `boundary_intersects` دليل تقاطع لا والد إداري، وتحمل المصدر والمحدد والثقة والتحقق.
 
 ### Source
-سجل ذري لمادة منشورة واحدة، لا قائمة مركبة. يتضمن العنوان، الناشر، نوع المصدر، الرابط، تاريخ النشر، تاريخ الاسترجاع، الرخصة، اللغة، النطاق الجغرافي، والمحدد الدقيق. القيمة غير المتاحة تُكتب مع سبب صريح ولا تُخمن.
+سجل ذري لمادة منشورة واحدة، لا قائمة مركبة. يتضمن العنوان، الناشر، نوع المصدر، الرابط، تاريخ النشر، تاريخ الاسترجاع، الرخصة، اللغة، النطاق الجغرافي، والمحدد الدقيق، ويصنّف `quality_tier` إلى A/B/C/D. القيمة غير المتاحة تُكتب مع سبب صريح ولا تُخمن.
 
 ### Claim
-ثلاثية موضوع/محمول/قيمة مع مصدر. `value` ذو نوع صريح (`string`, `integer`, `number`, `boolean`, `date`, `json`). الادعاءات التونسية الحساسة يجب أن تحمل `second_source_id` مستقلًا أو `status: disputed`. ادعاء اللهجة يحتاج حقول قيمة JSON: `form`, `meaning`, `place_entity_id`, `register`, `speaker_or_study`, `date`.
+ثلاثية موضوع/محمول/قيمة مع مصدر ومحدد داخله. `value` ذو نوع صريح (`string`, `integer`, `number`, `boolean`, `date`, `json`). تبيّن الحقول `published`, `verification_status`, `confidence`, و`classification` حالة النشر والدليل. ادعاءات الطعام والملبس والعرف تستخدم تصنيفًا من `official`, `popular`, `shared`, `regional`, `historical`, `disputed`. الادعاءات الحساسة يجب أن تحمل `second_source_id` و`second_source_locator` لمصدر مستقل أو `status: disputed`. يحمل `lexical_context` حقول `form`, `meaning`, `place_id`, `language`, `dialect`, `variety`, `register`, `study_date`, `speaker_or_study`, و`ipa`؛ ولا تُدمج اللغة واللهجة والتنوع والسجل في حقل واحد.
 
 ### Snapshot
 لقطة قابلة لإعادة الإنتاج: تاريخ الالتقاط، المصدر، النطاق، طريقة الالتقاط، وchecksum عند توافره. لا يعني تاريخ الاسترجاع أن زمن صلاحية المحتوى معروف.
 
 ### Denominator وCoverage
-`Denominator` يعرّف المقام والطبقة والتاريخ والمصدر والرخصة وحالته (`official`, `conflicted`, `unavailable`, `provisional`). `Coverage` يسجل `matched`, `unmatched`, `excluded`, `missing`, والسبب. تُحسب النسبة فقط عندما يكون المقام رسميًا صالحًا. اكتمال طبقة لا يعني اكتمال البلد.
+`Denominator` يعرّف المقام والطبقة والتاريخ والمصدر والرخصة وحالته (`official`, `conflicted`, `unavailable`, `provisional`). يحمل كل سجل طبقة صراحةً `layer`, `denominator`, `snapshot_date`, `source_id`, و`license`. ويسجل `Coverage` كذلك `matched`, `unmatched`, `excluded`, `exclusion_reasons`, `missing`, `missing_reason`, و`coverage_percentage`. الإكمال معرف حرفيًا بـ`matched + excluded = denominator`، ويجب أن يساوي مجموع أسباب الاستبعاد قيمة `excluded`. لا تُحسب النسبة عند غياب المقام، واكتمال طبقة مؤرخة لا يعني اكتمال البلد أو طبقة أخرى.
 
 ## 4. المفردات المضبوطة
 
@@ -76,6 +76,9 @@ python3 scripts/validate.py
 python3 scripts/generate.py --check
 python3 scripts/check_phase_gate.py phase0
 python3 scripts/check_phase_gate.py phase1
+python3 scripts/import_tunisia_phase2.py
+python3 scripts/review_tunisia.py
+python3 scripts/check_phase_gate.py phase2
 ```
 
-يشمل التحقق: بنية schemas، السجلات، المعرّفات، المراجع، الوالد الحقيقي، الدورات، الأيتام، البلد، مسار hierarchy، CSV malformed، Unicode، الروابط المحلية، المصادر، الادعاءات، أنواع الكيانات، الإحداثيات، الأسماء البديلة المكررة، وحدود ادعاءات التغطية. ينفذ CI الأوامر نفسها لكل push وpull request.
+يشمل التحقق: بنية schemas، السجلات، المعرّفات، المراجع، الوالد الحقيقي، الدورات، الأيتام، البلد، مسار hierarchy، CSV malformed، Unicode، الروابط المحلية، المصادر، الادعاءات، جودة A/B، سياسة الادعاءات الحساسة، أنواع الكيانات، الإحداثيات، التكرار المركب، الأسماء البديلة، حساب الاستبعادات والتغطية، وعينة تونس المستقلة. ينفذ CI الأوامر نفسها لكل push وpull request.

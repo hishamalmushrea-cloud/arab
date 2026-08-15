@@ -11,6 +11,7 @@
   "notes": "Used only for the 24 governorate population claims dated 2014.",
   "publication_date": "2015-04",
   "publisher": "Institut National de la Statistique, Tunisie",
+  "quality_tier": "A",
   "retrieved_at": "2026-08-15",
   "schema_version": "1.0.0",
   "source_type": "census",

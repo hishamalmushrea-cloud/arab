@@ -32,6 +32,7 @@
   "notes": "Authoritative for migration decisions, not an official geographic authority.",
   "publication_date": "2026-08-15",
   "publisher": "Arab project repository",
+  "quality_tier": "C",
   "retrieved_at": "2026-08-15",
   "schema_version": "1.0.0",
   "source_type": "project_audit",

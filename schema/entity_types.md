@@ -5,7 +5,9 @@
 ## قواعد عامة
 
 - `country` كيان سياسي ضمن نطاق المشروع، وليس والدًا نصيًا ضمن كل صف.
-- `city`, `town`, `village`, `populated_settlement`, `neighborhood`, `quarter`, `lane`, `refugee_camp`, `archaeological_site`, `gate` أنواع أماكن، وليست درجات إدارية تلقائيًا.
+- `city`, `town`, `village`, `settlement`, `populated_settlement`, `neighborhood`, `quarter`, `lane`, `historical_place`, و`refugee_camp` أنواع أماكن مأهولة/تاريخية مستقلة، وليست درجات إدارية تلقائيًا.
+- `archaeological_site`, `market`, `landmark`, `natural_site`, `cultural_site`, و`gate` مواقع مستقلة؛ لا تُدمج في بلدية أو مدينة تحمل الاسم نفسه.
+- `person` كيان شخصي يحتاج علاقة مكانية `associated_with` وادعاء دلالة موثقًا؛ ليس جزءًا من شجرة الإدارة.
 - العاصمة مدينة وعلاقتها `capital_of`؛ لا يُنشأ نوع مركب مثل «ولاية+عاصمة».
 - «المحافظة» و«الولاية» و«الإقليم» لا تُسوّى في نوع عام. النوع يحمل ISO البلد والمصطلح المحلي: `jo_governorate`, `tn_governorate`, `dz_wilaya`…
 - الاسم التاريخي والإنجليزي والمحلي `Alias` ما دام يشير إلى الكيان نفسه. الوحدة السابقة ذات الحدود/الزمن المختلفين `Entity` تاريخي مستقل.

@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Executable Phase 0 and Phase 1 exit gates."""
+"""Executable Phase 0, Phase 1, and Tunisia Phase 2 exit gates."""
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import subprocess
 import sys
@@ -38,6 +39,31 @@ class Gate:
 
 def load_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def phase2_import_hashes() -> tuple[dict[str, str], str]:
+    """Hash importer-managed files and a canonical non-Tunisia projection."""
+    managed = [
+        "data/entities/entities.jsonl", "data/aliases/aliases.jsonl",
+        "data/claims/claims.jsonl", "data/relationships/relationships.jsonl",
+        "data/coverage/denominators.jsonl", "data/coverage/coverage.jsonl",
+        "data/snapshots/snapshots.jsonl", "manifests/TN.yml",
+        "data/cultural/tunisia_domain_status.json",
+    ]
+    file_hashes = {path: hashlib.sha256((ROOT / path).read_bytes()).hexdigest() for path in managed}
+    entities = read_jsonl(ROOT / "data/entities/entities.jsonl")
+    tn_ids = {row["id"] for row in entities if row["country_code"] == "TN"}
+    projection = {
+        "entities": [row for row in entities if row["id"] not in tn_ids],
+        "aliases": [row for row in read_jsonl(ROOT / "data/aliases/aliases.jsonl") if row["entity_id"] not in tn_ids],
+        "claims": [row for row in read_jsonl(ROOT / "data/claims/claims.jsonl") if row["subject_id"] not in tn_ids],
+        "relationships": [row for row in read_jsonl(ROOT / "data/relationships/relationships.jsonl") if row["child_id"] not in tn_ids and row["parent_id"] not in tn_ids],
+        "denominators": [row for row in read_jsonl(ROOT / "data/coverage/denominators.jsonl") if row["country_code"] != "TN"],
+        "coverage": [row for row in read_jsonl(ROOT / "data/coverage/coverage.jsonl") if row["country_code"] != "TN"],
+        "snapshots": [row for row in read_jsonl(ROOT / "data/snapshots/snapshots.jsonl") if row.get("country_code") != "TN"],
+    }
+    encoded = json.dumps(projection, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode()
+    return file_hashes, hashlib.sha256(encoded).hexdigest()
 
 
 def phase0(gate: Gate) -> None:
@@ -86,18 +112,22 @@ def phase1(gate: Gate) -> None:
     den_by_id = {row["id"]: row for row in denominators}
     cov_by_scope = {(row["country_code"], row["layer"]): row for row in coverage}
 
-    gate.require(len(entities) <= 500, "no_mass_expansion", f"active entity count={len(entities)} (country roots and bounded Tunisia/Libya pilots only)")
+    outside_pilots = [row for row in entities if row["country_code"] not in {"TN", "LY"} and row["entity_type"] != "country"]
+    gate.require(not outside_pilots, "no_mass_expansion", f"non-country expansion outside Tunisia/Libya={len(outside_pilots)}; Tunisia Phase 2 administrative import is allowed")
     gate.require(all(row.get("canonical_source_id") for row in entities), "sourced_entities", f"source-backed entities={len(entities)}")
     gate.require(all(row.get("source_id") for row in claims), "sourced_claims", f"source-backed claims={len(claims)}")
 
     tn_gov = [row for row in entities if row["country_code"] == "TN" and row["entity_type"] == "tn_governorate"]
     tn_del = [row for row in entities if row["country_code"] == "TN" and row["entity_type"] == "tn_delegation"]
-    tn_claims = [row for row in claims if entity_by_id[row["subject_id"]]["country_code"] == "TN"]
-    gate.require((len(tn_gov), len(tn_del), len(tn_claims)) == (24, 264, 24), "tunisia_core", f"governorates={len(tn_gov)}, delegations={len(tn_del)}, population claims={len(tn_claims)}")
-    tn_mun_cov = cov_by_scope.get(("TN", "municipalities_2018"), {})
+    tn_population_claims = [row for row in claims if entity_by_id[row["subject_id"]]["country_code"] == "TN" and row["predicate"] == "population"]
+    gate.require((len(tn_gov), len(tn_del), len(tn_population_claims)) == (24, 264, 24), "tunisia_core", f"governorates={len(tn_gov)}, delegations={len(tn_del)}, accepted population claims={len(tn_population_claims)}")
+    tn_mun_cov = cov_by_scope.get(("TN", "municipalities"), cov_by_scope.get(("TN", "municipalities_2018"), {}))
     tn_mun_den = den_by_id.get(tn_mun_cov.get("denominator_id"), {})
-    gate.require(tn_mun_den.get("value") == 350 and tn_mun_cov.get("matched") == 0 and tn_mun_cov.get("missing") == 350, "tunisia_municipalities", "dated 2018 denominator=350, matched=0, missing=350")
-    gate.require(den_by_id[cov_by_scope[("TN", "imadas")]["denominator_id"]]["value"] is None, "tunisia_imadas", "unverified denominator remains unavailable")
+    old_municipal_state = tn_mun_den.get("value") == 350 and tn_mun_cov.get("matched") == 0 and tn_mun_cov.get("missing") == 350
+    phase2_municipal_state = tn_mun_den.get("value") == 350 and tn_mun_cov.get("matched") == 350 and tn_mun_cov.get("complete")
+    gate.require(old_municipal_state or phase2_municipal_state, "tunisia_municipalities", f"accepted Phase 1 state or closed Phase 2 state; matched={tn_mun_cov.get('matched')}, denominator={tn_mun_den.get('value')}")
+    tn_imada_den = den_by_id[cov_by_scope[("TN", "imadas")]["denominator_id"]]
+    gate.require(tn_imada_den.get("value") is None or (tn_imada_den.get("value") == 2084 and cov_by_scope[("TN", "imadas")].get("complete")), "tunisia_imadas", f"accepted unavailable Phase 1 state or closed dated Phase 2 state; denominator={tn_imada_den.get('value')}")
 
     ly_current = [row for row in entities if row["country_code"] == "LY" and row["entity_type"] == "ly_municipality"]
     ly_historic = [row for row in entities if row["country_code"] == "LY" and row["entity_type"] == "ly_shabiya_historical"]
@@ -127,12 +157,56 @@ def phase1(gate: Gate) -> None:
     gate.require(not missing, "four_formats", f"required generated files present; missing={missing}")
 
 
+def phase2(gate: Gate) -> None:
+    phase1(gate)
+    before_files, before_non_tn = phase2_import_hashes()
+    gate.command("tunisia_import_refresh", [sys.executable, "scripts/import_tunisia_phase2.py"])
+    after_files, after_non_tn = phase2_import_hashes()
+    gate.require(before_files == after_files, "tunisia_import_idempotence", f"all 9 importer-managed hashes unchanged={before_files == after_files}")
+    gate.require(before_non_tn == after_non_tn, "non_tunisia_preservation", f"canonical non-Tunisia SHA-256 unchanged={after_non_tn}")
+    gate.command("independent_review_refresh", [sys.executable, "scripts/review_tunisia.py"])
+    gate.command("validation_after_review", [sys.executable, "scripts/validate.py"])
+
+    entities = read_jsonl(ROOT / "data/entities/entities.jsonl")
+    claims = read_jsonl(ROOT / "data/claims/claims.jsonl")
+    relationships = read_jsonl(ROOT / "data/relationships/relationships.jsonl")
+    coverage = read_jsonl(ROOT / "data/coverage/coverage.jsonl")
+    sources = {json.loads(path.read_text(encoding="utf-8"))["id"]: json.loads(path.read_text(encoding="utf-8")) for path in (ROOT / "data/sources").glob("*.json")}
+    tn_entities = [row for row in entities if row["country_code"] == "TN"]
+    counts = Counter(row["entity_type"] for row in tn_entities)
+    gate.require((counts["tn_governorate"], counts["tn_delegation"], counts["tn_municipality"], counts["tn_imada"]) == (24, 264, 350, 2084), "phase2_core_counts", f"24/264/350/2084 actual={counts['tn_governorate']}/{counts['tn_delegation']}/{counts['tn_municipality']}/{counts['tn_imada']}")
+
+    cov = {(row["country_code"], row["layer"]): row for row in coverage}
+    expected = {"governorates": 24, "delegations": 264, "municipalities": 350, "imadas": 2084, "world_heritage_properties": 10}
+    closed = all((row := cov.get(("TN", layer))) and row.get("denominator") == denominator and row.get("matched") + row.get("excluded") == denominator and row.get("unmatched") == 0 and row.get("complete") and row.get("coverage_percentage") == 100 for layer, denominator in expected.items())
+    gate.require(closed, "dated_denominators_closed", "24 governorates, 264 delegations, 350 municipalities, 2,084 imadas, and 10 UNESCO properties close with matched + excluded = denominator")
+
+    tn_ids = {row["id"] for row in tn_entities}
+    published = [row for row in claims if row["subject_id"] in tn_ids and row.get("published")]
+    ab = [row for row in published if sources[row["source_id"]].get("quality_tier") in {"A", "B"}]
+    ratio = len(ab) * 100 / len(published) if published else 0
+    gate.require(ratio >= 95, "source_threshold", f"A/B published claims={len(ab)}/{len(published)} ({ratio:.2f}%)")
+    sensitive_errors = [row["id"] for row in published if row.get("sensitivity") == "sensitive" and row.get("status") != "disputed" and (not row.get("second_source_id") or row.get("second_source_id") == row.get("source_id"))]
+    gate.require(not sensitive_errors, "sensitive_claims", f"non-disputed sensitive claims without two independent sources={len(sensitive_errors)}")
+
+    place_types = {"city", "town", "village", "settlement", "neighborhood", "historical_place"}
+    gate.require(place_types <= set(counts), "populated_place_distinction", f"requested populated-place types present={sorted(place_types & set(counts))}")
+    gate.require(counts["person"] >= 1 and counts["market"] >= 1 and counts["archaeological_site"] >= 1 and counts["natural_site"] >= 1, "bounded_encyclopedic_pilot", f"persons={counts['person']}, markets={counts['market']}, archaeological={counts['archaeological_site']}, natural={counts['natural_site']}")
+    overlaps = [row for row in relationships if row["relationship_type"] == "boundary_intersects"]
+    gate.require(len({row["child_id"] for row in overlaps}) == 350 and len({row["parent_id"] for row in overlaps}) == 264, "boundary_overlap_model", f"municipalities={len({row['child_id'] for row in overlaps})}, delegations={len({row['parent_id'] for row in overlaps})}")
+
+    review = load_json(ROOT / "reports/tunisia_independent_review.json")
+    gate.require(review.get("passed") and all(rate >= 0.10 for rate in review.get("sample_rates", {}).values()), "independent_review", f"sample={review.get('sample')}, outcomes={review.get('outcomes')}")
+    gate.require((ROOT / "reports/PHASE2_TUNISIA_FINAL.md").is_file(), "final_report", "24-section Tunisia final report exists")
+    gate.require(not gate.errors, "p0_clear", "all structural and Phase 2 acceptance checks are clear")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("phase", choices=["phase0", "phase1"])
+    parser.add_argument("phase", choices=["phase0", "phase1", "phase2"])
     args = parser.parse_args()
     gate = Gate(args.phase)
-    (phase0 if args.phase == "phase0" else phase1)(gate)
+    {"phase0": phase0, "phase1": phase1, "phase2": phase2}[args.phase](gate)
     report = {"phase": args.phase, "status": "pass" if not gate.errors else "fail", "checks": gate.checks, "errors": gate.errors}
     write_json(ROOT / f"reports/{args.phase}_gate.json", report)
     for name, result in gate.checks.items():

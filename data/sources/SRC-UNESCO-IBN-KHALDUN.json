@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": null,
+  "country_codes": [
+    "TN"
+  ],
+  "id": "SRC-UNESCO-IBN-KHALDUN",
+  "language": "en",
+  "license": "UNESCO Digital Library terms; factual extraction only",
+  "locator": "Biographical passage: Ibn Khaldun, born in Tunis in 1332",
+  "notes": null,
+  "publication_date": "1985",
+  "publisher": "UNESCO Courier / UNESCO Digital Library",
+  "quality_tier": "B",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "1.0.0",
+  "source_type": "institutional_page",
+  "title": "African Voices — Ibn Khaldun biographical note",
+  "url": "https://unesdoc.unesco.org/ark:/48223/pf0000068103"
+}

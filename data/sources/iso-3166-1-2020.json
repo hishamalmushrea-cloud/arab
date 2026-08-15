@@ -32,6 +32,7 @@
   "notes": "Used only for country identities and ISO alpha-2 codes, not for lower administrative denominators.",
   "publication_date": "2020-08",
   "publisher": "International Organization for Standardization (ISO)",
+  "quality_tier": "A",
   "retrieved_at": "2026-08-15",
   "schema_version": "1.0.0",
   "source_type": "standard",

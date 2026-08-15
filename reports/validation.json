@@ -1,17 +1,17 @@
 {
   "checks": {
     "aliases": {
-      "aliases": 49,
+      "aliases": 2779,
       "duplicate_aliases": 0,
       "status": "pass"
     },
     "claims": {
-      "claims": 24,
-      "sourced": 24,
+      "claims": 68,
+      "sourced": 68,
       "status": "pass"
     },
     "coordinates": {
-      "coordinate_records": 0,
+      "coordinate_records": 2739,
       "status": "pass"
     },
     "country_mismatch": {
@@ -19,9 +19,9 @@
       "status": "pass"
     },
     "coverage": {
-      "complete_layers": 25,
-      "coverage_records": 31,
-      "denominators": 31,
+      "complete_layers": 28,
+      "coverage_records": 32,
+      "denominators": 32,
       "status": "pass"
     },
     "csv": {
@@ -35,9 +35,14 @@
       "cycle_count": 0,
       "status": "pass"
     },
+    "duplicates": {
+      "duplicate_claims": 0,
+      "entity_candidates": 0,
+      "status": "pass"
+    },
     "entity_types": {
-      "active_types": 5,
-      "allowed_types": 84,
+      "active_types": 19,
+      "allowed_types": 91,
       "status": "pass"
     },
     "hierarchy": {
@@ -46,12 +51,17 @@
     },
     "ids": {
       "duplicate_ids": 0,
-      "global_ids": 977,
+      "global_ids": 9055,
+      "status": "pass"
+    },
+    "independent_review": {
+      "passed": true,
+      "sampled": 598,
       "status": "pass"
     },
     "links": {
       "broken_links": 0,
-      "checked_links": 945,
+      "checked_links": 946,
       "status": "pass"
     },
     "manifests": {
@@ -73,22 +83,39 @@
       "status": "pass"
     },
     "parents": {
-      "administrative_relationships": 403,
+      "administrative_relationships": 2837,
       "status": "pass"
+    },
+    "phase2_tunisia": {
+      "boundary_intersections": 388,
+      "persons": 1,
+      "populated_place_types": 6,
+      "sites": 11,
+      "status": "pass",
+      "tn_delegation": 264,
+      "tn_governorate": 24,
+      "tn_imada": 2084,
+      "tn_municipality": 350
     },
     "schemas": {
       "executable_schemas": 9,
       "status": "pass"
     },
+    "source_quality": {
+      "ab_claims": 68,
+      "ab_ratio": 100.0,
+      "status": "pass",
+      "tunisia_published_claims": 68
+    },
     "sources": {
-      "atomic_files": 9,
-      "references": 968,
-      "sources": 9,
+      "atomic_files": 16,
+      "references": 11778,
+      "sources": 16,
       "status": "pass"
     },
     "structured_data": {
       "record_families": 8,
-      "records": 977,
+      "records": 9055,
       "status": "pass"
     },
     "unicode": {
@@ -97,15 +124,15 @@
     }
   },
   "counts": {
-    "aliases": 49,
-    "claims": 24,
-    "coverage": 31,
-    "denominators": 31,
-    "entities": 425,
+    "aliases": 2779,
+    "claims": 68,
+    "coverage": 32,
+    "denominators": 32,
+    "entities": 2877,
     "manifests": 22,
-    "relationships": 403,
-    "snapshots": 5,
-    "sources": 9
+    "relationships": 3243,
+    "snapshots": 8,
+    "sources": 16
   },
   "errors": [],
   "status": "pass"

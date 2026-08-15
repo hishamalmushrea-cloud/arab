@@ -44,6 +44,28 @@
     "title": "Tunisia governorates and delegations source retrieval"
   },
   {
+    "captured_at": "2022-11-15",
+    "checksum": "sha256:7edfdf49eeb93d1cd7c1443f2fec0a57ade847bae2b08450cc3d99138d5ddac9",
+    "id": "SNP-TN-CODAB-2022-11-15",
+    "method": "Deterministic reconstruction from rendered institutional workbook, metadata totals, and reviewed transcription",
+    "notes": "Checksum is for the committed reconstructed CSV, not the unavailable upstream XLSX bytes.",
+    "schema_version": "1.0.0",
+    "scope": "24 governorates, 264 delegations, and 2,084 imadas",
+    "source_id": "SRC-TN-HDX-CODAB-2022",
+    "title": "Tunisia COD-AB v01 dated administrative snapshot"
+  },
+  {
+    "captured_at": "2024-01-01",
+    "checksum": "sha256:b53d328fca053c49c1ee46b6b9e95bfe8cb7ca4a41abc81ce9c37bfe918fe1ad",
+    "id": "SNP-TN-MUNICIPALITIES-2024-01",
+    "method": "Deterministic transcription of official bilingual workbook with reviewed one-to-one geometry links",
+    "notes": "Date is month precision normalized to its first day. Checksum is for the committed reconstructed CSV.",
+    "schema_version": "1.0.0",
+    "scope": "350 coded municipalities",
+    "source_id": "SRC-TN-DGCL-MUNICIPALITIES-2024",
+    "title": "Tunisia official municipality register, January 2024"
+  },
+  {
     "captured_at": "2014-04-23",
     "checksum": null,
     "id": "SNP-TN-RGPH-2014",
@@ -53,5 +75,16 @@
     "scope": "24 governorate population values",
     "source_id": "SRC-TN-INS-RGPH-2014",
     "title": "Tunisia RGPH 2014 governorate population snapshot"
+  },
+  {
+    "captured_at": "2026-08-15",
+    "checksum": null,
+    "id": "SNP-TN-UNESCO-WHC-2026-08-15",
+    "method": "State Party list count and individual property records",
+    "notes": "Live institutional register retrieved on the snapshot date.",
+    "schema_version": "1.0.0",
+    "scope": "Ten World Heritage properties listed for Tunisia",
+    "source_id": "SRC-UNESCO-WHC-TN-2026",
+    "title": "UNESCO World Heritage properties in Tunisia"
   }
 ]

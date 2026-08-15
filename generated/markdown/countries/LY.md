@@ -6,12 +6,12 @@
 
 أي نسبة 100% أدناه مقيدة بالدولة والطبقة والمقام المؤرخ واللقطة والمصدر الظاهرة في الصف نفسه؛ ولا تمتد إلى طبقة أخرى.
 
-| الطبقة | تعريف المقام | المقام | مطابق | غير مطابق | مستبعد | مفقود | النسبة | تاريخ المقام | اللقطة | المصدر | مكتمل | سبب النقص |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| country_scope | ISO country entity in the project's 22-country scope | 1 | 1 | 0 | 0 | 0 | 100% | 2026-08-15 | SNP-MIGRATION-2026-08-15 | SRC-ISO-3166-1-2020 | نعم | — |
-| current_municipalities | Current municipalities in the Ministry of Local Government register | — | 93 | 3 | 90 | — | — | 2026-08-15 | SNP-LY-MUNICIPALITIES-2026-08-15 | SRC-LY-MOLG-MUNICIPALITIES-2026 | لا | A dated, reproducible national denominator remains unresolved; legacy material is only a matched subset and missing municipalities were not guessed or mass-added. |
-| historical_shabiyat_2006 | Historical census regions represented in the 2006 Bureau of Statistics tables | 22 | 22 | 0 | 0 | 0 | 100% | 2006-04-15 | SNP-LY-CENSUS-2006 | SRC-LY-BSC-CENSUS-2006 | نعم | — |
-| mahallas | Current mahallas beneath municipalities | — | 0 | 0 | 0 | — | — | 2026-08-15 | SNP-LY-MUNICIPALITIES-2026-08-15 | SRC-LY-MOLG-MUNICIPALITIES-2026 | لا | No dated national denominator or complete source snapshot was verified. |
+| الطبقة | تعريف المقام | المقام | مطابق | غير مطابق | مستبعد | مفقود | النسبة | تاريخ اللقطة | اللقطة | المصدر | الترخيص | مكتمل | سبب النقص |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| country_scope | ISO country entity in the project's 22-country scope | 1 | 1 | 0 | 0 | 0 | 100% | 2026-08-15 | SNP-MIGRATION-2026-08-15 | SRC-ISO-3166-1-2020 | ISO copyright; reuse is subject to ISO terms of use | نعم | — |
+| current_municipalities | Current municipalities in the Ministry of Local Government register | — | 93 | 3 | 90 | — | — | 2026-08-15 | SNP-LY-MUNICIPALITIES-2026-08-15 | SRC-LY-MOLG-MUNICIPALITIES-2026 | License not stated on the source page | لا | A dated, reproducible national denominator remains unresolved; legacy material is only a matched subset and missing municipalities were not guessed or mass-added. |
+| historical_shabiyat_2006 | Historical census regions represented in the 2006 Bureau of Statistics tables | 22 | 22 | 0 | 0 | 0 | 100% | 2006-04-15 | SNP-LY-CENSUS-2006 | SRC-LY-BSC-CENSUS-2006 | License not stated on the source page | نعم | — |
+| mahallas | Current mahallas beneath municipalities | — | 0 | 0 | 0 | — | — | 2026-08-15 | SNP-LY-MUNICIPALITIES-2026-08-15 | SRC-LY-MOLG-MUNICIPALITIES-2026 | License not stated on the source page | لا | No dated national denominator or complete source snapshot was verified. |
 
 ## الكيانات
 
@@ -269,13 +269,17 @@
 
 _لا توجد سجلات في المصدر المنظم._
 
+## جودة مصادر الادعاءات المنشورة
+
+ادعاءات A/B: 0 من 0 (0.00%).
+
 ## المصادر الذرية المستخدمة
 
-| المعرّف | العنوان | الناشر | تاريخ النشر | تاريخ الاسترجاع | الترخيص | الرابط |
-|---|---|---|---|---|---|---|
-| SRC-ISO-3166-1-2020 | ISO 3166-1:2020 — Codes for the representation of names of countries and their subdivisions — Part 1: Country code | International Organization for Standardization (ISO) | 2020-08 | 2026-08-15 | ISO copyright; reuse is subject to ISO terms of use | https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:ed-4:v1:en |
-| SRC-LY-BSC-CENSUS-2006 | التعداد العام للسكان 2006 — النتائج حسب مناطق التعداد | مصلحة الإحصاء والتعداد، ليبيا | 2006 | 2026-08-15 | License not stated on the source page | https://bsc.ly/demographicl_statist/%D8%A7%D9%84%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF-%D8%A7%D9%84%D8%B9%D8%A7%D9%85-%D9%84%D9%84%D8%B3%D9%83%D8%A7%D9%862006/ |
-| SRC-LY-MOLG-MUNICIPALITIES-2026 | قائمة البلديات | وزارة الحكم المحلي الليبية | — | 2026-08-15 | License not stated on the source page | https://www.lgm.gov.ly/municipalities |
+| المعرّف | الفئة | العنوان | الناشر | تاريخ النشر | تاريخ الاسترجاع | الترخيص | الرابط |
+|---|---|---|---|---|---|---|---|
+| SRC-ISO-3166-1-2020 | A | ISO 3166-1:2020 — Codes for the representation of names of countries and their subdivisions — Part 1: Country code | International Organization for Standardization (ISO) | 2020-08 | 2026-08-15 | ISO copyright; reuse is subject to ISO terms of use | https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:ed-4:v1:en |
+| SRC-LY-BSC-CENSUS-2006 | A | التعداد العام للسكان 2006 — النتائج حسب مناطق التعداد | مصلحة الإحصاء والتعداد، ليبيا | 2006 | 2026-08-15 | License not stated on the source page | https://bsc.ly/demographicl_statist/%D8%A7%D9%84%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF-%D8%A7%D9%84%D8%B9%D8%A7%D9%85-%D9%84%D9%84%D8%B3%D9%83%D8%A7%D9%862006/ |
+| SRC-LY-MOLG-MUNICIPALITIES-2026 | A | قائمة البلديات | وزارة الحكم المحلي الليبية | — | 2026-08-15 | License not stated on the source page | https://www.lgm.gov.ly/municipalities |
 
 ---
 _مولّد آليًا؛ لا تعدّل هذا الملف مباشرة._

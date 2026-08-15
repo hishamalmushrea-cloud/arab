@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Dependency-free Phase 0/1 validator for Schema v1 and repaired legacy data."""
+"""Dependency-free Phase 0/1/2 validator for canonical and repaired legacy data."""
 from __future__ import annotations
 
 import csv
@@ -280,13 +280,24 @@ def validate_all() -> tuple[Validation, dict[str, list[dict[str, Any]]]]:
                 v.error("hierarchy", rel["id"], "child type is absent from its country manifest")
             elif parent["entity_type"] not in allowed:
                 v.error("hierarchy", rel["id"], f"parent type {parent['entity_type']} not allowed for {child['entity_type']}")
+    administrative_types = {entity_type for (_iso, entity_type) in hierarchy_pairs}
+    contextual_links: dict[str, int] = defaultdict(int)
+    for rel in records["relationships"]:
+        if rel.get("relationship_type") in {"located_in", "associated_with"}:
+            contextual_links[rel.get("child_id", "")] += 1
     for entity in records["entities"]:
         count = len(parents_by_child.get(entity["id"], []))
         if entity["entity_type"] == "country":
             if count:
                 v.error("hierarchy", entity["id"], "country must not have administrative parent")
-        elif count != 1:
-            v.error("orphans", entity["id"], f"active non-country entity must have exactly one administrative parent, got {count}")
+        elif entity["entity_type"] in administrative_types:
+            if count != 1:
+                v.error("orphans", entity["id"], f"administrative entity must have exactly one administrative parent, got {count}")
+        else:
+            if count:
+                v.error("hierarchy", entity["id"], "non-administrative entity must use located_in/associated_with, not administrative_parent")
+            if contextual_links.get(entity["id"], 0) < 1:
+                v.error("orphans", entity["id"], "non-administrative entity requires a sourced located_in or associated_with relationship")
 
     visiting, visited = set(), set()
     def visit(node: str, trail: list[str]):
@@ -328,8 +339,23 @@ def validate_all() -> tuple[Validation, dict[str, list[dict[str, Any]]]]:
             v.error("claims", row.get("id", "?"), "claim subject does not exist")
         if not row.get("source_id"):
             v.error("claims", row.get("id", "?"), "claim lacks source_id")
-        if row.get("sensitivity") == "sensitive" and row.get("status") != "disputed" and not row.get("second_source_id"):
-            v.error("claims", row["id"], "sensitive non-disputed claim requires two sources")
+        if not row.get("source_locator"):
+            v.error("claims", row.get("id", "?"), "claim lacks source_locator")
+        if bool(row.get("second_source_id")) != bool(row.get("second_source_locator")):
+            v.error("claims", row.get("id", "?"), "second source and second source locator must occur together")
+        if row.get("sensitivity") == "sensitive" and row.get("status") != "disputed":
+            if not row.get("second_source_id") or row.get("second_source_id") == row.get("source_id"):
+                v.error("claims", row["id"], "sensitive non-disputed claim requires two independent sources")
+        if row.get("published") and row.get("verification_status") not in {"verified", "source_verified"}:
+            v.error("claims", row["id"], "published claim must have a publishable verification status")
+        if any(token in row.get("predicate", "") for token in {"food", "clothing", "custom"}) and not row.get("classification"):
+            v.error("claims", row["id"], "food, clothing, and custom claims require explicit classification")
+        if row.get("predicate", "").startswith("lexical_"):
+            context = row.get("lexical_context")
+            if not context:
+                v.error("claims", row["id"], "lexical claim requires lexical_context")
+            elif not context.get("study_date") or context.get("place_id") not in entity_by_id:
+                v.error("claims", row["id"], "lexical claim requires a study date and existing place")
         typed = row.get("value", {})
         data = typed.get("data")
         expected = typed.get("type")
@@ -343,10 +369,105 @@ def validate_all() -> tuple[Validation, dict[str, list[dict[str, Any]]]]:
         coords = entity.get("coordinates")
         if coords and not (-90 <= coords["latitude"] <= 90 and -180 <= coords["longitude"] <= 180):
             v.error("coordinates", entity["id"], "coordinates out of bounds")
+    # Published Tunisia claim quality, entity deduplication, and Phase 2 invariants.
+    tn_ids = {row["id"] for row in records["entities"] if row.get("country_code") == "TN"}
+    tn_published = [row for row in records["claims"] if row.get("subject_id") in tn_ids and row.get("published")]
+    ab_claims = [row for row in tn_published if source_by_id.get(row.get("source_id"), {}).get("quality_tier") in {"A", "B"}]
+    ab_ratio = round(len(ab_claims) / len(tn_published) * 100, 2) if tn_published else 0.0
+    if ab_ratio < 95:
+        v.error("source_quality", "TN", f"published A/B claim ratio is {ab_ratio}%; minimum is 95%")
+    v.result("source_quality", tunisia_published_claims=len(tn_published), ab_claims=len(ab_claims), ab_ratio=ab_ratio)
+
+    aliases_by_entity: dict[str, set[str]] = defaultdict(set)
+    for row in records["aliases"]:
+        aliases_by_entity[row["entity_id"]].add(norm_name(row["name"]))
+    context_targets: dict[str, set[str]] = defaultdict(set)
+    for row in records["relationships"]:
+        if row.get("relationship_type") in {"administrative_parent", "located_in", "associated_with"}:
+            context_targets[row["child_id"]].add(row["parent_id"])
+    tn_entities = [row for row in records["entities"] if row.get("country_code") == "TN"]
+    duplicate_candidates = 0
+    by_type_parent: dict[tuple[str, tuple[str, ...]], list[dict[str, Any]]] = defaultdict(list)
+    for row in tn_entities:
+        by_type_parent[(row["entity_type"], tuple(sorted(context_targets[row["id"]])))].append(row)
+    for (_type, _parents), group in by_type_parent.items():
+        for index, left in enumerate(group):
+            left_names = {norm_name(left["canonical_name"])} | aliases_by_entity[left["id"]]
+            for right in group[index + 1:]:
+                right_names = {norm_name(right["canonical_name"])} | aliases_by_entity[right["id"]]
+                if not left_names & right_names:
+                    continue
+                lc, rc = left.get("coordinates"), right.get("coordinates")
+                close = not lc or not rc or (abs(lc["latitude"] - rc["latitude"]) <= 0.02 and abs(lc["longitude"] - rc["longitude"]) <= 0.02)
+                if close and left.get("status") == right.get("status"):
+                    duplicate_candidates += 1
+                    v.error("duplicates", f"{left['id']} / {right['id']}", "same type, context, name/alias, status, and compatible coordinates")
+    claim_keys: dict[tuple[str, str, str], str] = {}
+    for row in records["claims"]:
+        key = (row["subject_id"], row["predicate"], json.dumps(row["value"], ensure_ascii=False, sort_keys=True))
+        if key in claim_keys:
+            v.error("duplicates", row["id"], f"duplicate claim content of {claim_keys[key]}")
+        claim_keys[key] = row["id"]
+    v.result("duplicates", entity_candidates=duplicate_candidates, duplicate_claims=sum(1 for e in v.errors if e["check"] == "duplicates" and "claim" in e["message"]))
+
+    tn_counts = Counter(row["entity_type"] for row in tn_entities)
+    expected_counts = {"tn_governorate": 24, "tn_delegation": 264, "tn_municipality": 350, "tn_imada": 2084}
+    for entity_type, expected_count in expected_counts.items():
+        if tn_counts[entity_type] != expected_count:
+            v.error("phase2_tunisia", entity_type, f"expected {expected_count}, got {tn_counts[entity_type]}")
+    municipality_ids = {row["id"] for row in tn_entities if row["entity_type"] == "tn_municipality"}
+    delegation_ids = {row["id"] for row in tn_entities if row["entity_type"] == "tn_delegation"}
+    overlap_rels = [row for row in records["relationships"] if row.get("relationship_type") == "boundary_intersects" and row.get("child_id") in municipality_ids]
+    if {row["child_id"] for row in overlap_rels} != municipality_ids or {row["parent_id"] for row in overlap_rels} != delegation_ids:
+        v.error("phase2_tunisia", "boundary_intersects", "overlap evidence must span all 350 municipalities and all 264 dated delegations")
+    place_types = {"city", "town", "village", "settlement", "neighborhood", "historical_place"}
+    if not place_types <= {row["entity_type"] for row in tn_entities}:
+        v.error("phase2_tunisia", "populated_places", "bounded pilot must keep all six requested place classifications distinct")
+    if tn_counts["person"] < 1 or not ({"archaeological_site", "market", "landmark", "natural_site"} <= set(tn_counts)):
+        v.error("phase2_tunisia", "pilot_entities", "person and archaeological/market/landmark/natural entities are required")
+    review_path = ROOT / "reports/tunisia_independent_review.json"
+    review = load_json(review_path, v, "independent_review") if review_path.is_file() else None
+    if not isinstance(review, dict):
+        v.error("independent_review", str(review_path.relative_to(ROOT)), "review artifact is missing or invalid")
+    else:
+        allowed_outcomes = {"correct", "incorrect", "unsupported", "ambiguous", "needs_review"}
+        if not review.get("passed") or any(rate < 0.10 for rate in review.get("sample_rates", {}).values()):
+            v.error("independent_review", "TN", "every record family requires at least a 10% sample and a passing review")
+        if set(review.get("sample_rates", {})) != {"entity", "claim", "source", "hierarchy"}:
+            v.error("independent_review", "TN", "review must span entity, claim, source, and hierarchy families")
+        if any(item.get("outcome") not in allowed_outcomes for item in review.get("reviews", [])):
+            v.error("independent_review", "TN", "review contains an uncontrolled outcome")
+        if any(outcome != "correct" and count for outcome, count in review.get("outcomes", {}).items()):
+            v.error("independent_review", "TN", "only correct outcomes may remain in a passing review")
+        span = review.get("span", {})
+        tn_relationships = [row for row in records["relationships"] if row["child_id"] in tn_ids]
+        tn_source_ids = {
+            *(row["canonical_source_id"] for row in tn_entities),
+            *(row["source_id"] for row in tn_relationships),
+            *(row["source_id"] for row in tn_published),
+            *(row["second_source_id"] for row in tn_published if row.get("second_source_id")),
+        }
+        expected_span = {
+            "entity_types_sampled": {row["entity_type"] for row in tn_entities},
+            "claim_domains_sampled": {"population", "populated_place", "person", "culture", "site"},
+            "source_tiers_sampled": {source_by_id[source_id]["quality_tier"] for source_id in tn_source_ids},
+            "relationship_types_sampled": {row["relationship_type"] for row in tn_relationships},
+        }
+        for key, expected in expected_span.items():
+            if set(span.get(key, {})) != expected:
+                v.error("independent_review", "TN", f"review stratum {key} does not span its universe")
+    v.result("independent_review", sampled=(sum(review.get("sample", {}).values()) if isinstance(review, dict) else 0), passed=bool(review and review.get("passed")))
+    v.result("phase2_tunisia", **{key: tn_counts[key] for key in expected_counts}, populated_place_types=len(place_types & set(tn_counts)), sites=sum(tn_counts[t] for t in {"archaeological_site", "market", "landmark", "natural_site", "cultural_site"}), persons=tn_counts["person"], boundary_intersections=len(overlap_rels))
+
     v.result("claims", claims=len(records["claims"]), sourced=sum(bool(row.get("source_id")) for row in records["claims"]))
     v.result("coordinates", coordinate_records=sum(bool(row.get("coordinates")) for row in records["entities"]))
 
-    # Coverage arithmetic, dates, denominators, and constrained 100% assertions.
+    # Coverage arithmetic, dates, denominators, exclusions, and constrained 100% assertions.
+    for den in records["denominators"]:
+        if den.get("denominator") != den.get("value"):
+            v.error("coverage", den.get("id", "?"), "denominator mirror must equal value")
+        if den.get("snapshot_date") != den.get("as_of"):
+            v.error("coverage", den.get("id", "?"), "snapshot_date mirror must equal as_of")
     for row in records["coverage"]:
         den = denominator_by_id.get(row.get("denominator_id"))
         snap = snapshot_by_id.get(row.get("snapshot_id"))
@@ -355,21 +476,40 @@ def validate_all() -> tuple[Validation, dict[str, list[dict[str, Any]]]]:
         if not den: continue
         if (row.get("country_code"), row.get("layer")) != (den.get("country_code"), den.get("layer")):
             v.error("coverage", row["id"], "coverage and denominator scope differ")
+        if row.get("denominator") != den.get("value"):
+            v.error("coverage", row["id"], "coverage denominator mirror differs from denominator record")
+        if snap and row.get("snapshot_date") != snap.get("captured_at"):
+            v.error("coverage", row["id"], "snapshot_date differs from snapshot captured_at")
+        if not row.get("license"):
+            v.error("coverage", row["id"], "layer record requires an explicit license/reuse statement")
+        if sum(item.get("count", 0) for item in row.get("exclusion_reasons", [])) != row.get("excluded"):
+            v.error("coverage", row["id"], "exclusion reason counts must sum to excluded")
         value = den.get("value")
         if value is None:
-            if row.get("coverage_percent") is not None or row.get("complete"):
+            if row.get("coverage_percentage") is not None or row.get("complete"):
                 v.error("coverage", row["id"], "unavailable denominator cannot have a percentage or complete=true")
             if not row.get("missing_reason") or not den.get("missing_reason"):
                 v.error("coverage", row["id"], "unavailable denominator requires missing_reason in both records")
+            if row.get("missing") is not None:
+                v.error("coverage", row["id"], "unavailable denominator requires missing=null")
         else:
-            expected_percent = round(row["matched"] / value * 100, 4) if value else (100.0 if row["matched"] == 0 else None)
-            if row.get("coverage_percent") != expected_percent:
-                v.error("coverage", row["id"], f"coverage_percent should be {expected_percent}")
-            if row.get("missing") != max(0, value - row["matched"]):
-                v.error("coverage", row["id"], "missing must equal denominator minus matched")
-        if row.get("coverage_percent") == 100:
-            if not (row.get("country_code") and row.get("layer") and den.get("as_of") and row.get("snapshot_id") and row.get("source_id")):
-                v.error("coverage", row["id"], "100% lacks country, layer, dated denominator, snapshot, or source")
+            completed = row["matched"] + row["excluded"]
+            expected_percent = round(completed / value * 100, 2) if value else (100.0 if completed == 0 else None)
+            expected_missing = value - completed
+            if expected_missing < 0:
+                v.error("coverage", row["id"], "matched + excluded exceeds denominator")
+            if row.get("coverage_percentage") != expected_percent:
+                v.error("coverage", row["id"], f"coverage_percentage should be {expected_percent}")
+            if row.get("missing") != expected_missing or row.get("unmatched") != expected_missing:
+                v.error("coverage", row["id"], "missing and unmatched must equal denominator - matched - excluded")
+            expected_complete = completed == value
+            if row.get("complete") != expected_complete:
+                v.error("coverage", row["id"], "complete must equal (matched + excluded == denominator)")
+            if not expected_complete and not row.get("missing_reason"):
+                v.error("coverage", row["id"], "incomplete known-denominator layer requires missing_reason")
+        if row.get("coverage_percentage") == 100:
+            if not (row.get("country_code") and row.get("layer") and row.get("snapshot_date") and row.get("snapshot_id") and row.get("source_id") and row.get("license")):
+                v.error("coverage", row["id"], "100% lacks country, layer, date, denominator, snapshot, source, or license")
             if den.get("status") != "official" or not row.get("complete") or row.get("missing") != 0:
                 v.error("coverage", row["id"], "100% requires official denominator, complete=true, and missing=0")
     v.result("coverage", denominators=len(records["denominators"]), coverage_records=len(records["coverage"]), complete_layers=sum(bool(row.get("complete")) for row in records["coverage"]))
