@@ -1,0 +1,98 @@
+{
+  "checks": {
+    "aliases": {
+      "aliases": 42,
+      "historical_aliases": 1,
+      "status": "PASS"
+    },
+    "claims": {
+      "claims": 76,
+      "contexts": {
+        "coastal": true,
+        "desert": true,
+        "historical": true,
+        "mountain": true,
+        "oasis": true,
+        "urban": true
+      },
+      "cultural": 36,
+      "dialect": 3,
+      "semantics": 40,
+      "sensitive": 0,
+      "status": "PASS"
+    },
+    "coverage": {
+      "bounded_denominators": {
+        "abu_dhabi_municipality_jurisdictions": 3,
+        "ajman_constituents": 3,
+        "dubai_planning_sectors": 9,
+        "emirates": 7,
+        "fujairah_municipal_authorities": 2,
+        "rak_administrative_areas": 5,
+        "sharjah_municipality_jurisdictions": 9,
+        "uaq_municipal_authorities": 2
+      },
+      "closed_layers": 9,
+      "coverage_records": 12,
+      "denominators": 12,
+      "status": "PASS",
+      "unavailable_layers": 3
+    },
+    "emirate_profiles": {
+      "profiled_entities": 40,
+      "profiles": 7,
+      "status": "PASS"
+    },
+    "entities": {
+      "contextual_types": 8,
+      "entities": 41,
+      "status": "PASS",
+      "type_counts": {
+        "ae_abu_dhabi_municipality_jurisdiction": 3,
+        "ae_ajman_constituent": 3,
+        "ae_dubai_planning_sector": 9,
+        "ae_emirate": 7,
+        "ae_fujairah_municipal_authority": 2,
+        "ae_rak_administrative_area": 5,
+        "ae_sharjah_municipality_jurisdiction": 9,
+        "ae_uaq_municipal_authority": 2,
+        "country": 1
+      }
+    },
+    "relationships": {
+      "administrative_parents": 40,
+      "orphans": 0,
+      "relationships": 40,
+      "status": "PASS"
+    },
+    "schema": {
+      "additive_claim_classifications": 1,
+      "additive_entity_statuses": 3,
+      "additive_entity_types": 8,
+      "deprecated_generic_types_retained": [
+        "ae_district",
+        "ae_municipal_region",
+        "ae_sector"
+      ],
+      "optional_manifest_properties": 1,
+      "schema_version": "1.0.0",
+      "status": "PASS"
+    },
+    "sources": {
+      "ab_claims": 76,
+      "ab_ratio": 100.0,
+      "evidence_extracts": 19,
+      "pilot_specific": 19,
+      "published_claims": 76,
+      "referenced": 20,
+      "status": "PASS"
+    }
+  },
+  "country_code": "AE",
+  "critical_p1": 0,
+  "errors": [],
+  "p0": 0,
+  "schema_version": "1.0.0",
+  "snapshot_date": "2026-08-15",
+  "status": "PASS"
+}

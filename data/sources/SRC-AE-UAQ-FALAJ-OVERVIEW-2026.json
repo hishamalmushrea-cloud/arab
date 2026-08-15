@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:fe3dbbe22b8bd9b01e77fdf7f2b240751350a6f5325d7b8e6c1f5e828c88148f",
+  "country_codes": [
+    "AE"
+  ],
+  "id": "SRC-AE-UAQ-FALAJ-OVERVIEW-2026",
+  "language": "en",
+  "license": "Official Umm Al Quwain government page; reuse terms not stated",
+  "locator": "indexed overview paragraph naming Decree No. 16 of 2008 and independence date",
+  "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/uaq-falaj-overview.txt. Checksum binds that extract (599 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. Publication date unavailable on the captured page; no date was inferred.",
+  "publication_date": null,
+  "publisher": "Falaj Al Mualla Municipality, Government of Umm Al Quwain",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "1.0.0",
+  "source_type": "institutional_page",
+  "title": "Falaj Al Mualla Municipality — Overview",
+  "url": "https://fmd.uaq.ae/en/about-us/overview.html"
+}

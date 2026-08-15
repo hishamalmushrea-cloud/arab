@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:038f0a6a66c49532ac5a78679caed77cd78f0ad9f55fcdc6c4c4aee4ab9a8574",
+  "country_codes": [
+    "AE"
+  ],
+  "id": "SRC-AE-UAQ-EXECUTIVE-COUNCIL-2026",
+  "language": "en",
+  "license": "Official Umm Al Quwain government page; reuse terms not stated",
+  "locator": "indexed standing committee list naming both municipality authorities",
+  "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/uaq-executive-council.txt. Checksum binds that extract (437 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. Publication date unavailable on the captured page; no date was inferred.",
+  "publication_date": null,
+  "publisher": "Government of Umm Al Quwain",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "1.0.0",
+  "source_type": "official_register",
+  "title": "Executive Council — About Us / Mandate",
+  "url": "https://ec.uaq.ae/en/about-us/mandate.html"
+}

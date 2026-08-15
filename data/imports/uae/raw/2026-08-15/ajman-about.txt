@@ -1,0 +1,9 @@
+Title: About Ajman
+Publisher: Department of Digital Ajman
+Relevant exact excerpts:
+The emirate includes the cities of Musfout and Manama, as well as the city of Ajman, which is the capital of the headquarters of the Governor's Office and the headquarters of the departments and government institutions.
+Manama area
+Masfout area
+The area of Masfout is experiencing a qualitative boom and progress ... The area is famous for its agriculture, spacious valleys, moderate climate, Mount Lishin and White Mountain.
+Semantic finding: the same page mixes “cities” in the overview with “area” headings for Manama and Masfout; the pilot therefore models a contextual Ajman constituent, not a generic municipality or populated-place type.
+Retrieval note: page text extracted on 2026-08-15; this local excerpt is not a full-page byte-for-byte archive.

@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:fb293fd83aa2558a1ee397b938bf7304f5350472ede1f92406d87940db464e95",
+  "country_codes": [
+    "AE"
+  ],
+  "id": "SRC-AE-UAE-ABU-DHABI-2025",
+  "language": "en",
+  "license": "Official UAE Government portal; reuse terms not stated on captured page",
+  "locator": "three main regions; Liwa oasis and Al Ain heritage context",
+  "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/abu-dhabi-profile-2025.txt. Checksum binds that extract (662 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. Publication date unavailable on the captured page; no date was inferred.",
+  "publication_date": null,
+  "publisher": "The Official Platform of the UAE Government",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "1.0.0",
+  "source_type": "institutional_page",
+  "title": "Abu Dhabi",
+  "url": "https://u.ae/en/about-the-uae/the-seven-emirates/abu-dhabi"
+}

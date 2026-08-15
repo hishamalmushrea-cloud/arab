@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:d3f9c8df032b15143b2f265ab029691df66358042671d1fd8080490f0b5d5534",
+  "country_codes": [
+    "AE"
+  ],
+  "id": "SRC-AE-DUBAI-CULTURE-SHINDAGHA-2023",
+  "language": "en",
+  "license": "Official Dubai Culture page; reuse terms not stated",
+  "locator": "Al Shindagha historic-neighbourhood and Creek history paragraph",
+  "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/dubai-shindagha-2023.txt. Checksum binds that extract (733 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt.",
+  "publication_date": "2023-03-20",
+  "publisher": "Dubai Culture & Arts Authority",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "1.0.0",
+  "source_type": "institutional_page",
+  "title": "Dubai Public Art & Alserkal Arts Foundation — Al Shindagha context",
+  "url": "https://dubaiculture.gov.ae/en/events/DPA-AlSerkal"
+}

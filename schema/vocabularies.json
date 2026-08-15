@@ -17,6 +17,7 @@
     "historical",
     "disputed",
     "national",
+    "emirate_specific",
     "local"
   ],
   "claim_statuses": [
@@ -48,7 +49,10 @@
     "claimed",
     "proposed",
     "transitional",
-    "uncertain"
+    "uncertain",
+    "renamed",
+    "merged",
+    "abolished"
   ],
   "entity_types": [
     "country",
@@ -70,6 +74,14 @@
     "ae_municipal_region",
     "ae_sector",
     "ae_district",
+    "ae_abu_dhabi_municipality_jurisdiction",
+    "ae_dubai_planning_sector",
+    "ae_dubai_planning_community",
+    "ae_sharjah_municipality_jurisdiction",
+    "ae_ajman_constituent",
+    "ae_uaq_municipal_authority",
+    "ae_rak_administrative_area",
+    "ae_fujairah_municipal_authority",
     "bh_governorate",
     "bh_area",
     "bh_block",

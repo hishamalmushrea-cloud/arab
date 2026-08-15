@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:505d29bfe219af0a0f7ea3b90ecb47c9cd23b6c2144cbe257bbb4ff5e321ca77",
+  "country_codes": [
+    "AE"
+  ],
+  "id": "SRC-AE-AJMAN-ABOUT-2026",
+  "language": "en",
+  "license": "Official Ajman government page; reuse terms not stated",
+  "locator": "overview and Manama area / Masfout area sections",
+  "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/ajman-about.txt. Checksum binds that extract (848 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. Publication date unavailable on the captured page; no date was inferred.",
+  "publication_date": null,
+  "publisher": "Department of Digital Ajman",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "1.0.0",
+  "source_type": "official_register",
+  "title": "About Ajman",
+  "url": "https://www.ajman.ae/en/about-ajman"
+}

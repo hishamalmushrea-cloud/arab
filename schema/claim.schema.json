@@ -12,6 +12,7 @@
         "historical",
         "disputed",
         "national",
+        "emirate_specific",
         "local",
         null
       ],

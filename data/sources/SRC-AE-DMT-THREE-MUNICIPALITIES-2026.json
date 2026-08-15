@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:c9cf26ef0c853ee1805efcd572b88eb6d05342e3573c3a315a4c4b28ab9c445d",
+  "country_codes": [
+    "AE"
+  ],
+  "id": "SRC-AE-DMT-THREE-MUNICIPALITIES-2026",
+  "language": "en",
+  "license": "Official Abu Dhabi government page; reuse terms not stated",
+  "locator": "paragraph naming Abu Dhabi City, Al Ain City, and Al Dhafra Region municipalities",
+  "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/abu-dhabi-three-municipalities.txt. Checksum binds that extract (728 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. Publication date unavailable on the captured page; no date was inferred.",
+  "publication_date": null,
+  "publisher": "Department of Municipalities and Transport, Abu Dhabi",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "1.0.0",
+  "source_type": "official_register",
+  "title": "Occupational Safety & Health Management System — DMT and three municipalities",
+  "url": "https://www.dmt.gov.ae/en/adm/Environment-Healthy-Safty/About-EHS"
+}

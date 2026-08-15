@@ -17,7 +17,7 @@
 | ISO | البلد | الأنواع المرتبة أو المتوازية في v1 |
 |---|---|---|
 | JO | الأردن | `jo_governorate` → `jo_liwa` → `jo_qada`; والبلدية مسار محلي موازٍ حيث يلزم |
-| AE | الإمارات | `ae_emirate` ثم `ae_municipal_region`/`ae_sector`/`ae_district` وفق نظام كل إمارة، بلا طبقة اتحادية سفلية مصطنعة |
+| AE | الإمارات | `ae_emirate` ثم نوع سياقي خاص بكل إمارة: `ae_abu_dhabi_municipality_jurisdiction`، `ae_dubai_planning_sector`/`ae_dubai_planning_community`، `ae_sharjah_municipality_jurisdiction`، `ae_ajman_constituent`، `ae_uaq_municipal_authority`، `ae_rak_administrative_area`، أو `ae_fujairah_municipal_authority`؛ لا توجد طبقة اتحادية سفلية موحدة |
 | BH | البحرين | `bh_governorate` → `bh_area` → `bh_block`؛ الدائرة الانتخابية ليست بديلًا إداريًا تلقائيًا |
 | DZ | الجزائر | `dz_wilaya` → `dz_daira` → `dz_commune`; الولايات المنتقلة إلى كامل الصلاحيات تبقى `proposed` أو `transitional` حتى تاريخ النفاذ |
 | SA | السعودية | `sa_region` → `sa_governorate` → `sa_markaz` |
@@ -41,6 +41,10 @@
 
 الأنواع المتوازية لا تعني إمكان وضع أحدها والدًا للآخر. يحدد manifest المسارات الصحيحة لكل بلد، وتتحقق منها الأدوات.
 
+### ملاحظة توافق الإمارات
+
+الأنواع العامة القديمة `ae_municipal_region` و`ae_sector` و`ae_district` باقية في مفردات Schema v1.0.0 كي لا تنكسر السجلات القديمة، لكنها **مهملة للبيانات الإماراتية الجديدة** ولا يستخدمها الطيار الإماراتي. يرفض المدقق الخاص بالإمارات ظهورها في أي كيان محلي جديد. الأنواع السياقية لا تجعل «municipality jurisdiction»، و«planning sector»، و«constituent»، و«municipal authority»، و«administrative area» مترادفات؛ كل نوع يحتفظ بتعريف الجهة الرسمية واختصاصه ووالده في لقطة المصدر.
+
 ## الحالة الزمنية والقانونية
 
 القيم المسموح بها:
@@ -55,6 +59,9 @@
 - `proposed`: مقترح لم يدخل النفاذ.
 - `transitional`: صدر التغيير لكن نفاذه/صلاحياته مرحلية.
 - `uncertain`: المصدر لا يحسم الوضع؛ سبب عدم الحسم إلزامي في الملاحظات.
+- `renamed`: وحدة سابقة تغيّر اسمها رسميًا مع حفظ هويتها الزمنية؛ الاسم السابق وحده يمكن أن يبقى Alias إذا لم تتغير هوية الوحدة.
+- `merged`: وحدة سابقة انتهت باندماج موثق في وحدة أخرى؛ لا تدخل الشجرة الحالية.
+- `abolished`: وحدة أُلغيَت رسميًا من دون افتراض خليفة غير موثق؛ لا تدخل الشجرة الحالية.
 
 يمكن لعلاقات الكيان أن تحمل حالة مختلفة عنه. مدينة حالية مثلًا قد تكون علاقتها الإدارية `disputed`.
 

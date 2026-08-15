@@ -1,7 +1,12 @@
 {
   "caveats": [
-    "لا يوجد هرم سفلي اتحادي موحد؛ يجب نمذجة نظام كل إمارة على حدة.",
-    "Local coverage remains incomplete; file or directory existence is not a denominator."
+    "Dubai Community.kml metadata is official, but repeated file retrieval failed; denominator, percentage, and community entities remain unavailable.",
+    "No UAE-wide enumerable registry of cities, towns, villages, settlements, or neighborhoods was established. Web mentions are not denominators.",
+    "No populated-place entity was added without a bounded registry, parent, type, source, snapshot, and coordinates; administrative units do not receive invented coordinates.",
+    "Arabic and English forms for the same parent-scoped identity are aliases. Same-name records under different parents remain potentially distinct.",
+    "Julfar is a historical alias and historical claim, never a current administrative unit. Renamed, merged, abolished, disputed, historical, and current statuses remain distinct.",
+    "Food, art, and dialect claims record national, emirate-specific, local, popular, shared, regional, historical, or official scope without implying exclusivity.",
+    "No dress claim was materialized because the bounded source set did not establish sufficiently specific scope-qualified evidence."
   ],
   "country": {
     "entity_id": "ENT-AE-COUNTRY",
@@ -9,26 +14,400 @@
     "name_ar": "الإمارات"
   },
   "coverage_record_ids": [
-    "COV-AE-COUNTRY-SCOPE"
+    "COV-AE-COUNTRY-SCOPE",
+    "COV-AE-EMIRATES",
+    "COV-AE-ABU-DHABI-MUNICIPALITY-JURISDICTIONS",
+    "COV-AE-DUBAI-PLANNING-SECTORS",
+    "COV-AE-SHARJAH-MUNICIPALITY-JURISDICTIONS",
+    "COV-AE-AJMAN-CONSTITUENTS",
+    "COV-AE-UAQ-MUNICIPAL-AUTHORITIES",
+    "COV-AE-RAK-ADMINISTRATIVE-AREAS",
+    "COV-AE-FUJAIRAH-MUNICIPAL-AUTHORITIES",
+    "COV-AE-DUBAI-PLANNING-COMMUNITIES",
+    "COV-AE-POPULATED-PLACES",
+    "COV-AE-NEIGHBORHOODS"
+  ],
+  "emirate_profiles": [
+    {
+      "competent_authorities": [
+        "Department of Municipalities and Transport",
+        "Abu Dhabi City Municipality",
+        "Al Ain City Municipality",
+        "Al Dhafra Region Municipality"
+      ],
+      "emirate_id": "ENT-AE-EMIRATE-ABU-DHABI",
+      "lower_layers": [
+        {
+          "authority_names": [
+            "Department of Municipalities and Transport",
+            "Abu Dhabi City Municipality",
+            "Al Ain City Municipality",
+            "Al Dhafra Region Municipality"
+          ],
+          "coverage_record_id": "COV-AE-ABU-DHABI-MUNICIPALITY-JURISDICTIONS",
+          "denominator": 3,
+          "denominator_id": "DEN-AE-ABU-DHABI-MUNICIPALITY-JURISDICTIONS",
+          "entity_ids": [
+            "ENT-AE-ABU-DHABI-MUNICIPALITY",
+            "ENT-AE-AL-AIN-MUNICIPALITY",
+            "ENT-AE-AL-DHAFRA-MUNICIPALITY"
+          ],
+          "entity_type": "ae_abu_dhabi_municipality_jurisdiction",
+          "layer": "abu_dhabi_municipality_jurisdictions",
+          "semantic_definition": "Three Abu Dhabi municipality jurisdictions named as DMT sub-sector regulatory authorities",
+          "source_ids": [
+            "SRC-AE-DMT-THREE-MUNICIPALITIES-2026"
+          ],
+          "special_cases": [
+            "DMT calls the municipalities sub-sector regulatory authorities and refers to geographic jurisdiction; the pilot does not equate them with sectors."
+          ]
+        }
+      ],
+      "name_ar": "أبو ظبي",
+      "name_en": "Abu Dhabi",
+      "parent_id": "ENT-AE-COUNTRY",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-AE-FEDERAL-SEVEN-EMIRATES-2026",
+        "SRC-AE-DMT-THREE-MUNICIPALITIES-2026"
+      ],
+      "special_cases": [
+        "Three municipality jurisdictions are contextual DMT regulatory/geographic jurisdictions."
+      ]
+    },
+    {
+      "competent_authorities": [
+        "Dubai Statistics Center",
+        "Dubai Municipality"
+      ],
+      "emirate_id": "ENT-AE-EMIRATE-DUBAI",
+      "lower_layers": [
+        {
+          "authority_names": [
+            "Dubai Statistics Center",
+            "Dubai Municipality"
+          ],
+          "coverage_record_id": "COV-AE-DUBAI-PLANNING-SECTORS",
+          "denominator": 9,
+          "denominator_id": "DEN-AE-DUBAI-PLANNING-SECTORS",
+          "entity_ids": [
+            "ENT-AE-DUBAI-SECTOR-1",
+            "ENT-AE-DUBAI-SECTOR-2",
+            "ENT-AE-DUBAI-SECTOR-3",
+            "ENT-AE-DUBAI-SECTOR-4",
+            "ENT-AE-DUBAI-SECTOR-5",
+            "ENT-AE-DUBAI-SECTOR-6",
+            "ENT-AE-DUBAI-SECTOR-7",
+            "ENT-AE-DUBAI-SECTOR-8",
+            "ENT-AE-DUBAI-SECTOR-9"
+          ],
+          "entity_type": "ae_dubai_planning_sector",
+          "layer": "dubai_planning_sectors",
+          "semantic_definition": "Nine official numbered planning/statistical sectors of Dubai",
+          "source_ids": [
+            "SRC-AE-DSC-SECTORS-2022"
+          ],
+          "special_cases": [
+            "Sector numbers 1–9 are represented; Dubai Municipality metadata defines sec_num as the legal sector number."
+          ]
+        },
+        {
+          "authority_names": [
+            "Dubai Statistics Center",
+            "Dubai Municipality"
+          ],
+          "coverage_record_id": "COV-AE-DUBAI-PLANNING-COMMUNITIES",
+          "denominator": null,
+          "denominator_id": "DEN-AE-DUBAI-PLANNING-COMMUNITIES",
+          "entity_ids": [],
+          "entity_type": "ae_dubai_planning_community",
+          "layer": "dubai_planning_communities",
+          "semantic_definition": "Dubai three-digit planning communities; official layer available but enumerable denominator unavailable in this snapshot",
+          "source_ids": [
+            "SRC-AE-DUBAI-PULSE-COMMUNITIES-2025"
+          ],
+          "special_cases": [
+            "Community.kml is official and updated 2025-11-03, but download failures prevented enumeration; denominator and percentage are null."
+          ]
+        }
+      ],
+      "name_ar": "دبي",
+      "name_en": "Dubai",
+      "parent_id": "ENT-AE-COUNTRY",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-AE-FEDERAL-SEVEN-EMIRATES-2026",
+        "SRC-AE-DSC-SECTORS-2022",
+        "SRC-AE-DUBAI-PULSE-COMMUNITIES-2025"
+      ],
+      "special_cases": [
+        "Planning sectors and planning communities are distinct layers; the latter has no available denominator."
+      ]
+    },
+    {
+      "competent_authorities": [
+        "Sharjah City Municipality",
+        "Al Hamriyah Region Municipality",
+        "Al Dhaid City Municipality",
+        "Mleiha Region Municipality",
+        "Al Madam Region Municipality",
+        "Al Batayeh Region Municipality",
+        "Dibba Al Hisn City Municipality",
+        "Kalba City Municipality",
+        "Khorfakkan City Municipality"
+      ],
+      "emirate_id": "ENT-AE-EMIRATE-SHARJAH",
+      "lower_layers": [
+        {
+          "authority_names": [
+            "Sharjah City Municipality",
+            "Al Hamriyah Region Municipality",
+            "Al Dhaid City Municipality",
+            "Mleiha Region Municipality",
+            "Al Madam Region Municipality",
+            "Al Batayeh Region Municipality",
+            "Dibba Al Hisn City Municipality",
+            "Kalba City Municipality",
+            "Khorfakkan City Municipality"
+          ],
+          "coverage_record_id": "COV-AE-SHARJAH-MUNICIPALITY-JURISDICTIONS",
+          "denominator": 9,
+          "denominator_id": "DEN-AE-SHARJAH-MUNICIPALITY-JURISDICTIONS",
+          "entity_ids": [
+            "ENT-AE-SHARJAH-CITY-MUNICIPALITY",
+            "ENT-AE-AL-HAMRIYAH-MUNICIPALITY",
+            "ENT-AE-AL-DHAID-MUNICIPALITY",
+            "ENT-AE-MLEIHA-MUNICIPALITY",
+            "ENT-AE-AL-MADAM-MUNICIPALITY",
+            "ENT-AE-AL-BATAYEH-MUNICIPALITY",
+            "ENT-AE-DIBBA-AL-HISN-MUNICIPALITY",
+            "ENT-AE-KALBA-MUNICIPALITY",
+            "ENT-AE-KHORFAKKAN-MUNICIPALITY"
+          ],
+          "entity_type": "ae_sharjah_municipality_jurisdiction",
+          "layer": "sharjah_municipality_jurisdictions",
+          "semantic_definition": "Nine municipality jurisdictions explicitly enumerated by Sharjah Government",
+          "source_ids": [
+            "SRC-AE-SGMB-MUNICIPALITIES-2023"
+          ],
+          "special_cases": [
+            "City/region wording is preserved in each official authority name."
+          ]
+        }
+      ],
+      "name_ar": "الشارقة",
+      "name_en": "Sharjah",
+      "parent_id": "ENT-AE-COUNTRY",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-AE-FEDERAL-SEVEN-EMIRATES-2026",
+        "SRC-AE-SGMB-MUNICIPALITIES-2023"
+      ],
+      "special_cases": [
+        "Official names preserve City versus Region municipality wording."
+      ]
+    },
+    {
+      "competent_authorities": [
+        "Government of Ajman",
+        "Department of Digital Ajman"
+      ],
+      "emirate_id": "ENT-AE-EMIRATE-AJMAN",
+      "lower_layers": [
+        {
+          "authority_names": [
+            "Government of Ajman",
+            "Department of Digital Ajman"
+          ],
+          "coverage_record_id": "COV-AE-AJMAN-CONSTITUENTS",
+          "denominator": 3,
+          "denominator_id": "DEN-AE-AJMAN-CONSTITUENTS",
+          "entity_ids": [
+            "ENT-AE-AJMAN-CONSTITUENT",
+            "ENT-AE-MANAMA-CONSTITUENT",
+            "ENT-AE-MASFOUT-CONSTITUENT"
+          ],
+          "entity_type": "ae_ajman_constituent",
+          "layer": "ajman_constituents",
+          "semantic_definition": "Three named Ajman constituents with source-mixed city/area wording",
+          "source_ids": [
+            "SRC-AE-AJMAN-ABOUT-2026"
+          ],
+          "special_cases": [
+            "The source calls Manama and Masfout cities in the overview but uses area headings; ae_ajman_constituent preserves the mixed semantics."
+          ]
+        }
+      ],
+      "name_ar": "عجمان",
+      "name_en": "Ajman",
+      "parent_id": "ENT-AE-COUNTRY",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-AE-FEDERAL-SEVEN-EMIRATES-2026",
+        "SRC-AE-AJMAN-ABOUT-2026"
+      ],
+      "special_cases": [
+        "Ajman/Manama/Masfout are modeled as constituents because the source mixes city and area wording."
+      ]
+    },
+    {
+      "competent_authorities": [
+        "Municipality of Umm Al Quwain",
+        "Municipality of Falaj Al Mualla"
+      ],
+      "emirate_id": "ENT-AE-EMIRATE-UMM-AL-QUWAIN",
+      "lower_layers": [
+        {
+          "authority_names": [
+            "Municipality of Umm Al Quwain",
+            "Municipality of Falaj Al Mualla"
+          ],
+          "coverage_record_id": "COV-AE-UAQ-MUNICIPAL-AUTHORITIES",
+          "denominator": 2,
+          "denominator_id": "DEN-AE-UAQ-MUNICIPAL-AUTHORITIES",
+          "entity_ids": [
+            "ENT-AE-UAQ-MUNICIPALITY",
+            "ENT-AE-FALAJ-AL-MUALLA-MUNICIPALITY"
+          ],
+          "entity_type": "ae_uaq_municipal_authority",
+          "layer": "uaq_municipal_authorities",
+          "semantic_definition": "Two municipal authorities explicitly named by the Umm Al Quwain Executive Council",
+          "source_ids": [
+            "SRC-AE-UAQ-EXECUTIVE-COUNCIL-2026"
+          ],
+          "special_cases": [
+            "Falaj Al Mualla Municipality is independently current under Decree No. 16 of 2008; no settlement layer is inferred."
+          ]
+        }
+      ],
+      "name_ar": "أم القيوين",
+      "name_en": "Umm Al Quwain",
+      "parent_id": "ENT-AE-COUNTRY",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-AE-FEDERAL-SEVEN-EMIRATES-2026",
+        "SRC-AE-UAQ-EXECUTIVE-COUNCIL-2026"
+      ],
+      "special_cases": [
+        "The two records are authorities; no implied city/village denominator."
+      ]
+    },
+    {
+      "competent_authorities": [
+        "Government of Ras Al Khaimah"
+      ],
+      "emirate_id": "ENT-AE-EMIRATE-RAS-AL-KHAIMAH",
+      "lower_layers": [
+        {
+          "authority_names": [
+            "Government of Ras Al Khaimah"
+          ],
+          "coverage_record_id": "COV-AE-RAK-ADMINISTRATIVE-AREAS",
+          "denominator": 5,
+          "denominator_id": "DEN-AE-RAK-ADMINISTRATIVE-AREAS",
+          "entity_ids": [
+            "ENT-AE-RAK-AREA-1",
+            "ENT-AE-RAK-AREA-2",
+            "ENT-AE-RAK-AREA-3",
+            "ENT-AE-RAK-AREA-4",
+            "ENT-AE-RAK-AREA-5"
+          ],
+          "entity_type": "ae_rak_administrative_area",
+          "layer": "rak_administrative_areas",
+          "semantic_definition": "Five numbered administrative areas of Ras Al Khaimah",
+          "source_ids": [
+            "SRC-AE-RAK-GENERAL-2026"
+          ],
+          "special_cases": [
+            "The fifth area has an official descriptive extent rather than a concise English proper name; source-faithful descriptive wording is retained."
+          ]
+        }
+      ],
+      "name_ar": "رأس الخيمة",
+      "name_en": "Ras Al Khaimah",
+      "parent_id": "ENT-AE-COUNTRY",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-AE-FEDERAL-SEVEN-EMIRATES-2026",
+        "SRC-AE-RAK-GENERAL-2026"
+      ],
+      "special_cases": [
+        "Five areas retain official numbering and source descriptions. Julfar is historical, not a current unit."
+      ]
+    },
+    {
+      "competent_authorities": [
+        "Government of Fujairah",
+        "Fujairah GIS Center",
+        "Fujairah Municipality",
+        "Dibba Municipality"
+      ],
+      "emirate_id": "ENT-AE-EMIRATE-FUJAIRAH",
+      "lower_layers": [
+        {
+          "authority_names": [
+            "Government of Fujairah",
+            "Fujairah GIS Center",
+            "Fujairah Municipality",
+            "Dibba Municipality"
+          ],
+          "coverage_record_id": "COV-AE-FUJAIRAH-MUNICIPAL-AUTHORITIES",
+          "denominator": 2,
+          "denominator_id": "DEN-AE-FUJAIRAH-MUNICIPAL-AUTHORITIES",
+          "entity_ids": [
+            "ENT-AE-FUJAIRAH-MUNICIPALITY",
+            "ENT-AE-DIBBA-MUNICIPALITY"
+          ],
+          "entity_type": "ae_fujairah_municipal_authority",
+          "layer": "fujairah_municipal_authorities",
+          "semantic_definition": "Two municipality authorities named as official GIS integration counterparts",
+          "source_ids": [
+            "SRC-AE-FUJAIRAH-GIS-2017"
+          ],
+          "special_cases": [
+            "The denominator is bounded to municipality authorities named as GIS integration counterparts, not subordinate places."
+          ]
+        }
+      ],
+      "name_ar": "الفجيرة",
+      "name_en": "Fujairah",
+      "parent_id": "ENT-AE-COUNTRY",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-AE-FEDERAL-SEVEN-EMIRATES-2026",
+        "SRC-AE-FUJAIRAH-GIS-2017"
+      ],
+      "special_cases": [
+        "Two authority counterparts do not imply subordinate-settlement completeness."
+      ]
+    }
   ],
   "hierarchy": [
     {
       "allowed_parent_types": [],
-      "caveat": "Country scope only; not a local coverage assertion.",
+      "authority_name": "International Organization for Standardization",
+      "caveat": "Country scope does not imply local completeness",
+      "coverage_record_id": "COV-AE-COUNTRY-SCOPE",
+      "denominator": 1,
+      "denominator_id": "DEN-AE-COUNTRY-SCOPE",
       "entity_type": "country",
       "level": 0,
+      "license": "ISO copyright; reuse is subject to ISO terms of use",
       "local_names": [
-        "دولة"
+        "دولة",
+        "country"
       ],
+      "notes": "Single AE project-country entity",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-15",
       "source_ids": [
         "SRC-ISO-3166-1-2020"
       ],
+      "special_cases": [
+        "Its 100% coverage applies only to the single country-scope record."
+      ],
       "temporal_statuses": [
-        "current",
-        "historical",
-        "disputed",
-        "de_facto",
-        "claimed"
+        "current"
       ],
       "verification_status": "verified"
     },
@@ -36,117 +415,638 @@
       "allowed_parent_types": [
         "country"
       ],
-      "caveat": "لا يوجد هرم سفلي اتحادي موحد؛ يجب نمذجة نظام كل إمارة على حدة.",
+      "authority_name": "The Official Platform of the UAE Government",
+      "caveat": "No common lower hierarchy is implied",
+      "coverage_record_id": "COV-AE-EMIRATES",
+      "denominator": 7,
+      "denominator_id": "DEN-AE-EMIRATES",
       "entity_type": "ae_emirate",
       "level": 1,
+      "license": "Official UAE Government portal; reuse terms not stated on captured page",
       "local_names": [
-        "إمارة"
+        "إمارة",
+        "emirate"
       ],
-      "source_ids": [],
+      "notes": "Seven federal constituents",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-AE-FEDERAL-SEVEN-EMIRATES-2026"
+      ],
+      "special_cases": [
+        "All seven federal constituents are closed before any local layer."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
-        "destroyed",
-        "displaced",
-        "disputed",
-        "de_facto",
-        "claimed",
-        "proposed",
-        "transitional",
-        "uncertain"
+        "renamed",
+        "merged",
+        "abolished",
+        "disputed"
       ],
-      "verification_status": "pending"
+      "verification_status": "verified"
     },
     {
       "allowed_parent_types": [
         "ae_emirate"
       ],
-      "caveat": "لا يوجد هرم سفلي اتحادي موحد؛ يجب نمذجة نظام كل إمارة على حدة.",
-      "entity_type": "ae_municipal_region",
+      "authority_name": "Department of Municipalities and Transport",
+      "caveat": "DMT calls the municipalities sub-sector regulatory authorities and refers to geographic jurisdiction; the pilot does not equate them with sectors.",
+      "coverage_record_id": "COV-AE-ABU-DHABI-MUNICIPALITY-JURISDICTIONS",
+      "denominator": 3,
+      "denominator_id": "DEN-AE-ABU-DHABI-MUNICIPALITY-JURISDICTIONS",
+      "entity_type": "ae_abu_dhabi_municipality_jurisdiction",
       "level": 2,
+      "license": "Official Abu Dhabi government page; reuse terms not stated",
       "local_names": [
-        "منطقة بلدية"
+        "municipality jurisdiction",
+        "بلدية مدينة/منطقة"
       ],
-      "source_ids": [],
+      "notes": "Three Abu Dhabi municipality jurisdictions named as DMT sub-sector regulatory authorities",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-AE-DMT-THREE-MUNICIPALITIES-2026"
+      ],
+      "special_cases": [
+        "DMT calls the municipalities sub-sector regulatory authorities and refers to geographic jurisdiction; the pilot does not equate them with sectors."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
-        "destroyed",
-        "displaced",
-        "disputed",
-        "de_facto",
-        "claimed",
-        "proposed",
-        "transitional",
-        "uncertain"
+        "renamed",
+        "merged",
+        "abolished",
+        "disputed"
       ],
-      "verification_status": "pending"
+      "verification_status": "verified"
     },
     {
       "allowed_parent_types": [
-        "ae_emirate",
-        "ae_municipal_region"
+        "ae_emirate"
       ],
-      "caveat": "لا يوجد هرم سفلي اتحادي موحد؛ يجب نمذجة نظام كل إمارة على حدة.",
-      "entity_type": "ae_sector",
-      "level": 3,
+      "authority_name": "Dubai Statistics Center; sector identifier metadata from Dubai Municipality",
+      "caveat": "Sector numbers 1–9 are represented; Dubai Municipality metadata defines sec_num as the legal sector number.",
+      "coverage_record_id": "COV-AE-DUBAI-PLANNING-SECTORS",
+      "denominator": 9,
+      "denominator_id": "DEN-AE-DUBAI-PLANNING-SECTORS",
+      "entity_type": "ae_dubai_planning_sector",
+      "level": 2,
+      "license": "Official Dubai publication; reuse terms not stated in captured index",
       "local_names": [
-        "قطاع"
+        "planning sector",
+        "قطاع تخطيطي"
       ],
-      "source_ids": [],
+      "notes": "Nine official numbered planning/statistical sectors of Dubai",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-AE-DSC-SECTORS-2022"
+      ],
+      "special_cases": [
+        "Sector numbers 1–9 are represented; Dubai Municipality metadata defines sec_num as the legal sector number."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
-        "destroyed",
-        "displaced",
-        "disputed",
-        "de_facto",
-        "claimed",
-        "proposed",
-        "transitional",
-        "uncertain"
+        "renamed",
+        "merged",
+        "abolished",
+        "disputed"
       ],
-      "verification_status": "pending"
+      "verification_status": "verified"
     },
     {
       "allowed_parent_types": [
-        "ae_sector",
-        "ae_municipal_region"
+        "ae_emirate"
       ],
-      "caveat": "لا يوجد هرم سفلي اتحادي موحد؛ يجب نمذجة نظام كل إمارة على حدة.",
-      "entity_type": "ae_district",
-      "level": 4,
+      "authority_name": "Sharjah Government Media Bureau and nine named municipalities",
+      "caveat": "City/region wording is preserved in each official authority name.",
+      "coverage_record_id": "COV-AE-SHARJAH-MUNICIPALITY-JURISDICTIONS",
+      "denominator": 9,
+      "denominator_id": "DEN-AE-SHARJAH-MUNICIPALITY-JURISDICTIONS",
+      "entity_type": "ae_sharjah_municipality_jurisdiction",
+      "level": 2,
+      "license": "Official Sharjah government page; reuse terms not stated",
       "local_names": [
-        "منطقة/حي وفق نظام الإمارة"
+        "city municipality",
+        "region municipality",
+        "بلدية مدينة/منطقة"
       ],
-      "source_ids": [],
+      "notes": "Nine municipality jurisdictions explicitly enumerated by Sharjah Government",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-AE-SGMB-MUNICIPALITIES-2023"
+      ],
+      "special_cases": [
+        "City/region wording is preserved in each official authority name."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
-        "destroyed",
-        "displaced",
-        "disputed",
-        "de_facto",
-        "claimed",
-        "proposed",
-        "transitional",
-        "uncertain"
+        "renamed",
+        "merged",
+        "abolished",
+        "disputed"
       ],
-      "verification_status": "pending"
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "ae_emirate"
+      ],
+      "authority_name": "Government of Ajman",
+      "caveat": "The source calls Manama and Masfout cities in the overview but uses area headings; ae_ajman_constituent preserves the mixed semantics.",
+      "coverage_record_id": "COV-AE-AJMAN-CONSTITUENTS",
+      "denominator": 3,
+      "denominator_id": "DEN-AE-AJMAN-CONSTITUENTS",
+      "entity_type": "ae_ajman_constituent",
+      "level": 2,
+      "license": "Official Ajman government page; reuse terms not stated",
+      "local_names": [
+        "city in overview",
+        "area heading",
+        "مدينة/منطقة"
+      ],
+      "notes": "Three named Ajman constituents with source-mixed city/area wording",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-AE-AJMAN-ABOUT-2026"
+      ],
+      "special_cases": [
+        "The source calls Manama and Masfout cities in the overview but uses area headings; ae_ajman_constituent preserves the mixed semantics."
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "renamed",
+        "merged",
+        "abolished",
+        "disputed"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "ae_emirate"
+      ],
+      "authority_name": "Government of Umm Al Quwain",
+      "caveat": "Falaj Al Mualla Municipality is independently current under Decree No. 16 of 2008; no settlement layer is inferred.",
+      "coverage_record_id": "COV-AE-UAQ-MUNICIPAL-AUTHORITIES",
+      "denominator": 2,
+      "denominator_id": "DEN-AE-UAQ-MUNICIPAL-AUTHORITIES",
+      "entity_type": "ae_uaq_municipal_authority",
+      "level": 2,
+      "license": "Official Umm Al Quwain government page; reuse terms not stated",
+      "local_names": [
+        "municipality authority",
+        "بلدية"
+      ],
+      "notes": "Two municipal authorities explicitly named by the Umm Al Quwain Executive Council",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-AE-UAQ-EXECUTIVE-COUNCIL-2026"
+      ],
+      "special_cases": [
+        "Falaj Al Mualla Municipality is independently current under Decree No. 16 of 2008; no settlement layer is inferred."
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "renamed",
+        "merged",
+        "abolished",
+        "disputed"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "ae_emirate"
+      ],
+      "authority_name": "Government of Ras Al Khaimah",
+      "caveat": "The fifth area has an official descriptive extent rather than a concise English proper name; source-faithful descriptive wording is retained.",
+      "coverage_record_id": "COV-AE-RAK-ADMINISTRATIVE-AREAS",
+      "denominator": 5,
+      "denominator_id": "DEN-AE-RAK-ADMINISTRATIVE-AREAS",
+      "entity_type": "ae_rak_administrative_area",
+      "level": 2,
+      "license": "Official Ras Al Khaimah government page; reuse terms not stated",
+      "local_names": [
+        "numbered administrative area",
+        "منطقة إدارية مرقمة"
+      ],
+      "notes": "Five numbered administrative areas of Ras Al Khaimah",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-AE-RAK-GENERAL-2026"
+      ],
+      "special_cases": [
+        "The fifth area has an official descriptive extent rather than a concise English proper name; source-faithful descriptive wording is retained."
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "renamed",
+        "merged",
+        "abolished",
+        "disputed"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "ae_emirate"
+      ],
+      "authority_name": "Government of Fujairah; Fujairah GIS Center",
+      "caveat": "The denominator is bounded to municipality authorities named as GIS integration counterparts, not subordinate places.",
+      "coverage_record_id": "COV-AE-FUJAIRAH-MUNICIPAL-AUTHORITIES",
+      "denominator": 2,
+      "denominator_id": "DEN-AE-FUJAIRAH-MUNICIPAL-AUTHORITIES",
+      "entity_type": "ae_fujairah_municipal_authority",
+      "level": 2,
+      "license": "Official Fujairah government page; reuse terms not stated",
+      "local_names": [
+        "municipality authority",
+        "بلدية"
+      ],
+      "notes": "Two municipality authorities named as official GIS integration counterparts",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-AE-FUJAIRAH-GIS-2017"
+      ],
+      "special_cases": [
+        "The denominator is bounded to municipality authorities named as GIS integration counterparts, not subordinate places."
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "renamed",
+        "merged",
+        "abolished",
+        "disputed"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "ae_emirate"
+      ],
+      "authority_name": "Dubai Municipality via Dubai Pulse",
+      "caveat": "Community.kml is official and updated 2025-11-03, but download failures prevented enumeration; denominator and percentage are null.",
+      "coverage_record_id": "COV-AE-DUBAI-PLANNING-COMMUNITIES",
+      "denominator": null,
+      "denominator_id": "DEN-AE-DUBAI-PLANNING-COMMUNITIES",
+      "entity_type": "ae_dubai_planning_community",
+      "level": 2,
+      "license": "License not specified on captured dataset metadata",
+      "local_names": [
+        "three-digit planning community"
+      ],
+      "notes": "Dubai three-digit planning communities; official layer available but enumerable denominator unavailable in this snapshot",
+      "scope_status": "unavailable",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-AE-DUBAI-PULSE-COMMUNITIES-2025"
+      ],
+      "special_cases": [
+        "Community.kml is official and updated 2025-11-03, but download failures prevented enumeration; denominator and percentage are null."
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "renamed",
+        "merged",
+        "abolished",
+        "disputed"
+      ],
+      "verification_status": "partial"
     }
   ],
-  "next_action": "Register an atomic official hierarchy source and dated denominators before migrating local legacy rows.",
+  "next_action": "Stop after UAE pilot and await the model transferability decision; do not begin a fifth country.",
   "official_authority": {
-    "missing_reason": "Authority name is recorded, but no atomic official hierarchy source has yet passed source metadata and snapshot review.",
-    "name": "الهيئة الاتحادية للتنافسية والإحصاء والسلطات المحلية لكل إمارة",
-    "source_ids": [],
-    "verification_status": "pending"
+    "missing_reason": null,
+    "name": "Federal UAE and emirate-specific official authorities; no single local authority is imposed across emirates",
+    "source_ids": [
+      "SRC-AE-FEDERAL-SEVEN-EMIRATES-2026",
+      "SRC-AE-DMT-THREE-MUNICIPALITIES-2026",
+      "SRC-AE-DSC-SECTORS-2022",
+      "SRC-AE-DUBAI-PULSE-SECTORS-2025",
+      "SRC-AE-DUBAI-PULSE-COMMUNITIES-2025",
+      "SRC-AE-SGMB-MUNICIPALITIES-2023",
+      "SRC-AE-AJMAN-ABOUT-2026",
+      "SRC-AE-UAQ-EXECUTIVE-COUNCIL-2026",
+      "SRC-AE-UAQ-FALAJ-OVERVIEW-2026",
+      "SRC-AE-RAK-GENERAL-2026",
+      "SRC-AE-FUJAIRAH-GIS-2017"
+    ],
+    "verification_status": "verified"
   },
+  "pilot_layers": [
+    {
+      "authority_name": "International Organization for Standardization",
+      "coverage_record_id": "COV-AE-COUNTRY-SCOPE",
+      "denominator": 1,
+      "denominator_id": "DEN-AE-COUNTRY-SCOPE",
+      "entity_types": [
+        "country"
+      ],
+      "layer": "country_scope",
+      "license": "ISO copyright; reuse is subject to ISO terms of use",
+      "local_names": [
+        "دولة",
+        "country"
+      ],
+      "notes": "ISO country entity in the project's 22-country scope; matched 1, excluded 0, unmatched 0",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-ISO-3166-1-2020"
+      ],
+      "special_cases": [
+        "Its 100% coverage applies only to the single country-scope record."
+      ]
+    },
+    {
+      "authority_name": "The Official Platform of the UAE Government",
+      "coverage_record_id": "COV-AE-EMIRATES",
+      "denominator": 7,
+      "denominator_id": "DEN-AE-EMIRATES",
+      "entity_types": [
+        "ae_emirate"
+      ],
+      "layer": "emirates",
+      "license": "Official UAE Government portal; reuse terms not stated on captured page",
+      "local_names": [
+        "إمارة",
+        "emirate"
+      ],
+      "notes": "Seven constituent emirates named by the federal government portal; matched 7, excluded 0, unmatched 0",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-AE-FEDERAL-SEVEN-EMIRATES-2026"
+      ],
+      "special_cases": [
+        "All seven federal constituents are closed before any local layer."
+      ]
+    },
+    {
+      "authority_name": "Department of Municipalities and Transport",
+      "coverage_record_id": "COV-AE-ABU-DHABI-MUNICIPALITY-JURISDICTIONS",
+      "denominator": 3,
+      "denominator_id": "DEN-AE-ABU-DHABI-MUNICIPALITY-JURISDICTIONS",
+      "entity_types": [
+        "ae_abu_dhabi_municipality_jurisdiction"
+      ],
+      "layer": "abu_dhabi_municipality_jurisdictions",
+      "license": "Official Abu Dhabi government page; reuse terms not stated",
+      "local_names": [
+        "municipality jurisdiction",
+        "بلدية مدينة/منطقة"
+      ],
+      "notes": "Three Abu Dhabi municipality jurisdictions named as DMT sub-sector regulatory authorities; matched 3, excluded 0, unmatched 0",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-AE-DMT-THREE-MUNICIPALITIES-2026"
+      ],
+      "special_cases": [
+        "DMT calls the municipalities sub-sector regulatory authorities and refers to geographic jurisdiction; the pilot does not equate them with sectors."
+      ]
+    },
+    {
+      "authority_name": "Dubai Statistics Center; sector identifier metadata from Dubai Municipality",
+      "coverage_record_id": "COV-AE-DUBAI-PLANNING-SECTORS",
+      "denominator": 9,
+      "denominator_id": "DEN-AE-DUBAI-PLANNING-SECTORS",
+      "entity_types": [
+        "ae_dubai_planning_sector"
+      ],
+      "layer": "dubai_planning_sectors",
+      "license": "Official Dubai publication; reuse terms not stated in captured index",
+      "local_names": [
+        "planning sector",
+        "قطاع تخطيطي"
+      ],
+      "notes": "Nine official numbered planning/statistical sectors of Dubai; matched 9, excluded 0, unmatched 0",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-AE-DSC-SECTORS-2022"
+      ],
+      "special_cases": [
+        "Sector numbers 1–9 are represented; Dubai Municipality metadata defines sec_num as the legal sector number."
+      ]
+    },
+    {
+      "authority_name": "Sharjah Government Media Bureau and nine named municipalities",
+      "coverage_record_id": "COV-AE-SHARJAH-MUNICIPALITY-JURISDICTIONS",
+      "denominator": 9,
+      "denominator_id": "DEN-AE-SHARJAH-MUNICIPALITY-JURISDICTIONS",
+      "entity_types": [
+        "ae_sharjah_municipality_jurisdiction"
+      ],
+      "layer": "sharjah_municipality_jurisdictions",
+      "license": "Official Sharjah government page; reuse terms not stated",
+      "local_names": [
+        "city municipality",
+        "region municipality",
+        "بلدية مدينة/منطقة"
+      ],
+      "notes": "Nine municipality jurisdictions explicitly enumerated by Sharjah Government; matched 9, excluded 0, unmatched 0",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-AE-SGMB-MUNICIPALITIES-2023"
+      ],
+      "special_cases": [
+        "City/region wording is preserved in each official authority name."
+      ]
+    },
+    {
+      "authority_name": "Government of Ajman",
+      "coverage_record_id": "COV-AE-AJMAN-CONSTITUENTS",
+      "denominator": 3,
+      "denominator_id": "DEN-AE-AJMAN-CONSTITUENTS",
+      "entity_types": [
+        "ae_ajman_constituent"
+      ],
+      "layer": "ajman_constituents",
+      "license": "Official Ajman government page; reuse terms not stated",
+      "local_names": [
+        "city in overview",
+        "area heading",
+        "مدينة/منطقة"
+      ],
+      "notes": "Three named Ajman constituents with source-mixed city/area wording; matched 3, excluded 0, unmatched 0",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-AE-AJMAN-ABOUT-2026"
+      ],
+      "special_cases": [
+        "The source calls Manama and Masfout cities in the overview but uses area headings; ae_ajman_constituent preserves the mixed semantics."
+      ]
+    },
+    {
+      "authority_name": "Government of Umm Al Quwain",
+      "coverage_record_id": "COV-AE-UAQ-MUNICIPAL-AUTHORITIES",
+      "denominator": 2,
+      "denominator_id": "DEN-AE-UAQ-MUNICIPAL-AUTHORITIES",
+      "entity_types": [
+        "ae_uaq_municipal_authority"
+      ],
+      "layer": "uaq_municipal_authorities",
+      "license": "Official Umm Al Quwain government page; reuse terms not stated",
+      "local_names": [
+        "municipality authority",
+        "بلدية"
+      ],
+      "notes": "Two municipal authorities explicitly named by the Umm Al Quwain Executive Council; matched 2, excluded 0, unmatched 0",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-AE-UAQ-EXECUTIVE-COUNCIL-2026"
+      ],
+      "special_cases": [
+        "Falaj Al Mualla Municipality is independently current under Decree No. 16 of 2008; no settlement layer is inferred."
+      ]
+    },
+    {
+      "authority_name": "Government of Ras Al Khaimah",
+      "coverage_record_id": "COV-AE-RAK-ADMINISTRATIVE-AREAS",
+      "denominator": 5,
+      "denominator_id": "DEN-AE-RAK-ADMINISTRATIVE-AREAS",
+      "entity_types": [
+        "ae_rak_administrative_area"
+      ],
+      "layer": "rak_administrative_areas",
+      "license": "Official Ras Al Khaimah government page; reuse terms not stated",
+      "local_names": [
+        "numbered administrative area",
+        "منطقة إدارية مرقمة"
+      ],
+      "notes": "Five numbered administrative areas of Ras Al Khaimah; matched 5, excluded 0, unmatched 0",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-AE-RAK-GENERAL-2026"
+      ],
+      "special_cases": [
+        "The fifth area has an official descriptive extent rather than a concise English proper name; source-faithful descriptive wording is retained."
+      ]
+    },
+    {
+      "authority_name": "Government of Fujairah; Fujairah GIS Center",
+      "coverage_record_id": "COV-AE-FUJAIRAH-MUNICIPAL-AUTHORITIES",
+      "denominator": 2,
+      "denominator_id": "DEN-AE-FUJAIRAH-MUNICIPAL-AUTHORITIES",
+      "entity_types": [
+        "ae_fujairah_municipal_authority"
+      ],
+      "layer": "fujairah_municipal_authorities",
+      "license": "Official Fujairah government page; reuse terms not stated",
+      "local_names": [
+        "municipality authority",
+        "بلدية"
+      ],
+      "notes": "Two municipality authorities named as official GIS integration counterparts; matched 2, excluded 0, unmatched 0",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-AE-FUJAIRAH-GIS-2017"
+      ],
+      "special_cases": [
+        "The denominator is bounded to municipality authorities named as GIS integration counterparts, not subordinate places."
+      ]
+    },
+    {
+      "authority_name": "Dubai Municipality via Dubai Pulse",
+      "coverage_record_id": "COV-AE-DUBAI-PLANNING-COMMUNITIES",
+      "denominator": null,
+      "denominator_id": "DEN-AE-DUBAI-PLANNING-COMMUNITIES",
+      "entity_types": [
+        "ae_dubai_planning_community"
+      ],
+      "layer": "dubai_planning_communities",
+      "license": "License not specified on captured dataset metadata",
+      "local_names": [
+        "three-digit planning community"
+      ],
+      "notes": "Dubai three-digit planning communities; official layer available but enumerable denominator unavailable in this snapshot; denominator_unavailable: official Community.kml metadata was found, but the file could not be retrieved or enumerated; no web list or selected statistical rows were treated as a denominator",
+      "scope_status": "unavailable",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-AE-DUBAI-PULSE-COMMUNITIES-2025"
+      ],
+      "special_cases": [
+        "Community.kml is official and updated 2025-11-03, but download failures prevented enumeration; denominator and percentage are null."
+      ]
+    },
+    {
+      "authority_name": "Multiple emirate and municipal authorities",
+      "coverage_record_id": "COV-AE-POPULATED-PLACES",
+      "denominator": null,
+      "denominator_id": "DEN-AE-POPULATED-PLACES",
+      "entity_types": [
+        "city",
+        "town",
+        "village",
+        "populated_settlement"
+      ],
+      "layer": "populated_places",
+      "license": "Official UAE Government portal; reuse terms not stated on captured page",
+      "local_names": [
+        "city",
+        "town",
+        "village",
+        "settlement"
+      ],
+      "notes": "Cities, towns, villages, and other populated settlements; denominator_unavailable: no dated enumerable official UAE-wide registry of cities, towns, villages, or settlements was established; contextual page mentions are not a denominator",
+      "scope_status": "unavailable",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-AE-FEDERAL-SEVEN-EMIRATES-2026"
+      ],
+      "special_cases": [
+        "No UAE-wide dated enumerable official registry was established; contextual mentions are not a denominator and no coordinate-free place entities were created."
+      ]
+    },
+    {
+      "authority_name": "Multiple local municipal authorities",
+      "coverage_record_id": "COV-AE-NEIGHBORHOODS",
+      "denominator": null,
+      "denominator_id": "DEN-AE-NEIGHBORHOODS",
+      "entity_types": [
+        "neighborhood"
+      ],
+      "layer": "neighborhoods",
+      "license": "License not specified for community metadata",
+      "local_names": [
+        "neighborhood"
+      ],
+      "notes": "Named neighborhoods across all emirates; denominator_unavailable: no dated enumerable official cross-emirate neighborhood registry was established; no percentage is calculated",
+      "scope_status": "unavailable",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-AE-DUBAI-PULSE-COMMUNITIES-2025"
+      ],
+      "special_cases": [
+        "No cross-emirate enumerable official neighborhood registry was established; Al Shindagha evidence is contextual only."
+      ]
+    }
+  ],
   "schema_version": "1.0.0",
   "snapshot": {
     "as_of": "2026-08-15",
-    "snapshot_id": "SNP-MIGRATION-2026-08-15",
-    "status": "baseline"
+    "snapshot_id": "SNP-AE-PILOT-20260815",
+    "status": "verified"
   },
-  "status": "baseline_only"
+  "status": "pilot_migrated"
 }

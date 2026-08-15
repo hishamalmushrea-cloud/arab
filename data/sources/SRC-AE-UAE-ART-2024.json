@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:1a67a0f9f47d4a80ba5249db02e73af182268bbf1f13d28159831acca2abfdd7",
+  "country_codes": [
+    "AE"
+  ],
+  "id": "SRC-AE-UAE-ART-2024",
+  "language": "en",
+  "license": "Official UAE Government portal; reuse terms not stated on captured page",
+  "locator": "Ayala, social occasions and Sadu paragraphs",
+  "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/uae-art-2024.txt. Checksum binds that extract (663 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt.",
+  "publication_date": "2024-12-30",
+  "publisher": "The Official Platform of the UAE Government",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "1.0.0",
+  "source_type": "institutional_page",
+  "title": "Art",
+  "url": "https://u.ae/en/about-the-uae/culture/art"
+}

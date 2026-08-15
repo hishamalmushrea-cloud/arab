@@ -1,6 +1,17 @@
 [
   {
     "captured_at": "2026-08-15",
+    "checksum": "sha256:b85c26cb06556a803e2c95c71bcca7b88c4a330bb46f4ff3fdc7a8c4fb7f50fd",
+    "id": "SNP-AE-PILOT-20260815",
+    "method": "Offline deterministic import from checksum-bound relevant-text extracts and structured fixtures; official layer denominators remain separate and unavailable registries have no percentage.",
+    "notes": "Dubai communities, all-UAE populated places, and neighborhoods remain denominator_unavailable. No fifth country is started.",
+    "schema_version": "1.0.0",
+    "scope": "Seven emirates; seven different official local hierarchy profiles; bounded all-emirate cultural and small dialect samples",
+    "source_id": "SRC-AE-FEDERAL-SEVEN-EMIRATES-2026",
+    "title": "United Arab Emirates fourth-country contextual hierarchy and cultural sample"
+  },
+  {
+    "captured_at": "2026-08-15",
     "checksum": "sha256:d90cca8dccfa2812791ef9fc72a46baacad37411e78e87a963e1afd86d914175",
     "id": "SNP-JO-PILOT-2026-08-15",
     "method": "Offline deterministic import from checksum-bound legal, institutional, entity-resolution, and cultural fixtures; current hierarchy derived by applying Regulation No. 29 of 2024 to Regulation No. 46 of 2000.",

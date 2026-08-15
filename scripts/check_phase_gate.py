@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Executable baseline, Tunisia, Jordan, and Saudi country-cycle exit gates."""
+"""Executable baseline and Tunisia, Jordan, Saudi, and UAE country-cycle gates."""
 from __future__ import annotations
 
 import argparse
@@ -112,8 +112,8 @@ def phase1(gate: Gate) -> None:
     den_by_id = {row["id"]: row for row in denominators}
     cov_by_scope = {(row["country_code"], row["layer"]): row for row in coverage}
 
-    outside_pilots = [row for row in entities if row["country_code"] not in {"TN", "LY", "JO", "SA"} and row["entity_type"] != "country"]
-    gate.require(not outside_pilots, "no_mass_expansion", f"non-country expansion outside authorized Tunisia/Libya/Jordan/Saudi pilots={len(outside_pilots)}")
+    outside_pilots = [row for row in entities if row["country_code"] not in {"TN", "LY", "JO", "SA", "AE"} and row["entity_type"] != "country"]
+    gate.require(not outside_pilots, "no_mass_expansion", f"non-country expansion outside authorized Tunisia/Libya/Jordan/Saudi/UAE pilots={len(outside_pilots)}")
     gate.require(all(row.get("canonical_source_id") for row in entities), "sourced_entities", f"source-backed entities={len(entities)}")
     gate.require(all(row.get("source_id") for row in claims), "sourced_claims", f"source-backed claims={len(claims)}")
 
@@ -349,12 +349,120 @@ def phase4(gate: Gate) -> None:
     gate.require(not status, "saudi_clean_worktree", f"git worktree clean={not status}")
 
 
+def phase5_import_hashes() -> tuple[dict[str, str], str]:
+    """Hash UAE importer outputs and a canonical non-UAE projection."""
+    managed = [
+        "data/entities/entities.jsonl", "data/aliases/aliases.jsonl",
+        "data/claims/claims.jsonl", "data/relationships/relationships.jsonl",
+        "data/coverage/denominators.jsonl", "data/coverage/coverage.jsonl",
+        "data/snapshots/snapshots.jsonl", "manifests/AE.yml",
+    ]
+    file_hashes = {path: hashlib.sha256((ROOT / path).read_bytes()).hexdigest() for path in managed}
+    entities = read_jsonl(ROOT / "data/entities/entities.jsonl")
+    ae_ids = {row["id"] for row in entities if row["country_code"] == "AE"}
+    projection = {
+        "entities": [row for row in entities if row["id"] not in ae_ids],
+        "aliases": [row for row in read_jsonl(ROOT / "data/aliases/aliases.jsonl") if row["entity_id"] not in ae_ids],
+        "claims": [row for row in read_jsonl(ROOT / "data/claims/claims.jsonl") if row["subject_id"] not in ae_ids],
+        "relationships": [row for row in read_jsonl(ROOT / "data/relationships/relationships.jsonl") if row["child_id"] not in ae_ids and row["parent_id"] not in ae_ids],
+        "denominators": [row for row in read_jsonl(ROOT / "data/coverage/denominators.jsonl") if row["country_code"] != "AE"],
+        "coverage": [row for row in read_jsonl(ROOT / "data/coverage/coverage.jsonl") if row["country_code"] != "AE"],
+        "snapshots": [row for row in read_jsonl(ROOT / "data/snapshots/snapshots.jsonl") if row.get("country_code") != "AE"],
+    }
+    encoded = json.dumps(projection, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode()
+    return file_hashes, hashlib.sha256(encoded).hexdigest()
+
+
+def uae_source_hashes() -> dict[str, str]:
+    hashes = {}
+    for path in sorted((ROOT / "data/sources").glob("SRC-AE-*.json")):
+        hashes[str(path.relative_to(ROOT))] = hashlib.sha256(path.read_bytes()).hexdigest()
+    return hashes
+
+
+def phase5(gate: Gate) -> None:
+    phase4(gate)
+
+    before_sources = uae_source_hashes()
+    gate.command("uae_source_refresh", [sys.executable, "scripts/build_uae_sources.py"])
+    after_sources = uae_source_hashes()
+    gate.require(
+        len(after_sources) == 19 and before_sources == after_sources,
+        "uae_source_idempotence",
+        f"UAE atomic sources={len(after_sources)}/19, hashes unchanged={before_sources == after_sources}",
+    )
+
+    before_files, before_non_ae = phase5_import_hashes()
+    gate.command("uae_import_refresh", [sys.executable, "scripts/import_uae_phase5.py"])
+    after_files, after_non_ae = phase5_import_hashes()
+    gate.require(before_files == after_files, "uae_import_idempotence", f"all 8 importer-managed hashes unchanged={before_files == after_files}")
+    gate.require(before_non_ae == after_non_ae, "non_uae_preservation", f"canonical non-UAE SHA-256 unchanged={after_non_ae}")
+
+    evidence_paths = [
+        ROOT / "reports/uae_validation.json",
+        ROOT / "reports/uae_negative_tests.json",
+        ROOT / "reports/uae_review_samples.json",
+        ROOT / "reports/uae_independent_review.json",
+    ]
+    before_evidence = {str(path.relative_to(ROOT)): hashlib.sha256(path.read_bytes()).hexdigest() for path in evidence_paths}
+    gate.command("validation_after_uae", [sys.executable, "scripts/validate.py"])
+    gate.command("uae_semantic_validation", [sys.executable, "scripts/validate_uae.py"])
+    gate.command("uae_negative_tests", [sys.executable, "scripts/test_uae_negative.py"])
+    gate.command("uae_review_sample_refresh", [sys.executable, "scripts/build_uae_review_samples.py"])
+    gate.command("uae_independent_review", [sys.executable, "scripts/review_uae.py"])
+    after_evidence = {str(path.relative_to(ROOT)): hashlib.sha256(path.read_bytes()).hexdigest() for path in evidence_paths}
+    gate.require(before_evidence == after_evidence, "uae_evidence_idempotence", f"validation, mutation, sample, and review hashes unchanged={before_evidence == after_evidence}")
+    gate.command("generated_freshness_after_uae", [sys.executable, "scripts/generate.py", "--check"])
+    gate.command("uae_final_report_freshness", [sys.executable, "scripts/generate_uae_report.py", "--check"])
+
+    validation = load_json(ROOT / "reports/uae_validation.json")
+    review = load_json(ROOT / "reports/uae_independent_review.json")
+    negatives = load_json(ROOT / "reports/uae_negative_tests.json")
+    gate.require(
+        validation.get("status") == "PASS" and validation.get("p0") == 0 and validation.get("critical_p1") == 0,
+        "uae_findings_closed",
+        f"status={validation.get('status')}, P0={validation.get('p0')}, critical P1={validation.get('critical_p1')}",
+    )
+    source_check = validation.get("checks", {}).get("sources", {})
+    gate.require(
+        source_check.get("ab_ratio", 0) >= 95 and source_check.get("published_claims") == source_check.get("ab_claims"),
+        "uae_source_threshold",
+        f"A/B published claims={source_check.get('ab_claims')}/{source_check.get('published_claims')} ({source_check.get('ab_ratio')}%)",
+    )
+    review_families = review.get("families", {})
+    gate.require(
+        review.get("status") == "PASS" and len(review_families) == 9 and all(row.get("sampled", 0) >= row.get("minimum_required", 1) and row.get("status") == "PASS" for row in review_families.values()),
+        "uae_review_threshold",
+        f"families={len(review_families)}/9, passed={review.get('total_passed')}/{review.get('total_sampled')}, minimum 10% met for every family",
+    )
+    expected_mutations = {
+        "UAE_WRONG_EMIRATE_PARENT", "UAE_WRONG_LOCAL_TYPE", "UAE_ALIAS_AS_ENTITY",
+        "UAE_SHARED_FOOD_AS_EXCLUSIVE", "UAE_NATIONAL_CLAIM_AS_LOCAL",
+        "UAE_HISTORIC_AS_CURRENT", "UAE_SAME_NAME_DIFFERENT_PARENT", "UAE_FOREIGN_SOURCE",
+    }
+    observed_mutations = {row.get("mutation") for row in negatives.get("mutations", []) if row.get("detected")}
+    gate.require(
+        negatives.get("status") == "PASS" and observed_mutations == expected_mutations,
+        "uae_required_mutations",
+        f"detected={len(observed_mutations)}/8, exact required set={observed_mutations == expected_mutations}",
+    )
+    headings = [line[3:] for line in (ROOT / "reports/UAE_PILOT_FINAL.md").read_text(encoding="utf-8").splitlines() if line.startswith("## ")]
+    gate.require(
+        len(headings) == 22 and headings[0] == "Decision" and headings[-1] == "Final Gate",
+        "uae_final_report",
+        f"exact section count={len(headings)}, first={headings[0] if headings else None}, last={headings[-1] if headings else None}",
+    )
+
+    status = subprocess.run(["git", "status", "--porcelain"], cwd=ROOT, text=True, capture_output=True, check=True).stdout.strip()
+    gate.require(not status, "uae_clean_worktree", f"git worktree clean={not status}")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("phase", choices=["phase0", "phase1", "phase2", "phase3", "phase4"])
+    parser.add_argument("phase", choices=["phase0", "phase1", "phase2", "phase3", "phase4", "phase5"])
     args = parser.parse_args()
     gate = Gate(args.phase)
-    {"phase0": phase0, "phase1": phase1, "phase2": phase2, "phase3": phase3, "phase4": phase4}[args.phase](gate)
+    {"phase0": phase0, "phase1": phase1, "phase2": phase2, "phase3": phase3, "phase4": phase4, "phase5": phase5}[args.phase](gate)
     report = {"phase": args.phase, "status": "pass" if not gate.errors else "fail", "checks": gate.checks, "errors": gate.errors}
     write_json(ROOT / f"reports/{args.phase}_gate.json", report)
     for name, result in gate.checks.items():

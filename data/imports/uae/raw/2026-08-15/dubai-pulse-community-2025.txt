@@ -1,0 +1,8 @@
+Title: dm_community-open / Community.kml
+Publisher: Dubai Municipality via Dubai Pulse
+Updated: 03 Nov 2025
+Relevant exact metadata excerpt:
+Community.kml is the current official community resource and is approximately 1.65 MB.
+Related official definition: a community is a three-digit planning division in Dubai.
+License finding: the dataset page did not specify a license.
+Retrieval note: metadata text extracted on 2026-08-15. Repeated metadata and direct download attempts returned HTTP 500, empty HTTP responses, or TLS SSL_ERROR_SYSCALL. No KML rows were enumerated; no denominator or completeness percentage is asserted.

@@ -1,0 +1,83 @@
+{
+  "baseline_status": "PASS",
+  "country_code": "AE",
+  "detected": 8,
+  "mutations": [
+    {
+      "detected": true,
+      "expected_error_code": "UAE_PARENT_PROFILE",
+      "mutation": "UAE_WRONG_EMIRATE_PARENT",
+      "observed_error_codes": [
+        "UAE_PARENT_PROFILE"
+      ]
+    },
+    {
+      "detected": true,
+      "expected_error_code": "UAE_LOCAL_TYPE",
+      "mutation": "UAE_WRONG_LOCAL_TYPE",
+      "observed_error_codes": [
+        "UAE_ENTITY_COUNTS",
+        "UAE_LOCAL_TYPE"
+      ]
+    },
+    {
+      "detected": true,
+      "expected_error_code": "UAE_ALIAS_ENTITY",
+      "mutation": "UAE_ALIAS_AS_ENTITY",
+      "observed_error_codes": [
+        "UAE_ALIAS_ENTITY",
+        "UAE_ENTITY_COUNTS",
+        "UAE_PROFILE_MEMBERSHIP"
+      ]
+    },
+    {
+      "detected": true,
+      "expected_error_code": "UAE_EXCLUSIVITY",
+      "mutation": "UAE_SHARED_FOOD_AS_EXCLUSIVE",
+      "observed_error_codes": [
+        "UAE_EXCLUSIVITY"
+      ]
+    },
+    {
+      "detected": true,
+      "expected_error_code": "UAE_NATIONAL_SCOPE",
+      "mutation": "UAE_NATIONAL_CLAIM_AS_LOCAL",
+      "observed_error_codes": [
+        "UAE_NATIONAL_SCOPE"
+      ]
+    },
+    {
+      "detected": true,
+      "expected_error_code": "UAE_TEMPORAL_STATUS",
+      "mutation": "UAE_HISTORIC_AS_CURRENT",
+      "observed_error_codes": [
+        "UAE_TEMPORAL_STATUS"
+      ]
+    },
+    {
+      "detected": true,
+      "expected_error_code": "UAE_IDENTITY_COLLAPSE",
+      "mutation": "UAE_SAME_NAME_DIFFERENT_PARENT",
+      "observed_error_codes": [
+        "UAE_ALIAS_POLICY",
+        "UAE_ENTITY_COUNTS",
+        "UAE_IDENTITY_COLLAPSE",
+        "UAE_PARENT_PROFILE",
+        "UAE_PROFILE_MEMBERSHIP",
+        "UAE_SEMANTICS"
+      ]
+    },
+    {
+      "detected": true,
+      "expected_error_code": "UAE_FOREIGN_SOURCE",
+      "mutation": "UAE_FOREIGN_SOURCE",
+      "observed_error_codes": [
+        "UAE_FOREIGN_SOURCE"
+      ]
+    }
+  ],
+  "required": 8,
+  "schema_version": "1.0.0",
+  "snapshot_date": "2026-08-15",
+  "status": "PASS"
+}

@@ -1,13 +1,13 @@
 {
   "checks": {
     "aliases": {
-      "aliases": 3075,
+      "aliases": 3116,
       "duplicate_aliases": 0,
       "status": "pass"
     },
     "claims": {
-      "claims": 1936,
-      "sourced": 1936,
+      "claims": 2012,
+      "sourced": 2012,
       "status": "pass"
     },
     "coordinates": {
@@ -19,9 +19,9 @@
       "status": "pass"
     },
     "coverage": {
-      "complete_layers": 36,
-      "coverage_records": 45,
-      "denominators": 45,
+      "complete_layers": 44,
+      "coverage_records": 56,
+      "denominators": 56,
       "status": "pass"
     },
     "csv": {
@@ -41,17 +41,17 @@
       "status": "pass"
     },
     "entity_types": {
-      "active_types": 25,
-      "allowed_types": 95,
+      "active_types": 33,
+      "allowed_types": 103,
       "status": "pass"
     },
     "hierarchy": {
-      "declared_pairs": 95,
+      "declared_pairs": 100,
       "status": "pass"
     },
     "ids": {
       "duplicate_ids": 0,
-      "global_ids": 14973,
+      "global_ids": 15212,
       "status": "pass"
     },
     "independent_review": {
@@ -67,7 +67,7 @@
     "manifests": {
       "countries": 22,
       "manifests": 22,
-      "pilot_migrated": 4,
+      "pilot_migrated": 5,
       "status": "pass"
     },
     "migration": {
@@ -83,7 +83,7 @@
       "status": "pass"
     },
     "parents": {
-      "administrative_relationships": 4615,
+      "administrative_relationships": 4655,
       "status": "pass"
     },
     "phase2_tunisia": {
@@ -108,14 +108,14 @@
       "tunisia_published_claims": 69
     },
     "sources": {
-      "atomic_files": 71,
-      "references": 17648,
-      "sources": 71,
+      "atomic_files": 90,
+      "references": 17868,
+      "sources": 90,
       "status": "pass"
     },
     "structured_data": {
       "record_families": 8,
-      "records": 14973,
+      "records": 15212,
       "status": "pass"
     },
     "unicode": {
@@ -124,15 +124,15 @@
     }
   },
   "counts": {
-    "aliases": 3075,
-    "claims": 1936,
-    "coverage": 45,
-    "denominators": 45,
-    "entities": 4701,
+    "aliases": 3116,
+    "claims": 2012,
+    "coverage": 56,
+    "denominators": 56,
+    "entities": 4741,
     "manifests": 22,
-    "relationships": 5090,
-    "snapshots": 10,
-    "sources": 71
+    "relationships": 5130,
+    "snapshots": 11,
+    "sources": 90
   },
   "errors": [],
   "status": "pass"

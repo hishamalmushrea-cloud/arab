@@ -23,6 +23,386 @@
   },
   {
     "archive_url": null,
+    "checksum": "sha256:505d29bfe219af0a0f7ea3b90ecb47c9cd23b6c2144cbe257bbb4ff5e321ca77",
+    "country_codes": [
+      "AE"
+    ],
+    "id": "SRC-AE-AJMAN-ABOUT-2026",
+    "language": "en",
+    "license": "Official Ajman government page; reuse terms not stated",
+    "locator": "overview and Manama area / Masfout area sections",
+    "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/ajman-about.txt. Checksum binds that extract (848 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. Publication date unavailable on the captured page; no date was inferred.",
+    "publication_date": null,
+    "publisher": "Department of Digital Ajman",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-15",
+    "schema_version": "1.0.0",
+    "source_type": "official_register",
+    "title": "About Ajman",
+    "url": "https://www.ajman.ae/en/about-ajman"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:c9cf26ef0c853ee1805efcd572b88eb6d05342e3573c3a315a4c4b28ab9c445d",
+    "country_codes": [
+      "AE"
+    ],
+    "id": "SRC-AE-DMT-THREE-MUNICIPALITIES-2026",
+    "language": "en",
+    "license": "Official Abu Dhabi government page; reuse terms not stated",
+    "locator": "paragraph naming Abu Dhabi City, Al Ain City, and Al Dhafra Region municipalities",
+    "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/abu-dhabi-three-municipalities.txt. Checksum binds that extract (728 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. Publication date unavailable on the captured page; no date was inferred.",
+    "publication_date": null,
+    "publisher": "Department of Municipalities and Transport, Abu Dhabi",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-15",
+    "schema_version": "1.0.0",
+    "source_type": "official_register",
+    "title": "Occupational Safety & Health Management System — DMT and three municipalities",
+    "url": "https://www.dmt.gov.ae/en/adm/Environment-Healthy-Safty/About-EHS"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:2bd15237dc46fa0fccbed4f7cf853be41f5fca72b2fce69c0e1e6f55113ca509",
+    "country_codes": [
+      "AE"
+    ],
+    "id": "SRC-AE-DSC-SECTORS-2022",
+    "language": "en",
+    "license": "Official Dubai government publication; reuse terms not stated in captured index",
+    "locator": "Population Distribution by Sector; Dubai is divided into 9 sectors",
+    "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/dubai-population-bulletin-2022.txt. Checksum binds that extract (445 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. The official bulletin states year 2022 but no day was inferred. Publication date unavailable on the captured page; no date was inferred.",
+    "publication_date": null,
+    "publisher": "Dubai Statistics Center",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-15",
+    "schema_version": "1.0.0",
+    "source_type": "official_report",
+    "title": "Population Bulletin Emirate of Dubai 2022",
+    "url": "https://www.dsc.gov.ae/Publication/Population%20Bulletin%20Emirate%20of%20Dubai-2022.pdf"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:d3f9c8df032b15143b2f265ab029691df66358042671d1fd8080490f0b5d5534",
+    "country_codes": [
+      "AE"
+    ],
+    "id": "SRC-AE-DUBAI-CULTURE-SHINDAGHA-2023",
+    "language": "en",
+    "license": "Official Dubai Culture page; reuse terms not stated",
+    "locator": "Al Shindagha historic-neighbourhood and Creek history paragraph",
+    "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/dubai-shindagha-2023.txt. Checksum binds that extract (733 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt.",
+    "publication_date": "2023-03-20",
+    "publisher": "Dubai Culture & Arts Authority",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-15",
+    "schema_version": "1.0.0",
+    "source_type": "institutional_page",
+    "title": "Dubai Public Art & Alserkal Arts Foundation — Al Shindagha context",
+    "url": "https://dubaiculture.gov.ae/en/events/DPA-AlSerkal"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:2916875e92e554a52f2aa43c87d9dbc24fefa427c18f042837cc1c71095de40e",
+    "country_codes": [
+      "AE"
+    ],
+    "id": "SRC-AE-DUBAI-PULSE-COMMUNITIES-2025",
+    "language": "en",
+    "license": "License not specified on captured dataset metadata",
+    "locator": "Community.kml resource metadata; download failure evidence",
+    "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/dubai-pulse-community-2025.txt. Checksum binds that extract (628 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt.",
+    "publication_date": "2025-11-03",
+    "publisher": "Dubai Municipality via Dubai Pulse",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-15",
+    "schema_version": "1.0.0",
+    "source_type": "official_dataset",
+    "title": "dm_community-open / Community.kml metadata",
+    "url": "https://www.dubaipulse.gov.ae/data/dm_community-open/datafiles/d22b4dd2-dded-4666-bc0b-97bd11e8e0a5/dm-location"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:e6b7fe7631a75a14c578d28e6af7f4639abf03c7be93f4c4678cc534ada61b02",
+    "country_codes": [
+      "AE"
+    ],
+    "id": "SRC-AE-DUBAI-PULSE-SECTORS-2025",
+    "language": "en",
+    "license": "License not specified on captured dataset metadata",
+    "locator": "sec_num — Sector legal Number; resource Sectors.kml",
+    "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/dubai-pulse-sectors-2025.txt. Checksum binds that extract (573 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt.",
+    "publication_date": "2025-11-03",
+    "publisher": "Dubai Municipality via Dubai Pulse",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-15",
+    "schema_version": "1.0.0",
+    "source_type": "official_dataset",
+    "title": "dm_sectors-open / Sectors.kml metadata",
+    "url": "https://www.dubaipulse.gov.ae/data/dm-location/dm_sectors-open"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:920ab9ce357ed7376de8e80cebc6b8fe2e81868e95c63e6752bfd446b6c6b297",
+    "country_codes": [
+      "AE"
+    ],
+    "id": "SRC-AE-FEDERAL-SEVEN-EMIRATES-2026",
+    "language": "en",
+    "license": "Official UAE Government portal; reuse terms not stated on captured page",
+    "locator": "complete seven-emirate enumeration",
+    "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/federal-seven-emirates.txt. Checksum binds that extract (360 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. Publication date unavailable on the captured page; no date was inferred.",
+    "publication_date": null,
+    "publisher": "The Official Platform of the UAE Government",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-15",
+    "schema_version": "1.0.0",
+    "source_type": "official_register",
+    "title": "The Seven Emirates",
+    "url": "https://u.ae/en/about-the-uae/the-seven-emirates"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:26b4bcc3b05cb224b50146ce46b8bb38b058efd38983a93f4cd73a8706ebbe45",
+    "country_codes": [
+      "AE"
+    ],
+    "id": "SRC-AE-FUJAIRAH-GIS-2017",
+    "language": "en",
+    "license": "Official Fujairah government page; reuse terms not stated",
+    "locator": "paragraph naming Fujairah Municipality and Dibba Municipality as integration counterparts",
+    "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/fujairah-gis-law-2017.txt. Checksum binds that extract (689 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt.",
+    "publication_date": "2017-04-24",
+    "publisher": "The Official Portal of Fujairah Government",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-15",
+    "schema_version": "1.0.0",
+    "source_type": "institutional_page",
+    "title": "Fujairah Ruler Establish Centre for Geographic Information Systems",
+    "url": "https://fujairah.ae/en/Pages/Fujairah-Ruler-Establish-Centre-for-Geographic-Information-Sytstems.aspx"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:e61c20abf6f5d746196e54352fea5f26910633a893eee40ba159ba4e9fe2b5c4",
+    "country_codes": [
+      "AE"
+    ],
+    "id": "SRC-AE-MDPI-DIALECT-2020",
+    "language": "en, ar",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "locator": "Chapter XXI lexical comparison: waid, shoo, and rabi3",
+    "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/mdpi-dialect-2020.txt. Checksum binds that extract (776 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt.",
+    "publication_date": "2020-12-18",
+    "publisher": "MDPI / Sci",
+    "quality_tier": "B",
+    "retrieved_at": "2026-08-15",
+    "schema_version": "1.0.0",
+    "source_type": "academic",
+    "title": "Promoting Arabic Literacy in Primary Schools in the United Arab Emirates through the Emirati Dialect",
+    "url": "https://doi.org/10.3390/sci2040093"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:87c2f2fad47068e664fb021e9c03ec5079e69c9d730dc32f444bd26942be3748",
+    "country_codes": [
+      "AE"
+    ],
+    "id": "SRC-AE-RAK-GENERAL-2026",
+    "language": "en",
+    "license": "Official Ras Al Khaimah government page; reuse terms not stated",
+    "locator": "five administrative areas, history, coast, desert and mountains sections",
+    "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/rak-general-information.txt. Checksum binds that extract (1298 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. Publication date unavailable on the captured page; no date was inferred.",
+    "publication_date": null,
+    "publisher": "Government of Ras Al Khaimah",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-15",
+    "schema_version": "1.0.0",
+    "source_type": "official_register",
+    "title": "Ras Al Khaimah — General Information",
+    "url": "https://www.rak.ae/wps/portal/rak/about/ras-al-khaimah/general-information"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:5abb2e0b0b8603400766356f0139d74dff30677469f2493a201a72b4a8fda39b",
+    "country_codes": [
+      "AE"
+    ],
+    "id": "SRC-AE-SGMB-MUNICIPALITIES-2023",
+    "language": "en",
+    "license": "Official Sharjah government page; reuse terms not stated",
+    "locator": "paragraph enumerating all nine municipalities",
+    "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/sharjah-municipalities-2023.txt. Checksum binds that extract (751 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt.",
+    "publication_date": "2023-10-19",
+    "publisher": "Sharjah Government Media Bureau",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-15",
+    "schema_version": "1.0.0",
+    "source_type": "institutional_page",
+    "title": "Committee completes visits to municipalities of the Emirate of Sharjah",
+    "url": "https://sgmb.ae/en/news/%D9%84%D8%AC%D9%86%D8%A9-%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D9%8A-%D8%AA%D9%83%D9%85%D9%84-%D8%AC%D9%88%D9%84%D8%AA%D9%87%D8%A7-%D9%84%D8%B2%D9%8A%D8%A7%D8%B1%D8%A9-%D8%A8%D9%84%D8%AF%D9%8A%D8%A7%D8%AA-%D8%A5%D9%85%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%B4%D8%A7%D8%B1%D9%82%D8%A9-%D9%88%D8%AA%D8%A4%D9%83%D8%AF-%D8%AC%D8%A7%D9%87%D8%B2%D9%8A%D8%AA%D9%87%D8%A7-%D9%84%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-19-10-2023"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:fb293fd83aa2558a1ee397b938bf7304f5350472ede1f92406d87940db464e95",
+    "country_codes": [
+      "AE"
+    ],
+    "id": "SRC-AE-UAE-ABU-DHABI-2025",
+    "language": "en",
+    "license": "Official UAE Government portal; reuse terms not stated on captured page",
+    "locator": "three main regions; Liwa oasis and Al Ain heritage context",
+    "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/abu-dhabi-profile-2025.txt. Checksum binds that extract (662 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. Publication date unavailable on the captured page; no date was inferred.",
+    "publication_date": null,
+    "publisher": "The Official Platform of the UAE Government",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-15",
+    "schema_version": "1.0.0",
+    "source_type": "institutional_page",
+    "title": "Abu Dhabi",
+    "url": "https://u.ae/en/about-the-uae/the-seven-emirates/abu-dhabi"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:1a67a0f9f47d4a80ba5249db02e73af182268bbf1f13d28159831acca2abfdd7",
+    "country_codes": [
+      "AE"
+    ],
+    "id": "SRC-AE-UAE-ART-2024",
+    "language": "en",
+    "license": "Official UAE Government portal; reuse terms not stated on captured page",
+    "locator": "Ayala, social occasions and Sadu paragraphs",
+    "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/uae-art-2024.txt. Checksum binds that extract (663 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt.",
+    "publication_date": "2024-12-30",
+    "publisher": "The Official Platform of the UAE Government",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-15",
+    "schema_version": "1.0.0",
+    "source_type": "institutional_page",
+    "title": "Art",
+    "url": "https://u.ae/en/about-the-uae/culture/art"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:158d2760c750a012be780901e6391faa7d20f1cb796d704845f7489bef1bf068",
+    "country_codes": [
+      "AE"
+    ],
+    "id": "SRC-AE-UAE-FOOD-2024",
+    "language": "en",
+    "license": "Official UAE Government portal; reuse terms not stated on captured page",
+    "locator": "traditional food, environmental foodways, Khameer and Chabab paragraphs",
+    "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/uae-food-2024.txt. Checksum binds that extract (765 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt.",
+    "publication_date": "2024-12-30",
+    "publisher": "The Official Platform of the UAE Government",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-15",
+    "schema_version": "1.0.0",
+    "source_type": "institutional_page",
+    "title": "Food",
+    "url": "https://u.ae/en/about-the-uae/culture/food"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:7c7c5f3630366cc38cd173746f4f31d7b2cf97e148b3ab445831c571a2f99034",
+    "country_codes": [
+      "AE"
+    ],
+    "id": "SRC-AE-UAE-FUJAIRAH-2025",
+    "language": "en",
+    "license": "Official UAE Government portal; reuse terms not stated on captured page",
+    "locator": "eastern coast, natural features and historic attractions paragraphs",
+    "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/fujairah-profile-2025.txt. Checksum binds that extract (585 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. Publication date unavailable on the captured page; no date was inferred.",
+    "publication_date": null,
+    "publisher": "The Official Platform of the UAE Government",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-15",
+    "schema_version": "1.0.0",
+    "source_type": "institutional_page",
+    "title": "Fujairah",
+    "url": "https://u.ae/en/about-the-uae/the-seven-emirates/fujairah"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:50cfe651e4e3eb291a65bddfa012235d7cccd1360b94f1d97cda5b7148770ea7",
+    "country_codes": [
+      "AE"
+    ],
+    "id": "SRC-AE-UAE-SHARJAH-2024",
+    "language": "en",
+    "license": "Official UAE Government portal; reuse terms not stated on captured page",
+    "locator": "two coasts, desert/agriculture and historical areas paragraphs",
+    "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/sharjah-profile-2024.txt. Checksum binds that extract (733 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. Publication date unavailable on the captured page; no date was inferred.",
+    "publication_date": null,
+    "publisher": "The Official Platform of the UAE Government",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-15",
+    "schema_version": "1.0.0",
+    "source_type": "institutional_page",
+    "title": "Sharjah",
+    "url": "https://u.ae/en/about-the-uae/the-seven-emirates/sharjah"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:d34522cce1eca2c9dd956b9e074f0dbf71af4e5f4a4c32bde045e625b51cb6fb",
+    "country_codes": [
+      "AE"
+    ],
+    "id": "SRC-AE-UAE-UAQ-2024",
+    "language": "en",
+    "license": "Official UAE Government portal; reuse terms not stated on captured page",
+    "locator": "fishing, coastal mangroves and traditional activities paragraphs",
+    "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/uaq-profile-2024.txt. Checksum binds that extract (530 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. Publication date unavailable on the captured page; no date was inferred.",
+    "publication_date": null,
+    "publisher": "The Official Platform of the UAE Government",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-15",
+    "schema_version": "1.0.0",
+    "source_type": "institutional_page",
+    "title": "Umm Al Quwain",
+    "url": "https://u.ae/en/about-the-uae/the-seven-emirates/umm-al-quwain"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:038f0a6a66c49532ac5a78679caed77cd78f0ad9f55fcdc6c4c4aee4ab9a8574",
+    "country_codes": [
+      "AE"
+    ],
+    "id": "SRC-AE-UAQ-EXECUTIVE-COUNCIL-2026",
+    "language": "en",
+    "license": "Official Umm Al Quwain government page; reuse terms not stated",
+    "locator": "indexed standing committee list naming both municipality authorities",
+    "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/uaq-executive-council.txt. Checksum binds that extract (437 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. Publication date unavailable on the captured page; no date was inferred.",
+    "publication_date": null,
+    "publisher": "Government of Umm Al Quwain",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-15",
+    "schema_version": "1.0.0",
+    "source_type": "official_register",
+    "title": "Executive Council — About Us / Mandate",
+    "url": "https://ec.uaq.ae/en/about-us/mandate.html"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:fe3dbbe22b8bd9b01e77fdf7f2b240751350a6f5325d7b8e6c1f5e828c88148f",
+    "country_codes": [
+      "AE"
+    ],
+    "id": "SRC-AE-UAQ-FALAJ-OVERVIEW-2026",
+    "language": "en",
+    "license": "Official Umm Al Quwain government page; reuse terms not stated",
+    "locator": "indexed overview paragraph naming Decree No. 16 of 2008 and independence date",
+    "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/uaq-falaj-overview.txt. Checksum binds that extract (599 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. Publication date unavailable on the captured page; no date was inferred.",
+    "publication_date": null,
+    "publisher": "Falaj Al Mualla Municipality, Government of Umm Al Quwain",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-15",
+    "schema_version": "1.0.0",
+    "source_type": "institutional_page",
+    "title": "Falaj Al Mualla Municipality — Overview",
+    "url": "https://fmd.uaq.ae/en/about-us/overview.html"
+  },
+  {
+    "archive_url": null,
     "checksum": "sha256:c5954f5e55943b93dd309061c2d6174a1b5d62a324e7be0873b95587a066c8f9",
     "country_codes": [
       "AE",

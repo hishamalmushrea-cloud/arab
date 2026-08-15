@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:26b4bcc3b05cb224b50146ce46b8bb38b058efd38983a93f4cd73a8706ebbe45",
+  "country_codes": [
+    "AE"
+  ],
+  "id": "SRC-AE-FUJAIRAH-GIS-2017",
+  "language": "en",
+  "license": "Official Fujairah government page; reuse terms not stated",
+  "locator": "paragraph naming Fujairah Municipality and Dibba Municipality as integration counterparts",
+  "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/fujairah-gis-law-2017.txt. Checksum binds that extract (689 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt.",
+  "publication_date": "2017-04-24",
+  "publisher": "The Official Portal of Fujairah Government",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "1.0.0",
+  "source_type": "institutional_page",
+  "title": "Fujairah Ruler Establish Centre for Geographic Information Systems",
+  "url": "https://fujairah.ae/en/Pages/Fujairah-Ruler-Establish-Centre-for-Geographic-Information-Sytstems.aspx"
+}

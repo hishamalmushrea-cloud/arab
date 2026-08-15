@@ -97,7 +97,10 @@
         "claimed",
         "proposed",
         "transitional",
-        "uncertain"
+        "uncertain",
+        "renamed",
+        "merged",
+        "abolished"
       ]
     },
     "valid_from": {

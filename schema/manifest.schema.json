@@ -90,6 +90,46 @@
         }
       }
     },
+    "emirate_profiles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["emirate_id", "name_en", "name_ar", "competent_authorities", "parent_id", "snapshot_date", "source_ids", "lower_layers", "special_cases"],
+        "properties": {
+          "emirate_id": {"type": "string", "pattern": "^ENT-AE-EMIRATE-[A-Z0-9-]+$"},
+          "name_en": {"type": "string", "minLength": 1},
+          "name_ar": {"type": "string", "minLength": 1},
+          "competent_authorities": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+          "parent_id": {"const": "ENT-AE-COUNTRY"},
+          "snapshot_date": {"type": "string", "format": "date"},
+          "source_ids": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^SRC-[A-Z0-9-]+$"}, "uniqueItems": true},
+          "lower_layers": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["layer", "entity_type", "semantic_definition", "authority_names", "denominator", "denominator_id", "coverage_record_id", "source_ids", "entity_ids", "special_cases"],
+              "properties": {
+                "layer": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+                "entity_type": {"type": "string", "minLength": 2},
+                "semantic_definition": {"type": "string", "minLength": 1},
+                "authority_names": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+                "denominator": {"type": ["integer", "null"], "minimum": 0},
+                "denominator_id": {"type": "string", "pattern": "^DEN-[A-Z0-9-]+$"},
+                "coverage_record_id": {"type": "string", "pattern": "^COV-[A-Z0-9-]+$"},
+                "source_ids": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^SRC-[A-Z0-9-]+$"}, "uniqueItems": true},
+                "entity_ids": {"type": "array", "items": {"type": "string", "pattern": "^ENT-AE-[A-Z0-9-]+$"}, "uniqueItems": true},
+                "special_cases": {"type": "array", "items": {"type": "string", "minLength": 1}}
+              }
+            }
+          },
+          "special_cases": {"type": "array", "items": {"type": "string", "minLength": 1}}
+        }
+      },
+      "uniqueItems": true
+    },
     "coverage_record_ids": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^COV-[A-Z0-9-]+$"}, "uniqueItems": true},
     "caveats": {"type": "array", "items": {"type": "string", "minLength": 1}},
     "next_action": {"type": "string", "minLength": 1}

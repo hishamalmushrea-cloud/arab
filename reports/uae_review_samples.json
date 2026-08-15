@@ -1,0 +1,116 @@
+{
+  "country_code": "AE",
+  "families": {
+    "aliases": {
+      "minimum_required": 5,
+      "population": 42,
+      "record_ids": [
+        "ALS-AE-AD06C62BE8575501",
+        "ALS-AE-9EB31C4D5FBF5506",
+        "ALS-AE-F9A3A565121353D1",
+        "ALS-AE-C3B0F9A9AD4A550B",
+        "ALS-AE-9620CA9453755AB1"
+      ],
+      "sample_percentage": 11.9,
+      "sample_size": 5
+    },
+    "claims": {
+      "minimum_required": 8,
+      "population": 76,
+      "record_ids": [
+        "CLM-AE-29F20BE3C0F15027",
+        "CLM-AE-336D285F12CE53BB",
+        "CLM-AE-767423FD7EBC535A",
+        "CLM-AE-C3A03D993D815373",
+        "CLM-AE-79E4328FD25C54CF",
+        "CLM-AE-17A5A043922D58DC",
+        "CLM-AE-1F5B55B0929C522E",
+        "CLM-AE-A3026F14F9CB5E86"
+      ],
+      "sample_percentage": 10.53,
+      "sample_size": 8
+    },
+    "coverage": {
+      "minimum_required": 2,
+      "population": 12,
+      "record_ids": [
+        "COV-AE-AJMAN-CONSTITUENTS",
+        "COV-AE-FUJAIRAH-MUNICIPAL-AUTHORITIES"
+      ],
+      "sample_percentage": 16.67,
+      "sample_size": 2
+    },
+    "cultural_claims": {
+      "minimum_required": 4,
+      "population": 36,
+      "record_ids": [
+        "CLM-AE-0264BB0D1BAC5FD2",
+        "CLM-AE-DDB4327EDA6B5066",
+        "CLM-AE-A35E8CD684425FC0",
+        "CLM-AE-A9B0ECD4AAD95E6C"
+      ],
+      "sample_percentage": 11.11,
+      "sample_size": 4
+    },
+    "denominators": {
+      "minimum_required": 2,
+      "population": 12,
+      "record_ids": [
+        "DEN-AE-FUJAIRAH-MUNICIPAL-AUTHORITIES",
+        "DEN-AE-ABU-DHABI-MUNICIPALITY-JURISDICTIONS"
+      ],
+      "sample_percentage": 16.67,
+      "sample_size": 2
+    },
+    "dialect_claims": {
+      "minimum_required": 1,
+      "population": 3,
+      "record_ids": [
+        "CLM-AE-93A8504CC36E5567"
+      ],
+      "sample_percentage": 33.33,
+      "sample_size": 1
+    },
+    "entities": {
+      "minimum_required": 5,
+      "population": 41,
+      "record_ids": [
+        "ENT-AE-AL-HAMRIYAH-MUNICIPALITY",
+        "ENT-AE-AL-BATAYEH-MUNICIPALITY",
+        "ENT-AE-EMIRATE-AJMAN",
+        "ENT-AE-RAK-AREA-1",
+        "ENT-AE-RAK-AREA-2"
+      ],
+      "sample_percentage": 12.2,
+      "sample_size": 5
+    },
+    "relationships": {
+      "minimum_required": 4,
+      "population": 40,
+      "record_ids": [
+        "REL-AE-E6BFFC4E639E5A57",
+        "REL-AE-E30D6BF112985862",
+        "REL-AE-1E801B732D485BA1",
+        "REL-AE-32F55E06CFEF5190"
+      ],
+      "sample_percentage": 10.0,
+      "sample_size": 4
+    },
+    "sources": {
+      "minimum_required": 2,
+      "population": 20,
+      "record_ids": [
+        "SRC-AE-SGMB-MUNICIPALITIES-2023",
+        "SRC-AE-AJMAN-ABOUT-2026"
+      ],
+      "sample_percentage": 10.0,
+      "sample_size": 2
+    }
+  },
+  "schema_version": "1.0.0",
+  "seed": "uae-independent-review-v1",
+  "selection_method": "Sort each record ID by SHA-256(seed|family|ID), then select ceil(10%); no UAE importer module is called or imported.",
+  "snapshot_date": "2026-08-15",
+  "status": "PASS",
+  "total_sampled": 33
+}
