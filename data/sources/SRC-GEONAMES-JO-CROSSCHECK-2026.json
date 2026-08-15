@@ -1,0 +1,22 @@
+{
+  "archive_url": null,
+  "author": null,
+  "checksum": null,
+  "country_codes": [
+    "JO"
+  ],
+  "id": "SRC-GEONAMES-JO-CROSSCHECK-2026",
+  "language": "en",
+  "license": "CC BY 4.0",
+  "locator": "Jordan first-order administrative divisions and linked populated-place coordinates; Salt cross-check at approximately 32.039, 35.727",
+  "notes": "Non-official matching aid only. It never controls canonical names, legal types, parentage, dates, or denominators. Publication date is not supplied by the accessed cross-check interface.",
+  "organization": "GeoNames",
+  "publication_date": null,
+  "publisher": "GeoNames",
+  "quality_tier": "D",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "1.0.0",
+  "source_type": "institutional_dataset",
+  "title": "GeoNames — Administrative Division of Jordan",
+  "url": "https://www.geonames.org/JO/administrative-division-jordan.html"
+}

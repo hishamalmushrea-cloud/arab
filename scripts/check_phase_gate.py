@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Executable Phase 0, Phase 1, and Tunisia Phase 2 exit gates."""
+"""Executable Phase 0, Phase 1, Tunisia Phase 2, and Jordan Phase 3 exit gates."""
 from __future__ import annotations
 
 import argparse
@@ -112,8 +112,8 @@ def phase1(gate: Gate) -> None:
     den_by_id = {row["id"]: row for row in denominators}
     cov_by_scope = {(row["country_code"], row["layer"]): row for row in coverage}
 
-    outside_pilots = [row for row in entities if row["country_code"] not in {"TN", "LY"} and row["entity_type"] != "country"]
-    gate.require(not outside_pilots, "no_mass_expansion", f"non-country expansion outside Tunisia/Libya={len(outside_pilots)}; Tunisia Phase 2 administrative import is allowed")
+    outside_pilots = [row for row in entities if row["country_code"] not in {"TN", "LY", "JO"} and row["entity_type"] != "country"]
+    gate.require(not outside_pilots, "no_mass_expansion", f"non-country expansion outside authorized Tunisia/Libya/Jordan pilots={len(outside_pilots)}")
     gate.require(all(row.get("canonical_source_id") for row in entities), "sourced_entities", f"source-backed entities={len(entities)}")
     gate.require(all(row.get("source_id") for row in claims), "sourced_claims", f"source-backed claims={len(claims)}")
 
@@ -202,12 +202,64 @@ def phase2(gate: Gate) -> None:
     gate.require(not gate.errors, "p0_clear", "all structural and Phase 2 acceptance checks are clear")
 
 
+def phase3_import_hashes() -> tuple[dict[str, str], str]:
+    """Hash Jordan importer outputs and a canonical non-Jordan projection."""
+    managed = [
+        "data/entities/entities.jsonl", "data/aliases/aliases.jsonl",
+        "data/claims/claims.jsonl", "data/relationships/relationships.jsonl",
+        "data/coverage/denominators.jsonl", "data/coverage/coverage.jsonl",
+        "data/snapshots/snapshots.jsonl", "manifests/JO.yml",
+        "data/cultural/jordan_domain_status.json",
+    ]
+    file_hashes = {path: hashlib.sha256((ROOT / path).read_bytes()).hexdigest() for path in managed}
+    entities = read_jsonl(ROOT / "data/entities/entities.jsonl")
+    jo_ids = {row["id"] for row in entities if row["country_code"] == "JO"}
+    projection = {
+        "entities": [row for row in entities if row["id"] not in jo_ids],
+        "aliases": [row for row in read_jsonl(ROOT / "data/aliases/aliases.jsonl") if row["entity_id"] not in jo_ids],
+        "claims": [row for row in read_jsonl(ROOT / "data/claims/claims.jsonl") if row["subject_id"] not in jo_ids],
+        "relationships": [row for row in read_jsonl(ROOT / "data/relationships/relationships.jsonl") if row["child_id"] not in jo_ids and row["parent_id"] not in jo_ids],
+        "denominators": [row for row in read_jsonl(ROOT / "data/coverage/denominators.jsonl") if row["country_code"] != "JO"],
+        "coverage": [row for row in read_jsonl(ROOT / "data/coverage/coverage.jsonl") if row["country_code"] != "JO"],
+        "snapshots": [row for row in read_jsonl(ROOT / "data/snapshots/snapshots.jsonl") if row.get("id") != "SNP-JO-PILOT-2026-08-15"],
+    }
+    encoded = json.dumps(projection, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode()
+    return file_hashes, hashlib.sha256(encoded).hexdigest()
+
+
+def phase3(gate: Gate) -> None:
+    phase2(gate)
+    before_files, before_non_jo = phase3_import_hashes()
+    gate.command("jordan_import_refresh", [sys.executable, "scripts/import_jordan_phase3.py"])
+    after_files, after_non_jo = phase3_import_hashes()
+    gate.require(before_files == after_files, "jordan_import_idempotence", f"all 9 importer-managed hashes unchanged={before_files == after_files}")
+    gate.require(before_non_jo == after_non_jo, "non_jordan_preservation", f"canonical non-Jordan SHA-256 unchanged={after_non_jo}")
+    gate.command("jordan_independent_review", [sys.executable, "scripts/review_jordan.py"])
+    gate.command("validation_after_jordan", [sys.executable, "scripts/validate.py"])
+    gate.command("jordan_semantic_validation", [sys.executable, "scripts/validate_jordan.py"])
+    gate.command("generated_freshness_after_jordan", [sys.executable, "scripts/generate.py", "--check"])
+
+    report = load_json(ROOT / "reports/jordan_validation.json")
+    review = load_json(ROOT / "reports/jordan_independent_review.json")
+    metrics = report.get("metrics", {})
+    gate.require(report.get("status") == "pass" and metrics.get("ab_claim_ratio", 0) >= 95,
+                 "jordan_acceptance_metrics", f"status={report.get('status')}, A/B ratio={metrics.get('ab_claim_ratio')}%, sources={metrics.get('atomic_sources')}")
+    gate.require(metrics.get("p0") == 0 and metrics.get("critical_p1") == 0,
+                 "jordan_findings_closed", f"P0={metrics.get('p0')}, critical P1={metrics.get('critical_p1')}")
+    gate.require(review.get("passed") and all(rate >= 0.10 for rate in review.get("sample_rates", {}).values()),
+                 "jordan_review_threshold", f"minimum sample rate={min(review.get('sample_rates', {}).values()) if review.get('sample_rates') else None}, negative tests={review.get('negative_test_outcomes')}")
+    gate.require((ROOT / "reports/JORDAN_PILOT_FINAL.md").is_file(), "jordan_final_report", "Jordan final report exists; overall PASS remains contingent on separately recorded green remote checks")
+
+    status = subprocess.run(["git", "status", "--porcelain"], cwd=ROOT, text=True, capture_output=True, check=True).stdout.strip()
+    gate.require(not status, "clean_worktree", f"git worktree clean={not status}")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("phase", choices=["phase0", "phase1", "phase2"])
+    parser.add_argument("phase", choices=["phase0", "phase1", "phase2", "phase3"])
     args = parser.parse_args()
     gate = Gate(args.phase)
-    {"phase0": phase0, "phase1": phase1, "phase2": phase2}[args.phase](gate)
+    {"phase0": phase0, "phase1": phase1, "phase2": phase2, "phase3": phase3}[args.phase](gate)
     report = {"phase": args.phase, "status": "pass" if not gate.errors else "fail", "checks": gate.checks, "errors": gate.errors}
     write_json(ROOT / f"reports/{args.phase}_gate.json", report)
     for name, result in gate.checks.items():

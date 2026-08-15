@@ -54,7 +54,39 @@
           "temporal_statuses": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 2}},
           "source_ids": {"type": "array", "items": {"type": "string", "pattern": "^SRC-[A-Z0-9-]+$"}, "uniqueItems": true},
           "verification_status": {"enum": ["verified", "partial", "pending", "historical"]},
-          "caveat": {"type": ["string", "null"]}
+          "caveat": {"type": ["string", "null"]},
+          "authority_name": {"type": ["string", "null"]},
+          "denominator": {"type": ["integer", "null"], "minimum": 0},
+          "denominator_id": {"type": ["string", "null"], "pattern": "^DEN-[A-Z0-9-]+$"},
+          "coverage_record_id": {"type": ["string", "null"], "pattern": "^COV-[A-Z0-9-]+$"},
+          "snapshot_date": {"type": ["string", "null"], "format": "date"},
+          "license": {"type": ["string", "null"]},
+          "scope_status": {"enum": ["closed", "bounded", "open", "unavailable"]},
+          "notes": {"type": ["string", "null"]},
+          "special_cases": {"type": "array", "items": {"type": "string", "minLength": 1}}
+        }
+      }
+    },
+    "pilot_layers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["layer", "entity_types", "local_names", "authority_name", "denominator", "denominator_id", "coverage_record_id", "snapshot_date", "source_ids", "license", "scope_status", "notes", "special_cases"],
+        "properties": {
+          "layer": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+          "entity_types": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 2}, "uniqueItems": true},
+          "local_names": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+          "authority_name": {"type": ["string", "null"]},
+          "denominator": {"type": ["integer", "null"], "minimum": 0},
+          "denominator_id": {"type": ["string", "null"], "pattern": "^DEN-[A-Z0-9-]+$"},
+          "coverage_record_id": {"type": ["string", "null"], "pattern": "^COV-[A-Z0-9-]+$"},
+          "snapshot_date": {"type": ["string", "null"], "format": "date"},
+          "source_ids": {"type": "array", "items": {"type": "string", "pattern": "^SRC-[A-Z0-9-]+$"}, "uniqueItems": true},
+          "license": {"type": ["string", "null"]},
+          "scope_status": {"enum": ["closed", "bounded", "open", "unavailable"]},
+          "notes": {"type": ["string", "null"]},
+          "special_cases": {"type": "array", "items": {"type": "string", "minLength": 1}}
         }
       }
     },

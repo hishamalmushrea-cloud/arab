@@ -1,0 +1,22 @@
+{
+  "archive_url": null,
+  "author": null,
+  "checksum": null,
+  "country_codes": [
+    "JO"
+  ],
+  "id": "SRC-UNESCO-ICH-JO-01849",
+  "language": "ar-fr-en",
+  "license": "UNESCO website terms; factual metadata transcription",
+  "locator": "Representative List element 01849; element title, description, nomination/inscription metadata",
+  "notes": "Atomic ICH element page. Geographic attribution is not broadened beyond the element record.",
+  "organization": "UNESCO Intangible Cultural Heritage",
+  "publication_date": "2022",
+  "publisher": "UNESCO Intangible Cultural Heritage",
+  "quality_tier": "B",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "1.0.0",
+  "source_type": "institutional_page",
+  "title": "Al-Mansaf in Jordan, a festive banquet and its social and cultural meanings",
+  "url": "https://ich.unesco.org/en/RL/mansaf-in-jordan-a-festive-banquet-and-its-social-and-cultural-meanings-01849"
+}

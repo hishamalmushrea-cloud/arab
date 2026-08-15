@@ -4,7 +4,7 @@
 
 | ISO | الدولة | الكيانات | الادعاءات | الصفحة |
 |---|---|---:|---:|---|
-| JO | الأردن | 1 | 0 | [JO](countries/JO.md) |
+| JO | الأردن | 116 | 135 | [JO](countries/JO.md) |
 | AE | الإمارات | 1 | 0 | [AE](countries/AE.md) |
 | BH | البحرين | 1 | 0 | [BH](countries/BH.md) |
 | DZ | الجزائر | 1 | 0 | [DZ](countries/DZ.md) |

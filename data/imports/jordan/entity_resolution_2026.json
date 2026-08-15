@@ -1,0 +1,171 @@
+{
+  "schema_version": "1.0.0",
+  "snapshot_date": "2026-08-15",
+  "method": "Before insertion, compare Arabic and Latin names, aliases, parent geography, entity type, coordinates, temporal history, and existing Jordan records. GeoNames is a non-authoritative cross-check only.",
+  "existing_jordan_records_before_import": [
+    "ENT-JO-COUNTRY"
+  ],
+  "governorate_cross_check": {
+    "source_id": "SRC-GEONAMES-JO-CROSSCHECK-2026",
+    "result": "The GeoNames Jordan administrative-division page lists 12 first-order subdivisions. This corroborates only names and the 12-governorate scale; the legal sources control IDs, types, parentage, and the snapshot denominator.",
+    "decision": "No GeoNames row is used as a canonical source."
+  },
+  "candidate_decisions": [
+    {
+      "candidate": "As-Salt - The Place of Tolerance and Urban Hospitality",
+      "arabic_name": "السلط – مدينة التسامح وأصول الضيافة الحضرية",
+      "latin_names": ["As-Salt - The Place of Tolerance and Urban Hospitality", "As-Salt"],
+      "parent": "Balqa Governorate",
+      "candidate_type": "cultural_site",
+      "coordinates": [32.042611, 35.728306],
+      "history": "Inscribed World Heritage urban property in 2021.",
+      "existing_match": null,
+      "decision": "create_site",
+      "reason": "The pre-import Jordan dataset contains no local entity. The World Heritage property is distinct from the current city place entity.",
+      "geonames_cross_check": "GeoNames lists Salt as a populated place near 32.039, 35.727; this supports the city match but is not used for the heritage-property record."
+    },
+    {
+      "candidate": "As-Salt",
+      "arabic_name": "السلط",
+      "latin_names": ["As-Salt", "Salt"],
+      "parent": "Balqa Governorate",
+      "candidate_type": "city",
+      "coordinates": [32.042611, 35.728306],
+      "history": "Current city explicitly identified in the UNESCO property description.",
+      "existing_match": null,
+      "decision": "create_place_and_associate_with_site",
+      "reason": "The city and bounded World Heritage property have different entity types and scopes; they must not be conflated.",
+      "geonames_cross_check": "GeoNames Salt point 32.039, 35.727 is within approximately 0.5 km of the UNESCO property coordinate."
+    },
+    {
+      "candidate": "Petra",
+      "arabic_name": "البتراء",
+      "latin_names": ["Petra"],
+      "parent": "Ma'an Governorate",
+      "candidate_type": "archaeological_site",
+      "coordinates": [30.33056, 35.44333],
+      "history": "World Heritage archaeological property inscribed in 1985.",
+      "existing_match": null,
+      "decision": "create_site",
+      "reason": "No prior Jordan local entity exists; the site is separated from the historical caravan-city place concept.",
+      "geonames_cross_check": "not_relied_on; no verified exact GeoNames result was needed after the authoritative UNESCO match"
+    },
+    {
+      "candidate": "Historic Petra",
+      "arabic_name": "البتراء التاريخية",
+      "latin_names": ["Historic Petra", "Petra"],
+      "parent": "Ma'an Governorate",
+      "candidate_type": "historical_place",
+      "coordinates": [30.33056, 35.44333],
+      "history": "Historical Nabataean caravan-city, not a current administrative entity.",
+      "existing_match": null,
+      "decision": "create_place_and_associate_with_site",
+      "reason": "Shared coordinates do not collapse a historical city concept into a protected archaeological property.",
+      "geonames_cross_check": "not_relied_on"
+    },
+    {
+      "candidate": "Quseir Amra",
+      "arabic_name": "قصير عمرة",
+      "latin_names": ["Quseir Amra"],
+      "parent": "Zarqa Governorate",
+      "candidate_type": "cultural_site",
+      "coordinates": [31.801806, 36.587306],
+      "history": "Early eighth-century Umayyad desert establishment; inscribed in 1985.",
+      "existing_match": null,
+      "decision": "create_site",
+      "reason": "No existing Jordan local entity; UNESCO type and point are authoritative for this bounded layer.",
+      "geonames_cross_check": "not_relied_on"
+    },
+    {
+      "candidate": "Um er-Rasas (Kastrom Mefa'a)",
+      "arabic_name": "أم الرصاص (كاستروم ميفعة)",
+      "latin_names": ["Um er-Rasas (Kastrom Mefa'a)"],
+      "parent": "Madaba Governorate",
+      "candidate_type": "archaeological_site",
+      "coordinates": [31.483333, 35.916667],
+      "history": "Multi-period archaeological property; inscribed in 2004.",
+      "existing_match": null,
+      "decision": "create_site",
+      "reason": "Protected property is separate from the historical town concept.",
+      "geonames_cross_check": "not_relied_on"
+    },
+    {
+      "candidate": "Historic town of Um er-Rasas",
+      "arabic_name": "بلدة أم الرصاص التاريخية",
+      "latin_names": ["Historic town of Um er-Rasas", "Um er-Rasas"],
+      "parent": "Madaba Governorate",
+      "candidate_type": "historical_place",
+      "coordinates": [31.483333, 35.916667],
+      "history": "Roman camp that grew into a town from the fifth century.",
+      "existing_match": null,
+      "decision": "create_place_and_associate_with_site",
+      "reason": "Historical status prevents current-place or administrative misclassification.",
+      "geonames_cross_check": "not_relied_on"
+    },
+    {
+      "candidate": "Wadi Rum Protected Area",
+      "arabic_name": "منطقة وادي رم المحمية",
+      "latin_names": ["Wadi Rum Protected Area"],
+      "parent": "Aqaba Governorate",
+      "candidate_type": "natural_site",
+      "coordinates": [29.639722, 35.433889],
+      "history": "Mixed World Heritage property inscribed in 2011.",
+      "existing_match": null,
+      "decision": "create_site",
+      "reason": "The protected area is not converted into a village or administrative entity.",
+      "geonames_cross_check": "not_relied_on"
+    },
+    {
+      "candidate": "Baptism Site “Bethany Beyond the Jordan” (Al-Maghtas)",
+      "arabic_name": "موقع المعمودية «بيت عنيا عبر الأردن» (المغطس)",
+      "latin_names": ["Baptism Site “Bethany Beyond the Jordan” (Al-Maghtas)", "Al-Maghtas"],
+      "parent": "Balqa Governorate",
+      "candidate_type": "archaeological_site",
+      "coordinates": [31.837222, 35.552778],
+      "history": "Archaeological and pilgrimage property inscribed in 2015.",
+      "existing_match": null,
+      "decision": "create_site",
+      "reason": "No prior matching entity exists; no religious claim is generalized beyond the property record.",
+      "geonames_cross_check": "not_relied_on"
+    },
+    {
+      "candidate": "Umm Al-Jimāl",
+      "arabic_name": "أم الجِمال",
+      "latin_names": ["Umm Al-Jimāl", "Umm al-Jimal"],
+      "parent": "Mafraq Governorate",
+      "candidate_type": "archaeological_site",
+      "coordinates": [32.326944, 36.37],
+      "history": "World Heritage property inscribed in 2024.",
+      "existing_match": null,
+      "decision": "create_site",
+      "reason": "The protected site is distinct from the historical rural settlement concept and from the legal qada of the same name.",
+      "geonames_cross_check": "not_relied_on"
+    },
+    {
+      "candidate": "Historic settlement of Umm Al-Jimāl",
+      "arabic_name": "مستوطنة أم الجِمال التاريخية",
+      "latin_names": ["Historic settlement of Umm Al-Jimāl", "Umm Al-Jimāl"],
+      "parent": "Mafraq Governorate",
+      "candidate_type": "historical_place",
+      "coordinates": [32.326944, 36.37],
+      "history": "Rural settlement that functioned until the end of the eighth century; status is historical.",
+      "existing_match": null,
+      "decision": "create_place_and_associate_with_site",
+      "reason": "Name identity alone does not merge the historical place with either the World Heritage property or current qada.",
+      "geonames_cross_check": "not_relied_on"
+    },
+    {
+      "candidate": "Aqaba Marine Reserve",
+      "arabic_name": "محمية العقبة البحرية",
+      "latin_names": ["Aqaba Marine Reserve"],
+      "parent": "Aqaba Governorate",
+      "candidate_type": "natural_site",
+      "coordinates": [29.429722, 34.975556],
+      "history": "Natural World Heritage property inscribed in 2026.",
+      "existing_match": null,
+      "decision": "create_site",
+      "reason": "A marine reserve is neither the city of Aqaba nor an administrative unit.",
+      "geonames_cross_check": "not_relied_on"
+    }
+  ]
+}

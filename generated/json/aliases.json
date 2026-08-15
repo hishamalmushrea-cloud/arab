@@ -364,6 +364,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-LIWA-2362552AE4BD",
+    "id": "ALS-03E69C18CBB25D6B",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Shoubak",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 8; Liwa الشوبك clause",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-42591529",
     "id": "ALS-03E9D082C3ED5B10",
     "kind": "official_variant",
@@ -686,6 +700,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-LIWA-C10C1AF7E34A",
+    "id": "ALS-0662B10F11AF59C8",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Qasabat Zarqa",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 9; Liwa قصبة الزرقاء clause",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-1252169",
     "id": "ALS-06886FF7704A5B74",
     "kind": "official_variant",
@@ -793,6 +821,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 42611549; dated ADM3 parent 4261",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-LIWA-7A4FC57A24E4",
+    "id": "ALS-0730FAE8A3DC56CC",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Ayy",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 7; Liwa عي clause",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -1918,6 +1960,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-QADA-617FF49113A5",
+    "id": "ALS-0DE357D155505451",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Umm al-Basatin",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 4; Qada أم البساتين clause under Liwa ناعور",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-53551898",
     "id": "ALS-0DF3B6C393945E2C",
     "kind": "official_variant",
@@ -1927,6 +1983,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 53551898; dated ADM3 parent 5355",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-LIWA-46C51EE904F4",
+    "id": "ALS-0E0A04DDB2445ADC",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Qasabat Madaba",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 12; Liwa قصبة مادبا clause",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -2058,6 +2128,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-LIWA-4991A65209CA",
+    "id": "ALS-0F8EDAA773325059",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Southern Shunah",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 6; Liwa الشونة الجنوبية clause",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-1170144",
     "id": "ALS-0FE00CA50CEB5C17",
     "kind": "official_variant",
@@ -2095,6 +2179,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 2453879; dated ADM3 parent 2453",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-GOVERNORATE-95F2BA8F63F9",
+    "id": "ALS-10099CC04B8D5269",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Ajloun",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 2 and Article 14",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -2207,6 +2305,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 1254187; dated ADM3 parent 1254",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-LIWA-022EF53C1970",
+    "id": "ALS-118F6158760C5EC0",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Qasabat Ajloun",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 14; Liwa قصبة عجلون clause",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -2515,6 +2627,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 1252170; dated ADM3 parent 1252",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-SITE-CBB3CDB0CBFC",
+    "id": "ALS-13D7985A3A2B5AF8",
+    "kind": "english",
+    "language": "en",
+    "name": "Umm Al-Jimāl",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-UNESCO-WHC-JO-1721",
+    "source_locator": "Property 1721; description, inscription metadata, and coordinates",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -3150,6 +3276,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-LIWA-F2EA096D9CDA",
+    "id": "ALS-17ED66605C475FE8",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Mi'rad",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-29-2024",
+    "source_locator": "Regulation No. 29 of 2024; replacement clause creating or promoting Liwa المعراض",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-61571963",
     "id": "ALS-17EF58943FC95F8B",
     "kind": "official_variant",
@@ -3318,6 +3458,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-QADA-4112F5BB32B3",
+    "id": "ALS-18A9E13B8B7B5B4B",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Al-Dhalil",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 9; Qada الظليل clause under Liwa قصبة الزرقاء",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-MUNICIPALITY-3218",
     "id": "ALS-18BE2DACE47558F7",
     "kind": "official_variant",
@@ -3425,6 +3579,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 1758544; dated ADM3 parent 1758",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-GOVERNORATE-E6B6D2939853",
+    "id": "ALS-198819385A47500F",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Madaba",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 2 and Article 12",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -3901,6 +4069,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 2152595; dated ADM3 parent 2152",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-QADA-1EC73BE19ADC",
+    "id": "ALS-1CCB20DBFC2A5F74",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Al-Faysaliyah",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 12; Qada الفيصلية clause under Liwa قصبة مادبا",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -4480,6 +4662,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-SITE-5641ECFBB759",
+    "id": "ALS-1FB70BB7C7D55D5E",
+    "kind": "english",
+    "language": "en",
+    "name": "Baptism Site “Bethany Beyond the Jordan” (Al-Maghtas)",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-UNESCO-WHC-JO-1446",
+    "source_locator": "Property 1446; description, inscription metadata, and coordinates",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-1753497",
     "id": "ALS-1FC997AA66A85AFB",
     "kind": "official_variant",
@@ -4643,6 +4839,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM3 row / dated 264-delegation research code 2259",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-LIWA-681DE54F703E",
+    "id": "ALS-2064106EDAC65629",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Al-Jami'ah",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 4; Liwa الجامعة clause",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -5194,6 +5404,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-QADA-3BB48D6DADB5",
+    "id": "ALS-24164B6E535D567B",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Al-Arid",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 12; Qada العريض clause under Liwa ذيبان",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-42631570",
     "id": "ALS-241919D5CD425EDA",
     "kind": "official_variant",
@@ -5726,6 +5950,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-LIWA-E7D97BEF40CA",
+    "id": "ALS-27659EFC760F57ED",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Sahab",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 4; Liwa سحاب clause",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-116399",
     "id": "ALS-276A3220627E5E03",
     "kind": "official_variant",
@@ -6020,6 +6258,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-LIWA-EC79F4BDDFFE",
+    "id": "ALS-2969518564225508",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Qatrana",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 7; Liwa القطرانة clause",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-DELEGATION-5E40024695DE",
     "id": "ALS-296CB90438415483",
     "kind": "official_variant",
@@ -6239,6 +6491,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-DGCL-MUNICIPALITIES-2024",
     "source_locator": "January 2024 workbook row: governorate 52; municipality code 5213",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-QADA-E4286EEDF644",
+    "id": "ALS-2B331A5494725D9D",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Sama al-Sarhan",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 10; Qada سما السرحان clause under Liwa البادية الشمالية الغربية",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -6552,6 +6818,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-QADA-1F6EDC39913B",
+    "id": "ALS-2D3A23D495C55EB9",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Al-Jafr",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 8; Qada الجفر clause under Liwa قصبة معان",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-53511864",
     "id": "ALS-2D3B5A130E2B5F77",
     "kind": "official_variant",
@@ -6804,6 +7084,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-LIWA-FB398DA3730D",
+    "id": "ALS-2ED0EABAD07E5B8F",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Moab",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-29-2024",
+    "source_locator": "Regulation No. 29 of 2024; replacement clause creating or promoting Liwa مؤاب",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-33601204",
     "id": "ALS-2F02AEAD15DF55E3",
     "kind": "official_variant",
@@ -6827,6 +7121,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 1756523; dated ADM3 parent 1756",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-SITE-A91A1B1F9D0A",
+    "id": "ALS-2F48B65267C8572D",
+    "kind": "english",
+    "language": "en",
+    "name": "As-Salt - The Place of Tolerance and Urban Hospitality",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-UNESCO-WHC-JO-689",
+    "source_locator": "Property 689rev; description, State Party metadata, inscription year, and coordinates",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -7224,6 +7532,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-LIWA-CEA4E6C3DDA9",
+    "id": "ALS-326A3D9F149A5DB9",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Qasr",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 7; Liwa القصر clause",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-DELEGATION-69C4DE6E547E",
     "id": "ALS-327E1404F1BF50B9",
     "kind": "official_variant",
@@ -7471,6 +7793,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 2455896; dated ADM3 parent 2455",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-LIWA-B7C8D577FD37",
+    "id": "ALS-33E9CA21B6F35DD5",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Quwaysimah",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 4; Liwa القويسمة clause",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -8596,6 +8932,34 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-LIWA-10797219C502",
+    "id": "ALS-3A6AA7ACCEF857D8",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Southern Mazar",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 7; Liwa المزار الجنوبي clause",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-GOVERNORATE-CF8CA19A5F65",
+    "id": "ALS-3A7048519721560D",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Karak",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 2 and Article 7",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-2251686",
     "id": "ALS-3A8A6A3694365D9F",
     "kind": "official_variant",
@@ -9235,6 +9599,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 51561719; dated ADM3 parent 5156",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-LIWA-52DCFF661A5B",
+    "id": "ALS-3E6FBE0AEAEF5EC2",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Petra",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 8; Liwa البتراء clause",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -10248,6 +10626,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-SITE-6797180FA1CD",
+    "id": "ALS-454149BFCFA554BA",
+    "kind": "english",
+    "language": "en",
+    "name": "Aqaba Marine Reserve",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-UNESCO-WHC-JO-1742",
+    "source_locator": "Property 1742; description, natural-category inscription metadata, and coordinates",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-2355815",
     "id": "ALS-4556C436F21E52C6",
     "kind": "official_variant",
@@ -10542,6 +10934,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-QADA-2E0CD2DCACD6",
+    "id": "ALS-46E913AD924951FE",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Hisban",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 4; Qada حسبان clause under Liwa ناعور",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-DELEGATION-6EFE1FF87CAA",
     "id": "ALS-46EB18B719415527",
     "kind": "official_variant",
@@ -10761,6 +11167,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-DGCL-MUNICIPALITIES-2024",
     "source_locator": "January 2024 workbook row: governorate 16; municipality code 1617",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-QADA-328AC9B89EA6",
+    "id": "ALS-4861B5954DC059DB",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Al-Manshiyah",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 10; Qada المنشية clause under Liwa قصبة المفرق",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -11200,6 +11620,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-LIWA-9308C52B1EFC",
+    "id": "ALS-4B1280263CDD55AC",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Northwestern Badia",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 10; Liwa البادية الشمالية الغربية clause",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-41521365",
     "id": "ALS-4B1E5E5BC3D05E4D",
     "kind": "official_variant",
@@ -11265,6 +11699,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM3 row / dated 264-delegation research code 2156",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-LIWA-C95536C75A5C",
+    "id": "ALS-4B91CB1C60385E9A",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Bal'ama",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-29-2024",
+    "source_locator": "Regulation No. 29 of 2024; replacement clause creating or promoting Liwa بلعما",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -13188,6 +13636,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-QADA-EEED871CA4A2",
+    "id": "ALS-55ED5AB0768558A4",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Ayl",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 8; Qada إيل clause under Liwa قصبة معان",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-1457323",
     "id": "ALS-55FCC6A3098859F8",
     "kind": "official_variant",
@@ -13337,6 +13799,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 1654462; dated ADM3 parent 1654",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-LIWA-41C85475F281",
+    "id": "ALS-56B7DB1EE3F9544B",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Northern Badia",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 10; Liwa البادية الشمالية clause",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -13664,6 +14140,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-LIWA-2A431ED8DCB5",
+    "id": "ALS-58CAC9C281A157BA",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Northern Ghor",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 5; Liwa الأغوار الشمالية clause",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-1554347",
     "id": "ALS-58DF9B8FAFE456DE",
     "kind": "official_variant",
@@ -13729,6 +14219,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 11599999; dated ADM3 parent 1159",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-LIWA-B02F43E5539D",
+    "id": "ALS-592B9A0F553E5CAC",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Al-Hasa",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 11; Liwa الحسا clause",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -13986,6 +14490,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-QADA-BC455937B4AD",
+    "id": "ALS-5AA2D15E3B12563C",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Udhruh",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 8; Qada أذرح clause under Liwa قصبة معان",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-1753498",
     "id": "ALS-5AB00DD66A6558AF",
     "kind": "official_variant",
@@ -14051,6 +14569,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-DGCL-MUNICIPALITIES-2024",
     "source_locator": "January 2024 workbook row: governorate 11; municipality code 1112",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-LIWA-40B36A511085",
+    "id": "ALS-5ACE57EE2CE3513E",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Jizah",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 4; Liwa الجيزة clause",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -14751,6 +15283,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 3158988; dated ADM3 parent 3158",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-QADA-EC545995CDDA",
+    "id": "ALS-5FBE76D2DC8B5F25",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Al-Khalidiyah",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 10; Qada الخالدية clause under Liwa البادية الشمالية الغربية",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -15512,6 +16058,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-QADA-44B6E089BFBD",
+    "id": "ALS-65B9A088360A51BC",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Al-Aridah",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 6; Qada العارضة clause under Liwa قصبة السلط",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-MUNICIPALITY-3320",
     "id": "ALS-65BB9B7B43775DBC",
     "kind": "official_variant",
@@ -15661,6 +16221,20 @@
     "script": "Latn",
     "source_id": "SRC-ISO-3166-1-2020",
     "source_locator": "ISO alpha-2 entry DJ",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-QADA-58CF2890157A",
+    "id": "ALS-66421A2300B554E2",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Hawsha",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 10; Qada حوشا clause under Liwa البادية الشمالية الغربية",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -16744,6 +17318,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-LIWA-87287CD200B1",
+    "id": "ALS-6BDA18041DC1544E",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Qasabat Tafilah",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 11; Liwa قصبة الطفيلة clause",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-63542054",
     "id": "ALS-6BEE1A64C9C35643",
     "kind": "official_variant",
@@ -16823,6 +17411,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 34601295; dated ADM3 parent 3460",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-GOVERNORATE-F18D55CC6398",
+    "id": "ALS-6C61A86767325BB3",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Zarqa",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 2 and Article 9",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -17668,6 +18270,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-QADA-1EA3807E62C9",
+    "id": "ALS-7244C6A27B245E4D",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Ayra and Yarqa",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 6; Qada عيرا ويرقا clause under Liwa قصبة السلط",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-2153604",
     "id": "ALS-7248788C66C35FAD",
     "kind": "official_variant",
@@ -17775,6 +18391,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 2452875; dated ADM3 parent 2452",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-LIWA-71BA83D6D67A",
+    "id": "ALS-7302437F52045AFF",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Qasabat Karak",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 7; Liwa قصبة الكرك clause",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -18186,6 +18816,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-GOVERNORATE-CAA34B5247BD",
+    "id": "ALS-7538D2AB3D7C543B",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Tafilah",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 2 and Article 11",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-2155630",
     "id": "ALS-757C19A8D9B756BC",
     "kind": "official_variant",
@@ -18536,6 +19180,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-SITE-8D75F7A78E1E",
+    "id": "ALS-778C84DB9F6B58E7",
+    "kind": "english",
+    "language": "en",
+    "name": "Wadi Rum Protected Area",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-UNESCO-WHC-JO-1377",
+    "source_locator": "Property 1377; description, mixed-category inscription metadata, and coordinates",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-34651337",
     "id": "ALS-7791B4647AEA5C59",
     "kind": "official_variant",
@@ -18615,6 +19273,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 62542021; dated ADM3 parent 6254",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-LIWA-0E1F65ACCB01",
+    "id": "ALS-77F2720874065A34",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Al-Husayniyah",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 8; Liwa الحسينية clause",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -18998,6 +19670,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-QADA-EF24AE55EEBD",
+    "id": "ALS-7A9E86961A6151F7",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Zi",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 6; Qada زي clause under Liwa قصبة السلط",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-33611217",
     "id": "ALS-7ABAB49661A75A2C",
     "kind": "official_variant",
@@ -19292,6 +19978,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-QADA-1B5FF386CC83",
+    "id": "ALS-7C20461758575723",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Al-Murayghah",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 8; Qada المريغة clause under Liwa قصبة معان",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-32541071",
     "id": "ALS-7C2C278787D350B0",
     "kind": "official_variant",
@@ -19488,6 +20188,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-SITE-ED4533B88F9B",
+    "id": "ALS-7D4C5DD3EAF15109",
+    "kind": "english",
+    "language": "en",
+    "name": "Quseir Amra",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-UNESCO-WHC-JO-327",
+    "source_locator": "Property 327; description, Az Zarqa Governorate metadata, inscription year, and coordinates",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-1253175",
     "id": "ALS-7D6F3221B7CF53AA",
     "kind": "official_variant",
@@ -19553,6 +20267,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM3 row / dated 264-delegation research code 4159",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-QADA-3F436B83EB67",
+    "id": "ALS-7DC5B0CA25105AEB",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Irhab",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 10; Qada إرحاب clause under Liwa قصبة المفرق",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -19768,6 +20496,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-QADA-6DE85551878A",
+    "id": "ALS-7F6E471DAE755264",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Arjan",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 14; Qada عرجان clause under Liwa قصبة عجلون",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-2257754",
     "id": "ALS-7F724915BB5A5959",
     "kind": "official_variant",
@@ -19875,6 +20617,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 61611984; dated ADM3 parent 6161",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-LIWA-BDD37882C33B",
+    "id": "ALS-804096B502045901",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Ruwayshid",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-MOI-RUWAYSHID-2026",
+    "source_locator": "Current Ministry of Interior page identifying Liwa Ruwayshid in Mafraq Governorate",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -20057,6 +20813,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 2251689; dated ADM3 parent 2251",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-LIWA-532C9B46EAA6",
+    "id": "ALS-816E1D28E38059E8",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Ramtha",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 5; Liwa الرمثا clause",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -20426,6 +21196,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-LIWA-F5D52DBBCB1D",
+    "id": "ALS-83A57B5C71D8511B",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Dayr Alla",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 6; Liwa دير علا clause",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-2151577",
     "id": "ALS-83AA265949E5592C",
     "kind": "official_variant",
@@ -20435,6 +21219,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 2151577; dated ADM3 parent 2151",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-LIWA-C3D864A11155",
+    "id": "ALS-83DCC930BB325C98",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Marka",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 4; Liwa ماركا clause",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -20519,6 +21317,34 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 33571192; dated ADM3 parent 3357",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-QADA-0C9A4090E42A",
+    "id": "ALS-847A768CED385B0B",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Umm al-Rasas",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 4; Qada أم الرصاص clause under Liwa الجيزة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-QADA-CCDC38D92126",
+    "id": "ALS-847B4358CD5E55D0",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Subha",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 10; Qada صبحا clause under Liwa البادية الشمالية",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -20832,6 +21658,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-GOVERNORATE-513EDEC3570B",
+    "id": "ALS-86685C9B2CB15EF0",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Ma'an",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 2 and Article 8",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-1360256",
     "id": "ALS-866DE7B301BD5DAB",
     "kind": "official_variant",
@@ -20883,6 +21723,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 1555353; dated ADM3 parent 1555",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-LIWA-05A773331E02",
+    "id": "ALS-86E8069E05B853CD",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Na'ur",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 4; Liwa ناعور clause",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -21345,6 +22199,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 52571827; dated ADM3 parent 5257",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-PLACE-51A820559E7C",
+    "id": "ALS-8AFE1960A16755E2",
+    "kind": "english",
+    "language": "en",
+    "name": "Historic settlement of Umm Al-Jimāl",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-UNESCO-WHC-JO-1721",
+    "source_locator": "Property 1721 description explicitly calls the property a rural settlement and records cessation of permanent settlement by the end of the eighth century",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -21868,6 +22736,48 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-GOVERNORATE-D568D76A8FF7",
+    "id": "ALS-8E276543919F5FB7",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Balqa",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 2 and Article 6",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-QADA-EA7D8D6741BD",
+    "id": "ALS-8E4EBC54F85E5A5A",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Barma",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 13; Qada برما clause under Liwa قصبة جرش",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-LIWA-B96BF35EE417",
+    "id": "ALS-8E70B63CECF25783",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Qasabat Jerash",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 13; Liwa قصبة جرش clause",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-2151588",
     "id": "ALS-8E88403DE464537F",
     "kind": "official_variant",
@@ -21891,6 +22801,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 1362278; dated ADM3 parent 1362",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-QADA-75B9F0D4A535",
+    "id": "ALS-8EE8A6346DA65093",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Azraq",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 9; Qada الأزرق clause under Liwa قصبة الزرقاء",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -22059,6 +22983,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 116584; dated ADM3 parent 1165",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-PLACE-3E21AB3F0907",
+    "id": "ALS-9014810FFA265E5E",
+    "kind": "english",
+    "language": "en",
+    "name": "Historic Petra",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-UNESCO-WHC-JO-326",
+    "source_locator": "Property 326 brief description characterizes Petra as a Nabataean caravan-city",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -22274,6 +23212,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-LIWA-F8B874008FF7",
+    "id": "ALS-912C43B90D3853DF",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Qasabat Mafraq",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 10; Liwa قصبة المفرق clause",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-32561080",
     "id": "ALS-914995A4F738555A",
     "kind": "official_variant",
@@ -22437,6 +23389,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 1753500; dated ADM3 parent 1753",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-LIWA-BA3FD7081E19",
+    "id": "ALS-928F76A0E92952AF",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Qasabat Amman",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 4; Liwa قصبة عمان clause",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -23002,6 +23968,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-QADA-DAE63CE24DD8",
+    "id": "ALS-9620C8DCC88254A1",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Wadi Araba",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 15; Qada وادي عربة clause under Liwa قصبة العقبة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-1564407",
     "id": "ALS-9620D52B092952E5",
     "kind": "official_variant",
@@ -23137,6 +24117,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 2253705; dated ADM3 parent 2253",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-SITE-23D0618EACF3",
+    "id": "ALS-96ABE9A8AE6D5434",
+    "kind": "english",
+    "language": "en",
+    "name": "Petra",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-UNESCO-WHC-JO-326",
+    "source_locator": "Property 326; description, Ma’an Governorate metadata, inscription year, and coordinates",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -23319,6 +24313,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 2457903; dated ADM3 parent 2457",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-GOVERNORATE-59A1DEF0AA35",
+    "id": "ALS-974A400233B15442",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Irbid",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 2 and Article 5",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -23884,6 +24892,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-LIWA-86A2E3EF2574",
+    "id": "ALS-9B3249F4B61356D8",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Bani Kinanah",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 5; Liwa بني كنانة clause",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-1162999",
     "id": "ALS-9B6C0A66046D53A8",
     "kind": "official_variant",
@@ -24136,6 +25158,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-GOVERNORATE-F7030BE732D5",
+    "id": "ALS-9D48708E4B725F11",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Jerash",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 2 and Article 13",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-63552055",
     "id": "ALS-9D48AD1DA84C540B",
     "kind": "official_variant",
@@ -24271,6 +25307,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 41611464; dated ADM3 parent 4161",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-QADA-2E61A16B0455",
+    "id": "ALS-9E2F579EC36A50C1",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Ma'in",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 12; Qada ماعين clause under Liwa قصبة مادبا",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -24640,6 +25690,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-QADA-4FF9C49C7D3F",
+    "id": "ALS-A0BB5F2924B458CD",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Rajm al-Shami",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 4; Qada رجم الشامي clause under Liwa الموقر",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-63522036",
     "id": "ALS-A0BD86A974995773",
     "kind": "official_variant",
@@ -24705,6 +25769,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 33561178; dated ADM3 parent 3356",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-LIWA-F59532A2657F",
+    "id": "ALS-A116EC26B7D251C4",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Ayn al-Basha",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 6; Liwa عين الباشا clause",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -25041,6 +26119,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 2461944; dated ADM3 parent 2461",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-LIWA-31557DB26F65",
+    "id": "ALS-A286EC34744558B1",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Qasabat Aqaba",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 15; Liwa قصبة العقبة clause",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -25461,6 +26553,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 41581434; dated ADM3 parent 4158",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-QADA-92FBC9D44DB0",
+    "id": "ALS-A5495FC4F34F59CC",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Ghawr al-Mazra'ah",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 7; Qada غور المزرعة clause under Liwa الأغوار الجنوبية",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -25998,6 +27104,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-GOVERNORATE-AA6EDAA40E42",
+    "id": "ALS-A98C1D069AB554DE",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Aqaba",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 2 and Article 15",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-2151582",
     "id": "ALS-A9AF63C249A652D5",
     "kind": "official_variant",
@@ -26119,6 +27239,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 41511362; dated ADM3 parent 4151",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-LIWA-90D095ED7B51",
+    "id": "ALS-AAB7DB692C695018",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Faqu'",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 7; Liwa فقوع clause",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -26539,6 +27673,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 43511574; dated ADM3 parent 4351",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-LIWA-2EC144CEBFB6",
+    "id": "ALS-AD0D56FD010B5558",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Wadi al-Sir",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 4; Liwa وادي السير clause",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -27104,6 +28252,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-LIWA-FB904E87C37C",
+    "id": "ALS-B0F18FF9BD2555E0",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Dhiban",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 12; Liwa ذيبان clause",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-43551614",
     "id": "ALS-B10344506BE2585D",
     "kind": "official_variant",
@@ -27426,6 +28588,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-CITY-0E2F3C63BD3B",
+    "id": "ALS-B31605EE8FFD523D",
+    "kind": "english",
+    "language": "en",
+    "name": "As-Salt",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-UNESCO-WHC-JO-689",
+    "source_locator": "Property 689rev brief description explicitly calls As-Salt a city",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-1152115",
     "id": "ALS-B33CD8C6FA1C53C9",
     "kind": "official_variant",
@@ -27701,6 +28877,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-DGCL-MUNICIPALITIES-2024",
     "source_locator": "January 2024 workbook row: governorate 52; municipality code 5218",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-SITE-A7CDF244E03B",
+    "id": "ALS-B5BEEE934C255A09",
+    "kind": "english",
+    "language": "en",
+    "name": "Um er-Rasas (Kastrom Mefa'a)",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-UNESCO-WHC-JO-1093",
+    "source_locator": "Property 1093; description, inscription metadata, and geographical component 1093-001 (Castrum)",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -28238,6 +29428,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-GOVERNORATE-20430BE80A89",
+    "id": "ALS-B9EFF3ECB7C059EC",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Mafraq",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 2 and Article 10",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-3157981",
     "id": "ALS-B9FD13CFAB3856C8",
     "kind": "official_variant",
@@ -28308,6 +29512,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-LIWA-D5EEECF9A038",
+    "id": "ALS-BA710367DDCB5B62",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Quwayrah",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 15; Liwa القويرة clause",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-MUNICIPALITY-6318",
     "id": "ALS-BA8599A71F9B5AD7",
     "kind": "official_variant",
@@ -28359,6 +29577,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-DGCL-MUNICIPALITIES-2024",
     "source_locator": "January 2024 workbook row: governorate 41; municipality code 4125",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-QADA-910DE8E69067",
+    "id": "ALS-BB183D9B049B55BA",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Al-Disah",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 15; Qada الديسة clause under Liwa القويرة",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -28443,6 +29675,20 @@
     "script": "Latn",
     "source_id": "SRC-UNESCO-WHC-TN-2026",
     "source_locator": "World Heritage property 1769: Village of Sidi Bou Saïd",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-LIWA-59748B6817DF",
+    "id": "ALS-BB731023AF995672",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Qasabat Irbid",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 5; Liwa قصبة إربد clause",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -28555,6 +29801,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 2253704; dated ADM3 parent 2253",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-LIWA-3788C9BAB67E",
+    "id": "ALS-BBF2999EC64D592F",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Bani Ubayd",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 5; Liwa بني عبيد clause",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -28714,6 +29974,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-LIWA-6C4AA17AB00E",
+    "id": "ALS-BD4D159815A654FE",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Mahis and Fuhayis",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 6; Liwa ماحص والفحيص clause",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-MUNICIPALITY-1216",
     "id": "ALS-BD5048DDA82A55B0",
     "kind": "official_variant",
@@ -28807,6 +30081,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 53531886; dated ADM3 parent 5353",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-PLACE-4F96A66187A3",
+    "id": "ALS-BE3A99A7BEC952DF",
+    "kind": "english",
+    "language": "en",
+    "name": "Historic town of Um er-Rasas",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-UNESCO-WHC-JO-1093",
+    "source_locator": "Property 1093 brief description states that the Roman camp grew to become a town from the fifth century",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -29414,6 +30702,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-QADA-42444BB59DAB",
+    "id": "ALS-C1D15DB7F8AB5D72",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Umm al-Jimal",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 10; Qada أم الجمال clause under Liwa البادية الشمالية",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-DELEGATION-A2C2D831ECC0",
     "id": "ALS-C1DD3AC809D35CA7",
     "kind": "official_variant",
@@ -29456,6 +30758,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-QADA-93010DFA4482",
+    "id": "ALS-C20AE932D0A15599",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Umm al-Quttayn",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 10; Qada أم القطين clause under Liwa البادية الشمالية",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-DELEGATION-89139C7B1553",
     "id": "ALS-C21C445F10265CE4",
     "kind": "official_variant",
@@ -29493,6 +30809,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 1651435; dated ADM3 parent 1651",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-LIWA-E2D2792EA462",
+    "id": "ALS-C235E3CD2174594F",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Muwaqqar",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 4; Liwa الموقر clause",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -30366,6 +31696,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-LIWA-9E0FFCD0840F",
+    "id": "ALS-C7DC12D30E5D5A07",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Wasatiyyah",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 5; Liwa الوسطية clause",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-2258759",
     "id": "ALS-C7DFF6C777C159A8",
     "kind": "official_variant",
@@ -30557,6 +31901,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 1167122; dated ADM3 parent 1167",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-LIWA-7A641B92B630",
+    "id": "ALS-C9769461D77A58DB",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Rusayfah",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 9; Liwa الرصيفة clause",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -31369,6 +32727,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 1256201; dated ADM3 parent 1256",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-QADA-37A05990AA3D",
+    "id": "ALS-CF16E0DE1D255803",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Dayr al-Kahf",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 10; Qada دير الكهف clause under Liwa البادية الشمالية",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -32592,6 +33964,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-QADA-815B4978363F",
+    "id": "ALS-D644CB40B0165714",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Juraynah",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 12; Qada جرينة clause under Liwa قصبة مادبا",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-34641331",
     "id": "ALS-D6458797AB245A97",
     "kind": "official_variant",
@@ -32615,6 +34001,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 3160999; dated ADM3 parent 3160",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-GOVERNORATE-644B08430E58",
+    "id": "ALS-D66C267EA57A5A2A",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Amman",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 2 and Article 4",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -32685,6 +34085,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 2459924; dated ADM3 parent 2459",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-LIWA-2E61885AA2F4",
+    "id": "ALS-D6CB68B86B625DDA",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Taybah",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 5; Liwa الطيبة clause",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -33208,6 +34622,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-LIWA-20C22BC51869",
+    "id": "ALS-DA4E082A5CF5555C",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "West Irbid",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-29-2024",
+    "source_locator": "Regulation No. 29 of 2024; replacement clause creating or promoting Liwa غرب إربد",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-41541401",
     "id": "ALS-DA64E4CB44165968",
     "kind": "official_variant",
@@ -33572,6 +35000,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-LIWA-4F9D4CBD1EE1",
+    "id": "ALS-DBE8124218CF5204",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Qasabat as-Salt",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 6; Liwa قصبة السلط clause",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-34551263",
     "id": "ALS-DBF893522976598B",
     "kind": "official_variant",
@@ -33796,6 +35238,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-LIWA-59C556AA0313",
+    "id": "ALS-DD3DD689F271557C",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Al-Hashimiyah",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 9; Liwa الهاشمية clause",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-62511993",
     "id": "ALS-DD4A179E746952BE",
     "kind": "official_variant",
@@ -33880,6 +35336,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-LIWA-1A0681D3D403",
+    "id": "ALS-DDBFFD9AD40457C8",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Kura",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 5; Liwa الكورة clause",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-1555352",
     "id": "ALS-DDC78FCC058A5ADA",
     "kind": "official_variant",
@@ -33959,6 +35429,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 3153961; dated ADM3 parent 3153",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-LIWA-74DBC7283810",
+    "id": "ALS-DE388B96A11856D2",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Busayra",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 11; Liwa بصيرا clause",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -35378,6 +36862,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-LIWA-9D5690A44520",
+    "id": "ALS-E7E5B42F5CC7561B",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Northern Mazar",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 5; Liwa المزار الشمالي clause",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-42601538",
     "id": "ALS-E800F1E9F71D53AC",
     "kind": "official_variant",
@@ -35401,6 +36899,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM3 row / dated 264-delegation research code 6356",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-QADA-2CC53F76A9E2",
+    "id": "ALS-E82E993D9FAD57D6",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Mastabah",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 13; Qada المصطبة clause under Liwa قصبة جرش",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -35457,6 +36969,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 32551074; dated ADM3 parent 3255",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-QADA-729578FB4898",
+    "id": "ALS-E8B6AD8EAF605C73",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Malih",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 12; Qada مليح clause under Liwa ذيبان",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -36302,6 +37828,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-LIWA-3E76A864C483",
+    "id": "ALS-EE41E19F44555AD8",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Qasabat Ma'an",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 8; Liwa قصبة معان clause",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-2356823",
     "id": "ALS-EE4A34961A885A0C",
     "kind": "official_variant",
@@ -36358,6 +37898,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-LIWA-21199BA166A1",
+    "id": "ALS-EE7B4975CD2552E6",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Southern Ghor",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 7; Liwa الأغوار الجنوبية clause",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-DELEGATION-3757F6B83BE1",
     "id": "ALS-EE7FD01FC76552E2",
     "kind": "official_variant",
@@ -36409,6 +37963,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 53521875; dated ADM3 parent 5352",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-QADA-2DFAEAAAF0B1",
+    "id": "ALS-EEBBB5CBDE83501F",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Birayn",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 9; Qada بيرين clause under Liwa قصبة الزرقاء",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -36605,6 +38173,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-DGCL-MUNICIPALITIES-2024",
     "source_locator": "January 2024 workbook row: governorate 42; municipality code 4215",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-QADA-4033651E517C",
+    "id": "ALS-EFB5D8D7289B5B20",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Sakhrah",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 14; Qada صخرة clause under Liwa قصبة عجلون",
     "status": "current",
     "valid_from": null,
     "valid_to": null
@@ -37506,6 +39088,20 @@
     "valid_to": null
   },
   {
+    "entity_id": "ENT-JO-LIWA-BEC45993D305",
+    "id": "ALS-F4D40372B45E5456",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Kufranjah",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 14; Liwa كفرنجة clause",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
     "entity_id": "ENT-TN-IMADA-51511685",
     "id": "ALS-F50BDE6F91675957",
     "kind": "official_variant",
@@ -37935,6 +39531,20 @@
     "script": "Latn",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 61571958; dated ADM3 parent 6157",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "entity_id": "ENT-JO-QADA-4BC98C01F32A",
+    "id": "ALS-F7C750D805B75E51",
+    "kind": "transliteration",
+    "language": "en",
+    "name": "Mujib",
+    "schema_version": "1.0.0",
+    "script": "Latn",
+    "source_id": "SRC-JO-REGULATION-46-2000",
+    "source_locator": "Regulation No. 46 of 2000, Article 7; Qada الموجب clause under Liwa القصر",
     "status": "current",
     "valid_from": null,
     "valid_to": null

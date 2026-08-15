@@ -1,0 +1,22 @@
+{
+  "archive_url": null,
+  "author": null,
+  "checksum": null,
+  "country_codes": [
+    "JO"
+  ],
+  "id": "SRC-UNESCO-WHC-JO-2026",
+  "language": "ar-fr-en",
+  "license": "UNESCO website terms; individual descriptions are separately licensed CC BY-SA 3.0 IGO",
+  "locator": "Jordan State Party list; eight inscribed properties at snapshot 2026-08-15",
+  "notes": "Bounded denominator source for the eight-property pilot layer. Every linked property is also registered as an atomic source. Publication date is not displayed on the live State Party register; the dated access snapshot controls.",
+  "organization": "UNESCO World Heritage Centre",
+  "publication_date": null,
+  "publisher": "UNESCO World Heritage Centre",
+  "quality_tier": "B",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "1.0.0",
+  "source_type": "institutional_dataset",
+  "title": "World Heritage List — Jordan State Party register",
+  "url": "https://whc.unesco.org/en/statesparties/jo"
+}

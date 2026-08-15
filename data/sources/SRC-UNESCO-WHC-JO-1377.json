@@ -1,0 +1,22 @@
+{
+  "archive_url": null,
+  "author": null,
+  "checksum": null,
+  "country_codes": [
+    "JO"
+  ],
+  "id": "SRC-UNESCO-WHC-JO-1377",
+  "language": "ar-fr-en",
+  "license": "CC BY-SA 3.0 IGO for the property-page description; other page components may carry separate terms",
+  "locator": "Property 1377; description, mixed-category inscription metadata, and N29 38 23 E35 26 2",
+  "notes": "Atomic property record; wording in repository claims is bounded to this page and avoids unsourced localization.",
+  "organization": "UNESCO World Heritage Centre",
+  "publication_date": "2011",
+  "publisher": "UNESCO World Heritage Centre",
+  "quality_tier": "B",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "1.0.0",
+  "source_type": "institutional_page",
+  "title": "Wadi Rum Protected Area",
+  "url": "https://whc.unesco.org/en/list/1377/"
+}

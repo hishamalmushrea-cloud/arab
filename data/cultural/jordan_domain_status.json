@@ -1,0 +1,40 @@
+{
+  "country_code": "JO",
+  "domains": {
+    "administrative_centers": {
+      "source_scope": "Regulation No. 46 of 2000 as amended by Regulation No. 29 of 2024",
+      "status": "verified"
+    },
+    "archaeology_and_heritage": {
+      "source_scope": "Eight-property UNESCO World Heritage denominator",
+      "status": "verified"
+    },
+    "bedu_cultural_space": {
+      "source_scope": "Petra and Wadi Rum only",
+      "status": "verified"
+    },
+    "dialect": {
+      "missing_reason": "No place-specific institutional or scholarly lexical record meeting the pilot's form, meaning, register, study/speaker, date, and attribution requirements was established. No dialect claim is imported.",
+      "status": "not_documented"
+    },
+    "dress": {
+      "missing_reason": "No bounded locality-specific source was selected for this pilot; national material was not localized.",
+      "status": "not_found"
+    },
+    "food_practice": {
+      "source_scope": "National Jordan scope only",
+      "status": "verified"
+    },
+    "people": {
+      "missing_reason": "People are outside the bounded Jordan pilot layers; no person was added merely to increase content volume.",
+      "status": "N/A"
+    },
+    "performance_practice": {
+      "source_scope": "National Jordan scope only",
+      "status": "verified"
+    }
+  },
+  "schema_version": "1.0.0",
+  "snapshot_date": "2026-08-15",
+  "source_fixture": "data/imports/jordan/cultural_content_2026.json"
+}

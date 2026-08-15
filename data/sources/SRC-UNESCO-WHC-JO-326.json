@@ -1,0 +1,22 @@
+{
+  "archive_url": null,
+  "author": null,
+  "checksum": null,
+  "country_codes": [
+    "JO"
+  ],
+  "id": "SRC-UNESCO-WHC-JO-326",
+  "language": "ar-fr-en",
+  "license": "CC BY-SA 3.0 IGO for the property-page description; other page components may carry separate terms",
+  "locator": "Property 326; description, inscription metadata, Ma’an Governorate, and N30 19 50.016 E35 26 35.988",
+  "notes": "Atomic property record; wording in repository claims is bounded to this page and avoids unsourced localization.",
+  "organization": "UNESCO World Heritage Centre",
+  "publication_date": "1985",
+  "publisher": "UNESCO World Heritage Centre",
+  "quality_tier": "B",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "1.0.0",
+  "source_type": "institutional_page",
+  "title": "Petra",
+  "url": "https://whc.unesco.org/en/list/326/"
+}

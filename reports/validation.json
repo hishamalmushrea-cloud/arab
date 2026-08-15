@@ -1,17 +1,17 @@
 {
   "checks": {
     "aliases": {
-      "aliases": 2782,
+      "aliases": 2897,
       "duplicate_aliases": 0,
       "status": "pass"
     },
     "claims": {
-      "claims": 69,
-      "sourced": 69,
+      "claims": 204,
+      "sourced": 204,
       "status": "pass"
     },
     "coordinates": {
-      "coordinate_records": 2734,
+      "coordinate_records": 2746,
       "status": "pass"
     },
     "country_mismatch": {
@@ -19,9 +19,9 @@
       "status": "pass"
     },
     "coverage": {
-      "complete_layers": 28,
-      "coverage_records": 32,
-      "denominators": 32,
+      "complete_layers": 33,
+      "coverage_records": 37,
+      "denominators": 37,
       "status": "pass"
     },
     "csv": {
@@ -41,17 +41,17 @@
       "status": "pass"
     },
     "entity_types": {
-      "active_types": 16,
+      "active_types": 19,
       "allowed_types": 91,
       "status": "pass"
     },
     "hierarchy": {
-      "declared_pairs": 95,
+      "declared_pairs": 94,
       "status": "pass"
     },
     "ids": {
       "duplicate_ids": 0,
-      "global_ids": 9063,
+      "global_ids": 9579,
       "status": "pass"
     },
     "independent_review": {
@@ -67,7 +67,7 @@
     "manifests": {
       "countries": 22,
       "manifests": 22,
-      "pilot_migrated": 2,
+      "pilot_migrated": 3,
       "status": "pass"
     },
     "migration": {
@@ -83,7 +83,7 @@
       "status": "pass"
     },
     "parents": {
-      "administrative_relationships": 2837,
+      "administrative_relationships": 2940,
       "status": "pass"
     },
     "phase2_tunisia": {
@@ -108,14 +108,14 @@
       "tunisia_published_claims": 69
     },
     "sources": {
-      "atomic_files": 16,
-      "references": 11781,
-      "sources": 16,
+      "atomic_files": 37,
+      "references": 12288,
+      "sources": 37,
       "status": "pass"
     },
     "structured_data": {
       "record_families": 8,
-      "records": 9063,
+      "records": 9579,
       "status": "pass"
     },
     "unicode": {
@@ -124,15 +124,15 @@
     }
   },
   "counts": {
-    "aliases": 2782,
-    "claims": 69,
-    "coverage": 32,
-    "denominators": 32,
-    "entities": 2879,
+    "aliases": 2897,
+    "claims": 204,
+    "coverage": 37,
+    "denominators": 37,
+    "entities": 2994,
     "manifests": 22,
-    "relationships": 3245,
-    "snapshots": 8,
-    "sources": 16
+    "relationships": 3364,
+    "snapshots": 9,
+    "sources": 37
   },
   "errors": [],
   "status": "pass"
