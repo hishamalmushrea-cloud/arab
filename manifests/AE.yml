@@ -492,7 +492,7 @@
       "denominator_id": "DEN-AE-DUBAI-PLANNING-SECTORS",
       "entity_type": "ae_dubai_planning_sector",
       "level": 2,
-      "license": "Official Dubai publication; reuse terms not stated in captured index",
+      "license": "Official Dubai government publication; reuse terms not stated in captured index",
       "local_names": [
         "planning sector",
         "قطاع تخطيطي"
@@ -829,7 +829,7 @@
         "ae_dubai_planning_sector"
       ],
       "layer": "dubai_planning_sectors",
-      "license": "Official Dubai publication; reuse terms not stated in captured index",
+      "license": "Official Dubai government publication; reuse terms not stated in captured index",
       "local_names": [
         "planning sector",
         "قطاع تخطيطي"
@@ -1027,7 +1027,7 @@
         "neighborhood"
       ],
       "layer": "neighborhoods",
-      "license": "License not specified for community metadata",
+      "license": "License not specified on captured dataset metadata",
       "local_names": [
         "neighborhood"
       ],
