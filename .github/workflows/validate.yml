@@ -1,5 +1,4 @@
-name: Schema v1 validation
-
+name: Schema 2.0.0 validation
 on:
   push:
   pull_request:
@@ -20,5 +19,5 @@ jobs:
           python-version: "3.11"
       - name: Compile dependency-free tools
         run: python3 -m compileall -q scripts
-      - name: Run Phase 0, Phase 1, and Tunisia Phase 2 gates
-        run: make check
+      - name: Run Schema 2.0.0 migration and all accepted country gates
+  run: make check
