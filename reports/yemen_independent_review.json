@@ -1,0 +1,55 @@
+{
+  "country_code": "YE",
+  "critical_p1": 0,
+  "families": {
+    "aliases": {
+      "failed": 0,
+      "passed": 1,
+      "sampled": 1,
+      "status": "PASS"
+    },
+    "claims": {
+      "failed": 0,
+      "passed": 23,
+      "sampled": 23,
+      "status": "PASS"
+    },
+    "coverage": {
+      "failed": 0,
+      "passed": 5,
+      "sampled": 5,
+      "status": "PASS"
+    },
+    "denominators": {
+      "failed": 0,
+      "passed": 5,
+      "sampled": 5,
+      "status": "PASS"
+    },
+    "entities": {
+      "failed": 0,
+      "passed": 23,
+      "sampled": 23,
+      "status": "PASS"
+    },
+    "relationships": {
+      "failed": 0,
+      "passed": 22,
+      "sampled": 22,
+      "status": "PASS"
+    },
+    "sources": {
+      "failed": 0,
+      "passed": 3,
+      "sampled": 3,
+      "status": "PASS"
+    }
+  },
+  "findings": [],
+  "method": "Independent full-population comparison against checksum-bound 22-unit legal/statistical fixture, including Amanat type and Socotra law-date boundary.",
+  "p0": 0,
+  "schema_version": "2.0.0",
+  "status": "PASS",
+  "total_passed": 82,
+  "total_sampled": 82
+}

@@ -2890,5 +2890,65 @@
     "source_type": "institutional_dataset",
     "title": "World Heritage List — Tunisia properties",
     "url": "https://whc.unesco.org/en/statesparties/tn"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e",
+    "country_codes": [
+      "YE"
+    ],
+    "id": "SRC-YE-CSO-ADMIN-DEFINITION-LEGACY",
+    "language": "ar",
+    "license": "Factual extraction with attribution; publisher reuse terms not stated",
+    "locator": "Administrative divisions, item 1-A",
+    "notes": "Official legacy frame; explicitly predates Socotra Governorate. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Central Statistical Organization Yemen",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-17",
+    "schema_version": "2.0.0",
+    "source_type": "official_report",
+    "title": "Administrative divisions definition: 20 governorates plus Capital Municipality",
+    "url": "https://www.cso-yemen.com/content.php?lng=arabic&id=277"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e",
+    "country_codes": [
+      "YE"
+    ],
+    "id": "SRC-YE-LAW-31-SOCOTRA-REPORT-2013",
+    "language": "ar",
+    "license": "Factual extraction with attribution; publisher reuse terms not stated",
+    "locator": "18 December 2013; title and Article 2 extracts",
+    "notes": "Contemporaneous verbatim report identifies Law 31/2013, creation date, capital Hadibo, territory, and two districts. Complete official gazette text was not retrievable; effective-clause wording is not asserted.",
+    "publication_date": "2013-12-18",
+    "publisher": "Yafa News, reporting the issued Republic of Yemen law",
+    "quality_tier": "B",
+    "retrieved_at": "2026-08-17",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Report of Law 31/2013 establishing Socotra Archipelago Governorate",
+    "url": "https://yafa-news.net/archives/82470"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e",
+    "country_codes": [
+      "YE"
+    ],
+    "id": "SRC-YE-NIC-GOVERNORATES-LEGACY",
+    "language": "ar",
+    "license": "Factual extraction with attribution; publisher reuse terms not stated",
+    "locator": "Governorates page: 21 units including Amanat Al Asimah",
+    "notes": "Official enumeration of the legacy 20-governorate-plus-capital frame. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "National Information Center Yemen",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-17",
+    "schema_version": "2.0.0",
+    "source_type": "official_register",
+    "title": "Governorates of the Republic — enumerated legacy catalogue",
+    "url": "http://www.yemen-nic.info/yemen/gover/"
   }
 ]

@@ -1,0 +1,198 @@
+{
+  "country_code": "YE",
+  "denominators": {
+    "current_capital_municipalities": 1,
+    "current_first_level_total": 22,
+    "current_governorates": 21,
+    "districts": null,
+    "legacy_first_level_20_plus_capital": 21,
+    "uzlas": null
+  },
+  "method": "Legal/statistical reconciliation: the official legacy CSO/NIC frame (20 governorates plus Amanat Al Asimah) plus Law 31/2013 establishing Socotra Archipelago Governorate.",
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-17",
+  "sources": {
+    "cso_legacy": "https://www.cso-yemen.com/content.php?lng=arabic&id=277",
+    "nic_legacy_list": "http://www.yemen-nic.info/yemen/gover/",
+    "official_law_database": "http://www.yemen-nic.info/contents/laws_ye/",
+    "socotra_law_report": "https://yafa-news.net/archives/82470"
+  },
+  "units": [
+    {
+      "code": "01",
+      "kind": "capital_municipality",
+      "legacy_frame": true,
+      "name_ar": "أمانة العاصمة",
+      "source_key": "nic_legacy_list",
+      "valid_from": null
+    },
+    {
+      "code": "02",
+      "kind": "governorate",
+      "legacy_frame": true,
+      "name_ar": "صنعاء",
+      "source_key": "nic_legacy_list",
+      "valid_from": null
+    },
+    {
+      "code": "03",
+      "kind": "governorate",
+      "legacy_frame": true,
+      "name_ar": "عدن",
+      "source_key": "nic_legacy_list",
+      "valid_from": null
+    },
+    {
+      "code": "04",
+      "kind": "governorate",
+      "legacy_frame": true,
+      "name_ar": "حضرموت",
+      "source_key": "nic_legacy_list",
+      "valid_from": null
+    },
+    {
+      "code": "05",
+      "kind": "governorate",
+      "legacy_frame": true,
+      "name_ar": "تعز",
+      "source_key": "nic_legacy_list",
+      "valid_from": null
+    },
+    {
+      "code": "06",
+      "kind": "governorate",
+      "legacy_frame": true,
+      "name_ar": "الحديدة",
+      "source_key": "nic_legacy_list",
+      "valid_from": null
+    },
+    {
+      "code": "07",
+      "kind": "governorate",
+      "legacy_frame": true,
+      "name_ar": "إب",
+      "source_key": "nic_legacy_list",
+      "valid_from": null
+    },
+    {
+      "code": "08",
+      "kind": "governorate",
+      "legacy_frame": true,
+      "name_ar": "أبين",
+      "source_key": "nic_legacy_list",
+      "valid_from": null
+    },
+    {
+      "code": "09",
+      "kind": "governorate",
+      "legacy_frame": true,
+      "name_ar": "البيضاء",
+      "source_key": "nic_legacy_list",
+      "valid_from": null
+    },
+    {
+      "code": "10",
+      "kind": "governorate",
+      "legacy_frame": true,
+      "name_ar": "لحج",
+      "source_key": "nic_legacy_list",
+      "valid_from": null
+    },
+    {
+      "code": "11",
+      "kind": "governorate",
+      "legacy_frame": true,
+      "name_ar": "مأرب",
+      "source_key": "nic_legacy_list",
+      "valid_from": null
+    },
+    {
+      "code": "12",
+      "kind": "governorate",
+      "legacy_frame": true,
+      "name_ar": "شبوة",
+      "source_key": "nic_legacy_list",
+      "valid_from": null
+    },
+    {
+      "code": "13",
+      "kind": "governorate",
+      "legacy_frame": true,
+      "name_ar": "الجوف",
+      "source_key": "nic_legacy_list",
+      "valid_from": null
+    },
+    {
+      "code": "14",
+      "kind": "governorate",
+      "legacy_frame": true,
+      "name_ar": "المهرة",
+      "source_key": "nic_legacy_list",
+      "valid_from": null
+    },
+    {
+      "code": "15",
+      "kind": "governorate",
+      "legacy_frame": true,
+      "name_ar": "المحويت",
+      "source_key": "nic_legacy_list",
+      "valid_from": null
+    },
+    {
+      "code": "16",
+      "kind": "governorate",
+      "legacy_frame": true,
+      "name_ar": "صعدة",
+      "source_key": "nic_legacy_list",
+      "valid_from": null
+    },
+    {
+      "code": "17",
+      "kind": "governorate",
+      "legacy_frame": true,
+      "name_ar": "حجة",
+      "source_key": "nic_legacy_list",
+      "valid_from": null
+    },
+    {
+      "code": "18",
+      "kind": "governorate",
+      "legacy_frame": true,
+      "name_ar": "الضالع",
+      "source_key": "nic_legacy_list",
+      "valid_from": null
+    },
+    {
+      "code": "19",
+      "kind": "governorate",
+      "legacy_frame": true,
+      "name_ar": "عمران",
+      "source_key": "nic_legacy_list",
+      "valid_from": null
+    },
+    {
+      "code": "20",
+      "kind": "governorate",
+      "legacy_frame": true,
+      "name_ar": "ذمار",
+      "source_key": "nic_legacy_list",
+      "valid_from": null
+    },
+    {
+      "code": "21",
+      "kind": "governorate",
+      "legacy_frame": true,
+      "name_ar": "ريمة",
+      "source_key": "nic_legacy_list",
+      "valid_from": null
+    },
+    {
+      "code": "22",
+      "kind": "governorate",
+      "legacy_frame": false,
+      "name_ar": "أرخبيل سقطرى",
+      "source_key": "socotra_law_report",
+      "valid_from": "2013-12-18"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e",
+  "country_codes": [
+    "YE"
+  ],
+  "id": "SRC-YE-CSO-ADMIN-DEFINITION-LEGACY",
+  "language": "ar",
+  "license": "Factual extraction with attribution; publisher reuse terms not stated",
+  "locator": "Administrative divisions, item 1-A",
+  "notes": "Official legacy frame; explicitly predates Socotra Governorate. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "Central Statistical Organization Yemen",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-17",
+  "schema_version": "2.0.0",
+  "source_type": "official_report",
+  "title": "Administrative divisions definition: 20 governorates plus Capital Municipality",
+  "url": "https://www.cso-yemen.com/content.php?lng=arabic&id=277"
+}

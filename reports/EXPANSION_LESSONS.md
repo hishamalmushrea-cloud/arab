@@ -105,6 +105,13 @@ This cumulative register records reusable controls without forcing countries int
 - A previously bounded subset must be superseded when a complete reproducible source snapshot becomes available.
 - Historical administrative layers and effective-control overlays remain independent from current legal catalogue identity.
 
+## Yemen production cycle
+
+- Reconcile a dated official legacy universe with a later creation law rather than silently modernizing the old source.
+- Special capital status requires a distinct first-level type, not an alias of an ordinary governorate.
+- Record the observed issuance/establishment date while explicitly flagging unavailable effective-clause wording.
+- Legal lists never imply effective control, damage, or displacement.
+
 ## Controls now required for subsequent countries
 
 1. Exact current-layer denominator with source, date, license, and exclusion definition.

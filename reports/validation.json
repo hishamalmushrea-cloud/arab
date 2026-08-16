@@ -6,8 +6,8 @@
       "status": "pass"
     },
     "claims": {
-      "claims": 2180,
-      "sourced": 2180,
+      "claims": 2203,
+      "sourced": 2203,
       "status": "pass"
     },
     "coordinates": {
@@ -19,9 +19,9 @@
       "status": "pass"
     },
     "coverage": {
-      "complete_layers": 82,
-      "coverage_records": 93,
-      "denominators": 93,
+      "complete_layers": 86,
+      "coverage_records": 97,
+      "denominators": 97,
       "status": "pass"
     },
     "csv": {
@@ -41,7 +41,7 @@
       "status": "pass"
     },
     "entity_types": {
-      "active_types": 55,
+      "active_types": 57,
       "allowed_types": 103,
       "status": "pass"
     },
@@ -51,7 +51,7 @@
     },
     "ids": {
       "duplicate_ids": 0,
-      "global_ids": 16687,
+      "global_ids": 16766,
       "status": "pass"
     },
     "independent_review": {
@@ -67,7 +67,7 @@
     "manifests": {
       "countries": 22,
       "manifests": 22,
-      "pilot_migrated": 18,
+      "pilot_migrated": 19,
       "status": "pass"
     },
     "migration": {
@@ -83,7 +83,7 @@
       "status": "pass"
     },
     "parents": {
-      "administrative_relationships": 5158,
+      "administrative_relationships": 5180,
       "status": "pass"
     },
     "phase2_tunisia": {
@@ -108,14 +108,14 @@
       "tunisia_published_claims": 69
     },
     "sources": {
-      "atomic_files": 137,
-      "references": 19351,
-      "sources": 137,
+      "atomic_files": 140,
+      "references": 19448,
+      "sources": 140,
       "status": "pass"
     },
     "structured_data": {
       "record_families": 8,
-      "records": 16687,
+      "records": 16766,
       "status": "pass"
     },
     "unicode": {
@@ -125,14 +125,14 @@
   },
   "counts": {
     "aliases": 3261,
-    "claims": 2180,
-    "coverage": 93,
-    "denominators": 93,
-    "entities": 5255,
+    "claims": 2203,
+    "coverage": 97,
+    "denominators": 97,
+    "entities": 5277,
     "manifests": 22,
-    "relationships": 5644,
-    "snapshots": 24,
-    "sources": 137
+    "relationships": 5666,
+    "snapshots": 25,
+    "sources": 140
   },
   "errors": [],
   "status": "pass"

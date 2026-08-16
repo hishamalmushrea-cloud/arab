@@ -262,5 +262,16 @@
     "scope": "Ten World Heritage properties listed for Tunisia",
     "source_id": "SRC-UNESCO-WHC-TN-2026",
     "title": "UNESCO World Heritage properties in Tunisia"
+  },
+  {
+    "captured_at": "2026-08-17",
+    "checksum": "sha256:fc3adc9140a91b27969d8209c1fde22bb2ed361a036526415e053fa1f974b4af",
+    "id": "SNP-YE-PRODUCTION-20260817",
+    "method": "Checksum-bound reconciliation of official legacy CSO/NIC frame with Law 31/2013 Socotra establishment report.",
+    "notes": "Official-gazette full text/effective clause, districts, uzlas, and conflict overlays are deferred.",
+    "schema_version": "2.0.0",
+    "scope": "21 governorates plus Amanat Al Asimah; 22 first-level legal/statistical identities",
+    "source_id": "SRC-YE-LAW-31-SOCOTRA-REPORT-2013",
+    "title": "Yemen legal first-level reconciliation"
   }
 ]
