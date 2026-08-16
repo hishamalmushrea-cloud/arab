@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:071fb9a959ff6c6285b59c315b3ba07289d0b565ec2deb0e8be03e4d48f6c079",
+  "country_codes": [
+    "BH"
+  ],
+  "id": "SRC-BH-SLRB-GOVERNORATE-AREA-2024",
+  "language": "ar-en",
+  "license": "Bahrain Open Data Policy: republication and distribution permitted, subject to applicable laws",
+  "locator": "2024 filter: four records, N 76–79; governorate Arabic/English name and area value",
+  "notes": "Official national portal metadata identifies the publisher and states that Bahrain was redivided into four governorates instead of five in 2014. Checksum binds the exact four-record persisted extraction. Publication date unavailable; portal metadata/data were modified 2025-12-24.",
+  "publication_date": null,
+  "publisher": "Survey and Land Registration Bureau",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-16",
+  "schema_version": "2.0.0",
+  "source_type": "official_dataset",
+  "title": "Area by Governorate — 2024 records",
+  "url": "https://www.data.gov.bh/explore/dataset/02-area-by-governorate-2023/"
+}

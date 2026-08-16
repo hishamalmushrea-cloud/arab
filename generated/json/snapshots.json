@@ -11,6 +11,17 @@
     "title": "United Arab Emirates fourth-country contextual hierarchy and cultural sample"
   },
   {
+    "captured_at": "2026-08-16",
+    "checksum": "sha256:b30dfb38c7077265818a42b5ef2c52ca27f8a6440fd7876b129366ec2f45aa31",
+    "id": "SNP-BH-PRODUCTION-20260816",
+    "method": "Offline deterministic import from checksum-bound exact API records and bounded official/UNESCO extracts.",
+    "notes": "Governorate data are year-2024 records retrieved 2026-08-16. Areas, blocks, populated places, food, dress, custom, and dialect layers remain unclosed without accepted denominators/evidence.",
+    "schema_version": "2.0.0",
+    "scope": "Four official 2024 governorates and three World Heritage properties on the Bahrain State Party list",
+    "source_id": "SRC-BH-SLRB-GOVERNORATE-AREA-2024",
+    "title": "Bahrain production expansion — governorates and World Heritage"
+  },
+  {
     "captured_at": "2026-08-15",
     "checksum": "sha256:621f22d080c883180907e7e178ea2fbdf99e0a080cb7316b23ca1956ecf67b47",
     "id": "SNP-JO-PILOT-2026-08-15",

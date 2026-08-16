@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:1ec8de2933d2c2a132e16344bf4c8f02902960f1117129a767ca325cb7d5200d",
+  "country_codes": [
+    "BH"
+  ],
+  "id": "SRC-BH-OPEN-DATA-POLICY-2026",
+  "language": "en",
+  "license": "Bahrain Open Data Policy: republication and distribution permitted, subject to applicable laws",
+  "locator": "paragraph permitting republication/distribution and describing National Open Data Portal availability",
+  "notes": "Relevant policy excerpt persisted locally. Publication date unavailable on captured policy page.",
+  "publication_date": null,
+  "publisher": "Information & eGovernment Authority",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-16",
+  "schema_version": "2.0.0",
+  "source_type": "institutional_page",
+  "title": "Bahrain Open Data Policy",
+  "url": "https://www.api.data.gov.bh/en/ODPolicy"
+}

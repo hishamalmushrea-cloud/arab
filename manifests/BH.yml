@@ -1,7 +1,9 @@
 {
   "caveats": [
-    "يجب عدم مساواة المحافظات بالمناطق أو الدوائر الانتخابية أو المجمعات.",
-    "Local coverage remains incomplete; file or directory existence is not a denominator."
+    "Production mode is recorded by the closeout; the current manifest status vocabulary retains pilot_migrated as its accepted-data state.",
+    "Governorates are not areas, electoral constituencies, or blocks; those layers remain unavailable in this cycle.",
+    "World Heritage properties may be serial; component parts are not split into unsupported place entities.",
+    "No national denominator is asserted for cities, villages, neighborhoods, culture generally, or dialect vocabulary."
   ],
   "country": {
     "entity_id": "ENT-BH-COUNTRY",
@@ -9,7 +11,9 @@
     "name_ar": "البحرين"
   },
   "coverage_record_ids": [
-    "COV-BH-COUNTRY-SCOPE"
+    "COV-BH-COUNTRY-SCOPE",
+    "COV-BH-GOVERNORATES-2024",
+    "COV-BH-WHC-20260816"
   ],
   "hierarchy": [
     {
@@ -36,13 +40,26 @@
       "allowed_parent_types": [
         "country"
       ],
+      "authority_name": "Survey and Land Registration Bureau",
       "caveat": "يجب عدم مساواة المحافظات بالمناطق أو الدوائر الانتخابية أو المجمعات.",
+      "coverage_record_id": "COV-BH-GOVERNORATES-2024",
+      "denominator": 4,
+      "denominator_id": "DEN-BH-GOVERNORATES-2024",
       "entity_type": "bh_governorate",
       "level": 1,
+      "license": "Bahrain Open Data Policy: republication and distribution permitted, subject to applicable laws",
       "local_names": [
         "محافظة"
       ],
-      "source_ids": [],
+      "notes": "Exactly four current governorates in the official 2024 dataset.",
+      "scope_status": "closed",
+      "snapshot_date": "2024-01-01",
+      "source_ids": [
+        "SRC-BH-SLRB-GOVERNORATE-AREA-2024"
+      ],
+      "special_cases": [
+        "Central Governorate is historical after the 2014 redivision and is not emitted as current."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
@@ -55,19 +72,30 @@
         "transitional",
         "uncertain"
       ],
-      "verification_status": "pending"
+      "verification_status": "verified"
     },
     {
       "allowed_parent_types": [
         "bh_governorate"
       ],
+      "authority_name": null,
       "caveat": "يجب عدم مساواة المحافظات بالمناطق أو الدوائر الانتخابية أو المجمعات.",
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
       "entity_type": "bh_area",
       "level": 2,
+      "license": null,
       "local_names": [
         "منطقة"
       ],
+      "notes": "No accepted dated official denominator/topology in this production cycle.",
+      "scope_status": "unavailable",
+      "snapshot_date": null,
       "source_ids": [],
+      "special_cases": [
+        "Do not infer this layer from governorate, electoral, address, or map labels."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
@@ -86,13 +114,24 @@
       "allowed_parent_types": [
         "bh_area"
       ],
+      "authority_name": null,
       "caveat": "يجب عدم مساواة المحافظات بالمناطق أو الدوائر الانتخابية أو المجمعات.",
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
       "entity_type": "bh_block",
       "level": 3,
+      "license": null,
       "local_names": [
         "مجمّع"
       ],
+      "notes": "No accepted dated official denominator/topology in this production cycle.",
+      "scope_status": "unavailable",
+      "snapshot_date": null,
       "source_ids": [],
+      "special_cases": [
+        "Do not infer this layer from governorate, electoral, address, or map labels."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
@@ -108,18 +147,74 @@
       "verification_status": "pending"
     }
   ],
-  "next_action": "Register an atomic official hierarchy source and dated denominators before migrating local legacy rows.",
+  "next_action": "Maintain Bahrain as production-accepted; expand areas/blocks or populated places only after an official dated denominator and topology are checksum-bound.",
   "official_authority": {
-    "missing_reason": "Authority name is recorded, but no atomic official hierarchy source has yet passed source metadata and snapshot review.",
-    "name": "هيئة المعلومات والحكومة الإلكترونية",
-    "source_ids": [],
-    "verification_status": "pending"
+    "missing_reason": null,
+    "name": "Survey and Land Registration Bureau via Bahrain National Open Data Portal",
+    "source_ids": [
+      "SRC-BH-SLRB-GOVERNORATE-AREA-2024",
+      "SRC-BH-OPEN-DATA-POLICY-2026"
+    ],
+    "verification_status": "verified"
   },
+  "pilot_layers": [
+    {
+      "authority_name": "Survey and Land Registration Bureau",
+      "coverage_record_id": "COV-BH-GOVERNORATES-2024",
+      "denominator": 4,
+      "denominator_id": "DEN-BH-GOVERNORATES-2024",
+      "entity_types": [
+        "bh_governorate"
+      ],
+      "layer": "bh_governorate",
+      "license": "Bahrain Open Data Policy: republication and distribution permitted, subject to applicable laws",
+      "local_names": [
+        "محافظة"
+      ],
+      "notes": "Complete official four-governorate layer.",
+      "scope_status": "closed",
+      "snapshot_date": "2024-01-01",
+      "source_ids": [
+        "SRC-BH-SLRB-GOVERNORATE-AREA-2024"
+      ],
+      "special_cases": [
+        "Central Governorate excluded from current layer after 2014 redivision."
+      ]
+    },
+    {
+      "authority_name": "UNESCO World Heritage Centre",
+      "coverage_record_id": "COV-BH-WHC-20260816",
+      "denominator": 3,
+      "denominator_id": "DEN-BH-WHC-20260816",
+      "entity_types": [
+        "archaeological_site",
+        "cultural_site"
+      ],
+      "layer": "world_heritage_property",
+      "license": "CC BY-SA 3.0 IGO for property descriptions",
+      "local_names": [
+        "موقع تراث عالمي"
+      ],
+      "notes": "All three inscribed serial properties; not all cultural sites in Bahrain.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-16",
+      "source_ids": [
+        "SRC-UNESCO-WHC-BH-2026",
+        "SRC-UNESCO-WHC-BH-1192",
+        "SRC-UNESCO-WHC-BH-1364",
+        "SRC-UNESCO-WHC-BH-1542"
+      ],
+      "special_cases": [
+        "Tentative-list sites excluded.",
+        "Serial components are not separate entities in this cycle."
+      ]
+    }
+  ],
   "schema_version": "2.0.0",
   "snapshot": {
-    "as_of": "2026-08-15",
-    "snapshot_id": "SNP-MIGRATION-2026-08-15",
-    "status": "baseline"
+    "as_of": "2026-08-16",
+    "snapshot_id": "SNP-BH-PRODUCTION-20260816",
+    "status": "verified"
   },
-  "status": "baseline_only"
+  "status": "pilot_migrated"
 }

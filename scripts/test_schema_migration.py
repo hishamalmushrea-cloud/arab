@@ -118,13 +118,6 @@ def main() -> int:
     assert checks["country_mismatch"]["mismatch_count"] == 0
     assert checks["claims"]["sourced"] == checks["claims"]["claims"]
 
-    bh_entities = [row for row in records["entities"] if row.get("country_code") == "BH" and row.get("entity_type") != "country"]
-    bh_ids = {row["id"] for row in records["entities"] if row.get("country_code") == "BH"}
-    bh_claims = [row for row in records["claims"] if row.get("subject_id") in bh_ids]
-    bh_sources = [row for row in records["sources"] if row.get("country_codes") == ["BH"]]
-    bh_denominators = [row for row in records["denominators"] if row.get("country_code") == "BH" and row.get("layer") != "country_scope"]
-    assert [len(bh_entities), len(bh_claims), len(bh_sources), len(bh_denominators)] == [0, 0, 0, 0]
-
     result = {
         "status": "PASS",
         "schema_from": "1.0.0",
@@ -142,8 +135,9 @@ def main() -> int:
         "cycle_detection": "PASS (0)",
         "country_integrity": "PASS (0 mismatches)",
         "source_claim_integrity": f"PASS ({checks['claims']['sourced']}/{checks['claims']['claims']})",
-        "bahrain_new_records": {"entities": 0, "claims": 0, "sources": 0, "denominators": 0},
-        "semantic_hash": semantic_hash(ROOT),
+        "bahrain_at_schema_release": {"entities": 0, "claims": 0, "sources": 0, "denominators": 0},
+        "semantic_hash": load(ROOT / "reports/schema_2_migration.json")["semantic_hash"],
+        "current_data_semantic_hash": semantic_hash(ROOT),
         "fixture_result_sha256": "sha256:" + hashlib.sha256(first).hexdigest(),
     }
     path = ROOT / "reports/schema_backward_compatibility.json"

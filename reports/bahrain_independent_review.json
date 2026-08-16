@@ -1,0 +1,70 @@
+{
+  "country_code": "BH",
+  "critical_p1": 0,
+  "families": {
+    "aliases": {
+      "failed": 0,
+      "passed": 7,
+      "population": 7,
+      "sample_percentage": 100.0,
+      "sampled": 7,
+      "status": "PASS"
+    },
+    "claims": {
+      "failed": 0,
+      "passed": 13,
+      "population": 13,
+      "sample_percentage": 100.0,
+      "sampled": 13,
+      "status": "PASS"
+    },
+    "coverage": {
+      "failed": 0,
+      "passed": 3,
+      "population": 3,
+      "sample_percentage": 100.0,
+      "sampled": 3,
+      "status": "PASS"
+    },
+    "denominators": {
+      "failed": 0,
+      "passed": 3,
+      "population": 3,
+      "sample_percentage": 100.0,
+      "sampled": 3,
+      "status": "PASS"
+    },
+    "entities": {
+      "failed": 0,
+      "passed": 8,
+      "population": 8,
+      "sample_percentage": 100.0,
+      "sampled": 8,
+      "status": "PASS"
+    },
+    "relationships": {
+      "failed": 0,
+      "passed": 7,
+      "population": 7,
+      "sample_percentage": 100.0,
+      "sampled": 7,
+      "status": "PASS"
+    },
+    "sources": {
+      "failed": 0,
+      "passed": 7,
+      "population": 7,
+      "sample_percentage": 100.0,
+      "sampled": 7,
+      "status": "PASS"
+    }
+  },
+  "findings": [],
+  "method": "Independent full-population review against committed official API/UNESCO fixtures and checksums; importer and Bahrain semantic validator are not imported.",
+  "p0": 0,
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-16",
+  "status": "PASS",
+  "total_passed": 48,
+  "total_sampled": 48
+}

@@ -1,4 +1,4 @@
-.PHONY: schema-migration-test malformed-json-test validate validate-jordan validate-saudi validate-uae generate generate-uae-report check phase0 phase1 phase2 phase3 phase4 phase5 import-tunisia import-jordan import-saudi import-uae review-tunisia review-jordan review-saudi review-uae test-uae-negative repair
+.PHONY: schema-migration-test malformed-json-test validate validate-jordan validate-saudi validate-uae validate-bahrain generate generate-uae-report check phase0 phase1 phase2 phase3 phase4 phase5 bahrain import-tunisia import-jordan import-saudi import-uae import-bahrain review-tunisia review-jordan review-saudi review-uae review-bahrain test-uae-negative test-bahrain-negative repair
 
 schema-migration-test:
 	python3 scripts/test_schema_migration.py
@@ -17,6 +17,9 @@ validate-saudi:
 
 validate-uae:
 	python3 scripts/validate_uae.py
+
+validate-bahrain:
+	python3 scripts/validate_bahrain.py
 
 generate:
 	python3 scripts/generate.py
@@ -73,8 +76,22 @@ test-uae-negative:
 phase5:
 	python3 scripts/check_phase_gate.py phase5
 
-# UAE Phase 5 calls Saudi Phase 4, Jordan Phase 3, Tunisia Phase 2, Phase 1, and Phase 0.
-check: phase5
+import-bahrain:
+	python3 scripts/build_bahrain_sources.py
+	python3 scripts/import_bahrain_production.py
+
+review-bahrain:
+	python3 scripts/build_bahrain_review_samples.py
+	python3 scripts/review_bahrain.py
+
+test-bahrain-negative:
+	python3 scripts/test_bahrain_negative.py
+
+bahrain:
+	python3 scripts/check_bahrain_gate.py
+
+# Phase 5 calls all accepted pilot gates; Bahrain is the first production gate layered after it.
+check: phase5 bahrain
 
 repair:
 	python3 scripts/repair_legacy.py
@@ -86,4 +103,6 @@ repair:
 	python3 scripts/import_saudi_phase3.py
 	python3 scripts/build_uae_sources.py
 	python3 scripts/import_uae_phase5.py
+	python3 scripts/build_bahrain_sources.py
+	python3 scripts/import_bahrain_production.py
 	python3 scripts/generate.py
