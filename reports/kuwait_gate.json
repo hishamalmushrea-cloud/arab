@@ -21,7 +21,7 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=16766\n[PASS] ids: global_ids=16766, duplicate_ids=0\n[PASS] entity_types: allowed_types=103, active_types=57\n[PASS] sources: atomic_files=140, sources=140, references=19448\n[PASS] parents: administrative_relationships=5180\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2203, sourced=2203\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=97, coverage_records=97, complete_layers=86\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=19\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=951, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=16822\n[PASS] ids: global_ids=16822, duplicate_ids=0\n[PASS] entity_types: allowed_types=103, active_types=58\n[PASS] sources: atomic_files=143, sources=143, references=19515\n[PASS] parents: administrative_relationships=5194\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2217, sourced=2217\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=102, coverage_records=102, complete_layers=89\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=20\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=951, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
     },
     "generated_freshness": {
       "command": "python3 scripts/generate.py --check",
@@ -105,7 +105,7 @@
       "stdout": "Materialized 3 Kuwait atomic sources."
     },
     "non_kuwait_preservation": {
-      "detail": "canonical non-Kuwait SHA-256 unchanged=b3de7ccdf079c00531a076d443cd8d6698fa9cced6f43598e36ac6e37f606333",
+      "detail": "canonical non-Kuwait SHA-256 unchanged=7cf6662ee6eb98ceeab39646db5e4adfa437ef226d8379d5bbe2101994a4173a",
       "status": "pass"
     }
   },
