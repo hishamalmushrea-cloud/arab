@@ -1,0 +1,66 @@
+{
+  "country_code": "DZ",
+  "schema_version": "2.0.0",
+  "sources": [
+    {
+      "archive_url": null,
+      "checksum": "sha256:304af6095f2b8d87eadc7670c1dd5fb211550ceb344dc265bcd35c7da715a3a0",
+      "country_codes": [
+        "DZ"
+      ],
+      "id": "SRC-DZ-ONS-CGN-2021",
+      "language": "ar-fr",
+      "license": "Official Algeria legal/statistical material; factual extraction with attribution; reuse terms not stated",
+      "locator": "58 wilayas and 1541 communes; bilingual geographic codes",
+      "notes": "Current code universe.",
+      "publication_date": "2021-03-29",
+      "publisher": "Office National des Statistiques",
+      "quality_tier": "A",
+      "retrieved_at": "2026-08-16",
+      "schema_version": "2.0.0",
+      "source_type": "official_dataset",
+      "title": "Code Géographique National 2021",
+      "url": "https://www.ons.dz/IMG/pdf/code_geo_2021.pdf"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:304af6095f2b8d87eadc7670c1dd5fb211550ceb344dc265bcd35c7da715a3a0",
+      "country_codes": [
+        "DZ"
+      ],
+      "id": "SRC-DZ-INTERIOR-58-WILAYAS",
+      "language": "ar-fr",
+      "license": "Official Algeria legal/statistical material; factual extraction with attribution; reuse terms not stated",
+      "locator": "Law 19-12 and operational current 58-wilaya structure",
+      "notes": "Ten southern additions are already current. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Ministère de l’Intérieur",
+      "quality_tier": "A",
+      "retrieved_at": "2026-08-16",
+      "schema_version": "2.0.0",
+      "source_type": "official_report",
+      "title": "Installation des nouvelles wilayas du Sud",
+      "url": "https://interieur.gov.dz/installation-des-nouvelles-wilayas/"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:304af6095f2b8d87eadc7670c1dd5fb211550ceb344dc265bcd35c7da715a3a0",
+      "country_codes": [
+        "DZ"
+      ],
+      "id": "SRC-DZ-INTERIOR-69-TRANSITION-2025",
+      "language": "ar-fr",
+      "license": "Official Algeria legal/statistical material; factual extraction with attribution; reuse terms not stated",
+      "locator": "eleven named promotions; full prerogatives 1 January 2027",
+      "notes": "Future transition source.",
+      "publication_date": "2025-12-18",
+      "publisher": "Ministère de l’Intérieur",
+      "quality_tier": "A",
+      "retrieved_at": "2026-08-16",
+      "schema_version": "2.0.0",
+      "source_type": "law",
+      "title": "Projet de loi — 69 wilayas à compter de 2027",
+      "url": "https://interieur.gov.dz/2025/12/18/le-ministre-de-linterieur-des-collectivites-locales-et-des-transports-presente-le-projet-de-loi-relatif-a-lorganisation-territoriale-du-pays-devant-la-commission-competente-du-conse/"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:304af6095f2b8d87eadc7670c1dd5fb211550ceb344dc265bcd35c7da715a3a0",
+  "country_codes": [
+    "DZ"
+  ],
+  "id": "SRC-DZ-INTERIOR-58-WILAYAS",
+  "language": "ar-fr",
+  "license": "Official Algeria legal/statistical material; factual extraction with attribution; reuse terms not stated",
+  "locator": "Law 19-12 and operational current 58-wilaya structure",
+  "notes": "Ten southern additions are already current. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "Ministère de l’Intérieur",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-16",
+  "schema_version": "2.0.0",
+  "source_type": "official_report",
+  "title": "Installation des nouvelles wilayas du Sud",
+  "url": "https://interieur.gov.dz/installation-des-nouvelles-wilayas/"
+}

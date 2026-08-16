@@ -54,6 +54,12 @@ This cumulative register records reusable controls without forcing countries int
 - The 75 legal second-level universe must not be replaced by an 83-count universe containing arrondissement prefectures.
 - A known lower denominator can remain open until its record-level register is accepted.
 
+## Algeria production cycle
+
+- Current and future denominators must coexist without changing status early.
+- Future territorial identities require proposed status and explicit effective date.
+- Complete planning coverage is not current administrative coverage.
+
 ## Controls now required for subsequent countries
 
 1. Exact current-layer denominator with source, date, license, and exclusion definition.

@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:304af6095f2b8d87eadc7670c1dd5fb211550ceb344dc265bcd35c7da715a3a0",
+  "country_codes": [
+    "DZ"
+  ],
+  "id": "SRC-DZ-ONS-CGN-2021",
+  "language": "ar-fr",
+  "license": "Official Algeria legal/statistical material; factual extraction with attribution; reuse terms not stated",
+  "locator": "58 wilayas and 1541 communes; bilingual geographic codes",
+  "notes": "Current code universe.",
+  "publication_date": "2021-03-29",
+  "publisher": "Office National des Statistiques",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-16",
+  "schema_version": "2.0.0",
+  "source_type": "official_dataset",
+  "title": "Code Géographique National 2021",
+  "url": "https://www.ons.dz/IMG/pdf/code_geo_2021.pdf"
+}

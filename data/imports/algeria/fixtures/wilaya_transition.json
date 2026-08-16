@@ -1,0 +1,319 @@
+{
+  "country_code": "DZ",
+  "current_reference_date": "2021-03-29",
+  "current_wilayas": [
+    {
+      "code": "01",
+      "name_fr": "Adrar"
+    },
+    {
+      "code": "02",
+      "name_fr": "Chlef"
+    },
+    {
+      "code": "03",
+      "name_fr": "Laghouat"
+    },
+    {
+      "code": "04",
+      "name_fr": "Oum El Bouaghi"
+    },
+    {
+      "code": "05",
+      "name_fr": "Batna"
+    },
+    {
+      "code": "06",
+      "name_fr": "Béjaïa"
+    },
+    {
+      "code": "07",
+      "name_fr": "Biskra"
+    },
+    {
+      "code": "08",
+      "name_fr": "Béchar"
+    },
+    {
+      "code": "09",
+      "name_fr": "Blida"
+    },
+    {
+      "code": "10",
+      "name_fr": "Bouira"
+    },
+    {
+      "code": "11",
+      "name_fr": "Tamanrasset"
+    },
+    {
+      "code": "12",
+      "name_fr": "Tébessa"
+    },
+    {
+      "code": "13",
+      "name_fr": "Tlemcen"
+    },
+    {
+      "code": "14",
+      "name_fr": "Tiaret"
+    },
+    {
+      "code": "15",
+      "name_fr": "Tizi Ouzou"
+    },
+    {
+      "code": "16",
+      "name_fr": "Alger"
+    },
+    {
+      "code": "17",
+      "name_fr": "Djelfa"
+    },
+    {
+      "code": "18",
+      "name_fr": "Jijel"
+    },
+    {
+      "code": "19",
+      "name_fr": "Sétif"
+    },
+    {
+      "code": "20",
+      "name_fr": "Saïda"
+    },
+    {
+      "code": "21",
+      "name_fr": "Skikda"
+    },
+    {
+      "code": "22",
+      "name_fr": "Sidi Bel Abbès"
+    },
+    {
+      "code": "23",
+      "name_fr": "Annaba"
+    },
+    {
+      "code": "24",
+      "name_fr": "Guelma"
+    },
+    {
+      "code": "25",
+      "name_fr": "Constantine"
+    },
+    {
+      "code": "26",
+      "name_fr": "Médéa"
+    },
+    {
+      "code": "27",
+      "name_fr": "Mostaganem"
+    },
+    {
+      "code": "28",
+      "name_fr": "M’Sila"
+    },
+    {
+      "code": "29",
+      "name_fr": "Mascara"
+    },
+    {
+      "code": "30",
+      "name_fr": "Ouargla"
+    },
+    {
+      "code": "31",
+      "name_fr": "Oran"
+    },
+    {
+      "code": "32",
+      "name_fr": "El Bayadh"
+    },
+    {
+      "code": "33",
+      "name_fr": "Illizi"
+    },
+    {
+      "code": "34",
+      "name_fr": "Bordj Bou Arréridj"
+    },
+    {
+      "code": "35",
+      "name_fr": "Boumerdès"
+    },
+    {
+      "code": "36",
+      "name_fr": "El Tarf"
+    },
+    {
+      "code": "37",
+      "name_fr": "Tindouf"
+    },
+    {
+      "code": "38",
+      "name_fr": "Tissemsilt"
+    },
+    {
+      "code": "39",
+      "name_fr": "El Oued"
+    },
+    {
+      "code": "40",
+      "name_fr": "Khenchela"
+    },
+    {
+      "code": "41",
+      "name_fr": "Souk Ahras"
+    },
+    {
+      "code": "42",
+      "name_fr": "Tipaza"
+    },
+    {
+      "code": "43",
+      "name_fr": "Mila"
+    },
+    {
+      "code": "44",
+      "name_fr": "Aïn Defla"
+    },
+    {
+      "code": "45",
+      "name_fr": "Naâma"
+    },
+    {
+      "code": "46",
+      "name_fr": "Aïn Témouchent"
+    },
+    {
+      "code": "47",
+      "name_fr": "Ghardaïa"
+    },
+    {
+      "code": "48",
+      "name_fr": "Relizane"
+    },
+    {
+      "code": "49",
+      "name_fr": "Timimoun"
+    },
+    {
+      "code": "50",
+      "name_fr": "Bordj Badji Mokhtar"
+    },
+    {
+      "code": "51",
+      "name_fr": "Ouled Djellal"
+    },
+    {
+      "code": "52",
+      "name_fr": "Béni Abbès"
+    },
+    {
+      "code": "53",
+      "name_fr": "In Salah"
+    },
+    {
+      "code": "54",
+      "name_fr": "In Guezzam"
+    },
+    {
+      "code": "55",
+      "name_fr": "Touggourt"
+    },
+    {
+      "code": "56",
+      "name_fr": "Djanet"
+    },
+    {
+      "code": "57",
+      "name_fr": "El M’Ghair"
+    },
+    {
+      "code": "58",
+      "name_fr": "El Meniaa"
+    }
+  ],
+  "denominators": {
+    "communes": 1541,
+    "current_wilayas": 58,
+    "future_wilayas": 69
+  },
+  "future_effective_date": "2027-01-01",
+  "future_promotions": [
+    {
+      "current_parent_wilaya_fr": "Laghouat",
+      "name_fr": "Aflou",
+      "status": "proposed",
+      "valid_from": "2027-01-01"
+    },
+    {
+      "current_parent_wilaya_fr": "Batna",
+      "name_fr": "Barika",
+      "status": "proposed",
+      "valid_from": "2027-01-01"
+    },
+    {
+      "current_parent_wilaya_fr": "Biskra",
+      "name_fr": "El Kantara",
+      "status": "proposed",
+      "valid_from": "2027-01-01"
+    },
+    {
+      "current_parent_wilaya_fr": "Tébessa",
+      "name_fr": "Bir El Ater",
+      "status": "proposed",
+      "valid_from": "2027-01-01"
+    },
+    {
+      "current_parent_wilaya_fr": "Tlemcen",
+      "name_fr": "El Aricha",
+      "status": "proposed",
+      "valid_from": "2027-01-01"
+    },
+    {
+      "current_parent_wilaya_fr": "Tiaret",
+      "name_fr": "Ksar Chellala",
+      "status": "proposed",
+      "valid_from": "2027-01-01"
+    },
+    {
+      "current_parent_wilaya_fr": "Djelfa",
+      "name_fr": "Aïn Oussera",
+      "status": "proposed",
+      "valid_from": "2027-01-01"
+    },
+    {
+      "current_parent_wilaya_fr": "Djelfa",
+      "name_fr": "Messaad",
+      "status": "proposed",
+      "valid_from": "2027-01-01"
+    },
+    {
+      "current_parent_wilaya_fr": "Médéa",
+      "name_fr": "Ksar El Boukhari",
+      "status": "proposed",
+      "valid_from": "2027-01-01"
+    },
+    {
+      "current_parent_wilaya_fr": "M’Sila",
+      "name_fr": "Bou Saâda",
+      "status": "proposed",
+      "valid_from": "2027-01-01"
+    },
+    {
+      "current_parent_wilaya_fr": "El Bayadh",
+      "name_fr": "El Abiodh Sidi Cheikh",
+      "status": "proposed",
+      "valid_from": "2027-01-01"
+    }
+  ],
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-16",
+  "sources": {
+    "interior_current": "https://interieur.gov.dz/installation-des-nouvelles-wilayas/",
+    "interior_future": "https://interieur.gov.dz/2025/12/18/le-ministre-de-linterieur-des-collectivites-locales-et-des-transports-presente-le-projet-de-loi-relatif-a-lorganisation-territoriale-du-pays-devant-la-commission-competente-du-conse/",
+    "ons": "https://www.ons.dz/IMG/pdf/code_geo_2021.pdf"
+  }
+}

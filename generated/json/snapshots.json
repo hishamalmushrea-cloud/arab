@@ -33,6 +33,17 @@
     "title": "Djibouti special-capital and regional topology"
   },
   {
+    "captured_at": "2026-08-16",
+    "checksum": "sha256:6ce89b0b90400d168eb8c18dbae8c2980ad3a5d4c24523de540cb42aecc15d15",
+    "id": "SNP-DZ-PRODUCTION-20260816",
+    "method": "Checksum-bound current/future separation.",
+    "notes": "1541 communes known but deferred; future wilayas not current.",
+    "schema_version": "2.0.0",
+    "scope": "58 current and 11 proposed future wilayas",
+    "source_id": "SRC-DZ-ONS-CGN-2021",
+    "title": "Algeria current and 2027 wilaya transition"
+  },
+  {
     "captured_at": "2026-08-15",
     "checksum": "sha256:621f22d080c883180907e7e178ea2fbdf99e0a080cb7316b23ca1956ecf67b47",
     "id": "SNP-JO-PILOT-2026-08-15",
