@@ -92,6 +92,13 @@ This cumulative register records reusable controls without forcing countries int
 - External danger/inscription statuses require source-specific temporal Claims.
 - Camps, localities, and local-government authorities remain distinct.
 
+## Iraq production cycle
+
+- Regional statistical recognition may predate federal legal status.
+- One identity can carry federal and regional profiles without duplication.
+- Newly enacted status requires Gazette date and law/decree provenance.
+- Disputed/de facto geography remains an overlay, never an inferred parent.
+
 ## Controls now required for subsequent countries
 
 1. Exact current-layer denominator with source, date, license, and exclusion definition.

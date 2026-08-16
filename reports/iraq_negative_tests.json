@@ -1,0 +1,49 @@
+{
+  "country_code": "IQ",
+  "detected": 8,
+  "mutations": [
+    {
+      "detected": true,
+      "expected_code": "IQ_COUNTS",
+      "mutation": "IQ_18_CURRENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "IQ_HALABJA_LAW",
+      "mutation": "IQ_HALABJA_PRE_2025"
+    },
+    {
+      "detected": true,
+      "expected_code": "IQ_COUNTS",
+      "mutation": "IQ_DUPLICATE_KRI_HALABJA"
+    },
+    {
+      "detected": true,
+      "expected_code": "IQ_DENOMINATORS",
+      "mutation": "IQ_KRI_COUNT_3"
+    },
+    {
+      "detected": true,
+      "expected_code": "IQ_PROFILE",
+      "mutation": "IQ_WRONG_PROFILE"
+    },
+    {
+      "detected": true,
+      "expected_code": "IQ_UNSUPPORTED_OVERLAY",
+      "mutation": "IQ_DISPUTED_WITHOUT_SOURCE"
+    },
+    {
+      "detected": true,
+      "expected_code": "IQ_PREMATURE_LOWER",
+      "mutation": "IQ_PREMATURE_DISTRICT"
+    },
+    {
+      "detected": true,
+      "expected_code": "IQ_HALABJA_LAW",
+      "mutation": "IQ_REMOVE_LAW_CLAIM"
+    }
+  ],
+  "required": 8,
+  "schema_version": "2.0.0",
+  "status": "PASS"
+}

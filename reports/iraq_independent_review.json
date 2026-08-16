@@ -1,0 +1,55 @@
+{
+  "country_code": "IQ",
+  "critical_p1": 0,
+  "families": {
+    "aliases": {
+      "failed": 0,
+      "passed": 19,
+      "sampled": 19,
+      "status": "PASS"
+    },
+    "claims": {
+      "failed": 0,
+      "passed": 20,
+      "sampled": 20,
+      "status": "PASS"
+    },
+    "coverage": {
+      "failed": 0,
+      "passed": 4,
+      "sampled": 4,
+      "status": "PASS"
+    },
+    "denominators": {
+      "failed": 0,
+      "passed": 4,
+      "sampled": 4,
+      "status": "PASS"
+    },
+    "entities": {
+      "failed": 0,
+      "passed": 20,
+      "sampled": 20,
+      "status": "PASS"
+    },
+    "relationships": {
+      "failed": 0,
+      "passed": 19,
+      "sampled": 19,
+      "status": "PASS"
+    },
+    "sources": {
+      "failed": 0,
+      "passed": 4,
+      "sampled": 4,
+      "status": "PASS"
+    }
+  },
+  "findings": [],
+  "method": "Independent full federal/KRI profile and Halabja-law fixture comparison.",
+  "p0": 0,
+  "schema_version": "2.0.0",
+  "status": "PASS",
+  "total_passed": 90,
+  "total_sampled": 90
+}

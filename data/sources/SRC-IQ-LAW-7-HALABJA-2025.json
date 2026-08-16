@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:73f7af809dde59393a61245d18846d94f2dc3fc82d8f68ba1636b43dbcbdd628",
+  "country_codes": [
+    "IQ"
+  ],
+  "id": "SRC-IQ-LAW-7-HALABJA-2025",
+  "language": "ar-en",
+  "license": "Official Iraq federal/regional statistical/legal material; factual extraction with attribution; reuse terms not stated",
+  "locator": "Iraqi Gazette 4824, 5 May 2025",
+  "notes": "Halabja becomes nineteenth governorate.",
+  "publication_date": "2025-05-05",
+  "publisher": "Iraqi Ministry of Justice / Iraqi Gazette",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-17",
+  "schema_version": "2.0.0",
+  "source_type": "law",
+  "title": "Law 7/2025 establishing Halabja Governorate",
+  "url": "https://www.moj.gov.iq/view.9222/"
+}

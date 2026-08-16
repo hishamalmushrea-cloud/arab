@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:73f7af809dde59393a61245d18846d94f2dc3fc82d8f68ba1636b43dbcbdd628",
+  "country_codes": [
+    "IQ"
+  ],
+  "id": "SRC-IQ-KRSO-FOUR-GOVERNORATES",
+  "language": "ar-en",
+  "license": "Official Iraq federal/regional statistical/legal material; factual extraction with attribution; reuse terms not stated",
+  "locator": "Erbil, Sulaymaniyah, Duhok, Halabja",
+  "notes": "KRI statistical profile; not duplicate federal entities. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "Kurdistan Region Statistics Office",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-17",
+  "schema_version": "2.0.0",
+  "source_type": "official_dataset",
+  "title": "KRI population projections by governorate",
+  "url": "https://krso.gov.krd/content/upload/1/root/kri-population-projections-on-the-distrit-level-2021-2040.pdf"
+}

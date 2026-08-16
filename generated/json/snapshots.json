@@ -55,6 +55,17 @@
     "title": "Egypt 27-governorate profile pilot"
   },
   {
+    "captured_at": "2026-08-17",
+    "checksum": "sha256:f0b39a9ca9a0307ac7c6c9ace84098e5e96a12460f0f491a79e4f749ce3c1add",
+    "id": "SNP-IQ-PRODUCTION-20260817",
+    "method": "Checksum-bound federal law/COSIT/KRSO reconciliation.",
+    "notes": "Districts, disputed areas, and de facto overlays deferred.",
+    "schema_version": "2.0.0",
+    "scope": "19 federal legal governorates; four KRI statistical profiles",
+    "source_id": "SRC-IQ-LAW-7-HALABJA-2025",
+    "title": "Iraq 19-governorate federal/KRI profile"
+  },
+  {
     "captured_at": "2026-08-15",
     "checksum": "sha256:621f22d080c883180907e7e178ea2fbdf99e0a080cb7316b23ca1956ecf67b47",
     "id": "SNP-JO-PILOT-2026-08-15",

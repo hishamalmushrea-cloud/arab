@@ -6,26 +6,25 @@ Iraq — Full Pilot.
 
 ## Current result
 
-**PASS.** Exact Palestine release commit `e20b401ea839cb775437bd4acfe2a16918125175`; full `make check` (340 checks), Push Action, and PR Action pass.
+**RELEASE CANDIDATE.** Iraq local checks, 90/90 review, and 8/8 mutations pass; exact-commit CI pending.
 
 ## Remaining countries
 
-Iraq, Libya, Yemen, Syria, Somalia, Sudan.
+Libya, Yemen, Syria, Somalia, Sudan.
 
 ## Ranking
 
 | Rank | Country | Mode | Priority | Reason | Risk |
 |---:|---|---|:---:|---|---|
-| 1 | Iraq | Full Pilot | P4 | official and regional sources | federal/Kurdistan paths, disputed areas, Halabja timing |
-| 2 | Libya | Full Pilot | P4 | existing bounded baseline | divided/variable current municipal denominator |
-| 3 | Yemen | Full Pilot | P4 | known legal hierarchy | war, capital municipality, legal/de facto divergence |
-| 4 | Syria | Full Pilot | P4 | legal hierarchy known | rapidly changing status, destruction/displacement |
-| 5 | Somalia | Full Pilot | P4 | federal-member structure | Somaliland and competing territorial claims |
-| 6 | Sudan | Full Pilot | P4 | legal state layer | war and highest current/status volatility |
+| 1 | Libya | Full Pilot | P4 | existing bounded baseline | divided/variable current municipal denominator |
+| 2 | Yemen | Full Pilot | P4 | known legal hierarchy | war, capital municipality, legal/de facto divergence |
+| 3 | Syria | Full Pilot | P4 | legal hierarchy known | rapidly changing status, destruction/displacement |
+| 4 | Somalia | Full Pilot | P4 | federal-member structure | Somaliland and competing territorial claims |
+| 5 | Sudan | Full Pilot | P4 | legal state layer | war and highest current/status volatility |
 
 ## Recommended next country
 
-**Iraq — Full Pilot — STARTED.** Research scope is recorded in `reports/IRAQ_PRODUCTION_KICKOFF.md`; no authoritative records emitted yet.
+**Libya — Full Pilot.**
 
 ## Why
 

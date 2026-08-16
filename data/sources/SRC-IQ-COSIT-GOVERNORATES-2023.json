@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:73f7af809dde59393a61245d18846d94f2dc3fc82d8f68ba1636b43dbcbdd628",
+  "country_codes": [
+    "IQ"
+  ],
+  "id": "SRC-IQ-COSIT-GOVERNORATES-2023",
+  "language": "ar-en",
+  "license": "Official Iraq federal/regional statistical/legal material; factual extraction with attribution; reuse terms not stated",
+  "locator": "federal statistical governorate series before Halabja addition",
+  "notes": "Legacy 18-row series used with law transition. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "Iraq Statistics and GIS Authority",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-17",
+  "schema_version": "2.0.0",
+  "source_type": "official_dataset",
+  "title": "Iraq governorate population indicators",
+  "url": "https://cosit.gov.iq/ar/62-indicators?start=20"
+}

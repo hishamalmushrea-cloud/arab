@@ -1,7 +1,8 @@
 {
   "caveats": [
-    "حلبجة أصبحت محافظة في 2025؛ يلزم مصدر رسمي مؤرخ لمسارها الحالي.",
-    "Local coverage remains incomplete; file or directory existence is not a denominator."
+    "KRI profiles do not create duplicate governorates.",
+    "Halabja current federally from 2025-05-05.",
+    "Disputed/de facto areas require dated overlays."
   ],
   "country": {
     "entity_id": "ENT-IQ-COUNTRY",
@@ -9,7 +10,10 @@
     "name_ar": "العراق"
   },
   "coverage_record_ids": [
-    "COV-IQ-COUNTRY-SCOPE"
+    "COV-IQ-COUNTRY-SCOPE",
+    "COV-IQ-GOVERNORATES",
+    "COV-IQ-KRI-PROFILE",
+    "COV-IQ-FEDERAL-NON-KRI"
   ],
   "hierarchy": [
     {
@@ -36,13 +40,28 @@
       "allowed_parent_types": [
         "country"
       ],
+      "authority_name": "Federal / KRSO",
       "caveat": "حلبجة أصبحت محافظة في 2025؛ يلزم مصدر رسمي مؤرخ لمسارها الحالي.",
+      "coverage_record_id": "COV-IQ-GOVERNORATES",
+      "denominator": 19,
+      "denominator_id": "DEN-IQ-GOVERNORATES",
       "entity_type": "iq_governorate",
       "level": 1,
+      "license": "Official Iraq federal/regional statistical/legal material; factual extraction with attribution; reuse terms not stated",
       "local_names": [
         "محافظة"
       ],
-      "source_ids": [],
+      "notes": "19 federal legal identities.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-IQ-COSIT-GOVERNORATES-2023",
+        "SRC-IQ-LAW-7-HALABJA-2025",
+        "SRC-IQ-KRSO-FOUR-GOVERNORATES"
+      ],
+      "special_cases": [
+        "Halabja effective 2025-05-05."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
@@ -55,19 +74,30 @@
         "transitional",
         "uncertain"
       ],
-      "verification_status": "pending"
+      "verification_status": "verified"
     },
     {
       "allowed_parent_types": [
         "iq_governorate"
       ],
+      "authority_name": null,
       "caveat": "حلبجة أصبحت محافظة في 2025؛ يلزم مصدر رسمي مؤرخ لمسارها الحالي.",
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
       "entity_type": "iq_district",
       "level": 2,
+      "license": null,
       "local_names": [
         "قضاء"
       ],
+      "notes": "Federal/KRI lower semantics not reconciled.",
+      "scope_status": "unavailable",
+      "snapshot_date": null,
       "source_ids": [],
+      "special_cases": [
+        "No disputed-area parent inference."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
@@ -86,13 +116,24 @@
       "allowed_parent_types": [
         "iq_district"
       ],
+      "authority_name": null,
       "caveat": "حلبجة أصبحت محافظة في 2025؛ يلزم مصدر رسمي مؤرخ لمسارها الحالي.",
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
       "entity_type": "iq_subdistrict",
       "level": 3,
+      "license": null,
       "local_names": [
         "ناحية"
       ],
+      "notes": "Federal/KRI lower semantics not reconciled.",
+      "scope_status": "unavailable",
+      "snapshot_date": null,
       "source_ids": [],
+      "special_cases": [
+        "No disputed-area parent inference."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
@@ -108,18 +149,88 @@
       "verification_status": "pending"
     }
   ],
-  "next_action": "Register an atomic official hierarchy source and dated denominators before migrating local legacy rows.",
+  "next_action": "Maintain 19 current governorates; add districts only after federal/KRI semantic reconciliation.",
   "official_authority": {
-    "missing_reason": "Authority name is recorded, but no atomic official hierarchy source has yet passed source metadata and snapshot review.",
-    "name": "وزارة التخطيط / الجهاز المركزي للإحصاء",
-    "source_ids": [],
-    "verification_status": "pending"
+    "missing_reason": null,
+    "name": "Iraqi Statistics and GIS Authority / KRSO / Ministry of Justice",
+    "source_ids": [
+      "SRC-IQ-COSIT-GOVERNORATES-2023",
+      "SRC-IQ-LAW-7-HALABJA-2025",
+      "SRC-IQ-DECREE-21-HALABJA-2025",
+      "SRC-IQ-KRSO-FOUR-GOVERNORATES"
+    ],
+    "verification_status": "verified"
   },
+  "pilot_layers": [
+    {
+      "authority_name": "Federal / KRSO",
+      "coverage_record_id": "COV-IQ-GOVERNORATES",
+      "denominator": 19,
+      "denominator_id": "DEN-IQ-GOVERNORATES",
+      "entity_types": [
+        "iq_governorate"
+      ],
+      "layer": "iq_governorate",
+      "license": "Official Iraq federal/regional statistical/legal material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "governorate"
+      ],
+      "notes": "Profile scope.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-IQ-LAW-7-HALABJA-2025"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "Federal / KRSO",
+      "coverage_record_id": "COV-IQ-KRI-PROFILE",
+      "denominator": 4,
+      "denominator_id": "DEN-IQ-KRI-PROFILE",
+      "entity_types": [
+        "iq_governorate"
+      ],
+      "layer": "iq_governorate_kri_profile",
+      "license": "Official Iraq federal/regional statistical/legal material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "governorate"
+      ],
+      "notes": "Profile scope.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-IQ-KRSO-FOUR-GOVERNORATES"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "Federal / KRSO",
+      "coverage_record_id": "COV-IQ-FEDERAL-NON-KRI",
+      "denominator": 15,
+      "denominator_id": "DEN-IQ-FEDERAL-NON-KRI",
+      "entity_types": [
+        "iq_governorate"
+      ],
+      "layer": "iq_governorate_federal_non_kri",
+      "license": "Official Iraq federal/regional statistical/legal material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "governorate"
+      ],
+      "notes": "Profile scope.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-IQ-COSIT-GOVERNORATES-2023"
+      ],
+      "special_cases": []
+    }
+  ],
   "schema_version": "2.0.0",
   "snapshot": {
-    "as_of": "2026-08-15",
-    "snapshot_id": "SNP-MIGRATION-2026-08-15",
-    "status": "baseline"
+    "as_of": "2026-08-17",
+    "snapshot_id": "SNP-IQ-PRODUCTION-20260817",
+    "status": "verified"
   },
-  "status": "baseline_only"
+  "status": "pilot_migrated"
 }

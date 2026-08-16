@@ -1,0 +1,17 @@
+{
+  "country_code": "IQ",
+  "critical_p1": 0,
+  "errors": [],
+  "metrics": {
+    "aliases": 19,
+    "claims": 20,
+    "coverage": 4,
+    "denominators": 4,
+    "entities": 20,
+    "relationships": 19,
+    "sources": 4
+  },
+  "p0": 0,
+  "schema_version": "2.0.0",
+  "status": "PASS"
+}

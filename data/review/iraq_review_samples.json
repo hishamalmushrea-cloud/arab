@@ -1,0 +1,145 @@
+{
+  "country_code": "IQ",
+  "families": {
+    "aliases": {
+      "population": 19,
+      "record_ids": [
+        "ALS-IQ-07C66E22BB67560A",
+        "ALS-IQ-07FCD7A7BC0F5E66",
+        "ALS-IQ-0AF0E10F67305B7B",
+        "ALS-IQ-0B55F192E3955689",
+        "ALS-IQ-179CBDD706545B9F",
+        "ALS-IQ-25879CACD88254AD",
+        "ALS-IQ-2E4D7E1236875009",
+        "ALS-IQ-419688B740525FDA",
+        "ALS-IQ-446CDD28D4FA5A7D",
+        "ALS-IQ-569E181EFEFF5E9B",
+        "ALS-IQ-5C4EA6D6F4FA59D4",
+        "ALS-IQ-703BBD8970255D77",
+        "ALS-IQ-85E3EB5FD2FB55B4",
+        "ALS-IQ-A0834D4059575EF5",
+        "ALS-IQ-A54A69C5A91257AD",
+        "ALS-IQ-B020BEA65C705756",
+        "ALS-IQ-D3CCD829F51954D9",
+        "ALS-IQ-F0E13085DE79530F",
+        "ALS-IQ-F29989D940C35667"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 19
+    },
+    "claims": {
+      "population": 20,
+      "record_ids": [
+        "CLM-IQ-0F781E2099925B71",
+        "CLM-IQ-14C86BBA91CE51B9",
+        "CLM-IQ-1983038F59B754AC",
+        "CLM-IQ-340474BC588A55CD",
+        "CLM-IQ-35946E5F38A757C2",
+        "CLM-IQ-36A6F8AB178E5CD0",
+        "CLM-IQ-3CE306B9D6365039",
+        "CLM-IQ-43EC22B0994F5094",
+        "CLM-IQ-46C055DF76595839",
+        "CLM-IQ-4A05292E20F25E6D",
+        "CLM-IQ-58F99B725078521F",
+        "CLM-IQ-5F883A5D18CA58AF",
+        "CLM-IQ-60CFA7A5DF655BD9",
+        "CLM-IQ-74363A620BB158F7",
+        "CLM-IQ-90CF8CC7D3AD578F",
+        "CLM-IQ-A156513C75D65C46",
+        "CLM-IQ-BD4118E8FAA5591E",
+        "CLM-IQ-BECE5D36651A53E5",
+        "CLM-IQ-EFA642E9E7B55CDE",
+        "CLM-IQ-FB1AD0FC0F1354A6"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 20
+    },
+    "coverage": {
+      "population": 4,
+      "record_ids": [
+        "COV-IQ-COUNTRY-SCOPE",
+        "COV-IQ-FEDERAL-NON-KRI",
+        "COV-IQ-GOVERNORATES",
+        "COV-IQ-KRI-PROFILE"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 4
+    },
+    "denominators": {
+      "population": 4,
+      "record_ids": [
+        "DEN-IQ-COUNTRY-SCOPE",
+        "DEN-IQ-FEDERAL-NON-KRI",
+        "DEN-IQ-GOVERNORATES",
+        "DEN-IQ-KRI-PROFILE"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 4
+    },
+    "entities": {
+      "population": 20,
+      "record_ids": [
+        "ENT-IQ-COUNTRY",
+        "ENT-IQ-GOVERNORATE-01",
+        "ENT-IQ-GOVERNORATE-02",
+        "ENT-IQ-GOVERNORATE-03",
+        "ENT-IQ-GOVERNORATE-04",
+        "ENT-IQ-GOVERNORATE-05",
+        "ENT-IQ-GOVERNORATE-06",
+        "ENT-IQ-GOVERNORATE-07",
+        "ENT-IQ-GOVERNORATE-08",
+        "ENT-IQ-GOVERNORATE-09",
+        "ENT-IQ-GOVERNORATE-10",
+        "ENT-IQ-GOVERNORATE-11",
+        "ENT-IQ-GOVERNORATE-12",
+        "ENT-IQ-GOVERNORATE-13",
+        "ENT-IQ-GOVERNORATE-14",
+        "ENT-IQ-GOVERNORATE-15",
+        "ENT-IQ-GOVERNORATE-16",
+        "ENT-IQ-GOVERNORATE-17",
+        "ENT-IQ-GOVERNORATE-18",
+        "ENT-IQ-GOVERNORATE-19"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 20
+    },
+    "relationships": {
+      "population": 19,
+      "record_ids": [
+        "REL-IQ-08FDF68FC85F5818",
+        "REL-IQ-1F2942A25C945ABE",
+        "REL-IQ-31FD137E97A95F8A",
+        "REL-IQ-370816875C5854BB",
+        "REL-IQ-4FB1957AAFFB5258",
+        "REL-IQ-6D14F353AA6A53DD",
+        "REL-IQ-8EEBAECBF68D534D",
+        "REL-IQ-947D5479C55B52B0",
+        "REL-IQ-9AA795E2946E50CB",
+        "REL-IQ-AD505B75F62F53FC",
+        "REL-IQ-B8127AAD293F5C69",
+        "REL-IQ-BA22C25F5BD85213",
+        "REL-IQ-BC23DB93D7615F89",
+        "REL-IQ-C0212A6EED9D5BE2",
+        "REL-IQ-CA8A2A85E1D857ED",
+        "REL-IQ-CBB4A2F7E85354E1",
+        "REL-IQ-E1522A478D775A46",
+        "REL-IQ-E6557DBEA7F35B6E",
+        "REL-IQ-EB8EA00C3FCB5169"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 19
+    },
+    "sources": {
+      "population": 4,
+      "record_ids": [
+        "SRC-IQ-COSIT-GOVERNORATES-2023",
+        "SRC-IQ-DECREE-21-HALABJA-2025",
+        "SRC-IQ-KRSO-FOUR-GOVERNORATES",
+        "SRC-IQ-LAW-7-HALABJA-2025"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 4
+    }
+  },
+  "schema_version": "2.0.0"
+}
