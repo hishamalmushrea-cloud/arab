@@ -1,0 +1,55 @@
+{
+  "country_code": "OM",
+  "critical_p1": 0,
+  "families": {
+    "aliases": {
+      "failed": 0,
+      "passed": 74,
+      "sampled": 74,
+      "status": "PASS"
+    },
+    "claims": {
+      "failed": 0,
+      "passed": 11,
+      "sampled": 11,
+      "status": "PASS"
+    },
+    "coverage": {
+      "failed": 0,
+      "passed": 3,
+      "sampled": 3,
+      "status": "PASS"
+    },
+    "denominators": {
+      "failed": 0,
+      "passed": 3,
+      "sampled": 3,
+      "status": "PASS"
+    },
+    "entities": {
+      "failed": 0,
+      "passed": 75,
+      "sampled": 75,
+      "status": "PASS"
+    },
+    "relationships": {
+      "failed": 0,
+      "passed": 74,
+      "sampled": 74,
+      "status": "PASS"
+    },
+    "sources": {
+      "failed": 0,
+      "passed": 3,
+      "sampled": 3,
+      "status": "PASS"
+    }
+  },
+  "findings": [],
+  "method": "Independent full fixture identity/parent comparison.",
+  "p0": 0,
+  "schema_version": "2.0.0",
+  "status": "PASS",
+  "total_passed": 243,
+  "total_sampled": 243
+}

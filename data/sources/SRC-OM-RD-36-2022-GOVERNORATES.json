@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:6e1cf0acf6a62f4d58c6d303d8eaf15228fb3211273a20d00e9297ddbbc4d45e",
+  "country_codes": [
+    "OM"
+  ],
+  "id": "SRC-OM-RD-36-2022-GOVERNORATES",
+  "language": "ar-en",
+  "license": "Official Oman legal/statistical material; factual extraction with attribution; reuse terms not stated",
+  "locator": "Article 2 governorates/wilayats; Article 3 creation rules",
+  "notes": "Effective 16 June 2022; checksum binds reconciled record fixture.",
+  "publication_date": "2022-06-16",
+  "publisher": "Sultanate of Oman / Official Gazette",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-16",
+  "schema_version": "2.0.0",
+  "source_type": "law",
+  "title": "Royal Decree 36/2022 — Governorates System",
+  "url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf"
+}

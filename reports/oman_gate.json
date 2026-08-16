@@ -1,0 +1,117 @@
+{
+  "checks": {
+    "artifact_expansion_lessons": {
+      "detail": "reports/EXPANSION_LESSONS.md exists",
+      "status": "pass"
+    },
+    "artifact_lessons_learned_oman": {
+      "detail": "reports/LESSONS_LEARNED_OMAN.md exists",
+      "status": "pass"
+    },
+    "artifact_next_country_decision": {
+      "detail": "reports/NEXT_COUNTRY_DECISION.md exists",
+      "status": "pass"
+    },
+    "artifact_oman_production_closeout": {
+      "detail": "reports/OMAN_PRODUCTION_CLOSEOUT.md exists",
+      "status": "pass"
+    },
+    "general_validation": {
+      "command": "python3 scripts/validate.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=15572\n[PASS] ids: global_ids=15572, duplicate_ids=0\n[PASS] entity_types: allowed_types=103, active_types=38\n[PASS] sources: atomic_files=106, sources=106, references=18220\n[PASS] parents: administrative_relationships=4747\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3208, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2052, sourced=2052\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=64, coverage_records=64, complete_layers=52\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=9\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=951, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
+    },
+    "generated_freshness": {
+      "command": "python3 scripts/generate.py --check",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "generated output is current (64 files)"
+    },
+    "non_oman_preservation": {
+      "detail": "canonical non-Oman SHA-256 unchanged=1ec520c8c8426be83b0294eeab5c818b5edef3a755deeafe8a8a232121d3c1e4",
+      "status": "pass"
+    },
+    "oman_clean_worktree": {
+      "detail": "git worktree clean=True",
+      "status": "pass"
+    },
+    "oman_findings_closed": {
+      "detail": "status=PASS, P0=0, critical P1=0",
+      "status": "pass"
+    },
+    "oman_import_idempotence": {
+      "detail": "all 10 managed hashes unchanged=True",
+      "status": "pass"
+    },
+    "oman_import_refresh": {
+      "command": "python3 scripts/import_oman_production.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "{\"entities\": 74, \"aliases\": 74, \"relationships\": 74, \"claims\": 11, \"sources\": 3}"
+    },
+    "oman_independent_review": {
+      "command": "python3 scripts/review_oman.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "243"
+    },
+    "oman_negative_tests": {
+      "command": "python3 scripts/test_oman_negative.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "[{'mutation': 'OM_DROP_JABAL_AKHDAR', 'expected_code': 'OM_ADDITIONS', 'detected': True}, {'mutation': 'OM_DROP_SINAW', 'expected_code': 'OM_ADDITIONS', 'detected': True}, {'mutation': 'OM_WRONG_PARENT', 'expected_code': 'OM_WILAYAT_PARENT', 'detected': True}, {'mutation': 'OM_LEGACY_61', 'expected_code': 'OM_DENOMINATORS', 'detected': True}, {'mutation': 'OM_FAKE_NIYABAH', 'expected_code': 'OM_NIYABA', 'detected': True}, {'mutation': 'OM_FAKE_NIYABAH_DENOM', 'expected_code': 'OM_NIYABA_DENOM', 'detected': True}, {'mutation': 'OM_OMIT_SADAH', 'expected_code': 'OM_DHOFAR', 'detected': True}, {'mutation': 'OM_QISHN_SILENT_RENAME', 'expected_code': 'OM_DHOFAR', 'detected': True}]"
+    },
+    "oman_required_mutations": {
+      "detail": "detected=8/8",
+      "status": "pass"
+    },
+    "oman_review_idempotence": {
+      "detail": "independent review unchanged=True",
+      "status": "pass"
+    },
+    "oman_review_sample_idempotence": {
+      "detail": "full-population sample unchanged=True",
+      "status": "pass"
+    },
+    "oman_review_sample_refresh": {
+      "command": "python3 scripts/build_oman_review_samples.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "243"
+    },
+    "oman_review_threshold": {
+      "detail": "full review passed=243/243",
+      "status": "pass"
+    },
+    "oman_semantic_validation": {
+      "command": "python3 scripts/validate_oman.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "{'entities': 75, 'aliases': 74, 'relationships': 74, 'claims': 11, 'sources': 3, 'denominators': 3, 'coverage': 3}"
+    },
+    "oman_source_idempotence": {
+      "detail": "atomic sources=3/3, unchanged=True",
+      "status": "pass"
+    },
+    "oman_source_refresh": {
+      "command": "python3 scripts/build_oman_sources.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "{\"entities\": 74, \"aliases\": 74, \"relationships\": 74, \"claims\": 11, \"sources\": 3}"
+    }
+  },
+  "country_code": "OM",
+  "errors": [],
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-16",
+  "status": "pass"
+}

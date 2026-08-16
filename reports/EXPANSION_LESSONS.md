@@ -34,6 +34,13 @@ This cumulative register records reusable controls without forcing countries int
 - Cross-authority spelling variants belong in Alias resolution, not duplicate Entities.
 - Census and spatial-planning sources can independently close the same upper denominator without making lower layers complete.
 
+## Oman production cycle
+
+- Reconcile legal prose, organisational annexes, current official announcements, and coded identity domains.
+- A stale code list may support identity matching but never a current denominator.
+- Selective minister-created levels such as niyabahs must remain unavailable without an enumerable decision register.
+- Translation defects require explicit reconciliation, not silent normalization.
+
 ## Controls now required for subsequent countries
 
 1. Exact current-layer denominator with source, date, license, and exclusion definition.

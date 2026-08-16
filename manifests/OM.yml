@@ -1,7 +1,8 @@
 {
   "caveats": [
-    "المحافظة والولاية والنيابة درجات مختلفة، ولا يُشتق اكتمالها من وجود ملفات.",
-    "Local coverage remains incomplete; file or directory existence is not a denominator."
+    "Governorate, wilaya, municipality branch, and niyabah are distinct.",
+    "NCSI 61-code domain is historical identity evidence, not current denominator.",
+    "No niyabah denominator asserted."
   ],
   "country": {
     "entity_id": "ENT-OM-COUNTRY",
@@ -9,7 +10,9 @@
     "name_ar": "عُمان"
   },
   "coverage_record_ids": [
-    "COV-OM-COUNTRY-SCOPE"
+    "COV-OM-COUNTRY-SCOPE",
+    "COV-OM-GOVERNORATES-2022",
+    "COV-OM-WILAYATS-2022"
   ],
   "hierarchy": [
     {
@@ -36,13 +39,24 @@
       "allowed_parent_types": [
         "country"
       ],
+      "authority_name": "Ministry of Interior",
       "caveat": "المحافظة والولاية والنيابة درجات مختلفة، ولا يُشتق اكتمالها من وجود ملفات.",
+      "coverage_record_id": "COV-OM-GOVERNORATES-2022",
+      "denominator": 11,
+      "denominator_id": "DEN-OM-GOVERNORATES-2022",
       "entity_type": "om_governorate",
       "level": 1,
+      "license": "Official Oman legal/statistical material; factual extraction with attribution; reuse terms not stated",
       "local_names": [
         "محافظة"
       ],
-      "source_ids": [],
+      "notes": "11 legal governorates.",
+      "scope_status": "closed",
+      "snapshot_date": "2022-06-16",
+      "source_ids": [
+        "SRC-OM-RD-36-2022-GOVERNORATES"
+      ],
+      "special_cases": [],
       "temporal_statuses": [
         "current",
         "historical",
@@ -55,19 +69,33 @@
         "transitional",
         "uncertain"
       ],
-      "verification_status": "pending"
+      "verification_status": "verified"
     },
     {
       "allowed_parent_types": [
         "om_governorate"
       ],
+      "authority_name": "Ministry of Interior",
       "caveat": "المحافظة والولاية والنيابة درجات مختلفة، ولا يُشتق اكتمالها من وجود ملفات.",
+      "coverage_record_id": "COV-OM-WILAYATS-2022",
+      "denominator": 63,
+      "denominator_id": "DEN-OM-WILAYATS-2022",
       "entity_type": "om_wilaya",
       "level": 2,
+      "license": "Official Oman legal/statistical material; factual extraction with attribution; reuse terms not stated",
       "local_names": [
         "ولاية"
       ],
-      "source_ids": [],
+      "notes": "63 reconciled legal wilayats.",
+      "scope_status": "closed",
+      "snapshot_date": "2022-06-16",
+      "source_ids": [
+        "SRC-OM-RD-36-2022-GOVERNORATES",
+        "SRC-OM-ONA-63-WILAYATS-2022"
+      ],
+      "special_cases": [
+        "Al Jabal Al Akhdar and Sinaw added after older 61-code scope."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
@@ -80,19 +108,28 @@
         "transitional",
         "uncertain"
       ],
-      "verification_status": "pending"
+      "verification_status": "verified"
     },
     {
       "allowed_parent_types": [
         "om_wilaya"
       ],
+      "authority_name": "Ministry of Interior",
       "caveat": "المحافظة والولاية والنيابة درجات مختلفة، ولا يُشتق اكتمالها من وجود ملفات.",
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
       "entity_type": "om_niyaba",
       "level": 3,
+      "license": null,
       "local_names": [
         "نيابة"
       ],
+      "notes": "Selective ministerial decisions; no national denominator accepted.",
+      "scope_status": "unavailable",
+      "snapshot_date": null,
       "source_ids": [],
+      "special_cases": [],
       "temporal_statuses": [
         "current",
         "historical",
@@ -108,18 +145,68 @@
       "verification_status": "pending"
     }
   ],
-  "next_action": "Register an atomic official hierarchy source and dated denominators before migrating local legacy rows.",
+  "next_action": "Maintain 11/63 legal hierarchy; add niyabahs only from ministerial decisions.",
   "official_authority": {
-    "missing_reason": "Authority name is recorded, but no atomic official hierarchy source has yet passed source metadata and snapshot review.",
-    "name": "وزارة الداخلية / المركز الوطني للإحصاء والمعلومات",
-    "source_ids": [],
-    "verification_status": "pending"
+    "missing_reason": null,
+    "name": "Ministry of Interior / Official Gazette",
+    "source_ids": [
+      "SRC-OM-RD-36-2022-GOVERNORATES",
+      "SRC-OM-ONA-63-WILAYATS-2022"
+    ],
+    "verification_status": "verified"
   },
+  "pilot_layers": [
+    {
+      "authority_name": "Ministry of Interior",
+      "coverage_record_id": "COV-OM-GOVERNORATES-2022",
+      "denominator": 11,
+      "denominator_id": "DEN-OM-GOVERNORATES-2022",
+      "entity_types": [
+        "om_governorate"
+      ],
+      "layer": "om_governorate",
+      "license": "Official Oman legal/statistical material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "محافظة"
+      ],
+      "notes": "Legal layer.",
+      "scope_status": "closed",
+      "snapshot_date": "2022-06-16",
+      "source_ids": [
+        "SRC-OM-RD-36-2022-GOVERNORATES"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "Ministry of Interior",
+      "coverage_record_id": "COV-OM-WILAYATS-2022",
+      "denominator": 63,
+      "denominator_id": "DEN-OM-WILAYATS-2022",
+      "entity_types": [
+        "om_wilaya"
+      ],
+      "layer": "om_wilaya",
+      "license": "Official Oman legal/statistical material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "ولاية"
+      ],
+      "notes": "Reconciled legal layer.",
+      "scope_status": "closed",
+      "snapshot_date": "2022-06-16",
+      "source_ids": [
+        "SRC-OM-RD-36-2022-GOVERNORATES",
+        "SRC-OM-ONA-63-WILAYATS-2022"
+      ],
+      "special_cases": [
+        "61 legacy codes plus two additions."
+      ]
+    }
+  ],
   "schema_version": "2.0.0",
   "snapshot": {
-    "as_of": "2026-08-15",
-    "snapshot_id": "SNP-MIGRATION-2026-08-15",
-    "status": "baseline"
+    "as_of": "2026-08-16",
+    "snapshot_id": "SNP-OM-PRODUCTION-20260816",
+    "status": "verified"
   },
-  "status": "baseline_only"
+  "status": "pilot_migrated"
 }

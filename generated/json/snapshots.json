@@ -78,6 +78,17 @@
   },
   {
     "captured_at": "2026-08-16",
+    "checksum": "sha256:a7e36120d3a4761cfbdf250efe372f9d2799d0b3c863e1bd08e6770d71c90ae8",
+    "id": "SNP-OM-PRODUCTION-20260816",
+    "method": "Checksum-bound legal reconciliation.",
+    "notes": "Niyabahs and administrative centres unavailable.",
+    "schema_version": "2.0.0",
+    "scope": "11 governorates and 63 wilayats",
+    "source_id": "SRC-OM-RD-36-2022-GOVERNORATES",
+    "title": "Oman legal governorates and wilayats"
+  },
+  {
+    "captured_at": "2026-08-16",
     "checksum": "sha256:f530c04ffb6825dc39dbb41f830cddc532ce02357a6fab43c9cf7432849e25b1",
     "id": "SNP-QA-PRODUCTION-20260816",
     "method": "Checksum-bound official fixtures.",
