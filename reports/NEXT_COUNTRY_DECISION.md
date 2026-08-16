@@ -2,11 +2,11 @@
 
 ## Current country
 
-Iraq — Full Pilot.
+Libya — Full Pilot.
 
 ## Current result
 
-**RELEASE CANDIDATE.** Iraq local checks, 90/90 review, and 8/8 mutations pass; exact-commit CI pending.
+**PASS.** Exact Iraq release commit `0815a744cdf9fa4aeef03ebabbc087e9b0bf1f29`; full `make check` (361 checks), Push Action, and PR Action pass.
 
 ## Remaining countries
 
@@ -24,7 +24,7 @@ Libya, Yemen, Syria, Somalia, Sudan.
 
 ## Recommended next country
 
-**Libya — Full Pilot.**
+**Libya — Full Pilot — STARTED.** Existing bounded baseline is under source/date reconciliation; no new records emitted yet.
 
 ## Why
 

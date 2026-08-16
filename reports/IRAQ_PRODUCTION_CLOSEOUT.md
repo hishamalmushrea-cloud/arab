@@ -1,7 +1,7 @@
 # Iraq Production Expansion Closeout
 
 ## Decision
-**RELEASE CANDIDATE** pending exact-commit CI.
+**PASS.** Iraq Production Full Pilot stage one accepted on exact commit `0815a744cdf9fa4aeef03ebabbc087e9b0bf1f29`.
 ## Scope
 Nineteen current federal legal governorates with four KRI statistical profiles; no lower/disputed/de-facto overlay.
 ## Snapshot
@@ -33,9 +33,9 @@ PASS locally 8/8 count/date/duplicate/profile/overlay/lower mutations.
 ## P0/P1
 0/0.
 ## make check
-Pending clean commit.
+PASS: Phase 5 88/88 plus thirteen production gates 21/21; full `make check` = 361 checks.
 ## GitHub CI
-Pending.
+PASS: Push Action `31975668671` and PR Action `31975670494`.
 ## Remaining limitations
 District/subdistrict, disputed areas, effective-control overlays, culture/dialect deferred.
 ## Lessons learned
