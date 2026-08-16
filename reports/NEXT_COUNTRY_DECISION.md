@@ -2,11 +2,11 @@
 
 ## Current country
 
-Djibouti — Micro Pilot.
+Morocco — Micro Pilot.
 
 ## Current result
 
-**RELEASE CANDIDATE.** Djibouti local checks, 66/66 review, and 8/8 mutations pass; exact-commit CI pending.
+**PASS.** Exact Djibouti release commit `daee882315df72f7dfa89e8b580e0c27c54e56a3`; full `make check` (193 checks), Push Action, and PR Action pass.
 
 ## Remaining countries
 
@@ -32,7 +32,7 @@ Morocco, Algeria, Egypt, Mauritania, Lebanon, Comoros, Palestine, Iraq, Libya, Y
 
 ## Recommended next country
 
-**Morocco — Micro Pilot.**
+**Morocco — Micro Pilot — STARTED.** Research scope is recorded in `reports/MOROCCO_PRODUCTION_KICKOFF.md`; no authoritative records emitted yet.
 
 ## Why
 

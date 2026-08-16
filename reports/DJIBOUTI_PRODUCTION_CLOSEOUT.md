@@ -1,7 +1,7 @@
 # Djibouti Production Expansion Closeout
 
 ## Decision
-**RELEASE CANDIDATE** pending exact-commit CI.
+**PASS.** Djibouti Production Micro Pilot accepted on exact commit `daee882315df72f7dfa89e8b580e0c27c54e56a3`.
 ## Scope
 Five decentralized regions, special-status Djibouti City, three city communes, thirteen regional sub-prefectures.
 ## Snapshot
@@ -33,9 +33,9 @@ PASS locally: 8/8 special-city/region, commune/sub-prefecture, population, and d
 ## P0/P1
 0/0.
 ## make check
-Pending clean commit.
+PASS: Phase 5 88/88 plus five production gates 21/21; full `make check` = 193 checks.
 ## GitHub CI
-Pending.
+PASS: Push Action `31968106953` and PR Action `31968109485`.
 ## Remaining limitations
 No arrondissement/zone denominator; broad culture/dialect unclosed; RGPH results provisional.
 ## Lessons learned
