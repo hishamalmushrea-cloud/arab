@@ -19376,20 +19376,6 @@
     "valid_to": null
   },
   {
-    "entity_id": "ENT-MR-COUNTRY",
-    "id": "ALS-79016B98E2395EDF",
-    "kind": "english",
-    "language": "en",
-    "name": "Mauritania",
-    "schema_version": "2.0.0",
-    "script": "Latn",
-    "source_id": "SRC-ISO-3166-1-2020",
-    "source_locator": "ISO alpha-2 entry MR",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null
-  },
-  {
     "entity_id": "ENT-TN-IMADA-52581839",
     "id": "ALS-7912FDE9EE5553F2",
     "kind": "official_variant",

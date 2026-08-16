@@ -1,7 +1,8 @@
 {
   "caveats": [
-    "تعارض أعداد المقاطعات والبلديات يمنع النسبة حتى توثيق مقام رسمي مؤرخ.",
-    "Local coverage remains incomplete; file or directory existence is not a denominator."
+    "Nouakchott wilayas are not inferred neighborhoods.",
+    "63 moughataas known but records deferred.",
+    "Commune denominator conflicted 219/220."
   ],
   "country": {
     "entity_id": "ENT-MR-COUNTRY",
@@ -9,7 +10,10 @@
     "name_ar": "موريتانيا"
   },
   "coverage_record_ids": [
-    "COV-MR-COUNTRY-SCOPE"
+    "COV-MR-COUNTRY-SCOPE",
+    "COV-MR-WILAYAS",
+    "COV-MR-NOUAKCHOTT-WILAYAS",
+    "COV-MR-REGIONAL-WILAYAS"
   ],
   "hierarchy": [
     {
@@ -36,13 +40,27 @@
       "allowed_parent_types": [
         "country"
       ],
+      "authority_name": "DGAT / ANSADE",
       "caveat": "تعارض أعداد المقاطعات والبلديات يمنع النسبة حتى توثيق مقام رسمي مؤرخ.",
+      "coverage_record_id": "COV-MR-WILAYAS",
+      "denominator": 15,
+      "denominator_id": "DEN-MR-WILAYAS",
       "entity_type": "mr_wilaya",
       "level": 1,
+      "license": "Official Mauritania administrative/statistical material; factual extraction with attribution; reuse terms not stated",
       "local_names": [
         "ولاية"
       ],
-      "source_ids": [],
+      "notes": "15 wilayas.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-16",
+      "source_ids": [
+        "SRC-MR-DGAT-15-63-2026",
+        "SRC-MR-ANSADE-RGPH5-2024"
+      ],
+      "special_cases": [
+        "Three Nouakchott wilayas."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
@@ -55,19 +73,28 @@
         "transitional",
         "uncertain"
       ],
-      "verification_status": "pending"
+      "verification_status": "verified"
     },
     {
       "allowed_parent_types": [
         "mr_wilaya"
       ],
+      "authority_name": "DGAT",
       "caveat": "تعارض أعداد المقاطعات والبلديات يمنع النسبة حتى توثيق مقام رسمي مؤرخ.",
+      "coverage_record_id": null,
+      "denominator": 63,
+      "denominator_id": null,
       "entity_type": "mr_moughataa",
       "level": 2,
+      "license": null,
       "local_names": [
         "مقاطعة"
       ],
+      "notes": "Known count, records deferred.",
+      "scope_status": "open",
+      "snapshot_date": null,
       "source_ids": [],
+      "special_cases": [],
       "temporal_statuses": [
         "current",
         "historical",
@@ -86,13 +113,24 @@
       "allowed_parent_types": [
         "mr_moughataa"
       ],
+      "authority_name": "DGAT / ANSADE",
       "caveat": "تعارض أعداد المقاطعات والبلديات يمنع النسبة حتى توثيق مقام رسمي مؤرخ.",
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
       "entity_type": "mr_commune",
       "level": 3,
+      "license": null,
       "local_names": [
         "بلدية"
       ],
+      "notes": "Conflicted 219/220.",
+      "scope_status": "open",
+      "snapshot_date": null,
       "source_ids": [],
+      "special_cases": [
+        "No denominator until legal reconciliation."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
@@ -108,18 +146,90 @@
       "verification_status": "pending"
     }
   ],
-  "next_action": "Register an atomic official hierarchy source and dated denominators before migrating local legacy rows.",
+  "next_action": "Import 63 moughataas from current register; resolve commune count before commune entities.",
   "official_authority": {
-    "missing_reason": "Authority name is recorded, but no atomic official hierarchy source has yet passed source metadata and snapshot review.",
-    "name": "وزارة الداخلية / الوكالة الوطنية للإحصاء والتحليل الديمغرافي والاقتصادي",
-    "source_ids": [],
-    "verification_status": "pending"
+    "missing_reason": null,
+    "name": "DGAT / ANSADE",
+    "source_ids": [
+      "SRC-MR-DGAT-15-63-2026",
+      "SRC-MR-ANSADE-RGPH5-2024",
+      "SRC-MR-ANSADE-PEER-REVIEW-2024"
+    ],
+    "verification_status": "verified"
   },
+  "pilot_layers": [
+    {
+      "authority_name": "DGAT",
+      "coverage_record_id": "COV-MR-WILAYAS",
+      "denominator": 15,
+      "denominator_id": "DEN-MR-WILAYAS",
+      "entity_types": [
+        "mr_wilaya"
+      ],
+      "layer": "mr_wilaya",
+      "license": "Official Mauritania administrative/statistical material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "wilaya"
+      ],
+      "notes": "Profile layer.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-16",
+      "source_ids": [
+        "SRC-MR-DGAT-15-63-2026",
+        "SRC-MR-ANSADE-RGPH5-2024"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "DGAT",
+      "coverage_record_id": "COV-MR-NOUAKCHOTT-WILAYAS",
+      "denominator": 3,
+      "denominator_id": "DEN-MR-NOUAKCHOTT-WILAYAS",
+      "entity_types": [
+        "mr_wilaya"
+      ],
+      "layer": "mr_wilaya_nouakchott_profile",
+      "license": "Official Mauritania administrative/statistical material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "wilaya"
+      ],
+      "notes": "Profile layer.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-16",
+      "source_ids": [
+        "SRC-MR-DGAT-15-63-2026",
+        "SRC-MR-ANSADE-RGPH5-2024"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "DGAT",
+      "coverage_record_id": "COV-MR-REGIONAL-WILAYAS",
+      "denominator": 12,
+      "denominator_id": "DEN-MR-REGIONAL-WILAYAS",
+      "entity_types": [
+        "mr_wilaya"
+      ],
+      "layer": "mr_wilaya_regional_profile",
+      "license": "Official Mauritania administrative/statistical material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "wilaya"
+      ],
+      "notes": "Profile layer.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-16",
+      "source_ids": [
+        "SRC-MR-DGAT-15-63-2026",
+        "SRC-MR-ANSADE-RGPH5-2024"
+      ],
+      "special_cases": []
+    }
+  ],
   "schema_version": "2.0.0",
   "snapshot": {
-    "as_of": "2026-08-15",
-    "snapshot_id": "SNP-MIGRATION-2026-08-15",
-    "status": "baseline"
+    "as_of": "2026-08-16",
+    "snapshot_id": "SNP-MR-PRODUCTION-20260816",
+    "status": "verified"
   },
-  "status": "baseline_only"
+  "status": "pilot_migrated"
 }

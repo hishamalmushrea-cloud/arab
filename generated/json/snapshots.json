@@ -122,6 +122,17 @@
   },
   {
     "captured_at": "2026-08-16",
+    "checksum": "sha256:0339962428eb15a7b337b0a20c59d0fa8dcf004eb03562221b823cb7a410bcb9",
+    "id": "SNP-MR-PRODUCTION-20260816",
+    "method": "Checksum-bound DGAT/ANSADE reconciliation.",
+    "notes": "63 moughataas known/open; communes conflicted 219/220.",
+    "schema_version": "2.0.0",
+    "scope": "15 wilayas: three Nouakchott and twelve regional",
+    "source_id": "SRC-MR-DGAT-15-63-2026",
+    "title": "Mauritania 15-wilaya profile pilot"
+  },
+  {
+    "captured_at": "2026-08-16",
     "checksum": "sha256:a7e36120d3a4761cfbdf250efe372f9d2799d0b3c863e1bd08e6770d71c90ae8",
     "id": "SNP-OM-PRODUCTION-20260816",
     "method": "Checksum-bound legal reconciliation.",

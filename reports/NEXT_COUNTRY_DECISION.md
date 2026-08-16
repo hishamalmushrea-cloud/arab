@@ -6,30 +6,29 @@ Mauritania — Micro Pilot.
 
 ## Current result
 
-**PASS.** Exact Egypt release commit `ac5b159f31600e42c306dfd2ef2d305534cb4c77`; full `make check` (256 checks), Push Action, and PR Action pass.
+**RELEASE CANDIDATE.** Mauritania local checks, 59/59 review, and 8/8 mutations pass; exact-commit CI pending.
 
 ## Remaining countries
 
-Mauritania, Lebanon, Comoros, Palestine, Iraq, Libya, Yemen, Syria, Somalia, Sudan.
+Lebanon, Comoros, Palestine, Iraq, Libya, Yemen, Syria, Somalia, Sudan.
 
 ## Ranking
 
 | Rank | Country | Mode | Priority | Reason | Risk |
 |---:|---|---|:---:|---|---|
-| 1 | Mauritania | Micro Pilot | P3 | three principal tiers | conflicting local denominators/source quality |
-| 2 | Lebanon | Micro Pilot | P3 | bounded upper layers | recent temporal change and municipal unions |
-| 3 | Comoros | Full Pilot | P3 | small record count | weak/conflicting island/prefecture/commune authority |
-| 4 | Palestine | Full Pilot | P4 | strong statistical evidence | legal/de facto/disputed/displaced semantics |
-| 5 | Iraq | Full Pilot | P4 | official and regional sources | federal/Kurdistan paths, disputed areas, Halabja timing |
-| 6 | Libya | Full Pilot | P4 | existing bounded baseline | divided/variable current municipal denominator |
-| 7 | Yemen | Full Pilot | P4 | known legal hierarchy | war, capital municipality, legal/de facto divergence |
-| 8 | Syria | Full Pilot | P4 | legal hierarchy known | rapidly changing status, destruction/displacement |
-| 9 | Somalia | Full Pilot | P4 | federal-member structure | Somaliland and competing territorial claims |
-| 10 | Sudan | Full Pilot | P4 | legal state layer | war and highest current/status volatility |
+| 1 | Lebanon | Micro Pilot | P3 | bounded upper layers | recent temporal change and municipal unions |
+| 2 | Comoros | Full Pilot | P3 | small record count | weak/conflicting island/prefecture/commune authority |
+| 3 | Palestine | Full Pilot | P4 | strong statistical evidence | legal/de facto/disputed/displaced semantics |
+| 4 | Iraq | Full Pilot | P4 | official and regional sources | federal/Kurdistan paths, disputed areas, Halabja timing |
+| 5 | Libya | Full Pilot | P4 | existing bounded baseline | divided/variable current municipal denominator |
+| 6 | Yemen | Full Pilot | P4 | known legal hierarchy | war, capital municipality, legal/de facto divergence |
+| 7 | Syria | Full Pilot | P4 | legal hierarchy known | rapidly changing status, destruction/displacement |
+| 8 | Somalia | Full Pilot | P4 | federal-member structure | Somaliland and competing territorial claims |
+| 9 | Sudan | Full Pilot | P4 | legal state layer | war and highest current/status volatility |
 
 ## Recommended next country
 
-**Mauritania — Micro Pilot — STARTED.** Research scope is recorded in `reports/MAURITANIA_PRODUCTION_KICKOFF.md`; no authoritative records emitted yet.
+**Lebanon — Micro Pilot.**
 
 ## Why
 

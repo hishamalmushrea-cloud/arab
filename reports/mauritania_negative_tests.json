@@ -1,0 +1,49 @@
+{
+  "country_code": "MR",
+  "detected": 8,
+  "mutations": [
+    {
+      "detected": true,
+      "expected_code": "MR_COUNTS",
+      "mutation": "MR_NOUAKCHOTT_AS_NEIGHBORHOOD"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_PROFILE",
+      "mutation": "MR_WRONG_PROFILE"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_COUNTS_CLAIMS",
+      "mutation": "MR_MOUGHATAA_57"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_COMMUNE_CONFLICT",
+      "mutation": "MR_COMMUNE_220_DEFAULT"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_COMMUNE_CONFLICT",
+      "mutation": "MR_COMMUNE_219_DEFAULT"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_PREMATURE_LOWER",
+      "mutation": "MR_PREMATURE_MOUGHATAA"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_DENOMINATORS",
+      "mutation": "MR_DENOM_16"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_MOUGHATAA_SCOPE",
+      "mutation": "MR_CLOSE_MOUGHATAA_NO_RECORDS"
+    }
+  ],
+  "required": 8,
+  "schema_version": "2.0.0",
+  "status": "PASS"
+}

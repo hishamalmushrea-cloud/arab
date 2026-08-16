@@ -116,7 +116,7 @@ def phase1(gate: Gate) -> None:
     den_by_id = {row["id"]: row for row in denominators}
     cov_by_scope = {(row["country_code"], row["layer"]): row for row in coverage}
 
-    authorized_expansions = {"TN", "LY", "JO", "SA", "AE", "BH", "KW", "QA", "OM", "DJ", "MA", "DZ", "EG"}
+    authorized_expansions = {"TN", "LY", "JO", "SA", "AE", "BH", "KW", "QA", "OM", "DJ", "MA", "DZ", "EG", "MR"}
     outside_pilots = [row for row in entities if row["country_code"] not in authorized_expansions and row["entity_type"] != "country"]
     gate.require(not outside_pilots, "no_mass_expansion", f"non-country expansion outside accepted pilots and Bahrain production={len(outside_pilots)}")
     gate.require(all(row.get("canonical_source_id") for row in entities), "sourced_entities", f"source-backed entities={len(entities)}")

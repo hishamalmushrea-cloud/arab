@@ -66,6 +66,12 @@ This cumulative register records reusable controls without forcing countries int
 - Urban-only does not mean city identity; governorate and city remain separate.
 - Rural markaz/local-unit and urban qism/shiyakha paths must not cross.
 
+## Mauritania production cycle
+
+- A known lower count can remain open without fabricated records.
+- Conflicting official counts require disputed provenance and no selected denominator.
+- Capital-named wilayas remain administrative entities, not inferred neighborhoods.
+
 ## Controls now required for subsequent countries
 
 1. Exact current-layer denominator with source, date, license, and exclusion definition.

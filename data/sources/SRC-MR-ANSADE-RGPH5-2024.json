@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:43a2bc89a5808e7bcc1fe03ab5fc663e781b146499118f4dbcb8f518ebdfb20b",
+  "country_codes": [
+    "MR"
+  ],
+  "id": "SRC-MR-ANSADE-RGPH5-2024",
+  "language": "ar-fr",
+  "license": "Official Mauritania administrative/statistical material; factual extraction with attribution; reuse terms not stated",
+  "locator": "bilingual 2024 census geography",
+  "notes": "Record-level census cross-check. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "ANSADE",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-16",
+  "schema_version": "2.0.0",
+  "source_type": "census",
+  "title": "RGPH-5 — population by wilaya, moughataa and commune",
+  "url": "https://ansade.mr/wp-content/uploads/2024/09/Depliant-RGPH5-1.pdf"
+}

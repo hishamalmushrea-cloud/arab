@@ -1,0 +1,12 @@
+{
+  "country_code": "MR",
+  "records": [
+    {
+      "bytes": 1987,
+      "path": "data/imports/mauritania/fixtures/wilaya_profiles.json",
+      "sha256": "43a2bc89a5808e7bcc1fe03ab5fc663e781b146499118f4dbcb8f518ebdfb20b"
+    }
+  ],
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-16"
+}
