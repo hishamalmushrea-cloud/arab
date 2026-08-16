@@ -1,7 +1,7 @@
 # Syria Production Expansion Closeout
 
 ## Decision
-**PASS locally; remote release evidence pending exact commit.** Syria Full Pilot stage one closes the current legal/institutional governorate layer.
+**PASS.** Syria Full Pilot stage one accepted on exact release commit `5d0cceedc91653d96cb5d93fdc38301f053535cf`; the current legal/institutional governorate layer is closed.
 ## Scope
 14 governorates, including Damascus city as a governorate in its own right and Rural Damascus as a distinct governorate.
 ## Snapshot
@@ -25,7 +25,11 @@ PASS locally: full population 59/59.
 ## Negative tests
 PASS locally: 10/10, including missing governorate, Damascus/Rural Damascus merge, wrong profile, legal-as-de-facto, unsupported destruction, premature district, wrong denominator, fabricated lower completion, wrong parent, and stale coverage.
 ## P0/P1
-0/0 locally.
+0/0.
+## make check
+PASS: Phase 5 88/88 plus sixteen production gates 21/21; full `make check` = 424 checks.
+## GitHub CI
+PASS on exact release commit: Push Action `31978452659` and PR Action `31978454436`.
 ## Limitations
 No district/subdistrict records; no effective-control, destroyed, displaced, disputed, or access overlay; no broad cultural/dialect import. Current institutional enumeration is not a control map.
 ## Transferability

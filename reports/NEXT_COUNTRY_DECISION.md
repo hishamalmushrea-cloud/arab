@@ -6,7 +6,7 @@ Somalia — Full Pilot.
 
 ## Current result
 
-**Syria PASS locally.** The bounded stage-one scope closes 14/14 legal/institutional governorates, including distinct Damascus and Rural Damascus identities. Official lower denominators 68 districts and 227 subdistricts remain open. Remote exact-commit CI evidence is pending release push.
+**Syria PASS.** Exact release commit `5d0cceedc91653d96cb5d93fdc38301f053535cf`; full `make check` (424 checks), Push Action `31978452659`, and PR Action `31978454436` pass. The bounded stage-one scope closes 14/14 legal/institutional governorates, including distinct Damascus and Rural Damascus identities. Official lower denominators 68 districts and 227 subdistricts remain open.
 
 ## Remaining countries
 
