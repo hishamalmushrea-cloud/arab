@@ -1,7 +1,8 @@
 {
   "caveats": [
-    "أعداد المناطق والنواحي والتغيرات الفعلية متعارضة؛ لا تخلط السيطرة الفعلية بالقانونية.",
-    "Local coverage remains incomplete; file or directory existence is not a denominator."
+    "Fourteen legal/institutional governorates are closed; this is not an effective-control map.",
+    "Official counts of 68 districts and 227 subdistricts are retained as open denominators without fabricated records.",
+    "Destroyed, displaced, disputed, access, and de facto statuses require independent dated overlays."
   ],
   "country": {
     "entity_id": "ENT-SY-COUNTRY",
@@ -9,7 +10,12 @@
     "name_ar": "سوريا"
   },
   "coverage_record_ids": [
-    "COV-SY-COUNTRY-SCOPE"
+    "COV-SY-COUNTRY-SCOPE",
+    "COV-SY-GOVERNORATES",
+    "COV-SY-DAMASCUS-SPECIAL",
+    "COV-SY-OTHER-GOVERNORATES",
+    "COV-SY-DISTRICTS",
+    "COV-SY-SUBDISTRICTS"
   ],
   "hierarchy": [
     {
@@ -36,13 +42,28 @@
       "allowed_parent_types": [
         "country"
       ],
+      "authority_name": "SIA / SANA / CBS",
       "caveat": "أعداد المناطق والنواحي والتغيرات الفعلية متعارضة؛ لا تخلط السيطرة الفعلية بالقانونية.",
+      "coverage_record_id": "COV-SY-GOVERNORATES",
+      "denominator": 14,
+      "denominator_id": "DEN-SY-GOVERNORATES",
       "entity_type": "sy_governorate",
       "level": 1,
+      "license": "Official Syrian institutional/statistical material; factual extraction with attribution; reuse terms not stated",
       "local_names": [
         "محافظة"
       ],
-      "source_ids": [],
+      "notes": "14 legal/institutional governorates.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-SY-SIA-ADMIN-DIVISIONS-2026",
+        "SRC-SY-SANA-GOVERNORATE-NAV-2026",
+        "SRC-SY-CBS-GOVERNORATES-2010"
+      ],
+      "special_cases": [
+        "Damascus city is a governorate in its own right; Rural Damascus is distinct."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
@@ -55,19 +76,32 @@
         "transitional",
         "uncertain"
       ],
-      "verification_status": "pending"
+      "verification_status": "verified"
     },
     {
       "allowed_parent_types": [
         "sy_governorate"
       ],
+      "authority_name": "Syrian Investment Authority",
       "caveat": "أعداد المناطق والنواحي والتغيرات الفعلية متعارضة؛ لا تخلط السيطرة الفعلية بالقانونية.",
+      "coverage_record_id": "COV-SY-DISTRICTS",
+      "denominator": 68,
+      "denominator_id": "DEN-SY-DISTRICTS",
       "entity_type": "sy_district",
       "level": 2,
+      "license": "Official Syrian institutional/statistical material; factual extraction with attribution; reuse terms not stated",
       "local_names": [
         "منطقة"
       ],
-      "source_ids": [],
+      "notes": "Official count known; record-level register not accepted.",
+      "scope_status": "open",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-SY-SIA-ADMIN-DIVISIONS-2026"
+      ],
+      "special_cases": [
+        "Count includes 14 governorate-center districts."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
@@ -86,13 +120,26 @@
       "allowed_parent_types": [
         "sy_district"
       ],
+      "authority_name": "Syrian Investment Authority",
       "caveat": "أعداد المناطق والنواحي والتغيرات الفعلية متعارضة؛ لا تخلط السيطرة الفعلية بالقانونية.",
+      "coverage_record_id": "COV-SY-SUBDISTRICTS",
+      "denominator": 227,
+      "denominator_id": "DEN-SY-SUBDISTRICTS",
       "entity_type": "sy_subdistrict",
       "level": 3,
+      "license": "Official Syrian institutional/statistical material; factual extraction with attribution; reuse terms not stated",
       "local_names": [
         "ناحية"
       ],
-      "source_ids": [],
+      "notes": "Official count known; record-level register not accepted.",
+      "scope_status": "open",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-SY-SIA-ADMIN-DIVISIONS-2026"
+      ],
+      "special_cases": [
+        "Some subdistricts attach directly to governorate centers."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
@@ -108,18 +155,132 @@
       "verification_status": "pending"
     }
   ],
-  "next_action": "Register an atomic official hierarchy source and dated denominators before migrating local legacy rows.",
+  "next_action": "Maintain 14 legal governorates; reconcile record-level district/subdistrict registers and dated status overlays separately.",
   "official_authority": {
-    "missing_reason": "Authority name is recorded, but no atomic official hierarchy source has yet passed source metadata and snapshot review.",
-    "name": "وزارة الإدارة المحلية والبيئة / المكتب المركزي للإحصاء",
-    "source_ids": [],
-    "verification_status": "pending"
+    "missing_reason": null,
+    "name": "Syrian Investment Authority / Syrian Arab News Agency / Central Bureau of Statistics",
+    "source_ids": [
+      "SRC-SY-SIA-ADMIN-DIVISIONS-2026",
+      "SRC-SY-SANA-GOVERNORATE-NAV-2026",
+      "SRC-SY-CBS-GOVERNORATES-2010"
+    ],
+    "verification_status": "verified"
   },
+  "pilot_layers": [
+    {
+      "authority_name": "SIA / SANA",
+      "coverage_record_id": "COV-SY-GOVERNORATES",
+      "denominator": 14,
+      "denominator_id": "DEN-SY-GOVERNORATES",
+      "entity_types": [
+        "sy_governorate"
+      ],
+      "layer": "sy_governorate",
+      "license": "Official Syrian institutional/statistical material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "محافظة"
+      ],
+      "notes": "Current institutional governorates.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-SY-SIA-ADMIN-DIVISIONS-2026",
+        "SRC-SY-SANA-GOVERNORATE-NAV-2026"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "SIA / SANA",
+      "coverage_record_id": "COV-SY-DAMASCUS-SPECIAL",
+      "denominator": 1,
+      "denominator_id": "DEN-SY-DAMASCUS-SPECIAL",
+      "entity_types": [
+        "sy_governorate"
+      ],
+      "layer": "sy_governorate_damascus_special",
+      "license": "Official Syrian institutional/statistical material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "محافظة"
+      ],
+      "notes": "Damascus city forms one governorate.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-SY-SIA-ADMIN-DIVISIONS-2026",
+        "SRC-SY-SANA-GOVERNORATE-NAV-2026"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "SIA / SANA",
+      "coverage_record_id": "COV-SY-OTHER-GOVERNORATES",
+      "denominator": 13,
+      "denominator_id": "DEN-SY-OTHER-GOVERNORATES",
+      "entity_types": [
+        "sy_governorate"
+      ],
+      "layer": "sy_governorate_other",
+      "license": "Official Syrian institutional/statistical material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "محافظة"
+      ],
+      "notes": "Governorates other than Damascus special case.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-SY-SIA-ADMIN-DIVISIONS-2026",
+        "SRC-SY-SANA-GOVERNORATE-NAV-2026"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "SIA / SANA",
+      "coverage_record_id": "COV-SY-DISTRICTS",
+      "denominator": 68,
+      "denominator_id": "DEN-SY-DISTRICTS",
+      "entity_types": [
+        "sy_district"
+      ],
+      "layer": "sy_district",
+      "license": "Official Syrian institutional/statistical material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "منطقة"
+      ],
+      "notes": "Current official count of districts, including 14 governorate-center districts; record layer open.",
+      "scope_status": "open",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-SY-SIA-ADMIN-DIVISIONS-2026"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "SIA / SANA",
+      "coverage_record_id": "COV-SY-SUBDISTRICTS",
+      "denominator": 227,
+      "denominator_id": "DEN-SY-SUBDISTRICTS",
+      "entity_types": [
+        "sy_subdistrict"
+      ],
+      "layer": "sy_subdistrict",
+      "license": "Official Syrian institutional/statistical material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "ناحية"
+      ],
+      "notes": "Current official count of subdistricts; record layer open.",
+      "scope_status": "open",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-SY-SIA-ADMIN-DIVISIONS-2026"
+      ],
+      "special_cases": []
+    }
+  ],
   "schema_version": "2.0.0",
   "snapshot": {
-    "as_of": "2026-08-15",
-    "snapshot_id": "SNP-MIGRATION-2026-08-15",
-    "status": "baseline"
+    "as_of": "2026-08-17",
+    "snapshot_id": "SNP-SY-PRODUCTION-20260817",
+    "status": "verified"
   },
-  "status": "baseline_only"
+  "status": "pilot_migrated"
 }

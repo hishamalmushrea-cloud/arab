@@ -1,0 +1,59 @@
+{
+  "country_code": "SY",
+  "detected": 10,
+  "mutations": [
+    {
+      "detected": true,
+      "expected_code": "SY_COUNTS",
+      "mutation": "SY_REMOVE_GOVERNORATE"
+    },
+    {
+      "detected": true,
+      "expected_code": "SY_DAMASCUS_DISTINCTION",
+      "mutation": "SY_MERGE_DAMASCUS_RURAL"
+    },
+    {
+      "detected": true,
+      "expected_code": "SY_FIXTURE_PROFILE",
+      "mutation": "SY_DAMASCUS_ORDINARY_PROFILE"
+    },
+    {
+      "detected": true,
+      "expected_code": "SY_UNSUPPORTED_OVERLAY",
+      "mutation": "SY_LEGAL_AS_DE_FACTO"
+    },
+    {
+      "detected": true,
+      "expected_code": "SY_UNSUPPORTED_OVERLAY",
+      "mutation": "SY_DESTROYED_WITHOUT_SOURCE"
+    },
+    {
+      "detected": true,
+      "expected_code": "SY_PREMATURE_LOWER",
+      "mutation": "SY_PREMATURE_DISTRICT"
+    },
+    {
+      "detected": true,
+      "expected_code": "SY_DENOMINATORS",
+      "mutation": "SY_WRONG_DISTRICT_DENOMINATOR"
+    },
+    {
+      "detected": true,
+      "expected_code": "SY_OPEN_LOWER",
+      "mutation": "SY_FAKE_LOWER_COMPLETION"
+    },
+    {
+      "detected": true,
+      "expected_code": "SY_PARENT",
+      "mutation": "SY_WRONG_PARENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "SY_COVERAGE_FRESHNESS",
+      "mutation": "SY_STALE_COVERAGE"
+    }
+  ],
+  "required": 10,
+  "schema_version": "2.0.0",
+  "status": "PASS"
+}

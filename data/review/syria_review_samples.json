@@ -1,0 +1,114 @@
+{
+  "country_code": "SY",
+  "families": {
+    "aliases": {
+      "population": 1,
+      "record_ids": [
+        "ALS-9D7C59A808BE5A24"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 1
+    },
+    "claims": {
+      "population": 14,
+      "record_ids": [
+        "CLM-SY-123CE751865F507B",
+        "CLM-SY-14FBE6F35B8B5D33",
+        "CLM-SY-1E423EC2C84E5139",
+        "CLM-SY-1FA068EF1B145DD5",
+        "CLM-SY-2CA8D50B97C2504B",
+        "CLM-SY-2E84A603F1715277",
+        "CLM-SY-4F50BB777347595F",
+        "CLM-SY-5972BC6ED0A55816",
+        "CLM-SY-7FF5CDB24D345A4B",
+        "CLM-SY-943147B66C675266",
+        "CLM-SY-CD377C87984E5000",
+        "CLM-SY-D811512A02875BF4",
+        "CLM-SY-DDBF2ADE192B5F88",
+        "CLM-SY-F1D7FCFDC0F65101"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 14
+    },
+    "coverage": {
+      "population": 6,
+      "record_ids": [
+        "COV-SY-COUNTRY-SCOPE",
+        "COV-SY-DAMASCUS-SPECIAL",
+        "COV-SY-DISTRICTS",
+        "COV-SY-GOVERNORATES",
+        "COV-SY-OTHER-GOVERNORATES",
+        "COV-SY-SUBDISTRICTS"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 6
+    },
+    "denominators": {
+      "population": 6,
+      "record_ids": [
+        "DEN-SY-COUNTRY-SCOPE",
+        "DEN-SY-DAMASCUS-SPECIAL",
+        "DEN-SY-DISTRICTS",
+        "DEN-SY-GOVERNORATES",
+        "DEN-SY-OTHER-GOVERNORATES",
+        "DEN-SY-SUBDISTRICTS"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 6
+    },
+    "entities": {
+      "population": 15,
+      "record_ids": [
+        "ENT-SY-COUNTRY",
+        "ENT-SY-GOVERNORATE-01",
+        "ENT-SY-GOVERNORATE-02",
+        "ENT-SY-GOVERNORATE-03",
+        "ENT-SY-GOVERNORATE-04",
+        "ENT-SY-GOVERNORATE-05",
+        "ENT-SY-GOVERNORATE-06",
+        "ENT-SY-GOVERNORATE-07",
+        "ENT-SY-GOVERNORATE-08",
+        "ENT-SY-GOVERNORATE-09",
+        "ENT-SY-GOVERNORATE-10",
+        "ENT-SY-GOVERNORATE-11",
+        "ENT-SY-GOVERNORATE-12",
+        "ENT-SY-GOVERNORATE-13",
+        "ENT-SY-GOVERNORATE-14"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 15
+    },
+    "relationships": {
+      "population": 14,
+      "record_ids": [
+        "REL-SY-04E359F7B5C3527A",
+        "REL-SY-288BB2305BCC5BFA",
+        "REL-SY-5EECA9B4111C5A9F",
+        "REL-SY-7558C22BF88056A2",
+        "REL-SY-85AB5978C3BF5EE0",
+        "REL-SY-94BD42C8287558D9",
+        "REL-SY-97B204A52450505E",
+        "REL-SY-BF630D5F5D685FF9",
+        "REL-SY-CB9B9B1101BC5AA6",
+        "REL-SY-E636D299B997587F",
+        "REL-SY-E725BA3552605C58",
+        "REL-SY-ECB40BD195285435",
+        "REL-SY-F34A8598A0255CFC",
+        "REL-SY-F6CDC15153D85068"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 14
+    },
+    "sources": {
+      "population": 3,
+      "record_ids": [
+        "SRC-SY-CBS-GOVERNORATES-2010",
+        "SRC-SY-SANA-GOVERNORATE-NAV-2026",
+        "SRC-SY-SIA-ADMIN-DIVISIONS-2026"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 3
+    }
+  },
+  "schema_version": "2.0.0"
+}

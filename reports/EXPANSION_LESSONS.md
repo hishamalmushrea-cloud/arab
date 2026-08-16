@@ -112,6 +112,13 @@ This cumulative register records reusable controls without forcing countries int
 - Record the observed issuance/establishment date while explicitly flagging unavailable effective-clause wording.
 - Legal lists never imply effective control, damage, or displacement.
 
+## Syria production cycle
+
+- Reconcile a current exact institutional navigation with a current official count and an older statistical continuity source.
+- Historical administrative evidence never proves present authority, control, or physical condition.
+- Preserve Damascus city governorate separately from Rural Damascus.
+- Known lower denominators may remain open without record fabrication or artificial completion.
+
 ## Controls now required for subsequent countries
 
 1. Exact current-layer denominator with source, date, license, and exclusion definition.

@@ -209,6 +209,17 @@
     "title": "Saudi administrative and bounded-content evidence snapshot"
   },
   {
+    "captured_at": "2026-08-17",
+    "checksum": "sha256:0f50ce75bbbdee8f9831dc2249ff47d086ce2617af773ed1c133ba9064810dfd",
+    "id": "SNP-SY-PRODUCTION-20260817",
+    "method": "Checksum-bound reconciliation of current SIA count/hierarchy and current SANA 14-name navigation against historical CBS continuity.",
+    "notes": "No control, destruction, displacement, access, or contested-status overlay is inferred.",
+    "schema_version": "2.0.0",
+    "scope": "14 legal/institutional governorates; lower official denominators open",
+    "source_id": "SRC-SY-SANA-GOVERNORATE-NAV-2026",
+    "title": "Syria current legal/institutional governorates"
+  },
+  {
     "captured_at": "2026-08-15",
     "checksum": null,
     "id": "SNP-TN-ADMIN-2026-08-15",

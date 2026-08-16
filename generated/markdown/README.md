@@ -18,7 +18,7 @@
 | TN | تونس | 2743 | 69 | [TN](countries/TN.md) |
 | KM | جزر القمر | 75 | 6 | [KM](countries/KM.md) |
 | DJ | جيبوتي | 23 | 6 | [DJ](countries/DJ.md) |
-| SY | سوريا | 1 | 0 | [SY](countries/SY.md) |
+| SY | سوريا | 15 | 14 | [SY](countries/SY.md) |
 | OM | عُمان | 75 | 11 | [OM](countries/OM.md) |
 | PS | فلسطين | 23 | 24 | [PS](countries/PS.md) |
 | QA | قطر | 10 | 10 | [QA](countries/QA.md) |

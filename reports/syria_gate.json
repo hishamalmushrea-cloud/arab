@@ -1,0 +1,117 @@
+{
+  "checks": {
+    "artifact_expansion_lessons": {
+      "detail": "reports/EXPANSION_LESSONS.md exists",
+      "status": "pass"
+    },
+    "artifact_lessons_learned_syria": {
+      "detail": "reports/LESSONS_LEARNED_SYRIA.md exists",
+      "status": "pass"
+    },
+    "artifact_next_country_decision": {
+      "detail": "reports/NEXT_COUNTRY_DECISION.md exists",
+      "status": "pass"
+    },
+    "artifact_syria_production_closeout": {
+      "detail": "reports/SYRIA_PRODUCTION_CLOSEOUT.md exists",
+      "status": "pass"
+    },
+    "general_validation": {
+      "command": "python3 scripts/validate.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=16822\n[PASS] ids: global_ids=16822, duplicate_ids=0\n[PASS] entity_types: allowed_types=103, active_types=58\n[PASS] sources: atomic_files=143, sources=143, references=19515\n[PASS] parents: administrative_relationships=5194\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2217, sourced=2217\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=102, coverage_records=102, complete_layers=89\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=20\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=951, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
+    },
+    "generated_freshness": {
+      "command": "python3 scripts/generate.py --check",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "generated output is current (64 files)"
+    },
+    "non_syria_preservation": {
+      "detail": "canonical non-Syria SHA-256 unchanged=b52bd1ec867f9f067d1d0d51ef4943f26d3c38774536895d78c52fa5dee8bada",
+      "status": "pass"
+    },
+    "syria_clean_worktree": {
+      "detail": "git worktree clean=True",
+      "status": "pass"
+    },
+    "syria_findings_closed": {
+      "detail": "status=PASS, P0=0, critical P1=0",
+      "status": "pass"
+    },
+    "syria_import_idempotence": {
+      "detail": "all 10 managed hashes unchanged=True",
+      "status": "pass"
+    },
+    "syria_import_refresh": {
+      "command": "python3 scripts/import_syria_production.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "{\"entities\": 14, \"relationships\": 14, \"claims\": 14, \"sources\": 3, \"denominators\": 5, \"coverage\": 5}"
+    },
+    "syria_independent_review": {
+      "command": "python3 scripts/review_syria.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "59"
+    },
+    "syria_negative_tests": {
+      "command": "python3 scripts/test_syria_negative.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "[{'mutation': 'SY_REMOVE_GOVERNORATE', 'expected_code': 'SY_COUNTS', 'detected': True}, {'mutation': 'SY_MERGE_DAMASCUS_RURAL', 'expected_code': 'SY_DAMASCUS_DISTINCTION', 'detected': True}, {'mutation': 'SY_DAMASCUS_ORDINARY_PROFILE', 'expected_code': 'SY_FIXTURE_PROFILE', 'detected': True}, {'mutation': 'SY_LEGAL_AS_DE_FACTO', 'expected_code': 'SY_UNSUPPORTED_OVERLAY', 'detected': True}, {'mutation': 'SY_DESTROYED_WITHOUT_SOURCE', 'expected_code': 'SY_UNSUPPORTED_OVERLAY', 'detected': True}, {'mutation': 'SY_PREMATURE_DISTRICT', 'expected_code': 'SY_PREMATURE_LOWER', 'detected': True}, {'mutation': 'SY_WRONG_DISTRICT_DENOMINATOR', 'expected_code': 'SY_DENOMINATORS', 'detected': True}, {'mutation': 'SY_FAKE_LOWER_COMPLETION', 'expected_code': 'SY_OPEN_LOWER', 'detected': True}, {'mutation': 'SY_WRONG_PARENT', 'expected_code': 'SY_PARENT', 'detected': True}, {'mutation': 'SY_STALE_COVERAGE', 'expected_code': 'SY_COVERAGE_FRESHNESS', 'detected': True}]"
+    },
+    "syria_required_mutations": {
+      "detail": "detected=10/10",
+      "status": "pass"
+    },
+    "syria_review_idempotence": {
+      "detail": "independent review unchanged=True",
+      "status": "pass"
+    },
+    "syria_review_sample_idempotence": {
+      "detail": "full-population sample unchanged=True",
+      "status": "pass"
+    },
+    "syria_review_sample_refresh": {
+      "command": "python3 scripts/build_syria_review_samples.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "59"
+    },
+    "syria_review_threshold": {
+      "detail": "full review passed=59/59",
+      "status": "pass"
+    },
+    "syria_semantic_validation": {
+      "command": "python3 scripts/validate_syria.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "{'entities': 15, 'aliases': 1, 'relationships': 14, 'claims': 14, 'sources': 3, 'denominators': 6, 'coverage': 6}"
+    },
+    "syria_source_idempotence": {
+      "detail": "atomic sources=3/3, unchanged=True",
+      "status": "pass"
+    },
+    "syria_source_refresh": {
+      "command": "python3 scripts/build_syria_sources.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "{\"entities\": 14, \"relationships\": 14, \"claims\": 14, \"sources\": 3, \"denominators\": 5, \"coverage\": 5}"
+    }
+  },
+  "country_code": "SY",
+  "errors": [],
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-17",
+  "status": "pass"
+}
