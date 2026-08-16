@@ -2,11 +2,11 @@
 
 ## Current country
 
-Algeria — Micro Pilot.
+Egypt — Full Pilot.
 
 ## Current result
 
-**RELEASE CANDIDATE.** Algeria local checks, 151/151 review, and 8/8 mutations pass; exact-commit CI pending.
+**PASS.** Exact Algeria release commit `742680f5b05cc41a8a1a35aa22974e280f4e9b8b`; full `make check` (235 checks), Push Action, and PR Action pass.
 
 ## Remaining countries
 
@@ -30,7 +30,7 @@ Egypt, Mauritania, Lebanon, Comoros, Palestine, Iraq, Libya, Yemen, Syria, Somal
 
 ## Recommended next country
 
-**Egypt — Full Pilot.**
+**Egypt — Full Pilot — STARTED.** Research scope is recorded in `reports/EGYPT_PRODUCTION_KICKOFF.md`; no authoritative records emitted yet.
 
 ## Why
 

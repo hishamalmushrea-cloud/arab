@@ -1,7 +1,7 @@
 # Algeria Production Expansion Closeout
 
 ## Decision
-**RELEASE CANDIDATE** pending exact-commit CI.
+**PASS.** Algeria Production Micro Pilot accepted on exact commit `742680f5b05cc41a8a1a35aa22974e280f4e9b8b`.
 ## Scope
 58 current wilayas and 11 proposed future wilayas effective 2027-01-01; communes deferred.
 ## Snapshot
@@ -33,9 +33,9 @@ PASS locally: 8/8 status/date/count/parent/lower-layer mutations.
 ## P0/P1
 0/0.
 ## make check
-Pending clean commit.
+PASS: Phase 5 88/88 plus seven production gates 21/21; full `make check` = 235 checks.
 ## GitHub CI
-Pending.
+PASS: Push Action `31971049434` and PR Action `31971050412`.
 ## Remaining limitations
 1,541 communes and daïras not imported; future legal implementation may change before 2027.
 ## Lessons learned
