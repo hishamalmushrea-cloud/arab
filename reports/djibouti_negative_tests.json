@@ -1,0 +1,49 @@
+{
+  "country_code": "DJ",
+  "detected": 8,
+  "mutations": [
+    {
+      "detected": true,
+      "expected_code": "DJ_COUNTS",
+      "mutation": "DJ_CITY_AS_REGION"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_COMMUNE_PATH",
+      "mutation": "DJ_COMMUNE_UNDER_REGION"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_SUBPREFECTURE_PATH",
+      "mutation": "DJ_SUBPREF_UNDER_CITY"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_COUNTS",
+      "mutation": "DJ_DROP_REGION"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_POPULATION",
+      "mutation": "DJ_POP_TAMPER"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_POP_RECONCILIATION",
+      "mutation": "DJ_POP_TOTAL"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_DENOMINATORS",
+      "mutation": "DJ_FAKE_COMMUNE_COUNT"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_DENOMINATORS",
+      "mutation": "DJ_FAKE_SUBPREF_COUNT"
+    }
+  ],
+  "required": 8,
+  "schema_version": "2.0.0",
+  "status": "PASS"
+}

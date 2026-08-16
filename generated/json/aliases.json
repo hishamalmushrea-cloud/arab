@@ -16184,20 +16184,6 @@
     "valid_to": null
   },
   {
-    "entity_id": "ENT-DJ-COUNTRY",
-    "id": "ALS-663E43C2DE0551FE",
-    "kind": "english",
-    "language": "en",
-    "name": "Djibouti",
-    "schema_version": "2.0.0",
-    "script": "Latn",
-    "source_id": "SRC-ISO-3166-1-2020",
-    "source_locator": "ISO alpha-2 entry DJ",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null
-  },
-  {
     "entity_id": "ENT-JO-QADA-58CF2890157A",
     "id": "ALS-66421A2300B554E2",
     "kind": "transliteration",

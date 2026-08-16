@@ -1,0 +1,121 @@
+{
+  "census_reference_date": "2024-05-20",
+  "city": {
+    "communes": [
+      {
+        "name_fr": "Ras-Dika",
+        "token": "RAS-DIKA"
+      },
+      {
+        "name_fr": "Boulaos",
+        "token": "BOULAOS"
+      },
+      {
+        "name_fr": "Balbala",
+        "token": "BALBALA"
+      }
+    ],
+    "name_fr": "Djibouti-Ville",
+    "status": "special"
+  },
+  "city_population": 776966,
+  "country_code": "DJ",
+  "population_total": 1066809,
+  "regions": [
+    {
+      "name_fr": "Ali Sabieh",
+      "population": 76414,
+      "subprefectures": [
+        {
+          "name_fr": "Holl-Holl",
+          "token": "HOLL-HOLL"
+        },
+        {
+          "name_fr": "Ali-Addé",
+          "token": "ALI-ADDE"
+        }
+      ],
+      "token": "ALI-SABIEH"
+    },
+    {
+      "name_fr": "Dikhil",
+      "population": 66196,
+      "subprefectures": [
+        {
+          "name_fr": "Mouloud",
+          "token": "MOULOUD"
+        },
+        {
+          "name_fr": "Yoboki",
+          "token": "YOBOKI"
+        },
+        {
+          "name_fr": "As-Eyla",
+          "token": "AS-EYLA"
+        }
+      ],
+      "token": "DIKHIL"
+    },
+    {
+      "name_fr": "Tadjourah",
+      "population": 60645,
+      "subprefectures": [
+        {
+          "name_fr": "Dorra",
+          "token": "DORRA"
+        },
+        {
+          "name_fr": "Randa",
+          "token": "RANDA"
+        },
+        {
+          "name_fr": "Lac-Assal",
+          "token": "LAC-ASSAL"
+        },
+        {
+          "name_fr": "Addaïllou",
+          "token": "ADDAILLOU"
+        }
+      ],
+      "token": "TADJOURAH"
+    },
+    {
+      "name_fr": "Obock",
+      "population": 37666,
+      "subprefectures": [
+        {
+          "name_fr": "Alaïlli-Daba",
+          "token": "ALAYLOU-DABA"
+        },
+        {
+          "name_fr": "Khor-Angar",
+          "token": "KHOR-ANGAR"
+        }
+      ],
+      "token": "OBOCK"
+    },
+    {
+      "name_fr": "Arta",
+      "population": 48922,
+      "subprefectures": [
+        {
+          "name_fr": "Damerjog",
+          "token": "DAMERJOG"
+        },
+        {
+          "name_fr": "Wéa",
+          "token": "WEA"
+        }
+      ],
+      "token": "ARTA"
+    }
+  ],
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-16",
+  "sources": {
+    "census": "https://www.instad.dj/Com_Rgph.php",
+    "city_law": "https://decentralisation.gouv.dj/wp-content/uploads/2020/11/Djibouti-Loi-2005-122-Statut-Djibouti-Ville.pdf",
+    "regions": "https://www.presidence.dj/page/regions",
+    "subprefectures": "https://decentralisation.gouv.dj/wp-content/uploads/2020/10/Feuille-de-route-doc-final.pdf"
+  }
+}

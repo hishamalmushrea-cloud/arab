@@ -41,6 +41,13 @@ This cumulative register records reusable controls without forcing countries int
 - Selective minister-created levels such as niyabahs must remain unavailable without an enumerable decision register.
 - Translation defects require explicit reconciliation, not silent normalization.
 
+## Djibouti production cycle
+
+- Special-capital and regional paths can be parallel at country level.
+- Communes and sub-prefectures must not be treated as equivalent lower tiers.
+- Provisional census status and exact population reconciliation are mandatory.
+- Do not invent Arabic aliases when only official French forms are atomically available.
+
 ## Controls now required for subsequent countries
 
 1. Exact current-layer denominator with source, date, license, and exclusion definition.

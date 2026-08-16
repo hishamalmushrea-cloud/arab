@@ -1,0 +1,106 @@
+{
+  "country_code": "DJ",
+  "schema_version": "2.0.0",
+  "sources": [
+    {
+      "archive_url": null,
+      "checksum": "sha256:032f053c98ff55c66e06d486622c7299be15fe9ad98dd7e9b5cd4d51eacb90fb",
+      "country_codes": [
+        "DJ"
+      ],
+      "id": "SRC-DJ-PRESIDENCY-REGIONS-2026",
+      "language": "fr",
+      "license": "Official Djibouti public material; factual extraction with attribution; reuse terms not stated",
+      "locator": "five decentralized regions and special Djibouti City",
+      "notes": "Five regions explicitly separate from special-status city. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Présidence de la République",
+      "quality_tier": "A",
+      "retrieved_at": "2026-08-16",
+      "schema_version": "2.0.0",
+      "source_type": "official_register",
+      "title": "Régions de la République de Djibouti",
+      "url": "https://www.presidence.dj/page/regions"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:032f053c98ff55c66e06d486622c7299be15fe9ad98dd7e9b5cd4d51eacb90fb",
+      "country_codes": [
+        "DJ"
+      ],
+      "id": "SRC-DJ-LAW-122-CITY-2005",
+      "language": "fr",
+      "license": "Official Djibouti public material; factual extraction with attribution; reuse terms not stated",
+      "locator": "Article 2 three communes and special city status",
+      "notes": "Exact commune topology.",
+      "publication_date": "2005-11-01",
+      "publisher": "Journal officiel / République de Djibouti",
+      "quality_tier": "A",
+      "retrieved_at": "2026-08-16",
+      "schema_version": "2.0.0",
+      "source_type": "law",
+      "title": "Loi 122 — Statut de la Ville de Djibouti",
+      "url": "https://decentralisation.gouv.dj/wp-content/uploads/2020/11/Djibouti-Loi-2005-122-Statut-Djibouti-Ville.pdf"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:032f053c98ff55c66e06d486622c7299be15fe9ad98dd7e9b5cd4d51eacb90fb",
+      "country_codes": [
+        "DJ"
+      ],
+      "id": "SRC-DJ-INSTAD-RGPH3-2024",
+      "language": "fr",
+      "license": "Official Djibouti public material; factual extraction with attribution; reuse terms not stated",
+      "locator": "Table 1 population by six region/statistical scopes at 20 May 2024",
+      "notes": "Five regions plus Djibouti-Ville reconcile to national total. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "INSTAD",
+      "quality_tier": "A",
+      "retrieved_at": "2026-08-16",
+      "schema_version": "2.0.0",
+      "source_type": "census",
+      "title": "RGPH-3 2024 provisional regional results",
+      "url": "https://www.instad.dj/Com_Rgph.php"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:032f053c98ff55c66e06d486622c7299be15fe9ad98dd7e9b5cd4d51eacb90fb",
+      "country_codes": [
+        "DJ"
+      ],
+      "id": "SRC-DJ-DECENTRALISATION-ROADMAP-2020",
+      "language": "fr",
+      "license": "Official Djibouti public material; factual extraction with attribution; reuse terms not stated",
+      "locator": "Table 3 regions and thirteen sub-prefectures",
+      "notes": "Sub-prefecture enumeration; not communes. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Ministère délégué chargé de la décentralisation",
+      "quality_tier": "A",
+      "retrieved_at": "2026-08-16",
+      "schema_version": "2.0.0",
+      "source_type": "official_report",
+      "title": "Feuille de route de la décentralisation",
+      "url": "https://decentralisation.gouv.dj/wp-content/uploads/2020/10/Feuille-de-route-doc-final.pdf"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:032f053c98ff55c66e06d486622c7299be15fe9ad98dd7e9b5cd4d51eacb90fb",
+      "country_codes": [
+        "DJ"
+      ],
+      "id": "SRC-DJ-INTERIOR-PREFECTURES-2026",
+      "language": "fr",
+      "license": "Official Djibouti public material; factual extraction with attribution; reuse terms not stated",
+      "locator": "Djibouti-Ville and five regional prefectures",
+      "notes": "Current state territorial-administration cross-check. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Ministère de l’Intérieur",
+      "quality_tier": "A",
+      "retrieved_at": "2026-08-16",
+      "schema_version": "2.0.0",
+      "source_type": "official_register",
+      "title": "Administration territoriale — Préfectures",
+      "url": "https://interieur.gouv.dj/service/administration-territoriale-2/"
+    }
+  ]
+}

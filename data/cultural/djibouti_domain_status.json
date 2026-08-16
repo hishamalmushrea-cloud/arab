@@ -1,0 +1,17 @@
+{
+  "country_code": "DJ",
+  "domains": {
+    "dialect": {
+      "claims": 0,
+      "status": "not_documented_in_cycle"
+    },
+    "world_heritage": {
+      "denominator": 0,
+      "status": "documented_zero_inscribed",
+      "tentative_list_sites": 10
+    }
+  },
+  "notes": "Administrative micro pilot; zero inscribed is not cultural absence.",
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-16"
+}

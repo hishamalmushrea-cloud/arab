@@ -1,0 +1,12 @@
+{
+  "country_code": "DJ",
+  "records": [
+    {
+      "bytes": 2619,
+      "path": "data/imports/djibouti/fixtures/topology_2024.json",
+      "sha256": "032f053c98ff55c66e06d486622c7299be15fe9ad98dd7e9b5cd4d51eacb90fb"
+    }
+  ],
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-16"
+}

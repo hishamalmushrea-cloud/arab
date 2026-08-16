@@ -1,0 +1,114 @@
+{
+  "country_code": "DJ",
+  "families": {
+    "claims": {
+      "population": 6,
+      "record_ids": [
+        "CLM-DJ-3E20C0CB6ABA546E",
+        "CLM-DJ-5A8918E7CAFF5FFC",
+        "CLM-DJ-68147691E92C5BFA",
+        "CLM-DJ-96FB62F5CB0D5058",
+        "CLM-DJ-C9DE65DBB6F4536E",
+        "CLM-DJ-EA6015649E245F2B"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 6
+    },
+    "coverage": {
+      "population": 5,
+      "record_ids": [
+        "COV-DJ-CITY-COMMUNES",
+        "COV-DJ-COUNTRY-SCOPE",
+        "COV-DJ-REGIONS",
+        "COV-DJ-SPECIAL-CITY",
+        "COV-DJ-SUBPREFECTURES"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 5
+    },
+    "denominators": {
+      "population": 5,
+      "record_ids": [
+        "DEN-DJ-CITY-COMMUNES",
+        "DEN-DJ-COUNTRY-SCOPE",
+        "DEN-DJ-REGIONS",
+        "DEN-DJ-SPECIAL-CITY",
+        "DEN-DJ-SUBPREFECTURES"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 5
+    },
+    "entities": {
+      "population": 23,
+      "record_ids": [
+        "ENT-DJ-COMMUNE-BALBALA",
+        "ENT-DJ-COMMUNE-BOULAOS",
+        "ENT-DJ-COMMUNE-RAS-DIKA",
+        "ENT-DJ-COUNTRY",
+        "ENT-DJ-DJIBOUTI-CITY",
+        "ENT-DJ-REGION-ALI-SABIEH",
+        "ENT-DJ-REGION-ARTA",
+        "ENT-DJ-REGION-DIKHIL",
+        "ENT-DJ-REGION-OBOCK",
+        "ENT-DJ-REGION-TADJOURAH",
+        "ENT-DJ-SUBPREFECTURE-ADDAILLOU",
+        "ENT-DJ-SUBPREFECTURE-ALAYLOU-DABA",
+        "ENT-DJ-SUBPREFECTURE-ALI-ADDE",
+        "ENT-DJ-SUBPREFECTURE-AS-EYLA",
+        "ENT-DJ-SUBPREFECTURE-DAMERJOG",
+        "ENT-DJ-SUBPREFECTURE-DORRA",
+        "ENT-DJ-SUBPREFECTURE-HOLL-HOLL",
+        "ENT-DJ-SUBPREFECTURE-KHOR-ANGAR",
+        "ENT-DJ-SUBPREFECTURE-LAC-ASSAL",
+        "ENT-DJ-SUBPREFECTURE-MOULOUD",
+        "ENT-DJ-SUBPREFECTURE-RANDA",
+        "ENT-DJ-SUBPREFECTURE-WEA",
+        "ENT-DJ-SUBPREFECTURE-YOBOKI"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 23
+    },
+    "relationships": {
+      "population": 22,
+      "record_ids": [
+        "REL-DJ-1604923F69B05BCA",
+        "REL-DJ-2A7E74F612D454D0",
+        "REL-DJ-303A0BA8469D52DC",
+        "REL-DJ-37644DACE8335FBB",
+        "REL-DJ-3811A388C68E57D2",
+        "REL-DJ-3D435C38471F5939",
+        "REL-DJ-4B467BB0ACC1557B",
+        "REL-DJ-5109B6757260518B",
+        "REL-DJ-777103CA6D835C47",
+        "REL-DJ-7A44327B71885914",
+        "REL-DJ-80542EC319045B7A",
+        "REL-DJ-86B263D767CA5EA2",
+        "REL-DJ-8C04A38AFDA358B4",
+        "REL-DJ-A7883DE582395F99",
+        "REL-DJ-A9D0C9EEA46754E7",
+        "REL-DJ-B97896B2260A5ECD",
+        "REL-DJ-C23BC02B0A8A5262",
+        "REL-DJ-CC09C6B66BB25D92",
+        "REL-DJ-CF5CD494D48858B4",
+        "REL-DJ-DB26286EEDD25E7A",
+        "REL-DJ-F881D2E934035DDF",
+        "REL-DJ-F92A8C6CCB005B03"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 22
+    },
+    "sources": {
+      "population": 5,
+      "record_ids": [
+        "SRC-DJ-DECENTRALISATION-ROADMAP-2020",
+        "SRC-DJ-INSTAD-RGPH3-2024",
+        "SRC-DJ-INTERIOR-PREFECTURES-2026",
+        "SRC-DJ-LAW-122-CITY-2005",
+        "SRC-DJ-PRESIDENCY-REGIONS-2026"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 5
+    }
+  },
+  "schema_version": "2.0.0"
+}

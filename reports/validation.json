@@ -1,13 +1,13 @@
 {
   "checks": {
     "aliases": {
-      "aliases": 3208,
+      "aliases": 3207,
       "duplicate_aliases": 0,
       "status": "pass"
     },
     "claims": {
-      "claims": 2052,
-      "sourced": 2052,
+      "claims": 2058,
+      "sourced": 2058,
       "status": "pass"
     },
     "coordinates": {
@@ -19,9 +19,9 @@
       "status": "pass"
     },
     "coverage": {
-      "complete_layers": 52,
-      "coverage_records": 64,
-      "denominators": 64,
+      "complete_layers": 56,
+      "coverage_records": 68,
+      "denominators": 68,
       "status": "pass"
     },
     "csv": {
@@ -41,7 +41,7 @@
       "status": "pass"
     },
     "entity_types": {
-      "active_types": 38,
+      "active_types": 42,
       "allowed_types": 103,
       "status": "pass"
     },
@@ -51,7 +51,7 @@
     },
     "ids": {
       "duplicate_ids": 0,
-      "global_ids": 15572,
+      "global_ids": 15635,
       "status": "pass"
     },
     "independent_review": {
@@ -67,7 +67,7 @@
     "manifests": {
       "countries": 22,
       "manifests": 22,
-      "pilot_migrated": 9,
+      "pilot_migrated": 10,
       "status": "pass"
     },
     "migration": {
@@ -83,7 +83,7 @@
       "status": "pass"
     },
     "parents": {
-      "administrative_relationships": 4747,
+      "administrative_relationships": 4769,
       "status": "pass"
     },
     "phase2_tunisia": {
@@ -108,14 +108,14 @@
       "tunisia_published_claims": 69
     },
     "sources": {
-      "atomic_files": 106,
-      "references": 18220,
-      "sources": 106,
+      "atomic_files": 111,
+      "references": 18278,
+      "sources": 111,
       "status": "pass"
     },
     "structured_data": {
       "record_families": 8,
-      "records": 15572,
+      "records": 15635,
       "status": "pass"
     },
     "unicode": {
@@ -124,15 +124,15 @@
     }
   },
   "counts": {
-    "aliases": 3208,
-    "claims": 2052,
-    "coverage": 64,
-    "denominators": 64,
-    "entities": 4837,
+    "aliases": 3207,
+    "claims": 2058,
+    "coverage": 68,
+    "denominators": 68,
+    "entities": 4859,
     "manifests": 22,
-    "relationships": 5226,
-    "snapshots": 15,
-    "sources": 106
+    "relationships": 5248,
+    "snapshots": 16,
+    "sources": 111
   },
   "errors": [],
   "status": "pass"

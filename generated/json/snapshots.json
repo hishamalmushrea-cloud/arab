@@ -22,6 +22,17 @@
     "title": "Bahrain production expansion — governorates and World Heritage"
   },
   {
+    "captured_at": "2026-08-16",
+    "checksum": "sha256:ff79c41ea422271e5098c2f87fda166f2f6fb43c1bca4ebc32824553b0344ed4",
+    "id": "SNP-DJ-PRODUCTION-20260816",
+    "method": "Checksum-bound official legal/statistical reconciliation.",
+    "notes": "Arrondissements/zones and broad culture/dialect remain unclosed.",
+    "schema_version": "2.0.0",
+    "scope": "Five regions, special city, three city communes, thirteen sub-prefectures",
+    "source_id": "SRC-DJ-PRESIDENCY-REGIONS-2026",
+    "title": "Djibouti special-capital and regional topology"
+  },
+  {
     "captured_at": "2026-08-15",
     "checksum": "sha256:621f22d080c883180907e7e178ea2fbdf99e0a080cb7316b23ca1956ecf67b47",
     "id": "SNP-JO-PILOT-2026-08-15",
