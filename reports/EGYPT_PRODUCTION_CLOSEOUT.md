@@ -1,7 +1,7 @@
 # Egypt Production Expansion Closeout
 
 ## Decision
-**RELEASE CANDIDATE** pending exact-commit CI.
+**PASS.** Egypt Production Full Pilot stage one accepted on exact commit `ac5b159f31600e42c306dfd2ef2d305534cb4c77`.
 ## Scope
 27 governorates and explicit four-urban/23-mixed administrative profiles; lower topology deferred.
 ## Snapshot
@@ -33,9 +33,9 @@ PASS locally 8/8 city/governorate, profile, parent, denominator, lower-path and 
 ## P0/P1
 0/0.
 ## make check
-Pending clean commit.
+PASS: Phase 5 88/88 plus eight production gates 21/21; full `make check` = 256 checks.
 ## GitHub CI
-Pending.
+PASS: Push Action `31971681490` and PR Action `31971683328`.
 ## Remaining limitations
 No markaz/qism/local-unit/shiyakha records; Cairo/Giza lower topology remains next stage; population/culture deferred.
 ## Lessons learned

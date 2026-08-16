@@ -2,11 +2,11 @@
 
 ## Current country
 
-Egypt — Full Pilot.
+Mauritania — Micro Pilot.
 
 ## Current result
 
-**RELEASE CANDIDATE.** Egypt local checks, 120/120 review, and 8/8 mutations pass; exact-commit CI pending.
+**PASS.** Exact Egypt release commit `ac5b159f31600e42c306dfd2ef2d305534cb4c77`; full `make check` (256 checks), Push Action, and PR Action pass.
 
 ## Remaining countries
 
@@ -29,7 +29,7 @@ Mauritania, Lebanon, Comoros, Palestine, Iraq, Libya, Yemen, Syria, Somalia, Sud
 
 ## Recommended next country
 
-**Mauritania — Micro Pilot.**
+**Mauritania — Micro Pilot — STARTED.** Research scope is recorded in `reports/MAURITANIA_PRODUCTION_KICKOFF.md`; no authoritative records emitted yet.
 
 ## Why
 
