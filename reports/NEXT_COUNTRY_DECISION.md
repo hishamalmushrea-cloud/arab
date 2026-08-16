@@ -6,7 +6,7 @@ Bahrain — Direct Structured Expansion.
 
 ## Current result
 
-**RELEASE CANDIDATE** pending the clean committed gate and exact-commit GitHub Actions. Local data, semantic validation, full independent review, and 9/9 mutations pass.
+**PASS.** Exact Bahrain release commit `b4971929b4e4aac31ac24bf364fc8f1de49177e7`; local `make check`, 88-check Phase 5 gate, 21-check Bahrain gate, Push Action, and PR Action all pass.
 
 ## Remaining countries
 

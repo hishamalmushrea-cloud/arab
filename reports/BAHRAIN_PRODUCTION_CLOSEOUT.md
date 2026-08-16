@@ -2,7 +2,7 @@
 
 ## Decision
 
-**RELEASE CANDIDATE.** Local structured-data, semantic, independent-review, negative-test, and reproducibility checks pass. Final PASS is recorded only after a clean committed gate and GitHub Push/PR Actions on the exact commit.
+**PASS.** Bahrain Production Expansion is officially accepted on exact release commit `b4971929b4e4aac31ac24bf364fc8f1de49177e7`.
 
 ## Scope
 
@@ -69,11 +69,11 @@ P0 = 0. Critical P1 = 0. Unsupported lower layers remain documented limitations 
 
 ## make check
 
-Pending clean release commit. The Bahrain gate is layered after the accepted 88-check Phase 5 gate.
+PASS: full `make check` completed on the exact clean release commit. Phase 5 passed 88/88 and the Bahrain production gate passed 21/21, for 109 accepted checks.
 
 ## GitHub CI
 
-Pending exact production commit, Push Action, and PR Action.
+PASS on exact release commit `b4971929b4e4aac31ac24bf364fc8f1de49177e7`: Push Action run `31964328564` and Pull Request Action run `31964331750`, both using the Schema 2.0.0 validation workflow. PR #3 remains the logical expansion PR.
 
 ## Remaining limitations
 
