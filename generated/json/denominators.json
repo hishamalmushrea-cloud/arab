@@ -850,21 +850,21 @@
     "value": 1
   },
   {
-    "as_of": "2026-08-15",
+    "as_of": "2026-08-17",
     "country_code": "LY",
     "definition": "Current municipalities in the Ministry of Local Government register",
-    "denominator": null,
+    "denominator": 141,
     "id": "DEN-LY-CURRENT-MUNICIPALITIES",
     "layer": "current_municipalities",
     "license": "License not stated on source page",
-    "missing_reason": "A dated, reproducible national denominator remains unresolved; legacy material is only a matched subset and missing municipalities were not guessed or mass-added.",
-    "notes": null,
+    "missing_reason": null,
+    "notes": "Exact source snapshot; no claim about effective control or mahallas.",
     "schema_version": "2.0.0",
-    "snapshot_date": "2026-08-15",
+    "snapshot_date": "2026-08-17",
     "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Map-heavy national catalogue; extracted sequence has gaps and was not accepted as a denominator",
-    "status": "unavailable",
-    "value": null
+    "source_locator": "Complete 141-name rendered catalogue captured 2026-08-17",
+    "status": "official",
+    "value": 141
   },
   {
     "as_of": "2006-04-15",

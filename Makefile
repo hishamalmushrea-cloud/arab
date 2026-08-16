@@ -141,7 +141,10 @@ palestine:
 iraq:
 	python3 scripts/check_iraq_gate.py
 
-check: phase5 bahrain kuwait qatar oman djibouti morocco algeria egypt mauritania lebanon comoros palestine iraq
+libya:
+	python3 scripts/check_libya_gate.py
+
+check: phase5 bahrain kuwait qatar oman djibouti morocco algeria egypt mauritania lebanon comoros palestine iraq libya
 
 repair:
 	python3 scripts/repair_legacy.py
@@ -168,4 +171,5 @@ repair:
 	python3 scripts/import_comoros_production.py
 	python3 scripts/import_palestine_production.py
 	python3 scripts/import_iraq_production.py
+	python3 scripts/import_libya_production.py
 	python3 scripts/generate.py

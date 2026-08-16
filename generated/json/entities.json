@@ -7710,13 +7710,13 @@
       "LY-010",
       "LY-MU010"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: البيضاء",
+    "source_locator": "municipalities catalogue entry position 13: البيضاء",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "بنغازي",
@@ -7731,13 +7731,31 @@
       "LY-016",
       "LY-MU016"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: بنغازي",
+    "source_locator": "municipalities catalogue entry position 59: بنغازي",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "عمر المختار",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-031285CE6BFC",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 96: عمر المختار",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "القطرون",
@@ -7752,13 +7770,13 @@
       "LY-042",
       "LY-MU042"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: القطرون",
+    "source_locator": "municipalities catalogue entry position 41: القطرون",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "زوارة",
@@ -7773,13 +7791,13 @@
       "LY-067",
       "LY-MU067"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: زوارة",
+    "source_locator": "municipalities catalogue entry position 81: زوارة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "وازن",
@@ -7794,13 +7812,31 @@
       "LY-087",
       "LY-MU087"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: وازن",
+    "source_locator": "municipalities catalogue entry position 118: وازن",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "اوال",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-0E9CF3F0052F",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 133: اوال",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "المليطانية",
@@ -7814,13 +7850,13 @@
     "legacy_ids": [
       "LY-092"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: المليطانية",
+    "source_locator": "municipalities catalogue entry position 50: المليطانية",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "وادي عتبة",
@@ -7835,13 +7871,13 @@
       "LY-044",
       "LY-MU044"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: وادي عتبة",
+    "source_locator": "municipalities catalogue entry position 117: وادي عتبة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "الجميل",
@@ -7856,13 +7892,13 @@
       "LY-066",
       "LY-MU066"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: الجميل",
+    "source_locator": "municipalities catalogue entry position 15: الجميل",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "إجدابيا",
@@ -7877,13 +7913,13 @@
       "LY-019",
       "LY-MU019"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: إجدابيا",
+    "source_locator": "municipalities catalogue entry position 5: إجدابيا",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "زلطن",
@@ -7898,13 +7934,13 @@
       "LY-068",
       "LY-MU068"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: زلطن",
+    "source_locator": "municipalities catalogue entry position 78: زلطن",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "وادي البوانيس",
@@ -7919,13 +7955,31 @@
       "LY-036",
       "LY-MU036"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: وادي البوانيس",
+    "source_locator": "municipalities catalogue entry position 116: وادي البوانيس",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "الزويتينة سلطان",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-21C26F88C52F",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 27: الزويتينة سلطان",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "العزيزية",
@@ -7940,13 +7994,13 @@
       "LY-059",
       "LY-MU059"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: العزيزية",
+    "source_locator": "municipalities catalogue entry position 35: العزيزية",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "الزنتان",
@@ -7961,13 +8015,31 @@
       "LY-078",
       "LY-MU078"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: الزنتان",
+    "source_locator": "municipalities catalogue entry position 25: الزنتان",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "سوق الجمعة",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-23B2634B3615",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 88: سوق الجمعة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "رقدالين",
@@ -7982,13 +8054,31 @@
       "LY-069",
       "LY-MU069"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: رقدالين",
+    "source_locator": "municipalities catalogue entry position 77: رقدالين",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "العوينة",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-27C3CA1AD209",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 48: العوينة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "سرت",
@@ -8003,13 +8093,13 @@
       "LY-029",
       "LY-MU029"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: سرت",
+    "source_locator": "municipalities catalogue entry position 84: سرت",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "مرادة",
@@ -8024,13 +8114,49 @@
       "LY-025",
       "LY-MU025"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: مرادة",
+    "source_locator": "municipalities catalogue entry position 107: مرادة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "جرمة",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-2C755B8DDC63",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 141: جرمة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "بركت",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-304B609448ED",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 135: بركت",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "أم الرزم",
@@ -8045,13 +8171,13 @@
       "LY-005",
       "LY-MU005"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: أم الرزم",
+    "source_locator": "municipalities catalogue entry position 121: أم الرزم",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "تراغن",
@@ -8066,13 +8192,13 @@
       "LY-043",
       "LY-MU043"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: تراغن",
+    "source_locator": "municipalities catalogue entry position 64: تراغن",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "مصراتة",
@@ -8087,13 +8213,13 @@
       "LY-046",
       "LY-MU046"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: مصراتة",
+    "source_locator": "municipalities catalogue entry position 112: مصراتة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "ترهونة",
@@ -8108,13 +8234,49 @@
       "LY-050",
       "LY-MU050"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: ترهونة",
+    "source_locator": "municipalities catalogue entry position 65: ترهونة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "تجرهي",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-3A50785BFF59",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 127: تجرهي",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "الجديدة",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-3B16D28847E4",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 123: الجديدة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "جردس العبيد",
@@ -8129,13 +8291,13 @@
       "LY-013",
       "LY-MU013"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: جردس العبيد",
+    "source_locator": "municipalities catalogue entry position 69: جردس العبيد",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "الرحيبات",
@@ -8150,13 +8312,31 @@
       "LY-076",
       "LY-MU076"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: الرحيبات",
+    "source_locator": "municipalities catalogue entry position 20: الرحيبات",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "تنيناي",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-3FF1E6BB5656",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 129: تنيناي",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "صرمان",
@@ -8171,13 +8351,31 @@
       "LY-063",
       "LY-MU063"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: صرمان",
+    "source_locator": "municipalities catalogue entry position 92: صرمان",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "السائح",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-42DBBE336B38",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 28: السائح",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "خليج السدرة",
@@ -8191,13 +8389,13 @@
     "legacy_ids": [
       "LY-027"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: خليج السدرة",
+    "source_locator": "municipalities catalogue entry position 73: خليج السدرة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "غريان",
@@ -8212,13 +8410,13 @@
       "LY-070",
       "LY-MU070"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: غريان",
+    "source_locator": "municipalities catalogue entry position 101: غريان",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "الناصرية",
@@ -8232,13 +8430,67 @@
     "legacy_ids": [
       "LY-094"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: الناصرية",
+    "source_locator": "municipalities catalogue entry position 52: الناصرية",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "القريات",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-4A0C1CD276C5",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 130: القريات",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "درج",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-4AC2AFD1D4A7",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 74: درج",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "ربيانة",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-4B3DF166F116",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 76: ربيانة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "ككلة",
@@ -8253,13 +8505,13 @@
       "LY-072",
       "LY-MU072"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: ككلة",
+    "source_locator": "municipalities catalogue entry position 106: ككلة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "الجفرة",
@@ -8274,13 +8526,13 @@
       "LY-031",
       "LY-MU031"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: الجفرة",
+    "source_locator": "municipalities catalogue entry position 14: الجفرة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "الأبرق",
@@ -8295,13 +8547,31 @@
       "LY-007",
       "LY-MU007"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: الأبرق",
+    "source_locator": "municipalities catalogue entry position 8: الأبرق",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "سيناون",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-4E91350CFFCA",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 136: سيناون",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "القرضة الشاطئ",
@@ -8316,13 +8586,13 @@
       "LY-033",
       "LY-MU033"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: القرضة الشاطئ",
+    "source_locator": "municipalities catalogue entry position 40: القرضة الشاطئ",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "الأبيار",
@@ -8337,13 +8607,85 @@
       "LY-015",
       "LY-MU015"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: الأبيار",
+    "source_locator": "municipalities catalogue entry position 9: الأبيار",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "حي الأندلس",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-522F19B77F61",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 72: حي الأندلس",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "اسبيعة",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-53AFB4346C77",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 7: اسبيعة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "تهالة",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-555819A90380",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 134: تهالة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "المنطقة الادارية الشعبة",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-575DC06D8912",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 139: المنطقة الادارية الشعبة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "أوجلة",
@@ -8358,13 +8700,31 @@
       "LY-023",
       "LY-MU023"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: أوجلة",
+    "source_locator": "municipalities catalogue entry position 3: أوجلة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "الزاوية الغرب",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-5C2EBC24D56D",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 24: الزاوية الغرب",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "غدامس",
@@ -8379,13 +8739,13 @@
       "LY-090",
       "LY-MU090"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: غدامس",
+    "source_locator": "municipalities catalogue entry position 100: غدامس",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "مسلاتة",
@@ -8400,13 +8760,13 @@
       "LY-049",
       "LY-MU049"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: مسلاتة",
+    "source_locator": "municipalities catalogue entry position 111: مسلاتة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "غات",
@@ -8421,13 +8781,13 @@
       "LY-040",
       "LY-MU040"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: غات",
+    "source_locator": "municipalities catalogue entry position 99: غات",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "بئر الأشهب",
@@ -8442,13 +8802,13 @@
       "LY-002",
       "LY-MU002"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: بئر الأشهب",
+    "source_locator": "municipalities catalogue entry position 55: بئر الأشهب",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "مرزق",
@@ -8463,13 +8823,13 @@
       "LY-041",
       "LY-MU041"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: مرزق",
+    "source_locator": "municipalities catalogue entry position 108: مرزق",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "الشويرف",
@@ -8484,13 +8844,13 @@
       "LY-081",
       "LY-MU081"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: الشويرف",
+    "source_locator": "municipalities catalogue entry position 31: الشويرف",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "كاباو",
@@ -8505,13 +8865,13 @@
       "LY-085",
       "LY-MU085"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: كاباو",
+    "source_locator": "municipalities catalogue entry position 105: كاباو",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "تاورغاء",
@@ -8525,13 +8885,13 @@
     "legacy_ids": [
       "LY-096"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: تاورغاء",
+    "source_locator": "municipalities catalogue entry position 63: تاورغاء",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "الزاوية",
@@ -8546,13 +8906,13 @@
       "LY-062",
       "LY-MU062"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: الزاوية",
+    "source_locator": "municipalities catalogue entry position 22: الزاوية",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "الأصابعة",
@@ -8567,13 +8927,13 @@
       "LY-071",
       "LY-MU071"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: الأصابعة",
+    "source_locator": "municipalities catalogue entry position 10: الأصابعة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "القلعة",
@@ -8588,13 +8948,13 @@
       "LY-073",
       "LY-MU073"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: القلعة",
+    "source_locator": "municipalities catalogue entry position 42: القلعة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "ساحل الجبل",
@@ -8609,13 +8969,13 @@
       "LY-011",
       "LY-MU011"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: ساحل الجبل",
+    "source_locator": "municipalities catalogue entry position 82: ساحل الجبل",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "قصر بن غشير",
@@ -8630,13 +8990,13 @@
       "LY-056",
       "LY-MU056"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: قصر بن غشير",
+    "source_locator": "municipalities catalogue entry position 102: قصر بن غشير",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "الرجبان",
@@ -8651,13 +9011,13 @@
       "LY-082",
       "LY-MU082"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: الرجبان",
+    "source_locator": "municipalities catalogue entry position 19: الرجبان",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "القيقب",
@@ -8672,13 +9032,13 @@
       "LY-008",
       "LY-MU008"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: القيقب",
+    "source_locator": "municipalities catalogue entry position 44: القيقب",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "العجيلات",
@@ -8693,13 +9053,13 @@
       "LY-065",
       "LY-MU065"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: العجيلات",
+    "source_locator": "municipalities catalogue entry position 33: العجيلات",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "تاجوراء",
@@ -8714,13 +9074,31 @@
       "LY-054",
       "LY-MU054"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: تاجوراء",
+    "source_locator": "municipalities catalogue entry position 61: تاجوراء",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "العامرية",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-7AC0E1A90E0F",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 32: العامرية",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "سلوق",
@@ -8735,13 +9113,49 @@
       "LY-017",
       "LY-MU017"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: سلوق",
+    "source_locator": "municipalities catalogue entry position 85: سلوق",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "زمزم",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-7C12ADAA34FE",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 80: زمزم",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "جنوب الجبل الأخضر",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-7C4E063BBF83",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 71: جنوب الجبل الأخضر",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "إدري الشاطئ",
@@ -8756,13 +9170,13 @@
       "LY-034",
       "LY-MU034"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: إدري الشاطئ",
+    "source_locator": "municipalities catalogue entry position 6: إدري الشاطئ",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "امساعد",
@@ -8777,13 +9191,31 @@
       "LY-001",
       "LY-MU001"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: امساعد",
+    "source_locator": "municipalities catalogue entry position 53: امساعد",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "زويلة",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-868BB739D812",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 137: زويلة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "نالوت",
@@ -8798,13 +9230,49 @@
       "LY-086",
       "LY-MU086"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: نالوت",
+    "source_locator": "municipalities catalogue entry position 113: نالوت",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "سوسة",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-8AB968301F7C",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 87: سوسة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "عين زارة",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-8ABF09577618",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 97: عين زارة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "طبرق",
@@ -8819,13 +9287,31 @@
       "LY-003",
       "LY-MU003"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: طبرق",
+    "source_locator": "municipalities catalogue entry position 93: طبرق",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "سوق الخميس",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-8C05B5F9544C",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 89: سوق الخميس",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "اجخرة",
@@ -8840,13 +9326,13 @@
       "LY-024",
       "LY-MU024"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: اجخرة",
+    "source_locator": "municipalities catalogue entry position 4: اجخرة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "توكرة",
@@ -8861,13 +9347,13 @@
       "LY-014",
       "LY-MU014"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: توكرة",
+    "source_locator": "municipalities catalogue entry position 66: توكرة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "الشرقية",
@@ -8882,13 +9368,13 @@
       "LY-045",
       "LY-MU045"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: الشرقية",
+    "source_locator": "municipalities catalogue entry position 29: الشرقية",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "شحات",
@@ -8903,13 +9389,13 @@
       "LY-009",
       "LY-MU009"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: شحات",
+    "source_locator": "municipalities catalogue entry position 90: شحات",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "أوباري",
@@ -8924,13 +9410,31 @@
       "LY-039",
       "LY-MU039"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: أوباري",
+    "source_locator": "municipalities catalogue entry position 2: أوباري",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "سواني بن أدم",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-95E04108CE85",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 86: سواني بن أدم",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "سبها",
@@ -8945,13 +9449,13 @@
       "LY-035",
       "LY-MU035"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: سبها",
+    "source_locator": "municipalities catalogue entry position 83: سبها",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "الشقيقة",
@@ -8966,13 +9470,13 @@
       "LY-079",
       "LY-MU079"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: الشقيقة",
+    "source_locator": "municipalities catalogue entry position 30: الشقيقة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "جادو",
@@ -8987,13 +9491,31 @@
       "LY-075",
       "LY-MU075"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: جادو",
+    "source_locator": "municipalities catalogue entry position 67: جادو",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "الرقيبة",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-990FC08C5AD7",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 143: الرقيبة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "الحرابة",
@@ -9008,13 +9530,13 @@
       "LY-084",
       "LY-MU084"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: الحرابة",
+    "source_locator": "municipalities catalogue entry position 16: الحرابة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "انتلات البيضان",
@@ -9028,13 +9550,49 @@
     "legacy_ids": [
       "LY-095"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: انتلات البيضان",
+    "source_locator": "municipalities catalogue entry position 54: انتلات البيضان",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "الجليدة",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-9F35C4A3CBB0",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 122: الجليدة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "برقن",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-A9F88A19D8D8",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 132: برقن",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "جالو",
@@ -9049,13 +9607,13 @@
       "LY-022",
       "LY-MU022"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: جالو",
+    "source_locator": "municipalities catalogue entry position 68: جالو",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "المعمورة",
@@ -9069,13 +9627,13 @@
     "legacy_ids": [
       "LY-091"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: المعمورة",
+    "source_locator": "municipalities catalogue entry position 49: المعمورة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "الحوامد",
@@ -9090,13 +9648,13 @@
       "LY-088",
       "LY-MU088"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: الحوامد",
+    "source_locator": "municipalities catalogue entry position 17: الحوامد",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "الماية",
@@ -9111,13 +9669,31 @@
       "LY-061",
       "LY-MU061"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: الماية",
+    "source_locator": "municipalities catalogue entry position 46: الماية",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "طرابلس المركز",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-B4D457D3DD42",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 94: طرابلس المركز",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "زليتن",
@@ -9132,13 +9708,13 @@
       "LY-047",
       "LY-MU047"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: زليتن",
+    "source_locator": "municipalities catalogue entry position 79: زليتن",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "هراوة",
@@ -9153,13 +9729,13 @@
       "LY-028",
       "LY-MU028"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: هراوة",
+    "source_locator": "municipalities catalogue entry position 115: هراوة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "البريقة",
@@ -9174,13 +9750,13 @@
       "LY-026",
       "LY-MU026"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: البريقة",
+    "source_locator": "municipalities catalogue entry position 12: البريقة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "الخمس",
@@ -9195,13 +9771,31 @@
       "LY-048",
       "LY-MU048"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: الخمس",
+    "source_locator": "municipalities catalogue entry position 18: الخمس",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "مدور الزيتون",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-C395040A594F",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 125: مدور الزيتون",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "درنة",
@@ -9216,13 +9810,13 @@
       "LY-004",
       "LY-MU004"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: درنة",
+    "source_locator": "municipalities catalogue entry position 75: درنة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "الكفرة",
@@ -9237,13 +9831,13 @@
       "LY-020",
       "LY-MU020"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: الكفرة",
+    "source_locator": "municipalities catalogue entry position 45: الكفرة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "صبراتة",
@@ -9258,13 +9852,31 @@
       "LY-064",
       "LY-MU064"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: صبراتة",
+    "source_locator": "municipalities catalogue entry position 91: صبراتة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "وردامة",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-CA075A77347D",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 119: وردامة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "قصر خيار",
@@ -9279,13 +9891,13 @@
       "LY-052",
       "LY-MU052"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: قصر خيار",
+    "source_locator": "municipalities catalogue entry position 103: قصر خيار",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "القرة بوللي",
@@ -9300,13 +9912,49 @@
       "LY-053",
       "LY-MU053"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: القرة بوللي",
+    "source_locator": "municipalities catalogue entry position 39: القرة بوللي",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "مرسى دفنة",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-D1F886D5E88E",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 109: مرسى دفنة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "راس الطبل",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-D22E5F5028BA",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 138: راس الطبل",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "يفرن",
@@ -9321,13 +9969,31 @@
       "LY-074",
       "LY-MU074"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: يفرن",
+    "source_locator": "municipalities catalogue entry position 120: يفرن",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "زلة",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-D57471E902C1",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 131: زلة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "الزهراء",
@@ -9342,13 +10008,67 @@
       "LY-060",
       "LY-MU060"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: الزهراء",
+    "source_locator": "municipalities catalogue entry position 26: الزهراء",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "العواته",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-D6944A9DC9E5",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 36: العواته",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "القواليش",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-D78135193316",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 43: القواليش",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "قرارة",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-D93997D1C4C9",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 142: قرارة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "تازربو",
@@ -9363,13 +10083,13 @@
       "LY-021",
       "LY-MU021"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: تازربو",
+    "source_locator": "municipalities catalogue entry position 62: تازربو",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "الرياينة",
@@ -9384,13 +10104,121 @@
       "LY-077",
       "LY-MU077"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: الرياينة",
+    "source_locator": "municipalities catalogue entry position 21: الرياينة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "المردوم",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-DE40DD135A12",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 128: المردوم",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "البردي",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-DFF3E196D390",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 11: البردي",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "عين غزالة",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-E18299CD962F",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 98: عين غزالة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "الزاوية الجنوب",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-E507A3F88BC5",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 23: الزاوية الجنوب",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "مزدة",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-E6E436827F07",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 110: مزدة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "أبوسليم",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-EA4007F6A73B",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 1: أبوسليم",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "نسمة",
@@ -9405,13 +10233,13 @@
       "LY-080",
       "LY-MU080"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: نسمة",
+    "source_locator": "municipalities catalogue entry position 114: نسمة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "قمينس",
@@ -9426,13 +10254,31 @@
       "LY-018",
       "LY-MU018"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: قمينس",
+    "source_locator": "municipalities catalogue entry position 104: قمينس",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "العربان",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-EC4223E0721D",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 34: العربان",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "ظاهر الجبل",
@@ -9447,13 +10293,13 @@
       "LY-083",
       "LY-MU083"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: ظاهر الجبل",
+    "source_locator": "municipalities catalogue entry position 95: ظاهر الجبل",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "القبة",
@@ -9468,13 +10314,13 @@
       "LY-006",
       "LY-MU006"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: القبة",
+    "source_locator": "municipalities catalogue entry position 38: القبة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "باطن الجبل",
@@ -9489,13 +10335,13 @@
       "LY-089",
       "LY-MU089"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: باطن الجبل",
+    "source_locator": "municipalities catalogue entry position 56: باطن الجبل",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "الغريفة",
@@ -9510,13 +10356,13 @@
       "LY-038",
       "LY-MU038"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: الغريفة",
+    "source_locator": "municipalities catalogue entry position 37: الغريفة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "براك الشاطئ",
@@ -9531,13 +10377,13 @@
       "LY-032",
       "LY-MU032"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: براك الشاطئ",
+    "source_locator": "municipalities catalogue entry position 57: براك الشاطئ",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "جنزور",
@@ -9552,13 +10398,13 @@
       "LY-058",
       "LY-MU058"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: جنزور",
+    "source_locator": "municipalities catalogue entry position 70: جنزور",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "بني وليد",
@@ -9573,13 +10419,13 @@
       "LY-051",
       "LY-MU051"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: بني وليد",
+    "source_locator": "municipalities catalogue entry position 60: بني وليد",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "بنت بية",
@@ -9594,13 +10440,13 @@
       "LY-037",
       "LY-MU037"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: بنت بية",
+    "source_locator": "municipalities catalogue entry position 58: بنت بية",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "المنشية الجميل",
@@ -9614,13 +10460,13 @@
     "legacy_ids": [
       "LY-093"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: المنشية الجميل",
+    "source_locator": "municipalities catalogue entry position 51: المنشية الجميل",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "المرج",
@@ -9635,13 +10481,31 @@
       "LY-012",
       "LY-MU012"
     ],
-    "notes": "Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.",
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
     "schema_version": "2.0.0",
-    "source_locator": "Municipality list entry: المرج",
+    "source_locator": "municipalities catalogue entry position 47: المرج",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "canonical_name": "العوينات",
+    "canonical_name_language": "ar",
+    "canonical_source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "confidence": "high",
+    "coordinates": null,
+    "country_code": "LY",
+    "entity_type": "ly_municipality",
+    "id": "ENT-LY-MUNICIPALITY-FEFA64FA0694",
+    "legacy_ids": [],
+    "notes": "Current municipality in exact 2026-08-17 Ministry catalogue; catalogue presence does not imply effective-control status.",
+    "schema_version": "2.0.0",
+    "source_locator": "municipalities catalogue entry position 126: العوينات",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "canonical_name": "البطنان",

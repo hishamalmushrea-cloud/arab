@@ -1,7 +1,8 @@
 {
   "caveats": [
-    "الشعبيات التاريخية منفصلة كليًا عن البلديات الحالية؛ القائمة الحالية متغيرة والمواد القديمة تغطي subset فقط.",
-    "Local coverage remains incomplete; file or directory existence is not a denominator."
+    "141 municipalities close only the exact Ministry catalogue snapshot; no effective-control claim.",
+    "22 historical sha’biyat remain 2006-only and never parent current municipalities.",
+    "Mahalla denominator unavailable."
   ],
   "country": {
     "entity_id": "ENT-LY-COUNTRY",
@@ -40,13 +41,23 @@
         "country"
       ],
       "caveat": null,
+      "coverage_record_id": "COV-LY-CURRENT-MUNICIPALITIES",
+      "denominator": 141,
+      "denominator_id": "DEN-LY-CURRENT-MUNICIPALITIES",
       "entity_type": "ly_municipality",
       "level": 1,
+      "license": "License not stated on source page",
       "local_names": [
         "بلدية"
       ],
+      "notes": "Exact Ministry catalogue snapshot.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
       "source_ids": [
         "SRC-LY-MOLG-MUNICIPALITIES-2026"
+      ],
+      "special_cases": [
+        "No effective-control inference."
       ],
       "temporal_statuses": [
         "current",
@@ -67,14 +78,22 @@
         "ly_municipality"
       ],
       "caveat": "الشعبيات التاريخية منفصلة كليًا عن البلديات الحالية؛ القائمة الحالية متغيرة والمواد القديمة تغطي subset فقط.",
+      "coverage_record_id": "COV-LY-MAHALLAS",
+      "denominator": null,
+      "denominator_id": "DEN-LY-MAHALLAS",
       "entity_type": "ly_mahalla",
       "level": 2,
+      "license": "License not stated on source page",
       "local_names": [
         "محلة"
       ],
+      "notes": "No complete national register.",
+      "scope_status": "unavailable",
+      "snapshot_date": "2026-08-17",
       "source_ids": [
         "SRC-LY-MOLG-MUNICIPALITIES-2026"
       ],
+      "special_cases": [],
       "temporal_statuses": [
         "current",
         "historical",
@@ -117,7 +136,7 @@
       "verification_status": "historical"
     }
   ],
-  "next_action": "Reconcile pilot denominators and missing official tiers before local expansion.",
+  "next_action": "Maintain exact 141 catalogue; add effective-control or alternate-authority overlays only as dated Claims.",
   "official_authority": {
     "missing_reason": null,
     "name": "وزارة الحكم المحلي / مصلحة الإحصاء والتعداد",
@@ -126,13 +145,59 @@
       "SRC-LY-LAW-59-2012",
       "SRC-LY-BSC-CENSUS-2006"
     ],
-    "verification_status": "partial"
+    "verification_status": "verified"
   },
+  "pilot_layers": [
+    {
+      "authority_name": "وزارة الحكم المحلي",
+      "coverage_record_id": "COV-LY-CURRENT-MUNICIPALITIES",
+      "denominator": 141,
+      "denominator_id": "DEN-LY-CURRENT-MUNICIPALITIES",
+      "entity_types": [
+        "ly_municipality"
+      ],
+      "layer": "current_municipalities",
+      "license": "License not stated on source page",
+      "local_names": [
+        "بلدية"
+      ],
+      "notes": "Exact catalogue snapshot.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-LY-MOLG-MUNICIPALITIES-2026"
+      ],
+      "special_cases": [
+        "No effective-control inference."
+      ]
+    },
+    {
+      "authority_name": "مصلحة الإحصاء والتعداد",
+      "coverage_record_id": "COV-LY-HISTORICAL-SHABIYAT-2006",
+      "denominator": 22,
+      "denominator_id": "DEN-LY-HISTORICAL-SHABIYAT-2006",
+      "entity_types": [
+        "ly_shabiya_historical"
+      ],
+      "layer": "historical_shabiyat_2006",
+      "license": "License not stated on source page",
+      "local_names": [
+        "شعبية تاريخية"
+      ],
+      "notes": "Historical only.",
+      "scope_status": "closed",
+      "snapshot_date": "2006-04-15",
+      "source_ids": [
+        "SRC-LY-BSC-CENSUS-2006"
+      ],
+      "special_cases": []
+    }
+  ],
   "schema_version": "2.0.0",
   "snapshot": {
-    "as_of": "2026-08-15",
-    "snapshot_id": "SNP-LY-MUNICIPALITIES-2026-08-15",
-    "status": "partial"
+    "as_of": "2026-08-17",
+    "snapshot_id": "SNP-LY-MUNICIPALITIES-2026-08-17",
+    "status": "verified"
   },
   "status": "pilot_migrated"
 }

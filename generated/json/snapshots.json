@@ -121,15 +121,15 @@
     "title": "Libya 2006 census-region snapshot"
   },
   {
-    "captured_at": "2026-08-15",
-    "checksum": null,
-    "id": "SNP-LY-MUNICIPALITIES-2026-08-15",
-    "method": "Exact normalized Arabic-name matching, with one explicit article variant",
-    "notes": "The extraction was used to match identities, not to accept a national denominator. No legal effective date was inferred from retrieval date.",
+    "captured_at": "2026-08-17",
+    "checksum": "sha256:f85a939de5136a5b49baca48533c0667d2f352c6df3ccdab219cd9bd47f4e4c5",
+    "id": "SNP-LY-MUNICIPALITIES-2026-08-17",
+    "method": "Exact rendered catalogue enumeration; no cross-authority union.",
+    "notes": "Effective control, mahallas, and alternate-authority lists remain separate/unavailable.",
     "schema_version": "2.0.0",
-    "scope": "Retrieved Ministry municipality catalogue; legacy subset matching only; denominator unresolved",
+    "scope": "141 current catalogue municipality names",
     "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "title": "Libya Ministry of Local Government municipality register retrieval"
+    "title": "Libya exact Ministry municipality catalogue"
   },
   {
     "captured_at": "2026-08-16",

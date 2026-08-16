@@ -137,8 +137,9 @@ def phase1(gate: Gate) -> None:
     ly_current = [row for row in entities if row["country_code"] == "LY" and row["entity_type"] == "ly_municipality"]
     ly_historic = [row for row in entities if row["country_code"] == "LY" and row["entity_type"] == "ly_shabiya_historical"]
     ly_current_den = den_by_id[cov_by_scope[("LY", "current_municipalities")]["denominator_id"]]
-    gate.require((len(ly_current), len(ly_historic)) == (93, 22), "libya_layers", f"matched current municipality subset={len(ly_current)}, historical sha‘biyat={len(ly_historic)}")
-    gate.require(ly_current_den.get("value") is None and ly_current_den.get("status") == "unavailable", "libya_denominator", "current national municipality denominator remains unresolved")
+    gate.require((len(ly_current), len(ly_historic)) == (141, 22), "libya_layers", f"exact current Ministry catalogue={len(ly_current)}, historical sha‘biyat={len(ly_historic)}")
+    ly_current_cov = cov_by_scope[("LY", "current_municipalities")]
+    gate.require(ly_current_den.get("value") == 141 and ly_current_den.get("status") == "official" and ly_current_cov.get("matched") == 141 and ly_current_cov.get("complete"), "libya_denominator", "current exact Ministry snapshot closes at 141; no effective-control inference")
     historic_ids = {row["id"] for row in ly_historic}
     current_ids = {row["id"] for row in ly_current}
     mixed = [row["id"] for row in relationships if row.get("child_id") in historic_ids and row.get("parent_id") in current_ids]

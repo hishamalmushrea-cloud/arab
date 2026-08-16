@@ -1,18 +1,18 @@
 {
   "archive_url": null,
-  "checksum": null,
+  "checksum": "sha256:2b3660ee62cfccd70927d5eea2ad490d67979f8b533b03b9423b6c0e73fb9a9c",
   "country_codes": [
     "LY"
   ],
   "id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
   "language": "ar",
   "license": "License not stated on the source page",
-  "locator": "National municipalities catalogue and municipality profile links",
-  "notes": "Publication and content-effective dates are not stated. The map-heavy catalogue extraction was not accepted as a national denominator; retrieval date is not treated as legal commencement date.",
+  "locator": "Complete rendered municipalities catalogue: 141 named entries; numbering gaps 124 and 140 are presentation gaps, not missing records",
+  "notes": "Publication/content-effective date unavailable. The rendered catalogue was enumerated exactly on 2026-08-17; 141 names are accepted as the current source snapshot. Number labels skip 124 and 140 while the record count remains 141.",
   "publication_date": null,
   "publisher": "وزارة الحكم المحلي الليبية",
   "quality_tier": "A",
-  "retrieved_at": "2026-08-15",
+  "retrieved_at": "2026-08-17",
   "schema_version": "2.0.0",
   "source_type": "official_register",
   "title": "قائمة البلديات",

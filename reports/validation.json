@@ -19,7 +19,7 @@
       "status": "pass"
     },
     "coverage": {
-      "complete_layers": 81,
+      "complete_layers": 82,
       "coverage_records": 93,
       "denominators": 93,
       "status": "pass"
@@ -51,7 +51,7 @@
     },
     "ids": {
       "duplicate_ids": 0,
-      "global_ids": 16591,
+      "global_ids": 16687,
       "status": "pass"
     },
     "independent_review": {
@@ -83,7 +83,7 @@
       "status": "pass"
     },
     "parents": {
-      "administrative_relationships": 5110,
+      "administrative_relationships": 5158,
       "status": "pass"
     },
     "phase2_tunisia": {
@@ -109,13 +109,13 @@
     },
     "sources": {
       "atomic_files": 137,
-      "references": 19255,
+      "references": 19351,
       "sources": 137,
       "status": "pass"
     },
     "structured_data": {
       "record_families": 8,
-      "records": 16591,
+      "records": 16687,
       "status": "pass"
     },
     "unicode": {
@@ -128,9 +128,9 @@
     "claims": 2180,
     "coverage": 93,
     "denominators": 93,
-    "entities": 5207,
+    "entities": 5255,
     "manifests": 22,
-    "relationships": 5596,
+    "relationships": 5644,
     "snapshots": 24,
     "sources": 137
   },

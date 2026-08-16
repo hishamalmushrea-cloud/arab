@@ -1725,6 +1725,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-D78135193316",
+    "confidence": "high",
+    "id": "REL-07D725C7787FA7C8",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 43: القواليش",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-34539999",
     "confidence": "high",
     "id": "REL-07E898094CE259A4",
@@ -2220,21 +2235,6 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-CFAF4C305593",
-    "confidence": "high",
-    "id": "REL-0A8954E5864B5357",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: القرة بوللي",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-MUNICIPALITY-2111",
     "confidence": "high",
     "id": "REL-0A8DA9CAA7DB5FE0",
@@ -2443,6 +2443,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-3FF1E6BB5656",
+    "confidence": "high",
+    "id": "REL-0B3D21AC81B4A30F",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 129: تنيناي",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-1762562",
@@ -2985,6 +3000,21 @@
     "verification_status": "source_verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-91553A623E51",
+    "confidence": "high",
+    "id": "REL-0DCD3F1831991834",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 29: الشرقية",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-MUNICIPALITY-6317",
     "confidence": "high",
     "id": "REL-0DD0A6C277B45498",
@@ -3120,6 +3150,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-4C13BE888BC7",
+    "confidence": "high",
+    "id": "REL-0E3A6620CD91920A",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 14: الجفرة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-MUNICIPALITY-4116",
     "confidence": "medium",
     "id": "REL-0E43C7BD9EEC52A4",
@@ -3210,6 +3255,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-23B2634B3615",
+    "confidence": "high",
+    "id": "REL-0ECE2DAB8C91178A",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 88: سوق الجمعة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-JO-LIWA-74DBC7283810",
     "confidence": "high",
     "id": "REL-0EDFCEA649055154",
@@ -3249,21 +3309,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-DGCL-MUNICIPALITIES-2024",
     "source_locator": "January 2024 workbook row: governorate 23; municipality code 2318",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-0104004B1CE5",
-    "confidence": "high",
-    "id": "REL-0F09AE94266C5692",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: البيضاء",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -3750,6 +3795,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-8ABF09577618",
+    "confidence": "high",
+    "id": "REL-11FB9DB96FBFBFAC",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 97: عين زارة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-MUNICIPALITY-4117",
     "confidence": "high",
     "id": "REL-121843DE73845A30",
@@ -3879,6 +3939,36 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-RESEARCH-GEOMETRY-2018",
     "source_locator": "sector evidence rows: 34511226,34511227,34511228,34511229,34511230,34511231,34511232,34511233,34511234,34511235,34511236,34511237",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-B25A962E6769",
+    "confidence": "high",
+    "id": "REL-12E0649AC380FA03",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 46: الماية",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-F40D066C5986",
+    "confidence": "high",
+    "id": "REL-1305756AD172170E",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 37: الغريفة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -4215,6 +4305,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-3A50785BFF59",
+    "confidence": "high",
+    "id": "REL-1579C95F47F505A1",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 127: تجرهي",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-1559381",
     "confidence": "high",
     "id": "REL-15A9FA54C62A50BF",
@@ -4425,21 +4530,6 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-8C4070B1C459",
-    "confidence": "high",
-    "id": "REL-16C0E73175DE504A",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: اجخرة",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-MUNICIPALITY-5311",
     "confidence": "medium",
     "id": "REL-16C3C6DCA0A9590B",
@@ -4584,21 +4674,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 34601294; dated ADM3 parent 3460",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-EB47AB2DA81E",
-    "confidence": "high",
-    "id": "REL-1742CD54736B5DD4",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: قمينس",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -4800,6 +4875,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-3D5A1B65D468",
+    "confidence": "high",
+    "id": "REL-184EF65B6379E044",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 69: جردس العبيد",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-31631027",
     "confidence": "high",
     "id": "REL-18852409B34950A0",
@@ -4809,21 +4899,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 31631027; dated ADM3 parent 3163",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-8A2464E3FAC0",
-    "confidence": "high",
-    "id": "REL-1886898A9EA2564B",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: نالوت",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -4884,21 +4959,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-DGCL-MUNICIPALITIES-2024",
     "source_locator": "January 2024 workbook row: governorate 53; municipality code 5315",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-639CE53EF9AE",
-    "confidence": "high",
-    "id": "REL-18F3BDAA7C855979",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: بئر الأشهب",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -5004,21 +5064,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 1652443; dated ADM3 parent 1652",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-B8BB1C665F4C",
-    "confidence": "high",
-    "id": "REL-19E9090203525874",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: البريقة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -5535,21 +5580,6 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-5E57DAFD65B0",
-    "confidence": "high",
-    "id": "REL-1C4550BC34F758B9",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: مسلاتة",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-IMADA-33591201",
     "confidence": "high",
     "id": "REL-1C4E0A00AADC5ABA",
@@ -5730,6 +5760,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-0B3C562E345A",
+    "confidence": "high",
+    "id": "REL-1D0C36674FF38B01",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 118: وازن",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-2357829",
     "confidence": "high",
     "id": "REL-1D10452885165B28",
@@ -5745,6 +5790,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-27C3CA1AD209",
+    "confidence": "high",
+    "id": "REL-1D15A1FE8B20F6D9",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 48: العوينة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-MUNICIPALITY-2325",
     "confidence": "high",
     "id": "REL-1D4BB3486782555B",
@@ -5758,6 +5818,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-7FC434299269",
+    "confidence": "high",
+    "id": "REL-1D4BDF2D636A9A05",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 6: إدري الشاطئ",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-MUNICIPALITY-4322",
@@ -6315,21 +6390,6 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-14B7549277FE",
-    "confidence": "high",
-    "id": "REL-1F6B6FCD609A5B09",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: الجميل",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-IMADA-1169139",
     "confidence": "high",
     "id": "REL-1F6E540CCA82578C",
@@ -6358,6 +6418,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-3F08A82CF654",
+    "confidence": "high",
+    "id": "REL-1F9F4890E4EE66AC",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 20: الرحيبات",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-2151590",
@@ -6774,21 +6849,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-JO-REGULATION-46-2000",
     "source_locator": "Regulation No. 46 of 2000, Article 10; Liwa البادية الشمالية الغربية clause",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-67BDC85C1CB5",
-    "confidence": "high",
-    "id": "REL-215EC587808C5C17",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: تاورغاء",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -7620,6 +7680,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-5961D8CD5655",
+    "confidence": "high",
+    "id": "REL-250AD32FC41A2BD3",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 3: أوجلة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-3155967",
     "confidence": "high",
     "id": "REL-251CE3207EE65A1C",
@@ -7740,6 +7815,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-C708E653F362",
+    "confidence": "high",
+    "id": "REL-25BD9BBE44748FA9",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 45: الكفرة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-1566420",
     "confidence": "high",
     "id": "REL-25DD5EB306D1573B",
@@ -7839,21 +7929,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-JO-REGULATION-46-2000",
     "source_locator": "Regulation No. 46 of 2000, Article 7; Liwa قصبة الكرك clause",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-80B4FBE143D0",
-    "confidence": "high",
-    "id": "REL-2646EAD728F0595C",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: امساعد",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -8319,21 +8394,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 2453882; dated ADM3 parent 2453",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-B59B50E775C4",
-    "confidence": "high",
-    "id": "REL-290AC9FE84D557C7",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: هراوة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -9270,6 +9330,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-966E30F82E9C",
+    "confidence": "high",
+    "id": "REL-2D78B1A838786034",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 30: الشقيقة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-2353788",
     "confidence": "high",
     "id": "REL-2D799A3F5CC45F26",
@@ -10125,19 +10200,19 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-4433AF57307B",
+    "child_id": "ENT-LY-MUNICIPALITY-FEFA64FA0694",
     "confidence": "high",
-    "id": "REL-30ED9F0253795F3E",
-    "notes": null,
+    "id": "REL-30FA4292BB0EAC3D",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
     "parent_id": "ENT-LY-COUNTRY",
     "relationship_type": "administrative_parent",
     "schema_version": "2.0.0",
     "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: خليج السدرة",
+    "source_locator": "municipalities catalogue entry position 126: العوينات",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-11599998",
@@ -10590,19 +10665,34 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-966E30F82E9C",
+    "child_id": "ENT-LY-MUNICIPALITY-4F6B5309ABE3",
     "confidence": "high",
-    "id": "REL-3422B688EA285BEF",
-    "notes": null,
+    "id": "REL-33E41B41789776C0",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
     "parent_id": "ENT-LY-COUNTRY",
     "relationship_type": "administrative_parent",
     "schema_version": "2.0.0",
     "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: الشقيقة",
+    "source_locator": "municipalities catalogue entry position 40: القرضة الشاطئ",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-304B609448ED",
+    "confidence": "high",
+    "id": "REL-3415FEA5F4EB57DD",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 135: بركت",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-2451865",
@@ -10873,6 +10963,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-0E9CF3F0052F",
+    "confidence": "high",
+    "id": "REL-35526F7FF21BACFC",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 133: اوال",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-GOVERNORATE-D7972CC63F7E",
@@ -11520,6 +11625,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-2C755B8DDC63",
+    "confidence": "high",
+    "id": "REL-3881480F100FADDC",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 141: جرمة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-MUNICIPALITY-3121",
     "confidence": "high",
     "id": "REL-38884E8D35C65252",
@@ -11880,6 +12000,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-D6944A9DC9E5",
+    "confidence": "high",
+    "id": "REL-3A10ECB8521697C5",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 36: العواته",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-33561174",
     "confidence": "high",
     "id": "REL-3A4151185E345E63",
@@ -11979,21 +12114,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 62522002; dated ADM3 parent 6252",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-7A62834C5F28",
-    "confidence": "high",
-    "id": "REL-3ADDC2602F295D88",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: تاجوراء",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -12630,6 +12750,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-EA4007F6A73B",
+    "confidence": "high",
+    "id": "REL-3E6D9F400345A2F8",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 1: أبوسليم",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-2255724",
     "confidence": "high",
     "id": "REL-3E7689D4E5DF59E8",
@@ -12658,6 +12793,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-AD0C538A1BA2",
+    "confidence": "high",
+    "id": "REL-3EB19CEB98D63754",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 49: المعمورة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-2451864",
@@ -12703,21 +12853,6 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "source_verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-9DE4415D3676",
-    "confidence": "high",
-    "id": "REL-3ED05762E756584F",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: انتلات البيضان",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
   },
   {
     "child_id": "ENT-TN-IMADA-1254187",
@@ -12810,19 +12945,19 @@
     "verification_status": "source_verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-F4FDB1290DF0",
+    "child_id": "ENT-LY-MUNICIPALITY-4E91350CFFCA",
     "confidence": "high",
-    "id": "REL-3F7A0D22851C507B",
-    "notes": null,
+    "id": "REL-3F8265F663B6FD86",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
     "parent_id": "ENT-LY-COUNTRY",
     "relationship_type": "administrative_parent",
     "schema_version": "2.0.0",
     "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: بني وليد",
+    "source_locator": "municipalities catalogue entry position 136: سيناون",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-MUNICIPALITY-4229",
@@ -12958,6 +13093,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-45A161F8CB47",
+    "confidence": "high",
+    "id": "REL-402CDA2EC86016F9",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 101: غريان",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-2251679",
@@ -13170,21 +13320,6 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-F35EF09283B9",
-    "confidence": "high",
-    "id": "REL-415223B0E2E6506C",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: باطن الجبل",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-IMADA-52531781",
     "confidence": "high",
     "id": "REL-416E134A6900588B",
@@ -13329,21 +13464,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 61541943; dated ADM3 parent 6154",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-507856C16526",
-    "confidence": "high",
-    "id": "REL-422F359266BE5A1C",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: الأبيار",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -13860,21 +13980,6 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-080FA16C04CC",
-    "confidence": "high",
-    "id": "REL-45411159134456E9",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: زوارة",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-DELEGATION-A638A51CF8F7",
     "confidence": "high",
     "id": "REL-455A4D89EBF451C4",
@@ -13963,6 +14068,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-1A5203BDE4FA",
+    "confidence": "high",
+    "id": "REL-45BE723621FDA1ED",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 78: زلطن",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-MUNICIPALITY-3116",
@@ -14400,19 +14520,19 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-3177FB198116",
+    "child_id": "ENT-LY-MUNICIPALITY-20EF5969DF9B",
     "confidence": "high",
-    "id": "REL-47B57E5C5B0D5879",
-    "notes": null,
+    "id": "REL-47B91FBF4577ABFA",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
     "parent_id": "ENT-LY-COUNTRY",
     "relationship_type": "administrative_parent",
     "schema_version": "2.0.0",
     "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: أم الرزم",
+    "source_locator": "municipalities catalogue entry position 116: وادي البوانيس",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-1561389",
@@ -14458,6 +14578,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-67FBB89D0610",
+    "confidence": "high",
+    "id": "REL-481ED0016EE6F7D5",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 22: الزاوية",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-41511359",
@@ -15060,6 +15195,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-B4D457D3DD42",
+    "confidence": "high",
+    "id": "REL-4BBE19AE54EA3015",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 94: طرابلس المركز",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-33541166",
     "confidence": "high",
     "id": "REL-4BC5DF6A8377550A",
@@ -15084,21 +15234,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-DGCL-MUNICIPALITIES-2024",
     "source_locator": "January 2024 workbook row: governorate 34; municipality code 3428",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-B4F67D0D3B02",
-    "confidence": "high",
-    "id": "REL-4BDDF93B93F053E5",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: زليتن",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -15279,21 +15414,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 62511996; dated ADM3 parent 6251",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-987C4C244DF2",
-    "confidence": "high",
-    "id": "REL-4C9D0D9A6AC555E9",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: جادو",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -15534,21 +15654,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 63562062; dated ADM3 parent 6356",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-679CE4FCE061",
-    "confidence": "high",
-    "id": "REL-4DFC655DEB5D58E8",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: كاباو",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -16395,21 +16500,6 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-4C13BE888BC7",
-    "confidence": "high",
-    "id": "REL-52708CBC71ED5689",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: الجفرة",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-DELEGATION-C41B01AE892E",
     "confidence": "high",
     "id": "REL-5273FCD2C3CA55C0",
@@ -16605,6 +16695,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-2C0C4E0A63FB",
+    "confidence": "high",
+    "id": "REL-547BDEAD190F427B",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 107: مرادة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-LY-SHABIYA-HISTORICAL-60953DB053E4",
     "confidence": "high",
     "id": "REL-5495ED5D7A3B5C70",
@@ -16618,6 +16723,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-6DCB46097B61",
+    "confidence": "high",
+    "id": "REL-549908FD9AF4A13F",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 19: الرجبان",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-MUNICIPALITY-6112",
@@ -17055,21 +17175,6 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-90065E4F47F0",
-    "confidence": "high",
-    "id": "REL-563BFAB0C6EA566C",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: توكرة",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-DELEGATION-FD2AE43A4C3D",
     "confidence": "high",
     "id": "REL-563F590D80D25573",
@@ -17160,19 +17265,34 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-9215CE466738",
+    "child_id": "ENT-LY-MUNICIPALITY-19604B73339C",
     "confidence": "high",
-    "id": "REL-56EA719A7F8E5EDA",
-    "notes": null,
+    "id": "REL-56D7C7FF6C62095D",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
     "parent_id": "ENT-LY-COUNTRY",
     "relationship_type": "administrative_parent",
     "schema_version": "2.0.0",
     "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: شحات",
+    "source_locator": "municipalities catalogue entry position 5: إجدابيا",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-507856C16526",
+    "confidence": "high",
+    "id": "REL-56F9133B422BA631",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 9: الأبيار",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-1764574",
@@ -17188,6 +17308,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-3177FB198116",
+    "confidence": "high",
+    "id": "REL-57292BFF1581E286",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 121: أم الرزم",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-MUNICIPALITY-4312",
@@ -17355,19 +17490,19 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-6DCB46097B61",
+    "child_id": "ENT-LY-MUNICIPALITY-5FB50232A71C",
     "confidence": "high",
-    "id": "REL-5811C6C52C8E5E2B",
-    "notes": null,
+    "id": "REL-5815D85A6003ADF7",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
     "parent_id": "ENT-LY-COUNTRY",
     "relationship_type": "administrative_parent",
     "schema_version": "2.0.0",
     "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: الرجبان",
+    "source_locator": "municipalities catalogue entry position 99: غات",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-MUNICIPALITY-3211",
@@ -17739,21 +17874,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 52551801; dated ADM3 parent 5255",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-CD923B017533",
-    "confidence": "high",
-    "id": "REL-59988930080A5421",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: قصر خيار",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -18135,6 +18255,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-9215CE466738",
+    "confidence": "high",
+    "id": "REL-5C0EFAA1C7D07533",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 90: شحات",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-61541939",
     "confidence": "high",
     "id": "REL-5C2B67F6714554F5",
@@ -18309,6 +18444,21 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-RESEARCH-GEOMETRY-2018",
     "source_locator": "sector evidence rows: 51531697,51531698,51531699",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-4B900A13CFFC",
+    "confidence": "high",
+    "id": "REL-5D0701117C58C901",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 106: ككلة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -18630,21 +18780,6 @@
     "verification_status": "source_verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-6BDBE6600EED",
-    "confidence": "high",
-    "id": "REL-5EB65F6598BE5FF7",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: القلعة",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-IMADA-2154621",
     "confidence": "high",
     "id": "REL-5EBF8E6A494759BF",
@@ -18855,6 +18990,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-2B314A80B1E9",
+    "confidence": "high",
+    "id": "REL-60032DC0343B82AE",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 84: سرت",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-DELEGATION-A9463801F6AD",
     "confidence": "high",
     "id": "REL-60136F9986615DC6",
@@ -18990,21 +19140,6 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-2B314A80B1E9",
-    "confidence": "high",
-    "id": "REL-60E99595D4A15D6E",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: سرت",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-IMADA-2159667",
     "confidence": "high",
     "id": "REL-60FD9AD84F9A53AD",
@@ -19123,6 +19258,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-EF3A79E8C3E3",
+    "confidence": "high",
+    "id": "REL-61B7FA6BB97A3080",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 95: ظاهر الجبل",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-34581277",
@@ -19260,21 +19410,6 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-67FBB89D0610",
-    "confidence": "high",
-    "id": "REL-62CF05B14526590D",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: الزاوية",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-MUNICIPALITY-3412",
     "confidence": "medium",
     "id": "REL-62D35F9944045000",
@@ -19305,6 +19440,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-575DC06D8912",
+    "confidence": "high",
+    "id": "REL-62D522E8A09F6F89",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 139: المنطقة الادارية الشعبة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-JO-CITY-0E2F3C63BD3B",
     "confidence": "high",
     "id": "REL-62EBD8D053F256C4",
@@ -19318,6 +19468,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-D1F886D5E88E",
+    "confidence": "high",
+    "id": "REL-62F39F2664F3B723",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 109: مرسى دفنة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-JO-QADA-EF24AE55EEBD",
@@ -19389,21 +19554,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 1359251; dated ADM3 parent 1359",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-0F4C4033DB6A",
-    "confidence": "high",
-    "id": "REL-637A2A15F9095B93",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: المليطانية",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -19584,21 +19734,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-DGCL-MUNICIPALITIES-2024",
     "source_locator": "January 2024 workbook row: governorate 41; municipality code 4126",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-C8CC4F9CD2B3",
-    "confidence": "high",
-    "id": "REL-645A5768895A5298",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: صبراتة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -20415,21 +20550,6 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-5D6A4BA52C7D",
-    "confidence": "high",
-    "id": "REL-67F8E26A721052F8",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: غدامس",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-DELEGATION-E56B524C71BE",
     "confidence": "high",
     "id": "REL-67FCB656AA395A26",
@@ -20544,6 +20664,21 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-RESEARCH-GEOMETRY-2018",
     "source_locator": "sector evidence rows: 61511914,61511915,61511916,61511917,61511918,61511919,61511920",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-E18299CD962F",
+    "confidence": "high",
+    "id": "REL-689192DC94E67BDC",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 98: عين غزالة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -20730,6 +20865,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-D22E5F5028BA",
+    "confidence": "high",
+    "id": "REL-69C78A04C099725F",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 138: راس الطبل",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-51591741",
     "confidence": "high",
     "id": "REL-69D304F31F6553D0",
@@ -20908,6 +21058,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-CD923B017533",
+    "confidence": "high",
+    "id": "REL-6AA662B88B64A2C6",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 103: قصر خيار",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-61561955",
@@ -21120,6 +21285,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-F4FDB1290DF0",
+    "confidence": "high",
+    "id": "REL-6B7526F0CDFE929C",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 60: بني وليد",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-2357826",
     "confidence": "high",
     "id": "REL-6B85B3B24A53536D",
@@ -21225,6 +21405,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-8C4070B1C459",
+    "confidence": "high",
+    "id": "REL-6BE823F694E7882E",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 4: اجخرة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-DELEGATION-5E40024695DE",
     "confidence": "high",
     "id": "REL-6C2F5A9942315466",
@@ -21279,21 +21474,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 2361857; dated ADM3 parent 2361",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-1A5203BDE4FA",
-    "confidence": "high",
-    "id": "REL-6C524D17A4285461",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: زلطن",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -21418,6 +21598,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-0F4C4033DB6A",
+    "confidence": "high",
+    "id": "REL-6CF7876970614A4C",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 50: المليطانية",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-116078",
@@ -21585,21 +21780,6 @@
     "verification_status": "source_verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-9571F0E2CA7A",
-    "confidence": "high",
-    "id": "REL-6D9C5660C27F51B6",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: أوباري",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-IMADA-2152599",
     "confidence": "high",
     "id": "REL-6DBAA34FD615587C",
@@ -21714,21 +21894,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 3156971; dated ADM3 parent 3156",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-2C0C4E0A63FB",
-    "confidence": "high",
-    "id": "REL-6DFA3F8A68185DE1",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: مرادة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -21958,6 +22123,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-7A62834C5F28",
+    "confidence": "high",
+    "id": "REL-6F58E3A0AA907233",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 61: تاجوراء",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-MUNICIPALITY-3124",
@@ -22230,6 +22410,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-990FC08C5AD7",
+    "confidence": "high",
+    "id": "REL-710D758D9170328C",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 143: الرقيبة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-1451285",
     "confidence": "high",
     "id": "REL-711FA109E01C5FE8",
@@ -22245,6 +22440,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-A9F88A19D8D8",
+    "confidence": "high",
+    "id": "REL-712034F1875427F6",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 132: برقن",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-MUNICIPALITY-1538",
     "confidence": "medium",
     "id": "REL-712288B16DB85A1C",
@@ -22254,6 +22464,21 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-RESEARCH-GEOMETRY-2018",
     "source_locator": "sector evidence rows: 1561389,1561390",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-D57471E902C1",
+    "confidence": "high",
+    "id": "REL-7135BBEC01493313",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 131: زلة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -22485,6 +22710,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-555819A90380",
+    "confidence": "high",
+    "id": "REL-721FCF1605DEEB5A",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 134: تهالة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-MUNICIPALITY-3225",
     "confidence": "high",
     "id": "REL-724D7E1961895DE5",
@@ -22584,21 +22824,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 32531063; dated ADM3 parent 3253",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-EF5D9FE95D5A",
-    "confidence": "high",
-    "id": "REL-72CC25FD6CB35F80",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: القبة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -22860,6 +23085,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-B59B50E775C4",
+    "confidence": "high",
+    "id": "REL-7431B81FC83DDDF0",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 115: هراوة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-41521369",
     "confidence": "high",
     "id": "REL-743338AA01655895",
@@ -23055,6 +23295,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-6B417A6E18B3",
+    "confidence": "high",
+    "id": "REL-757D700C7B548F2C",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 10: الأصابعة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-MUNICIPALITY-2223",
     "confidence": "high",
     "id": "REL-7584DB7BD504535E",
@@ -23158,21 +23413,6 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "source_verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-6542F9B46B75",
-    "confidence": "high",
-    "id": "REL-75F0A6BB4F395457",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: الشويرف",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
   },
   {
     "child_id": "ENT-TN-MUNICIPALITY-1323",
@@ -23715,6 +23955,36 @@
     "verification_status": "source_verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-E6E436827F07",
+    "confidence": "high",
+    "id": "REL-78CAEEC9139B508F",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 110: مزدة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-53AFB4346C77",
+    "confidence": "high",
+    "id": "REL-78E12DD83E0D39AA",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 7: اسبيعة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-42631568",
     "confidence": "high",
     "id": "REL-78FD9B67CEEB59D5",
@@ -23955,6 +24225,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-3562F31EC9BC",
+    "confidence": "high",
+    "id": "REL-79E183ADFE416526",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 64: تراغن",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-33601213",
     "confidence": "high",
     "id": "REL-79FA1331561F588A",
@@ -24075,6 +24360,21 @@
     "verification_status": "source_verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-EC4223E0721D",
+    "confidence": "high",
+    "id": "REL-7A7CB8CC4F54F931",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 34: العربان",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-43521589",
     "confidence": "high",
     "id": "REL-7A93156B78E75CC4",
@@ -24114,21 +24414,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM3 row / dated 264-delegation research code 4254",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-4943A937AB74",
-    "confidence": "high",
-    "id": "REL-7AE653DD1D1F5AE6",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: الناصرية",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -24388,6 +24673,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-95E04108CE85",
+    "confidence": "high",
+    "id": "REL-7CE6A3B05258C0DD",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 86: سواني بن أدم",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-JO-QADA-92FBC9D44DB0",
@@ -25515,19 +25815,19 @@
     "verification_status": "source_verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-4F6B5309ABE3",
+    "child_id": "ENT-LY-MUNICIPALITY-8AB968301F7C",
     "confidence": "high",
-    "id": "REL-8191CBCBB9BC5636",
-    "notes": null,
+    "id": "REL-8190CDF1DA8205D6",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
     "parent_id": "ENT-LY-COUNTRY",
     "relationship_type": "administrative_parent",
     "schema_version": "2.0.0",
     "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: القرضة الشاطئ",
+    "source_locator": "municipalities catalogue entry position 87: سوسة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-41521366",
@@ -25785,6 +26085,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-39387C872169",
+    "confidence": "high",
+    "id": "REL-83C64946F60D5E35",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 65: ترهونة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-1756522",
     "confidence": "high",
     "id": "REL-83CEFC2045585B01",
@@ -25888,6 +26203,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-4E546CBA4C78",
+    "confidence": "high",
+    "id": "REL-842FB79A864EEB64",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 8: الأبرق",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-2158658",
@@ -26034,6 +26364,36 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-RESEARCH-GEOMETRY-2018",
     "source_locator": "sector evidence rows: 1752488,1752489,1752490,1752491",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-80B4FBE143D0",
+    "confidence": "high",
+    "id": "REL-84BF9E523957CA62",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 53: امساعد",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-9DE4415D3676",
+    "confidence": "high",
+    "id": "REL-84C53AF840DE5CE3",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 54: انتلات البيضان",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -26490,6 +26850,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-7AC0E1A90E0F",
+    "confidence": "high",
+    "id": "REL-86396F8B3AD41C83",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 32: العامرية",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-41611465",
     "confidence": "high",
     "id": "REL-865EBD43BD465D40",
@@ -26880,21 +27255,6 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-AC19BA540992",
-    "confidence": "high",
-    "id": "REL-8836FBBC66FD5E74",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: جالو",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-IMADA-2460938",
     "confidence": "high",
     "id": "REL-883916EF18785E40",
@@ -27103,21 +27463,6 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "source_verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-19604B73339C",
-    "confidence": "high",
-    "id": "REL-89A8A77088885EE5",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: إجدابيا",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
   },
   {
     "child_id": "ENT-TN-IMADA-34561266",
@@ -27705,6 +28050,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-D66FFBC10410",
+    "confidence": "high",
+    "id": "REL-8C98EC81B9F12A1F",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 26: الزهراء",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-1254185",
     "confidence": "high",
     "id": "REL-8CA0DB3FBB4D5E40",
@@ -27778,6 +28138,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-4A0C1CD276C5",
+    "confidence": "high",
+    "id": "REL-8CF0719CCAC03EF3",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 130: القريات",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-DELEGATION-714F4FED1031",
@@ -27868,6 +28243,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-4943A937AB74",
+    "confidence": "high",
+    "id": "REL-8D6040234CAF8506",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 52: الناصرية",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-53521879",
@@ -28230,6 +28620,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-7636B9BFC526",
+    "confidence": "high",
+    "id": "REL-8F161AB30DAC1B9F",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 33: العجيلات",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-MUNICIPALITY-1616",
     "confidence": "medium",
     "id": "REL-8F16C6FEDAA55EEC",
@@ -28243,21 +28648,6 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "source_verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-3D5A1B65D468",
-    "confidence": "high",
-    "id": "REL-8F174550F65B5B1E",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: جردس العبيد",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
   },
   {
     "child_id": "ENT-TN-DELEGATION-14077DE6F00B",
@@ -28395,6 +28785,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-F454C31BCC2F",
+    "confidence": "high",
+    "id": "REL-9049E91BC0E591C0",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 57: براك الشاطئ",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-MUNICIPALITY-6123",
     "confidence": "medium",
     "id": "REL-904F323740CD56BC",
@@ -28449,21 +28854,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 1252172; dated ADM3 parent 1252",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-20EF5969DF9B",
-    "confidence": "high",
-    "id": "REL-90C7800B97FF5353",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: وادي البوانيس",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -28830,21 +29220,6 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-91553A623E51",
-    "confidence": "high",
-    "id": "REL-924EAFD714ED5ED4",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: الشرقية",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-MUNICIPALITY-3237",
     "confidence": "high",
     "id": "REL-926FAA29F3915E92",
@@ -28888,6 +29263,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-CFAF4C305593",
+    "confidence": "high",
+    "id": "REL-927D7964C603D05F",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 39: القرة بوللي",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-1564406",
@@ -28948,6 +29338,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-D93997D1C4C9",
+    "confidence": "high",
+    "id": "REL-92EFD06834E7C5CD",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 142: قرارة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-MUNICIPALITY-3127",
@@ -29355,21 +29760,6 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-4E546CBA4C78",
-    "confidence": "high",
-    "id": "REL-952444C120655378",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: الأبرق",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-IMADA-116069",
     "confidence": "high",
     "id": "REL-95245875F03B5EC9",
@@ -29640,21 +30030,6 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-226719B69FB5",
-    "confidence": "high",
-    "id": "REL-9683B9BE098150A4",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: الزنتان",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-IMADA-52551809",
     "confidence": "high",
     "id": "REL-96C532785B3951AA",
@@ -29730,6 +30105,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-C4EF54B6633F",
+    "confidence": "high",
+    "id": "REL-97181401F9A40AE3",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 75: درنة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-2151588",
     "confidence": "high",
     "id": "REL-97193414E8E654B7",
@@ -29790,19 +30180,19 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-BC0E6D0920C7",
+    "child_id": "ENT-LY-MUNICIPALITY-428A04961AE1",
     "confidence": "high",
-    "id": "REL-974D4F3362235A58",
-    "notes": null,
+    "id": "REL-974BC85699BF8CBF",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
     "parent_id": "ENT-LY-COUNTRY",
     "relationship_type": "administrative_parent",
     "schema_version": "2.0.0",
     "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: الخمس",
+    "source_locator": "municipalities catalogue entry position 92: صرمان",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-43601652",
@@ -30585,6 +30975,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-7C4E063BBF83",
+    "confidence": "high",
+    "id": "REL-9BCEB2330BCE6F9B",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 71: جنوب الجبل الأخضر",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-DELEGATION-8708C7088CBC",
     "confidence": "high",
     "id": "REL-9BEAC57ADA7D5668",
@@ -30720,21 +31125,6 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-6D7E4B8D5255",
-    "confidence": "high",
-    "id": "REL-9CAB2B0FFB625EE0",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: قصر بن غشير",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-IMADA-53551901",
     "confidence": "high",
     "id": "REL-9CC95293F7BD54C6",
@@ -30748,6 +31138,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-868BB739D812",
+    "confidence": "high",
+    "id": "REL-9CD6231A6C55CABE",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 137: زويلة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-1566424",
@@ -30838,21 +31243,6 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "source_verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-9B7D2726E57F",
-    "confidence": "high",
-    "id": "REL-9D2DB5431EEC594D",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: الحرابة",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
   },
   {
     "child_id": "ENT-TN-IMADA-53521868",
@@ -31213,6 +31603,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-B08527085C5E",
+    "confidence": "high",
+    "id": "REL-9FA0550C3E651ABD",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 17: الحوامد",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-MUNICIPALITY-2220",
@@ -31800,19 +32205,19 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-45A161F8CB47",
+    "child_id": "ENT-LY-MUNICIPALITY-7C12ADAA34FE",
     "confidence": "high",
-    "id": "REL-A1DAC4EFCA445059",
-    "notes": null,
+    "id": "REL-A1D5C99C8AA922BF",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
     "parent_id": "ENT-LY-COUNTRY",
     "relationship_type": "administrative_parent",
     "schema_version": "2.0.0",
     "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: غريان",
+    "source_locator": "municipalities catalogue entry position 80: زمزم",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-MUNICIPALITY-3125",
@@ -31828,21 +32233,6 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "source_verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-DDBA9DD6B357",
-    "confidence": "high",
-    "id": "REL-A208AD34DCC957DB",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: الرياينة",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
   },
   {
     "child_id": "ENT-TN-IMADA-2153604",
@@ -31929,21 +32319,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 34631328; dated ADM3 parent 3463",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-FAA732030045",
-    "confidence": "high",
-    "id": "REL-A299E4DEE8DB540D",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: المرج",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -32100,6 +32475,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-7B6B6750E092",
+    "confidence": "high",
+    "id": "REL-A338B7C445017D69",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 85: سلوق",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-DELEGATION-9AB968FD4EE0",
     "confidence": "high",
     "id": "REL-A33AEB0D4ABB533F",
@@ -32214,21 +32604,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 1457321; dated ADM3 parent 1457",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-B08527085C5E",
-    "confidence": "high",
-    "id": "REL-A384EE1E2A615876",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: الحوامد",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -32565,6 +32940,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-DE40DD135A12",
+    "confidence": "high",
+    "id": "REL-A556A9C319493FFE",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 128: المردوم",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-MUNICIPALITY-6216",
     "confidence": "medium",
     "id": "REL-A5722ECEBC2755E5",
@@ -32608,6 +32998,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-2251FEEEA72E",
+    "confidence": "high",
+    "id": "REL-A5944FE5236E8F41",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 35: العزيزية",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-52591842",
@@ -32844,21 +33249,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 53521867; dated ADM3 parent 5352",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-0B3C562E345A",
-    "confidence": "high",
-    "id": "REL-A6F3F8EFF6FF5617",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: وازن",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -33174,21 +33564,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 42551491; dated ADM3 parent 4255",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-5961D8CD5655",
-    "confidence": "high",
-    "id": "REL-A8C460A72ED556CF",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: أوجلة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -33900,6 +34275,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-90065E4F47F0",
+    "confidence": "high",
+    "id": "REL-AC5402013F6D2825",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 66: توكرة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-1451282",
     "confidence": "high",
     "id": "REL-AC67FFDB4D6D58F9",
@@ -34020,36 +34410,6 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-3F08A82CF654",
-    "confidence": "high",
-    "id": "REL-ACA24BBAF8CA5E33",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: الرحيبات",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-39387C872169",
-    "confidence": "high",
-    "id": "REL-ACA4BF5AADBD5EAC",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: ترهونة",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-MUNICIPALITY-2218",
     "confidence": "medium",
     "id": "REL-ACBD8CCBD7925A99",
@@ -34149,21 +34509,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 2151582; dated ADM3 parent 2151",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-EAB6950391C3",
-    "confidence": "high",
-    "id": "REL-AD77280BF03D5E02",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: نسمة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -35115,6 +35460,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-679CE4FCE061",
+    "confidence": "high",
+    "id": "REL-AF2B121288B3CDA0",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 105: كاباو",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-MUNICIPALITY-3225",
     "confidence": "medium",
     "id": "REL-AF3425F0934950FD",
@@ -35158,6 +35518,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-DDBA9DD6B357",
+    "confidence": "high",
+    "id": "REL-AF630DFDC1EB8903",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 21: الرياينة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-1171155",
@@ -35293,6 +35668,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-639CE53EF9AE",
+    "confidence": "high",
+    "id": "REL-AFEE324F731890CE",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 55: بئر الأشهب",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-41531380",
@@ -35625,21 +36015,6 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-F4C69463F75D",
-    "confidence": "high",
-    "id": "REL-B16C0C3450D057AF",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: جنزور",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-IMADA-2360843",
     "confidence": "high",
     "id": "REL-B17396DDE5185C38",
@@ -35679,21 +36054,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 34571273; dated ADM3 parent 3457",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-3562F31EC9BC",
-    "confidence": "high",
-    "id": "REL-B1993CE046CD5A82",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: تراغن",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -35910,19 +36270,19 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-F6256406CACA",
+    "child_id": "ENT-LY-MUNICIPALITY-D4A4D9543C77",
     "confidence": "high",
-    "id": "REL-B2AC4AFF49895A38",
-    "notes": null,
+    "id": "REL-B2AD6ADD7049AA89",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
     "parent_id": "ENT-LY-COUNTRY",
     "relationship_type": "administrative_parent",
     "schema_version": "2.0.0",
     "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: بنت بية",
+    "source_locator": "municipalities catalogue entry position 120: يفرن",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-61551946",
@@ -36060,21 +36420,6 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-DA90C87387CB",
-    "confidence": "high",
-    "id": "REL-B33508878FEF5438",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: تازربو",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-DELEGATION-D592FC6CD4D2",
     "confidence": "high",
     "id": "REL-B3498B7BF70E5748",
@@ -36178,6 +36523,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-6BDBE6600EED",
+    "confidence": "high",
+    "id": "REL-B37EC70E870AF954",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 42: القلعة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-2461944",
@@ -36298,6 +36658,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-987C4C244DF2",
+    "confidence": "high",
+    "id": "REL-B3E6572A16264B28",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 67: جادو",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-DELEGATION-F66C4659B2C0",
@@ -36444,21 +36819,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 41511353; dated ADM3 parent 4151",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-8B369C20A17B",
-    "confidence": "high",
-    "id": "REL-B52E1BCCF2D75B23",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: طبرق",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -37440,6 +37800,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-42DBBE336B38",
+    "confidence": "high",
+    "id": "REL-BA9C49988CDF5342",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 28: السائح",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-33521143",
     "confidence": "high",
     "id": "REL-BAA4108733375E3A",
@@ -37740,19 +38115,19 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-EF3A79E8C3E3",
+    "child_id": "ENT-LY-MUNICIPALITY-67BDC85C1CB5",
     "confidence": "high",
-    "id": "REL-BBBB15C9B0F45B42",
-    "notes": null,
+    "id": "REL-BBF720B83B283969",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
     "parent_id": "ENT-LY-COUNTRY",
     "relationship_type": "administrative_parent",
     "schema_version": "2.0.0",
     "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: ظاهر الجبل",
+    "source_locator": "municipalities catalogue entry position 63: تاورغاء",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-41521377",
@@ -38505,21 +38880,6 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-AD0C538A1BA2",
-    "confidence": "high",
-    "id": "REL-BFE30F90B3695F8A",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: المعمورة",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-IMADA-1171154",
     "confidence": "high",
     "id": "REL-BFFB5FCD94535E5F",
@@ -38640,6 +39000,21 @@
     "verification_status": "source_verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-C395040A594F",
+    "confidence": "high",
+    "id": "REL-C006AD826FCC029E",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 125: مدور الزيتون",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-2151580",
     "confidence": "high",
     "id": "REL-C00740E2B71C57C5",
@@ -38709,6 +39084,21 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-RESEARCH-GEOMETRY-2018",
     "source_locator": "sector evidence rows: 52581834,52581835,52581836,52581837,52581838,52581839",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-226719B69FB5",
+    "confidence": "high",
+    "id": "REL-C04EA6592BBE27A8",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 25: الزنتان",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -38863,6 +39253,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-21C26F88C52F",
+    "confidence": "high",
+    "id": "REL-C12B6F5DCC7A273E",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 27: الزويتينة سلطان",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-2358832",
@@ -39058,6 +39463,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-14B7549277FE",
+    "confidence": "high",
+    "id": "REL-C1FA507DBCFA235F",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 15: الجميل",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-HISTORICAL-PLACE-KERKUANE",
@@ -39630,6 +40050,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-E507A3F88BC5",
+    "confidence": "high",
+    "id": "REL-C4A05950448818E8",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 23: الزاوية الجنوب",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-41551402",
     "confidence": "high",
     "id": "REL-C4A8096BBBE75F00",
@@ -40020,6 +40455,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-8B369C20A17B",
+    "confidence": "high",
+    "id": "REL-C6A5F1603D761619",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 93: طبرق",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-2253707",
     "confidence": "high",
     "id": "REL-C6F96BF732DD5623",
@@ -40284,36 +40734,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 1358245; dated ADM3 parent 1358",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-5FB50232A71C",
-    "confidence": "high",
-    "id": "REL-C8AAEFF494FA5A82",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: غات",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-F454C31BCC2F",
-    "confidence": "high",
-    "id": "REL-C8AEE8D56D6751B2",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: براك الشاطئ",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -40605,19 +41025,19 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-428A04961AE1",
+    "child_id": "ENT-LY-MUNICIPALITY-F6256406CACA",
     "confidence": "high",
-    "id": "REL-CA4E570B737C5C70",
-    "notes": null,
+    "id": "REL-CA42F86E8E032A90",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
     "parent_id": "ENT-LY-COUNTRY",
     "relationship_type": "administrative_parent",
     "schema_version": "2.0.0",
     "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: صرمان",
+    "source_locator": "municipalities catalogue entry position 58: بنت بية",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-61531930",
@@ -40695,6 +41115,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-B4F67D0D3B02",
+    "confidence": "high",
+    "id": "REL-CA91DE0CC2EC6728",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 79: زليتن",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-52541793",
     "confidence": "high",
     "id": "REL-CAA974D3BD0855E2",
@@ -40719,21 +41154,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 1362274; dated ADM3 parent 1362",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-963437A7B495",
-    "confidence": "high",
-    "id": "REL-CABCAFC91A1B5C60",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: سبها",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -40888,6 +41308,36 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-6D4A1C01287B",
+    "confidence": "high",
+    "id": "REL-CBA08B24CA49AB73",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 82: ساحل الجبل",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-CA075A77347D",
+    "confidence": "high",
+    "id": "REL-CBA6AF2539261DAE",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 119: وردامة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-32601112",
@@ -41070,6 +41520,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-9B7D2726E57F",
+    "confidence": "high",
+    "id": "REL-CCE0332A3FE81808",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 16: الحرابة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-MUNICIPALITY-1514",
     "confidence": "medium",
     "id": "REL-CD00E0F2C15A5D9F",
@@ -41130,6 +41595,21 @@
     "verification_status": "source_verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-F35EF09283B9",
+    "confidence": "high",
+    "id": "REL-CD4357FDBE11EFE7",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 56: باطن الجبل",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-MUNICIPALITY-2312",
     "confidence": "high",
     "id": "REL-CD4B72198CF651DE",
@@ -41175,6 +41655,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-755907720F73",
+    "confidence": "high",
+    "id": "REL-CDA0F79633AEC1FC",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 44: القيقب",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-1652436",
     "confidence": "high",
     "id": "REL-CDA4DA7C345B553E",
@@ -41184,21 +41679,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 1652436; dated ADM3 parent 1652",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-648E18A98114",
-    "confidence": "high",
-    "id": "REL-CDA56149D12B5CEC",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: مرزق",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -41385,6 +41865,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-4B3DF166F116",
+    "confidence": "high",
+    "id": "REL-CE847FE0B4BCD29A",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 76: ربيانة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-MUNICIPALITY-1323",
     "confidence": "medium",
     "id": "REL-CEA9417140675E2B",
@@ -41520,6 +42015,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-648E18A98114",
+    "confidence": "high",
+    "id": "REL-CF58239B412FB15E",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 108: مرزق",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-JO-GOVERNORATE-20430BE80A89",
     "confidence": "high",
     "id": "REL-CF582FA46A955FD3",
@@ -41653,21 +42163,6 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "source_verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-B25A962E6769",
-    "confidence": "high",
-    "id": "REL-D03DECE8AA985BDD",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: الماية",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
   },
   {
     "child_id": "ENT-TN-MUNICIPALITY-1711",
@@ -42225,6 +42720,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-AC19BA540992",
+    "confidence": "high",
+    "id": "REL-D2EFA432A717B099",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 68: جالو",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-52581839",
     "confidence": "high",
     "id": "REL-D2FE8BC2507159E5",
@@ -42459,21 +42969,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM3 row / dated 264-delegation research code 2157",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-F64593F40604",
-    "confidence": "high",
-    "id": "REL-D440D9300CCD5882",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: المنشية الجميل",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -42735,21 +43230,6 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-013733073F62",
-    "confidence": "high",
-    "id": "REL-D5745B781D465A3B",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: بنغازي",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-DELEGATION-B426671C7506",
     "confidence": "high",
     "id": "REL-D57C8AF3AAA854F2",
@@ -42870,6 +43350,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-EB47AB2DA81E",
+    "confidence": "high",
+    "id": "REL-D5DD380048193660",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 104: قمينس",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-116838",
     "confidence": "high",
     "id": "REL-D5DFDD07D88A5EAD",
@@ -42943,6 +43438,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-522F19B77F61",
+    "confidence": "high",
+    "id": "REL-D64A34F2B1E03805",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 72: حي الأندلس",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-42511470",
@@ -43335,21 +43845,6 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-124788E0D36B",
-    "confidence": "high",
-    "id": "REL-D78BAA30C885586A",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: وادي عتبة",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-IMADA-52531779",
     "confidence": "high",
     "id": "REL-D7E2628FE14F5003",
@@ -43408,6 +43903,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-5C2EBC24D56D",
+    "confidence": "high",
+    "id": "REL-D881DE945852D08C",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 24: الزاوية الغرب",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-DELEGATION-9F59B0DA797D",
@@ -43710,21 +44220,6 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-26DC450A3FB8",
-    "confidence": "high",
-    "id": "REL-D966EF41F5C956A8",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: رقدالين",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-MUNICIPALITY-2421",
     "confidence": "medium",
     "id": "REL-D976325DEA33553E",
@@ -43798,6 +44293,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-5E57DAFD65B0",
+    "confidence": "high",
+    "id": "REL-D9D6B6F8F00E48EA",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 111: مسلاتة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-MUNICIPALITY-3417",
@@ -43948,6 +44458,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-BC0E6D0920C7",
+    "confidence": "high",
+    "id": "REL-DB0D3879BD58E0F1",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 18: الخمس",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-115415",
@@ -44250,19 +44775,19 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-D4A4D9543C77",
+    "child_id": "ENT-LY-MUNICIPALITY-5D6A4BA52C7D",
     "confidence": "high",
-    "id": "REL-DC881592F20C5821",
-    "notes": null,
+    "id": "REL-DC859A9BC02F8E82",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
     "parent_id": "ENT-LY-COUNTRY",
     "relationship_type": "administrative_parent",
     "schema_version": "2.0.0",
     "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: يفرن",
+    "source_locator": "municipalities catalogue entry position 100: غدامس",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-43511575",
@@ -44775,6 +45300,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-124788E0D36B",
+    "confidence": "high",
+    "id": "REL-DF4FB580F39F4069",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 117: وادي عتبة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-DELEGATION-909BD4DC039A",
     "confidence": "high",
     "id": "REL-DF531C42AA2A53B1",
@@ -44859,21 +45399,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM3 row / dated 264-delegation research code 1360",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-755907720F73",
-    "confidence": "high",
-    "id": "REL-DFBAEAFF43625792",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: القيقب",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -46710,6 +47235,21 @@
     "verification_status": "source_verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-0404B6C75563",
+    "confidence": "high",
+    "id": "REL-E2D83EAFAAC21A6C",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 41: القطرون",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-MUNICIPALITY-3418",
     "confidence": "high",
     "id": "REL-E2D952FC6E4652D0",
@@ -46723,6 +47263,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-080FA16C04CC",
+    "confidence": "high",
+    "id": "REL-E2E4667662171632",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 81: زوارة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-DELEGATION-A6449AC11294",
@@ -46920,6 +47475,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-DFF3E196D390",
+    "confidence": "high",
+    "id": "REL-E40E511441B4DD5C",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 11: البردي",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-2459927",
     "confidence": "high",
     "id": "REL-E414339569605F8F",
@@ -47113,6 +47683,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-EAB6950391C3",
+    "confidence": "high",
+    "id": "REL-E4FD1BF7415370CE",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 114: نسمة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-32521059",
@@ -47340,21 +47925,6 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-2251FEEEA72E",
-    "confidence": "high",
-    "id": "REL-E6234030197F5299",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: العزيزية",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-DELEGATION-2A637B595634",
     "confidence": "high",
     "id": "REL-E636A8B5EB4B568A",
@@ -47379,21 +47949,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 1656472; dated ADM3 parent 1656",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-F40D066C5986",
-    "confidence": "high",
-    "id": "REL-E63DEA53F7D353CD",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: الغريفة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -47745,6 +48300,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-013733073F62",
+    "confidence": "high",
+    "id": "REL-E788CF7BFA5B258E",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 59: بنغازي",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-MUNICIPALITY-1322",
     "confidence": "medium",
     "id": "REL-E790A278CF205784",
@@ -47863,6 +48433,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-6D7E4B8D5255",
+    "confidence": "high",
+    "id": "REL-E8605C79A78C54A6",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 102: قصر بن غشير",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-32581102",
@@ -47994,21 +48579,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 2355805; dated ADM3 parent 2355",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-0404B6C75563",
-    "confidence": "high",
-    "id": "REL-E90A8CBD235B5839",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: القطرون",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -48268,6 +48838,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-9571F0E2CA7A",
+    "confidence": "high",
+    "id": "REL-EA2CC1DF72C4C367",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 2: أوباري",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-31601002",
@@ -48840,6 +49425,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-DA90C87387CB",
+    "confidence": "high",
+    "id": "REL-EDE50F7DA592031F",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 62: تازربو",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-MUNICIPALITY-1522",
     "confidence": "medium",
     "id": "REL-EDF9085ABE34556F",
@@ -48868,6 +49468,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-8A2464E3FAC0",
+    "confidence": "high",
+    "id": "REL-EDFFB76F8736E752",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 113: نالوت",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-2356820",
@@ -48984,21 +49599,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 52591847; dated ADM3 parent 5259",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-6D4A1C01287B",
-    "confidence": "high",
-    "id": "REL-EEBC7E250B78529F",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: ساحل الجبل",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -49125,6 +49725,21 @@
     "verification_status": "source_verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-F4C69463F75D",
+    "confidence": "high",
+    "id": "REL-EF406EC47CB0A764",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 70: جنزور",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-32551074",
     "confidence": "high",
     "id": "REL-EF47888103EE5B0B",
@@ -49228,6 +49843,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-EF5D9FE95D5A",
+    "confidence": "high",
+    "id": "REL-EFAE24F89A805227",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 38: القبة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-JO-LIWA-B96BF35EE417",
@@ -49770,6 +50400,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-0104004B1CE5",
+    "confidence": "high",
+    "id": "REL-F02B83F498347655",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 13: البيضاء",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-MUNICIPALITY-4316",
     "confidence": "high",
     "id": "REL-F02EF5C0D1B353D7",
@@ -49980,6 +50625,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-3B16D28847E4",
+    "confidence": "high",
+    "id": "REL-F134648868E0EC54",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 123: الجديدة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-33521142",
     "confidence": "high",
     "id": "REL-F13D2042E9375FA9",
@@ -50055,6 +50715,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-4AC2AFD1D4A7",
+    "confidence": "high",
+    "id": "REL-F2109D3C83DD0279",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 74: درج",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-DELEGATION-46FFC1059453",
     "confidence": "high",
     "id": "REL-F2277C1E8A5456E1",
@@ -50124,21 +50799,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 51541703; dated ADM3 parent 5154",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-D66FFBC10410",
-    "confidence": "high",
-    "id": "REL-F2838482993D5135",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: الزهراء",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -50428,6 +51088,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-031285CE6BFC",
+    "confidence": "high",
+    "id": "REL-F45893797E605810",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 96: عمر المختار",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-JO-LIWA-BA3FD7081E19",
@@ -50865,6 +51540,21 @@
     "verification_status": "source_verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-26DC450A3FB8",
+    "confidence": "high",
+    "id": "REL-F6111E4176AC12EE",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 77: رقدالين",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-MUNICIPALITY-3230",
     "confidence": "high",
     "id": "REL-F614B99509B058B8",
@@ -50934,21 +51624,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 34581281; dated ADM3 parent 3458",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-361A07999C3B",
-    "confidence": "high",
-    "id": "REL-F62216B4FB575571",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: مصراتة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -51165,19 +51840,19 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-6B417A6E18B3",
+    "child_id": "ENT-LY-MUNICIPALITY-361A07999C3B",
     "confidence": "high",
-    "id": "REL-F70C42BE5EB95E59",
-    "notes": null,
+    "id": "REL-F6F6B573CC3B9A10",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
     "parent_id": "ENT-LY-COUNTRY",
     "relationship_type": "administrative_parent",
     "schema_version": "2.0.0",
     "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: الأصابعة",
+    "source_locator": "municipalities catalogue entry position 112: مصراتة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-MUNICIPALITY-3124",
@@ -51189,6 +51864,21 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-RESEARCH-GEOMETRY-2018",
     "source_locator": "sector evidence rows: 31651045,31651046,31651047,31651048,31651049",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-8C05B5F9544C",
+    "confidence": "high",
+    "id": "REL-F722410BEDD7CF44",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 89: سوق الخميس",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -51300,6 +51990,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-C8CC4F9CD2B3",
+    "confidence": "high",
+    "id": "REL-F7A4D1486B130812",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 91: صبراتة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-42541487",
     "confidence": "high",
     "id": "REL-F7AF8833D56A503B",
@@ -51309,21 +52014,6 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "source_locator": "ADM4 row / research sector code 42541487; dated ADM3 parent 4254",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-C708E653F362",
-    "confidence": "high",
-    "id": "REL-F7BB6935AAC85C7E",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: الكفرة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
@@ -51465,6 +52155,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-9F35C4A3CBB0",
+    "confidence": "high",
+    "id": "REL-F88AED573DF033AD",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 122: الجليدة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-32581094",
     "confidence": "high",
     "id": "REL-F89400FBA5255BC3",
@@ -51568,6 +52273,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-963437A7B495",
+    "confidence": "high",
+    "id": "REL-F8EE0E57B79EC269",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 83: سبها",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-52551800",
@@ -51750,21 +52470,6 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-4B900A13CFFC",
-    "confidence": "high",
-    "id": "REL-F9ED07CE5C2C5A73",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: ككلة",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-IMADA-42591524",
     "confidence": "high",
     "id": "REL-FA01973D11EB5694",
@@ -51853,6 +52558,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-F64593F40604",
+    "confidence": "high",
+    "id": "REL-FA2F3F4A04E40062",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 51: المنشية الجميل",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-1652438",
@@ -51990,6 +52710,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-4433AF57307B",
+    "confidence": "high",
+    "id": "REL-FAE304D6F577AB71",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 73: خليج السدرة",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-MUNICIPALITY-2411",
     "confidence": "high",
     "id": "REL-FAED9C83A15351AE",
@@ -52110,21 +52845,6 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-7B6B6750E092",
-    "confidence": "high",
-    "id": "REL-FBB0CA306F065A44",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: سلوق",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-MUNICIPALITY-4317",
     "confidence": "high",
     "id": "REL-FBC3FDA4E7C553BA",
@@ -52200,34 +52920,19 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-7636B9BFC526",
+    "child_id": "ENT-LY-MUNICIPALITY-FAA732030045",
     "confidence": "high",
-    "id": "REL-FBF614A9779C5CB7",
-    "notes": null,
+    "id": "REL-FBF9645F55A1DDC0",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
     "parent_id": "ENT-LY-COUNTRY",
     "relationship_type": "administrative_parent",
     "schema_version": "2.0.0",
     "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: العجيلات",
+    "source_locator": "municipalities catalogue entry position 47: المرج",
     "status": "current",
     "valid_from": null,
     "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
-    "child_id": "ENT-LY-MUNICIPALITY-7FC434299269",
-    "confidence": "high",
-    "id": "REL-FBFA33F0EB365645",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: إدري الشاطئ",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
+    "verification_status": "source_verified"
   },
   {
     "child_id": "ENT-TN-IMADA-2352779",
@@ -52485,6 +53190,21 @@
     "verification_status": "verified"
   },
   {
+    "child_id": "ENT-LY-MUNICIPALITY-6542F9B46B75",
+    "confidence": "high",
+    "id": "REL-FD71C6AB40D927E7",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 31: الشويرف",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
     "child_id": "ENT-TN-IMADA-2456899",
     "confidence": "high",
     "id": "REL-FD7E701E248B5C43",
@@ -52590,21 +53310,6 @@
     "verification_status": "verified"
   },
   {
-    "child_id": "ENT-LY-MUNICIPALITY-C4EF54B6633F",
-    "confidence": "high",
-    "id": "REL-FDDB4AEC1F43582D",
-    "notes": null,
-    "parent_id": "ENT-LY-COUNTRY",
-    "relationship_type": "administrative_parent",
-    "schema_version": "2.0.0",
-    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
-    "source_locator": "Municipality list entry: درنة",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null,
-    "verification_status": "verified"
-  },
-  {
     "child_id": "ENT-TN-MUNICIPALITY-3429",
     "confidence": "medium",
     "id": "REL-FDDF7FE89D005183",
@@ -52689,6 +53394,21 @@
     "schema_version": "2.0.0",
     "source_id": "SRC-TN-RESEARCH-GEOMETRY-2018",
     "source_locator": "sector evidence rows: 1761557,1761558",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-LY-MUNICIPALITY-B8BB1C665F4C",
+    "confidence": "high",
+    "id": "REL-FE77B7CBA24E6795",
+    "notes": "Current legal catalogue relation only; no effective-control inference.",
+    "parent_id": "ENT-LY-COUNTRY",
+    "relationship_type": "administrative_parent",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+    "source_locator": "municipalities catalogue entry position 12: البريقة",
     "status": "current",
     "valid_from": null,
     "valid_to": null,

@@ -99,6 +99,12 @@ This cumulative register records reusable controls without forcing countries int
 - Newly enacted status requires Gazette date and law/decree provenance.
 - Disputed/de facto geography remains an overlay, never an inferred parent.
 
+## Libya production cycle
+
+- Exact rendered records, not display sequence labels, determine a denominator.
+- A previously bounded subset must be superseded when a complete reproducible source snapshot becomes available.
+- Historical administrative layers and effective-control overlays remain independent from current legal catalogue identity.
+
 ## Controls now required for subsequent countries
 
 1. Exact current-layer denominator with source, date, license, and exclusion definition.

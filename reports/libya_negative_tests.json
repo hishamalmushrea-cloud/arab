@@ -1,0 +1,49 @@
+{
+  "country_code": "LY",
+  "detected": 8,
+  "mutations": [
+    {
+      "detected": true,
+      "expected_code": "LY_COUNTS",
+      "mutation": "LY_93_AS_COMPLETE"
+    },
+    {
+      "detected": true,
+      "expected_code": "LY_HISTORICAL_SEMANTICS",
+      "mutation": "LY_SHABIYA_CURRENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "LY_PARENT",
+      "mutation": "LY_SHABIYA_PARENT_MUNICIPALITY"
+    },
+    {
+      "detected": true,
+      "expected_code": "LY_DENOMINATORS",
+      "mutation": "LY_DENOM_143_LABEL"
+    },
+    {
+      "detected": true,
+      "expected_code": "LY_CURRENT_SEMANTICS",
+      "mutation": "LY_EFFECTIVE_CONTROL_INFERENCE"
+    },
+    {
+      "detected": true,
+      "expected_code": "LY_PREMATURE_MAHALLA",
+      "mutation": "LY_FAKE_MAHALLA"
+    },
+    {
+      "detected": true,
+      "expected_code": "LY_CURRENT_COVERAGE",
+      "mutation": "LY_COVERAGE_93"
+    },
+    {
+      "detected": true,
+      "expected_code": "LY_SOURCE_FRESHNESS",
+      "mutation": "LY_SOURCE_CHECKSUM"
+    }
+  ],
+  "required": 8,
+  "schema_version": "2.0.0",
+  "status": "PASS"
+}
