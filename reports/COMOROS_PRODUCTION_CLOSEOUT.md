@@ -1,7 +1,7 @@
 # Comoros Production Expansion Closeout
 
 ## Decision
-**RELEASE CANDIDATE** pending exact-commit CI.
+**PASS.** Comoros Production Full Pilot accepted on exact commit `3681548a0a694f3e9a53e4569b06a0d14aa4d6de`.
 ## Scope
 Three Union-administered autonomous islands, 16 prefectures, 54 communes, one 2026 World Heritage serial property; Mayotte excluded from current administration.
 ## Snapshot
@@ -33,9 +33,9 @@ PASS locally 8/8 Mayotte/topology/count/UNESCO-time mutations.
 ## P0/P1
 0/0.
 ## make check
-Pending clean commit.
+PASS: Phase 5 88/88 plus eleven production gates 21/21; full `make check` = 319 checks.
 ## GitHub CI
-Pending.
+PASS: Push Action `31973993057` and PR Action `31973995114`.
 ## Remaining limitations
 Village components not imported; claimed-territory scope not modeled; broad culture/dialect deferred.
 ## Lessons learned

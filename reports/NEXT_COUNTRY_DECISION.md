@@ -2,11 +2,11 @@
 
 ## Current country
 
-Comoros — Full Pilot.
+Palestine — Full Pilot.
 
 ## Current result
 
-**RELEASE CANDIDATE.** Comoros local checks, 168/168 review, and 8/8 mutations pass; exact-commit CI pending.
+**PASS.** Exact Comoros release commit `3681548a0a694f3e9a53e4569b06a0d14aa4d6de`; full `make check` (319 checks), Push Action, and PR Action pass.
 
 ## Remaining countries
 
@@ -26,7 +26,7 @@ Palestine, Iraq, Libya, Yemen, Syria, Somalia, Sudan.
 
 ## Recommended next country
 
-**Palestine — Full Pilot.**
+**Palestine — Full Pilot — STARTED.** Research scope is recorded in `reports/PALESTINE_PRODUCTION_KICKOFF.md`; no authoritative records emitted yet.
 
 ## Why
 
