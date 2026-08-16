@@ -6,7 +6,7 @@ Sudan — Full Pilot.
 
 ## Current result
 
-**Somalia PASS locally.** The bounded stage-one scope closes the current Ministry of Planning 7-FMS frame and 1/1 parallel Banadir administration, while preserving Somaliland and North East as attributed narratives. Remote exact-commit CI evidence is pending release push.
+**Somalia PASS.** Exact release commit `84577cc28b3d2650feb5bfa539dc996289a7fb14`; full `make check` (445 checks), Push Action `31979131057`, and PR Action `31979134094` pass. The bounded stage-one scope closes the current Ministry of Planning 7-FMS frame and 1/1 parallel Banadir administration, while preserving Somaliland and North East as attributed narratives.
 
 ## Remaining countries
 

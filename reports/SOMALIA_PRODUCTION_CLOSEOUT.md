@@ -1,7 +1,7 @@
 # Somalia Production Expansion Closeout
 
 ## Decision
-**PASS locally; remote release evidence pending exact commit.** Somalia Full Pilot stage one closes authority-specific federal planning frames without adjudicating sovereignty or control.
+**PASS.** Somalia Full Pilot stage one accepted on exact release commit `84577cc28b3d2650feb5bfa539dc996289a7fb14`; authority-specific federal planning frames are closed without adjudicating sovereignty or control.
 ## Scope
 Seven Federal Member State entries in the current Ministry of Planning frame, plus Banadir Regional Administration as a distinct parallel unit.
 ## Snapshot
@@ -26,7 +26,11 @@ PASS locally: full population 48/48.
 ## Negative tests
 PASS locally: 10/10.
 ## P0/P1
-0/0 locally.
+0/0.
+## make check
+PASS: Phase 5 88/88 plus seventeen production gates 21/21; full `make check` = 445 checks.
+## GitHub CI
+PASS on exact release commit: Push Action `31979131057` and PR Action `31979134094`.
 ## Limitations
 No neutral sovereignty adjudication; no territorial-claim/effective-control overlay; region and district universes unavailable; no culture/dialect import. Puntland, Somaliland, and North East overlap is not resolved by parent inference.
 ## Recommended next country
