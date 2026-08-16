@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:d19d602db96af00e9a5f5017bdb295d63b21b5996fb11f372d753cd0a97346f9",
+  "country_codes": [
+    "SO"
+  ],
+  "id": "SRC-SO-MOIFAR-NORTHEAST-2026",
+  "language": "en",
+  "license": "Official Somalia federal material; factual extraction with attribution; reuse terms not stated",
+  "locator": "17 January 2026 inauguration and completion of formation",
+  "notes": "Records formal establishment of the new federal member state.",
+  "publication_date": "2026-01-17",
+  "publisher": "Ministry of Interior, Federal Affairs and Reconciliation",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-17",
+  "schema_version": "2.0.0",
+  "source_type": "official_report",
+  "title": "Formal establishment of North Eastern State",
+  "url": "https://moifar.gov.so/en/2026/01/17/federal-leadership-attends-inauguration-ceremony-of-the-president-of-the-north-eastern-state-of-somalia/"
+}

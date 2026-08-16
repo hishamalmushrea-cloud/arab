@@ -10,7 +10,7 @@
 | DZ | الجزائر | 70 | 3 | [DZ](countries/DZ.md) |
 | SA | السعودية | 1708 | 1732 | [SA](countries/SA.md) |
 | SD | السودان | 1 | 0 | [SD](countries/SD.md) |
-| SO | الصومال | 1 | 0 | [SO](countries/SO.md) |
+| SO | الصومال | 9 | 9 | [SO](countries/SO.md) |
 | IQ | العراق | 20 | 20 | [IQ](countries/IQ.md) |
 | KW | الكويت | 7 | 6 | [KW](countries/KW.md) |
 | MA | المغرب | 88 | 12 | [MA](countries/MA.md) |

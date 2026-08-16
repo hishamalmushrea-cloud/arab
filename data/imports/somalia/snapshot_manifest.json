@@ -1,0 +1,13 @@
+{
+  "captured_at": "2026-08-17",
+  "country_code": "SO",
+  "records": [
+    {
+      "path": "fixtures/federal_frames_2026.json",
+      "record_count": 8,
+      "sha256": "d19d602db96af00e9a5f5017bdb295d63b21b5996fb11f372d753cd0a97346f9"
+    }
+  ],
+  "schema_version": "2.0.0",
+  "scope_rule": "The 7-FMS denominator is explicitly the current Ministry of Planning frame, not a neutral sovereignty/control adjudication."
+}

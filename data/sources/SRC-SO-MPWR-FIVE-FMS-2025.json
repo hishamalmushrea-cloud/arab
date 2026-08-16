@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:d19d602db96af00e9a5f5017bdb295d63b21b5996fb11f372d753cd0a97346f9",
+  "country_codes": [
+    "SO"
+  ],
+  "id": "SRC-SO-MPWR-FIVE-FMS-2025",
+  "language": "en",
+  "license": "Official Somalia federal material; factual extraction with attribution; reuse terms not stated",
+  "locator": "Five FMS enumeration before North East completion; Somaliland treated separately",
+  "notes": "Temporal baseline for five standard operational FMS.",
+  "publication_date": "2025-04-01",
+  "publisher": "Federal Ministry of Public Works",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-17",
+  "schema_version": "2.0.0",
+  "source_type": "official_report",
+  "title": "2025 project assessment: five Federal Member States",
+  "url": "https://mpwr.gov.so/wp-content/uploads/2025/04/Draft-ESIA-April-15-2025-Beledwyne-Draft-II-AfDB-Reviewed-March-2025-Bank-FINAL-REVIEW-14042025.pdf"
+}

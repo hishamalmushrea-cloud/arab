@@ -1,0 +1,103 @@
+{
+  "country_code": "SO",
+  "families": {
+    "aliases": {
+      "population": 1,
+      "record_ids": [
+        "ALS-6ACA6DF2077A5A4E"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 1
+    },
+    "claims": {
+      "population": 9,
+      "record_ids": [
+        "CLM-SO-073A90765B755ACB",
+        "CLM-SO-5EC6ABC9D87655DE",
+        "CLM-SO-9DC8FCC100F95D89",
+        "CLM-SO-A36F4F5AB281571B",
+        "CLM-SO-A578C8D65BC05197",
+        "CLM-SO-BCD9733CE79055A9",
+        "CLM-SO-CB16E4AF0EBC5BA3",
+        "CLM-SO-D002B800321F5B6C",
+        "CLM-SO-FD512D683B8F50A5"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 9
+    },
+    "coverage": {
+      "population": 8,
+      "record_ids": [
+        "COV-SO-BANADIR",
+        "COV-SO-COUNTRY-SCOPE",
+        "COV-SO-DISTRICTS",
+        "COV-SO-MOP-FMS",
+        "COV-SO-NORTHEAST",
+        "COV-SO-REGIONS",
+        "COV-SO-SOMALILAND-NARRATIVE",
+        "COV-SO-STANDARD-FIVE"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 8
+    },
+    "denominators": {
+      "population": 8,
+      "record_ids": [
+        "DEN-SO-BANADIR",
+        "DEN-SO-COUNTRY-SCOPE",
+        "DEN-SO-DISTRICTS",
+        "DEN-SO-MOP-FMS",
+        "DEN-SO-NORTHEAST",
+        "DEN-SO-REGIONS",
+        "DEN-SO-SOMALILAND-NARRATIVE",
+        "DEN-SO-STANDARD-FIVE"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 8
+    },
+    "entities": {
+      "population": 9,
+      "record_ids": [
+        "ENT-SO-COUNTRY",
+        "ENT-SO-FMS-01",
+        "ENT-SO-FMS-02",
+        "ENT-SO-FMS-03",
+        "ENT-SO-FMS-04",
+        "ENT-SO-FMS-05",
+        "ENT-SO-FMS-06",
+        "ENT-SO-FMS-07",
+        "ENT-SO-REGION-BRA"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 9
+    },
+    "relationships": {
+      "population": 8,
+      "record_ids": [
+        "REL-SO-15F856D41BDD5F2D",
+        "REL-SO-22BAC8ECCEDF521B",
+        "REL-SO-8064C67EA10C5C05",
+        "REL-SO-902245AF6C4756C1",
+        "REL-SO-B07E206503BD5430",
+        "REL-SO-DDFE7F2FD3935B5D",
+        "REL-SO-E8FE1103BF2B55A1",
+        "REL-SO-FA7D0F6A0D3B5F85"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 8
+    },
+    "sources": {
+      "population": 5,
+      "record_ids": [
+        "SRC-SO-MOIFAR-NORTHEAST-2026",
+        "SRC-SO-MOP-FMS-2026",
+        "SRC-SO-MPWR-FIVE-FMS-2025",
+        "SRC-SO-SENATE-CONSTITUENCY",
+        "SRC-SO-SONNA-NORTHEAST-DECLARATION-2026"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 5
+    }
+  },
+  "schema_version": "2.0.0"
+}

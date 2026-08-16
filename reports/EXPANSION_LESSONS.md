@@ -119,6 +119,13 @@ This cumulative register records reusable controls without forcing countries int
 - Preserve Damascus city governorate separately from Rural Damascus.
 - Known lower denominators may remain open without record fabrication or artificial completion.
 
+## Somalia production cycle
+
+- Denominators must remain authority-specific when federal and sovereignty narratives differ.
+- Banadir is a parallel regional administration, not an automatic federal member state.
+- Preserve Somaliland as an attributed disputed FGS narrative and North East as a dated transition.
+- Predecessor names and overlapping claims never create duplicate current entities or inferred control.
+
 ## Controls now required for subsequent countries
 
 1. Exact current-layer denominator with source, date, license, and exclusion definition.

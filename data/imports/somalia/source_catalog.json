@@ -1,0 +1,106 @@
+{
+  "country_code": "SO",
+  "schema_version": "2.0.0",
+  "sources": [
+    {
+      "archive_url": null,
+      "checksum": "sha256:d19d602db96af00e9a5f5017bdb295d63b21b5996fb11f372d753cd0a97346f9",
+      "country_codes": [
+        "SO"
+      ],
+      "id": "SRC-SO-MOP-FMS-2026",
+      "language": "en",
+      "license": "Official Somalia federal material; factual extraction with attribution; reuse terms not stated",
+      "locator": "Seven named FMS plus Banadir Regional Administration",
+      "notes": "Authority-specific current federal planning frame; not a sovereignty or control adjudication. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Federal Government of Somalia, Ministry of Planning",
+      "quality_tier": "A",
+      "retrieved_at": "2026-08-17",
+      "schema_version": "2.0.0",
+      "source_type": "official_register",
+      "title": "Federal Member States",
+      "url": "https://mop.gov.so/federal-member-states/"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:d19d602db96af00e9a5f5017bdb295d63b21b5996fb11f372d753cd0a97346f9",
+      "country_codes": [
+        "SO"
+      ],
+      "id": "SRC-SO-MOIFAR-NORTHEAST-2026",
+      "language": "en",
+      "license": "Official Somalia federal material; factual extraction with attribution; reuse terms not stated",
+      "locator": "17 January 2026 inauguration and completion of formation",
+      "notes": "Records formal establishment of the new federal member state.",
+      "publication_date": "2026-01-17",
+      "publisher": "Ministry of Interior, Federal Affairs and Reconciliation",
+      "quality_tier": "A",
+      "retrieved_at": "2026-08-17",
+      "schema_version": "2.0.0",
+      "source_type": "official_report",
+      "title": "Formal establishment of North Eastern State",
+      "url": "https://moifar.gov.so/en/2026/01/17/federal-leadership-attends-inauguration-ceremony-of-the-president-of-the-north-eastern-state-of-somalia/"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:d19d602db96af00e9a5f5017bdb295d63b21b5996fb11f372d753cd0a97346f9",
+      "country_codes": [
+        "SO"
+      ],
+      "id": "SRC-SO-SONNA-NORTHEAST-DECLARATION-2026",
+      "language": "en",
+      "license": "Official Somalia federal material; factual extraction with attribution; reuse terms not stated",
+      "locator": "Presidential statement, 17 January 2026",
+      "notes": "Full-member declaration and equal federal status.",
+      "publication_date": "2026-01-17",
+      "publisher": "Somali National News Agency",
+      "quality_tier": "A",
+      "retrieved_at": "2026-08-17",
+      "schema_version": "2.0.0",
+      "source_type": "official_report",
+      "title": "President declares North East State a full Federal Member State",
+      "url": "https://sonna.so/en/president-hassan-sheikh-mohamud-declares-north-east-state-a-full-federal-member-state/"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:d19d602db96af00e9a5f5017bdb295d63b21b5996fb11f372d753cd0a97346f9",
+      "country_codes": [
+        "SO"
+      ],
+      "id": "SRC-SO-SENATE-CONSTITUENCY",
+      "language": "en",
+      "license": "Official Somalia federal material; factual extraction with attribution; reuse terms not stated",
+      "locator": "Somaliland, Puntland, Jubaland, South West, Galmudug, Hirshabelle representation",
+      "notes": "Supports the FGS constitutional/representation narrative; does not resolve Somaliland de facto or sovereign status. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Upper House of the Federal Parliament of Somalia",
+      "quality_tier": "A",
+      "retrieved_at": "2026-08-17",
+      "schema_version": "2.0.0",
+      "source_type": "official_register",
+      "title": "Senate constituency",
+      "url": "https://senate.gov.so/senate-constituency/?lang=en"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:d19d602db96af00e9a5f5017bdb295d63b21b5996fb11f372d753cd0a97346f9",
+      "country_codes": [
+        "SO"
+      ],
+      "id": "SRC-SO-MPWR-FIVE-FMS-2025",
+      "language": "en",
+      "license": "Official Somalia federal material; factual extraction with attribution; reuse terms not stated",
+      "locator": "Five FMS enumeration before North East completion; Somaliland treated separately",
+      "notes": "Temporal baseline for five standard operational FMS.",
+      "publication_date": "2025-04-01",
+      "publisher": "Federal Ministry of Public Works",
+      "quality_tier": "A",
+      "retrieved_at": "2026-08-17",
+      "schema_version": "2.0.0",
+      "source_type": "official_report",
+      "title": "2025 project assessment: five Federal Member States",
+      "url": "https://mpwr.gov.so/wp-content/uploads/2025/04/Draft-ESIA-April-15-2025-Beledwyne-Draft-II-AfDB-Reviewed-March-2025-Bank-FINAL-REVIEW-14042025.pdf"
+    }
+  ]
+}

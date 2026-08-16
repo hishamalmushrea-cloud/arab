@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:d19d602db96af00e9a5f5017bdb295d63b21b5996fb11f372d753cd0a97346f9",
+  "country_codes": [
+    "SO"
+  ],
+  "id": "SRC-SO-MOP-FMS-2026",
+  "language": "en",
+  "license": "Official Somalia federal material; factual extraction with attribution; reuse terms not stated",
+  "locator": "Seven named FMS plus Banadir Regional Administration",
+  "notes": "Authority-specific current federal planning frame; not a sovereignty or control adjudication. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "Federal Government of Somalia, Ministry of Planning",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-17",
+  "schema_version": "2.0.0",
+  "source_type": "official_register",
+  "title": "Federal Member States",
+  "url": "https://mop.gov.so/federal-member-states/"
+}

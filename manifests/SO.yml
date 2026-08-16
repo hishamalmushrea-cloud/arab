@@ -1,7 +1,8 @@
 {
   "caveats": [
-    "البنية الاتحادية والتقسيمات القانونية والفعلية والمتنازع عليها لا تُدمج في شجرة واحدة.",
-    "Local coverage remains incomplete; file or directory existence is not a denominator."
+    "Seven-FMS denominator is explicitly the current Ministry of Planning frame, not a neutral sovereignty/control adjudication.",
+    "Banadir is a parallel regional administration.",
+    "Somaliland and North East records preserve FGS-attributed narratives; overlapping claims/control are not inferred."
   ],
   "country": {
     "entity_id": "ENT-SO-COUNTRY",
@@ -9,7 +10,14 @@
     "name_ar": "الصومال"
   },
   "coverage_record_ids": [
-    "COV-SO-COUNTRY-SCOPE"
+    "COV-SO-COUNTRY-SCOPE",
+    "COV-SO-MOP-FMS",
+    "COV-SO-STANDARD-FIVE",
+    "COV-SO-SOMALILAND-NARRATIVE",
+    "COV-SO-NORTHEAST",
+    "COV-SO-BANADIR",
+    "COV-SO-REGIONS",
+    "COV-SO-DISTRICTS"
   ],
   "hierarchy": [
     {
@@ -36,13 +44,30 @@
       "allowed_parent_types": [
         "country"
       ],
+      "authority_name": "FGS authority-specific frame",
       "caveat": "البنية الاتحادية والتقسيمات القانونية والفعلية والمتنازع عليها لا تُدمج في شجرة واحدة.",
+      "coverage_record_id": "COV-SO-MOP-FMS",
+      "denominator": 7,
+      "denominator_id": "DEN-SO-MOP-FMS",
       "entity_type": "so_federal_member_state",
       "level": 1,
+      "license": "Official Somalia federal material; factual extraction with attribution; reuse terms not stated",
       "local_names": [
         "ولاية/عضو اتحادي"
       ],
-      "source_ids": [],
+      "notes": "Seven entries in MOP frame; narrative-specific.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-SO-MOP-FMS-2026",
+        "SRC-SO-MOIFAR-NORTHEAST-2026",
+        "SRC-SO-SONNA-NORTHEAST-DECLARATION-2026",
+        "SRC-SO-SENATE-CONSTITUENCY",
+        "SRC-SO-MPWR-FIVE-FMS-2025"
+      ],
+      "special_cases": [
+        "Somaliland claimed/FGS narrative; North East full-member transition 2026-01-17."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
@@ -55,20 +80,33 @@
         "transitional",
         "uncertain"
       ],
-      "verification_status": "pending"
+      "verification_status": "verified"
     },
     {
       "allowed_parent_types": [
         "country",
         "so_federal_member_state"
       ],
+      "authority_name": "Multiple authorities",
       "caveat": "البنية الاتحادية والتقسيمات القانونية والفعلية والمتنازع عليها لا تُدمج في شجرة واحدة.",
+      "coverage_record_id": "COV-SO-REGIONS",
+      "denominator": null,
+      "denominator_id": "DEN-SO-REGIONS",
       "entity_type": "so_region",
       "level": 2,
+      "license": "Official Somalia federal material; factual extraction with attribution; reuse terms not stated",
       "local_names": [
         "غوبول/إقليم"
       ],
-      "source_ids": [],
+      "notes": "Only Banadir parallel administration emitted; national region universe unreconciled.",
+      "scope_status": "unavailable",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-SO-MOP-FMS-2026"
+      ],
+      "special_cases": [
+        "Banadir is not an FMS."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
@@ -87,13 +125,26 @@
       "allowed_parent_types": [
         "so_region"
       ],
+      "authority_name": "Multiple authorities",
       "caveat": "البنية الاتحادية والتقسيمات القانونية والفعلية والمتنازع عليها لا تُدمج في شجرة واحدة.",
+      "coverage_record_id": "COV-SO-DISTRICTS",
+      "denominator": null,
+      "denominator_id": "DEN-SO-DISTRICTS",
       "entity_type": "so_district",
       "level": 3,
+      "license": "Official Somalia federal material; factual extraction with attribution; reuse terms not stated",
       "local_names": [
         "دِغمو/مقاطعة"
       ],
-      "source_ids": [],
+      "notes": "National district universe unreconciled.",
+      "scope_status": "unavailable",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-SO-MOP-FMS-2026"
+      ],
+      "special_cases": [
+        "No control-based parent inference."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
@@ -109,18 +160,70 @@
       "verification_status": "pending"
     }
   ],
-  "next_action": "Register an atomic official hierarchy source and dated denominators before migrating local legacy rows.",
+  "next_action": "Maintain authority-specific federal frames; add regions/districts or claim/control overlays only after multi-authority reconciliation.",
   "official_authority": {
-    "missing_reason": "Authority name is recorded, but no atomic official hierarchy source has yet passed source metadata and snapshot review.",
-    "name": "وزارة الداخلية والشؤون الفيدرالية وسلطات الولايات؛ الاختصاص متنازع/متغير",
-    "source_ids": [],
-    "verification_status": "pending"
+    "missing_reason": null,
+    "name": "Federal Ministries of Planning and Interior / SONNA / Upper House",
+    "source_ids": [
+      "SRC-SO-MOP-FMS-2026",
+      "SRC-SO-MOIFAR-NORTHEAST-2026",
+      "SRC-SO-SONNA-NORTHEAST-DECLARATION-2026",
+      "SRC-SO-SENATE-CONSTITUENCY",
+      "SRC-SO-MPWR-FIVE-FMS-2025"
+    ],
+    "verification_status": "verified"
   },
+  "pilot_layers": [
+    {
+      "authority_name": "Ministry of Planning",
+      "coverage_record_id": "COV-SO-MOP-FMS",
+      "denominator": 7,
+      "denominator_id": "DEN-SO-MOP-FMS",
+      "entity_types": [
+        "so_federal_member_state"
+      ],
+      "layer": "so_federal_member_state_mop_frame",
+      "license": "Official Somalia federal material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "Federal Member State"
+      ],
+      "notes": "Authority-specific frame.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-SO-MOP-FMS-2026"
+      ],
+      "special_cases": [
+        "Somaliland and North East require narrative context."
+      ]
+    },
+    {
+      "authority_name": "Ministry of Planning",
+      "coverage_record_id": "COV-SO-BANADIR",
+      "denominator": 1,
+      "denominator_id": "DEN-SO-BANADIR",
+      "entity_types": [
+        "so_region"
+      ],
+      "layer": "so_banadir_regional_administration",
+      "license": "Official Somalia federal material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "Regional Administration"
+      ],
+      "notes": "Parallel unit.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-SO-MOP-FMS-2026"
+      ],
+      "special_cases": []
+    }
+  ],
   "schema_version": "2.0.0",
   "snapshot": {
-    "as_of": "2026-08-15",
-    "snapshot_id": "SNP-MIGRATION-2026-08-15",
-    "status": "baseline"
+    "as_of": "2026-08-17",
+    "snapshot_id": "SNP-SO-PRODUCTION-20260817",
+    "status": "verified"
   },
-  "status": "baseline_only"
+  "status": "pilot_migrated"
 }

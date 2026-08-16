@@ -1,0 +1,55 @@
+{
+  "country_code": "SO",
+  "critical_p1": 0,
+  "families": {
+    "aliases": {
+      "failed": 0,
+      "passed": 1,
+      "sampled": 1,
+      "status": "PASS"
+    },
+    "claims": {
+      "failed": 0,
+      "passed": 9,
+      "sampled": 9,
+      "status": "PASS"
+    },
+    "coverage": {
+      "failed": 0,
+      "passed": 8,
+      "sampled": 8,
+      "status": "PASS"
+    },
+    "denominators": {
+      "failed": 0,
+      "passed": 8,
+      "sampled": 8,
+      "status": "PASS"
+    },
+    "entities": {
+      "failed": 0,
+      "passed": 9,
+      "sampled": 9,
+      "status": "PASS"
+    },
+    "relationships": {
+      "failed": 0,
+      "passed": 8,
+      "sampled": 8,
+      "status": "PASS"
+    },
+    "sources": {
+      "failed": 0,
+      "passed": 5,
+      "sampled": 5,
+      "status": "PASS"
+    }
+  },
+  "findings": [],
+  "method": "Independent full-population authority-frame review: 7 MOP entries, Banadir parallel path, Somaliland narrative, North East transition, unavailable lower universes.",
+  "p0": 0,
+  "schema_version": "2.0.0",
+  "status": "PASS",
+  "total_passed": 48,
+  "total_sampled": 48
+}
