@@ -444,6 +444,66 @@
   },
   {
     "archive_url": null,
+    "checksum": "sha256:e0041be843d2740095239eedde477ef787eff13ca953212ea1028c30b7decc96",
+    "country_codes": [
+      "BH"
+    ],
+    "id": "SRC-BH-BACA-PEARLING-PATH",
+    "language": "ar",
+    "license": "Bahrain Authority for Culture and Antiquities; factual extraction with attribution",
+    "locator": "official Arabic project name and bounded route description",
+    "notes": "Relevant exact excerpt persisted locally. Publication date unavailable on captured authority page.",
+    "publication_date": null,
+    "publisher": "هيئة البحرين للثقافة والآثار",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-16",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "طريق اللؤلؤ",
+    "url": "https://www.culture.gov.bh/ar/authority/infra_projects/Name,14932,ar.php"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:1ec8de2933d2c2a132e16344bf4c8f02902960f1117129a767ca325cb7d5200d",
+    "country_codes": [
+      "BH"
+    ],
+    "id": "SRC-BH-OPEN-DATA-POLICY-2026",
+    "language": "en",
+    "license": "Bahrain Open Data Policy: republication and distribution permitted, subject to applicable laws",
+    "locator": "paragraph permitting republication/distribution and describing National Open Data Portal availability",
+    "notes": "Relevant policy excerpt persisted locally. Publication date unavailable on captured policy page.",
+    "publication_date": null,
+    "publisher": "Information & eGovernment Authority",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-16",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Bahrain Open Data Policy",
+    "url": "https://www.api.data.gov.bh/en/ODPolicy"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:071fb9a959ff6c6285b59c315b3ba07289d0b565ec2deb0e8be03e4d48f6c079",
+    "country_codes": [
+      "BH"
+    ],
+    "id": "SRC-BH-SLRB-GOVERNORATE-AREA-2024",
+    "language": "ar-en",
+    "license": "Bahrain Open Data Policy: republication and distribution permitted, subject to applicable laws",
+    "locator": "2024 filter: four records, N 76–79; governorate Arabic/English name and area value",
+    "notes": "Official national portal metadata identifies the publisher and states that Bahrain was redivided into four governorates instead of five in 2014. Checksum binds the exact four-record persisted extraction. Publication date unavailable; portal metadata/data were modified 2025-12-24.",
+    "publication_date": null,
+    "publisher": "Survey and Land Registration Bureau",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-16",
+    "schema_version": "2.0.0",
+    "source_type": "official_dataset",
+    "title": "Area by Governorate — 2024 records",
+    "url": "https://www.data.gov.bh/explore/dataset/02-area-by-governorate-2023/"
+  },
+  {
+    "archive_url": null,
     "author": null,
     "checksum": null,
     "country_codes": [
@@ -1534,6 +1594,86 @@
     "source_type": "institutional_dataset",
     "title": "Intangible Cultural Heritage — Tunisia elements",
     "url": "https://ich.unesco.org/en/state/tunisia-TN"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:67c6b0ea7dabbfadd98c41e90eb391c2d68dcb12d6df882857c268696ccf7d88",
+    "country_codes": [
+      "BH"
+    ],
+    "id": "SRC-UNESCO-WHC-BH-1192",
+    "language": "ar-en",
+    "license": "CC BY-SA 3.0 IGO for property descriptions",
+    "locator": "property 1192; official name, Arabic name, cultural category, inscription year 2005",
+    "notes": "Checksum binds the committed Bahrain World Heritage selection fixture. Publication date unavailable on the live record; inscription year is data, not publication date.",
+    "publication_date": null,
+    "publisher": "UNESCO World Heritage Centre",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-16",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Qal’at al-Bahrain – Ancient Harbour and Capital of Dilmun",
+    "url": "https://whc.unesco.org/en/list/1192"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:67c6b0ea7dabbfadd98c41e90eb391c2d68dcb12d6df882857c268696ccf7d88",
+    "country_codes": [
+      "BH"
+    ],
+    "id": "SRC-UNESCO-WHC-BH-1364",
+    "language": "en",
+    "license": "CC BY-SA 3.0 IGO for property descriptions",
+    "locator": "property 1364; official name, cultural category, inscription year 2012",
+    "notes": "Checksum binds the committed Bahrain World Heritage selection fixture. Publication date unavailable on the live record; inscription year is data, not publication date.",
+    "publication_date": null,
+    "publisher": "UNESCO World Heritage Centre",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-16",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Pearling, Testimony of an Island Economy",
+    "url": "https://whc.unesco.org/en/list/1364"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:67c6b0ea7dabbfadd98c41e90eb391c2d68dcb12d6df882857c268696ccf7d88",
+    "country_codes": [
+      "BH"
+    ],
+    "id": "SRC-UNESCO-WHC-BH-1542",
+    "language": "ar-en",
+    "license": "CC BY-SA 3.0 IGO for property descriptions",
+    "locator": "property 1542; official name, Arabic name, cultural category, inscription year 2019",
+    "notes": "Checksum binds the committed Bahrain World Heritage selection fixture. Publication date unavailable on the live record; inscription year is data, not publication date.",
+    "publication_date": null,
+    "publisher": "UNESCO World Heritage Centre",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-16",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Dilmun Burial Mounds",
+    "url": "https://whc.unesco.org/en/list/1542"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:67c6b0ea7dabbfadd98c41e90eb391c2d68dcb12d6df882857c268696ccf7d88",
+    "country_codes": [
+      "BH"
+    ],
+    "id": "SRC-UNESCO-WHC-BH-2026",
+    "language": "en",
+    "license": "CC BY-SA 3.0 IGO for property descriptions",
+    "locator": "Bahrain State Party list: three inscribed cultural properties; tentative list excluded",
+    "notes": "Checksum binds the committed Bahrain World Heritage selection fixture. Publication date unavailable on the live record; inscription year is data, not publication date.",
+    "publication_date": null,
+    "publisher": "UNESCO World Heritage Centre",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-16",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_dataset",
+    "title": "World Heritage List — Bahrain properties",
+    "url": "https://whc.unesco.org/en/statesparties/bh"
   },
   {
     "archive_url": null,

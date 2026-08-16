@@ -1,0 +1,4 @@
+Bahrain Open Data Policy — relevant excerpt captured 2026-08-16
+URL: https://www.api.data.gov.bh/en/ODPolicy
+
+Open government data is available to all. Everyone has the right to republish or distribute it without technical, financial, or legal restrictions. The Government of the Kingdom of Bahrain is committed to publishing non-sensitive data through the National Open Data Portal (data.gov.bh), subject to applicable information and personal-data laws.

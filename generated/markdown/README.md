@@ -6,7 +6,7 @@
 |---|---|---:|---:|---|
 | JO | الأردن | 116 | 135 | [JO](countries/JO.md) |
 | AE | الإمارات | 41 | 76 | [AE](countries/AE.md) |
-| BH | البحرين | 1 | 0 | [BH](countries/BH.md) |
+| BH | البحرين | 8 | 13 | [BH](countries/BH.md) |
 | DZ | الجزائر | 1 | 0 | [DZ](countries/DZ.md) |
 | SA | السعودية | 1708 | 1732 | [SA](countries/SA.md) |
 | SD | السودان | 1 | 0 | [SD](countries/SD.md) |

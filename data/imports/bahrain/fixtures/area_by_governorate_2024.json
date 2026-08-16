@@ -1,0 +1,18 @@
+{
+  "country_code": "BH",
+  "dataset_id": "02-area-by-governorate-2023",
+  "dataset_title": "Area by Governorate",
+  "description": "Area of the Kingdom of Bahrain by Governorate; the governorates were redivided into 4 governorates instead of 5 in 2014.",
+  "publisher": "Survey and Land Registration Bureau",
+  "record_year": "2024",
+  "retrieved_at": "2026-08-16",
+  "schema_version": "2.0.0",
+  "source_url": "https://www.data.gov.bh/explore/dataset/02-area-by-governorate-2023/",
+  "api_url": "https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/02-area-by-governorate-2023/records?where=year%3Ddate%272024-01-01%27&limit=20",
+  "records": [
+    {"n": 76, "governorate": "Capital", "governorate_ar": "العاصمة", "area_km2": 79.23},
+    {"n": 77, "governorate": "Muharraq", "governorate_ar": "المحرق", "area_km2": 74.1},
+    {"n": 78, "governorate": "Northern", "governorate_ar": "الشمالية", "area_km2": 145.69},
+    {"n": 79, "governorate": "Southern", "governorate_ar": "الجنوبية", "area_km2": 488.77}
+  ]
+}
