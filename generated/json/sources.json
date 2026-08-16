@@ -743,6 +743,46 @@
   },
   {
     "archive_url": null,
+    "checksum": "sha256:6fa4e68c3cb02b3c5cbd0b5e61bbd74b17185cf0e7211b689ae6c7d8817c2d92",
+    "country_codes": [
+      "KW"
+    ],
+    "id": "SRC-KW-CSB-CENSUS-GOVERNORATES-2021",
+    "language": "ar-en",
+    "license": "Kuwait government statistical publication; factual extraction with attribution; reuse terms not stated",
+    "locator": "downloadable Table 1/chart: six governorates, Not Stated row, and total population",
+    "notes": "Checksum binds the reconciled exact table fixture. Publication date unavailable. Census index identifies the registration census as 2021; year precision is normalized to 2021-01-01. Differing prominent widgets are excluded; table/chart rows reconcile exactly to total with Not Stated.",
+    "publication_date": null,
+    "publisher": "Central Statistical Bureau",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-16",
+    "schema_version": "2.0.0",
+    "source_type": "census",
+    "title": "Kuwait Registration Census 2021 — population by governorate",
+    "url": "https://census.csb.gov.kw/Census_Gov"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:6fa4e68c3cb02b3c5cbd0b5e61bbd74b17185cf0e7211b689ae6c7d8817c2d92",
+    "country_codes": [
+      "KW"
+    ],
+    "id": "SRC-KW-CSB-CENSUS-METHODOLOGY-2021",
+    "language": "ar",
+    "license": "Kuwait government statistical publication; factual extraction with attribution; reuse terms not stated",
+    "locator": "heading and methodology paragraphs identifying the first registration census of Kuwait 2021 and total 4,385,717",
+    "notes": "Checksum binds the structured census fixture cross-checked against the official index. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Central Statistical Bureau",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-16",
+    "schema_version": "2.0.0",
+    "source_type": "official_report",
+    "title": "Kuwait Registration Census 2021",
+    "url": "https://census.csb.gov.kw/index"
+  },
+  {
+    "archive_url": null,
     "checksum": null,
     "country_codes": [
       "LY"
@@ -1872,6 +1912,26 @@
     "source_type": "institutional_page",
     "title": "As-Salt - The Place of Tolerance and Urban Hospitality",
     "url": "https://whc.unesco.org/en/list/689/"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:09e9e58ae897e4136ed4eb45686223a7f93efabf3f5217cea4ffbf674b40f6ac",
+    "country_codes": [
+      "KW"
+    ],
+    "id": "SRC-UNESCO-WHC-KW-2026",
+    "language": "en",
+    "license": "CC BY-SA 3.0 IGO for property descriptions",
+    "locator": "State Party summary: 0 inscribed properties and 6 tentative-list sites",
+    "notes": "Checksum binds exact inscribed/tentative counts. Publication date unavailable on live State Party page; tentative sites are not treated as inscribed.",
+    "publication_date": null,
+    "publisher": "UNESCO World Heritage Centre",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-16",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_dataset",
+    "title": "World Heritage List — Kuwait State Party",
+    "url": "https://whc.unesco.org/en/statesparties/kw"
   },
   {
     "archive_url": null,

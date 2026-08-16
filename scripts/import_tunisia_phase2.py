@@ -374,8 +374,9 @@ def mirror_coverage_fields(denoms: list[dict[str, Any]], coverage: list[dict[str
         else:
             c["missing"] = value - c["matched"] - c["excluded"]
             c["unmatched"] = c["missing"]
-            c["coverage_percentage"] = round((c["matched"] + c["excluded"]) * 100 / value, 2)
-            c["complete"] = c["matched"] + c["excluded"] == value
+            completed = c["matched"] + c["excluded"]
+            c["coverage_percentage"] = round(completed * 100 / value, 2) if value else (100.0 if completed == 0 else None)
+            c["complete"] = completed == value
         c.pop("coverage_percent", None)
 
 

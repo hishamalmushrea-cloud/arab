@@ -1,0 +1,54 @@
+{
+  "country_code": "KW",
+  "detected": 9,
+  "mutations": [
+    {
+      "detected": true,
+      "expected_code": "KW_WRONG_PARENT",
+      "mutation": "KW_WRONG_PARENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "KW_GOVERNORATE_IDENTITY",
+      "mutation": "KW_AREA_AS_GOVERNORATE"
+    },
+    {
+      "detected": true,
+      "expected_code": "KW_ENTITY_UNIVERSE",
+      "mutation": "KW_BLOCK_AS_MUNICIPALITY"
+    },
+    {
+      "detected": true,
+      "expected_code": "KW_CLAIM_SOURCE",
+      "mutation": "KW_FOREIGN_SOURCE"
+    },
+    {
+      "detected": true,
+      "expected_code": "KW_POPULATION",
+      "mutation": "KW_POPULATION_TAMPER"
+    },
+    {
+      "detected": true,
+      "expected_code": "KW_POPULATION",
+      "mutation": "KW_UNDATED_CENSUS"
+    },
+    {
+      "detected": true,
+      "expected_code": "KW_DENOMINATORS",
+      "mutation": "KW_TENTATIVE_AS_INSCRIBED"
+    },
+    {
+      "detected": true,
+      "expected_code": "KW_CULTURAL_LEAKAGE",
+      "mutation": "KW_CULTURAL_LEAKAGE"
+    },
+    {
+      "detected": true,
+      "expected_code": "KW_ENTITY_UNIVERSE",
+      "mutation": "KW_ALIAS_AS_ENTITY"
+    }
+  ],
+  "required": 9,
+  "schema_version": "2.0.0",
+  "status": "PASS"
+}

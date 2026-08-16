@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:09e9e58ae897e4136ed4eb45686223a7f93efabf3f5217cea4ffbf674b40f6ac",
+  "country_codes": [
+    "KW"
+  ],
+  "id": "SRC-UNESCO-WHC-KW-2026",
+  "language": "en",
+  "license": "CC BY-SA 3.0 IGO for property descriptions",
+  "locator": "State Party summary: 0 inscribed properties and 6 tentative-list sites",
+  "notes": "Checksum binds exact inscribed/tentative counts. Publication date unavailable on live State Party page; tentative sites are not treated as inscribed.",
+  "publication_date": null,
+  "publisher": "UNESCO World Heritage Centre",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-16",
+  "schema_version": "2.0.0",
+  "source_type": "institutional_dataset",
+  "title": "World Heritage List — Kuwait State Party",
+  "url": "https://whc.unesco.org/en/statesparties/kw"
+}

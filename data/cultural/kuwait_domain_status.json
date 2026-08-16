@@ -1,0 +1,30 @@
+{
+  "country_code": "KW",
+  "domains": {
+    "custom": {
+      "claims": 0,
+      "status": "not_documented_in_cycle"
+    },
+    "dialect": {
+      "claims": 0,
+      "status": "not_documented_in_cycle"
+    },
+    "dress": {
+      "claims": 0,
+      "status": "not_documented_in_cycle"
+    },
+    "food": {
+      "claims": 0,
+      "status": "not_documented_in_cycle"
+    },
+    "world_heritage": {
+      "claims": 0,
+      "denominator": 0,
+      "status": "documented_zero_inscribed",
+      "tentative_list_sites": 6
+    }
+  },
+  "notes": "Zero inscribed World Heritage properties is not cultural absence. No template claims invented.",
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-16"
+}

@@ -33,6 +33,17 @@
     "title": "Jordan Phase 3 legal hierarchy and bounded content snapshot"
   },
   {
+    "captured_at": "2026-08-16",
+    "checksum": "sha256:7ea4abafa0c04f995946201dc965ae470b572df18cd39ad736090449df303048",
+    "id": "SNP-KW-PRODUCTION-20260816",
+    "method": "Offline deterministic import from checksum-bound reconciled official census and UNESCO fixtures.",
+    "notes": "Population table uses census-year precision. Differing page widgets are not imported. Address areas, blocks, populated places, broad culture, and dialect remain unclosed.",
+    "schema_version": "2.0.0",
+    "scope": "Six 2021 census governorates and the zero-property UNESCO inscribed scope",
+    "source_id": "SRC-KW-CSB-CENSUS-GOVERNORATES-2021",
+    "title": "Kuwait production expansion — six governorates and World Heritage scope"
+  },
+  {
     "captured_at": "2006-04-15",
     "checksum": null,
     "id": "SNP-LY-CENSUS-2006",

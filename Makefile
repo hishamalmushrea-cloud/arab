@@ -91,7 +91,24 @@ bahrain:
 	python3 scripts/check_bahrain_gate.py
 
 # Phase 5 calls all accepted pilot gates; Bahrain is the first production gate layered after it.
-check: phase5 bahrain
+import-kuwait:
+	python3 scripts/build_kuwait_sources.py
+	python3 scripts/import_kuwait_production.py
+
+review-kuwait:
+	python3 scripts/build_kuwait_review_samples.py
+	python3 scripts/review_kuwait.py
+
+test-kuwait-negative:
+	python3 scripts/test_kuwait_negative.py
+
+validate-kuwait:
+	python3 scripts/validate_kuwait.py
+
+kuwait:
+	python3 scripts/check_kuwait_gate.py
+
+check: phase5 bahrain kuwait
 
 repair:
 	python3 scripts/repair_legacy.py
@@ -105,4 +122,6 @@ repair:
 	python3 scripts/import_uae_phase5.py
 	python3 scripts/build_bahrain_sources.py
 	python3 scripts/import_bahrain_production.py
+	python3 scripts/build_kuwait_sources.py
+	python3 scripts/import_kuwait_production.py
 	python3 scripts/generate.py

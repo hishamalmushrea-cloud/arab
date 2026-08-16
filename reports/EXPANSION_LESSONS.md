@@ -19,6 +19,14 @@ This cumulative register records reusable controls without forcing countries int
 - Complete World Heritage coverage does not imply broad cultural or place coverage.
 - Unsupported dialect and lower-area layers should remain documented absences, not generated templates.
 
+## Kuwait production cycle
+
+- Reconcile official table rows arithmetically when page widgets conflict; never choose the more convenient display.
+- Preserve Not Stated populations in source accounting without inventing a geographic entity.
+- Year-only census evidence must not become a fabricated exact date.
+- A zero official denominator can close a layer; tentative records remain outside an inscribed-property denominator.
+- Address areas and numbered blocks are not municipalities merely because they nest geographically.
+
 ## Controls now required for subsequent countries
 
 1. Exact current-layer denominator with source, date, license, and exclusion definition.
