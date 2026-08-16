@@ -1,22 +1,22 @@
 [
   {
     "captured_at": "2026-08-15",
-    "checksum": "sha256:10ddd5d887861a89e40a2c0038efbb1e6b8bef3f511e8e81660cad6f549aa171",
+    "checksum": "sha256:36bb74ddad5af21e21262c76cde5b87419572e3d670cbd82f2b8627c9e8e03f7",
     "id": "SNP-AE-PILOT-20260815",
     "method": "Offline deterministic import from checksum-bound relevant-text extracts and structured fixtures; official layer denominators remain separate and unavailable registries have no percentage.",
     "notes": "Dubai communities, all-UAE populated places, and neighborhoods remain denominator_unavailable. No fifth country is started.",
-    "schema_version": "1.0.0",
+    "schema_version": "2.0.0",
     "scope": "Seven emirates; seven different official local hierarchy profiles; bounded all-emirate cultural and small dialect samples",
     "source_id": "SRC-AE-FEDERAL-SEVEN-EMIRATES-2026",
     "title": "United Arab Emirates fourth-country contextual hierarchy and cultural sample"
   },
   {
     "captured_at": "2026-08-15",
-    "checksum": "sha256:d90cca8dccfa2812791ef9fc72a46baacad37411e78e87a963e1afd86d914175",
+    "checksum": "sha256:621f22d080c883180907e7e178ea2fbdf99e0a080cb7316b23ca1956ecf67b47",
     "id": "SNP-JO-PILOT-2026-08-15",
     "method": "Offline deterministic import from checksum-bound legal, institutional, entity-resolution, and cultural fixtures; current hierarchy derived by applying Regulation No. 29 of 2024 to Regulation No. 46 of 2000.",
     "notes": "Municipalities are a parallel local-administration scope and are not declared complete. DoS statistical qada are not imported as extra legal qada.",
-    "schema_version": "1.0.0",
+    "schema_version": "2.0.0",
     "scope": "Jordan: 12 governorates, 55 liwa, 36 qada, eight UNESCO World Heritage properties, and four bounded populated/historical places",
     "source_id": "SRC-JO-REGULATION-29-2024",
     "title": "Jordan Phase 3 legal hierarchy and bounded content snapshot"
@@ -27,7 +27,7 @@
     "id": "SNP-LY-CENSUS-2006",
     "method": "Migrated to a historical hierarchy distinct from current municipalities",
     "notes": null,
-    "schema_version": "1.0.0",
+    "schema_version": "2.0.0",
     "scope": "22 historical sha‘biyat/census regions",
     "source_id": "SRC-LY-BSC-CENSUS-2006",
     "title": "Libya 2006 census-region snapshot"
@@ -38,7 +38,7 @@
     "id": "SNP-LY-MUNICIPALITIES-2026-08-15",
     "method": "Exact normalized Arabic-name matching, with one explicit article variant",
     "notes": "The extraction was used to match identities, not to accept a national denominator. No legal effective date was inferred from retrieval date.",
-    "schema_version": "1.0.0",
+    "schema_version": "2.0.0",
     "scope": "Retrieved Ministry municipality catalogue; legacy subset matching only; denominator unresolved",
     "source_id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
     "title": "Libya Ministry of Local Government municipality register retrieval"
@@ -49,7 +49,7 @@
     "id": "SNP-MIGRATION-2026-08-15",
     "method": "Dependency-free deterministic migration with row-level disposition ledger",
     "notes": "The checksum is represented by per-file Git history and generated-data freshness checks.",
-    "schema_version": "1.0.0",
+    "schema_version": "2.0.0",
     "scope": "All 24 legacy CSV files and 22 country manifests",
     "source_id": "SRC-ARAB-FINAL-AUDIT-2026",
     "title": "Schema v1 legacy migration baseline"
@@ -60,7 +60,7 @@
     "id": "SNP-SA-ADMIN-20260815",
     "method": "GitHub Actions retrieval for administrative HTML; deterministic local parsing; bounded manual extraction for institutional content",
     "notes": "Administrative records are immutable local inputs. Remote cultural records are bounded by atomic source metadata and exact locators.",
-    "schema_version": "1.0.0",
+    "schema_version": "2.0.0",
     "scope": "15 checksum-verified administrative HTML snapshots plus bounded institutional/scholarly content locators",
     "source_id": "SRC-SA-ADMIN-SNAPSHOT-CATALOG-2026",
     "title": "Saudi administrative and bounded-content evidence snapshot"
@@ -71,7 +71,7 @@
     "id": "SNP-TN-ADMIN-2026-08-15",
     "method": "Matched normalized Arabic name and governorate parent against legacy rows; retained one representation per entity",
     "notes": "Temporal coverage is blank on the official page; current-status interpretation remains subject to denominator reconciliation.",
-    "schema_version": "1.0.0",
+    "schema_version": "2.0.0",
     "scope": "Detailed official table listing 24 governorates and 264 delegations",
     "source_id": "SRC-TN-MOI-DELEGATIONS-2013",
     "title": "Tunisia governorates and delegations source retrieval"
@@ -82,7 +82,7 @@
     "id": "SNP-TN-CODAB-2022-11-15",
     "method": "Deterministic reconstruction from rendered institutional workbook, metadata totals, and reviewed transcription",
     "notes": "Checksum is for the committed reconstructed CSV, not the unavailable upstream XLSX bytes.",
-    "schema_version": "1.0.0",
+    "schema_version": "2.0.0",
     "scope": "24 governorates, 264 delegations, and 2,084 imadas",
     "source_id": "SRC-TN-HDX-CODAB-2022",
     "title": "Tunisia COD-AB v01 dated administrative snapshot"
@@ -93,7 +93,7 @@
     "id": "SNP-TN-MUNICIPALITIES-2024-01",
     "method": "Deterministic transcription of official bilingual workbook with reviewed one-to-one geometry links",
     "notes": "Date is month precision normalized to its first day. Checksum is for the committed reconstructed CSV.",
-    "schema_version": "1.0.0",
+    "schema_version": "2.0.0",
     "scope": "350 coded municipalities",
     "source_id": "SRC-TN-DGCL-MUNICIPALITIES-2024",
     "title": "Tunisia official municipality register, January 2024"
@@ -104,7 +104,7 @@
     "id": "SNP-TN-RGPH-2014",
     "method": "Exact values transcribed from INS RGPH Volume 3, PDF page 47; legacy rounded mismatches are corrected deterministically",
     "notes": "Volume 0 is a rounded summary and is not evidence for exact values.",
-    "schema_version": "1.0.0",
+    "schema_version": "2.0.0",
     "scope": "24 governorate population values",
     "source_id": "SRC-TN-INS-RGPH-2014",
     "title": "Tunisia RGPH 2014 governorate population snapshot"
@@ -115,7 +115,7 @@
     "id": "SNP-TN-UNESCO-WHC-2026-08-15",
     "method": "State Party list count and individual property records",
     "notes": "Live institutional register retrieved on the snapshot date.",
-    "schema_version": "1.0.0",
+    "schema_version": "2.0.0",
     "scope": "Ten World Heritage properties listed for Tunisia",
     "source_id": "SRC-UNESCO-WHC-TN-2026",
     "title": "UNESCO World Heritage properties in Tunisia"

@@ -70,7 +70,7 @@ def main() -> None:
     }
     samples = {name: choose(name, ids) for name, ids in families.items()}
     report = {
-        "schema_version": "1.0.0",
+        "schema_version": "2.0.0",
         "country_code": "AE",
         "snapshot_date": "2026-08-15",
         "selection_method": "Sort each record ID by SHA-256(seed|family|ID), then select ceil(10%); no UAE importer module is called or imported.",

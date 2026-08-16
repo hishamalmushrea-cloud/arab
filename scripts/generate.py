@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate Markdown, HTML, JSON, and CSV views from Schema v1 data only."""
+"""Generate Markdown, HTML, JSON, and CSV views from Schema 2.0.0 data only."""
 from __future__ import annotations
 
 import argparse
@@ -98,7 +98,7 @@ def country_markdown(iso: str, data: dict[str, list[dict[str, Any]]]) -> str:
     ab_ratio = (ab_count * 100 / len(published)) if published else 0
 
     out = [
-        f"# {name_ar} ({iso}) — عرض مولّد من Schema v1",
+        f"# {name_ar} ({iso}) — عرض مولّد من Schema 2.0.0",
         "",
         "> **حدود التغطية:** التغطية المحلية غير مكتملة. لا تمثل هذه الصفحة جميع المدن أو القرى أو الأحياء أو الحارات، ولا يُستدل على التغطية من وجود ملف. البيانات المنظمة هي المصدر؛ هذه الصفحة عرض مولّد.",
         "",
@@ -164,7 +164,7 @@ def page_html(title: str, main: str, *, parent=False) -> str:
 <html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(title)}</title><style>
 :root{{--ink:#192229;--muted:#60727d;--line:#d9e1e5;--paper:#fff;--accent:#0a6c69;--wash:#f4f8f7}}*{{box-sizing:border-box}}body{{margin:0;background:var(--wash);color:var(--ink);font:16px/1.7 system-ui,-apple-system,"Segoe UI",Tahoma,sans-serif}}main{{max-width:1180px;margin:28px auto;background:var(--paper);padding:clamp(18px,4vw,52px);box-shadow:0 12px 36px #17353a16;border-radius:18px}}h1,h2{{line-height:1.25}}h1{{font-size:clamp(1.7rem,4vw,2.8rem);margin-top:0}}h2{{margin-top:2.4rem;border-bottom:2px solid var(--accent);padding-bottom:.35rem}}a{{color:var(--accent)}}.notice{{border-right:5px solid var(--accent);background:#eaf5f3;padding:14px 18px}}.table-wrap{{overflow:auto;border:1px solid var(--line);border-radius:10px}}table{{border-collapse:collapse;width:100%;font-size:.88rem}}th,td{{border-bottom:1px solid var(--line);padding:9px 11px;vertical-align:top;text-align:right;white-space:nowrap}}th{{background:#eef4f3;position:sticky;top:0}}.empty{{color:var(--muted)}}footer{{margin-top:3rem;color:var(--muted);font-size:.9rem}}code{{direction:ltr;unicode-bidi:embed}}</style></head>
-<body><main><nav><a href="{home}">فهرس البيانات المولّدة</a></nav>{main}<footer>مولّد آليًا من Schema v1؛ لا تعدّل هذا الملف مباشرة.</footer></main></body></html>\n"""
+<body><main><nav><a href="{home}">فهرس البيانات المولّدة</a></nav>{main}<footer>مولّد آليًا من Schema 2.0.0؛ لا تعدّل هذا الملف مباشرة.</footer></main></body></html>\n"""
 
 
 def country_html(iso: str, data: dict[str, list[dict[str, Any]]]) -> str:
@@ -194,7 +194,7 @@ def country_html(iso: str, data: dict[str, list[dict[str, Any]]]) -> str:
         "<h2>جودة مصادر الادعاءات المنشورة</h2>", f"<p>ادعاءات A/B: {ab_count} من {len(published)} ({ab_ratio:.2f}%).</p>",
         "<h2>المصادر الذرية</h2>", html_table(["المعرّف", "الفئة", "العنوان", "الناشر", "النشر", "الاسترجاع", "الترخيص", "الرابط"], [[r["id"], r["quality_tier"], r["title"], r["publisher"], r["publication_date"], r["retrieved_at"], r["license"], r["url"]] for r in sources]),
     ]
-    return page_html(f"{name_ar} — Schema v1", "".join(parts), parent=True)
+    return page_html(f"{name_ar} — Schema 2.0.0", "".join(parts), parent=True)
 
 
 def render(data: dict[str, list[dict[str, Any]]]) -> dict[Path, bytes]:
@@ -202,10 +202,10 @@ def render(data: dict[str, list[dict[str, Any]]]) -> dict[Path, bytes]:
     for name, rows in data.items():
         files[Path("json") / f"{name}.json"] = jdump(rows, pretty=True).encode()
         files[Path("csv") / f"{name}.csv"] = csv_text(rows).encode()
-    files[Path("json/canonical_bundle.json")] = jdump({"schema_version": "1.0.0", **data}, pretty=True).encode()
+    files[Path("json/canonical_bundle.json")] = jdump({"schema_version": "2.0.0", **data}, pretty=True).encode()
 
     md_index = [
-        "# العروض المولّدة من Schema v1", "",
+        "# العروض المولّدة من Schema 2.0.0", "",
         "> البيانات المنظمة تحت `data/` هي المصدر الوحيد. التغطية المحلية غير مكتملة، ولا تمثل جميع المدن أو القرى أو الأحياء أو الحارات.", "",
         "| ISO | الدولة | الكيانات | الادعاءات | الصفحة |", "|---|---|---:|---:|---|",
     ]
@@ -221,13 +221,13 @@ def render(data: dict[str, list[dict[str, Any]]]) -> dict[Path, bytes]:
 
     html_rows = [[iso, name_ar, entity_counts[iso], claim_counts[iso], f"countries/{iso}.html"] for iso, (name_ar, _name_en) in COUNTRIES.items()]
     body_rows = "".join(f'<tr><td>{iso}</td><td>{html.escape(name)}</td><td>{ec}</td><td>{cc}</td><td><a href="{url}">فتح</a></td></tr>' for iso, name, ec, cc, url in html_rows)
-    index_main = '<h1>العروض المولّدة من Schema v1</h1><p class="notice">البيانات المنظمة هي المصدر. التغطية المحلية غير مكتملة ولا تمثل جميع المدن أو القرى أو الأحياء أو الحارات.</p><h2>الدول</h2><div class=table-wrap><table><thead><tr><th>ISO</th><th>الدولة</th><th>الكيانات</th><th>الادعاءات</th><th>الصفحة</th></tr></thead><tbody>' + body_rows + "</tbody></table></div>"
-    files[Path("html/index.html")] = page_html("Schema v1 — الفهرس", index_main).encode()
+    index_main = '<h1>العروض المولّدة من Schema 2.0.0</h1><p class="notice">البيانات المنظمة هي المصدر. التغطية المحلية غير مكتملة ولا تمثل جميع المدن أو القرى أو الأحياء أو الحارات.</p><h2>الدول</h2><div class=table-wrap><table><thead><tr><th>ISO</th><th>الدولة</th><th>الكيانات</th><th>الادعاءات</th><th>الصفحة</th></tr></thead><tbody>' + body_rows + "</tbody></table></div>"
+    files[Path("html/index.html")] = page_html("Schema 2.0.0 — الفهرس", index_main).encode()
 
     input_hashes = {str(path.relative_to(ROOT)): "sha256:" + hashlib.sha256(path.read_bytes()).hexdigest() for path in DATASETS.values()}
     input_hashes.update({str(path.relative_to(ROOT)): "sha256:" + hashlib.sha256(path.read_bytes()).hexdigest() for path in sorted((ROOT / "data/sources").glob("*.json"))})
     metadata = {
-        "schema_version": "1.0.0", "generator": "scripts/generate.py", "inputs": input_hashes,
+        "schema_version": "2.0.0", "generator": "scripts/generate.py", "inputs": input_hashes,
         "counts": {name: len(rows) for name, rows in data.items()},
         "outputs": sorted(str(path) for path in files),
     }

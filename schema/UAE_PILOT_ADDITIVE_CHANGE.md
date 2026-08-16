@@ -43,3 +43,7 @@ The UAE test suite verifies:
 4. `renamed`, `merged`, and `abolished` are accepted by Entity JSON Schema and the executable vocabulary;
 5. the eight required UAE semantic mutations are all detected;
 6. the repository-wide validator still accepts all previous-country records under Schema v1.0.0.
+
+## Superseded version disposition
+
+This document records why the UAE-only vocabulary delta was additive at the time. The later cumulative migration review found earlier required-field and Coverage semantic changes to be breaking and released the complete contract as Schema 2.0.0. No UAE vocabulary value was removed.

@@ -1,5 +1,5 @@
 {
-  "$id": "https://arab.example/schema/v1/coverage.schema.json",
+  "$id": "https://arab.example/schema/v2/coverage.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "additionalProperties": false,
   "properties": {
@@ -92,7 +92,7 @@
       ]
     },
     "schema_version": {
-      "const": "1.0.0"
+      "const": "2.0.0"
     },
     "snapshot_date": {
       "format": "date",

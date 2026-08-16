@@ -1,0 +1,14 @@
+{
+  "entity_id": "ENT-AE-COUNTRY",
+  "id": "ALS-0B982CD95A695151",
+  "kind": "english",
+  "language": "en",
+  "name": "United Arab Emirates",
+  "schema_version": "1.0.0",
+  "script": "Latn",
+  "source_id": "SRC-ISO-3166-1-2020",
+  "source_locator": "ISO alpha-2 entry AE",
+  "status": "current",
+  "valid_from": null,
+  "valid_to": null
+}

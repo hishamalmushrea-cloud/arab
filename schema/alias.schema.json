@@ -1,22 +1,91 @@
 {
+  "$id": "https://arab.example/schema/v2/alias.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://arab.example/schema/v1/alias.schema.json",
-  "title": "Alias",
-  "type": "object",
   "additionalProperties": false,
-  "required": ["id", "schema_version", "entity_id", "name", "language", "script", "kind", "status", "source_id", "source_locator", "valid_from", "valid_to"],
   "properties": {
-    "id": {"type": "string", "pattern": "^ALS-[A-Z0-9-]+$"},
-    "schema_version": {"const": "1.0.0"},
-    "entity_id": {"type": "string", "pattern": "^ENT-[A-Z]{2}-[A-Z0-9-]+$"},
-    "name": {"type": "string", "minLength": 1},
-    "language": {"type": "string", "minLength": 2},
-    "script": {"enum": ["Arab", "Latn", "other"]},
-    "kind": {"enum": ["alternative", "english", "transliteration", "local", "historical", "former", "abbreviation", "official_variant"]},
-    "status": {"enum": ["current", "historical", "disputed", "uncertain"]},
-    "source_id": {"type": "string", "pattern": "^SRC-[A-Z0-9-]+$"},
-    "source_locator": {"type": "string", "minLength": 1},
-    "valid_from": {"type": ["string", "null"], "format": "date"},
-    "valid_to": {"type": ["string", "null"], "format": "date"}
-  }
+    "entity_id": {
+      "pattern": "^ENT-[A-Z]{2}-[A-Z0-9-]+$",
+      "type": "string"
+    },
+    "id": {
+      "pattern": "^ALS-[A-Z0-9-]+$",
+      "type": "string"
+    },
+    "kind": {
+      "enum": [
+        "alternative",
+        "english",
+        "transliteration",
+        "local",
+        "historical",
+        "former",
+        "abbreviation",
+        "official_variant"
+      ]
+    },
+    "language": {
+      "minLength": 2,
+      "type": "string"
+    },
+    "name": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "2.0.0"
+    },
+    "script": {
+      "enum": [
+        "Arab",
+        "Latn",
+        "other"
+      ]
+    },
+    "source_id": {
+      "pattern": "^SRC-[A-Z0-9-]+$",
+      "type": "string"
+    },
+    "source_locator": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "current",
+        "historical",
+        "disputed",
+        "uncertain"
+      ]
+    },
+    "valid_from": {
+      "format": "date",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "valid_to": {
+      "format": "date",
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "schema_version",
+    "entity_id",
+    "name",
+    "language",
+    "script",
+    "kind",
+    "status",
+    "source_id",
+    "source_locator",
+    "valid_from",
+    "valid_to"
+  ],
+  "title": "Alias",
+  "type": "object"
 }

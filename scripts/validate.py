@@ -648,7 +648,7 @@ def main() -> int:
         if len(validation.errors) > 100:
             print(f"... {len(validation.errors)-100} more", file=sys.stderr)
         return 1
-    print("\nSchema v1 validation passed with zero errors.")
+    print("\nSchema 2.0.0 validation passed with zero errors.")
     return 0
 
 

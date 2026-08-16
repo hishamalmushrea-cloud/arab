@@ -535,7 +535,7 @@ def main() -> int:
     ) - {None}
     primary_records = len(entities) + len(aliases) + len(relationships) + len(claims)
     report = {
-        "schema_version": "1.0.0",
+        "schema_version": "2.0.0",
         "country_code": "SA",
         "snapshot_date": SNAPSHOT_DATE,
         "status": "pass" if not result.errors else "fail",

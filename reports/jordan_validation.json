@@ -106,7 +106,7 @@
     "relationships": 119,
     "sensitive_claims": 0
   },
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "snapshot_date": "2026-08-15",
   "status": "pass"
 }

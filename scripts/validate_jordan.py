@@ -223,7 +223,7 @@ def main() -> int:
                  f"P0={review.get('p0_findings')}, critical P1={review.get('p1_findings')}")
 
     report = {
-        "schema_version": "1.0.0", "country_code": "JO", "snapshot_date": SNAPSHOT_DATE,
+        "schema_version": "2.0.0", "country_code": "JO", "snapshot_date": SNAPSHOT_DATE,
         "status": "pass" if not result.errors else "fail", "checks": result.checks, "errors": result.errors,
         "metrics": {"entities": len(entities), "aliases": len(aliases), "relationships": len(relationships), "claims": len(claims),
                     "ab_claim_ratio": round(ratio, 2), "sensitive_claims": len(sensitive), "atomic_sources": len(jo_sources), "p0": 0 if not result.errors else len(result.errors), "critical_p1": 0},

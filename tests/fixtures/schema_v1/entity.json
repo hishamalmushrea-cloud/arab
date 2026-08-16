@@ -1,0 +1,16 @@
+{
+  "canonical_name": "الإمارات",
+  "canonical_name_language": "ar",
+  "canonical_source_id": "SRC-ISO-3166-1-2020",
+  "coordinates": null,
+  "country_code": "AE",
+  "entity_type": "country",
+  "id": "ENT-AE-COUNTRY",
+  "legacy_ids": [],
+  "notes": "Project country scope; this entity does not imply local-place completeness.",
+  "schema_version": "1.0.0",
+  "source_locator": "ISO alpha-2 entry AE",
+  "status": "current",
+  "valid_from": null,
+  "valid_to": null
+}

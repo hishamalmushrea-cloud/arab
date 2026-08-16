@@ -175,7 +175,7 @@
     "form_of",
     "attested_in"
   ],
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "source_quality_tiers": [
     "A",
     "B",

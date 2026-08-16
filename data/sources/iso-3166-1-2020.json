@@ -34,7 +34,7 @@
   "publisher": "International Organization for Standardization (ISO)",
   "quality_tier": "A",
   "retrieved_at": "2026-08-15",
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "source_type": "standard",
   "title": "ISO 3166-1:2020 — Codes for the representation of names of countries and their subdivisions — Part 1: Country code",
   "url": "https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:ed-4:v1:en"

@@ -13921,7 +13921,7 @@
       "source_path": "data/imports/saudi/raw/2026-08-15/saudipedia-centers-al-jawf.html"
     }
   ],
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "scope": "dated Saudipedia published-row registry; not current-national completeness",
   "snapshot_date": "2026-08-15",
   "totals": {

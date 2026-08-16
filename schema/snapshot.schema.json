@@ -1,19 +1,59 @@
 {
+  "$id": "https://arab.example/schema/v2/snapshot.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://arab.example/schema/v1/snapshot.schema.json",
-  "title": "Snapshot",
-  "type": "object",
   "additionalProperties": false,
-  "required": ["id", "schema_version", "title", "captured_at", "source_id", "scope", "method", "checksum", "notes"],
   "properties": {
-    "id": {"type": "string", "pattern": "^SNP-[A-Z0-9-]+$"},
-    "schema_version": {"const": "1.0.0"},
-    "title": {"type": "string", "minLength": 1},
-    "captured_at": {"type": "string", "format": "date"},
-    "source_id": {"type": "string", "pattern": "^SRC-[A-Z0-9-]+$"},
-    "scope": {"type": "string", "minLength": 1},
-    "method": {"type": "string", "minLength": 1},
-    "checksum": {"type": ["string", "null"]},
-    "notes": {"type": ["string", "null"]}
-  }
+    "captured_at": {
+      "format": "date",
+      "type": "string"
+    },
+    "checksum": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "id": {
+      "pattern": "^SNP-[A-Z0-9-]+$",
+      "type": "string"
+    },
+    "method": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "schema_version": {
+      "const": "2.0.0"
+    },
+    "scope": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "source_id": {
+      "pattern": "^SRC-[A-Z0-9-]+$",
+      "type": "string"
+    },
+    "title": {
+      "minLength": 1,
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "schema_version",
+    "title",
+    "captured_at",
+    "source_id",
+    "scope",
+    "method",
+    "checksum",
+    "notes"
+  ],
+  "title": "Snapshot",
+  "type": "object"
 }

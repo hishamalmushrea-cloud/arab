@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Shared, dependency-free helpers for Schema v1 tooling."""
+"""Shared, dependency-free helpers for Schema 2.0.0 tooling."""
 from __future__ import annotations
 
 import hashlib
@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Any, Iterable
 
 ROOT = Path(__file__).resolve().parents[1]
-SCHEMA_VERSION = "1.0.0"
+SCHEMA_VERSION = "2.0.0"
 AS_OF = "2026-08-15"
 NAMESPACE = uuid.UUID("8a8357de-0f93-5d8c-bfe7-5a0bb84bbff6")
 

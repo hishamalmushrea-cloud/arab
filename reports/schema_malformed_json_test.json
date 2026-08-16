@@ -1,0 +1,6 @@
+{
+  "input": "deliberately invalid trailing comma",
+  "parser_pipeline_rejected": true,
+  "status": "PASS",
+  "test": "malformed JSON syntax rejection"
+}

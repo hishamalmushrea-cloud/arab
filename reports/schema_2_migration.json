@@ -1,0 +1,28 @@
+{
+  "authoritative_records": 15234,
+  "checksum_bindings_refreshed": 30,
+  "counts": {
+    "alias": 3116,
+    "claim": 2012,
+    "coverage": 56,
+    "denominator": 56,
+    "entity": 4741,
+    "manifest": 22,
+    "relationship": 5130,
+    "snapshot": 11,
+    "source": 90
+  },
+  "coverage_conversion_audit": [],
+  "failed": 0,
+  "importer_records": 28,
+  "information_lost": 0,
+  "quarantined": 0,
+  "records_migrated": 15262,
+  "schema_from": "1.0.0",
+  "schema_normalizations": 15262,
+  "schema_to": "2.0.0",
+  "semantic_changes_unreviewed": 0,
+  "semantic_hash": "sha256:708af89b2f122f8b9adca65baf79770a08ff51407dc549abb2381f7fb4549b74",
+  "semantic_loss": false,
+  "status": "PASS"
+}

@@ -1042,7 +1042,7 @@
       ]
     }
   ],
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "snapshot": {
     "as_of": "2026-08-15",
     "snapshot_id": "SNP-AE-PILOT-20260815",

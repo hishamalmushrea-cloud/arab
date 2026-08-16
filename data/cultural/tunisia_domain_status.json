@@ -53,6 +53,6 @@
       "status": "N/A"
     }
   ],
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "scope": "Bounded Phase 2 pilot; absence statuses are research-workflow states, not claims that a practice does not exist."
 }

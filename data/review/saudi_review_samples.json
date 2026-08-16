@@ -622,7 +622,7 @@
     "REL-SA-FD1CE74B32961B8F",
     "REL-SA-FE3BC17082029768"
   ],
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "selection_method": "Fixed SHA-256-ranked sample of at least 10% per major record family, forced to span every entity type, relationship type, alias kind, claim predicate, all denominator records, all bounded context places, all UNESCO sites, and all lexical forms.",
   "site_ids": [
     "ENT-SA-SITE-AL-AHSA",

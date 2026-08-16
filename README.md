@@ -4,15 +4,15 @@
 التغطية المحلية الحالية غير مكتملة، ولا يمثّل المشروع حتى الآن جميع المدن أو القرى أو
 التجمعات المأهولة أو الأحياء أو الحارات. وجود مجلد أو ملف لا يثبت اكتمال أي طبقة.
 
-> **المصدر السلطوي هو Schema v1 تحت [`data/`](data/README.md).** ملفات Markdown وCSV
+> **المصدر السلطوي هو Schema 2.0.0 تحت [`data/`](data/README.md).** ملفات Markdown وCSV
 > القديمة موادّ مرجعية محفوظة، أما [`generated/`](generated/markdown/README.md) فهو عرض
 > يُعاد بناؤه من البيانات المنظمة ولا يُعدّل مباشرة.
 
-## حالة التنفيذ — 2026-08-15
+## حالة التنفيذ — 2026-08-16
 
 اتُّخذ [`audit/FINAL_AUDIT.md`](audit/FINAL_AUDIT.md) خط أساس رسميًا. نُفذت طبقة
-الأساس لجميع الدول الـ22، وأُغلقت الآن طبقات Phase 2 الإدارية المؤرخة لتونس فقط.
-لم تُوسّع ليبيا ولم تبدأ موجة جماعية للمدن أو القرى أو الأحياء أو الحارات.
+الأساس لجميع الدول الـ22، وأُغلقت طيّارات تونس والأردن والسعودية والإمارات. صدر
+Schema 2.0.0 كمهمة مستقلة بسبب تغييرات تراكمية breaking؛ لم تبدأ البحرين ولا أي دولة جديدة.
 
 | النطاق | الحالة الدقيقة |
 |---|---|
@@ -33,20 +33,25 @@
 
 | العائلة | العدد |
 |---|---:|
-| Entity | 2,877 |
-| Claim | 68 |
-| Source ذري | 16 |
-| Alias | 2,779 |
-| Relationship | 3,243 |
+| Entity | 4,741 |
+| Claim | 2,012 |
+| Source ذري | 90 |
+| Alias | 3,116 |
+| Relationship | 5,130 |
+| Denominator / Coverage | 56 / 56 |
+| Snapshot | 11 |
 | Manifest | 22 |
 
-هذه أعداد Schema v1، وليست أعداد ملفات Markdown أو صفوف CSV القديمة.
+هذه أعداد Schema 2.0.0، وليست أعداد ملفات Markdown أو صفوف CSV القديمة.
 
 ## العقد والهيكل
 
-- [`schema/schema_v1.md`](schema/schema_v1.md): عقد البيانات وقواعد المصدر والتغطية.
+- [`schema/schema_v2.md`](schema/schema_v2.md): عقد البيانات وقواعد المصدر والتغطية.
 - [`schema/entity_types.md`](schema/entity_types.md): الأنواع الإدارية المحلية والحالات الزمنية.
-- [`schema/*.schema.json`](schema/): تسعة مخططات JSON Schema قابلة للتنفيذ.
+- [`schema/*.schema.json`](schema/): تسعة مخططات Schema 2.0.0 قابلة للتنفيذ.
+- [`schema/v1/`](schema/v1/): عقود 1.0.0 الأصلية غير القابلة للتغيير لاختبارات التوافق.
+- [`schema/MIGRATION_1_TO_2.md`](schema/MIGRATION_1_TO_2.md): قواعد الهجرة والتحويل الدلالي.
+- [`schema/CHANGELOG.md`](schema/CHANGELOG.md): سجل الإصدار.
 - [`manifests/`](manifests/): manifest مستقل لكل رمز ISO من الدول الـ22.
 - [`data/sources/`](data/sources/): ملف JSON ذري لكل مصدر.
 - [`data/quarantine/`](data/quarantine/): الصفوف غير المرقاة وسجل كل إصلاح/قرار هجرة.
@@ -74,11 +79,11 @@
 لا توجد حزم خارجية مطلوبة؛ الأدوات تستخدم مكتبة Python القياسية.
 
 ```bash
-make import-tunisia # إعادة بناء طيّار تونس من المدخلات المثبتة بالبصمات
-make review-tunisia # إعادة بناء العينة المستقلة الحتمية
-make validate       # فحص schemas والبيانات وCSV والروابط والمراجع والتغطية
-make generate       # إعادة بناء Markdown وHTML وJSON وCSV
-make check          # بوابات Phase 0 وPhase 1 وPhase 2 كاملة
+make schema-migration-test # توافق 1.0.0 وهجرة 2.0.0 والمعنى والحتمية
+make malformed-json-test   # اختبار سلبي مستقل للـJSON غير الصالح
+make validate              # فحص schemas والبيانات وCSV والروابط والمراجع والتغطية
+make generate              # إعادة بناء Markdown وHTML وJSON وCSV
+make check                 # migration + جميع بوابات البلدان المقبولة
 ```
 
 أو مباشرة:

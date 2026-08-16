@@ -56,7 +56,7 @@ def main() -> int:
         "SRC-SA-GOV-CULTURE-2026", "SRC-ACADEMIC-SA-DIALECT-CORPUS-2020", "SRC-SA-ADMIN-SNAPSHOT-CATALOG-2026",
     })
     result = {
-        "schema_version": "1.0.0",
+        "schema_version": "2.0.0",
         "country_code": "SA",
         "snapshot_date": "2026-08-15",
         "selection_method": "Fixed SHA-256-ranked sample of at least 10% per major record family, forced to span every entity type, relationship type, alias kind, claim predicate, all denominator records, all bounded context places, all UNESCO sites, and all lexical forms.",

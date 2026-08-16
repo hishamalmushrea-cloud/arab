@@ -274,7 +274,7 @@ def review() -> dict[str, Any]:
         errors.append(f"sample rates below 10%: {below}")
 
     return {
-        "schema_version": "1.0.0", "country_code": "JO", "snapshot_date": "2026-08-15",
+        "schema_version": "2.0.0", "country_code": "JO", "snapshot_date": "2026-08-15",
         "review_method": "Separate reviewer; fixed stratified samples checked against source fixtures, plus full invariant checks and seven injected negative mutants. No Tunisia samples or fixtures are reused.",
         "reviewer": "automated-independent-path",
         "input_fingerprint_sha256": input_fingerprint(),

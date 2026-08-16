@@ -107,7 +107,7 @@
       "sample_size": 2
     }
   },
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "seed": "uae-independent-review-v1",
   "selection_method": "Sort each record ID by SHA-256(seed|family|ID), then select ceil(10%); no UAE importer module is called or imported.",
   "snapshot_date": "2026-08-15",

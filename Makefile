@@ -1,4 +1,10 @@
-.PHONY: validate validate-jordan validate-saudi validate-uae generate generate-uae-report check phase0 phase1 phase2 phase3 phase4 phase5 import-tunisia import-jordan import-saudi import-uae review-tunisia review-jordan review-saudi review-uae test-uae-negative repair
+.PHONY: schema-migration-test malformed-json-test validate validate-jordan validate-saudi validate-uae generate generate-uae-report check phase0 phase1 phase2 phase3 phase4 phase5 import-tunisia import-jordan import-saudi import-uae review-tunisia review-jordan review-saudi review-uae test-uae-negative repair
+
+schema-migration-test:
+	python3 scripts/test_schema_migration.py
+
+malformed-json-test:
+	python3 scripts/test_malformed_json.py
 
 validate:
 	python3 scripts/validate.py

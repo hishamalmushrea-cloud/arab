@@ -9919,7 +9919,7 @@
     "hierarchy": 0.1,
     "source": 0.3333
   },
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "seed": "tunisia-phase2-independent-review-2026-08-15-v1",
   "span": {
     "claim_domains_sampled": {

@@ -297,9 +297,9 @@ def validate_bundle(bundle: dict[str, Any]) -> dict[str, Any]:
         error("UAE_SCHEMA", "explicit former-unit statuses missing")
     if "emirate_specific" not in vocab.get("claim_classifications", []):
         error("UAE_SCHEMA", "emirate_specific classification missing")
-    if manifest.get("schema_version") != "1.0.0":
-        error("UAE_SCHEMA", "additive pilot must remain Schema v1.0.0")
-    check("schema", schema_version="1.0.0", additive_entity_types=8, additive_entity_statuses=3, additive_claim_classifications=1, optional_manifest_properties=1, deprecated_generic_types_retained=sorted(GENERIC_UAE_TYPES))
+    if manifest.get("schema_version") != "2.0.0":
+        error("UAE_SCHEMA", "additive pilot must remain Schema v2.0.0")
+    check("schema", schema_version="2.0.0", additive_entity_types=8, additive_entity_statuses=3, additive_claim_classifications=1, optional_manifest_properties=1, deprecated_generic_types_retained=sorted(GENERIC_UAE_TYPES))
 
     # Mark checks that own at least one error as FAIL without making reports time-dependent.
     ownership = {
@@ -320,7 +320,7 @@ def validate_bundle(bundle: dict[str, Any]) -> dict[str, Any]:
     p0 = sum(row["severity"] == "P0" for row in errors)
     p1 = sum(row["severity"] == "P1" for row in errors)
     return {
-        "schema_version": "1.0.0",
+        "schema_version": "2.0.0",
         "country_code": "AE",
         "snapshot_date": "2026-08-15",
         "status": "PASS" if not errors else "FAIL",

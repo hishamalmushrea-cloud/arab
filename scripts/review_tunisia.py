@@ -150,7 +150,7 @@ def main() -> int:
     by_source_tier = Counter(sources_by_id[row["record_id"]]["quality_tier"] for row in reviews if row["family"] == "source")
     by_relationship_type = Counter(relationships_by_id[row["record_id"]]["relationship_type"] for row in reviews if row["family"] == "hierarchy")
     report = {
-        "schema_version": "1.0.0", "country_code": "TN", "review_date": "2026-08-15",
+        "schema_version": "2.0.0", "country_code": "TN", "review_date": "2026-08-15",
         "method": "Fixed-seed stratified random sample independently drawn within entity, published claim, referenced source, and Tunisia relationship families; at least 10% per family with every entity type, claim domain, source tier, and relationship type represented; independent second-pass rules do not import validator or importer code.",
         "independence": "Independent automated code path and seed; not an external human review. Source content candidates were separately inspected during Phase 2 research.",
         "seed": SEED, "target_rate": RATE, "allowed_outcomes": ["correct", "incorrect", "unsupported", "ambiguous", "needs_review"],

@@ -1,6 +1,6 @@
 # United Arab Emirates Fourth-Country Pilot — Final Report
 
-Generated from Schema v1.0.0 structured records; do not edit figures manually.
+Generated from Schema v2.0.0 structured records; do not edit figures manually.
 
 ## Decision
 
@@ -20,7 +20,7 @@ The pilot references **20 atomic Sources**: 19 UAE pilot sources plus the existi
 
 ## Schema Changes
 
-Schema remains **v1.0.0**. Additive changes introduce eight contextual UAE entity types, claim classification `emirate_specific`, entity statuses `renamed`, `merged`, and `abolished`, and optional manifest `emirate_profiles`. Legacy `ae_municipal_region`, `ae_sector`, and `ae_district` remain for backward compatibility but are deprecated and rejected for new UAE pilot entities. Problem, rationale, compatibility, temporal semantics, and tests are documented in `schema/UAE_PILOT_ADDITIVE_CHANGE.md`.
+Schema remains **v2.0.0**. Additive changes introduce eight contextual UAE entity types, claim classification `emirate_specific`, entity statuses `renamed`, `merged`, and `abolished`, and optional manifest `emirate_profiles`. Legacy `ae_municipal_region`, `ae_sector`, and `ae_district` remain for backward compatibility but are deprecated and rejected for new UAE pilot entities. Problem, rationale, compatibility, temporal semantics, and tests are documented in `schema/UAE_PILOT_ADDITIVE_CHANGE.md`.
 
 ## Federal Emirates
 
@@ -138,4 +138,4 @@ Independent review is **PASS**: 33/33 sampled checks passed, with every required
 
 ## Final Gate
 
-UAE semantic validation: **PASS**. Independent review: **PASS**. Required mutations: **PASS**. Phase 5 clean-tree gate evidence: **PASS**. The transferability decision is: **PASS for contextual per-emirate modeling; stop and await authorization rather than begin another country.**
+UAE semantic validation: **PASS**. Independent review: **PASS**. Required mutations: **PASS**. Pilot-local validation/review/mutation evidence: **PASS**. The aggregate release clean-tree gate is recorded separately in `reports/phase5_gate.json`. The transferability decision is: **PASS for contextual per-emirate modeling; stop and await authorization rather than begin another country.**

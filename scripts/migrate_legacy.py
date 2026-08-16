@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Deterministic Phase 1 migration from legacy CSV into Schema v1.
+"""Deterministic Phase 1 migration from legacy CSV into Schema 2.0.0.
 
 Only source-defensible records enter active data. Every legacy row is recorded in the
 migration ledger; questionable or unsupported rows are copied to quarantine.
@@ -514,7 +514,7 @@ def migrate() -> dict[str, Any]:
         row = item["raw"]
         if item["path"].endswith("العواصم_والمدن_الكبرى.csv"):
             code = "duplicate_cross_file_representation"
-            reason = "Aggregate capital row duplicates country files and is not authoritative under Schema v1."
+            reason = "Aggregate capital row duplicates country files and is not authoritative under Schema 2.0.0."
         elif "+" in row.get("النوع", ""):
             code = "mixed_entity_types"
             reason = "Legacy row conflates more than one entity type and cannot be imported as one Entity."
@@ -551,7 +551,7 @@ def migrate() -> dict[str, Any]:
         {
             "id": SNAPSHOT_MIGRATION,
             "schema_version": SCHEMA_VERSION,
-            "title": "Schema v1 legacy migration baseline",
+            "title": "Schema 2.0.0 legacy migration baseline",
             "captured_at": AS_OF,
             "source_id": SRC_AUDIT,
             "scope": "All 24 legacy CSV files and 22 country manifests",

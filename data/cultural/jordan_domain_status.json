@@ -34,7 +34,7 @@
       "status": "verified"
     }
   },
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "snapshot_date": "2026-08-15",
   "source_fixture": "data/imports/jordan/cultural_content_2026.json"
 }

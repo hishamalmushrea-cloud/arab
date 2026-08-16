@@ -126,7 +126,7 @@
     "text_duplication_rate": 7.3326,
     "unique_sources_used_including_shared_iso": 35
   },
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "snapshot_date": "2026-08-15",
   "status": "pass"
 }

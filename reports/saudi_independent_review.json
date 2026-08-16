@@ -2,7 +2,7 @@
   "baseline_issue_codes": [],
   "country_code": "SA",
   "errors": [],
-  "input_fingerprint_sha256": "2d6ce56cac95761ddd147cc3f67fc20463ebed3fe3aaea9b757039d7d0c5d301",
+  "input_fingerprint_sha256": "290fc297b58e9f89ca8adfa1473bb8677a258a3af3d3d315cbbb792ae220ff9e",
   "metrics": {
     "ab_claim_ratio": 100.0,
     "duplicate_claim_text_occurrences": 127,
@@ -53,7 +53,7 @@
     "sites": 1.0,
     "sources": 0.3143
   },
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "snapshot_date": "2026-08-15",
   "totals": {
     "aliases": 179,

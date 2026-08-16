@@ -2,7 +2,7 @@
   "baseline_issue_codes": [],
   "country_code": "JO",
   "errors": [],
-  "input_fingerprint_sha256": "194cb13ca55f751c847eb6b1a8e6e8c2eba98422398d4ea94e6b8380565a339b",
+  "input_fingerprint_sha256": "61195c63dc2b56808001a127ae0f3fc7815316c1263a9fcd97be4f33a168a3af",
   "negative_test_outcomes": {
     "NEG-JO-COORDINATE-MISMATCH": "pass",
     "NEG-JO-CULTURAL-MISATTRIBUTION": "pass",
@@ -47,7 +47,7 @@
     "relationships": 0.1597,
     "sources": 0.2857
   },
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "snapshot_date": "2026-08-15",
   "totals": {
     "aliases": 115,

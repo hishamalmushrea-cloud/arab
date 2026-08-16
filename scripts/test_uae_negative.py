@@ -104,7 +104,7 @@ def main() -> int:
         print(f"[{'PASS' if detected else 'FAIL'}] {name}: expected {expected_code}; observed {codes}")
 
     report = {
-        "schema_version": "1.0.0",
+        "schema_version": "2.0.0",
         "country_code": "AE",
         "snapshot_date": "2026-08-15",
         "status": "PASS" if all(row["detected"] for row in outcomes) else "FAIL",

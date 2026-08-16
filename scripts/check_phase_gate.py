@@ -11,6 +11,7 @@ from collections import Counter
 from pathlib import Path
 from typing import Any
 
+from migrate_schema_2 import semantic_hash
 from model import COUNTRIES, ROOT, read_jsonl, write_json
 
 
@@ -74,7 +75,7 @@ def phase0(gate: Gate) -> None:
 
     required_schemas = ["entity", "alias", "relationship", "source", "claim", "snapshot", "denominator", "coverage"]
     missing = [name for name in required_schemas if not (ROOT / f"schema/{name}.schema.json").is_file()]
-    gate.require(not missing and (ROOT / "schema/schema_v1.md").is_file() and (ROOT / "schema/entity_types.md").is_file(), "schema_contract", f"required schemas present; missing={missing}")
+    gate.require(not missing and (ROOT / "schema/schema_v2.md").is_file() and (ROOT / "schema/entity_types.md").is_file(), "schema_contract", f"required schemas present; missing={missing}")
 
     manifests = sorted((ROOT / "manifests").glob("*.yml"))
     manifest_codes = {path.stem for path in manifests}
@@ -95,6 +96,8 @@ def phase0(gate: Gate) -> None:
     workflow = ROOT / ".github/workflows/validate.yml"
     gate.require(workflow.is_file(), "ci_workflow", ".github/workflows/validate.yml exists")
     gate.require((ROOT / "scripts/validate.py").is_file(), "validator", "dependency-free validator exists")
+    gate.command("schema_migration_tests", [sys.executable, "scripts/test_schema_migration.py"])
+    gate.command("malformed_json_test", [sys.executable, "scripts/test_malformed_json.py"])
     gate.command("validation", [sys.executable, "scripts/validate.py"])
 
 
@@ -463,7 +466,14 @@ def main() -> int:
     args = parser.parse_args()
     gate = Gate(args.phase)
     {"phase0": phase0, "phase1": phase1, "phase2": phase2, "phase3": phase3, "phase4": phase4, "phase5": phase5}[args.phase](gate)
-    report = {"phase": args.phase, "status": "pass" if not gate.errors else "fail", "checks": gate.checks, "errors": gate.errors}
+    report = {
+        "phase": args.phase,
+        "schema_version": "2.0.0",
+        "semantic_hash": semantic_hash(ROOT),
+        "status": "pass" if not gate.errors else "fail",
+        "checks": gate.checks,
+        "errors": gate.errors,
+    }
     write_json(ROOT / f"reports/{args.phase}_gate.json", report)
     for name, result in gate.checks.items():
         print(f"[{'PASS' if result['status'] == 'pass' else 'FAIL'}] {name}: {result.get('detail', result.get('command', ''))}")

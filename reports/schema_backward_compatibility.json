@@ -1,0 +1,36 @@
+{
+  "bahrain_new_records": {
+    "claims": 0,
+    "denominators": 0,
+    "entities": 0,
+    "sources": 0
+  },
+  "country_integrity": "PASS (0 mismatches)",
+  "cycle_detection": "PASS (0)",
+  "determinism": "PASS",
+  "duplicate_detection": "PASS (0 active duplicate IDs)",
+  "fixture_result_sha256": "sha256:83e41df69ea273511e1f70292dc7fe9594c0531f912134182cfc2e02d25d2c5c",
+  "idempotence": "PASS",
+  "invalid_default_rejection": "6/6 PASS",
+  "literal_v1_accepted_by_v2": "0/9",
+  "migration_correctness": "9/9 PASS",
+  "orphan_detection": "PASS (0)",
+  "schema_from": "1.0.0",
+  "schema_to": "2.0.0",
+  "semantic_hash": "sha256:708af89b2f122f8b9adca65baf79770a08ff51407dc549abb2381f7fb4549b74",
+  "semantic_loss": false,
+  "semantic_preservation": {
+    "alias": "PASS",
+    "claim": "PASS",
+    "coverage": "PASS",
+    "denominator": "PASS",
+    "entity": "PASS",
+    "manifest": "PASS",
+    "relationship": "PASS",
+    "snapshot": "PASS",
+    "source": "PASS"
+  },
+  "source_claim_integrity": "PASS (2012/2012)",
+  "status": "PASS",
+  "version_only_accepted_by_v2": "3/9"
+}

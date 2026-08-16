@@ -218,7 +218,7 @@ def parse_registry() -> tuple[dict[str, Any], list[dict[str, Any]]]:
     if (governorate_total, capital_total, occurrence_total, unique_total, len(anomalies)) != (141, 13, 1523, 1521, 2):
         raise ValueError("Saudi parser invariant failed")
     return ({
-        "schema_version": "1.0.0",
+        "schema_version": "2.0.0",
         "snapshot_date": AS_OF,
         "scope": "dated Saudipedia published-row registry; not current-national completeness",
         "totals": {
@@ -552,7 +552,7 @@ def main() -> int:
 
     write_json(IMPORT_DIR / "parsed_registry.json", parsed)
     write_json(IMPORT_DIR / "anomaly_ledger.json", {
-        "schema_version": "1.0.0", "snapshot_date": AS_OF,
+        "schema_version": "2.0.0", "snapshot_date": AS_OF,
         "anomaly_count": len(anomalies), "unresolved_p0": 0, "unresolved_p1": 0,
         "records": anomalies,
     })

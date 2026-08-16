@@ -1,70 +1,333 @@
 {
-  "schema_version": "1.0.0",
-  "snapshot_date": "2026-08-15",
-  "scope_note": "Bounded representative sample only. It is not national cultural, populated-place, or dialect completeness.",
-  "world_heritage_denominator": {
-    "value": 8,
-    "source_id": "SRC-UNESCO-WHC-SA-STATE-2026",
-    "locator": "Properties inscribed on the World Heritage List: 8 (seven cultural, one natural)",
-    "as_of": "2026-08-15"
-  },
-  "properties": [
-    {"key":"hegra","name_ar":"موقع الحجر الأثري (مدائن صالح)","name_en":"Hegra Archaeological Site (al-Hijr / Madā’in Ṣāliḥ)","entity_type":"archaeological_site","parent_kind":"governorate","parent_key":"madinah:العلا","inscription_year":2008,"source_id":"SRC-UNESCO-WHC-SA-1293","locator":"title; English and Arabic descriptions; Date of Inscription: 2008","contexts":["desert","historical"]},
-    {"key":"at-turaif","name_ar":"حي الطريف في الدرعية","name_en":"At-Turaif District in ad-Dir'iyah","entity_type":"cultural_site","parent_kind":"governorate","parent_key":"riyadh:الدرعية","inscription_year":2010,"source_id":"SRC-UNESCO-WHC-SA-1329","locator":"title; English and Arabic descriptions; Date of Inscription: 2010","contexts":["oasis","historical-city","major-city-region"]},
-    {"key":"historic-jeddah","name_ar":"جدة التاريخية، بوابة مكة","name_en":"Historic Jeddah, the Gate to Makkah","entity_type":"cultural_site","parent_kind":"governorate","parent_key":"makkah:جدة","inscription_year":2014,"source_id":"SRC-UNESCO-WHC-SA-1361","locator":"title; English description; Date of Inscription: 2014","contexts":["coastal","historical-city","major-city"]},
-    {"key":"hail-rock-art","name_ar":"الفن الصخري في منطقة حائل","name_en":"Rock Art in the Hail Region of Saudi Arabia","entity_type":"archaeological_site","parent_kind":"region","parent_key":"hail","inscription_year":2015,"source_id":"SRC-UNESCO-WHC-SA-1472","locator":"title; English and Arabic descriptions; Date of Inscription: 2015","contexts":["desert","rural"]},
-    {"key":"al-ahsa","name_ar":"واحة الأحساء، منظر ثقافي آخذ بالتغير","name_en":"Al-Ahsa Oasis, an Evolving Cultural Landscape","entity_type":"cultural_site","parent_kind":"governorate","parent_key":"eastern:الأحساء","inscription_year":2018,"source_id":"SRC-UNESCO-WHC-SA-1563","locator":"title; English and Arabic descriptions; Date of Inscription: 2018","contexts":["oasis","rural","urban"]},
-    {"key":"hima","name_ar":"منطقة حمى الثقافية","name_en":"Ḥimā Cultural Area","entity_type":"archaeological_site","parent_kind":"region","parent_key":"najran","inscription_year":2021,"source_id":"SRC-UNESCO-WHC-SA-1619","locator":"title; English and Arabic descriptions; Date of Inscription: 2021","contexts":["mountain","desert","rural"]},
-    {"key":"uruq-bani-maarid","name_ar":"عروق بني معارض","name_en":"‘Uruq Bani Ma’arid","entity_type":"natural_site","parent_kind":"country","parent_key":"SA","inscription_year":2023,"source_id":"SRC-UNESCO-WHC-SA-1699","locator":"title; English and Arabic descriptions; Date of Inscription: 2023","contexts":["desert","pastoral"]},
-    {"key":"al-faw","name_ar":"المنظر الثقافي لمنطقة الفاو الأثرية","name_en":"The Cultural Landscape of Al-Faw Archaeological Area","entity_type":"archaeological_site","parent_kind":"region","parent_key":"riyadh","inscription_year":2024,"source_id":"SRC-UNESCO-WHC-SA-1712","locator":"title; English and Arabic descriptions; Date of Inscription: 2024","contexts":["desert","oasis","historical"]}
-  ],
   "bounded_populated_places": {
-    "denominator_status":"unavailable",
-    "missing_reason":"No dated, atomic, current official national registry of populated places was accepted in this cycle. These four records are source-bounded context anchors, not a coverage denominator.",
-    "places":[
-      {"key":"jeddah-city","name_ar":"جدة","name_en":"Jeddah","entity_type":"city","status":"current","parent_governorate":"makkah:جدة","source_id":"SRC-UNESCO-WHC-SA-1361","locator":"English description: Historic Jeddah is situated on the eastern shore of the Red Sea","context":"coastal major city"},
-      {"key":"diriyah-city","name_ar":"الدرعية","name_en":"ad-Dir'iyah","entity_type":"city","status":"current","parent_governorate":"riyadh:الدرعية","source_id":"SRC-UNESCO-WHC-SA-1329","locator":"title and English description: north-west of Riyadh; urban ensemble at the ad-Dir’iyah oasis","context":"oasis city"},
-      {"key":"al-hofuf-city","name_ar":"الهفوف","name_en":"Al-Hofuf","entity_type":"city","status":"current","parent_governorate":"eastern:الأحساء","source_id":"SRC-UNESCO-WHC-SA-1563","locator":"World Heritage property description and component context; bounded here only as the urban context of the serial oasis property","context":"oasis city"},
-      {"key":"qaryat-al-faw","name_ar":"قرية الفاو","name_en":"Qaryat al-Faw","entity_type":"historical_place","status":"historical","parent_region":"riyadh","source_id":"SRC-UNESCO-WHC-SA-1712","locator":"English description: vestiges of the city of Qaryat al-Faw; property abandoned around the 5th century CE","context":"historical desert-oasis settlement"}
+    "denominator_status": "unavailable",
+    "missing_reason": "No dated, atomic, current official national registry of populated places was accepted in this cycle. These four records are source-bounded context anchors, not a coverage denominator.",
+    "places": [
+      {
+        "context": "coastal major city",
+        "entity_type": "city",
+        "key": "jeddah-city",
+        "locator": "English description: Historic Jeddah is situated on the eastern shore of the Red Sea",
+        "name_ar": "جدة",
+        "name_en": "Jeddah",
+        "parent_governorate": "makkah:جدة",
+        "source_id": "SRC-UNESCO-WHC-SA-1361",
+        "status": "current"
+      },
+      {
+        "context": "oasis city",
+        "entity_type": "city",
+        "key": "diriyah-city",
+        "locator": "title and English description: north-west of Riyadh; urban ensemble at the ad-Dir’iyah oasis",
+        "name_ar": "الدرعية",
+        "name_en": "ad-Dir'iyah",
+        "parent_governorate": "riyadh:الدرعية",
+        "source_id": "SRC-UNESCO-WHC-SA-1329",
+        "status": "current"
+      },
+      {
+        "context": "oasis city",
+        "entity_type": "city",
+        "key": "al-hofuf-city",
+        "locator": "World Heritage property description and component context; bounded here only as the urban context of the serial oasis property",
+        "name_ar": "الهفوف",
+        "name_en": "Al-Hofuf",
+        "parent_governorate": "eastern:الأحساء",
+        "source_id": "SRC-UNESCO-WHC-SA-1563",
+        "status": "current"
+      },
+      {
+        "context": "historical desert-oasis settlement",
+        "entity_type": "historical_place",
+        "key": "qaryat-al-faw",
+        "locator": "English description: vestiges of the city of Qaryat al-Faw; property abandoned around the 5th century CE",
+        "name_ar": "قرية الفاو",
+        "name_en": "Qaryat al-Faw",
+        "parent_region": "riyadh",
+        "source_id": "SRC-UNESCO-WHC-SA-1712",
+        "status": "historical"
+      }
     ]
   },
-  "regional_dishes": [
-    {"region_key":"riyadh","value_ar":"المرقوق"},
-    {"region_key":"makkah","value_ar":"السليق"},
-    {"region_key":"madinah","value_ar":"الأرز المديني"},
-    {"region_key":"qassim","value_ar":"الكليجا"},
-    {"region_key":"eastern","value_ar":"الأرز الحساوي"},
-    {"region_key":"asir","value_ar":"الحنيذ"},
-    {"region_key":"tabuk","value_ar":"الصيادية"},
-    {"region_key":"hail","value_ar":"كبيبات حائل"},
-    {"region_key":"northern-borders","value_ar":"المليحية"},
-    {"region_key":"jazan","value_ar":"المغش"},
-    {"region_key":"najran","value_ar":"الرقش"},
-    {"region_key":"al-baha","value_ar":"خبز المقناة"},
-    {"region_key":"al-jawf","value_ar":"البكيلة"}
-  ],
-  "dish_source_id":"SRC-SA-CULINARY-REGIONAL-DISHES-2024",
-  "dish_locator":"Article body: Culinary Arts Commission selections for all 13 regions; national dish and dessert paragraph",
-  "national_dish":{"dish_ar":"الجريش","dessert_ar":"المقشوش"},
-  "intangible_practices":[
-    {"region_key":"asir","value_ar":"القط العسيري","classification":"regional","source_id":"SRC-UNESCO-ICH-SA-01261","locator":"Representative List entry 01261 title and description: female traditional interior wall decoration in Asir"},
-    {"region_key":"makkah","value_ar":"المزمار","classification":"regional","source_id":"SRC-UNESCO-ICH-SA-01011","locator":"Representative List entry 01011 and inventory description: Alhijaz region in western Saudi Arabia"},
-    {"region_key":"riyadh","value_ar":"العرضة النجدية","classification":"regional","source_id":"SRC-UNESCO-ICH-SA-01196","locator":"Representative List entry 01196 title: Alardah Alnajdiyah"},
-    {"region_key":"jazan","value_ar":"معارف وممارسات زراعة البن الخولاني","classification":"regional","source_id":"SRC-UNESCO-ICH-SA-01863","locator":"Decision 17.COM 7.B.24; nomination content verified with local-community representatives in Jazan"}
-  ],
-  "lexical_forms":[
-    {"variety_key":"hijazi","region_key":"makkah","place_key":"jeddah-city","form":"دحين","meaning":"الآن","register":"informal social-media writing","source_id":"SRC-ACADEMIC-SA-DIALECT-CORPUS-2020","locator":"p. 220, Hijazi examples and classification guideline: ‘Dahin’ means now","study_date":"2020-12-01"},
-    {"variety_key":"hijazi","region_key":"makkah","place_key":"jeddah-city","form":"أهرج","meaning":"تكلّم","register":"informal social-media writing","source_id":"SRC-ACADEMIC-SA-DIALECT-CORPUS-2020","locator":"p. 220, Hijazi corpus example ‘Ahrej’ / Speak","study_date":"2020-12-01"},
-    {"variety_key":"najdi","region_key":"riyadh","place_key":"riyadh-seat","form":"هالحين","meaning":"الآن","register":"informal social-media writing","source_id":"SRC-ACADEMIC-SA-DIALECT-CORPUS-2020","locator":"p. 220, Najdi examples and classification guideline: ‘Halhin’ means now","study_date":"2020-12-01"},
-    {"variety_key":"najdi","region_key":"riyadh","place_key":"riyadh-seat","form":"وش","meaning":"ماذا","register":"informal social-media writing","source_id":"SRC-ACADEMIC-SA-DIALECT-CORPUS-2020","locator":"p. 220, Najdi corpus example ‘Wesh’","study_date":"2020-12-01"}
-  ],
+  "dish_locator": "Article body: Culinary Arts Commission selections for all 13 regions; national dish and dessert paragraph",
+  "dish_source_id": "SRC-SA-CULINARY-REGIONAL-DISHES-2024",
   "domain_status": {
-    "food":"bounded: thirteen officially selected regional dishes plus national dish/dessert; designation is not exclusivity",
-    "clothing":"explicitly unsupported at item level; official government page supports regional diversity only",
-    "customs":"bounded: four UNESCO-listed practices with regional/shared classification",
-    "dialects":"bounded lexical evidence only; no national dialect-count claim",
-    "other_languages":"not populated; no sufficiently bounded registry was accepted",
-    "population":"not populated; no population claim without a dated source",
-    "coordinates":"not populated; no coordinate-bearing fixture was captured in this cycle"
+    "clothing": "explicitly unsupported at item level; official government page supports regional diversity only",
+    "coordinates": "not populated; no coordinate-bearing fixture was captured in this cycle",
+    "customs": "bounded: four UNESCO-listed practices with regional/shared classification",
+    "dialects": "bounded lexical evidence only; no national dialect-count claim",
+    "food": "bounded: thirteen officially selected regional dishes plus national dish/dessert; designation is not exclusivity",
+    "other_languages": "not populated; no sufficiently bounded registry was accepted",
+    "population": "not populated; no population claim without a dated source"
+  },
+  "intangible_practices": [
+    {
+      "classification": "regional",
+      "locator": "Representative List entry 01261 title and description: female traditional interior wall decoration in Asir",
+      "region_key": "asir",
+      "source_id": "SRC-UNESCO-ICH-SA-01261",
+      "value_ar": "القط العسيري"
+    },
+    {
+      "classification": "regional",
+      "locator": "Representative List entry 01011 and inventory description: Alhijaz region in western Saudi Arabia",
+      "region_key": "makkah",
+      "source_id": "SRC-UNESCO-ICH-SA-01011",
+      "value_ar": "المزمار"
+    },
+    {
+      "classification": "regional",
+      "locator": "Representative List entry 01196 title: Alardah Alnajdiyah",
+      "region_key": "riyadh",
+      "source_id": "SRC-UNESCO-ICH-SA-01196",
+      "value_ar": "العرضة النجدية"
+    },
+    {
+      "classification": "regional",
+      "locator": "Decision 17.COM 7.B.24; nomination content verified with local-community representatives in Jazan",
+      "region_key": "jazan",
+      "source_id": "SRC-UNESCO-ICH-SA-01863",
+      "value_ar": "معارف وممارسات زراعة البن الخولاني"
+    }
+  ],
+  "lexical_forms": [
+    {
+      "form": "دحين",
+      "locator": "p. 220, Hijazi examples and classification guideline: ‘Dahin’ means now",
+      "meaning": "الآن",
+      "place_key": "jeddah-city",
+      "region_key": "makkah",
+      "register": "informal social-media writing",
+      "source_id": "SRC-ACADEMIC-SA-DIALECT-CORPUS-2020",
+      "study_date": "2020-12-01",
+      "variety_key": "hijazi"
+    },
+    {
+      "form": "أهرج",
+      "locator": "p. 220, Hijazi corpus example ‘Ahrej’ / Speak",
+      "meaning": "تكلّم",
+      "place_key": "jeddah-city",
+      "region_key": "makkah",
+      "register": "informal social-media writing",
+      "source_id": "SRC-ACADEMIC-SA-DIALECT-CORPUS-2020",
+      "study_date": "2020-12-01",
+      "variety_key": "hijazi"
+    },
+    {
+      "form": "هالحين",
+      "locator": "p. 220, Najdi examples and classification guideline: ‘Halhin’ means now",
+      "meaning": "الآن",
+      "place_key": "riyadh-seat",
+      "region_key": "riyadh",
+      "register": "informal social-media writing",
+      "source_id": "SRC-ACADEMIC-SA-DIALECT-CORPUS-2020",
+      "study_date": "2020-12-01",
+      "variety_key": "najdi"
+    },
+    {
+      "form": "وش",
+      "locator": "p. 220, Najdi corpus example ‘Wesh’",
+      "meaning": "ماذا",
+      "place_key": "riyadh-seat",
+      "region_key": "riyadh",
+      "register": "informal social-media writing",
+      "source_id": "SRC-ACADEMIC-SA-DIALECT-CORPUS-2020",
+      "study_date": "2020-12-01",
+      "variety_key": "najdi"
+    }
+  ],
+  "national_dish": {
+    "dessert_ar": "المقشوش",
+    "dish_ar": "الجريش"
+  },
+  "properties": [
+    {
+      "contexts": [
+        "desert",
+        "historical"
+      ],
+      "entity_type": "archaeological_site",
+      "inscription_year": 2008,
+      "key": "hegra",
+      "locator": "title; English and Arabic descriptions; Date of Inscription: 2008",
+      "name_ar": "موقع الحجر الأثري (مدائن صالح)",
+      "name_en": "Hegra Archaeological Site (al-Hijr / Madā’in Ṣāliḥ)",
+      "parent_key": "madinah:العلا",
+      "parent_kind": "governorate",
+      "source_id": "SRC-UNESCO-WHC-SA-1293"
+    },
+    {
+      "contexts": [
+        "oasis",
+        "historical-city",
+        "major-city-region"
+      ],
+      "entity_type": "cultural_site",
+      "inscription_year": 2010,
+      "key": "at-turaif",
+      "locator": "title; English and Arabic descriptions; Date of Inscription: 2010",
+      "name_ar": "حي الطريف في الدرعية",
+      "name_en": "At-Turaif District in ad-Dir'iyah",
+      "parent_key": "riyadh:الدرعية",
+      "parent_kind": "governorate",
+      "source_id": "SRC-UNESCO-WHC-SA-1329"
+    },
+    {
+      "contexts": [
+        "coastal",
+        "historical-city",
+        "major-city"
+      ],
+      "entity_type": "cultural_site",
+      "inscription_year": 2014,
+      "key": "historic-jeddah",
+      "locator": "title; English description; Date of Inscription: 2014",
+      "name_ar": "جدة التاريخية، بوابة مكة",
+      "name_en": "Historic Jeddah, the Gate to Makkah",
+      "parent_key": "makkah:جدة",
+      "parent_kind": "governorate",
+      "source_id": "SRC-UNESCO-WHC-SA-1361"
+    },
+    {
+      "contexts": [
+        "desert",
+        "rural"
+      ],
+      "entity_type": "archaeological_site",
+      "inscription_year": 2015,
+      "key": "hail-rock-art",
+      "locator": "title; English and Arabic descriptions; Date of Inscription: 2015",
+      "name_ar": "الفن الصخري في منطقة حائل",
+      "name_en": "Rock Art in the Hail Region of Saudi Arabia",
+      "parent_key": "hail",
+      "parent_kind": "region",
+      "source_id": "SRC-UNESCO-WHC-SA-1472"
+    },
+    {
+      "contexts": [
+        "oasis",
+        "rural",
+        "urban"
+      ],
+      "entity_type": "cultural_site",
+      "inscription_year": 2018,
+      "key": "al-ahsa",
+      "locator": "title; English and Arabic descriptions; Date of Inscription: 2018",
+      "name_ar": "واحة الأحساء، منظر ثقافي آخذ بالتغير",
+      "name_en": "Al-Ahsa Oasis, an Evolving Cultural Landscape",
+      "parent_key": "eastern:الأحساء",
+      "parent_kind": "governorate",
+      "source_id": "SRC-UNESCO-WHC-SA-1563"
+    },
+    {
+      "contexts": [
+        "mountain",
+        "desert",
+        "rural"
+      ],
+      "entity_type": "archaeological_site",
+      "inscription_year": 2021,
+      "key": "hima",
+      "locator": "title; English and Arabic descriptions; Date of Inscription: 2021",
+      "name_ar": "منطقة حمى الثقافية",
+      "name_en": "Ḥimā Cultural Area",
+      "parent_key": "najran",
+      "parent_kind": "region",
+      "source_id": "SRC-UNESCO-WHC-SA-1619"
+    },
+    {
+      "contexts": [
+        "desert",
+        "pastoral"
+      ],
+      "entity_type": "natural_site",
+      "inscription_year": 2023,
+      "key": "uruq-bani-maarid",
+      "locator": "title; English and Arabic descriptions; Date of Inscription: 2023",
+      "name_ar": "عروق بني معارض",
+      "name_en": "‘Uruq Bani Ma’arid",
+      "parent_key": "SA",
+      "parent_kind": "country",
+      "source_id": "SRC-UNESCO-WHC-SA-1699"
+    },
+    {
+      "contexts": [
+        "desert",
+        "oasis",
+        "historical"
+      ],
+      "entity_type": "archaeological_site",
+      "inscription_year": 2024,
+      "key": "al-faw",
+      "locator": "title; English and Arabic descriptions; Date of Inscription: 2024",
+      "name_ar": "المنظر الثقافي لمنطقة الفاو الأثرية",
+      "name_en": "The Cultural Landscape of Al-Faw Archaeological Area",
+      "parent_key": "riyadh",
+      "parent_kind": "region",
+      "source_id": "SRC-UNESCO-WHC-SA-1712"
+    }
+  ],
+  "regional_dishes": [
+    {
+      "region_key": "riyadh",
+      "value_ar": "المرقوق"
+    },
+    {
+      "region_key": "makkah",
+      "value_ar": "السليق"
+    },
+    {
+      "region_key": "madinah",
+      "value_ar": "الأرز المديني"
+    },
+    {
+      "region_key": "qassim",
+      "value_ar": "الكليجا"
+    },
+    {
+      "region_key": "eastern",
+      "value_ar": "الأرز الحساوي"
+    },
+    {
+      "region_key": "asir",
+      "value_ar": "الحنيذ"
+    },
+    {
+      "region_key": "tabuk",
+      "value_ar": "الصيادية"
+    },
+    {
+      "region_key": "hail",
+      "value_ar": "كبيبات حائل"
+    },
+    {
+      "region_key": "northern-borders",
+      "value_ar": "المليحية"
+    },
+    {
+      "region_key": "jazan",
+      "value_ar": "المغش"
+    },
+    {
+      "region_key": "najran",
+      "value_ar": "الرقش"
+    },
+    {
+      "region_key": "al-baha",
+      "value_ar": "خبز المقناة"
+    },
+    {
+      "region_key": "al-jawf",
+      "value_ar": "البكيلة"
+    }
+  ],
+  "schema_version": "2.0.0",
+  "scope_note": "Bounded representative sample only. It is not national cultural, populated-place, or dialect completeness.",
+  "snapshot_date": "2026-08-15",
+  "world_heritage_denominator": {
+    "as_of": "2026-08-15",
+    "locator": "Properties inscribed on the World Heritage List: 8 (seven cultural, one natural)",
+    "source_id": "SRC-UNESCO-WHC-SA-STATE-2026",
+    "value": 8
   }
 }

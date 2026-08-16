@@ -1,6 +1,6 @@
 {
   "id": "SRC-SA-CULTURAL-FIXTURE-2026",
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "title": "Saudi bounded cultural-content extraction fixture, 2026-08-15",
   "author": null,
   "organization": "arab data project",
@@ -16,7 +16,7 @@
     "SA"
   ],
   "locator": "complete JSON document",
-  "checksum": "sha256:0e0d178bb7b4f16d382a18027ec42870ee990953b0a6b4f1ba16f52f4959cf37",
+  "checksum": "sha256:e925b382d3e6038126562efc97f98072d8dd999e143396b8606a8cf41f976709",
   "quality_tier": "B",
   "notes": "Project audit fixture containing only bounded assertions and exact upstream source locators. Publication date is the fixture date."
 }

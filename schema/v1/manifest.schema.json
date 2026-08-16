@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arab.example/schema/v1/manifest.schema.json",
+  "title": "Country manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "country", "status", "official_authority", "snapshot", "hierarchy", "coverage_record_ids", "caveats", "next_action"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "country": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["iso2", "name_ar", "entity_id"],
+      "properties": {
+        "iso2": {"type": "string", "pattern": "^[A-Z]{2}$"},
+        "name_ar": {"type": "string", "minLength": 1},
+        "entity_id": {"type": "string", "pattern": "^ENT-[A-Z]{2}-COUNTRY$"}
+      }
+    },
+    "status": {"enum": ["baseline_only", "pilot_migrated", "blocked"]},
+    "official_authority": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "source_ids", "verification_status", "missing_reason"],
+      "properties": {
+        "name": {"type": ["string", "null"]},
+        "source_ids": {"type": "array", "items": {"type": "string", "pattern": "^SRC-[A-Z0-9-]+$"}, "uniqueItems": true},
+        "verification_status": {"enum": ["verified", "partial", "pending", "conflicted"]},
+        "missing_reason": {"type": ["string", "null"]}
+      }
+    },
+    "snapshot": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["as_of", "snapshot_id", "status"],
+      "properties": {
+        "as_of": {"type": "string", "format": "date"},
+        "snapshot_id": {"type": "string", "pattern": "^SNP-[A-Z0-9-]+$"},
+        "status": {"enum": ["verified", "partial", "baseline"]}
+      }
+    },
+    "hierarchy": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["level", "entity_type", "local_names", "allowed_parent_types", "temporal_statuses", "source_ids", "verification_status", "caveat"],
+        "properties": {
+          "level": {"type": "integer", "minimum": 0},
+          "entity_type": {"type": "string", "minLength": 2},
+          "local_names": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+          "allowed_parent_types": {"type": "array", "items": {"type": "string", "minLength": 2}},
+          "temporal_statuses": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 2}},
+          "source_ids": {"type": "array", "items": {"type": "string", "pattern": "^SRC-[A-Z0-9-]+$"}, "uniqueItems": true},
+          "verification_status": {"enum": ["verified", "partial", "pending", "historical"]},
+          "caveat": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "coverage_record_ids": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^COV-[A-Z0-9-]+$"}, "uniqueItems": true},
+    "caveats": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "next_action": {"type": "string", "minLength": 1}
+  }
+}

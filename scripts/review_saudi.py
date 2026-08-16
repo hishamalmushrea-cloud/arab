@@ -357,7 +357,7 @@ def review() -> dict[str, Any]:
 
     duplicate_texts = sum(count - 1 for count in Counter(json.dumps(row["value"], ensure_ascii=False, sort_keys=True) for row in claims).values() if count > 1)
     return {
-        "schema_version":"1.0.0", "country_code":"SA", "snapshot_date":AS_OF,
+        "schema_version":"2.0.0", "country_code":"SA", "snapshot_date":AS_OF,
         "review_method":"Independent raw-HTML parser and fixed SHA-256 stratified sample; full denominator, culture and dialect invariants; seven injected Saudi-specific mutants. The importer is not imported or called.",
         "reviewer":"automated-independent-path", "input_fingerprint_sha256":input_fingerprint(), "passed":not errors,
         "totals":totals, "reviewed":reviewed, "sample_rates":rates, "baseline_issue_codes":sorted(baseline),

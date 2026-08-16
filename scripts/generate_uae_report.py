@@ -66,7 +66,7 @@ def render() -> str:
     validation = load(ROOT / "reports/uae_validation.json")
     review = load(ROOT / "reports/uae_independent_review.json")
     negatives = load(ROOT / "reports/uae_negative_tests.json")
-    gate = load(ROOT / "reports/phase5_gate.json", {})
+
     entities = [row for row in read_jsonl(ROOT / "data/entities/entities.jsonl") if row.get("country_code") == "AE"]
     entity_ids = {row["id"] for row in entities}
     aliases = [row for row in read_jsonl(ROOT / "data/aliases/aliases.jsonl") if row.get("entity_id") in entity_ids]
@@ -81,9 +81,8 @@ def render() -> str:
     lexical = [row for row in claims if row.get("predicate") == "lexical_form"]
     unavailable = [row for row in coverage if row.get("denominator") is None]
     closed = [row for row in coverage if row.get("denominator") is not None]
-    phase5_status = str(gate.get("status", "PENDING")).upper()
     all_inputs_pass = all(report and report.get("status") == "PASS" for report in (validation, review, negatives))
-    decision = "PASS" if all_inputs_pass and phase5_status in {"PASS", "PENDING"} else "FAIL"
+    decision = "PASS" if all_inputs_pass else "FAIL"
 
     sections: dict[str, str] = {}
     sections["Decision"] = (
@@ -106,7 +105,7 @@ def render() -> str:
         f"({source_metrics['ab_claims']}/{source_metrics['published_claims']}). Dubai community download failures are recorded in the persisted metadata extract; an unavailable file is not represented as a successful archive."
     )
     sections["Schema Changes"] = (
-        "Schema remains **v1.0.0**. Additive changes introduce eight contextual UAE entity types, claim classification `emirate_specific`, entity statuses `renamed`, `merged`, and `abolished`, "
+        "Schema remains **v2.0.0**. Additive changes introduce eight contextual UAE entity types, claim classification `emirate_specific`, entity statuses `renamed`, `merged`, and `abolished`, "
         "and optional manifest `emirate_profiles`. Legacy `ae_municipal_region`, `ae_sector`, and `ae_district` remain for backward compatibility but are deprecated and rejected for new UAE pilot entities. "
         "Problem, rationale, compatibility, temporal semantics, and tests are documented in `schema/UAE_PILOT_ADDITIVE_CHANGE.md`."
     )
@@ -174,10 +173,10 @@ def render() -> str:
     )
     sections["Final Gate"] = (
         f"UAE semantic validation: **{validation['status']}**. Independent review: **{review['status']}**. Required mutations: **{negatives['status']}**. "
-        f"Phase 5 clean-tree gate evidence: **{phase5_status}**. The transferability decision is: **PASS for contextual per-emirate modeling; stop and await authorization rather than begin another country.**"
+        f"Pilot-local validation/review/mutation evidence: **{'PASS' if all_inputs_pass else 'FAIL'}**. The aggregate release clean-tree gate is recorded separately in `reports/phase5_gate.json`. The transferability decision is: **PASS for contextual per-emirate modeling; stop and await authorization rather than begin another country.**"
     )
 
-    body = ["# United Arab Emirates Fourth-Country Pilot — Final Report", "", "Generated from Schema v1.0.0 structured records; do not edit figures manually."]
+    body = ["# United Arab Emirates Fourth-Country Pilot — Final Report", "", "Generated from Schema v2.0.0 structured records; do not edit figures manually."]
     for heading in HEADINGS:
         body.extend(["", f"## {heading}", "", sections[heading]])
     body.append("")

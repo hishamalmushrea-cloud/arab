@@ -40,7 +40,7 @@ def record(source_id: str, title: str, publisher: str, url: str, tier: str,
         notes = f"{notes} Publication date unavailable on the captured record.".strip()
     return {
         "id": source_id,
-        "schema_version": "1.0.0",
+        "schema_version": "2.0.0",
         "title": title,
         "author": None,
         "organization": publisher,

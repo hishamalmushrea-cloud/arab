@@ -142,7 +142,7 @@ def main() -> int:
     p0 = sum(row["severity"] == "P0" for row in findings)
     p1 = sum(row["severity"] == "P1" for row in findings)
     report = {
-        "schema_version": "1.0.0",
+        "schema_version": "2.0.0",
         "country_code": "AE",
         "snapshot_date": "2026-08-15",
         "method": "Independent deterministic ID samples reviewed directly against canonical records, manifest profiles, sources, and coverage; this reviewer does not import or call scripts/import_uae_phase5.py.",

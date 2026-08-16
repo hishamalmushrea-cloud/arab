@@ -1,134 +1,26 @@
-# مراجعة استقرار Schema قبل التوسع الوطني
+# Schema Stability Review — final release disposition
 
-**تاريخ المراجعة:** 2026-08-15
-**النطاق:** تدقيق تاريخ Schema منذ أساس v1.0.0 حتى إغلاق طيّاري تونس والأردن والسعودية والإمارات.
-**حدود العمل:** مراجعة وتوصية فقط؛ لم يُغيَّر رقم النسخة، ولم تُعدَّل بيانات أو manifests أو مولدات أو مدققات.
+**Date:** 2026-08-16  
+**Baseline:** Schema 1.0.0 at `2040441825abe4b4db96d4990b00007d1db76061`  
+**Decision:** **RELEASE 2.0.0**
 
-## 1. القرار
+The earlier provisional 1.1.0 recommendation is superseded by the executable migration review. Comparison against the immutable original schemas proved literal compatibility of 0/9 families and version-only compatibility of only 3/9. Required evidence fields and the changed Coverage formula are breaking semantics, not additive documentation.
 
-# `RELEASE 1.1.0`
+## Stability result
 
-هذه **توصية إصدار قبل أول توسع إنتاجي** وليست تنفيذًا للإصدار في هذه المهمة. السبب المنهجي الواضح ليس إضافة بلد جديد، بل أن العقد التنفيذي الحالي لم يعد مطابقًا لعقد الأساس المسجل أول مرة باسم v1.0.0: أضيفت حقول مطلوبة، وأعيدت تسمية خاصية تغطية، واتسعت مفردات الكيانات والعلاقات والحالات والتصنيفات، وأضيفت عقود manifest خاصة بالطيّارين. كل السجلات الحالية متسقة داخليًا وتنجح تحت العقد الحالي، لكن المستهلك الذي ثبّت نسخة الأساس الأولى لا يستطيع افتراض أن كل سجل حالي يطابق ذلك العقد القديم.
+The conceptual Entity/Alias/Relationship/Claim/Source/Denominator/Coverage/Snapshot/Manifest core remains stable. Schema 2.0.0 names the accumulated mature contract accurately; it does not redesign identifiers, storage, or the core model.
 
-لا يبرر هذا القرار كسر المعرفات أو إعادة تصميم النواة. المقصود تثبيت العقد الحالي، وكتابة ملاحظات ترحيل واضحة، ثم بدء الإنتاج على خط أساس مسمّى بدقة. إلى أن تُنفذ مهمة إصدار مستقلة ومصرح بها، تبقى الملفات والسجلات فعليًا على `1.0.0`.
+- 15,262 records migrate with zero count difference.
+- No IDs, sources, claims, or relationships are dropped.
+- Semantic preservation passes for all nine families.
+- Coverage's changed formula is explicitly audited rather than silently renamed.
+- Migration is deterministic and idempotent; missing semantic facts are rejected rather than defaulted.
+- All original controlled vocabulary values remain accepted; accumulated enum and optional-manifest changes are additive.
 
-## 2. خط الأساس وطريقة التدقيق
+The authoritative decision and complete field matrix are in `reports/SCHEMA_MIGRATION_REVIEW.md`. Machine evidence is in `reports/schema_2_migration.json` and `reports/schema_backward_compatibility.json`.
 
-بدأ الأساس في commit `2040441825abe4b4db96d4990b00007d1db76061` بعنوان `Implement audited schema foundation and pilot migration`. راجعت هذه المراجعة الفروق والتاريخ حتى HEAD السابق لكتابة التقرير، وبخاصة:
+## Remaining evolution policy
 
-| المرحلة | commit | أثرها على العقد |
-|---|---|---|
-| أساس v1.0.0 | `2040441` | إنشاء النماذج التنفيذية التسعة والمفردات والدليل |
-| تونس | `de2176b` | توسيع جوهري لعقود الدليل، الادعاء، التغطية، المقام، والمصدر |
-| قبول تونس المستقل | `c947ba4` | إصلاح بيانات ومنتجين وسير مراجعة؛ لا تغيير Schema مطلوب |
-| الأردن | `69c7ec0` | مرونة المصدر المؤسسي و`pilot_layers` في manifest |
-| السعودية | `34f3b9c` | أنواع/علاقات لغوية وإدارية وتصنيفات نطاق إضافية |
-| الإمارات | `2616748` | ثمانية أنواع سياقية، حالات زمنية إضافية، `emirate_specific` و`emirate_profiles` |
-| محاذاة الإمارات | `7ef1e00` | تصحيح metadata في manifest؛ لا تغيير Schema |
+A future optional field or enum expansion may be minor only when old records keep the same meaning and remain readable. A required semantic fact, rename, type change, relation-validity change, or formula reinterpretation requires an explicit migration and major-version review. Passing JSON Schema alone is never evidence of semantic compatibility.
 
-مصادر التدقيق هي `schema/*.schema.json` و`schema/vocabularies.json` و`schema/entity_types.md` و`schema/schema_v1.md`، مع manifests والمدقق العام والمدققات القطرية وتقارير الإغلاق. لم يُستنتج الاستقرار من نجاح JSON Schema وحده؛ قورنت الحقول المطلوبة والأسماء والمفردات والدلالات وسلوك المدقق.
-
-## 3. سجل التغييرات منذ أساس v1.0.0
-
-### 3.1 تغييرات تونس
-
-كان طيّار تونس أكبر مرحلة نضج للعقد:
-
-- أضيف `verification_status` و`confidence` إلى `Entity` و`Relationship` وصارا مطلوبين.
-- أضيفت إلى `Claim` الحقول المطلوبة: `verification_status`, `confidence`, `classification`, `published`, `second_source_locator`, و`lexical_context`.
-- أصبح `Claim.value` typed، وصارت الحساسية مرتبطة بمصدر ثانٍ مستقل ومحدد ثانٍ أو بحالة `disputed`.
-- أضيف إلى `Source` حقل `quality_tier` المطلوب، وأضيفت أنواع مصادر مؤسسية.
-- أضيفت مرآتا `denominator` و`snapshot_date` إلى `Denominator`.
-- أضيفت إلى `Coverage` حقول `denominator`, `snapshot_date`, `license`, `exclusion_reasons`, و`coverage_percentage`؛ وحل الاسم `coverage_percentage` محل `coverage_percent`.
-- أضيفت أنواع كيانات المكان المأهول والموقع والسوق والشخص واللغة، وعلاقتا `boundary_intersects` و`associated_with`.
-- أصبحت معادلة الإغلاق `matched + excluded = denominator` وأسباب الاستبعاد جزءًا تنفيذيًا من العقد.
-
-كل البيانات النشطة رُحلت إلى الشكل الجديد، ولذلك لا يوجد سجل حالي مكسور. لكن إضافة حقول مطلوبة واستبدال اسم خاصية يعنيان أن التوافق مع ملف Schema الأول ليس توافق قبول حرفيًا.
-
-### 3.2 قبول تونس المستقل
-
-كشف فتح المصادر في `reports/TUNISIA_INDEPENDENT_ACCEPTANCE.md` أخطاء اختيار مصدر ومحدد ونطاق وتصنيف وإحداثيات. أمكن إصلاحها جميعًا باستخدام الأنواع والعلاقات والحالات الموجودة؛ وخلص التقرير صراحة إلى أن **Schema change needed: no**. هذه نتيجة استقرار مهمة: عيوب المحتوى لم تستدعِ حقولًا قطرية جديدة.
-
-### 3.3 تغييرات الأردن
-
-- أضيف `author` و`organization` إلى المصدر، وكلاهما اختياري/nullable؛ يفرض المدقق وجود هوية مؤسسية مسؤولة دلاليًا بدل اختلاق مؤلف شخصي.
-- أضيف `pilot_layers` اختياريًا إلى manifest، ويصبح عقدًا صارمًا عند استعماله لوصف السلطة والطبقة والمقام واللقطة والرخصة والحالات الخاصة.
-- لم تتغير نواة Entity/Alias/Relationship/Claim، ولم يحتج الأردن إلى نموذج موازٍ.
-
-هذه الإضافات متوافقة مع سجلات تونس ولا تبطلها.
-
-### 3.4 تغييرات السعودية
-
-- أضيف النوع `sa_nahiya` لحفظ طبقة قانونية لا يجوز إسقاطها لمجرد غياب مقام وطني مقبول.
-- أضيفت العلاقات `variety_of`, `form_of`, و`attested_in`، مع قبولها روابط سياقية لا آباء إداريين.
-- أضيفت التصنيفات `national` و`local`، واستُخدمت سلسلة `language → variety → place → lexical form` بدل نص لهجي حر.
-- وسّع المدقق العام الروابط السياقية المقبولة، بينما بقي اشتقاق الأعداد والتعارضات في مدقق سعودي مستقل.
-
-التغييرات توسع المفردات، ولا تعيد تفسير السجلات السابقة.
-
-### 3.5 تغييرات الإمارات
-
-يوثق `schema/UAE_PILOT_ADDITIVE_CHANGE.md` الإضافة تفصيلًا:
-
-- ثمانية أنواع سياقية منفصلة للإمارات بدل فرض `sector/district` عام على سبعة أنظمة محلية مختلفة.
-- الحالات `renamed`, `merged`, و`abolished`.
-- التصنيف `emirate_specific`، وهو نطاق إمارة لا ادعاء حصرية.
-- خاصية manifest الاختيارية `emirate_profiles`.
-- بقيت الأنواع الإماراتية العامة القديمة في المفردات للتوافق، لكنها deprecated ومرفوضة للكيانات الجديدة في مدقق الإمارات.
-
-هذه المرحلة إضافية بحد ذاتها. قرار 1.1.0 الحالي ناتج من التدقيق التراكمي منذ ملف الأساس، لا من تغييرات الإمارات وحدها.
-
-## 4. مصفوفة التوافق
-
-| البعد | حالة العقد الحالي | الحكم |
-|---|---|---|
-| السجلات الحالية | جميعها تحمل `schema_version: 1.0.0` وتنجح في المدقق الحالي | متسقة داخليًا |
-| معرفات السجلات | لم يُعَد استخدام المعرفات ولم يتغير نمطها | مستقر |
-| نواة Entity/Alias/Relationship/Claim/Source/Snapshot/Denominator/Coverage | باقية ولم تُستبدل بنموذج موازٍ | مستقرة مفاهيميًا |
-| مفردات الأنواع والعلاقات والحالات | اتسعت فقط في الأردن/السعودية/الإمارات | متوافقة قبولًا مع السجلات القديمة |
-| manifest الاختياري | `pilot_layers` و`emirate_profiles` اختياريان | متوافقان مع manifests القديمة |
-| عقد تونس مقابل ملف الأساس | حقول مطلوبة جديدة | ليس متوافقًا حرفيًا مع مستهلك الأساس |
-| خاصية Coverage | `coverage_percent` استُبدلت بـ`coverage_percentage` | تحتاج ملاحظة ترحيل |
-| سياسة إصدار مكتوبة | لا يوجد `schema/versioning.md` ولا اختبار compatibility matrix | فجوة حوكمة قبل الإنتاج |
-
-## 5. لماذا لا يكون القرار `KEEP 1.0.0`
-
-كان إبقاء الرقم مقبولًا أثناء الطيّارين لأن كل migration والمنتجين والسجلات تحركت معًا ولم يوجد عقد إنتاج خارجي مثبت. بعد أربعة PASS، سيحوّل التوسع الوطني الاسم إلى واجهة إنتاجية يعتمد عليها مستهلكون وأدوات لاحقة. إبقاء اسم واحد على عقد الأساس والعقد الناضج يطمس تاريخ التوافق ويجعل أي تدقيق migration غير حاسم.
-
-السبب إذن محدود وواضح:
-
-1. توجد فروق عقدية قابلة للإثبات، لا مجرد توثيق جديد.
-2. أصبح هناك حد انتقال رسمي من Pilots إلى Production Expansion.
-3. يلزم تجميد نقطة مرجعية قبل أن تتكرر التوسعات القطرية.
-4. الإصدار لا يتطلب اختراع نموذج جديد ولا يبرر إضافة محتوى بلد.
-
-## 6. شروط إصدار 1.1.0 في مهمة مستقلة لاحقة
-
-هذه الشروط توصية، وليست أعمالًا منفذة هنا:
-
-1. تجميد النسخ الحالية من النماذج التسعة والمفردات بوصفها عقد 1.1.0.
-2. كتابة changelog من أساس 1.0.0، مع توثيق `coverage_percent → coverage_percentage` والحقول التي أصبحت مطلوبة.
-3. تحديد سياسة versioning صريحة: إضافة مفردة، إضافة حقل اختياري، إضافة حقل مطلوب، إعادة تسمية، حذف، وتغيير دلالة.
-4. تحديث constants والسجلات والمنشورات ذريًا في migration حتمية واحدة؛ لا خليط نسخ داخل المصدر السلطوي.
-5. إضافة fixtures توافق تثبت أن migration لا تغير IDs أو القيم أو المصادر أو العلاقات.
-6. تشغيل جميع بوابات البلدان الأربعة، وفحص idempotence وحداثة المخرجات، ثم GitHub Actions على commit الإصدار.
-7. عدم ربط الإصدار بأي import قطري؛ الإصدار يسبق أول بلد إنتاجي ولا يحتوي بياناته.
-
-## 7. تحسينات لا تستلزم كسر النواة
-
-يوصى لاحقًا، وبصورة منفصلة عن قرار الإصدار، بـ:
-
-- Schema تنفيذي لأثر المراجعة المستقلة وعيناتها ونتائج mutants.
-- Schema لسجل entity-resolution قبل الإدخال.
-- `claim_domain` مضبوط لتقسيم العينات من دون اشتقاقه من predicate.
-- تمييز أدق في provenance المقام بين `official`, `institutional_derivative`, و`bounded_extraction` من دون تغيير معادلة التغطية.
-- سجل freshness للتشريعات والمصادر والروابط منفصل عن البناء offline الحتمي.
-- gate قطري عام تقوده manifest بدل إضافة مسار hard-coded جديد لكل بلد.
-
-هذه تحسينات حوكمة وقابلية تشغيل. لا يوجد دليل من الطيّارين يبرر استبدال JSONL أو تغيير نموذج الهوية أو العلاقات أو الادعاء الذري.
-
-## 8. حكم الاستقرار
-
-النواة المفاهيمية **مستقرة وقابلة للإنتاج**: نجحت مع عمق تونس، واشتقاق الأردن القانوني، وحجم السعودية، وتعدد بنى الإمارات. لكن اسم النسخة لم يعد يميز عقد الأساس من العقد الناضج، وسياسة التوافق غير مكتوبة. لذلك تكون التوصية الرسمية الوحيدة لهذه المراجعة:
-
-# `RELEASE 1.1.0`
+No country data is part of this release. Bahrain remains unchanged until separately authorized after release closeout.
