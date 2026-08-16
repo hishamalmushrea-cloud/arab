@@ -6,7 +6,7 @@ Kuwait — Direct Structured Expansion.
 
 ## Current result
 
-**RELEASE CANDIDATE.** Kuwait local data, semantic validation, 34/34 independent review, and 9/9 mutations pass; exact-commit CI is pending.
+**PASS.** Exact Kuwait release commit `5fe172543d05d9bcbb028b17e85f943d7fbe6f83`; full `make check` (130 checks), Push Action, and PR Action pass.
 
 ## Remaining countries
 
@@ -35,7 +35,7 @@ Qatar, Oman, Djibouti, Morocco, Algeria, Egypt, Mauritania, Lebanon, Comoros, Pa
 
 ## Recommended next country
 
-**Qatar — Direct Structured Expansion.**
+**Qatar — Direct Structured Expansion — STARTED.** Evidence assessment is recorded in `reports/QATAR_PRODUCTION_KICKOFF.md`; no authoritative Qatar records emitted yet.
 
 ## Why
 

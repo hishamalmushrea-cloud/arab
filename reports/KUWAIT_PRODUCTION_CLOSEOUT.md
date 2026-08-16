@@ -1,7 +1,7 @@
 # Kuwait Production Expansion Closeout
 
 ## Decision
-**RELEASE CANDIDATE.** Local evidence, semantics, review, mutations, and reproducibility pass; final PASS awaits clean exact-commit CI.
+**PASS.** Kuwait Production Expansion is officially accepted on exact release commit `5fe172543d05d9bcbb028b17e85f943d7fbe6f83`.
 
 ## Scope
 Direct Structured Expansion: six 2021 registration-census governorates and the UNESCO inscribed-property scope. Areas, blocks, municipalities, populated places, broad culture, and dialect are not claimed complete.
@@ -49,10 +49,10 @@ PASS locally: 9/9 — wrong parent, area-as-governorate, block-as-municipality, 
 P0=0; critical P1=0. The conflicting prominent page widgets were excluded; downloadable table/chart rows reconcile exactly with the official total when Not Stated is included.
 
 ## make check
-Pending clean release commit; Kuwait gate is layered after Phase 5 and Bahrain.
+PASS on the exact clean release commit: Phase 5 88/88, Bahrain 21/21, Kuwait 21/21; full `make check` = 130 accepted checks.
 
 ## GitHub CI
-Pending exact commit Push and PR Actions.
+PASS on exact commit: Push Action `31965144518` and PR Action `31965147010`, Schema 2.0.0 validation workflow, PR #3.
 
 ## Remaining limitations
 No accepted dated area/block topology or denominator; no populated-place or broad cultural denominator. Census day precision was unavailable, so only year precision is asserted.

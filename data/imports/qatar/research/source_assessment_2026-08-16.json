@@ -1,0 +1,41 @@
+{
+  "schema_version": "2.0.0",
+  "country_code": "QA",
+  "assessment_date": "2026-08-16",
+  "status": "research_only_no_authoritative_records",
+  "mode": "Direct Structured Expansion",
+  "candidate_sources": [
+    {
+      "authority": "Planning and Statistics Authority",
+      "url": "https://www.psa.gov.qa/en/statistics1/StatisticsSite/Census/census2020/results/Pages/default.aspx",
+      "role": "Census 2020 eight-municipality enumeration and populations",
+      "accepted_for_import": false,
+      "finding": "Eight current municipality rows visible; exact persisted bilingual rows and reference date still required."
+    },
+    {
+      "authority": "Qatar National Master Plan / Ministry of Municipality",
+      "url": "https://www.mme.gov.qa/QatarMasterPlan/English/MSDP-Municipalities.aspx?panel=about",
+      "role": "independent current eight-municipality administrative enumeration",
+      "accepted_for_import": false,
+      "finding": "States an MSDP for each of eight municipalities and lists them; capture/checksum required."
+    },
+    {
+      "authority": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/statesparties/qa",
+      "role": "inscribed World Heritage denominator",
+      "accepted_for_import": false,
+      "finding": "State Party register must be captured before Al Zubarah is emitted."
+    }
+  ],
+  "expected_municipalities_en": [
+    "Doha",
+    "Al Rayyan",
+    "Al Wakra",
+    "Umm Slal",
+    "Al Khor and Al Thakhira",
+    "Al Shamal",
+    "Al Daayen",
+    "Al Sheehaniya"
+  ],
+  "records_added": {"entities": 0, "claims": 0, "sources": 0, "denominators": 0}
+}
