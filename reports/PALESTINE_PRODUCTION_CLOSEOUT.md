@@ -1,7 +1,7 @@
 # Palestine Production Expansion Closeout
 
 ## Decision
-**RELEASE CANDIDATE** pending exact-commit CI.
+**PASS.** Palestine Production Full Pilot stage one accepted on exact commit `e20b401ea839cb775437bd4acfe2a16918125175`.
 ## Scope
 16 PCBS legal/statistical governorates and six current UNESCO properties; no de facto/damage/local-authority layer.
 ## Snapshot
@@ -33,9 +33,9 @@ PASS locally 8/8 status/region/stale-WHC/Sebastia/local-authority mutations.
 ## P0/P1
 0/0.
 ## make check
-Pending clean commit.
+PASS: Phase 5 88/88 plus twelve production gates 21/21; full `make check` = 340 checks.
 ## GitHub CI
-Pending.
+PASS: Push Action `31974785659` and PR Action `31974787918`.
 ## Remaining limitations
 No locality/local authority/camp records; no effective-control or damage/displacement overlays; sensitive operational conditions deferred.
 ## Lessons learned

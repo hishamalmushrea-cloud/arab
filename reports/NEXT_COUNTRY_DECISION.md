@@ -2,11 +2,11 @@
 
 ## Current country
 
-Palestine — Full Pilot.
+Iraq — Full Pilot.
 
 ## Current result
 
-**RELEASE CANDIDATE.** Palestine local checks, 99/99 review, and 8/8 mutations pass; exact-commit CI pending.
+**PASS.** Exact Palestine release commit `e20b401ea839cb775437bd4acfe2a16918125175`; full `make check` (340 checks), Push Action, and PR Action pass.
 
 ## Remaining countries
 
@@ -25,7 +25,7 @@ Iraq, Libya, Yemen, Syria, Somalia, Sudan.
 
 ## Recommended next country
 
-**Iraq — Full Pilot.**
+**Iraq — Full Pilot — STARTED.** Research scope is recorded in `reports/IRAQ_PRODUCTION_KICKOFF.md`; no authoritative records emitted yet.
 
 ## Why
 
