@@ -1,7 +1,7 @@
 # Morocco Production Expansion Closeout
 
 ## Decision
-**RELEASE CANDIDATE** pending exact-commit CI.
+**PASS.** Morocco Production Micro Pilot accepted on exact commit `6d03ac6ff32948b0bad8700285962a44c6fa8614`.
 ## Scope
 12 regions, 13 prefectures, 62 provinces; 1,503 communes deferred.
 ## Snapshot
@@ -33,9 +33,9 @@ PASS locally: 8/8 prefecture/province, 75/83, parent, count, and premature-commu
 ## P0/P1
 0/0.
 ## make check
-Pending clean release commit.
+PASS: Phase 5 88/88 plus six production gates 21/21; full `make check` = 214 checks.
 ## GitHub CI
-Pending.
+PASS: Push Action `31969877752` and PR Action `31969879945`.
 ## Remaining limitations
 1,503 communes not imported; prefectures of arrondissements excluded from 75; population and culture deferred.
 ## Lessons learned
