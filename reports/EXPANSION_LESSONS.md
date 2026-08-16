@@ -85,6 +85,13 @@ This cumulative register records reusable controls without forcing countries int
 - External registries such as UNESCO require temporal freshness after an inscription decision.
 - Serial properties remain one property unless component identity is independently modeled.
 
+## Palestine production cycle
+
+- Legal/statistical identity must not imply effective control or physical condition.
+- Damage, displacement, de facto status, and access require independent dated overlays.
+- External danger/inscription statuses require source-specific temporal Claims.
+- Camps, localities, and local-government authorities remain distinct.
+
 ## Controls now required for subsequent countries
 
 1. Exact current-layer denominator with source, date, license, and exclusion definition.

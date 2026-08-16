@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:b330d9d56d11fc8f426a4f46cc8ca5d17e50cdb62d9dfa3543d2a56bb8d85cf3",
+  "country_codes": [
+    "PS"
+  ],
+  "id": "SRC-UNESCO-WHC-PS-2026",
+  "language": "ar-en",
+  "license": "CC BY-SA 3.0 IGO for UNESCO descriptions",
+  "locator": "six inscribed properties through 2026",
+  "notes": "Current six-property denominator. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "UNESCO World Heritage Centre",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-17",
+  "schema_version": "2.0.0",
+  "source_type": "institutional_dataset",
+  "title": "World Heritage List — State of Palestine",
+  "url": "https://whc.unesco.org/en/statesparties/ps"
+}

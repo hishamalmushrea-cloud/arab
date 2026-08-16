@@ -1,0 +1,49 @@
+{
+  "country_code": "PS",
+  "detected": 8,
+  "mutations": [
+    {
+      "detected": true,
+      "expected_code": "PS_COUNTS",
+      "mutation": "PS_GOVERNORATE_15"
+    },
+    {
+      "detected": true,
+      "expected_code": "PS_UNSUPPORTED_STATUS",
+      "mutation": "PS_GAZA_AS_DEFACTO"
+    },
+    {
+      "detected": true,
+      "expected_code": "PS_UNSUPPORTED_STATUS",
+      "mutation": "PS_DESTROYED_WITHOUT_SOURCE"
+    },
+    {
+      "detected": true,
+      "expected_code": "PS_GOVERNORATE",
+      "mutation": "PS_WRONG_REGION"
+    },
+    {
+      "detected": true,
+      "expected_code": "PS_DENOMINATORS",
+      "mutation": "PS_WHC_5_STALE"
+    },
+    {
+      "detected": true,
+      "expected_code": "PS_SEBASTIA_STATUS",
+      "mutation": "PS_SEBASTIA_NOT_DANGER"
+    },
+    {
+      "detected": true,
+      "expected_code": "PS_SEBASTIA_STATUS",
+      "mutation": "PS_SEBASTIA_UNDATED"
+    },
+    {
+      "detected": true,
+      "expected_code": "PS_PREMATURE_LOCAL",
+      "mutation": "PS_FAKE_LOCAL_AUTHORITY"
+    }
+  ],
+  "required": 8,
+  "schema_version": "2.0.0",
+  "status": "PASS"
+}

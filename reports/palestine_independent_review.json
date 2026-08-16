@@ -1,0 +1,55 @@
+{
+  "country_code": "PS",
+  "critical_p1": 0,
+  "families": {
+    "aliases": {
+      "failed": 0,
+      "passed": 16,
+      "sampled": 16,
+      "status": "PASS"
+    },
+    "claims": {
+      "failed": 0,
+      "passed": 24,
+      "sampled": 24,
+      "status": "PASS"
+    },
+    "coverage": {
+      "failed": 0,
+      "passed": 5,
+      "sampled": 5,
+      "status": "PASS"
+    },
+    "denominators": {
+      "failed": 0,
+      "passed": 5,
+      "sampled": 5,
+      "status": "PASS"
+    },
+    "entities": {
+      "failed": 0,
+      "passed": 23,
+      "sampled": 23,
+      "status": "PASS"
+    },
+    "relationships": {
+      "failed": 0,
+      "passed": 22,
+      "sampled": 22,
+      "status": "PASS"
+    },
+    "sources": {
+      "failed": 0,
+      "passed": 4,
+      "sampled": 4,
+      "status": "PASS"
+    }
+  },
+  "findings": [],
+  "method": "Independent full statistical/UNESCO fixture comparison; no de facto inference.",
+  "p0": 0,
+  "schema_version": "2.0.0",
+  "status": "PASS",
+  "total_passed": 99,
+  "total_sampled": 99
+}

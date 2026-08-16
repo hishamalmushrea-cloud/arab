@@ -1,0 +1,154 @@
+{
+  "country_code": "PS",
+  "families": {
+    "aliases": {
+      "population": 16,
+      "record_ids": [
+        "ALS-PS-055F9DED0BAB5A68",
+        "ALS-PS-09AF34936D5C5196",
+        "ALS-PS-114DEC3F193A560F",
+        "ALS-PS-20059CAA333E5325",
+        "ALS-PS-2B85827A204D5029",
+        "ALS-PS-43BF43D33BFA51B9",
+        "ALS-PS-5B283C2B0A7A57F1",
+        "ALS-PS-60EBBCC3EAD557F2",
+        "ALS-PS-76C2019DA8955028",
+        "ALS-PS-8D4A4B05E76C5CB6",
+        "ALS-PS-95DB2E781E96572C",
+        "ALS-PS-97515B12355D5A20",
+        "ALS-PS-BDFCBCB80EFE5ACE",
+        "ALS-PS-C82556FEB45955F7",
+        "ALS-PS-CF2F002DBF025DC8",
+        "ALS-PS-D78BF6479F9758F6"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 16
+    },
+    "claims": {
+      "population": 24,
+      "record_ids": [
+        "CLM-PS-0430B87C92CF5B4C",
+        "CLM-PS-2E320576E63B5CD0",
+        "CLM-PS-2F08A97F52935DFB",
+        "CLM-PS-31233DBAD6B65458",
+        "CLM-PS-513649E69D4B5668",
+        "CLM-PS-6156BAF8913551FE",
+        "CLM-PS-627DCE5C949253E1",
+        "CLM-PS-6F771A3CF27A53A3",
+        "CLM-PS-7011D309AD4E54E4",
+        "CLM-PS-7235FA40017F5C8D",
+        "CLM-PS-773659F29F9C5F60",
+        "CLM-PS-89F15066D7DB5E68",
+        "CLM-PS-8D5A47AD84C05C3B",
+        "CLM-PS-8D7F6F3B2A9456E8",
+        "CLM-PS-9ABB5D2F5AD5587E",
+        "CLM-PS-9D1913CB7BCE58FC",
+        "CLM-PS-9E6E917C49F85587",
+        "CLM-PS-B1E66026F7E754F0",
+        "CLM-PS-C75132CFD31059E0",
+        "CLM-PS-D031E7C14A445A20",
+        "CLM-PS-DBD134CC1E295E88",
+        "CLM-PS-E654E116D75853CA",
+        "CLM-PS-FB854D10D401577E",
+        "CLM-PS-FEE3C395C1D25675"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 24
+    },
+    "coverage": {
+      "population": 5,
+      "record_ids": [
+        "COV-PS-COUNTRY-SCOPE",
+        "COV-PS-GAZA",
+        "COV-PS-GOVERNORATES",
+        "COV-PS-WEST-BANK",
+        "COV-PS-WHC"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 5
+    },
+    "denominators": {
+      "population": 5,
+      "record_ids": [
+        "DEN-PS-COUNTRY-SCOPE",
+        "DEN-PS-GAZA",
+        "DEN-PS-GOVERNORATES",
+        "DEN-PS-WEST-BANK",
+        "DEN-PS-WHC"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 5
+    },
+    "entities": {
+      "population": 23,
+      "record_ids": [
+        "ENT-PS-COUNTRY",
+        "ENT-PS-CULTURAL-SITE-1433",
+        "ENT-PS-CULTURAL-SITE-1492",
+        "ENT-PS-CULTURAL-SITE-1565",
+        "ENT-PS-CULTURAL-SITE-1687",
+        "ENT-PS-CULTURAL-SITE-1749",
+        "ENT-PS-CULTURAL-SITE-1809",
+        "ENT-PS-GOVERNORATE-01",
+        "ENT-PS-GOVERNORATE-05",
+        "ENT-PS-GOVERNORATE-10",
+        "ENT-PS-GOVERNORATE-15",
+        "ENT-PS-GOVERNORATE-20",
+        "ENT-PS-GOVERNORATE-25",
+        "ENT-PS-GOVERNORATE-30",
+        "ENT-PS-GOVERNORATE-35",
+        "ENT-PS-GOVERNORATE-40",
+        "ENT-PS-GOVERNORATE-45",
+        "ENT-PS-GOVERNORATE-50",
+        "ENT-PS-GOVERNORATE-55",
+        "ENT-PS-GOVERNORATE-60",
+        "ENT-PS-GOVERNORATE-65",
+        "ENT-PS-GOVERNORATE-70",
+        "ENT-PS-GOVERNORATE-75"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 23
+    },
+    "relationships": {
+      "population": 22,
+      "record_ids": [
+        "REL-PS-06AB2966AF9A5AF8",
+        "REL-PS-1CE4EDCFF80F58D0",
+        "REL-PS-25CC12870AB258A0",
+        "REL-PS-317C42F239075022",
+        "REL-PS-3ED4AE6799025728",
+        "REL-PS-3EEADC030A975853",
+        "REL-PS-4F277D51ADFD5C55",
+        "REL-PS-714309EDDE475137",
+        "REL-PS-7C2B27B875565344",
+        "REL-PS-82E99777FF0E56AD",
+        "REL-PS-8901732114A350CD",
+        "REL-PS-89C4B311C4F25A64",
+        "REL-PS-9CCD37097B9A5770",
+        "REL-PS-A1F16339B3AD5ADC",
+        "REL-PS-A7F46BC08A3E5FE4",
+        "REL-PS-C56602B656C55ACA",
+        "REL-PS-C58359530ED3564D",
+        "REL-PS-CE39E8B6EACD5895",
+        "REL-PS-D79AFD3002BD52CB",
+        "REL-PS-DD1EC73E8DC25300",
+        "REL-PS-F016719BF36B541A",
+        "REL-PS-FF4CE54BD467571D"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 22
+    },
+    "sources": {
+      "population": 4,
+      "record_ids": [
+        "SRC-PS-MOLG-LOCAL-GOVERNMENT",
+        "SRC-PS-PCBS-16-GOVERNORATES",
+        "SRC-UNESCO-WHC-PS-2026",
+        "SRC-UNESCO-WHC-PS-SEBASTIA-2026"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 4
+    }
+  },
+  "schema_version": "2.0.0"
+}

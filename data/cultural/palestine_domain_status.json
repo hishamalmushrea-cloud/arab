@@ -1,0 +1,17 @@
+{
+  "country_code": "PS",
+  "domains": {
+    "dialect": {
+      "claims": 0,
+      "status": "not_documented_in_cycle"
+    },
+    "world_heritage": {
+      "claims": 8,
+      "denominator": 6,
+      "status": "documented"
+    }
+  },
+  "notes": "No damage/displacement inference from heritage or statistical identity.",
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-17"
+}
