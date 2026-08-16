@@ -16,7 +16,7 @@ Micro Pilot. Oman introduces a deeper legal hierarchy and explicit legal timing:
 
 ## Key finding
 
-The decree enumeration appears to include post-2022 wilayat changes (for example Jabal Al Akhdar and Sinaw), so the older headline “61 wilayats” cannot be accepted automatically as the current denominator. The legal list must be counted and reconciled with the current NCSI coded domain. No denominator will be selected merely because it is widely repeated.
+The reconciliation now supports **11 current governorates** and a **63-wilayat count candidate**: Oman News Agency confirms that Al Jabal Al Akhdar and Sinaw raised the total from 61 to 63. However, the accessible English decree rendering is inconsistent for Dhofar (Sadah omission and ambiguous “Qishn” rendering), while NCSI's exposed coded domain remains at the older 61 identities. Therefore 63/63 record coverage is not yet asserted. See `reports/OMAN_DENOMINATOR_RECONCILIATION.md`.
 
 ## Risks
 
