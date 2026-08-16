@@ -1,0 +1,186 @@
+{
+  "country_code": "LB",
+  "current_governorates": [
+    {
+      "districts": [
+        {
+          "name_en": "Beirut",
+          "token": "BEIRUT"
+        }
+      ],
+      "name_en": "Beirut",
+      "token": "BEIRUT"
+    },
+    {
+      "districts": [
+        {
+          "name_en": "Akkar",
+          "token": "AKKAR"
+        }
+      ],
+      "name_en": "Akkar",
+      "token": "AKKAR"
+    },
+    {
+      "districts": [
+        {
+          "name_en": "Baalbek",
+          "token": "BAALBEK"
+        },
+        {
+          "name_en": "Hermel",
+          "token": "HERMEL"
+        }
+      ],
+      "name_en": "Baalbek-Hermel",
+      "token": "BAALBEK-HERMEL"
+    },
+    {
+      "districts": [
+        {
+          "name_en": "Zahle",
+          "token": "ZAHLE"
+        },
+        {
+          "name_en": "West Beqaa",
+          "token": "WEST-BEQAA"
+        },
+        {
+          "name_en": "Rashaya",
+          "token": "RASHAYA"
+        }
+      ],
+      "name_en": "Bekaa",
+      "token": "BEQAA"
+    },
+    {
+      "districts": [
+        {
+          "name_en": "Baabda",
+          "token": "BAABDA"
+        },
+        {
+          "name_en": "Aley",
+          "token": "ALEY"
+        },
+        {
+          "name_en": "Chouf",
+          "token": "CHOUF"
+        },
+        {
+          "name_en": "Matn",
+          "token": "MATN"
+        }
+      ],
+      "name_en": "Mount Lebanon",
+      "token": "MOUNT-LEBANON"
+    },
+    {
+      "districts": [
+        {
+          "name_en": "Keserwan",
+          "token": "KESERWAN"
+        },
+        {
+          "name_en": "Jbeil",
+          "token": "JBEIL"
+        }
+      ],
+      "name_en": "Keserwan-Jbeil",
+      "token": "KESERWAN-JBEIL"
+    },
+    {
+      "districts": [
+        {
+          "name_en": "Tripoli",
+          "token": "TRIPOLI"
+        },
+        {
+          "name_en": "Koura",
+          "token": "KOURA"
+        },
+        {
+          "name_en": "Zgharta",
+          "token": "ZGHARTA"
+        },
+        {
+          "name_en": "Batroun",
+          "token": "BATROUN"
+        },
+        {
+          "name_en": "Bcharre",
+          "token": "BCHARRE"
+        },
+        {
+          "name_en": "Minieh-Danniyeh",
+          "token": "MINIEH-DANNIYEH"
+        }
+      ],
+      "name_en": "North Lebanon",
+      "token": "NORTH"
+    },
+    {
+      "districts": [
+        {
+          "name_en": "Saida",
+          "token": "SAIDA"
+        },
+        {
+          "name_en": "Tyre",
+          "token": "TYRE"
+        },
+        {
+          "name_en": "Jezzine",
+          "token": "JEZZINE"
+        }
+      ],
+      "name_en": "South Lebanon",
+      "token": "SOUTH"
+    },
+    {
+      "districts": [
+        {
+          "name_en": "Nabatieh",
+          "token": "NABATIEH"
+        },
+        {
+          "name_en": "Bint Jbeil",
+          "token": "BINT-JBEIL"
+        },
+        {
+          "name_en": "Marjayoun",
+          "token": "MARJAYOUN"
+        },
+        {
+          "name_en": "Hasbaya",
+          "token": "HASBAYA"
+        }
+      ],
+      "name_en": "Nabatieh",
+      "token": "NABATIEH"
+    }
+  ],
+  "denominators": {
+    "current_governorates": 9,
+    "districts": 26,
+    "survey_2018_governorates": 8
+  },
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-16",
+  "sources": {
+    "cas": "http://cas.gov.lb/index.php/component/content/article/79-english/222-district-statistics-based-on-the-labour-force-and-household-living-conditions-survey-2018-2019",
+    "law_lead": "https://www.lebanon.gov.lb/",
+    "moim": "https://moim.gov.lb/en/about-us/"
+  },
+  "transition": {
+    "gazette_date": "2017-09-07",
+    "implementation": "2020",
+    "law": "52/2017",
+    "moved_districts": [
+      "Keserwan",
+      "Jbeil"
+    ],
+    "new_parent": "Keserwan-Jbeil",
+    "old_parent": "Mount Lebanon"
+  }
+}

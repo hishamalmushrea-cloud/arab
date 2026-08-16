@@ -1,0 +1,12 @@
+{
+  "country_code": "LB",
+  "records": [
+    {
+      "bytes": 3782,
+      "path": "data/imports/lebanon/fixtures/current_hierarchy.json",
+      "sha256": "6a7bef9bfad2a542f2ea7d1bb05b9bbd25db61bfd890d728dc59f1611b8a9f4c"
+    }
+  ],
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-16"
+}
