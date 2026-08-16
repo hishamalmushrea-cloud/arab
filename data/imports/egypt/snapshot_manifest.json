@@ -1,0 +1,12 @@
+{
+  "country_code": "EG",
+  "records": [
+    {
+      "bytes": 4183,
+      "path": "data/imports/egypt/fixtures/governorate_profiles.json",
+      "sha256": "39b787bda1116b6837da5a65be31a8297bf143a939656e7b7115db7e1e7c4948"
+    }
+  ],
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-16"
+}

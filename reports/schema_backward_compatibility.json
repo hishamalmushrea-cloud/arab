@@ -6,7 +6,7 @@
     "sources": 0
   },
   "country_integrity": "PASS (0 mismatches)",
-  "current_data_semantic_hash": "sha256:96b389d781f02ffea493f793731540a37383b41edbcee0337dd572d3a4b698e0",
+  "current_data_semantic_hash": "sha256:3112c38aa9437ec548bf14b7e7631f0a47ade5fff2cf4f9fbab6c78a69517ea1",
   "cycle_detection": "PASS (0)",
   "determinism": "PASS",
   "duplicate_detection": "PASS (0 active duplicate IDs)",
@@ -31,7 +31,7 @@
     "snapshot": "PASS",
     "source": "PASS"
   },
-  "source_claim_integrity": "PASS (2073/2073)",
+  "source_claim_integrity": "PASS (2100/2100)",
   "status": "PASS",
   "version_only_accepted_by_v2": "3/9"
 }

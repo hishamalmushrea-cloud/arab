@@ -1,0 +1,55 @@
+{
+  "country_code": "EG",
+  "critical_p1": 0,
+  "families": {
+    "aliases": {
+      "failed": 0,
+      "passed": 27,
+      "sampled": 27,
+      "status": "PASS"
+    },
+    "claims": {
+      "failed": 0,
+      "passed": 27,
+      "sampled": 27,
+      "status": "PASS"
+    },
+    "coverage": {
+      "failed": 0,
+      "passed": 4,
+      "sampled": 4,
+      "status": "PASS"
+    },
+    "denominators": {
+      "failed": 0,
+      "passed": 4,
+      "sampled": 4,
+      "status": "PASS"
+    },
+    "entities": {
+      "failed": 0,
+      "passed": 28,
+      "sampled": 28,
+      "status": "PASS"
+    },
+    "relationships": {
+      "failed": 0,
+      "passed": 27,
+      "sampled": 27,
+      "status": "PASS"
+    },
+    "sources": {
+      "failed": 0,
+      "passed": 3,
+      "sampled": 3,
+      "status": "PASS"
+    }
+  },
+  "findings": [],
+  "method": "Independent full governorate/profile fixture comparison.",
+  "p0": 0,
+  "schema_version": "2.0.0",
+  "status": "PASS",
+  "total_passed": 120,
+  "total_sampled": 120
+}

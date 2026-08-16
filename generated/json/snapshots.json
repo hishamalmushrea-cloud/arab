@@ -44,6 +44,17 @@
     "title": "Algeria current and 2027 wilaya transition"
   },
   {
+    "captured_at": "2026-08-16",
+    "checksum": "sha256:95a686af144670e3536d415611ab599657640657f2e6fe35b9c06da223ae2e84",
+    "id": "SNP-EG-PRODUCTION-20260816",
+    "method": "Checksum-bound CAPMAS/MLD profile reconciliation.",
+    "notes": "Cairo/Giza selected for later lower-topology proof; no lower records imported.",
+    "schema_version": "2.0.0",
+    "scope": "27 governorates: four urban-only, 23 mixed urban/rural",
+    "source_id": "SRC-EG-CAPMAS-27-GOVERNORATES-2021",
+    "title": "Egypt 27-governorate profile pilot"
+  },
+  {
     "captured_at": "2026-08-15",
     "checksum": "sha256:621f22d080c883180907e7e178ea2fbdf99e0a080cb7316b23ca1956ecf67b47",
     "id": "SNP-JO-PILOT-2026-08-15",

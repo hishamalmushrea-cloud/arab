@@ -664,6 +664,66 @@
   },
   {
     "archive_url": null,
+    "checksum": "sha256:39b787bda1116b6837da5a65be31a8297bf143a939656e7b7115db7e1e7c4948",
+    "country_codes": [
+      "EG"
+    ],
+    "id": "SRC-EG-CAPMAS-27-GOVERNORATES-2021",
+    "language": "ar-en",
+    "license": "Official Egypt statistical/government material; factual extraction with attribution; reuse terms not stated",
+    "locator": "27 governorates; four urban-only and 23 urban/rural",
+    "notes": "Profile authority. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "CAPMAS",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-16",
+    "schema_version": "2.0.0",
+    "source_type": "census",
+    "title": "Egypt Family Health Survey 2021 — administrative geography",
+    "url": "https://www.censusinfo.capmas.gov.eg/metadata-en-v4.2/index.php/catalog/665/download/1966"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:39b787bda1116b6837da5a65be31a8297bf143a939656e7b7115db7e1e7c4948",
+    "country_codes": [
+      "EG"
+    ],
+    "id": "SRC-EG-CAPMAS-GOVERNORATE-CODES",
+    "language": "ar-en",
+    "license": "Official Egypt statistical/government material; factual extraction with attribution; reuse terms not stated",
+    "locator": "official numeric governorate categories",
+    "notes": "Code identity cross-check. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "CAPMAS",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-16",
+    "schema_version": "2.0.0",
+    "source_type": "official_dataset",
+    "title": "CAPMAS governorate code values",
+    "url": "https://censusinfo.capmas.gov.eg/metadata-en-v4.2/index.php/catalog/747/datafile/F34/V5875"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:39b787bda1116b6837da5a65be31a8297bf143a939656e7b7115db7e1e7c4948",
+    "country_codes": [
+      "EG"
+    ],
+    "id": "SRC-EG-MLD-27-GOVERNORATES-2026",
+    "language": "ar-en",
+    "license": "Official Egypt statistical/government material; factual extraction with attribution; reuse terms not stated",
+    "locator": "government mandate across 27 governorates",
+    "notes": "Current denominator cross-check. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Ministry of Local Development",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-16",
+    "schema_version": "2.0.0",
+    "source_type": "official_register",
+    "title": "Ministry of Local Development — 27 governorates",
+    "url": "https://www.mld.gov.eg/en/"
+  },
+  {
+    "archive_url": null,
     "author": null,
     "checksum": null,
     "country_codes": [

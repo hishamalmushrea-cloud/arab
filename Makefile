@@ -123,7 +123,10 @@ morocco:
 algeria:
 	python3 scripts/check_algeria_gate.py
 
-check: phase5 bahrain kuwait qatar oman djibouti morocco algeria
+egypt:
+	python3 scripts/check_egypt_gate.py
+
+check: phase5 bahrain kuwait qatar oman djibouti morocco algeria egypt
 
 repair:
 	python3 scripts/repair_legacy.py
@@ -144,4 +147,5 @@ repair:
 	python3 scripts/import_djibouti_production.py
 	python3 scripts/import_morocco_production.py
 	python3 scripts/import_algeria_production.py
+	python3 scripts/import_egypt_production.py
 	python3 scripts/generate.py

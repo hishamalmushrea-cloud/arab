@@ -1,7 +1,8 @@
 {
   "caveats": [
-    "المركز والقسم مساران ريفي/حضري متوازيان، والشياخة لا توضع تحت المركز تلقائيًا.",
-    "Local coverage remains incomplete; file or directory existence is not a denominator."
+    "Governorate is not city.",
+    "Markaz/local-unit and qism/shiyakha paths are parallel.",
+    "No lower denominator accepted in this cycle."
   ],
   "country": {
     "entity_id": "ENT-EG-COUNTRY",
@@ -9,7 +10,10 @@
     "name_ar": "مصر"
   },
   "coverage_record_ids": [
-    "COV-EG-COUNTRY-SCOPE"
+    "COV-EG-COUNTRY-SCOPE",
+    "COV-EG-GOVERNORATES",
+    "COV-EG-URBAN-PROFILES",
+    "COV-EG-MIXED-PROFILES"
   ],
   "hierarchy": [
     {
@@ -36,13 +40,27 @@
       "allowed_parent_types": [
         "country"
       ],
+      "authority_name": "CAPMAS / MLD",
       "caveat": "المركز والقسم مساران ريفي/حضري متوازيان، والشياخة لا توضع تحت المركز تلقائيًا.",
+      "coverage_record_id": "COV-EG-GOVERNORATES",
+      "denominator": 27,
+      "denominator_id": "DEN-EG-GOVERNORATES",
       "entity_type": "eg_governorate",
       "level": 1,
+      "license": "Official Egypt statistical/government material; factual extraction with attribution; reuse terms not stated",
       "local_names": [
         "محافظة"
       ],
-      "source_ids": [],
+      "notes": "27 governorates.",
+      "scope_status": "closed",
+      "snapshot_date": "2021-01-01",
+      "source_ids": [
+        "SRC-EG-CAPMAS-27-GOVERNORATES-2021",
+        "SRC-EG-MLD-27-GOVERNORATES-2026"
+      ],
+      "special_cases": [
+        "Four urban-only profiles."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
@@ -55,19 +73,30 @@
         "transitional",
         "uncertain"
       ],
-      "verification_status": "pending"
+      "verification_status": "verified"
     },
     {
       "allowed_parent_types": [
         "eg_governorate"
       ],
+      "authority_name": null,
       "caveat": "المركز والقسم مساران ريفي/حضري متوازيان، والشياخة لا توضع تحت المركز تلقائيًا.",
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
       "entity_type": "eg_markaz",
       "level": 2,
+      "license": null,
       "local_names": [
         "مركز"
       ],
+      "notes": "Lower topology not yet accepted.",
+      "scope_status": "unavailable",
+      "snapshot_date": null,
       "source_ids": [],
+      "special_cases": [
+        "Do not cross rural/urban paths."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
@@ -86,13 +115,24 @@
       "allowed_parent_types": [
         "eg_governorate"
       ],
+      "authority_name": null,
       "caveat": "المركز والقسم مساران ريفي/حضري متوازيان، والشياخة لا توضع تحت المركز تلقائيًا.",
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
       "entity_type": "eg_qism",
       "level": 3,
+      "license": null,
       "local_names": [
         "قسم"
       ],
+      "notes": "Lower topology not yet accepted.",
+      "scope_status": "unavailable",
+      "snapshot_date": null,
       "source_ids": [],
+      "special_cases": [
+        "Do not cross rural/urban paths."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
@@ -111,13 +151,24 @@
       "allowed_parent_types": [
         "eg_markaz"
       ],
+      "authority_name": null,
       "caveat": "المركز والقسم مساران ريفي/حضري متوازيان، والشياخة لا توضع تحت المركز تلقائيًا.",
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
       "entity_type": "eg_local_unit",
       "level": 4,
+      "license": null,
       "local_names": [
         "وحدة محلية"
       ],
+      "notes": "Lower topology not yet accepted.",
+      "scope_status": "unavailable",
+      "snapshot_date": null,
       "source_ids": [],
+      "special_cases": [
+        "Do not cross rural/urban paths."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
@@ -136,13 +187,24 @@
       "allowed_parent_types": [
         "eg_qism"
       ],
+      "authority_name": null,
       "caveat": "المركز والقسم مساران ريفي/حضري متوازيان، والشياخة لا توضع تحت المركز تلقائيًا.",
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
       "entity_type": "eg_shiyakha",
       "level": 5,
+      "license": null,
       "local_names": [
         "شياخة"
       ],
+      "notes": "Lower topology not yet accepted.",
+      "scope_status": "unavailable",
+      "snapshot_date": null,
       "source_ids": [],
+      "special_cases": [
+        "Do not cross rural/urban paths."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
@@ -158,18 +220,90 @@
       "verification_status": "pending"
     }
   ],
-  "next_action": "Register an atomic official hierarchy source and dated denominators before migrating local legacy rows.",
+  "next_action": "Maintain 27/profile closure; prove Cairo and Giza lower topology before national depth.",
   "official_authority": {
-    "missing_reason": "Authority name is recorded, but no atomic official hierarchy source has yet passed source metadata and snapshot review.",
-    "name": "وزارة التنمية المحلية / الجهاز المركزي للتعبئة العامة والإحصاء",
-    "source_ids": [],
-    "verification_status": "pending"
+    "missing_reason": null,
+    "name": "CAPMAS / Ministry of Local Development",
+    "source_ids": [
+      "SRC-EG-CAPMAS-27-GOVERNORATES-2021",
+      "SRC-EG-MLD-27-GOVERNORATES-2026",
+      "SRC-EG-CAPMAS-GOVERNORATE-CODES"
+    ],
+    "verification_status": "verified"
   },
+  "pilot_layers": [
+    {
+      "authority_name": "CAPMAS",
+      "coverage_record_id": "COV-EG-GOVERNORATES",
+      "denominator": 27,
+      "denominator_id": "DEN-EG-GOVERNORATES",
+      "entity_types": [
+        "eg_governorate"
+      ],
+      "layer": "eg_governorate",
+      "license": "Official Egypt statistical/government material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "محافظة"
+      ],
+      "notes": "Profile layer.",
+      "scope_status": "closed",
+      "snapshot_date": "2021-01-01",
+      "source_ids": [
+        "SRC-EG-CAPMAS-27-GOVERNORATES-2021",
+        "SRC-EG-MLD-27-GOVERNORATES-2026"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "CAPMAS",
+      "coverage_record_id": "COV-EG-URBAN-PROFILES",
+      "denominator": 4,
+      "denominator_id": "DEN-EG-URBAN-PROFILES",
+      "entity_types": [
+        "eg_governorate"
+      ],
+      "layer": "eg_governorate_urban_profile",
+      "license": "Official Egypt statistical/government material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "محافظة"
+      ],
+      "notes": "Profile layer.",
+      "scope_status": "closed",
+      "snapshot_date": "2021-01-01",
+      "source_ids": [
+        "SRC-EG-CAPMAS-27-GOVERNORATES-2021",
+        "SRC-EG-MLD-27-GOVERNORATES-2026"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "CAPMAS",
+      "coverage_record_id": "COV-EG-MIXED-PROFILES",
+      "denominator": 23,
+      "denominator_id": "DEN-EG-MIXED-PROFILES",
+      "entity_types": [
+        "eg_governorate"
+      ],
+      "layer": "eg_governorate_mixed_profile",
+      "license": "Official Egypt statistical/government material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "محافظة"
+      ],
+      "notes": "Profile layer.",
+      "scope_status": "closed",
+      "snapshot_date": "2021-01-01",
+      "source_ids": [
+        "SRC-EG-CAPMAS-27-GOVERNORATES-2021",
+        "SRC-EG-MLD-27-GOVERNORATES-2026"
+      ],
+      "special_cases": []
+    }
+  ],
   "schema_version": "2.0.0",
   "snapshot": {
-    "as_of": "2026-08-15",
-    "snapshot_id": "SNP-MIGRATION-2026-08-15",
-    "status": "baseline"
+    "as_of": "2026-08-16",
+    "snapshot_id": "SNP-EG-PRODUCTION-20260816",
+    "status": "verified"
   },
-  "status": "baseline_only"
+  "status": "pilot_migrated"
 }

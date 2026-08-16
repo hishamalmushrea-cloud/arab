@@ -60,6 +60,12 @@ This cumulative register records reusable controls without forcing countries int
 - Future territorial identities require proposed status and explicit effective date.
 - Complete planning coverage is not current administrative coverage.
 
+## Egypt production cycle
+
+- Profile governorates before importing heterogeneous lower paths.
+- Urban-only does not mean city identity; governorate and city remain separate.
+- Rural markaz/local-unit and urban qism/shiyakha paths must not cross.
+
 ## Controls now required for subsequent countries
 
 1. Exact current-layer denominator with source, date, license, and exclusion definition.

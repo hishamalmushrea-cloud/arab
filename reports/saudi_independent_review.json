@@ -2,7 +2,7 @@
   "baseline_issue_codes": [],
   "country_code": "SA",
   "errors": [],
-  "input_fingerprint_sha256": "25db865cb399f7ea1c6a5b086414d390ef02ace503ca028ee1c451ec179d8feb",
+  "input_fingerprint_sha256": "4c7f841376f311cc097f808e4e765706ef77ee8a26b3ebb55990e5cd28e1616f",
   "metrics": {
     "ab_claim_ratio": 100.0,
     "duplicate_claim_text_occurrences": 127,
