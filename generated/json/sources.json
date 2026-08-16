@@ -963,6 +963,46 @@
   },
   {
     "archive_url": null,
+    "checksum": "sha256:94421611d2de1fce249c5c6ac3e3d65cafac63b8f7ba782081a49b75a695ebde",
+    "country_codes": [
+      "KM"
+    ],
+    "id": "SRC-KM-INSEED-RGPH17-ADMIN",
+    "language": "fr",
+    "license": "Official Comoros public/statistical material; factual extraction with attribution; reuse terms not stated",
+    "locator": "population by island, prefecture and 54 communes",
+    "notes": "Record-level census cross-check. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "INSEED Comores",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-17",
+    "schema_version": "2.0.0",
+    "source_type": "census",
+    "title": "INSEED administrative population table — RGPH 2017",
+    "url": "https://www.inseed-comores.org/backend/uploads/Rapport_cartographie_sur_la_vulnerabilite_au_COVID_19_UNION_COMORES_cea7f383b1.pdf"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:94421611d2de1fce249c5c6ac3e3d65cafac63b8f7ba782081a49b75a695ebde",
+    "country_codes": [
+      "KM"
+    ],
+    "id": "SRC-KM-LAW-11-006-AU-2011",
+    "language": "fr",
+    "license": "Official Comoros public/statistical material; factual extraction with attribution; reuse terms not stated",
+    "locator": "three islands, sixteen prefectures, commune enumeration",
+    "notes": "Legal current administration; Mayotte excluded.",
+    "publication_date": "2011-05-02",
+    "publisher": "Ministère de la Justice, Union des Comores",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-17",
+    "schema_version": "2.0.0",
+    "source_type": "law",
+    "title": "Loi 11-006/AU — organisation territoriale",
+    "url": "https://justice.gouv.km/texte/loi-n11-006-au-du-02-mai-2011-portant-organisation-territoriale-de-lunion-des-comores/"
+  },
+  {
+    "archive_url": null,
     "checksum": "sha256:6fa4e68c3cb02b3c5cbd0b5e61bbd74b17185cf0e7211b689ae6c7d8817c2d92",
     "country_codes": [
       "KW"
@@ -2412,6 +2452,26 @@
     "source_type": "institutional_page",
     "title": "As-Salt - The Place of Tolerance and Urban Hospitality",
     "url": "https://whc.unesco.org/en/list/689/"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:94421611d2de1fce249c5c6ac3e3d65cafac63b8f7ba782081a49b75a695ebde",
+    "country_codes": [
+      "KM"
+    ],
+    "id": "SRC-UNESCO-WHC-KM-1768-2026",
+    "language": "fr",
+    "license": "CC BY-SA 3.0 IGO for UNESCO descriptions",
+    "locator": "Decision 48 COM 8B.13; property 1768; six serial components",
+    "notes": "2026 inscription; older zero-property page superseded.",
+    "publication_date": "2026-07-29",
+    "publisher": "UNESCO World Heritage Committee",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-17",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "The Medinas of the Historic Sultanates of the Comoros",
+    "url": "https://whc.unesco.org/document/226095"
   },
   {
     "archive_url": null,

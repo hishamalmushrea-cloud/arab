@@ -66,6 +66,17 @@
     "title": "Jordan Phase 3 legal hierarchy and bounded content snapshot"
   },
   {
+    "captured_at": "2026-08-17",
+    "checksum": "sha256:dadf619c260081b0d51f0e8062354ba08f182e7e93d802274ef37c2197bec502",
+    "id": "SNP-KM-PRODUCTION-20260817",
+    "method": "Checksum-bound law/INSEED/UNESCO reconciliation.",
+    "notes": "Mayotte excluded from current administration; claimed scope not modeled as current.",
+    "schema_version": "2.0.0",
+    "scope": "3 islands, 16 prefectures, 54 communes, one serial property",
+    "source_id": "SRC-KM-LAW-11-006-AU-2011",
+    "title": "Comoros current Union hierarchy and 2026 World Heritage"
+  },
+  {
     "captured_at": "2026-08-16",
     "checksum": "sha256:7ea4abafa0c04f995946201dc965ae470b572df18cd39ad736090449df303048",
     "id": "SNP-KW-PRODUCTION-20260816",

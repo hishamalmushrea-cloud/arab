@@ -25158,20 +25158,6 @@
     "valid_to": null
   },
   {
-    "entity_id": "ENT-KM-COUNTRY",
-    "id": "ALS-9DD5D4F45074589E",
-    "kind": "english",
-    "language": "en",
-    "name": "Comoros",
-    "schema_version": "2.0.0",
-    "script": "Latn",
-    "source_id": "SRC-ISO-3166-1-2020",
-    "source_locator": "ISO alpha-2 entry KM",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null
-  },
-  {
     "entity_id": "ENT-TN-IMADA-62522004",
     "id": "ALS-9DDA86A9513B5949",
     "kind": "official_variant",

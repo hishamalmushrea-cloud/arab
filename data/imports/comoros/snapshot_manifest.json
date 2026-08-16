@@ -1,0 +1,12 @@
+{
+  "country_code": "KM",
+  "records": [
+    {
+      "bytes": 8556,
+      "path": "data/imports/comoros/fixtures/current_hierarchy_2026.json",
+      "sha256": "94421611d2de1fce249c5c6ac3e3d65cafac63b8f7ba782081a49b75a695ebde"
+    }
+  ],
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-17"
+}

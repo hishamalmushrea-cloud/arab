@@ -1,0 +1,16 @@
+{
+  "country_code": "KM",
+  "domains": {
+    "dialect": {
+      "claims": 0,
+      "status": "not_documented_in_cycle"
+    },
+    "world_heritage": {
+      "claims": 3,
+      "denominator": 1,
+      "status": "documented"
+    }
+  },
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-17"
+}

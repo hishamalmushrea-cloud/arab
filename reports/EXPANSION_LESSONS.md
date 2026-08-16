@@ -78,6 +78,13 @@ This cumulative register records reusable controls without forcing countries int
 - Historical parentage belongs in Claims, not duplicate administrative relationships.
 - Parent reassignment can preserve the district denominator while changing the governorate universe.
 
+## Comoros production cycle
+
+- Current administration and territorial claims need separate scopes.
+- A source typo must be tested against its own enumerated arithmetic.
+- External registries such as UNESCO require temporal freshness after an inscription decision.
+- Serial properties remain one property unless component identity is independently modeled.
+
 ## Controls now required for subsequent countries
 
 1. Exact current-layer denominator with source, date, license, and exclusion definition.

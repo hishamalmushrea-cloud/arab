@@ -1,0 +1,49 @@
+{
+  "country_code": "KM",
+  "detected": 8,
+  "mutations": [
+    {
+      "detected": true,
+      "expected_code": "KM_MAYOTTE_CURRENT",
+      "mutation": "KM_MAYOTTE_CURRENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_PREFECTURE_PARENT",
+      "mutation": "KM_PREF_WRONG_ISLAND"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_COMMUNE_PARENT",
+      "mutation": "KM_COMMUNE_WRONG_PREF"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_DENOMINATORS",
+      "mutation": "KM_58_COMMUNES"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_WHC_2026",
+      "mutation": "KM_OLD_ZERO_WHC"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_COUNTS",
+      "mutation": "KM_DROP_ISLAND"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_COUNTS",
+      "mutation": "KM_COMMUNE_AS_VILLAGE"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_COUNTS",
+      "mutation": "KM_DROP_COMMUNE"
+    }
+  ],
+  "required": 8,
+  "schema_version": "2.0.0",
+  "status": "PASS"
+}
