@@ -1,7 +1,7 @@
 # Libya Production Expansion Closeout
 
 ## Decision
-**RELEASE CANDIDATE** pending exact-commit CI.
+**PASS.** Libya Production Full Pilot refresh accepted on exact commit `b16456734d8598b601dfe9694bbff186a568b358`.
 ## Scope
 Exact 141-name Ministry municipality catalogue, 22 historical 2006 sha‘biyat, mahallas unavailable.
 ## Snapshot
@@ -33,9 +33,9 @@ PASS locally 8/8 subset/history/parent/count/control/mahalla/freshness mutations
 ## P0/P1
 0/0.
 ## make check
-Pending clean commit.
+PASS: Phase 5 88/88 plus fourteen production gates 21/21; full `make check` = 382 checks.
 ## GitHub CI
-Pending.
+PASS: Push Action `31976629382` and PR Action `31976631541`.
 ## Remaining limitations
 No mahalla denominator; catalogue does not prove effective control; alternate-authority lists not unioned; culture/dialect deferred.
 ## Lessons learned

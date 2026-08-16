@@ -2,11 +2,11 @@
 
 ## Current country
 
-Libya — Full Pilot.
+Yemen — Full Pilot.
 
 ## Current result
 
-**RELEASE CANDIDATE.** Libya local checks, 344/344 review, and 8/8 mutations pass; exact-commit CI pending.
+**PASS.** Exact Libya release commit `b16456734d8598b601dfe9694bbff186a568b358`; full `make check` (382 checks), Push Action, and PR Action pass.
 
 ## Remaining countries
 
@@ -23,7 +23,7 @@ Yemen, Syria, Somalia, Sudan.
 
 ## Recommended next country
 
-**Yemen — Full Pilot.**
+**Yemen — Full Pilot — STARTED.** Research scope is recorded in `reports/YEMEN_PRODUCTION_KICKOFF.md`; no authoritative records emitted yet.
 
 ## Why
 
