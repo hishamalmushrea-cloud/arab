@@ -36,7 +36,7 @@ Kuwait, Qatar, Oman, Djibouti, Morocco, Algeria, Egypt, Mauritania, Lebanon, Com
 
 ## Recommended next country
 
-**Kuwait — Direct Structured Expansion.**
+**Kuwait — Direct Structured Expansion — STARTED.** Source assessment is recorded in `reports/KUWAIT_PRODUCTION_KICKOFF.md`; no authoritative Kuwait records have yet been emitted.
 
 ## Why
 
