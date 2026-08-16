@@ -2,11 +2,11 @@
 
 ## Current country
 
-Oman — Micro Pilot.
+Djibouti — Micro Pilot.
 
 ## Current result
 
-**RELEASE CANDIDATE.** Oman local schema/semantic checks, 243/243 review, and 8/8 mutations pass; exact-commit CI pending.
+**PASS.** Exact Oman release commit `a37668a5d018cdce1a9fa50ed523fa10d3c293b8`; full `make check` (172 checks), Push Action, and PR Action pass.
 
 ## Remaining countries
 
@@ -33,7 +33,7 @@ Djibouti, Morocco, Algeria, Egypt, Mauritania, Lebanon, Comoros, Palestine, Iraq
 
 ## Recommended next country
 
-**Djibouti — Micro Pilot.**
+**Djibouti — Micro Pilot — STARTED.** Research scope is recorded in `reports/DJIBOUTI_PRODUCTION_KICKOFF.md`; no authoritative records emitted yet.
 
 ## Why
 

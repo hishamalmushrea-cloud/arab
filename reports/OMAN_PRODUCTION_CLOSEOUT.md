@@ -1,7 +1,7 @@
 # Oman Production Expansion Closeout
 
 ## Decision
-**RELEASE CANDIDATE** pending exact-commit CI.
+**PASS.** Oman Production Micro Pilot accepted on exact commit `a37668a5d018cdce1a9fa50ed523fa10d3c293b8`.
 ## Scope
 11 legal governorates and 63 reconciled wilayats under Royal Decree 36/2022; niyabahs unavailable.
 ## Snapshot
@@ -33,9 +33,9 @@ PASS locally 8/8: additions, wrong parent, legacy 61, fake niyabah, Dhofar omiss
 ## P0/P1
 0/0.
 ## make check
-Pending clean release commit; Oman gate follows prior gates.
+PASS: Phase 5 88/88 plus four production gates 21/21; full `make check` = 172 checks.
 ## GitHub CI
-Pending.
+PASS: Push Action `31967434335` and PR Action `31967436233`.
 ## Remaining limitations
 Niyabah/administrative-centre denominator unavailable; cultural and dialect scopes unclosed; NCSI 61-code service is stale for denominator use.
 ## Lessons learned
