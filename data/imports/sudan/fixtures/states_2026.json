@@ -1,0 +1,90 @@
+{
+  "country_code": "SD",
+  "denominators": {
+    "administrative_units": null,
+    "current_legal_states": 18,
+    "localities": null
+  },
+  "method": "Legal-state reconciliation: exact indexed Presidency catalogue of 18 states, current government embassy confirmation of 18, and explicit rejection of stale 17-state pages. No war-time control inference.",
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-17",
+  "sources": {
+    "cbs": "http://cbs.gov.sd/index.php/ar/",
+    "embassy": "https://embassy-qatar.gov.sd/sections/aboutSudan",
+    "presidency": "https://www.presidency.gov.sd/page/About-States"
+  },
+  "states": [
+    {
+      "code": "01",
+      "name_ar": "ولاية البحر الأحمر"
+    },
+    {
+      "code": "02",
+      "name_ar": "ولاية كسلا"
+    },
+    {
+      "code": "03",
+      "name_ar": "ولاية القضارف"
+    },
+    {
+      "code": "04",
+      "name_ar": "ولاية النيل الأزرق"
+    },
+    {
+      "code": "05",
+      "name_ar": "ولاية سنار"
+    },
+    {
+      "code": "06",
+      "name_ar": "ولاية الجزيرة"
+    },
+    {
+      "code": "07",
+      "name_ar": "ولاية الخرطوم"
+    },
+    {
+      "code": "08",
+      "name_ar": "ولاية نهر النيل"
+    },
+    {
+      "code": "09",
+      "name_ar": "الولاية الشمالية"
+    },
+    {
+      "code": "10",
+      "name_ar": "ولاية النيل الأبيض"
+    },
+    {
+      "code": "11",
+      "name_ar": "ولاية شمال كردفان"
+    },
+    {
+      "code": "12",
+      "name_ar": "ولاية جنوب كردفان"
+    },
+    {
+      "code": "13",
+      "name_ar": "ولاية غرب كردفان"
+    },
+    {
+      "code": "14",
+      "name_ar": "ولاية شمال دارفور"
+    },
+    {
+      "code": "15",
+      "name_ar": "ولاية جنوب دارفور"
+    },
+    {
+      "code": "16",
+      "name_ar": "ولاية غرب دارفور"
+    },
+    {
+      "code": "17",
+      "name_ar": "ولاية شرق دارفور"
+    },
+    {
+      "code": "18",
+      "name_ar": "ولاية وسط دارفور"
+    }
+  ]
+}

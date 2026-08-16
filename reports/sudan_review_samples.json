@@ -1,0 +1,123 @@
+{
+  "country_code": "SD",
+  "families": {
+    "aliases": {
+      "population": 1,
+      "record_ids": [
+        "ALS-91F1D2954DBD50B7"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 1
+    },
+    "claims": {
+      "population": 19,
+      "record_ids": [
+        "CLM-SD-1E897502EEE35F42",
+        "CLM-SD-336C9FCF4B08549A",
+        "CLM-SD-38DF8796F5AC52E8",
+        "CLM-SD-41620BEF75305C6F",
+        "CLM-SD-541DDD28BC715196",
+        "CLM-SD-57A74A95B8B25325",
+        "CLM-SD-5BB2499BA0205951",
+        "CLM-SD-8FDB988FA9385501",
+        "CLM-SD-B20D00D981E95C2A",
+        "CLM-SD-B6BC4A8E717A5D9B",
+        "CLM-SD-C83F8E20447458DA",
+        "CLM-SD-C8D80827A6A357A0",
+        "CLM-SD-CCAEF75FB1DF502E",
+        "CLM-SD-E0CE6F85FECC5F93",
+        "CLM-SD-E16B679197905522",
+        "CLM-SD-E4EC1530DCC45064",
+        "CLM-SD-E59C86DD9CAE589F",
+        "CLM-SD-F6A4B611FCFB562C",
+        "CLM-SD-FF902AFAC8755771"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 19
+    },
+    "coverage": {
+      "population": 4,
+      "record_ids": [
+        "COV-SD-ADMIN-UNITS",
+        "COV-SD-COUNTRY-SCOPE",
+        "COV-SD-LOCALITIES",
+        "COV-SD-STATES"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 4
+    },
+    "denominators": {
+      "population": 4,
+      "record_ids": [
+        "DEN-SD-ADMIN-UNITS",
+        "DEN-SD-COUNTRY-SCOPE",
+        "DEN-SD-LOCALITIES",
+        "DEN-SD-STATES"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 4
+    },
+    "entities": {
+      "population": 19,
+      "record_ids": [
+        "ENT-SD-COUNTRY",
+        "ENT-SD-STATE-01",
+        "ENT-SD-STATE-02",
+        "ENT-SD-STATE-03",
+        "ENT-SD-STATE-04",
+        "ENT-SD-STATE-05",
+        "ENT-SD-STATE-06",
+        "ENT-SD-STATE-07",
+        "ENT-SD-STATE-08",
+        "ENT-SD-STATE-09",
+        "ENT-SD-STATE-10",
+        "ENT-SD-STATE-11",
+        "ENT-SD-STATE-12",
+        "ENT-SD-STATE-13",
+        "ENT-SD-STATE-14",
+        "ENT-SD-STATE-15",
+        "ENT-SD-STATE-16",
+        "ENT-SD-STATE-17",
+        "ENT-SD-STATE-18"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 19
+    },
+    "relationships": {
+      "population": 18,
+      "record_ids": [
+        "REL-SD-247B5AF3630A5CAB",
+        "REL-SD-380E82BBAE3F5FA9",
+        "REL-SD-3DE9CBC940F65745",
+        "REL-SD-6E68C9833AEC51AF",
+        "REL-SD-84EFEC0059725D17",
+        "REL-SD-870AEBC093F35058",
+        "REL-SD-878926F030B75272",
+        "REL-SD-A2EC8E0FC2B55845",
+        "REL-SD-A5AA0BC78514550A",
+        "REL-SD-AF30E4E0C0A45EC7",
+        "REL-SD-B2351AD97C4B5A94",
+        "REL-SD-BDA029F9DBA95E06",
+        "REL-SD-C1227F21EC525FB9",
+        "REL-SD-C36E29444A305ED9",
+        "REL-SD-C63B9020AB745F16",
+        "REL-SD-D3D2988EF63D5DA8",
+        "REL-SD-DE3ED0C4883E5973",
+        "REL-SD-E084A0A4A9EA5B00"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 18
+    },
+    "sources": {
+      "population": 3,
+      "record_ids": [
+        "SRC-SD-CBS-AUTHORITY",
+        "SRC-SD-EMBASSY-QATAR-18-STATES",
+        "SRC-SD-PRESIDENCY-STATES-CATALOGUE"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 3
+    }
+  },
+  "schema_version": "2.0.0"
+}

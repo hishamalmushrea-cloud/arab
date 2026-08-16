@@ -1,0 +1,66 @@
+{
+  "country_code": "SD",
+  "schema_version": "2.0.0",
+  "sources": [
+    {
+      "archive_url": null,
+      "checksum": "sha256:5e78b7afd8045ff809998f252db24d68e8a178dc001719c8ff8e960452c0e657",
+      "country_codes": [
+        "SD"
+      ],
+      "id": "SRC-SD-PRESIDENCY-STATES-CATALOGUE",
+      "language": "ar",
+      "license": "Official Sudan government material; factual extraction with attribution; reuse terms not stated",
+      "locator": "Indexed catalogue entries numbered 1–18",
+      "notes": "Exact official state enumeration; page currently returns 404, so retrieval limitation is explicit. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Presidency of the Republic of Sudan",
+      "quality_tier": "A",
+      "retrieved_at": "2026-08-17",
+      "schema_version": "2.0.0",
+      "source_type": "official_register",
+      "title": "About the States — 18-state catalogue",
+      "url": "https://www.presidency.gov.sd/page/About-States"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:5e78b7afd8045ff809998f252db24d68e8a178dc001719c8ff8e960452c0e657",
+      "country_codes": [
+        "SD"
+      ],
+      "id": "SRC-SD-EMBASSY-QATAR-18-STATES",
+      "language": "ar",
+      "license": "Official Sudan government material; factual extraction with attribution; reuse terms not stated",
+      "locator": "Government system section: Sudan has 18 states",
+      "notes": "Live government count confirmation. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Embassy of Sudan in Qatar",
+      "quality_tier": "A",
+      "retrieved_at": "2026-08-17",
+      "schema_version": "2.0.0",
+      "source_type": "official_report",
+      "title": "About Sudan — system of government",
+      "url": "https://embassy-qatar.gov.sd/sections/aboutSudan"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:5e78b7afd8045ff809998f252db24d68e8a178dc001719c8ff8e960452c0e657",
+      "country_codes": [
+        "SD"
+      ],
+      "id": "SRC-SD-CBS-AUTHORITY",
+      "language": "ar",
+      "license": "Official Sudan government material; factual extraction with attribution; reuse terms not stated",
+      "locator": "Official statistical authority and States navigation",
+      "notes": "Authority context; not used as a control map. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Central Bureau of Statistics Sudan",
+      "quality_tier": "A",
+      "retrieved_at": "2026-08-17",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "Central Bureau of Statistics",
+      "url": "http://cbs.gov.sd/index.php/ar/"
+    }
+  ]
+}

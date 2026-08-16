@@ -1,7 +1,8 @@
 {
   "caveats": [
-    "الحرب منذ 2023 وتغير السيطرة يفرضان فصل القانوني والفعلي واللقطات الزمنية.",
-    "Local coverage remains incomplete; file or directory existence is not a denominator."
+    "18 legal states closed; stale 17-state pages rejected.",
+    "Presidency page currently returns 404; exact indexed catalogue and live government count are retained with medium confidence.",
+    "Abyei and war-time control/operation/displacement/destruction require separate dated overlays."
   ],
   "country": {
     "entity_id": "ENT-SD-COUNTRY",
@@ -9,7 +10,10 @@
     "name_ar": "السودان"
   },
   "coverage_record_ids": [
-    "COV-SD-COUNTRY-SCOPE"
+    "COV-SD-COUNTRY-SCOPE",
+    "COV-SD-STATES",
+    "COV-SD-LOCALITIES",
+    "COV-SD-ADMIN-UNITS"
   ],
   "hierarchy": [
     {
@@ -36,13 +40,28 @@
       "allowed_parent_types": [
         "country"
       ],
+      "authority_name": "Presidency / CBS",
       "caveat": "الحرب منذ 2023 وتغير السيطرة يفرضان فصل القانوني والفعلي واللقطات الزمنية.",
+      "coverage_record_id": "COV-SD-STATES",
+      "denominator": 18,
+      "denominator_id": "DEN-SD-STATES",
       "entity_type": "sd_state",
       "level": 1,
+      "license": "Official Sudan government material; factual extraction with attribution; reuse terms not stated",
       "local_names": [
         "ولاية"
       ],
-      "source_ids": [],
+      "notes": "18 legal states.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-SD-PRESIDENCY-STATES-CATALOGUE",
+        "SRC-SD-EMBASSY-QATAR-18-STATES",
+        "SRC-SD-CBS-AUTHORITY"
+      ],
+      "special_cases": [
+        "Abyei not inserted as ordinary state."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
@@ -55,19 +74,30 @@
         "transitional",
         "uncertain"
       ],
-      "verification_status": "pending"
+      "verification_status": "verified"
     },
     {
       "allowed_parent_types": [
         "sd_state"
       ],
+      "authority_name": null,
       "caveat": "الحرب منذ 2023 وتغير السيطرة يفرضان فصل القانوني والفعلي واللقطات الزمنية.",
+      "coverage_record_id": "COV-SD-LOCALITIES",
+      "denominator": null,
+      "denominator_id": "DEN-SD-LOCALITIES",
       "entity_type": "sd_locality",
       "level": 2,
+      "license": "Official Sudan government material; factual extraction with attribution; reuse terms not stated",
       "local_names": [
         "محلية"
       ],
-      "source_ids": [],
+      "notes": "Current national register unreconciled.",
+      "scope_status": "unavailable",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-SD-PRESIDENCY-STATES-CATALOGUE"
+      ],
+      "special_cases": [],
       "temporal_statuses": [
         "current",
         "historical",
@@ -86,13 +116,24 @@
       "allowed_parent_types": [
         "sd_locality"
       ],
+      "authority_name": null,
       "caveat": "الحرب منذ 2023 وتغير السيطرة يفرضان فصل القانوني والفعلي واللقطات الزمنية.",
+      "coverage_record_id": "COV-SD-ADMIN-UNITS",
+      "denominator": null,
+      "denominator_id": "DEN-SD-ADMIN-UNITS",
       "entity_type": "sd_administrative_unit",
       "level": 3,
+      "license": "Official Sudan government material; factual extraction with attribution; reuse terms not stated",
       "local_names": [
         "وحدة إدارية"
       ],
-      "source_ids": [],
+      "notes": "Current national register unreconciled.",
+      "scope_status": "unavailable",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-SD-PRESIDENCY-STATES-CATALOGUE"
+      ],
+      "special_cases": [],
       "temporal_statuses": [
         "current",
         "historical",
@@ -108,18 +149,48 @@
       "verification_status": "pending"
     }
   ],
-  "next_action": "Register an atomic official hierarchy source and dated denominators before migrating local legacy rows.",
+  "next_action": "Maintain 18 legal states; add lower or war-time layers only from authority-reconciled dated evidence.",
   "official_authority": {
-    "missing_reason": "Authority name is recorded, but no atomic official hierarchy source has yet passed source metadata and snapshot review.",
-    "name": "الجهاز المركزي للإحصاء والسلطات الإدارية المختصة",
-    "source_ids": [],
-    "verification_status": "pending"
+    "missing_reason": null,
+    "name": "Presidency / Central Bureau of Statistics / Government Embassy",
+    "source_ids": [
+      "SRC-SD-PRESIDENCY-STATES-CATALOGUE",
+      "SRC-SD-EMBASSY-QATAR-18-STATES",
+      "SRC-SD-CBS-AUTHORITY"
+    ],
+    "verification_status": "verified"
   },
+  "pilot_layers": [
+    {
+      "authority_name": "Presidency / CBS",
+      "coverage_record_id": "COV-SD-STATES",
+      "denominator": 18,
+      "denominator_id": "DEN-SD-STATES",
+      "entity_types": [
+        "sd_state"
+      ],
+      "layer": "sd_state",
+      "license": "Official Sudan government material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "ولاية"
+      ],
+      "notes": "Legal frame only.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-SD-PRESIDENCY-STATES-CATALOGUE",
+        "SRC-SD-EMBASSY-QATAR-18-STATES"
+      ],
+      "special_cases": [
+        "No control inference."
+      ]
+    }
+  ],
   "schema_version": "2.0.0",
   "snapshot": {
-    "as_of": "2026-08-15",
-    "snapshot_id": "SNP-MIGRATION-2026-08-15",
-    "status": "baseline"
+    "as_of": "2026-08-17",
+    "snapshot_id": "SNP-SD-PRODUCTION-20260817",
+    "status": "verified"
   },
-  "status": "baseline_only"
+  "status": "pilot_migrated"
 }

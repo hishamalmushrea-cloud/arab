@@ -126,6 +126,13 @@ This cumulative register records reusable controls without forcing countries int
 - Preserve Somaliland as an attributed disputed FGS narrative and North East as a dated transition.
 - Predecessor names and overlapping claims never create duplicate current entities or inferred control.
 
+## Sudan production cycle
+
+- Reconcile exact 18-state enumeration against stale 17-state pages; never average legal denominators.
+- Preserve official-page access failures and confidence limits instead of hiding them.
+- Abyei and war-time operational/control status remain separate from the legal state frame.
+- Null lower denominators prohibit percentages and synthetic locality records.
+
 ## Controls now required for subsequent countries
 
 1. Exact current-layer denominator with source, date, license, and exclusion definition.

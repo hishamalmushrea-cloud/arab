@@ -153,7 +153,10 @@ syria:
 somalia:
 	python3 scripts/check_somalia_gate.py
 
-check: phase5 bahrain kuwait qatar oman djibouti morocco algeria egypt mauritania lebanon comoros palestine iraq libya yemen syria somalia
+sudan:
+	python3 scripts/check_sudan_gate.py
+
+check: phase5 bahrain kuwait qatar oman djibouti morocco algeria egypt mauritania lebanon comoros palestine iraq libya yemen syria somalia sudan
 
 repair:
 	python3 scripts/repair_legacy.py
@@ -184,4 +187,5 @@ repair:
 	python3 scripts/import_yemen_production.py
 	python3 scripts/import_syria_production.py
 	python3 scripts/import_somalia_production.py
+	python3 scripts/import_sudan_production.py
 	python3 scripts/generate.py

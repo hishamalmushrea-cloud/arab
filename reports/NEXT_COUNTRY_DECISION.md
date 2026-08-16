@@ -2,26 +2,20 @@
 
 ## Current country
 
-Sudan — Full Pilot.
+None — all 22 bounded country cycles are accepted locally.
 
 ## Current result
 
-**Somalia PASS.** Exact release commit `84577cc28b3d2650feb5bfa539dc996289a7fb14`; full `make check` (445 checks), Push Action `31979131057`, and PR Action `31979134094` pass. The bounded stage-one scope closes the current Ministry of Planning 7-FMS frame and 1/1 parallel Banadir administration, while preserving Somaliland and North East as attributed narratives.
+**Sudan PASS locally.** The legal state layer closes 18/18, stale 17-state pages are rejected, and localities/administrative units remain denominator-unavailable. Remote exact-commit CI evidence is pending release push.
 
 ## Remaining countries
 
-Sudan.
+None.
 
-## Ranking
+## Release transition
 
-| Rank | Country | Mode | Priority | Reason | Risk |
-|---:|---|---|:---:|---|---|
-| 1 | Sudan | Full Pilot | P4 | exact Presidency 18-state catalogue is enumerable | war, stale 17-state sources, control/displacement, Abyei |
+The project enters maintenance and depth-expansion mode. The final release decision is recorded in `reports/FINAL_ARABIC_ENCYCLOPEDIA_RELEASE.md` as `COMPLETE WITH DOCUMENTED LIMITATIONS`.
 
-## Recommended next country
+## Next action
 
-**Sudan — Full Pilot — STARTED.** Research scope is recorded in `reports/SUDAN_PRODUCTION_KICKOFF.md`; no authoritative Sudan production records have been emitted.
-
-## Why
-
-Sudan is the final national cycle and the strongest remaining stress test: an exact legal 18-state catalogue must be separated from stale 17-state pages, the Abyei special case, and rapidly changing control, displacement, destruction, and operational status.
+Maintain source freshness and expand documented lower administrative, populated-place, cultural, dialect, and dated conflict-status layers without changing the bounded-release decision or inventing overall completion percentages.

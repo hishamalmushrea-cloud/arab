@@ -1,0 +1,13 @@
+{
+  "captured_at": "2026-08-17",
+  "country_code": "SD",
+  "limitation": "Presidency catalogue is search-index retrievable but currently returns 404; embassy count independently confirms 18.",
+  "records": [
+    {
+      "path": "fixtures/states_2026.json",
+      "record_count": 18,
+      "sha256": "5e78b7afd8045ff809998f252db24d68e8a178dc001719c8ff8e960452c0e657"
+    }
+  ],
+  "schema_version": "2.0.0"
+}
