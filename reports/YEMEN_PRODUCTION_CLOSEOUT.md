@@ -1,7 +1,7 @@
 # Yemen Production Expansion Closeout
 
 ## Decision
-**PASS locally; remote release evidence pending exact commit.** Yemen Full Pilot stage one closes the legal/statistical first-level layer.
+**PASS.** Yemen Full Pilot stage one accepted on exact release commit `24531638822f9d9da5f2d5f5e8f2b7307b46c894`; the legal/statistical first-level layer is closed.
 ## Scope
 21 current governorates plus the parallel Amanat Al Asimah capital municipality: 22 first-level identities.
 ## Snapshot
@@ -29,7 +29,11 @@ PASS locally: full population 82/82.
 ## Negative tests
 PASS locally: 9/9, including Amanat-as-governorate, silent Socotra omission, legal-as-de-facto, unsupported destruction, premature lower levels, wrong parent, stale coverage, and fabricated effective-clause mutations.
 ## P0/P1
-0/0 locally.
+0/0.
+## make check
+PASS: Phase 5 88/88 plus fifteen production gates 21/21; full `make check` = 403 checks.
+## GitHub CI
+PASS on exact release commit: Push Action `31977549949` and PR Action `31977551453`.
 ## Limitations
 No current district/uzla coded register accepted; no effective-control, disputed, destroyed, or displaced overlay; no broad cultural/dialect import; official-gazette full text remains unavailable.
 ## Transferability

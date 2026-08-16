@@ -6,7 +6,7 @@ Syria — Full Pilot.
 
 ## Current result
 
-**Yemen PASS locally.** The bounded first-level scope closes 21 governorates plus one distinct Capital Municipality, with Socotra traced to Law 31/2013 and its 2013-12-18 issuance/establishment date. Remote exact-commit CI evidence is pending release push.
+**Yemen PASS.** Exact release commit `24531638822f9d9da5f2d5f5e8f2b7307b46c894`; full `make check` (403 checks), Push Action `31977549949`, and PR Action `31977551453` pass. The bounded first-level scope closes 21 governorates plus one distinct Capital Municipality, with Socotra traced to Law 31/2013 and its 2013-12-18 issuance/establishment date.
 
 ## Remaining countries
 
