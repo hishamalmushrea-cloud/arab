@@ -1,7 +1,7 @@
 # Lebanon Production Expansion Closeout
 
 ## Decision
-**RELEASE CANDIDATE** pending exact-commit CI.
+**PASS.** Lebanon Production Micro Pilot accepted on exact commit `a2bc958256512961b04a68ea871fe32178aa6534`.
 ## Scope
 Nine current governorates and 26 districts, plus historical eight-governorate survey frame.
 ## Snapshot
@@ -33,9 +33,9 @@ PASS locally 8/8 temporal parent/count/duplicate-parent/municipality mutations.
 ## P0/P1
 0/0.
 ## make check
-Pending clean commit.
+PASS: Phase 5 88/88 plus ten production gates 21/21; full `make check` = 298 checks.
 ## GitHub CI
-Pending.
+PASS: Push Action `31973247801` and PR Action `31973249782`.
 ## Remaining limitations
 Municipalities unavailable; Law 52 atomic text needs stronger direct archive; cultural/dialect scopes deferred.
 ## Lessons learned

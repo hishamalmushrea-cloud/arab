@@ -2,11 +2,11 @@
 
 ## Current country
 
-Lebanon — Micro Pilot.
+Comoros — Full Pilot.
 
 ## Current result
 
-**RELEASE CANDIDATE.** Lebanon local checks, 95/95 review, and 8/8 mutations pass; exact-commit CI pending.
+**PASS.** Exact Lebanon release commit `a2bc958256512961b04a68ea871fe32178aa6534`; full `make check` (298 checks), Push Action, and PR Action pass.
 
 ## Remaining countries
 
@@ -27,7 +27,7 @@ Comoros, Palestine, Iraq, Libya, Yemen, Syria, Somalia, Sudan.
 
 ## Recommended next country
 
-**Comoros — Full Pilot.**
+**Comoros — Full Pilot — STARTED.** Research scope is recorded in `reports/COMOROS_PRODUCTION_KICKOFF.md`; no authoritative records emitted yet.
 
 ## Why
 
