@@ -2,11 +2,11 @@
 
 ## Current country
 
-Mauritania — Micro Pilot.
+Lebanon — Micro Pilot.
 
 ## Current result
 
-**RELEASE CANDIDATE.** Mauritania local checks, 59/59 review, and 8/8 mutations pass; exact-commit CI pending.
+**PASS.** Exact Mauritania release commit `74103bf411933018e467c24261035e2fbddbff8d`; full `make check` (277 checks), Push Action, and PR Action pass.
 
 ## Remaining countries
 
@@ -28,7 +28,7 @@ Lebanon, Comoros, Palestine, Iraq, Libya, Yemen, Syria, Somalia, Sudan.
 
 ## Recommended next country
 
-**Lebanon — Micro Pilot.**
+**Lebanon — Micro Pilot — STARTED.** Research scope is recorded in `reports/LEBANON_PRODUCTION_KICKOFF.md`; no authoritative records emitted yet.
 
 ## Why
 

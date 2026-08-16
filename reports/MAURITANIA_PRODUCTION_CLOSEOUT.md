@@ -1,7 +1,7 @@
 # Mauritania Production Expansion Closeout
 
 ## Decision
-**RELEASE CANDIDATE** pending exact-commit CI.
+**PASS.** Mauritania Production Micro Pilot accepted on exact commit `74103bf411933018e467c24261035e2fbddbff8d`.
 ## Scope
 15 wilayas profiled; 63 moughataas known/open; communes conflicted 219/220.
 ## Snapshot
@@ -33,9 +33,9 @@ PASS locally 8/8 profile/count/conflict/premature-lower mutations.
 ## P0/P1
 0/0.
 ## make check
-Pending clean commit.
+PASS: Phase 5 88/88 plus nine production gates 21/21; full `make check` = 277 checks.
 ## GitHub CI
-Pending.
+PASS: Push Action `31972325450` and PR Action `31972327386`.
 ## Remaining limitations
 63 moughataa records deferred; commune denominator unresolved 219/220; culture/dialect deferred.
 ## Lessons learned
