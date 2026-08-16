@@ -1,0 +1,143 @@
+{
+  "country_code": "LB",
+  "families": {
+    "claims": {
+      "population": 13,
+      "record_ids": [
+        "CLM-LB-00642A4661185A4C",
+        "CLM-LB-249C8CE256CB510D",
+        "CLM-LB-4DF2F4A295BD533C",
+        "CLM-LB-51AC0746B208555A",
+        "CLM-LB-5A843DC77A3051E4",
+        "CLM-LB-68043D649D57589F",
+        "CLM-LB-6DE282091BD95E1F",
+        "CLM-LB-9AEFD385E7215925",
+        "CLM-LB-C6DA1141BC7C522D",
+        "CLM-LB-CE9361E7A8EF5069",
+        "CLM-LB-D34AF9D28F8156C3",
+        "CLM-LB-D4DD7CBA78B859FC",
+        "CLM-LB-E3AB86B1ECB95197"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 13
+    },
+    "coverage": {
+      "population": 4,
+      "record_ids": [
+        "COV-LB-COUNTRY-SCOPE",
+        "COV-LB-DISTRICTS-CURRENT",
+        "COV-LB-GOVERNORATES-CURRENT",
+        "COV-LB-GOVERNORATES-SURVEY-2019"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 4
+    },
+    "denominators": {
+      "population": 4,
+      "record_ids": [
+        "DEN-LB-COUNTRY-SCOPE",
+        "DEN-LB-DISTRICTS-CURRENT",
+        "DEN-LB-GOVERNORATES-CURRENT",
+        "DEN-LB-GOVERNORATES-SURVEY-2019"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 4
+    },
+    "entities": {
+      "population": 36,
+      "record_ids": [
+        "ENT-LB-COUNTRY",
+        "ENT-LB-DISTRICT-AKKAR",
+        "ENT-LB-DISTRICT-ALEY",
+        "ENT-LB-DISTRICT-BAABDA",
+        "ENT-LB-DISTRICT-BAALBEK",
+        "ENT-LB-DISTRICT-BATROUN",
+        "ENT-LB-DISTRICT-BCHARRE",
+        "ENT-LB-DISTRICT-BEIRUT",
+        "ENT-LB-DISTRICT-BINT-JBEIL",
+        "ENT-LB-DISTRICT-CHOUF",
+        "ENT-LB-DISTRICT-HASBAYA",
+        "ENT-LB-DISTRICT-HERMEL",
+        "ENT-LB-DISTRICT-JBEIL",
+        "ENT-LB-DISTRICT-JEZZINE",
+        "ENT-LB-DISTRICT-KESERWAN",
+        "ENT-LB-DISTRICT-KOURA",
+        "ENT-LB-DISTRICT-MARJAYOUN",
+        "ENT-LB-DISTRICT-MATN",
+        "ENT-LB-DISTRICT-MINIEH-DANNIYEH",
+        "ENT-LB-DISTRICT-NABATIEH",
+        "ENT-LB-DISTRICT-RASHAYA",
+        "ENT-LB-DISTRICT-SAIDA",
+        "ENT-LB-DISTRICT-TRIPOLI",
+        "ENT-LB-DISTRICT-TYRE",
+        "ENT-LB-DISTRICT-WEST-BEQAA",
+        "ENT-LB-DISTRICT-ZAHLE",
+        "ENT-LB-DISTRICT-ZGHARTA",
+        "ENT-LB-GOVERNORATE-AKKAR",
+        "ENT-LB-GOVERNORATE-BAALBEK-HERMEL",
+        "ENT-LB-GOVERNORATE-BEIRUT",
+        "ENT-LB-GOVERNORATE-BEQAA",
+        "ENT-LB-GOVERNORATE-KESERWAN-JBEIL",
+        "ENT-LB-GOVERNORATE-MOUNT-LEBANON",
+        "ENT-LB-GOVERNORATE-NABATIEH",
+        "ENT-LB-GOVERNORATE-NORTH",
+        "ENT-LB-GOVERNORATE-SOUTH"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 36
+    },
+    "relationships": {
+      "population": 35,
+      "record_ids": [
+        "REL-LB-07398F39978153FD",
+        "REL-LB-0A8B5069DC615F81",
+        "REL-LB-0B597ABBC97E5AFC",
+        "REL-LB-0BB211618522507C",
+        "REL-LB-14DB6845F2005DB5",
+        "REL-LB-27AEF28292885275",
+        "REL-LB-38BB8E237E8551BC",
+        "REL-LB-42FD968F47F15467",
+        "REL-LB-462387E929EF5AE7",
+        "REL-LB-4959C0B1EBE65D8A",
+        "REL-LB-4C8FC8B2FE2E58A3",
+        "REL-LB-4FA252D3916355BC",
+        "REL-LB-580658BD55F258E6",
+        "REL-LB-5929D69BE15B574A",
+        "REL-LB-5FAAD3863A775A17",
+        "REL-LB-63203CF5DDD55755",
+        "REL-LB-6E8D5C2B72F7525E",
+        "REL-LB-6F866ADDAA7F572E",
+        "REL-LB-74DA7A97457954CA",
+        "REL-LB-76061F3AFF31502D",
+        "REL-LB-82240B95DD1057AD",
+        "REL-LB-83C8669764975FFF",
+        "REL-LB-868546AAC30D5D81",
+        "REL-LB-8A5C1C060C4B53F0",
+        "REL-LB-A1E390AF5413543B",
+        "REL-LB-B14FE72A7C7A5379",
+        "REL-LB-B1FC68DD39C9517D",
+        "REL-LB-B832E430FCB05788",
+        "REL-LB-B88A19DCACA650F3",
+        "REL-LB-CE8D8EB5D1715074",
+        "REL-LB-D41522974906509B",
+        "REL-LB-D78F951B9EC25C4B",
+        "REL-LB-E65F7E98C0D75BFF",
+        "REL-LB-F02F8DEEFEF850DB",
+        "REL-LB-F8C985464CD45702"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 35
+    },
+    "sources": {
+      "population": 3,
+      "record_ids": [
+        "SRC-LB-CAS-26-DISTRICTS-2019",
+        "SRC-LB-LAW-52-2017",
+        "SRC-LB-MOIM-ADMINISTRATION-2026"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 3
+    }
+  },
+  "schema_version": "2.0.0"
+}

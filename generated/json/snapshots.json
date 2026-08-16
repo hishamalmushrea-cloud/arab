@@ -77,6 +77,17 @@
     "title": "Kuwait production expansion — six governorates and World Heritage scope"
   },
   {
+    "captured_at": "2026-08-16",
+    "checksum": "sha256:5b2acf78a5ab77e1a3f58a76facf18854acc8e7a0c2bb1155ba8c605d6632561",
+    "id": "SNP-LB-PRODUCTION-20260816",
+    "method": "Checksum-bound temporal reconciliation.",
+    "notes": "Municipalities deferred.",
+    "schema_version": "2.0.0",
+    "scope": "Current hierarchy plus historical CAS survey-frame claims",
+    "source_id": "SRC-LB-MOIM-ADMINISTRATION-2026",
+    "title": "Lebanon current 9-governorate / 26-district hierarchy"
+  },
+  {
     "captured_at": "2006-04-15",
     "checksum": null,
     "id": "SNP-LY-CENSUS-2006",

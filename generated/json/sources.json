@@ -1003,6 +1003,66 @@
   },
   {
     "archive_url": null,
+    "checksum": "sha256:6a7bef9bfad2a542f2ea7d1bb05b9bbd25db61bfd890d728dc59f1611b8a9f4c",
+    "country_codes": [
+      "LB"
+    ],
+    "id": "SRC-LB-CAS-26-DISTRICTS-2019",
+    "language": "ar-en",
+    "license": "Official Lebanon public/statistical material; factual extraction with attribution; reuse terms not stated",
+    "locator": "26 districts and eight-governorate survey frame",
+    "notes": "Historical survey topology; not current parent authority. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Central Administration of Statistics",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-16",
+    "schema_version": "2.0.0",
+    "source_type": "census",
+    "title": "Lebanon District Statistics — LFHLCS 2018-2019",
+    "url": "http://cas.gov.lb/index.php/component/content/article/79-english/222-district-statistics-based-on-the-labour-force-and-household-living-conditions-survey-2018-2019"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:6a7bef9bfad2a542f2ea7d1bb05b9bbd25db61bfd890d728dc59f1611b8a9f4c",
+    "country_codes": [
+      "LB"
+    ],
+    "id": "SRC-LB-LAW-52-2017",
+    "language": "ar-en",
+    "license": "Official Lebanon public/statistical material; factual extraction with attribution; reuse terms not stated",
+    "locator": "Law 52, Official Gazette 7 September 2017; Keserwan and Jbeil",
+    "notes": "Current ninth-governorate transition.",
+    "publication_date": "2017-09-07",
+    "publisher": "Lebanese Parliament / Official Gazette",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-16",
+    "schema_version": "2.0.0",
+    "source_type": "law",
+    "title": "Law 52/2017 — Keserwan-Jbeil Governorate",
+    "url": "https://www.lp.gov.lb/"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:6a7bef9bfad2a542f2ea7d1bb05b9bbd25db61bfd890d728dc59f1611b8a9f4c",
+    "country_codes": [
+      "LB"
+    ],
+    "id": "SRC-LB-MOIM-ADMINISTRATION-2026",
+    "language": "ar-en",
+    "license": "Official Lebanon public/statistical material; factual extraction with attribution; reuse terms not stated",
+    "locator": "current oversight of governorates, districts, municipalities",
+    "notes": "Current administration cross-check. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Ministry of Interior and Municipalities",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-16",
+    "schema_version": "2.0.0",
+    "source_type": "official_register",
+    "title": "Ministry oversight of governorates and districts",
+    "url": "https://moim.gov.lb/en/about-us/"
+  },
+  {
+    "archive_url": null,
     "checksum": null,
     "country_codes": [
       "LY"

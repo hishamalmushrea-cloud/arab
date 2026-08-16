@@ -1,7 +1,8 @@
 {
   "caveats": [
-    "محافظة كسروان-جبيل المنفذة حديثًا تغيّر المقام؛ يلزم snapshot رسمي موحد.",
-    "Local coverage remains incomplete; file or directory existence is not a denominator."
+    "Current 9-governorate frame differs from CAS 8-governorate survey frame.",
+    "Keserwan/Jbeil current parent is Keserwan-Jbeil only.",
+    "Municipalities deferred."
   ],
   "country": {
     "entity_id": "ENT-LB-COUNTRY",
@@ -9,7 +10,10 @@
     "name_ar": "لبنان"
   },
   "coverage_record_ids": [
-    "COV-LB-COUNTRY-SCOPE"
+    "COV-LB-COUNTRY-SCOPE",
+    "COV-LB-GOVERNORATES-CURRENT",
+    "COV-LB-DISTRICTS-CURRENT",
+    "COV-LB-GOVERNORATES-SURVEY-2019"
   ],
   "hierarchy": [
     {
@@ -36,13 +40,28 @@
       "allowed_parent_types": [
         "country"
       ],
+      "authority_name": "MOIM / CAS",
       "caveat": "محافظة كسروان-جبيل المنفذة حديثًا تغيّر المقام؛ يلزم snapshot رسمي موحد.",
+      "coverage_record_id": "COV-LB-GOVERNORATES-CURRENT",
+      "denominator": 9,
+      "denominator_id": "DEN-LB-GOVERNORATES-CURRENT",
       "entity_type": "lb_governorate",
       "level": 1,
+      "license": "Official Lebanon public/statistical material; factual extraction with attribution; reuse terms not stated",
       "local_names": [
         "محافظة"
       ],
-      "source_ids": [],
+      "notes": "Current hierarchy.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-16",
+      "source_ids": [
+        "SRC-LB-MOIM-ADMINISTRATION-2026",
+        "SRC-LB-CAS-26-DISTRICTS-2019",
+        "SRC-LB-LAW-52-2017"
+      ],
+      "special_cases": [
+        "Historical survey parent kept as Claim."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
@@ -55,19 +74,34 @@
         "transitional",
         "uncertain"
       ],
-      "verification_status": "pending"
+      "verification_status": "verified"
     },
     {
       "allowed_parent_types": [
         "lb_governorate"
       ],
+      "authority_name": "MOIM / CAS",
       "caveat": "محافظة كسروان-جبيل المنفذة حديثًا تغيّر المقام؛ يلزم snapshot رسمي موحد.",
+      "coverage_record_id": "COV-LB-DISTRICTS-CURRENT",
+      "denominator": 26,
+      "denominator_id": "DEN-LB-DISTRICTS-CURRENT",
       "entity_type": "lb_district",
       "level": 2,
+      "license": "Official Lebanon public/statistical material; factual extraction with attribution; reuse terms not stated",
       "local_names": [
         "قضاء"
       ],
-      "source_ids": [],
+      "notes": "Current hierarchy.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-16",
+      "source_ids": [
+        "SRC-LB-MOIM-ADMINISTRATION-2026",
+        "SRC-LB-CAS-26-DISTRICTS-2019",
+        "SRC-LB-LAW-52-2017"
+      ],
+      "special_cases": [
+        "Historical survey parent kept as Claim."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
@@ -80,19 +114,28 @@
         "transitional",
         "uncertain"
       ],
-      "verification_status": "pending"
+      "verification_status": "verified"
     },
     {
       "allowed_parent_types": [
         "lb_district"
       ],
+      "authority_name": "MOIM",
       "caveat": "محافظة كسروان-جبيل المنفذة حديثًا تغيّر المقام؛ يلزم snapshot رسمي موحد.",
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
       "entity_type": "lb_municipality",
       "level": 3,
+      "license": null,
       "local_names": [
         "بلدية"
       ],
+      "notes": "No current atomic national register accepted.",
+      "scope_status": "unavailable",
+      "snapshot_date": null,
       "source_ids": [],
+      "special_cases": [],
       "temporal_statuses": [
         "current",
         "historical",
@@ -108,18 +151,90 @@
       "verification_status": "pending"
     }
   ],
-  "next_action": "Register an atomic official hierarchy source and dated denominators before migrating local legacy rows.",
+  "next_action": "Maintain temporal parent claims; import municipalities only from current Ministry register.",
   "official_authority": {
-    "missing_reason": "Authority name is recorded, but no atomic official hierarchy source has yet passed source metadata and snapshot review.",
-    "name": "المديرية العامة للإدارات والمجالس المحلية / وزارة الداخلية والبلديات",
-    "source_ids": [],
-    "verification_status": "pending"
+    "missing_reason": null,
+    "name": "Ministry of Interior and Municipalities / CAS",
+    "source_ids": [
+      "SRC-LB-MOIM-ADMINISTRATION-2026",
+      "SRC-LB-CAS-26-DISTRICTS-2019",
+      "SRC-LB-LAW-52-2017"
+    ],
+    "verification_status": "verified"
   },
+  "pilot_layers": [
+    {
+      "authority_name": "MOIM / CAS",
+      "coverage_record_id": "COV-LB-GOVERNORATES-CURRENT",
+      "denominator": 9,
+      "denominator_id": "DEN-LB-GOVERNORATES-CURRENT",
+      "entity_types": [
+        "lb_governorate"
+      ],
+      "layer": "lb_governorate",
+      "license": "Official Lebanon public/statistical material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "administrative unit"
+      ],
+      "notes": "Temporal frame explicit.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-16",
+      "source_ids": [
+        "SRC-LB-MOIM-ADMINISTRATION-2026",
+        "SRC-LB-LAW-52-2017"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "MOIM / CAS",
+      "coverage_record_id": "COV-LB-DISTRICTS-CURRENT",
+      "denominator": 26,
+      "denominator_id": "DEN-LB-DISTRICTS-CURRENT",
+      "entity_types": [
+        "lb_district"
+      ],
+      "layer": "lb_district",
+      "license": "Official Lebanon public/statistical material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "administrative unit"
+      ],
+      "notes": "Temporal frame explicit.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-16",
+      "source_ids": [
+        "SRC-LB-MOIM-ADMINISTRATION-2026",
+        "SRC-LB-LAW-52-2017"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "MOIM / CAS",
+      "coverage_record_id": "COV-LB-GOVERNORATES-SURVEY-2019",
+      "denominator": 8,
+      "denominator_id": "DEN-LB-GOVERNORATES-SURVEY-2019",
+      "entity_types": [
+        "lb_governorate"
+      ],
+      "layer": "lb_governorate_survey_frame",
+      "license": "Official Lebanon public/statistical material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "administrative unit"
+      ],
+      "notes": "Temporal frame explicit.",
+      "scope_status": "closed",
+      "snapshot_date": "2019-01-01",
+      "source_ids": [
+        "SRC-LB-CAS-26-DISTRICTS-2019",
+        "SRC-LB-LAW-52-2017"
+      ],
+      "special_cases": []
+    }
+  ],
   "schema_version": "2.0.0",
   "snapshot": {
-    "as_of": "2026-08-15",
-    "snapshot_id": "SNP-MIGRATION-2026-08-15",
-    "status": "baseline"
+    "as_of": "2026-08-16",
+    "snapshot_id": "SNP-LB-PRODUCTION-20260816",
+    "status": "verified"
   },
-  "status": "baseline_only"
+  "status": "pilot_migrated"
 }

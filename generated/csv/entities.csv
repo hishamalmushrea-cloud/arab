@@ -295,6 +295,41 @@ ENT-KW-GOVERNORATE-CAPITAL,2.0.0,KW,العاصمة,kw_governorate,current,ar,SRC
 ENT-KW-GOVERNORATE-HAWALLI,2.0.0,KW,حولي,kw_governorate,current,ar,SRC-KW-CSB-CENSUS-GOVERNORATES-2021,high,,[],"Current governorate in the official 2021 registration-census table; no address area, block, municipality, or polygon centroid is inferred.",2021 census Table 1 row: حولي / Hawalli; total=926170,,,source_verified
 ENT-KW-GOVERNORATE-MUBARAK-AL-KABEER,2.0.0,KW,مبارك الكبير,kw_governorate,current,ar,SRC-KW-CSB-CENSUS-GOVERNORATES-2021,high,,[],"Current governorate in the official 2021 registration-census table; no address area, block, municipality, or polygon centroid is inferred.",2021 census Table 1 row: مبارك الكبير / Mubarak Al-Kabeer; total=279666,,,source_verified
 ENT-LB-COUNTRY,2.0.0,LB,لبنان,country,current,ar,SRC-ISO-3166-1-2020,high,,[],Project country scope; this entity does not imply local-place completeness.,ISO alpha-2 entry LB,,,verified
+ENT-LB-DISTRICT-AKKAR,2.0.0,LB,Akkar,lb_district,current,en,SRC-LB-CAS-26-DISTRICTS-2019,high,,[],District current identity.,District Akkar current parent Akkar,,,verified
+ENT-LB-DISTRICT-ALEY,2.0.0,LB,Aley,lb_district,current,en,SRC-LB-CAS-26-DISTRICTS-2019,high,,[],District current identity.,District Aley current parent Mount Lebanon,,,verified
+ENT-LB-DISTRICT-BAABDA,2.0.0,LB,Baabda,lb_district,current,en,SRC-LB-CAS-26-DISTRICTS-2019,high,,[],District current identity.,District Baabda current parent Mount Lebanon,,,verified
+ENT-LB-DISTRICT-BAALBEK,2.0.0,LB,Baalbek,lb_district,current,en,SRC-LB-CAS-26-DISTRICTS-2019,high,,[],District current identity.,District Baalbek current parent Baalbek-Hermel,,,verified
+ENT-LB-DISTRICT-BATROUN,2.0.0,LB,Batroun,lb_district,current,en,SRC-LB-CAS-26-DISTRICTS-2019,high,,[],District current identity.,District Batroun current parent North Lebanon,,,verified
+ENT-LB-DISTRICT-BCHARRE,2.0.0,LB,Bcharre,lb_district,current,en,SRC-LB-CAS-26-DISTRICTS-2019,high,,[],District current identity.,District Bcharre current parent North Lebanon,,,verified
+ENT-LB-DISTRICT-BEIRUT,2.0.0,LB,Beirut,lb_district,current,en,SRC-LB-CAS-26-DISTRICTS-2019,high,,[],District current identity.,District Beirut current parent Beirut,,,verified
+ENT-LB-DISTRICT-BINT-JBEIL,2.0.0,LB,Bint Jbeil,lb_district,current,en,SRC-LB-CAS-26-DISTRICTS-2019,high,,[],District current identity.,District Bint Jbeil current parent Nabatieh,,,verified
+ENT-LB-DISTRICT-CHOUF,2.0.0,LB,Chouf,lb_district,current,en,SRC-LB-CAS-26-DISTRICTS-2019,high,,[],District current identity.,District Chouf current parent Mount Lebanon,,,verified
+ENT-LB-DISTRICT-HASBAYA,2.0.0,LB,Hasbaya,lb_district,current,en,SRC-LB-CAS-26-DISTRICTS-2019,high,,[],District current identity.,District Hasbaya current parent Nabatieh,,,verified
+ENT-LB-DISTRICT-HERMEL,2.0.0,LB,Hermel,lb_district,current,en,SRC-LB-CAS-26-DISTRICTS-2019,high,,[],District current identity.,District Hermel current parent Baalbek-Hermel,,,verified
+ENT-LB-DISTRICT-JBEIL,2.0.0,LB,Jbeil,lb_district,current,en,SRC-LB-LAW-52-2017,high,,[],District current identity.,District Jbeil current parent Keserwan-Jbeil,2017-09-07,,verified
+ENT-LB-DISTRICT-JEZZINE,2.0.0,LB,Jezzine,lb_district,current,en,SRC-LB-CAS-26-DISTRICTS-2019,high,,[],District current identity.,District Jezzine current parent South Lebanon,,,verified
+ENT-LB-DISTRICT-KESERWAN,2.0.0,LB,Keserwan,lb_district,current,en,SRC-LB-LAW-52-2017,high,,[],District current identity.,District Keserwan current parent Keserwan-Jbeil,2017-09-07,,verified
+ENT-LB-DISTRICT-KOURA,2.0.0,LB,Koura,lb_district,current,en,SRC-LB-CAS-26-DISTRICTS-2019,high,,[],District current identity.,District Koura current parent North Lebanon,,,verified
+ENT-LB-DISTRICT-MARJAYOUN,2.0.0,LB,Marjayoun,lb_district,current,en,SRC-LB-CAS-26-DISTRICTS-2019,high,,[],District current identity.,District Marjayoun current parent Nabatieh,,,verified
+ENT-LB-DISTRICT-MATN,2.0.0,LB,Matn,lb_district,current,en,SRC-LB-CAS-26-DISTRICTS-2019,high,,[],District current identity.,District Matn current parent Mount Lebanon,,,verified
+ENT-LB-DISTRICT-MINIEH-DANNIYEH,2.0.0,LB,Minieh-Danniyeh,lb_district,current,en,SRC-LB-CAS-26-DISTRICTS-2019,high,,[],District current identity.,District Minieh-Danniyeh current parent North Lebanon,,,verified
+ENT-LB-DISTRICT-NABATIEH,2.0.0,LB,Nabatieh,lb_district,current,en,SRC-LB-CAS-26-DISTRICTS-2019,high,,[],District current identity.,District Nabatieh current parent Nabatieh,,,verified
+ENT-LB-DISTRICT-RASHAYA,2.0.0,LB,Rashaya,lb_district,current,en,SRC-LB-CAS-26-DISTRICTS-2019,high,,[],District current identity.,District Rashaya current parent Bekaa,,,verified
+ENT-LB-DISTRICT-SAIDA,2.0.0,LB,Saida,lb_district,current,en,SRC-LB-CAS-26-DISTRICTS-2019,high,,[],District current identity.,District Saida current parent South Lebanon,,,verified
+ENT-LB-DISTRICT-TRIPOLI,2.0.0,LB,Tripoli,lb_district,current,en,SRC-LB-CAS-26-DISTRICTS-2019,high,,[],District current identity.,District Tripoli current parent North Lebanon,,,verified
+ENT-LB-DISTRICT-TYRE,2.0.0,LB,Tyre,lb_district,current,en,SRC-LB-CAS-26-DISTRICTS-2019,high,,[],District current identity.,District Tyre current parent South Lebanon,,,verified
+ENT-LB-DISTRICT-WEST-BEQAA,2.0.0,LB,West Beqaa,lb_district,current,en,SRC-LB-CAS-26-DISTRICTS-2019,high,,[],District current identity.,District West Beqaa current parent Bekaa,,,verified
+ENT-LB-DISTRICT-ZAHLE,2.0.0,LB,Zahle,lb_district,current,en,SRC-LB-CAS-26-DISTRICTS-2019,high,,[],District current identity.,District Zahle current parent Bekaa,,,verified
+ENT-LB-DISTRICT-ZGHARTA,2.0.0,LB,Zgharta,lb_district,current,en,SRC-LB-CAS-26-DISTRICTS-2019,high,,[],District current identity.,District Zgharta current parent North Lebanon,,,verified
+ENT-LB-GOVERNORATE-AKKAR,2.0.0,LB,Akkar,lb_governorate,current,en,SRC-LB-MOIM-ADMINISTRATION-2026,high,,[],Current governorate.,Current governorate Akkar; 1 district records,,,verified
+ENT-LB-GOVERNORATE-BAALBEK-HERMEL,2.0.0,LB,Baalbek-Hermel,lb_governorate,current,en,SRC-LB-MOIM-ADMINISTRATION-2026,high,,[],Current governorate.,Current governorate Baalbek-Hermel; 2 district records,,,verified
+ENT-LB-GOVERNORATE-BEIRUT,2.0.0,LB,Beirut,lb_governorate,current,en,SRC-LB-MOIM-ADMINISTRATION-2026,high,,[],Current governorate.,Current governorate Beirut; 1 district records,,,verified
+ENT-LB-GOVERNORATE-BEQAA,2.0.0,LB,Bekaa,lb_governorate,current,en,SRC-LB-MOIM-ADMINISTRATION-2026,high,,[],Current governorate.,Current governorate Bekaa; 3 district records,,,verified
+ENT-LB-GOVERNORATE-KESERWAN-JBEIL,2.0.0,LB,Keserwan-Jbeil,lb_governorate,current,en,SRC-LB-LAW-52-2017,high,,[],Current governorate.,Current governorate Keserwan-Jbeil; 2 district records,2017-09-07,,verified
+ENT-LB-GOVERNORATE-MOUNT-LEBANON,2.0.0,LB,Mount Lebanon,lb_governorate,current,en,SRC-LB-MOIM-ADMINISTRATION-2026,high,,[],Current governorate.,Current governorate Mount Lebanon; 4 district records,,,verified
+ENT-LB-GOVERNORATE-NABATIEH,2.0.0,LB,Nabatieh,lb_governorate,current,en,SRC-LB-MOIM-ADMINISTRATION-2026,high,,[],Current governorate.,Current governorate Nabatieh; 4 district records,,,verified
+ENT-LB-GOVERNORATE-NORTH,2.0.0,LB,North Lebanon,lb_governorate,current,en,SRC-LB-MOIM-ADMINISTRATION-2026,high,,[],Current governorate.,Current governorate North Lebanon; 6 district records,,,verified
+ENT-LB-GOVERNORATE-SOUTH,2.0.0,LB,South Lebanon,lb_governorate,current,en,SRC-LB-MOIM-ADMINISTRATION-2026,high,,[],Current governorate.,Current governorate South Lebanon; 3 district records,,,verified
 ENT-LY-COUNTRY,2.0.0,LY,ليبيا,country,current,ar,SRC-ISO-3166-1-2020,high,,[],Project country scope; this entity does not imply local-place completeness.,ISO alpha-2 entry LY,,,verified
 ENT-LY-MUNICIPALITY-0104004B1CE5,2.0.0,LY,البيضاء,ly_municipality,current,ar,SRC-LY-MOLG-MUNICIPALITIES-2026,high,,"[""LY-010"",""LY-MU010""]",Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.,Municipality list entry: البيضاء,,,verified
 ENT-LY-MUNICIPALITY-013733073F62,2.0.0,LY,بنغازي,ly_municipality,current,ar,SRC-LY-MOLG-MUNICIPALITIES-2026,high,,"[""LY-016"",""LY-MU016""]",Current-register match as retrieved on 2026-08-15; legal commencement date was not inferred.,Municipality list entry: بنغازي,,,verified

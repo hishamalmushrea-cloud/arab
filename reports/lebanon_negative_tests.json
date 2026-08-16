@@ -1,0 +1,49 @@
+{
+  "country_code": "LB",
+  "detected": 8,
+  "mutations": [
+    {
+      "detected": true,
+      "expected_code": "LB_TEMPORAL_COUNTS",
+      "mutation": "LB_EIGHT_AS_CURRENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "LB_CURRENT_PARENT",
+      "mutation": "LB_KESERWAN_OLD_PARENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "LB_CURRENT_PARENT",
+      "mutation": "LB_JBEIL_OLD_PARENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "LB_CURRENT_PARENT",
+      "mutation": "LB_TWO_PARENTS"
+    },
+    {
+      "detected": true,
+      "expected_code": "LB_HISTORICAL_PARENT",
+      "mutation": "LB_DROP_HISTORICAL_CLAIM"
+    },
+    {
+      "detected": true,
+      "expected_code": "LB_DENOMINATORS",
+      "mutation": "LB_DENOM_8_CURRENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "LB_PREMATURE_MUNICIPALITY",
+      "mutation": "LB_PREMATURE_MUNICIPALITY"
+    },
+    {
+      "detected": true,
+      "expected_code": "LB_PARENT_SET",
+      "mutation": "LB_WRONG_DISTRICT_SET"
+    }
+  ],
+  "required": 8,
+  "schema_version": "2.0.0",
+  "status": "PASS"
+}

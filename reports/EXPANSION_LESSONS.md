@@ -72,6 +72,12 @@ This cumulative register records reusable controls without forcing countries int
 - Conflicting official counts require disputed provenance and no selected denominator.
 - Capital-named wilayas remain administrative entities, not inferred neighborhoods.
 
+## Lebanon production cycle
+
+- Current legal parents and historical survey parents require separate representations.
+- Historical parentage belongs in Claims, not duplicate administrative relationships.
+- Parent reassignment can preserve the district denominator while changing the governorate universe.
+
 ## Controls now required for subsequent countries
 
 1. Exact current-layer denominator with source, date, license, and exclusion definition.

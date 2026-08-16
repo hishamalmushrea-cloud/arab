@@ -9800,20 +9800,6 @@
     "valid_to": null
   },
   {
-    "entity_id": "ENT-LB-COUNTRY",
-    "id": "ALS-404813BDA802532E",
-    "kind": "english",
-    "language": "en",
-    "name": "Lebanon",
-    "schema_version": "2.0.0",
-    "script": "Latn",
-    "source_id": "SRC-ISO-3166-1-2020",
-    "source_locator": "ISO alpha-2 entry LB",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null
-  },
-  {
     "entity_id": "ENT-TN-IMADA-31601005",
     "id": "ALS-4067D073154F5746",
     "kind": "official_variant",

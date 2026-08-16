@@ -22,7 +22,7 @@
 | OM | عُمان | 75 | 11 | [OM](countries/OM.md) |
 | PS | فلسطين | 1 | 0 | [PS](countries/PS.md) |
 | QA | قطر | 10 | 10 | [QA](countries/QA.md) |
-| LB | لبنان | 1 | 0 | [LB](countries/LB.md) |
+| LB | لبنان | 36 | 13 | [LB](countries/LB.md) |
 | LY | ليبيا | 116 | 0 | [LY](countries/LY.md) |
 | EG | مصر | 28 | 27 | [EG](countries/EG.md) |
 | MR | موريتانيا | 16 | 17 | [MR](countries/MR.md) |
