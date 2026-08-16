@@ -21,7 +21,7 @@
 | SY | سوريا | 1 | 0 | [SY](countries/SY.md) |
 | OM | عُمان | 1 | 0 | [OM](countries/OM.md) |
 | PS | فلسطين | 1 | 0 | [PS](countries/PS.md) |
-| QA | قطر | 1 | 0 | [QA](countries/QA.md) |
+| QA | قطر | 10 | 10 | [QA](countries/QA.md) |
 | LB | لبنان | 1 | 0 | [LB](countries/LB.md) |
 | LY | ليبيا | 116 | 0 | [LY](countries/LY.md) |
 | EG | مصر | 1 | 0 | [EG](countries/EG.md) |

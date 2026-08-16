@@ -1,0 +1,62 @@
+{
+  "country_code": "QA",
+  "critical_p1": 0,
+  "families": {
+    "aliases": {
+      "failed": 0,
+      "passed": 9,
+      "population": 9,
+      "sampled": 9,
+      "status": "PASS"
+    },
+    "claims": {
+      "failed": 0,
+      "passed": 10,
+      "population": 10,
+      "sampled": 10,
+      "status": "PASS"
+    },
+    "coverage": {
+      "failed": 0,
+      "passed": 3,
+      "population": 3,
+      "sampled": 3,
+      "status": "PASS"
+    },
+    "denominators": {
+      "failed": 0,
+      "passed": 3,
+      "population": 3,
+      "sampled": 3,
+      "status": "PASS"
+    },
+    "entities": {
+      "failed": 0,
+      "passed": 10,
+      "population": 10,
+      "sampled": 10,
+      "status": "PASS"
+    },
+    "relationships": {
+      "failed": 0,
+      "passed": 9,
+      "population": 9,
+      "sampled": 9,
+      "status": "PASS"
+    },
+    "sources": {
+      "failed": 0,
+      "passed": 3,
+      "population": 3,
+      "sampled": 3,
+      "status": "PASS"
+    }
+  },
+  "findings": [],
+  "method": "Independent full comparison to PSA fixture; importer/validator not imported.",
+  "p0": 0,
+  "schema_version": "2.0.0",
+  "status": "PASS",
+  "total_passed": 47,
+  "total_sampled": 47
+}

@@ -27,6 +27,13 @@ This cumulative register records reusable controls without forcing countries int
 - A zero official denominator can close a layer; tentative records remain outside an inscribed-property denominator.
 - Address areas and numbered blocks are not municipalities merely because they nest geographically.
 
+## Qatar production cycle
+
+- Current eight-municipality evidence supersedes historical ten-municipality topology.
+- Municipality, city, zone, block, district, and fareej must remain distinct.
+- Cross-authority spelling variants belong in Alias resolution, not duplicate Entities.
+- Census and spatial-planning sources can independently close the same upper denominator without making lower layers complete.
+
 ## Controls now required for subsequent countries
 
 1. Exact current-layer denominator with source, date, license, and exclusion definition.

@@ -77,6 +77,17 @@
     "title": "Schema v1 legacy migration baseline"
   },
   {
+    "captured_at": "2026-08-16",
+    "checksum": "sha256:f530c04ffb6825dc39dbb41f830cddc532ce02357a6fab43c9cf7432849e25b1",
+    "id": "SNP-QA-PRODUCTION-20260816",
+    "method": "Checksum-bound official fixtures.",
+    "notes": "Zones, blocks, cities, fareej, broad culture and dialect remain unclosed.",
+    "schema_version": "2.0.0",
+    "scope": "Eight Census 2020 municipalities and one World Heritage property",
+    "source_id": "SRC-QA-PSA-CENSUS-MUNICIPALITIES-2020",
+    "title": "Qatar production — eight municipalities and Al Zubarah"
+  },
+  {
     "captured_at": "2026-08-15",
     "checksum": "sha256:f3c996ae39b3a1e5db9b4ec1832b8c12d430f16551f4a003328e466303da6b3a",
     "id": "SNP-SA-ADMIN-20260815",

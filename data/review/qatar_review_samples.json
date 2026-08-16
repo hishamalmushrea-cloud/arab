@@ -1,0 +1,102 @@
+{
+  "country_code": "QA",
+  "families": {
+    "aliases": {
+      "population": 9,
+      "record_ids": [
+        "ALS-QA-0BCFAC6C85485D69",
+        "ALS-QA-609500C5A25A5CF7",
+        "ALS-QA-6E4564185B3458E2",
+        "ALS-QA-7B38B842018851AC",
+        "ALS-QA-91B0E0DFB33756D4",
+        "ALS-QA-BD0BEF8FFA355FAF",
+        "ALS-QA-C15CE83FBA1F5619",
+        "ALS-QA-D329AE79623D5BA9",
+        "ALS-QA-D979F12CA5775A44"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 9
+    },
+    "claims": {
+      "population": 10,
+      "record_ids": [
+        "CLM-QA-1959ECEEA7BE5FC0",
+        "CLM-QA-74B9B7CB2FB559ED",
+        "CLM-QA-833689E2EA475E1A",
+        "CLM-QA-9CE84D3291315A3D",
+        "CLM-QA-ADA92432E7E05580",
+        "CLM-QA-AE2B5A396BA2599A",
+        "CLM-QA-BF2FCF9C09B35146",
+        "CLM-QA-C438257FCC6155BF",
+        "CLM-QA-CBE42CBC252E5A05",
+        "CLM-QA-DFCE11B7B84355D0"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 10
+    },
+    "coverage": {
+      "population": 3,
+      "record_ids": [
+        "COV-QA-COUNTRY-SCOPE",
+        "COV-QA-MUNICIPALITIES-2020",
+        "COV-QA-WHC-20260816"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 3
+    },
+    "denominators": {
+      "population": 3,
+      "record_ids": [
+        "DEN-QA-COUNTRY-SCOPE",
+        "DEN-QA-MUNICIPALITIES-2020",
+        "DEN-QA-WHC-20260816"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 3
+    },
+    "entities": {
+      "population": 10,
+      "record_ids": [
+        "ENT-QA-ARCHAEOLOGICAL-SITE-AL-ZUBARAH",
+        "ENT-QA-COUNTRY",
+        "ENT-QA-MUNICIPALITY-AL-DAAYEN",
+        "ENT-QA-MUNICIPALITY-AL-KHOR-AL-THAKHIRA",
+        "ENT-QA-MUNICIPALITY-AL-RAYYAN",
+        "ENT-QA-MUNICIPALITY-AL-SHAMAL",
+        "ENT-QA-MUNICIPALITY-AL-SHEEHANIYA",
+        "ENT-QA-MUNICIPALITY-AL-WAKRA",
+        "ENT-QA-MUNICIPALITY-DOHA",
+        "ENT-QA-MUNICIPALITY-UMM-SLAL"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 10
+    },
+    "relationships": {
+      "population": 9,
+      "record_ids": [
+        "REL-QA-1E65D833B5CA5329",
+        "REL-QA-2203A0E5AA0C5136",
+        "REL-QA-34AD9CF1E67C55F4",
+        "REL-QA-355D651ED7A1571C",
+        "REL-QA-4E9940AFDA32595C",
+        "REL-QA-A1D99487D6FD59CD",
+        "REL-QA-A5B7D5A651255B5B",
+        "REL-QA-B399353A78D25E12",
+        "REL-QA-E656E6E35BFF574C"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 9
+    },
+    "sources": {
+      "population": 3,
+      "record_ids": [
+        "SRC-QA-PSA-CENSUS-MUNICIPALITIES-2020",
+        "SRC-QA-QNMP-EIGHT-MUNICIPALITIES-2026",
+        "SRC-UNESCO-WHC-QA-1402"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 3
+    }
+  },
+  "schema_version": "2.0.0"
+}

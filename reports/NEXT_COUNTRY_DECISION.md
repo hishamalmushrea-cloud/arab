@@ -2,48 +2,47 @@
 
 ## Current country
 
-Kuwait — Direct Structured Expansion.
+Qatar — Direct Structured Expansion.
 
 ## Current result
 
-**PASS.** Exact Kuwait release commit `5fe172543d05d9bcbb028b17e85f943d7fbe6f83`; full `make check` (130 checks), Push Action, and PR Action pass.
+**RELEASE CANDIDATE.** Qatar local schema/semantic checks, 47/47 review, and 8/8 mutations pass; exact-commit CI pending.
 
 ## Remaining countries
 
-Qatar, Oman, Djibouti, Morocco, Algeria, Egypt, Mauritania, Lebanon, Comoros, Palestine, Iraq, Libya, Yemen, Syria, Somalia, Sudan.
+Oman, Djibouti, Morocco, Algeria, Egypt, Mauritania, Lebanon, Comoros, Palestine, Iraq, Libya, Yemen, Syria, Somalia, Sudan.
 
 ## Ranking
 
 | Rank | Country | Mode | Priority | Reason | Risk |
 |---:|---|---|:---:|---|---|
-| 1 | Qatar | Direct Structured Expansion | P1 | bounded municipality layer and strong statistics | municipality/zone/district/fareej conflation |
-| 2 | Oman | Micro Pilot | P2 | stable governorate/wilaya model | deeper wilaya/niyaba denominator and decree dates |
-| 3 | Djibouti | Micro Pilot | P2 | manageable size | special capital structure and parallel municipal/sub-prefecture paths |
-| 4 | Morocco | Micro Pilot | P2 | strong authority expected | prefecture/province parallelism and commune denominator |
-| 5 | Algeria | Micro Pilot | P2 | official hierarchy sources expected | scale and announced transitions |
-| 6 | Egypt | Full Pilot | P3 | strong statistics | very large dual rural/urban lower hierarchy |
-| 7 | Mauritania | Micro Pilot | P3 | three principal tiers | conflicting local denominators/source quality |
-| 8 | Lebanon | Micro Pilot | P3 | bounded upper layers | recent temporal change and municipal unions |
-| 9 | Comoros | Full Pilot | P3 | small record count | weak/conflicting island/prefecture/commune authority |
-| 10 | Palestine | Full Pilot | P4 | strong statistical evidence | legal/de facto/disputed/displaced semantics |
-| 11 | Iraq | Full Pilot | P4 | official and regional sources | federal/Kurdistan paths, disputed areas, Halabja timing |
-| 12 | Libya | Full Pilot | P4 | existing bounded baseline | divided/variable current municipal denominator |
-| 13 | Yemen | Full Pilot | P4 | known legal hierarchy | war, capital municipality, legal/de facto divergence |
-| 14 | Syria | Full Pilot | P4 | legal hierarchy known | rapidly changing status, destruction/displacement |
-| 15 | Somalia | Full Pilot | P4 | federal-member structure | Somaliland and competing territorial claims |
-| 16 | Sudan | Full Pilot | P4 | legal state layer | war and highest current/status volatility |
+| 1 | Oman | Micro Pilot | P2 | stable governorate/wilaya model | deeper wilaya/niyaba denominator and decree dates |
+| 2 | Djibouti | Micro Pilot | P2 | manageable size | special capital structure and parallel municipal/sub-prefecture paths |
+| 3 | Morocco | Micro Pilot | P2 | strong authority expected | prefecture/province parallelism and commune denominator |
+| 4 | Algeria | Micro Pilot | P2 | official hierarchy sources expected | scale and announced transitions |
+| 5 | Egypt | Full Pilot | P3 | strong statistics | very large dual rural/urban lower hierarchy |
+| 6 | Mauritania | Micro Pilot | P3 | three principal tiers | conflicting local denominators/source quality |
+| 7 | Lebanon | Micro Pilot | P3 | bounded upper layers | recent temporal change and municipal unions |
+| 8 | Comoros | Full Pilot | P3 | small record count | weak/conflicting island/prefecture/commune authority |
+| 9 | Palestine | Full Pilot | P4 | strong statistical evidence | legal/de facto/disputed/displaced semantics |
+| 10 | Iraq | Full Pilot | P4 | official and regional sources | federal/Kurdistan paths, disputed areas, Halabja timing |
+| 11 | Libya | Full Pilot | P4 | existing bounded baseline | divided/variable current municipal denominator |
+| 12 | Yemen | Full Pilot | P4 | known legal hierarchy | war, capital municipality, legal/de facto divergence |
+| 13 | Syria | Full Pilot | P4 | legal hierarchy known | rapidly changing status, destruction/displacement |
+| 14 | Somalia | Full Pilot | P4 | federal-member structure | Somaliland and competing territorial claims |
+| 15 | Sudan | Full Pilot | P4 | legal state layer | war and highest current/status volatility |
 
 ## Recommended next country
 
-**Qatar — Direct Structured Expansion — STARTED.** Evidence assessment is recorded in `reports/QATAR_PRODUCTION_KICKOFF.md`; no authoritative Qatar records emitted yet.
+**Oman — Micro Pilot.**
 
 ## Why
 
-Qatar is now the highest remaining direct-expansion candidate. It tests a distinct boundary: municipalities versus numbered zones, districts, and fareej, with strong expected Ministry of Municipality and Planning and Statistics Authority evidence.
+Oman is the highest remaining Group A country and introduces the first production micro-pilot: governorate, wilaya, and possible niyaba depth with decree timing.
 
 ## Why not the alternatives
 
-Oman needs a micro-pilot for wilaya/niyaba depth and decree timing. Groups B–D introduce scale, parallel structures, weak denominators, or conflict before two production-direct cycles have stabilized the workflow.
+Groups B–D introduce scale, parallel structures, weak denominators, or conflict before two production-direct cycles have stabilized the workflow.
 
 ## Expected difficulty
 

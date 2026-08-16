@@ -108,7 +108,10 @@ validate-kuwait:
 kuwait:
 	python3 scripts/check_kuwait_gate.py
 
-check: phase5 bahrain kuwait
+qatar:
+	python3 scripts/check_qatar_gate.py
+
+check: phase5 bahrain kuwait qatar
 
 repair:
 	python3 scripts/repair_legacy.py
@@ -124,4 +127,5 @@ repair:
 	python3 scripts/import_bahrain_production.py
 	python3 scripts/build_kuwait_sources.py
 	python3 scripts/import_kuwait_production.py
+	python3 scripts/import_qatar_production.py
 	python3 scripts/generate.py

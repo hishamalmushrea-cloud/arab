@@ -843,6 +843,46 @@
   },
   {
     "archive_url": null,
+    "checksum": "sha256:284c78ce66e4e1c167b48593f24f73cc8475c8bb9f5a68d9d69c3c1940108de5",
+    "country_codes": [
+      "QA"
+    ],
+    "id": "SRC-QA-PSA-CENSUS-MUNICIPALITIES-2020",
+    "language": "ar-en",
+    "license": "Qatar government statistical publication; factual extraction with attribution; reuse terms not stated",
+    "locator": "eight municipality population rows; total at end December 2020",
+    "notes": "Checksum binds exact census rows. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Planning and Statistics Authority",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-16",
+    "schema_version": "2.0.0",
+    "source_type": "census",
+    "title": "Qatar Census 2020 — Population by Municipality",
+    "url": "https://www.psa.gov.qa/en/statistics1/StatisticsSite/Census/census2020/results/Pages/default.aspx"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:64c9c816c6aafe333baa63cea034e0c35d38ac90f083319b0b896eb4c8e15713",
+    "country_codes": [
+      "QA"
+    ],
+    "id": "SRC-QA-QNMP-EIGHT-MUNICIPALITIES-2026",
+    "language": "en",
+    "license": "Qatar government statistical publication; factual extraction with attribution; reuse terms not stated",
+    "locator": "statement and enumeration of each of the eight municipalities",
+    "notes": "Independent current eight-municipality cross-check. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Qatar National Master Plan / Ministry of Municipality",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-16",
+    "schema_version": "2.0.0",
+    "source_type": "official_report",
+    "title": "Municipality Spatial Development Plans — eight municipalities",
+    "url": "https://www.mme.gov.qa/QatarMasterPlan/English/MSDP-Municipalities.aspx?panel=about"
+  },
+  {
+    "archive_url": null,
     "author": null,
     "checksum": "sha256:f3c996ae39b3a1e5db9b4ec1832b8c12d430f16551f4a003328e466303da6b3a",
     "country_codes": [
@@ -1932,6 +1972,26 @@
     "source_type": "institutional_dataset",
     "title": "World Heritage List — Kuwait State Party",
     "url": "https://whc.unesco.org/en/statesparties/kw"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:64c9c816c6aafe333baa63cea034e0c35d38ac90f083319b0b896eb4c8e15713",
+    "country_codes": [
+      "QA"
+    ],
+    "id": "SRC-UNESCO-WHC-QA-1402",
+    "language": "ar-en",
+    "license": "CC BY-SA 3.0 IGO for property descriptions",
+    "locator": "property 1402; cultural; inscribed 2013",
+    "notes": "Checksum binds exact property selection. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "UNESCO World Heritage Centre",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-16",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Al Zubarah Archaeological Site",
+    "url": "https://whc.unesco.org/en/list/1402"
   },
   {
     "archive_url": null,

@@ -1,0 +1,17 @@
+{
+  "country_code": "QA",
+  "records": [
+    {
+      "bytes": 998,
+      "path": "data/imports/qatar/fixtures/municipalities_census_2020.json",
+      "sha256": "284c78ce66e4e1c167b48593f24f73cc8475c8bb9f5a68d9d69c3c1940108de5"
+    },
+    {
+      "bytes": 684,
+      "path": "data/imports/qatar/fixtures/official_scope_2026.json",
+      "sha256": "64c9c816c6aafe333baa63cea034e0c35d38ac90f083319b0b896eb4c8e15713"
+    }
+  ],
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-16"
+}
