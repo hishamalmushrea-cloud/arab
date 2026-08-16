@@ -21,6 +21,9 @@ Every country has a verified country root and at least one accepted bounded admi
 - Yemen's complete official-gazette Socotra text, Sudan's live Presidency catalogue page, and several lower registers remain source-access limitations.
 - Country closeouts and `reports/EXPANSION_LESSONS.md` are the authoritative limitation ledger.
 
+## Release evidence
+Final bounded-country release commit: `08b13074b4fffdd9b2ed25178a8340da35d8c7a6`. Full local gate: 466 checks PASS. Push Action `31979921207` and PR Action `31979923503` PASS.
+
 ## Quality boundary
 No overall completion percentage is asserted. Percentages apply only to named layers with dated denominators. Unknown denominators remain null with a missing reason.
 

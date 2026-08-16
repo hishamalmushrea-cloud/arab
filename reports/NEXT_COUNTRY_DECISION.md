@@ -6,7 +6,7 @@ None — all 22 bounded country cycles are accepted locally.
 
 ## Current result
 
-**Sudan PASS locally.** The legal state layer closes 18/18, stale 17-state pages are rejected, and localities/administrative units remain denominator-unavailable. Remote exact-commit CI evidence is pending release push.
+**Sudan PASS.** Exact release commit `08b13074b4fffdd9b2ed25178a8340da35d8c7a6`; full `make check` (466 checks), Push Action `31979921207`, and PR Action `31979923503` pass. The legal state layer closes 18/18, stale 17-state pages are rejected, and localities/administrative units remain denominator-unavailable.
 
 ## Remaining countries
 
