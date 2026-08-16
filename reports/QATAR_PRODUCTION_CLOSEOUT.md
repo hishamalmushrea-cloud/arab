@@ -1,7 +1,7 @@
 # Qatar Production Expansion Closeout
 
 ## Decision
-**RELEASE CANDIDATE** pending clean exact-commit CI.
+**PASS.** Qatar Production Expansion accepted on exact commit `25f204538a904a20a3975c86748d99cef571fe9c`.
 ## Scope
 Eight Census 2020 municipalities and Al Zubarah World Heritage property; no zones, blocks, districts, fareej, cities, broad culture, or dialect completeness.
 ## Snapshot
@@ -33,9 +33,9 @@ PASS locally: 8/8 including historical-ten-as-current, zone promotion, spelling/
 ## P0/P1
 0/0.
 ## make check
-Pending clean release commit; Qatar gate follows Phase 5, Bahrain, and Kuwait.
+PASS: Phase 5 88/88 plus Bahrain, Kuwait, and Qatar 21/21 each; full `make check` = 151 checks.
 ## GitHub CI
-Pending.
+PASS: Push Action `31966494030` and PR Action `31966497046` on the exact commit.
 ## Remaining limitations
 No current zone/block/fareej denominator; no municipality legal-creation dates; no broad cultural/dialect denominator.
 ## Lessons learned

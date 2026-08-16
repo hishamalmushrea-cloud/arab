@@ -6,7 +6,7 @@ Qatar — Direct Structured Expansion.
 
 ## Current result
 
-**RELEASE CANDIDATE.** Qatar local schema/semantic checks, 47/47 review, and 8/8 mutations pass; exact-commit CI pending.
+**PASS.** Exact Qatar release commit `25f204538a904a20a3975c86748d99cef571fe9c`; full `make check` (151 checks), Push Action, and PR Action pass.
 
 ## Remaining countries
 
@@ -34,7 +34,7 @@ Oman, Djibouti, Morocco, Algeria, Egypt, Mauritania, Lebanon, Comoros, Palestine
 
 ## Recommended next country
 
-**Oman — Micro Pilot.**
+**Oman — Micro Pilot — STARTED.** Evidence assessment is recorded in `reports/OMAN_PRODUCTION_KICKOFF.md`; no authoritative Oman records emitted yet.
 
 ## Why
 
