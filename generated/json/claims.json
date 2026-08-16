@@ -8205,6 +8205,354 @@
   {
     "classification": "official",
     "confidence": "high",
+    "id": "CLM-MA-0749C8197D0D5D75",
+    "lexical_context": null,
+    "notes": "Prefectures and provinces counted separately.",
+    "observed_at": "2015-03-05",
+    "predicate": "second_level_collectivity_count",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": "SRC-MA-DGCT-TERRITORIAL-COUNTS-2026",
+    "second_source_locator": "national 75 prefectures/provinces denominator",
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-DGCT-DECREE-2-15-10",
+    "source_locator": "Decree 2.15.10 region Rabat-Salé-Kénitra; capital Rabat",
+    "status": "verified",
+    "subject_id": "ENT-MA-REGION-RABAT-SALE-KENITRA",
+    "unit": "collectivity",
+    "valid_from": "2015-03-05",
+    "valid_to": null,
+    "value": {
+      "data": {
+        "ma_prefecture": 3,
+        "ma_province": 4
+      },
+      "type": "json"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "official",
+    "confidence": "high",
+    "id": "CLM-MA-34E6CD1896555239",
+    "lexical_context": null,
+    "notes": "Prefectures and provinces counted separately.",
+    "observed_at": "2015-03-05",
+    "predicate": "second_level_collectivity_count",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": "SRC-MA-DGCT-TERRITORIAL-COUNTS-2026",
+    "second_source_locator": "national 75 prefectures/provinces denominator",
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-DGCT-DECREE-2-15-10",
+    "source_locator": "Decree 2.15.10 region Dakhla-Oued-Eddahab; capital Oued-Ed-Dahab",
+    "status": "verified",
+    "subject_id": "ENT-MA-REGION-DAKHLA-OUED-EDDAHAB",
+    "unit": "collectivity",
+    "valid_from": "2015-03-05",
+    "valid_to": null,
+    "value": {
+      "data": {
+        "ma_prefecture": 0,
+        "ma_province": 2
+      },
+      "type": "json"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "official",
+    "confidence": "high",
+    "id": "CLM-MA-5B9DBD9127665E60",
+    "lexical_context": null,
+    "notes": "Prefectures and provinces counted separately.",
+    "observed_at": "2015-03-05",
+    "predicate": "second_level_collectivity_count",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": "SRC-MA-DGCT-TERRITORIAL-COUNTS-2026",
+    "second_source_locator": "national 75 prefectures/provinces denominator",
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-DGCT-DECREE-2-15-10",
+    "source_locator": "Decree 2.15.10 region Guelmim-Oued-Noun; capital Guelmim",
+    "status": "verified",
+    "subject_id": "ENT-MA-REGION-GUELMIM-OUED-NOUN",
+    "unit": "collectivity",
+    "valid_from": "2015-03-05",
+    "valid_to": null,
+    "value": {
+      "data": {
+        "ma_prefecture": 0,
+        "ma_province": 4
+      },
+      "type": "json"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "official",
+    "confidence": "high",
+    "id": "CLM-MA-6845C5E3A392582C",
+    "lexical_context": null,
+    "notes": "Prefectures and provinces counted separately.",
+    "observed_at": "2015-03-05",
+    "predicate": "second_level_collectivity_count",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": "SRC-MA-DGCT-TERRITORIAL-COUNTS-2026",
+    "second_source_locator": "national 75 prefectures/provinces denominator",
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-DGCT-DECREE-2-15-10",
+    "source_locator": "Decree 2.15.10 region Laâyoune-Sakia-El-Hamra; capital Laâyoune",
+    "status": "verified",
+    "subject_id": "ENT-MA-REGION-LAAYOUNE-SAKIA-EL-HAMRA",
+    "unit": "collectivity",
+    "valid_from": "2015-03-05",
+    "valid_to": null,
+    "value": {
+      "data": {
+        "ma_prefecture": 0,
+        "ma_province": 4
+      },
+      "type": "json"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "official",
+    "confidence": "high",
+    "id": "CLM-MA-68C43738F4005035",
+    "lexical_context": null,
+    "notes": "Prefectures and provinces counted separately.",
+    "observed_at": "2015-03-05",
+    "predicate": "second_level_collectivity_count",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": "SRC-MA-DGCT-TERRITORIAL-COUNTS-2026",
+    "second_source_locator": "national 75 prefectures/provinces denominator",
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-DGCT-DECREE-2-15-10",
+    "source_locator": "Decree 2.15.10 region L’Oriental; capital Oujda-Angad",
+    "status": "verified",
+    "subject_id": "ENT-MA-REGION-L-ORIENTAL",
+    "unit": "collectivity",
+    "valid_from": "2015-03-05",
+    "valid_to": null,
+    "value": {
+      "data": {
+        "ma_prefecture": 1,
+        "ma_province": 7
+      },
+      "type": "json"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "official",
+    "confidence": "high",
+    "id": "CLM-MA-6E1E4B16741F5978",
+    "lexical_context": null,
+    "notes": "Prefectures and provinces counted separately.",
+    "observed_at": "2015-03-05",
+    "predicate": "second_level_collectivity_count",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": "SRC-MA-DGCT-TERRITORIAL-COUNTS-2026",
+    "second_source_locator": "national 75 prefectures/provinces denominator",
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-DGCT-DECREE-2-15-10",
+    "source_locator": "Decree 2.15.10 region Fès-Meknès; capital Fès",
+    "status": "verified",
+    "subject_id": "ENT-MA-REGION-FES-MEKNES",
+    "unit": "collectivity",
+    "valid_from": "2015-03-05",
+    "valid_to": null,
+    "value": {
+      "data": {
+        "ma_prefecture": 2,
+        "ma_province": 7
+      },
+      "type": "json"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "official",
+    "confidence": "high",
+    "id": "CLM-MA-71C39E2CB2D556DE",
+    "lexical_context": null,
+    "notes": "Prefectures and provinces counted separately.",
+    "observed_at": "2015-03-05",
+    "predicate": "second_level_collectivity_count",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": "SRC-MA-DGCT-TERRITORIAL-COUNTS-2026",
+    "second_source_locator": "national 75 prefectures/provinces denominator",
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-DGCT-DECREE-2-15-10",
+    "source_locator": "Decree 2.15.10 region Tanger-Tétouan-Al-Hoceima; capital Tanger-Assilah",
+    "status": "verified",
+    "subject_id": "ENT-MA-REGION-TANGER-TETOUAN-AL-HOCEIMA",
+    "unit": "collectivity",
+    "valid_from": "2015-03-05",
+    "valid_to": null,
+    "value": {
+      "data": {
+        "ma_prefecture": 2,
+        "ma_province": 6
+      },
+      "type": "json"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "official",
+    "confidence": "high",
+    "id": "CLM-MA-723C5CE72B0359B1",
+    "lexical_context": null,
+    "notes": "Prefectures and provinces counted separately.",
+    "observed_at": "2015-03-05",
+    "predicate": "second_level_collectivity_count",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": "SRC-MA-DGCT-TERRITORIAL-COUNTS-2026",
+    "second_source_locator": "national 75 prefectures/provinces denominator",
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-DGCT-DECREE-2-15-10",
+    "source_locator": "Decree 2.15.10 region Marrakech-Safi; capital Marrakech",
+    "status": "verified",
+    "subject_id": "ENT-MA-REGION-MARRAKECH-SAFI",
+    "unit": "collectivity",
+    "valid_from": "2015-03-05",
+    "valid_to": null,
+    "value": {
+      "data": {
+        "ma_prefecture": 1,
+        "ma_province": 7
+      },
+      "type": "json"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "official",
+    "confidence": "high",
+    "id": "CLM-MA-A7658E71AF215A1A",
+    "lexical_context": null,
+    "notes": "Prefectures and provinces counted separately.",
+    "observed_at": "2015-03-05",
+    "predicate": "second_level_collectivity_count",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": "SRC-MA-DGCT-TERRITORIAL-COUNTS-2026",
+    "second_source_locator": "national 75 prefectures/provinces denominator",
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-DGCT-DECREE-2-15-10",
+    "source_locator": "Decree 2.15.10 region Béni-Mellal-Khénifra; capital Béni-Mellal",
+    "status": "verified",
+    "subject_id": "ENT-MA-REGION-BENI-MELLAL-KHENIFRA",
+    "unit": "collectivity",
+    "valid_from": "2015-03-05",
+    "valid_to": null,
+    "value": {
+      "data": {
+        "ma_prefecture": 0,
+        "ma_province": 5
+      },
+      "type": "json"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "official",
+    "confidence": "high",
+    "id": "CLM-MA-B8C9EE242C025B9A",
+    "lexical_context": null,
+    "notes": "Prefectures and provinces counted separately.",
+    "observed_at": "2015-03-05",
+    "predicate": "second_level_collectivity_count",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": "SRC-MA-DGCT-TERRITORIAL-COUNTS-2026",
+    "second_source_locator": "national 75 prefectures/provinces denominator",
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-DGCT-DECREE-2-15-10",
+    "source_locator": "Decree 2.15.10 region Casablanca-Settat; capital Casablanca",
+    "status": "verified",
+    "subject_id": "ENT-MA-REGION-CASABLANCA-SETTAT",
+    "unit": "collectivity",
+    "valid_from": "2015-03-05",
+    "valid_to": null,
+    "value": {
+      "data": {
+        "ma_prefecture": 2,
+        "ma_province": 7
+      },
+      "type": "json"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "official",
+    "confidence": "high",
+    "id": "CLM-MA-C7D1BB04AD505AA6",
+    "lexical_context": null,
+    "notes": "Prefectures and provinces counted separately.",
+    "observed_at": "2015-03-05",
+    "predicate": "second_level_collectivity_count",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": "SRC-MA-DGCT-TERRITORIAL-COUNTS-2026",
+    "second_source_locator": "national 75 prefectures/provinces denominator",
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-DGCT-DECREE-2-15-10",
+    "source_locator": "Decree 2.15.10 region Souss-Massa; capital Agadir-Ida-Ou-Tanane",
+    "status": "verified",
+    "subject_id": "ENT-MA-REGION-SOUSS-MASSA",
+    "unit": "collectivity",
+    "valid_from": "2015-03-05",
+    "valid_to": null,
+    "value": {
+      "data": {
+        "ma_prefecture": 2,
+        "ma_province": 4
+      },
+      "type": "json"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "official",
+    "confidence": "high",
+    "id": "CLM-MA-E9299D9819AA5299",
+    "lexical_context": null,
+    "notes": "Prefectures and provinces counted separately.",
+    "observed_at": "2015-03-05",
+    "predicate": "second_level_collectivity_count",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": "SRC-MA-DGCT-TERRITORIAL-COUNTS-2026",
+    "second_source_locator": "national 75 prefectures/provinces denominator",
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-DGCT-DECREE-2-15-10",
+    "source_locator": "Decree 2.15.10 region Drâa-Tafilalet; capital Errachidia",
+    "status": "verified",
+    "subject_id": "ENT-MA-REGION-DRAA-TAFILALET",
+    "unit": "collectivity",
+    "valid_from": "2015-03-05",
+    "valid_to": null,
+    "value": {
+      "data": {
+        "ma_prefecture": 0,
+        "ma_province": 5
+      },
+      "type": "json"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "official",
+    "confidence": "high",
     "id": "CLM-OM-0A8F1406D594597C",
     "lexical_context": null,
     "notes": "Count of legal child records in reconciled fixture.",

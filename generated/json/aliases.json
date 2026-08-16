@@ -17164,20 +17164,6 @@
     "valid_to": null
   },
   {
-    "entity_id": "ENT-MA-COUNTRY",
-    "id": "ALS-6B5D359EC4DE5444",
-    "kind": "english",
-    "language": "en",
-    "name": "Morocco",
-    "schema_version": "2.0.0",
-    "script": "Latn",
-    "source_id": "SRC-ISO-3166-1-2020",
-    "source_locator": "ISO alpha-2 entry MA",
-    "status": "current",
-    "valid_from": null,
-    "valid_to": null
-  },
-  {
     "entity_id": "ENT-TN-DELEGATION-19EB9068FDEB",
     "id": "ALS-6B6578DFD0B05401",
     "kind": "official_variant",

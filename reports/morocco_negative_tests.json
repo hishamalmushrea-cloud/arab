@@ -1,0 +1,49 @@
+{
+  "country_code": "MA",
+  "detected": 8,
+  "mutations": [
+    {
+      "detected": true,
+      "expected_code": "MA_COUNTS",
+      "mutation": "MA_PREFECTURE_AS_PROVINCE"
+    },
+    {
+      "detected": true,
+      "expected_code": "MA_PARENT_SET",
+      "mutation": "MA_WRONG_REGION"
+    },
+    {
+      "detected": true,
+      "expected_code": "MA_DENOMINATORS",
+      "mutation": "MA_75_TO_83"
+    },
+    {
+      "detected": true,
+      "expected_code": "MA_PREMATURE_COMMUNE",
+      "mutation": "MA_FAKE_COMMUNE"
+    },
+    {
+      "detected": true,
+      "expected_code": "MA_COMMUNE_SCOPE",
+      "mutation": "MA_CLOSE_COMMUNES"
+    },
+    {
+      "detected": true,
+      "expected_code": "MA_COUNTS",
+      "mutation": "MA_DROP_REGION"
+    },
+    {
+      "detected": true,
+      "expected_code": "MA_COUNT_CLAIM",
+      "mutation": "MA_COUNT_TAMPER"
+    },
+    {
+      "detected": true,
+      "expected_code": "MA_PARENT_SET",
+      "mutation": "MA_PARENT_MISSING"
+    }
+  ],
+  "required": 8,
+  "schema_version": "2.0.0",
+  "status": "PASS"
+}

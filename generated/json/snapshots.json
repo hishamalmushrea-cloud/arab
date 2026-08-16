@@ -77,6 +77,17 @@
     "title": "Libya Ministry of Local Government municipality register retrieval"
   },
   {
+    "captured_at": "2026-08-16",
+    "checksum": "sha256:c56e8f3c9d45660ad86d9135f91b98894dcd92fd4a8b50089b3357931d2a07b0",
+    "id": "SNP-MA-PRODUCTION-20260816",
+    "method": "Checksum-bound decree/DGCT reconciliation.",
+    "notes": "1503 communes deferred; arrondissement prefectures excluded.",
+    "schema_version": "2.0.0",
+    "scope": "12 regions, 13 prefectures, 62 provinces",
+    "source_id": "SRC-MA-DGCT-DECREE-2-15-10",
+    "title": "Morocco 2015 territorial hierarchy"
+  },
+  {
     "captured_at": "2026-08-15",
     "checksum": null,
     "id": "SNP-MIGRATION-2026-08-15",

@@ -1,0 +1,117 @@
+{
+  "checks": {
+    "artifact_expansion_lessons": {
+      "detail": "reports/EXPANSION_LESSONS.md exists",
+      "status": "pass"
+    },
+    "artifact_lessons_learned_morocco": {
+      "detail": "reports/LESSONS_LEARNED_MOROCCO.md exists",
+      "status": "pass"
+    },
+    "artifact_morocco_production_closeout": {
+      "detail": "reports/MOROCCO_PRODUCTION_CLOSEOUT.md exists",
+      "status": "pass"
+    },
+    "artifact_next_country_decision": {
+      "detail": "reports/NEXT_COUNTRY_DECISION.md exists",
+      "status": "pass"
+    },
+    "general_validation": {
+      "command": "python3 scripts/validate.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=15830\n[PASS] ids: global_ids=15830, duplicate_ids=0\n[PASS] entity_types: allowed_types=103, active_types=45\n[PASS] sources: atomic_files=114, sources=114, references=18482\n[PASS] parents: administrative_relationships=4856\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3206, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2070, sourced=2070\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=71, coverage_records=71, complete_layers=59\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=11\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=951, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
+    },
+    "generated_freshness": {
+      "command": "python3 scripts/generate.py --check",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "generated output is current (64 files)"
+    },
+    "morocco_clean_worktree": {
+      "detail": "git worktree clean=True",
+      "status": "pass"
+    },
+    "morocco_findings_closed": {
+      "detail": "status=PASS, P0=0, critical P1=0",
+      "status": "pass"
+    },
+    "morocco_import_idempotence": {
+      "detail": "all 10 managed hashes unchanged=True",
+      "status": "pass"
+    },
+    "morocco_import_refresh": {
+      "command": "python3 scripts/import_morocco_production.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "{\"entities\": 87, \"relationships\": 87, \"claims\": 12, \"sources\": 3}"
+    },
+    "morocco_independent_review": {
+      "command": "python3 scripts/review_morocco.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "198"
+    },
+    "morocco_negative_tests": {
+      "command": "python3 scripts/test_morocco_negative.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "[{'mutation': 'MA_PREFECTURE_AS_PROVINCE', 'expected_code': 'MA_COUNTS', 'detected': True}, {'mutation': 'MA_WRONG_REGION', 'expected_code': 'MA_PARENT_SET', 'detected': True}, {'mutation': 'MA_75_TO_83', 'expected_code': 'MA_DENOMINATORS', 'detected': True}, {'mutation': 'MA_FAKE_COMMUNE', 'expected_code': 'MA_PREMATURE_COMMUNE', 'detected': True}, {'mutation': 'MA_CLOSE_COMMUNES', 'expected_code': 'MA_COMMUNE_SCOPE', 'detected': True}, {'mutation': 'MA_DROP_REGION', 'expected_code': 'MA_COUNTS', 'detected': True}, {'mutation': 'MA_COUNT_TAMPER', 'expected_code': 'MA_COUNT_CLAIM', 'detected': True}, {'mutation': 'MA_PARENT_MISSING', 'expected_code': 'MA_PARENT_SET', 'detected': True}]"
+    },
+    "morocco_required_mutations": {
+      "detail": "detected=8/8",
+      "status": "pass"
+    },
+    "morocco_review_idempotence": {
+      "detail": "independent review unchanged=True",
+      "status": "pass"
+    },
+    "morocco_review_sample_idempotence": {
+      "detail": "full-population sample unchanged=True",
+      "status": "pass"
+    },
+    "morocco_review_sample_refresh": {
+      "command": "python3 scripts/build_morocco_review_samples.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "198"
+    },
+    "morocco_review_threshold": {
+      "detail": "full review passed=198/198",
+      "status": "pass"
+    },
+    "morocco_semantic_validation": {
+      "command": "python3 scripts/validate_morocco.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "{'entities': 88, 'relationships': 87, 'claims': 12, 'sources': 3, 'denominators': 4, 'coverage': 4}"
+    },
+    "morocco_source_idempotence": {
+      "detail": "atomic sources=3/3, unchanged=True",
+      "status": "pass"
+    },
+    "morocco_source_refresh": {
+      "command": "python3 scripts/build_morocco_sources.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "{\"entities\": 87, \"relationships\": 87, \"claims\": 12, \"sources\": 3}"
+    },
+    "non_morocco_preservation": {
+      "detail": "canonical non-Morocco SHA-256 unchanged=00f897eb0e291eeedee251727be3bb1b84b6ccacfb18ecd0dd321449980f99d4",
+      "status": "pass"
+    }
+  },
+  "country_code": "MA",
+  "errors": [],
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-16",
+  "status": "pass"
+}

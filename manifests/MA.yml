@@ -1,7 +1,8 @@
 {
   "caveats": [
-    "تعارض مقامات الجماعات في المصادر الثانوية يمنع أي ادعاء اكتمال قبل سجل رسمي مؤرخ.",
-    "Local coverage remains incomplete; file or directory existence is not a denominator."
+    "Prefectures, provinces, and prefectures of arrondissements are distinct.",
+    "1503 communes deferred until second-level acceptance.",
+    "No broad culture/dialect denominator asserted."
   ],
   "country": {
     "entity_id": "ENT-MA-COUNTRY",
@@ -9,7 +10,10 @@
     "name_ar": "المغرب"
   },
   "coverage_record_ids": [
-    "COV-MA-COUNTRY-SCOPE"
+    "COV-MA-COUNTRY-SCOPE",
+    "COV-MA-REGIONS",
+    "COV-MA-PREFECTURES",
+    "COV-MA-PROVINCES"
   ],
   "hierarchy": [
     {
@@ -36,13 +40,27 @@
       "allowed_parent_types": [
         "country"
       ],
+      "authority_name": "DGCT",
       "caveat": "تعارض مقامات الجماعات في المصادر الثانوية يمنع أي ادعاء اكتمال قبل سجل رسمي مؤرخ.",
+      "coverage_record_id": "COV-MA-REGIONS",
+      "denominator": 12,
+      "denominator_id": "DEN-MA-REGIONS",
       "entity_type": "ma_region",
       "level": 1,
+      "license": "Official Morocco public material; factual extraction with attribution; reuse terms not stated",
       "local_names": [
         "جهة"
       ],
-      "source_ids": [],
+      "notes": "Legal 2015 scope.",
+      "scope_status": "closed",
+      "snapshot_date": "2015-03-05",
+      "source_ids": [
+        "SRC-MA-DGCT-DECREE-2-15-10",
+        "SRC-MA-DGCT-TERRITORIAL-COUNTS-2026"
+      ],
+      "special_cases": [
+        "Arrondissement prefectures excluded from 75."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
@@ -55,19 +73,33 @@
         "transitional",
         "uncertain"
       ],
-      "verification_status": "pending"
+      "verification_status": "verified"
     },
     {
       "allowed_parent_types": [
         "ma_region"
       ],
+      "authority_name": "DGCT",
       "caveat": "تعارض مقامات الجماعات في المصادر الثانوية يمنع أي ادعاء اكتمال قبل سجل رسمي مؤرخ.",
+      "coverage_record_id": "COV-MA-PREFECTURES",
+      "denominator": 13,
+      "denominator_id": "DEN-MA-PREFECTURES",
       "entity_type": "ma_prefecture",
       "level": 2,
+      "license": "Official Morocco public material; factual extraction with attribution; reuse terms not stated",
       "local_names": [
         "عمالة"
       ],
-      "source_ids": [],
+      "notes": "Legal 2015 scope.",
+      "scope_status": "closed",
+      "snapshot_date": "2015-03-05",
+      "source_ids": [
+        "SRC-MA-DGCT-DECREE-2-15-10",
+        "SRC-MA-DGCT-TERRITORIAL-COUNTS-2026"
+      ],
+      "special_cases": [
+        "Arrondissement prefectures excluded from 75."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
@@ -80,19 +112,33 @@
         "transitional",
         "uncertain"
       ],
-      "verification_status": "pending"
+      "verification_status": "verified"
     },
     {
       "allowed_parent_types": [
         "ma_region"
       ],
+      "authority_name": "DGCT",
       "caveat": "تعارض مقامات الجماعات في المصادر الثانوية يمنع أي ادعاء اكتمال قبل سجل رسمي مؤرخ.",
+      "coverage_record_id": "COV-MA-PROVINCES",
+      "denominator": 62,
+      "denominator_id": "DEN-MA-PROVINCES",
       "entity_type": "ma_province",
       "level": 3,
+      "license": "Official Morocco public material; factual extraction with attribution; reuse terms not stated",
       "local_names": [
         "إقليم"
       ],
-      "source_ids": [],
+      "notes": "Legal 2015 scope.",
+      "scope_status": "closed",
+      "snapshot_date": "2015-03-05",
+      "source_ids": [
+        "SRC-MA-DGCT-DECREE-2-15-10",
+        "SRC-MA-DGCT-TERRITORIAL-COUNTS-2026"
+      ],
+      "special_cases": [
+        "Arrondissement prefectures excluded from 75."
+      ],
       "temporal_statuses": [
         "current",
         "historical",
@@ -105,20 +151,29 @@
         "transitional",
         "uncertain"
       ],
-      "verification_status": "pending"
+      "verification_status": "verified"
     },
     {
       "allowed_parent_types": [
         "ma_prefecture",
         "ma_province"
       ],
+      "authority_name": "DGCT",
       "caveat": "تعارض مقامات الجماعات في المصادر الثانوية يمنع أي ادعاء اكتمال قبل سجل رسمي مؤرخ.",
+      "coverage_record_id": null,
+      "denominator": 1503,
+      "denominator_id": null,
       "entity_type": "ma_commune",
       "level": 4,
+      "license": null,
       "local_names": [
         "جماعة"
       ],
+      "notes": "Known count; record-level import deferred.",
+      "scope_status": "open",
+      "snapshot_date": null,
       "source_ids": [],
+      "special_cases": [],
       "temporal_statuses": [
         "current",
         "historical",
@@ -134,18 +189,90 @@
       "verification_status": "pending"
     }
   ],
-  "next_action": "Register an atomic official hierarchy source and dated denominators before migrating local legacy rows.",
+  "next_action": "Maintain 12/13/62 hierarchy; begin communes only with RGPH/DGCT atomic register.",
   "official_authority": {
-    "missing_reason": "Authority name is recorded, but no atomic official hierarchy source has yet passed source metadata and snapshot review.",
-    "name": "وزارة الداخلية / المندوبية السامية للتخطيط",
-    "source_ids": [],
-    "verification_status": "pending"
+    "missing_reason": null,
+    "name": "Direction Générale des Collectivités Territoriales",
+    "source_ids": [
+      "SRC-MA-DGCT-DECREE-2-15-10",
+      "SRC-MA-DGCT-TERRITORIAL-COUNTS-2026",
+      "SRC-MA-HCP-RGPH-2024"
+    ],
+    "verification_status": "verified"
   },
+  "pilot_layers": [
+    {
+      "authority_name": "DGCT",
+      "coverage_record_id": "COV-MA-REGIONS",
+      "denominator": 12,
+      "denominator_id": "DEN-MA-REGIONS",
+      "entity_types": [
+        "ma_region"
+      ],
+      "layer": "ma_region",
+      "license": "Official Morocco public material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "collectivité"
+      ],
+      "notes": "Legal hierarchy.",
+      "scope_status": "closed",
+      "snapshot_date": "2015-03-05",
+      "source_ids": [
+        "SRC-MA-DGCT-DECREE-2-15-10",
+        "SRC-MA-DGCT-TERRITORIAL-COUNTS-2026"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "DGCT",
+      "coverage_record_id": "COV-MA-PREFECTURES",
+      "denominator": 13,
+      "denominator_id": "DEN-MA-PREFECTURES",
+      "entity_types": [
+        "ma_prefecture"
+      ],
+      "layer": "ma_prefecture",
+      "license": "Official Morocco public material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "collectivité"
+      ],
+      "notes": "Legal hierarchy.",
+      "scope_status": "closed",
+      "snapshot_date": "2015-03-05",
+      "source_ids": [
+        "SRC-MA-DGCT-DECREE-2-15-10",
+        "SRC-MA-DGCT-TERRITORIAL-COUNTS-2026"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "DGCT",
+      "coverage_record_id": "COV-MA-PROVINCES",
+      "denominator": 62,
+      "denominator_id": "DEN-MA-PROVINCES",
+      "entity_types": [
+        "ma_province"
+      ],
+      "layer": "ma_province",
+      "license": "Official Morocco public material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "collectivité"
+      ],
+      "notes": "Legal hierarchy.",
+      "scope_status": "closed",
+      "snapshot_date": "2015-03-05",
+      "source_ids": [
+        "SRC-MA-DGCT-DECREE-2-15-10",
+        "SRC-MA-DGCT-TERRITORIAL-COUNTS-2026"
+      ],
+      "special_cases": []
+    }
+  ],
   "schema_version": "2.0.0",
   "snapshot": {
-    "as_of": "2026-08-15",
-    "snapshot_id": "SNP-MIGRATION-2026-08-15",
-    "status": "baseline"
+    "as_of": "2026-08-16",
+    "snapshot_id": "SNP-MA-PRODUCTION-20260816",
+    "status": "verified"
   },
-  "status": "baseline_only"
+  "status": "pilot_migrated"
 }

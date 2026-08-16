@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:1c8b1d5b96f248860f5e644197f09f387555564dc559e35f368d984f6794fd03",
+  "country_codes": [
+    "MA"
+  ],
+  "id": "SRC-MA-HCP-RGPH-2024",
+  "language": "fr",
+  "license": "Official Morocco public material; factual extraction with attribution; reuse terms not stated",
+  "locator": "legal population by region, province/prefecture and commune",
+  "notes": "Census scope cross-check; population values deferred from this hierarchy cycle. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "Haut-Commissariat au Plan",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-16",
+  "schema_version": "2.0.0",
+  "source_type": "census",
+  "title": "RGPH 2024 population légale by territorial unit",
+  "url": "https://www.hcp.ma/downloads/RGPH-2024_t22752.html"
+}

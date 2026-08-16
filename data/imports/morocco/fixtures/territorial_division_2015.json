@@ -1,0 +1,491 @@
+{
+  "country_code": "MA",
+  "decree": "2.15.10",
+  "denominators": {
+    "communes_deferred": 1503,
+    "prefectures": 13,
+    "provinces": 62,
+    "regions": 12
+  },
+  "effective_date": "2015-03-05",
+  "regions": [
+    {
+      "capital_fr": "Oujda-Angad",
+      "children": [
+        {
+          "entity_type": "ma_prefecture",
+          "name_fr": "Oujda-Angad",
+          "token": "OUJDA-ANGAD"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Nador",
+          "token": "NADOR"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Driouch",
+          "token": "DRIOUCH"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Jerada",
+          "token": "JERADA"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Berkane",
+          "token": "BERKANE"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Taourirt",
+          "token": "TAOURIRT"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Guercif",
+          "token": "GUERCIF"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Figuig",
+          "token": "FIGUIG"
+        }
+      ],
+      "code": "01",
+      "name_fr": "L’Oriental",
+      "token": "L-ORIENTAL"
+    },
+    {
+      "capital_fr": "Marrakech",
+      "children": [
+        {
+          "entity_type": "ma_prefecture",
+          "name_fr": "Marrakech",
+          "token": "MARRAKECH"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Chichaoua",
+          "token": "CHICHAOUA"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Al-Haouz",
+          "token": "AL-HAOUZ"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Kelâa-des-Sraghna",
+          "token": "KELAA-DES-SRAGHNA"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Essaouira",
+          "token": "ESSAOUIRA"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Rehamna",
+          "token": "REHAMNA"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Safi",
+          "token": "SAFI"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Youssoufia",
+          "token": "YOUSSOUFIA"
+        }
+      ],
+      "code": "02",
+      "name_fr": "Marrakech-Safi",
+      "token": "MARRAKECH-SAFI"
+    },
+    {
+      "capital_fr": "Errachidia",
+      "children": [
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Errachidia",
+          "token": "ERRACHIDIA"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Ouarzazate",
+          "token": "OUARZAZATE"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Midelt",
+          "token": "MIDELT"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Tinghir",
+          "token": "TINGHIR"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Zagora",
+          "token": "ZAGORA"
+        }
+      ],
+      "code": "03",
+      "name_fr": "Drâa-Tafilalet",
+      "token": "DRAA-TAFILALET"
+    },
+    {
+      "capital_fr": "Fès",
+      "children": [
+        {
+          "entity_type": "ma_prefecture",
+          "name_fr": "Fès",
+          "token": "FES"
+        },
+        {
+          "entity_type": "ma_prefecture",
+          "name_fr": "Meknès",
+          "token": "MEKNES"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "El-Hajeb",
+          "token": "EL-HAJEB"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Ifrane",
+          "token": "IFRANE"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Moulay-Yacoub",
+          "token": "MOULAY-YACOUB"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Sefrou",
+          "token": "SEFROU"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Boulemane",
+          "token": "BOULEMANE"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Taounate",
+          "token": "TAOUNATE"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Taza",
+          "token": "TAZA"
+        }
+      ],
+      "code": "04",
+      "name_fr": "Fès-Meknès",
+      "token": "FES-MEKNES"
+    },
+    {
+      "capital_fr": "Guelmim",
+      "children": [
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Guelmim",
+          "token": "GUELMIM"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Assa-Zag",
+          "token": "ASSA-ZAG"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Tan-Tan",
+          "token": "TAN-TAN"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Sidi-Ifni",
+          "token": "SIDI-IFNI"
+        }
+      ],
+      "code": "05",
+      "name_fr": "Guelmim-Oued-Noun",
+      "token": "GUELMIM-OUED-NOUN"
+    },
+    {
+      "capital_fr": "Tanger-Assilah",
+      "children": [
+        {
+          "entity_type": "ma_prefecture",
+          "name_fr": "Tanger-Assilah",
+          "token": "TANGER-ASSILAH"
+        },
+        {
+          "entity_type": "ma_prefecture",
+          "name_fr": "M’diq-Fnideq",
+          "token": "M-DIQ-FNIDEQ"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Tétouan",
+          "token": "TETOUAN"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Fahs-Anjra",
+          "token": "FAHS-ANJRA"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Larache",
+          "token": "LARACHE"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Al-Hoceima",
+          "token": "AL-HOCEIMA"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Chefchaouen",
+          "token": "CHEFCHAOUEN"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Ouezzane",
+          "token": "OUEZZANE"
+        }
+      ],
+      "code": "06",
+      "name_fr": "Tanger-Tétouan-Al-Hoceima",
+      "token": "TANGER-TETOUAN-AL-HOCEIMA"
+    },
+    {
+      "capital_fr": "Agadir-Ida-Ou-Tanane",
+      "children": [
+        {
+          "entity_type": "ma_prefecture",
+          "name_fr": "Agadir-Ida-Ou-Tanane",
+          "token": "AGADIR-IDA-OU-TANANE"
+        },
+        {
+          "entity_type": "ma_prefecture",
+          "name_fr": "Inezgane-Aït-Melloul",
+          "token": "INEZGANE-AIT-MELLOUL"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Chtouka-Aït-Baha",
+          "token": "CHTOUKA-AIT-BAHA"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Taroudannt",
+          "token": "TAROUDANNT"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Tiznit",
+          "token": "TIZNIT"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Tata",
+          "token": "TATA"
+        }
+      ],
+      "code": "07",
+      "name_fr": "Souss-Massa",
+      "token": "SOUSS-MASSA"
+    },
+    {
+      "capital_fr": "Casablanca",
+      "children": [
+        {
+          "entity_type": "ma_prefecture",
+          "name_fr": "Casablanca",
+          "token": "CASABLANCA"
+        },
+        {
+          "entity_type": "ma_prefecture",
+          "name_fr": "Mohammedia",
+          "token": "MOHAMMEDIA"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "El-Jadida",
+          "token": "EL-JADIDA"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Nouaceur",
+          "token": "NOUACEUR"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Médiouna",
+          "token": "MEDIOUNA"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Benslimane",
+          "token": "BENSLIMANE"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Berrechid",
+          "token": "BERRECHID"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Settat",
+          "token": "SETTAT"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Sidi-Bennour",
+          "token": "SIDI-BENNOUR"
+        }
+      ],
+      "code": "08",
+      "name_fr": "Casablanca-Settat",
+      "token": "CASABLANCA-SETTAT"
+    },
+    {
+      "capital_fr": "Oued-Ed-Dahab",
+      "children": [
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Oued-Ed-Dahab",
+          "token": "OUED-ED-DAHAB"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Aousserd",
+          "token": "AOUSSERD"
+        }
+      ],
+      "code": "09",
+      "name_fr": "Dakhla-Oued-Eddahab",
+      "token": "DAKHLA-OUED-EDDAHAB"
+    },
+    {
+      "capital_fr": "Béni-Mellal",
+      "children": [
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Béni-Mellal",
+          "token": "BENI-MELLAL"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Azilal",
+          "token": "AZILAL"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Fquih-Ben-Salah",
+          "token": "FQUIH-BEN-SALAH"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Khénifra",
+          "token": "KHENIFRA"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Khouribga",
+          "token": "KHOURIBGA"
+        }
+      ],
+      "code": "10",
+      "name_fr": "Béni-Mellal-Khénifra",
+      "token": "BENI-MELLAL-KHENIFRA"
+    },
+    {
+      "capital_fr": "Rabat",
+      "children": [
+        {
+          "entity_type": "ma_prefecture",
+          "name_fr": "Rabat",
+          "token": "RABAT"
+        },
+        {
+          "entity_type": "ma_prefecture",
+          "name_fr": "Salé",
+          "token": "SALE"
+        },
+        {
+          "entity_type": "ma_prefecture",
+          "name_fr": "Skhirate-Témara",
+          "token": "SKHIRATE-TEMARA"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Kénitra",
+          "token": "KENITRA"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Khémisset",
+          "token": "KHEMISSET"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Sidi-Kacem",
+          "token": "SIDI-KACEM"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Sidi-Slimane",
+          "token": "SIDI-SLIMANE"
+        }
+      ],
+      "code": "11",
+      "name_fr": "Rabat-Salé-Kénitra",
+      "token": "RABAT-SALE-KENITRA"
+    },
+    {
+      "capital_fr": "Laâyoune",
+      "children": [
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Laâyoune",
+          "token": "LAAYOUNE"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Boujdour",
+          "token": "BOUJDOUR"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Tarfaya",
+          "token": "TARFAYA"
+        },
+        {
+          "entity_type": "ma_province",
+          "name_fr": "Es-Semara",
+          "token": "ES-SEMARA"
+        }
+      ],
+      "code": "12",
+      "name_fr": "Laâyoune-Sakia-El-Hamra",
+      "token": "LAAYOUNE-SAKIA-EL-HAMRA"
+    }
+  ],
+  "retrieved_at": "2026-08-16",
+  "schema_version": "2.0.0",
+  "sources": {
+    "census": "https://www.hcp.ma/downloads/RGPH-2024_t22752.html",
+    "decree": "https://collectivites-territoriales.gov.ma/fr/actualites/nouveau-decoupage-territorial-du-royaume",
+    "presentation": "https://collectivites-territoriales.gov.ma/fr/presentation"
+  }
+}

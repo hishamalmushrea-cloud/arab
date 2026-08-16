@@ -13,7 +13,7 @@
 | SO | الصومال | 1 | 0 | [SO](countries/SO.md) |
 | IQ | العراق | 1 | 0 | [IQ](countries/IQ.md) |
 | KW | الكويت | 7 | 6 | [KW](countries/KW.md) |
-| MA | المغرب | 1 | 0 | [MA](countries/MA.md) |
+| MA | المغرب | 88 | 12 | [MA](countries/MA.md) |
 | YE | اليمن | 1 | 0 | [YE](countries/YE.md) |
 | TN | تونس | 2743 | 69 | [TN](countries/TN.md) |
 | KM | جزر القمر | 1 | 0 | [KM](countries/KM.md) |
