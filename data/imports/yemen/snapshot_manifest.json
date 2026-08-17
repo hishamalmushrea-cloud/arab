@@ -4,10 +4,16 @@
   "reconciliation": {
     "added_by_law_31_2013": 1,
     "current_scope": 22,
+    "district_frame": "333 districts attested across 22 first-level units; identities reconciled from the NIC catalogue mirror and the 2004 census frame; individual identities carry probable status pending an atomic official coded register.",
     "legacy_scope": 21,
     "socotra_effective_date_basis": "Law reported issued 2013-12-18; Yemen laws ordinarily state operation from issuance, but the complete official text locator remains a documented source-access limitation."
   },
   "records": [
+    {
+      "path": "fixtures/districts_2026.json",
+      "record_count": 333,
+      "sha256": "cc42cb274e9536d25c2d20d3424f1127d5cfbeb5c09e3ea46e65b0a00477d697"
+    },
     {
       "path": "fixtures/first_level_2026.json",
       "record_count": 22,

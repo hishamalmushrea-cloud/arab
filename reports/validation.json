@@ -19,9 +19,9 @@
       "status": "pass"
     },
     "coverage": {
-      "complete_layers": 95,
-      "coverage_records": 112,
-      "denominators": 112,
+      "complete_layers": 96,
+      "coverage_records": 113,
+      "denominators": 113,
       "status": "pass"
     },
     "csv": {
@@ -41,7 +41,7 @@
       "status": "pass"
     },
     "entity_types": {
-      "active_types": 61,
+      "active_types": 62,
       "allowed_types": 103,
       "status": "pass"
     },
@@ -51,7 +51,7 @@
     },
     "ids": {
       "duplicate_ids": 0,
-      "global_ids": 16932,
+      "global_ids": 17602,
       "status": "pass"
     },
     "independent_review": {
@@ -83,7 +83,7 @@
       "status": "pass"
     },
     "parents": {
-      "administrative_relationships": 5220,
+      "administrative_relationships": 5553,
       "status": "pass"
     },
     "phase2_tunisia": {
@@ -108,14 +108,14 @@
       "tunisia_published_claims": 69
     },
     "sources": {
-      "atomic_files": 151,
-      "references": 19644,
-      "sources": 151,
+      "atomic_files": 153,
+      "references": 20312,
+      "sources": 153,
       "status": "pass"
     },
     "structured_data": {
       "record_families": 8,
-      "records": 16932,
+      "records": 17602,
       "status": "pass"
     },
     "unicode": {
@@ -126,13 +126,13 @@
   "counts": {
     "aliases": 3261,
     "claims": 2245,
-    "coverage": 112,
-    "denominators": 112,
-    "entities": 5317,
+    "coverage": 113,
+    "denominators": 113,
+    "entities": 5650,
     "manifests": 22,
-    "relationships": 5706,
+    "relationships": 6039,
     "snapshots": 28,
-    "sources": 151
+    "sources": 153
   },
   "errors": [],
   "status": "pass"

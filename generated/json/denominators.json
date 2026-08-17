@@ -1855,6 +1855,23 @@
   {
     "as_of": "2026-08-17",
     "country_code": "YE",
+    "definition": "National 333-district frame from the archived official CSO administrative-definitions page; identities attested via the NIC catalogue mirror and carry probable status pending an atomic official coded register.",
+    "denominator": 333,
+    "id": "DEN-YE-DISTRICTS",
+    "layer": "ye_district_current",
+    "license": "Factual extraction with attribution; publisher reuse terms not stated",
+    "missing_reason": null,
+    "notes": "National 333-district frame from the archived official CSO administrative-definitions page; identities attested via the NIC catalogue mirror and carry probable status pending an atomic official coded register.",
+    "schema_version": "2.0.0",
+    "snapshot_date": "2026-08-17",
+    "source_id": "SRC-YE-CENSUS-2004-LEGACY-FRAME",
+    "source_locator": "National 333-district frame from the archived official CSO administrative-definitions page; identities attested via the NIC catalogue mirror and carry probable status pending an atomic official coded register.",
+    "status": "official",
+    "value": 333
+  },
+  {
+    "as_of": "2026-08-17",
+    "country_code": "YE",
     "definition": "Reconciled legal universe: legacy 21 plus Socotra under Law 31/2013.",
     "denominator": 22,
     "id": "DEN-YE-FIRST-LEVEL",

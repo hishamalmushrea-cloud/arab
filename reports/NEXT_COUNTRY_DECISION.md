@@ -17,10 +17,11 @@ As of 2026-08-17 the project operates under **Maximum Arabic Knowledge Coverage*
 
 ## Scope of the Yemen depth cycle
 
-1. District (مديرية) layer: enter attested districts with dated legal/statistical sources; record denominator per governorate; `denominator_unavailable` never halts entity collection.
+1. ✅ **District (مديرية) layer — DONE (2026-08-17):** 333/333 attested district identities entered across all 22 first-level units at `probable` status, anchored to the archived official CSO 333-district frame; `DEN-YE-DISTRICTS`/`COV-YE-DISTRICTS` closed at the frame; gate mutations forbid unattested additions and premature promotion to verified.
 2. صنعاء lanes: continue from the documented 104; new lanes enter at `local_reported`/`unverified` when only weak sources attest them — never invented.
 3. Local knowledge claims per place: naming origin (folk narratives as ⚪ `folk_narrative`), dialect words, food, dress, crafts, markets — classified national/regional/local/shared.
 4. Previously dropped unverified Yemen material is staged in `data/backlog/unverified_content/` and re-evaluated in this cycle.
+5. Upgrade path: reconcile an atomic official coded district register to promote identities from `probable` to `verified`.
 
 ## Queue after Yemen
 

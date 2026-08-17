@@ -5,11 +5,11 @@
   "metrics": {
     "aliases": 1,
     "claims": 23,
-    "coverage": 5,
-    "denominators": 5,
-    "entities": 23,
-    "relationships": 22,
-    "sources": 3
+    "coverage": 6,
+    "denominators": 6,
+    "entities": 356,
+    "relationships": 355,
+    "sources": 5
   },
   "p0": 0,
   "schema_version": "2.0.0",

@@ -16,40 +16,40 @@
     },
     "coverage": {
       "failed": 0,
-      "passed": 5,
-      "sampled": 5,
+      "passed": 6,
+      "sampled": 6,
       "status": "PASS"
     },
     "denominators": {
       "failed": 0,
-      "passed": 5,
-      "sampled": 5,
+      "passed": 6,
+      "sampled": 6,
       "status": "PASS"
     },
     "entities": {
       "failed": 0,
-      "passed": 23,
-      "sampled": 23,
+      "passed": 356,
+      "sampled": 356,
       "status": "PASS"
     },
     "relationships": {
       "failed": 0,
-      "passed": 22,
-      "sampled": 22,
+      "passed": 355,
+      "sampled": 355,
       "status": "PASS"
     },
     "sources": {
       "failed": 0,
-      "passed": 3,
-      "sampled": 3,
+      "passed": 5,
+      "sampled": 5,
       "status": "PASS"
     }
   },
   "findings": [],
-  "method": "Independent full-population comparison against checksum-bound 22-unit legal/statistical fixture, including Amanat type and Socotra law-date boundary.",
+  "method": "Independent full-population comparison against the checksum-bound 22-unit legal/statistical fixture and the 333-district attested inventory, including Amanat type, Socotra law-date boundary, district parentage, and probable-status enforcement.",
   "p0": 0,
   "schema_version": "2.0.0",
   "status": "PASS",
-  "total_passed": 82,
-  "total_sampled": 82
+  "total_passed": 752,
+  "total_sampled": 752
 }

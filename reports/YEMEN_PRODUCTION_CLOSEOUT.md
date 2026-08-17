@@ -40,3 +40,14 @@ No current district/uzla coded register accepted; no effective-control, disputed
 Schema 2.0.0 transfers without change. Parallel first-level types and legal/de-facto separation are preserved.
 ## Recommended next country
 Syria — Full Pilot, beginning with the 14 legal governorates and separately dated status overlays.
+
+## Depth-expansion cycle 1 — district layer (2026-08-17)
+
+First cycle executed under the **Maximum Arabic Knowledge Coverage** policy (`00_فلسفة_الموسوعة.md`).
+
+- **333/333 district identities** entered across all 22 first-level units, matching the archived official CSO 333-district national frame.
+- Identities are attested from the NIC district-catalogue encyclopedic mirror (tier C) anchored to the archived CSO administrative-definitions page (tier B, Internet Archive capture 2018-09-30).
+- Every district carries `verification_status: probable` — **not** verified — pending reconciliation with an atomic official coded register; the semantic gate rejects promotion to verified (`YE_DISTRICT_STATUS`) and any unattested addition (`YE_COUNTS`).
+- `DEN-YE-DISTRICTS` = 333 (official frame); `COV-YE-DISTRICTS` = 333 matched. Uzlas remain denominator-unavailable with zero fabricated records.
+- 12/12 negative mutations detected, including new district-frame mutations; independent review covers the full 752-record population.
+- No conflict, control, damage, or displacement inference; the legal/statistical frame stays separate from war overlays.

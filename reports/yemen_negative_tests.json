@@ -1,6 +1,6 @@
 {
   "country_code": "YE",
-  "detected": 9,
+  "detected": 12,
   "mutations": [
     {
       "detected": true,
@@ -29,8 +29,23 @@
     },
     {
       "detected": true,
+      "expected_code": "YE_COUNTS",
+      "mutation": "YE_UNATTESTED_DISTRICT_ADDED"
+    },
+    {
+      "detected": true,
       "expected_code": "YE_PREMATURE_LOWER",
-      "mutation": "YE_PREMATURE_DISTRICT"
+      "mutation": "YE_PREMATURE_UZLA"
+    },
+    {
+      "detected": true,
+      "expected_code": "YE_DISTRICT_STATUS",
+      "mutation": "YE_DISTRICT_PROMOTED_TO_VERIFIED"
+    },
+    {
+      "detected": true,
+      "expected_code": "YE_DENOMINATORS",
+      "mutation": "YE_DISTRICT_FRAME_SHRUNK"
     },
     {
       "detected": true,
@@ -48,7 +63,7 @@
       "mutation": "YE_EFFECTIVE_CLAUSE_FABRICATED"
     }
   ],
-  "required": 9,
+  "required": 12,
   "schema_version": "2.0.0",
   "status": "PASS"
 }
