@@ -1,0 +1,126 @@
+{
+  "snapshot_date": "2026-08-15",
+  "retrieval_environment": "GitHub Actions ubuntu-24.04 via curl --compressed --location",
+  "records": [
+    {
+      "source_id": "gastat-health-determinants-methodology",
+      "url": "https://www.stats.gov.sa/ar/w/methodology-and-quality-report-of-health-determinants-statistics-publication",
+      "retrieved_at": "2026-08-15",
+      "bytes": 229619,
+      "sha256": "62c2888f2f330a823fcd62b36ad0354ab29d1e3d6703c971f1398789a000388a",
+      "path": "raw/2026-08-15/gastat-health-determinants-methodology.html"
+    },
+    {
+      "source_id": "saudipedia-centers-al-baha",
+      "url": "https://saudipedia.com/قائمة-المراكز-الإدارية-في-منطقة-الباحة",
+      "retrieved_at": "2026-08-15",
+      "bytes": 84852,
+      "sha256": "b4c3a93c836d5df424fd827722eaf99bc4f81cc7824d823e865a4391172cf5c8",
+      "path": "raw/2026-08-15/saudipedia-centers-al-baha.html"
+    },
+    {
+      "source_id": "saudipedia-centers-al-jawf",
+      "url": "https://saudipedia.com/قائمة-المراكز-الإدارية-في-منطقة-الجوف",
+      "retrieved_at": "2026-08-15",
+      "bytes": 86259,
+      "sha256": "7c898861e717d38ea6c8346b8d2cb1234a5b380abf0794b801078ae9e1657ebd",
+      "path": "raw/2026-08-15/saudipedia-centers-al-jawf.html"
+    },
+    {
+      "source_id": "saudipedia-centers-asir",
+      "url": "https://saudipedia.com/قائمة-المراكز-الإدارية-في-منطقة-عسير",
+      "retrieved_at": "2026-08-15",
+      "bytes": 92152,
+      "sha256": "02ab79db6a8165827ba66a541eeb4ea6d4f94f34aed514d7f23f0f8b792bc80d",
+      "path": "raw/2026-08-15/saudipedia-centers-asir.html"
+    },
+    {
+      "source_id": "saudipedia-centers-eastern",
+      "url": "https://saudipedia.com/قائمة-المراكز-الإدارية-في-المنطقة-الشرقية",
+      "retrieved_at": "2026-08-15",
+      "bytes": 90084,
+      "sha256": "117bbb2a89a54a288ea1c1a3003035105cf94dc07ca4e76b229af1908999b2f6",
+      "path": "raw/2026-08-15/saudipedia-centers-eastern.html"
+    },
+    {
+      "source_id": "saudipedia-centers-hail",
+      "url": "https://saudipedia.com/قائمة-المراكز-الإدارية-في-منطقة-حائل",
+      "retrieved_at": "2026-08-15",
+      "bytes": 89257,
+      "sha256": "43689e770cbd71f2fd10d644b9f5ad03dd2806a90ceb0b38bdd3cb92081edd61",
+      "path": "raw/2026-08-15/saudipedia-centers-hail.html"
+    },
+    {
+      "source_id": "saudipedia-centers-jazan",
+      "url": "https://saudipedia.com/قائمة-المراكز-الإدارية-في-منطقة-جازان",
+      "retrieved_at": "2026-08-15",
+      "bytes": 86776,
+      "sha256": "c04a568723e1986a00d8e70180e718546e7afba9507f558e4a4c9941ce64b51d",
+      "path": "raw/2026-08-15/saudipedia-centers-jazan.html"
+    },
+    {
+      "source_id": "saudipedia-centers-madinah",
+      "url": "https://saudipedia.com/قائمة-المراكز-الإدارية-في-منطقة-المدينة-المنورة",
+      "retrieved_at": "2026-08-15",
+      "bytes": 87775,
+      "sha256": "63ad5f501cf7307e0c04844535e331ee45ee79cb734bedf82489bccc55bf7faa",
+      "path": "raw/2026-08-15/saudipedia-centers-madinah.html"
+    },
+    {
+      "source_id": "saudipedia-centers-makkah",
+      "url": "https://saudipedia.com/قائمة-المراكز-الإدارية-في-منطقة-مكة-المكرمة",
+      "retrieved_at": "2026-08-15",
+      "bytes": 88968,
+      "sha256": "4e9d69603b957c89f90e217b1cc353fc1e59bf9952f84e2881979ebbc878395d",
+      "path": "raw/2026-08-15/saudipedia-centers-makkah.html"
+    },
+    {
+      "source_id": "saudipedia-centers-najran",
+      "url": "https://saudipedia.com/قائمة-المراكز-الإدارية-في-منطقة-نجران",
+      "retrieved_at": "2026-08-15",
+      "bytes": 85917,
+      "sha256": "8036be2cf92efcbc96c1ee48e3ca83a7f6c7235861ed474b5ad113bc19291526",
+      "path": "raw/2026-08-15/saudipedia-centers-najran.html"
+    },
+    {
+      "source_id": "saudipedia-centers-northern-borders",
+      "url": "https://saudipedia.com/قائمة-المراكز-الإدارية-في-منطقة-الحدود-الشمالية",
+      "retrieved_at": "2026-08-15",
+      "bytes": 85823,
+      "sha256": "bea5f27dd3f3a5659eb478d5e86c718915370aac49c8611cd3eb52dd6149f074",
+      "path": "raw/2026-08-15/saudipedia-centers-northern-borders.html"
+    },
+    {
+      "source_id": "saudipedia-centers-qassim",
+      "url": "https://saudipedia.com/قائمة-المراكز-الإدارية-في-منطقة-القصيم",
+      "retrieved_at": "2026-08-15",
+      "bytes": 90611,
+      "sha256": "b1550938aac8de17584fff8916aba85584ad031218f49d7e94b4e8d9a10ebd01",
+      "path": "raw/2026-08-15/saudipedia-centers-qassim.html"
+    },
+    {
+      "source_id": "saudipedia-centers-riyadh",
+      "url": "https://saudipedia.com/قائمة-المراكز-الإدارية-في-منطقة-الرياض",
+      "retrieved_at": "2026-08-15",
+      "bytes": 112985,
+      "sha256": "d7b39397b408c952c706b7bf95bd0d3df61f33faf34ddc20a3b8d00b166721cf",
+      "path": "raw/2026-08-15/saudipedia-centers-riyadh.html"
+    },
+    {
+      "source_id": "saudipedia-centers-tabuk",
+      "url": "https://saudipedia.com/قائمة-المراكز-الإدارية-في-منطقة-تبوك",
+      "retrieved_at": "2026-08-15",
+      "bytes": 84258,
+      "sha256": "1ab548c70151504732fe94780e1cae0ebc849a76f922be9dd527adad9800ca57",
+      "path": "raw/2026-08-15/saudipedia-centers-tabuk.html"
+    },
+    {
+      "source_id": "saudipedia-national-administrative-divisions",
+      "url": "https://saudipedia.com/التقسيم-الإداري-للسعودية",
+      "retrieved_at": "2026-08-15",
+      "bytes": 113213,
+      "sha256": "25269cfbe668a8f8055a47ebdd0f5e0f823f3f8525de9bf2c3a7287e4352dd0d",
+      "path": "raw/2026-08-15/saudipedia-national-administrative-divisions.html"
+    }
+  ]
+}

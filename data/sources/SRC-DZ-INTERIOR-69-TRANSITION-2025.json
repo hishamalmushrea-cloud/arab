@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:304af6095f2b8d87eadc7670c1dd5fb211550ceb344dc265bcd35c7da715a3a0",
+  "country_codes": [
+    "DZ"
+  ],
+  "id": "SRC-DZ-INTERIOR-69-TRANSITION-2025",
+  "language": "ar-fr",
+  "license": "Official Algeria legal/statistical material; factual extraction with attribution; reuse terms not stated",
+  "locator": "eleven named promotions; full prerogatives 1 January 2027",
+  "notes": "Future transition source.",
+  "publication_date": "2025-12-18",
+  "publisher": "Ministère de l’Intérieur",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-16",
+  "schema_version": "2.0.0",
+  "source_type": "law",
+  "title": "Projet de loi — 69 wilayas à compter de 2027",
+  "url": "https://interieur.gov.dz/2025/12/18/le-ministre-de-linterieur-des-collectivites-locales-et-des-transports-presente-le-projet-de-loi-relatif-a-lorganisation-territoriale-du-pays-devant-la-commission-competente-du-conse/"
+}

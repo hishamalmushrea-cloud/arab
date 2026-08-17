@@ -1,0 +1,43 @@
+{
+  "active_counts": {
+    "aliases": 49,
+    "claims": 24,
+    "coverage": 31,
+    "denominators": 31,
+    "entities": 425,
+    "relationships": 403,
+    "snapshots": 5,
+    "sources": 9
+  },
+  "as_of": "2026-08-15",
+  "dispositions": {
+    "merged_duplicate": 110,
+    "migrated": 403,
+    "quarantined": 4741
+  },
+  "ledger_rows": 5254,
+  "legacy_rows": 5254,
+  "pilot_counts": {
+    "libya_current_legacy_matches": 93,
+    "libya_current_legacy_unmatched": 3,
+    "libya_historical_shabiyat": 22,
+    "tunisia_delegations": 264,
+    "tunisia_governorates": 24
+  },
+  "quarantined_copies": 4853,
+  "reasons": {
+    "country_layer_pending_source_review": 4181,
+    "duplicate_cross_file_representation": 23,
+    "duplicate_of_unmatched_or_noncurrent_record": 4,
+    "duplicate_representation": 110,
+    "historical_hierarchy_separated": 22,
+    "matched_current_official_register": 93,
+    "missing_atomic_canonical_source": 61,
+    "mixed_entity_types": 147,
+    "not_matched_to_current_official_register": 3,
+    "source_defensible_admin_entity": 288,
+    "unmatched_duplicate_representation": 264,
+    "unsupported_cultural_or_microplace_record": 58
+  },
+  "schema_version": "1.0.0"
+}

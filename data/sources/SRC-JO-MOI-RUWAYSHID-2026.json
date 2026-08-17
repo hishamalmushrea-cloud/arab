@@ -1,0 +1,22 @@
+{
+  "archive_url": null,
+  "author": null,
+  "checksum": null,
+  "country_codes": [
+    "JO"
+  ],
+  "id": "SRC-JO-MOI-RUWAYSHID-2026",
+  "language": "ar",
+  "license": "Publicly accessible factual record; resource-specific reuse terms not stated",
+  "locator": "Page title and administrative-status description identifying Ruwayshid as a liwa in Mafraq Governorate",
+  "notes": "Used to corroborate current liwa status. The exact legal commencement date was not documented and remains null. Publication date is not displayed on the current Ministry page.",
+  "organization": "Ministry of Interior",
+  "publication_date": null,
+  "publisher": "Ministry of Interior, Hashemite Kingdom of Jordan",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "2.0.0",
+  "source_type": "official_report",
+  "title": "لواء الرويشد",
+  "url": "https://moi.gov.jo/AR/Pages/%D9%84%D9%88%D8%A7%D8%A1_%D8%A7%D9%84%D8%B1%D9%88%D9%8A%D8%B4%D8%AF"
+}

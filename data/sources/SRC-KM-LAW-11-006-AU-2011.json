@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:94421611d2de1fce249c5c6ac3e3d65cafac63b8f7ba782081a49b75a695ebde",
+  "country_codes": [
+    "KM"
+  ],
+  "id": "SRC-KM-LAW-11-006-AU-2011",
+  "language": "fr",
+  "license": "Official Comoros public/statistical material; factual extraction with attribution; reuse terms not stated",
+  "locator": "three islands, sixteen prefectures, commune enumeration",
+  "notes": "Legal current administration; Mayotte excluded.",
+  "publication_date": "2011-05-02",
+  "publisher": "Ministère de la Justice, Union des Comores",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-17",
+  "schema_version": "2.0.0",
+  "source_type": "law",
+  "title": "Loi 11-006/AU — organisation territoriale",
+  "url": "https://justice.gouv.km/texte/loi-n11-006-au-du-02-mai-2011-portant-organisation-territoriale-de-lunion-des-comores/"
+}

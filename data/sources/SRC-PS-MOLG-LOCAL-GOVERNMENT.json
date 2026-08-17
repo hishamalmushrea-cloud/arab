@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:b330d9d56d11fc8f426a4f46cc8ca5d17e50cdb62d9dfa3543d2a56bb8d85cf3",
+  "country_codes": [
+    "PS"
+  ],
+  "id": "SRC-PS-MOLG-LOCAL-GOVERNMENT",
+  "language": "ar-en",
+  "license": "Official Palestine statistical/government material; factual extraction with attribution; reuse terms not stated",
+  "locator": "local-government authority and entity semantics",
+  "notes": "Local authorities distinct from localities/camps. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "Ministry of Local Government",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-17",
+  "schema_version": "2.0.0",
+  "source_type": "official_register",
+  "title": "Ministry of Local Government mandate and legal framework",
+  "url": "https://www.molg.pna.ps/ar/articles/15807/%D9%86%D8%A8%D8%B0%D8%A9"
+}

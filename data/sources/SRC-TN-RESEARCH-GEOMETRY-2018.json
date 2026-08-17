@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": null,
+  "country_codes": [
+    "TN"
+  ],
+  "id": "SRC-TN-RESEARCH-GEOMETRY-2018",
+  "language": "ar-en",
+  "license": "Open Database License 1.0 (database); Database Contents License for contents",
+  "locator": "created_shapefiles/TN_municipalities_2018, TN_delegations_2014, TN_sectors and repository README",
+  "notes": "Publication date unavailable. The archive explicitly calls boundaries approximations derived from OSM and public administrative data. Used only for approximate coordinates, reviewed matching, and boundary-intersection evidence; never as the canonical official label authority.",
+  "publication_date": null,
+  "publisher": "jmgclark/tunisia_shapefiles contributors",
+  "quality_tier": "C",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "2.0.0",
+  "source_type": "archive",
+  "title": "Tunisia shapefiles research reconstruction",
+  "url": "https://github.com/jmgclark/tunisia_shapefiles"
+}

@@ -1,0 +1,300 @@
+{
+  "caveats": [
+    "Current legal first-level universe is reconstructed from a legacy official 20-governorate-plus-capital frame and Law 31/2013 adding Socotra.",
+    "The complete official-gazette copy and its effective-clause wording were not retrievable; no wording is inferred.",
+    "Legal identity is not effective control, destruction, displacement, or dispute status."
+  ],
+  "country": {
+    "entity_id": "ENT-YE-COUNTRY",
+    "iso2": "YE",
+    "name_ar": "اليمن"
+  },
+  "coverage_record_ids": [
+    "COV-YE-COUNTRY-SCOPE",
+    "COV-YE-FIRST-LEVEL",
+    "COV-YE-GOVERNORATES",
+    "COV-YE-CAPITAL-MUNICIPALITY",
+    "COV-YE-LEGACY-FIRST-LEVEL"
+  ],
+  "hierarchy": [
+    {
+      "allowed_parent_types": [],
+      "caveat": "Country scope only; not a local coverage assertion.",
+      "entity_type": "country",
+      "level": 0,
+      "local_names": [
+        "دولة"
+      ],
+      "source_ids": [
+        "SRC-ISO-3166-1-2020"
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "disputed",
+        "de_facto",
+        "claimed"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "country"
+      ],
+      "authority_name": "CSO / NIC / Law 31/2013",
+      "caveat": "أمانة العاصمة وضع خاص موازٍ للمحافظات؛ الحرب تفرض فصل القانوني والفعلي.",
+      "coverage_record_id": "COV-YE-GOVERNORATES",
+      "denominator": 21,
+      "denominator_id": "DEN-YE-GOVERNORATES",
+      "entity_type": "ye_governorate",
+      "level": 1,
+      "license": "Factual extraction with attribution; publisher reuse terms not stated",
+      "local_names": [
+        "محافظة"
+      ],
+      "notes": "21 legal governorates including Socotra.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-YE-NIC-GOVERNORATES-LEGACY",
+        "SRC-YE-LAW-31-SOCOTRA-REPORT-2013"
+      ],
+      "special_cases": [
+        "Socotra established by Law 31/2013; full effective-clause text unavailable."
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "country"
+      ],
+      "authority_name": "CSO / NIC",
+      "caveat": "أمانة العاصمة وضع خاص موازٍ للمحافظات؛ الحرب تفرض فصل القانوني والفعلي.",
+      "coverage_record_id": "COV-YE-CAPITAL-MUNICIPALITY",
+      "denominator": 1,
+      "denominator_id": "DEN-YE-CAPITAL-MUNICIPALITY",
+      "entity_type": "ye_capital_municipality",
+      "level": 1,
+      "license": "Factual extraction with attribution; publisher reuse terms not stated",
+      "local_names": [
+        "أمانة العاصمة"
+      ],
+      "notes": "Parallel first-level unit, not a governorate alias.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-YE-CSO-ADMIN-DEFINITION-LEGACY",
+        "SRC-YE-NIC-GOVERNORATES-LEGACY"
+      ],
+      "special_cases": [
+        "Amanat Al Asimah."
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "ye_governorate",
+        "ye_capital_municipality"
+      ],
+      "authority_name": null,
+      "caveat": "أمانة العاصمة وضع خاص موازٍ للمحافظات؛ الحرب تفرض فصل القانوني والفعلي.",
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
+      "entity_type": "ye_district",
+      "level": 3,
+      "license": null,
+      "local_names": [
+        "مديرية"
+      ],
+      "notes": "Current authoritative coded register not reconciled.",
+      "scope_status": "unavailable",
+      "snapshot_date": null,
+      "source_ids": [],
+      "special_cases": [
+        "No lower records emitted."
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "pending"
+    },
+    {
+      "allowed_parent_types": [
+        "ye_district"
+      ],
+      "authority_name": null,
+      "caveat": "أمانة العاصمة وضع خاص موازٍ للمحافظات؛ الحرب تفرض فصل القانوني والفعلي.",
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
+      "entity_type": "ye_uzla",
+      "level": 4,
+      "license": null,
+      "local_names": [
+        "عزلة"
+      ],
+      "notes": "Current authoritative coded register not reconciled.",
+      "scope_status": "unavailable",
+      "snapshot_date": null,
+      "source_ids": [],
+      "special_cases": [
+        "No lower records emitted."
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "pending"
+    }
+  ],
+  "next_action": "Maintain the 22 first-level legal identities; add districts/uzlas or conflict overlays only from dated authoritative registers.",
+  "official_authority": {
+    "missing_reason": null,
+    "name": "Central Statistical Organization / National Information Center / Republic of Yemen Law 31/2013",
+    "source_ids": [
+      "SRC-YE-CSO-ADMIN-DEFINITION-LEGACY",
+      "SRC-YE-NIC-GOVERNORATES-LEGACY",
+      "SRC-YE-LAW-31-SOCOTRA-REPORT-2013"
+    ],
+    "verification_status": "verified"
+  },
+  "pilot_layers": [
+    {
+      "authority_name": "CSO / NIC / Law 31/2013",
+      "coverage_record_id": "COV-YE-FIRST-LEVEL",
+      "denominator": 22,
+      "denominator_id": "DEN-YE-FIRST-LEVEL",
+      "entity_types": [
+        "ye_governorate",
+        "ye_capital_municipality"
+      ],
+      "layer": "ye_first_level_current",
+      "license": "Factual extraction with attribution; publisher reuse terms not stated",
+      "local_names": [
+        "first-level"
+      ],
+      "notes": "Reconciled legal universe: legacy 21 plus Socotra under Law 31/2013.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-YE-LAW-31-SOCOTRA-REPORT-2013"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "CSO / NIC / Law 31/2013",
+      "coverage_record_id": "COV-YE-GOVERNORATES",
+      "denominator": 21,
+      "denominator_id": "DEN-YE-GOVERNORATES",
+      "entity_types": [
+        "ye_governorate",
+        "ye_capital_municipality"
+      ],
+      "layer": "ye_governorate_current",
+      "license": "Factual extraction with attribution; publisher reuse terms not stated",
+      "local_names": [
+        "first-level"
+      ],
+      "notes": "Twenty legacy governorates plus Socotra; excludes Amanat Al Asimah.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-YE-LAW-31-SOCOTRA-REPORT-2013"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "CSO / NIC / Law 31/2013",
+      "coverage_record_id": "COV-YE-CAPITAL-MUNICIPALITY",
+      "denominator": 1,
+      "denominator_id": "DEN-YE-CAPITAL-MUNICIPALITY",
+      "entity_types": [
+        "ye_governorate",
+        "ye_capital_municipality"
+      ],
+      "layer": "ye_capital_municipality_current",
+      "license": "Factual extraction with attribution; publisher reuse terms not stated",
+      "local_names": [
+        "first-level"
+      ],
+      "notes": "Amanat Al Asimah is one parallel first-level capital municipality.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-YE-NIC-GOVERNORATES-LEGACY"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "CSO / NIC / Law 31/2013",
+      "coverage_record_id": "COV-YE-LEGACY-FIRST-LEVEL",
+      "denominator": 21,
+      "denominator_id": "DEN-YE-LEGACY-FIRST-LEVEL",
+      "entity_types": [
+        "ye_governorate",
+        "ye_capital_municipality"
+      ],
+      "layer": "ye_first_level_legacy_pre_socotra",
+      "license": "Factual extraction with attribution; publisher reuse terms not stated",
+      "local_names": [
+        "first-level"
+      ],
+      "notes": "Historical source frame: 20 governorates plus Capital Municipality; Socotra absent.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-YE-CSO-ADMIN-DEFINITION-LEGACY"
+      ],
+      "special_cases": []
+    }
+  ],
+  "schema_version": "2.0.0",
+  "snapshot": {
+    "as_of": "2026-08-17",
+    "snapshot_id": "SNP-YE-PRODUCTION-20260817",
+    "status": "verified"
+  },
+  "status": "pilot_migrated"
+}

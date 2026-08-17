@@ -1,0 +1,43 @@
+{
+  "country_code": "BH",
+  "retrieved_at": "2026-08-16",
+  "schema_version": "2.0.0",
+  "state_party_url": "https://whc.unesco.org/en/statesparties/bh",
+  "denominator": 3,
+  "selection_rule": "Every property inscribed for Bahrain on the UNESCO World Heritage State Party list at retrieval date; tentative-list sites excluded.",
+  "properties": [
+    {
+      "reference": 1192,
+      "name_en": "Qal’at al-Bahrain – Ancient Harbour and Capital of Dilmun",
+      "name_ar": "قلعة البحرين- مرفأ قديم وعاصمة دلمون",
+      "entity_id": "ENT-BH-ARCHAEOLOGICAL-SITE-QALAT-AL-BAHRAIN",
+      "entity_type": "archaeological_site",
+      "inscription_year": 2005,
+      "category": "cultural",
+      "url": "https://whc.unesco.org/en/list/1192",
+      "arabic_url": "https://whc.unesco.org/ar/list/1192"
+    },
+    {
+      "reference": 1364,
+      "name_en": "Pearling, Testimony of an Island Economy",
+      "name_ar": "طريق اللؤلؤ: شاهد على اقتصاد جزيرة",
+      "entity_id": "ENT-BH-CULTURAL-SITE-PEARLING",
+      "entity_type": "cultural_site",
+      "inscription_year": 2012,
+      "category": "cultural",
+      "url": "https://whc.unesco.org/en/list/1364",
+      "arabic_name_source": "https://www.culture.gov.bh/ar/authority/infra_projects/Name,14932,ar.php"
+    },
+    {
+      "reference": 1542,
+      "name_en": "Dilmun Burial Mounds",
+      "name_ar": "مدافن دلمون الأثرية",
+      "entity_id": "ENT-BH-ARCHAEOLOGICAL-SITE-DILMUN-BURIAL-MOUNDS",
+      "entity_type": "archaeological_site",
+      "inscription_year": 2019,
+      "category": "cultural",
+      "url": "https://whc.unesco.org/en/list/1542",
+      "arabic_url": "https://whc.unesco.org/ar/list/1542"
+    }
+  ]
+}

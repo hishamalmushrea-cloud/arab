@@ -1,0 +1,117 @@
+{
+  "checks": {
+    "artifact_expansion_lessons": {
+      "detail": "reports/EXPANSION_LESSONS.md exists",
+      "status": "pass"
+    },
+    "artifact_lessons_learned_palestine": {
+      "detail": "reports/LESSONS_LEARNED_PALESTINE.md exists",
+      "status": "pass"
+    },
+    "artifact_next_country_decision": {
+      "detail": "reports/NEXT_COUNTRY_DECISION.md exists",
+      "status": "pass"
+    },
+    "artifact_palestine_production_closeout": {
+      "detail": "reports/PALESTINE_PRODUCTION_CLOSEOUT.md exists",
+      "status": "pass"
+    },
+    "general_validation": {
+      "command": "python3 scripts/validate.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=16932\n[PASS] ids: global_ids=16932, duplicate_ids=0\n[PASS] entity_types: allowed_types=103, active_types=61\n[PASS] sources: atomic_files=151, sources=151, references=19644\n[PASS] parents: administrative_relationships=5220\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2245, sourced=2245\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=112, coverage_records=112, complete_layers=95\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=951, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
+    },
+    "generated_freshness": {
+      "command": "python3 scripts/generate.py --check",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "generated output is current (64 files)"
+    },
+    "non_palestine_preservation": {
+      "detail": "canonical non-Palestine SHA-256 unchanged=50c2d2ac9ce09bcbef37134a6e3222966260dcbe96d3ab73a6e617a06d920048",
+      "status": "pass"
+    },
+    "palestine_clean_worktree": {
+      "detail": "git worktree clean=True",
+      "status": "pass"
+    },
+    "palestine_findings_closed": {
+      "detail": "status=PASS, P0=0, critical P1=0",
+      "status": "pass"
+    },
+    "palestine_import_idempotence": {
+      "detail": "all 10 managed hashes unchanged=True",
+      "status": "pass"
+    },
+    "palestine_import_refresh": {
+      "command": "python3 scripts/import_palestine_production.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "{\"entities\": 22, \"aliases\": 16, \"relationships\": 22, \"claims\": 24, \"sources\": 4}"
+    },
+    "palestine_independent_review": {
+      "command": "python3 scripts/review_palestine.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "99"
+    },
+    "palestine_negative_tests": {
+      "command": "python3 scripts/test_palestine_negative.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "[{'mutation': 'PS_GOVERNORATE_15', 'expected_code': 'PS_COUNTS', 'detected': True}, {'mutation': 'PS_GAZA_AS_DEFACTO', 'expected_code': 'PS_UNSUPPORTED_STATUS', 'detected': True}, {'mutation': 'PS_DESTROYED_WITHOUT_SOURCE', 'expected_code': 'PS_UNSUPPORTED_STATUS', 'detected': True}, {'mutation': 'PS_WRONG_REGION', 'expected_code': 'PS_GOVERNORATE', 'detected': True}, {'mutation': 'PS_WHC_5_STALE', 'expected_code': 'PS_DENOMINATORS', 'detected': True}, {'mutation': 'PS_SEBASTIA_NOT_DANGER', 'expected_code': 'PS_SEBASTIA_STATUS', 'detected': True}, {'mutation': 'PS_SEBASTIA_UNDATED', 'expected_code': 'PS_SEBASTIA_STATUS', 'detected': True}, {'mutation': 'PS_FAKE_LOCAL_AUTHORITY', 'expected_code': 'PS_PREMATURE_LOCAL', 'detected': True}]"
+    },
+    "palestine_required_mutations": {
+      "detail": "detected=8/8",
+      "status": "pass"
+    },
+    "palestine_review_idempotence": {
+      "detail": "independent review unchanged=True",
+      "status": "pass"
+    },
+    "palestine_review_sample_idempotence": {
+      "detail": "full-population sample unchanged=True",
+      "status": "pass"
+    },
+    "palestine_review_sample_refresh": {
+      "command": "python3 scripts/build_palestine_review_samples.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "99"
+    },
+    "palestine_review_threshold": {
+      "detail": "full review passed=99/99",
+      "status": "pass"
+    },
+    "palestine_semantic_validation": {
+      "command": "python3 scripts/validate_palestine.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "{'entities': 23, 'aliases': 16, 'relationships': 22, 'claims': 24, 'sources': 4, 'denominators': 5, 'coverage': 5}"
+    },
+    "palestine_source_idempotence": {
+      "detail": "atomic sources=4/4, unchanged=True",
+      "status": "pass"
+    },
+    "palestine_source_refresh": {
+      "command": "python3 scripts/build_palestine_sources.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "{\"entities\": 22, \"aliases\": 16, \"relationships\": 22, \"claims\": 24, \"sources\": 4}"
+    }
+  },
+  "country_code": "PS",
+  "errors": [],
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-16",
+  "status": "pass"
+}

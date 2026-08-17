@@ -1,0 +1,18 @@
+{
+  "captured_at": "2026-08-17",
+  "country_code": "SY",
+  "freshness": {
+    "control_status": "not inferred",
+    "current_count_source": "Syrian Investment Authority current page",
+    "current_exact_name_source": "SANA current governorate navigation and 2026 presidency page",
+    "historical_continuity_source": "Central Bureau of Statistics legacy enumeration"
+  },
+  "records": [
+    {
+      "path": "fixtures/governorates_2026.json",
+      "record_count": 14,
+      "sha256": "162dd0c600f1745a65b6cf3ccb6ddee1ee75ac0f21a7052e9cbfab7b2a42df2a"
+    }
+  ],
+  "schema_version": "2.0.0"
+}

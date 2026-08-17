@@ -1,0 +1,66 @@
+{
+  "country_code": "LY",
+  "schema_version": "2.0.0",
+  "sources": [
+    {
+      "archive_url": null,
+      "checksum": "sha256:2b3660ee62cfccd70927d5eea2ad490d67979f8b533b03b9423b6c0e73fb9a9c",
+      "country_codes": [
+        "LY"
+      ],
+      "id": "SRC-LY-MOLG-MUNICIPALITIES-2026",
+      "language": "ar",
+      "license": "License not stated on the source page",
+      "locator": "Complete rendered municipalities catalogue: 141 named entries; numbering gaps 124 and 140 are presentation gaps, not missing records",
+      "notes": "Publication/content-effective date unavailable. The rendered catalogue was enumerated exactly on 2026-08-17; 141 names are accepted as the current source snapshot. Number labels skip 124 and 140 while the record count remains 141.",
+      "publication_date": null,
+      "publisher": "وزارة الحكم المحلي الليبية",
+      "quality_tier": "A",
+      "retrieved_at": "2026-08-17",
+      "schema_version": "2.0.0",
+      "source_type": "official_register",
+      "title": "قائمة البلديات",
+      "url": "https://www.lgm.gov.ly/municipalities"
+    },
+    {
+      "archive_url": null,
+      "checksum": null,
+      "country_codes": [
+        "LY"
+      ],
+      "id": "SRC-LY-LAW-59-2012",
+      "language": "ar",
+      "license": "Public legal text; site reuse terms not stated",
+      "locator": "Full legal file linked from the Ministry laws register",
+      "notes": "Supports the municipality framework, not by itself the identity of each currently listed municipality.",
+      "publication_date": "2012",
+      "publisher": "الجهة التشريعية الليبية; published by Ministry of Local Government",
+      "quality_tier": "A",
+      "retrieved_at": "2026-08-15",
+      "schema_version": "2.0.0",
+      "source_type": "law",
+      "title": "قانون رقم 59 لسنة 2012 بشأن نظام الإدارة المحلية",
+      "url": "https://www.lgm.gov.ly/Legal/2"
+    },
+    {
+      "archive_url": null,
+      "checksum": null,
+      "country_codes": [
+        "LY"
+      ],
+      "id": "SRC-LY-BSC-CENSUS-2006",
+      "language": "ar",
+      "license": "License not stated on the source page",
+      "locator": "Official index and tables for the 22 census regions",
+      "notes": "Used for a historical 2006 sha‘biya snapshot only; it is not mixed with the current municipality hierarchy.",
+      "publication_date": "2006",
+      "publisher": "مصلحة الإحصاء والتعداد، ليبيا",
+      "quality_tier": "A",
+      "retrieved_at": "2026-08-15",
+      "schema_version": "2.0.0",
+      "source_type": "census",
+      "title": "التعداد العام للسكان 2006 — النتائج حسب مناطق التعداد",
+      "url": "https://bsc.ly/demographicl_statist/%D8%A7%D9%84%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF-%D8%A7%D9%84%D8%B9%D8%A7%D9%85-%D9%84%D9%84%D8%B3%D9%83%D8%A7%D9%862006/"
+    }
+  ]
+}

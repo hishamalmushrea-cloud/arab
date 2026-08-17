@@ -1,0 +1,972 @@
+{
+  "amendment_source_id": "SRC-JO-REGULATION-29-2024",
+  "baseline_source_id": "SRC-JO-REGULATION-46-2000",
+  "derivation": {
+    "amendment_effect": {
+      "liwa": 4,
+      "qada": -2
+    },
+    "current": {
+      "governorates": 12,
+      "liwa": 55,
+      "qada": 36
+    },
+    "pre_amendment": {
+      "governorates": 12,
+      "liwa": 51,
+      "qada": 38
+    }
+  },
+  "gazette_source_id": "SRC-JO-GAZETTE-5931-2024",
+  "governorates": [
+    {
+      "article": "Article 4",
+      "center_ar": "عمان",
+      "center_en": "Amman",
+      "key": "amman",
+      "liwa": [
+        {
+          "center_ar": "العبدلي",
+          "center_en": "Al-Abdali",
+          "key": "qasabat-amman",
+          "name_ar": "قصبة عمان",
+          "name_en": "Qasabat Amman",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "ماركا",
+          "center_en": "Marka",
+          "key": "marka",
+          "name_ar": "ماركا",
+          "name_en": "Marka",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "الجويدة",
+          "center_en": "Al-Juwaydah",
+          "key": "quwaysimah",
+          "name_ar": "القويسمة",
+          "name_en": "Quwaysimah",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "الجبيهة",
+          "center_en": "Al-Jubayhah",
+          "key": "jamiah",
+          "name_ar": "الجامعة",
+          "name_en": "Al-Jami'ah",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "وادي السير",
+          "center_en": "Wadi al-Sir",
+          "key": "wadi-al-sir",
+          "name_ar": "وادي السير",
+          "name_en": "Wadi al-Sir",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "سحاب",
+          "center_en": "Sahab",
+          "key": "sahab",
+          "name_ar": "سحاب",
+          "name_en": "Sahab",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "الجيزة",
+          "center_en": "Jizah",
+          "key": "jizah",
+          "name_ar": "الجيزة",
+          "name_en": "Jizah",
+          "qada": [
+            {
+              "center_ar": "أم الرصاص",
+              "center_en": "Umm al-Rasas",
+              "key": "umm-al-rasas",
+              "name_ar": "أم الرصاص",
+              "name_en": "Umm al-Rasas"
+            }
+          ],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "الموقر",
+          "center_en": "Muwaqqar",
+          "key": "muwaqqar",
+          "name_ar": "الموقر",
+          "name_en": "Muwaqqar",
+          "qada": [
+            {
+              "center_ar": "رجم الشامي الغربي",
+              "center_en": "Western Rajm al-Shami",
+              "key": "rajm-al-shami",
+              "name_ar": "رجم الشامي",
+              "name_en": "Rajm al-Shami"
+            }
+          ],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "ناعور",
+          "center_en": "Na'ur",
+          "key": "naur",
+          "name_ar": "ناعور",
+          "name_en": "Na'ur",
+          "qada": [
+            {
+              "center_ar": "أم البساتين",
+              "center_en": "Umm al-Basatin",
+              "key": "umm-al-basatin",
+              "name_ar": "أم البساتين",
+              "name_en": "Umm al-Basatin"
+            },
+            {
+              "center_ar": "حسبان",
+              "center_en": "Hisban",
+              "key": "hisban",
+              "name_ar": "حسبان",
+              "name_en": "Hisban"
+            }
+          ],
+          "source": "baseline",
+          "valid_from": null
+        }
+      ],
+      "name_ar": "العاصمة",
+      "name_en": "Amman"
+    },
+    {
+      "article": "Article 5",
+      "center_ar": "إربد",
+      "center_en": "Irbid",
+      "key": "irbid",
+      "liwa": [
+        {
+          "center_ar": "إربد",
+          "center_en": "Irbid",
+          "key": "qasabat-irbid",
+          "name_ar": "قصبة إربد",
+          "name_en": "Qasabat Irbid",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "الرمثا",
+          "center_en": "Ramtha",
+          "key": "ramtha",
+          "name_ar": "الرمثا",
+          "name_en": "Ramtha",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "دير أبي سعيد",
+          "center_en": "Dayr Abi Sa'id",
+          "key": "kurah",
+          "name_ar": "الكورة",
+          "name_en": "Kura",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "سما الروسان",
+          "center_en": "Sama al-Rawsan",
+          "key": "bani-kinanah",
+          "name_ar": "بني كنانة",
+          "name_en": "Bani Kinanah",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "الشونة الشمالية",
+          "center_en": "Northern Shunah",
+          "key": "northern-ghor",
+          "name_ar": "الأغوار الشمالية",
+          "name_en": "Northern Ghor",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "الحصن",
+          "center_en": "Al-Husn",
+          "key": "bani-ubayd",
+          "name_ar": "بني عبيد",
+          "name_en": "Bani Ubayd",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "المزار الشمالي",
+          "center_en": "Northern Mazar",
+          "key": "northern-mazar",
+          "name_ar": "المزار الشمالي",
+          "name_en": "Northern Mazar",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "الطيبة",
+          "center_en": "Taybah",
+          "key": "taybah-irbid",
+          "name_ar": "الطيبة",
+          "name_en": "Taybah",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "كفر أسد",
+          "center_en": "Kafr Asad",
+          "key": "wasatiyyah",
+          "name_ar": "الوسطية",
+          "name_en": "Wasatiyyah",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "كفر يوبا",
+          "center_en": "Kufr Yuba",
+          "key": "west-irbid",
+          "name_ar": "غرب إربد",
+          "name_en": "West Irbid",
+          "qada": [],
+          "source": "amendment",
+          "valid_from": "2024-06-06"
+        }
+      ],
+      "name_ar": "إربد",
+      "name_en": "Irbid"
+    },
+    {
+      "article": "Article 6",
+      "center_ar": "السلط",
+      "center_en": "As-Salt",
+      "key": "balqa",
+      "liwa": [
+        {
+          "center_ar": "السلط",
+          "center_en": "As-Salt",
+          "key": "qasabat-salt",
+          "name_ar": "قصبة السلط",
+          "name_en": "Qasabat as-Salt",
+          "qada": [
+            {
+              "center_ar": "الصبيحي",
+              "center_en": "Al-Subayhi",
+              "key": "aridah",
+              "name_ar": "العارضة",
+              "name_en": "Al-Aridah"
+            },
+            {
+              "center_ar": "علان",
+              "center_en": "Allan",
+              "key": "zi",
+              "name_ar": "زي",
+              "name_en": "Zi"
+            },
+            {
+              "center_ar": "يرقا",
+              "center_en": "Yarqa",
+              "key": "ayra-wa-yarqa",
+              "name_ar": "عيرا ويرقا",
+              "name_en": "Ayra and Yarqa"
+            }
+          ],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "الشونة الجنوبية",
+          "center_en": "Southern Shunah",
+          "key": "southern-shunah",
+          "name_ar": "الشونة الجنوبية",
+          "name_en": "Southern Shunah",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "دير علا",
+          "center_en": "Dayr Alla",
+          "key": "dayr-alla",
+          "name_ar": "دير علا",
+          "name_en": "Dayr Alla",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "عين الباشا",
+          "center_en": "Ayn al-Basha",
+          "key": "ayn-al-basha",
+          "name_ar": "عين الباشا",
+          "name_en": "Ayn al-Basha",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "الفحيص",
+          "center_en": "Al-Fuhayis",
+          "key": "mahis-fuhayis",
+          "name_ar": "ماحص والفحيص",
+          "name_en": "Mahis and Fuhayis",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        }
+      ],
+      "name_ar": "البلقاء",
+      "name_en": "Balqa"
+    },
+    {
+      "article": "Article 7",
+      "center_ar": "الكرك",
+      "center_en": "Karak",
+      "key": "karak",
+      "liwa": [
+        {
+          "center_ar": "الكرك",
+          "center_en": "Karak",
+          "key": "qasabat-karak",
+          "name_ar": "قصبة الكرك",
+          "name_en": "Qasabat Karak",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "المزار الجنوبي",
+          "center_en": "Southern Mazar",
+          "key": "southern-mazar-karak",
+          "name_ar": "المزار الجنوبي",
+          "name_en": "Southern Mazar",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "القصر",
+          "center_en": "Al-Qasr",
+          "key": "qasr",
+          "name_ar": "القصر",
+          "name_en": "Qasr",
+          "qada": [
+            {
+              "center_ar": "المغير",
+              "center_en": "Al-Mughayyir",
+              "key": "mujib",
+              "name_ar": "الموجب",
+              "name_en": "Mujib"
+            }
+          ],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "غور الصافي",
+          "center_en": "Ghawr al-Safi",
+          "key": "southern-ghor-karak",
+          "name_ar": "الأغوار الجنوبية",
+          "name_en": "Southern Ghor",
+          "qada": [
+            {
+              "center_ar": "غور المزرعة",
+              "center_en": "Ghawr al-Mazra'ah",
+              "key": "ghawr-al-mazraa",
+              "name_ar": "غور المزرعة",
+              "name_en": "Ghawr al-Mazra'ah"
+            }
+          ],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "عي",
+          "center_en": "Ayy",
+          "key": "ayy",
+          "name_ar": "عي",
+          "name_en": "Ayy",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "فقوع",
+          "center_en": "Faqu'",
+          "key": "faqu",
+          "name_ar": "فقوع",
+          "name_en": "Faqu'",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "القطرانة",
+          "center_en": "Qatrana",
+          "key": "qatrana",
+          "name_ar": "القطرانة",
+          "name_en": "Qatrana",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "الحسينية",
+          "center_en": "Al-Husayniyah",
+          "key": "moab",
+          "name_ar": "مؤاب",
+          "name_en": "Moab",
+          "qada": [],
+          "source": "amendment",
+          "valid_from": "2024-06-06"
+        }
+      ],
+      "name_ar": "الكرك",
+      "name_en": "Karak"
+    },
+    {
+      "article": "Article 8",
+      "center_ar": "معان",
+      "center_en": "Ma'an",
+      "key": "maan",
+      "liwa": [
+        {
+          "center_ar": "معان",
+          "center_en": "Ma'an",
+          "key": "qasabat-maan",
+          "name_ar": "قصبة معان",
+          "name_en": "Qasabat Ma'an",
+          "qada": [
+            {
+              "center_ar": "إيل",
+              "center_en": "Ayl",
+              "key": "ayl",
+              "name_ar": "إيل",
+              "name_en": "Ayl"
+            },
+            {
+              "center_ar": "الجفر",
+              "center_en": "Al-Jafr",
+              "key": "jafr",
+              "name_ar": "الجفر",
+              "name_en": "Al-Jafr"
+            },
+            {
+              "center_ar": "المريغة",
+              "center_en": "Al-Murayghah",
+              "key": "murayghah",
+              "name_ar": "المريغة",
+              "name_en": "Al-Murayghah"
+            },
+            {
+              "center_ar": "أذرح",
+              "center_en": "Udhruh",
+              "key": "udruh",
+              "name_ar": "أذرح",
+              "name_en": "Udhruh"
+            }
+          ],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "وادي موسى",
+          "center_en": "Wadi Musa",
+          "key": "petra",
+          "name_ar": "البتراء",
+          "name_en": "Petra",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "الشوبك",
+          "center_en": "Shoubak",
+          "key": "shoubak",
+          "name_ar": "الشوبك",
+          "name_en": "Shoubak",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "الحسينية",
+          "center_en": "Al-Husayniyah",
+          "key": "husayniyah-maan",
+          "name_ar": "الحسينية",
+          "name_en": "Al-Husayniyah",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        }
+      ],
+      "name_ar": "معان",
+      "name_en": "Ma'an"
+    },
+    {
+      "article": "Article 9",
+      "center_ar": "الزرقاء",
+      "center_en": "Zarqa",
+      "key": "zarqa",
+      "liwa": [
+        {
+          "center_ar": "الزرقاء",
+          "center_en": "Zarqa",
+          "key": "qasabat-zarqa",
+          "name_ar": "قصبة الزرقاء",
+          "name_en": "Qasabat Zarqa",
+          "qada": [
+            {
+              "center_ar": "بيرين",
+              "center_en": "Birayn",
+              "key": "birayn",
+              "name_ar": "بيرين",
+              "name_en": "Birayn"
+            },
+            {
+              "center_ar": "الظليل",
+              "center_en": "Al-Dhalil",
+              "key": "dhalil",
+              "name_ar": "الظليل",
+              "name_en": "Al-Dhalil"
+            },
+            {
+              "center_ar": "مثلث الأزرق الشمالي والأزرق الجنوبي",
+              "center_en": "Northern–Southern Azraq junction",
+              "key": "azraq",
+              "name_ar": "الأزرق",
+              "name_en": "Azraq"
+            }
+          ],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "الرصيفة",
+          "center_en": "Rusayfah",
+          "key": "rusayfah",
+          "name_ar": "الرصيفة",
+          "name_en": "Rusayfah",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "الهاشمية",
+          "center_en": "Al-Hashimiyah",
+          "key": "hashimiyah-zarqa",
+          "name_ar": "الهاشمية",
+          "name_en": "Al-Hashimiyah",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        }
+      ],
+      "name_ar": "الزرقاء",
+      "name_en": "Zarqa"
+    },
+    {
+      "article": "Article 10",
+      "center_ar": "المفرق",
+      "center_en": "Mafraq",
+      "key": "mafraq",
+      "liwa": [
+        {
+          "center_ar": "المفرق",
+          "center_en": "Mafraq",
+          "key": "qasabat-mafraq",
+          "name_ar": "قصبة المفرق",
+          "name_en": "Qasabat Mafraq",
+          "qada": [
+            {
+              "center_ar": "إرحاب",
+              "center_en": "Irhab",
+              "key": "irhab",
+              "name_ar": "إرحاب",
+              "name_en": "Irhab"
+            },
+            {
+              "center_ar": "منشية بني حسن",
+              "center_en": "Manshiyat Bani Hasan",
+              "key": "manshiyah",
+              "name_ar": "المنشية",
+              "name_en": "Al-Manshiyah"
+            }
+          ],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "مثلث صبحا",
+          "center_en": "Subha junction",
+          "key": "northern-badia",
+          "name_ar": "البادية الشمالية",
+          "name_en": "Northern Badia",
+          "qada": [
+            {
+              "center_ar": "صبحا",
+              "center_en": "Subha",
+              "key": "subha",
+              "name_ar": "صبحا",
+              "name_en": "Subha"
+            },
+            {
+              "center_ar": "أم الجمال",
+              "center_en": "Umm al-Jimal",
+              "key": "umm-al-jimal",
+              "name_ar": "أم الجمال",
+              "name_en": "Umm al-Jimal"
+            },
+            {
+              "center_ar": "دير الكهف",
+              "center_en": "Dayr al-Kahf",
+              "key": "dayr-al-kahf",
+              "name_ar": "دير الكهف",
+              "name_en": "Dayr al-Kahf"
+            },
+            {
+              "center_ar": "أم القطين",
+              "center_en": "Umm al-Quttayn",
+              "key": "umm-al-quttayn",
+              "name_ar": "أم القطين",
+              "name_en": "Umm al-Quttayn"
+            }
+          ],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "مثلث جامعة آل البيت",
+          "center_en": "Al al-Bayt University junction",
+          "key": "northwestern-badia",
+          "name_ar": "البادية الشمالية الغربية",
+          "name_en": "Northwestern Badia",
+          "qada": [
+            {
+              "center_ar": "سما السرحان",
+              "center_en": "Sama al-Sarhan",
+              "key": "sama-al-sarhan",
+              "name_ar": "سما السرحان",
+              "name_en": "Sama al-Sarhan"
+            },
+            {
+              "center_ar": "مثلث حوشا",
+              "center_en": "Hawsha junction",
+              "key": "hawsha",
+              "name_ar": "حوشا",
+              "name_en": "Hawsha"
+            },
+            {
+              "center_ar": "الخالدية",
+              "center_en": "Al-Khalidiyah",
+              "key": "khalidiyah",
+              "name_ar": "الخالدية",
+              "name_en": "Al-Khalidiyah"
+            }
+          ],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "الرويشد",
+          "center_en": "Ruwayshid",
+          "key": "ruwayshid",
+          "name_ar": "الرويشد",
+          "name_en": "Ruwayshid",
+          "qada": [],
+          "source": "ruwayshid",
+          "valid_from": null
+        },
+        {
+          "center_ar": "بلعما",
+          "center_en": "Bal'ama",
+          "key": "balama",
+          "name_ar": "بلعما",
+          "name_en": "Bal'ama",
+          "qada": [],
+          "source": "amendment",
+          "valid_from": "2024-06-06"
+        }
+      ],
+      "name_ar": "المفرق",
+      "name_en": "Mafraq"
+    },
+    {
+      "article": "Article 11",
+      "center_ar": "الطفيلة",
+      "center_en": "Tafilah",
+      "key": "tafilah",
+      "liwa": [
+        {
+          "center_ar": "الطفيلة",
+          "center_en": "Tafilah",
+          "key": "qasabat-tafilah",
+          "name_ar": "قصبة الطفيلة",
+          "name_en": "Qasabat Tafilah",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "بصيرا",
+          "center_en": "Busayra",
+          "key": "busayra",
+          "name_ar": "بصيرا",
+          "name_en": "Busayra",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "الحسا",
+          "center_en": "Al-Hasa",
+          "key": "hasa",
+          "name_ar": "الحسا",
+          "name_en": "Al-Hasa",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        }
+      ],
+      "name_ar": "الطفيلة",
+      "name_en": "Tafilah"
+    },
+    {
+      "article": "Article 12",
+      "center_ar": "مادبا",
+      "center_en": "Madaba",
+      "key": "madaba",
+      "liwa": [
+        {
+          "center_ar": "مادبا",
+          "center_en": "Madaba",
+          "key": "qasabat-madaba",
+          "name_ar": "قصبة مادبا",
+          "name_en": "Qasabat Madaba",
+          "qada": [
+            {
+              "center_ar": "جرينة",
+              "center_en": "Juraynah",
+              "key": "juraynah",
+              "name_ar": "جرينة",
+              "name_en": "Juraynah"
+            },
+            {
+              "center_ar": "ماعين",
+              "center_en": "Ma'in",
+              "key": "main",
+              "name_ar": "ماعين",
+              "name_en": "Ma'in"
+            },
+            {
+              "center_ar": "الفيصلية",
+              "center_en": "Al-Faysaliyah",
+              "key": "faysaliyah",
+              "name_ar": "الفيصلية",
+              "name_en": "Al-Faysaliyah"
+            }
+          ],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "ذيبان",
+          "center_en": "Dhiban",
+          "key": "dhiban",
+          "name_ar": "ذيبان",
+          "name_en": "Dhiban",
+          "qada": [
+            {
+              "center_ar": "العريض",
+              "center_en": "Al-Arid",
+              "key": "arid",
+              "name_ar": "العريض",
+              "name_en": "Al-Arid"
+            },
+            {
+              "center_ar": "مليح",
+              "center_en": "Malih",
+              "key": "malih",
+              "name_ar": "مليح",
+              "name_en": "Malih"
+            }
+          ],
+          "source": "baseline",
+          "valid_from": null
+        }
+      ],
+      "name_ar": "مادبا",
+      "name_en": "Madaba"
+    },
+    {
+      "article": "Article 13",
+      "center_ar": "جرش",
+      "center_en": "Jerash",
+      "key": "jerash",
+      "liwa": [
+        {
+          "center_ar": "جرش",
+          "center_en": "Jerash",
+          "key": "qasabat-jerash",
+          "name_ar": "قصبة جرش",
+          "name_en": "Qasabat Jerash",
+          "qada": [
+            {
+              "center_ar": "المصطبة",
+              "center_en": "Mastabah",
+              "key": "mastabah",
+              "name_ar": "المصطبة",
+              "name_en": "Mastabah"
+            },
+            {
+              "center_ar": "برما",
+              "center_en": "Barma",
+              "key": "barma",
+              "name_ar": "برما",
+              "name_en": "Barma"
+            }
+          ],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "الكتة",
+          "center_en": "Al-Kittah",
+          "key": "mirad",
+          "name_ar": "المعراض",
+          "name_en": "Mi'rad",
+          "qada": [],
+          "source": "amendment",
+          "valid_from": "2024-06-06"
+        }
+      ],
+      "name_ar": "جرش",
+      "name_en": "Jerash"
+    },
+    {
+      "article": "Article 14",
+      "center_ar": "عجلون",
+      "center_en": "Ajloun",
+      "key": "ajloun",
+      "liwa": [
+        {
+          "center_ar": "عجلون",
+          "center_en": "Ajloun",
+          "key": "qasabat-ajloun",
+          "name_ar": "قصبة عجلون",
+          "name_en": "Qasabat Ajloun",
+          "qada": [
+            {
+              "center_ar": "صخرة",
+              "center_en": "Sakhrah",
+              "key": "sakhrah",
+              "name_ar": "صخرة",
+              "name_en": "Sakhrah"
+            },
+            {
+              "center_ar": "عرجان",
+              "center_en": "Arjan",
+              "key": "arjan",
+              "name_ar": "عرجان",
+              "name_en": "Arjan"
+            }
+          ],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "كفرنجة",
+          "center_en": "Kufranjah",
+          "key": "kufranjah",
+          "name_ar": "كفرنجة",
+          "name_en": "Kufranjah",
+          "qada": [],
+          "source": "baseline",
+          "valid_from": null
+        }
+      ],
+      "name_ar": "عجلون",
+      "name_en": "Ajloun"
+    },
+    {
+      "article": "Article 15",
+      "center_ar": "العقبة",
+      "center_en": "Aqaba",
+      "key": "aqaba",
+      "liwa": [
+        {
+          "center_ar": "العقبة",
+          "center_en": "Aqaba",
+          "key": "qasabat-aqaba",
+          "name_ar": "قصبة العقبة",
+          "name_en": "Qasabat Aqaba",
+          "qada": [
+            {
+              "center_ar": "الريشة",
+              "center_en": "Al-Rishah",
+              "key": "wadi-araba",
+              "name_ar": "وادي عربة",
+              "name_en": "Wadi Araba"
+            }
+          ],
+          "source": "baseline",
+          "valid_from": null
+        },
+        {
+          "center_ar": "القويرة",
+          "center_en": "Quwayrah",
+          "key": "quwayrah",
+          "name_ar": "القويرة",
+          "name_en": "Quwayrah",
+          "qada": [
+            {
+              "center_ar": "الديسة",
+              "center_en": "Al-Disah",
+              "key": "disah",
+              "name_ar": "الديسة",
+              "name_en": "Al-Disah"
+            }
+          ],
+          "source": "baseline",
+          "valid_from": null
+        }
+      ],
+      "name_ar": "العقبة",
+      "name_en": "Aqaba"
+    }
+  ],
+  "legal_effective_date": "2024-06-06",
+  "notes": [
+    "The current hierarchy applies Regulation No. 29 of 2024 to Regulation No. 46 of 2000.",
+    "Ruwayshid is retained as a liwa from official current Ministry evidence; its exact commencement date is not_documented.",
+    "Statistical same-name qada rows are not imported as additional legal qada.",
+    "The two remaining Jerash qada, Mastabah and Barma, remain subordinate to Qasabat Jerash after Mi'rad was created from a locality list rather than by promoting either qada."
+  ],
+  "ruwayshid_source_id": "SRC-JO-MOI-RUWAYSHID-2026",
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-15"
+}

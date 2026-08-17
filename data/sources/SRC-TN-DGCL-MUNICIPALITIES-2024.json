@@ -1,0 +1,20 @@
+{
+  "archive_url": "https://data.gov.tn/cms/download/a04051fe-0b5c-4ff1-bc7d-59dfc2732866/01b6fc4a-e490-451c-b932-96e63b4aa7e6/aHR0cDovL3d3dy5jb2xsZWN0aXZpdGVzbG9jYWxlcy5nb3YudG4vd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDEvbGlzdGUtY29tbXVuZXMueGxzeA==/",
+  "checksum": null,
+  "country_codes": [
+    "TN"
+  ],
+  "id": "SRC-TN-DGCL-MUNICIPALITIES-2024",
+  "language": "ar-fr",
+  "license": "Resource-specific license not stated; factual register transcription only",
+  "locator": "Workbook rows 1–350; governorate ID, municipality ID, four-digit code, Arabic and French labels",
+  "notes": "Exactly 350 coded rows were rendered through the official data.gov.tn service. Exact workbook bytes were not available, so no upstream checksum is claimed; the committed transcription has its own checksum manifest.",
+  "publication_date": "2024-01",
+  "publisher": "Portail des Collectivités Locales, République Tunisienne",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "2.0.0",
+  "source_type": "official_register",
+  "title": "Liste des communes — January 2024 coded municipality register",
+  "url": "http://www.collectiviteslocales.gov.tn/wp-content/uploads/2024/01/liste-communes.xlsx"
+}

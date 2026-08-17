@@ -1,0 +1,22 @@
+{
+  "schema_version": "2.0.0",
+  "country_code": "KW",
+  "census": "Kuwait Registration Census 2021",
+  "reference_date_precision": "year",
+  "normalized_reference_date": "2021-01-01",
+  "retrieved_at": "2026-08-16",
+  "publisher": "Central Statistical Bureau",
+  "index_url": "https://census.csb.gov.kw/index",
+  "table_url": "https://census.csb.gov.kw/Census_Gov",
+  "total_population": 4385717,
+  "not_stated_population": 4578,
+  "records": [
+    {"name_ar": "العاصمة", "name_en": "Capital", "population": 574839},
+    {"name_ar": "حولي", "name_en": "Hawalli", "population": 926170},
+    {"name_ar": "الأحمدي", "name_en": "Al-Ahmadi", "population": 923784},
+    {"name_ar": "الجهراء", "name_en": "Al-Jahra", "population": 566861},
+    {"name_ar": "الفروانية", "name_en": "Al-Farwaniya", "population": 1109819},
+    {"name_ar": "مبارك الكبير", "name_en": "Mubarak Al-Kabeer", "population": 279666}
+  ],
+  "reconciliation": "Six governorate rows sum to 4,381,139; adding the official Not Stated row 4,578 equals the official census total 4,385,717. The downloadable table/chart values are used. Differing prominent page widgets are not imported."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "SRC-SA-CULTURAL-FIXTURE-2026",
+  "schema_version": "2.0.0",
+  "title": "Saudi bounded cultural-content extraction fixture, 2026-08-15",
+  "author": null,
+  "organization": "arab data project",
+  "publisher": "arab data project",
+  "source_type": "project_audit",
+  "url": "https://github.com/hishamalmushrea-cloud/arab/blob/arena/01a00307-arab/data/imports/saudi/cultural_content_2026.json",
+  "archive_url": null,
+  "publication_date": "2026-08-15",
+  "retrieved_at": "2026-08-15",
+  "license": "Source copyright; factual extraction with attribution",
+  "language": "en",
+  "country_codes": [
+    "SA"
+  ],
+  "locator": "complete JSON document",
+  "checksum": "sha256:e925b382d3e6038126562efc97f98072d8dd999e143396b8606a8cf41f976709",
+  "quality_tier": "B",
+  "notes": "Project audit fixture containing only bounded assertions and exact upstream source locators. Publication date is the fixture date."
+}

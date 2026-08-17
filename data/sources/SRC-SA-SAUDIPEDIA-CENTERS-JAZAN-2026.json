@@ -1,0 +1,22 @@
+{
+  "id": "SRC-SA-SAUDIPEDIA-CENTERS-JAZAN-2026",
+  "schema_version": "2.0.0",
+  "title": "List of Administrative Centers in Jazan Region",
+  "author": null,
+  "organization": "Saudipedia",
+  "publisher": "Saudipedia",
+  "source_type": "institutional_page",
+  "url": "https://saudipedia.com/قائمة-المراكز-الإدارية-في-منطقة-جازان",
+  "archive_url": null,
+  "publication_date": null,
+  "retrieved_at": "2026-08-15",
+  "license": "Source copyright; factual extraction with attribution",
+  "language": "ar",
+  "country_codes": [
+    "SA"
+  ],
+  "locator": "first administrative-centers table, all published data rows",
+  "checksum": "sha256:c04a568723e1986a00d8e70180e718546e7afba9507f558e4a4c9941ce64b51d",
+  "quality_tier": "A",
+  "notes": "Local snapshot: data/imports/saudi/raw/2026-08-15/saudipedia-centers-jazan.html. Parsed deterministically as a dated published-row registry; not asserted to be a complete current-national center registry. Publication date unavailable on the captured record."
+}

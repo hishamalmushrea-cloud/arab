@@ -1,0 +1,153 @@
+{
+  "country_code": "PS",
+  "denominators": {
+    "gaza_strip": 5,
+    "governorates": 16,
+    "west_bank": 11,
+    "world_heritage": 6
+  },
+  "governorates": [
+    {
+      "code": "01",
+      "name_ar": "جنين",
+      "name_en": "Jenin",
+      "statistical_region": "west_bank"
+    },
+    {
+      "code": "05",
+      "name_ar": "طوباس والأغوار الشمالية",
+      "name_en": "Tubas & Northern Valleys",
+      "statistical_region": "west_bank"
+    },
+    {
+      "code": "10",
+      "name_ar": "طولكرم",
+      "name_en": "Tulkarm",
+      "statistical_region": "west_bank"
+    },
+    {
+      "code": "15",
+      "name_ar": "نابلس",
+      "name_en": "Nablus",
+      "statistical_region": "west_bank"
+    },
+    {
+      "code": "20",
+      "name_ar": "قلقيلية",
+      "name_en": "Qalqiliya",
+      "statistical_region": "west_bank"
+    },
+    {
+      "code": "25",
+      "name_ar": "سلفيت",
+      "name_en": "Salfit",
+      "statistical_region": "west_bank"
+    },
+    {
+      "code": "30",
+      "name_ar": "رام الله والبيرة",
+      "name_en": "Ramallah & Al-Bireh",
+      "statistical_region": "west_bank"
+    },
+    {
+      "code": "35",
+      "name_ar": "أريحا والأغوار",
+      "name_en": "Jericho & Al-Aghwar",
+      "statistical_region": "west_bank"
+    },
+    {
+      "code": "40",
+      "name_ar": "القدس",
+      "name_en": "Jerusalem",
+      "statistical_region": "west_bank"
+    },
+    {
+      "code": "45",
+      "name_ar": "بيت لحم",
+      "name_en": "Bethlehem",
+      "statistical_region": "west_bank"
+    },
+    {
+      "code": "50",
+      "name_ar": "الخليل",
+      "name_en": "Hebron",
+      "statistical_region": "west_bank"
+    },
+    {
+      "code": "55",
+      "name_ar": "شمال غزة",
+      "name_en": "North Gaza",
+      "statistical_region": "gaza_strip"
+    },
+    {
+      "code": "60",
+      "name_ar": "غزة",
+      "name_en": "Gaza",
+      "statistical_region": "gaza_strip"
+    },
+    {
+      "code": "65",
+      "name_ar": "دير البلح",
+      "name_en": "Deir Al-Balah",
+      "statistical_region": "gaza_strip"
+    },
+    {
+      "code": "70",
+      "name_ar": "خان يونس",
+      "name_en": "Khan Yunis",
+      "statistical_region": "gaza_strip"
+    },
+    {
+      "code": "75",
+      "name_ar": "رفح",
+      "name_en": "Rafah",
+      "statistical_region": "gaza_strip"
+    }
+  ],
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-17",
+  "sources": {
+    "molg": "https://www.molg.pna.ps/ar/articles/15807/%D9%86%D8%A8%D8%B0%D8%A9",
+    "pcbs": "https://www.pcbs.gov.ps/Downloads/book2522.pdf",
+    "sebastia": "https://whc.unesco.org/document/226638",
+    "whc": "https://whc.unesco.org/en/statesparties/ps"
+  },
+  "world_heritage": [
+    {
+      "in_danger_claim": null,
+      "inscription_year": 2023,
+      "name": "Ancient Jericho/Tell es-Sultan",
+      "reference": 1687
+    },
+    {
+      "in_danger_claim": null,
+      "inscription_year": 2012,
+      "name": "Birthplace of Jesus: Church of the Nativity and the Pilgrimage Route, Bethlehem",
+      "reference": 1433
+    },
+    {
+      "in_danger_claim": null,
+      "inscription_year": 2017,
+      "name": "Hebron/Al-Khalil Old Town",
+      "reference": 1565
+    },
+    {
+      "in_danger_claim": null,
+      "inscription_year": 2014,
+      "name": "Palestine: Land of Olives and Vines – Cultural Landscape of Southern Jerusalem, Battir",
+      "reference": 1492
+    },
+    {
+      "in_danger_claim": null,
+      "inscription_year": 2024,
+      "name": "Saint Hilarion Monastery/ Tell Umm Amer",
+      "reference": 1749
+    },
+    {
+      "in_danger_claim": true,
+      "inscription_year": 2026,
+      "name": "Sebastia",
+      "reference": 1809
+    }
+  ]
+}

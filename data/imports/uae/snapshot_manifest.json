@@ -1,0 +1,178 @@
+{
+  "method": "Bounded exact relevant-text extraction from official and peer-reviewed pages; local checksums bind persisted excerpts, not unretained full HTTP responses.",
+  "records": [
+    {
+      "bytes": 360,
+      "capture_scope": "relevant_exact_excerpt",
+      "path": "raw/2026-08-15/federal-seven-emirates.txt",
+      "retrieved_at": "2026-08-15",
+      "sha256": "920ab9ce357ed7376de8e80cebc6b8fe2e81868e95c63e6752bfd446b6c6b297",
+      "source_id": "SRC-AE-FEDERAL-SEVEN-EMIRATES-2026",
+      "url": "https://u.ae/en/about-the-uae/the-seven-emirates"
+    },
+    {
+      "bytes": 728,
+      "capture_scope": "relevant_exact_excerpt",
+      "path": "raw/2026-08-15/abu-dhabi-three-municipalities.txt",
+      "retrieved_at": "2026-08-15",
+      "sha256": "c9cf26ef0c853ee1805efcd572b88eb6d05342e3573c3a315a4c4b28ab9c445d",
+      "source_id": "SRC-AE-DMT-THREE-MUNICIPALITIES-2026",
+      "url": "https://www.dmt.gov.ae/en/adm/Environment-Healthy-Safty/About-EHS"
+    },
+    {
+      "bytes": 445,
+      "capture_scope": "relevant_exact_excerpt",
+      "path": "raw/2026-08-15/dubai-population-bulletin-2022.txt",
+      "retrieved_at": "2026-08-15",
+      "sha256": "2bd15237dc46fa0fccbed4f7cf853be41f5fca72b2fce69c0e1e6f55113ca509",
+      "source_id": "SRC-AE-DSC-SECTORS-2022",
+      "url": "https://www.dsc.gov.ae/Publication/Population%20Bulletin%20Emirate%20of%20Dubai-2022.pdf"
+    },
+    {
+      "bytes": 573,
+      "capture_scope": "relevant_exact_excerpt",
+      "path": "raw/2026-08-15/dubai-pulse-sectors-2025.txt",
+      "retrieved_at": "2026-08-15",
+      "sha256": "e6b7fe7631a75a14c578d28e6af7f4639abf03c7be93f4c4678cc534ada61b02",
+      "source_id": "SRC-AE-DUBAI-PULSE-SECTORS-2025",
+      "url": "https://www.dubaipulse.gov.ae/data/dm-location/dm_sectors-open"
+    },
+    {
+      "bytes": 628,
+      "capture_scope": "relevant_exact_excerpt",
+      "path": "raw/2026-08-15/dubai-pulse-community-2025.txt",
+      "retrieved_at": "2026-08-15",
+      "sha256": "2916875e92e554a52f2aa43c87d9dbc24fefa427c18f042837cc1c71095de40e",
+      "source_id": "SRC-AE-DUBAI-PULSE-COMMUNITIES-2025",
+      "url": "https://www.dubaipulse.gov.ae/data/dm_community-open/datafiles/d22b4dd2-dded-4666-bc0b-97bd11e8e0a5/dm-location"
+    },
+    {
+      "bytes": 751,
+      "capture_scope": "relevant_exact_excerpt",
+      "path": "raw/2026-08-15/sharjah-municipalities-2023.txt",
+      "retrieved_at": "2026-08-15",
+      "sha256": "5abb2e0b0b8603400766356f0139d74dff30677469f2493a201a72b4a8fda39b",
+      "source_id": "SRC-AE-SGMB-MUNICIPALITIES-2023",
+      "url": "https://sgmb.ae/en/news/%D9%84%D8%AC%D9%86%D8%A9-%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D9%8A-%D8%AA%D9%83%D9%85%D9%84-%D8%AC%D9%88%D9%84%D8%AA%D9%87%D8%A7-%D9%84%D8%B2%D9%8A%D8%A7%D8%B1%D8%A9-%D8%A8%D9%84%D8%AF%D9%8A%D8%A7%D8%AA-%D8%A5%D9%85%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%B4%D8%A7%D8%B1%D9%82%D8%A9-%D9%88%D8%AA%D8%A4%D9%83%D8%AF-%D8%AC%D8%A7%D9%87%D8%B2%D9%8A%D8%AA%D9%87%D8%A7-%D9%84%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-19-10-2023"
+    },
+    {
+      "bytes": 848,
+      "capture_scope": "relevant_exact_excerpt",
+      "path": "raw/2026-08-15/ajman-about.txt",
+      "retrieved_at": "2026-08-15",
+      "sha256": "505d29bfe219af0a0f7ea3b90ecb47c9cd23b6c2144cbe257bbb4ff5e321ca77",
+      "source_id": "SRC-AE-AJMAN-ABOUT-2026",
+      "url": "https://www.ajman.ae/en/about-ajman"
+    },
+    {
+      "bytes": 437,
+      "capture_scope": "relevant_exact_excerpt",
+      "path": "raw/2026-08-15/uaq-executive-council.txt",
+      "retrieved_at": "2026-08-15",
+      "sha256": "038f0a6a66c49532ac5a78679caed77cd78f0ad9f55fcdc6c4c4aee4ab9a8574",
+      "source_id": "SRC-AE-UAQ-EXECUTIVE-COUNCIL-2026",
+      "url": "https://ec.uaq.ae/en/about-us/mandate.html"
+    },
+    {
+      "bytes": 599,
+      "capture_scope": "relevant_exact_excerpt",
+      "path": "raw/2026-08-15/uaq-falaj-overview.txt",
+      "retrieved_at": "2026-08-15",
+      "sha256": "fe3dbbe22b8bd9b01e77fdf7f2b240751350a6f5325d7b8e6c1f5e828c88148f",
+      "source_id": "SRC-AE-UAQ-FALAJ-OVERVIEW-2026",
+      "url": "https://fmd.uaq.ae/en/about-us/overview.html"
+    },
+    {
+      "bytes": 1298,
+      "capture_scope": "relevant_exact_excerpt",
+      "path": "raw/2026-08-15/rak-general-information.txt",
+      "retrieved_at": "2026-08-15",
+      "sha256": "87c2f2fad47068e664fb021e9c03ec5079e69c9d730dc32f444bd26942be3748",
+      "source_id": "SRC-AE-RAK-GENERAL-2026",
+      "url": "https://www.rak.ae/wps/portal/rak/about/ras-al-khaimah/general-information"
+    },
+    {
+      "bytes": 689,
+      "capture_scope": "relevant_exact_excerpt",
+      "path": "raw/2026-08-15/fujairah-gis-law-2017.txt",
+      "retrieved_at": "2026-08-15",
+      "sha256": "26b4bcc3b05cb224b50146ce46b8bb38b058efd38983a93f4cd73a8706ebbe45",
+      "source_id": "SRC-AE-FUJAIRAH-GIS-2017",
+      "url": "https://fujairah.ae/en/Pages/Fujairah-Ruler-Establish-Centre-for-Geographic-Information-Sytstems.aspx"
+    },
+    {
+      "bytes": 765,
+      "capture_scope": "relevant_exact_excerpt",
+      "path": "raw/2026-08-15/uae-food-2024.txt",
+      "retrieved_at": "2026-08-15",
+      "sha256": "158d2760c750a012be780901e6391faa7d20f1cb796d704845f7489bef1bf068",
+      "source_id": "SRC-AE-UAE-FOOD-2024",
+      "url": "https://u.ae/en/about-the-uae/culture/food"
+    },
+    {
+      "bytes": 663,
+      "capture_scope": "relevant_exact_excerpt",
+      "path": "raw/2026-08-15/uae-art-2024.txt",
+      "retrieved_at": "2026-08-15",
+      "sha256": "1a67a0f9f47d4a80ba5249db02e73af182268bbf1f13d28159831acca2abfdd7",
+      "source_id": "SRC-AE-UAE-ART-2024",
+      "url": "https://u.ae/en/about-the-uae/culture/art"
+    },
+    {
+      "bytes": 776,
+      "capture_scope": "relevant_exact_excerpt",
+      "path": "raw/2026-08-15/mdpi-dialect-2020.txt",
+      "retrieved_at": "2026-08-15",
+      "sha256": "e61c20abf6f5d746196e54352fea5f26910633a893eee40ba159ba4e9fe2b5c4",
+      "source_id": "SRC-AE-MDPI-DIALECT-2020",
+      "url": "https://doi.org/10.3390/sci2040093"
+    },
+    {
+      "bytes": 662,
+      "capture_scope": "relevant_exact_excerpt",
+      "path": "raw/2026-08-15/abu-dhabi-profile-2025.txt",
+      "retrieved_at": "2026-08-15",
+      "sha256": "fb293fd83aa2558a1ee397b938bf7304f5350472ede1f92406d87940db464e95",
+      "source_id": "SRC-AE-UAE-ABU-DHABI-2025",
+      "url": "https://u.ae/en/about-the-uae/the-seven-emirates/abu-dhabi"
+    },
+    {
+      "bytes": 733,
+      "capture_scope": "relevant_exact_excerpt",
+      "path": "raw/2026-08-15/dubai-shindagha-2023.txt",
+      "retrieved_at": "2026-08-15",
+      "sha256": "d3f9c8df032b15143b2f265ab029691df66358042671d1fd8080490f0b5d5534",
+      "source_id": "SRC-AE-DUBAI-CULTURE-SHINDAGHA-2023",
+      "url": "https://dubaiculture.gov.ae/en/events/DPA-AlSerkal"
+    },
+    {
+      "bytes": 733,
+      "capture_scope": "relevant_exact_excerpt",
+      "path": "raw/2026-08-15/sharjah-profile-2024.txt",
+      "retrieved_at": "2026-08-15",
+      "sha256": "50cfe651e4e3eb291a65bddfa012235d7cccd1360b94f1d97cda5b7148770ea7",
+      "source_id": "SRC-AE-UAE-SHARJAH-2024",
+      "url": "https://u.ae/en/about-the-uae/the-seven-emirates/sharjah"
+    },
+    {
+      "bytes": 530,
+      "capture_scope": "relevant_exact_excerpt",
+      "path": "raw/2026-08-15/uaq-profile-2024.txt",
+      "retrieved_at": "2026-08-15",
+      "sha256": "d34522cce1eca2c9dd956b9e074f0dbf71af4e5f4a4c32bde045e625b51cb6fb",
+      "source_id": "SRC-AE-UAE-UAQ-2024",
+      "url": "https://u.ae/en/about-the-uae/the-seven-emirates/umm-al-quwain"
+    },
+    {
+      "bytes": 585,
+      "capture_scope": "relevant_exact_excerpt",
+      "path": "raw/2026-08-15/fujairah-profile-2025.txt",
+      "retrieved_at": "2026-08-15",
+      "sha256": "7c7c5f3630366cc38cd173746f4f31d7b2cf97e148b3ab445831c571a2f99034",
+      "source_id": "SRC-AE-UAE-FUJAIRAH-2025",
+      "url": "https://u.ae/en/about-the-uae/the-seven-emirates/fujairah"
+    }
+  ],
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-15"
+}

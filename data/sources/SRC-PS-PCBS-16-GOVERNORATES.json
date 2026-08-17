@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:b330d9d56d11fc8f426a4f46cc8ca5d17e50cdb62d9dfa3543d2a56bb8d85cf3",
+  "country_codes": [
+    "PS"
+  ],
+  "id": "SRC-PS-PCBS-16-GOVERNORATES",
+  "language": "ar-en",
+  "license": "Official Palestine statistical/government material; factual extraction with attribution; reuse terms not stated",
+  "locator": "11 West Bank and 5 Gaza Strip governorates",
+  "notes": "Statistical/legal scope; no effective-control claim. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "Palestinian Central Bureau of Statistics",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-17",
+  "schema_version": "2.0.0",
+  "source_type": "census",
+  "title": "PCBS 16-governorate statistical geography",
+  "url": "https://www.pcbs.gov.ps/Downloads/book2522.pdf"
+}

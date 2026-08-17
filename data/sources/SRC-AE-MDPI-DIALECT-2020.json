@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:e61c20abf6f5d746196e54352fea5f26910633a893eee40ba159ba4e9fe2b5c4",
+  "country_codes": [
+    "AE"
+  ],
+  "id": "SRC-AE-MDPI-DIALECT-2020",
+  "language": "en, ar",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "locator": "Chapter XXI lexical comparison: waid, shoo, and rabi3",
+  "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/mdpi-dialect-2020.txt. Checksum binds that extract (776 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt.",
+  "publication_date": "2020-12-18",
+  "publisher": "MDPI / Sci",
+  "quality_tier": "B",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "2.0.0",
+  "source_type": "academic",
+  "title": "Promoting Arabic Literacy in Primary Schools in the United Arab Emirates through the Emirati Dialect",
+  "url": "https://doi.org/10.3390/sci2040093"
+}

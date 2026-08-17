@@ -1,0 +1,211 @@
+{
+  "caveats": [
+    "58 current wilayas; 11 proposed cannot become current before 2027-01-01.",
+    "1541 communes deferred.",
+    "Daïras are state administrative extensions, not wilayas/communes."
+  ],
+  "country": {
+    "entity_id": "ENT-DZ-COUNTRY",
+    "iso2": "DZ",
+    "name_ar": "الجزائر"
+  },
+  "coverage_record_ids": [
+    "COV-DZ-COUNTRY-SCOPE",
+    "COV-DZ-WILAYAS-CURRENT-2021",
+    "COV-DZ-WILAYAS-FUTURE-2027"
+  ],
+  "hierarchy": [
+    {
+      "allowed_parent_types": [],
+      "caveat": "Country scope only; not a local coverage assertion.",
+      "entity_type": "country",
+      "level": 0,
+      "local_names": [
+        "دولة"
+      ],
+      "source_ids": [
+        "SRC-ISO-3166-1-2020"
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "disputed",
+        "de_facto",
+        "claimed"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "country"
+      ],
+      "authority_name": "Ministry / ONS",
+      "caveat": "الولايات المنتقلة إلى كامل الصلاحيات في 2027 يجب تمييزها كمرحلة انتقالية حتى النفاذ.",
+      "coverage_record_id": "COV-DZ-WILAYAS-CURRENT-2021",
+      "denominator": 58,
+      "denominator_id": "DEN-DZ-WILAYAS-CURRENT-2021",
+      "entity_type": "dz_wilaya",
+      "level": 1,
+      "license": "Official Algeria legal/statistical material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "ولاية"
+      ],
+      "notes": "Current layer only.",
+      "scope_status": "closed",
+      "snapshot_date": "2021-03-29",
+      "source_ids": [
+        "SRC-DZ-ONS-CGN-2021",
+        "SRC-DZ-INTERIOR-69-TRANSITION-2025"
+      ],
+      "special_cases": [
+        "11 proposed records effective 2027 are outside current denominator."
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "dz_wilaya"
+      ],
+      "authority_name": "Ministry / ONS",
+      "caveat": "الولايات المنتقلة إلى كامل الصلاحيات في 2027 يجب تمييزها كمرحلة انتقالية حتى النفاذ.",
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
+      "entity_type": "dz_daira",
+      "level": 2,
+      "license": null,
+      "local_names": [
+        "دائرة"
+      ],
+      "notes": "Record-level import deferred.",
+      "scope_status": "unavailable",
+      "snapshot_date": null,
+      "source_ids": [],
+      "special_cases": [],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "pending"
+    },
+    {
+      "allowed_parent_types": [
+        "dz_daira"
+      ],
+      "authority_name": "Ministry / ONS",
+      "caveat": "الولايات المنتقلة إلى كامل الصلاحيات في 2027 يجب تمييزها كمرحلة انتقالية حتى النفاذ.",
+      "coverage_record_id": null,
+      "denominator": 1541,
+      "denominator_id": null,
+      "entity_type": "dz_commune",
+      "level": 3,
+      "license": null,
+      "local_names": [
+        "بلدية"
+      ],
+      "notes": "Record-level import deferred.",
+      "scope_status": "open",
+      "snapshot_date": null,
+      "source_ids": [],
+      "special_cases": [],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "pending"
+    }
+  ],
+  "next_action": "Maintain temporal separation; import communes only from current CGN.",
+  "official_authority": {
+    "missing_reason": null,
+    "name": "Ministère de l’Intérieur / ONS",
+    "source_ids": [
+      "SRC-DZ-ONS-CGN-2021",
+      "SRC-DZ-INTERIOR-58-WILAYAS",
+      "SRC-DZ-INTERIOR-69-TRANSITION-2025"
+    ],
+    "verification_status": "verified"
+  },
+  "pilot_layers": [
+    {
+      "authority_name": "Ministry / ONS",
+      "coverage_record_id": "COV-DZ-WILAYAS-CURRENT-2021",
+      "denominator": 58,
+      "denominator_id": "DEN-DZ-WILAYAS-CURRENT-2021",
+      "entity_types": [
+        "dz_wilaya"
+      ],
+      "layer": "dz_wilaya_current",
+      "license": "Official Algeria legal/statistical material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "wilaya"
+      ],
+      "notes": "Current status only.",
+      "scope_status": "closed",
+      "snapshot_date": "2021-03-29",
+      "source_ids": [
+        "SRC-DZ-ONS-CGN-2021",
+        "SRC-DZ-INTERIOR-58-WILAYAS"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "Ministry",
+      "coverage_record_id": "COV-DZ-WILAYAS-FUTURE-2027",
+      "denominator": 69,
+      "denominator_id": "DEN-DZ-WILAYAS-FUTURE-2027",
+      "entity_types": [
+        "dz_wilaya"
+      ],
+      "layer": "dz_wilaya_future",
+      "license": "Official Algeria legal/statistical material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "future wilaya"
+      ],
+      "notes": "Planning universe; not current.",
+      "scope_status": "closed",
+      "snapshot_date": "2027-01-01",
+      "source_ids": [
+        "SRC-DZ-INTERIOR-69-TRANSITION-2025"
+      ],
+      "special_cases": [
+        "11 proposed until 2027."
+      ]
+    }
+  ],
+  "schema_version": "2.0.0",
+  "snapshot": {
+    "as_of": "2026-08-16",
+    "snapshot_id": "SNP-DZ-PRODUCTION-20260816",
+    "status": "verified"
+  },
+  "status": "pilot_migrated"
+}

@@ -1,0 +1,18 @@
+{
+  "captured_at": "2026-08-17",
+  "country_code": "YE",
+  "reconciliation": {
+    "added_by_law_31_2013": 1,
+    "current_scope": 22,
+    "legacy_scope": 21,
+    "socotra_effective_date_basis": "Law reported issued 2013-12-18; Yemen laws ordinarily state operation from issuance, but the complete official text locator remains a documented source-access limitation."
+  },
+  "records": [
+    {
+      "path": "fixtures/first_level_2026.json",
+      "record_count": 22,
+      "sha256": "761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e"
+    }
+  ],
+  "schema_version": "2.0.0"
+}

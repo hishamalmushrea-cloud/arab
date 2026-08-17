@@ -1,0 +1,22 @@
+{
+  "archive_url": null,
+  "author": null,
+  "checksum": null,
+  "country_codes": [
+    "JO"
+  ],
+  "id": "SRC-UNESCO-ICH-JO-01301",
+  "language": "ar-fr-en",
+  "license": "UNESCO website terms; factual metadata transcription",
+  "locator": "Representative List element 01301; element title, description, nomination/inscription metadata",
+  "notes": "Atomic ICH element page. Geographic attribution is not broadened beyond the element record.",
+  "organization": "UNESCO Intangible Cultural Heritage",
+  "publication_date": "2018",
+  "publisher": "UNESCO Intangible Cultural Heritage",
+  "quality_tier": "B",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "2.0.0",
+  "source_type": "institutional_page",
+  "title": "As-Samer in Jordan",
+  "url": "https://ich.unesco.org/en/RL/as-samer-in-jordan-01301"
+}

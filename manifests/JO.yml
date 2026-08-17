@@ -1,0 +1,322 @@
+{
+  "caveats": [
+    "Municipalities and special local authorities are parallel scopes and are not declared complete in this pilot.",
+    "No national populated-place completeness is claimed; the four-place denominator is explicitly bounded to an eight-property extraction rule.",
+    "Dialect scope is not_documented; no lexical entry is imported without the required place, register, study/speaker, date, and form evidence.",
+    "The Ministry Ma'an summary and Petra West Irbid report are retained as conflicts but do not override controlling legal clauses."
+  ],
+  "country": {
+    "entity_id": "ENT-JO-COUNTRY",
+    "iso2": "JO",
+    "name_ar": "الأردن"
+  },
+  "coverage_record_ids": [
+    "COV-JO-COUNTRY-SCOPE",
+    "COV-JO-GOVERNORATE-2026",
+    "COV-JO-LIWA-2026",
+    "COV-JO-QADA-2026",
+    "COV-JO-WHC-2026",
+    "COV-JO-BOUNDED-PLACES-2026"
+  ],
+  "hierarchy": [
+    {
+      "allowed_parent_types": [],
+      "authority_name": "International Organization for Standardization",
+      "caveat": "One country-scope entity; this is not a local coverage assertion.",
+      "coverage_record_id": "COV-JO-COUNTRY-SCOPE",
+      "denominator": 1,
+      "denominator_id": "DEN-JO-COUNTRY-SCOPE",
+      "entity_type": "country",
+      "level": 0,
+      "license": "ISO copyright; reuse subject to ISO terms",
+      "local_names": [
+        "دولة"
+      ],
+      "notes": "Existing country entity retained.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-ISO-3166-1-2020"
+      ],
+      "special_cases": [],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "disputed",
+        "de_facto",
+        "claimed"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "country"
+      ],
+      "authority_name": "وزارة الداخلية الأردنية / رئاسة الوزراء / ديوان التشريع والرأي",
+      "caveat": "Administrative seats are claims, not governorate child entities.",
+      "coverage_record_id": "COV-JO-GOVERNORATE-2026",
+      "denominator": 12,
+      "denominator_id": "DEN-JO-GOVERNORATE-2026",
+      "entity_type": "jo_governorate",
+      "level": 1,
+      "license": "Publicly accessible factual record; resource-specific reuse terms not stated",
+      "local_names": [
+        "محافظة"
+      ],
+      "notes": "Current legal hierarchy at the dated snapshot.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-JO-REGULATION-46-2000",
+        "SRC-JO-REGULATION-29-2024",
+        "SRC-JO-GAZETTE-5931-2024"
+      ],
+      "special_cases": [],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "jo_governorate"
+      ],
+      "authority_name": "وزارة الداخلية الأردنية / رئاسة الوزراء / ديوان التشريع والرأي",
+      "caveat": "Ruwayshid is current but its exact commencement date is not_documented.",
+      "coverage_record_id": "COV-JO-LIWA-2026",
+      "denominator": 55,
+      "denominator_id": "DEN-JO-LIWA-2026",
+      "entity_type": "jo_liwa",
+      "level": 2,
+      "license": "Publicly accessible factual record; resource-specific reuse terms not stated",
+      "local_names": [
+        "لواء"
+      ],
+      "notes": "Current legal hierarchy at the dated snapshot.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-JO-REGULATION-46-2000",
+        "SRC-JO-REGULATION-29-2024",
+        "SRC-JO-GAZETTE-5931-2024",
+        "SRC-JO-MOI-RUWAYSHID-2026"
+      ],
+      "special_cases": [
+        "West Irbid, Moab, Mi'rad, and Bal'ama are current from 2024-06-06.",
+        "Petra reports 11 West Irbid towns, while the controlling amendment enumerates ten localities."
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "jo_liwa"
+      ],
+      "authority_name": "وزارة الداخلية الأردنية / رئاسة الوزراء / ديوان التشريع والرأي",
+      "caveat": "Only subordinate legal qada are counted; same-name DoS statistical rows are not extra legal qada.",
+      "coverage_record_id": "COV-JO-QADA-2026",
+      "denominator": 36,
+      "denominator_id": "DEN-JO-QADA-2026",
+      "entity_type": "jo_qada",
+      "level": 3,
+      "license": "Publicly accessible factual record; resource-specific reuse terms not stated",
+      "local_names": [
+        "قضاء"
+      ],
+      "notes": "Current legal hierarchy at the dated snapshot.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-JO-REGULATION-46-2000",
+        "SRC-JO-REGULATION-29-2024",
+        "SRC-JO-GAZETTE-5931-2024"
+      ],
+      "special_cases": [
+        "Moab and Bal'ama are no longer qada after promotion to liwa.",
+        "Article 8 controls Ma'an at four qada; the Ministry summary's 4/7 count is recorded as a conflict and not imported."
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "next_action": "Maintain dated legal amendments and institutional property registers; do not expand another country under this Jordan pilot.",
+  "official_authority": {
+    "missing_reason": null,
+    "name": "وزارة الداخلية الأردنية / رئاسة الوزراء / ديوان التشريع والرأي",
+    "source_ids": [
+      "SRC-JO-REGULATION-46-2000",
+      "SRC-JO-REGULATION-29-2024",
+      "SRC-JO-GAZETTE-5931-2024"
+    ],
+    "verification_status": "verified"
+  },
+  "pilot_layers": [
+    {
+      "authority_name": "وزارة الداخلية الأردنية / رئاسة الوزراء / ديوان التشريع والرأي",
+      "coverage_record_id": "COV-JO-GOVERNORATE-2026",
+      "denominator": 12,
+      "denominator_id": "DEN-JO-GOVERNORATE-2026",
+      "entity_types": [
+        "jo_governorate"
+      ],
+      "layer": "jo_governorate",
+      "license": "Publicly accessible factual record; resource-specific reuse terms not stated",
+      "local_names": [
+        "محافظة"
+      ],
+      "notes": "Current legal layer.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-JO-REGULATION-46-2000",
+        "SRC-JO-REGULATION-29-2024",
+        "SRC-JO-GAZETTE-5931-2024"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "وزارة الداخلية الأردنية / رئاسة الوزراء / ديوان التشريع والرأي",
+      "coverage_record_id": "COV-JO-LIWA-2026",
+      "denominator": 55,
+      "denominator_id": "DEN-JO-LIWA-2026",
+      "entity_types": [
+        "jo_liwa"
+      ],
+      "layer": "jo_liwa",
+      "license": "Publicly accessible factual record; resource-specific reuse terms not stated",
+      "local_names": [
+        "لواء"
+      ],
+      "notes": "Current legal layer; 51 pre-amendment plus four 2024 creations/promotions.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-JO-REGULATION-46-2000",
+        "SRC-JO-REGULATION-29-2024",
+        "SRC-JO-GAZETTE-5931-2024",
+        "SRC-JO-MOI-RUWAYSHID-2026"
+      ],
+      "special_cases": [
+        "Ruwayshid commencement date not_documented."
+      ]
+    },
+    {
+      "authority_name": "وزارة الداخلية الأردنية / رئاسة الوزراء / ديوان التشريع والرأي",
+      "coverage_record_id": "COV-JO-QADA-2026",
+      "denominator": 36,
+      "denominator_id": "DEN-JO-QADA-2026",
+      "entity_types": [
+        "jo_qada"
+      ],
+      "layer": "jo_qada",
+      "license": "Publicly accessible factual record; resource-specific reuse terms not stated",
+      "local_names": [
+        "قضاء"
+      ],
+      "notes": "Current subordinate legal qada only.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-JO-REGULATION-46-2000",
+        "SRC-JO-REGULATION-29-2024",
+        "SRC-JO-GAZETTE-5931-2024"
+      ],
+      "special_cases": [
+        "DoS statistical same-name qada excluded from the legal-unit concept."
+      ]
+    },
+    {
+      "authority_name": "UNESCO World Heritage Centre",
+      "coverage_record_id": "COV-JO-WHC-2026",
+      "denominator": 8,
+      "denominator_id": "DEN-JO-WHC-2026",
+      "entity_types": [
+        "archaeological_site",
+        "cultural_site",
+        "natural_site"
+      ],
+      "layer": "world_heritage_property",
+      "license": "UNESCO website terms; individual descriptions are separately licensed CC BY-SA 3.0 IGO",
+      "local_names": [
+        "موقع تراث عالمي"
+      ],
+      "notes": "Every property has an atomic source and published coordinates.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-UNESCO-WHC-JO-2026",
+        "SRC-UNESCO-WHC-JO-689",
+        "SRC-UNESCO-WHC-JO-326",
+        "SRC-UNESCO-WHC-JO-327",
+        "SRC-UNESCO-WHC-JO-1093",
+        "SRC-UNESCO-WHC-JO-1377",
+        "SRC-UNESCO-WHC-JO-1446",
+        "SRC-UNESCO-WHC-JO-1721",
+        "SRC-UNESCO-WHC-JO-1742"
+      ],
+      "special_cases": [
+        "Wadi Rum is mixed but represented by the available natural_site type with a mixed-category claim."
+      ]
+    },
+    {
+      "authority_name": "UNESCO World Heritage Centre",
+      "coverage_record_id": "COV-JO-BOUNDED-PLACES-2026",
+      "denominator": 4,
+      "denominator_id": "DEN-JO-BOUNDED-PLACES-2026",
+      "entity_types": [
+        "city",
+        "historical_place"
+      ],
+      "layer": "bounded_populated_place",
+      "license": "UNESCO website terms; individual descriptions are separately licensed CC BY-SA 3.0 IGO",
+      "local_names": [
+        "مدينة",
+        "مكان تاريخي"
+      ],
+      "notes": "Closed extraction from descriptions of the eight World Heritage properties; not a national populated-place denominator.",
+      "scope_status": "bounded",
+      "snapshot_date": "2026-08-15",
+      "source_ids": [
+        "SRC-UNESCO-WHC-JO-689",
+        "SRC-UNESCO-WHC-JO-326",
+        "SRC-UNESCO-WHC-JO-1093",
+        "SRC-UNESCO-WHC-JO-1721"
+      ],
+      "special_cases": [
+        "Site/property entities remain separate from city and historical-place entities."
+      ]
+    }
+  ],
+  "schema_version": "2.0.0",
+  "snapshot": {
+    "as_of": "2026-08-15",
+    "snapshot_id": "SNP-JO-PILOT-2026-08-15",
+    "status": "verified"
+  },
+  "status": "pilot_migrated"
+}

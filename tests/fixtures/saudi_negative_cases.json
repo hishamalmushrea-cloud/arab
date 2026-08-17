@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "SA",
+  "cases": [
+    {"id":"NEG-SA-WRONG-GOVERNORATE","mutation":"wrong_governorate","expected_issue":"wrong_governorate"},
+    {"id":"NEG-SA-WRONG-CENTER-LINKAGE","mutation":"wrong_center_linkage","expected_issue":"wrong_center_linkage"},
+    {"id":"NEG-SA-ALIAS-AS-ENTITY","mutation":"alias_as_entity","expected_issue":"alias_as_entity"},
+    {"id":"NEG-SA-NATIONAL-TO-LOCAL-LEAKAGE","mutation":"national_to_local_leakage","expected_issue":"national_to_local_leakage"},
+    {"id":"NEG-SA-FOREIGN-COUNTRY-SOURCE","mutation":"foreign_country_source","expected_issue":"foreign_country_source"},
+    {"id":"NEG-SA-HISTORICAL-AS-CURRENT","mutation":"historical_as_current","expected_issue":"historical_as_current"},
+    {"id":"NEG-SA-POPULATION-WITHOUT-YEAR","mutation":"population_without_year","expected_issue":"population_without_year"}
+  ]
+}

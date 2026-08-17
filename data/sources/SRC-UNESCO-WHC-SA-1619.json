@@ -1,0 +1,22 @@
+{
+  "id": "SRC-UNESCO-WHC-SA-1619",
+  "schema_version": "2.0.0",
+  "title": "Ḥimā Cultural Area",
+  "author": null,
+  "organization": "UNESCO World Heritage Centre",
+  "publisher": "UNESCO World Heritage Centre",
+  "source_type": "institutional_page",
+  "url": "https://whc.unesco.org/en/list/1619",
+  "archive_url": null,
+  "publication_date": null,
+  "retrieved_at": "2026-08-15",
+  "license": "Source copyright; factual extraction with attribution",
+  "language": "en",
+  "country_codes": [
+    "SA"
+  ],
+  "locator": "title and cited locator",
+  "checksum": null,
+  "quality_tier": "A",
+  "notes": "Institutional property record, reference 1619. Publication date unavailable on the captured record."
+}

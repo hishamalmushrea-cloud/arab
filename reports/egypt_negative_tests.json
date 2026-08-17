@@ -1,0 +1,49 @@
+{
+  "country_code": "EG",
+  "detected": 8,
+  "mutations": [
+    {
+      "detected": true,
+      "expected_code": "EG_COUNTS",
+      "mutation": "EG_CITY_AS_GOVERNORATE"
+    },
+    {
+      "detected": true,
+      "expected_code": "EG_PROFILE",
+      "mutation": "EG_WRONG_PROFILE"
+    },
+    {
+      "detected": true,
+      "expected_code": "EG_PARENT",
+      "mutation": "EG_WRONG_PARENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "EG_DENOMINATORS",
+      "mutation": "EG_DENOM_28"
+    },
+    {
+      "detected": true,
+      "expected_code": "EG_PREMATURE_LOWER",
+      "mutation": "EG_MARKAZ_UNDER_CAIRO"
+    },
+    {
+      "detected": true,
+      "expected_code": "EG_PREMATURE_LOWER",
+      "mutation": "EG_SHIYAKHA_UNDER_MARKAZ"
+    },
+    {
+      "detected": true,
+      "expected_code": "EG_LOWER_SCOPE",
+      "mutation": "EG_CLOSE_QISM_WITHOUT_DENOM"
+    },
+    {
+      "detected": true,
+      "expected_code": "EG_ALIAS",
+      "mutation": "EG_ALIAS_MISMATCH"
+    }
+  ],
+  "required": 8,
+  "schema_version": "2.0.0",
+  "status": "PASS"
+}

@@ -1,0 +1,33 @@
+{
+  "anomaly_count": 2,
+  "records": [
+    {
+      "action": "excluded_from_entity_materialization",
+      "anomaly_id": "ANOM-SA-DUPLICATE-6DF5369C8492",
+      "occurrence": 2,
+      "parent_label": "محافظة الرين",
+      "reason": "Exact duplicate within one parent-scoped source row; the first occurrence is retained.",
+      "region_key": "riyadh",
+      "severity": "P2",
+      "source_id": "SRC-SA-SAUDIPEDIA-CENTERS-RIYADH-2026",
+      "source_row": 24,
+      "value": "الربواء"
+    },
+    {
+      "action": "excluded_from_entity_materialization",
+      "anomaly_id": "ANOM-SA-DUPLICATE-752DDED673B0",
+      "occurrence": 2,
+      "parent_label": "محافظة حفر الباطن",
+      "reason": "Exact duplicate within one parent-scoped source row; the first occurrence is retained.",
+      "region_key": "eastern",
+      "severity": "P2",
+      "source_id": "SRC-SA-SAUDIPEDIA-CENTERS-EASTERN-2026",
+      "source_row": 4,
+      "value": "الرقعي"
+    }
+  ],
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-15",
+  "unresolved_p0": 0,
+  "unresolved_p1": 0
+}

@@ -1,0 +1,16 @@
+{
+  "country_code": "MA",
+  "critical_p1": 0,
+  "errors": [],
+  "metrics": {
+    "claims": 12,
+    "coverage": 4,
+    "denominators": 4,
+    "entities": 88,
+    "relationships": 87,
+    "sources": 3
+  },
+  "p0": 0,
+  "schema_version": "2.0.0",
+  "status": "PASS"
+}

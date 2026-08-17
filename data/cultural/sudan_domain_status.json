@@ -1,0 +1,17 @@
+{
+  "country_code": "SD",
+  "domains": {
+    "dialect": {
+      "claims": 0,
+      "status": "not_documented_in_cycle"
+    },
+    "war_time_status": {
+      "status": "requires_separate_dated_overlay"
+    },
+    "world_heritage": {
+      "status": "not_imported_in_full_pilot_stage1"
+    }
+  },
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-17"
+}

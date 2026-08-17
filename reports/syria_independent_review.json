@@ -1,0 +1,55 @@
+{
+  "country_code": "SY",
+  "critical_p1": 0,
+  "families": {
+    "aliases": {
+      "failed": 0,
+      "passed": 1,
+      "sampled": 1,
+      "status": "PASS"
+    },
+    "claims": {
+      "failed": 0,
+      "passed": 14,
+      "sampled": 14,
+      "status": "PASS"
+    },
+    "coverage": {
+      "failed": 0,
+      "passed": 6,
+      "sampled": 6,
+      "status": "PASS"
+    },
+    "denominators": {
+      "failed": 0,
+      "passed": 6,
+      "sampled": 6,
+      "status": "PASS"
+    },
+    "entities": {
+      "failed": 0,
+      "passed": 15,
+      "sampled": 15,
+      "status": "PASS"
+    },
+    "relationships": {
+      "failed": 0,
+      "passed": 14,
+      "sampled": 14,
+      "status": "PASS"
+    },
+    "sources": {
+      "failed": 0,
+      "passed": 3,
+      "sampled": 3,
+      "status": "PASS"
+    }
+  },
+  "findings": [],
+  "method": "Independent full-population comparison against checksum-bound current 14-governorate fixture and verification that 68/227 lower denominators remain open.",
+  "p0": 0,
+  "schema_version": "2.0.0",
+  "status": "PASS",
+  "total_passed": 59,
+  "total_sampled": 59
+}

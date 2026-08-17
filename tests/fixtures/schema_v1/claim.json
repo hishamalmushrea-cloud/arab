@@ -1,0 +1,20 @@
+{
+  "id": "CLM-01F01217FD73549E",
+  "notes": "2014 census value migrated from the legacy row and tied to the official census publication.",
+  "observed_at": "2014-04-23",
+  "predicate": "population",
+  "schema_version": "1.0.0",
+  "second_source_id": null,
+  "sensitivity": "ordinary",
+  "source_id": "SRC-TN-INS-RGPH-2014",
+  "source_locator": "Governorate table: باجة",
+  "status": "verified",
+  "subject_id": "ENT-TN-GOVERNORATE-EA2D44B4F25E",
+  "unit": "person",
+  "valid_from": null,
+  "valid_to": null,
+  "value": {
+    "data": 303032,
+    "type": "integer"
+  }
+}

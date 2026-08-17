@@ -1,0 +1,28 @@
+{
+  "country_code": "BH",
+  "critical_p1": 0,
+  "errors": [],
+  "metrics": {
+    "ab_claims": 13,
+    "aliases": 7,
+    "claims": 13,
+    "coverage_records": 3,
+    "denominators": 3,
+    "dialect_claims": 0,
+    "entities": 8,
+    "entity_types": {
+      "archaeological_site": 2,
+      "bh_governorate": 4,
+      "country": 1,
+      "cultural_site": 1
+    },
+    "new_entities": 7,
+    "published_claims": 13,
+    "relationships": 7,
+    "sources": 7
+  },
+  "p0": 0,
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-16",
+  "status": "PASS"
+}

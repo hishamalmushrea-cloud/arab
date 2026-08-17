@@ -1,0 +1,49 @@
+{
+  "country_code": "KM",
+  "critical_p1": 0,
+  "families": {
+    "claims": {
+      "failed": 0,
+      "passed": 6,
+      "sampled": 6,
+      "status": "PASS"
+    },
+    "coverage": {
+      "failed": 0,
+      "passed": 5,
+      "sampled": 5,
+      "status": "PASS"
+    },
+    "denominators": {
+      "failed": 0,
+      "passed": 5,
+      "sampled": 5,
+      "status": "PASS"
+    },
+    "entities": {
+      "failed": 0,
+      "passed": 75,
+      "sampled": 75,
+      "status": "PASS"
+    },
+    "relationships": {
+      "failed": 0,
+      "passed": 74,
+      "sampled": 74,
+      "status": "PASS"
+    },
+    "sources": {
+      "failed": 0,
+      "passed": 3,
+      "sampled": 3,
+      "status": "PASS"
+    }
+  },
+  "findings": [],
+  "method": "Independent full current Union hierarchy fixture comparison.",
+  "p0": 0,
+  "schema_version": "2.0.0",
+  "status": "PASS",
+  "total_passed": 168,
+  "total_sampled": 168
+}

@@ -1,0 +1,49 @@
+{
+  "country_code": "OM",
+  "detected": 8,
+  "mutations": [
+    {
+      "detected": true,
+      "expected_code": "OM_ADDITIONS",
+      "mutation": "OM_DROP_JABAL_AKHDAR"
+    },
+    {
+      "detected": true,
+      "expected_code": "OM_ADDITIONS",
+      "mutation": "OM_DROP_SINAW"
+    },
+    {
+      "detected": true,
+      "expected_code": "OM_WILAYAT_PARENT",
+      "mutation": "OM_WRONG_PARENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "OM_DENOMINATORS",
+      "mutation": "OM_LEGACY_61"
+    },
+    {
+      "detected": true,
+      "expected_code": "OM_NIYABA",
+      "mutation": "OM_FAKE_NIYABAH"
+    },
+    {
+      "detected": true,
+      "expected_code": "OM_NIYABA_DENOM",
+      "mutation": "OM_FAKE_NIYABAH_DENOM"
+    },
+    {
+      "detected": true,
+      "expected_code": "OM_DHOFAR",
+      "mutation": "OM_OMIT_SADAH"
+    },
+    {
+      "detected": true,
+      "expected_code": "OM_DHOFAR",
+      "mutation": "OM_QISHN_SILENT_RENAME"
+    }
+  ],
+  "required": 8,
+  "schema_version": "2.0.0",
+  "status": "PASS"
+}

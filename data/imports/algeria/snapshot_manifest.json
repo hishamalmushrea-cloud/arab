@@ -1,0 +1,12 @@
+{
+  "country_code": "DZ",
+  "records": [
+    {
+      "bytes": 5956,
+      "path": "data/imports/algeria/fixtures/wilaya_transition.json",
+      "sha256": "304af6095f2b8d87eadc7670c1dd5fb211550ceb344dc265bcd35c7da715a3a0"
+    }
+  ],
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-16"
+}

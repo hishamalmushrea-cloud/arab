@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:e6b7fe7631a75a14c578d28e6af7f4639abf03c7be93f4c4678cc534ada61b02",
+  "country_codes": [
+    "AE"
+  ],
+  "id": "SRC-AE-DUBAI-PULSE-SECTORS-2025",
+  "language": "en",
+  "license": "License not specified on captured dataset metadata",
+  "locator": "sec_num — Sector legal Number; resource Sectors.kml",
+  "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/dubai-pulse-sectors-2025.txt. Checksum binds that extract (573 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt.",
+  "publication_date": "2025-11-03",
+  "publisher": "Dubai Municipality via Dubai Pulse",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "2.0.0",
+  "source_type": "official_dataset",
+  "title": "dm_sectors-open / Sectors.kml metadata",
+  "url": "https://www.dubaipulse.gov.ae/data/dm-location/dm_sectors-open"
+}

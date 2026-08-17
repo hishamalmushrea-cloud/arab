@@ -1,0 +1,184 @@
+{
+  "country_code": "EG",
+  "denominators": {
+    "governorates": 27,
+    "mixed_urban_rural": 23,
+    "urban_only": 4
+  },
+  "governorates": [
+    {
+      "code": "01",
+      "name_ar": "القاهرة",
+      "name_en": "Cairo",
+      "profile": "urban_only"
+    },
+    {
+      "code": "02",
+      "name_ar": "الإسكندرية",
+      "name_en": "Alexandria",
+      "profile": "urban_only"
+    },
+    {
+      "code": "03",
+      "name_ar": "بورسعيد",
+      "name_en": "Port Said",
+      "profile": "urban_only"
+    },
+    {
+      "code": "04",
+      "name_ar": "السويس",
+      "name_en": "Suez",
+      "profile": "urban_only"
+    },
+    {
+      "code": "11",
+      "name_ar": "دمياط",
+      "name_en": "Damietta",
+      "profile": "mixed_urban_rural"
+    },
+    {
+      "code": "12",
+      "name_ar": "الدقهلية",
+      "name_en": "Dakahlia",
+      "profile": "mixed_urban_rural"
+    },
+    {
+      "code": "13",
+      "name_ar": "الشرقية",
+      "name_en": "Sharkia",
+      "profile": "mixed_urban_rural"
+    },
+    {
+      "code": "14",
+      "name_ar": "القليوبية",
+      "name_en": "Qalyubia",
+      "profile": "mixed_urban_rural"
+    },
+    {
+      "code": "15",
+      "name_ar": "كفر الشيخ",
+      "name_en": "Kafr El Sheikh",
+      "profile": "mixed_urban_rural"
+    },
+    {
+      "code": "16",
+      "name_ar": "الغربية",
+      "name_en": "Gharbia",
+      "profile": "mixed_urban_rural"
+    },
+    {
+      "code": "17",
+      "name_ar": "المنوفية",
+      "name_en": "Menoufia",
+      "profile": "mixed_urban_rural"
+    },
+    {
+      "code": "18",
+      "name_ar": "البحيرة",
+      "name_en": "Beheira",
+      "profile": "mixed_urban_rural"
+    },
+    {
+      "code": "19",
+      "name_ar": "الإسماعيلية",
+      "name_en": "Ismailia",
+      "profile": "mixed_urban_rural"
+    },
+    {
+      "code": "21",
+      "name_ar": "الجيزة",
+      "name_en": "Giza",
+      "profile": "mixed_urban_rural"
+    },
+    {
+      "code": "22",
+      "name_ar": "بني سويف",
+      "name_en": "Beni Suef",
+      "profile": "mixed_urban_rural"
+    },
+    {
+      "code": "23",
+      "name_ar": "الفيوم",
+      "name_en": "Fayoum",
+      "profile": "mixed_urban_rural"
+    },
+    {
+      "code": "24",
+      "name_ar": "المنيا",
+      "name_en": "Minya",
+      "profile": "mixed_urban_rural"
+    },
+    {
+      "code": "25",
+      "name_ar": "أسيوط",
+      "name_en": "Assiut",
+      "profile": "mixed_urban_rural"
+    },
+    {
+      "code": "26",
+      "name_ar": "سوهاج",
+      "name_en": "Sohag",
+      "profile": "mixed_urban_rural"
+    },
+    {
+      "code": "27",
+      "name_ar": "قنا",
+      "name_en": "Qena",
+      "profile": "mixed_urban_rural"
+    },
+    {
+      "code": "28",
+      "name_ar": "أسوان",
+      "name_en": "Aswan",
+      "profile": "mixed_urban_rural"
+    },
+    {
+      "code": "29",
+      "name_ar": "الأقصر",
+      "name_en": "Luxor",
+      "profile": "mixed_urban_rural"
+    },
+    {
+      "code": "31",
+      "name_ar": "البحر الأحمر",
+      "name_en": "Red Sea",
+      "profile": "mixed_urban_rural"
+    },
+    {
+      "code": "32",
+      "name_ar": "الوادي الجديد",
+      "name_en": "New Valley",
+      "profile": "mixed_urban_rural"
+    },
+    {
+      "code": "33",
+      "name_ar": "مطروح",
+      "name_en": "Matrouh",
+      "profile": "mixed_urban_rural"
+    },
+    {
+      "code": "34",
+      "name_ar": "شمال سيناء",
+      "name_en": "North Sinai",
+      "profile": "mixed_urban_rural"
+    },
+    {
+      "code": "35",
+      "name_ar": "جنوب سيناء",
+      "name_en": "South Sinai",
+      "profile": "mixed_urban_rural"
+    }
+  ],
+  "pilot_pair": {
+    "mixed_code": "21",
+    "urban_code": "01"
+  },
+  "profile_reference": "2021",
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-16",
+  "sources": {
+    "capmas": "https://www.censusinfo.capmas.gov.eg/metadata-en-v4.2/index.php/catalog/665/download/1966",
+    "capmas_codes": "https://censusinfo.capmas.gov.eg/metadata-en-v4.2/index.php/catalog/747/datafile/F34/V5875",
+    "mld": "https://www.mld.gov.eg/en/"
+  }
+}

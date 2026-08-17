@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:94421611d2de1fce249c5c6ac3e3d65cafac63b8f7ba782081a49b75a695ebde",
+  "country_codes": [
+    "KM"
+  ],
+  "id": "SRC-UNESCO-WHC-KM-1768-2026",
+  "language": "fr",
+  "license": "CC BY-SA 3.0 IGO for UNESCO descriptions",
+  "locator": "Decision 48 COM 8B.13; property 1768; six serial components",
+  "notes": "2026 inscription; older zero-property page superseded.",
+  "publication_date": "2026-07-29",
+  "publisher": "UNESCO World Heritage Committee",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-17",
+  "schema_version": "2.0.0",
+  "source_type": "institutional_page",
+  "title": "The Medinas of the Historic Sultanates of the Comoros",
+  "url": "https://whc.unesco.org/document/226095"
+}

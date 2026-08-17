@@ -1,0 +1,15 @@
+{
+  "as_of": "2026-08-15",
+  "country_code": "AE",
+  "definition": "ISO country entity in the project's 22-country scope",
+  "id": "DEN-AE-COUNTRY-SCOPE",
+  "layer": "country_scope",
+  "license": "ISO copyright; reuse is subject to ISO terms of use",
+  "missing_reason": null,
+  "notes": "This 100% applies only to the one-record country-scope layer, not to cities, villages, neighborhoods, lanes, or administrative tiers.",
+  "schema_version": "1.0.0",
+  "source_id": "SRC-ISO-3166-1-2020",
+  "source_locator": "ISO alpha-2 entry AE",
+  "status": "official",
+  "value": 1
+}

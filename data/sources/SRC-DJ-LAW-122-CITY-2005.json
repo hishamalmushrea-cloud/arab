@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:032f053c98ff55c66e06d486622c7299be15fe9ad98dd7e9b5cd4d51eacb90fb",
+  "country_codes": [
+    "DJ"
+  ],
+  "id": "SRC-DJ-LAW-122-CITY-2005",
+  "language": "fr",
+  "license": "Official Djibouti public material; factual extraction with attribution; reuse terms not stated",
+  "locator": "Article 2 three communes and special city status",
+  "notes": "Exact commune topology.",
+  "publication_date": "2005-11-01",
+  "publisher": "Journal officiel / République de Djibouti",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-16",
+  "schema_version": "2.0.0",
+  "source_type": "law",
+  "title": "Loi 122 — Statut de la Ville de Djibouti",
+  "url": "https://decentralisation.gouv.dj/wp-content/uploads/2020/11/Djibouti-Loi-2005-122-Statut-Djibouti-Ville.pdf"
+}

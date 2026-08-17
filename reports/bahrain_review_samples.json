@@ -1,0 +1,105 @@
+{
+  "country_code": "BH",
+  "families": {
+    "aliases": {
+      "population": 7,
+      "record_ids": [
+        "ALS-BH-27B502B38FC25880",
+        "ALS-BH-366BE4D7C17D5FA9",
+        "ALS-BH-5919774242D25CBA",
+        "ALS-BH-5F05226536365D92",
+        "ALS-BH-6AAE177C6A285BE3",
+        "ALS-BH-C5463B1ED9F95C86",
+        "ALS-BH-ED7BDF8AE3FA5703"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 7
+    },
+    "claims": {
+      "population": 13,
+      "record_ids": [
+        "CLM-BH-12D120CC06C85150",
+        "CLM-BH-430640AC1C2E595C",
+        "CLM-BH-50A68C15FDB45649",
+        "CLM-BH-6C77E6837C3D5FB6",
+        "CLM-BH-831A35C8D8BA5CB0",
+        "CLM-BH-876A95FD648C5BB2",
+        "CLM-BH-94F864F2C5D55216",
+        "CLM-BH-A3D4A78157D15078",
+        "CLM-BH-A749E261CC5C5923",
+        "CLM-BH-BA120E308FC95C6A",
+        "CLM-BH-DD44E9ADC99757F3",
+        "CLM-BH-EABE29983FB351B2",
+        "CLM-BH-F7D50330EDCF5043"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 13
+    },
+    "coverage": {
+      "population": 3,
+      "record_ids": [
+        "COV-BH-COUNTRY-SCOPE",
+        "COV-BH-GOVERNORATES-2024",
+        "COV-BH-WHC-20260816"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 3
+    },
+    "denominators": {
+      "population": 3,
+      "record_ids": [
+        "DEN-BH-COUNTRY-SCOPE",
+        "DEN-BH-GOVERNORATES-2024",
+        "DEN-BH-WHC-20260816"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 3
+    },
+    "entities": {
+      "population": 8,
+      "record_ids": [
+        "ENT-BH-ARCHAEOLOGICAL-SITE-DILMUN-BURIAL-MOUNDS",
+        "ENT-BH-ARCHAEOLOGICAL-SITE-QALAT-AL-BAHRAIN",
+        "ENT-BH-COUNTRY",
+        "ENT-BH-CULTURAL-SITE-PEARLING",
+        "ENT-BH-GOVERNORATE-CAPITAL",
+        "ENT-BH-GOVERNORATE-MUHARRAQ",
+        "ENT-BH-GOVERNORATE-NORTHERN",
+        "ENT-BH-GOVERNORATE-SOUTHERN"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 8
+    },
+    "relationships": {
+      "population": 7,
+      "record_ids": [
+        "REL-BH-03937398B18A57E8",
+        "REL-BH-6318F911AB8E5A7E",
+        "REL-BH-6603FAFDA7E7584D",
+        "REL-BH-74923BC8432D534C",
+        "REL-BH-8A624FAA17FB5E8F",
+        "REL-BH-B1F43343491A54C0",
+        "REL-BH-E45C5AD33DD550E3"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 7
+    },
+    "sources": {
+      "population": 7,
+      "record_ids": [
+        "SRC-BH-BACA-PEARLING-PATH",
+        "SRC-BH-OPEN-DATA-POLICY-2026",
+        "SRC-BH-SLRB-GOVERNORATE-AREA-2024",
+        "SRC-UNESCO-WHC-BH-1192",
+        "SRC-UNESCO-WHC-BH-1364",
+        "SRC-UNESCO-WHC-BH-1542",
+        "SRC-UNESCO-WHC-BH-2026"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 7
+    }
+  },
+  "schema_version": "2.0.0",
+  "selection_method": "Full review of every Bahrain production record because each family is small; sorted stable IDs.",
+  "snapshot_date": "2026-08-16"
+}

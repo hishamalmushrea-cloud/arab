@@ -1,0 +1,22 @@
+{
+  "archive_url": null,
+  "author": null,
+  "checksum": null,
+  "country_codes": [
+    "JO"
+  ],
+  "id": "SRC-JO-MOI-MAAN-2026",
+  "language": "ar",
+  "license": "Publicly accessible factual record; resource-specific reuse terms not stated",
+  "locator": "Summary count stating 4 liwa and 7 qada",
+  "notes": "Registered atomically as conflict evidence. It is not used for the legal qada denominator because Article 8 of Regulation No. 46 enumerates four subordinate qada. Publication date is not displayed on the current Ministry page.",
+  "organization": "Ministry of Interior",
+  "publication_date": null,
+  "publisher": "Ministry of Interior, Hashemite Kingdom of Jordan",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "2.0.0",
+  "source_type": "official_report",
+  "title": "معلومات عامة عن محافظة معان",
+  "url": "https://moi.gov.jo/AR/Pages/%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA_%D8%B9%D8%A7%D9%85%D8%A9_%D8%B9%D9%86_%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9__%D9%85%D8%B9%D8%A7%D9%86"
+}

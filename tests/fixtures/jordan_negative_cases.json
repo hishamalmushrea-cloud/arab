@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "JO",
+  "cases": [
+    {
+      "id": "NEG-JO-UNSUPPORTED-CLAIM",
+      "mutation": "unsupported_claim",
+      "expected_issue": "unsupported_claim"
+    },
+    {
+      "id": "NEG-JO-WRONG-PARENT-TYPE",
+      "mutation": "wrong_parent_type",
+      "expected_issue": "wrong_parent_type"
+    },
+    {
+      "id": "NEG-JO-HISTORICAL-CURRENT-CONFUSION",
+      "mutation": "historical_current_confusion",
+      "expected_issue": "historical_current_confusion"
+    },
+    {
+      "id": "NEG-JO-NATIONAL-LOCAL-LEAKAGE",
+      "mutation": "national_to_local_leakage",
+      "expected_issue": "national_to_local_leakage"
+    },
+    {
+      "id": "NEG-JO-CULTURAL-MISATTRIBUTION",
+      "mutation": "cultural_misattribution",
+      "expected_issue": "cultural_misattribution"
+    },
+    {
+      "id": "NEG-JO-DUPLICATE-ALIAS",
+      "mutation": "duplicate_alias",
+      "expected_issue": "duplicate_alias"
+    },
+    {
+      "id": "NEG-JO-COORDINATE-MISMATCH",
+      "mutation": "coordinate_mismatch",
+      "expected_issue": "coordinate_mismatch"
+    }
+  ]
+}

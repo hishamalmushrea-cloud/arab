@@ -1,0 +1,11 @@
+{
+  "captured_at": "2006-04-15",
+  "checksum": null,
+  "id": "SNP-LY-CENSUS-2006",
+  "method": "Migrated to a historical hierarchy distinct from current municipalities",
+  "notes": null,
+  "schema_version": "1.0.0",
+  "scope": "22 historical sha‘biyat/census regions",
+  "source_id": "SRC-LY-BSC-CENSUS-2006",
+  "title": "Libya 2006 census-region snapshot"
+}

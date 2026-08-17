@@ -1,0 +1,220 @@
+{
+  "caveats": [
+    "Governorates are legal/statistical scopes, not effective-control claims.",
+    "Local authorities, localities, and camps are distinct and deferred.",
+    "Damage/displacement requires separately dated evidence."
+  ],
+  "country": {
+    "entity_id": "ENT-PS-COUNTRY",
+    "iso2": "PS",
+    "name_ar": "فلسطين"
+  },
+  "coverage_record_ids": [
+    "COV-PS-COUNTRY-SCOPE",
+    "COV-PS-GOVERNORATES",
+    "COV-PS-WEST-BANK",
+    "COV-PS-GAZA",
+    "COV-PS-WHC"
+  ],
+  "hierarchy": [
+    {
+      "allowed_parent_types": [],
+      "caveat": "Country scope only; not a local coverage assertion.",
+      "entity_type": "country",
+      "level": 0,
+      "local_names": [
+        "دولة"
+      ],
+      "source_ids": [
+        "SRC-ISO-3166-1-2020"
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "disputed",
+        "de_facto",
+        "claimed"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "country"
+      ],
+      "authority_name": "PCBS",
+      "caveat": "يجب فصل المحافظة والهيئة المحلية والمخيم والتجمع، مع توثيق القيود والسيطرة دون تسوية النزاع.",
+      "coverage_record_id": "COV-PS-GOVERNORATES",
+      "denominator": 16,
+      "denominator_id": "DEN-PS-GOVERNORATES",
+      "entity_type": "ps_governorate",
+      "level": 1,
+      "license": "Official Palestine statistical/government material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "محافظة"
+      ],
+      "notes": "Statistical/legal scope only.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-PS-PCBS-16-GOVERNORATES"
+      ],
+      "special_cases": [
+        "No effective-control inference."
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "ps_governorate"
+      ],
+      "authority_name": "Ministry of Local Government",
+      "caveat": "يجب فصل المحافظة والهيئة المحلية والمخيم والتجمع، مع توثيق القيود والسيطرة دون تسوية النزاع.",
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
+      "entity_type": "ps_local_government_unit",
+      "level": 2,
+      "license": null,
+      "local_names": [
+        "هيئة محلية/بلدية/مجلس قروي"
+      ],
+      "notes": "Current atomic authority register not yet imported.",
+      "scope_status": "unavailable",
+      "snapshot_date": null,
+      "source_ids": [],
+      "special_cases": [
+        "Do not merge locality/camp/local authority."
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "pending"
+    }
+  ],
+  "next_action": "Maintain 16 statistical governorates; add overlays/local units only with dated source-specific evidence.",
+  "official_authority": {
+    "missing_reason": null,
+    "name": "PCBS / Ministry of Local Government",
+    "source_ids": [
+      "SRC-PS-PCBS-16-GOVERNORATES",
+      "SRC-PS-MOLG-LOCAL-GOVERNMENT",
+      "SRC-UNESCO-WHC-PS-2026",
+      "SRC-UNESCO-WHC-PS-SEBASTIA-2026"
+    ],
+    "verification_status": "verified"
+  },
+  "pilot_layers": [
+    {
+      "authority_name": "PCBS / UNESCO",
+      "coverage_record_id": "COV-PS-GOVERNORATES",
+      "denominator": 16,
+      "denominator_id": "DEN-PS-GOVERNORATES",
+      "entity_types": [
+        "ps_governorate"
+      ],
+      "layer": "ps_governorate",
+      "license": "Official Palestine statistical/government material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "scope"
+      ],
+      "notes": "Source-specific scope.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-PS-PCBS-16-GOVERNORATES"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "PCBS / UNESCO",
+      "coverage_record_id": "COV-PS-WEST-BANK",
+      "denominator": 11,
+      "denominator_id": "DEN-PS-WEST-BANK",
+      "entity_types": [
+        "ps_governorate"
+      ],
+      "layer": "ps_governorate_west_bank",
+      "license": "Official Palestine statistical/government material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "scope"
+      ],
+      "notes": "Source-specific scope.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-PS-PCBS-16-GOVERNORATES"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "PCBS / UNESCO",
+      "coverage_record_id": "COV-PS-GAZA",
+      "denominator": 5,
+      "denominator_id": "DEN-PS-GAZA",
+      "entity_types": [
+        "ps_governorate"
+      ],
+      "layer": "ps_governorate_gaza",
+      "license": "Official Palestine statistical/government material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "scope"
+      ],
+      "notes": "Source-specific scope.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-PS-PCBS-16-GOVERNORATES"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "PCBS / UNESCO",
+      "coverage_record_id": "COV-PS-WHC",
+      "denominator": 6,
+      "denominator_id": "DEN-PS-WHC",
+      "entity_types": [
+        "cultural_site"
+      ],
+      "layer": "world_heritage_property",
+      "license": "CC BY-SA 3.0 IGO for UNESCO descriptions",
+      "local_names": [
+        "scope"
+      ],
+      "notes": "Source-specific scope.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-UNESCO-WHC-PS-2026"
+      ],
+      "special_cases": []
+    }
+  ],
+  "schema_version": "2.0.0",
+  "snapshot": {
+    "as_of": "2026-08-17",
+    "snapshot_id": "SNP-PS-PRODUCTION-20260817",
+    "status": "verified"
+  },
+  "status": "pilot_migrated"
+}

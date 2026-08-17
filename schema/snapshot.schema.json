@@ -1,0 +1,59 @@
+{
+  "$id": "https://arab.example/schema/v2/snapshot.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "captured_at": {
+      "format": "date",
+      "type": "string"
+    },
+    "checksum": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "id": {
+      "pattern": "^SNP-[A-Z0-9-]+$",
+      "type": "string"
+    },
+    "method": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "schema_version": {
+      "const": "2.0.0"
+    },
+    "scope": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "source_id": {
+      "pattern": "^SRC-[A-Z0-9-]+$",
+      "type": "string"
+    },
+    "title": {
+      "minLength": 1,
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "schema_version",
+    "title",
+    "captured_at",
+    "source_id",
+    "scope",
+    "method",
+    "checksum",
+    "notes"
+  ],
+  "title": "Snapshot",
+  "type": "object"
+}

@@ -1,0 +1,55 @@
+{
+  "country_code": "SD",
+  "critical_p1": 0,
+  "families": {
+    "aliases": {
+      "failed": 0,
+      "passed": 1,
+      "sampled": 1,
+      "status": "PASS"
+    },
+    "claims": {
+      "failed": 0,
+      "passed": 19,
+      "sampled": 19,
+      "status": "PASS"
+    },
+    "coverage": {
+      "failed": 0,
+      "passed": 4,
+      "sampled": 4,
+      "status": "PASS"
+    },
+    "denominators": {
+      "failed": 0,
+      "passed": 4,
+      "sampled": 4,
+      "status": "PASS"
+    },
+    "entities": {
+      "failed": 0,
+      "passed": 19,
+      "sampled": 19,
+      "status": "PASS"
+    },
+    "relationships": {
+      "failed": 0,
+      "passed": 18,
+      "sampled": 18,
+      "status": "PASS"
+    },
+    "sources": {
+      "failed": 0,
+      "passed": 3,
+      "sampled": 3,
+      "status": "PASS"
+    }
+  },
+  "findings": [],
+  "method": "Independent full 18-state fixture comparison and unavailable-lower-layer review.",
+  "p0": 0,
+  "schema_version": "2.0.0",
+  "status": "PASS",
+  "total_passed": 68,
+  "total_sampled": 68
+}

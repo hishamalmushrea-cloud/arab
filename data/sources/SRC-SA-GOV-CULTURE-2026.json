@@ -1,0 +1,22 @@
+{
+  "id": "SRC-SA-GOV-CULTURE-2026",
+  "schema_version": "2.0.0",
+  "title": "Culture",
+  "author": null,
+  "organization": "Unified National Platform, Kingdom of Saudi Arabia",
+  "publisher": "Unified National Platform, Kingdom of Saudi Arabia",
+  "source_type": "official_report",
+  "url": "https://my.gov.sa/en/content/culture",
+  "archive_url": null,
+  "publication_date": null,
+  "retrieved_at": "2026-08-15",
+  "license": "Source copyright; factual extraction with attribution",
+  "language": "en",
+  "country_codes": [
+    "SA"
+  ],
+  "locator": "title and cited locator",
+  "checksum": null,
+  "quality_tier": "A",
+  "notes": "Government overview supports regional clothing diversity only; no item-to-region garment attribution is extracted. Publication date unavailable on the captured record."
+}

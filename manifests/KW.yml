@@ -1,0 +1,217 @@
+{
+  "caveats": [
+    "Production status is recorded by the closeout; coarse manifest status retains pilot_migrated.",
+    "Areas and blocks are address/statistical units and are not automatically municipalities.",
+    "The 4,578 Not Stated census population is retained in source reconciliation but is not a geographic entity.",
+    "Tentative UNESCO sites are not inscribed properties.",
+    "No national denominator is asserted for populated places, broad culture, or dialect."
+  ],
+  "country": {
+    "entity_id": "ENT-KW-COUNTRY",
+    "iso2": "KW",
+    "name_ar": "الكويت"
+  },
+  "coverage_record_ids": [
+    "COV-KW-COUNTRY-SCOPE",
+    "COV-KW-GOVERNORATES-2021",
+    "COV-KW-WHC-20260816"
+  ],
+  "hierarchy": [
+    {
+      "allowed_parent_types": [],
+      "caveat": "Country scope only; not a local coverage assertion.",
+      "entity_type": "country",
+      "level": 0,
+      "local_names": [
+        "دولة"
+      ],
+      "source_ids": [
+        "SRC-ISO-3166-1-2020"
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "disputed",
+        "de_facto",
+        "claimed"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "country"
+      ],
+      "authority_name": "Central Statistical Bureau / Public Authority for Civil Information",
+      "caveat": "المنطقة والقطعة وحدات عنونة/إحصاء ولا تُعاملان تلقائيًا كبلديات.",
+      "coverage_record_id": "COV-KW-GOVERNORATES-2021",
+      "denominator": 6,
+      "denominator_id": "DEN-KW-GOVERNORATES-2021",
+      "entity_type": "kw_governorate",
+      "level": 1,
+      "license": "Kuwait government statistical publication; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "محافظة"
+      ],
+      "notes": "Six governorates in Registration Census 2021.",
+      "scope_status": "closed",
+      "snapshot_date": "2021-01-01",
+      "source_ids": [
+        "SRC-KW-CSB-CENSUS-GOVERNORATES-2021"
+      ],
+      "special_cases": [
+        "Not Stated population is not a seventh governorate."
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "kw_governorate"
+      ],
+      "authority_name": null,
+      "caveat": "المنطقة والقطعة وحدات عنونة/إحصاء ولا تُعاملان تلقائيًا كبلديات.",
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
+      "entity_type": "kw_area",
+      "level": 2,
+      "license": null,
+      "local_names": [
+        "منطقة"
+      ],
+      "notes": "No accepted dated official denominator/topology in this cycle.",
+      "scope_status": "unavailable",
+      "snapshot_date": null,
+      "source_ids": [],
+      "special_cases": [
+        "Do not infer municipal status from address/statistical labels."
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "pending"
+    },
+    {
+      "allowed_parent_types": [
+        "kw_area"
+      ],
+      "authority_name": null,
+      "caveat": "المنطقة والقطعة وحدات عنونة/إحصاء ولا تُعاملان تلقائيًا كبلديات.",
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
+      "entity_type": "kw_block",
+      "level": 3,
+      "license": null,
+      "local_names": [
+        "قطعة"
+      ],
+      "notes": "No accepted dated official denominator/topology in this cycle.",
+      "scope_status": "unavailable",
+      "snapshot_date": null,
+      "source_ids": [],
+      "special_cases": [
+        "Do not infer municipal status from address/statistical labels."
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "pending"
+    }
+  ],
+  "next_action": "Maintain six-governorate production scope; add areas/blocks only after a dated official topology and denominator.",
+  "official_authority": {
+    "missing_reason": null,
+    "name": "Central Statistical Bureau / Public Authority for Civil Information",
+    "source_ids": [
+      "SRC-KW-CSB-CENSUS-GOVERNORATES-2021",
+      "SRC-KW-CSB-CENSUS-METHODOLOGY-2021"
+    ],
+    "verification_status": "verified"
+  },
+  "pilot_layers": [
+    {
+      "authority_name": "Central Statistical Bureau / Public Authority for Civil Information",
+      "coverage_record_id": "COV-KW-GOVERNORATES-2021",
+      "denominator": 6,
+      "denominator_id": "DEN-KW-GOVERNORATES-2021",
+      "entity_types": [
+        "kw_governorate"
+      ],
+      "layer": "kw_governorate",
+      "license": "Kuwait government statistical publication; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "محافظة"
+      ],
+      "notes": "Complete six-governorate census layer.",
+      "scope_status": "closed",
+      "snapshot_date": "2021-01-01",
+      "source_ids": [
+        "SRC-KW-CSB-CENSUS-GOVERNORATES-2021",
+        "SRC-KW-CSB-CENSUS-METHODOLOGY-2021"
+      ],
+      "special_cases": [
+        "Not Stated excluded from entity denominator."
+      ]
+    },
+    {
+      "authority_name": "UNESCO World Heritage Centre",
+      "coverage_record_id": "COV-KW-WHC-20260816",
+      "denominator": 0,
+      "denominator_id": "DEN-KW-WHC-20260816",
+      "entity_types": [
+        "cultural_site"
+      ],
+      "layer": "world_heritage_property",
+      "license": "CC BY-SA 3.0 IGO for property descriptions",
+      "local_names": [
+        "موقع تراث عالمي"
+      ],
+      "notes": "Zero inscribed properties; not broad cultural absence.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-16",
+      "source_ids": [
+        "SRC-UNESCO-WHC-KW-2026"
+      ],
+      "special_cases": [
+        "Six tentative-list sites excluded."
+      ]
+    }
+  ],
+  "schema_version": "2.0.0",
+  "snapshot": {
+    "as_of": "2026-08-16",
+    "snapshot_id": "SNP-KW-PRODUCTION-20260816",
+    "status": "verified"
+  },
+  "status": "pilot_migrated"
+}

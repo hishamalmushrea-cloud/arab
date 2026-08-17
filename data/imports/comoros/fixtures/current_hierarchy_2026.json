@@ -1,0 +1,358 @@
+{
+  "country_code": "KM",
+  "denominators": {
+    "communes": 54,
+    "islands": 3,
+    "prefectures": 16,
+    "world_heritage": 1
+  },
+  "excluded_from_current_admin": [
+    "Mayotte"
+  ],
+  "islands": [
+    {
+      "name": "Ngazidja",
+      "prefectures": [
+        {
+          "communes": [
+            {
+              "name": "Moroni",
+              "token": "MORONI"
+            },
+            {
+              "name": "Bambao Ya Djou",
+              "token": "BAMBAO-YA-DJOU"
+            },
+            {
+              "name": "Bambao Ya Hari",
+              "token": "BAMBAO-YA-HARI"
+            },
+            {
+              "name": "Bambao Ya Mboini",
+              "token": "BAMBAO-YA-MBOINI"
+            }
+          ],
+          "name": "Moroni-Bambao",
+          "token": "MORONI-BAMBAO"
+        },
+        {
+          "communes": [
+            {
+              "name": "Tsinimoipangua",
+              "token": "TSINIMOIPANGUA"
+            },
+            {
+              "name": "Djoumoipangua",
+              "token": "DJOUMOIPANGUA"
+            }
+          ],
+          "name": "Hambou",
+          "token": "HAMBOU"
+        },
+        {
+          "communes": [
+            {
+              "name": "Ngouengoe",
+              "token": "NGOUENGOE"
+            },
+            {
+              "name": "Nioumagama",
+              "token": "NIOUMAGAMA"
+            }
+          ],
+          "name": "Mbadjini-Ouest",
+          "token": "MBADJINI-OUEST"
+        },
+        {
+          "communes": [
+            {
+              "name": "Itsahidi",
+              "token": "ITSAHIDI"
+            },
+            {
+              "name": "Domba",
+              "token": "DOMBA"
+            },
+            {
+              "name": "Pimba",
+              "token": "PIMBA"
+            }
+          ],
+          "name": "Mbadjini-Est",
+          "token": "MBADJINI-EST"
+        },
+        {
+          "communes": [
+            {
+              "name": "Oichili Yadjou",
+              "token": "OICHILI-YADJOU"
+            },
+            {
+              "name": "Oichili Yaboini",
+              "token": "OICHILI-YABOINI"
+            },
+            {
+              "name": "Dimani",
+              "token": "DIMANI"
+            }
+          ],
+          "name": "Oichili-Dimani",
+          "token": "OICHILI-DIMANI"
+        },
+        {
+          "communes": [
+            {
+              "name": "Nyuma Msiru",
+              "token": "NYUMA-MSIRU"
+            },
+            {
+              "name": "Nyuma Mro",
+              "token": "NYUMA-MRO"
+            },
+            {
+              "name": "Mboinkou",
+              "token": "MBOINKOU"
+            }
+          ],
+          "name": "Hamahamet-Mboinkou",
+          "token": "HAMAHAMET-MBOINKOU"
+        },
+        {
+          "communes": [
+            {
+              "name": "Cembenoi Lac Sale",
+              "token": "CEMBENOI-LAC-SALE"
+            },
+            {
+              "name": "Cembenoi Sada Djoulamlima",
+              "token": "CEMBENOI-SADA-DJOULAMLIMA"
+            },
+            {
+              "name": "Mitsamiouli",
+              "token": "MITSAMIOULI"
+            },
+            {
+              "name": "Nyuma Komo",
+              "token": "NYUMA-KOMO"
+            },
+            {
+              "name": "Nyumamro Kiblani",
+              "token": "NYUMAMRO-KIBLANI"
+            },
+            {
+              "name": "Nyumamro Souheili",
+              "token": "NYUMAMRO-SOUHEILI"
+            }
+          ],
+          "name": "Mitsamiouli-Mboude",
+          "token": "MITSAMIOULI-MBOUDE"
+        },
+        {
+          "communes": [
+            {
+              "name": "Hamanvou",
+              "token": "HAMANVOU"
+            },
+            {
+              "name": "Mbadani",
+              "token": "MBADANI"
+            },
+            {
+              "name": "Bangaani",
+              "token": "BANGAANI"
+            },
+            {
+              "name": "Djoumoichongo",
+              "token": "DJOUMOICHONGO"
+            },
+            {
+              "name": "Isahari",
+              "token": "ISAHARI"
+            }
+          ],
+          "name": "Itsandra-Hamanvou",
+          "token": "ITSANDRA-HAMANVOU"
+        }
+      ],
+      "token": "NGAZIDJA"
+    },
+    {
+      "name": "Ndzuwani",
+      "prefectures": [
+        {
+          "communes": [
+            {
+              "name": "Mutsamudu",
+              "token": "MUTSAMUDU"
+            },
+            {
+              "name": "Mirontsi",
+              "token": "MIRONTSI"
+            },
+            {
+              "name": "Bandrani Ya Chironkamba",
+              "token": "BANDRANI-YA-CHIRONKAMBA"
+            },
+            {
+              "name": "Bandrani Ya Mitsangani",
+              "token": "BANDRANI-YA-MITSANGANI"
+            }
+          ],
+          "name": "Mutsamudu",
+          "token": "MUTSAMUDU"
+        },
+        {
+          "communes": [
+            {
+              "name": "Ouani",
+              "token": "OUANI"
+            },
+            {
+              "name": "Bazimini",
+              "token": "BAZIMINI"
+            },
+            {
+              "name": "Bambao Mtrouni",
+              "token": "BAMBAO-MTROUNI"
+            }
+          ],
+          "name": "Ouani",
+          "token": "OUANI"
+        },
+        {
+          "communes": [
+            {
+              "name": "Domoni",
+              "token": "DOMONI"
+            },
+            {
+              "name": "Ngandzale",
+              "token": "NGANDZALE"
+            },
+            {
+              "name": "Koni",
+              "token": "KONI"
+            },
+            {
+              "name": "Bambao Mstanga",
+              "token": "BAMBAO-MSTANGA"
+            },
+            {
+              "name": "Jimlime",
+              "token": "JIMLIME"
+            }
+          ],
+          "name": "Domoni",
+          "token": "DOMONI"
+        },
+        {
+          "communes": [
+            {
+              "name": "Adda",
+              "token": "ADDA"
+            },
+            {
+              "name": "Mremani",
+              "token": "MREMANI"
+            },
+            {
+              "name": "Ongojou",
+              "token": "ONGOJOU"
+            },
+            {
+              "name": "Shaweni",
+              "token": "SHAWENI"
+            },
+            {
+              "name": "Mramani",
+              "token": "MRAMANI"
+            }
+          ],
+          "name": "Mremani",
+          "token": "MREMANI"
+        },
+        {
+          "communes": [
+            {
+              "name": "Sima",
+              "token": "SIMA"
+            },
+            {
+              "name": "Vouani",
+              "token": "VOUANI"
+            },
+            {
+              "name": "Moya",
+              "token": "MOYA"
+            }
+          ],
+          "name": "Sima",
+          "token": "SIMA"
+        }
+      ],
+      "token": "NDZUWANI"
+    },
+    {
+      "name": "Mwali",
+      "prefectures": [
+        {
+          "communes": [
+            {
+              "name": "Fomboni",
+              "token": "FOMBONI"
+            },
+            {
+              "name": "Moili Mdjini",
+              "token": "MOILI-MDJINI"
+            },
+            {
+              "name": "Moinbassa",
+              "token": "MOINBASSA"
+            }
+          ],
+          "name": "Fomboni",
+          "token": "FOMBONI"
+        },
+        {
+          "communes": [
+            {
+              "name": "Moimbao",
+              "token": "MOIMBAO"
+            },
+            {
+              "name": "Mledjele",
+              "token": "MLEDJELE"
+            }
+          ],
+          "name": "Nioumachioi",
+          "token": "NIOUMACHIOI"
+        },
+        {
+          "communes": [
+            {
+              "name": "Djando",
+              "token": "DJANDO"
+            }
+          ],
+          "name": "Djando",
+          "token": "DJANDO"
+        }
+      ],
+      "token": "MWALI"
+    }
+  ],
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-17",
+  "sources": {
+    "inseed": "https://www.inseed-comores.org/backend/uploads/Rapport_cartographie_sur_la_vulnerabilite_au_COVID_19_UNION_COMORES_cea7f383b1.pdf",
+    "law": "https://justice.gouv.km/texte/loi-n11-006-au-du-02-mai-2011-portant-organisation-territoriale-de-lunion-des-comores/",
+    "unesco": "https://whc.unesco.org/document/226095"
+  },
+  "world_heritage": {
+    "entity_id": "ENT-KM-CULTURAL-SITE-HISTORIC-SULTANATES-MEDINAS",
+    "inscription_year": 2026,
+    "name": "The Medinas of the Historic Sultanates of the Comoros",
+    "reference": 1768,
+    "serial_components": 6
+  }
+}

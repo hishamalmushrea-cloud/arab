@@ -1,0 +1,16 @@
+{
+  "country_code": "OM",
+  "domains": {
+    "dialect": {
+      "claims": 0,
+      "status": "not_documented_in_cycle"
+    },
+    "world_heritage": {
+      "known_register_count": 5,
+      "status": "not_imported_in_micro_pilot"
+    }
+  },
+  "notes": "Administrative micro pilot only.",
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-16"
+}

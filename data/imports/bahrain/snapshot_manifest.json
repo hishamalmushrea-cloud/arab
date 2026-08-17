@@ -1,0 +1,28 @@
+{
+  "country_code": "BH",
+  "method": "Bounded relevant-record/excerpt capture from Bahrain official data and cultural authority pages plus the UNESCO State Party register; all production inputs are checksum-bound.",
+  "records": [
+    {
+      "bytes": 1047,
+      "path": "data/imports/bahrain/fixtures/area_by_governorate_2024.json",
+      "sha256": "071fb9a959ff6c6285b59c315b3ba07289d0b565ec2deb0e8be03e4d48f6c079"
+    },
+    {
+      "bytes": 1753,
+      "path": "data/imports/bahrain/fixtures/world_heritage_2026.json",
+      "sha256": "67c6b0ea7dabbfadd98c41e90eb391c2d68dcb12d6df882857c268696ccf7d88"
+    },
+    {
+      "bytes": 458,
+      "path": "data/imports/bahrain/raw/2026-08-16/open_data_policy.txt",
+      "sha256": "1ec8de2933d2c2a132e16344bf4c8f02902960f1117129a767ca325cb7d5200d"
+    },
+    {
+      "bytes": 676,
+      "path": "data/imports/bahrain/raw/2026-08-16/pearling_baca.txt",
+      "sha256": "e0041be843d2740095239eedde477ef787eff13ca953212ea1028c30b7decc96"
+    }
+  ],
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-16"
+}

@@ -1,0 +1,18 @@
+{
+  "country_code": "KW",
+  "method": "Bounded exact transcription of the CSB 2021 census governorate table plus UNESCO State Party inscribed/tentative counts; all inputs checksum-bound.",
+  "records": [
+    {
+      "bytes": 1195,
+      "path": "data/imports/kuwait/fixtures/census_governorates_2021.json",
+      "sha256": "6fa4e68c3cb02b3c5cbd0b5e61bbd74b17185cf0e7211b689ae6c7d8817c2d92"
+    },
+    {
+      "bytes": 344,
+      "path": "data/imports/kuwait/fixtures/world_heritage_scope_2026.json",
+      "sha256": "09e9e58ae897e4136ed4eb45686223a7f93efabf3f5217cea4ffbf674b40f6ac"
+    }
+  ],
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-16"
+}

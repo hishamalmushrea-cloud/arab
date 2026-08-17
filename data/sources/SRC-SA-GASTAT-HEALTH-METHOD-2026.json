@@ -1,0 +1,22 @@
+{
+  "id": "SRC-SA-GASTAT-HEALTH-METHOD-2026",
+  "schema_version": "2.0.0",
+  "title": "Methodology and Quality Report of Health Determinants Statistics Publication",
+  "author": null,
+  "organization": "General Authority for Statistics (GASTAT)",
+  "publisher": "General Authority for Statistics (GASTAT)",
+  "source_type": "official_report",
+  "url": "https://www.stats.gov.sa/ar/w/methodology-and-quality-report-of-health-determinants-statistics-publication",
+  "archive_url": null,
+  "publication_date": null,
+  "retrieved_at": "2026-08-15",
+  "license": "Source copyright; factual extraction with attribution",
+  "language": "ar",
+  "country_codes": [
+    "SA"
+  ],
+  "locator": "methodology scope: 13 administrative regions and 151 governorates for 2024 data",
+  "checksum": "sha256:62c2888f2f330a823fcd62b36ad0354ab29d1e3d6703c971f1398789a000388a",
+  "quality_tier": "A",
+  "notes": "Local snapshot: data/imports/saudi/raw/2026-08-15/gastat-health-determinants-methodology.html. Methodology scope reports 13 administrative regions and 151 governorates for 2024 data. Publication date unavailable on the captured record."
+}

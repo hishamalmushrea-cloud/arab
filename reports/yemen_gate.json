@@ -1,0 +1,117 @@
+{
+  "checks": {
+    "artifact_expansion_lessons": {
+      "detail": "reports/EXPANSION_LESSONS.md exists",
+      "status": "pass"
+    },
+    "artifact_lessons_learned_yemen": {
+      "detail": "reports/LESSONS_LEARNED_YEMEN.md exists",
+      "status": "pass"
+    },
+    "artifact_next_country_decision": {
+      "detail": "reports/NEXT_COUNTRY_DECISION.md exists",
+      "status": "pass"
+    },
+    "artifact_yemen_production_closeout": {
+      "detail": "reports/YEMEN_PRODUCTION_CLOSEOUT.md exists",
+      "status": "pass"
+    },
+    "general_validation": {
+      "command": "python3 scripts/validate.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=16932\n[PASS] ids: global_ids=16932, duplicate_ids=0\n[PASS] entity_types: allowed_types=103, active_types=61\n[PASS] sources: atomic_files=151, sources=151, references=19644\n[PASS] parents: administrative_relationships=5220\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2245, sourced=2245\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=112, coverage_records=112, complete_layers=95\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=951, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
+    },
+    "generated_freshness": {
+      "command": "python3 scripts/generate.py --check",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "generated output is current (64 files)"
+    },
+    "non_yemen_preservation": {
+      "detail": "canonical non-Yemen SHA-256 unchanged=547a864fd77f37c8f509c25757987a5226fd065e82f574c4edc909e98551605c",
+      "status": "pass"
+    },
+    "yemen_clean_worktree": {
+      "detail": "git worktree clean=True",
+      "status": "pass"
+    },
+    "yemen_findings_closed": {
+      "detail": "status=PASS, P0=0, critical P1=0",
+      "status": "pass"
+    },
+    "yemen_import_idempotence": {
+      "detail": "all 10 managed hashes unchanged=True",
+      "status": "pass"
+    },
+    "yemen_import_refresh": {
+      "command": "python3 scripts/import_yemen_production.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "{\"entities\": 22, \"relationships\": 22, \"claims\": 23, \"sources\": 3, \"denominators\": 4, \"coverage\": 4}"
+    },
+    "yemen_independent_review": {
+      "command": "python3 scripts/review_yemen.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "82"
+    },
+    "yemen_negative_tests": {
+      "command": "python3 scripts/test_yemen_negative.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "[{'mutation': 'YE_AMANAT_AS_GOVERNORATE_ALIAS', 'expected_code': 'YE_AMANAT_ALIAS', 'detected': True}, {'mutation': 'YE_SOCOTRA_REMOVED_FROM_CURRENT', 'expected_code': 'YE_COUNTS', 'detected': True}, {'mutation': 'YE_LEGACY_DENOMINATOR_AS_CURRENT', 'expected_code': 'YE_DENOMINATORS', 'detected': True}, {'mutation': 'YE_LEGAL_LIST_AS_DE_FACTO', 'expected_code': 'YE_UNSUPPORTED_OVERLAY', 'detected': True}, {'mutation': 'YE_DESTROYED_WITHOUT_DATED_SOURCE', 'expected_code': 'YE_UNSUPPORTED_OVERLAY', 'detected': True}, {'mutation': 'YE_PREMATURE_DISTRICT', 'expected_code': 'YE_PREMATURE_LOWER', 'detected': True}, {'mutation': 'YE_WRONG_PARENT', 'expected_code': 'YE_PARENT', 'detected': True}, {'mutation': 'YE_STALE_COVERAGE', 'expected_code': 'YE_COVERAGE_FRESHNESS', 'detected': True}, {'mutation': 'YE_EFFECTIVE_CLAUSE_FABRICATED', 'expected_code': 'YE_SOCOTRA_LAW', 'detected': True}]"
+    },
+    "yemen_required_mutations": {
+      "detail": "detected=9/9",
+      "status": "pass"
+    },
+    "yemen_review_idempotence": {
+      "detail": "independent review unchanged=True",
+      "status": "pass"
+    },
+    "yemen_review_sample_idempotence": {
+      "detail": "full-population sample unchanged=True",
+      "status": "pass"
+    },
+    "yemen_review_sample_refresh": {
+      "command": "python3 scripts/build_yemen_review_samples.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "82"
+    },
+    "yemen_review_threshold": {
+      "detail": "full review passed=82/82",
+      "status": "pass"
+    },
+    "yemen_semantic_validation": {
+      "command": "python3 scripts/validate_yemen.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "{'entities': 23, 'aliases': 1, 'relationships': 22, 'claims': 23, 'sources': 3, 'denominators': 5, 'coverage': 5}"
+    },
+    "yemen_source_idempotence": {
+      "detail": "atomic sources=3/3, unchanged=True",
+      "status": "pass"
+    },
+    "yemen_source_refresh": {
+      "command": "python3 scripts/build_yemen_sources.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "{\"entities\": 22, \"relationships\": 22, \"claims\": 23, \"sources\": 3, \"denominators\": 4, \"coverage\": 4}"
+    }
+  },
+  "country_code": "YE",
+  "errors": [],
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-17",
+  "status": "pass"
+}

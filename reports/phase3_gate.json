@@ -1,0 +1,241 @@
+{
+  "checks": {
+    "all_manifests": {
+      "detail": "manifests=22, ISO set matches=True",
+      "status": "pass"
+    },
+    "atomic_sources": {
+      "detail": "atomic source files=37",
+      "status": "pass"
+    },
+    "boundary_overlap_model": {
+      "detail": "municipalities=350, delegations=264",
+      "status": "pass"
+    },
+    "bounded_encyclopedic_pilot": {
+      "detail": "persons=1, markets=1, archaeological=4, natural=2",
+      "status": "pass"
+    },
+    "broken_link_repairs": {
+      "detail": "logged link repairs=25",
+      "status": "pass"
+    },
+    "ci_workflow": {
+      "detail": ".github/workflows/validate.yml exists",
+      "status": "pass"
+    },
+    "clean_worktree": {
+      "detail": "git worktree clean=True",
+      "status": "pass"
+    },
+    "completion_claims": {
+      "detail": "README declares incomplete local coverage and constrains 100%",
+      "status": "pass"
+    },
+    "country_roots": {
+      "detail": "source-backed country roots=22",
+      "status": "pass"
+    },
+    "dated_denominators_closed": {
+      "detail": "24 governorates, 264 delegations, 350 municipalities, 2,084 imadas, and 10 UNESCO properties close with matched + excluded = denominator",
+      "status": "pass"
+    },
+    "duplicate_id_repairs": {
+      "detail": "renamed duplicate ID occurrences=58",
+      "status": "pass"
+    },
+    "final_report": {
+      "detail": "24-section Tunisia final report exists",
+      "status": "pass"
+    },
+    "four_formats": {
+      "detail": "required generated files present; missing=[]",
+      "status": "pass"
+    },
+    "generated_freshness": {
+      "command": "/usr/bin/python3 scripts/generate.py --check",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "generated output is current (64 files)"
+    },
+    "generated_freshness_after_jordan": {
+      "command": "/usr/bin/python3 scripts/generate.py --check",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "generated output is current (64 files)"
+    },
+    "independent_review": {
+      "detail": "sample={'claim': 7, 'entity': 275, 'hierarchy': 313, 'source': 3}, outcomes={'correct': 598}",
+      "status": "pass"
+    },
+    "independent_review_refresh": {
+      "command": "/usr/bin/python3 scripts/review_tunisia.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "{\n  \"universe\": {\n    \"entity\": 2743,\n    \"claim\": 69,\n    \"source\": 9,\n    \"hierarchy\": 3130\n  },\n  \"sample\": {\n    \"entity\": 275,\n    \"claim\": 7,\n    \"source\": 3,\n    \"hierarchy\": 313\n  },\n  \"outcomes\": {\n    \"correct\": 598\n  },\n  \"passed\": true\n}"
+    },
+    "jordan_acceptance_metrics": {
+      "detail": "status=pass, A/B ratio=100.0%, sources=21",
+      "status": "pass"
+    },
+    "jordan_final_report": {
+      "detail": "Jordan final report exists; overall PASS remains contingent on separately recorded green remote checks",
+      "status": "pass"
+    },
+    "jordan_findings_closed": {
+      "detail": "P0=0, critical P1=0",
+      "status": "pass"
+    },
+    "jordan_import_idempotence": {
+      "detail": "all 9 importer-managed hashes unchanged=True",
+      "status": "pass"
+    },
+    "jordan_import_refresh": {
+      "command": "/usr/bin/python3 scripts/import_jordan_phase3.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "{\"aliases_added\": 115, \"claims_added\": 135, \"country\": \"JO\", \"coverage_added\": 5, \"denominators_added\": 5, \"entities_added\": 115, \"relationships_added\": 119}"
+    },
+    "jordan_independent_review": {
+      "command": "/usr/bin/python3 scripts/review_jordan.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "{\"errors\": [], \"negative_tests\": {\"NEG-JO-COORDINATE-MISMATCH\": \"pass\", \"NEG-JO-CULTURAL-MISATTRIBUTION\": \"pass\", \"NEG-JO-DUPLICATE-ALIAS\": \"pass\", \"NEG-JO-HISTORICAL-CURRENT-CONFUSION\": \"pass\", \"NEG-JO-NATIONAL-LOCAL-LEAKAGE\": \"pass\", \"NEG-JO-UNSUPPORTED-CLAIM\": \"pass\", \"NEG-JO-WRONG-PARENT-TYPE\": \"pass\"}, \"passed\": true, \"reviewed\": {\"aliases\": 17, \"claims\": 27, \"coordinate_entities\": 5, \"coverage\": 5, \"cultural_attribution\": 4, \"denominators\": 5, \"dialect_attribution\": 1, \"entities\": 17, \"entity_resolution\": 12, \"hierarchy\": 12, \"populated_places\": 4, \"relationships\": 19, \"sources\": 6}}"
+    },
+    "jordan_review_threshold": {
+      "detail": "minimum sample rate=0.1165, negative tests={'NEG-JO-COORDINATE-MISMATCH': 'pass', 'NEG-JO-CULTURAL-MISATTRIBUTION': 'pass', 'NEG-JO-DUPLICATE-ALIAS': 'pass', 'NEG-JO-HISTORICAL-CURRENT-CONFUSION': 'pass', 'NEG-JO-NATIONAL-LOCAL-LEAKAGE': 'pass', 'NEG-JO-UNSUPPORTED-CLAIM': 'pass', 'NEG-JO-WRONG-PARENT-TYPE': 'pass'}",
+      "status": "pass"
+    },
+    "jordan_semantic_validation": {
+      "command": "/usr/bin/python3 scripts/validate_jordan.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "[PASS] checksum_bound_inputs: files=25, mismatches=[]\n[PASS] country_specific_method: Jordan importer/reviewer/fixture contain no Tunisia assumptions and Jordan records contain no TN references\n[PASS] entity_counts: actual={'archaeological_site': 4, 'city': 1, 'country': 1, 'cultural_site': 2, 'historical_place': 3, 'jo_governorate': 12, 'jo_liwa': 55, 'jo_qada': 36, 'natural_site': 2}\n[PASS] record_family_counts: entities/aliases/relationships/claims=116/116/119/135\n[PASS] legal_derivation: fixture_counts={'jo_governorate': 12, 'jo_liwa': 55, 'jo_qada': 36}; by_governorate={'amman': (9, 4), 'irbid': (10, 0), 'balqa': (5, 3), 'karak': (8, 2), 'maan': (4, 4), 'zarqa': (3, 3), 'mafraq': (5, 9), 'tafilah': (3, 0), 'madaba': (2, 5), 'jerash': (2, 2), 'ajloun': (2, 2), 'aqaba': (2, 2)}; 51/38 +4/-2 = 55/36\n[PASS] administrative_topology: parent_relationships=103, errors=0\n[PASS] all_entities_parented: every non-country administrative/site/place entity has an explicit relationship\n[PASS] identity_integrity: duplicate_ids=0, orphans=0, country_mismatch=0, cycles=0\n[PASS] aliases_unique: aliases=116, duplicates=0\n[PASS] atomic_source_registry: atomic Jordan records=21, metadata_errors=[]\n[PASS] claims_supported: claims=135, unsupported=0\n[PASS] ab_source_threshold: A/B published claims=135/135 (100.00%)\n[PASS] sensitive_claim_rule: sensitive=0, noncompliant=0\n[PASS] country_manifest: declared_layers=['bounded_populated_place', 'jo_governorate', 'jo_liwa', 'jo_qada', 'world_heritage_property'], dated=2026-08-15\n[PASS] denominator_closure: five declared layers; failed=[]; matched + excluded = denominator\n[PASS] bounded_places: places=4/4, sites=8/8, authoritative GeoNames references=0\n[PASS] coordinates_and_temporality: coordinate_mismatches=[], historical_status_errors=[]\n[PASS] entity_resolution_before_places: decisions=12, pre-existing=['ENT-JO-COUNTRY']\n[PASS] cultural_scope: national=2 at country; Bedu subjects=['البتراء', 'منطقة وادي رم المحمية']\n[PASS] missing_domains_not_forced: dialect=not_documented, dress=not_found, people=N/A, dialect_claims=0\n[PASS] independent_review: passed=True, minimum_rate=0.1165, fresh=True\n[PASS] negative_tests: outcomes={'NEG-JO-COORDINATE-MISMATCH': 'pass', 'NEG-JO-CULTURAL-MISATTRIBUTION': 'pass', 'NEG-JO-DUPLICATE-ALIAS': 'pass', 'NEG-JO-HISTORICAL-CURRENT-CONFUSION': 'pass', 'NEG-JO-NATIONAL-LOCAL-LEAKAGE': 'pass', 'NEG-JO-UNSUPPORTED-CLAIM': 'pass', 'NEG-JO-WRONG-PARENT-TYPE': 'pass'}\n[PASS] finding_closure: P0=0, critical P1=0\nJordan validation passed (23 checks)."
+    },
+    "legacy_authority": {
+      "detail": "legacy CSV README disclaims authority and completeness",
+      "status": "pass"
+    },
+    "libya_denominator": {
+      "detail": "current national municipality denominator remains unresolved",
+      "status": "pass"
+    },
+    "libya_layers": {
+      "detail": "matched current municipality subset=93, historical sha‘biyat=22",
+      "status": "pass"
+    },
+    "libya_temporal_separation": {
+      "detail": "historical-to-current parent links=0",
+      "status": "pass"
+    },
+    "migration_ledger": {
+      "detail": "ledger=5254, legacy rows including template=5254",
+      "status": "pass"
+    },
+    "no_mass_expansion": {
+      "detail": "non-country expansion outside authorized Tunisia/Libya/Jordan pilots=0",
+      "status": "pass"
+    },
+    "non_jordan_preservation": {
+      "detail": "canonical non-Jordan SHA-256 unchanged=cc3a8a11c47096c3bed0c559d8ca1668d0e8ab19e2760a9cb2d4040e3bfd7317",
+      "status": "pass"
+    },
+    "non_tunisia_preservation": {
+      "detail": "canonical non-Tunisia SHA-256 unchanged=e9484f0d75c29055df52d81fdc872c340b0f1d5a9f80533450d8b4f3690cef62",
+      "status": "pass"
+    },
+    "p0_clear": {
+      "detail": "all structural and Phase 2 acceptance checks are clear",
+      "status": "pass"
+    },
+    "phase2_core_counts": {
+      "detail": "24/264/350/2084 actual=24/264/350/2084",
+      "status": "pass"
+    },
+    "populated_place_distinction": {
+      "detail": "sourced bounded place records=6, evidenced types=['city', 'historical_place', 'village']",
+      "status": "pass"
+    },
+    "saudi_rows": {
+      "detail": "malformed Saudi row repairs=2",
+      "status": "pass"
+    },
+    "schema_contract": {
+      "detail": "required schemas present; missing=[]",
+      "status": "pass"
+    },
+    "sensitive_claims": {
+      "detail": "non-disputed sensitive claims without two independent sources=0",
+      "status": "pass"
+    },
+    "source_threshold": {
+      "detail": "A/B published claims=69/69 (100.00%)",
+      "status": "pass"
+    },
+    "sourced_claims": {
+      "detail": "source-backed claims=204",
+      "status": "pass"
+    },
+    "sourced_entities": {
+      "detail": "source-backed entities=2994",
+      "status": "pass"
+    },
+    "tunisia_core": {
+      "detail": "governorates=24, delegations=264, accepted population claims=24",
+      "status": "pass"
+    },
+    "tunisia_imadas": {
+      "detail": "accepted unavailable Phase 1 state or closed dated Phase 2 state; denominator=2084",
+      "status": "pass"
+    },
+    "tunisia_import_idempotence": {
+      "detail": "all 9 importer-managed hashes unchanged=True",
+      "status": "pass"
+    },
+    "tunisia_import_refresh": {
+      "command": "/usr/bin/python3 scripts/import_tunisia_phase2.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "{\n  \"tunisia_entities\": 2743,\n  \"governorates\": 24,\n  \"delegations\": 264,\n  \"imadas\": 2084,\n  \"municipalities\": 350,\n  \"populated_places\": 6,\n  \"sites\": 13,\n  \"claims\": 69\n}"
+    },
+    "tunisia_municipalities": {
+      "detail": "accepted Phase 1 state or closed Phase 2 state; matched=350, denominator=350",
+      "status": "pass"
+    },
+    "validation": {
+      "command": "/usr/bin/python3 scripts/validate.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=9579\n[PASS] ids: global_ids=9579, duplicate_ids=0\n[PASS] entity_types: allowed_types=91, active_types=19\n[PASS] sources: atomic_files=37, sources=37, references=12288\n[PASS] parents: administrative_relationships=2940\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=94\n[PASS] aliases: aliases=2897, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=204, sourced=204\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=37, coverage_records=37, complete_layers=33\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=3\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=948, broken_links=0\n\nSchema v1 validation passed with zero errors."
+    },
+    "validation_after_jordan": {
+      "command": "/usr/bin/python3 scripts/validate.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=9579\n[PASS] ids: global_ids=9579, duplicate_ids=0\n[PASS] entity_types: allowed_types=91, active_types=19\n[PASS] sources: atomic_files=37, sources=37, references=12288\n[PASS] parents: administrative_relationships=2940\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=94\n[PASS] aliases: aliases=2897, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=204, sourced=204\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=37, coverage_records=37, complete_layers=33\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=3\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=948, broken_links=0\n\nSchema v1 validation passed with zero errors."
+    },
+    "validation_after_review": {
+      "command": "/usr/bin/python3 scripts/validate.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=9579\n[PASS] ids: global_ids=9579, duplicate_ids=0\n[PASS] entity_types: allowed_types=91, active_types=19\n[PASS] sources: atomic_files=37, sources=37, references=12288\n[PASS] parents: administrative_relationships=2940\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=94\n[PASS] aliases: aliases=2897, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=204, sourced=204\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=37, coverage_records=37, complete_layers=33\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=3\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=948, broken_links=0\n\nSchema v1 validation passed with zero errors."
+    },
+    "validator": {
+      "detail": "dependency-free validator exists",
+      "status": "pass"
+    }
+  },
+  "errors": [],
+  "phase": "phase3",
+  "status": "pass"
+}

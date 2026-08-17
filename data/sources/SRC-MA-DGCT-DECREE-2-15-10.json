@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:1c8b1d5b96f248860f5e644197f09f387555564dc559e35f368d984f6794fd03",
+  "country_codes": [
+    "MA"
+  ],
+  "id": "SRC-MA-DGCT-DECREE-2-15-10",
+  "language": "fr",
+  "license": "Official Morocco public material; factual extraction with attribution; reuse terms not stated",
+  "locator": "12 regions, capitals, constituent prefectures/provinces",
+  "notes": "Legal 2015 hierarchy.",
+  "publication_date": "2015-03-05",
+  "publisher": "Direction Générale des Collectivités Territoriales",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-16",
+  "schema_version": "2.0.0",
+  "source_type": "law",
+  "title": "Nouveau découpage territorial — Décret 2.15.10",
+  "url": "https://collectivites-territoriales.gov.ma/fr/actualites/nouveau-decoupage-territorial-du-royaume"
+}

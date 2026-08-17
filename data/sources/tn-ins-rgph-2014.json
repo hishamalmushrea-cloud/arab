@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": null,
+  "country_codes": [
+    "TN"
+  ],
+  "id": "SRC-TN-INS-RGPH-2014",
+  "language": "fr-ar",
+  "license": "Institutional publication; factual extraction only",
+  "locator": "Volume 3, PDF page 47: exact population table by governorate",
+  "notes": "Volume 3 provides the exact 2014 population table by governorate. Volume 0 is a rounded summary and is not used for exact values.",
+  "publication_date": "2016",
+  "publisher": "Institut National de la Statistique, Tunisie",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "2.0.0",
+  "source_type": "census",
+  "title": "Recensement Général de la Population et de l’Habitat 2014 — Volume 3",
+  "url": "https://www.ins.tn/sites/default/files-ftp1/files/publication/pdf/RGPH%202014-V3.pdf"
+}

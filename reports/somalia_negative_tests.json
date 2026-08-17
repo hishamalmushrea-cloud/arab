@@ -1,0 +1,59 @@
+{
+  "country_code": "SO",
+  "detected": 10,
+  "mutations": [
+    {
+      "detected": true,
+      "expected_code": "SO_COUNTS",
+      "mutation": "SO_DROP_NORTHEAST"
+    },
+    {
+      "detected": true,
+      "expected_code": "SO_BANADIR_PARALLEL",
+      "mutation": "SO_BANADIR_AS_FMS"
+    },
+    {
+      "detected": true,
+      "expected_code": "SO_SOMALILAND_NARRATIVE",
+      "mutation": "SO_SOMALILAND_NEUTRAL_CURRENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "SO_SSC_DUPLICATE",
+      "mutation": "SO_DUPLICATE_SSC"
+    },
+    {
+      "detected": true,
+      "expected_code": "SO_NORTHEAST_TRANSITION",
+      "mutation": "SO_NORTHEAST_WRONG_DATE"
+    },
+    {
+      "detected": true,
+      "expected_code": "SO_DENOMINATORS",
+      "mutation": "SO_FIVE_AS_CURRENT_MOP_DENOMINATOR"
+    },
+    {
+      "detected": true,
+      "expected_code": "SO_UNSUPPORTED_OVERLAY",
+      "mutation": "SO_LEGAL_AS_DE_FACTO"
+    },
+    {
+      "detected": true,
+      "expected_code": "SO_PREMATURE_LOWER",
+      "mutation": "SO_PREMATURE_DISTRICT"
+    },
+    {
+      "detected": true,
+      "expected_code": "SO_UNAVAILABLE_LOWER",
+      "mutation": "SO_FAKE_REGION_PERCENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "SO_PARENT",
+      "mutation": "SO_WRONG_PARENT"
+    }
+  ],
+  "required": 10,
+  "schema_version": "2.0.0",
+  "status": "PASS"
+}

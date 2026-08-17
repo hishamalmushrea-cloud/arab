@@ -1,0 +1,95 @@
+{
+  "country_code": "AE",
+  "critical_p1": 0,
+  "families": {
+    "aliases": {
+      "failed": 0,
+      "minimum_required": 5,
+      "passed": 5,
+      "population": 42,
+      "sample_percentage": 11.9,
+      "sampled": 5,
+      "status": "PASS"
+    },
+    "claims": {
+      "failed": 0,
+      "minimum_required": 8,
+      "passed": 8,
+      "population": 76,
+      "sample_percentage": 10.53,
+      "sampled": 8,
+      "status": "PASS"
+    },
+    "coverage": {
+      "failed": 0,
+      "minimum_required": 2,
+      "passed": 2,
+      "population": 12,
+      "sample_percentage": 16.67,
+      "sampled": 2,
+      "status": "PASS"
+    },
+    "cultural_claims": {
+      "failed": 0,
+      "minimum_required": 4,
+      "passed": 4,
+      "population": 36,
+      "sample_percentage": 11.11,
+      "sampled": 4,
+      "status": "PASS"
+    },
+    "denominators": {
+      "failed": 0,
+      "minimum_required": 2,
+      "passed": 2,
+      "population": 12,
+      "sample_percentage": 16.67,
+      "sampled": 2,
+      "status": "PASS"
+    },
+    "dialect_claims": {
+      "failed": 0,
+      "minimum_required": 1,
+      "passed": 1,
+      "population": 3,
+      "sample_percentage": 33.33,
+      "sampled": 1,
+      "status": "PASS"
+    },
+    "entities": {
+      "failed": 0,
+      "minimum_required": 5,
+      "passed": 5,
+      "population": 41,
+      "sample_percentage": 12.2,
+      "sampled": 5,
+      "status": "PASS"
+    },
+    "relationships": {
+      "failed": 0,
+      "minimum_required": 4,
+      "passed": 4,
+      "population": 40,
+      "sample_percentage": 10.0,
+      "sampled": 4,
+      "status": "PASS"
+    },
+    "sources": {
+      "failed": 0,
+      "minimum_required": 2,
+      "passed": 2,
+      "population": 20,
+      "sample_percentage": 10.0,
+      "sampled": 2,
+      "status": "PASS"
+    }
+  },
+  "findings": [],
+  "method": "Independent deterministic ID samples reviewed directly against canonical records, manifest profiles, sources, and coverage; this reviewer does not import or call scripts/import_uae_phase5.py.",
+  "p0": 0,
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-15",
+  "status": "PASS",
+  "total_passed": 33,
+  "total_sampled": 33
+}

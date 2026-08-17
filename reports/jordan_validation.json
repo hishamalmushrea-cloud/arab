@@ -1,0 +1,112 @@
+{
+  "checks": {
+    "ab_source_threshold": {
+      "detail": "A/B published claims=135/135 (100.00%)",
+      "status": "pass"
+    },
+    "administrative_topology": {
+      "detail": "parent_relationships=103, errors=0",
+      "status": "pass"
+    },
+    "aliases_unique": {
+      "detail": "aliases=116, duplicates=0",
+      "status": "pass"
+    },
+    "all_entities_parented": {
+      "detail": "every non-country administrative/site/place entity has an explicit relationship",
+      "status": "pass"
+    },
+    "atomic_source_registry": {
+      "detail": "atomic Jordan records=21, metadata_errors=[]",
+      "status": "pass"
+    },
+    "bounded_places": {
+      "detail": "places=4/4, sites=8/8, authoritative GeoNames references=0",
+      "status": "pass"
+    },
+    "checksum_bound_inputs": {
+      "detail": "files=25, mismatches=[]",
+      "status": "pass"
+    },
+    "claims_supported": {
+      "detail": "claims=135, unsupported=0",
+      "status": "pass"
+    },
+    "coordinates_and_temporality": {
+      "detail": "coordinate_mismatches=[], historical_status_errors=[]",
+      "status": "pass"
+    },
+    "country_manifest": {
+      "detail": "declared_layers=['bounded_populated_place', 'jo_governorate', 'jo_liwa', 'jo_qada', 'world_heritage_property'], dated=2026-08-15",
+      "status": "pass"
+    },
+    "country_specific_method": {
+      "detail": "Jordan importer/reviewer/fixture contain no Tunisia assumptions and Jordan records contain no TN references",
+      "status": "pass"
+    },
+    "cultural_scope": {
+      "detail": "national=2 at country; Bedu subjects=['البتراء', 'منطقة وادي رم المحمية']",
+      "status": "pass"
+    },
+    "denominator_closure": {
+      "detail": "five declared layers; failed=[]; matched + excluded = denominator",
+      "status": "pass"
+    },
+    "entity_counts": {
+      "detail": "actual={'archaeological_site': 4, 'city': 1, 'country': 1, 'cultural_site': 2, 'historical_place': 3, 'jo_governorate': 12, 'jo_liwa': 55, 'jo_qada': 36, 'natural_site': 2}",
+      "status": "pass"
+    },
+    "entity_resolution_before_places": {
+      "detail": "decisions=12, pre-existing=['ENT-JO-COUNTRY']",
+      "status": "pass"
+    },
+    "finding_closure": {
+      "detail": "P0=0, critical P1=0",
+      "status": "pass"
+    },
+    "identity_integrity": {
+      "detail": "duplicate_ids=0, orphans=0, country_mismatch=0, cycles=0",
+      "status": "pass"
+    },
+    "independent_review": {
+      "detail": "passed=True, minimum_rate=0.1165, fresh=True",
+      "status": "pass"
+    },
+    "legal_derivation": {
+      "detail": "fixture_counts={'jo_governorate': 12, 'jo_liwa': 55, 'jo_qada': 36}; by_governorate={'amman': (9, 4), 'irbid': (10, 0), 'balqa': (5, 3), 'karak': (8, 2), 'maan': (4, 4), 'zarqa': (3, 3), 'mafraq': (5, 9), 'tafilah': (3, 0), 'madaba': (2, 5), 'jerash': (2, 2), 'ajloun': (2, 2), 'aqaba': (2, 2)}; 51/38 +4/-2 = 55/36",
+      "status": "pass"
+    },
+    "missing_domains_not_forced": {
+      "detail": "dialect=not_documented, dress=not_found, people=N/A, dialect_claims=0",
+      "status": "pass"
+    },
+    "negative_tests": {
+      "detail": "outcomes={'NEG-JO-COORDINATE-MISMATCH': 'pass', 'NEG-JO-CULTURAL-MISATTRIBUTION': 'pass', 'NEG-JO-DUPLICATE-ALIAS': 'pass', 'NEG-JO-HISTORICAL-CURRENT-CONFUSION': 'pass', 'NEG-JO-NATIONAL-LOCAL-LEAKAGE': 'pass', 'NEG-JO-UNSUPPORTED-CLAIM': 'pass', 'NEG-JO-WRONG-PARENT-TYPE': 'pass'}",
+      "status": "pass"
+    },
+    "record_family_counts": {
+      "detail": "entities/aliases/relationships/claims=116/116/119/135",
+      "status": "pass"
+    },
+    "sensitive_claim_rule": {
+      "detail": "sensitive=0, noncompliant=0",
+      "status": "pass"
+    }
+  },
+  "country_code": "JO",
+  "errors": [],
+  "metrics": {
+    "ab_claim_ratio": 100.0,
+    "aliases": 116,
+    "atomic_sources": 21,
+    "claims": 135,
+    "critical_p1": 0,
+    "entities": 116,
+    "p0": 0,
+    "relationships": 119,
+    "sensitive_claims": 0
+  },
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-15",
+  "status": "pass"
+}

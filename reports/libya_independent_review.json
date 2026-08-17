@@ -1,0 +1,55 @@
+{
+  "country_code": "LY",
+  "critical_p1": 0,
+  "families": {
+    "aliases": {
+      "failed": 0,
+      "passed": 6,
+      "sampled": 6,
+      "status": "PASS"
+    },
+    "claims": {
+      "failed": 0,
+      "passed": 0,
+      "sampled": 0,
+      "status": "PASS"
+    },
+    "coverage": {
+      "failed": 0,
+      "passed": 4,
+      "sampled": 4,
+      "status": "PASS"
+    },
+    "denominators": {
+      "failed": 0,
+      "passed": 4,
+      "sampled": 4,
+      "status": "PASS"
+    },
+    "entities": {
+      "failed": 0,
+      "passed": 164,
+      "sampled": 164,
+      "status": "PASS"
+    },
+    "relationships": {
+      "failed": 0,
+      "passed": 163,
+      "sampled": 163,
+      "status": "PASS"
+    },
+    "sources": {
+      "failed": 0,
+      "passed": 3,
+      "sampled": 3,
+      "status": "PASS"
+    }
+  },
+  "findings": [],
+  "method": "Independent full catalogue-position and historical-layer comparison.",
+  "p0": 0,
+  "schema_version": "2.0.0",
+  "status": "PASS",
+  "total_passed": 344,
+  "total_sampled": 344
+}

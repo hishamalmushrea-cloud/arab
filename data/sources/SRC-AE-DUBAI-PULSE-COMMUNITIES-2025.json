@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:2916875e92e554a52f2aa43c87d9dbc24fefa427c18f042837cc1c71095de40e",
+  "country_codes": [
+    "AE"
+  ],
+  "id": "SRC-AE-DUBAI-PULSE-COMMUNITIES-2025",
+  "language": "en",
+  "license": "License not specified on captured dataset metadata",
+  "locator": "Community.kml resource metadata; download failure evidence",
+  "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/dubai-pulse-community-2025.txt. Checksum binds that extract (628 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt.",
+  "publication_date": "2025-11-03",
+  "publisher": "Dubai Municipality via Dubai Pulse",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "2.0.0",
+  "source_type": "official_dataset",
+  "title": "dm_community-open / Community.kml metadata",
+  "url": "https://www.dubaipulse.gov.ae/data/dm_community-open/datafiles/d22b4dd2-dded-4666-bc0b-97bd11e8e0a5/dm-location"
+}

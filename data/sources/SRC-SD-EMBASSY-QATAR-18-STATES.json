@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:5e78b7afd8045ff809998f252db24d68e8a178dc001719c8ff8e960452c0e657",
+  "country_codes": [
+    "SD"
+  ],
+  "id": "SRC-SD-EMBASSY-QATAR-18-STATES",
+  "language": "ar",
+  "license": "Official Sudan government material; factual extraction with attribution; reuse terms not stated",
+  "locator": "Government system section: Sudan has 18 states",
+  "notes": "Live government count confirmation. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "Embassy of Sudan in Qatar",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-17",
+  "schema_version": "2.0.0",
+  "source_type": "official_report",
+  "title": "About Sudan — system of government",
+  "url": "https://embassy-qatar.gov.sd/sections/aboutSudan"
+}

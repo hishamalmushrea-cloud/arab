@@ -1,0 +1,21 @@
+{
+  "country_code": "KW",
+  "critical_p1": 0,
+  "errors": [],
+  "metrics": {
+    "ab_claims": 6,
+    "aliases": 6,
+    "claims": 6,
+    "coverage_records": 3,
+    "denominators": 3,
+    "dialect_claims": 0,
+    "entities": 7,
+    "new_entities": 6,
+    "relationships": 6,
+    "sources": 3
+  },
+  "p0": 0,
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-16",
+  "status": "PASS"
+}

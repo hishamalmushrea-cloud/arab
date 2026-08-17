@@ -1,0 +1,54 @@
+{
+  "country_code": "YE",
+  "detected": 9,
+  "mutations": [
+    {
+      "detected": true,
+      "expected_code": "YE_AMANAT_ALIAS",
+      "mutation": "YE_AMANAT_AS_GOVERNORATE_ALIAS"
+    },
+    {
+      "detected": true,
+      "expected_code": "YE_COUNTS",
+      "mutation": "YE_SOCOTRA_REMOVED_FROM_CURRENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "YE_DENOMINATORS",
+      "mutation": "YE_LEGACY_DENOMINATOR_AS_CURRENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "YE_UNSUPPORTED_OVERLAY",
+      "mutation": "YE_LEGAL_LIST_AS_DE_FACTO"
+    },
+    {
+      "detected": true,
+      "expected_code": "YE_UNSUPPORTED_OVERLAY",
+      "mutation": "YE_DESTROYED_WITHOUT_DATED_SOURCE"
+    },
+    {
+      "detected": true,
+      "expected_code": "YE_PREMATURE_LOWER",
+      "mutation": "YE_PREMATURE_DISTRICT"
+    },
+    {
+      "detected": true,
+      "expected_code": "YE_PARENT",
+      "mutation": "YE_WRONG_PARENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "YE_COVERAGE_FRESHNESS",
+      "mutation": "YE_STALE_COVERAGE"
+    },
+    {
+      "detected": true,
+      "expected_code": "YE_SOCOTRA_LAW",
+      "mutation": "YE_EFFECTIVE_CLAUSE_FABRICATED"
+    }
+  ],
+  "required": 9,
+  "schema_version": "2.0.0",
+  "status": "PASS"
+}

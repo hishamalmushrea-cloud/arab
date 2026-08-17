@@ -1,0 +1,29 @@
+{
+  "country_code": "BH",
+  "domains": {
+    "custom": {
+      "claims": 0,
+      "status": "not_documented_in_cycle"
+    },
+    "dialect": {
+      "claims": 0,
+      "status": "not_documented_in_cycle"
+    },
+    "dress": {
+      "claims": 0,
+      "status": "not_documented_in_cycle"
+    },
+    "food": {
+      "claims": 0,
+      "status": "not_documented_in_cycle"
+    },
+    "world_heritage": {
+      "claims": 9,
+      "denominator": 3,
+      "status": "documented"
+    }
+  },
+  "notes": "Absence in this bounded cycle is not evidence that a cultural domain is absent in Bahrain. No template values were invented.",
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-16"
+}

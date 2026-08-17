@@ -1,0 +1,44 @@
+{
+  "schema_version": "2.0.0",
+  "country_code": "KW",
+  "assessment_date": "2026-08-16",
+  "status": "research_only_no_authoritative_records",
+  "mode": "Direct Structured Expansion",
+  "candidate_sources": [
+    {
+      "authority": "Central Statistical Bureau",
+      "url": "https://census.csb.gov.kw/Census_Gov",
+      "role": "bilingual six-governorate enumeration and population table",
+      "accepted_for_import": false,
+      "finding": "The chart/table totals agree, but prominent values elsewhere on the same page differ and the census reference date is not explicit in the rendered capture; workbook reconciliation required."
+    },
+    {
+      "authority": "Kuwait Government Online",
+      "url": "https://e.gov.kw/sites/kgoenglish/Pages/Visitors/AboutKuwait/KuwaitGovernorates.aspx",
+      "role": "administrative six-governorate current list",
+      "accepted_for_import": false,
+      "finding": "Indexed official content lists six governorates, but automated retrieval returned HTTP 403; an independently persisted primary artifact is required."
+    },
+    {
+      "authority": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/statesparties/kw",
+      "role": "World Heritage scope",
+      "accepted_for_import": false,
+      "finding": "Zero inscribed properties and six tentative-list sites; tentative sites cannot be promoted as inscribed properties."
+    }
+  ],
+  "expected_governorates": [
+    "محافظة العاصمة",
+    "محافظة حولي",
+    "محافظة الأحمدي",
+    "محافظة الجهراء",
+    "محافظة الفروانية",
+    "محافظة مبارك الكبير"
+  ],
+  "records_added": {
+    "entities": 0,
+    "claims": 0,
+    "sources": 0,
+    "denominators": 0
+  }
+}

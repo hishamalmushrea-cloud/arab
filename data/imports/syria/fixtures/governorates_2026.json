@@ -1,0 +1,90 @@
+{
+  "country_code": "SY",
+  "denominators": {
+    "current_governorates": 14,
+    "damascus_special_governorate": 1,
+    "districts_known_open": 68,
+    "other_governorates": 13,
+    "subdistricts_known_open": 227
+  },
+  "governorates": [
+    {
+      "code": "01",
+      "name_ar": "دمشق",
+      "profile": "damascus_city_governorate"
+    },
+    {
+      "code": "02",
+      "name_ar": "حلب",
+      "profile": "ordinary_governorate"
+    },
+    {
+      "code": "03",
+      "name_ar": "حماة",
+      "profile": "ordinary_governorate"
+    },
+    {
+      "code": "04",
+      "name_ar": "حمص",
+      "profile": "ordinary_governorate"
+    },
+    {
+      "code": "05",
+      "name_ar": "دير الزور",
+      "profile": "ordinary_governorate"
+    },
+    {
+      "code": "06",
+      "name_ar": "ريف دمشق",
+      "profile": "ordinary_governorate"
+    },
+    {
+      "code": "07",
+      "name_ar": "اللاذقية",
+      "profile": "ordinary_governorate"
+    },
+    {
+      "code": "08",
+      "name_ar": "السويداء",
+      "profile": "ordinary_governorate"
+    },
+    {
+      "code": "09",
+      "name_ar": "الحسكة",
+      "profile": "ordinary_governorate"
+    },
+    {
+      "code": "10",
+      "name_ar": "الرقة",
+      "profile": "ordinary_governorate"
+    },
+    {
+      "code": "11",
+      "name_ar": "إدلب",
+      "profile": "ordinary_governorate"
+    },
+    {
+      "code": "12",
+      "name_ar": "القنيطرة",
+      "profile": "ordinary_governorate"
+    },
+    {
+      "code": "13",
+      "name_ar": "درعا",
+      "profile": "ordinary_governorate"
+    },
+    {
+      "code": "14",
+      "name_ar": "طرطوس",
+      "profile": "ordinary_governorate"
+    }
+  ],
+  "method": "Current official reconciliation: Syrian Investment Authority states 14 governorates and hierarchy; current SANA governorate navigation enumerates the same 14 names; historical CBS material confirms continuity but is not used as proof of current control.",
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-17",
+  "sources": {
+    "cbs": "http://cbssyr.sy/governorte2010.html",
+    "sana": "https://sana.sy/presidency/",
+    "sia": "https://invest.gov.sy/Home/WhySyria"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "country_code": "JO",
+  "files": [
+    {
+      "bytes": 27895,
+      "path": "data/imports/jordan/hierarchy_2024.json",
+      "sha256": "f637a568470fd11387e09bfa7c5e9076f8409a73d150af9505c9d87526bb350c"
+    },
+    {
+      "bytes": 7884,
+      "path": "data/imports/jordan/world_heritage_2026.json",
+      "sha256": "d2d4769ea1de2740b4a60dcba049f6ef1efde69e5104aa151edba7960202797d"
+    },
+    {
+      "bytes": 3235,
+      "path": "data/imports/jordan/cultural_content_2026.json",
+      "sha256": "094efb941454c1cf4503ceb0092ca0637e485c0d6b7c57d8289377c81b71fd30"
+    },
+    {
+      "bytes": 9086,
+      "path": "data/imports/jordan/entity_resolution_2026.json",
+      "sha256": "80ede6433c8330759bb099bb4ca4d44b78be5c61451671e42123aa04a34256ec"
+    },
+    {
+      "bytes": 886,
+      "path": "data/sources/SRC-GEONAMES-JO-CROSSCHECK-2026.json",
+      "sha256": "475a2dfe812f1de5ce33c120e5c29c83444a1ddf67020fba40319dc0068874ad"
+    },
+    {
+      "bytes": 925,
+      "path": "data/sources/SRC-JO-DOS-LOCALITIES-2025.json",
+      "sha256": "9f31dd8ea2b4d9f9e7889a5e09f1c786e36e2eea69b6c6083edd88e8a90fb305"
+    },
+    {
+      "bytes": 950,
+      "path": "data/sources/SRC-JO-GAZETTE-5931-2024.json",
+      "sha256": "2b2c820cf569b99ad67156c8a260cbca817eb83989309546bbe9b643967f7dfc"
+    },
+    {
+      "bytes": 1060,
+      "path": "data/sources/SRC-JO-MOI-MAAN-2026.json",
+      "sha256": "3d1637e9294a2ed84cbeacf3992dd592aefe05d326d7b59beb6af41ea5469303"
+    },
+    {
+      "bytes": 962,
+      "path": "data/sources/SRC-JO-MOI-RUWAYSHID-2026.json",
+      "sha256": "d2ea560d07ba4a36774e576c51a84c8f249fed764c7b056a065f3f9e55c4288a"
+    },
+    {
+      "bytes": 1091,
+      "path": "data/sources/SRC-JO-PETRA-WEST-IRBID-2024.json",
+      "sha256": "768cdf6d0bf6cb63f0e0be6f98ccbf379c3e0bbe37f21a7c45be9fb15f321bbf"
+    },
+    {
+      "bytes": 965,
+      "path": "data/sources/SRC-JO-REGULATION-29-2024.json",
+      "sha256": "9a7125515b0afc772c26c539adda8a13eed39a0d50e2c1e1a997c988aa762888"
+    },
+    {
+      "bytes": 962,
+      "path": "data/sources/SRC-JO-REGULATION-46-2000.json",
+      "sha256": "3231c1673c5b76c70de51a0f0c24513c3df66a88b910fe1ed1c74c4ee55ad9d6"
+    },
+    {
+      "bytes": 1118,
+      "path": "data/sources/SRC-JO-REGULATION-46-TRANSCRIPTION.json",
+      "sha256": "7a13cefa8b62a1d97d21522171e686a9abeb8c36a55b8997d150999f935503c0"
+    },
+    {
+      "bytes": 876,
+      "path": "data/sources/SRC-UNESCO-ICH-JO-00122.json",
+      "sha256": "5360a1bb9764901c325b2b88e685fd94db993fc3169e94fbac251d345c48de89"
+    },
+    {
+      "bytes": 809,
+      "path": "data/sources/SRC-UNESCO-ICH-JO-01301.json",
+      "sha256": "c90c7c3e9870333a930e8a0a62ab9d83d14e53113b8703d96e79b4824403bb81"
+    },
+    {
+      "bytes": 919,
+      "path": "data/sources/SRC-UNESCO-ICH-JO-01849.json",
+      "sha256": "ea37fdb7a60c697cd53691d7a2503f375f94406c042caa35eebc2980f74e9584"
+    },
+    {
+      "bytes": 836,
+      "path": "data/sources/SRC-UNESCO-WHC-JO-1093.json",
+      "sha256": "da93c7bc4bb763aa00b63a2b1e7d377dc782ed3837e621810ee6b4d10dacd9a1"
+    },
+    {
+      "bytes": 841,
+      "path": "data/sources/SRC-UNESCO-WHC-JO-1377.json",
+      "sha256": "a512f3bff37356138e785f9008abb1fdc46a5ad32c5585d16534e3673545d185"
+    },
+    {
+      "bytes": 861,
+      "path": "data/sources/SRC-UNESCO-WHC-JO-1446.json",
+      "sha256": "b2155520935fd747818d7b4c29b2e90827c230dda976e9281f1c7a251d8ac0fd"
+    },
+    {
+      "bytes": 817,
+      "path": "data/sources/SRC-UNESCO-WHC-JO-1721.json",
+      "sha256": "5fc354c2831a425bfb64a29adfc8a9c237e6700374679744f2460f4b835507b2"
+    },
+    {
+      "bytes": 841,
+      "path": "data/sources/SRC-UNESCO-WHC-JO-1742.json",
+      "sha256": "7e0b689b78c62bd23b8c8aa5b61deb88ca6f2b649ac9d7001feee020047c7b04"
+    },
+    {
+      "bytes": 968,
+      "path": "data/sources/SRC-UNESCO-WHC-JO-2026.json",
+      "sha256": "799bbd405230bba1cd607801f85112cbdcfa1d12e8ff485cd2b272c0ea82a098"
+    },
+    {
+      "bytes": 835,
+      "path": "data/sources/SRC-UNESCO-WHC-JO-326.json",
+      "sha256": "dd5239bc8b354dba72f2a39e80bda1dcdad403bf7421d72d2990b23caad1d704"
+    },
+    {
+      "bytes": 838,
+      "path": "data/sources/SRC-UNESCO-WHC-JO-327.json",
+      "sha256": "59441a42a4042ac87e5ae765d880d96c0f6d5231c2f0eef8a9a2602fb8aac689"
+    },
+    {
+      "bytes": 861,
+      "path": "data/sources/SRC-UNESCO-WHC-JO-689.json",
+      "sha256": "4300647e319a7f1bc6b03bcc17bd66a184e2c77c486383e37ef69661992072c7"
+    }
+  ],
+  "notes": "Checksums bind every Jordan importer fixture and every Jordan-specific or Jordan-cross-check source metadata record. Remote bytes are not implied.",
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-15"
+}

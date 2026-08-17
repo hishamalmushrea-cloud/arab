@@ -1,0 +1,262 @@
+{
+  "caveats": [
+    "Current Union administration covers three islands; Mayotte excluded.",
+    "Village components not communes.",
+    "UNESCO 2026 inscription supersedes older zero-property page."
+  ],
+  "country": {
+    "entity_id": "ENT-KM-COUNTRY",
+    "iso2": "KM",
+    "name_ar": "جزر القمر"
+  },
+  "coverage_record_ids": [
+    "COV-KM-COUNTRY-SCOPE",
+    "COV-KM-ISLANDS",
+    "COV-KM-PREFECTURES",
+    "COV-KM-COMMUNES",
+    "COV-KM-WHC"
+  ],
+  "hierarchy": [
+    {
+      "allowed_parent_types": [],
+      "caveat": "Country scope only; not a local coverage assertion.",
+      "entity_type": "country",
+      "level": 0,
+      "local_names": [
+        "دولة"
+      ],
+      "source_ids": [
+        "SRC-ISO-3166-1-2020"
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "disputed",
+        "de_facto",
+        "claimed"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "country"
+      ],
+      "authority_name": "Justice / INSEED",
+      "caveat": "تتعارض المراجع حول عدد المحافظات/البلديات؛ لا يُملأ المقام بالتخمين.",
+      "coverage_record_id": "COV-KM-ISLANDS",
+      "denominator": 3,
+      "denominator_id": "DEN-KM-ISLANDS",
+      "entity_type": "km_island",
+      "level": 1,
+      "license": "Official Comoros public/statistical material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "جزيرة ذاتية الحكم"
+      ],
+      "notes": "Current Union-administered scope.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-KM-LAW-11-006-AU-2011",
+        "SRC-KM-INSEED-RGPH17-ADMIN"
+      ],
+      "special_cases": [
+        "Mayotte excluded."
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "km_island"
+      ],
+      "authority_name": "Justice / INSEED",
+      "caveat": "تتعارض المراجع حول عدد المحافظات/البلديات؛ لا يُملأ المقام بالتخمين.",
+      "coverage_record_id": "COV-KM-PREFECTURES",
+      "denominator": 16,
+      "denominator_id": "DEN-KM-PREFECTURES",
+      "entity_type": "km_prefecture",
+      "level": 2,
+      "license": "Official Comoros public/statistical material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "محافظة/Préfecture"
+      ],
+      "notes": "Current Union-administered scope.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-KM-LAW-11-006-AU-2011",
+        "SRC-KM-INSEED-RGPH17-ADMIN"
+      ],
+      "special_cases": [
+        "Mayotte excluded."
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "km_prefecture"
+      ],
+      "authority_name": "Justice / INSEED",
+      "caveat": "تتعارض المراجع حول عدد المحافظات/البلديات؛ لا يُملأ المقام بالتخمين.",
+      "coverage_record_id": "COV-KM-COMMUNES",
+      "denominator": 54,
+      "denominator_id": "DEN-KM-COMMUNES",
+      "entity_type": "km_commune",
+      "level": 3,
+      "license": "Official Comoros public/statistical material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "بلدية/Commune"
+      ],
+      "notes": "Current Union-administered scope.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-KM-LAW-11-006-AU-2011",
+        "SRC-KM-INSEED-RGPH17-ADMIN"
+      ],
+      "special_cases": [
+        "Mayotte excluded."
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "next_action": "Maintain 3/16/54 current hierarchy and separate any claimed-territory representation.",
+  "official_authority": {
+    "missing_reason": null,
+    "name": "Ministry of Justice / INSEED",
+    "source_ids": [
+      "SRC-KM-LAW-11-006-AU-2011",
+      "SRC-KM-INSEED-RGPH17-ADMIN",
+      "SRC-UNESCO-WHC-KM-1768-2026"
+    ],
+    "verification_status": "verified"
+  },
+  "pilot_layers": [
+    {
+      "authority_name": "Justice / INSEED",
+      "coverage_record_id": "COV-KM-ISLANDS",
+      "denominator": 3,
+      "denominator_id": "DEN-KM-ISLANDS",
+      "entity_types": [
+        "km_island"
+      ],
+      "layer": "km_island",
+      "license": "Official Comoros public/statistical material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "administrative unit"
+      ],
+      "notes": "Current scope.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-KM-LAW-11-006-AU-2011"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "Justice / INSEED",
+      "coverage_record_id": "COV-KM-PREFECTURES",
+      "denominator": 16,
+      "denominator_id": "DEN-KM-PREFECTURES",
+      "entity_types": [
+        "km_prefecture"
+      ],
+      "layer": "km_prefecture",
+      "license": "Official Comoros public/statistical material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "administrative unit"
+      ],
+      "notes": "Current scope.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-KM-LAW-11-006-AU-2011"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "Justice / INSEED",
+      "coverage_record_id": "COV-KM-COMMUNES",
+      "denominator": 54,
+      "denominator_id": "DEN-KM-COMMUNES",
+      "entity_types": [
+        "km_commune"
+      ],
+      "layer": "km_commune",
+      "license": "Official Comoros public/statistical material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "administrative unit"
+      ],
+      "notes": "Current scope.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-KM-LAW-11-006-AU-2011"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "Justice / INSEED",
+      "coverage_record_id": "COV-KM-WHC",
+      "denominator": 1,
+      "denominator_id": "DEN-KM-WHC",
+      "entity_types": [
+        "world_heritage_property"
+      ],
+      "layer": "world_heritage_property",
+      "license": "CC BY-SA 3.0 IGO for UNESCO descriptions",
+      "local_names": [
+        "administrative unit"
+      ],
+      "notes": "Current scope.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-UNESCO-WHC-KM-1768-2026"
+      ],
+      "special_cases": []
+    }
+  ],
+  "schema_version": "2.0.0",
+  "snapshot": {
+    "as_of": "2026-08-17",
+    "snapshot_id": "SNP-KM-PRODUCTION-20260817",
+    "status": "verified"
+  },
+  "status": "pilot_migrated"
+}

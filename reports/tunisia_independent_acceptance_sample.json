@@ -1,0 +1,1698 @@
+{
+  "accepted_snapshot_commit": "3410ef06188e133e5aa5e3cb9cde58d41900682f",
+  "audit_date": "2026-08-15",
+  "claim_classification_counts": {
+    "ambiguous": 0,
+    "partially_supported": 9,
+    "source_unavailable": 0,
+    "supported": 13,
+    "unsupported": 6
+  },
+  "claim_classification_percentages": {
+    "ambiguous": 0.0,
+    "partially_supported": 32.14,
+    "source_unavailable": 0.0,
+    "supported": 46.43,
+    "unsupported": 21.43
+  },
+  "claim_sample_method": {
+    "record_key": "claim id",
+    "sample_size": 28,
+    "strata": {
+      "intangible_cultural_heritage": 3,
+      "person_history": 2,
+      "population": 8,
+      "tourism": 3,
+      "world_heritage": 12
+    },
+    "universe": 68
+  },
+  "claims": [
+    {
+      "claim_id": "CLM-5F89225106935E96",
+      "classification": "partially_supported",
+      "entity_id": "ENT-TN-GOVERNORATE-1864AE41D5B4",
+      "entity_name": "قبلي",
+      "entity_type": "tn_governorate",
+      "post_repair_claim_id": "CLM-5F89225106935E96",
+      "post_repair_classification": "supported",
+      "post_repair_entity_id": "ENT-TN-GOVERNORATE-1864AE41D5B4",
+      "post_repair_source_locator": "Volume 3, PDF p. 47, governorate row: قبلي",
+      "post_repair_value": {
+        "data": 156961,
+        "type": "integer"
+      },
+      "predicate": "population",
+      "reason": "The cited INS Volume 0 is a rounded summary: it supports the governorate and magnitude but not the published exact integer. Volume 3 p. 47 independently confirms the value.",
+      "source_id": "SRC-TN-INS-RGPH-2014",
+      "source_locator": "Governorate table: قبلي",
+      "source_url": "https://www.ins.tn/sites/default/files/publication/pdf/RGPH%202014-V0.pdf",
+      "stratum": "population",
+      "stratum_rank": 1,
+      "value": {
+        "data": 156961,
+        "type": "integer"
+      }
+    },
+    {
+      "claim_id": "CLM-A968DAF688615537",
+      "classification": "partially_supported",
+      "entity_id": "ENT-TN-GOVERNORATE-DB8D5C457676",
+      "entity_name": "تونس",
+      "entity_type": "tn_governorate",
+      "post_repair_claim_id": "CLM-A968DAF688615537",
+      "post_repair_classification": "supported",
+      "post_repair_entity_id": "ENT-TN-GOVERNORATE-DB8D5C457676",
+      "post_repair_source_locator": "Volume 3, PDF p. 47, governorate row: تونس",
+      "post_repair_value": {
+        "data": 1056247,
+        "type": "integer"
+      },
+      "predicate": "population",
+      "reason": "The cited INS Volume 0 is a rounded summary: it supports the governorate and magnitude but not the published exact integer. Volume 3 p. 47 independently confirms the value.",
+      "source_id": "SRC-TN-INS-RGPH-2014",
+      "source_locator": "Governorate table: تونس",
+      "source_url": "https://www.ins.tn/sites/default/files/publication/pdf/RGPH%202014-V0.pdf",
+      "stratum": "population",
+      "stratum_rank": 2,
+      "value": {
+        "data": 1056247,
+        "type": "integer"
+      }
+    },
+    {
+      "claim_id": "CLM-01F01217FD73549E",
+      "classification": "partially_supported",
+      "entity_id": "ENT-TN-GOVERNORATE-EA2D44B4F25E",
+      "entity_name": "باجة",
+      "entity_type": "tn_governorate",
+      "post_repair_claim_id": "CLM-01F01217FD73549E",
+      "post_repair_classification": "supported",
+      "post_repair_entity_id": "ENT-TN-GOVERNORATE-EA2D44B4F25E",
+      "post_repair_source_locator": "Volume 3, PDF p. 47, governorate row: باجة",
+      "post_repair_value": {
+        "data": 303032,
+        "type": "integer"
+      },
+      "predicate": "population",
+      "reason": "The cited INS Volume 0 is a rounded summary: it supports the governorate and magnitude but not the published exact integer. Volume 3 p. 47 independently confirms the value.",
+      "source_id": "SRC-TN-INS-RGPH-2014",
+      "source_locator": "Governorate table: باجة",
+      "source_url": "https://www.ins.tn/sites/default/files/publication/pdf/RGPH%202014-V0.pdf",
+      "stratum": "population",
+      "stratum_rank": 3,
+      "value": {
+        "data": 303032,
+        "type": "integer"
+      }
+    },
+    {
+      "claim_id": "CLM-A583EEC3020E5A4B",
+      "classification": "partially_supported",
+      "entity_id": "ENT-TN-GOVERNORATE-D5ED89886664",
+      "entity_name": "بن عروس",
+      "entity_type": "tn_governorate",
+      "post_repair_claim_id": "CLM-A583EEC3020E5A4B",
+      "post_repair_classification": "supported",
+      "post_repair_entity_id": "ENT-TN-GOVERNORATE-D5ED89886664",
+      "post_repair_source_locator": "Volume 3, PDF p. 47, governorate row: بن عروس",
+      "post_repair_value": {
+        "data": 631842,
+        "type": "integer"
+      },
+      "predicate": "population",
+      "reason": "The cited INS Volume 0 is a rounded summary: it supports the governorate and magnitude but not the published exact integer. Volume 3 p. 47 independently confirms the value.",
+      "source_id": "SRC-TN-INS-RGPH-2014",
+      "source_locator": "Governorate table: بن عروس",
+      "source_url": "https://www.ins.tn/sites/default/files/publication/pdf/RGPH%202014-V0.pdf",
+      "stratum": "population",
+      "stratum_rank": 4,
+      "value": {
+        "data": 631842,
+        "type": "integer"
+      }
+    },
+    {
+      "claim_id": "CLM-A092AE81190758A5",
+      "classification": "unsupported",
+      "entity_id": "ENT-TN-GOVERNORATE-D28A09D558AD",
+      "entity_name": "القيروان",
+      "entity_type": "tn_governorate",
+      "post_repair_claim_id": "CLM-D4731C818B175CC3",
+      "post_repair_classification": "supported",
+      "post_repair_entity_id": "ENT-TN-GOVERNORATE-D28A09D558AD",
+      "post_repair_source_locator": "Volume 3, PDF p. 47, governorate row: القيروان",
+      "post_repair_value": {
+        "data": 570436,
+        "type": "integer"
+      },
+      "predicate": "population",
+      "reason": "INS Volume 3 p. 47 gives Kairouan 570,436, contradicting the published 570,559; Volume 0 cannot establish the exact value.",
+      "source_id": "SRC-TN-INS-RGPH-2014",
+      "source_locator": "Governorate table: القيروان",
+      "source_url": "https://www.ins.tn/sites/default/files/publication/pdf/RGPH%202014-V0.pdf",
+      "stratum": "population",
+      "stratum_rank": 5,
+      "value": {
+        "data": 570559,
+        "type": "integer"
+      }
+    },
+    {
+      "claim_id": "CLM-FA70F590185150F4",
+      "classification": "partially_supported",
+      "entity_id": "ENT-TN-GOVERNORATE-902616FE3988",
+      "entity_name": "مدنين",
+      "entity_type": "tn_governorate",
+      "post_repair_claim_id": "CLM-FA70F590185150F4",
+      "post_repair_classification": "supported",
+      "post_repair_entity_id": "ENT-TN-GOVERNORATE-902616FE3988",
+      "post_repair_source_locator": "Volume 3, PDF p. 47, governorate row: مدنين",
+      "post_repair_value": {
+        "data": 479520,
+        "type": "integer"
+      },
+      "predicate": "population",
+      "reason": "The cited INS Volume 0 is a rounded summary: it supports the governorate and magnitude but not the published exact integer. Volume 3 p. 47 independently confirms the value.",
+      "source_id": "SRC-TN-INS-RGPH-2014",
+      "source_locator": "Governorate table: مدنين",
+      "source_url": "https://www.ins.tn/sites/default/files/publication/pdf/RGPH%202014-V0.pdf",
+      "stratum": "population",
+      "stratum_rank": 6,
+      "value": {
+        "data": 479520,
+        "type": "integer"
+      }
+    },
+    {
+      "claim_id": "CLM-476452C4482C56BE",
+      "classification": "unsupported",
+      "entity_id": "ENT-TN-GOVERNORATE-EA30E853F598",
+      "entity_name": "نابل",
+      "entity_type": "tn_governorate",
+      "post_repair_claim_id": "CLM-63EBFB67ADC85493",
+      "post_repair_classification": "supported",
+      "post_repair_entity_id": "ENT-TN-GOVERNORATE-EA30E853F598",
+      "post_repair_source_locator": "Volume 3, PDF p. 47, governorate row: نابل",
+      "post_repair_value": {
+        "data": 787918,
+        "type": "integer"
+      },
+      "predicate": "population",
+      "reason": "INS Volume 3 p. 47 gives Nabeul 787,918, contradicting the published 787,920; Volume 0 cannot establish the exact value.",
+      "source_id": "SRC-TN-INS-RGPH-2014",
+      "source_locator": "Governorate table: نابل",
+      "source_url": "https://www.ins.tn/sites/default/files/publication/pdf/RGPH%202014-V0.pdf",
+      "stratum": "population",
+      "stratum_rank": 7,
+      "value": {
+        "data": 787920,
+        "type": "integer"
+      }
+    },
+    {
+      "claim_id": "CLM-299066B220135F49",
+      "classification": "partially_supported",
+      "entity_id": "ENT-TN-GOVERNORATE-E7D96FEF5043",
+      "entity_name": "المهدية",
+      "entity_type": "tn_governorate",
+      "post_repair_claim_id": "CLM-299066B220135F49",
+      "post_repair_classification": "supported",
+      "post_repair_entity_id": "ENT-TN-GOVERNORATE-E7D96FEF5043",
+      "post_repair_source_locator": "Volume 3, PDF p. 47, governorate row: المهدية",
+      "post_repair_value": {
+        "data": 410812,
+        "type": "integer"
+      },
+      "predicate": "population",
+      "reason": "The cited INS Volume 0 is a rounded summary: it supports the governorate and magnitude but not the published exact integer. Volume 3 p. 47 independently confirms the value.",
+      "source_id": "SRC-TN-INS-RGPH-2014",
+      "source_locator": "Governorate table: المهدية",
+      "source_url": "https://www.ins.tn/sites/default/files/publication/pdf/RGPH%202014-V0.pdf",
+      "stratum": "population",
+      "stratum_rank": 8,
+      "value": {
+        "data": 410812,
+        "type": "integer"
+      }
+    },
+    {
+      "claim_id": "CLM-36E23A9B28165DDE",
+      "classification": "supported",
+      "entity_id": "ENT-TN-SITE-CARTHAGE",
+      "entity_name": "موقع قرطاج الأثري",
+      "entity_type": "archaeological_site",
+      "post_repair_claim_id": "CLM-36E23A9B28165DDE",
+      "post_repair_classification": "supported",
+      "post_repair_entity_id": "ENT-TN-SITE-CARTHAGE",
+      "post_repair_source_locator": "World Heritage property 37",
+      "post_repair_value": {
+        "data": "Phoenician foundation traditionally dated to the 9th century BCE; later Roman city",
+        "type": "string"
+      },
+      "predicate": "period",
+      "reason": "The named UNESCO World Heritage property page and locator directly support the value at the represented site scope.",
+      "source_id": "SRC-UNESCO-WHC-TN-2026",
+      "source_locator": "World Heritage property 37",
+      "source_url": "https://whc.unesco.org/en/statesparties/tn",
+      "stratum": "world_heritage",
+      "stratum_rank": 1,
+      "value": {
+        "data": "Phoenician foundation traditionally dated to the 9th century BCE; later Roman city",
+        "type": "string"
+      }
+    },
+    {
+      "claim_id": "CLM-16B2039E442453FE",
+      "classification": "supported",
+      "entity_id": "ENT-TN-SITE-KERKUANE",
+      "entity_name": "مدينة كركوان البونية",
+      "entity_type": "archaeological_site",
+      "post_repair_claim_id": "CLM-16B2039E442453FE",
+      "post_repair_classification": "supported",
+      "post_repair_entity_id": "ENT-TN-SITE-KERKUANE",
+      "post_repair_source_locator": "World Heritage property 332",
+      "post_repair_value": {
+        "data": "Archaeological town and necropolis remains",
+        "type": "string"
+      },
+      "predicate": "condition",
+      "reason": "The named UNESCO World Heritage property page and locator directly support the value at the represented site scope.",
+      "source_id": "SRC-UNESCO-WHC-TN-2026",
+      "source_locator": "World Heritage property 332",
+      "source_url": "https://whc.unesco.org/en/statesparties/tn",
+      "stratum": "world_heritage",
+      "stratum_rank": 2,
+      "value": {
+        "data": "Archaeological town and necropolis remains",
+        "type": "string"
+      }
+    },
+    {
+      "claim_id": "CLM-96D13B9F1B2156C4",
+      "classification": "unsupported",
+      "entity_id": "ENT-TN-SITE-SIDI-BOU-SAID",
+      "entity_name": "قرية سيدي بوسعيد",
+      "entity_type": "cultural_site",
+      "post_repair_claim_id": "CLM-215A9AEDC9675F8A",
+      "post_repair_classification": "supported",
+      "post_repair_entity_id": "ENT-TN-SITE-SIDI-BOU-SAID",
+      "post_repair_source_locator": "World Heritage property 1769",
+      "post_repair_value": {
+        "data": "Settlement developed around the tomb of the Sufi master Sidi Bou Said in the 13th century",
+        "type": "string"
+      },
+      "predicate": "period",
+      "reason": "Locator 1732 is a property in Viet Nam. Correct property 1769 does not support the published stratified ancient/Mediterranean period wording.",
+      "source_id": "SRC-UNESCO-WHC-TN-2026",
+      "source_locator": "World Heritage property 1732",
+      "source_url": "https://whc.unesco.org/en/statesparties/tn",
+      "stratum": "world_heritage",
+      "stratum_rank": 3,
+      "value": {
+        "data": "Stratified settlement history including ancient and later Mediterranean periods",
+        "type": "string"
+      }
+    },
+    {
+      "claim_id": "CLM-6072B3A62B245ABE",
+      "classification": "supported",
+      "entity_id": "ENT-TN-SITE-MEDINA-TUNIS",
+      "entity_name": "مدينة تونس العتيقة",
+      "entity_type": "cultural_site",
+      "post_repair_claim_id": "CLM-6072B3A62B245ABE",
+      "post_repair_classification": "supported",
+      "post_repair_entity_id": "ENT-TN-SITE-MEDINA-TUNIS",
+      "post_repair_source_locator": "World Heritage property 36",
+      "post_repair_value": {
+        "data": "Islamic city founded in 698; major Almohad and Hafsid period",
+        "type": "string"
+      },
+      "predicate": "period",
+      "reason": "The named UNESCO World Heritage property page and locator directly support the value at the represented site scope.",
+      "source_id": "SRC-UNESCO-WHC-TN-2026",
+      "source_locator": "World Heritage property 36",
+      "source_url": "https://whc.unesco.org/en/statesparties/tn",
+      "stratum": "world_heritage",
+      "stratum_rank": 4,
+      "value": {
+        "data": "Islamic city founded in 698; major Almohad and Hafsid period",
+        "type": "string"
+      }
+    },
+    {
+      "claim_id": "CLM-91350C5BD0335062",
+      "classification": "supported",
+      "entity_id": "ENT-TN-SITE-AMPHITHEATRE-EL-JEM",
+      "entity_name": "مدرج الجم",
+      "entity_type": "landmark",
+      "post_repair_claim_id": "CLM-91350C5BD0335062",
+      "post_repair_classification": "supported",
+      "post_repair_entity_id": "ENT-TN-SITE-AMPHITHEATRE-EL-JEM",
+      "post_repair_source_locator": "World Heritage property 38",
+      "post_repair_value": {
+        "data": "UNESCO World Heritage property, inscribed 1979",
+        "type": "string"
+      },
+      "predicate": "protection_status",
+      "reason": "The named UNESCO World Heritage property page and locator directly support the value at the represented site scope.",
+      "source_id": "SRC-UNESCO-WHC-TN-2026",
+      "source_locator": "World Heritage property 38",
+      "source_url": "https://whc.unesco.org/en/statesparties/tn",
+      "stratum": "world_heritage",
+      "stratum_rank": 5,
+      "value": {
+        "data": "UNESCO World Heritage property, inscribed 1979",
+        "type": "string"
+      }
+    },
+    {
+      "claim_id": "CLM-E2EF36CF34245555",
+      "classification": "supported",
+      "entity_id": "ENT-TN-SITE-DOUGGA",
+      "entity_name": "دقّة",
+      "entity_type": "archaeological_site",
+      "post_repair_claim_id": "CLM-E2EF36CF34245555",
+      "post_repair_classification": "supported",
+      "post_repair_entity_id": "ENT-TN-SITE-DOUGGA",
+      "post_repair_source_locator": "World Heritage property 794 and maps",
+      "post_repair_value": {
+        "data": "Extensive archaeological ruins retaining urban components",
+        "type": "string"
+      },
+      "predicate": "condition",
+      "reason": "The named UNESCO World Heritage property page and locator directly support the value at the represented site scope.",
+      "source_id": "SRC-UNESCO-WHC-TN-2026",
+      "source_locator": "World Heritage property 794 and maps",
+      "source_url": "https://whc.unesco.org/en/statesparties/tn",
+      "stratum": "world_heritage",
+      "stratum_rank": 6,
+      "value": {
+        "data": "Extensive archaeological ruins retaining urban components",
+        "type": "string"
+      }
+    },
+    {
+      "claim_id": "CLM-5C925D88368C5AD5",
+      "classification": "supported",
+      "entity_id": "ENT-TN-SITE-DOUGGA",
+      "entity_name": "دقّة",
+      "entity_type": "archaeological_site",
+      "post_repair_claim_id": "CLM-5C925D88368C5AD5",
+      "post_repair_classification": "supported",
+      "post_repair_entity_id": "ENT-TN-SITE-DOUGGA",
+      "post_repair_source_locator": "World Heritage property 794 and maps",
+      "post_repair_value": {
+        "data": "Numidian settlement and Romanized town",
+        "type": "string"
+      },
+      "predicate": "period",
+      "reason": "The named UNESCO World Heritage property page and locator directly support the value at the represented site scope.",
+      "source_id": "SRC-UNESCO-WHC-TN-2026",
+      "source_locator": "World Heritage property 794 and maps",
+      "source_url": "https://whc.unesco.org/en/statesparties/tn",
+      "stratum": "world_heritage",
+      "stratum_rank": 7,
+      "value": {
+        "data": "Numidian settlement and Romanized town",
+        "type": "string"
+      }
+    },
+    {
+      "claim_id": "CLM-EE0C3305F4EF517E",
+      "classification": "supported",
+      "entity_id": "ENT-TN-SITE-MEDINA-SOUSSE",
+      "entity_name": "مدينة سوسة العتيقة",
+      "entity_type": "cultural_site",
+      "post_repair_claim_id": "CLM-EE0C3305F4EF517E",
+      "post_repair_classification": "supported",
+      "post_repair_entity_id": "ENT-TN-SITE-MEDINA-SOUSSE",
+      "post_repair_source_locator": "World Heritage property 498",
+      "post_repair_value": {
+        "data": "Early Islamic coastal town, particularly 9th century",
+        "type": "string"
+      },
+      "predicate": "period",
+      "reason": "The named UNESCO World Heritage property page and locator directly support the value at the represented site scope.",
+      "source_id": "SRC-UNESCO-WHC-TN-2026",
+      "source_locator": "World Heritage property 498",
+      "source_url": "https://whc.unesco.org/en/statesparties/tn",
+      "stratum": "world_heritage",
+      "stratum_rank": 8,
+      "value": {
+        "data": "Early Islamic coastal town, particularly 9th century",
+        "type": "string"
+      }
+    },
+    {
+      "claim_id": "CLM-B17FF880127E503F",
+      "classification": "supported",
+      "entity_id": "ENT-TN-SITE-CARTHAGE",
+      "entity_name": "موقع قرطاج الأثري",
+      "entity_type": "archaeological_site",
+      "post_repair_claim_id": "CLM-B17FF880127E503F",
+      "post_repair_classification": "supported",
+      "post_repair_entity_id": "ENT-TN-SITE-CARTHAGE",
+      "post_repair_source_locator": "World Heritage property 37",
+      "post_repair_value": {
+        "data": "UNESCO World Heritage property, inscribed 1979",
+        "type": "string"
+      },
+      "predicate": "protection_status",
+      "reason": "The named UNESCO World Heritage property page and locator directly support the value at the represented site scope.",
+      "source_id": "SRC-UNESCO-WHC-TN-2026",
+      "source_locator": "World Heritage property 37",
+      "source_url": "https://whc.unesco.org/en/statesparties/tn",
+      "stratum": "world_heritage",
+      "stratum_rank": 9,
+      "value": {
+        "data": "UNESCO World Heritage property, inscribed 1979",
+        "type": "string"
+      }
+    },
+    {
+      "claim_id": "CLM-CFF3140154B95A9D",
+      "classification": "supported",
+      "entity_id": "ENT-TN-SITE-ICHKEUL",
+      "entity_name": "الحديقة الوطنية بإشكل",
+      "entity_type": "natural_site",
+      "post_repair_claim_id": "CLM-CFF3140154B95A9D",
+      "post_repair_classification": "supported",
+      "post_repair_entity_id": "ENT-TN-SITE-ICHKEUL",
+      "post_repair_source_locator": "World Heritage property 8",
+      "post_repair_value": {
+        "data": "Integrity depends on freshwater inflow; restoration and monitoring documented",
+        "type": "string"
+      },
+      "predicate": "condition",
+      "reason": "The named UNESCO World Heritage property page and locator directly support the value at the represented site scope.",
+      "source_id": "SRC-UNESCO-WHC-TN-2026",
+      "source_locator": "World Heritage property 8",
+      "source_url": "https://whc.unesco.org/en/statesparties/tn",
+      "stratum": "world_heritage",
+      "stratum_rank": 10,
+      "value": {
+        "data": "Integrity depends on freshwater inflow; restoration and monitoring documented",
+        "type": "string"
+      }
+    },
+    {
+      "claim_id": "CLM-8DD7671C112B56D5",
+      "classification": "partially_supported",
+      "entity_id": "ENT-TN-SETTLEMENT-EL-JEM",
+      "entity_name": "الجم",
+      "entity_type": "settlement",
+      "post_repair_claim_id": "CLM-1EB0B721F65E5B35",
+      "post_repair_classification": "supported",
+      "post_repair_entity_id": "ENT-TN-VILLAGE-EL-JEM",
+      "post_repair_source_locator": "World Heritage property 38: small village of El Jem",
+      "post_repair_value": {
+        "data": "village",
+        "type": "string"
+      },
+      "predicate": "place_classification",
+      "reason": "UNESCO property 38 supports El Jem and explicitly calls it a small village, not the controlled value settlement.",
+      "source_id": "SRC-UNESCO-WHC-TN-2026",
+      "source_locator": "World Heritage property 38: small settlement of El Jem",
+      "source_url": "https://whc.unesco.org/en/statesparties/tn",
+      "stratum": "world_heritage",
+      "stratum_rank": 11,
+      "value": {
+        "data": "settlement",
+        "type": "string"
+      }
+    },
+    {
+      "claim_id": "CLM-58E10A65B0A9518C",
+      "classification": "supported",
+      "entity_id": "ENT-TN-SITE-KERKUANE",
+      "entity_name": "مدينة كركوان البونية",
+      "entity_type": "archaeological_site",
+      "post_repair_claim_id": "CLM-58E10A65B0A9518C",
+      "post_repair_classification": "supported",
+      "post_repair_entity_id": "ENT-TN-SITE-KERKUANE",
+      "post_repair_source_locator": "World Heritage property 332",
+      "post_repair_value": {
+        "data": "UNESCO World Heritage property, inscribed 1985",
+        "type": "string"
+      },
+      "predicate": "protection_status",
+      "reason": "The named UNESCO World Heritage property page and locator directly support the value at the represented site scope.",
+      "source_id": "SRC-UNESCO-WHC-TN-2026",
+      "source_locator": "World Heritage property 332",
+      "source_url": "https://whc.unesco.org/en/statesparties/tn",
+      "stratum": "world_heritage",
+      "stratum_rank": 12,
+      "value": {
+        "data": "UNESCO World Heritage property, inscribed 1985",
+        "type": "string"
+      }
+    },
+    {
+      "claim_id": "CLM-C2036CA2AB05590E",
+      "classification": "partially_supported",
+      "entity_id": "ENT-TN-MUNICIPALITY-1712",
+      "entity_name": "سجنان",
+      "entity_type": "tn_municipality",
+      "post_repair_claim_id": "CLM-F5C0A68D79925284",
+      "post_repair_classification": "supported",
+      "post_repair_entity_id": "ENT-TN-VILLAGE-SEJNANE",
+      "post_repair_source_locator": "ICH element 01406: women from the Sejnane community and village",
+      "post_repair_value": {
+        "data": "Pottery skills of the women of Sejnane",
+        "type": "string"
+      },
+      "predicate": "craft_practice",
+      "reason": "ICH 01406 supports the pottery practice and Sejnane community/village, but not attribution to the legal municipality boundary.",
+      "source_id": "SRC-UNESCO-ICH-TN-2026",
+      "source_locator": "ICH element 01406: community in Sejnane",
+      "source_url": "https://ich.unesco.org/en/state/tunisia-TN",
+      "stratum": "intangible_cultural_heritage",
+      "stratum_rank": 1,
+      "value": {
+        "data": "Pottery skills of the women of Sejnane",
+        "type": "string"
+      }
+    },
+    {
+      "claim_id": "CLM-B30B96F710CC5B9C",
+      "classification": "partially_supported",
+      "entity_id": "ENT-TN-MUNICIPALITY-3426",
+      "entity_name": "قرقنة",
+      "entity_type": "tn_municipality",
+      "post_repair_claim_id": "CLM-218592D2ADE750E3",
+      "post_repair_classification": "supported",
+      "post_repair_entity_id": "ENT-TN-NATURAL-SITE-KERKENNAH-ISLANDS",
+      "post_repair_source_locator": "ICH element 01566: Kerkennah Islands and the entire local community",
+      "post_repair_value": {
+        "data": "Charfia fishing in the Kerkennah Islands",
+        "type": "string"
+      },
+      "predicate": "custom_practice",
+      "reason": "ICH 01566 supports the Kerkennah Islands and entire local community, but does not identify the legal municipality as the claim scope.",
+      "source_id": "SRC-UNESCO-ICH-TN-2026",
+      "source_locator": "ICH element 01566: Kerkennah Islands",
+      "source_url": "https://ich.unesco.org/en/state/tunisia-TN",
+      "stratum": "intangible_cultural_heritage",
+      "stratum_rank": 2,
+      "value": {
+        "data": "Charfia fishing in the Kerkennah Islands",
+        "type": "string"
+      }
+    },
+    {
+      "claim_id": "CLM-273991864A27515C",
+      "classification": "supported",
+      "entity_id": "ENT-TN-COUNTRY",
+      "entity_name": "تونس",
+      "entity_type": "country",
+      "post_repair_claim_id": "CLM-273991864A27515C",
+      "post_repair_classification": "supported",
+      "post_repair_entity_id": "ENT-TN-COUNTRY",
+      "post_repair_source_locator": "ICH element 01710: Tunisia",
+      "post_repair_value": {
+        "data": "Harissa knowledge, skills and culinary and social practices",
+        "type": "string"
+      },
+      "predicate": "food_practice",
+      "reason": "ICH 01710 directly supports the harissa practice at Tunisia-wide scope.",
+      "source_id": "SRC-UNESCO-ICH-TN-2026",
+      "source_locator": "ICH element 01710: Tunisia",
+      "source_url": "https://ich.unesco.org/en/state/tunisia-TN",
+      "stratum": "intangible_cultural_heritage",
+      "stratum_rank": 3,
+      "value": {
+        "data": "Harissa knowledge, skills and culinary and social practices",
+        "type": "string"
+      }
+    },
+    {
+      "claim_id": "CLM-CA9C3149E6625D46",
+      "classification": "supported",
+      "entity_id": "ENT-TN-MARKET-MEDINA-CENTRAL-SOUKS",
+      "entity_name": "أسواق مدينة تونس المركزية",
+      "entity_type": "market",
+      "post_repair_claim_id": "CLM-CA9C3149E6625D46",
+      "post_repair_classification": "supported",
+      "post_repair_entity_id": "ENT-TN-MARKET-MEDINA-CENTRAL-SOUKS",
+      "post_repair_source_locator": "Around Tunis: central souks of the medina; Souk Medina attraction page",
+      "post_repair_value": {
+        "data": "Traditional clothing and chechias are among the goods described in the souks",
+        "type": "string"
+      },
+      "predicate": "traditional_clothing_goods",
+      "reason": "The ONTT Tunis page directly describes traditional clothing and chechias among goods in the medina souks; the claim remains at market scope.",
+      "source_id": "SRC-TN-ONTT-PLACES-2018",
+      "source_locator": "Around Tunis: central souks of the medina; Souk Medina attraction page",
+      "source_url": "https://www.discovertunisia.com/en/discover",
+      "stratum": "tourism",
+      "stratum_rank": 1,
+      "value": {
+        "data": "Traditional clothing and chechias are among the goods described in the souks",
+        "type": "string"
+      }
+    },
+    {
+      "claim_id": "CLM-44CBB5D9CE635C1E",
+      "classification": "unsupported",
+      "entity_id": "ENT-TN-NEIGHBORHOOD-MAGON",
+      "entity_name": "حي ماغون",
+      "entity_type": "neighborhood",
+      "post_repair_claim_id": "CLM-BC1B545267C059D1",
+      "post_repair_classification": "supported",
+      "post_repair_entity_id": "ENT-TN-SITE-MAGON",
+      "post_repair_source_locator": "Around Carthage and Sidi Bou Said: remains of the Magon quarter",
+      "post_repair_value": {
+        "data": "archaeological_site",
+        "type": "string"
+      },
+      "predicate": "place_classification",
+      "reason": "ONTT describes archaeological remains/the Magon quarter in the Carthage site context; it does not establish a current populated neighborhood classification.",
+      "source_id": "SRC-TN-ONTT-PLACES-2018",
+      "source_locator": "Around Carthage and Sidi Bou Said: Magon quarter within Carthage",
+      "source_url": "https://www.discovertunisia.com/en/discover",
+      "stratum": "tourism",
+      "stratum_rank": 2,
+      "value": {
+        "data": "neighborhood",
+        "type": "string"
+      }
+    },
+    {
+      "claim_id": "CLM-8A66F2010AC25824",
+      "classification": "supported",
+      "entity_id": "ENT-TN-CITY-CARTHAGE",
+      "entity_name": "قرطاج",
+      "entity_type": "city",
+      "post_repair_claim_id": "CLM-8A66F2010AC25824",
+      "post_repair_classification": "supported",
+      "post_repair_entity_id": "ENT-TN-CITY-CARTHAGE",
+      "post_repair_source_locator": "Around Carthage and Sidi Bou Said: modern Carthage described as a fashionable city",
+      "post_repair_value": {
+        "data": "city",
+        "type": "string"
+      },
+      "predicate": "place_classification",
+      "reason": "ONTT explicitly describes modern Carthage as a city.",
+      "source_id": "SRC-TN-ONTT-PLACES-2018",
+      "source_locator": "Around Carthage and Sidi Bou Said: modern Carthage described as a fashionable city",
+      "source_url": "https://www.discovertunisia.com/en/discover",
+      "stratum": "tourism",
+      "stratum_rank": 3,
+      "value": {
+        "data": "city",
+        "type": "string"
+      }
+    },
+    {
+      "claim_id": "CLM-CA9A7B08C1D45639",
+      "classification": "unsupported",
+      "entity_id": "ENT-TN-PERSON-IBN-KHALDUN",
+      "entity_name": "ابن خلدون",
+      "entity_type": "person",
+      "post_repair_claim_id": "CLM-CA9A7B08C1D45639",
+      "post_repair_classification": "supported",
+      "post_repair_entity_id": "ENT-TN-PERSON-IBN-KHALDUN",
+      "post_repair_source_locator": "UNESCO Courier, 1986-01, pp. 17–18; p. 17: Tunisian historian born in 1332",
+      "post_repair_value": {
+        "data": "Born in Tunis in 1332",
+        "type": "string"
+      },
+      "predicate": "place_connection",
+      "reason": "The registered URL pf0000068103 is the adjacent wrong article and the locators do not land on the claimed passages. Correct article pf0000068104, p. 17, recovers the substance.",
+      "source_id": "SRC-UNESCO-IBN-KHALDUN",
+      "source_locator": "UNESCO Courier, 1986-01, pp. 17–18; p. 17: Tunisian historian born in 1332",
+      "source_url": "https://unesdoc.unesco.org/ark:/48223/pf0000068103",
+      "stratum": "person_history",
+      "stratum_rank": 1,
+      "value": {
+        "data": "Born in Tunis in 1332",
+        "type": "string"
+      }
+    },
+    {
+      "claim_id": "CLM-82653461C4645BBC",
+      "classification": "unsupported",
+      "entity_id": "ENT-TN-PERSON-IBN-KHALDUN",
+      "entity_name": "ابن خلدون",
+      "entity_type": "person",
+      "post_repair_claim_id": "CLM-82653461C4645BBC",
+      "post_repair_classification": "supported",
+      "post_repair_entity_id": "ENT-TN-PERSON-IBN-KHALDUN",
+      "post_repair_source_locator": "UNESCO Courier, 1986-01, p. 17: principal work and theory of society and history",
+      "post_repair_value": {
+        "data": "Historian and author whose work developed a major analysis of society and history",
+        "type": "string"
+      },
+      "predicate": "significance",
+      "reason": "The registered URL pf0000068103 is the adjacent wrong article and the locators do not land on the claimed passages. Correct article pf0000068104, p. 17, recovers the substance.",
+      "source_id": "SRC-UNESCO-IBN-KHALDUN",
+      "source_locator": "UNESCO Courier, 1986-01, p. 17: principal work and theory of society and history",
+      "source_url": "https://unesdoc.unesco.org/ark:/48223/pf0000068103",
+      "stratum": "person_history",
+      "stratum_rank": 2,
+      "value": {
+        "data": "Historian and author whose work developed a major analysis of society and history",
+        "type": "string"
+      }
+    }
+  ],
+  "country_code": "TN",
+  "cultural_attribution_error_count": 2,
+  "cultural_claims": [
+    {
+      "attribution_error": true,
+      "claim_id": "CLM-C2036CA2AB05590E",
+      "classification": "partially_supported",
+      "domain": "craft",
+      "post_subject": "ENT-TN-VILLAGE-SEJNANE",
+      "pre_subject": "ENT-TN-MUNICIPALITY-1712"
+    },
+    {
+      "attribution_error": true,
+      "claim_id": "CLM-B30B96F710CC5B9C",
+      "classification": "partially_supported",
+      "domain": "custom",
+      "post_subject": "ENT-TN-NATURAL-SITE-KERKENNAH-ISLANDS",
+      "pre_subject": "ENT-TN-MUNICIPALITY-3426"
+    },
+    {
+      "attribution_error": false,
+      "claim_id": "CLM-273991864A27515C",
+      "classification": "supported",
+      "domain": "food",
+      "post_subject": "ENT-TN-COUNTRY",
+      "pre_subject": "ENT-TN-COUNTRY"
+    },
+    {
+      "attribution_error": false,
+      "claim_id": "CLM-CA9C3149E6625D46",
+      "classification": "supported",
+      "domain": "clothing",
+      "post_subject": "ENT-TN-MARKET-MEDINA-CENTRAL-SOUKS",
+      "pre_subject": "ENT-TN-MARKET-MEDINA-CENTRAL-SOUKS"
+    }
+  ],
+  "dialect_lexical": {
+    "attribution_errors": 0,
+    "decision": "No examples invented; no item meets the required metadata package.",
+    "dialect_status": "not_documented",
+    "lexical_status": "not_found",
+    "published_claims": 0
+  },
+  "hash_rule": "ascending SHA-256(seed + NUL + stratum + NUL + record_key)",
+  "hierarchy": [
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-GOVERNORATE-81845FB6BE40",
+      "independent_cross_check": "Official Tunisian Interior Ministry delegation table plus the dated institutional package confirm the governorate identity and layer.",
+      "name_ar": "زغوان",
+      "name_fr": "Zaghouan",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-COUNTRY",
+      "parent_name": "تونس",
+      "record_key": "16",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "governorate",
+      "stratum_rank": 1,
+      "type": "tn_governorate"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-GOVERNORATE-47F772AA4A84",
+      "independent_cross_check": "Official Tunisian Interior Ministry delegation table plus the dated institutional package confirm the governorate identity and layer.",
+      "name_ar": "سيدي بوزيد",
+      "name_fr": "Sidi Bouzid",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-COUNTRY",
+      "parent_name": "تونس",
+      "record_key": "43",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "governorate",
+      "stratum_rank": 2,
+      "type": "tn_governorate"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-GOVERNORATE-E7D96FEF5043",
+      "independent_cross_check": "Official Tunisian Interior Ministry delegation table plus the dated institutional package confirm the governorate identity and layer.",
+      "name_ar": "المهدية",
+      "name_fr": "Mahdia",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-COUNTRY",
+      "parent_name": "تونس",
+      "record_key": "33",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "governorate",
+      "stratum_rank": 3,
+      "type": "tn_governorate"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-GOVERNORATE-D28A09D558AD",
+      "independent_cross_check": "Official Tunisian Interior Ministry delegation table plus the dated institutional package confirm the governorate identity and layer.",
+      "name_ar": "القيروان",
+      "name_fr": "Kairouan",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-COUNTRY",
+      "parent_name": "تونس",
+      "record_key": "41",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "governorate",
+      "stratum_rank": 4,
+      "type": "tn_governorate"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-GOVERNORATE-467CAA2B1928",
+      "independent_cross_check": "Official Tunisian Interior Ministry delegation table plus the dated institutional package confirm the governorate identity and layer.",
+      "name_ar": "قفصة",
+      "name_fr": "Gafsa",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-COUNTRY",
+      "parent_name": "تونس",
+      "record_key": "61",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "governorate",
+      "stratum_rank": 5,
+      "type": "tn_governorate"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-GOVERNORATE-D7972CC63F7E",
+      "independent_cross_check": "Official Tunisian Interior Ministry delegation table plus the dated institutional package confirm the governorate identity and layer.",
+      "name_ar": "توزر",
+      "name_fr": "Tozeur",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-COUNTRY",
+      "parent_name": "تونس",
+      "record_key": "62",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "governorate",
+      "stratum_rank": 6,
+      "type": "tn_governorate"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-DELEGATION-EE60D65B9935",
+      "independent_cross_check": "Official Tunisian Interior Ministry delegation table confirms the delegation under the recorded governorate.",
+      "name_ar": "مدنين الشمالية",
+      "name_fr": "Medenine Nord",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-GOVERNORATE-902616FE3988",
+      "parent_name": "مدنين",
+      "record_key": "5251",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "delegation",
+      "stratum_rank": 1,
+      "type": "tn_delegation"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-DELEGATION-8B2B3E3BDE8C",
+      "independent_cross_check": "Official Tunisian Interior Ministry delegation table confirms the delegation under the recorded governorate.",
+      "name_ar": "بومرداس",
+      "name_fr": "Bou Merdès",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-GOVERNORATE-E7D96FEF5043",
+      "parent_name": "المهدية",
+      "record_key": "3352",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "delegation",
+      "stratum_rank": 2,
+      "type": "tn_delegation"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-DELEGATION-F12F59DBC46E",
+      "independent_cross_check": "Official Tunisian Interior Ministry delegation table confirms the delegation under the recorded governorate.",
+      "name_ar": "فرنانة",
+      "name_fr": "Fernana",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-GOVERNORATE-7A4D0C3A889C",
+      "parent_name": "جندوبة",
+      "record_key": "2256",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "delegation",
+      "stratum_rank": 3,
+      "type": "tn_delegation"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-DELEGATION-3178EC239E79",
+      "independent_cross_check": "Official Tunisian Interior Ministry delegation table confirms the delegation under the recorded governorate.",
+      "name_ar": "جبل الجلود",
+      "name_fr": "Djebel Djelloud",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-GOVERNORATE-DB8D5C457676",
+      "parent_name": "تونس",
+      "record_key": "1168",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "delegation",
+      "stratum_rank": 4,
+      "type": "tn_delegation"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-DELEGATION-3512572DC050",
+      "independent_cross_check": "Official Tunisian Interior Ministry delegation table confirms the delegation under the recorded governorate.",
+      "name_ar": "دوز الشمالية",
+      "name_fr": "Douz Nord",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-GOVERNORATE-1864AE41D5B4",
+      "parent_name": "قبلي",
+      "record_key": "6354",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "delegation",
+      "stratum_rank": 5,
+      "type": "tn_delegation"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-DELEGATION-7D060F057E64",
+      "independent_cross_check": "Official Tunisian Interior Ministry delegation table confirms the delegation under the recorded governorate.",
+      "name_ar": "قلعة الاندلس",
+      "name_fr": "Kalaât El Andalous",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-GOVERNORATE-78D6D85AF6A0",
+      "parent_name": "اريانة",
+      "record_key": "1254",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "delegation",
+      "stratum_rank": 6,
+      "type": "tn_delegation"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-DELEGATION-2592EE0518F8",
+      "independent_cross_check": "Official Tunisian Interior Ministry delegation table confirms the delegation under the recorded governorate.",
+      "name_ar": "الجديدة",
+      "name_fr": "Djedeida",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-GOVERNORATE-CC06DF550344",
+      "parent_name": "منوبة",
+      "record_key": "1456",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "delegation",
+      "stratum_rank": 7,
+      "type": "tn_delegation"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-DELEGATION-7B1B28620EBA",
+      "independent_cross_check": "Official Tunisian Interior Ministry delegation table confirms the delegation under the recorded governorate.",
+      "name_ar": "وادي مليز",
+      "name_fr": "Oued Meliz",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-GOVERNORATE-7A4D0C3A889C",
+      "parent_name": "جندوبة",
+      "record_key": "2258",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "delegation",
+      "stratum_rank": 8,
+      "type": "tn_delegation"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-DELEGATION-010FEC49E881",
+      "independent_cross_check": "Official Tunisian Interior Ministry delegation table confirms the delegation under the recorded governorate.",
+      "name_ar": "دوز الجنوبية",
+      "name_fr": "Douz Sud",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-GOVERNORATE-1864AE41D5B4",
+      "parent_name": "قبلي",
+      "record_key": "6355",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "delegation",
+      "stratum_rank": 9,
+      "type": "tn_delegation"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-DELEGATION-FFE2346B14CF",
+      "independent_cross_check": "Official Tunisian Interior Ministry delegation table confirms the delegation under the recorded governorate.",
+      "name_ar": "تينجة",
+      "name_fr": "Tinja",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-GOVERNORATE-B1787F907937",
+      "parent_name": "بنزرت",
+      "record_key": "1759",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "delegation",
+      "stratum_rank": 10,
+      "type": "tn_delegation"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-DELEGATION-08BF6BF26FFF",
+      "independent_cross_check": "Official Tunisian Interior Ministry delegation table confirms the delegation under the recorded governorate.",
+      "name_ar": "قفصة الشمالية",
+      "name_fr": "Gafsa Nord",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-GOVERNORATE-467CAA2B1928",
+      "parent_name": "قفصة",
+      "record_key": "6151",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "delegation",
+      "stratum_rank": 11,
+      "type": "tn_delegation"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-DELEGATION-8CD3CBC66F17",
+      "independent_cross_check": "Official Tunisian Interior Ministry delegation table confirms the delegation under the recorded governorate.",
+      "name_ar": "قصور الساف",
+      "name_fr": "Ksour Essef",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-GOVERNORATE-E7D96FEF5043",
+      "parent_name": "المهدية",
+      "record_key": "3361",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "delegation",
+      "stratum_rank": 12,
+      "type": "tn_delegation"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-IMADA-41571428",
+      "independent_cross_check": "Official Tunisian Interior Ministry Arabic imada catalog confirms the named imada under the recorded delegation.",
+      "name_ar": "صيادة الجنوبية",
+      "name_fr": "Sayada Sud",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-DELEGATION-5E9C54B26170",
+      "parent_name": "العلاء",
+      "record_key": "41571428",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "imada",
+      "stratum_rank": 1,
+      "type": "tn_imada"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-IMADA-43591647",
+      "independent_cross_check": "Official Tunisian Interior Ministry Arabic imada catalog confirms the named imada under the recorded delegation.",
+      "name_ar": "الزفزاف",
+      "name_fr": "Ezzafzaf",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-DELEGATION-21E89D9190E3",
+      "parent_name": "سوق الجديد",
+      "record_key": "43591647",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "imada",
+      "stratum_rank": 2,
+      "type": "tn_imada"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-IMADA-3160999",
+      "independent_cross_check": "Official Tunisian Interior Ministry Arabic imada catalog confirms the named imada under the recorded delegation.",
+      "name_ar": "تكرونة",
+      "name_fr": "Takrouna",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-DELEGATION-AC41B378E3D9",
+      "parent_name": "النفيضة",
+      "record_key": "3160999",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "imada",
+      "stratum_rank": 3,
+      "type": "tn_imada"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-IMADA-1255190",
+      "independent_cross_check": "Official Tunisian Interior Ministry Arabic imada catalog confirms the named imada under the recorded delegation.",
+      "name_ar": "المنجي سليم",
+      "name_fr": "Mongi Slim",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-DELEGATION-EE9A7B5ED169",
+      "parent_name": "سيدي ثابت",
+      "record_key": "1255190",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "imada",
+      "stratum_rank": 4,
+      "type": "tn_imada"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-IMADA-1152114",
+      "independent_cross_check": "Official Tunisian Interior Ministry Arabic imada catalog confirms the named imada under the recorded delegation.",
+      "name_ar": "سيدي علي عزوز",
+      "name_fr": "Sidi Ali Azouz",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-DELEGATION-CC12560912DD",
+      "parent_name": "تونس المدينة",
+      "record_key": "1152114",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "imada",
+      "stratum_rank": 5,
+      "type": "tn_imada"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-IMADA-31641044",
+      "independent_cross_check": "Official Tunisian Interior Ministry Arabic imada catalog confirms the named imada under the recorded delegation.",
+      "name_ar": "المسعدين",
+      "name_fr": "Messâdine",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-DELEGATION-9ADFA1D292D9",
+      "parent_name": "مساكن",
+      "record_key": "31641044",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "imada",
+      "stratum_rank": 6,
+      "type": "tn_imada"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-IMADA-53551895",
+      "independent_cross_check": "Official Tunisian Interior Ministry Arabic imada catalog confirms the named imada under the recorded delegation.",
+      "name_ar": "غمراسن",
+      "name_fr": "Ghomrassen",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-DELEGATION-2D3CF4EC1C11",
+      "parent_name": "غمراسن",
+      "record_key": "53551895",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "imada",
+      "stratum_rank": 7,
+      "type": "tn_imada"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-IMADA-42611552",
+      "independent_cross_check": "Official Tunisian Interior Ministry Arabic imada catalog confirms the named imada under the recorded delegation.",
+      "name_ar": "الرطيبات",
+      "name_fr": "Er-Rtibet",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-DELEGATION-52AE19694D81",
+      "parent_name": "فوسانة",
+      "record_key": "42611552",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "imada",
+      "stratum_rank": 8,
+      "type": "tn_imada"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-IMADA-2356817",
+      "independent_cross_check": "Official Tunisian Interior Ministry Arabic imada catalog confirms the named imada under the recorded delegation.",
+      "name_ar": "قلعة سنان",
+      "name_fr": "Kalaat Snan",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-DELEGATION-C151EAFA4BD1",
+      "parent_name": "قلعة سنان",
+      "record_key": "2356817",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "imada",
+      "stratum_rank": 9,
+      "type": "tn_imada"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-IMADA-63512034",
+      "independent_cross_check": "Official Tunisian Interior Ministry Arabic imada catalog confirms the named imada under the recorded delegation.",
+      "name_ar": "‫جنعورة‬",
+      "name_fr": "Janoura",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-DELEGATION-83574F602607",
+      "parent_name": "قبلي الجنوبية",
+      "record_key": "63512034",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "imada",
+      "stratum_rank": 10,
+      "type": "tn_imada"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-IMADA-1353219",
+      "independent_cross_check": "Official Tunisian Interior Ministry Arabic imada catalog confirms the named imada under the recorded delegation.",
+      "name_ar": "المروج 3",
+      "name_fr": "El Mourouj (3)",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-DELEGATION-B8BFE8FFB2B8",
+      "parent_name": "المروج",
+      "record_key": "1353219",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "imada",
+      "stratum_rank": 11,
+      "type": "tn_imada"
+    },
+    {
+      "dated_as_of": "2022-11-15",
+      "entity_id": "ENT-TN-IMADA-33601207",
+      "independent_cross_check": "Official Tunisian Interior Ministry Arabic imada catalog confirms the named imada under the recorded delegation.",
+      "name_ar": "وادي باجة الشمالية",
+      "name_fr": "Oued Béja Nord",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-DELEGATION-5D5CDCB7496E",
+      "parent_name": "سيدي علوان",
+      "record_key": "33601207",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "stratum": "imada",
+      "stratum_rank": 12,
+      "type": "tn_imada"
+    },
+    {
+      "dated_as_of": "2024-01",
+      "entity_id": "ENT-TN-MUNICIPALITY-1115",
+      "independent_cross_check": "Official-code bilingual register row and governorate code; municipality is not forced under a delegation.",
+      "name_ar": "قرطاج",
+      "name_fr": "Carthage",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-GOVERNORATE-DB8D5C457676",
+      "parent_name": "تونس",
+      "record_key": "1115",
+      "source_id": "SRC-TN-DGCL-MUNICIPALITIES-2024",
+      "stratum": "municipality",
+      "stratum_rank": 1,
+      "type": "tn_municipality"
+    },
+    {
+      "dated_as_of": "2024-01",
+      "entity_id": "ENT-TN-MUNICIPALITY-1717",
+      "independent_cross_check": "Official-code bilingual register row and governorate code; municipality is not forced under a delegation.",
+      "name_ar": "عوسجة",
+      "name_fr": "Ousja",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-GOVERNORATE-B1787F907937",
+      "parent_name": "بنزرت",
+      "record_key": "1717",
+      "source_id": "SRC-TN-DGCL-MUNICIPALITIES-2024",
+      "stratum": "municipality",
+      "stratum_rank": 2,
+      "type": "tn_municipality"
+    },
+    {
+      "dated_as_of": "2024-01",
+      "entity_id": "ENT-TN-MUNICIPALITY-1534",
+      "independent_cross_check": "Official-code bilingual register row and governorate code; municipality is not forced under a delegation.",
+      "name_ar": "الحمامات",
+      "name_fr": "Hammamet",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-GOVERNORATE-EA30E853F598",
+      "parent_name": "نابل",
+      "record_key": "1534",
+      "source_id": "SRC-TN-DGCL-MUNICIPALITIES-2024",
+      "stratum": "municipality",
+      "stratum_rank": 3,
+      "type": "tn_municipality"
+    },
+    {
+      "dated_as_of": "2024-01",
+      "entity_id": "ENT-TN-MUNICIPALITY-2218",
+      "independent_cross_check": "Official-code bilingual register row and governorate code; municipality is not forced under a delegation.",
+      "name_ar": "وادي مليز",
+      "name_fr": "Oued Meliz",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-GOVERNORATE-7A4D0C3A889C",
+      "parent_name": "جندوبة",
+      "record_key": "2218",
+      "source_id": "SRC-TN-DGCL-MUNICIPALITIES-2024",
+      "stratum": "municipality",
+      "stratum_rank": 4,
+      "type": "tn_municipality"
+    },
+    {
+      "dated_as_of": "2024-01",
+      "entity_id": "ENT-TN-MUNICIPALITY-5312",
+      "independent_cross_check": "Official-code bilingual register row and governorate code; municipality is not forced under a delegation.",
+      "name_ar": "بئر الاحمر",
+      "name_fr": "Bir Lahmar",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-GOVERNORATE-DAC2A2592975",
+      "parent_name": "تطاوين",
+      "record_key": "5312",
+      "source_id": "SRC-TN-DGCL-MUNICIPALITIES-2024",
+      "stratum": "municipality",
+      "stratum_rank": 5,
+      "type": "tn_municipality"
+    },
+    {
+      "dated_as_of": "2024-01",
+      "entity_id": "ENT-TN-MUNICIPALITY-6121",
+      "independent_cross_check": "Official-code bilingual register row and governorate code; municipality is not forced under a delegation.",
+      "name_ar": "لالة",
+      "name_fr": "Lala",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-GOVERNORATE-467CAA2B1928",
+      "parent_name": "قفصة",
+      "record_key": "6121",
+      "source_id": "SRC-TN-DGCL-MUNICIPALITIES-2024",
+      "stratum": "municipality",
+      "stratum_rank": 6,
+      "type": "tn_municipality"
+    },
+    {
+      "dated_as_of": "2024-01",
+      "entity_id": "ENT-TN-MUNICIPALITY-5124",
+      "independent_cross_check": "Official-code bilingual register row and governorate code; municipality is not forced under a delegation.",
+      "name_ar": "الحامة الغربية",
+      "name_fr": "Hamma Ouest",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-GOVERNORATE-DF747014232C",
+      "parent_name": "قابس",
+      "record_key": "5124",
+      "source_id": "SRC-TN-DGCL-MUNICIPALITIES-2024",
+      "stratum": "municipality",
+      "stratum_rank": 7,
+      "type": "tn_municipality"
+    },
+    {
+      "dated_as_of": "2024-01",
+      "entity_id": "ENT-TN-MUNICIPALITY-6115",
+      "independent_cross_check": "Official-code bilingual register row and governorate code; municipality is not forced under a delegation.",
+      "name_ar": "المتلوي",
+      "name_fr": "Metlaoui",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-GOVERNORATE-467CAA2B1928",
+      "parent_name": "قفصة",
+      "record_key": "6115",
+      "source_id": "SRC-TN-DGCL-MUNICIPALITIES-2024",
+      "stratum": "municipality",
+      "stratum_rank": 8,
+      "type": "tn_municipality"
+    },
+    {
+      "dated_as_of": "2024-01",
+      "entity_id": "ENT-TN-MUNICIPALITY-1118",
+      "independent_cross_check": "Official-code bilingual register row and governorate code; municipality is not forced under a delegation.",
+      "name_ar": "سيدي حسين",
+      "name_fr": "Sidi Hassine",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-GOVERNORATE-DB8D5C457676",
+      "parent_name": "تونس",
+      "record_key": "1118",
+      "source_id": "SRC-TN-DGCL-MUNICIPALITIES-2024",
+      "stratum": "municipality",
+      "stratum_rank": 9,
+      "type": "tn_municipality"
+    },
+    {
+      "dated_as_of": "2024-01",
+      "entity_id": "ENT-TN-MUNICIPALITY-1718",
+      "independent_cross_check": "Official-code bilingual register row and governorate code; municipality is not forced under a delegation.",
+      "name_ar": "منزل جميل",
+      "name_fr": "Menzel Djemil",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-GOVERNORATE-B1787F907937",
+      "parent_name": "بنزرت",
+      "record_key": "1718",
+      "source_id": "SRC-TN-DGCL-MUNICIPALITIES-2024",
+      "stratum": "municipality",
+      "stratum_rank": 10,
+      "type": "tn_municipality"
+    },
+    {
+      "dated_as_of": "2024-01",
+      "entity_id": "ENT-TN-MUNICIPALITY-3232",
+      "independent_cross_check": "Official-code bilingual register row and governorate code; municipality is not forced under a delegation.",
+      "name_ar": "بقالطة",
+      "name_fr": "Bekalta",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-GOVERNORATE-5BC9A7217C8C",
+      "parent_name": "المنستير",
+      "record_key": "3232",
+      "source_id": "SRC-TN-DGCL-MUNICIPALITIES-2024",
+      "stratum": "municipality",
+      "stratum_rank": 11,
+      "type": "tn_municipality"
+    },
+    {
+      "dated_as_of": "2024-01",
+      "entity_id": "ENT-TN-MUNICIPALITY-3214",
+      "independent_cross_check": "Official-code bilingual register row and governorate code; municipality is not forced under a delegation.",
+      "name_ar": "الساحلين معتمر",
+      "name_fr": "Sahline Môotmar",
+      "outcome": "supported",
+      "parent_id": "ENT-TN-GOVERNORATE-5BC9A7217C8C",
+      "parent_name": "المنستير",
+      "record_key": "3214",
+      "source_id": "SRC-TN-DGCL-MUNICIPALITIES-2024",
+      "stratum": "municipality",
+      "stratum_rank": 12,
+      "type": "tn_municipality"
+    }
+  ],
+  "hierarchy_error_count": 0,
+  "hierarchy_sample_method": {
+    "delegation": 12,
+    "governorate": 6,
+    "imada": 12,
+    "municipality": 12,
+    "record_key": "official/research code",
+    "sample_size": 42
+  },
+  "populated_place_error_fields": 9,
+  "populated_place_sample_method": {
+    "method": "census of the accepted bounded populated-place pilot",
+    "sample_size": 6
+  },
+  "populated_places": [
+    {
+      "entity_id": "ENT-TN-CITY-CARTHAGE",
+      "error_fields": [
+        "coordinates"
+      ],
+      "findings": [
+        "ONTT supports the city name/type and municipality context; no ONTT locator establishes the stored point."
+      ],
+      "name": "قرطاج",
+      "post_repair": "city retained; unsupported coordinate removed",
+      "pre_type": "city"
+    },
+    {
+      "entity_id": "ENT-TN-TOWN-SOUSSE",
+      "error_fields": [
+        "type/current-vs-historical-scope",
+        "coordinates"
+      ],
+      "findings": [
+        "WHC 498 describes the historic medina/town, while ONTT explicitly identifies current Sousse as Tunisia’s third biggest city.",
+        "The stored point is the WHC medina point, not a sourced city coordinate."
+      ],
+      "name": "سوسة",
+      "post_repair": "replaced by ENT-TN-CITY-SOUSSE; ONTT city source; unsupported coordinate removed",
+      "pre_type": "town"
+    },
+    {
+      "entity_id": "ENT-TN-VILLAGE-SIDI-BOU-SAID",
+      "error_fields": [
+        "source_locator",
+        "coordinates"
+      ],
+      "findings": [
+        "Type/name are supported by WHC 1769, but the record cited unrelated WHC 1732.",
+        "Stored rounded point did not trace through the cited property; corrected to the exact WHC 1769 point."
+      ],
+      "name": "سيدي بوسعيد",
+      "post_repair": "village retained; locator and exact institutional point corrected",
+      "pre_type": "village"
+    },
+    {
+      "entity_id": "ENT-TN-SETTLEMENT-EL-JEM",
+      "error_fields": [
+        "type",
+        "coordinates"
+      ],
+      "findings": [
+        "WHC 38 explicitly calls El Jem a small village.",
+        "Stored point belongs to the amphitheatre property and was not established as a village coordinate."
+      ],
+      "name": "الجم",
+      "post_repair": "replaced by ENT-TN-VILLAGE-EL-JEM; unsupported coordinate removed",
+      "pre_type": "settlement"
+    },
+    {
+      "entity_id": "ENT-TN-NEIGHBORHOOD-MAGON",
+      "error_fields": [
+        "type/current-vs-archaeological-scope",
+        "coordinates"
+      ],
+      "findings": [
+        "ONTT supports archaeological remains/the Magon quarter, not a current populated neighborhood.",
+        "No ONTT locator establishes the stored point."
+      ],
+      "name": "حي ماغون",
+      "post_repair": "moved to ENT-TN-SITE-MAGON archaeological_site; unsupported coordinate removed",
+      "pre_type": "neighborhood"
+    },
+    {
+      "entity_id": "ENT-TN-HISTORICAL-PLACE-KERKUANE",
+      "error_fields": [],
+      "findings": [
+        "WHC 332 supports the historical place/ruins identity, point, name and governorate context."
+      ],
+      "name": "كركوان",
+      "post_repair": "retained",
+      "pre_type": "historical_place"
+    }
+  ],
+  "post_repair_recheck": {
+    "open_P0": 0,
+    "open_P1": 0,
+    "tracked_claims_supported": 28,
+    "tracked_claims_total": 28
+  },
+  "schema_version": "1.0.0",
+  "seed": "tn-independent-2026-08-15-v1",
+  "source_metadata_error_count": 2,
+  "source_sample_method": {
+    "method": "census of the eight A/B sources directly referenced by Tunisia canonical records; Tier C research geometry audited separately as a limitation",
+    "sample_size": 8
+  },
+  "source_tier_changes": 0,
+  "sources": [
+    {
+      "availability_and_locator_check": "verified",
+      "claimed_domain_check": "verified",
+      "metadata_error": null,
+      "outcome": "supported",
+      "post_repair_locator": "Online Browsing Platform country-code entries for the 22 project countries",
+      "post_repair_publication_date": "2020-08",
+      "post_repair_title": "ISO 3166-1:2020 — Codes for the representation of names of countries and their subdivisions — Part 1: Country code",
+      "post_repair_url": "https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:ed-4:v1:en",
+      "publication_date": "2020-08",
+      "publisher": "International Organization for Standardization (ISO)",
+      "publisher_authority_check": "verified",
+      "quality_tier": "A",
+      "source_id": "SRC-ISO-3166-1-2020",
+      "tier_change": null,
+      "title": "ISO 3166-1:2020 — Codes for the representation of names of countries and their subdivisions — Part 1: Country code",
+      "tunisia_relevance": true,
+      "url": "https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:ed-4:v1:en"
+    },
+    {
+      "availability_and_locator_check": "verified",
+      "claimed_domain_check": "verified",
+      "metadata_error": null,
+      "outcome": "supported",
+      "post_repair_locator": "Workbook rows 1–350; governorate ID, municipality ID, four-digit code, Arabic and French labels",
+      "post_repair_publication_date": "2024-01",
+      "post_repair_title": "Liste des communes — January 2024 coded municipality register",
+      "post_repair_url": "http://www.collectiviteslocales.gov.tn/wp-content/uploads/2024/01/liste-communes.xlsx",
+      "publication_date": "2024-01",
+      "publisher": "Portail des Collectivités Locales, République Tunisienne",
+      "publisher_authority_check": "verified",
+      "quality_tier": "A",
+      "source_id": "SRC-TN-DGCL-MUNICIPALITIES-2024",
+      "tier_change": null,
+      "title": "Liste des communes — January 2024 coded municipality register",
+      "tunisia_relevance": true,
+      "url": "http://www.collectiviteslocales.gov.tn/wp-content/uploads/2024/01/liste-communes.xlsx"
+    },
+    {
+      "availability_and_locator_check": "verified",
+      "claimed_domain_check": "verified",
+      "metadata_error": null,
+      "outcome": "supported",
+      "post_repair_locator": "Metadata totals and tun_admin_boundaries.xlsx ADM2–ADM4 sheets; version 01 valid from 2022-11-15",
+      "post_repair_publication_date": "2022-11-15",
+      "post_repair_title": "Tunisia administrative boundaries COD-AB, version 01",
+      "post_repair_url": "https://data.humdata.org/dataset/cod-ab-tun",
+      "publication_date": "2022-11-15",
+      "publisher": "OCHA Field Information Services Section / HDX",
+      "publisher_authority_check": "verified",
+      "quality_tier": "B",
+      "source_id": "SRC-TN-HDX-CODAB-2022",
+      "tier_change": null,
+      "title": "Tunisia administrative boundaries COD-AB, version 01",
+      "tunisia_relevance": true,
+      "url": "https://data.humdata.org/dataset/cod-ab-tun"
+    },
+    {
+      "availability_and_locator_check": "verified after repair",
+      "claimed_domain_check": "verified",
+      "metadata_error": "Registered Volume 0 was rounded and could not support exact integers; title, URL, year and locator were repaired to Volume 3 p. 47.",
+      "outcome": "repaired",
+      "post_repair_locator": "Volume 3, PDF page 47: exact population table by governorate",
+      "post_repair_publication_date": "2016",
+      "post_repair_title": "Recensement Général de la Population et de l’Habitat 2014 — Volume 3",
+      "post_repair_url": "https://www.ins.tn/sites/default/files-ftp1/files/publication/pdf/RGPH%202014-V3.pdf",
+      "publication_date": "2015-04",
+      "publisher": "Institut National de la Statistique, Tunisie",
+      "publisher_authority_check": "verified",
+      "quality_tier": "A",
+      "source_id": "SRC-TN-INS-RGPH-2014",
+      "tier_change": null,
+      "title": "Recensement Général de la Population et de l'Habitat 2014 — Principaux indicateurs",
+      "tunisia_relevance": true,
+      "url": "https://www.ins.tn/sites/default/files/publication/pdf/RGPH%202014-V0.pdf"
+    },
+    {
+      "availability_and_locator_check": "verified",
+      "claimed_domain_check": "verified",
+      "metadata_error": null,
+      "outcome": "supported",
+      "post_repair_locator": "Around Carthage and Sidi Bou Said; Around Tunis; Ksour and Berber villages; Around Monastir",
+      "post_repair_publication_date": "2018",
+      "post_repair_title": "Discover Tunisia place and culture guides",
+      "post_repair_url": "https://www.discovertunisia.com/en/discover",
+      "publication_date": "2018",
+      "publisher": "Tunisian National Tourist Office",
+      "publisher_authority_check": "verified",
+      "quality_tier": "B",
+      "source_id": "SRC-TN-ONTT-PLACES-2018",
+      "tier_change": null,
+      "title": "Discover Tunisia place and culture guides",
+      "tunisia_relevance": true,
+      "url": "https://www.discovertunisia.com/en/discover"
+    },
+    {
+      "availability_and_locator_check": "verified after repair",
+      "claimed_domain_check": "verified",
+      "metadata_error": "Registered adjacent article pf0000068103 was wrong; title, URL, year and locator were repaired to pf0000068104 pp. 17–18.",
+      "outcome": "repaired",
+      "post_repair_locator": "UNESCO Courier, January 1986, pp. 17–18; biographical and analytical statements on p. 17",
+      "post_repair_publication_date": "1986-01",
+      "post_repair_title": "Tradition and experiment in Arabic letters",
+      "post_repair_url": "https://unesdoc.unesco.org/ark:/48223/pf0000068104",
+      "publication_date": "1985",
+      "publisher": "UNESCO Courier / UNESCO Digital Library",
+      "publisher_authority_check": "verified",
+      "quality_tier": "B",
+      "source_id": "SRC-UNESCO-IBN-KHALDUN",
+      "tier_change": null,
+      "title": "African Voices — Ibn Khaldun biographical note",
+      "tunisia_relevance": true,
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000068103"
+    },
+    {
+      "availability_and_locator_check": "verified",
+      "claimed_domain_check": "verified",
+      "metadata_error": null,
+      "outcome": "supported",
+      "post_repair_locator": "Tunisia ICH list and element records 01406, 01710, and Charfia fishing record",
+      "post_repair_publication_date": null,
+      "post_repair_title": "Intangible Cultural Heritage — Tunisia elements",
+      "post_repair_url": "https://ich.unesco.org/en/state/tunisia-TN",
+      "publication_date": null,
+      "publisher": "UNESCO",
+      "publisher_authority_check": "verified",
+      "quality_tier": "A",
+      "source_id": "SRC-UNESCO-ICH-TN-2026",
+      "tier_change": null,
+      "title": "Intangible Cultural Heritage — Tunisia elements",
+      "tunisia_relevance": true,
+      "url": "https://ich.unesco.org/en/state/tunisia-TN"
+    },
+    {
+      "availability_and_locator_check": "verified",
+      "claimed_domain_check": "verified",
+      "metadata_error": null,
+      "outcome": "supported",
+      "post_repair_locator": "Tunisia State Party property list and individual property records",
+      "post_repair_publication_date": null,
+      "post_repair_title": "World Heritage List — Tunisia properties",
+      "post_repair_url": "https://whc.unesco.org/en/statesparties/tn",
+      "publication_date": null,
+      "publisher": "UNESCO World Heritage Centre",
+      "publisher_authority_check": "verified",
+      "quality_tier": "A",
+      "source_id": "SRC-UNESCO-WHC-TN-2026",
+      "tier_change": null,
+      "title": "World Heritage List — Tunisia properties",
+      "tunisia_relevance": true,
+      "url": "https://whc.unesco.org/en/statesparties/tn"
+    }
+  ]
+}

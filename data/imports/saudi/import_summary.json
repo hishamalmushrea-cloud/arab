@@ -1,0 +1,21 @@
+{
+  "aliases_written": 178,
+  "anomalies": 2,
+  "claims_written": 1732,
+  "coverage_records_written": 9,
+  "denominators_written": 9,
+  "entities_including_existing_country": 1708,
+  "entities_written": 1707,
+  "parser_totals": {
+    "capital_city_rows": 13,
+    "center_occurrences": 1523,
+    "excluded_duplicate_occurrences": 2,
+    "governorate_rows": 141,
+    "regions": 13,
+    "sum_of_page_declared_center_totals": 1528,
+    "unique_parent_scoped_centers": 1521
+  },
+  "relationships_written": 1726,
+  "snapshot_date": "2026-08-15",
+  "snapshots_written": 1
+}

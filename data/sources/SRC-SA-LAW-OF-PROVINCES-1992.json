@@ -1,0 +1,22 @@
+{
+  "id": "SRC-SA-LAW-OF-PROVINCES-1992",
+  "schema_version": "2.0.0",
+  "title": "نظام المناطق (Law of Provinces)",
+  "author": null,
+  "organization": "هيئة الخبراء بمجلس الوزراء",
+  "publisher": "هيئة الخبراء بمجلس الوزراء",
+  "source_type": "law",
+  "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/93f81644-fbbc-49ca-b33c-a9a700f16701/1",
+  "archive_url": null,
+  "publication_date": "1992-03-06",
+  "retrieved_at": "2026-08-15",
+  "license": "Source copyright; factual extraction with attribution",
+  "language": "ar",
+  "country_codes": [
+    "SA"
+  ],
+  "locator": "المواد الثانية والثالثة والثالثة عشرة",
+  "checksum": null,
+  "quality_tier": "A",
+  "notes": "Royal Order A/92, issued 1992-03-01 and published 1992-03-06; current-status law record. Articles 2, 3 and 13 define region organization, المحافظات, النواحي and المراكز and Interior Ministry roles."
+}

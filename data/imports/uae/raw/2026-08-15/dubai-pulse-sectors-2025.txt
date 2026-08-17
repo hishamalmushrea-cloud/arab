@@ -1,0 +1,9 @@
+Title: dm_sectors-open
+Publisher: Dubai Municipality via Dubai Pulse
+Updated: 03 Nov 2025
+Relevant exact metadata excerpt:
+sec_num | Sector legal Number | Yes | 8 | NUMBER | | | English | OPEN
+Resource: Sectors.kml
+Dataset resource URL: https://www.dubaipulse.gov.ae/dataset/1e366868-73b3-4dd0-aba8-7e432ef22885/resource/7306612a-d480-4872-8b38-14d34a0c0ae4/download/sectors.kml
+License finding: the dataset page did not specify a license.
+Retrieval note: metadata text extracted on 2026-08-15; KML retrieval failed, so this excerpt is not represented as the KML checksum.

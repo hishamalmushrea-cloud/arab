@@ -1,0 +1,408 @@
+{
+  "country_code": "OM",
+  "decree": "Royal Decree 36/2022",
+  "decree_url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf",
+  "effective_date": "2022-06-16",
+  "governorate_denominator": 11,
+  "governorates": [
+    {
+      "code": "01",
+      "name_ar": "مسقط",
+      "name_en": "Muscat",
+      "wilayats": [
+        {
+          "code": "0101",
+          "name_ar": "مسقط",
+          "name_en": "Muscat"
+        },
+        {
+          "code": "0102",
+          "name_ar": "مطرح",
+          "name_en": "Muttrah"
+        },
+        {
+          "code": "0103",
+          "name_ar": "العامرات",
+          "name_en": "Al Amerat"
+        },
+        {
+          "code": "0104",
+          "name_ar": "بوشر",
+          "name_en": "Bawshar"
+        },
+        {
+          "code": "0105",
+          "name_ar": "السيب",
+          "name_en": "As Seeb"
+        },
+        {
+          "code": "0106",
+          "name_ar": "قريات",
+          "name_en": "Qurayyat"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "name_ar": "ظفار",
+      "name_en": "Dhofar",
+      "wilayats": [
+        {
+          "code": "0201",
+          "name_ar": "صلالة",
+          "name_en": "Salalah"
+        },
+        {
+          "code": "0202",
+          "name_ar": "طاقة",
+          "name_en": "Taqah"
+        },
+        {
+          "code": "0203",
+          "name_ar": "مرباط",
+          "name_en": "Mirbat"
+        },
+        {
+          "code": "0204",
+          "name_ar": "رخيوت",
+          "name_en": "Rakhyut"
+        },
+        {
+          "code": "0205",
+          "name_ar": "ثمريت",
+          "name_en": "Thumrait"
+        },
+        {
+          "code": "0206",
+          "name_ar": "ضلكوت",
+          "name_en": "Dhalkut"
+        },
+        {
+          "code": "0207",
+          "name_ar": "المزيونة",
+          "name_en": "Al Mazyunah"
+        },
+        {
+          "code": "0208",
+          "name_ar": "مقشن",
+          "name_en": "Muqshin"
+        },
+        {
+          "code": "0209",
+          "name_ar": "شليم وجزر الحلانيات",
+          "name_en": "Shalim and the Hallaniyat Islands"
+        },
+        {
+          "code": "0210",
+          "name_ar": "سدح",
+          "name_en": "Sadah"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "name_ar": "مسندم",
+      "name_en": "Musandam",
+      "wilayats": [
+        {
+          "code": "0301",
+          "name_ar": "خصب",
+          "name_en": "Khasab"
+        },
+        {
+          "code": "0302",
+          "name_ar": "دبا",
+          "name_en": "Dibba"
+        },
+        {
+          "code": "0303",
+          "name_ar": "بخاء",
+          "name_en": "Bukha"
+        },
+        {
+          "code": "0304",
+          "name_ar": "مدحاء",
+          "name_en": "Madha"
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "name_ar": "البريمي",
+      "name_en": "Al Buraimi",
+      "wilayats": [
+        {
+          "code": "0401",
+          "name_ar": "البريمي",
+          "name_en": "Al Buraimi"
+        },
+        {
+          "code": "0402",
+          "name_ar": "محضة",
+          "name_en": "Mahdha"
+        },
+        {
+          "code": "0403",
+          "name_ar": "السنينة",
+          "name_en": "As Sunaynah"
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "name_ar": "الداخلية",
+      "name_en": "Ad Dakhiliyah",
+      "wilayats": [
+        {
+          "code": "0501",
+          "name_ar": "نزوى",
+          "name_en": "Nizwa"
+        },
+        {
+          "code": "0502",
+          "name_ar": "بهلاء",
+          "name_en": "Bahla"
+        },
+        {
+          "code": "0503",
+          "name_ar": "منح",
+          "name_en": "Manah"
+        },
+        {
+          "code": "0504",
+          "name_ar": "الحمراء",
+          "name_en": "Al Hamra"
+        },
+        {
+          "code": "0505",
+          "name_ar": "أدم",
+          "name_en": "Adam"
+        },
+        {
+          "code": "0506",
+          "name_ar": "إزكي",
+          "name_en": "Izki"
+        },
+        {
+          "code": "0507",
+          "name_ar": "سمائل",
+          "name_en": "Samail"
+        },
+        {
+          "code": "0508",
+          "name_ar": "بدبد",
+          "name_en": "Bidbid"
+        },
+        {
+          "code": "0509",
+          "name_ar": "الجبل الأخضر",
+          "name_en": "Al Jabal Al Akhdar"
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "name_ar": "شمال الباطنة",
+      "name_en": "North Al Batinah",
+      "wilayats": [
+        {
+          "code": "0601",
+          "name_ar": "صحار",
+          "name_en": "Sohar"
+        },
+        {
+          "code": "0602",
+          "name_ar": "شناص",
+          "name_en": "Shinas"
+        },
+        {
+          "code": "0603",
+          "name_ar": "لوى",
+          "name_en": "Liwa"
+        },
+        {
+          "code": "0604",
+          "name_ar": "صحم",
+          "name_en": "Saham"
+        },
+        {
+          "code": "0605",
+          "name_ar": "الخابورة",
+          "name_en": "Al Khaburah"
+        },
+        {
+          "code": "0606",
+          "name_ar": "السويق",
+          "name_en": "As Suwayq"
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "name_ar": "جنوب الباطنة",
+      "name_en": "South Al Batinah",
+      "wilayats": [
+        {
+          "code": "0701",
+          "name_ar": "الرستاق",
+          "name_en": "Rustaq"
+        },
+        {
+          "code": "0702",
+          "name_ar": "العوابي",
+          "name_en": "Al Awabi"
+        },
+        {
+          "code": "0703",
+          "name_ar": "نخل",
+          "name_en": "Nakhal"
+        },
+        {
+          "code": "0704",
+          "name_ar": "وادي المعاول",
+          "name_en": "Wadi Al Maawil"
+        },
+        {
+          "code": "0705",
+          "name_ar": "بركاء",
+          "name_en": "Barka"
+        },
+        {
+          "code": "0706",
+          "name_ar": "المصنعة",
+          "name_en": "Al Musannah"
+        }
+      ]
+    },
+    {
+      "code": "08",
+      "name_ar": "جنوب الشرقية",
+      "name_en": "South Ash Sharqiyah",
+      "wilayats": [
+        {
+          "code": "0801",
+          "name_ar": "صور",
+          "name_en": "Sur"
+        },
+        {
+          "code": "0802",
+          "name_ar": "الكامل والوافي",
+          "name_en": "Al Kamil Wal Wafi"
+        },
+        {
+          "code": "0803",
+          "name_ar": "جعلان بني بو حسن",
+          "name_en": "Jalan Bani Bu Hassan"
+        },
+        {
+          "code": "0804",
+          "name_ar": "جعلان بني بو علي",
+          "name_en": "Jalan Bani Bu Ali"
+        },
+        {
+          "code": "0805",
+          "name_ar": "مصيرة",
+          "name_en": "Masirah"
+        }
+      ]
+    },
+    {
+      "code": "09",
+      "name_ar": "شمال الشرقية",
+      "name_en": "North Ash Sharqiyah",
+      "wilayats": [
+        {
+          "code": "0901",
+          "name_ar": "إبراء",
+          "name_en": "Ibra"
+        },
+        {
+          "code": "0902",
+          "name_ar": "المضيبي",
+          "name_en": "Al Mudhaibi"
+        },
+        {
+          "code": "0903",
+          "name_ar": "بدية",
+          "name_en": "Bidiyah"
+        },
+        {
+          "code": "0904",
+          "name_ar": "القابل",
+          "name_en": "Al Qabil"
+        },
+        {
+          "code": "0905",
+          "name_ar": "وادي بني خالد",
+          "name_en": "Wadi Bani Khalid"
+        },
+        {
+          "code": "0906",
+          "name_ar": "دماء والطائيين",
+          "name_en": "Dema and Al Tayeen"
+        },
+        {
+          "code": "0907",
+          "name_ar": "سناو",
+          "name_en": "Sinaw"
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "name_ar": "الظاهرة",
+      "name_en": "Adh Dhahirah",
+      "wilayats": [
+        {
+          "code": "1001",
+          "name_ar": "عبري",
+          "name_en": "Ibri"
+        },
+        {
+          "code": "1002",
+          "name_ar": "ينقل",
+          "name_en": "Yanqul"
+        },
+        {
+          "code": "1003",
+          "name_ar": "ضنك",
+          "name_en": "Dhank"
+        }
+      ]
+    },
+    {
+      "code": "11",
+      "name_ar": "الوسطى",
+      "name_en": "Al Wusta",
+      "wilayats": [
+        {
+          "code": "1101",
+          "name_ar": "هيماء",
+          "name_en": "Haima"
+        },
+        {
+          "code": "1102",
+          "name_ar": "محوت",
+          "name_en": "Mahout"
+        },
+        {
+          "code": "1103",
+          "name_ar": "الدقم",
+          "name_en": "Duqm"
+        },
+        {
+          "code": "1104",
+          "name_ar": "الجازر",
+          "name_en": "Al Jazir"
+        }
+      ]
+    }
+  ],
+  "reconciliation_notes": [
+    "Al Jabal Al Akhdar and Sinaw are post-61 additions confirmed by Oman News Agency.",
+    "Dhofar names reconciled against current government material; English decree rendering Qishn maps to Muqshin and omitted Sadah is restored from official structure/current list."
+  ],
+  "retrieved_at": "2026-08-16",
+  "schema_version": "2.0.0",
+  "wilayat_denominator": 63
+}

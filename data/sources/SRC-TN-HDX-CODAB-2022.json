@@ -1,0 +1,20 @@
+{
+  "archive_url": "https://data.humdata.org/dataset/e47eda48-8f83-4858-b739-dbffb8a50c47/download_metadata?format=json",
+  "checksum": null,
+  "country_codes": [
+    "TN"
+  ],
+  "id": "SRC-TN-HDX-CODAB-2022",
+  "language": "ar-fr-en",
+  "license": "Creative Commons Attribution 3.0 IGO",
+  "locator": "Metadata totals and tun_admin_boundaries.xlsx ADM2–ADM4 sheets; version 01 valid from 2022-11-15",
+  "notes": "Institutional package declares INS source lineage and totals 24 governorates, 264 delegations and 2,084 imadas. Exact XLSX bytes were not obtained; labels were cross-checked through the rendered workbook and a separately licensed research transcription.",
+  "publication_date": "2022-11-15",
+  "publisher": "OCHA Field Information Services Section / HDX",
+  "quality_tier": "B",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "2.0.0",
+  "source_type": "institutional_dataset",
+  "title": "Tunisia administrative boundaries COD-AB, version 01",
+  "url": "https://data.humdata.org/dataset/cod-ab-tun"
+}

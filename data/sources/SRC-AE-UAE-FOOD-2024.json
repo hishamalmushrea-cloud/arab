@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:158d2760c750a012be780901e6391faa7d20f1cb796d704845f7489bef1bf068",
+  "country_codes": [
+    "AE"
+  ],
+  "id": "SRC-AE-UAE-FOOD-2024",
+  "language": "en",
+  "license": "Official UAE Government portal; reuse terms not stated on captured page",
+  "locator": "traditional food, environmental foodways, Khameer and Chabab paragraphs",
+  "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/uae-food-2024.txt. Checksum binds that extract (765 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt.",
+  "publication_date": "2024-12-30",
+  "publisher": "The Official Platform of the UAE Government",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "2.0.0",
+  "source_type": "institutional_page",
+  "title": "Food",
+  "url": "https://u.ae/en/about-the-uae/culture/food"
+}

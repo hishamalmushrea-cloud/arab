@@ -1,0 +1,12 @@
+{
+  "country_code": "MA",
+  "records": [
+    {
+      "bytes": 12055,
+      "path": "data/imports/morocco/fixtures/territorial_division_2015.json",
+      "sha256": "1c8b1d5b96f248860f5e644197f09f387555564dc559e35f368d984f6794fd03"
+    }
+  ],
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-16"
+}

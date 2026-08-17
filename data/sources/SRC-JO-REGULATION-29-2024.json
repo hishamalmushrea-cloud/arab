@@ -1,0 +1,22 @@
+{
+  "archive_url": null,
+  "author": null,
+  "checksum": null,
+  "country_codes": [
+    "JO"
+  ],
+  "id": "SRC-JO-REGULATION-29-2024",
+  "language": "ar",
+  "license": "Publicly accessible factual record; resource-specific reuse terms not stated",
+  "locator": "LegislationID 3359; four replacement liwa clauses and immediate-publication provision",
+  "notes": "Official legislation registry identity for the amendment creating West Irbid and Mi'rad liwa and promoting Moab and Bal'ama qada to liwa.",
+  "organization": "Legislation and Opinion Bureau",
+  "publication_date": "2024-06-06",
+  "publisher": "Legislation and Opinion Bureau, Hashemite Kingdom of Jordan",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "2.0.0",
+  "source_type": "law",
+  "title": "Administrative Divisions Amending Regulation No. 29 of 2024",
+  "url": "https://lob.gov.jo/?lang=ar&v=3#!/LegislationDetails?LegislationID=3359&LegislationType=2&isMod=false"
+}

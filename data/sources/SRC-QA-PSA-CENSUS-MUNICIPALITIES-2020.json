@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:284c78ce66e4e1c167b48593f24f73cc8475c8bb9f5a68d9d69c3c1940108de5",
+  "country_codes": [
+    "QA"
+  ],
+  "id": "SRC-QA-PSA-CENSUS-MUNICIPALITIES-2020",
+  "language": "ar-en",
+  "license": "Qatar government statistical publication; factual extraction with attribution; reuse terms not stated",
+  "locator": "eight municipality population rows; total at end December 2020",
+  "notes": "Checksum binds exact census rows. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "Planning and Statistics Authority",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-16",
+  "schema_version": "2.0.0",
+  "source_type": "census",
+  "title": "Qatar Census 2020 — Population by Municipality",
+  "url": "https://www.psa.gov.qa/en/statistics1/StatisticsSite/Census/census2020/results/Pages/default.aspx"
+}

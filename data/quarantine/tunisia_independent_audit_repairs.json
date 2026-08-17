@@ -1,0 +1,102 @@
+{
+  "audit_date": "2026-08-15",
+  "before_images": "data/quarantine/tunisia_independent_audit_before.jsonl",
+  "country_code": "TN",
+  "independent_sample": "reports/tunisia_independent_acceptance_sample.json",
+  "open_findings": {
+    "P0": 0,
+    "P1": 0
+  },
+  "repairs": [
+    {
+      "finding_id": "TNIA-P1-01",
+      "severity": "P1",
+      "problem": "The 24 exact governorate population claims cited rounded INS Volume 0; Sousse, Nabeul and Kairouan also contradicted the exact Volume 3 table.",
+      "actions": [
+        "Changed the atomic source to INS RGPH 2014 Volume 3, PDF page 47.",
+        "Corrected Sousse from 674971 to 674818, Nabeul from 787920 to 787918, and Kairouan from 570559 to 570436.",
+        "Added page-and-row locators to all 24 claims and updated deterministic migration/import inputs and the snapshot checksum."
+      ],
+      "replacement_claim_ids": [
+        "CLM-EBEFBE3E47415FD8",
+        "CLM-63EBFB67ADC85493",
+        "CLM-D4731C818B175CC3"
+      ],
+      "status": "closed"
+    },
+    {
+      "finding_id": "TNIA-P1-02",
+      "severity": "P1",
+      "problem": "Every Sidi Bou Saïd citation used unrelated World Heritage property 1732, and the sampled period value was not supported by the correct property.",
+      "actions": [
+        "Changed all locators to World Heritage property 1769.",
+        "Replaced the unsupported period with the sourced 13th-century development around the Sufi master's tomb.",
+        "Replaced the condition wording with source-exact village/environment wording and corrected the point to property 1769."
+      ],
+      "replacement_claim_ids": [
+        "CLM-215A9AEDC9675F8A",
+        "CLM-D4E0848EBD745E66"
+      ],
+      "status": "closed"
+    },
+    {
+      "finding_id": "TNIA-P1-03",
+      "severity": "P1",
+      "problem": "The Ibn Khaldun source record pointed to adjacent article pf0000068103 rather than the article supporting both published claims.",
+      "actions": [
+        "Changed the source to pf0000068104, Tradition and experiment in Arabic letters, January 1986, pp. 17–18.",
+        "Added p. 17 locators to the entity, aliases, relationship and both claims."
+      ],
+      "replacement_claim_ids": [
+        "CLM-CA9A7B08C1D45639",
+        "CLM-82653461C4645BBC"
+      ],
+      "status": "closed"
+    },
+    {
+      "finding_id": "TNIA-P1-04",
+      "severity": "P1",
+      "problem": "Three populated-place classifications confused current places with heritage or archaeological descriptions.",
+      "actions": [
+        "Replaced current Sousse town with ONTT-sourced city ENT-TN-CITY-SOUSSE.",
+        "Replaced El Jem settlement with UNESCO-sourced village ENT-TN-VILLAGE-EL-JEM.",
+        "Moved Magon from current neighborhood to archaeological site ENT-TN-SITE-MAGON under the separate Carthage site entity.",
+        "Removed the validator rule that forced six different populated-place types; the bounded pilot now follows source evidence."
+      ],
+      "replacement_claim_ids": [
+        "CLM-B5F70004034A5C7F",
+        "CLM-1EB0B721F65E5B35",
+        "CLM-BC1B545267C059D1"
+      ],
+      "status": "closed"
+    },
+    {
+      "finding_id": "TNIA-P1-05",
+      "severity": "P1",
+      "problem": "ONTT or heritage-site locators did not establish stored populated-place/market coordinates.",
+      "actions": [
+        "Removed unsupported points from Carthage city, Sousse city, El Jem village, Magon archaeological quarter and the Tunis medina market.",
+        "Kept only points traceable to the represented entity and source; corrected Sidi Bou Saïd to the property 1769 point."
+      ],
+      "status": "closed"
+    },
+    {
+      "finding_id": "TNIA-P1-06",
+      "severity": "P1",
+      "problem": "Sejnane pottery and Kerkennah charfia were attributed to legal municipalities although UNESCO described village/community or island/community scope.",
+      "actions": [
+        "Created bounded village ENT-TN-VILLAGE-SEJNANE and moved the pottery claim to it.",
+        "Created geographic island-group ENT-TN-NATURAL-SITE-KERKENNAH-ISLANDS and moved the charfia claim to it.",
+        "Updated the cultural domain ledger; no national claim was copied downward."
+      ],
+      "replacement_claim_ids": [
+        "CLM-F5C0A68D79925284",
+        "CLM-218592D2ADE750E3"
+      ],
+      "status": "closed"
+    }
+  ],
+  "schema_change_needed": false,
+  "workflow_repair": "make repair now preserves curated atomic sources, runs the Tunisia Phase 2 importer after legacy migration, and generates pages from repaired structured data.",
+  "status": "all_independent_P1_findings_closed"
+}

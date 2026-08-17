@@ -1,0 +1,49 @@
+{
+  "country_code": "DZ",
+  "detected": 8,
+  "mutations": [
+    {
+      "detected": true,
+      "expected_code": "DZ_COUNTS",
+      "mutation": "DZ_FUTURE_AS_CURRENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "DZ_FUTURE_DATE",
+      "mutation": "DZ_WRONG_EFFECTIVE_DATE"
+    },
+    {
+      "detected": true,
+      "expected_code": "DZ_CURRENT_MANIFEST",
+      "mutation": "DZ_CURRENT_69"
+    },
+    {
+      "detected": true,
+      "expected_code": "DZ_COUNTS",
+      "mutation": "DZ_DROP_FUTURE"
+    },
+    {
+      "detected": true,
+      "expected_code": "DZ_CLAIMS",
+      "mutation": "DZ_CLAIM_TAMPER"
+    },
+    {
+      "detected": true,
+      "expected_code": "DZ_DENOMINATORS",
+      "mutation": "DZ_DENOM_TAMPER"
+    },
+    {
+      "detected": true,
+      "expected_code": "DZ_PREMATURE_LOWER",
+      "mutation": "DZ_PREMATURE_COMMUNE"
+    },
+    {
+      "detected": true,
+      "expected_code": "DZ_PARENT",
+      "mutation": "DZ_WRONG_PARENT"
+    }
+  ],
+  "required": 8,
+  "schema_version": "2.0.0",
+  "status": "PASS"
+}

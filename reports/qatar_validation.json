@@ -1,0 +1,17 @@
+{
+  "country_code": "QA",
+  "critical_p1": 0,
+  "errors": [],
+  "metrics": {
+    "aliases": 9,
+    "claims": 10,
+    "coverage": 3,
+    "denominators": 3,
+    "entities": 10,
+    "relationships": 9,
+    "sources": 3
+  },
+  "p0": 0,
+  "schema_version": "2.0.0",
+  "status": "PASS"
+}

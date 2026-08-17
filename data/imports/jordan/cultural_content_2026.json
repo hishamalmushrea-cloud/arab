@@ -1,0 +1,80 @@
+{
+  "claims": [
+    {
+      "classification": "official",
+      "notes": "National Jordan scope only; this claim is not copied to any locality.",
+      "predicate": "food_practice",
+      "source_id": "SRC-UNESCO-ICH-JO-01849",
+      "source_locator": "Representative List element 01849; element title, description, and 2022 inscription",
+      "status": "verified",
+      "subject_key": "country",
+      "value": "Al-Mansaf in Jordan: a festive banquet and its social and cultural meanings"
+    },
+    {
+      "classification": "official",
+      "notes": "National Jordan scope only; this claim is not copied to any locality.",
+      "predicate": "performance_practice",
+      "source_id": "SRC-UNESCO-ICH-JO-01301",
+      "source_locator": "Representative List element 01301; element title, description, and inscription record",
+      "status": "verified",
+      "subject_key": "country",
+      "value": "As-Samer in Jordan"
+    },
+    {
+      "classification": "regional",
+      "notes": "Geographic attribution is limited to the two places named by the institutional record.",
+      "predicate": "cultural_space",
+      "source_id": "SRC-UNESCO-ICH-JO-00122",
+      "source_locator": "Representative List element 00122 explicitly names Petra and Wadi Rum",
+      "status": "verified",
+      "subject_key": "site:petra",
+      "value": "Cultural space of the Bedu in Petra and Wadi Rum"
+    },
+    {
+      "classification": "regional",
+      "notes": "Geographic attribution is limited to the two places named by the institutional record.",
+      "predicate": "cultural_space",
+      "source_id": "SRC-UNESCO-ICH-JO-00122",
+      "source_locator": "Representative List element 00122 explicitly names Petra and Wadi Rum",
+      "status": "verified",
+      "subject_key": "site:wadi-rum",
+      "value": "Cultural space of the Bedu in Petra and Wadi Rum"
+    }
+  ],
+  "domain_status": {
+    "administrative_centers": {
+      "source_scope": "Regulation No. 46 of 2000 as amended by Regulation No. 29 of 2024",
+      "status": "verified"
+    },
+    "archaeology_and_heritage": {
+      "source_scope": "Eight-property UNESCO World Heritage denominator",
+      "status": "verified"
+    },
+    "bedu_cultural_space": {
+      "source_scope": "Petra and Wadi Rum only",
+      "status": "verified"
+    },
+    "dialect": {
+      "missing_reason": "No place-specific institutional or scholarly lexical record meeting the pilot's form, meaning, register, study/speaker, date, and attribution requirements was established. No dialect claim is imported.",
+      "status": "not_documented"
+    },
+    "dress": {
+      "missing_reason": "No bounded locality-specific source was selected for this pilot; national material was not localized.",
+      "status": "not_found"
+    },
+    "food_practice": {
+      "source_scope": "National Jordan scope only",
+      "status": "verified"
+    },
+    "people": {
+      "missing_reason": "People are outside the bounded Jordan pilot layers; no person was added merely to increase content volume.",
+      "status": "N/A"
+    },
+    "performance_practice": {
+      "source_scope": "National Jordan scope only",
+      "status": "verified"
+    }
+  },
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-15"
+}

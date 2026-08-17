@@ -1,0 +1,49 @@
+{
+  "country_code": "MA",
+  "critical_p1": 0,
+  "families": {
+    "claims": {
+      "failed": 0,
+      "passed": 12,
+      "sampled": 12,
+      "status": "PASS"
+    },
+    "coverage": {
+      "failed": 0,
+      "passed": 4,
+      "sampled": 4,
+      "status": "PASS"
+    },
+    "denominators": {
+      "failed": 0,
+      "passed": 4,
+      "sampled": 4,
+      "status": "PASS"
+    },
+    "entities": {
+      "failed": 0,
+      "passed": 88,
+      "sampled": 88,
+      "status": "PASS"
+    },
+    "relationships": {
+      "failed": 0,
+      "passed": 87,
+      "sampled": 87,
+      "status": "PASS"
+    },
+    "sources": {
+      "failed": 0,
+      "passed": 3,
+      "sampled": 3,
+      "status": "PASS"
+    }
+  },
+  "findings": [],
+  "method": "Independent full fixture hierarchy comparison.",
+  "p0": 0,
+  "schema_version": "2.0.0",
+  "status": "PASS",
+  "total_passed": 198,
+  "total_sampled": 198
+}

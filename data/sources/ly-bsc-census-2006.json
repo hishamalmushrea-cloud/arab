@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": null,
+  "country_codes": [
+    "LY"
+  ],
+  "id": "SRC-LY-BSC-CENSUS-2006",
+  "language": "ar",
+  "license": "License not stated on the source page",
+  "locator": "Official index and tables for the 22 census regions",
+  "notes": "Used for a historical 2006 sha‘biya snapshot only; it is not mixed with the current municipality hierarchy.",
+  "publication_date": "2006",
+  "publisher": "مصلحة الإحصاء والتعداد، ليبيا",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "2.0.0",
+  "source_type": "census",
+  "title": "التعداد العام للسكان 2006 — النتائج حسب مناطق التعداد",
+  "url": "https://bsc.ly/demographicl_statist/%D8%A7%D9%84%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF-%D8%A7%D9%84%D8%B9%D8%A7%D9%85-%D9%84%D9%84%D8%B3%D9%83%D8%A7%D9%862006/"
+}

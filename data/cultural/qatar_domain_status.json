@@ -1,0 +1,28 @@
+{
+  "country_code": "QA",
+  "domains": {
+    "custom": {
+      "claims": 0,
+      "status": "not_documented_in_cycle"
+    },
+    "dialect": {
+      "claims": 0,
+      "status": "not_documented_in_cycle"
+    },
+    "dress": {
+      "claims": 0,
+      "status": "not_documented_in_cycle"
+    },
+    "food": {
+      "claims": 0,
+      "status": "not_documented_in_cycle"
+    },
+    "world_heritage": {
+      "claims": 2,
+      "denominator": 1,
+      "status": "documented"
+    }
+  },
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-16"
+}

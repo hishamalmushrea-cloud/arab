@@ -1,0 +1,22 @@
+{
+  "archive_url": null,
+  "author": null,
+  "checksum": null,
+  "country_codes": [
+    "JO"
+  ],
+  "id": "SRC-JO-REGULATION-46-2000",
+  "language": "ar",
+  "license": "Publicly accessible factual record; resource-specific reuse terms not stated",
+  "locator": "LegislationID 789; Articles 2–15; effective-date metadata",
+  "notes": "Official legislation registry record. Article-level Arabic text was cross-read against the separately registered transcription source; the regulation took effect on 2001-01-01.",
+  "organization": "Legislation and Opinion Bureau",
+  "publication_date": "2000",
+  "publisher": "Legislation and Opinion Bureau, Hashemite Kingdom of Jordan",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "2.0.0",
+  "source_type": "law",
+  "title": "Administrative Divisions Regulation No. 46 of 2000",
+  "url": "https://lob.gov.jo/?lang=en&v=1#!/LegislationDetails?LegislationID=789&LegislationType=2&isMod=false"
+}

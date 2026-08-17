@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:6e1cf0acf6a62f4d58c6d303d8eaf15228fb3211273a20d00e9297ddbbc4d45e",
+  "country_codes": [
+    "OM"
+  ],
+  "id": "SRC-OM-ONA-63-WILAYATS-2022",
+  "language": "ar-en",
+  "license": "Official Oman legal/statistical material; factual extraction with attribution; reuse terms not stated",
+  "locator": "paragraph confirming two additions and total 63",
+  "notes": "Official count reconciliation. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "Oman News Agency",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-16",
+  "schema_version": "2.0.0",
+  "source_type": "institutional_page",
+  "title": "Al Jabal Al Akhdar and Sinaw raise wilayats to 63",
+  "url": "https://omannews.gov.om/topics/en/79/show/110798/dark"
+}

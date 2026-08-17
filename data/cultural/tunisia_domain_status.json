@@ -1,0 +1,58 @@
+{
+  "as_of": "2026-08-15",
+  "country_code": "TN",
+  "domains": [
+    {
+      "claim_ids": [
+        "CLM-273991864A27515C"
+      ],
+      "domain": "food",
+      "notes": "National claim only; not copied to localities.",
+      "status": "documented"
+    },
+    {
+      "claim_ids": [
+        "CLM-CA9C3149E6625D46"
+      ],
+      "domain": "clothing",
+      "notes": "Market-goods claim only.",
+      "status": "documented"
+    },
+    {
+      "claim_ids": [
+        "CLM-218592D2ADE750E3"
+      ],
+      "domain": "custom",
+      "notes": "Attached to the sourced island-group/community geography, not a legal municipality.",
+      "status": "documented"
+    },
+    {
+      "claim_ids": [
+        "CLM-F5C0A68D79925284"
+      ],
+      "domain": "craft",
+      "notes": "Attached to the sourced village/community, not municipal boundaries.",
+      "status": "documented"
+    },
+    {
+      "claim_ids": [],
+      "domain": "lexical",
+      "notes": "No Phase 2-ready A/B source with form, meaning, place, register, date, and study/speaker metadata was identified in the bounded review; no lexical claim is published.",
+      "status": "not_found"
+    },
+    {
+      "claim_ids": [],
+      "domain": "dialect",
+      "notes": "Language, dialect, variety, and register remain distinct schema fields; no locality claim is inferred.",
+      "status": "not_documented"
+    },
+    {
+      "claim_ids": [],
+      "domain": "exclusive_local_practices",
+      "notes": "No comparative evidence was reviewed, so no exclusivity claim is in scope.",
+      "status": "N/A"
+    }
+  ],
+  "schema_version": "2.0.0",
+  "scope": "Bounded Phase 2 pilot; absence statuses are research-workflow states, not claims that a practice does not exist."
+}

@@ -1,0 +1,13 @@
+{
+  "child_id": "ENT-LY-SHABIYA-HISTORICAL-3FE7A9F5E139",
+  "id": "REL-00135B8396895A00",
+  "notes": "Historical hierarchy snapshot only.",
+  "parent_id": "ENT-LY-COUNTRY",
+  "relationship_type": "administrative_parent",
+  "schema_version": "1.0.0",
+  "source_id": "SRC-LY-BSC-CENSUS-2006",
+  "source_locator": "2006 census region: بنغازي",
+  "status": "historical",
+  "valid_from": null,
+  "valid_to": null
+}

@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:43a2bc89a5808e7bcc1fe03ab5fc663e781b146499118f4dbcb8f518ebdfb20b",
+  "country_codes": [
+    "MR"
+  ],
+  "id": "SRC-MR-ANSADE-PEER-REVIEW-2024",
+  "language": "ar-fr",
+  "license": "Official Mauritania administrative/statistical material; factual extraction with attribution; reuse terms not stated",
+  "locator": "15 regions, 63 moughataas, 219 communes",
+  "notes": "Current commune-count candidate; older 220 retained as conflict. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "ANSADE",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-16",
+  "schema_version": "2.0.0",
+  "source_type": "official_report",
+  "title": "Revue par les pairs du système statistique national",
+  "url": "https://admin.ansade.mr/wp-content/uploads/2026/06/Rapport-de-la-Revue-par-les-Pairs-du-SSN-2024.pdf"
+}

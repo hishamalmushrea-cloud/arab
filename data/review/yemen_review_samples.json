@@ -1,0 +1,137 @@
+{
+  "country_code": "YE",
+  "families": {
+    "aliases": {
+      "population": 1,
+      "record_ids": [
+        "ALS-ABB3D1667B985AE9"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 1
+    },
+    "claims": {
+      "population": 23,
+      "record_ids": [
+        "CLM-YE-0A3F4FCE3D8C5EC1",
+        "CLM-YE-10B28D73A23952D4",
+        "CLM-YE-179934E4C04F57F9",
+        "CLM-YE-1D9C461F61CC5EA2",
+        "CLM-YE-271E88F53B745F97",
+        "CLM-YE-296F8A8737AB55E9",
+        "CLM-YE-29E1EB3BA6B15942",
+        "CLM-YE-3433124D777B510D",
+        "CLM-YE-3E9FAEB3B8B8595C",
+        "CLM-YE-5792777D2BD7561E",
+        "CLM-YE-638F99BDEDA35B84",
+        "CLM-YE-6E24D44178B65E37",
+        "CLM-YE-71D3383DDE475AC7",
+        "CLM-YE-9866B8E0174E512D",
+        "CLM-YE-997CE3AFAB025966",
+        "CLM-YE-AFBAFD0F210C5BE0",
+        "CLM-YE-C7CEA784CE33589F",
+        "CLM-YE-CEB5516785665D60",
+        "CLM-YE-E19CD1553E23558B",
+        "CLM-YE-E32110FF388D5F18",
+        "CLM-YE-E6F9307F0013553F",
+        "CLM-YE-F0E19F6876595282",
+        "CLM-YE-F7FB744B44E157BE"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 23
+    },
+    "coverage": {
+      "population": 5,
+      "record_ids": [
+        "COV-YE-CAPITAL-MUNICIPALITY",
+        "COV-YE-COUNTRY-SCOPE",
+        "COV-YE-FIRST-LEVEL",
+        "COV-YE-GOVERNORATES",
+        "COV-YE-LEGACY-FIRST-LEVEL"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 5
+    },
+    "denominators": {
+      "population": 5,
+      "record_ids": [
+        "DEN-YE-CAPITAL-MUNICIPALITY",
+        "DEN-YE-COUNTRY-SCOPE",
+        "DEN-YE-FIRST-LEVEL",
+        "DEN-YE-GOVERNORATES",
+        "DEN-YE-LEGACY-FIRST-LEVEL"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 5
+    },
+    "entities": {
+      "population": 23,
+      "record_ids": [
+        "ENT-YE-CAPITAL-MUNICIPALITY-01",
+        "ENT-YE-COUNTRY",
+        "ENT-YE-GOVERNORATE-02",
+        "ENT-YE-GOVERNORATE-03",
+        "ENT-YE-GOVERNORATE-04",
+        "ENT-YE-GOVERNORATE-05",
+        "ENT-YE-GOVERNORATE-06",
+        "ENT-YE-GOVERNORATE-07",
+        "ENT-YE-GOVERNORATE-08",
+        "ENT-YE-GOVERNORATE-09",
+        "ENT-YE-GOVERNORATE-10",
+        "ENT-YE-GOVERNORATE-11",
+        "ENT-YE-GOVERNORATE-12",
+        "ENT-YE-GOVERNORATE-13",
+        "ENT-YE-GOVERNORATE-14",
+        "ENT-YE-GOVERNORATE-15",
+        "ENT-YE-GOVERNORATE-16",
+        "ENT-YE-GOVERNORATE-17",
+        "ENT-YE-GOVERNORATE-18",
+        "ENT-YE-GOVERNORATE-19",
+        "ENT-YE-GOVERNORATE-20",
+        "ENT-YE-GOVERNORATE-21",
+        "ENT-YE-GOVERNORATE-22"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 23
+    },
+    "relationships": {
+      "population": 22,
+      "record_ids": [
+        "REL-YE-0EFEEBAB31BF5426",
+        "REL-YE-2DC6A45A91035B1D",
+        "REL-YE-2F21286FE7D4574C",
+        "REL-YE-30A33326E0C35651",
+        "REL-YE-3AC651A4964A5676",
+        "REL-YE-4CE855AA6FC75DA5",
+        "REL-YE-4D87F6C1FB7A59B8",
+        "REL-YE-5228AA50E63B5B7C",
+        "REL-YE-5672D89AE1BB5F69",
+        "REL-YE-793F9903AE2358F0",
+        "REL-YE-7C93209922E954F7",
+        "REL-YE-9B33F7337DD250FF",
+        "REL-YE-9F7C2DBF1E925EAF",
+        "REL-YE-A008580541E95DDC",
+        "REL-YE-B4208056B1BF5A68",
+        "REL-YE-BC091196DCCA554B",
+        "REL-YE-D8BB9F3672FB5A32",
+        "REL-YE-D9F462887D0C54A3",
+        "REL-YE-E0D7A9F63D895952",
+        "REL-YE-E76A35E041D6562C",
+        "REL-YE-F746BE1A36CE5B7A",
+        "REL-YE-FF43E2BCDBD354CA"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 22
+    },
+    "sources": {
+      "population": 3,
+      "record_ids": [
+        "SRC-YE-CSO-ADMIN-DEFINITION-LEGACY",
+        "SRC-YE-LAW-31-SOCOTRA-REPORT-2013",
+        "SRC-YE-NIC-GOVERNORATES-LEGACY"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 3
+    }
+  },
+  "schema_version": "2.0.0"
+}

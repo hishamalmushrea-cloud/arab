@@ -1,0 +1,72 @@
+{
+  "baseline_issue_codes": [],
+  "country_code": "SA",
+  "errors": [],
+  "input_fingerprint_sha256": "799d6fa1615bc1f37895eb62612df8a5933341f211372e1878f964b2a806a25c",
+  "metrics": {
+    "ab_claim_ratio": 100.0,
+    "duplicate_claim_text_occurrences": 127,
+    "published_claims": 1732,
+    "sensitive_claims": 0,
+    "sensitive_compliant": 0,
+    "text_duplication_rate": 7.3326
+  },
+  "negative_test_outcomes": {
+    "NEG-SA-ALIAS-AS-ENTITY": "pass",
+    "NEG-SA-FOREIGN-COUNTRY-SOURCE": "pass",
+    "NEG-SA-HISTORICAL-AS-CURRENT": "pass",
+    "NEG-SA-NATIONAL-TO-LOCAL-LEAKAGE": "pass",
+    "NEG-SA-POPULATION-WITHOUT-YEAR": "pass",
+    "NEG-SA-WRONG-CENTER-LINKAGE": "pass",
+    "NEG-SA-WRONG-GOVERNORATE": "pass"
+  },
+  "p0_findings": 0,
+  "p1_findings": 0,
+  "passed": true,
+  "review_method": "Independent raw-HTML parser and fixed SHA-256 stratified sample; full denominator, culture and dialect invariants; seven injected Saudi-specific mutants. The importer is not imported or called.",
+  "reviewed": {
+    "aliases": 18,
+    "claims": 174,
+    "coverage": 9,
+    "cultural_claims": 36,
+    "denominators": 9,
+    "dialect_claims": 4,
+    "dialect_entities": 4,
+    "entities": 171,
+    "populated_places": 4,
+    "relationships": 173,
+    "sites": 8,
+    "sources": 11
+  },
+  "reviewer": "automated-independent-path",
+  "sample_rates": {
+    "aliases": 0.1006,
+    "claims": 0.1005,
+    "coverage": 1.0,
+    "cultural_claims": 1.0,
+    "denominators": 1.0,
+    "dialect_claims": 1.0,
+    "dialect_entities": 1.0,
+    "entities": 0.1001,
+    "populated_places": 1.0,
+    "relationships": 0.1002,
+    "sites": 1.0,
+    "sources": 0.3143
+  },
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-15",
+  "totals": {
+    "aliases": 179,
+    "claims": 1732,
+    "coverage": 9,
+    "cultural_claims": 36,
+    "denominators": 9,
+    "dialect_claims": 4,
+    "dialect_entities": 4,
+    "entities": 1708,
+    "populated_places": 4,
+    "relationships": 1726,
+    "sites": 8,
+    "sources": 35
+  }
+}

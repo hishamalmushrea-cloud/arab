@@ -1,0 +1,16 @@
+{
+  "country_code": "KM",
+  "critical_p1": 0,
+  "errors": [],
+  "metrics": {
+    "claims": 6,
+    "coverage": 5,
+    "denominators": 5,
+    "entities": 75,
+    "relationships": 74,
+    "sources": 3
+  },
+  "p0": 0,
+  "schema_version": "2.0.0",
+  "status": "PASS"
+}

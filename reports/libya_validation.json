@@ -1,0 +1,17 @@
+{
+  "country_code": "LY",
+  "critical_p1": 0,
+  "errors": [],
+  "metrics": {
+    "aliases": 6,
+    "claims": 0,
+    "coverage": 4,
+    "denominators": 4,
+    "entities": 164,
+    "relationships": 163,
+    "sources": 3
+  },
+  "p0": 0,
+  "schema_version": "2.0.0",
+  "status": "PASS"
+}

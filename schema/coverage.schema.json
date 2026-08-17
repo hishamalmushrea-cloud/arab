@@ -1,0 +1,140 @@
+{
+  "$id": "https://arab.example/schema/v2/coverage.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "complete": {
+      "type": "boolean"
+    },
+    "country_code": {
+      "pattern": "^[A-Z]{2}$",
+      "type": "string"
+    },
+    "coverage_percentage": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "denominator": {
+      "minimum": 0,
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "denominator_id": {
+      "pattern": "^DEN-[A-Z0-9-]+$",
+      "type": "string"
+    },
+    "excluded": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "exclusion_reasons": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "count": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "reason": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "count",
+          "reason"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "id": {
+      "pattern": "^COV-[A-Z0-9-]+$",
+      "type": "string"
+    },
+    "layer": {
+      "pattern": "^[a-z][a-z0-9_]*$",
+      "type": "string"
+    },
+    "license": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "matched": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "missing": {
+      "minimum": 0,
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "missing_reason": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "schema_version": {
+      "const": "2.0.0"
+    },
+    "snapshot_date": {
+      "format": "date",
+      "type": "string"
+    },
+    "snapshot_id": {
+      "pattern": "^SNP-[A-Z0-9-]+$",
+      "type": "string"
+    },
+    "source_id": {
+      "pattern": "^SRC-[A-Z0-9-]+$",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "unmatched": {
+      "minimum": 0,
+      "type": "integer"
+    }
+  },
+  "required": [
+    "id",
+    "schema_version",
+    "country_code",
+    "layer",
+    "snapshot_id",
+    "denominator_id",
+    "source_id",
+    "matched",
+    "unmatched",
+    "excluded",
+    "missing",
+    "complete",
+    "missing_reason",
+    "notes",
+    "denominator",
+    "snapshot_date",
+    "license",
+    "coverage_percentage",
+    "exclusion_reasons"
+  ],
+  "title": "Coverage",
+  "type": "object"
+}

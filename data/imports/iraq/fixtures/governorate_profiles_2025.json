@@ -1,0 +1,158 @@
+{
+  "country_code": "IQ",
+  "denominators": {
+    "federal_non_kri": 15,
+    "governorates": 19,
+    "kri_profile": 4
+  },
+  "governorates": [
+    {
+      "code": "01",
+      "name_ar": "دهوك",
+      "name_en": "Duhok",
+      "profile": "kri",
+      "valid_from": null
+    },
+    {
+      "code": "02",
+      "name_ar": "نينوى",
+      "name_en": "Nineveh",
+      "profile": "federal_non_kri",
+      "valid_from": null
+    },
+    {
+      "code": "03",
+      "name_ar": "السليمانية",
+      "name_en": "Sulaymaniyah",
+      "profile": "kri",
+      "valid_from": null
+    },
+    {
+      "code": "04",
+      "name_ar": "كركوك",
+      "name_en": "Kirkuk",
+      "profile": "federal_non_kri",
+      "valid_from": null
+    },
+    {
+      "code": "05",
+      "name_ar": "أربيل",
+      "name_en": "Erbil",
+      "profile": "kri",
+      "valid_from": null
+    },
+    {
+      "code": "06",
+      "name_ar": "ديالى",
+      "name_en": "Diyala",
+      "profile": "federal_non_kri",
+      "valid_from": null
+    },
+    {
+      "code": "07",
+      "name_ar": "الأنبار",
+      "name_en": "Al-Anbar",
+      "profile": "federal_non_kri",
+      "valid_from": null
+    },
+    {
+      "code": "08",
+      "name_ar": "بغداد",
+      "name_en": "Baghdad",
+      "profile": "federal_non_kri",
+      "valid_from": null
+    },
+    {
+      "code": "09",
+      "name_ar": "بابل",
+      "name_en": "Babylon",
+      "profile": "federal_non_kri",
+      "valid_from": null
+    },
+    {
+      "code": "10",
+      "name_ar": "كربلاء",
+      "name_en": "Karbala",
+      "profile": "federal_non_kri",
+      "valid_from": null
+    },
+    {
+      "code": "11",
+      "name_ar": "واسط",
+      "name_en": "Wasit",
+      "profile": "federal_non_kri",
+      "valid_from": null
+    },
+    {
+      "code": "12",
+      "name_ar": "صلاح الدين",
+      "name_en": "Salah Al-Din",
+      "profile": "federal_non_kri",
+      "valid_from": null
+    },
+    {
+      "code": "13",
+      "name_ar": "النجف",
+      "name_en": "Al-Najaf",
+      "profile": "federal_non_kri",
+      "valid_from": null
+    },
+    {
+      "code": "14",
+      "name_ar": "القادسية",
+      "name_en": "Al-Qadisiyah",
+      "profile": "federal_non_kri",
+      "valid_from": null
+    },
+    {
+      "code": "15",
+      "name_ar": "المثنى",
+      "name_en": "Al-Muthanna",
+      "profile": "federal_non_kri",
+      "valid_from": null
+    },
+    {
+      "code": "16",
+      "name_ar": "ذي قار",
+      "name_en": "Dhi Qar",
+      "profile": "federal_non_kri",
+      "valid_from": null
+    },
+    {
+      "code": "17",
+      "name_ar": "ميسان",
+      "name_en": "Maysan",
+      "profile": "federal_non_kri",
+      "valid_from": null
+    },
+    {
+      "code": "18",
+      "name_ar": "البصرة",
+      "name_en": "Basra",
+      "profile": "federal_non_kri",
+      "valid_from": null
+    },
+    {
+      "code": "19",
+      "name_ar": "حلبجة",
+      "name_en": "Halabja",
+      "profile": "kri",
+      "valid_from": "2025-05-05"
+    }
+  ],
+  "halabja": {
+    "decree_publication": "2025-05-12",
+    "gazette_issue": 4824,
+    "law": 7,
+    "law_publication": "2025-05-05",
+    "republican_decree": 21
+  },
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-17",
+  "sources": {
+    "cosit": "https://cosit.gov.iq/ar/62-indicators?start=20",
+    "decree": "https://www.moj.gov.iq/view.9248/",
+    "krso": "https://krso.gov.krd/content/upload/1/root/kri-population-projections-on-the-distrit-level-2021-2040.pdf",
+    "law": "https://www.moj.gov.iq/view.9222/"
+  }
+}

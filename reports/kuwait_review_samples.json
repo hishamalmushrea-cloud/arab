@@ -1,0 +1,91 @@
+{
+  "country_code": "KW",
+  "families": {
+    "aliases": {
+      "population": 6,
+      "record_ids": [
+        "ALS-KW-61E9AF0EA2985661",
+        "ALS-KW-B44EE9DB5D2A500F",
+        "ALS-KW-D30D6C7467DB5549",
+        "ALS-KW-E85279B2E4B25E08",
+        "ALS-KW-F06C4C902907556B",
+        "ALS-KW-F977092B11F8594B"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 6
+    },
+    "claims": {
+      "population": 6,
+      "record_ids": [
+        "CLM-KW-0101789BB4D55DDD",
+        "CLM-KW-206F0FEA5A3F555B",
+        "CLM-KW-49BA618406F55A03",
+        "CLM-KW-B96FAA39512251D6",
+        "CLM-KW-D5399D0A15C751C0",
+        "CLM-KW-E8FD297081805484"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 6
+    },
+    "coverage": {
+      "population": 3,
+      "record_ids": [
+        "COV-KW-COUNTRY-SCOPE",
+        "COV-KW-GOVERNORATES-2021",
+        "COV-KW-WHC-20260816"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 3
+    },
+    "denominators": {
+      "population": 3,
+      "record_ids": [
+        "DEN-KW-COUNTRY-SCOPE",
+        "DEN-KW-GOVERNORATES-2021",
+        "DEN-KW-WHC-20260816"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 3
+    },
+    "entities": {
+      "population": 7,
+      "record_ids": [
+        "ENT-KW-COUNTRY",
+        "ENT-KW-GOVERNORATE-AL-AHMADI",
+        "ENT-KW-GOVERNORATE-AL-FARWANIYA",
+        "ENT-KW-GOVERNORATE-AL-JAHRA",
+        "ENT-KW-GOVERNORATE-CAPITAL",
+        "ENT-KW-GOVERNORATE-HAWALLI",
+        "ENT-KW-GOVERNORATE-MUBARAK-AL-KABEER"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 7
+    },
+    "relationships": {
+      "population": 6,
+      "record_ids": [
+        "REL-KW-34B31553E7585BEB",
+        "REL-KW-38324C62A8C9503E",
+        "REL-KW-7DD4F721AED65D74",
+        "REL-KW-85A2A5D262EE51A5",
+        "REL-KW-D5A1B0CD06525DCA",
+        "REL-KW-EA735DA3C1B85DBC"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 6
+    },
+    "sources": {
+      "population": 3,
+      "record_ids": [
+        "SRC-KW-CSB-CENSUS-GOVERNORATES-2021",
+        "SRC-KW-CSB-CENSUS-METHODOLOGY-2021",
+        "SRC-UNESCO-WHC-KW-2026"
+      ],
+      "sample_percentage": 100.0,
+      "sample_size": 3
+    }
+  },
+  "schema_version": "2.0.0",
+  "selection_method": "Full review of small Kuwait production population; stable sorted IDs.",
+  "snapshot_date": "2026-08-16"
+}

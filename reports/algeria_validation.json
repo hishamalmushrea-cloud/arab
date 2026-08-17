@@ -1,0 +1,16 @@
+{
+  "country_code": "DZ",
+  "critical_p1": 0,
+  "errors": [],
+  "metrics": {
+    "claims": 3,
+    "coverage": 3,
+    "denominators": 3,
+    "entities": 70,
+    "relationships": 69,
+    "sources": 3
+  },
+  "p0": 0,
+  "schema_version": "2.0.0",
+  "status": "PASS"
+}

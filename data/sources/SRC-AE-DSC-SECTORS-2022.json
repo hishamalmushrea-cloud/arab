@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:2bd15237dc46fa0fccbed4f7cf853be41f5fca72b2fce69c0e1e6f55113ca509",
+  "country_codes": [
+    "AE"
+  ],
+  "id": "SRC-AE-DSC-SECTORS-2022",
+  "language": "en",
+  "license": "Official Dubai government publication; reuse terms not stated in captured index",
+  "locator": "Population Distribution by Sector; Dubai is divided into 9 sectors",
+  "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-08-15/dubai-population-bulletin-2022.txt. Checksum binds that extract (445 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. The official bulletin states year 2022 but no day was inferred. Publication date unavailable on the captured page; no date was inferred.",
+  "publication_date": null,
+  "publisher": "Dubai Statistics Center",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-15",
+  "schema_version": "2.0.0",
+  "source_type": "official_report",
+  "title": "Population Bulletin Emirate of Dubai 2022",
+  "url": "https://www.dsc.gov.ae/Publication/Population%20Bulletin%20Emirate%20of%20Dubai-2022.pdf"
+}

@@ -1,0 +1,17 @@
+{
+  "complete": true,
+  "country_code": "AE",
+  "coverage_percent": 100.0,
+  "denominator_id": "DEN-AE-COUNTRY-SCOPE",
+  "excluded": 0,
+  "id": "COV-AE-COUNTRY-SCOPE",
+  "layer": "country_scope",
+  "matched": 1,
+  "missing": 0,
+  "missing_reason": null,
+  "notes": "This 100% applies only to the one-record country-scope layer, not to cities, villages, neighborhoods, lanes, or administrative tiers.",
+  "schema_version": "1.0.0",
+  "snapshot_id": "SNP-MIGRATION-2026-08-15",
+  "source_id": "SRC-ISO-3166-1-2020",
+  "unmatched": 0
+}

@@ -1,0 +1,97 @@
+{
+  "country_code": "MR",
+  "denominators": {
+    "communes_conflicted": [
+      219,
+      220
+    ],
+    "moughataas_known_open": 63,
+    "nouakchott_wilayas": 3,
+    "regional_wilayas": 12,
+    "wilayas": 15
+  },
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-16",
+  "sources": {
+    "ansade": "https://ansade.mr/wp-content/uploads/2024/09/Depliant-RGPH5-1.pdf",
+    "dgat": "https://dgat.interieur.gov.mr/",
+    "peer_review": "https://admin.ansade.mr/wp-content/uploads/2026/06/Rapport-de-la-Revue-par-les-Pairs-du-SSN-2024.pdf"
+  },
+  "wilayas": [
+    {
+      "code": "01",
+      "name_fr": "Hodh Ech Chargui",
+      "profile": "regional"
+    },
+    {
+      "code": "02",
+      "name_fr": "Hodh El Gharbi",
+      "profile": "regional"
+    },
+    {
+      "code": "03",
+      "name_fr": "Assaba",
+      "profile": "regional"
+    },
+    {
+      "code": "04",
+      "name_fr": "Gorgol",
+      "profile": "regional"
+    },
+    {
+      "code": "05",
+      "name_fr": "Brakna",
+      "profile": "regional"
+    },
+    {
+      "code": "06",
+      "name_fr": "Trarza",
+      "profile": "regional"
+    },
+    {
+      "code": "07",
+      "name_fr": "Adrar",
+      "profile": "regional"
+    },
+    {
+      "code": "08",
+      "name_fr": "Dakhlet Nouadhibou",
+      "profile": "regional"
+    },
+    {
+      "code": "09",
+      "name_fr": "Tagant",
+      "profile": "regional"
+    },
+    {
+      "code": "10",
+      "name_fr": "Guidimakha",
+      "profile": "regional"
+    },
+    {
+      "code": "11",
+      "name_fr": "Tiris Zemmour",
+      "profile": "regional"
+    },
+    {
+      "code": "12",
+      "name_fr": "Inchiri",
+      "profile": "regional"
+    },
+    {
+      "code": "13",
+      "name_fr": "Nouakchott Nord",
+      "profile": "nouakchott_capital"
+    },
+    {
+      "code": "14",
+      "name_fr": "Nouakchott Ouest",
+      "profile": "nouakchott_capital"
+    },
+    {
+      "code": "15",
+      "name_fr": "Nouakchott Sud",
+      "profile": "nouakchott_capital"
+    }
+  ]
+}

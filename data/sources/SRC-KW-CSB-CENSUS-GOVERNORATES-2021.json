@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:6fa4e68c3cb02b3c5cbd0b5e61bbd74b17185cf0e7211b689ae6c7d8817c2d92",
+  "country_codes": [
+    "KW"
+  ],
+  "id": "SRC-KW-CSB-CENSUS-GOVERNORATES-2021",
+  "language": "ar-en",
+  "license": "Kuwait government statistical publication; factual extraction with attribution; reuse terms not stated",
+  "locator": "downloadable Table 1/chart: six governorates, Not Stated row, and total population",
+  "notes": "Checksum binds the reconciled exact table fixture. Publication date unavailable. Census index identifies the registration census as 2021; year precision is normalized to 2021-01-01. Differing prominent widgets are excluded; table/chart rows reconcile exactly to total with Not Stated.",
+  "publication_date": null,
+  "publisher": "Central Statistical Bureau",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-16",
+  "schema_version": "2.0.0",
+  "source_type": "census",
+  "title": "Kuwait Registration Census 2021 — population by governorate",
+  "url": "https://census.csb.gov.kw/Census_Gov"
+}

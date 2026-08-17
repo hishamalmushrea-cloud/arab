@@ -1,0 +1,110 @@
+{
+  "$id": "https://arab.example/schema/v2/relationship.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "child_id": {
+      "pattern": "^ENT-[A-Z]{2}-[A-Z0-9-]+$",
+      "type": "string"
+    },
+    "confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "id": {
+      "pattern": "^REL-[A-Z0-9-]+$",
+      "type": "string"
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "parent_id": {
+      "pattern": "^ENT-[A-Z]{2}-[A-Z0-9-]+$",
+      "type": "string"
+    },
+    "relationship_type": {
+      "enum": [
+        "administrative_parent",
+        "located_in",
+        "capital_of",
+        "seat_of",
+        "historic_successor",
+        "claimed_by",
+        "boundary_intersects",
+        "associated_with",
+        "variety_of",
+        "form_of",
+        "attested_in"
+      ]
+    },
+    "schema_version": {
+      "const": "2.0.0"
+    },
+    "source_id": {
+      "pattern": "^SRC-[A-Z0-9-]+$",
+      "type": "string"
+    },
+    "source_locator": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "current",
+        "historical",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ]
+    },
+    "valid_from": {
+      "format": "date",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "valid_to": {
+      "format": "date",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "verification_status": {
+      "enum": [
+        "verified",
+        "source_verified",
+        "partial",
+        "ambiguous",
+        "needs_review"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "schema_version",
+    "child_id",
+    "parent_id",
+    "relationship_type",
+    "status",
+    "valid_from",
+    "valid_to",
+    "source_id",
+    "source_locator",
+    "notes",
+    "verification_status",
+    "confidence"
+  ],
+  "title": "Relationship",
+  "type": "object"
+}

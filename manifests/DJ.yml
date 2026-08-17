@@ -1,0 +1,299 @@
+{
+  "caveats": [
+    "Djibouti-Ville is parallel to five regions.",
+    "Communes belong to special city; sub-prefectures belong to regions.",
+    "No arrondissement/zone denominator asserted."
+  ],
+  "country": {
+    "entity_id": "ENT-DJ-COUNTRY",
+    "iso2": "DJ",
+    "name_ar": "جيبوتي"
+  },
+  "coverage_record_ids": [
+    "COV-DJ-COUNTRY-SCOPE",
+    "COV-DJ-REGIONS",
+    "COV-DJ-SPECIAL-CITY",
+    "COV-DJ-CITY-COMMUNES",
+    "COV-DJ-SUBPREFECTURES"
+  ],
+  "hierarchy": [
+    {
+      "allowed_parent_types": [],
+      "caveat": "Country scope only; not a local coverage assertion.",
+      "entity_type": "country",
+      "level": 0,
+      "local_names": [
+        "دولة"
+      ],
+      "source_ids": [
+        "SRC-ISO-3166-1-2020"
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "disputed",
+        "de_facto",
+        "claimed"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "country"
+      ],
+      "authority_name": "République de Djibouti",
+      "caveat": "وضع مدينة جيبوتي والبلديات/المقاطعات الفرعية يحتاج مسارات اختصاص منفصلة.",
+      "coverage_record_id": "COV-DJ-REGIONS",
+      "denominator": 5,
+      "denominator_id": "DEN-DJ-REGIONS",
+      "entity_type": "dj_region",
+      "level": 1,
+      "license": "Official Djibouti public material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "إقليم"
+      ],
+      "notes": "Topology-specific closed scope.",
+      "scope_status": "closed",
+      "snapshot_date": "2024-05-20",
+      "source_ids": [
+        "SRC-DJ-PRESIDENCY-REGIONS-2026"
+      ],
+      "special_cases": [
+        "Do not merge special-city and regional paths."
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "country"
+      ],
+      "authority_name": "République de Djibouti",
+      "caveat": "وضع مدينة جيبوتي والبلديات/المقاطعات الفرعية يحتاج مسارات اختصاص منفصلة.",
+      "coverage_record_id": "COV-DJ-SPECIAL-CITY",
+      "denominator": 1,
+      "denominator_id": "DEN-DJ-SPECIAL-CITY",
+      "entity_type": "djibouti_city",
+      "level": 2,
+      "license": "Official Djibouti public material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "مدينة جيبوتي ذات وضع خاص"
+      ],
+      "notes": "Topology-specific closed scope.",
+      "scope_status": "closed",
+      "snapshot_date": "2024-05-20",
+      "source_ids": [
+        "SRC-DJ-LAW-122-CITY-2005"
+      ],
+      "special_cases": [
+        "Do not merge special-city and regional paths."
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "dj_region"
+      ],
+      "authority_name": "République de Djibouti",
+      "caveat": "وضع مدينة جيبوتي والبلديات/المقاطعات الفرعية يحتاج مسارات اختصاص منفصلة.",
+      "coverage_record_id": "COV-DJ-SUBPREFECTURES",
+      "denominator": 13,
+      "denominator_id": "DEN-DJ-SUBPREFECTURES",
+      "entity_type": "dj_subprefecture",
+      "level": 3,
+      "license": "Official Djibouti public material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "مقاطعة فرعية"
+      ],
+      "notes": "Topology-specific closed scope.",
+      "scope_status": "closed",
+      "snapshot_date": "2024-05-20",
+      "source_ids": [
+        "SRC-DJ-DECENTRALISATION-ROADMAP-2020"
+      ],
+      "special_cases": [
+        "Do not merge special-city and regional paths."
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "djibouti_city",
+        "dj_region"
+      ],
+      "authority_name": "République de Djibouti",
+      "caveat": "وضع مدينة جيبوتي والبلديات/المقاطعات الفرعية يحتاج مسارات اختصاص منفصلة.",
+      "coverage_record_id": "COV-DJ-CITY-COMMUNES",
+      "denominator": 3,
+      "denominator_id": "DEN-DJ-CITY-COMMUNES",
+      "entity_type": "dj_commune",
+      "level": 4,
+      "license": "Official Djibouti public material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "بلدية"
+      ],
+      "notes": "Topology-specific closed scope.",
+      "scope_status": "closed",
+      "snapshot_date": "2024-05-20",
+      "source_ids": [
+        "SRC-DJ-LAW-122-CITY-2005"
+      ],
+      "special_cases": [
+        "Do not merge special-city and regional paths."
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "next_action": "Maintain separate topology profiles; expand only from current legal enumerations.",
+  "official_authority": {
+    "missing_reason": null,
+    "name": "Présidence / Ministère de l’Intérieur / INSTAD",
+    "source_ids": [
+      "SRC-DJ-PRESIDENCY-REGIONS-2026",
+      "SRC-DJ-LAW-122-CITY-2005",
+      "SRC-DJ-INSTAD-RGPH3-2024",
+      "SRC-DJ-INTERIOR-PREFECTURES-2026"
+    ],
+    "verification_status": "verified"
+  },
+  "pilot_layers": [
+    {
+      "authority_name": "République de Djibouti",
+      "coverage_record_id": "COV-DJ-REGIONS",
+      "denominator": 5,
+      "denominator_id": "DEN-DJ-REGIONS",
+      "entity_types": [
+        "dj_region"
+      ],
+      "layer": "dj_region",
+      "license": "Official Djibouti public material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "collectivité"
+      ],
+      "notes": "Separate topology scope.",
+      "scope_status": "closed",
+      "snapshot_date": "2024-05-20",
+      "source_ids": [
+        "SRC-DJ-PRESIDENCY-REGIONS-2026"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "République de Djibouti",
+      "coverage_record_id": "COV-DJ-SPECIAL-CITY",
+      "denominator": 1,
+      "denominator_id": "DEN-DJ-SPECIAL-CITY",
+      "entity_types": [
+        "djibouti_city"
+      ],
+      "layer": "djibouti_city",
+      "license": "Official Djibouti public material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "collectivité"
+      ],
+      "notes": "Separate topology scope.",
+      "scope_status": "closed",
+      "snapshot_date": "2024-05-20",
+      "source_ids": [
+        "SRC-DJ-LAW-122-CITY-2005"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "République de Djibouti",
+      "coverage_record_id": "COV-DJ-CITY-COMMUNES",
+      "denominator": 3,
+      "denominator_id": "DEN-DJ-CITY-COMMUNES",
+      "entity_types": [
+        "dj_commune"
+      ],
+      "layer": "dj_commune",
+      "license": "Official Djibouti public material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "collectivité"
+      ],
+      "notes": "Separate topology scope.",
+      "scope_status": "closed",
+      "snapshot_date": "2024-05-20",
+      "source_ids": [
+        "SRC-DJ-LAW-122-CITY-2005"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "République de Djibouti",
+      "coverage_record_id": "COV-DJ-SUBPREFECTURES",
+      "denominator": 13,
+      "denominator_id": "DEN-DJ-SUBPREFECTURES",
+      "entity_types": [
+        "dj_subprefecture"
+      ],
+      "layer": "dj_subprefecture",
+      "license": "Official Djibouti public material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "collectivité"
+      ],
+      "notes": "Separate topology scope.",
+      "scope_status": "closed",
+      "snapshot_date": "2024-05-20",
+      "source_ids": [
+        "SRC-DJ-DECENTRALISATION-ROADMAP-2020"
+      ],
+      "special_cases": []
+    }
+  ],
+  "schema_version": "2.0.0",
+  "snapshot": {
+    "as_of": "2026-08-16",
+    "snapshot_id": "SNP-DJ-PRODUCTION-20260816",
+    "status": "verified"
+  },
+  "status": "pilot_migrated"
+}

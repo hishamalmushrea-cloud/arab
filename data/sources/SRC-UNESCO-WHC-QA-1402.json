@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:64c9c816c6aafe333baa63cea034e0c35d38ac90f083319b0b896eb4c8e15713",
+  "country_codes": [
+    "QA"
+  ],
+  "id": "SRC-UNESCO-WHC-QA-1402",
+  "language": "ar-en",
+  "license": "CC BY-SA 3.0 IGO for property descriptions",
+  "locator": "property 1402; cultural; inscribed 2013",
+  "notes": "Checksum binds exact property selection. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "UNESCO World Heritage Centre",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-16",
+  "schema_version": "2.0.0",
+  "source_type": "institutional_page",
+  "title": "Al Zubarah Archaeological Site",
+  "url": "https://whc.unesco.org/en/list/1402"
+}

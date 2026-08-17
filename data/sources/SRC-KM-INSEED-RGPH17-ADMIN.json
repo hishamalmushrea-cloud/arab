@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:94421611d2de1fce249c5c6ac3e3d65cafac63b8f7ba782081a49b75a695ebde",
+  "country_codes": [
+    "KM"
+  ],
+  "id": "SRC-KM-INSEED-RGPH17-ADMIN",
+  "language": "fr",
+  "license": "Official Comoros public/statistical material; factual extraction with attribution; reuse terms not stated",
+  "locator": "population by island, prefecture and 54 communes",
+  "notes": "Record-level census cross-check. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "INSEED Comores",
+  "quality_tier": "A",
+  "retrieved_at": "2026-08-17",
+  "schema_version": "2.0.0",
+  "source_type": "census",
+  "title": "INSEED administrative population table — RGPH 2017",
+  "url": "https://www.inseed-comores.org/backend/uploads/Rapport_cartographie_sur_la_vulnerabilite_au_COVID_19_UNION_COMORES_cea7f383b1.pdf"
+}

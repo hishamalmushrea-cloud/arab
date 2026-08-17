@@ -1,0 +1,12 @@
+{
+  "country_code": "LY",
+  "records": [
+    {
+      "bytes": 11348,
+      "path": "data/imports/libya/fixtures/current_municipalities_2026.json",
+      "sha256": "2b3660ee62cfccd70927d5eea2ad490d67979f8b533b03b9423b6c0e73fb9a9c"
+    }
+  ],
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-17"
+}

@@ -1,0 +1,580 @@
+{
+  "country_code": "LY",
+  "denominators": {
+    "current_municipalities": 141,
+    "historical_shabiyat_2006": 22,
+    "mahallas": null
+  },
+  "municipalities": [
+    {
+      "catalog_position": 1,
+      "name_ar": "أبوسليم"
+    },
+    {
+      "catalog_position": 2,
+      "name_ar": "أوباري"
+    },
+    {
+      "catalog_position": 3,
+      "name_ar": "أوجلة"
+    },
+    {
+      "catalog_position": 4,
+      "name_ar": "اجخرة"
+    },
+    {
+      "catalog_position": 5,
+      "name_ar": "إجدابيا"
+    },
+    {
+      "catalog_position": 6,
+      "name_ar": "إدري الشاطئ"
+    },
+    {
+      "catalog_position": 7,
+      "name_ar": "اسبيعة"
+    },
+    {
+      "catalog_position": 8,
+      "name_ar": "الأبرق"
+    },
+    {
+      "catalog_position": 9,
+      "name_ar": "الأبيار"
+    },
+    {
+      "catalog_position": 10,
+      "name_ar": "الأصابعة"
+    },
+    {
+      "catalog_position": 11,
+      "name_ar": "البردي"
+    },
+    {
+      "catalog_position": 12,
+      "name_ar": "البريقة"
+    },
+    {
+      "catalog_position": 13,
+      "name_ar": "البيضاء"
+    },
+    {
+      "catalog_position": 14,
+      "name_ar": "الجفرة"
+    },
+    {
+      "catalog_position": 15,
+      "name_ar": "الجميل"
+    },
+    {
+      "catalog_position": 16,
+      "name_ar": "الحرابة"
+    },
+    {
+      "catalog_position": 17,
+      "name_ar": "الحوامد"
+    },
+    {
+      "catalog_position": 18,
+      "name_ar": "الخمس"
+    },
+    {
+      "catalog_position": 19,
+      "name_ar": "الرجبان"
+    },
+    {
+      "catalog_position": 20,
+      "name_ar": "الرحيبات"
+    },
+    {
+      "catalog_position": 21,
+      "name_ar": "الرياينة"
+    },
+    {
+      "catalog_position": 22,
+      "name_ar": "الزاوية"
+    },
+    {
+      "catalog_position": 23,
+      "name_ar": "الزاوية الجنوب"
+    },
+    {
+      "catalog_position": 24,
+      "name_ar": "الزاوية الغرب"
+    },
+    {
+      "catalog_position": 25,
+      "name_ar": "الزنتان"
+    },
+    {
+      "catalog_position": 26,
+      "name_ar": "الزهراء"
+    },
+    {
+      "catalog_position": 27,
+      "name_ar": "الزويتينة سلطان"
+    },
+    {
+      "catalog_position": 28,
+      "name_ar": "السائح"
+    },
+    {
+      "catalog_position": 29,
+      "name_ar": "الشرقية"
+    },
+    {
+      "catalog_position": 30,
+      "name_ar": "الشقيقة"
+    },
+    {
+      "catalog_position": 31,
+      "name_ar": "الشويرف"
+    },
+    {
+      "catalog_position": 32,
+      "name_ar": "العامرية"
+    },
+    {
+      "catalog_position": 33,
+      "name_ar": "العجيلات"
+    },
+    {
+      "catalog_position": 34,
+      "name_ar": "العربان"
+    },
+    {
+      "catalog_position": 35,
+      "name_ar": "العزيزية"
+    },
+    {
+      "catalog_position": 36,
+      "name_ar": "العواته"
+    },
+    {
+      "catalog_position": 37,
+      "name_ar": "الغريفة"
+    },
+    {
+      "catalog_position": 38,
+      "name_ar": "القبة"
+    },
+    {
+      "catalog_position": 39,
+      "name_ar": "القرة بوللي"
+    },
+    {
+      "catalog_position": 40,
+      "name_ar": "القرضة الشاطئ"
+    },
+    {
+      "catalog_position": 41,
+      "name_ar": "القطرون"
+    },
+    {
+      "catalog_position": 42,
+      "name_ar": "القلعة"
+    },
+    {
+      "catalog_position": 43,
+      "name_ar": "القواليش"
+    },
+    {
+      "catalog_position": 44,
+      "name_ar": "القيقب"
+    },
+    {
+      "catalog_position": 45,
+      "name_ar": "الكفرة"
+    },
+    {
+      "catalog_position": 46,
+      "name_ar": "الماية"
+    },
+    {
+      "catalog_position": 47,
+      "name_ar": "المرج"
+    },
+    {
+      "catalog_position": 48,
+      "name_ar": "العوينة"
+    },
+    {
+      "catalog_position": 49,
+      "name_ar": "المعمورة"
+    },
+    {
+      "catalog_position": 50,
+      "name_ar": "المليطانية"
+    },
+    {
+      "catalog_position": 51,
+      "name_ar": "المنشية الجميل"
+    },
+    {
+      "catalog_position": 52,
+      "name_ar": "الناصرية"
+    },
+    {
+      "catalog_position": 53,
+      "name_ar": "امساعد"
+    },
+    {
+      "catalog_position": 54,
+      "name_ar": "انتلات البيضان"
+    },
+    {
+      "catalog_position": 55,
+      "name_ar": "بئر الأشهب"
+    },
+    {
+      "catalog_position": 56,
+      "name_ar": "باطن الجبل"
+    },
+    {
+      "catalog_position": 57,
+      "name_ar": "براك الشاطئ"
+    },
+    {
+      "catalog_position": 58,
+      "name_ar": "بنت بية"
+    },
+    {
+      "catalog_position": 59,
+      "name_ar": "بنغازي"
+    },
+    {
+      "catalog_position": 60,
+      "name_ar": "بني وليد"
+    },
+    {
+      "catalog_position": 61,
+      "name_ar": "تاجوراء"
+    },
+    {
+      "catalog_position": 62,
+      "name_ar": "تازربو"
+    },
+    {
+      "catalog_position": 63,
+      "name_ar": "تاورغاء"
+    },
+    {
+      "catalog_position": 64,
+      "name_ar": "تراغن"
+    },
+    {
+      "catalog_position": 65,
+      "name_ar": "ترهونة"
+    },
+    {
+      "catalog_position": 66,
+      "name_ar": "توكرة"
+    },
+    {
+      "catalog_position": 67,
+      "name_ar": "جادو"
+    },
+    {
+      "catalog_position": 68,
+      "name_ar": "جالو"
+    },
+    {
+      "catalog_position": 69,
+      "name_ar": "جردس العبيد"
+    },
+    {
+      "catalog_position": 70,
+      "name_ar": "جنزور"
+    },
+    {
+      "catalog_position": 71,
+      "name_ar": "جنوب الجبل الأخضر"
+    },
+    {
+      "catalog_position": 72,
+      "name_ar": "حي الأندلس"
+    },
+    {
+      "catalog_position": 73,
+      "name_ar": "خليج السدرة"
+    },
+    {
+      "catalog_position": 74,
+      "name_ar": "درج"
+    },
+    {
+      "catalog_position": 75,
+      "name_ar": "درنة"
+    },
+    {
+      "catalog_position": 76,
+      "name_ar": "ربيانة"
+    },
+    {
+      "catalog_position": 77,
+      "name_ar": "رقدالين"
+    },
+    {
+      "catalog_position": 78,
+      "name_ar": "زلطن"
+    },
+    {
+      "catalog_position": 79,
+      "name_ar": "زليتن"
+    },
+    {
+      "catalog_position": 80,
+      "name_ar": "زمزم"
+    },
+    {
+      "catalog_position": 81,
+      "name_ar": "زوارة"
+    },
+    {
+      "catalog_position": 82,
+      "name_ar": "ساحل الجبل"
+    },
+    {
+      "catalog_position": 83,
+      "name_ar": "سبها"
+    },
+    {
+      "catalog_position": 84,
+      "name_ar": "سرت"
+    },
+    {
+      "catalog_position": 85,
+      "name_ar": "سلوق"
+    },
+    {
+      "catalog_position": 86,
+      "name_ar": "سواني بن أدم"
+    },
+    {
+      "catalog_position": 87,
+      "name_ar": "سوسة"
+    },
+    {
+      "catalog_position": 88,
+      "name_ar": "سوق الجمعة"
+    },
+    {
+      "catalog_position": 89,
+      "name_ar": "سوق الخميس"
+    },
+    {
+      "catalog_position": 90,
+      "name_ar": "شحات"
+    },
+    {
+      "catalog_position": 91,
+      "name_ar": "صبراتة"
+    },
+    {
+      "catalog_position": 92,
+      "name_ar": "صرمان"
+    },
+    {
+      "catalog_position": 93,
+      "name_ar": "طبرق"
+    },
+    {
+      "catalog_position": 94,
+      "name_ar": "طرابلس المركز"
+    },
+    {
+      "catalog_position": 95,
+      "name_ar": "ظاهر الجبل"
+    },
+    {
+      "catalog_position": 96,
+      "name_ar": "عمر المختار"
+    },
+    {
+      "catalog_position": 97,
+      "name_ar": "عين زارة"
+    },
+    {
+      "catalog_position": 98,
+      "name_ar": "عين غزالة"
+    },
+    {
+      "catalog_position": 99,
+      "name_ar": "غات"
+    },
+    {
+      "catalog_position": 100,
+      "name_ar": "غدامس"
+    },
+    {
+      "catalog_position": 101,
+      "name_ar": "غريان"
+    },
+    {
+      "catalog_position": 102,
+      "name_ar": "قصر بن غشير"
+    },
+    {
+      "catalog_position": 103,
+      "name_ar": "قصر خيار"
+    },
+    {
+      "catalog_position": 104,
+      "name_ar": "قمينس"
+    },
+    {
+      "catalog_position": 105,
+      "name_ar": "كاباو"
+    },
+    {
+      "catalog_position": 106,
+      "name_ar": "ككلة"
+    },
+    {
+      "catalog_position": 107,
+      "name_ar": "مرادة"
+    },
+    {
+      "catalog_position": 108,
+      "name_ar": "مرزق"
+    },
+    {
+      "catalog_position": 109,
+      "name_ar": "مرسى دفنة"
+    },
+    {
+      "catalog_position": 110,
+      "name_ar": "مزدة"
+    },
+    {
+      "catalog_position": 111,
+      "name_ar": "مسلاتة"
+    },
+    {
+      "catalog_position": 112,
+      "name_ar": "مصراتة"
+    },
+    {
+      "catalog_position": 113,
+      "name_ar": "نالوت"
+    },
+    {
+      "catalog_position": 114,
+      "name_ar": "نسمة"
+    },
+    {
+      "catalog_position": 115,
+      "name_ar": "هراوة"
+    },
+    {
+      "catalog_position": 116,
+      "name_ar": "وادي البوانيس"
+    },
+    {
+      "catalog_position": 117,
+      "name_ar": "وادي عتبة"
+    },
+    {
+      "catalog_position": 118,
+      "name_ar": "وازن"
+    },
+    {
+      "catalog_position": 119,
+      "name_ar": "وردامة"
+    },
+    {
+      "catalog_position": 120,
+      "name_ar": "يفرن"
+    },
+    {
+      "catalog_position": 121,
+      "name_ar": "أم الرزم"
+    },
+    {
+      "catalog_position": 122,
+      "name_ar": "الجليدة"
+    },
+    {
+      "catalog_position": 123,
+      "name_ar": "الجديدة"
+    },
+    {
+      "catalog_position": 125,
+      "name_ar": "مدور الزيتون"
+    },
+    {
+      "catalog_position": 126,
+      "name_ar": "العوينات"
+    },
+    {
+      "catalog_position": 127,
+      "name_ar": "تجرهي"
+    },
+    {
+      "catalog_position": 128,
+      "name_ar": "المردوم"
+    },
+    {
+      "catalog_position": 129,
+      "name_ar": "تنيناي"
+    },
+    {
+      "catalog_position": 130,
+      "name_ar": "القريات"
+    },
+    {
+      "catalog_position": 131,
+      "name_ar": "زلة"
+    },
+    {
+      "catalog_position": 132,
+      "name_ar": "برقن"
+    },
+    {
+      "catalog_position": 133,
+      "name_ar": "اوال"
+    },
+    {
+      "catalog_position": 134,
+      "name_ar": "تهالة"
+    },
+    {
+      "catalog_position": 135,
+      "name_ar": "بركت"
+    },
+    {
+      "catalog_position": 136,
+      "name_ar": "سيناون"
+    },
+    {
+      "catalog_position": 137,
+      "name_ar": "زويلة"
+    },
+    {
+      "catalog_position": 138,
+      "name_ar": "راس الطبل"
+    },
+    {
+      "catalog_position": 139,
+      "name_ar": "المنطقة الادارية الشعبة"
+    },
+    {
+      "catalog_position": 141,
+      "name_ar": "جرمة"
+    },
+    {
+      "catalog_position": 142,
+      "name_ar": "قرارة"
+    },
+    {
+      "catalog_position": 143,
+      "name_ar": "الرقيبة"
+    }
+  ],
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-17",
+  "sources": {
+    "bsc": "https://bsc.ly/wp-content/uploads/2026/01/%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8-%D8%A7%D9%84%D8%A7%D8%AD%D8%B5%D8%A7%D8%A6%D9%8A-2023.pdf",
+    "molg": "https://www.lgm.gov.ly/municipalities"
+  }
+}

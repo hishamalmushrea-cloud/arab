@@ -1,0 +1,17 @@
+{
+  "country_code": "PS",
+  "critical_p1": 0,
+  "errors": [],
+  "metrics": {
+    "aliases": 16,
+    "claims": 24,
+    "coverage": 5,
+    "denominators": 5,
+    "entities": 23,
+    "relationships": 22,
+    "sources": 4
+  },
+  "p0": 0,
+  "schema_version": "2.0.0",
+  "status": "PASS"
+}

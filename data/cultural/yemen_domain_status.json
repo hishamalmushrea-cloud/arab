@@ -1,0 +1,14 @@
+{
+  "country_code": "YE",
+  "domains": {
+    "dialect": {
+      "claims": 0,
+      "status": "not_documented_in_cycle"
+    },
+    "world_heritage": {
+      "status": "not_imported_in_full_pilot_stage1"
+    }
+  },
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-17"
+}

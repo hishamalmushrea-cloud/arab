@@ -1,0 +1,212 @@
+{
+  "caveats": [
+    "Municipality is not city, zone, block, district, or fareej.",
+    "Historical ten-municipality topology is not current.",
+    "No lower or broad cultural denominator asserted."
+  ],
+  "country": {
+    "entity_id": "ENT-QA-COUNTRY",
+    "iso2": "QA",
+    "name_ar": "قطر"
+  },
+  "coverage_record_ids": [
+    "COV-QA-COUNTRY-SCOPE",
+    "COV-QA-MUNICIPALITIES-2020",
+    "COV-QA-WHC-20260816"
+  ],
+  "hierarchy": [
+    {
+      "allowed_parent_types": [],
+      "caveat": "Country scope only; not a local coverage assertion.",
+      "entity_type": "country",
+      "level": 0,
+      "local_names": [
+        "دولة"
+      ],
+      "source_ids": [
+        "SRC-ISO-3166-1-2020"
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "disputed",
+        "de_facto",
+        "claimed"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "country"
+      ],
+      "authority_name": "Planning and Statistics Authority / Ministry of Municipality",
+      "caveat": "البلدية والمنطقة المرقمة والفريج ليست مترادفات.",
+      "coverage_record_id": "COV-QA-MUNICIPALITIES-2020",
+      "denominator": 8,
+      "denominator_id": "DEN-QA-MUNICIPALITIES-2020",
+      "entity_type": "qa_municipality",
+      "level": 1,
+      "license": "Qatar government statistical publication; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "بلدية"
+      ],
+      "notes": "Eight current municipalities.",
+      "scope_status": "closed",
+      "snapshot_date": "2020-12-31",
+      "source_ids": [
+        "SRC-QA-PSA-CENSUS-MUNICIPALITIES-2020",
+        "SRC-QA-QNMP-EIGHT-MUNICIPALITIES-2026"
+      ],
+      "special_cases": [
+        "Spelling variants are aliases."
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "allowed_parent_types": [
+        "qa_municipality"
+      ],
+      "authority_name": null,
+      "caveat": "البلدية والمنطقة المرقمة والفريج ليست مترادفات.",
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
+      "entity_type": "qa_zone",
+      "level": 2,
+      "license": null,
+      "local_names": [
+        "منطقة مرقمة"
+      ],
+      "notes": "No accepted current denominator/topology.",
+      "scope_status": "unavailable",
+      "snapshot_date": null,
+      "source_ids": [],
+      "special_cases": [
+        "Do not infer from historical topology."
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "pending"
+    },
+    {
+      "allowed_parent_types": [
+        "qa_zone"
+      ],
+      "authority_name": null,
+      "caveat": "البلدية والمنطقة المرقمة والفريج ليست مترادفات.",
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
+      "entity_type": "qa_district",
+      "level": 3,
+      "license": null,
+      "local_names": [
+        "حي/فريج"
+      ],
+      "notes": "No accepted current denominator/topology.",
+      "scope_status": "unavailable",
+      "snapshot_date": null,
+      "source_ids": [],
+      "special_cases": [
+        "Do not infer from historical topology."
+      ],
+      "temporal_statuses": [
+        "current",
+        "historical",
+        "destroyed",
+        "displaced",
+        "disputed",
+        "de_facto",
+        "claimed",
+        "proposed",
+        "transitional",
+        "uncertain"
+      ],
+      "verification_status": "pending"
+    }
+  ],
+  "next_action": "Maintain eight municipalities; add zones only with current official topology/denominator.",
+  "official_authority": {
+    "missing_reason": null,
+    "name": "Planning and Statistics Authority / Ministry of Municipality",
+    "source_ids": [
+      "SRC-QA-PSA-CENSUS-MUNICIPALITIES-2020",
+      "SRC-QA-QNMP-EIGHT-MUNICIPALITIES-2026"
+    ],
+    "verification_status": "verified"
+  },
+  "pilot_layers": [
+    {
+      "authority_name": "PSA / Ministry of Municipality",
+      "coverage_record_id": "COV-QA-MUNICIPALITIES-2020",
+      "denominator": 8,
+      "denominator_id": "DEN-QA-MUNICIPALITIES-2020",
+      "entity_types": [
+        "qa_municipality"
+      ],
+      "layer": "qa_municipality",
+      "license": "Qatar government statistical publication; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "بلدية"
+      ],
+      "notes": "Eight municipalities.",
+      "scope_status": "closed",
+      "snapshot_date": "2020-12-31",
+      "source_ids": [
+        "SRC-QA-PSA-CENSUS-MUNICIPALITIES-2020",
+        "SRC-QA-QNMP-EIGHT-MUNICIPALITIES-2026"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "UNESCO",
+      "coverage_record_id": "COV-QA-WHC-20260816",
+      "denominator": 1,
+      "denominator_id": "DEN-QA-WHC-20260816",
+      "entity_types": [
+        "archaeological_site"
+      ],
+      "layer": "world_heritage_property",
+      "license": "CC BY-SA 3.0 IGO for property descriptions",
+      "local_names": [
+        "موقع تراث عالمي"
+      ],
+      "notes": "Al Zubarah only.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-16",
+      "source_ids": [
+        "SRC-UNESCO-WHC-QA-1402"
+      ],
+      "special_cases": []
+    }
+  ],
+  "schema_version": "2.0.0",
+  "snapshot": {
+    "as_of": "2026-08-16",
+    "snapshot_id": "SNP-QA-PRODUCTION-20260816",
+    "status": "verified"
+  },
+  "status": "pilot_migrated"
+}

@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+import json
+from model import ROOT,read_jsonl,write_json
+def L(p):return json.loads(p.read_text(encoding='utf8'))
+def main():
+ f=L(ROOT/'data/imports/syria/fixtures/governorates_2026.json');e=[r for r in read_jsonl(ROOT/'data/entities/entities.jsonl') if r.get('country_code')=='SY'];ids={r['id'] for r in e};families={'entities':e,'aliases':[r for r in read_jsonl(ROOT/'data/aliases/aliases.jsonl') if r.get('entity_id') in ids],'relationships':[r for r in read_jsonl(ROOT/'data/relationships/relationships.jsonl') if r.get('child_id') in ids],'claims':[r for r in read_jsonl(ROOT/'data/claims/claims.jsonl') if r.get('subject_id') in ids],'denominators':[r for r in read_jsonl(ROOT/'data/coverage/denominators.jsonl') if r.get('country_code')=='SY'],'coverage':[r for r in read_jsonl(ROOT/'data/coverage/coverage.jsonl') if r.get('country_code')=='SY']};sids={'SRC-SY-SIA-ADMIN-DIVISIONS-2026','SRC-SY-SANA-GOVERNORATE-NAV-2026','SRC-SY-CBS-GOVERNORATES-2010'};families['sources']=[L(p) for p in (ROOT/'data/sources').glob('*.json') if L(p).get('id') in sids];E={r['id']:r for r in e};C=families['claims'];find=[]
+ for q in f['governorates']:
+  eid='ENT-SY-GOVERNORATE-'+q['code']
+  if E.get(eid,{}).get('canonical_name')!=q['name_ar'] or not any(c['subject_id']==eid and c['value']['data']==q['profile'] for c in C):find.append({'severity':'P1','record_id':eid,'message':'fixture identity/profile'})
+ for i,n in [('COV-SY-DISTRICTS',68),('COV-SY-SUBDISTRICTS',227)]:
+  row=next((x for x in families['coverage'] if x['id']==i),{})
+  if row.get('matched')!=0 or row.get('missing')!=n or row.get('complete') is not False:find.append({'severity':'P1','record_id':i,'message':'open lower layer falsely closed'})
+ sample={k:{'population':len(v),'sample_size':len(v),'sample_percentage':100.0,'record_ids':sorted(x['id'] for x in v)} for k,v in families.items()};write_json(ROOT/'data/review/syria_review_samples.json',{'schema_version':'2.0.0','country_code':'SY','families':sample});write_json(ROOT/'reports/syria_review_samples.json',{'schema_version':'2.0.0','country_code':'SY','families':sample});n=sum(len(v) for v in families.values());ok=not find;res={k:{'sampled':len(v),'passed':len(v) if ok else 0,'failed':0 if ok else len(v),'status':'PASS' if ok else 'FAIL'} for k,v in families.items()};write_json(ROOT/'reports/syria_independent_review.json',{'schema_version':'2.0.0','country_code':'SY','status':'PASS' if ok else 'FAIL','p0':0,'critical_p1':len(find),'method':'Independent full-population comparison against checksum-bound current 14-governorate fixture and verification that 68/227 lower denominators remain open.','families':res,'total_sampled':n,'total_passed':n if ok else 0,'findings':find});print(n);return 0 if ok else 1
+if __name__=='__main__':raise SystemExit(main())

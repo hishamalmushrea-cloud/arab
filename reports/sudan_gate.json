@@ -1,0 +1,117 @@
+{
+  "checks": {
+    "artifact_expansion_lessons": {
+      "detail": "reports/EXPANSION_LESSONS.md exists",
+      "status": "pass"
+    },
+    "artifact_lessons_learned_sudan": {
+      "detail": "reports/LESSONS_LEARNED_SUDAN.md exists",
+      "status": "pass"
+    },
+    "artifact_next_country_decision": {
+      "detail": "reports/NEXT_COUNTRY_DECISION.md exists",
+      "status": "pass"
+    },
+    "artifact_sudan_production_closeout": {
+      "detail": "reports/SUDAN_PRODUCTION_CLOSEOUT.md exists",
+      "status": "pass"
+    },
+    "general_validation": {
+      "command": "python3 scripts/validate.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=16932\n[PASS] ids: global_ids=16932, duplicate_ids=0\n[PASS] entity_types: allowed_types=103, active_types=61\n[PASS] sources: atomic_files=151, sources=151, references=19644\n[PASS] parents: administrative_relationships=5220\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2245, sourced=2245\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=112, coverage_records=112, complete_layers=95\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=951, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
+    },
+    "generated_freshness": {
+      "command": "python3 scripts/generate.py --check",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "generated output is current (64 files)"
+    },
+    "non_sudan_preservation": {
+      "detail": "canonical non-Sudan SHA-256 unchanged=3467da086aa631acda9e042862211e3048d9359638a5c4deb1c1da2724e7cefc",
+      "status": "pass"
+    },
+    "sudan_clean_worktree": {
+      "detail": "git worktree clean=True",
+      "status": "pass"
+    },
+    "sudan_findings_closed": {
+      "detail": "status=PASS, P0=0, critical P1=0",
+      "status": "pass"
+    },
+    "sudan_import_idempotence": {
+      "detail": "all 10 managed hashes unchanged=True",
+      "status": "pass"
+    },
+    "sudan_import_refresh": {
+      "command": "python3 scripts/import_sudan_production.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "{\"entities\": 18, \"relationships\": 18, \"claims\": 19, \"sources\": 3, \"denominators\": 3, \"coverage\": 3}"
+    },
+    "sudan_independent_review": {
+      "command": "python3 scripts/review_sudan.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "68"
+    },
+    "sudan_negative_tests": {
+      "command": "python3 scripts/test_sudan_negative.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": ""
+    },
+    "sudan_required_mutations": {
+      "detail": "detected=9/9",
+      "status": "pass"
+    },
+    "sudan_review_idempotence": {
+      "detail": "independent review unchanged=True",
+      "status": "pass"
+    },
+    "sudan_review_sample_idempotence": {
+      "detail": "full-population sample unchanged=True",
+      "status": "pass"
+    },
+    "sudan_review_sample_refresh": {
+      "command": "python3 scripts/build_sudan_review_samples.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "68"
+    },
+    "sudan_review_threshold": {
+      "detail": "full review passed=68/68",
+      "status": "pass"
+    },
+    "sudan_semantic_validation": {
+      "command": "python3 scripts/validate_sudan.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "{'entities': 19, 'aliases': 1, 'relationships': 18, 'claims': 19, 'sources': 3, 'denominators': 4, 'coverage': 4}"
+    },
+    "sudan_source_idempotence": {
+      "detail": "atomic sources=3/3, unchanged=True",
+      "status": "pass"
+    },
+    "sudan_source_refresh": {
+      "command": "python3 scripts/build_sudan_sources.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "{\"entities\": 18, \"relationships\": 18, \"claims\": 19, \"sources\": 3, \"denominators\": 3, \"coverage\": 3}"
+    }
+  },
+  "country_code": "SD",
+  "errors": [],
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-17",
+  "status": "pass"
+}

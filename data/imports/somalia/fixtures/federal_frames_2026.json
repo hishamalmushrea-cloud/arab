@@ -1,0 +1,73 @@
+{
+  "country_code": "SO",
+  "denominators": {
+    "banadir_regional_administration": 1,
+    "districts": null,
+    "mop_federal_member_states": 7,
+    "north_east_full_member": 1,
+    "regions": null,
+    "somaliland_fgs_narrative": 1,
+    "standard_pre_northeast_fms": 5
+  },
+  "federal_member_states": [
+    {
+      "code": "01",
+      "name": "Puntland State of Somalia",
+      "profile": "standard_fms",
+      "valid_from": null
+    },
+    {
+      "code": "02",
+      "name": "Hirshabelle State of Somalia",
+      "profile": "standard_fms",
+      "valid_from": null
+    },
+    {
+      "code": "03",
+      "name": "Jubaland State of Somalia",
+      "profile": "standard_fms",
+      "valid_from": null
+    },
+    {
+      "code": "04",
+      "name": "SouthWest State of Somalia",
+      "profile": "standard_fms",
+      "valid_from": null
+    },
+    {
+      "code": "05",
+      "name": "Galmudug State of Somalia",
+      "profile": "standard_fms",
+      "valid_from": null
+    },
+    {
+      "code": "06",
+      "name": "Somaliland",
+      "profile": "fgs_federal_planning_narrative",
+      "valid_from": null
+    },
+    {
+      "code": "07",
+      "name": "North East State of Somalia",
+      "profile": "new_fms",
+      "valid_from": "2026-01-17"
+    }
+  ],
+  "method": "Authority-specific FGS planning frame. Ministry of Planning enumerates seven FMS plus Banadir; Interior Ministry and SONNA establish the North East transition; Senate supports the distinct FGS Somaliland representation narrative. No claim/control boundaries are inferred.",
+  "parallel_units": [
+    {
+      "code": "BRA",
+      "kind": "regional_administration",
+      "name": "Banadir Regional Administration"
+    }
+  ],
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-17",
+  "sources": {
+    "moifar_ne": "https://moifar.gov.so/en/2026/01/17/federal-leadership-attends-inauguration-ceremony-of-the-president-of-the-north-eastern-state-of-somalia/",
+    "mop": "https://mop.gov.so/federal-member-states/",
+    "older_five": "https://mpwr.gov.so/wp-content/uploads/2025/04/Draft-ESIA-April-15-2025-Beledwyne-Draft-II-AfDB-Reviewed-March-2025-Bank-FINAL-REVIEW-14042025.pdf",
+    "senate": "https://senate.gov.so/senate-constituency/?lang=en",
+    "sonna_ne": "https://sonna.so/en/president-hassan-sheikh-mohamud-declares-north-east-state-a-full-federal-member-state/"
+  }
+}
