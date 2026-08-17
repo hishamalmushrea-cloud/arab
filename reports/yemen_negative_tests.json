@@ -1,6 +1,6 @@
 {
   "country_code": "YE",
-  "detected": 21,
+  "detected": 24,
   "mutations": [
     {
       "detected": true,
@@ -94,6 +94,21 @@
     },
     {
       "detected": true,
+      "expected_code": "YE_CULTURE_DRESS",
+      "mutation": "YE_DRESS_PUBLISHED_FROM_WEAK_SOURCE"
+    },
+    {
+      "detected": true,
+      "expected_code": "YE_CULTURE_DRESS",
+      "mutation": "YE_DRESS_CLASSIFICATION_STRIPPED"
+    },
+    {
+      "detected": true,
+      "expected_code": "YE_CULTURE_CRAFTS_MARKETS",
+      "mutation": "YE_MARKET_PROMOTED_TO_VERIFIED"
+    },
+    {
+      "detected": true,
       "expected_code": "YE_PARENT",
       "mutation": "YE_WRONG_PARENT"
     },
@@ -108,7 +123,7 @@
       "mutation": "YE_EFFECTIVE_CLAUSE_FABRICATED"
     }
   ],
-  "required": 21,
+  "required": 24,
   "schema_version": "2.0.0",
   "status": "PASS"
 }

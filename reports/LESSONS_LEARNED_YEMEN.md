@@ -28,3 +28,10 @@
 - Cross-border dishes (المندي) must carry `shared` classification; exclusivity is a gate-detected mutation, implementing the no-exclusive-ownership rule mechanically.
 - Dialect lexicon samples embed glosses in the claim value now; the upgrade path to `lexical_*` predicates requires field study dates and place entities.
 - Culture anchors to place entities at the governorate level first; city/village-level anchoring follows when lower place entities exist.
+
+## Depth cycle 4 — dress, crafts, markets (2026-08-17)
+
+- Cultural layers compound: market claims anchor to lane/district entities from earlier cycles, so each layer raises the value of the previous ones.
+- District-level dress names (Taiz rural costumes) show the local-depth principle: named variants beat generic national descriptions.
+- Estimates (~100 costumes) stay inside claim notes as bounded text; they never become denominators without an atomic source.
+- Classification stripping is now a detected mutation: an unclassified cultural claim is as dangerous as an unverified published one.

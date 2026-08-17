@@ -3,7 +3,7 @@ import json
 from model import ROOT,read_jsonl,write_json
 def L(p): return json.loads(p.read_text(encoding='utf8'))
 def data():
- e=[r for r in read_jsonl(ROOT/'data/entities/entities.jsonl') if r.get('country_code')=='YE']; ids={r['id'] for r in e}; sids={'SRC-YE-CSO-ADMIN-DEFINITION-LEGACY','SRC-YE-NIC-GOVERNORATES-LEGACY','SRC-YE-LAW-31-SOCOTRA-REPORT-2013','SRC-YE-NIC-DISTRICT-CATALOGUE-MIRROR','SRC-YE-CENSUS-2004-LEGACY-FRAME','SRC-YE-NIC-AMANAT-CENSUS-2004','SRC-YE-LANE-PAGES-MIRROR','SRC-YE-CUISINE-PAGES-MIRROR','SRC-YE-DIALECT-PAGES-MIRROR'}
+ e=[r for r in read_jsonl(ROOT/'data/entities/entities.jsonl') if r.get('country_code')=='YE']; ids={r['id'] for r in e}; sids={'SRC-YE-CSO-ADMIN-DEFINITION-LEGACY','SRC-YE-NIC-GOVERNORATES-LEGACY','SRC-YE-LAW-31-SOCOTRA-REPORT-2013','SRC-YE-NIC-DISTRICT-CATALOGUE-MIRROR','SRC-YE-CENSUS-2004-LEGACY-FRAME','SRC-YE-NIC-AMANAT-CENSUS-2004','SRC-YE-LANE-PAGES-MIRROR','SRC-YE-CUISINE-PAGES-MIRROR','SRC-YE-DIALECT-PAGES-MIRROR','SRC-YE-DRESS-PAGES-MIRROR','SRC-YE-CRAFTS-MARKETS-MIRROR'}
  return {'entities':e,'aliases':[r for r in read_jsonl(ROOT/'data/aliases/aliases.jsonl') if r.get('entity_id') in ids],'relationships':[r for r in read_jsonl(ROOT/'data/relationships/relationships.jsonl') if r.get('child_id') in ids],'claims':[r for r in read_jsonl(ROOT/'data/claims/claims.jsonl') if r.get('subject_id') in ids],'sources':[L(p) for p in (ROOT/'data/sources').glob('*.json') if L(p).get('id') in sids],'denominators':[r for r in read_jsonl(ROOT/'data/coverage/denominators.jsonl') if r.get('country_code')=='YE'],'coverage':[r for r in read_jsonl(ROOT/'data/coverage/coverage.jsonl') if r.get('country_code')=='YE'],'manifest':L(ROOT/'manifests/YE.yml')}
 def validate(d):
  f=L(ROOT/'data/imports/yemen/fixtures/first_level_2026.json'); E={r['id']:r for r in d['entities']}; C=d['claims']; err=[]
@@ -32,6 +32,9 @@ def validate(d):
  if not mandi or mandi.get('classification')!='shared': x('YE_SHARED_NOT_EXCLUSIVE','claims','cross-border dishes must stay classified shared, never exclusively national')
  if len(dial)!=5 or any(c.get('verification_status')!='local_reported' or c.get('published') for c in dial): x('YE_CULTURE_DIALECTS','claims','5 unpublished local_reported dialect profiles')
  if len(langs)!=2 or any(c.get('verification_status')!='probable' or c.get('published') for c in langs): x('YE_CULTURE_LANGUAGES','claims','2 unpublished probable language-presence claims')
+ dress=[c for c in C if c.get('predicate')=='clothing_item']; crafts=[c for c in C if c.get('predicate')=='craft_custom']; markets=[c for c in C if c.get('predicate')=='market_presence']
+ if len(dress)!=7 or any(c.get('verification_status')!='local_reported' or c.get('published') or not c.get('classification') for c in dress): x('YE_CULTURE_DRESS','claims','7 unpublished local_reported dress claims with explicit classification')
+ if len(crafts)!=4 or len(markets)!=3 or any(c.get('verification_status')!='local_reported' or c.get('published') for c in crafts+markets): x('YE_CULTURE_CRAFTS_MARKETS','claims','4 craft and 3 market unpublished local_reported claims')
  if cap and (cap[0]['canonical_name']!='أمانة العاصمة' or cap[0]['id']!='ENT-YE-CAPITAL-MUNICIPALITY-01'): x('YE_AMANAT_IDENTITY','Amanat Al Asimah','distinct capital municipality required')
  if any(a.get('entity_id')=='ENT-YE-CAPITAL-MUNICIPALITY-01' and 'محافظة' in a.get('name','') for a in d['aliases']): x('YE_AMANAT_ALIAS','aliases','Amanat cannot be governorate alias')
  for q in f['units']:

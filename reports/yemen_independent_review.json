@@ -10,8 +10,8 @@
     },
     "claims": {
       "failed": 0,
-      "passed": 78,
-      "sampled": 78,
+      "passed": 92,
+      "sampled": 92,
       "status": "PASS"
     },
     "coverage": {
@@ -46,10 +46,10 @@
     }
   },
   "findings": [],
-  "method": "Independent full-population comparison against the checksum-bound 22-unit fixture, the 333-district inventory, the 104-lane Amanat inventory, and the 19-claim cultural frame, including status enforcement (probable/unverified/local_reported), unpublished weak-source content, and shared-dish non-exclusivity.",
+  "method": "Independent full-population comparison against the checksum-bound 22-unit fixture, the 333-district inventory, the 104-lane Amanat inventory, the 19-claim cultural frame, and the 14-claim dress/crafts/markets frame, including status enforcement (probable/unverified/local_reported), unpublished weak-source content, and shared-dish non-exclusivity.",
   "p0": 0,
   "schema_version": "2.0.0",
   "status": "PASS",
-  "total_passed": 1023,
-  "total_sampled": 1023
+  "total_passed": 1037,
+  "total_sampled": 1037
 }

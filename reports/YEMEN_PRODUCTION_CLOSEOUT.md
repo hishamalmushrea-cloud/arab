@@ -74,3 +74,14 @@ Third cycle: dishes, dialect profiles, and language presence enter as **classifi
 - **2 language-presence claims** (`probable`): السقطرية (سقطرى) والمهرية (المهرة) — لغتان ساميتان جنوبيتان حيتان.
 - Every claim is anchored to its place entity (governorate/country), carries explicit classification (national/regional/local/shared), and stays unpublished pending stronger sourcing.
 - Gate: **21/21 mutations** (4 new: dish published from weak source, المندي claimed exclusive, dialect promoted to verified, language claim dropped); independent review **1,023/1,023**.
+
+## Depth-expansion cycle 4 — dress, crafts, and markets (2026-08-17)
+
+Fourth cycle: the remaining cultural domains enter as classified, unpublished claims.
+
+- **7 dress claims** (`clothing_item`, tier-E, `local_reported`, unpublished): المعوز (national, بأنواعه الستة المناطقية), الجنبية (national — رمز اجتماعي لا سلاح، بطرزها المناطقية), الزنة الصنعانية والعصبة (local صنعاء), الثوب الدوعني والثوب الشحري (local حضرموت), أزياء أرياف تعز المسماة (عرج النخلة/رجل الحمامة/المدرجات/سلاسل المطر — توثيق نادر على مستوى المديرية), الدرع التهامي (regional).
+- **4 craft claims** (`craft_custom`): صياغة الفضة والجنابي, النسيج التقليدي, الفخار والمدرة, العقيق اليمني.
+- **3 market claims** (`market_presence`): سوق الملح (يرسو على حارة موثقة ضمن الـ69), أسواق المخا التاريخية (`historical` — أصل اسم الموكا), أسواق تريم وسيئون (ترسو على مديريتين موثقتين).
+- Cross-layer anchoring: market claims reference places already attested in the district and lane layers — culture and geography reinforce each other.
+- The ~100 regional women's costume estimate remains a bounded note, never a fabricated denominator.
+- Gate: **24/24 mutations** (3 new: dress published from weak source, classification stripped, market promoted to verified); independent review **1,037/1,037**.

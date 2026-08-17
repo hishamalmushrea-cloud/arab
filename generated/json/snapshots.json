@@ -298,7 +298,7 @@
   },
   {
     "captured_at": "2026-08-17",
-    "checksum": "sha256:eef30a592d5801b9939345fa9a53b0d685f8ead8c4ac9943adeee0e44695757f",
+    "checksum": "sha256:6980d22ebde61f9023cd55552eb2947cfc230ff9836ab6f2f0738e84449138c7",
     "id": "SNP-YE-PRODUCTION-20260817",
     "method": "Checksum-bound reconciliation of official legacy CSO/NIC frame with Law 31/2013 Socotra establishment report.",
     "notes": "Official-gazette full text/effective clause, districts, uzlas, and conflict overlays are deferred.",

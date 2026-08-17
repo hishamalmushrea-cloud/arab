@@ -58630,6 +58630,126 @@
   {
     "classification": "regional",
     "confidence": "low",
+    "id": "CLM-YE-CRAFT-4563853636005149",
+    "lexical_context": null,
+    "notes": "Craft knowledge mirrored from secondary pages; local_reported and unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "craft_custom",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-CRAFTS-MARKETS-MIRROR",
+    "source_locator": "Craft entry: الفخار والأواني الحجرية",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "صناعة الأواني الفخارية والحجرية ومنها المدرة التي تقدم فيها السلتة فائرة",
+        "name": "الفخار والأواني الحجرية",
+        "note": "المرتفعات"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-YE-CRAFT-864B0C63A63350E0",
+    "lexical_context": null,
+    "notes": "Craft knowledge mirrored from secondary pages; local_reported and unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "craft_custom",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-CRAFTS-MARKETS-MIRROR",
+    "source_locator": "Craft entry: العقيق اليمني",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "استخراج العقيق وصقله وتركيبه في الخواتم والحلي؛ العقيق اليمني ذائع الصيت عربيًا",
+        "name": "العقيق اليمني",
+        "note": "مرتبط بصنعاء ومناطق المرتفعات"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-YE-CRAFT-9EE21F72708A5B13",
+    "lexical_context": null,
+    "notes": "Craft knowledge mirrored from secondary pages; local_reported and unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "craft_custom",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-CRAFTS-MARKETS-MIRROR",
+    "source_locator": "Craft entry: النسيج التقليدي",
+    "status": "reported",
+    "subject_id": "ENT-YE-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "نسج المعوز والثياب التقليدية؛ لكل منطقة أنماطها وألوانها",
+        "name": "النسيج التقليدي",
+        "note": "المعوز الحضرمي أغلاها"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-YE-CRAFT-DD9D2F2A737D5008",
+    "lexical_context": null,
+    "notes": "Craft knowledge mirrored from secondary pages; local_reported and unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "craft_custom",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-CRAFTS-MARKETS-MIRROR",
+    "source_locator": "Craft entry: صياغة الفضة والجنابي",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "صياغة الجنبية والحلي النسائية من الفضة والذهب مع الأحجار كالعقيق والمرجان والكهرمان؛ تجارة ذهب وفضة يمنية موغلة في القدم",
+        "name": "صياغة الفضة والجنابي",
+        "note": "مراكزها التاريخية صنعاء وحضرموت"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
     "id": "CLM-YE-DIALECT-28823916E584560C",
     "lexical_context": null,
     "notes": "Dialect features and sample lexicon mirrored from secondary pages; a field-attested lexical corpus with study dates remains the upgrade path; unpublished.",
@@ -59230,6 +59350,223 @@
         "name": "المندي",
         "note": "حضرمي الأصل وانتشر إلى كل اليمن ثم الجزيرة العربية؛ التصنيف مشترك التزاما بعدم الملكية الحصرية",
         "occasion": "الولائم الكبرى والأعراس"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-YE-DRESS-104FFC604AFA5F11",
+    "lexical_context": null,
+    "notes": "Traditional dress knowledge mirrored from weak/secondary pages; unpublished pending stronger sourcing. Regional variant names attested, never invented.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-DRESS-PAGES-MIRROR",
+    "source_locator": "Dress entry: الجنبية",
+    "status": "reported",
+    "subject_id": "ENT-YE-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "خنجر مقوس يحمل على الخصر في حزام مزخرف (الزنة)؛ نصل فولاذي ومقبض من قرن منقوش مطعم بالفضة وجراب خشبي مكسو؛ رمز هوية ومكانة اجتماعية يتوارث لا سلاح عملي",
+        "gender": "رجالي",
+        "name": "الجنبية",
+        "note": "لكل منطقة طراز: الصنعاني والحضرمي والحاشدي وغيرها"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-YE-DRESS-3534520321215E88",
+    "lexical_context": null,
+    "notes": "Traditional dress knowledge mirrored from weak/secondary pages; unpublished pending stronger sourcing. Regional variant names attested, never invented.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-DRESS-PAGES-MIRROR",
+    "source_locator": "Dress entry: أزياء أرياف تعز المسماة",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-05",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أسماء محلية دقيقة لأزياء ريفية: عرج النخلة في الحجرية، رجل الحمامة في حيفان، المدرجات في أرياف صبر، سلاسل المطر في صبر وشرعب، النخيل في الزعازع",
+        "gender": "نسائي",
+        "name": "أزياء أرياف تعز المسماة",
+        "note": "توثيق نادر لأسماء الأزياء على مستوى المديرية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-YE-DRESS-7BBE925E17C95E61",
+    "lexical_context": null,
+    "notes": "Traditional dress knowledge mirrored from weak/secondary pages; unpublished pending stronger sourcing. Regional variant names attested, never invented.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-DRESS-PAGES-MIRROR",
+    "source_locator": "Dress entry: الثوب الدوعني",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-04",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "ثوب نساء دوعن الداخلية مع حزام حضرمي فضي، يلبس في الأعراس",
+        "gender": "نسائي",
+        "name": "الثوب الدوعني",
+        "note": "حضرموت الداخلية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-YE-DRESS-88BA2DFC4BE454ED",
+    "lexical_context": null,
+    "notes": "Traditional dress knowledge mirrored from weak/secondary pages; unpublished pending stronger sourcing. Regional variant names attested, never invented.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-DRESS-PAGES-MIRROR",
+    "source_locator": "Dress entry: الدرع التهامي",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-06",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "ثوب قماش خفيف تلبسه نساء تهامة والجنوب في البيت؛ يناسب حرارة الساحل ورطوبته",
+        "gender": "نسائي",
+        "name": "الدرع التهامي",
+        "note": "تهامة"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-YE-DRESS-A72929C2C8945652",
+    "lexical_context": null,
+    "notes": "Traditional dress knowledge mirrored from weak/secondary pages; unpublished pending stronger sourcing. Regional variant names attested, never invented.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-DRESS-PAGES-MIRROR",
+    "source_locator": "Dress entry: المعوز",
+    "status": "reported",
+    "subject_id": "ENT-YE-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "قطعة قماش مستطيلة تلف على أسفل الجسم من الخصر إلى منتصف الساق؛ لباس الرجل اليمني الأساسي وخاصة في المناطق الساحلية والجنوبية",
+        "gender": "رجالي",
+        "name": "المعوز",
+        "note": "أنواعه المناطقية: البيضاني واللحجي والحضرمي (أغلاها بخيوطه الذهبية والفضية) والشبواني والتهامي والواسعي"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-YE-DRESS-BDE7BACBBE8E5DA7",
+    "lexical_context": null,
+    "notes": "Traditional dress knowledge mirrored from weak/secondary pages; unpublished pending stronger sourcing. Regional variant names attested, never invented.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-DRESS-PAGES-MIRROR",
+    "source_locator": "Dress entry: الثوب الشحري",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-04",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "ثوب نساء الساحل الحضرمي قصير من الأمام طويل من الخلف من قماش القطيفة المشجر برقبة على شكل العين، يلبس ثاني أيام الزواج مع مروحة من سعف النخل وحزام فضي صغير",
+        "gender": "نسائي",
+        "name": "الثوب الشحري",
+        "note": "الشحر والمكلا وغيل باوزير وبروم ميفع"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-YE-DRESS-CFB4C72526885548",
+    "lexical_context": null,
+    "notes": "Traditional dress knowledge mirrored from weak/secondary pages; unpublished pending stronger sourcing. Regional variant names attested, never invented.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-DRESS-PAGES-MIRROR",
+    "source_locator": "Dress entry: الزنة الصنعانية والعصبة",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "فستان مطرز إلى الركبة بأكمام طويلة مع غطاء رأس مزدان بالحلي الفضية يسمى العصبة أو المصعر، والقرقوش غطاء رأس يميز الطفلة عن المتزوجة",
+        "gender": "نسائي",
+        "name": "الزنة الصنعانية والعصبة",
+        "note": "صنعاء وضواحيها"
       },
       "type": "json"
     },
@@ -60358,5 +60695,95 @@
       "type": "json"
     },
     "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-YE-MARKET-D5FAAAEB625D596D",
+    "lexical_context": null,
+    "notes": "Market knowledge anchored to places already attested in the district/lane layers; local_reported and unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "market_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-CRAFTS-MARKETS-MIRROR",
+    "source_locator": "Market entry: سوق الملح",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "السوق الأشهر في صنعاء القديمة؛ شبكة أسواق متخصصة داخل المدينة المسورة تشمل أسواق الحطب والكبوس والقشر وميزان الزبيب والبهارات والذهب والحلقة وفيه سمسرة",
+        "name": "سوق الملح",
+        "note": "اسم حارة موثقة ضمن حارات صنعاء القديمة الـ69 في طبقة الحارات"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "historical",
+    "confidence": "low",
+    "id": "CLM-YE-MARKET-DD13A4AD70FC5A8C",
+    "lexical_context": null,
+    "notes": "Market knowledge anchored to places already attested in the district/lane layers; local_reported and unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "market_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-CRAFTS-MARKETS-MIRROR",
+    "source_locator": "Market entry: أسواق المخا التاريخية",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-05",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "ميناء المخا أعطى اسمه لقهوة الموكا عالميًا؛ أسواق البن التاريخية التي صدرت البن اليمني إلى العالم",
+        "name": "أسواق المخا التاريخية",
+        "note": "المخا مديرية موثقة ضمن مديريات تعز في طبقة المديريات"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-YE-MARKET-E2BD77BFE2955CD4",
+    "lexical_context": null,
+    "notes": "Market knowledge anchored to places already attested in the district/lane layers; local_reported and unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "market_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-CRAFTS-MARKETS-MIRROR",
+    "source_locator": "Market entry: أسواق تريم وسيئون",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-04",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أسواق وادي حضرموت التجارية المرتبطة بطرق القوافل والهجرة الحضرمية",
+        "name": "أسواق تريم وسيئون",
+        "note": "تريم وسيئون مديريتان موثقتان في طبقة المديريات"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
   }
 ]
