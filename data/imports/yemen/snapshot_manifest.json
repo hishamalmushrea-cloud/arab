@@ -3,6 +3,7 @@
   "country_code": "YE",
   "reconciliation": {
     "added_by_law_31_2013": 1,
+    "cultural_frame": "19 local-knowledge cultural claims (12 dishes, 5 dialect profiles, 2 non-Arabic languages) at local_reported/probable status, unpublished; shared dishes carry shared classification, never exclusive ownership.",
     "current_scope": 22,
     "district_frame": "333 districts attested across 22 first-level units; identities reconciled from the NIC catalogue mirror and the 2004 census frame; individual identities carry probable status pending an atomic official coded register.",
     "lane_frame": "Amanat 2004 frame: 791 lanes across 10 districts plus two suburb blocks; 104 lane identities attested for Old Sanaa (69) and Tahrir (35); remaining 687 lanes are a documented open frame, never fabricated.",
@@ -14,6 +15,11 @@
       "path": "fixtures/amanat_lanes_2026.json",
       "record_count": 104,
       "sha256": "442e31ebd30a5ac91bd7ea1a6c97888dc063bc4bd0b2d35380fd4960d52aeeae"
+    },
+    {
+      "path": "fixtures/cultural_claims_2026.json",
+      "record_count": 19,
+      "sha256": "78d52dcd062e7b0192e00b9b6b8f07b9fe82a2b5ae69599127ec9dbc489e394b"
     },
     {
       "path": "fixtures/districts_2026.json",

@@ -64,3 +64,13 @@ Second cycle under **Maximum Arabic Knowledge Coverage**: the lane (حارة) la
 - **3 naming-origin narratives** (ياسر/غمدان/غرقة القليس) at `local_reported`, classification `historical`, unpublished — first use of the narrative-not-fact contract.
 - Orthographic near-duplicates (بير/بئر البهمة in one hay) are distinct census rows; identity keys carry the inventory sequence to avoid false merging.
 - Gate: 17/17 mutations (5 new: fabricated lane, lane promoted to verified, lane population published, narrative promoted to fact, coverage forced complete); independent review **1,004/1,004**.
+
+## Depth-expansion cycle 3 — cultural local knowledge (2026-08-17)
+
+Third cycle: dishes, dialect profiles, and language presence enter as **classified claims**, never as published facts.
+
+- **12 dish claims** (`food_dish`, tier-E mirror source, `local_reported`, unpublished): السلتة (national, أصلها صنعاني), الفحسة (local صنعاء), **المندي (shared — حضرمي الأصل انتشر للجزيرة؛ البوابة ترفض جعله حصريًا)**, المدفون, بنت الصحن, العصيدة, اللحوح (تهامة), الصيادية (الساحل), المطبق (عدن — أثر الميناء), الذمول والحلويات الحضرمية, المظبي.
+- **5 dialect profiles** (`dialect_profile`, `local_reported`, unpublished): الصنعانية والتعزية-العدنية والحضرمية واليافعية والتهامية — بخصائص النطق وعينات المفردات بمعانيها (حينهو، معادبش، حيابك، بايقع لك، رحك/نمك/أكلك، لمه...). upgrade path: مدونة لهجية ميدانية بتواريخ دراسة عبر `lexical_context`.
+- **2 language-presence claims** (`probable`): السقطرية (سقطرى) والمهرية (المهرة) — لغتان ساميتان جنوبيتان حيتان.
+- Every claim is anchored to its place entity (governorate/country), carries explicit classification (national/regional/local/shared), and stays unpublished pending stronger sourcing.
+- Gate: **21/21 mutations** (4 new: dish published from weak source, المندي claimed exclusive, dialect promoted to verified, language claim dropped); independent review **1,023/1,023**.

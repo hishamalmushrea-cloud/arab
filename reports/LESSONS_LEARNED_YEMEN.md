@@ -21,3 +21,10 @@
 - Census-mirrored 2004 populations stay `reported`+unpublished: dated truth, never current truth.
 - Names-only extraction (Qa) gets `unverified`, censused tables get `probable` — source quality maps directly to status.
 - Same-name lanes across hays (بئر خيران ×2) and orthographic variants within one hay (بير/بئر البهمة) are distinct entities keyed by inventory sequence.
+
+## Depth cycle 3 — cultural claims (2026-08-17)
+
+- Tier-E sources work when the contract is airtight: local_reported + unpublished + explicit classification lets weak-source knowledge enter without contaminating verified facts.
+- Cross-border dishes (المندي) must carry `shared` classification; exclusivity is a gate-detected mutation, implementing the no-exclusive-ownership rule mechanically.
+- Dialect lexicon samples embed glosses in the claim value now; the upgrade path to `lexical_*` predicates requires field study dates and place entities.
+- Culture anchors to place entities at the governorate level first; city/village-level anchoring follows when lower place entities exist.

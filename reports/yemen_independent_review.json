@@ -10,8 +10,8 @@
     },
     "claims": {
       "failed": 0,
-      "passed": 59,
-      "sampled": 59,
+      "passed": 78,
+      "sampled": 78,
       "status": "PASS"
     },
     "coverage": {
@@ -46,10 +46,10 @@
     }
   },
   "findings": [],
-  "method": "Independent full-population comparison against the checksum-bound 22-unit fixture, the 333-district inventory, and the 104-lane Amanat inventory, including Amanat type, Socotra law-date boundary, district parentage, probable/unverified status enforcement, and unpublished 2004 lane populations.",
+  "method": "Independent full-population comparison against the checksum-bound 22-unit fixture, the 333-district inventory, the 104-lane Amanat inventory, and the 19-claim cultural frame, including status enforcement (probable/unverified/local_reported), unpublished weak-source content, and shared-dish non-exclusivity.",
   "p0": 0,
   "schema_version": "2.0.0",
   "status": "PASS",
-  "total_passed": 1004,
-  "total_sampled": 1004
+  "total_passed": 1023,
+  "total_sampled": 1023
 }

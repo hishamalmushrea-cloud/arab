@@ -1,9 +1,13 @@
 {
   "country_code": "YE",
   "domains": {
+    "cuisine": {
+      "claims": 12,
+      "status": "documented_local_reported_unpublished"
+    },
     "dialect": {
-      "claims": 0,
-      "status": "not_documented_in_cycle"
+      "claims": 7,
+      "status": "documented_local_reported_unpublished"
     },
     "world_heritage": {
       "status": "not_imported_in_full_pilot_stage1"

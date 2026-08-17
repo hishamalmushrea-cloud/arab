@@ -1,6 +1,6 @@
 {
   "country_code": "YE",
-  "detected": 17,
+  "detected": 21,
   "mutations": [
     {
       "detected": true,
@@ -74,6 +74,26 @@
     },
     {
       "detected": true,
+      "expected_code": "YE_CULTURE_DISHES",
+      "mutation": "YE_DISH_PUBLISHED_FROM_WEAK_SOURCE"
+    },
+    {
+      "detected": true,
+      "expected_code": "YE_SHARED_NOT_EXCLUSIVE",
+      "mutation": "YE_MANDI_CLAIMED_EXCLUSIVE"
+    },
+    {
+      "detected": true,
+      "expected_code": "YE_CULTURE_DIALECTS",
+      "mutation": "YE_DIALECT_PROMOTED_TO_VERIFIED"
+    },
+    {
+      "detected": true,
+      "expected_code": "YE_CULTURE_LANGUAGES",
+      "mutation": "YE_LANGUAGE_CLAIM_DROPPED"
+    },
+    {
+      "detected": true,
       "expected_code": "YE_PARENT",
       "mutation": "YE_WRONG_PARENT"
     },
@@ -88,7 +108,7 @@
       "mutation": "YE_EFFECTIVE_CLAUSE_FABRICATED"
     }
   ],
-  "required": 17,
+  "required": 21,
   "schema_version": "2.0.0",
   "status": "PASS"
 }
