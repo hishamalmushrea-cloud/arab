@@ -21,7 +21,7 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=16932\n[PASS] ids: global_ids=16932, duplicate_ids=0\n[PASS] entity_types: allowed_types=103, active_types=61\n[PASS] sources: atomic_files=151, sources=151, references=19644\n[PASS] parents: administrative_relationships=5220\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2245, sourced=2245\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=112, coverage_records=112, complete_layers=95\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=17602\n[PASS] ids: global_ids=17602, duplicate_ids=0\n[PASS] entity_types: allowed_types=103, active_types=62\n[PASS] sources: atomic_files=153, sources=153, references=20312\n[PASS] parents: administrative_relationships=5553\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2245, sourced=2245\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=113, coverage_records=113, complete_layers=96\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
     },
     "generated_freshness": {
       "command": "python3 scripts/generate.py --check",
@@ -105,7 +105,7 @@
       "stdout": "{\"entities\": 35, \"relationships\": 35, \"claims\": 13, \"sources\": 3}"
     },
     "non_lebanon_preservation": {
-      "detail": "canonical non-Lebanon SHA-256 unchanged=34c49f2939f6d9e8015cdb38e5ca8b33a6c5c1b52474c7ad446c4eacbe88aec1",
+      "detail": "canonical non-Lebanon SHA-256 unchanged=59eb85aa24229c946dabdbcbc45ca48a7f006b445c203511acc046bd15a5f759",
       "status": "pass"
     }
   },
