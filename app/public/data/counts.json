@@ -1,0 +1,11 @@
+{
+  "entities": 5317,
+  "aliases": 3261,
+  "relationships": 5706,
+  "claims": 2245,
+  "sources": 151,
+  "denominators": 112,
+  "coverage": 112,
+  "snapshots": 28,
+  "manifests": 22
+}

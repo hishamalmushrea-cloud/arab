@@ -1,2 +1,17 @@
 __pycache__/
 *.py[cod]
+# App
+app/node_modules/
+app/.next/
+app/out/
+app/dist/
+app/public/data/app-data.json
+app/public/data/app-data.json.br
+app/public/data/app-data.json.gz
+app/public/data/app-data.json.br
+# OS
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

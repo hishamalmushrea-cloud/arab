@@ -601,7 +601,10 @@ def validate_all() -> tuple[Validation, dict[str, list[dict[str, Any]]]]:
     # Markdown links: local targets must exist; external targets must be syntactically valid.
     checked_links = 0
     for path in ROOT.rglob("*.md"):
-        if ".git" in path.parts:
+        if ".git" in path.parts or "node_modules" in path.parts or ".next" in path.parts:
+            continue
+        # Exclude app build artifacts but keep docs/app
+        if path.is_relative_to(ROOT / "app") and ("node_modules" in path.parts or ".next" in path.parts):
             continue
         try: text = path.read_text(encoding="utf-8")
         except UnicodeError as exc:
