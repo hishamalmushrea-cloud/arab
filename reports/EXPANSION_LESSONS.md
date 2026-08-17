@@ -141,3 +141,15 @@ This cumulative register records reusable controls without forcing countries int
 4. Country-specific cultural-leakage and source-country tests.
 5. Full review where a new production country's bounded record universe is small.
 6. Separate statement of unavailable populated-place, neighborhood, cultural, and dialect denominators.
+
+## Philosophy shift — Maximum Arabic Knowledge Coverage (2026-08-17)
+
+The project goal is now **Maximum Arabic Knowledge Coverage**, not only Maximum Verified Data Coverage. Binding reference: `00_فلسفة_الموسوعة.md`; technical contract: Schema 2.1.0.
+
+- Verification is a condition for publishing as fact, **not** for inclusion. Useful weakly-sourced information enters with explicit statuses: `probable` 🟡, `local_reported` 🟠, `unverified` 🔴, `folk_narrative` ⚪.
+- Weak/local sources (local books, press, blogs, forums, documented oral testimony) are usable at quality tier `E`, capped at `local_reported`, never equal to official sources.
+- `denominator unavailable` stops percentages, never collection: attested villages, neighborhoods, and lanes enter with `coverage_status = partial` or `denominator_unavailable`.
+- Success metric is **coverage + information depth** per place, with local specificity (naming, origins, occupations, dialect, food, dress, markets, stories) over templated national content.
+- Arabic-first: no `name_en`, no English user-facing content; internal technical identifiers only where systems require them.
+- Absolute unchanged guards: **no fabrication** (every record traces to a real external origin), transparent uncertainty, `published` restricted to `verified`/`source_verified`, no exclusive national ownership of shared culture.
+- Decision order when trading off: no fabrication → maximum useful information → clarity of confidence → verification when available → local depth → coverage → organization → speed.

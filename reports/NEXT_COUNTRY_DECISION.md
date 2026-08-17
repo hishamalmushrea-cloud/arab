@@ -1,21 +1,31 @@
 # Next Country Decision
 
+## Policy baseline
+
+As of 2026-08-17 the project operates under **Maximum Arabic Knowledge Coverage** (`00_فلسفة_الموسوعة.md`, Schema 2.1.0). All 22 bounded first-layer country cycles remain accepted; the project is now in **depth-expansion mode**: proving places exist down to villages, neighborhoods, and lanes, then collecting the maximum useful local information (history, dialect, food, dress, crafts, markets, stories) with explicit confidence statuses instead of deletion.
+
 ## Current country
 
-None — all 22 bounded country cycles are accepted locally.
+**Yemen (YE) — depth-expansion cycle 1.**
 
-## Current result
+## Rationale (dependency / risk / available information)
 
-**Sudan PASS.** Exact release commit `08b13074b4fffdd9b2ed25178a8340da35d8c7a6`; full `make check` (466 checks), Push Action `31979921207`, and PR Action `31979923503` pass. The legal state layer closes 18/18, stale 17-state pages are rejected, and localities/administrative units remain denominator-unavailable.
+- Yemen has the largest documented first-to-second-level gap in the project: 22/22 first-level units accepted but only a fraction of the 333 districts (مديريات) recorded.
+- Rich available material already inside the repository: 535 legacy CSV rows, صنعاء القديمة lane inventory (104 documented lanes with classified sources for the remaining ~687), and extensive Markdown city files.
+- High availability of local sources (official CSO frame, heritage books, local press) fits the new tier-E policy.
+- Listed first in the user priority set: Yemen, Saudi Arabia, Egypt, Morocco, Algeria, Iraq, Palestine, Oman, Sudan.
 
-## Remaining countries
+## Scope of the Yemen depth cycle
 
-None.
+1. District (مديرية) layer: enter attested districts with dated legal/statistical sources; record denominator per governorate; `denominator_unavailable` never halts entity collection.
+2. صنعاء lanes: continue from the documented 104; new lanes enter at `local_reported`/`unverified` when only weak sources attest them — never invented.
+3. Local knowledge claims per place: naming origin (folk narratives as ⚪ `folk_narrative`), dialect words, food, dress, crafts, markets — classified national/regional/local/shared.
+4. Previously dropped unverified Yemen material is staged in `data/backlog/unverified_content/` and re-evaluated in this cycle.
 
-## Release transition
+## Queue after Yemen
 
-The project enters maintenance and depth-expansion mode. The final release decision is recorded in `reports/FINAL_ARABIC_ENCYCLOPEDIA_RELEASE.md` as `COMPLETE WITH DOCUMENTED LIMITATIONS`.
+Saudi Arabia → Egypt → Morocco → Algeria → Iraq → Palestine → Oman → Sudan, then the remaining countries by available-information density. Order may only change on documented dependency/risk grounds.
 
-## Next action
+## Release status
 
-Maintain source freshness and expand documented lower administrative, populated-place, cultural, dialect, and dated conflict-status layers without changing the bounded-release decision or inventing overall completion percentages.
+The bounded first-layer release decision in `reports/FINAL_ARABIC_ENCYCLOPEDIA_RELEASE.md` (`COMPLETE WITH DOCUMENTED LIMITATIONS`) is unchanged; depth expansion is additive and never rewrites accepted layers.

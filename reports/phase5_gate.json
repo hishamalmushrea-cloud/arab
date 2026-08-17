@@ -25,12 +25,12 @@
       "status": "pass"
     },
     "clean_worktree": {
-      "detail": "git worktree clean=True",
-      "status": "pass"
+      "detail": "git worktree clean=False",
+      "status": "fail"
     },
     "completion_claims": {
       "detail": "README declares incomplete local coverage and constrains 100%",
-      "status": "pass"
+      "status": "fail"
     },
     "country_roots": {
       "detail": "source-backed country roots=22",
@@ -181,7 +181,7 @@
     },
     "p0_clear": {
       "detail": "all structural and Phase 2 acceptance checks are clear",
-      "status": "pass"
+      "status": "fail"
     },
     "phase2_core_counts": {
       "detail": "24/264/350/2084 actual=24/264/350/2084",
@@ -196,8 +196,8 @@
       "status": "pass"
     },
     "saudi_clean_worktree": {
-      "detail": "git worktree clean=True",
-      "status": "pass"
+      "detail": "git worktree clean=False",
+      "status": "fail"
     },
     "saudi_final_report": {
       "detail": "20-section Saudi final report exists; overall PASS also requires a separately recorded green remote run",
@@ -313,8 +313,8 @@
       "status": "pass"
     },
     "uae_clean_worktree": {
-      "detail": "git worktree clean=True",
-      "status": "pass"
+      "detail": "git worktree clean=False",
+      "status": "fail"
     },
     "uae_evidence_idempotence": {
       "detail": "validation, mutation, sample, and review hashes unchanged=True",
@@ -402,44 +402,50 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=16932\n[PASS] ids: global_ids=16932, duplicate_ids=0\n[PASS] entity_types: allowed_types=103, active_types=61\n[PASS] sources: atomic_files=151, sources=151, references=19644\n[PASS] parents: administrative_relationships=5220\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2245, sourced=2245\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=112, coverage_records=112, complete_layers=95\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=951, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=16932\n[PASS] ids: global_ids=16932, duplicate_ids=0\n[PASS] entity_types: allowed_types=103, active_types=61\n[PASS] sources: atomic_files=151, sources=151, references=19644\n[PASS] parents: administrative_relationships=5220\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2245, sourced=2245\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=112, coverage_records=112, complete_layers=95\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
     },
     "validation_after_jordan": {
       "command": "python3 scripts/validate.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=16932\n[PASS] ids: global_ids=16932, duplicate_ids=0\n[PASS] entity_types: allowed_types=103, active_types=61\n[PASS] sources: atomic_files=151, sources=151, references=19644\n[PASS] parents: administrative_relationships=5220\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2245, sourced=2245\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=112, coverage_records=112, complete_layers=95\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=951, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=16932\n[PASS] ids: global_ids=16932, duplicate_ids=0\n[PASS] entity_types: allowed_types=103, active_types=61\n[PASS] sources: atomic_files=151, sources=151, references=19644\n[PASS] parents: administrative_relationships=5220\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2245, sourced=2245\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=112, coverage_records=112, complete_layers=95\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
     },
     "validation_after_review": {
       "command": "python3 scripts/validate.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=16932\n[PASS] ids: global_ids=16932, duplicate_ids=0\n[PASS] entity_types: allowed_types=103, active_types=61\n[PASS] sources: atomic_files=151, sources=151, references=19644\n[PASS] parents: administrative_relationships=5220\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2245, sourced=2245\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=112, coverage_records=112, complete_layers=95\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=951, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=16932\n[PASS] ids: global_ids=16932, duplicate_ids=0\n[PASS] entity_types: allowed_types=103, active_types=61\n[PASS] sources: atomic_files=151, sources=151, references=19644\n[PASS] parents: administrative_relationships=5220\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2245, sourced=2245\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=112, coverage_records=112, complete_layers=95\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
     },
     "validation_after_saudi": {
       "command": "python3 scripts/validate.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=16932\n[PASS] ids: global_ids=16932, duplicate_ids=0\n[PASS] entity_types: allowed_types=103, active_types=61\n[PASS] sources: atomic_files=151, sources=151, references=19644\n[PASS] parents: administrative_relationships=5220\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2245, sourced=2245\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=112, coverage_records=112, complete_layers=95\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=951, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=16932\n[PASS] ids: global_ids=16932, duplicate_ids=0\n[PASS] entity_types: allowed_types=103, active_types=61\n[PASS] sources: atomic_files=151, sources=151, references=19644\n[PASS] parents: administrative_relationships=5220\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2245, sourced=2245\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=112, coverage_records=112, complete_layers=95\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
     },
     "validation_after_uae": {
       "command": "python3 scripts/validate.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=16932\n[PASS] ids: global_ids=16932, duplicate_ids=0\n[PASS] entity_types: allowed_types=103, active_types=61\n[PASS] sources: atomic_files=151, sources=151, references=19644\n[PASS] parents: administrative_relationships=5220\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2245, sourced=2245\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=112, coverage_records=112, complete_layers=95\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=951, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=16932\n[PASS] ids: global_ids=16932, duplicate_ids=0\n[PASS] entity_types: allowed_types=103, active_types=61\n[PASS] sources: atomic_files=151, sources=151, references=19644\n[PASS] parents: administrative_relationships=5220\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2245, sourced=2245\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=112, coverage_records=112, complete_layers=95\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
     },
     "validator": {
       "detail": "dependency-free validator exists",
       "status": "pass"
     }
   },
-  "errors": [],
+  "errors": [
+    "completion_claims: README declares incomplete local coverage and constrains 100%",
+    "p0_clear: all structural and Phase 2 acceptance checks are clear",
+    "clean_worktree: git worktree clean=False",
+    "saudi_clean_worktree: git worktree clean=False",
+    "uae_clean_worktree: git worktree clean=False"
+  ],
   "phase": "phase5",
   "schema_version": "2.0.0",
   "semantic_hash": "sha256:7eb4185ecd8bbd1831f6d82fc59253ee64747afbb3c45a9ae20c474d37a7d911",
-  "status": "pass"
+  "status": "fail"
 }
