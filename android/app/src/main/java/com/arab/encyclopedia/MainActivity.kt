@@ -54,7 +54,7 @@ class MainActivity : ComponentActivity() {
                     Surface(modifier = Modifier.fillMaxSize()) {
                         Column(modifier = Modifier.fillMaxSize().padding(24.dp), verticalArrangement = Arrangement.Center) {
                             Text("موسوعة العرب", style = MaterialTheme.typography.headlineLarge)
-                            Text("Schema 2.0.0 — 5317 كيان + 3261 اسم + 5706 علاقة + 2245 معلومة + 151 مصدر", style = MaterialTheme.typography.bodyMedium)
+                            Text("Schema 2.0.0 — من Release Dataset (counts من metadata.json) — Offline", style = MaterialTheme.typography.bodyMedium)
                             Spacer(Modifier.height(16.dp))
                             LinearProgressIndicator(modifier = Modifier.fillMaxWidth())
                             Spacer(Modifier.height(8.dp))

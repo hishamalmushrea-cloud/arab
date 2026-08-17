@@ -19,10 +19,8 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
-        // 100% data preservation build flag
+        // 100% data preservation build flag — no hardcoded entity counts, counts come from Release Dataset metadata.json
         buildConfigField("String", "SCHEMA_VERSION", "\"2.0.0\"")
-        buildConfigField("int", "EXPECTED_ENTITIES", "5317")
-        buildConfigField("int", "EXPECTED_ALIASES", "3261")
     }
 
     buildTypes {

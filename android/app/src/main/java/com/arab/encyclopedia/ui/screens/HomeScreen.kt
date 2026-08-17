@@ -36,26 +36,33 @@ fun HomeScreen(onNavigateToCountry: (String) -> Unit, onNavigateToSearch: () -> 
             Card(modifier = Modifier.fillMaxWidth(), colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.primaryContainer)) {
                 Column(modifier = Modifier.padding(20.dp)) {
                     Text("موسوعة العرب", style = MaterialTheme.typography.headlineLarge)
-                    Text("بيانات جغرافية وثقافية موثقة لـ 22 دولة — 100% محفوظة Offline", style = MaterialTheme.typography.bodyMedium)
+                    Text("بيانات جغرافية وثقافية موثقة لـ 22 دولة — 100% محفوظة Offline (من Release Dataset)", style = MaterialTheme.typography.bodyMedium)
                     Spacer(Modifier.height(12.dp))
                     Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                        Button(onClick = onNavigateToSearch) { Text("ابحث في ${stats["entities"] ?: 5317} كيان + ${stats["aliases"] ?: 3261} اسم") }
-                        OutlinedButton(onClick = { }) { Text("الدول الـ22") }
+                        Button(onClick = onNavigateToSearch) { 
+                            val eCount = stats["entities"]?.toString() ?: "—"
+                            val aCount = stats["aliases"]?.toString() ?: "—"
+                            Text("ابحث في $eCount كيان + $aCount اسم") 
+                        }
+                        OutlinedButton(onClick = { }) { 
+                            val cCount = stats["manifests"] ?: 22
+                            Text("الدول الـ${cCount}") 
+                        }
                     }
-                    if (loading) Text("جاري تحميل البيانات Offline... (8.8 MB أول مرة)", style = MaterialTheme.typography.labelSmall)
+                    if (loading) Text("جاري تحميل البيانات Offline... (Bundle من assets)", style = MaterialTheme.typography.labelSmall)
                 }
             }
         }
 
         item {
-            Text("الإحصائيات — من Release Dataset (ليس hard-coded)", style = MaterialTheme.typography.titleMedium)
+            Text("الإحصائيات — من Release Dataset (ليس hard-coded، من Room COUNT(*))", style = MaterialTheme.typography.titleMedium)
             Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                StatCard("كيان", "${stats["entities"] ?: 5317}", "Entity")
-                StatCard("اسم بديل", "${stats["aliases"] ?: 3261}", "Alias")
+                StatCard("كيان", "${stats["entities"] ?: "—"}", "Entity")
+                StatCard("اسم بديل", "${stats["aliases"] ?: "—"}", "Alias")
             }
             Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                StatCard("علاقة", "${stats["relationships"] ?: 5706}", "Relationship")
-                StatCard("معلومة", "${stats["claims"] ?: 2245}", "Claim")
+                StatCard("علاقة", "${stats["relationships"] ?: "—"}", "Relationship")
+                StatCard("معلومة", "${stats["claims"] ?: "—"}", "Claim")
             }
         }
 
@@ -79,7 +86,7 @@ fun HomeScreen(onNavigateToCountry: (String) -> Unit, onNavigateToSearch: () -> 
             Card(modifier = Modifier.fillMaxWidth(), colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)) {
                 Column(modifier = Modifier.padding(12.dp)) {
                     Text("ضمان عدم فقدان البيانات", style = MaterialTheme.typography.titleSmall)
-                    Text("هذا التطبيق يقرأ مباشرة من assets/app-data.json (Release Dataset) → Room مع rawJson لكل سجل. اختبار: DATA_COMPLETENESS_TEST PASS — 5317/3261/5706/2245/151/112/112/28/22 — 100% preserved", style = MaterialTheme.typography.bodySmall)
+                    Text("هذا التطبيق يقرأ مباشرة من assets/app-data.json (Release Dataset) → Room مع rawJson لكل سجل. اختبار: test_android_data_completeness.py يتحقق أن source == bundled == Room — 100% preserved, مع 22 Manifests", style = MaterialTheme.typography.bodySmall)
                     Text("🟢 VERIFIED موثق — 🟡 PARTIAL جزئي — 🟠 HISTORICAL تاريخي — 🔴 DISPUTED متنازع", style = MaterialTheme.typography.labelSmall)
                 }
             }

@@ -5,6 +5,7 @@ app/node_modules/
 app/.next/
 app/out/
 app/dist/
+app/next-env.d.ts
 app/public/data/app-data.json
 app/public/data/app-data.json.br
 app/public/data/app-data.json.gz
