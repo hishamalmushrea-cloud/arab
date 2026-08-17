@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">موسوعة العرب</string>
+    <string name="search_hint">ابحث عن مكان، اسم بديل، محافظة... مثل: مقشن، الرياض، حلبجة</string>
+    <string name="countries">الدول العربية الـ22</string>
+    <string name="search">البحث</string>
+    <string name="coverage">التغطية والقيود</string>
+    <string name="sources">المصادر</string>
+    <string name="research_mode">وضع الباحث</string>
+    <string name="explorer_mode">وضع المستكشف</string>
+    <string name="offline_ready">البيانات الأساسية تعمل بدون إنترنت — الروابط الخارجية تحتاج إنترنت</string>
+    <string name="data_guarantee">ضمان 100% حفظ البيانات — من Release Dataset إلى Room</string>
+    <string name="identity">الهوية</string>
+    <string name="aliases">الأسماء البديلة</string>
+    <string name="claims">المعلومات</string>
+    <string name="relationships">العلاقات</string>
+    <string name="map">الخريطة</string>
+    <string name="raw">البيانات الخام</string>
+    <string name="no_coordinates">لا توجد إحداثيات موثقة لهذا الكيان في هذه اللقطة — لا نخترع موقعاً مفقوداً</string>
+</resources>

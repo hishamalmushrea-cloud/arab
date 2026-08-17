@@ -1,2 +1,24 @@
 __pycache__/
 *.py[cod]
+# App Web
+app/node_modules/
+app/.next/
+app/out/
+app/dist/
+app/next-env.d.ts
+app/public/data/app-data.json
+app/public/data/app-data.json.br
+app/public/data/app-data.json.gz
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/.idea/
+android/*.iml
+android/app/src/main/assets/app-data.json
+# OS
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

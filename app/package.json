@@ -1,0 +1,30 @@
+{
+  "name": "arab-encyclopedia-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "موسوعة العرب - تطبيق فوق بيانات Schema 2.0.0 مع 100% حفظ بيانات",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0 -p 3000",
+    "build": "next build",
+    "start": "next start -H 0.0.0.0 -p 3000",
+    "lint": "next lint",
+    "test:completeness": "python3 ../scripts/test_app_data_completeness.py"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "dexie": "4.0.11",
+    "fuse.js": "7.0.0",
+    "zustand": "4.5.4"
+  },
+  "devDependencies": {
+    "typescript": "5.5.4",
+    "@types/node": "20.14.12",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "autoprefixer": "10.4.20",
+    "postcss": "8.4.40",
+    "tailwindcss": "3.4.7"
+  }
+}

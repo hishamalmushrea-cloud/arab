@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+# Simplified gradlew for Android Studio - uses system gradle if wrapper jar missing
+# Android Studio will download gradle via wrapper properties
+set -e
+DIR="$(cd "$(dirname "$0")" && pwd)"
+if [ -f "$DIR/gradle/wrapper/gradle-wrapper.jar" ]; then
+  exec java -jar "$DIR/gradle/wrapper/gradle-wrapper.jar" "$@"
+else
+  echo "Gradle wrapper jar not found, trying system gradle..."
+  exec gradle "$@"
+fi
