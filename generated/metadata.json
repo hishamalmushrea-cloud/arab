@@ -1,22 +1,22 @@
 {
   "counts": {
     "aliases": 3261,
-    "claims": 2314,
+    "claims": 2340,
     "coverage": 114,
     "denominators": 114,
-    "entities": 5757,
-    "relationships": 6146,
+    "entities": 5775,
+    "relationships": 6182,
     "snapshots": 28,
-    "sources": 159
+    "sources": 161
   },
   "generator": "scripts/generate.py",
   "inputs": {
     "data/aliases/aliases.jsonl": "sha256:c8c4c5d827f437946cdc4e93f7c4bfa1d1c1675ce02729584ba0901644c7aa39",
-    "data/claims/claims.jsonl": "sha256:cdab2122736b94de2fe087fd5f06c8f3affc3a02d281767637ed4cf85721f8e4",
+    "data/claims/claims.jsonl": "sha256:697ea0a75b90583511e88016654b4ad21a02faaac702b34c7d6486bd95320fca",
     "data/coverage/coverage.jsonl": "sha256:7ea74f6aa7cd361f782e36451ab3427030d62adf886c9f69df8a9f84e56805b5",
     "data/coverage/denominators.jsonl": "sha256:75ad2cd33c82dfb33f378f0ac1f0cddbd938709e8c91ebb41531a1cd47f57042",
-    "data/entities/entities.jsonl": "sha256:22690a38af26d342c07744e22a47ca4148b1393c70db95cc5b23236fc5b59e92",
-    "data/relationships/relationships.jsonl": "sha256:1e47abca80ede01905e888f253fb04dfc55a0d68525fd56184189fb3d5bb08bd",
+    "data/entities/entities.jsonl": "sha256:f8c4498a017aea08ebd2abe4523fe1191ed9284ea7ca5ce212223c2237fb7cf5",
+    "data/relationships/relationships.jsonl": "sha256:d48ea5b02837cc68390216d87ab3d158b3f9eae1eba7f336a7cf87d9341a0af4",
     "data/snapshots/snapshots.jsonl": "sha256:139c9336e8f6181e3255dccaea34247450dbd8c6478e02b5f77b0b53bd6f04e4",
     "data/sources/SRC-ACADEMIC-SA-DIALECT-CORPUS-2020.json": "sha256:8db9aa1b7b0ebee570ab4e5bab6c455fbb03159360564d822a9b338bde5a8d43",
     "data/sources/SRC-AE-AJMAN-ABOUT-2026.json": "sha256:db611da10b5482b40eeacd255591bc11c60518d3ee2964496af1ddb5ddaaee25",
@@ -88,6 +88,8 @@
     "data/sources/SRC-SA-ADMIN-SNAPSHOT-CATALOG-2026.json": "sha256:8d3547d7b95bd4c5db415516b22688ff91517a9b72586c79075f556aaa163898",
     "data/sources/SRC-SA-CULINARY-REGIONAL-DISHES-2024.json": "sha256:f87b1ea0cf624ed1689a4824cdf12f183b8171661b1ab63887f3e75f95e9fc37",
     "data/sources/SRC-SA-CULTURAL-FIXTURE-2026.json": "sha256:cff97c094fbe28e2b0361533ff7fc9c4d68b0ae9f6a19869a16188165263efed",
+    "data/sources/SRC-SA-DIALECT-MIRROR-2026.json": "sha256:0b542d6e60c086fb886f9e5d31f85d40121f80adb31b629083e6f9efd0a423fd",
+    "data/sources/SRC-SA-DRESS-CULTURE-MIRROR-2026.json": "sha256:bf21929442d2e8ffab7b2dca4bcc1b827e98cbc79340ec451e29aba4be22ec9d",
     "data/sources/SRC-SA-GASTAT-HEALTH-METHOD-2026.json": "sha256:178d6a9818b00ab93e8cba63c0395e6e7785764101ea92bfe38f43cd46451b04",
     "data/sources/SRC-SA-GOV-CULTURE-2026.json": "sha256:3f0f2596490e4c74b88b2f291d591587002473d6cf7a8ac6e507aecb601ff888",
     "data/sources/SRC-SA-LAW-OF-PROVINCES-1992.json": "sha256:c9ae20962e5a6fa622da10f3df9fb69aa2138bf41349d4803971603cc68fa1c5",

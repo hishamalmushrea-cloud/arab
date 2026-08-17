@@ -13,7 +13,7 @@
       "status": "pass"
     },
     "atomic_source_registry": {
-      "detail": "Saudi-specific sources=34, tiers={'B': 4, 'A': 30}, metadata errors=[]",
+      "detail": "Saudi-specific sources=36, tiers={'B': 4, 'E': 2, 'A': 30}, metadata errors=[]",
       "status": "pass"
     },
     "attribution_scope": {
@@ -29,7 +29,7 @@
       "status": "pass"
     },
     "claim_traceability": {
-      "detail": "claims=1732, traceability errors=0",
+      "detail": "claims=1758, traceability errors=0",
       "status": "pass"
     },
     "conflicts_and_exclusions": {
@@ -53,11 +53,11 @@
       "status": "pass"
     },
     "dialect_evidence_chain": {
-      "detail": "varieties=2, forms=4, chain errors=[], count claims=0",
+      "detail": "varieties=5, forms=19, chain errors=[], count claims=0",
       "status": "pass"
     },
     "entity_counts": {
-      "detail": "actual={'archaeological_site': 4, 'city': 16, 'country': 1, 'cultural_site': 3, 'historical_place': 1, 'language': 1, 'language_variety': 2, 'lexical_form': 4, 'natural_site': 1, 'sa_governorate': 141, 'sa_markaz': 1521, 'sa_region': 13}",
+      "detail": "actual={'archaeological_site': 4, 'city': 16, 'country': 1, 'cultural_site': 3, 'historical_place': 1, 'language': 1, 'language_variety': 5, 'lexical_form': 19, 'natural_site': 1, 'sa_governorate': 141, 'sa_markaz': 1521, 'sa_region': 13}",
       "status": "pass"
     },
     "finding_closure": {
@@ -81,7 +81,7 @@
       "status": "pass"
     },
     "record_family_counts": {
-      "detail": "entities/aliases/relationships/claims=1708/179/1726/1732",
+      "detail": "entities/aliases/relationships/claims=1726/179/1762/1758",
       "status": "pass"
     },
     "regional_seat_semantics": {
@@ -110,21 +110,21 @@
   "metrics": {
     "ab_claim_ratio": 100.0,
     "aliases": 179,
-    "claims": 1732,
+    "claims": 1758,
     "critical_p1": 0,
     "duplicate_claims": 0,
-    "entities": 1708,
+    "entities": 1726,
     "p0": 0,
-    "primary_records": 5345,
-    "records_per_entity": 3.1294,
-    "records_per_unique_source": 152.7143,
-    "relationships": 1726,
+    "primary_records": 5425,
+    "records_per_entity": 3.1431,
+    "records_per_unique_source": 146.6216,
+    "relationships": 1762,
     "repeated_claim_value_occurrences": 127,
-    "saudi_specific_atomic_sources": 34,
+    "saudi_specific_atomic_sources": 36,
     "sensitive_claims": 0,
     "sensitive_noncompliant": 0,
-    "text_duplication_rate": 7.3326,
-    "unique_sources_used_including_shared_iso": 35
+    "text_duplication_rate": 7.2241,
+    "unique_sources_used_including_shared_iso": 37
   },
   "schema_version": "2.0.0",
   "snapshot_date": "2026-08-15",

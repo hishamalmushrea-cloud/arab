@@ -13950,6 +13950,43 @@
     "verification_status": "source_verified"
   },
   {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-0BA9DAFF2EC5EBD2",
+    "lexical_context": {
+      "dialect": "eastern",
+      "form": "وايد",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "كثير",
+      "place_id": "ENT-SA-REGION-EASTERN",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "eastern"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: وايد = كثير",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-CBE672C3EAD5A0B5",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=كثير; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-SA-0C065679A9FE2980",
@@ -15430,6 +15467,35 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "historical",
+    "confidence": "low",
+    "id": "CLM-SA-14D013F244F98B4A",
+    "lexical_context": null,
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "market_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DRESS-CULTURE-MIRROR-2026",
+    "source_locator": "Cultural entry: سوق عكاظ",
+    "status": "reported",
+    "subject_id": "ENT-SA-REGION-MAKKAH",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "سوق العرب الجاهلي الشهير قرب الطائف؛ أعيد إحياؤه مهرجانا ثقافيا سنويا",
+        "name": "سوق عكاظ"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -17356,6 +17422,36 @@
     "verification_status": "source_verified"
   },
   {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-1FDE3BB32E4B2B59",
+    "lexical_context": null,
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DRESS-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: السديري والدقلة",
+    "status": "reported",
+    "subject_id": "ENT-SA-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "السديري سترة قصيرة فوق الثوب في الحجاز والوسط، والدقلة سترة طويلة من المخمل أو الصوف شتاء في الشمال والوسط",
+        "gender": "رجالي",
+        "name": "السديري والدقلة"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-SA-200C5E4A48B8CF25",
@@ -17848,6 +17944,43 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-223078D7E99AD349",
+    "lexical_context": {
+      "dialect": "eastern",
+      "form": "شلون",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "كيف",
+      "place_id": "ENT-SA-REGION-EASTERN",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "eastern"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: شلون = كيف",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-62CB74FC1D87FF11",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=كيف; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -19616,6 +19749,35 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-2C24A398F24616AA",
+    "lexical_context": null,
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "performing_art",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DRESS-CULTURE-MIRROR-2026",
+    "source_locator": "Cultural entry: المزمار الحجازي",
+    "status": "reported",
+    "subject_id": "ENT-SA-REGION-MAKKAH",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "فن أداء شعبي حجازي بالعصي والطبول يؤدى في الأفراح",
+        "name": "المزمار الحجازي"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -23596,6 +23758,43 @@
     "verification_status": "source_verified"
   },
   {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-436ABD1AED50D423",
+    "lexical_context": {
+      "dialect": "southern",
+      "form": "الدح",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "الضحك",
+      "place_id": "ENT-SA-REGION-ASIR",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "southern"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: الدح = الضحك",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-92F5AE0E5BDA9C1E",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=الضحك; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-SA-437B68A431C773A3",
@@ -24114,6 +24313,43 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-46D1FE9E971BE9D1",
+    "lexical_context": {
+      "dialect": "southern",
+      "form": "حن",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "نحن",
+      "place_id": "ENT-SA-REGION-ASIR",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "southern"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: حن = نحن",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-5B13DA6803642A48",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=نحن; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -24660,6 +24896,43 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-494DF9218E93E4B4",
+    "lexical_context": {
+      "dialect": "hijazi",
+      "form": "مفيش",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "لا يوجد",
+      "place_id": "ENT-SA-REGION-MAKKAH",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "hijazi"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: مفيش = لا يوجد",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-4E5D612D9C9C1E17",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=لا يوجد; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -26196,6 +26469,43 @@
     "verification_status": "source_verified"
   },
   {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-514504AB79560024",
+    "lexical_context": {
+      "dialect": "najdi",
+      "form": "ضامي",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "عطشان",
+      "place_id": "ENT-SA-REGION-RIYADH",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "najdi"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: ضامي = عطشان",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-84991E44962413D9",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=عطشان; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-SA-514BB4CD6FEA5490",
@@ -26376,6 +26686,43 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-526FDA4F92EF6B67",
+    "lexical_context": {
+      "dialect": "najdi",
+      "form": "ياهلين",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "أهلا وسهلا",
+      "place_id": "ENT-SA-REGION-RIYADH",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "najdi"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: ياهلين = أهلا وسهلا",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-4ABDC911F873C52C",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=أهلا وسهلا; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -29680,6 +30027,35 @@
     "verification_status": "source_verified"
   },
   {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-SA-673A7DB83E933834",
+    "lexical_context": null,
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "performing_art",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DRESS-CULTURE-MIRROR-2026",
+    "source_locator": "Cultural entry: العرضة النجدية",
+    "status": "reported",
+    "subject_id": "ENT-SA-REGION-RIYADH",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "رقصة السيف والطبول والشعر؛ مدرجة لدى اليونسكو 2015 وتؤدى في الأعياد والمناسبات الوطنية",
+        "name": "العرضة النجدية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-SA-676ED7AA16FFF305",
@@ -30417,6 +30793,43 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-6B1A5C4AB4335FF8",
+    "lexical_context": {
+      "dialect": "hijazi",
+      "form": "يلا",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "هيا",
+      "place_id": "ENT-SA-REGION-MAKKAH",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "hijazi"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: يلا = هيا",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-2DEFEECD8907AEEC",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=هيا; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -31171,6 +31584,43 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-6ED77E540389AE81",
+    "lexical_context": {
+      "dialect": "southern",
+      "form": "هب لي",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "أعطني",
+      "place_id": "ENT-SA-REGION-ASIR",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "southern"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: هب لي = أعطني",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-935C78140EE62960",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=أعطني; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -32471,6 +32921,43 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-767148F1991DF907",
+    "lexical_context": {
+      "dialect": "najdi",
+      "form": "شادر",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "خيمة",
+      "place_id": "ENT-SA-REGION-RIYADH",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "najdi"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: شادر = خيمة",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-2EECA8074FC420DC",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=خيمة; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -33903,6 +34390,36 @@
     "verification_status": "source_verified"
   },
   {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-7DA56C1E9A51635A",
+    "lexical_context": null,
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DRESS-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الدراعة (المقطع) النجدية",
+    "status": "reported",
+    "subject_id": "ENT-SA-REGION-RIYADH",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "ثوب فضفاض إلى الكعبين بألوان زاهية تخاط فيه البنيقة للاتساع، ومعه ثوب الكرباس القطني التاريخي وثياب المناسبات كالمسرح وثوب الثريا وثوب المنثور",
+        "gender": "نسائي",
+        "name": "الدراعة (المقطع) النجدية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-SA-7DC986C96B7B5DC5",
@@ -34681,6 +35198,36 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-80D7294B1019291A",
+    "lexical_context": null,
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DRESS-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الجنبية الجنوبية",
+    "status": "reported",
+    "subject_id": "ENT-SA-REGION-NAJRAN",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "خنجر يحمل على الخصر تاريخيا في الجنوب وعسير ونجران؛ رمز اجتماعي مشترك مع اليمن المجاور",
+        "gender": "رجالي",
+        "name": "الجنبية الجنوبية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -36163,6 +36710,43 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-8953943F8BF9E4E2",
+    "lexical_context": {
+      "dialect": "southern",
+      "form": "مذابك",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "ماذا بك",
+      "place_id": "ENT-SA-REGION-ASIR",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "southern"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: مذابك = ماذا بك",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-5FFAD8DFD7CEC119",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=ماذا بك; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -38425,6 +39009,43 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-95EEEA97127C429B",
+    "lexical_context": {
+      "dialect": "southern",
+      "form": "الطرين",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "مكان بعيد أو مهجور",
+      "place_id": "ENT-SA-REGION-ASIR",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "southern"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: الطرين = مكان بعيد أو مهجور",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-A8EA5B02570CE770",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=مكان بعيد أو مهجور; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -42977,6 +43598,36 @@
     "verification_status": "source_verified"
   },
   {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-SA-ADC4C6FF14383290",
+    "lexical_context": null,
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DRESS-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الغترة والشماغ والعقال",
+    "status": "reported",
+    "subject_id": "ENT-SA-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "الغترة بيضاء والشماغ بنقوش حمراء وبيضاء يشيع في نجد والشمال والشرق، والعقال حبل أسود يثبتهما وللمناسبات عقال مقصب بخيوط ذهبية",
+        "gender": "رجالي",
+        "name": "الغترة والشماغ والعقال"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-SA-ADEF072E634047EF",
@@ -43818,6 +44469,36 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-SA-B29FFA2AB044F193",
+    "lexical_context": null,
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DRESS-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: البشت (المشلح)",
+    "status": "reported",
+    "subject_id": "ENT-SA-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "عباءة خارجية من الصوف أو الحرير للمناسبات الرسمية والأعراس",
+        "gender": "رجالي",
+        "name": "البشت (المشلح)"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -45378,6 +46059,36 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-SA-BCDB304F721E1766",
+    "lexical_context": null,
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DRESS-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الثوب بأنماطه المناطقية",
+    "status": "reported",
+    "subject_id": "ENT-SA-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "رداء طويل أبيض صيفا وداكن شتاء؛ النجدي بياقة مرتفعة وأكمام ضيقة، والحجازي بقصة مريحة وأكمام أوسع، والشمالي داكن شتاء، والشرقي قريب من الخليجي",
+        "gender": "رجالي",
+        "name": "الثوب بأنماطه المناطقية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -48936,6 +49647,43 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-D4AD010B93795C8A",
+    "lexical_context": {
+      "dialect": "najdi",
+      "form": "وشلونك",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "كيف حالك",
+      "place_id": "ENT-SA-REGION-RIYADH",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "najdi"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: وشلونك = كيف حالك",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-1818DC05E0B7086A",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=كيف حالك; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -52734,6 +53482,43 @@
     "verification_status": "source_verified"
   },
   {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-E8ED2FE6650FAD3D",
+    "lexical_context": {
+      "dialect": "hijazi",
+      "form": "إيش",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "ماذا",
+      "place_id": "ENT-SA-REGION-MAKKAH",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "hijazi"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: إيش = ماذا",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-B9B7A82C4877197F",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=ماذا; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-SA-E8FDD6B73EF8314D",
@@ -52836,6 +53621,43 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-E99DC1D1FA319560",
+    "lexical_context": {
+      "dialect": "najdi",
+      "form": "عوج",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "منحنٍ",
+      "place_id": "ENT-SA-REGION-RIYADH",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "najdi"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: عوج = منحنٍ",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-66A6D6DB2E850078",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=منحنٍ; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -53046,6 +53868,35 @@
     "verification_status": "source_verified"
   },
   {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-SA-EA7984DE1C098B9A",
+    "lexical_context": null,
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "market_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DRESS-CULTURE-MIRROR-2026",
+    "source_locator": "Cultural entry: سوق المجلس بالأحساء وأسواق القيصرية",
+    "status": "reported",
+    "subject_id": "ENT-SA-REGION-EASTERN",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أسواق الأحساء التاريخية ومنها سوق القيصرية بالهفوف من أقدم الأسواق الشعبية القائمة",
+        "name": "سوق المجلس بالأحساء وأسواق القيصرية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-SA-EAED0ACC3D36F6D7",
@@ -53174,6 +54025,35 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-SA-EBCF5AC662E70E1C",
+    "lexical_context": null,
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "performing_art",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DRESS-CULTURE-MIRROR-2026",
+    "source_locator": "Cultural entry: الخطوة الجنازية الجنوبية",
+    "status": "reported",
+    "subject_id": "ENT-SA-REGION-JAZAN",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "فن أداء جماعي في جازان والجنوب يقوم على الصف والحركة الإيقاعية",
+        "name": "الخطوة الجنازية الجنوبية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",

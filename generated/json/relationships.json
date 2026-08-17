@@ -59805,6 +59805,21 @@
     "verification_status": "source_verified"
   },
   {
+    "child_id": "ENT-SA-LEXEME-92F5AE0E5BDA9C1E",
+    "confidence": "low",
+    "id": "REL-SA-0A75B17635940B34",
+    "notes": null,
+    "parent_id": "ENT-SA-REGION-ASIR",
+    "relationship_type": "attested_in",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon regional anchor: الدح",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
+  },
+  {
     "child_id": "ENT-SA-CENTER-92385FD14726771E",
     "confidence": "high",
     "id": "REL-SA-0AE73C917F35909A",
@@ -60030,6 +60045,21 @@
     "verification_status": "source_verified"
   },
   {
+    "child_id": "ENT-SA-LEXEME-B9B7A82C4877197F",
+    "confidence": "low",
+    "id": "REL-SA-0CFE74DCE11102CC",
+    "notes": null,
+    "parent_id": "ENT-SA-REGION-MAKKAH",
+    "relationship_type": "attested_in",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon regional anchor: إيش",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
+  },
+  {
     "child_id": "ENT-SA-CENTER-1B7321221C7CF6E1",
     "confidence": "high",
     "id": "REL-SA-0D0CBA7804FC61F1",
@@ -60223,6 +60253,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-SA-LEXEME-4E5D612D9C9C1E17",
+    "confidence": "low",
+    "id": "REL-SA-0F052984595EF54F",
+    "notes": null,
+    "parent_id": "ENT-SA-REGION-MAKKAH",
+    "relationship_type": "attested_in",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon regional anchor: مفيش",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
   },
   {
     "child_id": "ENT-SA-CENTER-42E01DF513E55C94",
@@ -61755,6 +61800,21 @@
     "verification_status": "source_verified"
   },
   {
+    "child_id": "ENT-SA-LEXEME-935C78140EE62960",
+    "confidence": "low",
+    "id": "REL-SA-1CCB71A4B306DE44",
+    "notes": null,
+    "parent_id": "ENT-SA-VARIETY-SOUTHERN",
+    "relationship_type": "form_of",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: هب لي",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
+  },
+  {
     "child_id": "ENT-SA-CENTER-BBFB00E3802F47B0",
     "confidence": "high",
     "id": "REL-SA-1CCCAB7E62C8638D",
@@ -61963,6 +62023,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-SA-LEXEME-A8EA5B02570CE770",
+    "confidence": "low",
+    "id": "REL-SA-1F2DEBCBA715FA25",
+    "notes": null,
+    "parent_id": "ENT-SA-VARIETY-SOUTHERN",
+    "relationship_type": "form_of",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: الطرين",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
   },
   {
     "child_id": "ENT-SA-CENTER-433CCE76D7D476DB",
@@ -62940,6 +63015,21 @@
     "verification_status": "source_verified"
   },
   {
+    "child_id": "ENT-SA-LEXEME-66A6D6DB2E850078",
+    "confidence": "low",
+    "id": "REL-SA-27D343F315793255",
+    "notes": null,
+    "parent_id": "ENT-SA-VARIETY-NAJDI",
+    "relationship_type": "form_of",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: عوج",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
+  },
+  {
     "child_id": "ENT-SA-CENTER-EF91149242AFCBC2",
     "confidence": "high",
     "id": "REL-SA-27D887553E3A281C",
@@ -63208,6 +63298,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-SA-LEXEME-2EECA8074FC420DC",
+    "confidence": "low",
+    "id": "REL-SA-2AE65A5A2EFFCC65",
+    "notes": null,
+    "parent_id": "ENT-SA-VARIETY-NAJDI",
+    "relationship_type": "form_of",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: شادر",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
   },
   {
     "child_id": "ENT-SA-CENTER-3346430BE9AB8D73",
@@ -64515,6 +64620,21 @@
     "verification_status": "source_verified"
   },
   {
+    "child_id": "ENT-SA-LEXEME-92F5AE0E5BDA9C1E",
+    "confidence": "low",
+    "id": "REL-SA-3770CF91E1027C32",
+    "notes": null,
+    "parent_id": "ENT-SA-VARIETY-SOUTHERN",
+    "relationship_type": "form_of",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: الدح",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
+  },
+  {
     "child_id": "ENT-SA-GOV-9547330AD741F411",
     "confidence": "high",
     "id": "REL-SA-37A39445A512BA64",
@@ -64558,6 +64678,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-SA-LEXEME-CBE672C3EAD5A0B5",
+    "confidence": "low",
+    "id": "REL-SA-3848F6E75D78B6A1",
+    "notes": null,
+    "parent_id": "ENT-SA-REGION-EASTERN",
+    "relationship_type": "attested_in",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon regional anchor: وايد",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
   },
   {
     "child_id": "ENT-SA-GOV-5B23FE54670EE916",
@@ -64813,6 +64948,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-SA-VARIETY-NORTHERN",
+    "confidence": "medium",
+    "id": "REL-SA-3BF573B947DDB935",
+    "notes": null,
+    "parent_id": "ENT-SA-REGION-TABUK",
+    "relationship_type": "associated_with",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Variety regional anchor: الشمالية",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "probable"
   },
   {
     "child_id": "ENT-SA-CENTER-5BE1F35F853BF9D1",
@@ -66660,6 +66810,21 @@
     "verification_status": "source_verified"
   },
   {
+    "child_id": "ENT-SA-LEXEME-62CB74FC1D87FF11",
+    "confidence": "low",
+    "id": "REL-SA-4EB6B49851D5ED19",
+    "notes": null,
+    "parent_id": "ENT-SA-VARIETY-EASTERN",
+    "relationship_type": "form_of",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: شلون",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
+  },
+  {
     "child_id": "ENT-SA-CENTER-9C9D350411329C51",
     "confidence": "high",
     "id": "REL-SA-4EC877BB12284864",
@@ -67318,6 +67483,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-SA-LEXEME-5FFAD8DFD7CEC119",
+    "confidence": "low",
+    "id": "REL-SA-551071CA42D42947",
+    "notes": null,
+    "parent_id": "ENT-SA-VARIETY-SOUTHERN",
+    "relationship_type": "form_of",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: مذابك",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
   },
   {
     "child_id": "ENT-SA-CENTER-AAE6E2BB121FF2F1",
@@ -68008,6 +68188,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-SA-LEXEME-1818DC05E0B7086A",
+    "confidence": "low",
+    "id": "REL-SA-5B53B56A021A97D4",
+    "notes": null,
+    "parent_id": "ENT-SA-REGION-RIYADH",
+    "relationship_type": "attested_in",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon regional anchor: وشلونك",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
   },
   {
     "child_id": "ENT-SA-CENTER-0AF14C01EAB4CF46",
@@ -69433,6 +69628,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-SA-LEXEME-CBE672C3EAD5A0B5",
+    "confidence": "low",
+    "id": "REL-SA-69EF2B47DEAF9F16",
+    "notes": null,
+    "parent_id": "ENT-SA-VARIETY-EASTERN",
+    "relationship_type": "form_of",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: وايد",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
   },
   {
     "child_id": "ENT-SA-CENTER-871F6474A19E80DF",
@@ -71295,6 +71505,21 @@
     "verification_status": "source_verified"
   },
   {
+    "child_id": "ENT-SA-LEXEME-4E5D612D9C9C1E17",
+    "confidence": "low",
+    "id": "REL-SA-7B7BF7B360BD88B7",
+    "notes": null,
+    "parent_id": "ENT-SA-VARIETY-HIJAZI",
+    "relationship_type": "form_of",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: مفيش",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
+  },
+  {
     "child_id": "ENT-SA-CENTER-AFE86C26EC67E3A8",
     "confidence": "high",
     "id": "REL-SA-7BC333857C34079E",
@@ -71878,6 +72103,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-SA-LEXEME-2DEFEECD8907AEEC",
+    "confidence": "low",
+    "id": "REL-SA-8168424DD14ACBA0",
+    "notes": null,
+    "parent_id": "ENT-SA-VARIETY-HIJAZI",
+    "relationship_type": "form_of",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: يلا",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
   },
   {
     "child_id": "ENT-SA-CENTER-7CFC4F8B0F7ECD1B",
@@ -72523,6 +72763,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-SA-LEXEME-B9B7A82C4877197F",
+    "confidence": "low",
+    "id": "REL-SA-87874EBA18DC9BD5",
+    "notes": null,
+    "parent_id": "ENT-SA-VARIETY-HIJAZI",
+    "relationship_type": "form_of",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: إيش",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
   },
   {
     "child_id": "ENT-SA-CENTER-D8EF35A39CC56688",
@@ -74820,6 +75075,36 @@
     "verification_status": "source_verified"
   },
   {
+    "child_id": "ENT-SA-LEXEME-4ABDC911F873C52C",
+    "confidence": "low",
+    "id": "REL-SA-9D944BE850DC2624",
+    "notes": null,
+    "parent_id": "ENT-SA-REGION-RIYADH",
+    "relationship_type": "attested_in",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon regional anchor: ياهلين",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
+  },
+  {
+    "child_id": "ENT-SA-LEXEME-62CB74FC1D87FF11",
+    "confidence": "low",
+    "id": "REL-SA-9DA5D0E024EC247E",
+    "notes": null,
+    "parent_id": "ENT-SA-REGION-EASTERN",
+    "relationship_type": "attested_in",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon regional anchor: شلون",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
+  },
+  {
     "child_id": "ENT-SA-CENTER-3A6CA6C54B2B7789",
     "confidence": "high",
     "id": "REL-SA-9DC0EDEB91968E1A",
@@ -76290,6 +76575,21 @@
     "verification_status": "source_verified"
   },
   {
+    "child_id": "ENT-SA-LEXEME-2DEFEECD8907AEEC",
+    "confidence": "low",
+    "id": "REL-SA-A9AC746367D71527",
+    "notes": null,
+    "parent_id": "ENT-SA-REGION-MAKKAH",
+    "relationship_type": "attested_in",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon regional anchor: يلا",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
+  },
+  {
     "child_id": "ENT-SA-CENTER-23EAB2E7A8275D28",
     "confidence": "high",
     "id": "REL-SA-A9E91543B489BFF9",
@@ -76588,6 +76888,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-SA-LEXEME-84991E44962413D9",
+    "confidence": "low",
+    "id": "REL-SA-AC1FDA062DEA4966",
+    "notes": null,
+    "parent_id": "ENT-SA-REGION-RIYADH",
+    "relationship_type": "attested_in",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon regional anchor: ضامي",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
   },
   {
     "child_id": "ENT-SA-LEXEME-AE92AD9E9BAF4975",
@@ -77535,6 +77850,21 @@
     "verification_status": "source_verified"
   },
   {
+    "child_id": "ENT-SA-LEXEME-66A6D6DB2E850078",
+    "confidence": "low",
+    "id": "REL-SA-B5DE6665C6EE7CC4",
+    "notes": null,
+    "parent_id": "ENT-SA-REGION-RIYADH",
+    "relationship_type": "attested_in",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon regional anchor: عوج",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
+  },
+  {
     "child_id": "ENT-SA-CENTER-CAAF2504B9B72B77",
     "confidence": "high",
     "id": "REL-SA-B60EB9E6D389661F",
@@ -78210,6 +78540,21 @@
     "verification_status": "source_verified"
   },
   {
+    "child_id": "ENT-SA-LEXEME-A8EA5B02570CE770",
+    "confidence": "low",
+    "id": "REL-SA-BC66E5EF148F174E",
+    "notes": null,
+    "parent_id": "ENT-SA-REGION-ASIR",
+    "relationship_type": "attested_in",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon regional anchor: الطرين",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
+  },
+  {
     "child_id": "ENT-SA-GOV-0E6087A0D5A0FF8A",
     "confidence": "high",
     "id": "REL-SA-BC6E6D8590CB9F27",
@@ -78420,6 +78765,21 @@
     "verification_status": "source_verified"
   },
   {
+    "child_id": "ENT-SA-LEXEME-1818DC05E0B7086A",
+    "confidence": "low",
+    "id": "REL-SA-BF05356FA993A28A",
+    "notes": null,
+    "parent_id": "ENT-SA-VARIETY-NAJDI",
+    "relationship_type": "form_of",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: وشلونك",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
+  },
+  {
     "child_id": "ENT-SA-CENTER-2418588047A5E2C4",
     "confidence": "high",
     "id": "REL-SA-BF6107DDA2A15338",
@@ -78508,6 +78868,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-SA-LEXEME-935C78140EE62960",
+    "confidence": "low",
+    "id": "REL-SA-C0C810C6C15DD738",
+    "notes": null,
+    "parent_id": "ENT-SA-REGION-ASIR",
+    "relationship_type": "attested_in",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon regional anchor: هب لي",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
   },
   {
     "child_id": "ENT-SA-CENTER-5E7A04A84CC763A0",
@@ -79080,6 +79455,21 @@
     "verification_status": "source_verified"
   },
   {
+    "child_id": "ENT-SA-VARIETY-SOUTHERN",
+    "confidence": "medium",
+    "id": "REL-SA-C73EC2631576D3E0",
+    "notes": null,
+    "parent_id": "ENT-SA-LANGUAGE-ARABIC",
+    "relationship_type": "variety_of",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Variety profile: الجنوبية",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "probable"
+  },
+  {
     "child_id": "ENT-SA-CENTER-7B1A8F156DB8C739",
     "confidence": "high",
     "id": "REL-SA-C7B070CF6BA02C61",
@@ -79183,6 +79573,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-SA-VARIETY-SOUTHERN",
+    "confidence": "medium",
+    "id": "REL-SA-C8D56503EBCF1D4C",
+    "notes": null,
+    "parent_id": "ENT-SA-REGION-ASIR",
+    "relationship_type": "associated_with",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Variety regional anchor: الجنوبية",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "probable"
   },
   {
     "child_id": "ENT-SA-CENTER-CBEA9F75382418B2",
@@ -80520,6 +80925,21 @@
     "verification_status": "source_verified"
   },
   {
+    "child_id": "ENT-SA-LEXEME-2EECA8074FC420DC",
+    "confidence": "low",
+    "id": "REL-SA-D4A2DE9BD2F2B3A6",
+    "notes": null,
+    "parent_id": "ENT-SA-REGION-RIYADH",
+    "relationship_type": "attested_in",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon regional anchor: شادر",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
+  },
+  {
     "child_id": "ENT-SA-CENTER-5DBA31295573BB8B",
     "confidence": "high",
     "id": "REL-SA-D4B920D8038BBA5A",
@@ -80848,6 +81268,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-SA-VARIETY-NORTHERN",
+    "confidence": "medium",
+    "id": "REL-SA-D7DD33587A3F40DB",
+    "notes": null,
+    "parent_id": "ENT-SA-LANGUAGE-ARABIC",
+    "relationship_type": "variety_of",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Variety profile: الشمالية",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "probable"
   },
   {
     "child_id": "ENT-SA-CENTER-B1BD9835818BA081",
@@ -82515,6 +82950,21 @@
     "verification_status": "source_verified"
   },
   {
+    "child_id": "ENT-SA-LEXEME-4ABDC911F873C52C",
+    "confidence": "low",
+    "id": "REL-SA-E8037DD50EAE6CC5",
+    "notes": null,
+    "parent_id": "ENT-SA-VARIETY-NAJDI",
+    "relationship_type": "form_of",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: ياهلين",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
+  },
+  {
     "child_id": "ENT-SA-CENTER-148AF9F037C3D447",
     "confidence": "high",
     "id": "REL-SA-E81E9A05CF017A91",
@@ -82725,6 +83175,21 @@
     "verification_status": "source_verified"
   },
   {
+    "child_id": "ENT-SA-VARIETY-EASTERN",
+    "confidence": "medium",
+    "id": "REL-SA-EA8340BA9AD9B433",
+    "notes": null,
+    "parent_id": "ENT-SA-REGION-EASTERN",
+    "relationship_type": "associated_with",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Variety regional anchor: الشرقية",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "probable"
+  },
+  {
     "child_id": "ENT-SA-CENTER-9E97820B799DB2DC",
     "confidence": "high",
     "id": "REL-SA-EABA8BE75406C7AE",
@@ -82920,6 +83385,21 @@
     "verification_status": "source_verified"
   },
   {
+    "child_id": "ENT-SA-VARIETY-EASTERN",
+    "confidence": "medium",
+    "id": "REL-SA-ED666C5E5E178ABD",
+    "notes": null,
+    "parent_id": "ENT-SA-LANGUAGE-ARABIC",
+    "relationship_type": "variety_of",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Variety profile: الشرقية",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "probable"
+  },
+  {
     "child_id": "ENT-SA-REGION-JAZAN",
     "confidence": "high",
     "id": "REL-SA-EDF0ED3CC8C9FF04",
@@ -82948,6 +83428,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-SA-LEXEME-5FFAD8DFD7CEC119",
+    "confidence": "low",
+    "id": "REL-SA-EE57BD331FD5425F",
+    "notes": null,
+    "parent_id": "ENT-SA-REGION-ASIR",
+    "relationship_type": "attested_in",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon regional anchor: مذابك",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
   },
   {
     "child_id": "ENT-SA-CENTER-0AE89396EA3A7632",
@@ -83008,6 +83503,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-SA-LEXEME-84991E44962413D9",
+    "confidence": "low",
+    "id": "REL-SA-F05407E2C6ACB399",
+    "notes": null,
+    "parent_id": "ENT-SA-VARIETY-NAJDI",
+    "relationship_type": "form_of",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: ضامي",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
   },
   {
     "child_id": "ENT-SA-CENTER-C5056FF37A525B09",
@@ -83158,6 +83668,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-SA-LEXEME-5B13DA6803642A48",
+    "confidence": "low",
+    "id": "REL-SA-F146F4A3FAEBDE8A",
+    "notes": null,
+    "parent_id": "ENT-SA-VARIETY-SOUTHERN",
+    "relationship_type": "form_of",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: حن",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
   },
   {
     "child_id": "ENT-SA-CENTER-08645E0296689EE0",
@@ -84343,6 +84868,21 @@
     "valid_from": null,
     "valid_to": null,
     "verification_status": "source_verified"
+  },
+  {
+    "child_id": "ENT-SA-LEXEME-5B13DA6803642A48",
+    "confidence": "low",
+    "id": "REL-SA-FDD974A726CAA9AE",
+    "notes": null,
+    "parent_id": "ENT-SA-REGION-ASIR",
+    "relationship_type": "attested_in",
+    "schema_version": "2.0.0",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon regional anchor: حن",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "verification_status": "local_reported"
   },
   {
     "child_id": "ENT-SA-GOV-94C15E78222B7FE7",
