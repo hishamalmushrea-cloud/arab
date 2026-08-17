@@ -5,10 +5,16 @@
     "added_by_law_31_2013": 1,
     "current_scope": 22,
     "district_frame": "333 districts attested across 22 first-level units; identities reconciled from the NIC catalogue mirror and the 2004 census frame; individual identities carry probable status pending an atomic official coded register.",
+    "lane_frame": "Amanat 2004 frame: 791 lanes across 10 districts plus two suburb blocks; 104 lane identities attested for Old Sanaa (69) and Tahrir (35); remaining 687 lanes are a documented open frame, never fabricated.",
     "legacy_scope": 21,
     "socotra_effective_date_basis": "Law reported issued 2013-12-18; Yemen laws ordinarily state operation from issuance, but the complete official text locator remains a documented source-access limitation."
   },
   "records": [
+    {
+      "path": "fixtures/amanat_lanes_2026.json",
+      "record_count": 104,
+      "sha256": "442e31ebd30a5ac91bd7ea1a6c97888dc063bc4bd0b2d35380fd4960d52aeeae"
+    },
     {
       "path": "fixtures/districts_2026.json",
       "record_count": 333,

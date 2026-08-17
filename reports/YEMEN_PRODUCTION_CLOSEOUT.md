@@ -51,3 +51,16 @@ First cycle executed under the **Maximum Arabic Knowledge Coverage** policy (`00
 - `DEN-YE-DISTRICTS` = 333 (official frame); `COV-YE-DISTRICTS` = 333 matched. Uzlas remain denominator-unavailable with zero fabricated records.
 - 12/12 negative mutations detected, including new district-frame mutations; independent review covers the full 752-record population.
 - No conflict, control, damage, or displacement inference; the legal/statistical frame stays separate from war overlays.
+
+## Depth-expansion cycle 2 — Amanat lane layer (2026-08-17)
+
+Second cycle under **Maximum Arabic Knowledge Coverage**: the lane (حارة) layer enters as **places**, not administrative tiers.
+
+- **Official frame:** NIC Amanat classification — 10 districts, 89 hays, **791 lanes** (census 2004). `DEN-YE-AMANAT-LANES` = 791.
+- **104 attested lane identities** (13.15% of the frame, `complete=false`, 687 documented missing — never fabricated):
+  - **Old Sanaa: 69 lanes** at `probable` (heritage-cited inventory; UNESCO World Heritage 1986, danger list 2015).
+  - **Tahrir: 35 lanes** across 3 hays — التحرير (20) and بير العزب (8) at `probable` with 2004 census homes/households/population tables; **القاع (7) at `unverified`** (names-only by subtraction; historical قاع اليهود whose community emigrated).
+- **33 lane population claims** (2004 census, `observed_at: 2004-12-16`) — `status: reported`, **unpublished**, never projected to the present.
+- **3 naming-origin narratives** (ياسر/غمدان/غرقة القليس) at `local_reported`, classification `historical`, unpublished — first use of the narrative-not-fact contract.
+- Orthographic near-duplicates (بير/بئر البهمة in one hay) are distinct census rows; identity keys carry the inventory sequence to avoid false merging.
+- Gate: 17/17 mutations (5 new: fabricated lane, lane promoted to verified, lane population published, narrative promoted to fact, coverage forced complete); independent review **1,004/1,004**.

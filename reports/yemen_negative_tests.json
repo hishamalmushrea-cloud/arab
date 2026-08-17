@@ -1,6 +1,6 @@
 {
   "country_code": "YE",
-  "detected": 12,
+  "detected": 17,
   "mutations": [
     {
       "detected": true,
@@ -49,6 +49,31 @@
     },
     {
       "detected": true,
+      "expected_code": "YE_COUNTS",
+      "mutation": "YE_FABRICATED_LANE_ADDED"
+    },
+    {
+      "detected": true,
+      "expected_code": "YE_LANE_STATUS",
+      "mutation": "YE_LANE_PROMOTED_TO_VERIFIED"
+    },
+    {
+      "detected": true,
+      "expected_code": "YE_LANE_POP",
+      "mutation": "YE_LANE_POP_PUBLISHED_AS_CURRENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "YE_LANE_NARRATIVE",
+      "mutation": "YE_NARRATIVE_PROMOTED_TO_FACT"
+    },
+    {
+      "detected": true,
+      "expected_code": "YE_LANE_COVERAGE",
+      "mutation": "YE_LANE_COVERAGE_FORCED_COMPLETE"
+    },
+    {
+      "detected": true,
       "expected_code": "YE_PARENT",
       "mutation": "YE_WRONG_PARENT"
     },
@@ -63,7 +88,7 @@
       "mutation": "YE_EFFECTIVE_CLAUSE_FABRICATED"
     }
   ],
-  "required": 12,
+  "required": 17,
   "schema_version": "2.0.0",
   "status": "PASS"
 }

@@ -1821,6 +1821,23 @@
   {
     "as_of": "2026-08-17",
     "country_code": "YE",
+    "definition": "Amanat Al Asimah lane universe: 791 lanes across 10 districts plus two suburb blocks under the NIC census-2004 frame; 104 lane identities attested (Old Sanaa 69, Tahrir 35); the remaining 687 lanes are an open documented frame.",
+    "denominator": 791,
+    "id": "DEN-YE-AMANAT-LANES",
+    "layer": "ye_amanat_lane_2004",
+    "license": "Factual extraction with attribution; publisher reuse terms not stated",
+    "missing_reason": null,
+    "notes": "Amanat Al Asimah lane universe: 791 lanes across 10 districts plus two suburb blocks under the NIC census-2004 frame; 104 lane identities attested (Old Sanaa 69, Tahrir 35); the remaining 687 lanes are an open documented frame.",
+    "schema_version": "2.0.0",
+    "snapshot_date": "2026-08-17",
+    "source_id": "SRC-YE-NIC-AMANAT-CENSUS-2004",
+    "source_locator": "Amanat Al Asimah lane universe: 791 lanes across 10 districts plus two suburb blocks under the NIC census-2004 frame; 104 lane identities attested (Old Sanaa 69, Tahrir 35); the remaining 687 lanes are an open documented frame.",
+    "status": "official",
+    "value": 791
+  },
+  {
+    "as_of": "2026-08-17",
+    "country_code": "YE",
     "definition": "Amanat Al Asimah is one parallel first-level capital municipality.",
     "denominator": 1,
     "id": "DEN-YE-CAPITAL-MUNICIPALITY",

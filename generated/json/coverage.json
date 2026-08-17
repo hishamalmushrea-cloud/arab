@@ -2252,6 +2252,27 @@
     "unmatched": 0
   },
   {
+    "complete": false,
+    "country_code": "YE",
+    "coverage_percentage": 13.15,
+    "denominator": 791,
+    "denominator_id": "DEN-YE-AMANAT-LANES",
+    "excluded": 0,
+    "exclusion_reasons": [],
+    "id": "COV-YE-AMANAT-LANES",
+    "layer": "ye_amanat_lane_2004",
+    "license": "Factual extraction with attribution; publisher reuse terms not stated",
+    "matched": 104,
+    "missing": 687,
+    "missing_reason": "lane_inventories_not_yet_reconciled: per-district lane name tables for the remaining eight districts and two suburb blocks are attested to exist in the 2004 census frame but are not yet retrieved; no name is fabricated",
+    "notes": "Amanat Al Asimah lane universe: 791 lanes across 10 districts plus two suburb blocks under the NIC census-2004 frame; 104 lane identities attested (Old Sanaa 69, Tahrir 35); the remaining 687 lanes are an open documented frame.",
+    "schema_version": "2.0.0",
+    "snapshot_date": "2026-08-17",
+    "snapshot_id": "SNP-YE-PRODUCTION-20260817",
+    "source_id": "SRC-YE-NIC-AMANAT-CENSUS-2004",
+    "unmatched": 687
+  },
+  {
     "complete": true,
     "country_code": "YE",
     "coverage_percentage": 100.0,

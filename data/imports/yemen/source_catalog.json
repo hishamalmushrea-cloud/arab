@@ -101,6 +101,46 @@
       "source_type": "archive",
       "title": "Census 2004 administrative frame — archived CSO administrative definitions",
       "url": "https://web.archive.org/web/20180930200530/http://www.cso-yemen.org/content.php?lng=arabic&id=277"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e",
+      "country_codes": [
+        "YE"
+      ],
+      "id": "SRC-YE-NIC-AMANAT-CENSUS-2004",
+      "language": "ar",
+      "license": "Factual extraction with attribution; publisher reuse terms not stated",
+      "locator": "Amanat classification page: 10 districts, 89 neighborhoods, 791 lanes; census 2004 district table",
+      "notes": "Official NIC frame anchoring the Amanat lane universe of 791 and district populations. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "National Information Center Yemen",
+      "quality_tier": "A",
+      "retrieved_at": "2026-08-17",
+      "schema_version": "2.0.0",
+      "source_type": "official_register",
+      "title": "Amanat Al Asimah administrative classification and census 2004 frame",
+      "url": "http://www.yemen-nic.info/gover/sanaacity/brife/"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e",
+      "country_codes": [
+        "YE"
+      ],
+      "id": "SRC-YE-LANE-PAGES-MIRROR",
+      "language": "ar",
+      "license": "Factual extraction with attribution; publisher reuse terms not stated",
+      "locator": "Old Sanaa 69-lane inventory; Tahrir hay tables with homes/households/population 2004",
+      "notes": "Lane identities and 2004 figures mirrored from census-citing pages; identities carry probable status, Qa names-only entries carry unverified status. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Encyclopedic mirror pages citing census 2004 and heritage documentation",
+      "quality_tier": "C",
+      "retrieved_at": "2026-08-17",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "Old Sanaa and Tahrir lane inventories — encyclopedic mirror pages",
+      "url": "https://ar.wikipedia.org/wiki/%D8%B5%D9%86%D8%B9%D8%A7%D8%A1_%D8%A7%D9%84%D9%82%D8%AF%D9%8A%D9%85%D8%A9"
     }
   ]
 }

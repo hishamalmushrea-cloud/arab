@@ -10,32 +10,32 @@
     },
     "claims": {
       "failed": 0,
-      "passed": 23,
-      "sampled": 23,
+      "passed": 59,
+      "sampled": 59,
       "status": "PASS"
     },
     "coverage": {
       "failed": 0,
-      "passed": 6,
-      "sampled": 6,
+      "passed": 7,
+      "sampled": 7,
       "status": "PASS"
     },
     "denominators": {
       "failed": 0,
-      "passed": 6,
-      "sampled": 6,
+      "passed": 7,
+      "sampled": 7,
       "status": "PASS"
     },
     "entities": {
       "failed": 0,
-      "passed": 356,
-      "sampled": 356,
+      "passed": 463,
+      "sampled": 463,
       "status": "PASS"
     },
     "relationships": {
       "failed": 0,
-      "passed": 355,
-      "sampled": 355,
+      "passed": 462,
+      "sampled": 462,
       "status": "PASS"
     },
     "sources": {
@@ -46,10 +46,10 @@
     }
   },
   "findings": [],
-  "method": "Independent full-population comparison against the checksum-bound 22-unit legal/statistical fixture and the 333-district attested inventory, including Amanat type, Socotra law-date boundary, district parentage, and probable-status enforcement.",
+  "method": "Independent full-population comparison against the checksum-bound 22-unit fixture, the 333-district inventory, and the 104-lane Amanat inventory, including Amanat type, Socotra law-date boundary, district parentage, probable/unverified status enforcement, and unpublished 2004 lane populations.",
   "p0": 0,
   "schema_version": "2.0.0",
   "status": "PASS",
-  "total_passed": 752,
-  "total_sampled": 752
+  "total_passed": 1004,
+  "total_sampled": 1004
 }

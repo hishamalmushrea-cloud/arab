@@ -3,7 +3,8 @@
     "Current legal first-level universe is reconstructed from a legacy official 20-governorate-plus-capital frame and Law 31/2013 adding Socotra.",
     "The complete official-gazette copy and its effective-clause wording were not retrievable; no wording is inferred.",
     "Legal identity is not effective control, destruction, displacement, or dispute status.",
-    "District identities are attested from a mirror of the NIC catalogue anchored to the archived official 333-district frame; they carry probable status, not verified, until an atomic official coded register is reconciled."
+    "District identities are attested from a mirror of the NIC catalogue anchored to the archived official 333-district frame; they carry probable status, not verified, until an atomic official coded register is reconciled.",
+    "Lanes are places, not administrative tiers: 104 Amanat lane identities are attested (69 Old Sanaa probable, 28 Tahrir censused probable, 7 Qa names-only unverified) against the official 791-lane 2004 frame; populations are 2004 figures, never projected."
   ],
   "country": {
     "entity_id": "ENT-YE-COUNTRY",
@@ -16,7 +17,8 @@
     "COV-YE-GOVERNORATES",
     "COV-YE-CAPITAL-MUNICIPALITY",
     "COV-YE-LEGACY-FIRST-LEVEL",
-    "COV-YE-DISTRICTS"
+    "COV-YE-DISTRICTS",
+    "COV-YE-AMANAT-LANES"
   ],
   "hierarchy": [
     {

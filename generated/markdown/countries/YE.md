@@ -8,6 +8,7 @@
 
 | الطبقة | تعريف المقام | المقام | مطابق | غير مطابق | مستبعد | مفقود | النسبة | تاريخ اللقطة | اللقطة | المصدر | الترخيص | مكتمل | سبب النقص |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| ye_amanat_lane_2004 | Amanat Al Asimah lane universe: 791 lanes across 10 districts plus two suburb blocks under the NIC census-2004 frame; 104 lane identities attested (Old Sanaa 69, Tahrir 35); the remaining 687 lanes are an open documented frame. | 791 | 104 | 687 | 0 | 687 | 13.15% | 2026-08-17 | SNP-YE-PRODUCTION-20260817 | SRC-YE-NIC-AMANAT-CENSUS-2004 | Factual extraction with attribution; publisher reuse terms not stated | لا | lane_inventories_not_yet_reconciled: per-district lane name tables for the remaining eight districts and two suburb blocks are attested to exist in the 2004 census frame but are not yet retrieved; no name is fabricated |
 | ye_capital_municipality_current | Amanat Al Asimah is one parallel first-level capital municipality. | 1 | 1 | 0 | 0 | 0 | 100% | 2026-08-17 | SNP-YE-PRODUCTION-20260817 | SRC-YE-NIC-GOVERNORATES-LEGACY | Factual extraction with attribution; publisher reuse terms not stated | نعم | — |
 | country_scope | ISO country entity in the project's 22-country scope | 1 | 1 | 0 | 0 | 0 | 100% | 2026-08-15 | SNP-MIGRATION-2026-08-15 | SRC-ISO-3166-1-2020 | ISO copyright; reuse is subject to ISO terms of use | نعم | — |
 | ye_district_current | National 333-district frame from the archived official CSO administrative-definitions page; identities attested via the NIC catalogue mirror and carry probable status pending an atomic official coded register. | 333 | 333 | 0 | 0 | 0 | 100% | 2026-08-17 | SNP-YE-PRODUCTION-20260817 | SRC-YE-CENSUS-2004-LEGACY-FRAME | Factual extraction with attribution; publisher reuse terms not stated | نعم | — |
@@ -375,6 +376,113 @@
 | ENT-YE-GOVERNORATE-20 | ذمار | ye_governorate | current | SRC-YE-NIC-GOVERNORATES-LEGACY | Governorates catalogue entry: ذمار |
 | ENT-YE-GOVERNORATE-21 | ريمة | ye_governorate | current | SRC-YE-NIC-GOVERNORATES-LEGACY | Governorates catalogue entry: ريمة |
 | ENT-YE-GOVERNORATE-22 | أرخبيل سقطرى | ye_governorate | current | SRC-YE-LAW-31-SOCOTRA-REPORT-2013 | Law 31/2013, issued 18 December 2013, Article 2 extract |
+| ENT-YE-LANE-0917117AF865 | الأبزر | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 1: الأبزر |
+| ENT-YE-LANE-0BE4AA7A5349 | بئر خيران | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir بير العزب lane table, seq 6: بئر خيران |
+| ENT-YE-LANE-0C2126A297D0 | بحر رجرج | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 39: بحر رجرج |
+| ENT-YE-LANE-134DEFCA2093 | عشة الرعدي | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 20: عشة الرعدي |
+| ENT-YE-LANE-14BCFECA9108 | شكر | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 55: شكر |
+| ENT-YE-LANE-16408FDBEC40 | بستان المنصور | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir بير العزب lane table, seq 3: بستان المنصور |
+| ENT-YE-LANE-165BF76712BF | بنك الدم | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 12: بنك الدم |
+| ENT-YE-LANE-16AEECE3ABA1 | القاضي | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 16: القاضي |
+| ENT-YE-LANE-182E0F4A927E | سكرة | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 47: سكرة |
+| ENT-YE-LANE-1F76BF2D6F3A | المدرسة | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 26: المدرسة |
+| ENT-YE-LANE-252ACC42E15F | المفتون | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 30: المفتون |
+| ENT-YE-LANE-26DB46908A04 | الخراز | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 13: الخراز |
+| ENT-YE-LANE-290BA46F61E8 | الفليحي | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 22: الفليحي |
+| ENT-YE-LANE-2B1FF8F8F604 | القزالي | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 24: القزالي |
+| ENT-YE-LANE-2B3DE055513E | بير السويدي | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 10: بير السويدي |
+| ENT-YE-LANE-2BBE570D0DC0 | الكدس | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 25: الكدس |
+| ENT-YE-LANE-2C4F4D16C5A4 | خضير | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 43: خضير |
+| ENT-YE-LANE-2E61754A883E | باب السباح | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 36: باب السباح |
+| ENT-YE-LANE-2FB043F2810E | الباشا | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 3: الباشا |
+| ENT-YE-LANE-304F5B7CECA0 | نعمان | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 68: نعمان |
+| ENT-YE-LANE-359917D3B8F2 | سوق سيلان | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 52: سوق سيلان |
+| ENT-YE-LANE-36E5D92EC112 | الحرقان | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 9: الحرقان |
+| ENT-YE-LANE-372BEF6ACE7C | الجوافة | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 8: الجوافة |
+| ENT-YE-LANE-37563B0670BE | الشراعي | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 11: الشراعي |
+| ENT-YE-LANE-3C0F6E926BEC | الجديد | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 6: الجديد |
+| ENT-YE-LANE-3D93EE13CD2D | النهرين | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 34: النهرين |
+| ENT-YE-LANE-40466FEC534E | الطواشي | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 20: الطواشي |
+| ENT-YE-LANE-40492988EE63 | البهمة | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 14: البهمة |
+| ENT-YE-LANE-41923508B2A7 | بئر البهمة | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir بير العزب lane table, seq 7: بئر البهمة |
+| ENT-YE-LANE-427157ECCEE9 | كباس | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 62: كباس |
+| ENT-YE-LANE-42A6E433FC88 | الشراعي | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 17: الشراعي |
+| ENT-YE-LANE-42F12D9E12FD | موسى | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 66: موسى |
+| ENT-YE-LANE-44403FF71438 | الحسوسة | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 10: الحسوسة |
+| ENT-YE-LANE-4907B2752000 | الميدان | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 32: الميدان |
+| ENT-YE-LANE-4E04BA538404 | سبأ | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 46: سبأ |
+| ENT-YE-LANE-4FB76B4DBE1F | معاذ | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 64: معاذ |
+| ENT-YE-LANE-5121E51CECAE | باب عبيلة | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir بير العزب lane table, seq 8: باب عبيلة |
+| ENT-YE-LANE-56E01258DBCF | الزمر | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 15: الزمر |
+| ENT-YE-LANE-5A7850F341DC | الدفعي | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 14: الدفعي |
+| ENT-YE-LANE-5A8CE104F6F7 | عقيل | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 58: عقيل |
+| ENT-YE-LANE-5ABE74FA1C2E | بستان شارب | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 42: بستان شارب |
+| ENT-YE-LANE-5DE7BF9C0236 | بستان علي | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 15: بستان علي |
+| ENT-YE-LANE-5E013021454E | الجامع الكبير | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 5: الجامع الكبير |
+| ENT-YE-LANE-5EE221168E77 | شعوب | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 54: شعوب |
+| ENT-YE-LANE-629072F5A63D | بستان السلطان | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 41: بستان السلطان |
+| ENT-YE-LANE-63D5E9207817 | سوق المخلاص | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 50: سوق المخلاص |
+| ENT-YE-LANE-64C1122A5FA2 | ياسر | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 69: ياسر |
+| ENT-YE-LANE-67FA831417EE | الشهيدين | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 18: الشهيدين |
+| ENT-YE-LANE-6C36AFBA441C | البلقة | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 1: البلقة |
+| ENT-YE-LANE-6E6377B84F49 | بروم | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 40: بروم |
+| ENT-YE-LANE-6F713DAD95E5 | الأسطى | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 19: الأسطى |
+| ENT-YE-LANE-72DD0B1A030D | البكيرية | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 4: البكيرية |
+| ENT-YE-LANE-7ACA57E13B36 | نصير | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 67: نصير |
+| ENT-YE-LANE-7C21C11A3807 | الحميدي | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 11: الحميدي |
+| ENT-YE-LANE-7ED0686FEF9A | بئر البهمة | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 5: بئر البهمة |
+| ENT-YE-LANE-80981A37774B | محمود | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 63: محمود |
+| ENT-YE-LANE-8200CD5B9C67 | الكويت | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 2: الكويت |
+| ENT-YE-LANE-84BCBE337109 | قبة المهدي | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 61: قبة المهدي |
+| ENT-YE-LANE-8719D6C9ECD5 | سمرة | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 53: سمرة |
+| ENT-YE-LANE-878D9221976F | المطيط | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 29: المطيط |
+| ENT-YE-LANE-8830E05ED613 | الطبري | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 19: الطبري |
+| ENT-YE-LANE-8D80EFA1FF0C | النظارة – الجديد | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 33: النظارة – الجديد |
+| ENT-YE-LANE-8E3EE5B3BBA7 | القيادة | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 18: القيادة |
+| ENT-YE-LANE-92B33AD8D3E4 | قاع العلفي | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir القاع lane table, seq 3: قاع العلفي |
+| ENT-YE-LANE-92FA0009DBED | محمود (سوق البقر) | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 49: محمود (سوق البقر) |
+| ENT-YE-LANE-9459B2D3C52F | بير البهمة | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir بير العزب lane table, seq 4: بير البهمة |
+| ENT-YE-LANE-9542F77A0F05 | المنصورة | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 31: المنصورة |
+| ENT-YE-LANE-9FC91519B497 | القاضي | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir بير العزب lane table, seq 5: القاضي |
+| ENT-YE-LANE-9FD6236B4D4A | السائلة | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 16: السائلة |
+| ENT-YE-LANE-9FDCF622B9E3 | العلمي | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 21: العلمي |
+| ENT-YE-LANE-A2F057FE508F | قاع العلفي-حمادي | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir القاع lane table, seq 4: قاع العلفي-حمادي |
+| ENT-YE-LANE-AE5FC81BC5AA | الإذاعة الشمالية | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 8: الإذاعة الشمالية |
+| ENT-YE-LANE-AFF6A929142D | البونية | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir بير العزب lane table, seq 1: البونية |
+| ENT-YE-LANE-B0206741CAC7 | خضير صرحة الوادي | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 44: خضير صرحة الوادي |
+| ENT-YE-LANE-B19FA396EFE3 | المصباغة | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 28: المصباغة |
+| ENT-YE-LANE-B3FA878CB1AF | الرجامي | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir القاع lane table, seq 6: الرجامي |
+| ENT-YE-LANE-B500010F53DB | الجامعة القديمة | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 3: الجامعة القديمة |
+| ENT-YE-LANE-B8BDE33CAC28 | طلحة | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 57: طلحة |
+| ENT-YE-LANE-BB6E5B517014 | معمر | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 65: معمر |
+| ENT-YE-LANE-C02942555FD3 | بئر الشمس | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 13: بئر الشمس |
+| ENT-YE-LANE-C08CD392511C | الكهرباء | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 7: الكهرباء |
+| ENT-YE-LANE-C1A90FF85A0A | المذهب | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 27: المذهب |
+| ENT-YE-LANE-C1D9BCA791DF | الأبهر | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 2: الأبهر |
+| ENT-YE-LANE-C1DEE507ADA1 | بير أبو شملة | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 4: بير أبو شملة |
+| ENT-YE-LANE-C5084ED0E0D9 | سوق البقر | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 48: سوق البقر |
+| ENT-YE-LANE-C5FDB3A299BA | باب السلام | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 37: باب السلام |
+| ENT-YE-LANE-C643A5E7F61B | السلال | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir القاع lane table, seq 7: السلال |
+| ENT-YE-LANE-C6CA8DAE2D18 | غمدان | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 60: غمدان |
+| ENT-YE-LANE-CBF979D31CF2 | صلاح الدين | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 56: صلاح الدين |
+| ENT-YE-LANE-CFF1C696409D | الجلاء | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 7: الجلاء |
+| ENT-YE-LANE-D336D4C95FCF | الصياد | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir بير العزب lane table, seq 2: الصياد |
+| ENT-YE-LANE-DA804AA02A6F | القاع | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir القاع lane table, seq 1: القاع |
+| ENT-YE-LANE-DF0B26F1B7EB | الإذاعة الجنوبية | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 17: الإذاعة الجنوبية |
+| ENT-YE-LANE-DF2E167B5236 | القبة | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 23: القبة |
+| ENT-YE-LANE-DFE70124C2E5 | المترب | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir القاع lane table, seq 5: المترب |
+| ENT-YE-LANE-E026A28A6AFF | غرقة القليس | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 59: غرقة القليس |
+| ENT-YE-LANE-E5BCE121D129 | باب الروم | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 6: باب الروم |
+| ENT-YE-LANE-E615D4B856D5 | باب القاع | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir القاع lane table, seq 2: باب القاع |
+| ENT-YE-LANE-E702B92883DC | الخارجية | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 12: الخارجية |
+| ENT-YE-LANE-E8A9611015AE | الوشلي | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 35: الوشلي |
+| ENT-YE-LANE-F240619DCC6D | داود | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 45: داود |
+| ENT-YE-LANE-F30FD711EB83 | باب اليمن | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 38: باب اليمن |
+| ENT-YE-LANE-F644D5A656DC | بئر خيران | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 9: بئر خيران |
+| ENT-YE-LANE-FFC3D64F3CCD | سوق الملح | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 51: سوق الملح |
+| ENT-YE-NEIGHBORHOOD-1BEE27CD8482 | القاع | neighborhood | current | SRC-YE-NIC-AMANAT-CENSUS-2004 | Tahrir district hay: القاع |
+| ENT-YE-NEIGHBORHOOD-680F16A2B6E5 | بير العزب | neighborhood | current | SRC-YE-NIC-AMANAT-CENSUS-2004 | Tahrir district hay: بير العزب |
+| ENT-YE-NEIGHBORHOOD-9C76154F62EC | التحرير | neighborhood | current | SRC-YE-NIC-AMANAT-CENSUS-2004 | Tahrir district hay: التحرير |
 
 ## الأسماء البديلة
 
@@ -741,6 +849,113 @@
 | REL-YE-FEC682FC6C515606 | ENT-YE-DISTRICT-1DC1BF36340C | ENT-YE-GOVERNORATE-10 | administrative_parent | current | SRC-YE-NIC-DISTRICT-CATALOGUE-MIRROR |
 | REL-YE-FF43E2BCDBD354CA | ENT-YE-GOVERNORATE-07 | ENT-YE-COUNTRY | administrative_parent | current | SRC-YE-NIC-GOVERNORATES-LEGACY |
 | REL-YE-FF95FC84045654B0 | ENT-YE-DISTRICT-E33DDDC70FEF | ENT-YE-GOVERNORATE-11 | administrative_parent | current | SRC-YE-NIC-DISTRICT-CATALOGUE-MIRROR |
+| REL-YE-HAY-02BE2B12D3195EF5 | ENT-YE-NEIGHBORHOOD-680F16A2B6E5 | ENT-YE-DISTRICT-EDC8715A318E | located_in | current | SRC-YE-NIC-AMANAT-CENSUS-2004 |
+| REL-YE-HAY-9ECDB7BE4D6253DD | ENT-YE-NEIGHBORHOOD-9C76154F62EC | ENT-YE-DISTRICT-EDC8715A318E | located_in | current | SRC-YE-NIC-AMANAT-CENSUS-2004 |
+| REL-YE-HAY-C5E5C3947F6158C2 | ENT-YE-NEIGHBORHOOD-1BEE27CD8482 | ENT-YE-DISTRICT-EDC8715A318E | located_in | current | SRC-YE-NIC-AMANAT-CENSUS-2004 |
+| REL-YE-LANE-0066D635476D5CA2 | ENT-YE-LANE-E026A28A6AFF | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-020671AD140D5AD2 | ENT-YE-LANE-C643A5E7F61B | ENT-YE-NEIGHBORHOOD-1BEE27CD8482 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-03960A0153635537 | ENT-YE-LANE-8E3EE5B3BBA7 | ENT-YE-NEIGHBORHOOD-9C76154F62EC | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-0694BC5BBC1E5FCA | ENT-YE-LANE-165BF76712BF | ENT-YE-NEIGHBORHOOD-9C76154F62EC | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-07A142D9FF825609 | ENT-YE-LANE-8200CD5B9C67 | ENT-YE-NEIGHBORHOOD-9C76154F62EC | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-0FBF71C63D5B5611 | ENT-YE-LANE-372BEF6ACE7C | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-10FE91D98E05559E | ENT-YE-LANE-AE5FC81BC5AA | ENT-YE-NEIGHBORHOOD-9C76154F62EC | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-116379C2D2F15788 | ENT-YE-LANE-0917117AF865 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-1465EDBF839052AC | ENT-YE-LANE-629072F5A63D | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-17F6F42C428F5A9D | ENT-YE-LANE-DA804AA02A6F | ENT-YE-NEIGHBORHOOD-1BEE27CD8482 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-186E2F1B04AD554D | ENT-YE-LANE-DF2E167B5236 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-199169414B405ED4 | ENT-YE-LANE-B3FA878CB1AF | ENT-YE-NEIGHBORHOOD-1BEE27CD8482 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-1B06D3C1DA255445 | ENT-YE-LANE-E702B92883DC | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-1C9A933E550D572F | ENT-YE-LANE-290BA46F61E8 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-1D5BF25C21D35A96 | ENT-YE-LANE-F644D5A656DC | ENT-YE-NEIGHBORHOOD-9C76154F62EC | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-1E49D7E2D9AD5260 | ENT-YE-LANE-DFE70124C2E5 | ENT-YE-NEIGHBORHOOD-1BEE27CD8482 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-1FA15FFE4160568C | ENT-YE-LANE-44403FF71438 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-233D1A93D6815AA1 | ENT-YE-LANE-4E04BA538404 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-2475A56EDB915D09 | ENT-YE-LANE-5E013021454E | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-26DDBA24D5D35692 | ENT-YE-LANE-9FDCF622B9E3 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-277B655741A654F7 | ENT-YE-LANE-B19FA396EFE3 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-27DCA7E43A8950F0 | ENT-YE-LANE-C6CA8DAE2D18 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-2824A67B37BD5AE1 | ENT-YE-LANE-B500010F53DB | ENT-YE-NEIGHBORHOOD-9C76154F62EC | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-2BBCA426BE6E576E | ENT-YE-LANE-7ED0686FEF9A | ENT-YE-NEIGHBORHOOD-9C76154F62EC | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-2CE212E28D665AE5 | ENT-YE-LANE-8830E05ED613 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-30A3CB2487F254CE | ENT-YE-LANE-16408FDBEC40 | ENT-YE-NEIGHBORHOOD-680F16A2B6E5 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-313E9CDC1AB15349 | ENT-YE-LANE-40492988EE63 | ENT-YE-NEIGHBORHOOD-9C76154F62EC | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-33FD4B286A8D5416 | ENT-YE-LANE-C1DEE507ADA1 | ENT-YE-NEIGHBORHOOD-9C76154F62EC | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-36ABF01739A356C5 | ENT-YE-LANE-182E0F4A927E | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-36CAEA51D7CC5A0A | ENT-YE-LANE-67FA831417EE | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-3C9E15E70469596D | ENT-YE-LANE-CBF979D31CF2 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-41C63C5977C65CC7 | ENT-YE-LANE-FFC3D64F3CCD | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-42925A20AF0452A3 | ENT-YE-LANE-0BE4AA7A5349 | ENT-YE-NEIGHBORHOOD-680F16A2B6E5 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-46EF29E4EB1352BC | ENT-YE-LANE-427157ECCEE9 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-4A1E57665B235527 | ENT-YE-LANE-C5FDB3A299BA | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-4AA45EC4EB995477 | ENT-YE-LANE-5A7850F341DC | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-4D719E5D54F254B5 | ENT-YE-LANE-4907B2752000 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-4E0FF899D5E351DE | ENT-YE-LANE-D336D4C95FCF | ENT-YE-NEIGHBORHOOD-680F16A2B6E5 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-4F8AB1FDB3555D24 | ENT-YE-LANE-41923508B2A7 | ENT-YE-NEIGHBORHOOD-680F16A2B6E5 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-5206B4CAA6555FF9 | ENT-YE-LANE-40466FEC534E | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-56B1871E1C69501A | ENT-YE-LANE-2B1FF8F8F604 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-5966E03F124C5908 | ENT-YE-LANE-6C36AFBA441C | ENT-YE-NEIGHBORHOOD-9C76154F62EC | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-5C65568615695F40 | ENT-YE-LANE-B8BDE33CAC28 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-5F986E5E712B58D2 | ENT-YE-LANE-8719D6C9ECD5 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-605609FF994758B1 | ENT-YE-LANE-0C2126A297D0 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-605D932CBA645530 | ENT-YE-LANE-2BBE570D0DC0 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-662DAF11A1DF5881 | ENT-YE-LANE-C1A90FF85A0A | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-667114BE6CE85C3B | ENT-YE-LANE-92B33AD8D3E4 | ENT-YE-NEIGHBORHOOD-1BEE27CD8482 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-6BBEAE2AECAA595E | ENT-YE-LANE-2B3DE055513E | ENT-YE-NEIGHBORHOOD-9C76154F62EC | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-7286D5BF9E5C591C | ENT-YE-LANE-2FB043F2810E | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-7782F32637895919 | ENT-YE-LANE-7C21C11A3807 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-7C58DA63D0BC57FF | ENT-YE-LANE-AFF6A929142D | ENT-YE-NEIGHBORHOOD-680F16A2B6E5 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-800B6A15CB655B98 | ENT-YE-LANE-5EE221168E77 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-8198019BAFA95F92 | ENT-YE-LANE-2E61754A883E | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-836AAB25B1915FF1 | ENT-YE-LANE-CFF1C696409D | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-83D0BB9D130B5B5D | ENT-YE-LANE-14BCFECA9108 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-8916C075EFB4560B | ENT-YE-LANE-C5084ED0E0D9 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-8CF0B23C978F5268 | ENT-YE-LANE-3C0F6E926BEC | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-8F9B2BA56E5552A3 | ENT-YE-LANE-80981A37774B | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-96D932372B395F21 | ENT-YE-LANE-252ACC42E15F | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-9D9B0355C0325EEB | ENT-YE-LANE-E5BCE121D129 | ENT-YE-NEIGHBORHOOD-9C76154F62EC | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-A200B3C17CF95B2E | ENT-YE-LANE-C1D9BCA791DF | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-A436390D5EF656B8 | ENT-YE-LANE-304F5B7CECA0 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-A4E752B1532A509E | ENT-YE-LANE-DF0B26F1B7EB | ENT-YE-NEIGHBORHOOD-9C76154F62EC | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-A5E5D71CC49B5063 | ENT-YE-LANE-84BCBE337109 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-AD18D865ECAE5B6A | ENT-YE-LANE-36E5D92EC112 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-AFF0BFEC20225B95 | ENT-YE-LANE-B0206741CAC7 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-B1A65341014456DC | ENT-YE-LANE-878D9221976F | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-B3D7423B58A251A7 | ENT-YE-LANE-C02942555FD3 | ENT-YE-NEIGHBORHOOD-9C76154F62EC | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-B7BC594C23865623 | ENT-YE-LANE-26DB46908A04 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-BA3E76732DF35549 | ENT-YE-LANE-9459B2D3C52F | ENT-YE-NEIGHBORHOOD-680F16A2B6E5 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-BBE2B8E24918555B | ENT-YE-LANE-16AEECE3ABA1 | ENT-YE-NEIGHBORHOOD-9C76154F62EC | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-BBFBBE152B765B1F | ENT-YE-LANE-4FB76B4DBE1F | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-BC8FDA8AE8F55099 | ENT-YE-LANE-64C1122A5FA2 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-BE0E34C2168B5C56 | ENT-YE-LANE-3D93EE13CD2D | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-BEB75C7DB2525457 | ENT-YE-LANE-7ACA57E13B36 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-C0176FB5A9735A32 | ENT-YE-LANE-42A6E433FC88 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-C175EDD9785C59C3 | ENT-YE-LANE-5ABE74FA1C2E | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-C4BF35448902579A | ENT-YE-LANE-92FA0009DBED | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-C59C22E7E3A853D0 | ENT-YE-LANE-42F12D9E12FD | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-C6BFFF464427584D | ENT-YE-LANE-72DD0B1A030D | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-C876F4BEF550515B | ENT-YE-LANE-1F76BF2D6F3A | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-CE4D0DF03C305855 | ENT-YE-LANE-5A8CE104F6F7 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-CE968AF2D2345F8B | ENT-YE-LANE-E8A9611015AE | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-D002AC7C99475A80 | ENT-YE-LANE-5121E51CECAE | ENT-YE-NEIGHBORHOOD-680F16A2B6E5 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-D2E57A8A25C1540E | ENT-YE-LANE-C08CD392511C | ENT-YE-NEIGHBORHOOD-9C76154F62EC | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-D6A7295F8C4F503B | ENT-YE-LANE-134DEFCA2093 | ENT-YE-NEIGHBORHOOD-9C76154F62EC | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-DB8B687DAC695127 | ENT-YE-LANE-359917D3B8F2 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-E10640C1202055BC | ENT-YE-LANE-5DE7BF9C0236 | ENT-YE-NEIGHBORHOOD-9C76154F62EC | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-E6F23F85ACA152EA | ENT-YE-LANE-8D80EFA1FF0C | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-E79642D297D7556A | ENT-YE-LANE-F30FD711EB83 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-E98F4F2E3F935AF0 | ENT-YE-LANE-BB6E5B517014 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-E9AD7A15DD505070 | ENT-YE-LANE-A2F057FE508F | ENT-YE-NEIGHBORHOOD-1BEE27CD8482 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-E9B5DC8D8B145D6E | ENT-YE-LANE-2C4F4D16C5A4 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-EA525B987CEF53BA | ENT-YE-LANE-63D5E9207817 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-F1BCEB6F3190598A | ENT-YE-LANE-9542F77A0F05 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-F247FE5808685DDA | ENT-YE-LANE-F240619DCC6D | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-F3A117C29032590A | ENT-YE-LANE-56E01258DBCF | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-F73DAC5F1F155207 | ENT-YE-LANE-9FD6236B4D4A | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-F73DAD9077F859C9 | ENT-YE-LANE-E615D4B856D5 | ENT-YE-NEIGHBORHOOD-1BEE27CD8482 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-F93623241F785461 | ENT-YE-LANE-37563B0670BE | ENT-YE-NEIGHBORHOOD-9C76154F62EC | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-FA4432A196D151FC | ENT-YE-LANE-9FC91519B497 | ENT-YE-NEIGHBORHOOD-680F16A2B6E5 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-FB19EB0B83365BF4 | ENT-YE-LANE-6F713DAD95E5 | ENT-YE-NEIGHBORHOOD-9C76154F62EC | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-LANE-FCDA48BF813F58BF | ENT-YE-LANE-6E6377B84F49 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
 
 ## الادعاءات
 
@@ -769,6 +984,42 @@
 | CLM-YE-E6F9307F0013553F | ENT-YE-GOVERNORATE-18 | administrative_profile | governorate | official | high | verified | SRC-YE-NIC-GOVERNORATES-LEGACY | Governorates catalogue entry: الضالع |
 | CLM-YE-F0E19F6876595282 | ENT-YE-CAPITAL-MUNICIPALITY-01 | administrative_profile | capital_municipality | official | high | verified | SRC-YE-NIC-GOVERNORATES-LEGACY | Governorates catalogue entry: أمانة العاصمة |
 | CLM-YE-F7FB744B44E157BE | ENT-YE-GOVERNORATE-17 | administrative_profile | governorate | official | high | verified | SRC-YE-NIC-GOVERNORATES-LEGACY | Governorates catalogue entry: حجة |
+| CLM-YE-LANENAME-1D44EDB9395654F8 | ENT-YE-LANE-E026A28A6AFF | name_origin_narrative | تحمل الحارة اسم كنيسة القليس التي بناها أبرهة ثم زالت؛ بقي الاسم معلمًا لغويًا على الموضع | historical | low | reported | SRC-YE-LANE-PAGES-MIRROR | Naming note for lane غرقة القليس |
+| CLM-YE-LANENAME-2827BE8754A25DC6 | ENT-YE-LANE-C6CA8DAE2D18 | name_origin_narrative | تحمل الحارة اسم قصر غمدان الشهير الزائل منذ ما يزيد على 1400 سنة؛ استمرار الاسم دليل استمرارية عمرانية | historical | low | reported | SRC-YE-LANE-PAGES-MIRROR | Naming note for lane غمدان |
+| CLM-YE-LANENAME-B0BD9B3DFF585DD1 | ENT-YE-LANE-64C1122A5FA2 | name_origin_narrative | سميت الحارة نسبة إلى حمام ياسر؛ المرفق أعطى اسمه للحارة، ويرجح تزامن الحمام مع مسجد الأبهر وحمامه 1374م | historical | low | reported | SRC-YE-LANE-PAGES-MIRROR | Naming note for lane ياسر |
+| CLM-YE-LANEPOP-0647E6D95C195577 | ENT-YE-LANE-16408FDBEC40 | population | 2049 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Tahrir بير العزب lane table, seq 3: بستان المنصور |
+| CLM-YE-LANEPOP-0A776F0B290657B5 | ENT-YE-LANE-165BF76712BF | population | 1221 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 12: بنك الدم |
+| CLM-YE-LANEPOP-1804DA47FDF55D07 | ENT-YE-LANE-AE5FC81BC5AA | population | 2852 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 8: الإذاعة الشمالية |
+| CLM-YE-LANEPOP-19FAFE2AEAD556A8 | ENT-YE-LANE-D336D4C95FCF | population | 3147 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Tahrir بير العزب lane table, seq 2: الصياد |
+| CLM-YE-LANEPOP-1E70CC8ADD88524F | ENT-YE-LANE-2B3DE055513E | population | 1885 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 10: بير السويدي |
+| CLM-YE-LANEPOP-39B5373893F75FFE | ENT-YE-LANE-6C36AFBA441C | population | 5263 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 1: البلقة |
+| CLM-YE-LANEPOP-3D9AE96ED83C5472 | ENT-YE-LANE-9FC91519B497 | population | 424 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Tahrir بير العزب lane table, seq 5: القاضي |
+| CLM-YE-LANEPOP-41F0B9F22E1C558C | ENT-YE-LANE-C02942555FD3 | population | 1094 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 13: بئر الشمس |
+| CLM-YE-LANEPOP-42D6A7069C5F5104 | ENT-YE-LANE-36E5D92EC112 | population | 2784 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Census-2004-citing lane page: الحرقان |
+| CLM-YE-LANEPOP-4F91ACC583775AAC | ENT-YE-LANE-C08CD392511C | population | 2960 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 7: الكهرباء |
+| CLM-YE-LANEPOP-5ED9EF67E1175C17 | ENT-YE-LANE-B8BDE33CAC28 | population | 669 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Census-2004-citing lane page: طلحة |
+| CLM-YE-LANEPOP-7E4C9E1D46F85E47 | ENT-YE-LANE-134DEFCA2093 | population | 152 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 20: عشة الرعدي |
+| CLM-YE-LANEPOP-7F87F7AB081556DA | ENT-YE-LANE-C1D9BCA791DF | population | 995 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Census-2004-citing lane page: الأبهر |
+| CLM-YE-LANEPOP-8585C27A45595A91 | ENT-YE-LANE-5121E51CECAE | population | 190 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Tahrir بير العزب lane table, seq 8: باب عبيلة |
+| CLM-YE-LANEPOP-89BFE59EBD4B5B46 | ENT-YE-LANE-E5BCE121D129 | population | 2992 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 6: باب الروم |
+| CLM-YE-LANEPOP-8CF1475782BC5833 | ENT-YE-LANE-0BE4AA7A5349 | population | 259 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Tahrir بير العزب lane table, seq 6: بئر خيران |
+| CLM-YE-LANEPOP-9757597D10D45732 | ENT-YE-LANE-C1DEE507ADA1 | population | 3103 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 4: بير أبو شملة |
+| CLM-YE-LANEPOP-99D4BCA4F2465D0A | ENT-YE-LANE-B500010F53DB | population | 4731 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 3: الجامعة القديمة |
+| CLM-YE-LANEPOP-9D4A26AD639A5A06 | ENT-YE-LANE-40492988EE63 | population | 665 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 14: البهمة |
+| CLM-YE-LANEPOP-A1D0E9B5DFDB5E00 | ENT-YE-LANE-F240619DCC6D | population | 780 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Census-2004-citing lane page: داود |
+| CLM-YE-LANEPOP-A8BD56925EE952F2 | ENT-YE-LANE-8200CD5B9C67 | population | 5230 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 2: الكويت |
+| CLM-YE-LANEPOP-AADF6859298C50E4 | ENT-YE-LANE-37563B0670BE | population | 1816 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 11: الشراعي |
+| CLM-YE-LANEPOP-BEA58CF5850F565F | ENT-YE-LANE-6F713DAD95E5 | population | 169 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 19: الأسطى |
+| CLM-YE-LANEPOP-C180BF679DF55E98 | ENT-YE-LANE-AFF6A929142D | population | 3287 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Tahrir بير العزب lane table, seq 1: البونية |
+| CLM-YE-LANEPOP-C9C2F86E462456CE | ENT-YE-LANE-9459B2D3C52F | population | 892 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Tahrir بير العزب lane table, seq 4: بير البهمة |
+| CLM-YE-LANEPOP-CAB418613EB35CEC | ENT-YE-LANE-56E01258DBCF | population | 518 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Census-2004-citing lane page: الزمر |
+| CLM-YE-LANEPOP-CBADC3A3F28454BC | ENT-YE-LANE-41923508B2A7 | population | 258 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Tahrir بير العزب lane table, seq 7: بئر البهمة |
+| CLM-YE-LANEPOP-D32F67ECCC0C58E0 | ENT-YE-LANE-8E3EE5B3BBA7 | population | 209 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 18: القيادة |
+| CLM-YE-LANEPOP-DB58BCA9E9A3547C | ENT-YE-LANE-DF0B26F1B7EB | population | 243 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 17: الإذاعة الجنوبية |
+| CLM-YE-LANEPOP-DF58999600E055B5 | ENT-YE-LANE-16AEECE3ABA1 | population | 265 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 16: القاضي |
+| CLM-YE-LANEPOP-E6E59085EC9B5769 | ENT-YE-LANE-5DE7BF9C0236 | population | 295 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 15: بستان علي |
+| CLM-YE-LANEPOP-E6E7C2D5E2155109 | ENT-YE-LANE-7ED0686FEF9A | population | 3046 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 5: بئر البهمة |
+| CLM-YE-LANEPOP-ED3466EAE44C581A | ENT-YE-LANE-F644D5A656DC | population | 2598 | local | medium | reported | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 9: بئر خيران |
 
 ## جودة مصادر الادعاءات المنشورة
 
@@ -781,7 +1032,9 @@
 | SRC-ISO-3166-1-2020 | A | ISO 3166-1:2020 — Codes for the representation of names of countries and their subdivisions — Part 1: Country code | International Organization for Standardization (ISO) | 2020-08 | 2026-08-15 | ISO copyright; reuse is subject to ISO terms of use | https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:ed-4:v1:en |
 | SRC-YE-CENSUS-2004-LEGACY-FRAME | B | Census 2004 administrative frame — archived CSO administrative definitions | Central Statistical Organization Yemen via Internet Archive | 2018-09-30 | 2026-08-17 | Factual extraction with attribution; publisher reuse terms not stated | https://web.archive.org/web/20180930200530/http://www.cso-yemen.org/content.php?lng=arabic&id=277 |
 | SRC-YE-CSO-ADMIN-DEFINITION-LEGACY | A | Administrative divisions definition: 20 governorates plus Capital Municipality | Central Statistical Organization Yemen | — | 2026-08-17 | Factual extraction with attribution; publisher reuse terms not stated | https://www.cso-yemen.com/content.php?lng=arabic&id=277 |
+| SRC-YE-LANE-PAGES-MIRROR | C | Old Sanaa and Tahrir lane inventories — encyclopedic mirror pages | Encyclopedic mirror pages citing census 2004 and heritage documentation | — | 2026-08-17 | Factual extraction with attribution; publisher reuse terms not stated | https://ar.wikipedia.org/wiki/%D8%B5%D9%86%D8%B9%D8%A7%D8%A1_%D8%A7%D9%84%D9%82%D8%AF%D9%8A%D9%85%D8%A9 |
 | SRC-YE-LAW-31-SOCOTRA-REPORT-2013 | B | Report of Law 31/2013 establishing Socotra Archipelago Governorate | Yafa News, reporting the issued Republic of Yemen law | 2013-12-18 | 2026-08-17 | Factual extraction with attribution; publisher reuse terms not stated | https://yafa-news.net/archives/82470 |
+| SRC-YE-NIC-AMANAT-CENSUS-2004 | A | Amanat Al Asimah administrative classification and census 2004 frame | National Information Center Yemen | — | 2026-08-17 | Factual extraction with attribution; publisher reuse terms not stated | http://www.yemen-nic.info/gover/sanaacity/brife/ |
 | SRC-YE-NIC-DISTRICT-CATALOGUE-MIRROR | C | District catalogue of the Republic of Yemen — encyclopedic mirror of the NIC frame | Marefa encyclopedic mirror citing the National Information Center | — | 2026-08-17 | Factual extraction with attribution; publisher reuse terms not stated | https://www.marefa.org/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D9%85%D8%AF%D9%8A%D8%B1%D9%8A%D8%A7%D8%AA_%D8%A7%D9%84%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9_%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A%D8%A9 |
 | SRC-YE-NIC-GOVERNORATES-LEGACY | A | Governorates of the Republic — enumerated legacy catalogue | National Information Center Yemen | — | 2026-08-17 | Factual extraction with attribution; publisher reuse terms not stated | http://www.yemen-nic.info/yemen/gover/ |
 

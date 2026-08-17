@@ -13,3 +13,11 @@
 - The classification-not-deletion policy makes a bounded second layer possible where the official origin is unreachable: a tier-C mirror anchored to an archived official frame yields `probable` identities instead of an empty layer.
 - The 333 frame total and the identity list are different facts with different sources; the denominator cites the archived official page, identities cite the catalogue mirror.
 - Guard the uncertainty boundary in both directions: mutations must catch fabricated additions and unauthorized promotion to verified.
+
+## Depth cycle 2 — lanes (2026-08-17)
+
+- A lane is a place (`lane` + `located_in`), not an administrative tier; the 791 frame closes the denominator while identities arrive incrementally.
+- Partial coverage with documented missing (104/791, 687 missing with explicit reason) is the honest contract for lower layers; forcing completeness is a gate-detected mutation.
+- Census-mirrored 2004 populations stay `reported`+unpublished: dated truth, never current truth.
+- Names-only extraction (Qa) gets `unverified`, censused tables get `probable` — source quality maps directly to status.
+- Same-name lanes across hays (بئر خيران ×2) and orthographic variants within one hay (بير/بئر البهمة) are distinct entities keyed by inventory sequence.
