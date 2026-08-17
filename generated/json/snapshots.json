@@ -45,7 +45,7 @@
   },
   {
     "captured_at": "2026-08-16",
-    "checksum": "sha256:95a686af144670e3536d415611ab599657640657f2e6fe35b9c06da223ae2e84",
+    "checksum": "sha256:a2a2a91a96bb34eaaacdabf3ef662aa2f03ff9e9dc8538be4c435a674a919b28",
     "id": "SNP-EG-PRODUCTION-20260816",
     "method": "Checksum-bound CAPMAS/MLD profile reconciliation.",
     "notes": "Cairo/Giza selected for later lower-topology proof; no lower records imported.",

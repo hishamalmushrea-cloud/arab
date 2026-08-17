@@ -1,0 +1,116 @@
+{
+ "attested_markaz_count": 55,
+ "captured_at": "2026-08-17",
+ "country_code": "EG",
+ "daqahliya_2024_populations": {
+  "أجا": 575127,
+  "الجمالية": 154949,
+  "السنبلاوين": 612345,
+  "المطرية": 203140,
+  "المنزلة": 393139,
+  "المنصورة": 659238,
+  "بلقاس": 574876,
+  "بني عبيد": 143301,
+  "تمي الأمديد": 211782,
+  "دكرنس": 383717,
+  "شربين": 460193,
+  "طلخا": 425606,
+  "محلة دمنة": 68239,
+  "منية النصر": 290526,
+  "ميت سلسيل": 81875,
+  "ميت غمر": 703717,
+  "نبروه": 305150
+ },
+ "governorates": [
+  {
+   "code": "12",
+   "marakiz": [
+    "ميت غمر",
+    "المنصورة",
+    "السنبلاوين",
+    "أجا",
+    "بلقاس",
+    "شربين",
+    "طلخا",
+    "المنزلة",
+    "دكرنس",
+    "نبروه",
+    "منية النصر",
+    "تمي الأمديد",
+    "المطرية",
+    "الجمالية",
+    "بني عبيد",
+    "ميت سلسيل",
+    "محلة دمنة",
+    "الستاموني"
+   ],
+   "name_ar": "الدقهلية"
+  },
+  {
+   "code": "13",
+   "marakiz": [
+    "الزقازيق",
+    "بلبيس",
+    "منيا القمح",
+    "أبو حماد",
+    "أبو كبير",
+    "فاقوس",
+    "ههيا",
+    "كفر صقر",
+    "أولاد صقر",
+    "الحسينية",
+    "ديرب نجم",
+    "الإبراهيمية",
+    "مشتول السوق"
+   ],
+   "name_ar": "الشرقية"
+  },
+  {
+   "code": "18",
+   "marakiz": [
+    "دمنهور",
+    "كفر الدوار",
+    "رشيد",
+    "إدكو",
+    "أبو المطامير",
+    "أبو حمص",
+    "الدلنجات",
+    "المحمودية",
+    "الرحمانية",
+    "إيتاي البارود",
+    "حوش عيسى",
+    "شبراخيت",
+    "كوم حمادة",
+    "بدر",
+    "وادي النطرون"
+   ],
+   "name_ar": "البحيرة"
+  },
+  {
+   "code": "24",
+   "marakiz": [
+    "المنيا",
+    "العدوة",
+    "مغاغة",
+    "بني مزار",
+    "مطاي",
+    "سمالوط",
+    "أبو قرقاص",
+    "ملوي",
+    "دير مواس"
+   ],
+   "name_ar": "المنيا"
+  }
+ ],
+ "notes": {
+  "daqahliya_count_dispute": "Sources differ on Daqahliya: 18 (Arabic Wikipedia detailed 2024 list), 17 (Egyptian Arabic Wikipedia), 15 (Arabica). 18 is adopted from the detailed 2024 table; الستاموني is flagged as a police-markaz whose full administrative status needs verification.",
+  "scope": "Attested markaz inventories for four documented mixed governorates only (Daqahliya 18, Sharqia 13, Beheira 15, Minya 9); the national markaz universe (~180) remains an open frame with no fabricated denominator.",
+  "sharqia_note": "Sharqia also has 4 independent cities and two Zagazig urban hays; only the 13 marakiz enter this cycle.",
+  "village_count_dispute": "Daqahliya village totals reported as 499 and 336 in different sources; both readings recorded, neither adopted as a denominator."
+ },
+ "schema_version": "2.0.0",
+ "sources": {
+  "capmas_clock": "https://www.capmas.gov.eg/",
+  "markaz_mirror": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D9%85%D8%B1%D8%A7%D9%83%D8%B2_%D9%85%D8%B5%D8%B1"
+ }
+}

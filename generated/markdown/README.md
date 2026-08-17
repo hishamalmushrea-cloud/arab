@@ -24,5 +24,5 @@
 | QA | قطر | 10 | 10 | [QA](countries/QA.md) |
 | LB | لبنان | 36 | 13 | [LB](countries/LB.md) |
 | LY | ليبيا | 164 | 0 | [LY](countries/LY.md) |
-| EG | مصر | 28 | 27 | [EG](countries/EG.md) |
+| EG | مصر | 83 | 44 | [EG](countries/EG.md) |
 | MR | موريتانيا | 16 | 17 | [MR](countries/MR.md) |
