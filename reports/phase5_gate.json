@@ -25,12 +25,12 @@
       "status": "pass"
     },
     "clean_worktree": {
-      "detail": "git worktree clean=False",
-      "status": "fail"
+      "detail": "git worktree clean=True",
+      "status": "pass"
     },
     "completion_claims": {
       "detail": "README declares incomplete local coverage and constrains 100%",
-      "status": "fail"
+      "status": "pass"
     },
     "country_roots": {
       "detail": "source-backed country roots=22",
@@ -181,7 +181,7 @@
     },
     "p0_clear": {
       "detail": "all structural and Phase 2 acceptance checks are clear",
-      "status": "fail"
+      "status": "pass"
     },
     "phase2_core_counts": {
       "detail": "24/264/350/2084 actual=24/264/350/2084",
@@ -196,8 +196,8 @@
       "status": "pass"
     },
     "saudi_clean_worktree": {
-      "detail": "git worktree clean=False",
-      "status": "fail"
+      "detail": "git worktree clean=True",
+      "status": "pass"
     },
     "saudi_final_report": {
       "detail": "20-section Saudi final report exists; overall PASS also requires a separately recorded green remote run",
@@ -313,8 +313,8 @@
       "status": "pass"
     },
     "uae_clean_worktree": {
-      "detail": "git worktree clean=False",
-      "status": "fail"
+      "detail": "git worktree clean=True",
+      "status": "pass"
     },
     "uae_evidence_idempotence": {
       "detail": "validation, mutation, sample, and review hashes unchanged=True",
@@ -437,15 +437,9 @@
       "status": "pass"
     }
   },
-  "errors": [
-    "completion_claims: README declares incomplete local coverage and constrains 100%",
-    "p0_clear: all structural and Phase 2 acceptance checks are clear",
-    "clean_worktree: git worktree clean=False",
-    "saudi_clean_worktree: git worktree clean=False",
-    "uae_clean_worktree: git worktree clean=False"
-  ],
+  "errors": [],
   "phase": "phase5",
   "schema_version": "2.0.0",
   "semantic_hash": "sha256:7eb4185ecd8bbd1831f6d82fc59253ee64747afbb3c45a9ae20c474d37a7d911",
-  "status": "fail"
+  "status": "pass"
 }
