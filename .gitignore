@@ -1,6 +1,6 @@
 __pycache__/
 *.py[cod]
-# App
+# App Web
 app/node_modules/
 app/.next/
 app/out/
@@ -8,7 +8,13 @@ app/dist/
 app/public/data/app-data.json
 app/public/data/app-data.json.br
 app/public/data/app-data.json.gz
-app/public/data/app-data.json.br
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/.idea/
+android/*.iml
+android/app/src/main/assets/app-data.json
 # OS
 .DS_Store
 .env.local
