@@ -21,7 +21,7 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=17856\n[PASS] ids: global_ids=17856, duplicate_ids=0\n[PASS] entity_types: allowed_types=103, active_types=64\n[PASS] sources: atomic_files=155, sources=155, references=20564\n[PASS] parents: administrative_relationships=5553\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2281, sourced=2281\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=114, coverage_records=114, complete_layers=96\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=17877\n[PASS] ids: global_ids=17877, duplicate_ids=0\n[PASS] entity_types: allowed_types=103, active_types=64\n[PASS] sources: atomic_files=157, sources=157, references=20583\n[PASS] parents: administrative_relationships=5553\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2300, sourced=2300\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=114, coverage_records=114, complete_layers=96\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
     },
     "generated_freshness": {
       "command": "python3 scripts/generate.py --check",
@@ -43,7 +43,7 @@
       "status": "pass"
     },
     "yemen_import_idempotence": {
-      "detail": "all 12 managed hashes unchanged=True",
+      "detail": "all 13 managed hashes unchanged=True",
       "status": "pass"
     },
     "yemen_import_refresh": {
@@ -51,24 +51,24 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "{\"entities\": 462, \"relationships\": 462, \"claims\": 59, \"sources\": 7, \"denominators\": 6, \"coverage\": 6}"
+      "stdout": "{\"entities\": 462, \"relationships\": 462, \"claims\": 78, \"sources\": 9, \"denominators\": 6, \"coverage\": 6}"
     },
     "yemen_independent_review": {
       "command": "python3 scripts/review_yemen.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "1004"
+      "stdout": "1023"
     },
     "yemen_negative_tests": {
       "command": "python3 scripts/test_yemen_negative.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "[{'mutation': 'YE_AMANAT_AS_GOVERNORATE_ALIAS', 'expected_code': 'YE_AMANAT_ALIAS', 'detected': True}, {'mutation': 'YE_SOCOTRA_REMOVED_FROM_CURRENT', 'expected_code': 'YE_COUNTS', 'detected': True}, {'mutation': 'YE_LEGACY_DENOMINATOR_AS_CURRENT', 'expected_code': 'YE_DENOMINATORS', 'detected': True}, {'mutation': 'YE_LEGAL_LIST_AS_DE_FACTO', 'expected_code': 'YE_UNSUPPORTED_OVERLAY', 'detected': True}, {'mutation': 'YE_DESTROYED_WITHOUT_DATED_SOURCE', 'expected_code': 'YE_UNSUPPORTED_OVERLAY', 'detected': True}, {'mutation': 'YE_UNATTESTED_DISTRICT_ADDED', 'expected_code': 'YE_COUNTS', 'detected': True}, {'mutation': 'YE_PREMATURE_UZLA', 'expected_code': 'YE_PREMATURE_LOWER', 'detected': True}, {'mutation': 'YE_DISTRICT_PROMOTED_TO_VERIFIED', 'expected_code': 'YE_DISTRICT_STATUS', 'detected': True}, {'mutation': 'YE_DISTRICT_FRAME_SHRUNK', 'expected_code': 'YE_DENOMINATORS', 'detected': True}, {'mutation': 'YE_FABRICATED_LANE_ADDED', 'expected_code': 'YE_COUNTS', 'detected': True}, {'mutation': 'YE_LANE_PROMOTED_TO_VERIFIED', 'expected_code': 'YE_LANE_STATUS', 'detected': True}, {'mutation': 'YE_LANE_POP_PUBLISHED_AS_CURRENT', 'expected_code': 'YE_LANE_POP', 'detected': True}, {'mutation': 'YE_NARRATIVE_PROMOTED_TO_FACT', 'expected_code': 'YE_LANE_NARRATIVE', 'detected': True}, {'mutation': 'YE_LANE_COVERAGE_FORCED_COMPLETE', 'expected_code': 'YE_LANE_COVERAGE', 'detected': True}, {'mutation': 'YE_WRONG_PARENT', 'expected_code': 'YE_PARENT', 'detected': True}, {'mutation': 'YE_STALE_COVERAGE', 'expected_code': 'YE_COVERAGE_FRESHNESS', 'detected': True}, {'mutation': 'YE_EFFECTIVE_CLAUSE_FABRICATED', 'expected_code': 'YE_SOCOTRA_LAW', 'detected': True}]"
+      "stdout": "[{'mutation': 'YE_AMANAT_AS_GOVERNORATE_ALIAS', 'expected_code': 'YE_AMANAT_ALIAS', 'detected': True}, {'mutation': 'YE_SOCOTRA_REMOVED_FROM_CURRENT', 'expected_code': 'YE_COUNTS', 'detected': True}, {'mutation': 'YE_LEGACY_DENOMINATOR_AS_CURRENT', 'expected_code': 'YE_DENOMINATORS', 'detected': True}, {'mutation': 'YE_LEGAL_LIST_AS_DE_FACTO', 'expected_code': 'YE_UNSUPPORTED_OVERLAY', 'detected': True}, {'mutation': 'YE_DESTROYED_WITHOUT_DATED_SOURCE', 'expected_code': 'YE_UNSUPPORTED_OVERLAY', 'detected': True}, {'mutation': 'YE_UNATTESTED_DISTRICT_ADDED', 'expected_code': 'YE_COUNTS', 'detected': True}, {'mutation': 'YE_PREMATURE_UZLA', 'expected_code': 'YE_PREMATURE_LOWER', 'detected': True}, {'mutation': 'YE_DISTRICT_PROMOTED_TO_VERIFIED', 'expected_code': 'YE_DISTRICT_STATUS', 'detected': True}, {'mutation': 'YE_DISTRICT_FRAME_SHRUNK', 'expected_code': 'YE_DENOMINATORS', 'detected': True}, {'mutation': 'YE_FABRICATED_LANE_ADDED', 'expected_code': 'YE_COUNTS', 'detected': True}, {'mutation': 'YE_LANE_PROMOTED_TO_VERIFIED', 'expected_code': 'YE_LANE_STATUS', 'detected': True}, {'mutation': 'YE_LANE_POP_PUBLISHED_AS_CURRENT', 'expected_code': 'YE_LANE_POP', 'detected': True}, {'mutation': 'YE_NARRATIVE_PROMOTED_TO_FACT', 'expected_code': 'YE_LANE_NARRATIVE', 'detected': True}, {'mutation': 'YE_LANE_COVERAGE_FORCED_COMPLETE', 'expected_code': 'YE_LANE_COVERAGE', 'detected': True}, {'mutation': 'YE_DISH_PUBLISHED_FROM_WEAK_SOURCE', 'expected_code': 'YE_CULTURE_DISHES', 'detected': True}, {'mutation': 'YE_MANDI_CLAIMED_EXCLUSIVE', 'expected_code': 'YE_SHARED_NOT_EXCLUSIVE', 'detected': True}, {'mutation': 'YE_DIALECT_PROMOTED_TO_VERIFIED', 'expected_code': 'YE_CULTURE_DIALECTS', 'detected': True}, {'mutation': 'YE_LANGUAGE_CLAIM_DROPPED', 'expected_code': 'YE_CULTURE_LANGUAGES', 'detected': True}, {'mutation': 'YE_WRONG_PARENT', 'expected_code': 'YE_PARENT', 'detected': True}, {'mutation': 'YE_STALE_COVERAGE', 'expected_code': 'YE_COVERAGE_FRESHNESS', 'detected': True}, {'mutation': 'YE_EFFECTIVE_CLAUSE_FABRICATED', 'expected_code': 'YE_SOCOTRA_LAW', 'detected': True}]"
     },
     "yemen_required_mutations": {
-      "detail": "detected=17/17",
+      "detail": "detected=21/21",
       "status": "pass"
     },
     "yemen_review_idempotence": {
@@ -84,10 +84,10 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "1004"
+      "stdout": "1023"
     },
     "yemen_review_threshold": {
-      "detail": "full review passed=1004/1004",
+      "detail": "full review passed=1023/1023",
       "status": "pass"
     },
     "yemen_semantic_validation": {
@@ -95,10 +95,10 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "{'entities': 463, 'aliases': 1, 'relationships': 462, 'claims': 59, 'sources': 7, 'denominators': 7, 'coverage': 7}"
+      "stdout": "{'entities': 463, 'aliases': 1, 'relationships': 462, 'claims': 78, 'sources': 9, 'denominators': 7, 'coverage': 7}"
     },
     "yemen_source_idempotence": {
-      "detail": "atomic sources=7/7, unchanged=True",
+      "detail": "atomic sources=9/9, unchanged=True",
       "status": "pass"
     },
     "yemen_source_refresh": {
@@ -106,7 +106,7 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "{\"entities\": 462, \"relationships\": 462, \"claims\": 59, \"sources\": 7, \"denominators\": 6, \"coverage\": 6}"
+      "stdout": "{\"entities\": 462, \"relationships\": 462, \"claims\": 78, \"sources\": 9, \"denominators\": 6, \"coverage\": 6}"
     }
   },
   "country_code": "YE",
