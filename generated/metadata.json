@@ -1,23 +1,23 @@
 {
   "counts": {
     "aliases": 3261,
-    "claims": 2357,
+    "claims": 2374,
     "coverage": 115,
     "denominators": 115,
     "entities": 5830,
     "relationships": 6237,
     "snapshots": 28,
-    "sources": 162
+    "sources": 163
   },
   "generator": "scripts/generate.py",
   "inputs": {
     "data/aliases/aliases.jsonl": "sha256:c8c4c5d827f437946cdc4e93f7c4bfa1d1c1675ce02729584ba0901644c7aa39",
-    "data/claims/claims.jsonl": "sha256:f5a42683c49fa161a3bd48e79f75dd12c19f8dda56adcc46189dbdd17c3f0be9",
+    "data/claims/claims.jsonl": "sha256:2600181029596faf559898db21072e65b4de6d73bb8cd847c9356c9e543f3d44",
     "data/coverage/coverage.jsonl": "sha256:8769006a9a999c1939e27398cef033d8f944f1eeaed9d4eab57e1a18ba62682d",
     "data/coverage/denominators.jsonl": "sha256:f7491655693cd5e929da176598a9e4a02767d93517a7823cc08071a46a0ffed6",
     "data/entities/entities.jsonl": "sha256:dbe760232284b641734fbe95fe972b31c80bc7628413dbda3875e01b5bbf3127",
     "data/relationships/relationships.jsonl": "sha256:88155bc4d88e7d56183394871cc8609338f65263d964e4991cab09150727b64d",
-    "data/snapshots/snapshots.jsonl": "sha256:45620791283243abc44731cf96de79b95311f32f505629783a44eae8603935d4",
+    "data/snapshots/snapshots.jsonl": "sha256:a3bfcfb26497e3c2c7edcd32eddb80486f69115e583cc672246f571cf76b4599",
     "data/sources/SRC-ACADEMIC-SA-DIALECT-CORPUS-2020.json": "sha256:8db9aa1b7b0ebee570ab4e5bab6c455fbb03159360564d822a9b338bde5a8d43",
     "data/sources/SRC-AE-AJMAN-ABOUT-2026.json": "sha256:db611da10b5482b40eeacd255591bc11c60518d3ee2964496af1ddb5ddaaee25",
     "data/sources/SRC-AE-DMT-THREE-MUNICIPALITIES-2026.json": "sha256:0d4904c92887ea7cc54ca6d931128ec4df483a76b3faec3c3243e68d123c1a67",
@@ -73,6 +73,7 @@
     "data/sources/SRC-LB-CAS-26-DISTRICTS-2019.json": "sha256:0d2c2c333c50bc3f3ad1267e8f1800e2b006622271c539e02ef0e6c583ae81a5",
     "data/sources/SRC-LB-LAW-52-2017.json": "sha256:b7dd1510afbb634574ed98f44f720d8712bd1cbf7389ebe2eae766f9fc101731",
     "data/sources/SRC-LB-MOIM-ADMINISTRATION-2026.json": "sha256:0ab430de2d952a78610944630bad2c91164cbdf406dec558e264d6723c043662",
+    "data/sources/SRC-MA-CULTURE-MIRROR-2026.json": "sha256:f48ebca284aac81b0c1c8ec19965ee87bbd4581eed490918c3ae2bdee22b1f8c",
     "data/sources/SRC-MA-DGCT-DECREE-2-15-10.json": "sha256:81b2a18285d962303372614b836a8b9998bb5d9c856ca17cab3a5461fe1af435",
     "data/sources/SRC-MA-DGCT-TERRITORIAL-COUNTS-2026.json": "sha256:89c23c56ea3d3376968994a49bd99ce75d29d184c1e41362d3a42f8a8c3c5ce1",
     "data/sources/SRC-MA-HCP-RGPH-2024.json": "sha256:8db9fb1bdadfdf925f6f1fef12cff146c08772aa12089e9f37272477c8e5dac5",

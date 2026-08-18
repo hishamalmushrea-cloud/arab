@@ -133,7 +133,7 @@
   },
   {
     "captured_at": "2026-08-16",
-    "checksum": "sha256:c56e8f3c9d45660ad86d9135f91b98894dcd92fd4a8b50089b3357931d2a07b0",
+    "checksum": "sha256:7befa14a8e2c47813fc0ab1c821c67fd6a3913002a56b23412dd38dd6c5c73dd",
     "id": "SNP-MA-PRODUCTION-20260816",
     "method": "Checksum-bound decree/DGCT reconciliation.",
     "notes": "1503 communes deferred; arrondissement prefectures excluded.",

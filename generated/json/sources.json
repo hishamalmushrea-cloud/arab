@@ -1263,6 +1263,26 @@
   },
   {
     "archive_url": null,
+    "checksum": "sha256:79a0a04770cb923f16ac8ed6c182398b0bc706b921161dee796b402bb6a77b63",
+    "country_codes": [
+      "MA"
+    ],
+    "id": "SRC-MA-CULTURE-MIRROR-2026",
+    "language": "ar",
+    "license": "Official Morocco public material; factual extraction with attribution; reuse terms not stated",
+    "locator": "Darija profile, Amazigh variety scopes, dish and dress entries",
+    "notes": "Depth-cycle weak/secondary mirror. Cultural claims stay local_reported/probable and unpublished; couscous carries shared classification via the quadripartite UNESCO 2020 file, never exclusive ownership. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Encyclopedic mirror pages on Moroccan culture",
+    "quality_tier": "E",
+    "retrieved_at": "2026-08-16",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Moroccan Darija, Amazigh varieties, cuisine, and dress — encyclopedic mirror pages",
+    "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AF%D8%A7%D8%B1%D8%AC%D8%A9_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9"
+  },
+  {
+    "archive_url": null,
     "checksum": "sha256:1c8b1d5b96f248860f5e644197f09f387555564dc559e35f368d984f6794fd03",
     "country_codes": [
       "MA"

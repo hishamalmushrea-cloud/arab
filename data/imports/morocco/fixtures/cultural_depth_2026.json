@@ -1,0 +1,185 @@
+{
+ "amazigh_languages": [
+  {
+   "desc": "لغة رسمية بنص تعديل الدستور 2011؛ معيرها المعهد الملكي للثقافة الأمازيغية منذ 2002",
+   "name": "الأمازيغية المعيارية",
+   "status": "probable",
+   "subject": "ENT-MA-COUNTRY"
+  },
+  {
+   "desc": "أوسع اللهجات الأمازيغية مجالا: سوس والأطلس الصغير والجنوب",
+   "name": "تاشلحيت",
+   "status": "probable",
+   "subject": "ENT-MA-REGION-SOUSS-MASSA"
+  },
+  {
+   "desc": "أمازيغية الريف والشمال",
+   "name": "تاريفيت",
+   "status": "probable",
+   "subject": "ENT-MA-REGION-TANGER-TETOUAN-AL-HOCEIMA"
+  },
+  {
+   "desc": "أمازيغية الأطلس المتوسط وبني ملال وخنيفرة",
+   "name": "تمازيغت الأطلس المتوسط",
+   "status": "probable",
+   "subject": "ENT-MA-REGION-BENI-MELLAL-KHENIFRA"
+  }
+ ],
+ "captured_at": "2026-08-17",
+ "country_code": "MA",
+ "darija_profile": {
+  "features": [
+   "تسكين الحروف خلافا للمشرق",
+   "لا مثنى كالأمازيغية",
+   "تراكيب وأدوات نفي أمازيغية",
+   "مفردات فرنسية وإسبانية دخيلة: طوموبيل وبلاصة وسبيطار",
+   "مفردات فصيحة محفوظة: دوز من جاز، عيان من الإعياء، لاباس"
+  ],
+  "subject": "ENT-MA-COUNTRY",
+  "words": [
+   {
+    "m": "من",
+    "w": "شكون"
+   },
+   {
+    "m": "ماذا",
+    "w": "آش"
+   },
+   {
+    "m": "أين",
+    "w": "فين"
+   },
+   {
+    "m": "كيف",
+    "w": "كيفاش"
+   },
+   {
+    "m": "متى",
+    "w": "وقتاش"
+   },
+   {
+    "m": "أريد",
+    "w": "بغيت"
+   },
+   {
+    "m": "الآن؛ أمازيغية الأصل",
+    "w": "دابا"
+   },
+   {
+    "m": "كثير؛ أمازيغية الأصل",
+    "w": "بزاف"
+   },
+   {
+    "m": "كم",
+    "w": "شحال"
+   },
+   {
+    "m": "لماذا",
+    "w": "علاش"
+   }
+  ]
+ },
+ "dishes": [
+  {
+   "classification": "shared",
+   "desc": "سميد مفتول يطهى على البخار في الكسكاس مع الخضار واللحم والحمص؛ أمازيغي الجذور",
+   "name": "الكسكس",
+   "note": "مدرج في تراث اليونسكو غير المادي 2020 ملفا مشتركا بين المغرب والجزائر وتونس وموريتانيا — لا ملكية حصرية",
+   "occasion": "غداء الجمعة والأعراس",
+   "subject": "ENT-MA-COUNTRY"
+  },
+  {
+   "classification": "national",
+   "desc": "لحم أو دجاج مع خضار وزيتون ومخلل الليمون أو البرقوق يطهى ببطء في الوعاء الفخاري المخروطي الذي أعطاه اسمه",
+   "name": "الطاجين",
+   "note": "أمازيغي الأصل",
+   "occasion": "يومي ومناسبات",
+   "subject": "ENT-MA-COUNTRY"
+  },
+  {
+   "classification": "local",
+   "desc": "ورق رقيق بحشو الدجاج أو الحمام واللوز والقرفة والسكر؛ حلو مالح فاخر",
+   "name": "البسطيلة",
+   "note": "فاس ومكناس؛ جذور أندلسية",
+   "occasion": "الأعراس والمناسبات الكبرى",
+   "subject": "ENT-MA-REGION-FES-MEKNES"
+  },
+  {
+   "classification": "national",
+   "desc": "شوربة العدس والحمص والطماطم والشعيرية بالكزبرة، تؤكل مع التمر والشباكية في رمضان",
+   "name": "الحريرة",
+   "note": "",
+   "occasion": "فطور رمضان",
+   "subject": "ENT-MA-COUNTRY"
+  },
+  {
+   "classification": "local",
+   "desc": "لحم بالثوم والكمون والزعفران والسمن الحر يطهى في وعاء الطنجية الفخاري في رماد الحمام العام",
+   "name": "الطنجية المراكشية",
+   "note": "تقليد مراكشي خالص",
+   "occasion": "شتوي وأيام الجمعة",
+   "subject": "ENT-MA-REGION-MARRAKECH-SAFI"
+  },
+  {
+   "classification": "regional",
+   "desc": "فول مجفف مهروس بزيت الزيتون والكمون",
+   "name": "البيصارة",
+   "note": "الريف والشمال",
+   "occasion": "فطور شتوي",
+   "subject": "ENT-MA-REGION-TANGER-TETOUAN-AL-HOCEIMA"
+  },
+  {
+   "classification": "local",
+   "desc": "أكلة أمازيغية سوسية باللحم والبهارات والجوز",
+   "name": "تاكوين",
+   "note": "سوس",
+   "occasion": "مناسبات",
+   "subject": "ENT-MA-REGION-SOUSS-MASSA"
+  },
+  {
+   "classification": "national",
+   "desc": "الشباكية عجين مقلي بالعسل والسمسم، وسلو طحين محمص باللوز والزبدة والعسل",
+   "name": "الشباكية وسلو",
+   "note": "حلويات رمضانية",
+   "occasion": "رمضان",
+   "subject": "ENT-MA-COUNTRY"
+  },
+  {
+   "classification": "national",
+   "desc": "لحم الغنم بالزبيب واللوز والقرفة ورأس الحانوت",
+   "name": "المروزية",
+   "note": "طبق العيد",
+   "occasion": "عيد الأضحى",
+   "subject": "ENT-MA-COUNTRY"
+  }
+ ],
+ "dress": [
+  {
+   "classification": "national",
+   "desc": "رداء طويل بقلنسوة؛ قطني صيفا وصوفي شتاء؛ أنواعها المناطقية: الفاسية الحريرية الفاخرة والرباطية اليومية والمراكشية الخفيفة والأمازيغية الصوفية المزخرفة",
+   "gender": "مشترك",
+   "name": "الجلابة",
+   "subject": "ENT-MA-COUNTRY"
+  },
+  {
+   "classification": "national",
+   "desc": "القفطان مفتوح من الأمام مطرز بخيوط ذهبية وفضية مع حزام المضمة؛ قماشه البروكار الفاسي المنسوج يدويا في فاس والمخمل والحرير",
+   "gender": "نسائي",
+   "name": "القفطان والتكشيتة",
+   "subject": "ENT-MA-COUNTRY"
+  },
+  {
+   "classification": "national",
+   "desc": "البلغة حذاء جلدي أصفر بلا كعب، والسلهام عباءة صوفية بقلنسوة للشتاء في الريف والأطلس، والطربوش الأحمر الرمزي مع الجلابة",
+   "gender": "رجالي",
+   "name": "البلغة والسلهام والطربوش",
+   "subject": "ENT-MA-COUNTRY"
+  }
+ ],
+ "note": "Morocco depth cycle 1 under Maximum Arabic Knowledge Coverage: 4 language-presence claims (probable — الأمازيغية رسمية بنص الدستور), 1 Darija dialect profile + 10-word lexicon (local_reported), 9 dish claims (الكسكس shared عبر ملف اليونسكو الرباعي المشترك — لا حصرية), 3 dress claims. All unpublished, tier-E mirrors, explicit classification.",
+ "schema_version": "2.0.0",
+ "sources": {
+  "cuisine_dress_mirror": "https://ar.wikipedia.org/wiki/%D9%85%D8%B7%D8%A8%D8%AE_%D9%85%D8%BA%D8%B1%D8%A8%D9%8A",
+  "dialect_mirror": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AF%D8%A7%D8%B1%D8%AC%D8%A9_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9"
+ }
+}
