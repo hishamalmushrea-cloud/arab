@@ -21,7 +21,7 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=18143\n[PASS] ids: global_ids=18143, duplicate_ids=0\n[PASS] entity_types: allowed_types=103, active_types=65\n[PASS] sources: atomic_files=164, sources=164, references=20842\n[PASS] parents: administrative_relationships=5608\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2393, sourced=2393\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=115, coverage_records=115, complete_layers=97\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=18209\n[PASS] ids: global_ids=18209, duplicate_ids=0\n[PASS] entity_types: allowed_types=103, active_types=66\n[PASS] sources: atomic_files=165, sources=165, references=20907\n[PASS] parents: administrative_relationships=5639\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2396, sourced=2396\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=115, coverage_records=115, complete_layers=97\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
     },
     "generated_freshness": {
       "command": "python3 scripts/generate.py --check",
@@ -39,7 +39,7 @@
       "status": "pass"
     },
     "iraq_import_idempotence": {
-      "detail": "all 10 managed hashes unchanged=True",
+      "detail": "all 11 managed hashes unchanged=True",
       "status": "pass"
     },
     "iraq_import_refresh": {
@@ -47,24 +47,24 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "{\"entities\": 19, \"aliases\": 19, \"relationships\": 19, \"claims\": 20, \"sources\": 4}"
+      "stdout": "{\"entities\": 50, \"aliases\": 19, \"relationships\": 50, \"claims\": 23, \"sources\": 5}"
     },
     "iraq_independent_review": {
       "command": "python3 scripts/review_iraq.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "90"
+      "stdout": "156"
     },
     "iraq_negative_tests": {
       "command": "python3 scripts/test_iraq_negative.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "[{'mutation': 'IQ_18_CURRENT', 'expected_code': 'IQ_COUNTS', 'detected': True}, {'mutation': 'IQ_HALABJA_PRE_2025', 'expected_code': 'IQ_HALABJA_LAW', 'detected': True}, {'mutation': 'IQ_DUPLICATE_KRI_HALABJA', 'expected_code': 'IQ_COUNTS', 'detected': True}, {'mutation': 'IQ_KRI_COUNT_3', 'expected_code': 'IQ_DENOMINATORS', 'detected': True}, {'mutation': 'IQ_WRONG_PROFILE', 'expected_code': 'IQ_PROFILE', 'detected': True}, {'mutation': 'IQ_DISPUTED_WITHOUT_SOURCE', 'expected_code': 'IQ_UNSUPPORTED_OVERLAY', 'detected': True}, {'mutation': 'IQ_PREMATURE_DISTRICT', 'expected_code': 'IQ_PREMATURE_LOWER', 'detected': True}, {'mutation': 'IQ_REMOVE_LAW_CLAIM', 'expected_code': 'IQ_HALABJA_LAW', 'detected': True}]"
+      "stdout": "[{'mutation': 'IQ_18_CURRENT', 'expected_code': 'IQ_COUNTS', 'detected': True}, {'mutation': 'IQ_HALABJA_PRE_2025', 'expected_code': 'IQ_HALABJA_LAW', 'detected': True}, {'mutation': 'IQ_DUPLICATE_KRI_HALABJA', 'expected_code': 'IQ_COUNTS', 'detected': True}, {'mutation': 'IQ_KRI_COUNT_3', 'expected_code': 'IQ_DENOMINATORS', 'detected': True}, {'mutation': 'IQ_WRONG_PROFILE', 'expected_code': 'IQ_PROFILE', 'detected': True}, {'mutation': 'IQ_DISPUTED_WITHOUT_SOURCE', 'expected_code': 'IQ_UNSUPPORTED_OVERLAY', 'detected': True}, {'mutation': 'IQ_PREMATURE_SUBDISTRICT', 'expected_code': 'IQ_PREMATURE_LOWER', 'detected': True}, {'mutation': 'IQ_REMOVE_LAW_CLAIM', 'expected_code': 'IQ_HALABJA_LAW', 'detected': True}, {'mutation': 'IQ_FABRICATED_QADA', 'expected_code': 'IQ_COUNTS', 'detected': True}, {'mutation': 'IQ_QADA_PROMOTED', 'expected_code': 'IQ_QADA_FIXTURE', 'detected': True}, {'mutation': 'IQ_DISPUTED_ENTRY_UPGRADED', 'expected_code': 'IQ_QADA_FIXTURE', 'detected': True}, {'mutation': 'IQ_QADA_POP_PUBLISHED', 'expected_code': 'IQ_QADA_POP', 'detected': True}]"
     },
     "iraq_required_mutations": {
-      "detail": "detected=8/8",
+      "detail": "detected=12/12",
       "status": "pass"
     },
     "iraq_review_idempotence": {
@@ -80,10 +80,10 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "90"
+      "stdout": "156"
     },
     "iraq_review_threshold": {
-      "detail": "full review passed=90/90",
+      "detail": "full review passed=156/156",
       "status": "pass"
     },
     "iraq_semantic_validation": {
@@ -91,10 +91,10 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "{'entities': 20, 'aliases': 19, 'relationships': 19, 'claims': 20, 'sources': 4, 'denominators': 4, 'coverage': 4}"
+      "stdout": "{'entities': 51, 'aliases': 19, 'relationships': 50, 'claims': 23, 'sources': 5, 'denominators': 4, 'coverage': 4}"
     },
     "iraq_source_idempotence": {
-      "detail": "atomic sources=4/4, unchanged=True",
+      "detail": "atomic sources=5/5, unchanged=True",
       "status": "pass"
     },
     "iraq_source_refresh": {
@@ -102,7 +102,7 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "{\"entities\": 19, \"aliases\": 19, \"relationships\": 19, \"claims\": 20, \"sources\": 4}"
+      "stdout": "{\"entities\": 50, \"aliases\": 19, \"relationships\": 50, \"claims\": 23, \"sources\": 5}"
     },
     "non_iraq_preservation": {
       "detail": "canonical non-Iraq SHA-256 unchanged=edcf038b8ac9168218494278fb09ed2fda3fce512e055a037da362c98a7d9b3d",
