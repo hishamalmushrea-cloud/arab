@@ -28,7 +28,7 @@
       "sample_size": 19
     },
     "claims": {
-      "population": 20,
+      "population": 23,
       "record_ids": [
         "CLM-IQ-0F781E2099925B71",
         "CLM-IQ-14C86BBA91CE51B9",
@@ -49,10 +49,13 @@
         "CLM-IQ-BD4118E8FAA5591E",
         "CLM-IQ-BECE5D36651A53E5",
         "CLM-IQ-EFA642E9E7B55CDE",
-        "CLM-IQ-FB1AD0FC0F1354A6"
+        "CLM-IQ-FB1AD0FC0F1354A6",
+        "CLM-IQ-QADAPOP-083C20E52D2F5328",
+        "CLM-IQ-QADAPOP-853F6EB0C4325FE5",
+        "CLM-IQ-QADAPOP-9B183C8F396B5237"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 20
+      "sample_size": 23
     },
     "coverage": {
       "population": 4,
@@ -77,9 +80,40 @@
       "sample_size": 4
     },
     "entities": {
-      "population": 20,
+      "population": 51,
       "record_ids": [
         "ENT-IQ-COUNTRY",
+        "ENT-IQ-DISTRICT-091BB1055DA3",
+        "ENT-IQ-DISTRICT-0971E5C1E263",
+        "ENT-IQ-DISTRICT-0D71F453715F",
+        "ENT-IQ-DISTRICT-1C2292B7AA89",
+        "ENT-IQ-DISTRICT-21E9A3B357BF",
+        "ENT-IQ-DISTRICT-279008F40C23",
+        "ENT-IQ-DISTRICT-2C2AC2E80AC5",
+        "ENT-IQ-DISTRICT-445E0B60C5E3",
+        "ENT-IQ-DISTRICT-5153E49CDF4E",
+        "ENT-IQ-DISTRICT-5363B127E4AF",
+        "ENT-IQ-DISTRICT-5DCA72247E2D",
+        "ENT-IQ-DISTRICT-642D6802E2D8",
+        "ENT-IQ-DISTRICT-6569F07CFCB4",
+        "ENT-IQ-DISTRICT-6F67B5E606AC",
+        "ENT-IQ-DISTRICT-80A984E53003",
+        "ENT-IQ-DISTRICT-843FDEFA685E",
+        "ENT-IQ-DISTRICT-8C034F8F9DD3",
+        "ENT-IQ-DISTRICT-9588B648FD05",
+        "ENT-IQ-DISTRICT-9AAEDA0B7A2C",
+        "ENT-IQ-DISTRICT-9C3830E0E7A5",
+        "ENT-IQ-DISTRICT-A4DEB6A2BE02",
+        "ENT-IQ-DISTRICT-B0414E93040C",
+        "ENT-IQ-DISTRICT-B2310F0B8CD3",
+        "ENT-IQ-DISTRICT-B3DE50187F68",
+        "ENT-IQ-DISTRICT-B95D7F0BE2CA",
+        "ENT-IQ-DISTRICT-BAB79A6BBC28",
+        "ENT-IQ-DISTRICT-BAC8F8A81771",
+        "ENT-IQ-DISTRICT-E2D4977F9BDF",
+        "ENT-IQ-DISTRICT-EEBBEF11A9EF",
+        "ENT-IQ-DISTRICT-F369E8C7CEC0",
+        "ENT-IQ-DISTRICT-FDA20B990704",
         "ENT-IQ-GOVERNORATE-01",
         "ENT-IQ-GOVERNORATE-02",
         "ENT-IQ-GOVERNORATE-03",
@@ -101,10 +135,10 @@
         "ENT-IQ-GOVERNORATE-19"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 20
+      "sample_size": 51
     },
     "relationships": {
-      "population": 19,
+      "population": 50,
       "record_ids": [
         "REL-IQ-08FDF68FC85F5818",
         "REL-IQ-1F2942A25C945ABE",
@@ -124,21 +158,53 @@
         "REL-IQ-CBB4A2F7E85354E1",
         "REL-IQ-E1522A478D775A46",
         "REL-IQ-E6557DBEA7F35B6E",
-        "REL-IQ-EB8EA00C3FCB5169"
+        "REL-IQ-EB8EA00C3FCB5169",
+        "REL-IQ-QADA-05CC740529A65171",
+        "REL-IQ-QADA-107447C24F635C76",
+        "REL-IQ-QADA-279D5718AA9C58DF",
+        "REL-IQ-QADA-3378151D37F75D4D",
+        "REL-IQ-QADA-438243C0DA5F5DC4",
+        "REL-IQ-QADA-4C51ECB0FE75553B",
+        "REL-IQ-QADA-50C52E1DED8C57C5",
+        "REL-IQ-QADA-62AF08BE195E5FFA",
+        "REL-IQ-QADA-64F703F4E19157AB",
+        "REL-IQ-QADA-66368A795BEA5D22",
+        "REL-IQ-QADA-770CE18068935AB1",
+        "REL-IQ-QADA-79A4A76B8C5552F8",
+        "REL-IQ-QADA-8DAF1589046352E1",
+        "REL-IQ-QADA-96F0D540DDBE5E2B",
+        "REL-IQ-QADA-9E07D0B0CEDC55D8",
+        "REL-IQ-QADA-A11B2C16607F5874",
+        "REL-IQ-QADA-A57EB3898CC350C8",
+        "REL-IQ-QADA-B3971B1BB6325F26",
+        "REL-IQ-QADA-B5B07D82377E58CE",
+        "REL-IQ-QADA-B90B6C0E2BE655D0",
+        "REL-IQ-QADA-C8523A9BAE5D57C6",
+        "REL-IQ-QADA-D3540A70223B5F53",
+        "REL-IQ-QADA-DB77FB2A0D635D30",
+        "REL-IQ-QADA-DC12881369A95F57",
+        "REL-IQ-QADA-DCFA03B9656B5D40",
+        "REL-IQ-QADA-EB4C69357A0756C5",
+        "REL-IQ-QADA-EBE17495341F502E",
+        "REL-IQ-QADA-EDC7C80CB9D75998",
+        "REL-IQ-QADA-F50FBEB261375B29",
+        "REL-IQ-QADA-F5D536D5A9255AB1",
+        "REL-IQ-QADA-F88AEA245D7852FF"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 19
+      "sample_size": 50
     },
     "sources": {
-      "population": 4,
+      "population": 5,
       "record_ids": [
         "SRC-IQ-COSIT-GOVERNORATES-2023",
         "SRC-IQ-DECREE-21-HALABJA-2025",
         "SRC-IQ-KRSO-FOUR-GOVERNORATES",
-        "SRC-IQ-LAW-7-HALABJA-2025"
+        "SRC-IQ-LAW-7-HALABJA-2025",
+        "SRC-IQ-QADA-LISTS-MIRROR-2026"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 4
+      "sample_size": 5
     }
   },
   "schema_version": "2.0.0"

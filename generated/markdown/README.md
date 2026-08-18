@@ -11,7 +11,7 @@
 | SA | السعودية | 1726 | 1758 | [SA](countries/SA.md) |
 | SD | السودان | 19 | 19 | [SD](countries/SD.md) |
 | SO | الصومال | 9 | 9 | [SO](countries/SO.md) |
-| IQ | العراق | 20 | 20 | [IQ](countries/IQ.md) |
+| IQ | العراق | 51 | 23 | [IQ](countries/IQ.md) |
 | KW | الكويت | 7 | 6 | [KW](countries/KW.md) |
 | MA | المغرب | 88 | 29 | [MA](countries/MA.md) |
 | YE | اليمن | 463 | 92 | [YE](countries/YE.md) |

@@ -10,8 +10,8 @@
     },
     "claims": {
       "failed": 0,
-      "passed": 20,
-      "sampled": 20,
+      "passed": 23,
+      "sampled": 23,
       "status": "PASS"
     },
     "coverage": {
@@ -28,20 +28,20 @@
     },
     "entities": {
       "failed": 0,
-      "passed": 20,
-      "sampled": 20,
+      "passed": 51,
+      "sampled": 51,
       "status": "PASS"
     },
     "relationships": {
       "failed": 0,
-      "passed": 19,
-      "sampled": 19,
+      "passed": 50,
+      "sampled": 50,
       "status": "PASS"
     },
     "sources": {
       "failed": 0,
-      "passed": 4,
-      "sampled": 4,
+      "passed": 5,
+      "sampled": 5,
       "status": "PASS"
     }
   },
@@ -50,6 +50,6 @@
   "p0": 0,
   "schema_version": "2.0.0",
   "status": "PASS",
-  "total_passed": 90,
-  "total_sampled": 90
+  "total_passed": 156,
+  "total_sampled": 156
 }

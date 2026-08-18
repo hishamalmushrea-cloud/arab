@@ -866,6 +866,26 @@
   },
   {
     "archive_url": null,
+    "checksum": "sha256:c11b1af9e21ca2d694d0b3da2b614b70ab1d363935e9c46a89d63fbfa9eb8f78",
+    "country_codes": [
+      "IQ"
+    ],
+    "id": "SRC-IQ-QADA-LISTS-MIRROR-2026",
+    "language": "ar",
+    "license": "Official Iraq federal/regional statistical/legal material; factual extraction with attribution; reuse terms not stated",
+    "locator": "Per-governorate qada tables: Baghdad 14, Nineveh 10, Basra 7 with arithmetically consistent hadar/rif census rows",
+    "notes": "Depth-cycle mirror. Qada identities carry probable status (list-dispute entries unverified); the contested national frame (121 vs 130+) is recorded, never averaged; disputed-territories notes never become control inference. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Encyclopedic mirror pages citing official census/administrative rows",
+    "quality_tier": "C",
+    "retrieved_at": "2026-08-17",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Qada inventories of Baghdad, Nineveh, and Basra — encyclopedic mirror with census table",
+    "url": "https://ar.wikipedia.org/wiki/%D8%A3%D9%82%D8%B6%D9%8A%D8%A9_%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82"
+  },
+  {
+    "archive_url": null,
     "checksum": null,
     "country_codes": [
       "AE",
