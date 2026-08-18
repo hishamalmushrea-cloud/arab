@@ -34,7 +34,7 @@
   },
   {
     "captured_at": "2026-08-16",
-    "checksum": "sha256:6ce89b0b90400d168eb8c18dbae8c2980ad3a5d4c24523de540cb42aecc15d15",
+    "checksum": "sha256:798fbb6a6fb35d3ec6eea100ab6a7c1fd129f4fdc8358600d6497aa0ceac15c6",
     "id": "SNP-DZ-PRODUCTION-20260816",
     "method": "Checksum-bound current/future separation.",
     "notes": "1541 communes known but deferred; future wilayas not current.",

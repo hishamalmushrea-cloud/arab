@@ -1,10 +1,18 @@
 {
   "country_code": "DZ",
+  "reconciliation": {
+    "cultural_frame": "19 cultural claims: 6 Amazigh language-presence (probable, constitutional 2016; five varieties anchored to wilayas), Darija profile with 12-word lexicon, 8 dishes (couscous and bourek shared), 4 dress claims incl. الشدة التلمسانية; all unpublished."
+  },
   "records": [
     {
       "bytes": 5956,
       "path": "data/imports/algeria/fixtures/wilaya_transition.json",
       "sha256": "304af6095f2b8d87eadc7670c1dd5fb211550ceb344dc265bcd35c7da715a3a0"
+    },
+    {
+      "path": "fixtures/cultural_depth_2026.json",
+      "record_count": 19,
+      "sha256": "9167ad3c0ba9ad4c73320708c6bb2c9d88e7b0a1bf05ab62b7cabf8d55efb0e7"
     }
   ],
   "schema_version": "2.0.0",

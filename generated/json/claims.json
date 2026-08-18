@@ -7319,6 +7319,634 @@
     "verification_status": "source_verified"
   },
   {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-DZ-DEPTH-26EE693D93885137",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Couscous and bourek stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الكسكس",
+    "status": "reported",
+    "subject_id": "ENT-DZ-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "سميد مفتول بالخضار واللحم والحمص؛ ومن أنواعه الجزائرية كسكس العصبان والكسكس الحلو بالزبيب واللبن",
+        "name": "الكسكس",
+        "note": "مدرج في تراث اليونسكو غير المادي 2020 ملفا رباعيا مشتركا بين الجزائر والمغرب وتونس وموريتانيا — لا ملكية حصرية",
+        "occasion": "غداء الجمعة والأعراس"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-DZ-DEPTH-2DFA2776E3CE5A7D",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; regional variant names attested, never invented; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: البرنوس",
+    "status": "reported",
+    "subject_id": "ENT-DZ-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "عباءة صوفية بقلنسوة بلا أكمام للشتاء في المرتفعات والصحراء؛ رمز وطني يرتديه الرئيس في المناسبات",
+        "gender": "رجالي",
+        "name": "البرنوس"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-DZ-DEPTH-4C7E80F4CBF5565B",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; regional variant names attested, never invented; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الشدة التلمسانية",
+    "status": "reported",
+    "subject_id": "ENT-DZ-WILAYA-13",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لباس العروس التلمسانية الفاخر: اثنتا عشرة قطعة وما يزيد على خمسين صنفا من المجوهرات بوزن يناهز خمسة عشر كيلوغراما؛ جذور عربية وأمازيغية وعثمانية وأندلسية؛ مدرجة لدى اليونسكو",
+        "gender": "نسائي",
+        "name": "الشدة التلمسانية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-DZ-DEPTH-4DA8C36D9585562E",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Couscous and bourek stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: القارانطيطة",
+    "status": "reported",
+    "subject_id": "ENT-DZ-WILAYA-16",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "عجينة حمص وطحين بالكمون تخبز وتؤكل ساخنة؛ شعبية عاصمية وهرانية",
+        "name": "القارانطيطة",
+        "note": "الجزائر ووهران؛ جذور إسبانية الاسم calentita",
+        "occasion": "وجبة شعبية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-DZ-DEPTH-5BAA9FA052D555D9",
+    "lexical_context": null,
+    "notes": "Amazigh is constitutionally official (2016); variety scopes from secondary mirrors anchored to wilayas; probable pending an academic atomic source; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: القبائلية (تاقبايلت)",
+    "status": "reported",
+    "subject_id": "ENT-DZ-WILAYA-15",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أكبر مجالات الأمازيغية الجزائرية: تيزي وزو وبجاية والبويرة",
+        "language": "القبائلية (تاقبايلت)"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-DZ-DEPTH-68DED08E9340596F",
+    "lexical_context": null,
+    "notes": "Amazigh is constitutionally official (2016); variety scopes from secondary mirrors anchored to wilayas; probable pending an academic atomic source; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: الشنوية (تاشناويت)",
+    "status": "reported",
+    "subject_id": "ENT-DZ-WILAYA-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أمازيغية جبل شنوة: الشلف وتنس",
+        "language": "الشنوية (تاشناويت)"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-DZ-DEPTH-77D65764D6D452BC",
+    "lexical_context": null,
+    "notes": "Amazigh is constitutionally official (2016); variety scopes from secondary mirrors anchored to wilayas; probable pending an academic atomic source; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: الأمازيغية",
+    "status": "reported",
+    "subject_id": "ENT-DZ-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لغة رسمية بنص تعديل الدستور 2016",
+        "language": "الأمازيغية"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-DZ-DEPTH-7D587500727A5E87",
+    "lexical_context": null,
+    "notes": "Amazigh is constitutionally official (2016); variety scopes from secondary mirrors anchored to wilayas; probable pending an academic atomic source; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: الطوارقية (تاماهق)",
+    "status": "reported",
+    "subject_id": "ENT-DZ-WILAYA-11",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أمازيغية الهقار في تمنراست وجانت",
+        "language": "الطوارقية (تاماهق)"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-DZ-DEPTH-7D9D4A5BECA55FCE",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Couscous and bourek stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: المحاجب",
+    "status": "reported",
+    "subject_id": "ENT-DZ-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "رقائق سميد محشوة بصلصة الطماطم والبصل والبهارات",
+        "name": "المحاجب",
+        "note": "",
+        "occasion": "فطور وغداء"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-DZ-DEPTH-7F102287385251E6",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Couscous and bourek stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الملة",
+    "status": "reported",
+    "subject_id": "ENT-DZ-WILAYA-11",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "خبز صحراوي يخبز في الرماد الحار",
+        "name": "الملة",
+        "note": "الصحراء والهقار",
+        "occasion": "خبز الرحّل"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-DZ-DEPTH-8E9F28663625504F",
+    "lexical_context": null,
+    "notes": "Amazigh is constitutionally official (2016); variety scopes from secondary mirrors anchored to wilayas; probable pending an academic atomic source; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: المزابية (تومزابت)",
+    "status": "reported",
+    "subject_id": "ENT-DZ-WILAYA-47",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أمازيغية وادي مزاب في غرداية",
+        "language": "المزابية (تومزابت)"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-DZ-DEPTH-935A912281C85D99",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; regional variant names attested, never invented; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: القفطان الجزائري",
+    "status": "reported",
+    "subject_id": "ENT-DZ-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "رداء مفتوح من الأمام مطرز مع حزام المضمة؛ أنواعه العاصمي والقسنطيني والتلمساني",
+        "gender": "نسائي",
+        "name": "القفطان الجزائري"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-DZ-DEPTH-96526D7823475807",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Couscous and bourek stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: البوراك",
+    "status": "reported",
+    "subject_id": "ENT-DZ-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "ورق رقيق محشو باللحم والبيض مقلي؛ جذور عثمانية",
+        "name": "البوراك",
+        "note": "مشترك جزائري تونسي بجذور عثمانية — لا حصرية",
+        "occasion": "رمضان ومقبلات"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-DZ-DEPTH-9669BFE175F15207",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Couscous and bourek stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الشخشوخة",
+    "status": "reported",
+    "subject_id": "ENT-DZ-WILAYA-05",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "رقائق عجين مفتتة بمرق اللحم والخضار والبهارات؛ أكلة احتفالية شرقية",
+        "name": "الشخشوخة",
+        "note": "الأوراس وقسنطينة وبسكرة",
+        "occasion": "الأعراس والمناسبات الكبرى"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-DZ-DEPTH-ACC41498DC84509F",
+    "lexical_context": null,
+    "notes": "Darija profile and lexicon from secondary mirrors; the linguistic-origin debate is recorded neutrally; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Darija profile and 12-word lexicon",
+    "status": "reported",
+    "subject_id": "ENT-DZ-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "اختزال حروف العلة ومجموعات حرفية طويلة سمة مغاربية",
+          "تسكين الحروف خلافا للمشرق",
+          "لا مثنى كالأمازيغية",
+          "نفي أمازيغي بالشين: ما عنديش",
+          "مفردات فرنسية راسخة: طوموبيل وبلاصة وفورماج والسمانة",
+          "مفردات أمازيغية: أضرار وتيفي وأزرو"
+        ],
+        "group": "الدارجة الجزائرية",
+        "sample_words": [
+          {
+            "m": "كم",
+            "w": "شحال"
+          },
+          {
+            "m": "ماذا",
+            "w": "وش"
+          },
+          {
+            "m": "كيف",
+            "w": "كيفاش"
+          },
+          {
+            "m": "متى",
+            "w": "وقتاش"
+          },
+          {
+            "m": "الآن؛ من ذاك الوقت",
+            "w": "درك"
+          },
+          {
+            "m": "كثير",
+            "w": "بزاف"
+          },
+          {
+            "m": "كثير؛ شرقية",
+            "w": "ياسر"
+          },
+          {
+            "m": "جيد",
+            "w": "مليح"
+          },
+          {
+            "m": "غدا",
+            "w": "غدوا"
+          },
+          {
+            "m": "أمس",
+            "w": "البارح"
+          },
+          {
+            "m": "أتحدث",
+            "w": "نهدر"
+          },
+          {
+            "m": "من",
+            "w": "شكون"
+          }
+        ]
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-DZ-DEPTH-BCADDD051EFD5F9A",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; regional variant names attested, never invented; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الجلابة والشاشية والبابوش",
+    "status": "reported",
+    "subject_id": "ENT-DZ-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "الجلابة رداء يومي بقلنسوة، والشاشية الحمراء غطاء رأس تلمساني عاصمي، والبابوش حذاء جلدي بلا كعب",
+        "gender": "مشترك",
+        "name": "الجلابة والشاشية والبابوش"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-DZ-DEPTH-D48ABD7A990D5B12",
+    "lexical_context": null,
+    "notes": "Amazigh is constitutionally official (2016); variety scopes from secondary mirrors anchored to wilayas; probable pending an academic atomic source; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: الشاوية (تاشاويت)",
+    "status": "reported",
+    "subject_id": "ENT-DZ-WILAYA-05",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أمازيغية الأوراس: باتنة وخنشلة وتبسة وأم البواقي",
+        "language": "الشاوية (تاشاويت)"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-DZ-DEPTH-DC0D165F81B057E2",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Couscous and bourek stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الشوربة (الحريرة الجزائرية)",
+    "status": "reported",
+    "subject_id": "ENT-DZ-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "شوربة اللحم والطماطم والفريك أو الشعيرية بالنعناع",
+        "name": "الشوربة (الحريرة الجزائرية)",
+        "note": "",
+        "occasion": "فطور رمضان"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-DZ-DEPTH-F1012EAA5B3559B0",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Couscous and bourek stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الرفيس",
+    "status": "reported",
+    "subject_id": "ENT-DZ-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "قمح وتمر وسمن ولوز؛ أمازيغي الجذور",
+        "name": "الرفيس",
+        "note": "",
+        "occasion": "مناسبات وضيافة"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-E0510B53BFF359DE",

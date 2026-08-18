@@ -14,7 +14,7 @@ DZNAGED = [
     "data/entities/entities.jsonl", "data/aliases/aliases.jsonl", "data/relationships/relationships.jsonl",
     "data/claims/claims.jsonl", "data/coverage/denominators.jsonl", "data/coverage/coverage.jsonl",
     "data/snapshots/snapshots.jsonl", "manifests/DZ.yml", "data/cultural/algeria_domain_status.json",
-    "data/imports/algeria/source_catalog.json",
+    "data/imports/algeria/source_catalog.json", "data/imports/algeria/fixtures/cultural_depth_2026.json",
 ]
 
 class Gate:
@@ -59,7 +59,7 @@ def main() -> int:
     before_sources = source_hashes()
     gate.command("algeria_source_refresh", [sys.executable, "scripts/build_algeria_sources.py"])
     after_sources = source_hashes()
-    gate.require(len(after_sources) == 3 and before_sources == after_sources, "algeria_source_idempotence", f"atomic sources={len(after_sources)}/3, unchanged={before_sources == after_sources}")
+    gate.require(len(after_sources) == 4 and before_sources == after_sources, "algeria_source_idempotence", f"atomic sources={len(after_sources)}/4, unchanged={before_sources == after_sources}")
     before_files, before_other = file_hashes(), non_algeria_hash()
     gate.command("algeria_import_refresh", [sys.executable, "scripts/import_algeria_production.py"])
     after_files, after_other = file_hashes(), non_algeria_hash()
@@ -80,8 +80,8 @@ def main() -> int:
     negatives = json.loads((ROOT / "reports/algeria_negative_tests.json").read_text(encoding="utf-8"))
     review = json.loads((ROOT / "reports/algeria_independent_review.json").read_text(encoding="utf-8"))
     gate.require(validation.get("status") == "PASS" and validation.get("p0") == 0 and validation.get("critical_p1") == 0, "algeria_findings_closed", f"status={validation.get('status')}, P0={validation.get('p0')}, critical P1={validation.get('critical_p1')}")
-    gate.require(negatives.get("status") == "PASS" and negatives.get("detected") == negatives.get("required") == 8, "algeria_required_mutations", f"detected={negatives.get('detected')}/{negatives.get('required')}")
-    gate.require(review.get("status") == "PASS" and review.get("total_sampled") == review.get("total_passed") == 151, "algeria_review_threshold", f"full review passed={review.get('total_passed')}/{review.get('total_sampled')}")
+    gate.require(negatives.get("status") == "PASS" and negatives.get("detected") == negatives.get("required") == 12, "algeria_required_mutations", f"detected={negatives.get('detected')}/{negatives.get('required')}")
+    gate.require(review.get("status") == "PASS" and review.get("total_sampled") == review.get("total_passed") == 171, "algeria_review_threshold", f"full review passed={review.get('total_passed')}/{review.get('total_sampled')}")
     for required in ["reports/ALGERIA_PRODUCTION_CLOSEOUT.md", "reports/LESSONS_LEARNED_ALGERIA.md", "reports/EXPANSION_LESSONS.md", "reports/NEXT_COUNTRY_DECISION.md"]:
         gate.require((ROOT / required).is_file(), "artifact_" + Path(required).stem.lower(), f"{required} exists")
     status = subprocess.run(["git", "status", "--porcelain"], cwd=ROOT, text=True, capture_output=True, check=True).stdout.strip()

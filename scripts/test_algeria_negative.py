@@ -13,5 +13,9 @@ def main():
  r('DZ_DENOM_TAMPER',lambda d:next(x for x in d['denominators'] if x['id']=='DEN-DZ-WILAYAS-CURRENT-2021').update(value=69),'DZ_DENOMINATORS')
  r('DZ_PREMATURE_COMMUNE',lambda d:d['entities'].append({**d['entities'][-1],'id':'ENT-DZ-COMMUNE-X','entity_type':'dz_commune'}),'DZ_PREMATURE_LOWER')
  r('DZ_WRONG_PARENT',lambda d:next(x for x in d['relationships']).update(parent_id='ENT-DZ-WILAYA-01'),'DZ_PARENT')
- ok=all(x['detected'] for x in o);write_json(ROOT/'reports/algeria_negative_tests.json',{'schema_version':'2.0.0','country_code':'DZ','status':'PASS' if ok else 'FAIL','required':8,'detected':sum(x['detected'] for x in o),'mutations':o});print(o);return 0 if ok else 1
+ r('DZ_DEPTH_PUBLISHED',lambda d:next(x for x in d['claims'] if x.get('predicate')=='food_dish').update(published=True),'DZ_DEPTH_UNPUBLISHED')
+ r('DZ_COUSCOUS_EXCLUSIVE',lambda d:next(x for x in d['claims'] if x.get('predicate')=='food_dish' and x['value']['data'].get('name')=='الكسكس').update(classification='national'),'DZ_SHARED_NOT_EXCLUSIVE')
+ r('DZ_DIALECT_PROMOTED',lambda d:next(x for x in d['claims'] if x.get('predicate')=='dialect_profile').update(verification_status='verified'),'DZ_DEPTH_STATUS')
+ r('DZ_LANG_DROPPED',lambda d:d['claims'].__setitem__(slice(None),[x for x in d['claims'] if x.get('predicate')!='language_presence']),'DZ_DEPTH_LANGS')
+ ok=all(x['detected'] for x in o);write_json(ROOT/'reports/algeria_negative_tests.json',{'schema_version':'2.0.0','country_code':'DZ','status':'PASS' if ok else 'FAIL','required':12,'detected':sum(x['detected'] for x in o),'mutations':o});print(o);return 0 if ok else 1
 if __name__=='__main__':raise SystemExit(main())
