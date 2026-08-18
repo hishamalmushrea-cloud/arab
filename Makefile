@@ -1,4 +1,4 @@
-.PHONY: schema-migration-test malformed-json-test validate validate-jordan validate-saudi validate-uae validate-bahrain generate generate-uae-report check phase0 phase1 phase2 phase3 phase4 phase5 bahrain import-tunisia import-jordan import-saudi import-uae import-bahrain review-tunisia review-jordan review-saudi review-uae review-bahrain test-uae-negative test-bahrain-negative repair
+.PHONY: schema-migration-test malformed-json-test validate validate-jordan validate-saudi validate-uae validate-bahrain generate generate-uae-report android-data android-data-check android-ci check phase0 phase1 phase2 phase3 phase4 phase5 bahrain import-tunisia import-jordan import-saudi import-uae import-bahrain review-tunisia review-jordan review-saudi review-uae review-bahrain test-uae-negative test-bahrain-negative repair
 
 schema-migration-test:
 	python3 scripts/test_schema_migration.py
@@ -23,6 +23,17 @@ validate-bahrain:
 
 generate:
 	python3 scripts/generate.py
+
+android-data:
+	python3 scripts/build_android_database.py
+
+android-data-check:
+	python3 scripts/build_android_database.py --check
+
+# The existing GitHub runner includes JDK 17 and Android SDK 35. Keep local
+# data-only checks dependency-free, but compile the APK in CI.
+android-ci:
+	@if [ "$$GITHUB_ACTIONS" = "true" ]; then scripts/android_ci.sh; else echo "Android APK build skipped outside GitHub Actions"; fi
 
 generate-uae-report:
 	python3 scripts/generate_uae_report.py
@@ -156,7 +167,7 @@ somalia:
 sudan:
 	python3 scripts/check_sudan_gate.py
 
-check: phase5 bahrain kuwait qatar oman djibouti morocco algeria egypt mauritania lebanon comoros palestine iraq libya yemen syria somalia sudan
+check: android-data-check phase5 bahrain kuwait qatar oman djibouti morocco algeria egypt mauritania lebanon comoros palestine iraq libya yemen syria somalia sudan android-ci
 
 repair:
 	python3 scripts/repair_legacy.py
@@ -189,3 +200,4 @@ repair:
 	python3 scripts/import_somalia_production.py
 	python3 scripts/import_sudan_production.py
 	python3 scripts/generate.py
+	python3 scripts/build_android_database.py
