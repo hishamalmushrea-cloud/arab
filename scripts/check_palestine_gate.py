@@ -14,7 +14,7 @@ PSNAGED = [
     "data/entities/entities.jsonl", "data/aliases/aliases.jsonl", "data/relationships/relationships.jsonl",
     "data/claims/claims.jsonl", "data/coverage/denominators.jsonl", "data/coverage/coverage.jsonl",
     "data/snapshots/snapshots.jsonl", "manifests/PS.yml", "data/cultural/palestine_domain_status.json",
-    "data/imports/palestine/source_catalog.json",
+    "data/imports/palestine/source_catalog.json", "data/imports/palestine/fixtures/depopulated_1948_2026.json",
 ]
 
 class Gate:
@@ -59,7 +59,7 @@ def main() -> int:
     before_sources = source_hashes()
     gate.command("palestine_source_refresh", [sys.executable, "scripts/build_palestine_sources.py"])
     after_sources = source_hashes()
-    gate.require(len(after_sources) == 4 and before_sources == after_sources, "palestine_source_idempotence", f"atomic sources={len(after_sources)}/4, unchanged={before_sources == after_sources}")
+    gate.require(len(after_sources) == 6 and before_sources == after_sources, "palestine_source_idempotence", f"atomic sources={len(after_sources)}/6, unchanged={before_sources == after_sources}")
     before_files, before_other = file_hashes(), non_palestine_hash()
     gate.command("palestine_import_refresh", [sys.executable, "scripts/import_palestine_production.py"])
     after_files, after_other = file_hashes(), non_palestine_hash()
@@ -80,8 +80,8 @@ def main() -> int:
     negatives = json.loads((ROOT / "reports/palestine_negative_tests.json").read_text(encoding="utf-8"))
     review = json.loads((ROOT / "reports/palestine_independent_review.json").read_text(encoding="utf-8"))
     gate.require(validation.get("status") == "PASS" and validation.get("p0") == 0 and validation.get("critical_p1") == 0, "palestine_findings_closed", f"status={validation.get('status')}, P0={validation.get('p0')}, critical P1={validation.get('critical_p1')}")
-    gate.require(negatives.get("status") == "PASS" and negatives.get("detected") == negatives.get("required") == 8, "palestine_required_mutations", f"detected={negatives.get('detected')}/{negatives.get('required')}")
-    gate.require(review.get("status") == "PASS" and review.get("total_sampled") == review.get("total_passed") == 99, "palestine_review_threshold", f"full review passed={review.get('total_passed')}/{review.get('total_sampled')}")
+    gate.require(negatives.get("status") == "PASS" and negatives.get("detected") == negatives.get("required") == 13, "palestine_required_mutations", f"detected={negatives.get('detected')}/{negatives.get('required')}")
+    gate.require(review.get("status") == "PASS" and review.get("total_sampled") == review.get("total_passed") == 1292, "palestine_review_threshold", f"full review passed={review.get('total_passed')}/{review.get('total_sampled')}")
     for required in ["reports/PALESTINE_PRODUCTION_CLOSEOUT.md", "reports/LESSONS_LEARNED_PALESTINE.md", "reports/EXPANSION_LESSONS.md", "reports/NEXT_COUNTRY_DECISION.md"]:
         gate.require((ROOT / required).is_file(), "artifact_" + Path(required).stem.lower(), f"{required} exists")
     status = subprocess.run(["git", "status", "--porcelain"], cwd=ROOT, text=True, capture_output=True, check=True).stdout.strip()

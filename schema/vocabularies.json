@@ -159,7 +159,8 @@
     "person",
     "language",
     "language_variety",
-    "lexical_form"
+    "lexical_form",
+    "ps_historical_qada"
   ],
   "forbidden_active_types": [
     "administrative_area_unspecified"

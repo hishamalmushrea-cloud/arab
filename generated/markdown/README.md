@@ -20,7 +20,7 @@
 | DJ | جيبوتي | 23 | 6 | [DJ](countries/DJ.md) |
 | SY | سوريا | 15 | 14 | [SY](countries/SY.md) |
 | OM | عُمان | 75 | 11 | [OM](countries/OM.md) |
-| PS | فلسطين | 23 | 24 | [PS](countries/PS.md) |
+| PS | فلسطين | 615 | 31 | [PS](countries/PS.md) |
 | QA | قطر | 10 | 10 | [QA](countries/QA.md) |
 | LB | لبنان | 36 | 13 | [LB](countries/LB.md) |
 | LY | ليبيا | 164 | 0 | [LY](countries/LY.md) |
