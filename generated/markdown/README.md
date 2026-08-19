@@ -19,7 +19,7 @@
 | KM | جزر القمر | 75 | 6 | [KM](countries/KM.md) |
 | DJ | جيبوتي | 23 | 6 | [DJ](countries/DJ.md) |
 | SY | سوريا | 15 | 14 | [SY](countries/SY.md) |
-| OM | عُمان | 75 | 11 | [OM](countries/OM.md) |
+| OM | عُمان | 75 | 32 | [OM](countries/OM.md) |
 | PS | فلسطين | 615 | 31 | [PS](countries/PS.md) |
 | QA | قطر | 10 | 10 | [QA](countries/QA.md) |
 | LB | لبنان | 36 | 13 | [LB](countries/LB.md) |

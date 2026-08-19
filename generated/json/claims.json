@@ -12800,6 +12800,682 @@
     "verification_status": "verified"
   },
   {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-004E27B592825A01",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الخنجر العماني",
+    "status": "reported",
+    "subject_id": "ENT-OM-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "خنجر معقوف بمقبض من القرن أو الفضة وغمد مزخرف يصنع يدويا في شهر أو أكثر؛ رمز وطني على شعار السلطنة؛ ومن طرزه السعيدي بنقوشه القرآنية",
+        "gender": "رجالي",
+        "name": "الخنجر العماني"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-OM-DEPTH-0097A3BB36CB5819",
+    "lexical_context": null,
+    "notes": "Living local language documented in secondary mirrors; Kumzari and Bathari stay local_reported pending academic atomic sources; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: المهرية",
+    "status": "reported",
+    "subject_id": "ENT-OM-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لغة سامية جنوبية في جنوب ظفار امتدادا لمجالها اليمني",
+        "language": "المهرية"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-2309A5C2E53A52CA",
+    "lexical_context": null,
+    "notes": "Regional dialect profile from secondary mirrors; a field-attested corpus remains the upgrade path; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: اللهجة الظفارية",
+    "status": "reported",
+    "subject_id": "ENT-OM-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "تميل إلى اللهجات اليمنية بحكم الجوار",
+          "مؤثرات سواحيلية وأفريقية"
+        ],
+        "group": "اللهجة الظفارية",
+        "sample_words": [
+          {
+            "m": "ثور",
+            "w": "فعور"
+          }
+        ],
+        "scope": "صلالة وظفار"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-23C207AC869D5671",
+    "lexical_context": null,
+    "notes": "Regional dialect profile from secondary mirrors; a field-attested corpus remains the upgrade path; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: لهجة الداخلية",
+    "status": "reported",
+    "subject_id": "ENT-OM-GOVERNORATE-05",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "عمانية قحة قريبة من الفصحى",
+          "القاف جيم في بعض المناطق",
+          "توصف بأنها أصعب اللهجات العمانية على غير العمانيين"
+        ],
+        "group": "لهجة الداخلية",
+        "sample_words": [
+          {
+            "m": "خذ",
+            "w": "دوك"
+          },
+          {
+            "m": "انتظرني",
+            "w": "احترني"
+          },
+          {
+            "m": "جميل",
+            "w": "غاوي"
+          },
+          {
+            "m": "يريد",
+            "w": "باغي"
+          }
+        ],
+        "scope": "نزوى وسمائل وبهلا وإزكي"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-31CDAE9CEE225CED",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الدشداشة العمانية",
+    "status": "reported",
+    "subject_id": "ENT-OM-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "ثوب بعنق مستدير وشريط رفيع مع الفراخة (الكركوشة) خيوط متدلية على الصدر تعطر بالبخور؛ تختلف عن الإماراتية بلا ياقة؛ والدشداشة الصورية تطرز أعلاها",
+        "gender": "رجالي",
+        "name": "الدشداشة العمانية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-383E27CD025C5E0A",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Gulf-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: القهوة العمانية والتمر",
+    "status": "reported",
+    "subject_id": "ENT-OM-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "بن أخضر بالهيل والزعفران يقدم مع التمر ركن الضيافة العماني",
+        "name": "القهوة العمانية والتمر",
+        "note": "",
+        "occasion": "الضيافة"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-3A9310AC657156D5",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Gulf-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الشوا",
+    "status": "reported",
+    "subject_id": "ENT-OM-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لحم كامل يتبل بالبذار ويلف بورق الموز أو النخيل ويدفن في تنور تحت الأرض ليطهى ليلة كاملة؛ يوصف بملك الأطباق العمانية",
+        "name": "الشوا",
+        "note": "طريقة الدفن الأرضي ميزة عمانية بارزة؛ أصله مرتبط بظفار والمناسبات الوطنية",
+        "occasion": "الأعياد والأعراس"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-OM-DEPTH-74029FB91FC95D38",
+    "lexical_context": null,
+    "notes": "Living local language documented in secondary mirrors; Kumzari and Bathari stay local_reported pending academic atomic sources; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: البلوشية",
+    "status": "reported",
+    "subject_id": "ENT-OM-GOVERNORATE-06",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لغة إيرانية يتحدثها البلوش في شمال الباطنة والظاهرة؛ أثر الروابط التاريخية مع بلوشستان",
+        "language": "البلوشية"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-7792186C7870554E",
+    "lexical_context": null,
+    "notes": "Living local language documented in secondary mirrors; Kumzari and Bathari stay local_reported pending academic atomic sources; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: البطحرية",
+    "status": "reported",
+    "subject_id": "ENT-OM-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لغة سامية جنوبية مهددة تتحدثها أقلية صغيرة في ظفار",
+        "language": "البطحرية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-83FD8E1961F75B36",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الكمة والمصر",
+    "status": "reported",
+    "subject_id": "ENT-OM-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "الكمة طاقية أسطوانية مطرزة يدويا بزخارف النجم ميزة عمانية بارزة، والمصر عمامة ملونة تلف فوقها في المناسبات",
+        "gender": "رجالي",
+        "name": "الكمة والمصر"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-8A32E0B1F750592D",
+    "lexical_context": null,
+    "notes": "Regional dialect profile from secondary mirrors; a field-attested corpus remains the upgrade path; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: لهجة مسقط والباطنة",
+    "status": "reported",
+    "subject_id": "ENT-OM-GOVERNORATE-01",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "قريبة من اللهجات الخليجية",
+          "قاف لهوية مهموسة",
+          "مفردات إنجليزية من الإرث البحري"
+        ],
+        "group": "لهجة مسقط والباطنة",
+        "sample_words": [],
+        "scope": "مسقط وشمال وجنوب الباطنة"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-92A597010F245F65",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Gulf-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الهريس",
+    "status": "reported",
+    "subject_id": "ENT-OM-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "قمح مجروش باللحم يطهى ساعات حتى يصير عصيدة بالسمن",
+        "name": "الهريس",
+        "note": "مشترك خليجي عربي — لا حصرية",
+        "occasion": "رمضان"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-OM-DEPTH-9D23038F6BBC5620",
+    "lexical_context": null,
+    "notes": "Living local language documented in secondary mirrors; Kumzari and Bathari stay local_reported pending academic atomic sources; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: السواحيلية",
+    "status": "reported",
+    "subject_id": "ENT-OM-GOVERNORATE-01",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لغة بانتوية يتحدثها العمانيون العائدون من شرق أفريقيا؛ إرث الحقبة الزنجبارية",
+        "language": "السواحيلية"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-OM-DEPTH-9ECAE06B71535B6C",
+    "lexical_context": null,
+    "notes": "Living local language documented in secondary mirrors; Kumzari and Bathari stay local_reported pending academic atomic sources; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: الشحرية (الجبالية)",
+    "status": "reported",
+    "subject_id": "ENT-OM-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لغة سامية جنوبية حية في جبال ظفار يتحدثها الشحوح والقبائل الجبلية",
+        "language": "الشحرية (الجبالية)"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-B3C538AACCDF54FA",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Gulf-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: القبولي",
+    "status": "reported",
+    "subject_id": "ENT-OM-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أرز باللحم والبذار واللومي والزعفران والحمص المجروش",
+        "name": "القبولي",
+        "note": "عائلة المكبوس الخليجية المشتركة — لا ملكية حصرية",
+        "occasion": "الولائم واليومي"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-BBE4BB2574645FB7",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Gulf-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: العرسية",
+    "status": "reported",
+    "subject_id": "ENT-OM-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أرز مهروس مع دجاج أو لحم يطهى حتى ينعقد؛ توصف بسيدة أطباق العيد",
+        "name": "العرسية",
+        "note": "",
+        "occasion": "صبيحة العيد"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-C9FBA6B29DE15D05",
+    "lexical_context": null,
+    "notes": "Regional dialect profile from secondary mirrors; a field-attested corpus remains the upgrade path; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: لهجة البادية",
+    "status": "reported",
+    "subject_id": "ENT-OM-GOVERNORATE-10",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "بدوية أقرب للفصحى",
+          "القاف جيم",
+          "قلب الجيم ياء"
+        ],
+        "group": "لهجة البادية",
+        "sample_words": [],
+        "scope": "الظاهرة والوسطى ورمال الشرقية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-CCE96FFF9AC451DD",
+    "lexical_context": null,
+    "notes": "Regional dialect profile from secondary mirrors; a field-attested corpus remains the upgrade path; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: لهجة مسندم",
+    "status": "reported",
+    "subject_id": "ENT-OM-GOVERNORATE-03",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "خليجية الطابع",
+          "تجاور الكمزارية الفريدة في كمزار"
+        ],
+        "group": "لهجة مسندم",
+        "sample_words": [],
+        "scope": "خصب ودبا وبخا ومدحاء"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-E0B2CC11C483573C",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Gulf-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: المضروبة",
+    "status": "reported",
+    "subject_id": "ENT-OM-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أرز بالدجاج أو السمك يضرب حتى ينعقد",
+        "name": "المضروبة",
+        "note": "مشترك خليجي",
+        "occasion": "يومي ومناسبات"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-E271AEA639805C13",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Gulf-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الثريد",
+    "status": "reported",
+    "subject_id": "ENT-OM-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "خبز الرقاق بمرق اللحم والخضار",
+        "name": "الثريد",
+        "note": "مشترك عربي قديم",
+        "occasion": "رمضان"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-E3108C98D788581B",
+    "lexical_context": null,
+    "notes": "Living local language documented in secondary mirrors; Kumzari and Bathari stay local_reported pending academic atomic sources; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: الكمزارية",
+    "status": "reported",
+    "subject_id": "ENT-OM-GOVERNORATE-03",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لغة فريدة مزيج عربي فارسي في قرية كمزار بمسندم؛ توثيقها الأكاديمي محدود",
+        "language": "الكمزارية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-PS-0430B87C92CF5B4C",

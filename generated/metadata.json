@@ -1,23 +1,23 @@
 {
   "counts": {
     "aliases": 3261,
-    "claims": 2403,
+    "claims": 2424,
     "coverage": 115,
     "denominators": 115,
     "entities": 6453,
     "relationships": 6860,
     "snapshots": 28,
-    "sources": 167
+    "sources": 168
   },
   "generator": "scripts/generate.py",
   "inputs": {
     "data/aliases/aliases.jsonl": "sha256:c8c4c5d827f437946cdc4e93f7c4bfa1d1c1675ce02729584ba0901644c7aa39",
-    "data/claims/claims.jsonl": "sha256:21c38e488f0e9bd1c8cdda4562ce5a3eadb6f078800f48016633a640a6b9711f",
+    "data/claims/claims.jsonl": "sha256:22e89962660b778d005d03a6f1d686c367011b4fae04ce6d096f0c139b4abd7e",
     "data/coverage/coverage.jsonl": "sha256:8769006a9a999c1939e27398cef033d8f944f1eeaed9d4eab57e1a18ba62682d",
     "data/coverage/denominators.jsonl": "sha256:f7491655693cd5e929da176598a9e4a02767d93517a7823cc08071a46a0ffed6",
     "data/entities/entities.jsonl": "sha256:78ce5ad9f4c7e7314feab6596b78fa1eeb660d3fd1f5ae7fde3e831109523913",
     "data/relationships/relationships.jsonl": "sha256:9795a9b544e07694247caeecd2c67e033617bfe01297c478b6cf3a161e34fc56",
-    "data/snapshots/snapshots.jsonl": "sha256:ae43bb2d040963eda9176d86991fb8707493c55b63f59672a9b947956a8b4b4f",
+    "data/snapshots/snapshots.jsonl": "sha256:28c24089b2d41b2e39cae93e8f93034a6d8a62183d7ce974af14e319d29b4b70",
     "data/sources/SRC-ACADEMIC-SA-DIALECT-CORPUS-2020.json": "sha256:8db9aa1b7b0ebee570ab4e5bab6c455fbb03159360564d822a9b338bde5a8d43",
     "data/sources/SRC-AE-AJMAN-ABOUT-2026.json": "sha256:db611da10b5482b40eeacd255591bc11c60518d3ee2964496af1ddb5ddaaee25",
     "data/sources/SRC-AE-DMT-THREE-MUNICIPALITIES-2026.json": "sha256:0d4904c92887ea7cc54ca6d931128ec4df483a76b3faec3c3243e68d123c1a67",
@@ -82,6 +82,7 @@
     "data/sources/SRC-MR-ANSADE-PEER-REVIEW-2024.json": "sha256:9ad0ede6ed0e17a74b75d85709fb1c0299e29cb4aecbd5760a5e78c9d1a76d3e",
     "data/sources/SRC-MR-ANSADE-RGPH5-2024.json": "sha256:b4aafff7f3d591f86b886503b69417374407f5bff21d86d375e809be4b467390",
     "data/sources/SRC-MR-DGAT-15-63-2026.json": "sha256:c8987a0f44a6522fcb5b55053dbfa7953903012d6a5129b275634e83b5322634",
+    "data/sources/SRC-OM-CULTURE-MIRROR-2026.json": "sha256:71fea43e75aefe1f5b8d1de80cca3f30a0a8a06efca1784241bf2cbc02aecfe5",
     "data/sources/SRC-OM-NCSI-ADMIN-CODES-2026.json": "sha256:21dada2d2035feaf450bae4885e4d8c5ef49f5f5627e3acf253bbdf761dbd03a",
     "data/sources/SRC-OM-ONA-63-WILAYATS-2022.json": "sha256:208307bed8eeb11a88967cf5c6657f77b2398035e44233b09172c703570dcbe3",
     "data/sources/SRC-OM-RD-36-2022-GOVERNORATES.json": "sha256:e2f7819fd34b0ee7a2972b0990df1870cd23a3d997e60f75a9e6e0ccaf367e5a",
