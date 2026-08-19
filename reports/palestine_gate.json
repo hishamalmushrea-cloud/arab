@@ -21,7 +21,7 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=18209\n[PASS] ids: global_ids=18209, duplicate_ids=0\n[PASS] entity_types: allowed_types=103, active_types=66\n[PASS] sources: atomic_files=165, sources=165, references=20907\n[PASS] parents: administrative_relationships=5639\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2396, sourced=2396\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=115, coverage_records=115, complete_layers=97\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=19402\n[PASS] ids: global_ids=19402, duplicate_ids=0\n[PASS] entity_types: allowed_types=104, active_types=67\n[PASS] sources: atomic_files=167, sources=167, references=22098\n[PASS] parents: administrative_relationships=5639\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2403, sourced=2403\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=115, coverage_records=115, complete_layers=97\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
     },
     "generated_freshness": {
       "command": "python3 scripts/generate.py --check",
@@ -43,7 +43,7 @@
       "status": "pass"
     },
     "palestine_import_idempotence": {
-      "detail": "all 10 managed hashes unchanged=True",
+      "detail": "all 11 managed hashes unchanged=True",
       "status": "pass"
     },
     "palestine_import_refresh": {
@@ -51,24 +51,24 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "{\"entities\": 22, \"aliases\": 16, \"relationships\": 22, \"claims\": 24, \"sources\": 4}"
+      "stdout": "{\"entities\": 614, \"aliases\": 16, \"relationships\": 614, \"claims\": 31, \"sources\": 6}"
     },
     "palestine_independent_review": {
       "command": "python3 scripts/review_palestine.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "99"
+      "stdout": "1292"
     },
     "palestine_negative_tests": {
       "command": "python3 scripts/test_palestine_negative.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "[{'mutation': 'PS_GOVERNORATE_15', 'expected_code': 'PS_COUNTS', 'detected': True}, {'mutation': 'PS_GAZA_AS_DEFACTO', 'expected_code': 'PS_UNSUPPORTED_STATUS', 'detected': True}, {'mutation': 'PS_DESTROYED_WITHOUT_SOURCE', 'expected_code': 'PS_UNSUPPORTED_STATUS', 'detected': True}, {'mutation': 'PS_WRONG_REGION', 'expected_code': 'PS_GOVERNORATE', 'detected': True}, {'mutation': 'PS_WHC_5_STALE', 'expected_code': 'PS_DENOMINATORS', 'detected': True}, {'mutation': 'PS_SEBASTIA_NOT_DANGER', 'expected_code': 'PS_SEBASTIA_STATUS', 'detected': True}, {'mutation': 'PS_SEBASTIA_UNDATED', 'expected_code': 'PS_SEBASTIA_STATUS', 'detected': True}, {'mutation': 'PS_FAKE_LOCAL_AUTHORITY', 'expected_code': 'PS_PREMATURE_LOCAL', 'detected': True}]"
+      "stdout": "[{'mutation': 'PS_GOVERNORATE_15', 'expected_code': 'PS_COUNTS', 'detected': True}, {'mutation': 'PS_GAZA_AS_DEFACTO', 'expected_code': 'PS_UNSUPPORTED_STATUS', 'detected': True}, {'mutation': 'PS_DESTROYED_WITHOUT_SOURCE', 'expected_code': 'PS_UNSUPPORTED_STATUS', 'detected': True}, {'mutation': 'PS_WRONG_REGION', 'expected_code': 'PS_GOVERNORATE', 'detected': True}, {'mutation': 'PS_WHC_5_STALE', 'expected_code': 'PS_DENOMINATORS', 'detected': True}, {'mutation': 'PS_SEBASTIA_NOT_DANGER', 'expected_code': 'PS_SEBASTIA_STATUS', 'detected': True}, {'mutation': 'PS_SEBASTIA_UNDATED', 'expected_code': 'PS_SEBASTIA_STATUS', 'detected': True}, {'mutation': 'PS_FAKE_LOCAL_AUTHORITY', 'expected_code': 'PS_PREMATURE_LOCAL', 'detected': True}, {'mutation': 'PS_FABRICATED_SITE', 'expected_code': 'PS_COUNTS', 'detected': True}, {'mutation': 'PS_SITE_MARKED_DESTROYED', 'expected_code': 'PS_HIST_FRAME', 'detected': True}, {'mutation': 'PS_SITE_PROMOTED_TO_VERIFIED', 'expected_code': 'PS_HIST_FRAME', 'detected': True}, {'mutation': 'PS_SITE_ATTACHED_TO_CURRENT_TREE', 'expected_code': 'PS_SITE_FIXTURE', 'detected': True}, {'mutation': 'PS_NAKBA_FRAME_PUBLISHED', 'expected_code': 'PS_NAKBA_CLAIMS', 'detected': True}]"
     },
     "palestine_required_mutations": {
-      "detail": "detected=8/8",
+      "detail": "detected=13/13",
       "status": "pass"
     },
     "palestine_review_idempotence": {
@@ -84,10 +84,10 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "99"
+      "stdout": "1292"
     },
     "palestine_review_threshold": {
-      "detail": "full review passed=99/99",
+      "detail": "full review passed=1292/1292",
       "status": "pass"
     },
     "palestine_semantic_validation": {
@@ -95,10 +95,10 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "{'entities': 23, 'aliases': 16, 'relationships': 22, 'claims': 24, 'sources': 4, 'denominators': 5, 'coverage': 5}"
+      "stdout": "{'entities': 615, 'aliases': 16, 'relationships': 614, 'claims': 31, 'sources': 6, 'denominators': 5, 'coverage': 5}"
     },
     "palestine_source_idempotence": {
-      "detail": "atomic sources=4/4, unchanged=True",
+      "detail": "atomic sources=6/6, unchanged=True",
       "status": "pass"
     },
     "palestine_source_refresh": {
@@ -106,7 +106,7 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "{\"entities\": 22, \"aliases\": 16, \"relationships\": 22, \"claims\": 24, \"sources\": 4}"
+      "stdout": "{\"entities\": 614, \"aliases\": 16, \"relationships\": 614, \"claims\": 31, \"sources\": 6}"
     }
   },
   "country_code": "PS",
