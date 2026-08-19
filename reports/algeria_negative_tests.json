@@ -1,6 +1,6 @@
 {
   "country_code": "DZ",
-  "detected": 8,
+  "detected": 12,
   "mutations": [
     {
       "detected": true,
@@ -41,9 +41,29 @@
       "detected": true,
       "expected_code": "DZ_PARENT",
       "mutation": "DZ_WRONG_PARENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "DZ_DEPTH_UNPUBLISHED",
+      "mutation": "DZ_DEPTH_PUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "DZ_SHARED_NOT_EXCLUSIVE",
+      "mutation": "DZ_COUSCOUS_EXCLUSIVE"
+    },
+    {
+      "detected": true,
+      "expected_code": "DZ_DEPTH_STATUS",
+      "mutation": "DZ_DIALECT_PROMOTED"
+    },
+    {
+      "detected": true,
+      "expected_code": "DZ_DEPTH_LANGS",
+      "mutation": "DZ_LANG_DROPPED"
     }
   ],
-  "required": 8,
+  "required": 12,
   "schema_version": "2.0.0",
   "status": "PASS"
 }

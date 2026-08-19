@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e",
+  "country_codes": [
+    "YE"
+  ],
+  "id": "SRC-YE-NIC-DISTRICT-CATALOGUE-MIRROR",
+  "language": "ar",
+  "license": "Factual extraction with attribution; publisher reuse terms not stated",
+  "locator": "Per-governorate district lists; national total 333 cited to the CSO administrative-definitions page",
+  "notes": "Encyclopedic mirror used because the NIC origin is not directly retrievable; district identities from this source carry probable status pending an atomic official coded register. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "Marefa encyclopedic mirror citing the National Information Center",
+  "quality_tier": "C",
+  "retrieved_at": "2026-08-17",
+  "schema_version": "2.0.0",
+  "source_type": "institutional_page",
+  "title": "District catalogue of the Republic of Yemen — encyclopedic mirror of the NIC frame",
+  "url": "https://www.marefa.org/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D9%85%D8%AF%D9%8A%D8%B1%D9%8A%D8%A7%D8%AA_%D8%A7%D9%84%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9_%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A%D8%A9"
+}

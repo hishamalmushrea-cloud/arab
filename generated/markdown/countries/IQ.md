@@ -18,6 +18,37 @@
 | المعرّف | الاسم | النوع | الحالة | المصدر القانوني/المرجعي | المحدد داخل المصدر |
 |---|---|---|---|---|---|
 | ENT-IQ-COUNTRY | العراق | country | current | SRC-ISO-3166-1-2020 | ISO alpha-2 entry IQ |
+| ENT-IQ-DISTRICT-091BB1055DA3 | البصرة | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate البصرة: البصرة |
+| ENT-IQ-DISTRICT-0971E5C1E263 | الصدر الأولى | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate بغداد: الصدر الأولى |
+| ENT-IQ-DISTRICT-0D71F453715F | الشعب | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate بغداد: الشعب |
+| ENT-IQ-DISTRICT-1C2292B7AA89 | المدائن | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate بغداد: المدائن |
+| ENT-IQ-DISTRICT-21E9A3B357BF | الطارمية | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate بغداد: الطارمية |
+| ENT-IQ-DISTRICT-279008F40C23 | سنجار | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate نينوى: سنجار |
+| ENT-IQ-DISTRICT-2C2AC2E80AC5 | الحضر | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate نينوى: الحضر |
+| ENT-IQ-DISTRICT-445E0B60C5E3 | الحسينية | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate بغداد: الحسينية |
+| ENT-IQ-DISTRICT-5153E49CDF4E | الشعلة | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate بغداد: الشعلة |
+| ENT-IQ-DISTRICT-5363B127E4AF | الأعظمية | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate بغداد: الأعظمية |
+| ENT-IQ-DISTRICT-5DCA72247E2D | تلكيف | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate نينوى: تلكيف |
+| ENT-IQ-DISTRICT-642D6802E2D8 | مخمور | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate نينوى: مخمور |
+| ENT-IQ-DISTRICT-6569F07CFCB4 | الشيخان | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate نينوى: الشيخان |
+| ENT-IQ-DISTRICT-6F67B5E606AC | الكاظمية | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate بغداد: الكاظمية |
+| ENT-IQ-DISTRICT-80A984E53003 | القرنة | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate البصرة: القرنة |
+| ENT-IQ-DISTRICT-843FDEFA685E | الرصافة | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate بغداد: الرصافة |
+| ENT-IQ-DISTRICT-8C034F8F9DD3 | المحمودية | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate بغداد: المحمودية |
+| ENT-IQ-DISTRICT-9588B648FD05 | أبو غريب | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate بغداد: أبو غريب |
+| ENT-IQ-DISTRICT-9AAEDA0B7A2C | تلعفر | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate نينوى: تلعفر |
+| ENT-IQ-DISTRICT-9C3830E0E7A5 | أبو الخصيب | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate البصرة: أبو الخصيب |
+| ENT-IQ-DISTRICT-A4DEB6A2BE02 | الفاو | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate البصرة: الفاو |
+| ENT-IQ-DISTRICT-B0414E93040C | المدينة | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate البصرة: المدينة |
+| ENT-IQ-DISTRICT-B2310F0B8CD3 | الزوراء | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate بغداد: الزوراء |
+| ENT-IQ-DISTRICT-B3DE50187F68 | سميل | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate نينوى: سميل |
+| ENT-IQ-DISTRICT-B95D7F0BE2CA | شط العرب | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate البصرة: شط العرب |
+| ENT-IQ-DISTRICT-BAB79A6BBC28 | البعاج | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate نينوى: البعاج |
+| ENT-IQ-DISTRICT-BAC8F8A81771 | الصدر الثانية | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate بغداد: الصدر الثانية |
+| ENT-IQ-DISTRICT-E2D4977F9BDF | الحمدانية | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate نينوى: الحمدانية |
+| ENT-IQ-DISTRICT-EEBBEF11A9EF | الكرخ | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate بغداد: الكرخ |
+| ENT-IQ-DISTRICT-F369E8C7CEC0 | الموصل | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate نينوى: الموصل |
+| ENT-IQ-DISTRICT-FDA20B990704 | الزبير | iq_district | current | SRC-IQ-QADA-LISTS-MIRROR-2026 | Qada table, governorate البصرة: الزبير |
 | ENT-IQ-GOVERNORATE-01 | دهوك | iq_governorate | current | SRC-IQ-COSIT-GOVERNORATES-2023 | Governorate 01: دهوك / Duhok; profile kri |
 | ENT-IQ-GOVERNORATE-02 | نينوى | iq_governorate | current | SRC-IQ-COSIT-GOVERNORATES-2023 | Governorate 02: نينوى / Nineveh; profile federal_non_kri |
 | ENT-IQ-GOVERNORATE-03 | السليمانية | iq_governorate | current | SRC-IQ-COSIT-GOVERNORATES-2023 | Governorate 03: السليمانية / Sulaymaniyah; profile kri |
@@ -85,6 +116,37 @@
 | REL-IQ-E1522A478D775A46 | ENT-IQ-GOVERNORATE-07 | ENT-IQ-COUNTRY | administrative_parent | current | SRC-IQ-COSIT-GOVERNORATES-2023 |
 | REL-IQ-E6557DBEA7F35B6E | ENT-IQ-GOVERNORATE-03 | ENT-IQ-COUNTRY | administrative_parent | current | SRC-IQ-COSIT-GOVERNORATES-2023 |
 | REL-IQ-EB8EA00C3FCB5169 | ENT-IQ-GOVERNORATE-16 | ENT-IQ-COUNTRY | administrative_parent | current | SRC-IQ-COSIT-GOVERNORATES-2023 |
+| REL-IQ-QADA-05CC740529A65171 | ENT-IQ-DISTRICT-B3DE50187F68 | ENT-IQ-GOVERNORATE-02 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-107447C24F635C76 | ENT-IQ-DISTRICT-EEBBEF11A9EF | ENT-IQ-GOVERNORATE-08 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-279D5718AA9C58DF | ENT-IQ-DISTRICT-0971E5C1E263 | ENT-IQ-GOVERNORATE-08 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-3378151D37F75D4D | ENT-IQ-DISTRICT-FDA20B990704 | ENT-IQ-GOVERNORATE-18 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-438243C0DA5F5DC4 | ENT-IQ-DISTRICT-A4DEB6A2BE02 | ENT-IQ-GOVERNORATE-18 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-4C51ECB0FE75553B | ENT-IQ-DISTRICT-B95D7F0BE2CA | ENT-IQ-GOVERNORATE-18 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-50C52E1DED8C57C5 | ENT-IQ-DISTRICT-E2D4977F9BDF | ENT-IQ-GOVERNORATE-02 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-62AF08BE195E5FFA | ENT-IQ-DISTRICT-279008F40C23 | ENT-IQ-GOVERNORATE-02 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-64F703F4E19157AB | ENT-IQ-DISTRICT-0D71F453715F | ENT-IQ-GOVERNORATE-08 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-66368A795BEA5D22 | ENT-IQ-DISTRICT-9588B648FD05 | ENT-IQ-GOVERNORATE-08 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-770CE18068935AB1 | ENT-IQ-DISTRICT-B0414E93040C | ENT-IQ-GOVERNORATE-18 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-79A4A76B8C5552F8 | ENT-IQ-DISTRICT-6F67B5E606AC | ENT-IQ-GOVERNORATE-08 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-8DAF1589046352E1 | ENT-IQ-DISTRICT-B2310F0B8CD3 | ENT-IQ-GOVERNORATE-08 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-96F0D540DDBE5E2B | ENT-IQ-DISTRICT-642D6802E2D8 | ENT-IQ-GOVERNORATE-02 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-9E07D0B0CEDC55D8 | ENT-IQ-DISTRICT-6569F07CFCB4 | ENT-IQ-GOVERNORATE-02 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-A11B2C16607F5874 | ENT-IQ-DISTRICT-BAB79A6BBC28 | ENT-IQ-GOVERNORATE-02 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-A57EB3898CC350C8 | ENT-IQ-DISTRICT-8C034F8F9DD3 | ENT-IQ-GOVERNORATE-08 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-B3971B1BB6325F26 | ENT-IQ-DISTRICT-9C3830E0E7A5 | ENT-IQ-GOVERNORATE-18 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-B5B07D82377E58CE | ENT-IQ-DISTRICT-5153E49CDF4E | ENT-IQ-GOVERNORATE-08 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-B90B6C0E2BE655D0 | ENT-IQ-DISTRICT-2C2AC2E80AC5 | ENT-IQ-GOVERNORATE-02 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-C8523A9BAE5D57C6 | ENT-IQ-DISTRICT-BAC8F8A81771 | ENT-IQ-GOVERNORATE-08 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-D3540A70223B5F53 | ENT-IQ-DISTRICT-843FDEFA685E | ENT-IQ-GOVERNORATE-08 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-DB77FB2A0D635D30 | ENT-IQ-DISTRICT-445E0B60C5E3 | ENT-IQ-GOVERNORATE-08 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-DC12881369A95F57 | ENT-IQ-DISTRICT-5DCA72247E2D | ENT-IQ-GOVERNORATE-02 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-DCFA03B9656B5D40 | ENT-IQ-DISTRICT-21E9A3B357BF | ENT-IQ-GOVERNORATE-08 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-EB4C69357A0756C5 | ENT-IQ-DISTRICT-1C2292B7AA89 | ENT-IQ-GOVERNORATE-08 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-EBE17495341F502E | ENT-IQ-DISTRICT-9AAEDA0B7A2C | ENT-IQ-GOVERNORATE-02 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-EDC7C80CB9D75998 | ENT-IQ-DISTRICT-80A984E53003 | ENT-IQ-GOVERNORATE-18 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-F50FBEB261375B29 | ENT-IQ-DISTRICT-5363B127E4AF | ENT-IQ-GOVERNORATE-08 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-F5D536D5A9255AB1 | ENT-IQ-DISTRICT-F369E8C7CEC0 | ENT-IQ-GOVERNORATE-02 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
+| REL-IQ-QADA-F88AEA245D7852FF | ENT-IQ-DISTRICT-091BB1055DA3 | ENT-IQ-GOVERNORATE-18 | administrative_parent | current | SRC-IQ-QADA-LISTS-MIRROR-2026 |
 
 ## الادعاءات
 
@@ -110,6 +172,9 @@
 | CLM-IQ-BECE5D36651A53E5 | ENT-IQ-GOVERNORATE-15 | administrative_profile | federal_non_kri | official | high | verified | SRC-IQ-COSIT-GOVERNORATES-2023 | Governorate 15: المثنى / Al-Muthanna; profile federal_non_kri |
 | CLM-IQ-EFA642E9E7B55CDE | ENT-IQ-GOVERNORATE-08 | administrative_profile | federal_non_kri | official | high | verified | SRC-IQ-COSIT-GOVERNORATES-2023 | Governorate 08: بغداد / Baghdad; profile federal_non_kri |
 | CLM-IQ-FB1AD0FC0F1354A6 | ENT-IQ-GOVERNORATE-19 | federal_establishment_law | {'effective_date': '2025-05-05', 'gazette_issue': 4824, 'law_number': 7, 'republican_decree': 21} | official | high | verified | SRC-IQ-LAW-7-HALABJA-2025 | Law 7/2025, Gazette 4824 |
+| CLM-IQ-QADAPOP-083C20E52D2F5328 | ENT-IQ-DISTRICT-FDA20B990704 | population | 511224 | local | medium | reported | SRC-IQ-QADA-LISTS-MIRROR-2026 | Census hadar/rif table qada sum: الزبير |
+| CLM-IQ-QADAPOP-853F6EB0C4325FE5 | ENT-IQ-DISTRICT-091BB1055DA3 | population | 1436253 | local | medium | reported | SRC-IQ-QADA-LISTS-MIRROR-2026 | Census hadar/rif table qada sum: البصرة |
+| CLM-IQ-QADAPOP-9B183C8F396B5237 | ENT-IQ-DISTRICT-9C3830E0E7A5 | population | 223675 | local | medium | reported | SRC-IQ-QADA-LISTS-MIRROR-2026 | Census hadar/rif table qada sum: أبو الخصيب |
 
 ## جودة مصادر الادعاءات المنشورة
 
@@ -122,6 +187,7 @@
 | SRC-IQ-COSIT-GOVERNORATES-2023 | A | Iraq governorate population indicators | Iraq Statistics and GIS Authority | — | 2026-08-17 | Official Iraq federal/regional statistical/legal material; factual extraction with attribution; reuse terms not stated | https://cosit.gov.iq/ar/62-indicators?start=20 |
 | SRC-IQ-KRSO-FOUR-GOVERNORATES | A | KRI population projections by governorate | Kurdistan Region Statistics Office | — | 2026-08-17 | Official Iraq federal/regional statistical/legal material; factual extraction with attribution; reuse terms not stated | https://krso.gov.krd/content/upload/1/root/kri-population-projections-on-the-distrit-level-2021-2040.pdf |
 | SRC-IQ-LAW-7-HALABJA-2025 | A | Law 7/2025 establishing Halabja Governorate | Iraqi Ministry of Justice / Iraqi Gazette | 2025-05-05 | 2026-08-17 | Official Iraq federal/regional statistical/legal material; factual extraction with attribution; reuse terms not stated | https://www.moj.gov.iq/view.9222/ |
+| SRC-IQ-QADA-LISTS-MIRROR-2026 | C | Qada inventories of Baghdad, Nineveh, and Basra — encyclopedic mirror with census table | Encyclopedic mirror pages citing official census/administrative rows | — | 2026-08-17 | Official Iraq federal/regional statistical/legal material; factual extraction with attribution; reuse terms not stated | https://ar.wikipedia.org/wiki/%D8%A3%D9%82%D8%B6%D9%8A%D8%A9_%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82 |
 | SRC-ISO-3166-1-2020 | A | ISO 3166-1:2020 — Codes for the representation of names of countries and their subdivisions — Part 1: Country code | International Organization for Standardization (ISO) | 2020-08 | 2026-08-15 | ISO copyright; reuse is subject to ISO terms of use | https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:ed-4:v1:en |
 
 ---

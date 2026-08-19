@@ -74,7 +74,8 @@
         "A",
         "B",
         "C",
-        "D"
+        "D",
+        "E"
       ]
     },
     "retrieved_at": {
@@ -96,7 +97,15 @@
         "archive",
         "project_audit",
         "institutional_dataset",
-        "institutional_page"
+        "institutional_page",
+        "local_book",
+        "local_press",
+        "local_website",
+        "blog",
+        "forum",
+        "oral_testimony",
+        "map",
+        "heritage_book"
       ]
     },
     "title": {

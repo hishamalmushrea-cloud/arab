@@ -425,6 +425,23 @@
     "value": 27
   },
   {
+    "as_of": "2026-08-16",
+    "country_code": "EG",
+    "definition": "Documented markaz subset: 55 attested marakiz in four governorates (Daqahliya 18, Sharqia 13, Beheira 15, Minya 9); the national markaz universe remains open with no accepted atomic denominator.",
+    "denominator": 55,
+    "id": "DEN-EG-MARKAZ-DOCUMENTED",
+    "layer": "eg_markaz_documented_subset",
+    "license": "Official Egypt statistical/government material; factual extraction with attribution; reuse terms not stated",
+    "missing_reason": null,
+    "notes": "Documented markaz subset: 55 attested marakiz in four governorates (Daqahliya 18, Sharqia 13, Beheira 15, Minya 9); the national markaz universe remains open with no accepted atomic denominator.",
+    "schema_version": "2.0.0",
+    "snapshot_date": "2026-08-16",
+    "source_id": "SRC-EG-MARKAZ-LISTS-MIRROR-2026",
+    "source_locator": "Documented markaz subset: 55 attested marakiz in four governorates (Daqahliya 18, Sharqia 13, Beheira 15, Minya 9); the national markaz universe remains open with no accepted atomic denominator.",
+    "status": "official",
+    "value": 55
+  },
+  {
     "as_of": "2021-01-01",
     "country_code": "EG",
     "definition": "Exact eg_governorate_mixed_profile profile denominator.",
@@ -1821,6 +1838,23 @@
   {
     "as_of": "2026-08-17",
     "country_code": "YE",
+    "definition": "Amanat Al Asimah lane universe: 791 lanes across 10 districts plus two suburb blocks under the NIC census-2004 frame; 104 lane identities attested (Old Sanaa 69, Tahrir 35); the remaining 687 lanes are an open documented frame.",
+    "denominator": 791,
+    "id": "DEN-YE-AMANAT-LANES",
+    "layer": "ye_amanat_lane_2004",
+    "license": "Factual extraction with attribution; publisher reuse terms not stated",
+    "missing_reason": null,
+    "notes": "Amanat Al Asimah lane universe: 791 lanes across 10 districts plus two suburb blocks under the NIC census-2004 frame; 104 lane identities attested (Old Sanaa 69, Tahrir 35); the remaining 687 lanes are an open documented frame.",
+    "schema_version": "2.0.0",
+    "snapshot_date": "2026-08-17",
+    "source_id": "SRC-YE-NIC-AMANAT-CENSUS-2004",
+    "source_locator": "Amanat Al Asimah lane universe: 791 lanes across 10 districts plus two suburb blocks under the NIC census-2004 frame; 104 lane identities attested (Old Sanaa 69, Tahrir 35); the remaining 687 lanes are an open documented frame.",
+    "status": "official",
+    "value": 791
+  },
+  {
+    "as_of": "2026-08-17",
+    "country_code": "YE",
     "definition": "Amanat Al Asimah is one parallel first-level capital municipality.",
     "denominator": 1,
     "id": "DEN-YE-CAPITAL-MUNICIPALITY",
@@ -1851,6 +1885,23 @@
     "source_locator": "ISO alpha-2 entry YE",
     "status": "official",
     "value": 1
+  },
+  {
+    "as_of": "2026-08-17",
+    "country_code": "YE",
+    "definition": "National 333-district frame from the archived official CSO administrative-definitions page; identities attested via the NIC catalogue mirror and carry probable status pending an atomic official coded register.",
+    "denominator": 333,
+    "id": "DEN-YE-DISTRICTS",
+    "layer": "ye_district_current",
+    "license": "Factual extraction with attribution; publisher reuse terms not stated",
+    "missing_reason": null,
+    "notes": "National 333-district frame from the archived official CSO administrative-definitions page; identities attested via the NIC catalogue mirror and carry probable status pending an atomic official coded register.",
+    "schema_version": "2.0.0",
+    "snapshot_date": "2026-08-17",
+    "source_id": "SRC-YE-CENSUS-2004-LEGACY-FRAME",
+    "source_locator": "National 333-district frame from the archived official CSO administrative-definitions page; identities attested via the NIC catalogue mirror and carry probable status pending an atomic official coded register.",
+    "status": "official",
+    "value": 333
   },
   {
     "as_of": "2026-08-17",

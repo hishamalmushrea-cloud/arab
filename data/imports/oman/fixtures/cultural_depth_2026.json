@@ -1,0 +1,206 @@
+{
+ "captured_at": "2026-08-17",
+ "country_code": "OM",
+ "dialect_profiles": [
+  {
+   "features": [
+    "قريبة من اللهجات الخليجية",
+    "قاف لهوية مهموسة",
+    "مفردات إنجليزية من الإرث البحري"
+   ],
+   "group": "لهجة مسقط والباطنة",
+   "scope": "مسقط وشمال وجنوب الباطنة",
+   "subject": "ENT-OM-GOVERNORATE-01",
+   "words": []
+  },
+  {
+   "features": [
+    "عمانية قحة قريبة من الفصحى",
+    "القاف جيم في بعض المناطق",
+    "توصف بأنها أصعب اللهجات العمانية على غير العمانيين"
+   ],
+   "group": "لهجة الداخلية",
+   "scope": "نزوى وسمائل وبهلا وإزكي",
+   "subject": "ENT-OM-GOVERNORATE-05",
+   "words": [
+    {
+     "m": "خذ",
+     "w": "دوك"
+    },
+    {
+     "m": "انتظرني",
+     "w": "احترني"
+    },
+    {
+     "m": "جميل",
+     "w": "غاوي"
+    },
+    {
+     "m": "يريد",
+     "w": "باغي"
+    }
+   ]
+  },
+  {
+   "features": [
+    "تميل إلى اللهجات اليمنية بحكم الجوار",
+    "مؤثرات سواحيلية وأفريقية"
+   ],
+   "group": "اللهجة الظفارية",
+   "scope": "صلالة وظفار",
+   "subject": "ENT-OM-GOVERNORATE-02",
+   "words": [
+    {
+     "m": "ثور",
+     "w": "فعور"
+    }
+   ]
+  },
+  {
+   "features": [
+    "خليجية الطابع",
+    "تجاور الكمزارية الفريدة في كمزار"
+   ],
+   "group": "لهجة مسندم",
+   "scope": "خصب ودبا وبخا ومدحاء",
+   "subject": "ENT-OM-GOVERNORATE-03",
+   "words": []
+  },
+  {
+   "features": [
+    "بدوية أقرب للفصحى",
+    "القاف جيم",
+    "قلب الجيم ياء"
+   ],
+   "group": "لهجة البادية",
+   "scope": "الظاهرة والوسطى ورمال الشرقية",
+   "subject": "ENT-OM-GOVERNORATE-10",
+   "words": []
+  }
+ ],
+ "dishes": [
+  {
+   "classification": "national",
+   "desc": "لحم كامل يتبل بالبذار ويلف بورق الموز أو النخيل ويدفن في تنور تحت الأرض ليطهى ليلة كاملة؛ يوصف بملك الأطباق العمانية",
+   "name": "الشوا",
+   "note": "طريقة الدفن الأرضي ميزة عمانية بارزة؛ أصله مرتبط بظفار والمناسبات الوطنية",
+   "occasion": "الأعياد والأعراس",
+   "subject": "ENT-OM-GOVERNORATE-02"
+  },
+  {
+   "classification": "national",
+   "desc": "أرز مهروس مع دجاج أو لحم يطهى حتى ينعقد؛ توصف بسيدة أطباق العيد",
+   "name": "العرسية",
+   "note": "",
+   "occasion": "صبيحة العيد",
+   "subject": "ENT-OM-COUNTRY"
+  },
+  {
+   "classification": "shared",
+   "desc": "أرز باللحم والبذار واللومي والزعفران والحمص المجروش",
+   "name": "القبولي",
+   "note": "عائلة المكبوس الخليجية المشتركة — لا ملكية حصرية",
+   "occasion": "الولائم واليومي",
+   "subject": "ENT-OM-COUNTRY"
+  },
+  {
+   "classification": "shared",
+   "desc": "قمح مجروش باللحم يطهى ساعات حتى يصير عصيدة بالسمن",
+   "name": "الهريس",
+   "note": "مشترك خليجي عربي — لا حصرية",
+   "occasion": "رمضان",
+   "subject": "ENT-OM-COUNTRY"
+  },
+  {
+   "classification": "shared",
+   "desc": "خبز الرقاق بمرق اللحم والخضار",
+   "name": "الثريد",
+   "note": "مشترك عربي قديم",
+   "occasion": "رمضان",
+   "subject": "ENT-OM-COUNTRY"
+  },
+  {
+   "classification": "shared",
+   "desc": "أرز بالدجاج أو السمك يضرب حتى ينعقد",
+   "name": "المضروبة",
+   "note": "مشترك خليجي",
+   "occasion": "يومي ومناسبات",
+   "subject": "ENT-OM-COUNTRY"
+  },
+  {
+   "classification": "national",
+   "desc": "بن أخضر بالهيل والزعفران يقدم مع التمر ركن الضيافة العماني",
+   "name": "القهوة العمانية والتمر",
+   "note": "",
+   "occasion": "الضيافة",
+   "subject": "ENT-OM-COUNTRY"
+  }
+ ],
+ "dress": [
+  {
+   "classification": "national",
+   "desc": "ثوب بعنق مستدير وشريط رفيع مع الفراخة (الكركوشة) خيوط متدلية على الصدر تعطر بالبخور؛ تختلف عن الإماراتية بلا ياقة؛ والدشداشة الصورية تطرز أعلاها",
+   "gender": "رجالي",
+   "name": "الدشداشة العمانية",
+   "subject": "ENT-OM-COUNTRY"
+  },
+  {
+   "classification": "national",
+   "desc": "الكمة طاقية أسطوانية مطرزة يدويا بزخارف النجم ميزة عمانية بارزة، والمصر عمامة ملونة تلف فوقها في المناسبات",
+   "gender": "رجالي",
+   "name": "الكمة والمصر",
+   "subject": "ENT-OM-COUNTRY"
+  },
+  {
+   "classification": "national",
+   "desc": "خنجر معقوف بمقبض من القرن أو الفضة وغمد مزخرف يصنع يدويا في شهر أو أكثر؛ رمز وطني على شعار السلطنة؛ ومن طرزه السعيدي بنقوشه القرآنية",
+   "gender": "رجالي",
+   "name": "الخنجر العماني",
+   "subject": "ENT-OM-COUNTRY"
+  }
+ ],
+ "non_arabic_languages": [
+  {
+   "desc": "لغة سامية جنوبية حية في جبال ظفار يتحدثها الشحوح والقبائل الجبلية",
+   "name": "الشحرية (الجبالية)",
+   "status": "probable",
+   "subject": "ENT-OM-GOVERNORATE-02"
+  },
+  {
+   "desc": "لغة سامية جنوبية في جنوب ظفار امتدادا لمجالها اليمني",
+   "name": "المهرية",
+   "status": "probable",
+   "subject": "ENT-OM-GOVERNORATE-02"
+  },
+  {
+   "desc": "لغة إيرانية يتحدثها البلوش في شمال الباطنة والظاهرة؛ أثر الروابط التاريخية مع بلوشستان",
+   "name": "البلوشية",
+   "status": "probable",
+   "subject": "ENT-OM-GOVERNORATE-06"
+  },
+  {
+   "desc": "لغة بانتوية يتحدثها العمانيون العائدون من شرق أفريقيا؛ إرث الحقبة الزنجبارية",
+   "name": "السواحيلية",
+   "status": "probable",
+   "subject": "ENT-OM-GOVERNORATE-01"
+  },
+  {
+   "desc": "لغة فريدة مزيج عربي فارسي في قرية كمزار بمسندم؛ توثيقها الأكاديمي محدود",
+   "name": "الكمزارية",
+   "status": "local_reported",
+   "subject": "ENT-OM-GOVERNORATE-03"
+  },
+  {
+   "desc": "لغة سامية جنوبية مهددة تتحدثها أقلية صغيرة في ظفار",
+   "name": "البطحرية",
+   "status": "local_reported",
+   "subject": "ENT-OM-GOVERNORATE-02"
+  }
+ ],
+ "note": "Oman depth cycle 1 under Maximum Arabic Knowledge Coverage: 6 non-Arabic language claims (4 probable, 2 local_reported for under-documented Kumzari/Bathari), 5 regional dialect profiles with Dakhiliyah lexicon, 7 dishes (4 shared Gulf dishes never exclusive; الشوا national), 3 dress claims. All unpublished, tier-E mirrors, explicit classification.",
+ "schema_version": "2.0.0",
+ "sources": {
+  "cuisine_dress_mirror": "https://ar.wikipedia.org/wiki/%D9%85%D8%B7%D8%A8%D8%AE_%D8%B9%D9%85%D8%A7%D9%86%D9%8A",
+  "dialect_mirror": "https://ar.wikipedia.org/wiki/%D9%84%D9%87%D8%AC%D8%A9_%D8%B9%D9%85%D8%A7%D9%86%D9%8A%D8%A9"
+ }
+}

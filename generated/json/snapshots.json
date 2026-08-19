@@ -34,7 +34,7 @@
   },
   {
     "captured_at": "2026-08-16",
-    "checksum": "sha256:6ce89b0b90400d168eb8c18dbae8c2980ad3a5d4c24523de540cb42aecc15d15",
+    "checksum": "sha256:798fbb6a6fb35d3ec6eea100ab6a7c1fd129f4fdc8358600d6497aa0ceac15c6",
     "id": "SNP-DZ-PRODUCTION-20260816",
     "method": "Checksum-bound current/future separation.",
     "notes": "1541 communes known but deferred; future wilayas not current.",
@@ -45,7 +45,7 @@
   },
   {
     "captured_at": "2026-08-16",
-    "checksum": "sha256:95a686af144670e3536d415611ab599657640657f2e6fe35b9c06da223ae2e84",
+    "checksum": "sha256:a2a2a91a96bb34eaaacdabf3ef662aa2f03ff9e9dc8538be4c435a674a919b28",
     "id": "SNP-EG-PRODUCTION-20260816",
     "method": "Checksum-bound CAPMAS/MLD profile reconciliation.",
     "notes": "Cairo/Giza selected for later lower-topology proof; no lower records imported.",
@@ -56,7 +56,7 @@
   },
   {
     "captured_at": "2026-08-17",
-    "checksum": "sha256:f0b39a9ca9a0307ac7c6c9ace84098e5e96a12460f0f491a79e4f749ce3c1add",
+    "checksum": "sha256:7097be001845b0ac30868c903afe7602d0bf1d5329fab80a74a23b5dc8fae738",
     "id": "SNP-IQ-PRODUCTION-20260817",
     "method": "Checksum-bound federal law/COSIT/KRSO reconciliation.",
     "notes": "Districts, disputed areas, and de facto overlays deferred.",
@@ -133,7 +133,7 @@
   },
   {
     "captured_at": "2026-08-16",
-    "checksum": "sha256:c56e8f3c9d45660ad86d9135f91b98894dcd92fd4a8b50089b3357931d2a07b0",
+    "checksum": "sha256:7befa14a8e2c47813fc0ab1c821c67fd6a3913002a56b23412dd38dd6c5c73dd",
     "id": "SNP-MA-PRODUCTION-20260816",
     "method": "Checksum-bound decree/DGCT reconciliation.",
     "notes": "1503 communes deferred; arrondissement prefectures excluded.",
@@ -166,7 +166,7 @@
   },
   {
     "captured_at": "2026-08-16",
-    "checksum": "sha256:a7e36120d3a4761cfbdf250efe372f9d2799d0b3c863e1bd08e6770d71c90ae8",
+    "checksum": "sha256:1401ba8c3d264e26eb85309790ea84e410e1dfd50ebcb50db8a233c9010bad11",
     "id": "SNP-OM-PRODUCTION-20260816",
     "method": "Checksum-bound legal reconciliation.",
     "notes": "Niyabahs and administrative centres unavailable.",
@@ -177,7 +177,7 @@
   },
   {
     "captured_at": "2026-08-17",
-    "checksum": "sha256:7907739e6797223984900eddef4b595dc315afefa6a58f9213fdfdfb972e9a85",
+    "checksum": "sha256:a4e65e9da7f6c4d8a9d7f1f75b7f8c3ba5180d8258be945f61261886868bc0ca",
     "id": "SNP-PS-PRODUCTION-20260817",
     "method": "Checksum-bound statistical/legal and UNESCO scopes; no de facto overlay.",
     "notes": "Localities/local authorities/camps and dated damage/displacement overlays deferred.",
@@ -298,7 +298,7 @@
   },
   {
     "captured_at": "2026-08-17",
-    "checksum": "sha256:fc3adc9140a91b27969d8209c1fde22bb2ed361a036526415e053fa1f974b4af",
+    "checksum": "sha256:6980d22ebde61f9023cd55552eb2947cfc230ff9836ab6f2f0738e84449138c7",
     "id": "SNP-YE-PRODUCTION-20260817",
     "method": "Checksum-bound reconciliation of official legacy CSO/NIC frame with Law 31/2013 Socotra establishment report.",
     "notes": "Official-gazette full text/effective clause, districts, uzlas, and conflict overlays are deferred.",

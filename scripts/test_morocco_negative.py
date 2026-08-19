@@ -13,5 +13,9 @@ def main():
  r('MA_DROP_REGION',lambda d:d['entities'].__setitem__(slice(None),[x for x in d['entities'] if x['entity_type']!='ma_region']),'MA_COUNTS')
  r('MA_COUNT_TAMPER',lambda d:next(x for x in d['claims'])['value']['data'].update(ma_province=99),'MA_COUNT_CLAIM')
  r('MA_PARENT_MISSING',lambda d:d['relationships'].pop(),'MA_PARENT_SET')
- ok=all(x['detected'] for x in o);write_json(ROOT/'reports/morocco_negative_tests.json',{'schema_version':'2.0.0','country_code':'MA','status':'PASS' if ok else 'FAIL','required':8,'detected':sum(x['detected'] for x in o),'mutations':o});print(o);return 0 if ok else 1
+ r('MA_DEPTH_PUBLISHED',lambda d:next(x for x in d['claims'] if x.get('predicate')=='food_dish').update(published=True),'MA_DEPTH_UNPUBLISHED')
+ r('MA_COUSCOUS_EXCLUSIVE',lambda d:next(x for x in d['claims'] if x.get('predicate')=='food_dish' and x['value']['data'].get('name')=='الكسكس').update(classification='national'),'MA_COUSCOUS_SHARED')
+ r('MA_DIALECT_PROMOTED',lambda d:next(x for x in d['claims'] if x.get('predicate')=='dialect_profile').update(verification_status='verified'),'MA_DEPTH_STATUS')
+ r('MA_LANG_DROPPED',lambda d:d['claims'].__setitem__(slice(None),[x for x in d['claims'] if x.get('predicate')!='language_presence']),'MA_DEPTH_LANGS')
+ ok=all(x['detected'] for x in o);write_json(ROOT/'reports/morocco_negative_tests.json',{'schema_version':'2.0.0','country_code':'MA','status':'PASS' if ok else 'FAIL','required':12,'detected':sum(x['detected'] for x in o),'mutations':o});print(o);return 0 if ok else 1
 if __name__=='__main__':raise SystemExit(main())

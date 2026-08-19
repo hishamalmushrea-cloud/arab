@@ -288,7 +288,7 @@ def phase4_import_hashes() -> tuple[dict[str, str], str]:
 
 
 def saudi_source_hashes() -> dict[str, str]:
-    """Hash the 34 Saudi-specific atomic source records built by the source builder."""
+    """Hash the 36 Saudi-specific atomic source records built by the source builder."""
     hashes = {}
     for path in sorted((ROOT / "data/sources").glob("*.json")):
         row = load_json(path)
@@ -304,9 +304,9 @@ def phase4(gate: Gate) -> None:
     gate.command("saudi_source_refresh", [sys.executable, "scripts/build_saudi_sources.py"])
     after_sources = saudi_source_hashes()
     gate.require(
-        len(after_sources) == 34 and before_sources == after_sources,
+        len(after_sources) == 36 and before_sources == after_sources,
         "saudi_source_idempotence",
-        f"Saudi atomic sources={len(after_sources)}/34, hashes unchanged={before_sources == after_sources}",
+        f"Saudi atomic sources={len(after_sources)}/36, hashes unchanged={before_sources == after_sources}",
     )
 
     before_files, before_non_sa = phase4_import_hashes()

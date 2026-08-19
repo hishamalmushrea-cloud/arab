@@ -1,6 +1,6 @@
 {
   "country_code": "EG",
-  "detected": 8,
+  "detected": 11,
   "mutations": [
     {
       "detected": true,
@@ -24,8 +24,23 @@
     },
     {
       "detected": true,
-      "expected_code": "EG_PREMATURE_LOWER",
-      "mutation": "EG_MARKAZ_UNDER_CAIRO"
+      "expected_code": "EG_COUNTS",
+      "mutation": "EG_FABRICATED_MARKAZ"
+    },
+    {
+      "detected": true,
+      "expected_code": "EG_MARKAZ_STATUS",
+      "mutation": "EG_MARKAZ_PROMOTED_TO_VERIFIED"
+    },
+    {
+      "detected": true,
+      "expected_code": "EG_MARKAZ_POP",
+      "mutation": "EG_MARKAZ_POP_PUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "EG_MARKAZ_FIXTURE",
+      "mutation": "EG_MARKAZ_WRONG_GOVERNORATE"
     },
     {
       "detected": true,
@@ -43,7 +58,7 @@
       "mutation": "EG_ALIAS_MISMATCH"
     }
   ],
-  "required": 8,
+  "required": 11,
   "schema_version": "2.0.0",
   "status": "PASS"
 }

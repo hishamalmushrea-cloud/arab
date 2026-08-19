@@ -1,10 +1,18 @@
 {
   "country_code": "MA",
+  "reconciliation": {
+    "cultural_frame": "17 cultural claims: 4 Amazigh language-presence (probable, constitutional basis), Darija profile with 10-word lexicon (local_reported), 9 dishes (couscous shared via the quadripartite UNESCO file), 3 dress claims; all unpublished."
+  },
   "records": [
     {
       "bytes": 12055,
       "path": "data/imports/morocco/fixtures/territorial_division_2015.json",
       "sha256": "1c8b1d5b96f248860f5e644197f09f387555564dc559e35f368d984f6794fd03"
+    },
+    {
+      "path": "fixtures/cultural_depth_2026.json",
+      "record_count": 17,
+      "sha256": "79a0a04770cb923f16ac8ed6c182398b0bc706b921161dee796b402bb6a77b63"
     }
   ],
   "schema_version": "2.0.0",

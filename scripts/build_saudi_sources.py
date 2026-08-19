@@ -104,6 +104,31 @@ def main() -> int:
             locator="first administrative-centers table, all published data rows",
         ))
 
+    depth_path = ROOT / "data/imports/saudi/depth_cycle_2026.json"
+    depth_checksum = hashlib.sha256(depth_path.read_bytes()).hexdigest()
+    depth = json.loads(depth_path.read_text(encoding="utf-8"))
+    records.append(record(
+        "SRC-SA-DIALECT-MIRROR-2026",
+        "Saudi dialect groups and lexicon — encyclopedic mirror pages",
+        "Encyclopedic mirror pages on Saudi dialect groups",
+        depth["sources"]["dialect_mirror"],
+        "E",
+        checksum=depth_checksum,
+        notes="Depth-cycle weak/secondary mirror for dialect features and lexicon. Claims stay local_reported and unpublished; the 60-dialect researcher estimate is a bounded note, never a denominator. Publication date unavailable on the captured record.",
+        source_type="institutional_page",
+        locator="dialect group sections and lexicon lists",
+    ))
+    records.append(record(
+        "SRC-SA-DRESS-CULTURE-MIRROR-2026",
+        "Saudi traditional dress, performing arts, and historical markets — mirror pages",
+        "Encyclopedic mirror pages on Saudi dress and folk culture",
+        depth["sources"]["dress_culture_mirror"],
+        "E",
+        checksum=depth_checksum,
+        notes="Depth-cycle weak/secondary mirror for dress, performing arts, and markets. Claims stay local_reported and unpublished with explicit classification. Publication date unavailable on the captured record.",
+        source_type="institutional_page",
+        locator="dress and folk-culture sections",
+    ))
     snapshot_manifest_checksum = hashlib.sha256(MANIFEST.read_bytes()).hexdigest()
     cultural_path = ROOT / "data/imports/saudi/cultural_content_2026.json"
     cultural_checksum = hashlib.sha256(cultural_path.read_bytes()).hexdigest()

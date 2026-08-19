@@ -2,14 +2,14 @@
   "baseline_issue_codes": [],
   "country_code": "SA",
   "errors": [],
-  "input_fingerprint_sha256": "799d6fa1615bc1f37895eb62612df8a5933341f211372e1878f964b2a806a25c",
+  "input_fingerprint_sha256": "eebb8369ce16da9e96695d63800a46fee0e8a72995a0cb911c243afecf52398f",
   "metrics": {
     "ab_claim_ratio": 100.0,
     "duplicate_claim_text_occurrences": 127,
     "published_claims": 1732,
     "sensitive_claims": 0,
     "sensitive_compliant": 0,
-    "text_duplication_rate": 7.3326
+    "text_duplication_rate": 7.2241
   },
   "negative_test_outcomes": {
     "NEG-SA-ALIAS-AS-ENTITY": "pass",
@@ -26,47 +26,47 @@
   "review_method": "Independent raw-HTML parser and fixed SHA-256 stratified sample; full denominator, culture and dialect invariants; seven injected Saudi-specific mutants. The importer is not imported or called.",
   "reviewed": {
     "aliases": 18,
-    "claims": 174,
+    "claims": 176,
     "coverage": 9,
     "cultural_claims": 36,
     "denominators": 9,
-    "dialect_claims": 4,
-    "dialect_entities": 4,
-    "entities": 171,
+    "dialect_claims": 19,
+    "dialect_entities": 19,
+    "entities": 173,
     "populated_places": 4,
-    "relationships": 173,
+    "relationships": 177,
     "sites": 8,
     "sources": 11
   },
   "reviewer": "automated-independent-path",
   "sample_rates": {
     "aliases": 0.1006,
-    "claims": 0.1005,
+    "claims": 0.1001,
     "coverage": 1.0,
     "cultural_claims": 1.0,
     "denominators": 1.0,
-    "dialect_claims": 1.0,
-    "dialect_entities": 1.0,
-    "entities": 0.1001,
+    "dialect_claims": 4.75,
+    "dialect_entities": 4.75,
+    "entities": 0.1002,
     "populated_places": 1.0,
-    "relationships": 0.1002,
+    "relationships": 0.1005,
     "sites": 1.0,
-    "sources": 0.3143
+    "sources": 0.2973
   },
   "schema_version": "2.0.0",
   "snapshot_date": "2026-08-15",
   "totals": {
     "aliases": 179,
-    "claims": 1732,
+    "claims": 1758,
     "coverage": 9,
     "cultural_claims": 36,
     "denominators": 9,
     "dialect_claims": 4,
     "dialect_entities": 4,
-    "entities": 1708,
+    "entities": 1726,
     "populated_places": 4,
-    "relationships": 1726,
+    "relationships": 1762,
     "sites": 8,
-    "sources": 35
+    "sources": 37
   }
 }

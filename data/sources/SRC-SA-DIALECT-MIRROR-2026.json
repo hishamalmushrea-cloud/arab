@@ -1,0 +1,22 @@
+{
+  "id": "SRC-SA-DIALECT-MIRROR-2026",
+  "schema_version": "2.0.0",
+  "title": "Saudi dialect groups and lexicon — encyclopedic mirror pages",
+  "author": null,
+  "organization": "Encyclopedic mirror pages on Saudi dialect groups",
+  "publisher": "Encyclopedic mirror pages on Saudi dialect groups",
+  "source_type": "institutional_page",
+  "url": "https://ar.wikipedia.org/wiki/%D9%84%D9%87%D8%AC%D8%A9_%D9%86%D8%AC%D8%AF%D9%8A%D8%A9",
+  "archive_url": null,
+  "publication_date": null,
+  "retrieved_at": "2026-08-15",
+  "license": "Source copyright; factual extraction with attribution",
+  "language": "ar",
+  "country_codes": [
+    "SA"
+  ],
+  "locator": "dialect group sections and lexicon lists",
+  "checksum": "sha256:c692fdb9487f40034a3721772b6104235e05bce2a263ccfdabe123b53d4099b0",
+  "quality_tier": "E",
+  "notes": "Depth-cycle weak/secondary mirror for dialect features and lexicon. Claims stay local_reported and unpublished; the 60-dialect researcher estimate is a bounded note, never a denominator. Publication date unavailable on the captured record."
+}

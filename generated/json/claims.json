@@ -7319,6 +7319,634 @@
     "verification_status": "source_verified"
   },
   {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-DZ-DEPTH-26EE693D93885137",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Couscous and bourek stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الكسكس",
+    "status": "reported",
+    "subject_id": "ENT-DZ-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "سميد مفتول بالخضار واللحم والحمص؛ ومن أنواعه الجزائرية كسكس العصبان والكسكس الحلو بالزبيب واللبن",
+        "name": "الكسكس",
+        "note": "مدرج في تراث اليونسكو غير المادي 2020 ملفا رباعيا مشتركا بين الجزائر والمغرب وتونس وموريتانيا — لا ملكية حصرية",
+        "occasion": "غداء الجمعة والأعراس"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-DZ-DEPTH-2DFA2776E3CE5A7D",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; regional variant names attested, never invented; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: البرنوس",
+    "status": "reported",
+    "subject_id": "ENT-DZ-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "عباءة صوفية بقلنسوة بلا أكمام للشتاء في المرتفعات والصحراء؛ رمز وطني يرتديه الرئيس في المناسبات",
+        "gender": "رجالي",
+        "name": "البرنوس"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-DZ-DEPTH-4C7E80F4CBF5565B",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; regional variant names attested, never invented; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الشدة التلمسانية",
+    "status": "reported",
+    "subject_id": "ENT-DZ-WILAYA-13",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لباس العروس التلمسانية الفاخر: اثنتا عشرة قطعة وما يزيد على خمسين صنفا من المجوهرات بوزن يناهز خمسة عشر كيلوغراما؛ جذور عربية وأمازيغية وعثمانية وأندلسية؛ مدرجة لدى اليونسكو",
+        "gender": "نسائي",
+        "name": "الشدة التلمسانية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-DZ-DEPTH-4DA8C36D9585562E",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Couscous and bourek stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: القارانطيطة",
+    "status": "reported",
+    "subject_id": "ENT-DZ-WILAYA-16",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "عجينة حمص وطحين بالكمون تخبز وتؤكل ساخنة؛ شعبية عاصمية وهرانية",
+        "name": "القارانطيطة",
+        "note": "الجزائر ووهران؛ جذور إسبانية الاسم calentita",
+        "occasion": "وجبة شعبية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-DZ-DEPTH-5BAA9FA052D555D9",
+    "lexical_context": null,
+    "notes": "Amazigh is constitutionally official (2016); variety scopes from secondary mirrors anchored to wilayas; probable pending an academic atomic source; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: القبائلية (تاقبايلت)",
+    "status": "reported",
+    "subject_id": "ENT-DZ-WILAYA-15",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أكبر مجالات الأمازيغية الجزائرية: تيزي وزو وبجاية والبويرة",
+        "language": "القبائلية (تاقبايلت)"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-DZ-DEPTH-68DED08E9340596F",
+    "lexical_context": null,
+    "notes": "Amazigh is constitutionally official (2016); variety scopes from secondary mirrors anchored to wilayas; probable pending an academic atomic source; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: الشنوية (تاشناويت)",
+    "status": "reported",
+    "subject_id": "ENT-DZ-WILAYA-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أمازيغية جبل شنوة: الشلف وتنس",
+        "language": "الشنوية (تاشناويت)"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-DZ-DEPTH-77D65764D6D452BC",
+    "lexical_context": null,
+    "notes": "Amazigh is constitutionally official (2016); variety scopes from secondary mirrors anchored to wilayas; probable pending an academic atomic source; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: الأمازيغية",
+    "status": "reported",
+    "subject_id": "ENT-DZ-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لغة رسمية بنص تعديل الدستور 2016",
+        "language": "الأمازيغية"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-DZ-DEPTH-7D587500727A5E87",
+    "lexical_context": null,
+    "notes": "Amazigh is constitutionally official (2016); variety scopes from secondary mirrors anchored to wilayas; probable pending an academic atomic source; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: الطوارقية (تاماهق)",
+    "status": "reported",
+    "subject_id": "ENT-DZ-WILAYA-11",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أمازيغية الهقار في تمنراست وجانت",
+        "language": "الطوارقية (تاماهق)"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-DZ-DEPTH-7D9D4A5BECA55FCE",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Couscous and bourek stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: المحاجب",
+    "status": "reported",
+    "subject_id": "ENT-DZ-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "رقائق سميد محشوة بصلصة الطماطم والبصل والبهارات",
+        "name": "المحاجب",
+        "note": "",
+        "occasion": "فطور وغداء"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-DZ-DEPTH-7F102287385251E6",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Couscous and bourek stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الملة",
+    "status": "reported",
+    "subject_id": "ENT-DZ-WILAYA-11",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "خبز صحراوي يخبز في الرماد الحار",
+        "name": "الملة",
+        "note": "الصحراء والهقار",
+        "occasion": "خبز الرحّل"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-DZ-DEPTH-8E9F28663625504F",
+    "lexical_context": null,
+    "notes": "Amazigh is constitutionally official (2016); variety scopes from secondary mirrors anchored to wilayas; probable pending an academic atomic source; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: المزابية (تومزابت)",
+    "status": "reported",
+    "subject_id": "ENT-DZ-WILAYA-47",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أمازيغية وادي مزاب في غرداية",
+        "language": "المزابية (تومزابت)"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-DZ-DEPTH-935A912281C85D99",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; regional variant names attested, never invented; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: القفطان الجزائري",
+    "status": "reported",
+    "subject_id": "ENT-DZ-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "رداء مفتوح من الأمام مطرز مع حزام المضمة؛ أنواعه العاصمي والقسنطيني والتلمساني",
+        "gender": "نسائي",
+        "name": "القفطان الجزائري"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-DZ-DEPTH-96526D7823475807",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Couscous and bourek stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: البوراك",
+    "status": "reported",
+    "subject_id": "ENT-DZ-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "ورق رقيق محشو باللحم والبيض مقلي؛ جذور عثمانية",
+        "name": "البوراك",
+        "note": "مشترك جزائري تونسي بجذور عثمانية — لا حصرية",
+        "occasion": "رمضان ومقبلات"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-DZ-DEPTH-9669BFE175F15207",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Couscous and bourek stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الشخشوخة",
+    "status": "reported",
+    "subject_id": "ENT-DZ-WILAYA-05",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "رقائق عجين مفتتة بمرق اللحم والخضار والبهارات؛ أكلة احتفالية شرقية",
+        "name": "الشخشوخة",
+        "note": "الأوراس وقسنطينة وبسكرة",
+        "occasion": "الأعراس والمناسبات الكبرى"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-DZ-DEPTH-ACC41498DC84509F",
+    "lexical_context": null,
+    "notes": "Darija profile and lexicon from secondary mirrors; the linguistic-origin debate is recorded neutrally; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Darija profile and 12-word lexicon",
+    "status": "reported",
+    "subject_id": "ENT-DZ-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "اختزال حروف العلة ومجموعات حرفية طويلة سمة مغاربية",
+          "تسكين الحروف خلافا للمشرق",
+          "لا مثنى كالأمازيغية",
+          "نفي أمازيغي بالشين: ما عنديش",
+          "مفردات فرنسية راسخة: طوموبيل وبلاصة وفورماج والسمانة",
+          "مفردات أمازيغية: أضرار وتيفي وأزرو"
+        ],
+        "group": "الدارجة الجزائرية",
+        "sample_words": [
+          {
+            "m": "كم",
+            "w": "شحال"
+          },
+          {
+            "m": "ماذا",
+            "w": "وش"
+          },
+          {
+            "m": "كيف",
+            "w": "كيفاش"
+          },
+          {
+            "m": "متى",
+            "w": "وقتاش"
+          },
+          {
+            "m": "الآن؛ من ذاك الوقت",
+            "w": "درك"
+          },
+          {
+            "m": "كثير",
+            "w": "بزاف"
+          },
+          {
+            "m": "كثير؛ شرقية",
+            "w": "ياسر"
+          },
+          {
+            "m": "جيد",
+            "w": "مليح"
+          },
+          {
+            "m": "غدا",
+            "w": "غدوا"
+          },
+          {
+            "m": "أمس",
+            "w": "البارح"
+          },
+          {
+            "m": "أتحدث",
+            "w": "نهدر"
+          },
+          {
+            "m": "من",
+            "w": "شكون"
+          }
+        ]
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-DZ-DEPTH-BCADDD051EFD5F9A",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; regional variant names attested, never invented; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الجلابة والشاشية والبابوش",
+    "status": "reported",
+    "subject_id": "ENT-DZ-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "الجلابة رداء يومي بقلنسوة، والشاشية الحمراء غطاء رأس تلمساني عاصمي، والبابوش حذاء جلدي بلا كعب",
+        "gender": "مشترك",
+        "name": "الجلابة والشاشية والبابوش"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-DZ-DEPTH-D48ABD7A990D5B12",
+    "lexical_context": null,
+    "notes": "Amazigh is constitutionally official (2016); variety scopes from secondary mirrors anchored to wilayas; probable pending an academic atomic source; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: الشاوية (تاشاويت)",
+    "status": "reported",
+    "subject_id": "ENT-DZ-WILAYA-05",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أمازيغية الأوراس: باتنة وخنشلة وتبسة وأم البواقي",
+        "language": "الشاوية (تاشاويت)"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-DZ-DEPTH-DC0D165F81B057E2",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Couscous and bourek stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الشوربة (الحريرة الجزائرية)",
+    "status": "reported",
+    "subject_id": "ENT-DZ-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "شوربة اللحم والطماطم والفريك أو الشعيرية بالنعناع",
+        "name": "الشوربة (الحريرة الجزائرية)",
+        "note": "",
+        "occasion": "فطور رمضان"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-DZ-DEPTH-F1012EAA5B3559B0",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Couscous and bourek stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الرفيس",
+    "status": "reported",
+    "subject_id": "ENT-DZ-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "قمح وتمر وسمن ولوز؛ أمازيغي الجذور",
+        "name": "الرفيس",
+        "note": "",
+        "occasion": "مناسبات وضيافة"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-E0510B53BFF359DE",
@@ -8515,6 +9143,448 @@
     "verification_status": "verified"
   },
   {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-EG-MRKPOP-161090951A1B50DF",
+    "lexical_context": null,
+    "notes": "2024 row mirrored from the detailed table whose total (7,086,788) closely tracks the official 2023 population clock (7,074,899); probable and unpublished.",
+    "observed_at": "2024-01-01",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-EG-MARKAZ-LISTS-MIRROR-2026",
+    "source_locator": "2024 population row: تمي الأمديد",
+    "status": "reported",
+    "subject_id": "ENT-EG-MARKAZ-755E08625245",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 211782,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-EG-MRKPOP-1796D9EA1E915C61",
+    "lexical_context": null,
+    "notes": "2024 row mirrored from the detailed table whose total (7,086,788) closely tracks the official 2023 population clock (7,074,899); probable and unpublished.",
+    "observed_at": "2024-01-01",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-EG-MARKAZ-LISTS-MIRROR-2026",
+    "source_locator": "2024 population row: المنزلة",
+    "status": "reported",
+    "subject_id": "ENT-EG-MARKAZ-A5CC0F2B2ED1",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 393139,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-EG-MRKPOP-2088E6BA03DF5504",
+    "lexical_context": null,
+    "notes": "2024 row mirrored from the detailed table whose total (7,086,788) closely tracks the official 2023 population clock (7,074,899); probable and unpublished.",
+    "observed_at": "2024-01-01",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-EG-MARKAZ-LISTS-MIRROR-2026",
+    "source_locator": "2024 population row: محلة دمنة",
+    "status": "reported",
+    "subject_id": "ENT-EG-MARKAZ-64BC431C83E3",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 68239,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-EG-MRKPOP-39FCAF4F4308593D",
+    "lexical_context": null,
+    "notes": "2024 row mirrored from the detailed table whose total (7,086,788) closely tracks the official 2023 population clock (7,074,899); probable and unpublished.",
+    "observed_at": "2024-01-01",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-EG-MARKAZ-LISTS-MIRROR-2026",
+    "source_locator": "2024 population row: أجا",
+    "status": "reported",
+    "subject_id": "ENT-EG-MARKAZ-FEE34036123A",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 575127,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-EG-MRKPOP-4C72581E90AC5897",
+    "lexical_context": null,
+    "notes": "2024 row mirrored from the detailed table whose total (7,086,788) closely tracks the official 2023 population clock (7,074,899); probable and unpublished.",
+    "observed_at": "2024-01-01",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-EG-MARKAZ-LISTS-MIRROR-2026",
+    "source_locator": "2024 population row: نبروه",
+    "status": "reported",
+    "subject_id": "ENT-EG-MARKAZ-4E89B503255A",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 305150,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-EG-MRKPOP-515E98B8B00F5CC7",
+    "lexical_context": null,
+    "notes": "2024 row mirrored from the detailed table whose total (7,086,788) closely tracks the official 2023 population clock (7,074,899); probable and unpublished.",
+    "observed_at": "2024-01-01",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-EG-MARKAZ-LISTS-MIRROR-2026",
+    "source_locator": "2024 population row: ميت سلسيل",
+    "status": "reported",
+    "subject_id": "ENT-EG-MARKAZ-C3AF3A7FFF3B",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 81875,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-EG-MRKPOP-5F8575C7F7BF5EDD",
+    "lexical_context": null,
+    "notes": "2024 row mirrored from the detailed table whose total (7,086,788) closely tracks the official 2023 population clock (7,074,899); probable and unpublished.",
+    "observed_at": "2024-01-01",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-EG-MARKAZ-LISTS-MIRROR-2026",
+    "source_locator": "2024 population row: المطرية",
+    "status": "reported",
+    "subject_id": "ENT-EG-MARKAZ-480DA5AE313B",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 203140,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-EG-MRKPOP-6269087900B2548E",
+    "lexical_context": null,
+    "notes": "2024 row mirrored from the detailed table whose total (7,086,788) closely tracks the official 2023 population clock (7,074,899); probable and unpublished.",
+    "observed_at": "2024-01-01",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-EG-MARKAZ-LISTS-MIRROR-2026",
+    "source_locator": "2024 population row: المنصورة",
+    "status": "reported",
+    "subject_id": "ENT-EG-MARKAZ-2A1E4FD359DE",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 659238,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-EG-MRKPOP-6CA19AE931735D17",
+    "lexical_context": null,
+    "notes": "2024 row mirrored from the detailed table whose total (7,086,788) closely tracks the official 2023 population clock (7,074,899); probable and unpublished.",
+    "observed_at": "2024-01-01",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-EG-MARKAZ-LISTS-MIRROR-2026",
+    "source_locator": "2024 population row: الجمالية",
+    "status": "reported",
+    "subject_id": "ENT-EG-MARKAZ-F8AAC2E84A82",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 154949,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-EG-MRKPOP-911D00578C115415",
+    "lexical_context": null,
+    "notes": "2024 row mirrored from the detailed table whose total (7,086,788) closely tracks the official 2023 population clock (7,074,899); probable and unpublished.",
+    "observed_at": "2024-01-01",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-EG-MARKAZ-LISTS-MIRROR-2026",
+    "source_locator": "2024 population row: بني عبيد",
+    "status": "reported",
+    "subject_id": "ENT-EG-MARKAZ-9A6B38CC493B",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 143301,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-EG-MRKPOP-A0807F1A86C75E63",
+    "lexical_context": null,
+    "notes": "2024 row mirrored from the detailed table whose total (7,086,788) closely tracks the official 2023 population clock (7,074,899); probable and unpublished.",
+    "observed_at": "2024-01-01",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-EG-MARKAZ-LISTS-MIRROR-2026",
+    "source_locator": "2024 population row: شربين",
+    "status": "reported",
+    "subject_id": "ENT-EG-MARKAZ-D1AFFDC3B89E",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 460193,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-EG-MRKPOP-A5F381257ABD5618",
+    "lexical_context": null,
+    "notes": "2024 row mirrored from the detailed table whose total (7,086,788) closely tracks the official 2023 population clock (7,074,899); probable and unpublished.",
+    "observed_at": "2024-01-01",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-EG-MARKAZ-LISTS-MIRROR-2026",
+    "source_locator": "2024 population row: طلخا",
+    "status": "reported",
+    "subject_id": "ENT-EG-MARKAZ-7E51008A6086",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 425606,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-EG-MRKPOP-ADE381B391A851E0",
+    "lexical_context": null,
+    "notes": "2024 row mirrored from the detailed table whose total (7,086,788) closely tracks the official 2023 population clock (7,074,899); probable and unpublished.",
+    "observed_at": "2024-01-01",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-EG-MARKAZ-LISTS-MIRROR-2026",
+    "source_locator": "2024 population row: ميت غمر",
+    "status": "reported",
+    "subject_id": "ENT-EG-MARKAZ-0F89A76D5772",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 703717,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-EG-MRKPOP-C1A4E804E2115E0D",
+    "lexical_context": null,
+    "notes": "2024 row mirrored from the detailed table whose total (7,086,788) closely tracks the official 2023 population clock (7,074,899); probable and unpublished.",
+    "observed_at": "2024-01-01",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-EG-MARKAZ-LISTS-MIRROR-2026",
+    "source_locator": "2024 population row: السنبلاوين",
+    "status": "reported",
+    "subject_id": "ENT-EG-MARKAZ-5DBFABB1CECC",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 612345,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-EG-MRKPOP-D396925CDF8656CB",
+    "lexical_context": null,
+    "notes": "2024 row mirrored from the detailed table whose total (7,086,788) closely tracks the official 2023 population clock (7,074,899); probable and unpublished.",
+    "observed_at": "2024-01-01",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-EG-MARKAZ-LISTS-MIRROR-2026",
+    "source_locator": "2024 population row: منية النصر",
+    "status": "reported",
+    "subject_id": "ENT-EG-MARKAZ-AC63EB7298A2",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 290526,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-EG-MRKPOP-E2109566C2C55979",
+    "lexical_context": null,
+    "notes": "2024 row mirrored from the detailed table whose total (7,086,788) closely tracks the official 2023 population clock (7,074,899); probable and unpublished.",
+    "observed_at": "2024-01-01",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-EG-MARKAZ-LISTS-MIRROR-2026",
+    "source_locator": "2024 population row: بلقاس",
+    "status": "reported",
+    "subject_id": "ENT-EG-MARKAZ-84EBAB2799D3",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 574876,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-EG-MRKPOP-F88FFFE41FF8592C",
+    "lexical_context": null,
+    "notes": "2024 row mirrored from the detailed table whose total (7,086,788) closely tracks the official 2023 population clock (7,074,899); probable and unpublished.",
+    "observed_at": "2024-01-01",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-EG-MARKAZ-LISTS-MIRROR-2026",
+    "source_locator": "2024 population row: دكرنس",
+    "status": "reported",
+    "subject_id": "ENT-EG-MARKAZ-AEA700EC7233",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 383717,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-F203D5391E6A5019",
@@ -9350,6 +10420,84 @@
       "type": "json"
     },
     "verification_status": "verified"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-IQ-QADAPOP-083C20E52D2F5328",
+    "lexical_context": null,
+    "notes": "Sum of the arithmetically consistent census table rows (2,362,123+546,368=2,908,491 for the governorate); probable and unpublished; census year as published.",
+    "observed_at": "2018-01-01",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-IQ-QADA-LISTS-MIRROR-2026",
+    "source_locator": "Census hadar/rif table qada sum: الزبير",
+    "status": "reported",
+    "subject_id": "ENT-IQ-DISTRICT-FDA20B990704",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 511224,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-IQ-QADAPOP-853F6EB0C4325FE5",
+    "lexical_context": null,
+    "notes": "Sum of the arithmetically consistent census table rows (2,362,123+546,368=2,908,491 for the governorate); probable and unpublished; census year as published.",
+    "observed_at": "2018-01-01",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-IQ-QADA-LISTS-MIRROR-2026",
+    "source_locator": "Census hadar/rif table qada sum: البصرة",
+    "status": "reported",
+    "subject_id": "ENT-IQ-DISTRICT-091BB1055DA3",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 1436253,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-IQ-QADAPOP-9B183C8F396B5237",
+    "lexical_context": null,
+    "notes": "Sum of the arithmetically consistent census table rows (2,362,123+546,368=2,908,491 for the governorate); probable and unpublished; census year as published.",
+    "observed_at": "2018-01-01",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-IQ-QADA-LISTS-MIRROR-2026",
+    "source_locator": "Census hadar/rif table qada sum: أبو الخصيب",
+    "status": "reported",
+    "subject_id": "ENT-IQ-DISTRICT-9C3830E0E7A5",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 223675,
+      "type": "integer"
+    },
+    "verification_status": "probable"
   },
   {
     "classification": "official",
@@ -10330,6 +11478,568 @@
     "verification_status": "verified"
   },
   {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-MA-DEPTH-0216D5C0822F528A",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Couscous stays shared via the quadripartite UNESCO 2020 file.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: البيصارة",
+    "status": "reported",
+    "subject_id": "ENT-MA-REGION-TANGER-TETOUAN-AL-HOCEIMA",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "فول مجفف مهروس بزيت الزيتون والكمون",
+        "name": "البيصارة",
+        "note": "الريف والشمال",
+        "occasion": "فطور شتوي"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-MA-DEPTH-1A748C831CA95A65",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Couscous stays shared via the quadripartite UNESCO 2020 file.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الطنجية المراكشية",
+    "status": "reported",
+    "subject_id": "ENT-MA-REGION-MARRAKECH-SAFI",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لحم بالثوم والكمون والزعفران والسمن الحر يطهى في وعاء الطنجية الفخاري في رماد الحمام العام",
+        "name": "الطنجية المراكشية",
+        "note": "تقليد مراكشي خالص",
+        "occasion": "شتوي وأيام الجمعة"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-MA-DEPTH-36B064E42BCD53C9",
+    "lexical_context": null,
+    "notes": "Darija profile and lexicon from secondary mirrors; the Arabic-vs-hybrid linguistic debate is recorded neutrally; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-CULTURE-MIRROR-2026",
+    "source_locator": "Darija profile and 10-word lexicon",
+    "status": "reported",
+    "subject_id": "ENT-MA-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "تسكين الحروف خلافا للمشرق",
+          "لا مثنى كالأمازيغية",
+          "تراكيب وأدوات نفي أمازيغية",
+          "مفردات فرنسية وإسبانية دخيلة: طوموبيل وبلاصة وسبيطار",
+          "مفردات فصيحة محفوظة: دوز من جاز، عيان من الإعياء، لاباس"
+        ],
+        "group": "الدارجة المغربية",
+        "sample_words": [
+          {
+            "m": "من",
+            "w": "شكون"
+          },
+          {
+            "m": "ماذا",
+            "w": "آش"
+          },
+          {
+            "m": "أين",
+            "w": "فين"
+          },
+          {
+            "m": "كيف",
+            "w": "كيفاش"
+          },
+          {
+            "m": "متى",
+            "w": "وقتاش"
+          },
+          {
+            "m": "أريد",
+            "w": "بغيت"
+          },
+          {
+            "m": "الآن؛ أمازيغية الأصل",
+            "w": "دابا"
+          },
+          {
+            "m": "كثير؛ أمازيغية الأصل",
+            "w": "بزاف"
+          },
+          {
+            "m": "كم",
+            "w": "شحال"
+          },
+          {
+            "m": "لماذا",
+            "w": "علاش"
+          }
+        ]
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-MA-DEPTH-3BFECE1FDE5552E9",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Couscous stays shared via the quadripartite UNESCO 2020 file.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الطاجين",
+    "status": "reported",
+    "subject_id": "ENT-MA-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لحم أو دجاج مع خضار وزيتون ومخلل الليمون أو البرقوق يطهى ببطء في الوعاء الفخاري المخروطي الذي أعطاه اسمه",
+        "name": "الطاجين",
+        "note": "أمازيغي الأصل",
+        "occasion": "يومي ومناسبات"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-MA-DEPTH-40622FA7050A5566",
+    "lexical_context": null,
+    "notes": "Amazigh is constitutionally official (2011); variety scopes from secondary mirrors; probable pending an academic atomic source; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: الأمازيغية المعيارية",
+    "status": "reported",
+    "subject_id": "ENT-MA-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لغة رسمية بنص تعديل الدستور 2011؛ معيرها المعهد الملكي للثقافة الأمازيغية منذ 2002",
+        "language": "الأمازيغية المعيارية"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-MA-DEPTH-42104E80847057E3",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Couscous stays shared via the quadripartite UNESCO 2020 file.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: البسطيلة",
+    "status": "reported",
+    "subject_id": "ENT-MA-REGION-FES-MEKNES",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "ورق رقيق بحشو الدجاج أو الحمام واللوز والقرفة والسكر؛ حلو مالح فاخر",
+        "name": "البسطيلة",
+        "note": "فاس ومكناس؛ جذور أندلسية",
+        "occasion": "الأعراس والمناسبات الكبرى"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-MA-DEPTH-5AFC9A3E0D845962",
+    "lexical_context": null,
+    "notes": "Amazigh is constitutionally official (2011); variety scopes from secondary mirrors; probable pending an academic atomic source; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: تاريفيت",
+    "status": "reported",
+    "subject_id": "ENT-MA-REGION-TANGER-TETOUAN-AL-HOCEIMA",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أمازيغية الريف والشمال",
+        "language": "تاريفيت"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-MA-DEPTH-6DE4505638385080",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Couscous stays shared via the quadripartite UNESCO 2020 file.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الحريرة",
+    "status": "reported",
+    "subject_id": "ENT-MA-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "شوربة العدس والحمص والطماطم والشعيرية بالكزبرة، تؤكل مع التمر والشباكية في رمضان",
+        "name": "الحريرة",
+        "note": "",
+        "occasion": "فطور رمضان"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-MA-DEPTH-72628C0834185519",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Couscous stays shared via the quadripartite UNESCO 2020 file.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: المروزية",
+    "status": "reported",
+    "subject_id": "ENT-MA-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لحم الغنم بالزبيب واللوز والقرفة ورأس الحانوت",
+        "name": "المروزية",
+        "note": "طبق العيد",
+        "occasion": "عيد الأضحى"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-MA-DEPTH-84B817C1B6375035",
+    "lexical_context": null,
+    "notes": "Amazigh is constitutionally official (2011); variety scopes from secondary mirrors; probable pending an academic atomic source; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: تمازيغت الأطلس المتوسط",
+    "status": "reported",
+    "subject_id": "ENT-MA-REGION-BENI-MELLAL-KHENIFRA",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أمازيغية الأطلس المتوسط وبني ملال وخنيفرة",
+        "language": "تمازيغت الأطلس المتوسط"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-MA-DEPTH-9E83A738D3355C38",
+    "lexical_context": null,
+    "notes": "Amazigh is constitutionally official (2011); variety scopes from secondary mirrors; probable pending an academic atomic source; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: تاشلحيت",
+    "status": "reported",
+    "subject_id": "ENT-MA-REGION-SOUSS-MASSA",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أوسع اللهجات الأمازيغية مجالا: سوس والأطلس الصغير والجنوب",
+        "language": "تاشلحيت"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-MA-DEPTH-BBA2B95B2768511B",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; regional variant names attested, never invented; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: البلغة والسلهام والطربوش",
+    "status": "reported",
+    "subject_id": "ENT-MA-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "البلغة حذاء جلدي أصفر بلا كعب، والسلهام عباءة صوفية بقلنسوة للشتاء في الريف والأطلس، والطربوش الأحمر الرمزي مع الجلابة",
+        "gender": "رجالي",
+        "name": "البلغة والسلهام والطربوش"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-MA-DEPTH-DBE2704233885502",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Couscous stays shared via the quadripartite UNESCO 2020 file.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الكسكس",
+    "status": "reported",
+    "subject_id": "ENT-MA-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "سميد مفتول يطهى على البخار في الكسكاس مع الخضار واللحم والحمص؛ أمازيغي الجذور",
+        "name": "الكسكس",
+        "note": "مدرج في تراث اليونسكو غير المادي 2020 ملفا مشتركا بين المغرب والجزائر وتونس وموريتانيا — لا ملكية حصرية",
+        "occasion": "غداء الجمعة والأعراس"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-MA-DEPTH-F14D277873C4571C",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; regional variant names attested, never invented; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: القفطان والتكشيتة",
+    "status": "reported",
+    "subject_id": "ENT-MA-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "القفطان مفتوح من الأمام مطرز بخيوط ذهبية وفضية مع حزام المضمة؛ قماشه البروكار الفاسي المنسوج يدويا في فاس والمخمل والحرير",
+        "gender": "نسائي",
+        "name": "القفطان والتكشيتة"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-MA-DEPTH-F4E03167A6B054DA",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; regional variant names attested, never invented; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الجلابة",
+    "status": "reported",
+    "subject_id": "ENT-MA-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "رداء طويل بقلنسوة؛ قطني صيفا وصوفي شتاء؛ أنواعها المناطقية: الفاسية الحريرية الفاخرة والرباطية اليومية والمراكشية الخفيفة والأمازيغية الصوفية المزخرفة",
+        "gender": "مشترك",
+        "name": "الجلابة"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-MA-DEPTH-F5EC19077FC45518",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Couscous stays shared via the quadripartite UNESCO 2020 file.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: تاكوين",
+    "status": "reported",
+    "subject_id": "ENT-MA-REGION-SOUSS-MASSA",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أكلة أمازيغية سوسية باللحم والبهارات والجوز",
+        "name": "تاكوين",
+        "note": "سوس",
+        "occasion": "مناسبات"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-MA-DEPTH-F8B0061B5CFA571F",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Couscous stays shared via the quadripartite UNESCO 2020 file.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-MA-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الشباكية وسلو",
+    "status": "reported",
+    "subject_id": "ENT-MA-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "الشباكية عجين مقلي بالعسل والسمسم، وسلو طحين محمص باللوز والزبدة والعسل",
+        "name": "الشباكية وسلو",
+        "note": "حلويات رمضانية",
+        "occasion": "رمضان"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-MA-E9299D9819AA5299",
@@ -11090,6 +12800,682 @@
     "verification_status": "verified"
   },
   {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-004E27B592825A01",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الخنجر العماني",
+    "status": "reported",
+    "subject_id": "ENT-OM-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "خنجر معقوف بمقبض من القرن أو الفضة وغمد مزخرف يصنع يدويا في شهر أو أكثر؛ رمز وطني على شعار السلطنة؛ ومن طرزه السعيدي بنقوشه القرآنية",
+        "gender": "رجالي",
+        "name": "الخنجر العماني"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-OM-DEPTH-0097A3BB36CB5819",
+    "lexical_context": null,
+    "notes": "Living local language documented in secondary mirrors; Kumzari and Bathari stay local_reported pending academic atomic sources; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: المهرية",
+    "status": "reported",
+    "subject_id": "ENT-OM-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لغة سامية جنوبية في جنوب ظفار امتدادا لمجالها اليمني",
+        "language": "المهرية"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-2309A5C2E53A52CA",
+    "lexical_context": null,
+    "notes": "Regional dialect profile from secondary mirrors; a field-attested corpus remains the upgrade path; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: اللهجة الظفارية",
+    "status": "reported",
+    "subject_id": "ENT-OM-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "تميل إلى اللهجات اليمنية بحكم الجوار",
+          "مؤثرات سواحيلية وأفريقية"
+        ],
+        "group": "اللهجة الظفارية",
+        "sample_words": [
+          {
+            "m": "ثور",
+            "w": "فعور"
+          }
+        ],
+        "scope": "صلالة وظفار"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-23C207AC869D5671",
+    "lexical_context": null,
+    "notes": "Regional dialect profile from secondary mirrors; a field-attested corpus remains the upgrade path; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: لهجة الداخلية",
+    "status": "reported",
+    "subject_id": "ENT-OM-GOVERNORATE-05",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "عمانية قحة قريبة من الفصحى",
+          "القاف جيم في بعض المناطق",
+          "توصف بأنها أصعب اللهجات العمانية على غير العمانيين"
+        ],
+        "group": "لهجة الداخلية",
+        "sample_words": [
+          {
+            "m": "خذ",
+            "w": "دوك"
+          },
+          {
+            "m": "انتظرني",
+            "w": "احترني"
+          },
+          {
+            "m": "جميل",
+            "w": "غاوي"
+          },
+          {
+            "m": "يريد",
+            "w": "باغي"
+          }
+        ],
+        "scope": "نزوى وسمائل وبهلا وإزكي"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-31CDAE9CEE225CED",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الدشداشة العمانية",
+    "status": "reported",
+    "subject_id": "ENT-OM-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "ثوب بعنق مستدير وشريط رفيع مع الفراخة (الكركوشة) خيوط متدلية على الصدر تعطر بالبخور؛ تختلف عن الإماراتية بلا ياقة؛ والدشداشة الصورية تطرز أعلاها",
+        "gender": "رجالي",
+        "name": "الدشداشة العمانية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-383E27CD025C5E0A",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Gulf-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: القهوة العمانية والتمر",
+    "status": "reported",
+    "subject_id": "ENT-OM-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "بن أخضر بالهيل والزعفران يقدم مع التمر ركن الضيافة العماني",
+        "name": "القهوة العمانية والتمر",
+        "note": "",
+        "occasion": "الضيافة"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-3A9310AC657156D5",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Gulf-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الشوا",
+    "status": "reported",
+    "subject_id": "ENT-OM-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لحم كامل يتبل بالبذار ويلف بورق الموز أو النخيل ويدفن في تنور تحت الأرض ليطهى ليلة كاملة؛ يوصف بملك الأطباق العمانية",
+        "name": "الشوا",
+        "note": "طريقة الدفن الأرضي ميزة عمانية بارزة؛ أصله مرتبط بظفار والمناسبات الوطنية",
+        "occasion": "الأعياد والأعراس"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-OM-DEPTH-74029FB91FC95D38",
+    "lexical_context": null,
+    "notes": "Living local language documented in secondary mirrors; Kumzari and Bathari stay local_reported pending academic atomic sources; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: البلوشية",
+    "status": "reported",
+    "subject_id": "ENT-OM-GOVERNORATE-06",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لغة إيرانية يتحدثها البلوش في شمال الباطنة والظاهرة؛ أثر الروابط التاريخية مع بلوشستان",
+        "language": "البلوشية"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-7792186C7870554E",
+    "lexical_context": null,
+    "notes": "Living local language documented in secondary mirrors; Kumzari and Bathari stay local_reported pending academic atomic sources; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: البطحرية",
+    "status": "reported",
+    "subject_id": "ENT-OM-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لغة سامية جنوبية مهددة تتحدثها أقلية صغيرة في ظفار",
+        "language": "البطحرية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-83FD8E1961F75B36",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الكمة والمصر",
+    "status": "reported",
+    "subject_id": "ENT-OM-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "الكمة طاقية أسطوانية مطرزة يدويا بزخارف النجم ميزة عمانية بارزة، والمصر عمامة ملونة تلف فوقها في المناسبات",
+        "gender": "رجالي",
+        "name": "الكمة والمصر"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-8A32E0B1F750592D",
+    "lexical_context": null,
+    "notes": "Regional dialect profile from secondary mirrors; a field-attested corpus remains the upgrade path; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: لهجة مسقط والباطنة",
+    "status": "reported",
+    "subject_id": "ENT-OM-GOVERNORATE-01",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "قريبة من اللهجات الخليجية",
+          "قاف لهوية مهموسة",
+          "مفردات إنجليزية من الإرث البحري"
+        ],
+        "group": "لهجة مسقط والباطنة",
+        "sample_words": [],
+        "scope": "مسقط وشمال وجنوب الباطنة"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-92A597010F245F65",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Gulf-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الهريس",
+    "status": "reported",
+    "subject_id": "ENT-OM-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "قمح مجروش باللحم يطهى ساعات حتى يصير عصيدة بالسمن",
+        "name": "الهريس",
+        "note": "مشترك خليجي عربي — لا حصرية",
+        "occasion": "رمضان"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-OM-DEPTH-9D23038F6BBC5620",
+    "lexical_context": null,
+    "notes": "Living local language documented in secondary mirrors; Kumzari and Bathari stay local_reported pending academic atomic sources; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: السواحيلية",
+    "status": "reported",
+    "subject_id": "ENT-OM-GOVERNORATE-01",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لغة بانتوية يتحدثها العمانيون العائدون من شرق أفريقيا؛ إرث الحقبة الزنجبارية",
+        "language": "السواحيلية"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-OM-DEPTH-9ECAE06B71535B6C",
+    "lexical_context": null,
+    "notes": "Living local language documented in secondary mirrors; Kumzari and Bathari stay local_reported pending academic atomic sources; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: الشحرية (الجبالية)",
+    "status": "reported",
+    "subject_id": "ENT-OM-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لغة سامية جنوبية حية في جبال ظفار يتحدثها الشحوح والقبائل الجبلية",
+        "language": "الشحرية (الجبالية)"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-B3C538AACCDF54FA",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Gulf-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: القبولي",
+    "status": "reported",
+    "subject_id": "ENT-OM-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أرز باللحم والبذار واللومي والزعفران والحمص المجروش",
+        "name": "القبولي",
+        "note": "عائلة المكبوس الخليجية المشتركة — لا ملكية حصرية",
+        "occasion": "الولائم واليومي"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-BBE4BB2574645FB7",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Gulf-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: العرسية",
+    "status": "reported",
+    "subject_id": "ENT-OM-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أرز مهروس مع دجاج أو لحم يطهى حتى ينعقد؛ توصف بسيدة أطباق العيد",
+        "name": "العرسية",
+        "note": "",
+        "occasion": "صبيحة العيد"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-C9FBA6B29DE15D05",
+    "lexical_context": null,
+    "notes": "Regional dialect profile from secondary mirrors; a field-attested corpus remains the upgrade path; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: لهجة البادية",
+    "status": "reported",
+    "subject_id": "ENT-OM-GOVERNORATE-10",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "بدوية أقرب للفصحى",
+          "القاف جيم",
+          "قلب الجيم ياء"
+        ],
+        "group": "لهجة البادية",
+        "sample_words": [],
+        "scope": "الظاهرة والوسطى ورمال الشرقية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-CCE96FFF9AC451DD",
+    "lexical_context": null,
+    "notes": "Regional dialect profile from secondary mirrors; a field-attested corpus remains the upgrade path; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: لهجة مسندم",
+    "status": "reported",
+    "subject_id": "ENT-OM-GOVERNORATE-03",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "خليجية الطابع",
+          "تجاور الكمزارية الفريدة في كمزار"
+        ],
+        "group": "لهجة مسندم",
+        "sample_words": [],
+        "scope": "خصب ودبا وبخا ومدحاء"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-E0B2CC11C483573C",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Gulf-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: المضروبة",
+    "status": "reported",
+    "subject_id": "ENT-OM-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أرز بالدجاج أو السمك يضرب حتى ينعقد",
+        "name": "المضروبة",
+        "note": "مشترك خليجي",
+        "occasion": "يومي ومناسبات"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-E271AEA639805C13",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Gulf-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-16",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الثريد",
+    "status": "reported",
+    "subject_id": "ENT-OM-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "خبز الرقاق بمرق اللحم والخضار",
+        "name": "الثريد",
+        "note": "مشترك عربي قديم",
+        "occasion": "رمضان"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-OM-DEPTH-E3108C98D788581B",
+    "lexical_context": null,
+    "notes": "Living local language documented in secondary mirrors; Kumzari and Bathari stay local_reported pending academic atomic sources; unpublished.",
+    "observed_at": "2026-08-16",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-OM-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: الكمزارية",
+    "status": "reported",
+    "subject_id": "ENT-OM-GOVERNORATE-03",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لغة فريدة مزيج عربي فارسي في قرية كمزار بمسندم؛ توثيقها الأكاديمي محدود",
+        "language": "الكمزارية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-PS-0430B87C92CF5B4C",
@@ -11712,6 +14098,198 @@
       "type": "string"
     },
     "verification_status": "verified"
+  },
+  {
+    "classification": "historical",
+    "confidence": "medium",
+    "id": "CLM-PS-NAKBA-FRAME-4D12E8356467507F",
+    "lexical_context": null,
+    "notes": "National count disputes recorded verbatim; the seized/destroyed distinction explains divergence; no reading is averaged or adopted as a closed denominator.",
+    "observed_at": "2026-08-17",
+    "predicate": "depopulation_frame_1948",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-PS-WAFA-PLO-DESTROYED-2026",
+    "source_locator": "WAFA/PLO national frame with recorded count disputes",
+    "status": "reported",
+    "subject_id": "ENT-PS-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "archive_attested_in_project": 584,
+        "descendants_2009": 6837000,
+        "other_readings": [
+          530,
+          520
+        ],
+        "plo_destroyed_total": 531,
+        "refugees_1948": 805067,
+        "seized_total": 775
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "historical",
+    "confidence": "medium",
+    "id": "CLM-PS-QADACOUNT-1C6EF08A7D7F5F8B",
+    "lexical_context": null,
+    "notes": "Administrative-village count from the WAFA/PLO frame; differs by definition from the archive inhabited-locality count and both are preserved.",
+    "observed_at": "2026-08-17",
+    "predicate": "destroyed_villages_wafa_count",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-PS-WAFA-PLO-DESTROYED-2026",
+    "source_locator": "WAFA qada distribution row: القدس",
+    "status": "reported",
+    "subject_id": "ENT-PS-HIST-QADA-JERUSALEM",
+    "unit": "village",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 38,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "historical",
+    "confidence": "medium",
+    "id": "CLM-PS-QADACOUNT-52F1A89E600C5412",
+    "lexical_context": null,
+    "notes": "Administrative-village count from the WAFA/PLO frame; differs by definition from the archive inhabited-locality count and both are preserved.",
+    "observed_at": "2026-08-17",
+    "predicate": "destroyed_villages_wafa_count",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-PS-WAFA-PLO-DESTROYED-2026",
+    "source_locator": "WAFA qada distribution row: صفد",
+    "status": "reported",
+    "subject_id": "ENT-PS-HIST-QADA-SAFAD",
+    "unit": "village",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 78,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "historical",
+    "confidence": "medium",
+    "id": "CLM-PS-QADACOUNT-7C88D4D0F0B65C6B",
+    "lexical_context": null,
+    "notes": "Administrative-village count from the WAFA/PLO frame; differs by definition from the archive inhabited-locality count and both are preserved.",
+    "observed_at": "2026-08-17",
+    "predicate": "destroyed_villages_wafa_count",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-PS-WAFA-PLO-DESTROYED-2026",
+    "source_locator": "WAFA qada distribution row: طبريا",
+    "status": "reported",
+    "subject_id": "ENT-PS-HIST-QADA-TIBERIAS",
+    "unit": "village",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 26,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "historical",
+    "confidence": "medium",
+    "id": "CLM-PS-QADACOUNT-D0720F92EAA9522E",
+    "lexical_context": null,
+    "notes": "Administrative-village count from the WAFA/PLO frame; differs by definition from the archive inhabited-locality count and both are preserved.",
+    "observed_at": "2026-08-17",
+    "predicate": "destroyed_villages_wafa_count",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-PS-WAFA-PLO-DESTROYED-2026",
+    "source_locator": "WAFA qada distribution row: الرملة",
+    "status": "reported",
+    "subject_id": "ENT-PS-HIST-QADA-RAMLA",
+    "unit": "village",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 58,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "historical",
+    "confidence": "medium",
+    "id": "CLM-PS-QADACOUNT-D36795A610285453",
+    "lexical_context": null,
+    "notes": "Administrative-village count from the WAFA/PLO frame; differs by definition from the archive inhabited-locality count and both are preserved.",
+    "observed_at": "2026-08-17",
+    "predicate": "destroyed_villages_wafa_count",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-PS-WAFA-PLO-DESTROYED-2026",
+    "source_locator": "WAFA qada distribution row: حيفا",
+    "status": "reported",
+    "subject_id": "ENT-PS-HIST-QADA-HAIFA",
+    "unit": "village",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 51,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "historical",
+    "confidence": "medium",
+    "id": "CLM-PS-QADACOUNT-F3DC2D6A021C533A",
+    "lexical_context": null,
+    "notes": "Administrative-village count from the WAFA/PLO frame; differs by definition from the archive inhabited-locality count and both are preserved.",
+    "observed_at": "2026-08-17",
+    "predicate": "destroyed_villages_wafa_count",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-PS-WAFA-PLO-DESTROYED-2026",
+    "source_locator": "WAFA qada distribution row: عكا",
+    "status": "reported",
+    "subject_id": "ENT-PS-HIST-QADA-ACRE",
+    "unit": "village",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 26,
+      "type": "integer"
+    },
+    "verification_status": "probable"
   },
   {
     "classification": "official",
@@ -13950,6 +16528,43 @@
     "verification_status": "source_verified"
   },
   {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-0BA9DAFF2EC5EBD2",
+    "lexical_context": {
+      "dialect": "eastern",
+      "form": "وايد",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "كثير",
+      "place_id": "ENT-SA-REGION-EASTERN",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "eastern"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: وايد = كثير",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-CBE672C3EAD5A0B5",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=كثير; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-SA-0C065679A9FE2980",
@@ -15430,6 +18045,35 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "historical",
+    "confidence": "low",
+    "id": "CLM-SA-14D013F244F98B4A",
+    "lexical_context": null,
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "market_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DRESS-CULTURE-MIRROR-2026",
+    "source_locator": "Cultural entry: سوق عكاظ",
+    "status": "reported",
+    "subject_id": "ENT-SA-REGION-MAKKAH",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "سوق العرب الجاهلي الشهير قرب الطائف؛ أعيد إحياؤه مهرجانا ثقافيا سنويا",
+        "name": "سوق عكاظ"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -17356,6 +20000,36 @@
     "verification_status": "source_verified"
   },
   {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-1FDE3BB32E4B2B59",
+    "lexical_context": null,
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DRESS-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: السديري والدقلة",
+    "status": "reported",
+    "subject_id": "ENT-SA-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "السديري سترة قصيرة فوق الثوب في الحجاز والوسط، والدقلة سترة طويلة من المخمل أو الصوف شتاء في الشمال والوسط",
+        "gender": "رجالي",
+        "name": "السديري والدقلة"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-SA-200C5E4A48B8CF25",
@@ -17848,6 +20522,43 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-223078D7E99AD349",
+    "lexical_context": {
+      "dialect": "eastern",
+      "form": "شلون",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "كيف",
+      "place_id": "ENT-SA-REGION-EASTERN",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "eastern"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: شلون = كيف",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-62CB74FC1D87FF11",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=كيف; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -19616,6 +22327,35 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-2C24A398F24616AA",
+    "lexical_context": null,
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "performing_art",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DRESS-CULTURE-MIRROR-2026",
+    "source_locator": "Cultural entry: المزمار الحجازي",
+    "status": "reported",
+    "subject_id": "ENT-SA-REGION-MAKKAH",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "فن أداء شعبي حجازي بالعصي والطبول يؤدى في الأفراح",
+        "name": "المزمار الحجازي"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -23596,6 +26336,43 @@
     "verification_status": "source_verified"
   },
   {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-436ABD1AED50D423",
+    "lexical_context": {
+      "dialect": "southern",
+      "form": "الدح",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "الضحك",
+      "place_id": "ENT-SA-REGION-ASIR",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "southern"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: الدح = الضحك",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-92F5AE0E5BDA9C1E",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=الضحك; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-SA-437B68A431C773A3",
@@ -24114,6 +26891,43 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-46D1FE9E971BE9D1",
+    "lexical_context": {
+      "dialect": "southern",
+      "form": "حن",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "نحن",
+      "place_id": "ENT-SA-REGION-ASIR",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "southern"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: حن = نحن",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-5B13DA6803642A48",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=نحن; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -24660,6 +27474,43 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-494DF9218E93E4B4",
+    "lexical_context": {
+      "dialect": "hijazi",
+      "form": "مفيش",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "لا يوجد",
+      "place_id": "ENT-SA-REGION-MAKKAH",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "hijazi"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: مفيش = لا يوجد",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-4E5D612D9C9C1E17",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=لا يوجد; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -26196,6 +29047,43 @@
     "verification_status": "source_verified"
   },
   {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-514504AB79560024",
+    "lexical_context": {
+      "dialect": "najdi",
+      "form": "ضامي",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "عطشان",
+      "place_id": "ENT-SA-REGION-RIYADH",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "najdi"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: ضامي = عطشان",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-84991E44962413D9",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=عطشان; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-SA-514BB4CD6FEA5490",
@@ -26376,6 +29264,43 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-526FDA4F92EF6B67",
+    "lexical_context": {
+      "dialect": "najdi",
+      "form": "ياهلين",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "أهلا وسهلا",
+      "place_id": "ENT-SA-REGION-RIYADH",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "najdi"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: ياهلين = أهلا وسهلا",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-4ABDC911F873C52C",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=أهلا وسهلا; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -29680,6 +32605,35 @@
     "verification_status": "source_verified"
   },
   {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-SA-673A7DB83E933834",
+    "lexical_context": null,
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "performing_art",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DRESS-CULTURE-MIRROR-2026",
+    "source_locator": "Cultural entry: العرضة النجدية",
+    "status": "reported",
+    "subject_id": "ENT-SA-REGION-RIYADH",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "رقصة السيف والطبول والشعر؛ مدرجة لدى اليونسكو 2015 وتؤدى في الأعياد والمناسبات الوطنية",
+        "name": "العرضة النجدية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-SA-676ED7AA16FFF305",
@@ -30417,6 +33371,43 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-6B1A5C4AB4335FF8",
+    "lexical_context": {
+      "dialect": "hijazi",
+      "form": "يلا",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "هيا",
+      "place_id": "ENT-SA-REGION-MAKKAH",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "hijazi"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: يلا = هيا",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-2DEFEECD8907AEEC",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=هيا; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -31171,6 +34162,43 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-6ED77E540389AE81",
+    "lexical_context": {
+      "dialect": "southern",
+      "form": "هب لي",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "أعطني",
+      "place_id": "ENT-SA-REGION-ASIR",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "southern"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: هب لي = أعطني",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-935C78140EE62960",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=أعطني; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -32471,6 +35499,43 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-767148F1991DF907",
+    "lexical_context": {
+      "dialect": "najdi",
+      "form": "شادر",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "خيمة",
+      "place_id": "ENT-SA-REGION-RIYADH",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "najdi"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: شادر = خيمة",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-2EECA8074FC420DC",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=خيمة; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -33903,6 +36968,36 @@
     "verification_status": "source_verified"
   },
   {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-7DA56C1E9A51635A",
+    "lexical_context": null,
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DRESS-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الدراعة (المقطع) النجدية",
+    "status": "reported",
+    "subject_id": "ENT-SA-REGION-RIYADH",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "ثوب فضفاض إلى الكعبين بألوان زاهية تخاط فيه البنيقة للاتساع، ومعه ثوب الكرباس القطني التاريخي وثياب المناسبات كالمسرح وثوب الثريا وثوب المنثور",
+        "gender": "نسائي",
+        "name": "الدراعة (المقطع) النجدية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-SA-7DC986C96B7B5DC5",
@@ -34681,6 +37776,36 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-80D7294B1019291A",
+    "lexical_context": null,
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DRESS-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الجنبية الجنوبية",
+    "status": "reported",
+    "subject_id": "ENT-SA-REGION-NAJRAN",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "خنجر يحمل على الخصر تاريخيا في الجنوب وعسير ونجران؛ رمز اجتماعي مشترك مع اليمن المجاور",
+        "gender": "رجالي",
+        "name": "الجنبية الجنوبية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -36163,6 +39288,43 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-8953943F8BF9E4E2",
+    "lexical_context": {
+      "dialect": "southern",
+      "form": "مذابك",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "ماذا بك",
+      "place_id": "ENT-SA-REGION-ASIR",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "southern"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: مذابك = ماذا بك",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-5FFAD8DFD7CEC119",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=ماذا بك; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -38425,6 +41587,43 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-95EEEA97127C429B",
+    "lexical_context": {
+      "dialect": "southern",
+      "form": "الطرين",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "مكان بعيد أو مهجور",
+      "place_id": "ENT-SA-REGION-ASIR",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "southern"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: الطرين = مكان بعيد أو مهجور",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-A8EA5B02570CE770",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=مكان بعيد أو مهجور; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -42977,6 +46176,36 @@
     "verification_status": "source_verified"
   },
   {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-SA-ADC4C6FF14383290",
+    "lexical_context": null,
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DRESS-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الغترة والشماغ والعقال",
+    "status": "reported",
+    "subject_id": "ENT-SA-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "الغترة بيضاء والشماغ بنقوش حمراء وبيضاء يشيع في نجد والشمال والشرق، والعقال حبل أسود يثبتهما وللمناسبات عقال مقصب بخيوط ذهبية",
+        "gender": "رجالي",
+        "name": "الغترة والشماغ والعقال"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-SA-ADEF072E634047EF",
@@ -43818,6 +47047,36 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-SA-B29FFA2AB044F193",
+    "lexical_context": null,
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DRESS-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: البشت (المشلح)",
+    "status": "reported",
+    "subject_id": "ENT-SA-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "عباءة خارجية من الصوف أو الحرير للمناسبات الرسمية والأعراس",
+        "gender": "رجالي",
+        "name": "البشت (المشلح)"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -45378,6 +48637,36 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-SA-BCDB304F721E1766",
+    "lexical_context": null,
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DRESS-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الثوب بأنماطه المناطقية",
+    "status": "reported",
+    "subject_id": "ENT-SA-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "رداء طويل أبيض صيفا وداكن شتاء؛ النجدي بياقة مرتفعة وأكمام ضيقة، والحجازي بقصة مريحة وأكمام أوسع، والشمالي داكن شتاء، والشرقي قريب من الخليجي",
+        "gender": "رجالي",
+        "name": "الثوب بأنماطه المناطقية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -48936,6 +52225,43 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-D4AD010B93795C8A",
+    "lexical_context": {
+      "dialect": "najdi",
+      "form": "وشلونك",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "كيف حالك",
+      "place_id": "ENT-SA-REGION-RIYADH",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "najdi"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: وشلونك = كيف حالك",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-1818DC05E0B7086A",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=كيف حالك; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -52734,6 +56060,43 @@
     "verification_status": "source_verified"
   },
   {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-E8ED2FE6650FAD3D",
+    "lexical_context": {
+      "dialect": "hijazi",
+      "form": "إيش",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "ماذا",
+      "place_id": "ENT-SA-REGION-MAKKAH",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "hijazi"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: إيش = ماذا",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-B9B7A82C4877197F",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=ماذا; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-SA-E8FDD6B73EF8314D",
@@ -52836,6 +56199,43 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SA-E99DC1D1FA319560",
+    "lexical_context": {
+      "dialect": "najdi",
+      "form": "عوج",
+      "ipa": null,
+      "language": "Arabic",
+      "meaning": "منحنٍ",
+      "place_id": "ENT-SA-REGION-RIYADH",
+      "register": "secondary-mirror lexicon",
+      "speaker_or_study": "secondary mirror lexicon pages",
+      "study_date": "2026-08-17",
+      "variety": "najdi"
+    },
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "lexical_attestation",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DIALECT-MIRROR-2026",
+    "source_locator": "Lexicon entry: عوج = منحنٍ",
+    "status": "reported",
+    "subject_id": "ENT-SA-LEXEME-66A6D6DB2E850078",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "meaning=منحنٍ; register=secondary-mirror lexicon; study_date=2026-08-17",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -53046,6 +56446,35 @@
     "verification_status": "source_verified"
   },
   {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-SA-EA7984DE1C098B9A",
+    "lexical_context": null,
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "market_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DRESS-CULTURE-MIRROR-2026",
+    "source_locator": "Cultural entry: سوق المجلس بالأحساء وأسواق القيصرية",
+    "status": "reported",
+    "subject_id": "ENT-SA-REGION-EASTERN",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أسواق الأحساء التاريخية ومنها سوق القيصرية بالهفوف من أقدم الأسواق الشعبية القائمة",
+        "name": "سوق المجلس بالأحساء وأسواق القيصرية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-SA-EAED0ACC3D36F6D7",
@@ -53174,6 +56603,35 @@
       "type": "string"
     },
     "verification_status": "source_verified"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-SA-EBCF5AC662E70E1C",
+    "lexical_context": null,
+    "notes": null,
+    "observed_at": "2026-08-17",
+    "predicate": "performing_art",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SA-DRESS-CULTURE-MIRROR-2026",
+    "source_locator": "Cultural entry: الخطوة الجنازية الجنوبية",
+    "status": "reported",
+    "subject_id": "ENT-SA-REGION-JAZAN",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "فن أداء جماعي في جازان والجنوب يقوم على الصف والحركة الإيقاعية",
+        "name": "الخطوة الجنازية الجنوبية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
   },
   {
     "classification": "official",
@@ -58628,6 +62086,951 @@
     "verification_status": "verified"
   },
   {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-YE-CRAFT-4563853636005149",
+    "lexical_context": null,
+    "notes": "Craft knowledge mirrored from secondary pages; local_reported and unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "craft_custom",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-CRAFTS-MARKETS-MIRROR",
+    "source_locator": "Craft entry: الفخار والأواني الحجرية",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "صناعة الأواني الفخارية والحجرية ومنها المدرة التي تقدم فيها السلتة فائرة",
+        "name": "الفخار والأواني الحجرية",
+        "note": "المرتفعات"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-YE-CRAFT-864B0C63A63350E0",
+    "lexical_context": null,
+    "notes": "Craft knowledge mirrored from secondary pages; local_reported and unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "craft_custom",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-CRAFTS-MARKETS-MIRROR",
+    "source_locator": "Craft entry: العقيق اليمني",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "استخراج العقيق وصقله وتركيبه في الخواتم والحلي؛ العقيق اليمني ذائع الصيت عربيًا",
+        "name": "العقيق اليمني",
+        "note": "مرتبط بصنعاء ومناطق المرتفعات"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-YE-CRAFT-9EE21F72708A5B13",
+    "lexical_context": null,
+    "notes": "Craft knowledge mirrored from secondary pages; local_reported and unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "craft_custom",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-CRAFTS-MARKETS-MIRROR",
+    "source_locator": "Craft entry: النسيج التقليدي",
+    "status": "reported",
+    "subject_id": "ENT-YE-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "نسج المعوز والثياب التقليدية؛ لكل منطقة أنماطها وألوانها",
+        "name": "النسيج التقليدي",
+        "note": "المعوز الحضرمي أغلاها"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-YE-CRAFT-DD9D2F2A737D5008",
+    "lexical_context": null,
+    "notes": "Craft knowledge mirrored from secondary pages; local_reported and unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "craft_custom",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-CRAFTS-MARKETS-MIRROR",
+    "source_locator": "Craft entry: صياغة الفضة والجنابي",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "صياغة الجنبية والحلي النسائية من الفضة والذهب مع الأحجار كالعقيق والمرجان والكهرمان؛ تجارة ذهب وفضة يمنية موغلة في القدم",
+        "name": "صياغة الفضة والجنابي",
+        "note": "مراكزها التاريخية صنعاء وحضرموت"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-YE-DIALECT-28823916E584560C",
+    "lexical_context": null,
+    "notes": "Dialect features and sample lexicon mirrored from secondary pages; a field-attested lexical corpus with study dates remains the upgrade path; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-DIALECT-PAGES-MIRROR",
+    "source_locator": "Dialect group profile: التهامية",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-06",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "إيقاع أسرع",
+          "مفردات بحرية ومزارعية",
+          "روافد أفريقية تاريخية"
+        ],
+        "group": "التهامية",
+        "sample_words": [],
+        "scope": "سهل تهامة من الحديدة إلى المخا"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-YE-DIALECT-5AB67120752D54D5",
+    "lexical_context": null,
+    "notes": "Dialect features and sample lexicon mirrored from secondary pages; a field-attested lexical corpus with study dates remains the upgrade path; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-DIALECT-PAGES-MIRROR",
+    "source_locator": "Dialect group profile: الصنعانية",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "القاف تنطق g",
+          "الضاد تنطق ظاء",
+          "ترقيق الراء والحاء والخاء",
+          "إبدال الدال طاء في بعض الكلمات مثل صدم إلى صطم"
+        ],
+        "group": "الصنعانية",
+        "sample_words": [
+          {
+            "m": "حينما هو",
+            "w": "حينهو"
+          },
+          {
+            "m": "كمل أو خلص",
+            "w": "معادبش"
+          },
+          {
+            "m": "لأجل",
+            "w": "على ميد"
+          }
+        ],
+        "scope": "صنعاء والمرتفعات الوسطى"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-YE-DIALECT-5F6F1861AF725AAC",
+    "lexical_context": null,
+    "notes": "Dialect features and sample lexicon mirrored from secondary pages; a field-attested lexical corpus with study dates remains the upgrade path; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-DIALECT-PAGES-MIRROR",
+    "source_locator": "Dialect group profile: التعزية العدنية",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-05",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "الثاء تنطق تاء مثل ثاني إلى تاني",
+          "الجيم تنطق g",
+          "نفي الماضي بإلحاق كاف وشين مثل ما عملكش"
+        ],
+        "group": "التعزية العدنية",
+        "sample_words": [
+          {
+            "m": "لم أجد",
+            "w": "ما حصلتوش"
+          },
+          {
+            "m": "سأعمل وأرد لك مالك ولن أنكر ما أعطيتني",
+            "w": "شاشقي وشندي لك مو شنكرك"
+          }
+        ],
+        "scope": "تعز وعدن والجنوب الأدنى"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-YE-DIALECT-9FAFAB13546B53AB",
+    "lexical_context": null,
+    "notes": "Dialect features and sample lexicon mirrored from secondary pages; a field-attested lexical corpus with study dates remains the upgrade path; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-DIALECT-PAGES-MIRROR",
+    "source_locator": "Dialect group profile: اليافعية",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-10",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "القاف تنطق غينا مثل قال إلى غال",
+          "تاء الفاعل تستبدل بكاف مثل رحك ونمك وأكلك",
+          "نون النسوة يسبقها ياء ساكنة مثل سافرين"
+        ],
+        "group": "اليافعية",
+        "sample_words": [
+          {
+            "m": "لماذا",
+            "w": "لمه"
+          },
+          {
+            "m": "هل ذهبت إلى البلاد",
+            "w": "شي سرك البلاد"
+          },
+          {
+            "m": "تعب وملل",
+            "w": "عثق وضبح"
+          },
+          {
+            "m": "ضرب",
+            "w": "لبج"
+          }
+        ],
+        "scope": "يافع في جبال لحج والضالع"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-YE-DIALECT-E1A49686097750B9",
+    "lexical_context": null,
+    "notes": "Dialect features and sample lexicon mirrored from secondary pages; a field-attested lexical corpus with study dates remains the upgrade path; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-DIALECT-PAGES-MIRROR",
+    "source_locator": "Dialect group profile: الحضرمية",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-04",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "قلب الجيم ياء في بعض مدن الساحل مثل رجال إلى ريال",
+          "جيم معتشة في وادي دوعن",
+          "دمج الضاد والظاء في صوت واحد"
+        ],
+        "group": "الحضرمية",
+        "sample_words": [
+          {
+            "m": "مرحبا",
+            "w": "حيابك"
+          },
+          {
+            "m": "سيكون لك؛ با بدل سوف",
+            "w": "بايقع لك"
+          },
+          {
+            "m": "سطح المنزل",
+            "w": "الريم"
+          },
+          {
+            "m": "ذهب",
+            "w": "دحق"
+          },
+          {
+            "m": "سيارة؛ أثر الهجرة",
+            "w": "موتر"
+          }
+        ],
+        "scope": "حضرموت مع مؤثرات هجرة شرق أفريقيا والهند"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-YE-DISH-0A174E3A8D5A56E4",
+    "lexical_context": null,
+    "notes": "Local culinary knowledge mirrored from weak/secondary pages; unpublished pending stronger sourcing. Shared dishes never receive exclusive national ownership.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-CUISINE-PAGES-MIRROR",
+    "source_locator": "Dish entry: السلتة",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "مرق لحم مع حلبة مخفوقة وسحويق وبهارات، تقدم فائرة في إناء حجري يسمى المدرة أو المفحح وتؤكل بالخبز اليمني",
+        "name": "السلتة",
+        "note": "أصلها المرتفعات وصنعاء خاصة وانتشارها وطني؛ لا تنسب ملكية حصرية لمدينة واحدة",
+        "occasion": "غداء يومي شعبي وخاصة في رمضان"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-YE-DISH-17618A15AEB95382",
+    "lexical_context": null,
+    "notes": "Local culinary knowledge mirrored from weak/secondary pages; unpublished pending stronger sourcing. Shared dishes never receive exclusive national ownership.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-CUISINE-PAGES-MIRROR",
+    "source_locator": "Dish entry: المدفون",
+    "status": "reported",
+    "subject_id": "ENT-YE-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "كالمندي لكن يدفن اللحم أو الدجاج مع الأرز في حفرة ويحاط بالفحم، ويقدم مع الزبادي وصلصة الطماطم الحارة",
+        "name": "المدفون",
+        "note": "منتشر يمنيا",
+        "occasion": "ولائم"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-YE-DISH-1A3C1559AD375CAC",
+    "lexical_context": null,
+    "notes": "Local culinary knowledge mirrored from weak/secondary pages; unpublished pending stronger sourcing. Shared dishes never receive exclusive national ownership.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-CUISINE-PAGES-MIRROR",
+    "source_locator": "Dish entry: بنت الصحن الحضرمية والذمول الحلو وعسل الوديان",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-04",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "حلويات حضرمية مرتبطة بعسل الوديان اليمني الشهير",
+        "name": "بنت الصحن الحضرمية والذمول الحلو وعسل الوديان",
+        "note": "حضرموت الداخلية: وديان زراعية وقوافل تجارية تاريخية",
+        "occasion": "ضيافة"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-YE-DISH-5B96D43A90735FB3",
+    "lexical_context": null,
+    "notes": "Local culinary knowledge mirrored from weak/secondary pages; unpublished pending stronger sourcing. Shared dishes never receive exclusive national ownership.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-CUISINE-PAGES-MIRROR",
+    "source_locator": "Dish entry: الفحسة",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لحم عجل أو شاة يطبخ على حرارة عالية في أوان فخارية مع مرق وثوم وفلفل حار وبهارات ويقدم ساخنا مع خبز التنور",
+        "name": "الفحسة",
+        "note": "صنعانية الأصل",
+        "occasion": "غداء أساسي في صنعاء وحاضرة في المناسبات"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-YE-DISH-5EFA675ABD595EC8",
+    "lexical_context": null,
+    "notes": "Local culinary knowledge mirrored from weak/secondary pages; unpublished pending stronger sourcing. Shared dishes never receive exclusive national ownership.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-CUISINE-PAGES-MIRROR",
+    "source_locator": "Dish entry: الذمول",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-04",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "معجنات محشوة بالتمر أو اللحم",
+        "name": "الذمول",
+        "note": "حضرموت",
+        "occasion": "فطور"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-YE-DISH-7017944E20EA5F81",
+    "lexical_context": null,
+    "notes": "Local culinary knowledge mirrored from weak/secondary pages; unpublished pending stronger sourcing. Shared dishes never receive exclusive national ownership.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-CUISINE-PAGES-MIRROR",
+    "source_locator": "Dish entry: المظبي",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-11",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لحم مشوي على شبك فوق الجمر",
+        "name": "المظبي",
+        "note": "المرتفعات والبدو",
+        "occasion": "وليمة"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-YE-DISH-77001218C3255017",
+    "lexical_context": null,
+    "notes": "Local culinary knowledge mirrored from weak/secondary pages; unpublished pending stronger sourcing. Shared dishes never receive exclusive national ownership.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-CUISINE-PAGES-MIRROR",
+    "source_locator": "Dish entry: اللحوح",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-06",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "خبز إسفنجي خفيف يشبه الإنجيرا الإثيوبية",
+        "name": "اللحوح",
+        "note": "تهامة والجنوب",
+        "occasion": "فطور رمضان"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-YE-DISH-84CB68C301315387",
+    "lexical_context": null,
+    "notes": "Local culinary knowledge mirrored from weak/secondary pages; unpublished pending stronger sourcing. Shared dishes never receive exclusive national ownership.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-CUISINE-PAGES-MIRROR",
+    "source_locator": "Dish entry: المطبق",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-03",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "خبز محشو بتأثير هندي وإندونيسي",
+        "name": "المطبق",
+        "note": "عدن وتهامة؛ أثر ميناء عدن الدولي",
+        "occasion": "فطور"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-YE-DISH-85BFDA57F2AD5CA5",
+    "lexical_context": null,
+    "notes": "Local culinary knowledge mirrored from weak/secondary pages; unpublished pending stronger sourcing. Shared dishes never receive exclusive national ownership.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-CUISINE-PAGES-MIRROR",
+    "source_locator": "Dish entry: العصيدة",
+    "status": "reported",
+    "subject_id": "ENT-YE-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "مزيج دقيق وماء وسمن يعجن كقبة يتوسطها تجويف يملأ بالمرق واللحم ويؤكل بإصبعين من اليد اليمنى",
+        "name": "العصيدة",
+        "note": "المرتفعات والجنوب",
+        "occasion": "رمضان والمناسبات"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-YE-DISH-A50FAA7B401A5063",
+    "lexical_context": null,
+    "notes": "Local culinary knowledge mirrored from weak/secondary pages; unpublished pending stronger sourcing. Shared dishes never receive exclusive national ownership.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-CUISINE-PAGES-MIRROR",
+    "source_locator": "Dish entry: بنت الصحن",
+    "status": "reported",
+    "subject_id": "ENT-YE-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "فطيرة طبقات عجين مدهونة بالزبدة أو السمن تؤكل بالعسل وحبة البركة",
+        "name": "بنت الصحن",
+        "note": "تنسب إلى صنعاء وحضرموت معا؛ نسبة مزدوجة تسجل كما وردت",
+        "occasion": "فطور وحلوى ومناسبات"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-YE-DISH-CC2DE1C94E1C509F",
+    "lexical_context": null,
+    "notes": "Local culinary knowledge mirrored from weak/secondary pages; unpublished pending stronger sourcing. Shared dishes never receive exclusive national ownership.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-CUISINE-PAGES-MIRROR",
+    "source_locator": "Dish entry: الصيادية",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-03",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أرز وسمك بتأثير بحري",
+        "name": "الصيادية",
+        "note": "الساحل: الحديدة وعدن",
+        "occasion": "غداء ساحلي"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-YE-DISH-D558D0133F405E43",
+    "lexical_context": null,
+    "notes": "Local culinary knowledge mirrored from weak/secondary pages; unpublished pending stronger sourcing. Shared dishes never receive exclusive national ownership.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-CUISINE-PAGES-MIRROR",
+    "source_locator": "Dish entry: المندي",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-04",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لحم أو دجاج يطهى مع الأرز في حفرة تنور تحت الأرض على جمر الفحم فيكتسب نكهة مدخنة، ويقدم مع السحويق والسلطة",
+        "name": "المندي",
+        "note": "حضرمي الأصل وانتشر إلى كل اليمن ثم الجزيرة العربية؛ التصنيف مشترك التزاما بعدم الملكية الحصرية",
+        "occasion": "الولائم الكبرى والأعراس"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-YE-DRESS-104FFC604AFA5F11",
+    "lexical_context": null,
+    "notes": "Traditional dress knowledge mirrored from weak/secondary pages; unpublished pending stronger sourcing. Regional variant names attested, never invented.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-DRESS-PAGES-MIRROR",
+    "source_locator": "Dress entry: الجنبية",
+    "status": "reported",
+    "subject_id": "ENT-YE-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "خنجر مقوس يحمل على الخصر في حزام مزخرف (الزنة)؛ نصل فولاذي ومقبض من قرن منقوش مطعم بالفضة وجراب خشبي مكسو؛ رمز هوية ومكانة اجتماعية يتوارث لا سلاح عملي",
+        "gender": "رجالي",
+        "name": "الجنبية",
+        "note": "لكل منطقة طراز: الصنعاني والحضرمي والحاشدي وغيرها"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-YE-DRESS-3534520321215E88",
+    "lexical_context": null,
+    "notes": "Traditional dress knowledge mirrored from weak/secondary pages; unpublished pending stronger sourcing. Regional variant names attested, never invented.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-DRESS-PAGES-MIRROR",
+    "source_locator": "Dress entry: أزياء أرياف تعز المسماة",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-05",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أسماء محلية دقيقة لأزياء ريفية: عرج النخلة في الحجرية، رجل الحمامة في حيفان، المدرجات في أرياف صبر، سلاسل المطر في صبر وشرعب، النخيل في الزعازع",
+        "gender": "نسائي",
+        "name": "أزياء أرياف تعز المسماة",
+        "note": "توثيق نادر لأسماء الأزياء على مستوى المديرية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-YE-DRESS-7BBE925E17C95E61",
+    "lexical_context": null,
+    "notes": "Traditional dress knowledge mirrored from weak/secondary pages; unpublished pending stronger sourcing. Regional variant names attested, never invented.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-DRESS-PAGES-MIRROR",
+    "source_locator": "Dress entry: الثوب الدوعني",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-04",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "ثوب نساء دوعن الداخلية مع حزام حضرمي فضي، يلبس في الأعراس",
+        "gender": "نسائي",
+        "name": "الثوب الدوعني",
+        "note": "حضرموت الداخلية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-YE-DRESS-88BA2DFC4BE454ED",
+    "lexical_context": null,
+    "notes": "Traditional dress knowledge mirrored from weak/secondary pages; unpublished pending stronger sourcing. Regional variant names attested, never invented.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-DRESS-PAGES-MIRROR",
+    "source_locator": "Dress entry: الدرع التهامي",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-06",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "ثوب قماش خفيف تلبسه نساء تهامة والجنوب في البيت؛ يناسب حرارة الساحل ورطوبته",
+        "gender": "نسائي",
+        "name": "الدرع التهامي",
+        "note": "تهامة"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-YE-DRESS-A72929C2C8945652",
+    "lexical_context": null,
+    "notes": "Traditional dress knowledge mirrored from weak/secondary pages; unpublished pending stronger sourcing. Regional variant names attested, never invented.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-DRESS-PAGES-MIRROR",
+    "source_locator": "Dress entry: المعوز",
+    "status": "reported",
+    "subject_id": "ENT-YE-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "قطعة قماش مستطيلة تلف على أسفل الجسم من الخصر إلى منتصف الساق؛ لباس الرجل اليمني الأساسي وخاصة في المناطق الساحلية والجنوبية",
+        "gender": "رجالي",
+        "name": "المعوز",
+        "note": "أنواعه المناطقية: البيضاني واللحجي والحضرمي (أغلاها بخيوطه الذهبية والفضية) والشبواني والتهامي والواسعي"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-YE-DRESS-BDE7BACBBE8E5DA7",
+    "lexical_context": null,
+    "notes": "Traditional dress knowledge mirrored from weak/secondary pages; unpublished pending stronger sourcing. Regional variant names attested, never invented.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-DRESS-PAGES-MIRROR",
+    "source_locator": "Dress entry: الثوب الشحري",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-04",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "ثوب نساء الساحل الحضرمي قصير من الأمام طويل من الخلف من قماش القطيفة المشجر برقبة على شكل العين، يلبس ثاني أيام الزواج مع مروحة من سعف النخل وحزام فضي صغير",
+        "gender": "نسائي",
+        "name": "الثوب الشحري",
+        "note": "الشحر والمكلا وغيل باوزير وبروم ميفع"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-YE-DRESS-CFB4C72526885548",
+    "lexical_context": null,
+    "notes": "Traditional dress knowledge mirrored from weak/secondary pages; unpublished pending stronger sourcing. Regional variant names attested, never invented.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-DRESS-PAGES-MIRROR",
+    "source_locator": "Dress entry: الزنة الصنعانية والعصبة",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "فستان مطرز إلى الركبة بأكمام طويلة مع غطاء رأس مزدان بالحلي الفضية يسمى العصبة أو المصعر، والقرقوش غطاء رأس يميز الطفلة عن المتزوجة",
+        "gender": "نسائي",
+        "name": "الزنة الصنعانية والعصبة",
+        "note": "صنعاء وضواحيها"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-YE-E19CD1553E23558B",
@@ -58756,5 +63159,1089 @@
       "type": "string"
     },
     "verification_status": "verified"
+  },
+  {
+    "classification": "historical",
+    "confidence": "low",
+    "id": "CLM-YE-LANENAME-1D44EDB9395654F8",
+    "lexical_context": null,
+    "notes": "Historical naming narrative presented as narrative, not as established fact; unpublished pending stronger sourcing.",
+    "observed_at": "2026-08-17",
+    "predicate": "name_origin_narrative",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Naming note for lane غرقة القليس",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-E026A28A6AFF",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "تحمل الحارة اسم كنيسة القليس التي بناها أبرهة ثم زالت؛ بقي الاسم معلمًا لغويًا على الموضع",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "historical",
+    "confidence": "low",
+    "id": "CLM-YE-LANENAME-2827BE8754A25DC6",
+    "lexical_context": null,
+    "notes": "Historical naming narrative presented as narrative, not as established fact; unpublished pending stronger sourcing.",
+    "observed_at": "2026-08-17",
+    "predicate": "name_origin_narrative",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Naming note for lane غمدان",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-C6CA8DAE2D18",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "تحمل الحارة اسم قصر غمدان الشهير الزائل منذ ما يزيد على 1400 سنة؛ استمرار الاسم دليل استمرارية عمرانية",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "historical",
+    "confidence": "low",
+    "id": "CLM-YE-LANENAME-B0BD9B3DFF585DD1",
+    "lexical_context": null,
+    "notes": "Historical naming narrative presented as narrative, not as established fact; unpublished pending stronger sourcing.",
+    "observed_at": "2026-08-17",
+    "predicate": "name_origin_narrative",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Naming note for lane ياسر",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-64C1122A5FA2",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "سميت الحارة نسبة إلى حمام ياسر؛ المرفق أعطى اسمه للحارة، ويرجح تزامن الحمام مع مسجد الأبهر وحمامه 1374م",
+      "type": "string"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-0647E6D95C195577",
+    "lexical_context": null,
+    "notes": "2004 census hay-table figure; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Tahrir بير العزب lane table, seq 3: بستان المنصور",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-16408FDBEC40",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 2049,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-0A776F0B290657B5",
+    "lexical_context": null,
+    "notes": "2004 census hay-table figure; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Tahrir التحرير lane table, seq 12: بنك الدم",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-165BF76712BF",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 1221,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-1804DA47FDF55D07",
+    "lexical_context": null,
+    "notes": "2004 census hay-table figure; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Tahrir التحرير lane table, seq 8: الإذاعة الشمالية",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-AE5FC81BC5AA",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 2852,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-19FAFE2AEAD556A8",
+    "lexical_context": null,
+    "notes": "2004 census hay-table figure; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Tahrir بير العزب lane table, seq 2: الصياد",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-D336D4C95FCF",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 3147,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-1E70CC8ADD88524F",
+    "lexical_context": null,
+    "notes": "2004 census hay-table figure; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Tahrir التحرير lane table, seq 10: بير السويدي",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-2B3DE055513E",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 1885,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-39B5373893F75FFE",
+    "lexical_context": null,
+    "notes": "2004 census hay-table figure; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Tahrir التحرير lane table, seq 1: البلقة",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-6C36AFBA441C",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 5263,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-3D9AE96ED83C5472",
+    "lexical_context": null,
+    "notes": "2004 census hay-table figure; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Tahrir بير العزب lane table, seq 5: القاضي",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-9FC91519B497",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 424,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-41F0B9F22E1C558C",
+    "lexical_context": null,
+    "notes": "2004 census hay-table figure; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Tahrir التحرير lane table, seq 13: بئر الشمس",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-C02942555FD3",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 1094,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-42D6A7069C5F5104",
+    "lexical_context": null,
+    "notes": "2004 census figure mirrored in a census-citing page; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Census-2004-citing lane page: الحرقان",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-36E5D92EC112",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 2784,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-4F91ACC583775AAC",
+    "lexical_context": null,
+    "notes": "2004 census hay-table figure; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Tahrir التحرير lane table, seq 7: الكهرباء",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-C08CD392511C",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 2960,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-5ED9EF67E1175C17",
+    "lexical_context": null,
+    "notes": "2004 census figure mirrored in a census-citing page; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Census-2004-citing lane page: طلحة",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-B8BDE33CAC28",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 669,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-7E4C9E1D46F85E47",
+    "lexical_context": null,
+    "notes": "2004 census hay-table figure; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Tahrir التحرير lane table, seq 20: عشة الرعدي",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-134DEFCA2093",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 152,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-7F87F7AB081556DA",
+    "lexical_context": null,
+    "notes": "2004 census figure mirrored in a census-citing page; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Census-2004-citing lane page: الأبهر",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-C1D9BCA791DF",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 995,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-8585C27A45595A91",
+    "lexical_context": null,
+    "notes": "2004 census hay-table figure; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Tahrir بير العزب lane table, seq 8: باب عبيلة",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-5121E51CECAE",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 190,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-89BFE59EBD4B5B46",
+    "lexical_context": null,
+    "notes": "2004 census hay-table figure; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Tahrir التحرير lane table, seq 6: باب الروم",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-E5BCE121D129",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 2992,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-8CF1475782BC5833",
+    "lexical_context": null,
+    "notes": "2004 census hay-table figure; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Tahrir بير العزب lane table, seq 6: بئر خيران",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-0BE4AA7A5349",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 259,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-9757597D10D45732",
+    "lexical_context": null,
+    "notes": "2004 census hay-table figure; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Tahrir التحرير lane table, seq 4: بير أبو شملة",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-C1DEE507ADA1",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 3103,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-99D4BCA4F2465D0A",
+    "lexical_context": null,
+    "notes": "2004 census hay-table figure; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Tahrir التحرير lane table, seq 3: الجامعة القديمة",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-B500010F53DB",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 4731,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-9D4A26AD639A5A06",
+    "lexical_context": null,
+    "notes": "2004 census hay-table figure; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Tahrir التحرير lane table, seq 14: البهمة",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-40492988EE63",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 665,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-A1D0E9B5DFDB5E00",
+    "lexical_context": null,
+    "notes": "2004 census figure mirrored in a census-citing page; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Census-2004-citing lane page: داود",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-F240619DCC6D",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 780,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-A8BD56925EE952F2",
+    "lexical_context": null,
+    "notes": "2004 census hay-table figure; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Tahrir التحرير lane table, seq 2: الكويت",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-8200CD5B9C67",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 5230,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-AADF6859298C50E4",
+    "lexical_context": null,
+    "notes": "2004 census hay-table figure; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Tahrir التحرير lane table, seq 11: الشراعي",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-37563B0670BE",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 1816,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-BEA58CF5850F565F",
+    "lexical_context": null,
+    "notes": "2004 census hay-table figure; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Tahrir التحرير lane table, seq 19: الأسطى",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-6F713DAD95E5",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 169,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-C180BF679DF55E98",
+    "lexical_context": null,
+    "notes": "2004 census hay-table figure; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Tahrir بير العزب lane table, seq 1: البونية",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-AFF6A929142D",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 3287,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-C9C2F86E462456CE",
+    "lexical_context": null,
+    "notes": "2004 census hay-table figure; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Tahrir بير العزب lane table, seq 4: بير البهمة",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-9459B2D3C52F",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 892,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-CAB418613EB35CEC",
+    "lexical_context": null,
+    "notes": "2004 census figure mirrored in a census-citing page; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Census-2004-citing lane page: الزمر",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-56E01258DBCF",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 518,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-CBADC3A3F28454BC",
+    "lexical_context": null,
+    "notes": "2004 census hay-table figure; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Tahrir بير العزب lane table, seq 7: بئر البهمة",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-41923508B2A7",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 258,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-D32F67ECCC0C58E0",
+    "lexical_context": null,
+    "notes": "2004 census hay-table figure; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Tahrir التحرير lane table, seq 18: القيادة",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-8E3EE5B3BBA7",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 209,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-DB58BCA9E9A3547C",
+    "lexical_context": null,
+    "notes": "2004 census hay-table figure; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Tahrir التحرير lane table, seq 17: الإذاعة الجنوبية",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-DF0B26F1B7EB",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 243,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-DF58999600E055B5",
+    "lexical_context": null,
+    "notes": "2004 census hay-table figure; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Tahrir التحرير lane table, seq 16: القاضي",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-16AEECE3ABA1",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 265,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-E6E59085EC9B5769",
+    "lexical_context": null,
+    "notes": "2004 census hay-table figure; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Tahrir التحرير lane table, seq 15: بستان علي",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-5DE7BF9C0236",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 295,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-E6E7C2D5E2155109",
+    "lexical_context": null,
+    "notes": "2004 census hay-table figure; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Tahrir التحرير lane table, seq 5: بئر البهمة",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-7ED0686FEF9A",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 3046,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "medium",
+    "id": "CLM-YE-LANEPOP-ED3466EAE44C581A",
+    "lexical_context": null,
+    "notes": "2004 census hay-table figure; twenty years old, never projected.",
+    "observed_at": "2004-12-16",
+    "predicate": "population",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-LANE-PAGES-MIRROR",
+    "source_locator": "Tahrir التحرير lane table, seq 9: بئر خيران",
+    "status": "reported",
+    "subject_id": "ENT-YE-LANE-F644D5A656DC",
+    "unit": "person",
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 2598,
+      "type": "integer"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-YE-LANG-85CA21640C9650FE",
+    "lexical_context": null,
+    "notes": "Broadly documented living South Semitic language; probable pending an academic atomic source; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-DIALECT-PAGES-MIRROR",
+    "source_locator": "Language note: المهرية",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-14",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لغة سامية جنوبية حية في المهرة وأطراف سقطرى",
+        "language": "المهرية"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-YE-LANG-FC4A22F0753257C5",
+    "lexical_context": null,
+    "notes": "Broadly documented living South Semitic language; probable pending an academic atomic source; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-DIALECT-PAGES-MIRROR",
+    "source_locator": "Language note: السقطرية",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-22",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لغة سامية جنوبية مستقلة في أرخبيل سقطرى غير مفهومة لمتحدثي العربية",
+        "language": "السقطرية"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-YE-MARKET-D5FAAAEB625D596D",
+    "lexical_context": null,
+    "notes": "Market knowledge anchored to places already attested in the district/lane layers; local_reported and unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "market_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-CRAFTS-MARKETS-MIRROR",
+    "source_locator": "Market entry: سوق الملح",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "السوق الأشهر في صنعاء القديمة؛ شبكة أسواق متخصصة داخل المدينة المسورة تشمل أسواق الحطب والكبوس والقشر وميزان الزبيب والبهارات والذهب والحلقة وفيه سمسرة",
+        "name": "سوق الملح",
+        "note": "اسم حارة موثقة ضمن حارات صنعاء القديمة الـ69 في طبقة الحارات"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "historical",
+    "confidence": "low",
+    "id": "CLM-YE-MARKET-DD13A4AD70FC5A8C",
+    "lexical_context": null,
+    "notes": "Market knowledge anchored to places already attested in the district/lane layers; local_reported and unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "market_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-CRAFTS-MARKETS-MIRROR",
+    "source_locator": "Market entry: أسواق المخا التاريخية",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-05",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "ميناء المخا أعطى اسمه لقهوة الموكا عالميًا؛ أسواق البن التاريخية التي صدرت البن اليمني إلى العالم",
+        "name": "أسواق المخا التاريخية",
+        "note": "المخا مديرية موثقة ضمن مديريات تعز في طبقة المديريات"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-YE-MARKET-E2BD77BFE2955CD4",
+    "lexical_context": null,
+    "notes": "Market knowledge anchored to places already attested in the district/lane layers; local_reported and unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "market_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-YE-CRAFTS-MARKETS-MIRROR",
+    "source_locator": "Market entry: أسواق تريم وسيئون",
+    "status": "reported",
+    "subject_id": "ENT-YE-GOVERNORATE-04",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أسواق وادي حضرموت التجارية المرتبطة بطرق القوافل والهجرة الحضرمية",
+        "name": "أسواق تريم وسيئون",
+        "note": "تريم وسيئون مديريتان موثقتان في طبقة المديريات"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
   }
 ]

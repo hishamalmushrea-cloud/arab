@@ -1,0 +1,632 @@
+{
+ "amanat_2004_frame": {
+  "district_lane_counts": [
+   {
+    "district": "صنعاء القديمة",
+    "lanes": 69,
+    "neighborhoods": 1,
+    "population_2004": 63398
+   },
+   {
+    "district": "شعوب",
+    "lanes": 101,
+    "neighborhoods": 12,
+    "population_2004": 213939
+   },
+   {
+    "district": "أزال",
+    "lanes": 34,
+    "neighborhoods": 6,
+    "population_2004": 115054
+   },
+   {
+    "district": "الصافية",
+    "lanes": 20,
+    "neighborhoods": 1,
+    "population_2004": 109109
+   },
+   {
+    "district": "السبعين",
+    "lanes": 78,
+    "neighborhoods": 15,
+    "population_2004": 311203
+   },
+   {
+    "district": "الوحدة",
+    "lanes": 34,
+    "neighborhoods": 9,
+    "population_2004": 99596
+   },
+   {
+    "district": "التحرير",
+    "lanes": 36,
+    "neighborhoods": 3,
+    "population_2004": 66898
+   },
+   {
+    "district": "معين",
+    "lanes": 97,
+    "neighborhoods": 3,
+    "population_2004": 265469
+   },
+   {
+    "district": "الثورة",
+    "lanes": 48,
+    "neighborhoods": 8,
+    "population_2004": 170145
+   },
+   {
+    "district": "بني الحارث",
+    "lanes": 153,
+    "neighborhoods": 8,
+    "population_2004": 184509
+   }
+  ],
+  "districts": 10,
+  "lanes_total_with_suburbs": 791,
+  "neighborhoods": 89,
+  "suburb_lanes": {
+   "ضواحي سنحان وبني بهلول": 78,
+   "ضواحي همدان": 43
+  }
+ },
+ "captured_at": "2026-08-17",
+ "country_code": "YE",
+ "naming_origins": [
+  {
+   "kind": "historical",
+   "lane": "ياسر",
+   "origin_text": "سميت الحارة نسبة إلى حمام ياسر؛ المرفق أعطى اسمه للحارة، ويرجح تزامن الحمام مع مسجد الأبهر وحمامه 1374م"
+  },
+  {
+   "kind": "historical",
+   "lane": "غمدان",
+   "origin_text": "تحمل الحارة اسم قصر غمدان الشهير الزائل منذ ما يزيد على 1400 سنة؛ استمرار الاسم دليل استمرارية عمرانية"
+  },
+  {
+   "kind": "historical",
+   "lane": "غرقة القليس",
+   "origin_text": "تحمل الحارة اسم كنيسة القليس التي بناها أبرهة ثم زالت؛ بقي الاسم معلمًا لغويًا على الموضع"
+  }
+ ],
+ "note": "Attested lane inventory for two Amanat districts (Old Sanaa 69, Tahrir 35). Identities are probable (Old Sanaa, Tahrir censused hays) or unverified (Qa' names-only). Populations are 2004 census figures mirrored in tier-C pages; never projected.",
+ "old_sanaa": {
+  "census_2004_populations": {
+   "الأبهر": 995,
+   "الحرقان": 2784,
+   "الزمر": 518,
+   "داود": 780,
+   "طلحة": 669
+  },
+  "district": "صنعاء القديمة",
+  "lanes": [
+   {
+    "name": "الأبزر",
+    "seq": 1
+   },
+   {
+    "name": "الأبهر",
+    "seq": 2
+   },
+   {
+    "name": "الباشا",
+    "seq": 3
+   },
+   {
+    "name": "البكيرية",
+    "seq": 4
+   },
+   {
+    "name": "الجامع الكبير",
+    "seq": 5
+   },
+   {
+    "name": "الجديد",
+    "seq": 6
+   },
+   {
+    "name": "الجلاء",
+    "seq": 7
+   },
+   {
+    "name": "الجوافة",
+    "seq": 8
+   },
+   {
+    "name": "الحرقان",
+    "seq": 9
+   },
+   {
+    "name": "الحسوسة",
+    "seq": 10
+   },
+   {
+    "name": "الحميدي",
+    "seq": 11
+   },
+   {
+    "name": "الخارجية",
+    "seq": 12
+   },
+   {
+    "name": "الخراز",
+    "seq": 13
+   },
+   {
+    "name": "الدفعي",
+    "seq": 14
+   },
+   {
+    "name": "الزمر",
+    "seq": 15
+   },
+   {
+    "name": "السائلة",
+    "seq": 16
+   },
+   {
+    "name": "الشراعي",
+    "seq": 17
+   },
+   {
+    "name": "الشهيدين",
+    "seq": 18
+   },
+   {
+    "name": "الطبري",
+    "seq": 19
+   },
+   {
+    "name": "الطواشي",
+    "seq": 20
+   },
+   {
+    "name": "العلمي",
+    "seq": 21
+   },
+   {
+    "name": "الفليحي",
+    "seq": 22
+   },
+   {
+    "name": "القبة",
+    "seq": 23
+   },
+   {
+    "name": "القزالي",
+    "seq": 24
+   },
+   {
+    "name": "الكدس",
+    "seq": 25
+   },
+   {
+    "name": "المدرسة",
+    "seq": 26
+   },
+   {
+    "name": "المذهب",
+    "seq": 27
+   },
+   {
+    "name": "المصباغة",
+    "seq": 28
+   },
+   {
+    "name": "المطيط",
+    "seq": 29
+   },
+   {
+    "name": "المفتون",
+    "seq": 30
+   },
+   {
+    "name": "المنصورة",
+    "seq": 31
+   },
+   {
+    "name": "الميدان",
+    "seq": 32
+   },
+   {
+    "name": "النظارة – الجديد",
+    "seq": 33
+   },
+   {
+    "name": "النهرين",
+    "seq": 34
+   },
+   {
+    "name": "الوشلي",
+    "seq": 35
+   },
+   {
+    "name": "باب السباح",
+    "seq": 36
+   },
+   {
+    "name": "باب السلام",
+    "seq": 37
+   },
+   {
+    "name": "باب اليمن",
+    "seq": 38
+   },
+   {
+    "name": "بحر رجرج",
+    "seq": 39
+   },
+   {
+    "name": "بروم",
+    "seq": 40
+   },
+   {
+    "name": "بستان السلطان",
+    "seq": 41
+   },
+   {
+    "name": "بستان شارب",
+    "seq": 42
+   },
+   {
+    "name": "خضير",
+    "seq": 43
+   },
+   {
+    "name": "خضير صرحة الوادي",
+    "seq": 44
+   },
+   {
+    "name": "داود",
+    "seq": 45
+   },
+   {
+    "name": "سبأ",
+    "seq": 46
+   },
+   {
+    "name": "سكرة",
+    "seq": 47
+   },
+   {
+    "name": "سوق البقر",
+    "seq": 48
+   },
+   {
+    "name": "محمود (سوق البقر)",
+    "seq": 49
+   },
+   {
+    "name": "سوق المخلاص",
+    "seq": 50
+   },
+   {
+    "name": "سوق الملح",
+    "seq": 51
+   },
+   {
+    "name": "سوق سيلان",
+    "seq": 52
+   },
+   {
+    "name": "سمرة",
+    "seq": 53
+   },
+   {
+    "name": "شعوب",
+    "seq": 54
+   },
+   {
+    "name": "شكر",
+    "seq": 55
+   },
+   {
+    "name": "صلاح الدين",
+    "seq": 56
+   },
+   {
+    "name": "طلحة",
+    "seq": 57
+   },
+   {
+    "name": "عقيل",
+    "seq": 58
+   },
+   {
+    "name": "غرقة القليس",
+    "seq": 59
+   },
+   {
+    "name": "غمدان",
+    "seq": 60
+   },
+   {
+    "name": "قبة المهدي",
+    "seq": 61
+   },
+   {
+    "name": "كباس",
+    "seq": 62
+   },
+   {
+    "name": "محمود",
+    "seq": 63
+   },
+   {
+    "name": "معاذ",
+    "seq": 64
+   },
+   {
+    "name": "معمر",
+    "seq": 65
+   },
+   {
+    "name": "موسى",
+    "seq": 66
+   },
+   {
+    "name": "نصير",
+    "seq": 67
+   },
+   {
+    "name": "نعمان",
+    "seq": 68
+   },
+   {
+    "name": "ياسر",
+    "seq": 69
+   }
+  ],
+  "origin": "NIC/heritage-cited 69-lane inventory mirrored in encyclopedic pages; five lane populations from census-2004-citing pages"
+ },
+ "schema_version": "2.0.0",
+ "sources": {
+  "lane_pages_mirror": "https://ar.wikipedia.org/wiki/%D8%B5%D9%86%D8%B9%D8%A7%D8%A1_%D8%A7%D9%84%D9%82%D8%AF%D9%8A%D9%85%D8%A9",
+  "nic_amanat_census_2004": "http://www.yemen-nic.info/gover/sanaacity/brife/"
+ },
+ "tahrir": {
+  "district": "التحرير",
+  "hays": [
+   {
+    "lanes": [
+     {
+      "homes": 930,
+      "households": 884,
+      "name": "البلقة",
+      "population_2004": 5263,
+      "seq": 1
+     },
+     {
+      "homes": 845,
+      "households": 826,
+      "name": "الكويت",
+      "population_2004": 5230,
+      "seq": 2
+     },
+     {
+      "homes": 862,
+      "households": 839,
+      "name": "الجامعة القديمة",
+      "population_2004": 4731,
+      "seq": 3
+     },
+     {
+      "homes": 546,
+      "households": 525,
+      "name": "بير أبو شملة",
+      "population_2004": 3103,
+      "seq": 4
+     },
+     {
+      "homes": 529,
+      "households": 515,
+      "name": "بئر البهمة",
+      "population_2004": 3046,
+      "seq": 5
+     },
+     {
+      "homes": 502,
+      "households": 484,
+      "name": "باب الروم",
+      "population_2004": 2992,
+      "seq": 6
+     },
+     {
+      "homes": 473,
+      "households": 459,
+      "name": "الكهرباء",
+      "population_2004": 2960,
+      "seq": 7
+     },
+     {
+      "homes": 480,
+      "households": 482,
+      "name": "الإذاعة الشمالية",
+      "population_2004": 2852,
+      "seq": 8
+     },
+     {
+      "homes": 406,
+      "households": 395,
+      "name": "بئر خيران",
+      "population_2004": 2598,
+      "seq": 9
+     },
+     {
+      "homes": 288,
+      "households": 299,
+      "name": "بير السويدي",
+      "population_2004": 1885,
+      "seq": 10
+     },
+     {
+      "homes": 333,
+      "households": 323,
+      "name": "الشراعي",
+      "population_2004": 1816,
+      "seq": 11
+     },
+     {
+      "homes": 204,
+      "households": 191,
+      "name": "بنك الدم",
+      "population_2004": 1221,
+      "seq": 12
+     },
+     {
+      "homes": 191,
+      "households": 191,
+      "name": "بئر الشمس",
+      "population_2004": 1094,
+      "seq": 13
+     },
+     {
+      "homes": 162,
+      "households": 156,
+      "name": "البهمة",
+      "population_2004": 665,
+      "seq": 14
+     },
+     {
+      "homes": 53,
+      "households": 49,
+      "name": "بستان علي",
+      "population_2004": 295,
+      "seq": 15
+     },
+     {
+      "homes": 45,
+      "households": 42,
+      "name": "القاضي",
+      "population_2004": 265,
+      "seq": 16
+     },
+     {
+      "homes": 28,
+      "households": 28,
+      "name": "الإذاعة الجنوبية",
+      "population_2004": 243,
+      "seq": 17
+     },
+     {
+      "homes": 38,
+      "households": 39,
+      "name": "القيادة",
+      "population_2004": 209,
+      "seq": 18
+     },
+     {
+      "homes": 29,
+      "households": 29,
+      "name": "الأسطى",
+      "population_2004": 169,
+      "seq": 19
+     },
+     {
+      "homes": 28,
+      "households": 28,
+      "name": "عشة الرعدي",
+      "population_2004": 152,
+      "seq": 20
+     }
+    ],
+    "name": "التحرير"
+   },
+   {
+    "lanes": [
+     {
+      "homes": 573,
+      "households": 570,
+      "name": "البونية",
+      "population_2004": 3287,
+      "seq": 1
+     },
+     {
+      "homes": 576,
+      "households": 547,
+      "name": "الصياد",
+      "population_2004": 3147,
+      "seq": 2
+     },
+     {
+      "homes": 341,
+      "households": 338,
+      "name": "بستان المنصور",
+      "population_2004": 2049,
+      "seq": 3
+     },
+     {
+      "homes": 157,
+      "households": 151,
+      "name": "بير البهمة",
+      "population_2004": 892,
+      "seq": 4
+     },
+     {
+      "homes": 82,
+      "households": 73,
+      "name": "القاضي",
+      "population_2004": 424,
+      "seq": 5
+     },
+     {
+      "homes": 62,
+      "households": 58,
+      "name": "بئر خيران",
+      "population_2004": 259,
+      "seq": 6
+     },
+     {
+      "homes": 56,
+      "households": 51,
+      "name": "بئر البهمة",
+      "population_2004": 258,
+      "seq": 7
+     },
+     {
+      "homes": 33,
+      "households": 33,
+      "name": "باب عبيلة",
+      "population_2004": 190,
+      "seq": 8
+     }
+    ],
+    "name": "بير العزب"
+   },
+   {
+    "lanes": [
+     {
+      "name": "القاع",
+      "seq": 1
+     },
+     {
+      "name": "باب القاع",
+      "seq": 2
+     },
+     {
+      "name": "قاع العلفي",
+      "seq": 3
+     },
+     {
+      "name": "قاع العلفي-حمادي",
+      "seq": 4
+     },
+     {
+      "name": "المترب",
+      "seq": 5
+     },
+     {
+      "name": "الرجامي",
+      "seq": 6
+     },
+     {
+      "name": "السلال",
+      "seq": 7
+     }
+    ],
+    "name": "القاع",
+    "origin": "names only, extracted from an encyclopedic lane category by subtraction; no census table found"
+   }
+  ]
+ }
+}

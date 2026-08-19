@@ -604,6 +604,26 @@
   },
   {
     "archive_url": null,
+    "checksum": "sha256:9167ad3c0ba9ad4c73320708c6bb2c9d88e7b0a1bf05ab62b7cabf8d55efb0e7",
+    "country_codes": [
+      "DZ"
+    ],
+    "id": "SRC-DZ-CULTURE-MIRROR-2026",
+    "language": "ar",
+    "license": "Official Algeria legal/statistical material; factual extraction with attribution; reuse terms not stated",
+    "locator": "Darija profile, Amazigh variety scopes, dish and dress entries",
+    "notes": "Depth-cycle weak/secondary mirror. Cultural claims stay local_reported/probable and unpublished; couscous and bourek carry shared classification, never exclusive ownership. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Encyclopedic mirror pages on Algerian culture",
+    "quality_tier": "E",
+    "retrieved_at": "2026-08-16",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Algerian Darija, Amazigh varieties, cuisine, and dress — encyclopedic mirror pages",
+    "url": "https://ar.wikipedia.org/wiki/%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9_%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1%D9%8A%D8%A9"
+  },
+  {
+    "archive_url": null,
     "checksum": "sha256:304af6095f2b8d87eadc7670c1dd5fb211550ceb344dc265bcd35c7da715a3a0",
     "country_codes": [
       "DZ"
@@ -701,6 +721,26 @@
     "source_type": "official_dataset",
     "title": "CAPMAS governorate code values",
     "url": "https://censusinfo.capmas.gov.eg/metadata-en-v4.2/index.php/catalog/747/datafile/F34/V5875"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:c8fc9df0e559ccf5894b921df35a9d23937250ed42a49f370c453c522996e9cb",
+    "country_codes": [
+      "EG"
+    ],
+    "id": "SRC-EG-MARKAZ-LISTS-MIRROR-2026",
+    "language": "ar",
+    "license": "Official Egypt statistical/government material; factual extraction with attribution; reuse terms not stated",
+    "locator": "Per-governorate markaz tables: Daqahliya 18, Sharqia 13, Beheira 15, Minya 9",
+    "notes": "Depth-cycle mirror; markaz identities carry probable status pending an atomic official coded register; Daqahliya count dispute (18/17/15) and village-count dispute (499/336) recorded, never averaged. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Encyclopedic mirror pages citing official 2024 governorate tables",
+    "quality_tier": "C",
+    "retrieved_at": "2026-08-16",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Markaz lists of four documented governorates — encyclopedic mirror of 2024 official rows",
+    "url": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D9%85%D8%B1%D8%A7%D9%83%D8%B2_%D9%85%D8%B5%D8%B1"
   },
   {
     "archive_url": null,
@@ -823,6 +863,26 @@
     "source_type": "law",
     "title": "Law 7/2025 establishing Halabja Governorate",
     "url": "https://www.moj.gov.iq/view.9222/"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:c11b1af9e21ca2d694d0b3da2b614b70ab1d363935e9c46a89d63fbfa9eb8f78",
+    "country_codes": [
+      "IQ"
+    ],
+    "id": "SRC-IQ-QADA-LISTS-MIRROR-2026",
+    "language": "ar",
+    "license": "Official Iraq federal/regional statistical/legal material; factual extraction with attribution; reuse terms not stated",
+    "locator": "Per-governorate qada tables: Baghdad 14, Nineveh 10, Basra 7 with arithmetically consistent hadar/rif census rows",
+    "notes": "Depth-cycle mirror. Qada identities carry probable status (list-dispute entries unverified); the contested national frame (121 vs 130+) is recorded, never averaged; disputed-territories notes never become control inference. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Encyclopedic mirror pages citing official census/administrative rows",
+    "quality_tier": "C",
+    "retrieved_at": "2026-08-17",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Qada inventories of Baghdad, Nineveh, and Basra — encyclopedic mirror with census table",
+    "url": "https://ar.wikipedia.org/wiki/%D8%A3%D9%82%D8%B6%D9%8A%D8%A9_%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82"
   },
   {
     "archive_url": null,
@@ -1243,6 +1303,26 @@
   },
   {
     "archive_url": null,
+    "checksum": "sha256:79a0a04770cb923f16ac8ed6c182398b0bc706b921161dee796b402bb6a77b63",
+    "country_codes": [
+      "MA"
+    ],
+    "id": "SRC-MA-CULTURE-MIRROR-2026",
+    "language": "ar",
+    "license": "Official Morocco public material; factual extraction with attribution; reuse terms not stated",
+    "locator": "Darija profile, Amazigh variety scopes, dish and dress entries",
+    "notes": "Depth-cycle weak/secondary mirror. Cultural claims stay local_reported/probable and unpublished; couscous carries shared classification via the quadripartite UNESCO 2020 file, never exclusive ownership. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Encyclopedic mirror pages on Moroccan culture",
+    "quality_tier": "E",
+    "retrieved_at": "2026-08-16",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Moroccan Darija, Amazigh varieties, cuisine, and dress — encyclopedic mirror pages",
+    "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AF%D8%A7%D8%B1%D8%AC%D8%A9_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9"
+  },
+  {
+    "archive_url": null,
     "checksum": "sha256:1c8b1d5b96f248860f5e644197f09f387555564dc559e35f368d984f6794fd03",
     "country_codes": [
       "MA"
@@ -1363,6 +1443,26 @@
   },
   {
     "archive_url": null,
+    "checksum": "sha256:85f0c4d5c07d2e4d80ebe34c56fcd200369f580a07d7c498458d06fd9f570309",
+    "country_codes": [
+      "OM"
+    ],
+    "id": "SRC-OM-CULTURE-MIRROR-2026",
+    "language": "ar",
+    "license": "Official Oman legal/statistical material; factual extraction with attribution; reuse terms not stated",
+    "locator": "Regional dialect profiles, six non-Arabic language notes, dish and dress entries",
+    "notes": "Depth-cycle weak/secondary mirror. Cultural claims stay probable/local_reported and unpublished; Gulf-shared dishes (القبولي والهريس والثريد والمضروبة) carry shared classification, never exclusive ownership. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Encyclopedic mirror pages on Omani culture",
+    "quality_tier": "E",
+    "retrieved_at": "2026-08-16",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Omani dialects, languages, cuisine, and dress — encyclopedic mirror pages",
+    "url": "https://ar.wikipedia.org/wiki/%D9%84%D9%87%D8%AC%D8%A9_%D8%B9%D9%85%D8%A7%D9%86%D9%8A%D8%A9"
+  },
+  {
+    "archive_url": null,
     "checksum": "sha256:6e1cf0acf6a62f4d58c6d303d8eaf15228fb3211273a20d00e9297ddbbc4d45e",
     "country_codes": [
       "OM"
@@ -1423,6 +1523,26 @@
   },
   {
     "archive_url": null,
+    "checksum": "sha256:db4dfd544fcaa8a4ef53f3de7d00ca9bc99aa0d59cbdab784119e5610cbedcb7",
+    "country_codes": [
+      "PS"
+    ],
+    "id": "SRC-PS-DEPOPULATED-ARCHIVE-2026",
+    "language": "ar",
+    "license": "Official Palestine statistical/government material; factual extraction with attribution; reuse terms not stated",
+    "locator": "Per-qada site tables: Safad 95, Acre 73, Tiberias 31, Haifa 92, Jenin 100, Ramla 70, Jerusalem 30, Beersheba 93",
+    "notes": "Widely used documentary archive counting every inhabited locality (village, khirba, Bedouin camp, farm). Site identities carry probable status; per-site condition is never inferred; same-name sites in different qadas stay distinct. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Palestine Remembered documentary archive via project qada compilations",
+    "quality_tier": "C",
+    "retrieved_at": "2026-08-17",
+    "schema_version": "2.0.0",
+    "source_type": "archive",
+    "title": "Depopulated 1948 localities — documentary archive compilation, eight qada files",
+    "url": "https://www.palestineremembered.com/"
+  },
+  {
+    "archive_url": null,
     "checksum": "sha256:b330d9d56d11fc8f426a4f46cc8ca5d17e50cdb62d9dfa3543d2a56bb8d85cf3",
     "country_codes": [
       "PS"
@@ -1460,6 +1580,26 @@
     "source_type": "census",
     "title": "PCBS 16-governorate statistical geography",
     "url": "https://www.pcbs.gov.ps/Downloads/book2522.pdf"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:db4dfd544fcaa8a4ef53f3de7d00ca9bc99aa0d59cbdab784119e5610cbedcb7",
+    "country_codes": [
+      "PS"
+    ],
+    "id": "SRC-PS-WAFA-PLO-DESTROYED-2026",
+    "language": "ar",
+    "license": "Official Palestine statistical/government material; factual extraction with attribution; reuse terms not stated",
+    "locator": "531 fully destroyed localities; 805,067 refugees in 1948; qada distribution table totalling 377",
+    "notes": "Official-institutional national frame. Count disputes (531/530/~520/775-seized) are recorded verbatim and never averaged; the administrative-village vs inhabited-locality definition difference is preserved. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "WAFA news agency / PLO Department of Refugee Affairs",
+    "quality_tier": "B",
+    "retrieved_at": "2026-08-17",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Destroyed villages 1948 — WAFA/PLO refugee department frame",
+    "url": "https://info.wafa.ps/"
   },
   {
     "archive_url": null,
@@ -1566,6 +1706,50 @@
     "source_type": "project_audit",
     "title": "Saudi bounded cultural-content extraction fixture, 2026-08-15",
     "url": "https://github.com/hishamalmushrea-cloud/arab/blob/arena/01a00307-arab/data/imports/saudi/cultural_content_2026.json"
+  },
+  {
+    "archive_url": null,
+    "author": null,
+    "checksum": "sha256:c692fdb9487f40034a3721772b6104235e05bce2a263ccfdabe123b53d4099b0",
+    "country_codes": [
+      "SA"
+    ],
+    "id": "SRC-SA-DIALECT-MIRROR-2026",
+    "language": "ar",
+    "license": "Source copyright; factual extraction with attribution",
+    "locator": "dialect group sections and lexicon lists",
+    "notes": "Depth-cycle weak/secondary mirror for dialect features and lexicon. Claims stay local_reported and unpublished; the 60-dialect researcher estimate is a bounded note, never a denominator. Publication date unavailable on the captured record.",
+    "organization": "Encyclopedic mirror pages on Saudi dialect groups",
+    "publication_date": null,
+    "publisher": "Encyclopedic mirror pages on Saudi dialect groups",
+    "quality_tier": "E",
+    "retrieved_at": "2026-08-15",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Saudi dialect groups and lexicon — encyclopedic mirror pages",
+    "url": "https://ar.wikipedia.org/wiki/%D9%84%D9%87%D8%AC%D8%A9_%D9%86%D8%AC%D8%AF%D9%8A%D8%A9"
+  },
+  {
+    "archive_url": null,
+    "author": null,
+    "checksum": "sha256:c692fdb9487f40034a3721772b6104235e05bce2a263ccfdabe123b53d4099b0",
+    "country_codes": [
+      "SA"
+    ],
+    "id": "SRC-SA-DRESS-CULTURE-MIRROR-2026",
+    "language": "ar",
+    "license": "Source copyright; factual extraction with attribution",
+    "locator": "dress and folk-culture sections",
+    "notes": "Depth-cycle weak/secondary mirror for dress, performing arts, and markets. Claims stay local_reported and unpublished with explicit classification. Publication date unavailable on the captured record.",
+    "organization": "Encyclopedic mirror pages on Saudi dress and folk culture",
+    "publication_date": null,
+    "publisher": "Encyclopedic mirror pages on Saudi dress and folk culture",
+    "quality_tier": "E",
+    "retrieved_at": "2026-08-15",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Saudi traditional dress, performing arts, and historical markets — mirror pages",
+    "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B9%D8%B1%D8%B6%D8%A9_%D8%A7%D9%84%D9%86%D8%AC%D8%AF%D9%8A%D8%A9"
   },
   {
     "archive_url": null,
@@ -3117,6 +3301,46 @@
     "country_codes": [
       "YE"
     ],
+    "id": "SRC-YE-CENSUS-2004-LEGACY-FRAME",
+    "language": "ar",
+    "license": "Factual extraction with attribution; publisher reuse terms not stated",
+    "locator": "Archived capture, 30 September 2018, of the CSO administrative divisions page",
+    "notes": "Archived official page anchoring the 333-district national frame and the census-2004 district universe.",
+    "publication_date": "2018-09-30",
+    "publisher": "Central Statistical Organization Yemen via Internet Archive",
+    "quality_tier": "B",
+    "retrieved_at": "2026-08-17",
+    "schema_version": "2.0.0",
+    "source_type": "archive",
+    "title": "Census 2004 administrative frame — archived CSO administrative definitions",
+    "url": "https://web.archive.org/web/20180930200530/http://www.cso-yemen.org/content.php?lng=arabic&id=277"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e",
+    "country_codes": [
+      "YE"
+    ],
+    "id": "SRC-YE-CRAFTS-MARKETS-MIRROR",
+    "language": "ar",
+    "license": "Factual extraction with attribution; publisher reuse terms not stated",
+    "locator": "Craft domains (silver, weaving, pottery, agate) and market inventories",
+    "notes": "Craft and market knowledge mirrored from secondary pages; local_reported, unpublished; market claims anchor to places already attested in the district/lane layers. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Encyclopedic mirror pages on Sanaa old-city markets and Yemeni crafts",
+    "quality_tier": "E",
+    "retrieved_at": "2026-08-17",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Yemeni crafts and historical markets — encyclopedic mirror pages",
+    "url": "https://ar.wikipedia.org/wiki/%D8%B5%D9%86%D8%B9%D8%A7%D8%A1_%D8%A7%D9%84%D9%82%D8%AF%D9%8A%D9%85%D8%A9"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e",
+    "country_codes": [
+      "YE"
+    ],
     "id": "SRC-YE-CSO-ADMIN-DEFINITION-LEGACY",
     "language": "ar",
     "license": "Factual extraction with attribution; publisher reuse terms not stated",
@@ -3137,6 +3361,86 @@
     "country_codes": [
       "YE"
     ],
+    "id": "SRC-YE-CUISINE-PAGES-MIRROR",
+    "language": "ar",
+    "license": "Factual extraction with attribution; publisher reuse terms not stated",
+    "locator": "Dish descriptions, origins, occasions, and preparation notes",
+    "notes": "Dish knowledge mirrored from weak/secondary pages; claims carry local_reported status and are unpublished pending stronger sourcing. Shared dishes are classified shared, never exclusively national. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Encyclopedic mirror pages and Arabic press features on Yemeni cuisine",
+    "quality_tier": "E",
+    "retrieved_at": "2026-08-17",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Yemeni cuisine — encyclopedic and press mirror pages",
+    "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B7%D8%A8%D8%AE_%D9%8A%D9%85%D9%86%D9%8A"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e",
+    "country_codes": [
+      "YE"
+    ],
+    "id": "SRC-YE-DIALECT-PAGES-MIRROR",
+    "language": "ar",
+    "license": "Factual extraction with attribution; publisher reuse terms not stated",
+    "locator": "Dialect group features, sample lexicon with glosses, and language notes",
+    "notes": "Dialect profiles and lexical samples mirrored from secondary pages; profiles carry local_reported status and are unpublished; the two non-Arabic languages are broadly documented and carry probable status. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Encyclopedic mirror pages on Yemeni dialect groups and lexicon",
+    "quality_tier": "E",
+    "retrieved_at": "2026-08-17",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Yemeni dialect groups — encyclopedic mirror pages",
+    "url": "https://ar.wikipedia.org/wiki/%D9%84%D9%87%D8%AC%D8%A9_%D9%8A%D9%85%D9%86%D9%8A%D8%A9"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e",
+    "country_codes": [
+      "YE"
+    ],
+    "id": "SRC-YE-DRESS-PAGES-MIRROR",
+    "language": "ar",
+    "license": "Factual extraction with attribution; publisher reuse terms not stated",
+    "locator": "Garment names, regional variants, wearing occasions, and gender attribution",
+    "notes": "Dress knowledge mirrored from weak/secondary pages; claims carry local_reported status, explicit classification, and remain unpublished. Regional variant names are attested, never invented. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Embassy/press/encyclopedic mirror pages on Yemeni traditional dress",
+    "quality_tier": "E",
+    "retrieved_at": "2026-08-17",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Yemeni traditional dress — embassy, press, and encyclopedic mirror pages",
+    "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B2%D9%8A_%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e",
+    "country_codes": [
+      "YE"
+    ],
+    "id": "SRC-YE-LANE-PAGES-MIRROR",
+    "language": "ar",
+    "license": "Factual extraction with attribution; publisher reuse terms not stated",
+    "locator": "Old Sanaa 69-lane inventory; Tahrir hay tables with homes/households/population 2004",
+    "notes": "Lane identities and 2004 figures mirrored from census-citing pages; identities carry probable status, Qa names-only entries carry unverified status. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Encyclopedic mirror pages citing census 2004 and heritage documentation",
+    "quality_tier": "C",
+    "retrieved_at": "2026-08-17",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Old Sanaa and Tahrir lane inventories — encyclopedic mirror pages",
+    "url": "https://ar.wikipedia.org/wiki/%D8%B5%D9%86%D8%B9%D8%A7%D8%A1_%D8%A7%D9%84%D9%82%D8%AF%D9%8A%D9%85%D8%A9"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e",
+    "country_codes": [
+      "YE"
+    ],
     "id": "SRC-YE-LAW-31-SOCOTRA-REPORT-2013",
     "language": "ar",
     "license": "Factual extraction with attribution; publisher reuse terms not stated",
@@ -3150,6 +3454,46 @@
     "source_type": "institutional_page",
     "title": "Report of Law 31/2013 establishing Socotra Archipelago Governorate",
     "url": "https://yafa-news.net/archives/82470"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e",
+    "country_codes": [
+      "YE"
+    ],
+    "id": "SRC-YE-NIC-AMANAT-CENSUS-2004",
+    "language": "ar",
+    "license": "Factual extraction with attribution; publisher reuse terms not stated",
+    "locator": "Amanat classification page: 10 districts, 89 neighborhoods, 791 lanes; census 2004 district table",
+    "notes": "Official NIC frame anchoring the Amanat lane universe of 791 and district populations. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "National Information Center Yemen",
+    "quality_tier": "A",
+    "retrieved_at": "2026-08-17",
+    "schema_version": "2.0.0",
+    "source_type": "official_register",
+    "title": "Amanat Al Asimah administrative classification and census 2004 frame",
+    "url": "http://www.yemen-nic.info/gover/sanaacity/brife/"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e",
+    "country_codes": [
+      "YE"
+    ],
+    "id": "SRC-YE-NIC-DISTRICT-CATALOGUE-MIRROR",
+    "language": "ar",
+    "license": "Factual extraction with attribution; publisher reuse terms not stated",
+    "locator": "Per-governorate district lists; national total 333 cited to the CSO administrative-definitions page",
+    "notes": "Encyclopedic mirror used because the NIC origin is not directly retrievable; district identities from this source carry probable status pending an atomic official coded register. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Marefa encyclopedic mirror citing the National Information Center",
+    "quality_tier": "C",
+    "retrieved_at": "2026-08-17",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "District catalogue of the Republic of Yemen — encyclopedic mirror of the NIC frame",
+    "url": "https://www.marefa.org/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D9%85%D8%AF%D9%8A%D8%B1%D9%8A%D8%A7%D8%AA_%D8%A7%D9%84%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9_%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A%D8%A9"
   },
   {
     "archive_url": null,

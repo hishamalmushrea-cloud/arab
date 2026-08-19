@@ -10,8 +10,8 @@
     },
     "claims": {
       "failed": 0,
-      "passed": 11,
-      "sampled": 11,
+      "passed": 32,
+      "sampled": 32,
       "status": "PASS"
     },
     "coverage": {
@@ -40,8 +40,8 @@
     },
     "sources": {
       "failed": 0,
-      "passed": 3,
-      "sampled": 3,
+      "passed": 4,
+      "sampled": 4,
       "status": "PASS"
     }
   },
@@ -50,6 +50,6 @@
   "p0": 0,
   "schema_version": "2.0.0",
   "status": "PASS",
-  "total_passed": 243,
-  "total_sampled": 243
+  "total_passed": 265,
+  "total_sampled": 265
 }

@@ -4,12 +4,12 @@
   "errors": [],
   "metrics": {
     "aliases": 16,
-    "claims": 24,
+    "claims": 31,
     "coverage": 5,
     "denominators": 5,
-    "entities": 23,
-    "relationships": 22,
-    "sources": 4
+    "entities": 615,
+    "relationships": 614,
+    "sources": 6
   },
   "p0": 0,
   "schema_version": "2.0.0",

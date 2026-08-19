@@ -1,10 +1,18 @@
 {
   "country_code": "EG",
+  "reconciliation": {
+    "markaz_frame": "55 attested marakiz across four documented mixed governorates (Daqahliya 18 with a recorded count dispute, Sharqia 13, Beheira 15, Minya 9) at probable status; national markaz universe stays denominator-open."
+  },
   "records": [
     {
       "bytes": 4183,
       "path": "data/imports/egypt/fixtures/governorate_profiles.json",
       "sha256": "39b787bda1116b6837da5a65be31a8297bf143a939656e7b7115db7e1e7c4948"
+    },
+    {
+      "path": "fixtures/markaz_depth_2026.json",
+      "record_count": 55,
+      "sha256": "c8fc9df0e559ccf5894b921df35a9d23937250ed42a49f370c453c522996e9cb"
     }
   ],
   "schema_version": "2.0.0",

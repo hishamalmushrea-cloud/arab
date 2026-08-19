@@ -25,7 +25,7 @@
       "status": "pass"
     },
     "egypt_import_idempotence": {
-      "detail": "all 10 managed hashes unchanged=True",
+      "detail": "all 11 managed hashes unchanged=True",
       "status": "pass"
     },
     "egypt_import_refresh": {
@@ -33,24 +33,24 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "{\"entities\": 27, \"aliases\": 27, \"relationships\": 27, \"claims\": 27, \"sources\": 3}"
+      "stdout": "{\"entities\": 82, \"aliases\": 27, \"relationships\": 82, \"claims\": 44, \"sources\": 4}"
     },
     "egypt_independent_review": {
       "command": "python3 scripts/review_egypt.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "120"
+      "stdout": "250"
     },
     "egypt_negative_tests": {
       "command": "python3 scripts/test_egypt_negative.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "[{'mutation': 'EG_CITY_AS_GOVERNORATE', 'expected_code': 'EG_COUNTS', 'detected': True}, {'mutation': 'EG_WRONG_PROFILE', 'expected_code': 'EG_PROFILE', 'detected': True}, {'mutation': 'EG_WRONG_PARENT', 'expected_code': 'EG_PARENT', 'detected': True}, {'mutation': 'EG_DENOM_28', 'expected_code': 'EG_DENOMINATORS', 'detected': True}, {'mutation': 'EG_MARKAZ_UNDER_CAIRO', 'expected_code': 'EG_PREMATURE_LOWER', 'detected': True}, {'mutation': 'EG_SHIYAKHA_UNDER_MARKAZ', 'expected_code': 'EG_PREMATURE_LOWER', 'detected': True}, {'mutation': 'EG_CLOSE_QISM_WITHOUT_DENOM', 'expected_code': 'EG_LOWER_SCOPE', 'detected': True}, {'mutation': 'EG_ALIAS_MISMATCH', 'expected_code': 'EG_ALIAS', 'detected': True}]"
+      "stdout": "[{'mutation': 'EG_CITY_AS_GOVERNORATE', 'expected_code': 'EG_COUNTS', 'detected': True}, {'mutation': 'EG_WRONG_PROFILE', 'expected_code': 'EG_PROFILE', 'detected': True}, {'mutation': 'EG_WRONG_PARENT', 'expected_code': 'EG_PARENT', 'detected': True}, {'mutation': 'EG_DENOM_28', 'expected_code': 'EG_DENOMINATORS', 'detected': True}, {'mutation': 'EG_FABRICATED_MARKAZ', 'expected_code': 'EG_COUNTS', 'detected': True}, {'mutation': 'EG_MARKAZ_PROMOTED_TO_VERIFIED', 'expected_code': 'EG_MARKAZ_STATUS', 'detected': True}, {'mutation': 'EG_MARKAZ_POP_PUBLISHED', 'expected_code': 'EG_MARKAZ_POP', 'detected': True}, {'mutation': 'EG_MARKAZ_WRONG_GOVERNORATE', 'expected_code': 'EG_MARKAZ_FIXTURE', 'detected': True}, {'mutation': 'EG_SHIYAKHA_UNDER_MARKAZ', 'expected_code': 'EG_PREMATURE_LOWER', 'detected': True}, {'mutation': 'EG_CLOSE_QISM_WITHOUT_DENOM', 'expected_code': 'EG_LOWER_SCOPE', 'detected': True}, {'mutation': 'EG_ALIAS_MISMATCH', 'expected_code': 'EG_ALIAS', 'detected': True}]"
     },
     "egypt_required_mutations": {
-      "detail": "detected=8/8",
+      "detail": "detected=11/11",
       "status": "pass"
     },
     "egypt_review_idempotence": {
@@ -66,10 +66,10 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "120"
+      "stdout": "250"
     },
     "egypt_review_threshold": {
-      "detail": "full review passed=120/120",
+      "detail": "full review passed=250/250",
       "status": "pass"
     },
     "egypt_semantic_validation": {
@@ -77,10 +77,10 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "{'entities': 28, 'aliases': 27, 'relationships': 27, 'claims': 27, 'sources': 3, 'denominators': 4, 'coverage': 4}"
+      "stdout": "{'entities': 83, 'aliases': 27, 'relationships': 82, 'claims': 44, 'sources': 4, 'denominators': 5, 'coverage': 5}"
     },
     "egypt_source_idempotence": {
-      "detail": "atomic sources=3/3, unchanged=True",
+      "detail": "atomic sources=4/4, unchanged=True",
       "status": "pass"
     },
     "egypt_source_refresh": {
@@ -88,14 +88,14 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "{\"entities\": 27, \"aliases\": 27, \"relationships\": 27, \"claims\": 27, \"sources\": 3}"
+      "stdout": "{\"entities\": 82, \"aliases\": 27, \"relationships\": 82, \"claims\": 44, \"sources\": 4}"
     },
     "general_validation": {
       "command": "python3 scripts/validate.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=16932\n[PASS] ids: global_ids=16932, duplicate_ids=0\n[PASS] entity_types: allowed_types=103, active_types=61\n[PASS] sources: atomic_files=151, sources=151, references=19644\n[PASS] parents: administrative_relationships=5220\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2245, sourced=2245\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=112, coverage_records=112, complete_layers=95\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=951, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=19424\n[PASS] ids: global_ids=19424, duplicate_ids=0\n[PASS] entity_types: allowed_types=104, active_types=67\n[PASS] sources: atomic_files=168, sources=168, references=22119\n[PASS] parents: administrative_relationships=5639\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2424, sourced=2424\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=115, coverage_records=115, complete_layers=97\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
     },
     "generated_freshness": {
       "command": "python3 scripts/generate.py --check",
@@ -105,7 +105,7 @@
       "stdout": "generated output is current (64 files)"
     },
     "non_egypt_preservation": {
-      "detail": "canonical non-Egypt SHA-256 unchanged=4bfa2eea6b99401d64aa0f794b8d233677704d1b56c9b269df139d0f02c3fb5c",
+      "detail": "canonical non-Egypt SHA-256 unchanged=4ec7476cb3b9282b35b47c6da7e017f3333160808ef8105f0e8e3e6f969b43e8",
       "status": "pass"
     }
   },

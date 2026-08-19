@@ -1,6 +1,6 @@
 {
   "country_code": "OM",
-  "detected": 8,
+  "detected": 12,
   "mutations": [
     {
       "detected": true,
@@ -41,9 +41,29 @@
       "detected": true,
       "expected_code": "OM_DHOFAR",
       "mutation": "OM_QISHN_SILENT_RENAME"
+    },
+    {
+      "detected": true,
+      "expected_code": "OM_DEPTH_UNPUBLISHED",
+      "mutation": "OM_DEPTH_PUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "OM_SHARED_NOT_EXCLUSIVE",
+      "mutation": "OM_HARES_EXCLUSIVE"
+    },
+    {
+      "detected": true,
+      "expected_code": "OM_DEPTH_LANGS",
+      "mutation": "OM_LANG_DROPPED"
+    },
+    {
+      "detected": true,
+      "expected_code": "OM_DEPTH_STATUS",
+      "mutation": "OM_DIALECT_PROMOTED"
     }
   ],
-  "required": 8,
+  "required": 12,
   "schema_version": "2.0.0",
   "status": "PASS"
 }

@@ -1,0 +1,199 @@
+{
+ "amazigh_languages": [
+  {
+   "desc": "لغة رسمية بنص تعديل الدستور 2016",
+   "name": "الأمازيغية",
+   "subject": "ENT-DZ-COUNTRY"
+  },
+  {
+   "desc": "أكبر مجالات الأمازيغية الجزائرية: تيزي وزو وبجاية والبويرة",
+   "name": "القبائلية (تاقبايلت)",
+   "subject": "ENT-DZ-WILAYA-15"
+  },
+  {
+   "desc": "أمازيغية الأوراس: باتنة وخنشلة وتبسة وأم البواقي",
+   "name": "الشاوية (تاشاويت)",
+   "subject": "ENT-DZ-WILAYA-05"
+  },
+  {
+   "desc": "أمازيغية وادي مزاب في غرداية",
+   "name": "المزابية (تومزابت)",
+   "subject": "ENT-DZ-WILAYA-47"
+  },
+  {
+   "desc": "أمازيغية الهقار في تمنراست وجانت",
+   "name": "الطوارقية (تاماهق)",
+   "subject": "ENT-DZ-WILAYA-11"
+  },
+  {
+   "desc": "أمازيغية جبل شنوة: الشلف وتنس",
+   "name": "الشنوية (تاشناويت)",
+   "subject": "ENT-DZ-WILAYA-02"
+  }
+ ],
+ "captured_at": "2026-08-17",
+ "country_code": "DZ",
+ "darija_profile": {
+  "features": [
+   "اختزال حروف العلة ومجموعات حرفية طويلة سمة مغاربية",
+   "تسكين الحروف خلافا للمشرق",
+   "لا مثنى كالأمازيغية",
+   "نفي أمازيغي بالشين: ما عنديش",
+   "مفردات فرنسية راسخة: طوموبيل وبلاصة وفورماج والسمانة",
+   "مفردات أمازيغية: أضرار وتيفي وأزرو"
+  ],
+  "subject": "ENT-DZ-COUNTRY",
+  "words": [
+   {
+    "m": "كم",
+    "w": "شحال"
+   },
+   {
+    "m": "ماذا",
+    "w": "وش"
+   },
+   {
+    "m": "كيف",
+    "w": "كيفاش"
+   },
+   {
+    "m": "متى",
+    "w": "وقتاش"
+   },
+   {
+    "m": "الآن؛ من ذاك الوقت",
+    "w": "درك"
+   },
+   {
+    "m": "كثير",
+    "w": "بزاف"
+   },
+   {
+    "m": "كثير؛ شرقية",
+    "w": "ياسر"
+   },
+   {
+    "m": "جيد",
+    "w": "مليح"
+   },
+   {
+    "m": "غدا",
+    "w": "غدوا"
+   },
+   {
+    "m": "أمس",
+    "w": "البارح"
+   },
+   {
+    "m": "أتحدث",
+    "w": "نهدر"
+   },
+   {
+    "m": "من",
+    "w": "شكون"
+   }
+  ]
+ },
+ "dishes": [
+  {
+   "classification": "shared",
+   "desc": "سميد مفتول بالخضار واللحم والحمص؛ ومن أنواعه الجزائرية كسكس العصبان والكسكس الحلو بالزبيب واللبن",
+   "name": "الكسكس",
+   "note": "مدرج في تراث اليونسكو غير المادي 2020 ملفا رباعيا مشتركا بين الجزائر والمغرب وتونس وموريتانيا — لا ملكية حصرية",
+   "occasion": "غداء الجمعة والأعراس",
+   "subject": "ENT-DZ-COUNTRY"
+  },
+  {
+   "classification": "regional",
+   "desc": "رقائق عجين مفتتة بمرق اللحم والخضار والبهارات؛ أكلة احتفالية شرقية",
+   "name": "الشخشوخة",
+   "note": "الأوراس وقسنطينة وبسكرة",
+   "occasion": "الأعراس والمناسبات الكبرى",
+   "subject": "ENT-DZ-WILAYA-05"
+  },
+  {
+   "classification": "national",
+   "desc": "شوربة اللحم والطماطم والفريك أو الشعيرية بالنعناع",
+   "name": "الشوربة (الحريرة الجزائرية)",
+   "note": "",
+   "occasion": "فطور رمضان",
+   "subject": "ENT-DZ-COUNTRY"
+  },
+  {
+   "classification": "shared",
+   "desc": "ورق رقيق محشو باللحم والبيض مقلي؛ جذور عثمانية",
+   "name": "البوراك",
+   "note": "مشترك جزائري تونسي بجذور عثمانية — لا حصرية",
+   "occasion": "رمضان ومقبلات",
+   "subject": "ENT-DZ-COUNTRY"
+  },
+  {
+   "classification": "national",
+   "desc": "رقائق سميد محشوة بصلصة الطماطم والبصل والبهارات",
+   "name": "المحاجب",
+   "note": "",
+   "occasion": "فطور وغداء",
+   "subject": "ENT-DZ-COUNTRY"
+  },
+  {
+   "classification": "local",
+   "desc": "عجينة حمص وطحين بالكمون تخبز وتؤكل ساخنة؛ شعبية عاصمية وهرانية",
+   "name": "القارانطيطة",
+   "note": "الجزائر ووهران؛ جذور إسبانية الاسم calentita",
+   "occasion": "وجبة شعبية",
+   "subject": "ENT-DZ-WILAYA-16"
+  },
+  {
+   "classification": "national",
+   "desc": "قمح وتمر وسمن ولوز؛ أمازيغي الجذور",
+   "name": "الرفيس",
+   "note": "",
+   "occasion": "مناسبات وضيافة",
+   "subject": "ENT-DZ-COUNTRY"
+  },
+  {
+   "classification": "regional",
+   "desc": "خبز صحراوي يخبز في الرماد الحار",
+   "name": "الملة",
+   "note": "الصحراء والهقار",
+   "occasion": "خبز الرحّل",
+   "subject": "ENT-DZ-WILAYA-11"
+  }
+ ],
+ "dress": [
+  {
+   "classification": "national",
+   "desc": "عباءة صوفية بقلنسوة بلا أكمام للشتاء في المرتفعات والصحراء؛ رمز وطني يرتديه الرئيس في المناسبات",
+   "gender": "رجالي",
+   "name": "البرنوس",
+   "subject": "ENT-DZ-COUNTRY"
+  },
+  {
+   "classification": "local",
+   "desc": "لباس العروس التلمسانية الفاخر: اثنتا عشرة قطعة وما يزيد على خمسين صنفا من المجوهرات بوزن يناهز خمسة عشر كيلوغراما؛ جذور عربية وأمازيغية وعثمانية وأندلسية؛ مدرجة لدى اليونسكو",
+   "gender": "نسائي",
+   "name": "الشدة التلمسانية",
+   "subject": "ENT-DZ-WILAYA-13"
+  },
+  {
+   "classification": "national",
+   "desc": "رداء مفتوح من الأمام مطرز مع حزام المضمة؛ أنواعه العاصمي والقسنطيني والتلمساني",
+   "gender": "نسائي",
+   "name": "القفطان الجزائري",
+   "subject": "ENT-DZ-COUNTRY"
+  },
+  {
+   "classification": "national",
+   "desc": "الجلابة رداء يومي بقلنسوة، والشاشية الحمراء غطاء رأس تلمساني عاصمي، والبابوش حذاء جلدي بلا كعب",
+   "gender": "مشترك",
+   "name": "الجلابة والشاشية والبابوش",
+   "subject": "ENT-DZ-COUNTRY"
+  }
+ ],
+ "note": "Algeria depth cycle 1 under Maximum Arabic Knowledge Coverage: 6 language-presence claims (probable — الأمازيغية رسمية بنص دستور 2016، وخمس لهجاتها مرسوة ولائيا), Darija profile with 12-word lexicon (local_reported), 8 dishes (couscous AND bourek shared — never exclusive), 4 dress claims including الشدة التلمسانية. All unpublished, tier-E mirrors, explicit classification.",
+ "schema_version": "2.0.0",
+ "sources": {
+  "cuisine_dress_mirror": "https://ar.wikipedia.org/wiki/%D9%85%D8%B7%D8%A8%D8%AE_%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1%D9%8A",
+  "dialect_mirror": "https://ar.wikipedia.org/wiki/%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9_%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1%D9%8A%D8%A9"
+ }
+}

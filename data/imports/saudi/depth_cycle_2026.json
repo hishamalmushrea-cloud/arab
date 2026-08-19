@@ -1,0 +1,214 @@
+{
+ "captured_at": "2026-08-17",
+ "country_code": "SA",
+ "cultural_items": [
+  {
+   "classification": "shared",
+   "desc": "رقصة السيف والطبول والشعر؛ مدرجة لدى اليونسكو 2015 وتؤدى في الأعياد والمناسبات الوطنية",
+   "kind": "performing_art",
+   "name": "العرضة النجدية",
+   "subject_region": "riyadh"
+  },
+  {
+   "classification": "regional",
+   "desc": "فن أداء شعبي حجازي بالعصي والطبول يؤدى في الأفراح",
+   "kind": "performing_art",
+   "name": "المزمار الحجازي",
+   "subject_region": "makkah"
+  },
+  {
+   "classification": "local",
+   "desc": "فن أداء جماعي في جازان والجنوب يقوم على الصف والحركة الإيقاعية",
+   "kind": "performing_art",
+   "name": "الخطوة الجنازية الجنوبية",
+   "subject_region": "jazan"
+  },
+  {
+   "classification": "historical",
+   "desc": "سوق العرب الجاهلي الشهير قرب الطائف؛ أعيد إحياؤه مهرجانا ثقافيا سنويا",
+   "kind": "market",
+   "name": "سوق عكاظ",
+   "subject_region": "makkah"
+  },
+  {
+   "classification": "local",
+   "desc": "أسواق الأحساء التاريخية ومنها سوق القيصرية بالهفوف من أقدم الأسواق الشعبية القائمة",
+   "kind": "market",
+   "name": "سوق المجلس بالأحساء وأسواق القيصرية",
+   "subject_region": "eastern"
+  }
+ ],
+ "dress": [
+  {
+   "classification": "national",
+   "desc": "رداء طويل أبيض صيفا وداكن شتاء؛ النجدي بياقة مرتفعة وأكمام ضيقة، والحجازي بقصة مريحة وأكمام أوسع، والشمالي داكن شتاء، والشرقي قريب من الخليجي",
+   "gender": "رجالي",
+   "name": "الثوب بأنماطه المناطقية",
+   "subject_region": null
+  },
+  {
+   "classification": "national",
+   "desc": "الغترة بيضاء والشماغ بنقوش حمراء وبيضاء يشيع في نجد والشمال والشرق، والعقال حبل أسود يثبتهما وللمناسبات عقال مقصب بخيوط ذهبية",
+   "gender": "رجالي",
+   "name": "الغترة والشماغ والعقال",
+   "subject_region": null
+  },
+  {
+   "classification": "national",
+   "desc": "عباءة خارجية من الصوف أو الحرير للمناسبات الرسمية والأعراس",
+   "gender": "رجالي",
+   "name": "البشت (المشلح)",
+   "subject_region": null
+  },
+  {
+   "classification": "regional",
+   "desc": "ثوب فضفاض إلى الكعبين بألوان زاهية تخاط فيه البنيقة للاتساع، ومعه ثوب الكرباس القطني التاريخي وثياب المناسبات كالمسرح وثوب الثريا وثوب المنثور",
+   "gender": "نسائي",
+   "name": "الدراعة (المقطع) النجدية",
+   "subject_region": "riyadh"
+  },
+  {
+   "classification": "regional",
+   "desc": "السديري سترة قصيرة فوق الثوب في الحجاز والوسط، والدقلة سترة طويلة من المخمل أو الصوف شتاء في الشمال والوسط",
+   "gender": "رجالي",
+   "name": "السديري والدقلة",
+   "subject_region": null
+  },
+  {
+   "classification": "regional",
+   "desc": "خنجر يحمل على الخصر تاريخيا في الجنوب وعسير ونجران؛ رمز اجتماعي مشترك مع اليمن المجاور",
+   "gender": "رجالي",
+   "name": "الجنبية الجنوبية",
+   "subject_region": "najran"
+  }
+ ],
+ "lexical_expansion": [
+  {
+   "form": "وشلونك",
+   "meaning": "كيف حالك",
+   "region": "riyadh",
+   "variety": "najdi"
+  },
+  {
+   "form": "ياهلين",
+   "meaning": "أهلا وسهلا",
+   "region": "riyadh",
+   "variety": "najdi"
+  },
+  {
+   "form": "ضامي",
+   "meaning": "عطشان",
+   "region": "riyadh",
+   "variety": "najdi"
+  },
+  {
+   "form": "شادر",
+   "meaning": "خيمة",
+   "region": "riyadh",
+   "variety": "najdi"
+  },
+  {
+   "form": "عوج",
+   "meaning": "منحنٍ",
+   "region": "riyadh",
+   "variety": "najdi"
+  },
+  {
+   "form": "إيش",
+   "meaning": "ماذا",
+   "region": "makkah",
+   "variety": "hijazi"
+  },
+  {
+   "form": "مفيش",
+   "meaning": "لا يوجد",
+   "region": "makkah",
+   "variety": "hijazi"
+  },
+  {
+   "form": "يلا",
+   "meaning": "هيا",
+   "region": "makkah",
+   "variety": "hijazi"
+  },
+  {
+   "form": "الطرين",
+   "meaning": "مكان بعيد أو مهجور",
+   "region": "asir",
+   "variety": "southern"
+  },
+  {
+   "form": "الدح",
+   "meaning": "الضحك",
+   "region": "asir",
+   "variety": "southern"
+  },
+  {
+   "form": "حن",
+   "meaning": "نحن",
+   "region": "asir",
+   "variety": "southern"
+  },
+  {
+   "form": "مذابك",
+   "meaning": "ماذا بك",
+   "region": "asir",
+   "variety": "southern"
+  },
+  {
+   "form": "هب لي",
+   "meaning": "أعطني",
+   "region": "asir",
+   "variety": "southern"
+  },
+  {
+   "form": "وايد",
+   "meaning": "كثير",
+   "region": "eastern",
+   "variety": "eastern"
+  },
+  {
+   "form": "شلون",
+   "meaning": "كيف",
+   "region": "eastern",
+   "variety": "eastern"
+  }
+ ],
+ "new_varieties": [
+  {
+   "features": [
+    "القاف تنطق أحيانا أقرب إلى الغين أو الكاف",
+    "مدود صوتية",
+    "أثر العربية الجنوبية القديمة والحبشية عبر البحر الأحمر لا الأمازيغية"
+   ],
+   "key": "southern",
+   "name_ar": "الجنوبية",
+   "region": "asir"
+  },
+  {
+   "features": [
+    "خليجية قريبة من لهجات الكويت والبحرين وقطر",
+    "القاف تنطق g في بعض المناطق",
+    "للأحساء والقطيف مفردات خاصة"
+   ],
+   "key": "eastern",
+   "name_ar": "الشرقية",
+   "region": "eastern"
+  },
+  {
+   "features": [
+    "بدوية قريبة من لهجات شمر وعنزة",
+    "القاف قاف صريحة"
+   ],
+   "key": "northern",
+   "name_ar": "الشمالية",
+   "region": "tabuk"
+  }
+ ],
+ "note": "Saudi depth cycle 1 under Maximum Arabic Knowledge Coverage: 15 lexical forms across 5 varieties (3 new variety entities), 6 dress claims, 5 performing-art/market claims. All from weak/secondary mirrors (tier E): local_reported, unpublished, classified. The corrected Amazigh error stays corrected: southern substrate is Old South Arabian and Ethiopic, never Amazigh. The 60-dialect researcher estimate remains a bounded note, not a denominator.",
+ "schema_version": "2.0.0",
+ "sources": {
+  "dialect_mirror": "https://ar.wikipedia.org/wiki/%D9%84%D9%87%D8%AC%D8%A9_%D9%86%D8%AC%D8%AF%D9%8A%D8%A9",
+  "dress_culture_mirror": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B9%D8%B1%D8%B6%D8%A9_%D8%A7%D9%84%D9%86%D8%AC%D8%AF%D9%8A%D8%A9"
+ }
+}
