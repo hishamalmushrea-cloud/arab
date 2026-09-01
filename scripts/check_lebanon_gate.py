@@ -14,7 +14,7 @@ LBNAGED = [
     "data/entities/entities.jsonl", "data/aliases/aliases.jsonl", "data/relationships/relationships.jsonl",
     "data/claims/claims.jsonl", "data/coverage/denominators.jsonl", "data/coverage/coverage.jsonl",
     "data/snapshots/snapshots.jsonl", "manifests/LB.yml", "data/cultural/lebanon_domain_status.json",
-    "data/imports/lebanon/source_catalog.json",
+    "data/imports/lebanon/source_catalog.json", "data/imports/lebanon/fixtures/cultural_depth_2026.json",
 ]
 
 class Gate:
@@ -59,7 +59,7 @@ def main() -> int:
     before_sources = source_hashes()
     gate.command("lebanon_source_refresh", [sys.executable, "scripts/build_lebanon_sources.py"])
     after_sources = source_hashes()
-    gate.require(len(after_sources) == 3 and before_sources == after_sources, "lebanon_source_idempotence", f"atomic sources={len(after_sources)}/3, unchanged={before_sources == after_sources}")
+    gate.require(len(after_sources) == 4 and before_sources == after_sources, "lebanon_source_idempotence", f"atomic sources={len(after_sources)}/4, unchanged={before_sources == after_sources}")
     before_files, before_other = file_hashes(), non_lebanon_hash()
     gate.command("lebanon_import_refresh", [sys.executable, "scripts/import_lebanon_production.py"])
     after_files, after_other = file_hashes(), non_lebanon_hash()
@@ -80,8 +80,8 @@ def main() -> int:
     negatives = json.loads((ROOT / "reports/lebanon_negative_tests.json").read_text(encoding="utf-8"))
     review = json.loads((ROOT / "reports/lebanon_independent_review.json").read_text(encoding="utf-8"))
     gate.require(validation.get("status") == "PASS" and validation.get("p0") == 0 and validation.get("critical_p1") == 0, "lebanon_findings_closed", f"status={validation.get('status')}, P0={validation.get('p0')}, critical P1={validation.get('critical_p1')}")
-    gate.require(negatives.get("status") == "PASS" and negatives.get("detected") == negatives.get("required") == 8, "lebanon_required_mutations", f"detected={negatives.get('detected')}/{negatives.get('required')}")
-    gate.require(review.get("status") == "PASS" and review.get("total_sampled") == review.get("total_passed") == 95, "lebanon_review_threshold", f"full review passed={review.get('total_passed')}/{review.get('total_sampled')}")
+    gate.require(negatives.get("status") == "PASS" and negatives.get("detected") == negatives.get("required") == 12, "lebanon_required_mutations", f"detected={negatives.get('detected')}/{negatives.get('required')}")
+    gate.require(review.get("status") == "PASS" and review.get("total_sampled") == review.get("total_passed") == 116, "lebanon_review_threshold", f"full review passed={review.get('total_passed')}/{review.get('total_sampled')}")
     for required in ["reports/LEBANON_PRODUCTION_CLOSEOUT.md", "reports/LESSONS_LEARNED_LEBANON.md", "reports/EXPANSION_LESSONS.md", "reports/NEXT_COUNTRY_DECISION.md"]:
         gate.require((ROOT / required).is_file(), "artifact_" + Path(required).stem.lower(), f"{required} exists")
     status = subprocess.run(["git", "status", "--porcelain"], cwd=ROOT, text=True, capture_output=True, check=True).stdout.strip()

@@ -1,23 +1,23 @@
 {
   "counts": {
     "aliases": 3261,
-    "claims": 2469,
+    "claims": 2489,
     "coverage": 115,
     "denominators": 115,
     "entities": 6453,
     "relationships": 6860,
     "snapshots": 28,
-    "sources": 170
+    "sources": 171
   },
   "generator": "scripts/generate.py",
   "inputs": {
     "data/aliases/aliases.jsonl": "sha256:c8c4c5d827f437946cdc4e93f7c4bfa1d1c1675ce02729584ba0901644c7aa39",
-    "data/claims/claims.jsonl": "sha256:74a5f390f52c92d6c4b7919aacd0504d09a575c544299778279e129f2f4b2edb",
+    "data/claims/claims.jsonl": "sha256:cee3184e1e48726c6bb2cac5043592984e80f4b7c88f59a27eadc0db29e2f2d0",
     "data/coverage/coverage.jsonl": "sha256:8769006a9a999c1939e27398cef033d8f944f1eeaed9d4eab57e1a18ba62682d",
     "data/coverage/denominators.jsonl": "sha256:f7491655693cd5e929da176598a9e4a02767d93517a7823cc08071a46a0ffed6",
     "data/entities/entities.jsonl": "sha256:78ce5ad9f4c7e7314feab6596b78fa1eeb660d3fd1f5ae7fde3e831109523913",
     "data/relationships/relationships.jsonl": "sha256:9795a9b544e07694247caeecd2c67e033617bfe01297c478b6cf3a161e34fc56",
-    "data/snapshots/snapshots.jsonl": "sha256:447b0d4adeb61d5e377e85b624ff596c5f301917454ace879b411caa95d9bbb0",
+    "data/snapshots/snapshots.jsonl": "sha256:47dd8c639d7e44b6f0b9c68f6a34f110f59f719f4c306499d8fceed5bdd061ae",
     "data/sources/SRC-ACADEMIC-SA-DIALECT-CORPUS-2020.json": "sha256:8db9aa1b7b0ebee570ab4e5bab6c455fbb03159360564d822a9b338bde5a8d43",
     "data/sources/SRC-AE-AJMAN-ABOUT-2026.json": "sha256:db611da10b5482b40eeacd255591bc11c60518d3ee2964496af1ddb5ddaaee25",
     "data/sources/SRC-AE-DMT-THREE-MUNICIPALITIES-2026.json": "sha256:0d4904c92887ea7cc54ca6d931128ec4df483a76b3faec3c3243e68d123c1a67",
@@ -73,6 +73,7 @@
     "data/sources/SRC-KW-CSB-CENSUS-GOVERNORATES-2021.json": "sha256:1854ebf6f0099b223178de221291ba3813a638e0ff953bdb67a67ce5e0243214",
     "data/sources/SRC-KW-CSB-CENSUS-METHODOLOGY-2021.json": "sha256:b0eb00f57b220a75404043db19827e991de9709fc48c826ac97ba7a0bc3b96c3",
     "data/sources/SRC-LB-CAS-26-DISTRICTS-2019.json": "sha256:0d2c2c333c50bc3f3ad1267e8f1800e2b006622271c539e02ef0e6c583ae81a5",
+    "data/sources/SRC-LB-CULTURE-MIRROR-2026.json": "sha256:e733f4ea3959acf2c3c3c19e01fbfafd016f03569a9f519882238c4ff5d6beab",
     "data/sources/SRC-LB-LAW-52-2017.json": "sha256:b7dd1510afbb634574ed98f44f720d8712bd1cbf7389ebe2eae766f9fc101731",
     "data/sources/SRC-LB-MOIM-ADMINISTRATION-2026.json": "sha256:0ab430de2d952a78610944630bad2c91164cbdf406dec558e264d6723c043662",
     "data/sources/SRC-MA-CULTURE-MIRROR-2026.json": "sha256:f48ebca284aac81b0c1c8ec19965ee87bbd4581eed490918c3ae2bdee22b1f8c",

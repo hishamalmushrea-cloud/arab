@@ -2,7 +2,7 @@
   "country_code": "LB",
   "families": {
     "claims": {
-      "population": 13,
+      "population": 33,
       "record_ids": [
         "CLM-LB-00642A4661185A4C",
         "CLM-LB-249C8CE256CB510D",
@@ -16,10 +16,30 @@
         "CLM-LB-CE9361E7A8EF5069",
         "CLM-LB-D34AF9D28F8156C3",
         "CLM-LB-D4DD7CBA78B859FC",
+        "CLM-LB-DEPTH-0C29BC29927D5DE1",
+        "CLM-LB-DEPTH-1271520B22765C00",
+        "CLM-LB-DEPTH-18563B3E1A725876",
+        "CLM-LB-DEPTH-53837C425B9E553B",
+        "CLM-LB-DEPTH-60D589C41A82565B",
+        "CLM-LB-DEPTH-6480C7F234585120",
+        "CLM-LB-DEPTH-90B9A10366CE59D0",
+        "CLM-LB-DEPTH-9D7160387F365AE3",
+        "CLM-LB-DEPTH-A055064FC3525CCA",
+        "CLM-LB-DEPTH-A54697A1A7435CFF",
+        "CLM-LB-DEPTH-A5A52A595F6851C6",
+        "CLM-LB-DEPTH-AF565CBE761E5DFD",
+        "CLM-LB-DEPTH-AFFF4FF8947D5857",
+        "CLM-LB-DEPTH-CB492696D4C255D0",
+        "CLM-LB-DEPTH-CBF8A82C43675FD9",
+        "CLM-LB-DEPTH-D339D1C5E2465935",
+        "CLM-LB-DEPTH-E4FE0634F9E85C40",
+        "CLM-LB-DEPTH-EF61DD8AB30052DD",
+        "CLM-LB-DEPTH-EFA695A6EBCC520A",
+        "CLM-LB-DEPTH-F93558A93A335E61",
         "CLM-LB-E3AB86B1ECB95197"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 13
+      "sample_size": 33
     },
     "coverage": {
       "population": 4,
@@ -129,14 +149,15 @@
       "sample_size": 35
     },
     "sources": {
-      "population": 3,
+      "population": 4,
       "record_ids": [
         "SRC-LB-CAS-26-DISTRICTS-2019",
+        "SRC-LB-CULTURE-MIRROR-2026",
         "SRC-LB-LAW-52-2017",
         "SRC-LB-MOIM-ADMINISTRATION-2026"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 3
+      "sample_size": 4
     }
   },
   "schema_version": "2.0.0"

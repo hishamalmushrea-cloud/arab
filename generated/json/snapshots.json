@@ -100,7 +100,7 @@
   },
   {
     "captured_at": "2026-08-16",
-    "checksum": "sha256:5b2acf78a5ab77e1a3f58a76facf18854acc8e7a0c2bb1155ba8c605d6632561",
+    "checksum": "sha256:3108f6bdc1510b229f13381483fcdce6fda727c10fc9e99a13d6597e5a7596e4",
     "id": "SNP-LB-PRODUCTION-20260816",
     "method": "Checksum-bound temporal reconciliation.",
     "notes": "Municipalities deferred.",

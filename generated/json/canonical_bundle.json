@@ -56790,6 +56790,654 @@
       "verification_status": "verified"
     },
     {
+      "classification": "shared",
+      "confidence": "low",
+      "id": "CLM-LB-DEPTH-0C29BC29927D5DE1",
+      "lexical_context": null,
+      "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Levantine-shared dishes stay shared, never exclusive.",
+      "observed_at": "2026-08-16",
+      "predicate": "food_dish",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-LB-CULTURE-MIRROR-2026",
+      "source_locator": "Dish entry: الفتوش والحمص",
+      "status": "reported",
+      "subject_id": "ENT-LB-COUNTRY",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "description": "الفتوش سلطة بالخبز المقرمش والسماق ودبس الرمان، والحمص بالطحينة ومنه البيروتي الخاص",
+          "name": "الفتوش والحمص",
+          "note": "شامي مشترك",
+          "occasion": "المازة"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "regional",
+      "confidence": "low",
+      "id": "CLM-LB-DEPTH-1271520B22765C00",
+      "lexical_context": null,
+      "notes": "Dialect profile from secondary mirrors incl. cross-border kinships (Tripoli~Homs, South~Galilee) and the Aramaic substrate; unpublished.",
+      "observed_at": "2026-08-16",
+      "predicate": "dialect_profile",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-LB-CULTURE-MIRROR-2026",
+      "source_locator": "Dialect profile: البقاعية",
+      "status": "reported",
+      "subject_id": "ENT-LB-GOVERNORATE-BEQAA",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "features": [
+            "قرابة بلهجات ريف دمشق وحمص",
+            "سمات بدوية في الهرمل"
+          ],
+          "group": "البقاعية",
+          "sample_words": [],
+          "scope": "زحلة وبعلبك والهرمل وراشيا"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "regional",
+      "confidence": "low",
+      "id": "CLM-LB-DEPTH-18563B3E1A725876",
+      "lexical_context": null,
+      "notes": "Dialect profile from secondary mirrors incl. cross-border kinships (Tripoli~Homs, South~Galilee) and the Aramaic substrate; unpublished.",
+      "observed_at": "2026-08-16",
+      "predicate": "dialect_profile",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-LB-CULTURE-MIRROR-2026",
+      "source_locator": "Dialect profile: الجبلية",
+      "status": "reported",
+      "subject_id": "ENT-LB-GOVERNORATE-MOUNT-LEBANON",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "features": [
+            "قاف مفخمة خلافا لبيروت",
+            "نبرة جبلية قوية",
+            "إينا أبديش مثالا للتكسر الجبلي"
+          ],
+          "group": "الجبلية",
+          "sample_words": [],
+          "scope": "عاليه والشوف والمتن وبعبدا"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "local",
+      "confidence": "low",
+      "id": "CLM-LB-DEPTH-53837C425B9E553B",
+      "lexical_context": null,
+      "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Levantine-shared dishes stay shared, never exclusive.",
+      "observed_at": "2026-08-16",
+      "predicate": "food_dish",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-LB-CULTURE-MIRROR-2026",
+      "source_locator": "Dish entry: الكبة الزحلاوية وكبة الكشك",
+      "status": "reported",
+      "subject_id": "ENT-LB-GOVERNORATE-BEQAA",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "description": "نوعان بلديان: الزحلاوية من زحلة وكبة الكشك من كفر مشكي",
+          "name": "الكبة الزحلاوية وكبة الكشك",
+          "note": "",
+          "occasion": "موائد البقاع"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "regional",
+      "confidence": "low",
+      "id": "CLM-LB-DEPTH-60D589C41A82565B",
+      "lexical_context": null,
+      "notes": "Dialect profile from secondary mirrors incl. cross-border kinships (Tripoli~Homs, South~Galilee) and the Aramaic substrate; unpublished.",
+      "observed_at": "2026-08-16",
+      "predicate": "dialect_profile",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-LB-CULTURE-MIRROR-2026",
+      "source_locator": "Dialect profile: الشمالية الطرابلسية",
+      "status": "reported",
+      "subject_id": "ENT-LB-GOVERNORATE-NORTH",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "features": [
+            "أقرب إلى لهجة حمص السورية بحكم الجوار",
+            "ضم ما قبل وسط الكلمة: كيف حالك إلى كيف حُالك",
+            "نقل حركة الحرف: نحمله إلى نحملو"
+          ],
+          "group": "الشمالية الطرابلسية",
+          "sample_words": [],
+          "scope": "طرابلس وزغرتا والبترون وبشري"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "regional",
+      "confidence": "medium",
+      "id": "CLM-LB-DEPTH-6480C7F234585120",
+      "lexical_context": null,
+      "notes": "Language presence documented in secondary mirrors; liturgical Syriac stays local_reported; unpublished.",
+      "observed_at": "2026-08-16",
+      "predicate": "language_presence",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-LB-CULTURE-MIRROR-2026",
+      "source_locator": "Language note: الفرنسية",
+      "status": "reported",
+      "subject_id": "ENT-LB-COUNTRY",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "description": "لغة ثانية واسعة الحضور في التعليم والإدارة إرثا للانتداب 1920-1943؛ مفرداتها راسخة في العامية كميرسي وبونجور وأوتو",
+          "language": "الفرنسية"
+        },
+        "type": "json"
+      },
+      "verification_status": "probable"
+    },
+    {
+      "classification": "regional",
+      "confidence": "low",
+      "id": "CLM-LB-DEPTH-90B9A10366CE59D0",
+      "lexical_context": null,
+      "notes": "Dress knowledge from weak/secondary mirrors; unpublished.",
+      "observed_at": "2026-08-16",
+      "predicate": "clothing_item",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-LB-CULTURE-MIRROR-2026",
+      "source_locator": "Dress entry: الشروال الجبلي",
+      "status": "reported",
+      "subject_id": "ENT-LB-GOVERNORATE-MOUNT-LEBANON",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "description": "السروال الفضفاض التاريخي للجبل والريف مع القميص والزنار؛ بقي في الفلكلور والدبكة",
+          "gender": "رجالي",
+          "name": "الشروال الجبلي"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "national",
+      "confidence": "low",
+      "id": "CLM-LB-DEPTH-9D7160387F365AE3",
+      "lexical_context": null,
+      "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Levantine-shared dishes stay shared, never exclusive.",
+      "observed_at": "2026-08-16",
+      "predicate": "food_dish",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-LB-CULTURE-MIRROR-2026",
+      "source_locator": "Dish entry: العرق اللبناني",
+      "status": "reported",
+      "subject_id": "ENT-LB-COUNTRY",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "description": "مشروب عنبي مقطر باليانسون يوصف بأنه أصيل في لبنان",
+          "name": "العرق اللبناني",
+          "note": "يشترك المشرق في العرق عموما؛ الأصالة اللبنانية رواية محلية",
+          "occasion": "الموائد الاحتفالية"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "regional",
+      "confidence": "medium",
+      "id": "CLM-LB-DEPTH-A055064FC3525CCA",
+      "lexical_context": null,
+      "notes": "Language presence documented in secondary mirrors; liturgical Syriac stays local_reported; unpublished.",
+      "observed_at": "2026-08-16",
+      "predicate": "language_presence",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-LB-CULTURE-MIRROR-2026",
+      "source_locator": "Language note: الأرمنية",
+      "status": "reported",
+      "subject_id": "ENT-LB-GOVERNORATE-MOUNT-LEBANON",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "description": "لغة الجالية الأرمنية وخاصة في برج حمود وعنجر منذ لجوء ما بعد 1915",
+          "language": "الأرمنية"
+        },
+        "type": "json"
+      },
+      "verification_status": "probable"
+    },
+    {
+      "classification": "historical",
+      "confidence": "low",
+      "id": "CLM-LB-DEPTH-A54697A1A7435CFF",
+      "lexical_context": null,
+      "notes": "Dress knowledge from weak/secondary mirrors; unpublished.",
+      "observed_at": "2026-08-16",
+      "predicate": "clothing_item",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-LB-CULTURE-MIRROR-2026",
+      "source_locator": "Dress entry: القمباز والطربوش",
+      "status": "reported",
+      "subject_id": "ENT-LB-COUNTRY",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "description": "القمباز رداء المدن التاريخي والطربوش العثماني غطاء العلماء والمثقفين حتى منتصف القرن العشرين",
+          "gender": "رجالي",
+          "name": "القمباز والطربوش"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "shared",
+      "confidence": "low",
+      "id": "CLM-LB-DEPTH-A5A52A595F6851C6",
+      "lexical_context": null,
+      "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Levantine-shared dishes stay shared, never exclusive.",
+      "observed_at": "2026-08-16",
+      "predicate": "food_dish",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-LB-CULTURE-MIRROR-2026",
+      "source_locator": "Dish entry: التبولة",
+      "status": "reported",
+      "subject_id": "ENT-LB-COUNTRY",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "description": "بقدونس مفروم ناعم ببرغل وطماطم ونعناع وليمون بنسبة بقدونس عالية، تغرف بأوراق الخس",
+          "name": "التبولة",
+          "note": "شهرتها اللبنانية عالمية والطبق شامي مشترك — لا ملكية حصرية",
+          "occasion": "مقبلات المازة"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "regional",
+      "confidence": "low",
+      "id": "CLM-LB-DEPTH-AF565CBE761E5DFD",
+      "lexical_context": null,
+      "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Levantine-shared dishes stay shared, never exclusive.",
+      "observed_at": "2026-08-16",
+      "predicate": "food_dish",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-LB-CULTURE-MIRROR-2026",
+      "source_locator": "Dish entry: النبيذ اللبناني",
+      "status": "reported",
+      "subject_id": "ENT-LB-GOVERNORATE-BAALBEK-HERMEL",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "description": "كروم البقاع وبعلبك والكورة بصيت عالمي",
+          "name": "النبيذ اللبناني",
+          "note": "امتداد لتقاليد كروم قديمة في سهل البقاع",
+          "occasion": "صناعة عريقة"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "national",
+      "confidence": "low",
+      "id": "CLM-LB-DEPTH-AFFF4FF8947D5857",
+      "lexical_context": null,
+      "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Levantine-shared dishes stay shared, never exclusive.",
+      "observed_at": "2026-08-16",
+      "predicate": "food_dish",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-LB-CULTURE-MIRROR-2026",
+      "source_locator": "Dish entry: المازة اللبنانية",
+      "status": "reported",
+      "subject_id": "ENT-LB-COUNTRY",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "description": "منظومة مقبلات متكاملة من الحمص والمتبل والتبولة والفتوش والكبة وورق العنب والمكدوس؛ أساس الضيافة اللبنانية",
+          "name": "المازة اللبنانية",
+          "note": "المنظومة كنمط ضيافة لبنانية الطابع وإن كانت مفرداتها شامية مشتركة",
+          "occasion": "كل مائدة احتفالية"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "regional",
+      "confidence": "low",
+      "id": "CLM-LB-DEPTH-CB492696D4C255D0",
+      "lexical_context": null,
+      "notes": "Language presence documented in secondary mirrors; liturgical Syriac stays local_reported; unpublished.",
+      "observed_at": "2026-08-16",
+      "predicate": "language_presence",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-LB-CULTURE-MIRROR-2026",
+      "source_locator": "Language note: السريانية الطقسية",
+      "status": "reported",
+      "subject_id": "ENT-LB-COUNTRY",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "description": "لغة طقسية للكنائس المارونية والسريانية؛ حضورها اليومي محدود وتوثيقه ثانوي",
+          "language": "السريانية الطقسية"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "shared",
+      "confidence": "low",
+      "id": "CLM-LB-DEPTH-CBF8A82C43675FD9",
+      "lexical_context": null,
+      "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Levantine-shared dishes stay shared, never exclusive.",
+      "observed_at": "2026-08-16",
+      "predicate": "food_dish",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-LB-CULTURE-MIRROR-2026",
+      "source_locator": "Dish entry: المعمول والقطايف العصافيري",
+      "status": "reported",
+      "subject_id": "ENT-LB-COUNTRY",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "description": "المعمول للأعياد والقطايف العصافيري الرمضانية وحلاوة الجبن",
+          "name": "المعمول والقطايف العصافيري",
+          "note": "حلويات شامية مشتركة",
+          "occasion": "الأعياد ورمضان"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "regional",
+      "confidence": "low",
+      "id": "CLM-LB-DEPTH-D339D1C5E2465935",
+      "lexical_context": null,
+      "notes": "Dialect profile from secondary mirrors incl. cross-border kinships (Tripoli~Homs, South~Galilee) and the Aramaic substrate; unpublished.",
+      "observed_at": "2026-08-16",
+      "predicate": "dialect_profile",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-LB-CULTURE-MIRROR-2026",
+      "source_locator": "Dialect profile: الجنوبية",
+      "status": "reported",
+      "subject_id": "ENT-LB-GOVERNORATE-SOUTH",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "features": [
+            "أقرب إلى الفلسطينية بحكم جوار الجليل",
+            "إيقاع أهدأ"
+          ],
+          "group": "الجنوبية",
+          "sample_words": [],
+          "scope": "صيدا وصور وبنت جبيل والنبطية"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "shared",
+      "confidence": "low",
+      "id": "CLM-LB-DEPTH-E4FE0634F9E85C40",
+      "lexical_context": null,
+      "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Levantine-shared dishes stay shared, never exclusive.",
+      "observed_at": "2026-08-16",
+      "predicate": "food_dish",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-LB-CULTURE-MIRROR-2026",
+      "source_locator": "Dish entry: الكبة",
+      "status": "reported",
+      "subject_id": "ENT-LB-COUNTRY",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "description": "برغل ولحم مدقوق بأنواع لبنانية مميزة: النية والزحلاوية وكبة الكشك الكفرمشكية والصاجية",
+          "name": "الكبة",
+          "note": "شامية مشتركة؛ الأنواع البلدية مرسوة على بلداتها",
+          "occasion": "الولائم"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "national",
+      "confidence": "low",
+      "id": "CLM-LB-DEPTH-EF61DD8AB30052DD",
+      "lexical_context": null,
+      "notes": "Dress knowledge from weak/secondary mirrors; unpublished.",
+      "observed_at": "2026-08-16",
+      "predicate": "clothing_item",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-LB-CULTURE-MIRROR-2026",
+      "source_locator": "Dress entry: لباس المدن الحديث",
+      "status": "reported",
+      "subject_id": "ENT-LB-GOVERNORATE-BEIRUT",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "description": "أزياء غربية متوسطية بأثر فرنسي غلبت في المدن منذ الانتداب؛ التقليدي حاضر في الأعراس والفلكلور",
+          "gender": "مشترك",
+          "name": "لباس المدن الحديث"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "regional",
+      "confidence": "low",
+      "id": "CLM-LB-DEPTH-EFA695A6EBCC520A",
+      "lexical_context": null,
+      "notes": "Dialect profile from secondary mirrors incl. cross-border kinships (Tripoli~Homs, South~Galilee) and the Aramaic substrate; unpublished.",
+      "observed_at": "2026-08-16",
+      "predicate": "dialect_profile",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-LB-CULTURE-MIRROR-2026",
+      "source_locator": "Dialect profile: البيروتية",
+      "status": "reported",
+      "subject_id": "ENT-LB-GOVERNORATE-BEIRUT",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "features": [
+            "القاف همزة: قال إلى ئال",
+            "إيقاع غنائي وارتفاع نهايات الجمل",
+            "البسطاوية القديمة تكسر الفتحات: أنا إلى أني وباب إلى بيب",
+            "دخيل فرنسي: أوتو وميرسي وبونجور"
+          ],
+          "group": "البيروتية",
+          "sample_words": [
+            {
+              "m": "قال",
+              "w": "ئال"
+            },
+            {
+              "m": "شكرا؛ فرنسية",
+              "w": "ميرسي"
+            },
+            {
+              "m": "سيارة؛ فرنسية",
+              "w": "أوتو"
+            }
+          ],
+          "scope": "العاصمة"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "regional",
+      "confidence": "low",
+      "id": "CLM-LB-DEPTH-F93558A93A335E61",
+      "lexical_context": null,
+      "notes": "Dialect profile from secondary mirrors incl. cross-border kinships (Tripoli~Homs, South~Galilee) and the Aramaic substrate; unpublished.",
+      "observed_at": "2026-08-16",
+      "predicate": "dialect_profile",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-LB-CULTURE-MIRROR-2026",
+      "source_locator": "Dialect profile: الجذر الآرامي في اللبنانية",
+      "status": "reported",
+      "subject_id": "ENT-LB-COUNTRY",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "features": [
+            "قلب الذال زايا: الكذاب إلى الكزاب",
+            "الثاء تاء: ثعلب إلى تعلب",
+            "حذف أن: بحب اشتغل",
+            "حذف همزة الأمر: ضرب بدل أضرب"
+          ],
+          "group": "الجذر الآرامي في اللبنانية",
+          "sample_words": [],
+          "scope": "عموم لبنان"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
       "classification": "historical",
       "confidence": "high",
       "id": "CLM-LB-E3AB86B1ECB95197",
@@ -346237,7 +346885,7 @@
     },
     {
       "captured_at": "2026-08-16",
-      "checksum": "sha256:5b2acf78a5ab77e1a3f58a76facf18854acc8e7a0c2bb1155ba8c605d6632561",
+      "checksum": "sha256:3108f6bdc1510b229f13381483fcdce6fda727c10fc9e99a13d6597e5a7596e4",
       "id": "SNP-LB-PRODUCTION-20260816",
       "method": "Checksum-bound temporal reconciliation.",
       "notes": "Municipalities deferred.",
@@ -347647,6 +348295,26 @@
       "source_type": "census",
       "title": "Lebanon District Statistics — LFHLCS 2018-2019",
       "url": "http://cas.gov.lb/index.php/component/content/article/79-english/222-district-statistics-based-on-the-labour-force-and-household-living-conditions-survey-2018-2019"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9161c613e5887bdf32e0ec66b8cb2fd5f475429cf1d3091b2db10fc27419ed57",
+      "country_codes": [
+        "LB"
+      ],
+      "id": "SRC-LB-CULTURE-MIRROR-2026",
+      "language": "ar",
+      "license": "Official Lebanon public/statistical material; factual extraction with attribution; reuse terms not stated",
+      "locator": "Dialect profiles incl. Aramaic substrate and cross-border kinships, three language notes, dish and dress entries",
+      "notes": "Depth-cycle weak/secondary mirror. Cultural claims stay probable/local_reported and unpublished; Levantine-shared dishes (التبولة والكبة والفتوش والمعمول) carry shared classification despite world-famous Lebanese association — never exclusive ownership. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Encyclopedic mirror pages on Lebanese culture",
+      "quality_tier": "E",
+      "retrieved_at": "2026-08-16",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "Lebanese dialects, languages, cuisine, and dress — encyclopedic mirror pages",
+      "url": "https://ar.wikipedia.org/wiki/%D9%84%D9%87%D8%AC%D8%A9_%D9%84%D8%A8%D9%86%D8%A7%D9%86%D9%8A%D8%A9"
     },
     {
       "archive_url": null,
