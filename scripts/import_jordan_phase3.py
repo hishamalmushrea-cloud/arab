@@ -43,7 +43,7 @@ def load_json(name: str) -> dict[str, Any]:
 def verify_inputs() -> tuple[dict[str, Any], dict[str, Any], dict[str, Any], dict[str, Any]]:
     manifest = load_json("snapshot_manifest.json")
     assert manifest["country_code"] == "JO" and manifest["snapshot_date"] == AS_OF
-    assert len(manifest["files"]) == 25
+    assert len(manifest["files"]) == 27
     for item in manifest["files"]:
         path = ROOT / item["path"]
         payload = path.read_bytes()
@@ -288,6 +288,33 @@ def build_cultural(cultural: dict[str, Any], ids: dict[str, str]) -> list[dict[s
     return rows
 
 
+
+def build_depth(ids: dict[str, str]) -> list[dict[str, Any]]:
+    """Maximum Arabic Knowledge Coverage depth claims: unpublished, classified, tier-E source."""
+    depth = load_json("cultural_depth_2026.json")
+    CULT = "SRC-JO-CULTURE-MIRROR-2026"
+    rows: list[dict[str, Any]] = []
+    def key_to_id(k: str) -> str:
+        return COUNTRY if k == "country" else ids[f"governorate:{k}"]
+    def dc(key, subj_key, pred, data, loc, vs, cls, note):
+        row = claim(key_to_id(subj_key), pred, json.dumps(data, ensure_ascii=False, sort_keys=True), CULT, loc, classification=cls, status="reported", notes=note)
+        row["id"] = record_id("CLM-JO-DEPTH", key)
+        row["value"] = {"type": "json", "data": data}
+        row["published"] = False
+        row["verification_status"] = vs
+        row["confidence"] = "medium" if vs == "probable" else "low"
+        rows.append(row)
+    for q in depth["non_arabic_languages"]:
+        dc("lang|" + q["name"], q["subject_key"], "language_presence", {"language": q["name"], "description": q["desc"]}, f"Language note: {q['name']}", q["status"], "regional", "Caucasian minority language documented in secondary mirrors; probable pending an academic atomic source; unpublished.")
+    for q in depth["dialect_profiles"]:
+        dc("dialect|" + q["group"], q["subject_key"], "dialect_profile", {"group": q["group"], "scope": q["scope"], "features": q["features"], "sample_words": q["words"]}, f"Dialect profile: {q['group']}", "local_reported", "regional", "Dialect profile from secondary mirrors incl. cross-border kinships (Irbid~Hauran, Aqaba mix); unpublished.")
+    for q in depth["dishes"]:
+        dc("dish|" + q["name"], q["subject_key"], "food_dish", {"name": q["name"], "description": q["desc"], "occasion": q["occasion"], "note": q.get("note", "")}, f"Dish entry: {q['name']}", "local_reported", q["classification"], "Culinary knowledge from weak/secondary mirrors; unpublished. Levantine-shared dishes stay shared with origin attribution preserved.")
+    for q in depth["dress"]:
+        dc("dress|" + q["name"], q["subject_key"], "clothing_item", {"name": q["name"], "gender": q["gender"], "description": q["desc"]}, f"Dress entry: {q['name']}", "local_reported", q["classification"], "Dress knowledge from weak/secondary mirrors; the embroidered thobe stays shared with Palestine; unpublished.")
+    return rows
+
+
 def denominator(identifier: str, layer: str, value: int, source_id: str, locator: str, license_text: str, *, status: str = "official", notes: str) -> dict[str, Any]:
     return {
         "id": identifier, "schema_version": SCHEMA_VERSION, "country_code": "JO", "layer": layer,
@@ -425,7 +452,7 @@ def main() -> None:
     hierarchy, heritage, cultural, _resolution = verify_inputs()
     admin_entities, admin_aliases, admin_relationships, admin_claims, ids = build_admin(hierarchy)
     site_entities, site_aliases, site_relationships, site_claims = build_heritage(heritage, ids)
-    cultural_claims = build_cultural(cultural, ids)
+    cultural_claims = build_cultural(cultural, ids) + build_depth(ids)
     denominators, coverages, snapshot = build_coverage()
 
     replace_jordan(ENTITY_PATH, admin_entities + site_entities, "entities")

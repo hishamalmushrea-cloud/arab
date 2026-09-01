@@ -56157,6 +56157,512 @@
       "verification_status": "probable"
     },
     {
+      "classification": "shared",
+      "confidence": "low",
+      "id": "CLM-JO-DEPTH-0340E5AB28DE52E7",
+      "lexical_context": null,
+      "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Levantine-shared dishes stay shared with origin attribution preserved.",
+      "observed_at": "2026-08-15",
+      "predicate": "food_dish",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-JO-CULTURE-MIRROR-2026",
+      "source_locator": "Dish entry: المقلوبة",
+      "status": "reported",
+      "subject_id": "ENT-JO-COUNTRY",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "description": "أرز ولحم أو دجاج مع الباذنجان المقلي تقلب في صحن التقديم",
+          "name": "المقلوبة",
+          "note": "شامية مشتركة بين الأردن وفلسطين وسوريا — لا حصرية",
+          "occasion": "غداء العائلة"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "regional",
+      "confidence": "low",
+      "id": "CLM-JO-DEPTH-16095CAD6BFA55CB",
+      "lexical_context": null,
+      "notes": "Dialect profile from secondary mirrors incl. cross-border kinships (Irbid~Hauran, Aqaba mix); unpublished.",
+      "observed_at": "2026-08-15",
+      "predicate": "dialect_profile",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-JO-CULTURE-MIRROR-2026",
+      "source_locator": "Dialect profile: الجنوبية الكركية",
+      "status": "reported",
+      "subject_id": "ENT-JO-GOVERNORATE-CF8CA19A5F65",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "features": [
+            "التاء المربوطة ياء في النسبة: السياسية إلى السياسيي",
+            "نبرة ضخمة",
+            "معان ثلاث لهجات بدوية وفلاحية وحضرية"
+          ],
+          "group": "الجنوبية الكركية",
+          "sample_words": [],
+          "scope": "الكرك والطفيلة ومعان"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "regional",
+      "confidence": "low",
+      "id": "CLM-JO-DEPTH-3115680A9B925296",
+      "lexical_context": null,
+      "notes": "Dialect profile from secondary mirrors incl. cross-border kinships (Irbid~Hauran, Aqaba mix); unpublished.",
+      "observed_at": "2026-08-15",
+      "predicate": "dialect_profile",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-JO-CULTURE-MIRROR-2026",
+      "source_locator": "Dialect profile: الشمالية الحورانية",
+      "status": "reported",
+      "subject_id": "ENT-JO-GOVERNORATE-59A1DEF0AA35",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "features": [
+            "قريبة جدا من لهجة حوران السورية بحكم الوحدة التاريخية",
+            "القاف g مفخمة"
+          ],
+          "group": "الشمالية الحورانية",
+          "sample_words": [],
+          "scope": "إربد وجرش وعجلون"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "local",
+      "confidence": "low",
+      "id": "CLM-JO-DEPTH-33089CE8F0BF549B",
+      "lexical_context": null,
+      "notes": "Dress knowledge from weak/secondary mirrors; the embroidered thobe stays shared with Palestine; unpublished.",
+      "observed_at": "2026-08-15",
+      "predicate": "clothing_item",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-JO-CULTURE-MIRROR-2026",
+      "source_locator": "Dress entry: ثوب الكرك ومادبا",
+      "status": "reported",
+      "subject_id": "ENT-JO-GOVERNORATE-CF8CA19A5F65",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "description": "الخلقة الكركية الثوب الأسود الفضفاض المزدوج الطول من أعرق الأزياء الأردنية",
+          "gender": "نسائي",
+          "name": "ثوب الكرك ومادبا"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "shared",
+      "confidence": "low",
+      "id": "CLM-JO-DEPTH-3883EFE80A3E5947",
+      "lexical_context": null,
+      "notes": "Dress knowledge from weak/secondary mirrors; the embroidered thobe stays shared with Palestine; unpublished.",
+      "observed_at": "2026-08-15",
+      "predicate": "clothing_item",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-JO-CULTURE-MIRROR-2026",
+      "source_locator": "Dress entry: الثوب الأردني المطرز",
+      "status": "reported",
+      "subject_id": "ENT-JO-COUNTRY",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "description": "الثوب النسائي بتطريزه موروث شامي فلسطيني بدوي مشترك؛ التطريز فنه الأبرز",
+          "gender": "نسائي",
+          "name": "الثوب الأردني المطرز"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "local",
+      "confidence": "low",
+      "id": "CLM-JO-DEPTH-3996E3B7684650C5",
+      "lexical_context": null,
+      "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Levantine-shared dishes stay shared with origin attribution preserved.",
+      "observed_at": "2026-08-15",
+      "predicate": "food_dish",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-JO-CULTURE-MIRROR-2026",
+      "source_locator": "Dish entry: الجميد الكركي",
+      "status": "reported",
+      "subject_id": "ENT-JO-GOVERNORATE-CF8CA19A5F65",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "description": "لبن مجفف مخمر يصنع في الكرك والبلقاء ويعد الكركي أجوده؛ روح المنسف",
+          "name": "الجميد الكركي",
+          "note": "الجميد الكركي علامة أصل مرسوة",
+          "occasion": "أساس المنسف"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "shared",
+      "confidence": "low",
+      "id": "CLM-JO-DEPTH-4464458B98D45A8E",
+      "lexical_context": null,
+      "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Levantine-shared dishes stay shared with origin attribution preserved.",
+      "observed_at": "2026-08-15",
+      "predicate": "food_dish",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-JO-CULTURE-MIRROR-2026",
+      "source_locator": "Dish entry: المسخن",
+      "status": "reported",
+      "subject_id": "ENT-JO-COUNTRY",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "description": "خبز ودجاج وبصل وسماق وزيت زيتون وصنوبر",
+          "name": "المسخن",
+          "note": "فلسطيني الأصل من الشمال — النسب محفوظ",
+          "occasion": "وليمة"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "national",
+      "confidence": "low",
+      "id": "CLM-JO-DEPTH-4DD2442E90CD596D",
+      "lexical_context": null,
+      "notes": "Dress knowledge from weak/secondary mirrors; the embroidered thobe stays shared with Palestine; unpublished.",
+      "observed_at": "2026-08-15",
+      "predicate": "clothing_item",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-JO-CULTURE-MIRROR-2026",
+      "source_locator": "Dress entry: الشماغ الأحمر والعقال",
+      "status": "reported",
+      "subject_id": "ENT-JO-COUNTRY",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "description": "الشماغ بنقوشه الحمراء رمز وطني أردني مع العقال؛ والحطة البيضاء للمدن",
+          "gender": "رجالي",
+          "name": "الشماغ الأحمر والعقال"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "regional",
+      "confidence": "low",
+      "id": "CLM-JO-DEPTH-5918230D36305DCC",
+      "lexical_context": null,
+      "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Levantine-shared dishes stay shared with origin attribution preserved.",
+      "observed_at": "2026-08-15",
+      "predicate": "food_dish",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-JO-CULTURE-MIRROR-2026",
+      "source_locator": "Dish entry: الزرب البدوي",
+      "status": "reported",
+      "subject_id": "ENT-JO-GOVERNORATE-20430BE80A89",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "description": "لحم يطهى في حفرة رملية مغلقة على الجمر؛ قرين الشوا العماني والمدفون",
+          "name": "الزرب البدوي",
+          "note": "تقنية بدوية مشتركة في البوادي العربية",
+          "occasion": "ولائم البادية"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "regional",
+      "confidence": "low",
+      "id": "CLM-JO-DEPTH-5F3204136A4F5A50",
+      "lexical_context": null,
+      "notes": "Dialect profile from secondary mirrors incl. cross-border kinships (Irbid~Hauran, Aqaba mix); unpublished.",
+      "observed_at": "2026-08-15",
+      "predicate": "dialect_profile",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-JO-CULTURE-MIRROR-2026",
+      "source_locator": "Dialect profile: البدوية",
+      "status": "reported",
+      "subject_id": "ENT-JO-GOVERNORATE-20430BE80A89",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "features": [
+            "القاف g أصيلة",
+            "لا باء مضارعة: ودي بدل بدي",
+            "لا شين نفي: ما بعرف لا بعرفش",
+            "أقرب للنجدية والحجازية"
+          ],
+          "group": "البدوية",
+          "sample_words": [],
+          "scope": "البادية الوسطى والشرقية والجنوبية"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "shared",
+      "confidence": "low",
+      "id": "CLM-JO-DEPTH-7DE07D0B39105708",
+      "lexical_context": null,
+      "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Levantine-shared dishes stay shared with origin attribution preserved.",
+      "observed_at": "2026-08-15",
+      "predicate": "food_dish",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-JO-CULTURE-MIRROR-2026",
+      "source_locator": "Dish entry: الكنافة النابلسية",
+      "status": "reported",
+      "subject_id": "ENT-JO-COUNTRY",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "description": "عجين الكنافة بجبنة عكاوي وشراب السكر",
+          "name": "الكنافة النابلسية",
+          "note": "فلسطينية الأصل من نابلس وانتشرت أردنيا — النسب محفوظ",
+          "occasion": "رمضان والأفراح"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "regional",
+      "confidence": "low",
+      "id": "CLM-JO-DEPTH-8E9F73800774570E",
+      "lexical_context": null,
+      "notes": "Dialect profile from secondary mirrors incl. cross-border kinships (Irbid~Hauran, Aqaba mix); unpublished.",
+      "observed_at": "2026-08-15",
+      "predicate": "dialect_profile",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-JO-CULTURE-MIRROR-2026",
+      "source_locator": "Dialect profile: العقباوية",
+      "status": "reported",
+      "subject_id": "ENT-JO-GOVERNORATE-AA6EDAA40E42",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "features": [
+            "مزيج فريد بين المصرية والحجازية والغزاوية بحكم الموقع"
+          ],
+          "group": "العقباوية",
+          "sample_words": [],
+          "scope": "العقبة"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "regional",
+      "confidence": "low",
+      "id": "CLM-JO-DEPTH-93C8E1E92F485AB6",
+      "lexical_context": null,
+      "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Levantine-shared dishes stay shared with origin attribution preserved.",
+      "observed_at": "2026-08-15",
+      "predicate": "food_dish",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-JO-CULTURE-MIRROR-2026",
+      "source_locator": "Dish entry: المكمورة",
+      "status": "reported",
+      "subject_id": "ENT-JO-GOVERNORATE-95F2BA8F63F9",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "description": "طبقات خبز ولحم وبصل بسمن بلدي تخبز في التنور",
+          "name": "المكمورة",
+          "note": "شمالية أردنية",
+          "occasion": "وليمة الشمال"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "regional",
+      "confidence": "medium",
+      "id": "CLM-JO-DEPTH-9ED31D40096A5B57",
+      "lexical_context": null,
+      "notes": "Caucasian minority language documented in secondary mirrors; probable pending an academic atomic source; unpublished.",
+      "observed_at": "2026-08-15",
+      "predicate": "language_presence",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-JO-CULTURE-MIRROR-2026",
+      "source_locator": "Language note: الشركسية (الأديغية)",
+      "status": "reported",
+      "subject_id": "ENT-JO-GOVERNORATE-644B08430E58",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "description": "لغة قوقازية غربية بين الشركس المهاجرين منذ 1878 في عمان ووادي السير وجرش",
+          "language": "الشركسية (الأديغية)"
+        },
+        "type": "json"
+      },
+      "verification_status": "probable"
+    },
+    {
+      "classification": "regional",
+      "confidence": "low",
+      "id": "CLM-JO-DEPTH-DB7CB48981815937",
+      "lexical_context": null,
+      "notes": "Dialect profile from secondary mirrors incl. cross-border kinships (Irbid~Hauran, Aqaba mix); unpublished.",
+      "observed_at": "2026-08-15",
+      "predicate": "dialect_profile",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-JO-CULTURE-MIRROR-2026",
+      "source_locator": "Dialect profile: المدنية العمانية",
+      "status": "reported",
+      "subject_id": "ENT-JO-GOVERNORATE-644B08430E58",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "features": [
+            "القاف همزة بأثر شامي فلسطيني: قال إلى آل",
+            "وسط بين البدوية والشامية مفهومة عربيا"
+          ],
+          "group": "المدنية العمانية",
+          "sample_words": [],
+          "scope": "عمان"
+        },
+        "type": "json"
+      },
+      "verification_status": "local_reported"
+    },
+    {
+      "classification": "regional",
+      "confidence": "medium",
+      "id": "CLM-JO-DEPTH-F1BD9DED4FA351ED",
+      "lexical_context": null,
+      "notes": "Caucasian minority language documented in secondary mirrors; probable pending an academic atomic source; unpublished.",
+      "observed_at": "2026-08-15",
+      "predicate": "language_presence",
+      "published": false,
+      "schema_version": "2.0.0",
+      "second_source_id": null,
+      "second_source_locator": null,
+      "sensitivity": "ordinary",
+      "source_id": "SRC-JO-CULTURE-MIRROR-2026",
+      "source_locator": "Language note: الشيشانية",
+      "status": "reported",
+      "subject_id": "ENT-JO-GOVERNORATE-F18D55CC6398",
+      "unit": null,
+      "valid_from": null,
+      "valid_to": null,
+      "value": {
+        "data": {
+          "description": "لغة قوقازية شمالية شرقية بين الشيشان في الزرقاء والسخنة والأزرق",
+          "language": "الشيشانية"
+        },
+        "type": "json"
+      },
+      "verification_status": "probable"
+    },
+    {
       "classification": "official",
       "confidence": "high",
       "id": "CLM-KM-3099C46B3A7F597D",
@@ -346852,7 +347358,7 @@
     },
     {
       "captured_at": "2026-08-15",
-      "checksum": "sha256:621f22d080c883180907e7e178ea2fbdf99e0a080cb7316b23ca1956ecf67b47",
+      "checksum": "sha256:35c0a9c44a20ea875e37e63f64128b941ce4cb7d03b613263d4472e00b4a5850",
       "id": "SNP-JO-PILOT-2026-08-15",
       "method": "Offline deterministic import from checksum-bound legal, institutional, entity-resolution, and cultural fixtures; current hierarchy derived by applying Regulation No. 29 of 2024 to Regulation No. 46 of 2000.",
       "notes": "Municipalities are a parallel local-administration scope and are not declared complete. DoS statistical qada are not imported as extra legal qada.",
@@ -348019,6 +348525,28 @@
       "source_type": "standard",
       "title": "ISO 3166-1:2020 — Codes for the representation of names of countries and their subdivisions — Part 1: Country code",
       "url": "https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:ed-4:v1:en"
+    },
+    {
+      "archive_url": null,
+      "author": null,
+      "checksum": "sha256:d1f549b76026790fb130f7afedb4cc61e37098a785a80362b443cdbb6be6a5d6",
+      "country_codes": [
+        "JO"
+      ],
+      "id": "SRC-JO-CULTURE-MIRROR-2026",
+      "language": "ar",
+      "license": "Factual extraction with attribution; publisher reuse terms not stated",
+      "locator": "Dialect profiles, Caucasian language notes, dish and dress entries",
+      "notes": "Depth-cycle weak/secondary mirror. Cultural claims stay probable/local_reported and unpublished; Levantine-shared dishes (المقلوبة والكنافة والمسخن) carry shared classification with Palestinian origin attribution preserved — never exclusive ownership. The verified Mansaf UNESCO claim is untouched. Publication date unavailable.",
+      "organization": "Encyclopedic mirror pages on Jordanian culture",
+      "publication_date": null,
+      "publisher": "Encyclopedic mirror pages on Jordanian culture",
+      "quality_tier": "E",
+      "retrieved_at": "2026-08-17",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "Jordanian dialects, languages, cuisine, and dress — encyclopedic mirror pages",
+      "url": "https://ar.wikipedia.org/wiki/%D9%84%D9%87%D8%AC%D8%A9_%D8%A3%D8%B1%D8%AF%D9%86%D9%8A%D8%A9"
     },
     {
       "archive_url": null,

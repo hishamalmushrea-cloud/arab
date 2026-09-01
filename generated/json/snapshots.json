@@ -67,7 +67,7 @@
   },
   {
     "captured_at": "2026-08-15",
-    "checksum": "sha256:621f22d080c883180907e7e178ea2fbdf99e0a080cb7316b23ca1956ecf67b47",
+    "checksum": "sha256:35c0a9c44a20ea875e37e63f64128b941ce4cb7d03b613263d4472e00b4a5850",
     "id": "SNP-JO-PILOT-2026-08-15",
     "method": "Offline deterministic import from checksum-bound legal, institutional, entity-resolution, and cultural fixtures; current hierarchy derived by applying Regulation No. 29 of 2024 to Regulation No. 46 of 2000.",
     "notes": "Municipalities are a parallel local-administration scope and are not declared complete. DoS statistical qada are not imported as extra legal qada.",

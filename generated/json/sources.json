@@ -928,6 +928,28 @@
   {
     "archive_url": null,
     "author": null,
+    "checksum": "sha256:d1f549b76026790fb130f7afedb4cc61e37098a785a80362b443cdbb6be6a5d6",
+    "country_codes": [
+      "JO"
+    ],
+    "id": "SRC-JO-CULTURE-MIRROR-2026",
+    "language": "ar",
+    "license": "Factual extraction with attribution; publisher reuse terms not stated",
+    "locator": "Dialect profiles, Caucasian language notes, dish and dress entries",
+    "notes": "Depth-cycle weak/secondary mirror. Cultural claims stay probable/local_reported and unpublished; Levantine-shared dishes (المقلوبة والكنافة والمسخن) carry shared classification with Palestinian origin attribution preserved — never exclusive ownership. The verified Mansaf UNESCO claim is untouched. Publication date unavailable.",
+    "organization": "Encyclopedic mirror pages on Jordanian culture",
+    "publication_date": null,
+    "publisher": "Encyclopedic mirror pages on Jordanian culture",
+    "quality_tier": "E",
+    "retrieved_at": "2026-08-17",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Jordanian dialects, languages, cuisine, and dress — encyclopedic mirror pages",
+    "url": "https://ar.wikipedia.org/wiki/%D9%84%D9%87%D8%AC%D8%A9_%D8%A3%D8%B1%D8%AF%D9%86%D9%8A%D8%A9"
+  },
+  {
+    "archive_url": null,
+    "author": null,
     "checksum": null,
     "country_codes": [
       "JO"

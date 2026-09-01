@@ -1,23 +1,23 @@
 {
   "counts": {
     "aliases": 3261,
-    "claims": 2489,
+    "claims": 2505,
     "coverage": 115,
     "denominators": 115,
     "entities": 6453,
     "relationships": 6860,
     "snapshots": 28,
-    "sources": 171
+    "sources": 172
   },
   "generator": "scripts/generate.py",
   "inputs": {
     "data/aliases/aliases.jsonl": "sha256:c8c4c5d827f437946cdc4e93f7c4bfa1d1c1675ce02729584ba0901644c7aa39",
-    "data/claims/claims.jsonl": "sha256:cee3184e1e48726c6bb2cac5043592984e80f4b7c88f59a27eadc0db29e2f2d0",
+    "data/claims/claims.jsonl": "sha256:855c938dcf7cf7825eb1036991ff5fac311b5247c3f1fefcbd31a101b1552e1f",
     "data/coverage/coverage.jsonl": "sha256:8769006a9a999c1939e27398cef033d8f944f1eeaed9d4eab57e1a18ba62682d",
     "data/coverage/denominators.jsonl": "sha256:f7491655693cd5e929da176598a9e4a02767d93517a7823cc08071a46a0ffed6",
     "data/entities/entities.jsonl": "sha256:78ce5ad9f4c7e7314feab6596b78fa1eeb660d3fd1f5ae7fde3e831109523913",
     "data/relationships/relationships.jsonl": "sha256:9795a9b544e07694247caeecd2c67e033617bfe01297c478b6cf3a161e34fc56",
-    "data/snapshots/snapshots.jsonl": "sha256:47dd8c639d7e44b6f0b9c68f6a34f110f59f719f4c306499d8fceed5bdd061ae",
+    "data/snapshots/snapshots.jsonl": "sha256:205ae95cc110ebeb19f7dd663035ef8792cd10da7cbabffbef24336c47131b11",
     "data/sources/SRC-ACADEMIC-SA-DIALECT-CORPUS-2020.json": "sha256:8db9aa1b7b0ebee570ab4e5bab6c455fbb03159360564d822a9b338bde5a8d43",
     "data/sources/SRC-AE-AJMAN-ABOUT-2026.json": "sha256:db611da10b5482b40eeacd255591bc11c60518d3ee2964496af1ddb5ddaaee25",
     "data/sources/SRC-AE-DMT-THREE-MUNICIPALITIES-2026.json": "sha256:0d4904c92887ea7cc54ca6d931128ec4df483a76b3faec3c3243e68d123c1a67",
@@ -60,6 +60,7 @@
     "data/sources/SRC-IQ-KRSO-FOUR-GOVERNORATES.json": "sha256:a49da49658f2728176a0c1a10e49fc04194eaeb11820d946819e0448b379ce29",
     "data/sources/SRC-IQ-LAW-7-HALABJA-2025.json": "sha256:97f702fd70f6db18d97b0bd7691dfed92df054f2a2a81fe89eb9a95fe5efabb6",
     "data/sources/SRC-IQ-QADA-LISTS-MIRROR-2026.json": "sha256:7fa96a6467056d3bded163ca2dbff8235e2e7ce57f50d9c5a044b9693cdd99ca",
+    "data/sources/SRC-JO-CULTURE-MIRROR-2026.json": "sha256:7170dddf51bb2d7061a9cd1578c917782b62dc3ab8a800b0c8c2d882d15280a2",
     "data/sources/SRC-JO-DOS-LOCALITIES-2025.json": "sha256:9f31dd8ea2b4d9f9e7889a5e09f1c786e36e2eea69b6c6083edd88e8a90fb305",
     "data/sources/SRC-JO-GAZETTE-5931-2024.json": "sha256:2b2c820cf569b99ad67156c8a260cbca817eb83989309546bbe9b643967f7dfc",
     "data/sources/SRC-JO-MOI-MAAN-2026.json": "sha256:3d1637e9294a2ed84cbeacf3992dd592aefe05d326d7b59beb6af41ea5469303",
