@@ -1,23 +1,23 @@
 {
   "counts": {
     "aliases": 3261,
-    "claims": 2445,
+    "claims": 2469,
     "coverage": 115,
     "denominators": 115,
     "entities": 6453,
     "relationships": 6860,
     "snapshots": 28,
-    "sources": 169
+    "sources": 170
   },
   "generator": "scripts/generate.py",
   "inputs": {
     "data/aliases/aliases.jsonl": "sha256:c8c4c5d827f437946cdc4e93f7c4bfa1d1c1675ce02729584ba0901644c7aa39",
-    "data/claims/claims.jsonl": "sha256:defe7e639fe586acd75c98b5c3df863f4172927f96555c884b7abf4e9ac52454",
+    "data/claims/claims.jsonl": "sha256:74a5f390f52c92d6c4b7919aacd0504d09a575c544299778279e129f2f4b2edb",
     "data/coverage/coverage.jsonl": "sha256:8769006a9a999c1939e27398cef033d8f944f1eeaed9d4eab57e1a18ba62682d",
     "data/coverage/denominators.jsonl": "sha256:f7491655693cd5e929da176598a9e4a02767d93517a7823cc08071a46a0ffed6",
     "data/entities/entities.jsonl": "sha256:78ce5ad9f4c7e7314feab6596b78fa1eeb660d3fd1f5ae7fde3e831109523913",
     "data/relationships/relationships.jsonl": "sha256:9795a9b544e07694247caeecd2c67e033617bfe01297c478b6cf3a161e34fc56",
-    "data/snapshots/snapshots.jsonl": "sha256:058785d57269fd18a229207fd6db029b851c2c5bd56bd4e3136fda5b7173fafa",
+    "data/snapshots/snapshots.jsonl": "sha256:447b0d4adeb61d5e377e85b624ff596c5f301917454ace879b411caa95d9bbb0",
     "data/sources/SRC-ACADEMIC-SA-DIALECT-CORPUS-2020.json": "sha256:8db9aa1b7b0ebee570ab4e5bab6c455fbb03159360564d822a9b338bde5a8d43",
     "data/sources/SRC-AE-AJMAN-ABOUT-2026.json": "sha256:db611da10b5482b40eeacd255591bc11c60518d3ee2964496af1ddb5ddaaee25",
     "data/sources/SRC-AE-DMT-THREE-MUNICIPALITIES-2026.json": "sha256:0d4904c92887ea7cc54ca6d931128ec4df483a76b3faec3c3243e68d123c1a67",
@@ -124,6 +124,7 @@
     "data/sources/SRC-SO-SENATE-CONSTITUENCY.json": "sha256:3cbba9b2ddbd8e3d3e7cbfcdd72f787840be350d457edfb2e32dca782c428225",
     "data/sources/SRC-SO-SONNA-NORTHEAST-DECLARATION-2026.json": "sha256:b379d976eaf36ff148f26cff329f3c4ba16a760e3503af947bbe96cb8786c4b7",
     "data/sources/SRC-SY-CBS-GOVERNORATES-2010.json": "sha256:2eb6afafc46c37e0e59d76fa64def0a5c44994e6b469165e70489486a1335349",
+    "data/sources/SRC-SY-CULTURE-MIRROR-2026.json": "sha256:d5caa76df8db150bfb29de151ac7f4a95a25e80018c94dae28e70b96ff4258a8",
     "data/sources/SRC-SY-SANA-GOVERNORATE-NAV-2026.json": "sha256:e713c9c0e807a32eccc9b4ae99777ab64ea3a2f2a1577901661577a6dd48e564",
     "data/sources/SRC-SY-SIA-ADMIN-DIVISIONS-2026.json": "sha256:19bb0d7520376043a06e5804e769e2733e0b3082a98b52829d552ad484d7e290",
     "data/sources/SRC-TN-DGCL-MUNICIPALITIES-2024.json": "sha256:cd8c8040b168bb3c3c5f5ed9d4ca1e0d1deceebe5b1f3f6786ccf8cffa5a88b3",

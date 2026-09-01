@@ -2327,6 +2327,26 @@
   },
   {
     "archive_url": null,
+    "checksum": "sha256:31da38a58e7199bbfda750aa7dda5fa6657d8767df38828f69104fd6c58b7500",
+    "country_codes": [
+      "SY"
+    ],
+    "id": "SRC-SY-CULTURE-MIRROR-2026",
+    "language": "ar",
+    "license": "Official Syrian institutional/statistical material; factual extraction with attribution; reuse terms not stated",
+    "locator": "Dialect group profiles incl. Aramaic substrate, four language notes, dish and dress entries",
+    "notes": "Depth-cycle weak/secondary mirror. Cultural claims stay probable/local_reported and unpublished; Levantine-shared dishes (الكبة والتبولة واليبرق والمجدرة) carry shared classification, never exclusive ownership; claims sit on the legal frame with no war-condition inference. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Encyclopedic mirror pages on Syrian culture",
+    "quality_tier": "E",
+    "retrieved_at": "2026-08-17",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Syrian dialects, languages, cuisine, and dress — encyclopedic mirror pages",
+    "url": "https://ar.wikipedia.org/wiki/%D9%84%D9%87%D8%AC%D8%A7%D8%AA_%D8%B3%D9%88%D8%B1%D9%8A%D8%A9"
+  },
+  {
+    "archive_url": null,
     "checksum": "sha256:162dd0c600f1745a65b6cf3ccb6ddee1ee75ac0f21a7052e9cbfab7b2a42df2a",
     "country_codes": [
       "SY"

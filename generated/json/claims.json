@@ -62260,6 +62260,825 @@
     "verification_status": "verified"
   },
   {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-SY-DEPTH-00576FD83F9D5BC8",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Levantine-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SY-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: المحمرة",
+    "status": "reported",
+    "subject_id": "ENT-SY-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "غميس الفلفل الحلبي المجفف بالجوز ودبس الرمان",
+        "name": "المحمرة",
+        "note": "حلبية أصيلة والفلفل الحلبي علامة مطبخها",
+        "occasion": "مقبلات"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-SY-DEPTH-031BE1A7845F5A29",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Levantine-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SY-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: المكدوس",
+    "status": "reported",
+    "subject_id": "ENT-SY-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "باذنجان صغير محشو بالجوز والفلفل والثوم مخلل في زيت الزيتون",
+        "name": "المكدوس",
+        "note": "",
+        "occasion": "مؤونة الشتاء"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-SY-DEPTH-07BFBB31BD0D5EF2",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Levantine-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SY-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الشاكرية وحراق أصبعه",
+    "status": "reported",
+    "subject_id": "ENT-SY-GOVERNORATE-01",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "الشاكرية لحم ضأن في الزبادي، وحراق أصبعه عدس وعجين بدبس الرمان",
+        "name": "الشاكرية وحراق أصبعه",
+        "note": "دمشق",
+        "occasion": "غداء وشتاء"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-SY-DEPTH-0CE5436587EC589B",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Levantine-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SY-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الفتة الشامية",
+    "status": "reported",
+    "subject_id": "ENT-SY-GOVERNORATE-01",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "خبز محمص يسقى بمرق الحمص أو اللحم مع السمن والمكسرات؛ من أنواعها فتة المكدوس وفتة المقادم",
+        "name": "الفتة الشامية",
+        "note": "دمشقية",
+        "occasion": "فطور وعزائم"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SY-DEPTH-27C746450B055F82",
+    "lexical_context": null,
+    "notes": "Dialect profile from secondary mirrors; the Aramaic-substrate lexicon carries glosses; a field-attested corpus remains the upgrade path; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SY-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: الجذر الآرامي المشترك",
+    "status": "reported",
+    "subject_id": "ENT-SY-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "كلمات آرامية باقية في العربية الشامية"
+        ],
+        "group": "الجذر الآرامي المشترك",
+        "sample_words": [
+          {
+            "m": "حر شديد؛ آرامية",
+            "w": "شوب"
+          },
+          {
+            "m": "بشر أو نادى؛ آرامية",
+            "w": "كرز"
+          },
+          {
+            "m": "سكين كبيرة؛ آرامية",
+            "w": "ساطور"
+          },
+          {
+            "m": "نعل؛ آرامية",
+            "w": "تاسومة"
+          }
+        ],
+        "scope": "عموم الشام"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-SY-DEPTH-2DF7D8821700540D",
+    "lexical_context": null,
+    "notes": "Living local language documented in secondary mirrors; Turkmen stays local_reported pending an academic atomic source; anchored to the legal governorate frame with no war-condition inference; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SY-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: السريانية الآرامية",
+    "status": "reported",
+    "subject_id": "ENT-SY-GOVERNORATE-09",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لغة سامية حية في قرى الجزيرة كالمالكية ورأس العين ولغة طقسية للكنائس السريانية",
+        "language": "السريانية الآرامية"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-SY-DEPTH-33D286A730BE562E",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Levantine-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SY-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الكبة",
+    "status": "reported",
+    "subject_id": "ENT-SY-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "عجينة برغل ولحم مدقوق تحشى باللحم والمكسرات؛ من أنواعها المقلية والنية واللبنية والسماقية والسفرجلية والمبرومة وحلب مشهورة بها خصوصا",
+        "name": "الكبة",
+        "note": "رمز شامي مشترك بين سوريا ولبنان والعراق — لا ملكية حصرية؛ الشهرة الحلبية مرسوة",
+        "occasion": "الولائم ورمضان"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-SY-DEPTH-374D81F5805A577E",
+    "lexical_context": null,
+    "notes": "Living local language documented in secondary mirrors; Turkmen stays local_reported pending an academic atomic source; anchored to the legal governorate frame with no war-condition inference; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SY-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: الكردية (الكرمانجية)",
+    "status": "reported",
+    "subject_id": "ENT-SY-GOVERNORATE-09",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لغة إيرانية غربية في الحسكة والقامشلي وعفرين وعين العرب",
+        "language": "الكردية (الكرمانجية)"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-SY-DEPTH-3BC0E7BECFB056BB",
+    "lexical_context": null,
+    "notes": "Living local language documented in secondary mirrors; Turkmen stays local_reported pending an academic atomic source; anchored to the legal governorate frame with no war-condition inference; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SY-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: الأرمنية",
+    "status": "reported",
+    "subject_id": "ENT-SY-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لغة الجالية الأرمنية التاريخية في حلب ودمشق والجزيرة",
+        "language": "الأرمنية"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-SY-DEPTH-50D675EF655C58AD",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SY-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: البروكار الدمشقي",
+    "status": "reported",
+    "subject_id": "ENT-SY-GOVERNORATE-01",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "حرير منسوج بخيوط ذهبية علامة دمشق النسيجية للمناسبات",
+        "gender": "نسائي",
+        "name": "البروكار الدمشقي"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SY-DEPTH-533FB2089EE75040",
+    "lexical_context": null,
+    "notes": "Dialect profile from secondary mirrors; the Aramaic-substrate lexicon carries glosses; a field-attested corpus remains the upgrade path; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SY-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: الساحلية",
+    "status": "reported",
+    "subject_id": "ENT-SY-GOVERNORATE-07",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "تفخيم تام للألف: عامل إلى عومل",
+          "ميل إلى الكسر في اللاذقية وجبلة"
+        ],
+        "group": "الساحلية",
+        "sample_words": [
+          {
+            "m": "انظر",
+            "w": "عين"
+          },
+          {
+            "m": "هذا هو",
+            "w": "ليكو"
+          },
+          {
+            "m": "ارفعها",
+            "w": "إبا"
+          }
+        ],
+        "scope": "اللاذقية وجبلة وطرطوس وبانياس"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SY-DEPTH-66BDD13C92A252F6",
+    "lexical_context": null,
+    "notes": "Living local language documented in secondary mirrors; Turkmen stays local_reported pending an academic atomic source; anchored to the legal governorate frame with no war-condition inference; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SY-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: التركمانية",
+    "status": "reported",
+    "subject_id": "ENT-SY-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "تركية أوغوزية في قرى تركمانية بحلب واللاذقية وحمص وحماة والرقة؛ حصرها الدقيق يحتاج مصدرا أكاديميا",
+        "language": "التركمانية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-SY-DEPTH-6AB9965FD6815759",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SY-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الإيكات الحلبي",
+    "status": "reported",
+    "subject_id": "ENT-SY-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "قماش متعدد الألوان بتطريز دقيق وبطانة مزخرفة من تراث حلب النسيجي",
+        "gender": "مشترك",
+        "name": "الإيكات الحلبي"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SY-DEPTH-729C25305E6452A8",
+    "lexical_context": null,
+    "notes": "Dialect profile from secondary mirrors; the Aramaic-substrate lexicon carries glosses; a field-attested corpus remains the upgrade path; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SY-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: الحورانية",
+    "status": "reported",
+    "subject_id": "ENT-SY-GOVERNORATE-13",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "قريبة من بدوية الجنوب والأردن",
+          "هاظ هو بالتفخيم"
+        ],
+        "group": "الحورانية",
+        "sample_words": [],
+        "scope": "درعا والسويداء وحوران"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SY-DEPTH-7A62ECBBF42550BB",
+    "lexical_context": null,
+    "notes": "Dialect profile from secondary mirrors; the Aramaic-substrate lexicon carries glosses; a field-attested corpus remains the upgrade path; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SY-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: الشامية الدمشقية",
+    "status": "reported",
+    "subject_id": "ENT-SY-GOVERNORATE-01",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "القاف همزة: قال إلى آل",
+          "تفخيم خفيف للألف",
+          "النحت الدمشقي: شو بدك ومدري",
+          "أوزان التصغير: كنباية وشنطاية"
+        ],
+        "group": "الشامية الدمشقية",
+        "sample_words": [
+          {
+            "m": "يا أمي",
+            "w": "يامو"
+          },
+          {
+            "m": "إلى الأمام مباشرة",
+            "w": "دغري"
+          },
+          {
+            "m": "هذا هو",
+            "w": "شحو"
+          },
+          {
+            "m": "يا رجل",
+            "w": "يا زلمة"
+          }
+        ],
+        "scope": "دمشق ووسط سوريا"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SY-DEPTH-862D69E794E0576A",
+    "lexical_context": null,
+    "notes": "Dialect profile from secondary mirrors; the Aramaic-substrate lexicon carries glosses; a field-attested corpus remains the upgrade path; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SY-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: الحلبية",
+    "status": "reported",
+    "subject_id": "ENT-SY-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "إمالة الألف إلى الياء: عامل إلى عيمل",
+          "قاف مفخمة خلافا للدمشقية",
+          "معجم مغاير يحتاج معجما خاصا"
+        ],
+        "group": "الحلبية",
+        "sample_words": [
+          {
+            "m": "يا أبي",
+            "w": "يوب"
+          },
+          {
+            "m": "اجلس",
+            "w": "بروك"
+          },
+          {
+            "m": "أبدا نهائيا",
+            "w": "طاول طاول"
+          },
+          {
+            "m": "إلى الأمام؛ مقابل دغري الدمشقية",
+            "w": "سيوي"
+          },
+          {
+            "m": "كوع",
+            "w": "عوجة"
+          }
+        ],
+        "scope": "حلب وشمالها"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SY-DEPTH-8C1BB7B19EC9552A",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SY-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الشروال الساحلي والزي الكردي",
+    "status": "reported",
+    "subject_id": "ENT-SY-GOVERNORATE-07",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "الشروال الفضفاض للساحل والريف، والزبون والشروال والزينار للزي الكردي في الحسكة وعفرين",
+        "gender": "رجالي",
+        "name": "الشروال الساحلي والزي الكردي"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-SY-DEPTH-94B8892A57955E18",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Levantine-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SY-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: اليبرق والمحاشي",
+    "status": "reported",
+    "subject_id": "ENT-SY-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "ورق العنب المحشو بالأرز واللحم",
+        "name": "اليبرق والمحاشي",
+        "note": "شامي عثماني مشترك",
+        "occasion": "مناسبات"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SY-DEPTH-A323BA1ED7F756C6",
+    "lexical_context": null,
+    "notes": "Dialect profile from secondary mirrors; the Aramaic-substrate lexicon carries glosses; a field-attested corpus remains the upgrade path; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SY-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: الديرية",
+    "status": "reported",
+    "subject_id": "ENT-SY-GOVERNORATE-05",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "فراتية قريبة من لهجات غرب العراق",
+          "بدوية الجذور"
+        ],
+        "group": "الديرية",
+        "sample_words": [],
+        "scope": "دير الزور والرقة والشرق"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-SY-DEPTH-AF715DD26F685965",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Levantine-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SY-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: المجدرة",
+    "status": "reported",
+    "subject_id": "ENT-SY-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "عدس وأرز أو برغل وبصل مقلي",
+        "name": "المجدرة",
+        "note": "مشترك شامي",
+        "occasion": "يومي وصيامي"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-SY-DEPTH-B6AA695F697B56D3",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SY-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: القمباز والصاية",
+    "status": "reported",
+    "subject_id": "ENT-SY-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "رداء طويل فضفاض؛ والصاية قمباز من قماش مزخرف كالإيكات الحلبي والبروكار الدمشقي",
+        "gender": "رجالي",
+        "name": "القمباز والصاية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "historical",
+    "confidence": "low",
+    "id": "CLM-SY-DEPTH-C60E36451F80583B",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SY-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الطربوش",
+    "status": "reported",
+    "subject_id": "ENT-SY-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "غطاء رأس أحمر من اللباد دخل مع العثمانيين وظل رمزا حضريا دمشقيا وحلبيا حتى القرن العشرين",
+        "gender": "رجالي",
+        "name": "الطربوش"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-SY-DEPTH-C820251DFC485D7F",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Levantine-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SY-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الكباب الحلبي",
+    "status": "reported",
+    "subject_id": "ENT-SY-GOVERNORATE-02",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لحم غنم مطحون على السيخ بالفلفل الحلبي",
+        "name": "الكباب الحلبي",
+        "note": "حلب",
+        "occasion": "وليمة"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-SY-DEPTH-DD020FDAB9685F91",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Levantine-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SY-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: التبولة والفتوش",
+    "status": "reported",
+    "subject_id": "ENT-SY-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "التبولة بقدونس وبرغل وطماطم وليمون، والفتوش سلطة بالخبز المقرمش ودبس الرمان",
+        "name": "التبولة والفتوش",
+        "note": "شامية مشتركة مع لبنان — لا حصرية",
+        "occasion": "مقبلات"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-SY-F1D7FCFDC0F65101",
