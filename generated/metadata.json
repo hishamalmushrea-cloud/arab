@@ -1,23 +1,23 @@
 {
   "counts": {
     "aliases": 3261,
-    "claims": 2424,
+    "claims": 2445,
     "coverage": 115,
     "denominators": 115,
     "entities": 6453,
     "relationships": 6860,
     "snapshots": 28,
-    "sources": 168
+    "sources": 169
   },
   "generator": "scripts/generate.py",
   "inputs": {
     "data/aliases/aliases.jsonl": "sha256:c8c4c5d827f437946cdc4e93f7c4bfa1d1c1675ce02729584ba0901644c7aa39",
-    "data/claims/claims.jsonl": "sha256:22e89962660b778d005d03a6f1d686c367011b4fae04ce6d096f0c139b4abd7e",
+    "data/claims/claims.jsonl": "sha256:defe7e639fe586acd75c98b5c3df863f4172927f96555c884b7abf4e9ac52454",
     "data/coverage/coverage.jsonl": "sha256:8769006a9a999c1939e27398cef033d8f944f1eeaed9d4eab57e1a18ba62682d",
     "data/coverage/denominators.jsonl": "sha256:f7491655693cd5e929da176598a9e4a02767d93517a7823cc08071a46a0ffed6",
     "data/entities/entities.jsonl": "sha256:78ce5ad9f4c7e7314feab6596b78fa1eeb660d3fd1f5ae7fde3e831109523913",
     "data/relationships/relationships.jsonl": "sha256:9795a9b544e07694247caeecd2c67e033617bfe01297c478b6cf3a161e34fc56",
-    "data/snapshots/snapshots.jsonl": "sha256:28c24089b2d41b2e39cae93e8f93034a6d8a62183d7ce974af14e319d29b4b70",
+    "data/snapshots/snapshots.jsonl": "sha256:058785d57269fd18a229207fd6db029b851c2c5bd56bd4e3136fda5b7173fafa",
     "data/sources/SRC-ACADEMIC-SA-DIALECT-CORPUS-2020.json": "sha256:8db9aa1b7b0ebee570ab4e5bab6c455fbb03159360564d822a9b338bde5a8d43",
     "data/sources/SRC-AE-AJMAN-ABOUT-2026.json": "sha256:db611da10b5482b40eeacd255591bc11c60518d3ee2964496af1ddb5ddaaee25",
     "data/sources/SRC-AE-DMT-THREE-MUNICIPALITIES-2026.json": "sha256:0d4904c92887ea7cc54ca6d931128ec4df483a76b3faec3c3243e68d123c1a67",
@@ -115,6 +115,7 @@
     "data/sources/SRC-SA-SAUDIPEDIA-CENTERS-RIYADH-2026.json": "sha256:ecb3a471154a019591aa7296307bde0b207924fa4159fa159bb77c88fa1ef011",
     "data/sources/SRC-SA-SAUDIPEDIA-CENTERS-TABUK-2026.json": "sha256:64c2b255fdfeb805e4c71ceb51e4e2ce019c1881013f257a9027c0b178f881f2",
     "data/sources/SRC-SD-CBS-AUTHORITY.json": "sha256:ee5e2785ff6e57f167480053758da9c57bfab86d60a6045b7e59cd21c996301c",
+    "data/sources/SRC-SD-CULTURE-MIRROR-2026.json": "sha256:b19587452052264fb1549024044298c18a9b5c517ce7db34b573c299322aaa8b",
     "data/sources/SRC-SD-EMBASSY-QATAR-18-STATES.json": "sha256:a72c4607cefa6e4b08ebdd14b694183d37eead594e56510f22d8c7b96e2ef97a",
     "data/sources/SRC-SD-PRESIDENCY-STATES-CATALOGUE.json": "sha256:1bb628aa82f9566ec4bd3bf7076474cc4735624e49db617c7d1dad63027655a3",
     "data/sources/SRC-SO-MOIFAR-NORTHEAST-2026.json": "sha256:89e95e01a247ede0391e6f273695ff60b3eb1e43e0a5ef6b551e4e2a870a8adb",

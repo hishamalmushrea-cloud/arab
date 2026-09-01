@@ -3,7 +3,7 @@ import json
 from model import ROOT,read_jsonl,write_json
 def L(p):return json.loads(p.read_text(encoding='utf8'))
 def data():
- e=[r for r in read_jsonl(ROOT/'data/entities/entities.jsonl') if r.get('country_code')=='SD'];ids={r['id'] for r in e};sids={'SRC-SD-PRESIDENCY-STATES-CATALOGUE','SRC-SD-EMBASSY-QATAR-18-STATES','SRC-SD-CBS-AUTHORITY'}
+ e=[r for r in read_jsonl(ROOT/'data/entities/entities.jsonl') if r.get('country_code')=='SD'];ids={r['id'] for r in e};sids={'SRC-SD-PRESIDENCY-STATES-CATALOGUE','SRC-SD-EMBASSY-QATAR-18-STATES','SRC-SD-CBS-AUTHORITY','SRC-SD-CULTURE-MIRROR-2026'}
  return {'entities':e,'aliases':[r for r in read_jsonl(ROOT/'data/aliases/aliases.jsonl') if r.get('entity_id') in ids],'relationships':[r for r in read_jsonl(ROOT/'data/relationships/relationships.jsonl') if r.get('child_id') in ids],'claims':[r for r in read_jsonl(ROOT/'data/claims/claims.jsonl') if r.get('subject_id') in ids],'sources':[L(p) for p in (ROOT/'data/sources').glob('*.json') if L(p).get('id') in sids],'denominators':[r for r in read_jsonl(ROOT/'data/coverage/denominators.jsonl') if r.get('country_code')=='SD'],'coverage':[r for r in read_jsonl(ROOT/'data/coverage/coverage.jsonl') if r.get('country_code')=='SD']}
 def validate(d):
  f=L(ROOT/'data/imports/sudan/fixtures/states_2026.json');E={r['id']:r for r in d['entities']};C=d['claims'];e=[]
@@ -25,6 +25,14 @@ def validate(d):
  for i in ['COV-SD-LOCALITIES','COV-SD-ADMIN-UNITS']:
   r=cov.get(i,{})
   if r.get('denominator') is not None or r.get('coverage_percentage') is not None:x('SD_UNAVAILABLE_LOWER',i,'no denominator/percentage')
+ depth=[c for c in C if c.get('predicate') in {'language_presence','dialect_profile','food_dish','clothing_item'}]
+ if len(depth)!=21 or any(c.get('published') for c in depth):x('SD_DEPTH_UNPUBLISHED','claims','21 unpublished cultural depth claims')
+ langs=[c for c in depth if c['predicate']=='language_presence']
+ if len(langs)!=6 or any(c.get('verification_status') not in {'probable','local_reported'} for c in langs):x('SD_DEPTH_LANGS','claims','6 language claims at probable/local_reported')
+ rest=[c for c in depth if c['predicate']!='language_presence']
+ if any(c.get('verification_status')!='local_reported' or not c.get('classification') for c in rest):x('SD_DEPTH_STATUS','claims','dialect/dish/dress stay local_reported with explicit classification')
+ ful=next((c for c in depth if c['predicate']=='food_dish' and 'الفول' in c['value']['data'].get('name','')),None)
+ if not ful or ful.get('classification')!='shared':x('SD_SHARED_NOT_EXCLUSIVE','claims','ful/taamiya must stay shared with the Nile valley')
  return e
 def main():
  d=data();e=validate(d);met={k:len(d[k]) for k in ['entities','aliases','relationships','claims','sources','denominators','coverage']};write_json(ROOT/'reports/sudan_validation.json',{'schema_version':'2.0.0','country_code':'SD','status':'PASS' if not e else 'FAIL','p0':len(e),'critical_p1':0,'metrics':met,'errors':e});print(met);return 0 if not e else 1

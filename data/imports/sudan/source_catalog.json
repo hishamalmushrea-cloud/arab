@@ -61,6 +61,26 @@
       "source_type": "institutional_page",
       "title": "Central Bureau of Statistics",
       "url": "http://cbs.gov.sd/index.php/ar/"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9557164567c5ff18989a9d609acd9715f997b5d150b4052dbba0b4852478b732",
+      "country_codes": [
+        "SD"
+      ],
+      "id": "SRC-SD-CULTURE-MIRROR-2026",
+      "language": "ar",
+      "license": "Official Sudan government material; factual extraction with attribution; reuse terms not stated",
+      "locator": "Dialect group profiles, six language notes, dish and dress entries",
+      "notes": "Depth-cycle weak/secondary mirror. Cultural claims stay probable/local_reported and unpublished; Nile-valley shared dishes (الفول والطعمية) carry shared classification, never exclusive ownership; cultural claims sit on the legal state frame with no war-condition inference. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Encyclopedic mirror pages on Sudanese culture",
+      "quality_tier": "E",
+      "retrieved_at": "2026-08-17",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "Sudanese dialects, languages, cuisine, and dress — encyclopedic mirror pages",
+      "url": "https://ar.wikipedia.org/wiki/%D9%84%D9%87%D8%AC%D8%A9_%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A%D8%A9"
     }
   ]
 }

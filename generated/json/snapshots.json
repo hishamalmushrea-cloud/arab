@@ -210,7 +210,7 @@
   },
   {
     "captured_at": "2026-08-17",
-    "checksum": "sha256:9fa9084edb2201832c95be78a1f387d64362edb150d052878a016ed0603f1608",
+    "checksum": "sha256:3fe5e27871baa567963b4cb8207458f22d0844495eefc4e6e8d0adae38547e61",
     "id": "SNP-SD-PRODUCTION-20260817",
     "method": "Checksum-bound reconciliation of exact Presidency catalogue and government 18-state confirmation; stale 17-state pages rejected.",
     "notes": "Abyei, control, operation, destruction, displacement, and access require separate dated narratives.",

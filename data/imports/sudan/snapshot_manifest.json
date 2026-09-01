@@ -2,7 +2,15 @@
   "captured_at": "2026-08-17",
   "country_code": "SD",
   "limitation": "Presidency catalogue is search-index retrievable but currently returns 404; embassy count independently confirms 18.",
+  "reconciliation": {
+    "cultural_frame": "21 cultural claims: 6 language claims (Nubian/Beja/Fur probable; Masalit and Nuba-mountains languages local_reported), 3 dialect profiles with Nubian-origin Khartoum lexicon, 8 dishes (ful/taamiya shared with Egypt), 4 dress claims; all unpublished; no war-condition inference."
+  },
   "records": [
+    {
+      "path": "fixtures/cultural_depth_2026.json",
+      "record_count": 21,
+      "sha256": "9557164567c5ff18989a9d609acd9715f997b5d150b4052dbba0b4852478b732"
+    },
     {
       "path": "fixtures/states_2026.json",
       "record_count": 18,

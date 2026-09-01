@@ -60846,6 +60846,682 @@
     "verification_status": "verified"
   },
   {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-SD-DEPTH-0550E65310E756D1",
+    "lexical_context": null,
+    "notes": "Living local language documented in secondary mirrors; Masalit and Nuba-mountains inventories stay local_reported pending academic atomic sources; anchored to the legal state frame with no war-condition inference; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SD-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: الفور",
+    "status": "reported",
+    "subject_id": "ENT-SD-STATE-14",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لغة نيلية صحراوية يتحدثها الفور في دارفور وأعطت الإقليم اسمه",
+        "language": "الفور"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SD-DEPTH-1683E329FE035EBA",
+    "lexical_context": null,
+    "notes": "Dialect profile from secondary mirrors; a field-attested corpus remains the upgrade path; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SD-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: لهجة البقارة",
+    "status": "reported",
+    "subject_id": "ENT-SD-STATE-11",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "بدوية رعوية",
+          "إمالة: خمسة إلى خمسي وفاطمة إلى فاطني",
+          "قرابة باللهجات التشادية"
+        ],
+        "group": "لهجة البقارة",
+        "sample_words": [],
+        "scope": "كردفان ودارفور الرعوية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-SD-DEPTH-1C15FA21FFAA5705",
+    "lexical_context": null,
+    "notes": "Living local language documented in secondary mirrors; Masalit and Nuba-mountains inventories stay local_reported pending academic atomic sources; anchored to the legal state frame with no war-condition inference; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SD-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: البداويت (لغة البجا)",
+    "status": "reported",
+    "subject_id": "ENT-SD-STATE-01",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لغة كوشية يتحدثها البجا في شرق السودان وتسمى محليا الهداريت",
+        "language": "البداويت (لغة البجا)"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-SD-DEPTH-1D2B560F43E251E5",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Nile-valley shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SD-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الأقاشي",
+    "status": "reported",
+    "subject_id": "ENT-SD-STATE-07",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لحم مشوي على أسياخ بتتبيلة الشطة والفول السوداني؛ شائع في الخرطوم",
+        "name": "الأقاشي",
+        "note": "",
+        "occasion": "مطاعم الشارع"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SD-DEPTH-322D3A2DD19159A0",
+    "lexical_context": null,
+    "notes": "Dialect profile from secondary mirrors; a field-attested corpus remains the upgrade path; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SD-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: الخرطومية",
+    "status": "reported",
+    "subject_id": "ENT-SD-STATE-07",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "مزيج جعلي نوبي ريفي",
+          "الأوسع إعلاميا",
+          "مؤثرات مصرية وتركية وإنجليزية"
+        ],
+        "group": "الخرطومية",
+        "sample_words": [
+          {
+            "m": "شخص؛ نوبية الأصل",
+            "w": "زول"
+          },
+          {
+            "m": "جيد أو جميل",
+            "w": "سمح"
+          },
+          {
+            "m": "الآن",
+            "w": "هسي"
+          },
+          {
+            "m": "ماذا",
+            "w": "شنو"
+          },
+          {
+            "m": "أريد",
+            "w": "داير"
+          },
+          {
+            "m": "قطة؛ نوبية",
+            "w": "كديسة"
+          },
+          {
+            "m": "سرير الحبال؛ نوبية",
+            "w": "عنجريب"
+          }
+        ],
+        "scope": "العاصمة والمدن"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-SD-DEPTH-3DC3AFAF8F8D5225",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Nile-valley shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SD-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الفول المدمس والطعمية",
+    "status": "reported",
+    "subject_id": "ENT-SD-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "فول بالزيت والتوابل مع الطعمية",
+        "name": "الفول المدمس والطعمية",
+        "note": "مشترك مع مصر ووادي النيل — لا حصرية",
+        "occasion": "فطور المدن"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-SD-DEPTH-4E1152DE235F5536",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SD-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الجلابية السودانية والعمة",
+    "status": "reported",
+    "subject_id": "ENT-SD-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "ثوب أبيض فضفاض بلا ياقة بأكمام واسعة، ومعه العمة القطنية البيضاء التي تعكس طريقة لفها الانتماء الاجتماعي والديني؛ ومن أنواعها جلابية الأنصارية بجيبيها وثوب السرتي الناصع بزيقه الأحمر للجرتق",
+        "gender": "رجالي",
+        "name": "الجلابية السودانية والعمة"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-SD-DEPTH-55147967453B5524",
+    "lexical_context": null,
+    "notes": "Living local language documented in secondary mirrors; Masalit and Nuba-mountains inventories stay local_reported pending academic atomic sources; anchored to the legal state frame with no war-condition inference; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SD-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: لغات نوبية (الدنقلاوية والمحسية والكنزية والحلفاوية)",
+    "status": "reported",
+    "subject_id": "ENT-SD-STATE-09",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "مجموعة لغوية نوبية حية في الولاية الشمالية على النيل شمالا",
+        "language": "لغات نوبية (الدنقلاوية والمحسية والكنزية والحلفاوية)"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-SD-DEPTH-5B71783F95BF537C",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SD-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: المرقعة الصوفية",
+    "status": "reported",
+    "subject_id": "ENT-SD-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "جلابية خضراء بحواف حمراء تلبسها الطرق الصوفية وخاصة الختمية",
+        "gender": "رجالي",
+        "name": "المرقعة الصوفية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SD-DEPTH-61F6C4D3ABD35055",
+    "lexical_context": null,
+    "notes": "Living local language documented in secondary mirrors; Masalit and Nuba-mountains inventories stay local_reported pending academic atomic sources; anchored to the legal state frame with no war-condition inference; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SD-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: لغات جبال النوبة (كاوليب وميري وغيرها)",
+    "status": "reported",
+    "subject_id": "ENT-SD-STATE-12",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "عشرات اللغات الكردفانية في جبال النوبة بجنوب كردفان؛ حصرها الدقيق يحتاج مصدرا أكاديميا ذريا",
+        "language": "لغات جبال النوبة (كاوليب وميري وغيرها)"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-SD-DEPTH-688784ADB9E25429",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Nile-valley shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SD-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: العصيدة بالويكة",
+    "status": "reported",
+    "subject_id": "ENT-SD-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "عصيدة دقيق الذرة تقدم مع ملاح الويكة من البامية المجففة المطحونة",
+        "name": "العصيدة بالويكة",
+        "note": "",
+        "occasion": "رمضان والأعياد"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-SD-DEPTH-7E6D304E42445BC3",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Nile-valley shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SD-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الكسرة",
+    "status": "reported",
+    "subject_id": "ENT-SD-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "رقائق رقيقة مخمرة من دقيق الذرة أو الدخن تخبز على الصاج وتؤكل مع الملاح",
+        "name": "الكسرة",
+        "note": "",
+        "occasion": "الخبز اليومي"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-SD-DEPTH-826C9179C4FC5C1C",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SD-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الثوب السوداني النسائي",
+    "status": "reported",
+    "subject_id": "ENT-SD-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "قماش طويل يلف على كامل الجسد فوق الملابس؛ الزي القومي النسائي بأسماء تجارية وألوان تتجدد كل موسم",
+        "gender": "نسائي",
+        "name": "الثوب السوداني النسائي"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SD-DEPTH-87E9A9D92E175A4A",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Nile-valley shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SD-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: أم فتفت",
+    "status": "reported",
+    "subject_id": "ENT-SD-STATE-09",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "طبق الكرش والكبد بالليمون شائع في الشمال",
+        "name": "أم فتفت",
+        "note": "",
+        "occasion": "وجبة شمالية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-SD-DEPTH-90F7E8DE6AD85FF8",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Nile-valley shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SD-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الحلومر والآبري",
+    "status": "reported",
+    "subject_id": "ENT-SD-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "مشروبات رمضانية مخمرة من الذرة بالتوابل",
+        "name": "الحلومر والآبري",
+        "note": "",
+        "occasion": "رمضان"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-SD-DEPTH-9F64F3BB984C50E1",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Nile-valley shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SD-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: قهوة الجبنة",
+    "status": "reported",
+    "subject_id": "ENT-SD-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "قهوة تحضر في إبريق الجبنة الفخاري بالزنجبيل والقرنفل؛ طقس ضيافة سوداني",
+        "name": "قهوة الجبنة",
+        "note": "تشترك تسمية الجبنة مع القرن الأفريقي؛ الطقس السوداني موثق محليا",
+        "occasion": "الضيافة"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SD-DEPTH-A4A35236C6EA583C",
+    "lexical_context": null,
+    "notes": "Living local language documented in secondary mirrors; Masalit and Nuba-mountains inventories stay local_reported pending academic atomic sources; anchored to the legal state frame with no war-condition inference; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SD-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: المساليت",
+    "status": "reported",
+    "subject_id": "ENT-SD-STATE-16",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لغة مسلات في غرب دارفور؛ توثيقها المتاح ثانوي",
+        "language": "المساليت"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SD-DEPTH-A9D2CE360975594D",
+    "lexical_context": null,
+    "notes": "Dialect profile from secondary mirrors; a field-attested corpus remains the upgrade path; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SD-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: الجعلية",
+    "status": "reported",
+    "subject_id": "ENT-SD-STATE-08",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "فصاحة وإمالة",
+          "حذف مثل ود بدل ولد",
+          "نبرة الشايقية الموسيقية"
+        ],
+        "group": "الجعلية",
+        "sample_words": [],
+        "scope": "وسط وشمال السودان على النيل"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SD-DEPTH-CD1622236701519F",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SD-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: القميص السواكني والسربادوب",
+    "status": "reported",
+    "subject_id": "ENT-SD-STATE-01",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "قميص بياقة وأزرار مع الصديري وسروال السربادوب الواسع في شرق السودان",
+        "gender": "رجالي",
+        "name": "القميص السواكني والسربادوب"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-SD-DEPTH-D44193C8A00C5623",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Nile-valley shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SD-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: ملاح التقلية وملاح الروب",
+    "status": "reported",
+    "subject_id": "ENT-SD-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "عائلة الملاح السودانية: التقلية بالطماطم واللحم والثوم، والروب بالزبادي واللحم",
+        "name": "ملاح التقلية وملاح الروب",
+        "note": "الملاح جنس طهوي سوداني كامل لا طبق واحد",
+        "occasion": "يومي"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-SD-DEPTH-E94B839E0DC35F29",
+    "lexical_context": null,
+    "notes": "Living local language documented in secondary mirrors; Masalit and Nuba-mountains inventories stay local_reported pending academic atomic sources; anchored to the legal state frame with no war-condition inference; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SD-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: الزغاوية",
+    "status": "reported",
+    "subject_id": "ENT-SD-STATE-14",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لغة صحراوية شرقية في شمال دارفور والحدود التشادية",
+        "language": "الزغاوية"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
     "classification": "official",
     "confidence": "medium",
     "id": "CLM-SD-E0CE6F85FECC5F93",

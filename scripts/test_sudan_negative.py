@@ -14,5 +14,9 @@ def main():
  r('SD_WRONG_DENOMINATOR',lambda d:next(x for x in d['denominators'] if x['id']=='DEN-SD-STATES').update(value=17),'SD_DENOMINATORS')
  r('SD_FAKE_LOCALITY_PERCENT',lambda d:next(x for x in d['coverage'] if x['id']=='COV-SD-LOCALITIES').update(denominator=189,coverage_percentage=1.0),'SD_UNAVAILABLE_LOWER')
  r('SD_WRONG_PARENT',lambda d:next(x for x in d['relationships'] if x['child_id']=='ENT-SD-STATE-18').update(parent_id='ENT-SD-STATE-01'),'SD_PARENT')
- ok=all(x['detected'] for x in o);write_json(ROOT/'reports/sudan_negative_tests.json',{'schema_version':'2.0.0','country_code':'SD','status':'PASS' if ok else 'FAIL','required':9,'detected':sum(x['detected'] for x in o),'mutations':o});return 0 if ok else 1
+ r('SD_DEPTH_PUBLISHED',lambda d:next(x for x in d['claims'] if x.get('predicate')=='food_dish').update(published=True),'SD_DEPTH_UNPUBLISHED')
+ r('SD_FUL_EXCLUSIVE',lambda d:next(x for x in d['claims'] if x.get('predicate')=='food_dish' and 'الفول' in x['value']['data'].get('name','')).update(classification='national'),'SD_SHARED_NOT_EXCLUSIVE')
+ r('SD_LANG_DROPPED',lambda d:d['claims'].__setitem__(slice(None),[x for x in d['claims'] if x.get('predicate')!='language_presence']),'SD_DEPTH_LANGS')
+ r('SD_DIALECT_PROMOTED',lambda d:next(x for x in d['claims'] if x.get('predicate')=='dialect_profile').update(verification_status='verified'),'SD_DEPTH_STATUS')
+ ok=all(x['detected'] for x in o);write_json(ROOT/'reports/sudan_negative_tests.json',{'schema_version':'2.0.0','country_code':'SD','status':'PASS' if ok else 'FAIL','required':13,'detected':sum(x['detected'] for x in o),'mutations':o});return 0 if ok else 1
 if __name__=='__main__':raise SystemExit(main())

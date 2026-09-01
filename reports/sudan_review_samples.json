@@ -10,7 +10,7 @@
       "sample_size": 1
     },
     "claims": {
-      "population": 19,
+      "population": 40,
       "record_ids": [
         "CLM-SD-1E897502EEE35F42",
         "CLM-SD-336C9FCF4B08549A",
@@ -25,6 +25,27 @@
         "CLM-SD-C83F8E20447458DA",
         "CLM-SD-C8D80827A6A357A0",
         "CLM-SD-CCAEF75FB1DF502E",
+        "CLM-SD-DEPTH-0550E65310E756D1",
+        "CLM-SD-DEPTH-1683E329FE035EBA",
+        "CLM-SD-DEPTH-1C15FA21FFAA5705",
+        "CLM-SD-DEPTH-1D2B560F43E251E5",
+        "CLM-SD-DEPTH-322D3A2DD19159A0",
+        "CLM-SD-DEPTH-3DC3AFAF8F8D5225",
+        "CLM-SD-DEPTH-4E1152DE235F5536",
+        "CLM-SD-DEPTH-55147967453B5524",
+        "CLM-SD-DEPTH-5B71783F95BF537C",
+        "CLM-SD-DEPTH-61F6C4D3ABD35055",
+        "CLM-SD-DEPTH-688784ADB9E25429",
+        "CLM-SD-DEPTH-7E6D304E42445BC3",
+        "CLM-SD-DEPTH-826C9179C4FC5C1C",
+        "CLM-SD-DEPTH-87E9A9D92E175A4A",
+        "CLM-SD-DEPTH-90F7E8DE6AD85FF8",
+        "CLM-SD-DEPTH-9F64F3BB984C50E1",
+        "CLM-SD-DEPTH-A4A35236C6EA583C",
+        "CLM-SD-DEPTH-A9D2CE360975594D",
+        "CLM-SD-DEPTH-CD1622236701519F",
+        "CLM-SD-DEPTH-D44193C8A00C5623",
+        "CLM-SD-DEPTH-E94B839E0DC35F29",
         "CLM-SD-E0CE6F85FECC5F93",
         "CLM-SD-E16B679197905522",
         "CLM-SD-E4EC1530DCC45064",
@@ -33,7 +54,7 @@
         "CLM-SD-FF902AFAC8755771"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 19
+      "sample_size": 40
     },
     "coverage": {
       "population": 4,
@@ -109,14 +130,15 @@
       "sample_size": 18
     },
     "sources": {
-      "population": 3,
+      "population": 4,
       "record_ids": [
         "SRC-SD-CBS-AUTHORITY",
+        "SRC-SD-CULTURE-MIRROR-2026",
         "SRC-SD-EMBASSY-QATAR-18-STATES",
         "SRC-SD-PRESIDENCY-STATES-CATALOGUE"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 3
+      "sample_size": 4
     }
   },
   "schema_version": "2.0.0"
