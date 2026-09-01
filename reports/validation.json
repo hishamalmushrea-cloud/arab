@@ -6,8 +6,8 @@
       "status": "pass"
     },
     "claims": {
-      "claims": 2505,
-      "sourced": 2505,
+      "claims": 2525,
+      "sourced": 2525,
       "status": "pass"
     },
     "coordinates": {
@@ -51,7 +51,7 @@
     },
     "ids": {
       "duplicate_ids": 0,
-      "global_ids": 19509,
+      "global_ids": 19530,
       "status": "pass"
     },
     "independent_review": {
@@ -108,14 +108,14 @@
       "tunisia_published_claims": 69
     },
     "sources": {
-      "atomic_files": 172,
-      "references": 22200,
-      "sources": 172,
+      "atomic_files": 173,
+      "references": 22220,
+      "sources": 173,
       "status": "pass"
     },
     "structured_data": {
       "record_families": 8,
-      "records": 19509,
+      "records": 19530,
       "status": "pass"
     },
     "unicode": {
@@ -125,14 +125,14 @@
   },
   "counts": {
     "aliases": 3261,
-    "claims": 2505,
+    "claims": 2525,
     "coverage": 115,
     "denominators": 115,
     "entities": 6453,
     "manifests": 22,
     "relationships": 6860,
     "snapshots": 28,
-    "sources": 172
+    "sources": 173
   },
   "errors": [],
   "status": "pass"

@@ -64259,6 +64259,685 @@
     "verification_status": "verified"
   },
   {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-TN-DEPTH-01D8CE971BC25BDA",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Maghreb-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-TN-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الزلابية والمخارق",
+    "status": "reported",
+    "subject_id": "ENT-TN-GOVERNORATE-D28A09D558AD",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "حلويات رمضان المقلية بالعسل؛ والمقروض القيرواني علامة القيروان الأولى",
+        "name": "الزلابية والمخارق",
+        "note": "المقروض القيرواني مرسو على مدينته",
+        "occasion": "رمضان"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-TN-DEPTH-0376E11A94B25029",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Maghreb-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-TN-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: البريك",
+    "status": "reported",
+    "subject_id": "ENT-TN-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "عجينة الملسوقة الشفافة تحشى بالبيض والتونة والبطاطا وتقلى",
+        "name": "البريك",
+        "note": "أندلسي الجذور ومشترك مغاربيا مع البوراك الجزائري — لا حصرية",
+        "occasion": "ملك مائدة رمضان"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-TN-DEPTH-1A1C0DBDDFAB5B1F",
+    "lexical_context": null,
+    "notes": "Amazigh/French presence from secondary mirrors; the extinct Sened variety stays local_reported; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-TN-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: لغة سند الأمازيغية",
+    "status": "reported",
+    "subject_id": "ENT-TN-GOVERNORATE-DF747014232C",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لهجة أمازيغية منقرضة أو شبه منقرضة بفعل ضغط التعريب؛ توثيقها المتاح ثانوي",
+        "language": "لغة سند الأمازيغية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-TN-DEPTH-202E875C412E53E7",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; Carthage-origin stories stay narratives; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-TN-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: البرنوس والقشابية",
+    "status": "reported",
+    "subject_id": "ENT-TN-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "المعطف الصوفي الشتوي بلا أكمام؛ أمازيغي مشترك مغاربيا",
+        "gender": "رجالي",
+        "name": "البرنوس والقشابية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-TN-DEPTH-2346748365A0530C",
+    "lexical_context": null,
+    "notes": "Dialect profile from secondary mirrors incl. Amazigh-substrate and Mediterranean-loan lexicons; the dialect-vs-language debate is recorded neutrally; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-TN-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: الشمال الشرقي",
+    "status": "reported",
+    "subject_id": "ENT-TN-GOVERNORATE-DB8D5C457676",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "الأكثر تأثرا بالإيطالية والفرنسية",
+          "إنت للمذكر والمؤنث في المنادى"
+        ],
+        "group": "الشمال الشرقي",
+        "sample_words": [
+          {
+            "m": "قط؛ إيطالية gatto",
+            "w": "قطوس"
+          },
+          {
+            "m": "مطبخ؛ إيطالية",
+            "w": "كوجينة"
+          },
+          {
+            "m": "حسنا؛ إيطالية",
+            "w": "دكوردو"
+          }
+        ],
+        "scope": "تونس الكبرى وبنزرت ونابل وزغوان"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-TN-DEPTH-2752DF138531593E",
+    "lexical_context": null,
+    "notes": "Amazigh/French presence from secondary mirrors; the extinct Sened variety stays local_reported; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-TN-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: أمازيغية جربة ومطماطة (الشلحة)",
+    "status": "reported",
+    "subject_id": "ENT-TN-GOVERNORATE-902616FE3988",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لهجات أمازيغية حية لأقلية في الجنوب الشرقي بجربة ومطماطة وتسمى محليا الجبالي أو الشلحة؛ نحو واحد بالمئة رسميا وتقديرات غير رسمية أعلى",
+        "language": "أمازيغية جربة ومطماطة (الشلحة)"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-TN-DEPTH-312FDCC1FF945B39",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; Carthage-origin stories stay narratives; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-TN-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: السفساري",
+    "status": "reported",
+    "subject_id": "ENT-TN-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "رداء نسائي حريري أو قطني يلف الجسد؛ بعض المصادر ترجعه إلى حضارة قرطاج وهذا يعرض كرواية",
+        "gender": "نسائي",
+        "name": "السفساري"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-TN-DEPTH-31CD8F9B07A75222",
+    "lexical_context": null,
+    "notes": "Dialect profile from secondary mirrors incl. Amazigh-substrate and Mediterranean-loan lexicons; the dialect-vs-language debate is recorded neutrally; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-TN-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: الساحل",
+    "status": "reported",
+    "subject_id": "ENT-TN-GOVERNORATE-97D2B1489F90",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "آني ضمير المتكلم بدل أنا — الميزة الأشهر"
+        ],
+        "group": "الساحل",
+        "sample_words": [
+          {
+            "m": "أنا",
+            "w": "آني"
+          }
+        ],
+        "scope": "سوسة والمنستير والمهدية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-TN-DEPTH-3435F09319DB5019",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; Carthage-origin stories stay narratives; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-TN-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الشاشية الحمراء",
+    "status": "reported",
+    "subject_id": "ENT-TN-GOVERNORATE-DB8D5C457676",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "القبعة الحمراء العثمانية الجذور؛ سوق الشواشين بتونس العتيقة مركز صناعتها التاريخي",
+        "gender": "رجالي",
+        "name": "الشاشية الحمراء"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-TN-DEPTH-4898994A28B75604",
+    "lexical_context": null,
+    "notes": "Amazigh/French presence from secondary mirrors; the extinct Sened variety stays local_reported; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-TN-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: الفرنسية",
+    "status": "reported",
+    "subject_id": "ENT-TN-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لغة إدارية وتجارية وتعليمية راسخة منذ الحماية دون ترسيم دستوري",
+        "language": "الفرنسية"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-TN-DEPTH-59F44FADBE5955B8",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Maghreb-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-TN-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الكسكسي",
+    "status": "reported",
+    "subject_id": "ENT-TN-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "سميد يطهى على البخار في الكسكاس بمرق أحمر متبل؛ أوان تعود للملك النوميدي ماسينيسا؛ أصنافه المسفوف والمغموم وكسكسي المؤونة المجفف",
+        "name": "الكسكسي",
+        "note": "ملف اليونسكو الرباعي المشترك 2020 — لا حصرية؛ الفوارق الجهوية مرسوة: بالعلوش في الوسط وبالحوت في صفاقس وبالعصبان في الساحل",
+        "occasion": "جمعة وأعراس وأتراح ووعدة"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-TN-DEPTH-5EEDAABF9EE65913",
+    "lexical_context": null,
+    "notes": "Dialect profile from secondary mirrors incl. Amazigh-substrate and Mediterranean-loan lexicons; the dialect-vs-language debate is recorded neutrally; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-TN-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: الجنوب الغربي",
+    "status": "reported",
+    "subject_id": "ENT-TN-GOVERNORATE-D7972CC63F7E",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "من أقرب لهجات المغرب العربي إلى الفصحى"
+        ],
+        "group": "الجنوب الغربي",
+        "sample_words": [],
+        "scope": "توزر وقبلي وقفصة"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-TN-DEPTH-6DDA47192DE650FE",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Maghreb-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-TN-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: دقلة النور والتمور",
+    "status": "reported",
+    "subject_id": "ENT-TN-GOVERNORATE-D7972CC63F7E",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "تمر دقلة النور من واحات الجريد بتوزر وقبلي؛ ركيزة اقتصاد الجنوب",
+        "name": "دقلة النور والتمور",
+        "note": "",
+        "occasion": "الواحات"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-TN-DEPTH-8293E9B4A86C5958",
+    "lexical_context": null,
+    "notes": "Dialect profile from secondary mirrors incl. Amazigh-substrate and Mediterranean-loan lexicons; the dialect-vs-language debate is recorded neutrally; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-TN-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: الركيزة الأمازيغية في الدارجة",
+    "status": "reported",
+    "subject_id": "ENT-TN-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "مفردات أمازيغية أصيلة باقية في الدارجة"
+        ],
+        "group": "الركيزة الأمازيغية في الدارجة",
+        "sample_words": [
+          {
+            "m": "التين؛ أمازيغية",
+            "w": "كرموس"
+          },
+          {
+            "m": "سلحفاة؛ أمازيغية",
+            "w": "فكرون"
+          },
+          {
+            "m": "أقرع؛ أمازيغية",
+            "w": "فرطاس"
+          },
+          {
+            "m": "أبكم؛ أمازيغية",
+            "w": "بكوش"
+          },
+          {
+            "m": "شارب؛ أمازيغية",
+            "w": "شلغوم"
+          }
+        ],
+        "scope": "عموم تونس"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-TN-DEPTH-91B971D9CD6D5C5F",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Maghreb-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-TN-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الهريسة",
+    "status": "reported",
+    "subject_id": "ENT-TN-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "صلصة الفلفل الأحمر الحار بالثوم والبهارات؛ بصمة تونس التي تميز مطبخها بقوة الحر عن جيرانها",
+        "name": "الهريسة",
+        "note": "مدرجة لدى اليونسكو 2022 باسم تونس",
+        "occasion": "روح المطبخ"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-TN-DEPTH-C0B6F0544F6A566C",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; Carthage-origin stories stay narratives; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-TN-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الجبة التونسية",
+    "status": "reported",
+    "subject_id": "ENT-TN-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لباس خارجي فضفاض بفتحة مطرزة عند الرقبة؛ زي العريس مع السروال العربي والبلغة والشاشية",
+        "gender": "رجالي",
+        "name": "الجبة التونسية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-TN-DEPTH-C5C91B0C061B5576",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Maghreb-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-TN-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: كسكسي صفاقس بالحوت",
+    "status": "reported",
+    "subject_id": "ENT-TN-GOVERNORATE-97D2B1489F90",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "الكسكسي بالسمك علامة صفاقس والساحل الشرقي",
+        "name": "كسكسي صفاقس بالحوت",
+        "note": "",
+        "occasion": "مائدة الساحل الشرقي"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-TN-DEPTH-E1756A48AFB4522B",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Maghreb-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-TN-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: اللبلابي والهرقمة",
+    "status": "reported",
+    "subject_id": "ENT-TN-GOVERNORATE-DB8D5C457676",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "حمص مسلوق بالكمون والخبز والهريسة وعصير الليمون؛ والهرقمة نسخته باللحم",
+        "name": "اللبلابي والهرقمة",
+        "note": "",
+        "occasion": "شتاء المدن الشعبي"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-TN-DEPTH-E930664E6FB05ECE",
+    "lexical_context": null,
+    "notes": "Dialect profile from secondary mirrors incl. Amazigh-substrate and Mediterranean-loan lexicons; the dialect-vs-language debate is recorded neutrally; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-TN-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: الدخيل المتوسطي والعثماني",
+    "status": "reported",
+    "subject_id": "ENT-TN-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "طبقات تركية وإيطالية وفرنسية تعكس التاريخ الحضاري",
+          "الدارجة تنطق الحروف الثمانية والعشرين جميعها",
+          "قرابة موثقة باللغة المالطية"
+        ],
+        "group": "الدخيل المتوسطي والعثماني",
+        "sample_words": [
+          {
+            "m": "سفينة؛ تركية",
+            "w": "بابور"
+          },
+          {
+            "m": "كثير",
+            "w": "برشا"
+          },
+          {
+            "m": "جيد",
+            "w": "باهي"
+          },
+          {
+            "m": "شوكة؛ فرنسية",
+            "w": "فورشيطا"
+          }
+        ],
+        "scope": "عموم تونس والشمال الشرقي خاصة"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-TN-DEPTH-F1186B03832951DF",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Maghreb-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-TN-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: المرقاز والقديد",
+    "status": "reported",
+    "subject_id": "ENT-TN-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "نقانق تونسية متبلة ولحم مجفف للمؤونة",
+        "name": "المرقاز والقديد",
+        "note": "",
+        "occasion": "مؤونة وعيد"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-YE-0A3F4FCE3D8C5EC1",

@@ -153,3 +153,13 @@ The project goal is now **Maximum Arabic Knowledge Coverage**, not only Maximum 
 - Arabic-first: no `name_en`, no English user-facing content; internal technical identifiers only where systems require them.
 - Absolute unchanged guards: **no fabrication** (every record traces to a real external origin), transparent uncertainty, `published` restricted to `verified`/`source_verified`, no exclusive national ownership of shared culture.
 - Decision order when trading off: no fabrication → maximum useful information → clarity of confidence → verification when available → local depth → coverage → organization → speed.
+
+## Tunisia depth cycle 1 — cultural claims (2026-08-17)
+
+First Tunisia cycle under **Maximum Arabic Knowledge Coverage** (`00_فلسفة_الموسوعة.md`):
+
+- **3 language claims**: أمازيغية جربة ومطماطة (الشلحة) 🟡 مرسوة على مدنين؛ **لغة سند المنقرضة** 🟠 — أول توثيق للغة منقرضة في المشروع؛ الفرنسية غير المرسمة.
+- **5 dialect profiles**: الشمال الشرقي بدخيله الإيطالي (قطوس/كوجينة/دكوردو)، الساحل بآني الشهيرة، الجنوب الغربي الأقرب للفصحى، **الركيزة الأمازيغية** (كرموس/فكرون/فرطاس/بكوش/شلغوم بمعانيها)، والدخيل المتوسطي العثماني مع القرابة المالطية الموثقة. جدل «لهجة أم لغة» مسجل بحياد.
+- **8 dishes**: الكسكسي `shared` (الملف الرباعي) **مع رسو فوارقه الجهوية** (العلوش/الحوت/العصبان)؛ **الهريسة `national` بملفها اليونسكوي التونسي 2022** — التمييز الدقيق بين المشترك المغاربي والخاص التونسي؛ البريك `shared`؛ المقروض القيرواني مرسو.
+- **4 dress claims**: الجبة والبرنوس `shared` مغاربيا؛ الشاشية بسوق الشواشين؛ **السفساري بإرجاعه القرطاجي المعروض كرواية لا حقيقة**.
+- Contract note: all 20 depth claims are unpublished, so the Tunisia published-A/B>=95% pilot contract is untouched (still 100%).
