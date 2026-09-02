@@ -17,6 +17,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.produceState
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
@@ -26,7 +27,7 @@ import com.atlasalarab.app.ui.ArabicLabels
 import com.atlasalarab.app.ui.components.EmptyState
 import com.atlasalarab.app.ui.components.ErrorPane
 import com.atlasalarab.app.ui.components.LoadState
-import com.atlasalarab.app.ui.components.LoadingPane
+import com.atlasalarab.app.ui.components.SkeletonListPane
 import com.atlasalarab.app.ui.components.SearchField
 import com.atlasalarab.app.ui.components.SectionTitle
 import com.atlasalarab.app.ui.components.SourceCard
@@ -42,7 +43,7 @@ fun SourcesScreen(
         catch (error: Exception) { LoadState.Failed(error.message ?: "خطأ غير معروف") }
     }.value
     when (state) {
-        LoadState.Loading -> LoadingPane(modifier)
+        LoadState.Loading -> SkeletonListPane(modifier)
         is LoadState.Failed -> ErrorPane(state.message, modifier)
         is LoadState.Ready -> SourcesContent(state.value, onOpenSource, modifier)
     }
@@ -50,8 +51,8 @@ fun SourcesScreen(
 
 @Composable
 private fun SourcesContent(sources: List<SourceItem>, onOpenSource: (String) -> Unit, modifier: Modifier) {
-    var query by remember { mutableStateOf("") }
-    var tier by remember { mutableStateOf<String?>(null) }
+    var query by rememberSaveable { mutableStateOf("") }
+    var tier by rememberSaveable { mutableStateOf<String?>(null) }
     val filtered = remember(sources, query, tier) {
         val needle = query.trim().lowercase()
         sources.filter { source ->

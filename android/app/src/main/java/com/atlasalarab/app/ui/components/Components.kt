@@ -1,5 +1,11 @@
 package com.atlasalarab.app.ui.components
 
+import android.provider.Settings
+import androidx.compose.animation.core.RepeatMode
+import androidx.compose.animation.core.animateFloat
+import androidx.compose.animation.core.infiniteRepeatable
+import androidx.compose.animation.core.rememberInfiniteTransition
+import androidx.compose.animation.core.tween
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -41,10 +47,14 @@ import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.semantics.LiveRegionMode
 import androidx.compose.ui.semantics.clearAndSetSemantics
 import androidx.compose.ui.semantics.contentDescription
@@ -123,6 +133,68 @@ fun LoadingPane(modifier: Modifier = Modifier) {
                 "قد يستغرق التشغيل الأول لحظات لنسخ المكتبة دون إنترنت",
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.outline,
+            )
+        }
+    }
+}
+
+/**
+ * Stable skeleton placeholder for list screens. Preferred over a centered
+ * spinner for near-instant local loads to avoid a flashing indicator, per
+ * platform loading-feedback guidance. Respects the system's reduced-motion
+ * setting (animator duration scale = 0 disables the pulse).
+ */
+@Composable
+fun SkeletonListPane(modifier: Modifier = Modifier, rows: Int = 6, showHeader: Boolean = true) {
+    val context = LocalContext.current
+    val reduceMotion = remember(context) {
+        Settings.Global.getFloat(context.contentResolver, Settings.Global.ANIMATOR_DURATION_SCALE, 1f) == 0f
+    }
+    val pulseAlpha = if (reduceMotion) {
+        0.6f
+    } else {
+        val transition = rememberInfiniteTransition(label = "skeleton-pulse")
+        val animated by transition.animateFloat(
+            initialValue = 0.38f,
+            targetValue = 0.75f,
+            animationSpec = infiniteRepeatable(tween(durationMillis = 750), RepeatMode.Reverse),
+            label = "skeleton-alpha",
+        )
+        animated
+    }
+    val blockColor = MaterialTheme.colorScheme.surfaceVariant
+    Column(
+        modifier
+            .fillMaxSize()
+            .padding(horizontal = 18.dp, vertical = 20.dp)
+            .alpha(pulseAlpha)
+            .clearAndSetSemantics { contentDescription = "جارٍ تحميل المحتوى" },
+        verticalArrangement = Arrangement.spacedBy(12.dp),
+    ) {
+        if (showHeader) {
+            Box(
+                Modifier
+                    .fillMaxWidth(0.55f)
+                    .height(26.dp)
+                    .clip(RoundedCornerShape(8.dp))
+                    .background(blockColor),
+            )
+            Box(
+                Modifier
+                    .fillMaxWidth(0.8f)
+                    .height(15.dp)
+                    .clip(RoundedCornerShape(6.dp))
+                    .background(blockColor),
+            )
+            Spacer(Modifier.height(6.dp))
+        }
+        repeat(rows) {
+            Box(
+                Modifier
+                    .fillMaxWidth()
+                    .height(74.dp)
+                    .clip(RoundedCornerShape(16.dp))
+                    .background(blockColor),
             )
         }
     }

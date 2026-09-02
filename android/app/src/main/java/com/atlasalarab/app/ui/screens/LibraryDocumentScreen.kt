@@ -56,6 +56,7 @@ import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.produceState
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.runtime.snapshotFlow
@@ -136,11 +137,11 @@ private fun LibraryDocumentContent(
     val scope = rememberCoroutineScope()
     val favorites by readingStore.favorites.collectAsStateWithLifecycle()
     val isFavorite = favorites.any { it.id == summary.id }
-    var readerScale by remember { mutableFloatStateOf(1f) }
-    var showTechnicalDetails by remember { mutableStateOf(false) }
-    var showSearch by remember { mutableStateOf(false) }
-    var documentQuery by remember { mutableStateOf("") }
-    var currentMatch by remember { mutableIntStateOf(0) }
+    var readerScale by rememberSaveable { mutableFloatStateOf(1f) }
+    var showTechnicalDetails by rememberSaveable { mutableStateOf(false) }
+    var showSearch by rememberSaveable { mutableStateOf(false) }
+    var documentQuery by rememberSaveable { mutableStateOf("") }
+    var currentMatch by rememberSaveable { mutableIntStateOf(0) }
 
     val markdownBlocks = remember(document.content, summary.fileType) {
         if (summary.fileType != "markdown") emptyList()

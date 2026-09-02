@@ -35,6 +35,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.produceState
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -52,7 +53,7 @@ import com.atlasalarab.app.ui.components.EmptyState
 import com.atlasalarab.app.ui.components.EntityRow
 import com.atlasalarab.app.ui.components.ErrorPane
 import com.atlasalarab.app.ui.components.LoadState
-import com.atlasalarab.app.ui.components.LoadingPane
+import com.atlasalarab.app.ui.components.SkeletonListPane
 import com.atlasalarab.app.ui.components.NoticeCard
 import com.atlasalarab.app.ui.components.SearchField
 import com.atlasalarab.app.ui.components.SectionTitle
@@ -75,7 +76,7 @@ fun CountryScreen(
         catch (error: Exception) { LoadState.Failed(error.message ?: "خطأ غير معروف") }
     }.value
     when (state) {
-        LoadState.Loading -> LoadingPane(modifier)
+        LoadState.Loading -> SkeletonListPane(modifier)
         is LoadState.Failed -> ErrorPane(state.message, modifier)
         is LoadState.Ready -> state.value?.let {
             CountryContent(it, repository, onOpenEntity, onOpenSource, onOpenDocument, onOpenLibrary, modifier)
@@ -93,8 +94,8 @@ private fun CountryContent(
     onOpenLibrary: (String) -> Unit,
     modifier: Modifier,
 ) {
-    var selectedType by remember(details.country.code) { mutableStateOf<String?>(null) }
-    var query by remember(details.country.code) { mutableStateOf("") }
+    var selectedType by rememberSaveable(details.country.code) { mutableStateOf<String?>(null) }
+    var query by rememberSaveable(details.country.code) { mutableStateOf("") }
     var searchResults by remember(details.country.code) { mutableStateOf<List<EntitySummary>?>(null) }
     var searching by remember { mutableStateOf(false) }
 

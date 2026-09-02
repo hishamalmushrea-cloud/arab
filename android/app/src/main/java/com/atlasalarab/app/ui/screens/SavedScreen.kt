@@ -19,6 +19,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
@@ -37,7 +38,7 @@ fun SavedScreen(
 ) {
     val favorites by readingStore.favorites.collectAsStateWithLifecycle()
     val recent by readingStore.recent.collectAsStateWithLifecycle()
-    var showFavorites by remember { mutableStateOf(true) }
+    var showFavorites by rememberSaveable { mutableStateOf(true) }
     val shown = if (showFavorites) favorites else recent
 
     Column(modifier.fillMaxSize().padding(horizontal = 18.dp)) {

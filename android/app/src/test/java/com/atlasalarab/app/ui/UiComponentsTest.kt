@@ -17,6 +17,7 @@ import com.atlasalarab.app.ui.components.LibraryDocumentRow
 import com.atlasalarab.app.ui.components.MarkdownBlock
 import com.atlasalarab.app.ui.components.MarkdownBlockView
 import com.atlasalarab.app.ui.components.SectionTitle
+import com.atlasalarab.app.ui.components.SkeletonListPane
 import com.atlasalarab.app.ui.theme.AtlasTheme
 import org.junit.Assert.assertEquals
 import org.junit.Rule
@@ -99,5 +100,12 @@ class UiComponentsTest {
         compose.onNodeWithText("إربد").assertIsDisplayed()
         compose.onNodeWithText("فتح ملف إربد").assertIsDisplayed().performClick()
         compose.runOnIdle { assertEquals("المدن/إربد/إربد.md", opened) }
+    }
+
+    @Test
+    fun skeletonPane_announcesLoadingToScreenReaders() {
+        compose.setContent { AtlasTheme { SkeletonListPane() } }
+
+        compose.onNodeWithContentDescription("جارٍ تحميل المحتوى").assertIsDisplayed()
     }
 }

@@ -15,6 +15,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.produceState
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
@@ -24,7 +25,7 @@ import com.atlasalarab.app.data.normalizeArabic
 import com.atlasalarab.app.ui.components.CountryCard
 import com.atlasalarab.app.ui.components.ErrorPane
 import com.atlasalarab.app.ui.components.LoadState
-import com.atlasalarab.app.ui.components.LoadingPane
+import com.atlasalarab.app.ui.components.SkeletonListPane
 import com.atlasalarab.app.ui.components.SearchField
 import com.atlasalarab.app.ui.components.SectionTitle
 
@@ -40,7 +41,7 @@ fun CountriesScreen(
     }.value
 
     when (state) {
-        LoadState.Loading -> LoadingPane(modifier)
+        LoadState.Loading -> SkeletonListPane(modifier)
         is LoadState.Failed -> ErrorPane(state.message, modifier)
         is LoadState.Ready -> CountriesContent(state.value, onOpenCountry, modifier)
     }
@@ -52,7 +53,7 @@ private fun CountriesContent(
     onOpenCountry: (String) -> Unit,
     modifier: Modifier,
 ) {
-    var query by remember { mutableStateOf("") }
+    var query by rememberSaveable { mutableStateOf("") }
     val normalized = normalizeArabic(query)
     val filtered = remember(countries, normalized) {
         if (normalized.isBlank()) countries

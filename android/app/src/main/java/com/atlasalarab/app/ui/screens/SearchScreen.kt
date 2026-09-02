@@ -18,6 +18,7 @@ import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.Icon
+import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -26,6 +27,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.produceState
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -55,12 +57,12 @@ fun SearchScreen(
         catch (error: Exception) { LoadState.Failed(error.message ?: "تعذر تحميل الدول") }
     }.value
     val countries = (countryState as? LoadState.Ready)?.value.orEmpty()
-    var query by remember { mutableStateOf("") }
-    var selectedCountry by remember { mutableStateOf<String?>(null) }
+    var query by rememberSaveable { mutableStateOf("") }
+    var selectedCountry by rememberSaveable { mutableStateOf<String?>(null) }
     var results by remember { mutableStateOf<List<SearchResult>>(emptyList()) }
     var libraryResults by remember { mutableStateOf<List<LibraryDocumentSummary>>(emptyList()) }
     var searching by remember { mutableStateOf(false) }
-    var searched by remember { mutableStateOf(false) }
+    var searched by rememberSaveable { mutableStateOf(false) }
 
     LaunchedEffect(query, selectedCountry) {
         if (query.trim().length < 2) {
@@ -98,7 +100,7 @@ fun SearchScreen(
         }
 
         when {
-            searching -> Box(Modifier.weight(1f).fillMaxWidth(), contentAlignment = Alignment.Center) {
+            searching && results.isEmpty() && libraryResults.isEmpty() -> Box(Modifier.weight(1f).fillMaxWidth(), contentAlignment = Alignment.Center) {
                 Column(horizontalAlignment = Alignment.CenterHorizontally) {
                     CircularProgressIndicator()
                     Text("نبحث محليًا في الأسماء ومحتوى آلاف الملفات…", Modifier.padding(top = 12.dp), color = MaterialTheme.colorScheme.onSurfaceVariant)
@@ -107,10 +109,13 @@ fun SearchScreen(
             query.trim().length < 2 -> Box(Modifier.weight(1f), contentAlignment = Alignment.Center) {
                 EmptyState("اكتب حرفين على الأقل", "جرّب: صنعاء، قرطاج، السلط أو الرياض")
             }
-            searched && results.isEmpty() && libraryResults.isEmpty() -> Box(Modifier.weight(1f), contentAlignment = Alignment.Center) {
+            searched && !searching && results.isEmpty() && libraryResults.isEmpty() -> Box(Modifier.weight(1f), contentAlignment = Alignment.Center) {
                 EmptyState("لم نعثر على نتيجة", "جرّب تهجئة مختلفة أو اختر كل الدول")
             }
             else -> {
+                if (searching) {
+                    LinearProgressIndicator(Modifier.fillMaxWidth())
+                }
                 Row(Modifier.fillMaxWidth().padding(vertical = 8.dp), verticalAlignment = Alignment.CenterVertically) {
                     Icon(Icons.Default.Search, null, tint = MaterialTheme.colorScheme.primary)
                     Spacer(Modifier.width(7.dp))

@@ -35,6 +35,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.produceState
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -50,7 +51,7 @@ import com.atlasalarab.app.ui.components.EmptyState
 import com.atlasalarab.app.ui.components.ErrorPane
 import com.atlasalarab.app.ui.components.LibraryDocumentRow
 import com.atlasalarab.app.ui.components.LoadState
-import com.atlasalarab.app.ui.components.LoadingPane
+import com.atlasalarab.app.ui.components.SkeletonListPane
 import com.atlasalarab.app.ui.components.NoticeCard
 import com.atlasalarab.app.ui.components.SearchField
 import com.atlasalarab.app.ui.components.SectionTitle
@@ -97,7 +98,7 @@ private fun CountryLibraryScreen(
         }
     }.value
     when (state) {
-        LoadState.Loading -> LoadingPane(modifier)
+        LoadState.Loading -> SkeletonListPane(modifier)
         is LoadState.Failed -> ErrorPane(state.message, modifier)
         is LoadState.Ready -> state.value.second?.let { country ->
             CountryLibraryContent(
@@ -119,8 +120,8 @@ private fun CountryLibraryContent(
     onOpenDocument: (String) -> Unit,
     modifier: Modifier,
 ) {
-    var query by remember(country.code) { mutableStateOf("") }
-    var selectedCategory by remember(country.code) { mutableStateOf<String?>(null) }
+    var query by rememberSaveable(country.code) { mutableStateOf("") }
+    var selectedCategory by rememberSaveable(country.code) { mutableStateOf<String?>(null) }
     var searchResults by remember(country.code) { mutableStateOf<List<LibraryDocumentSummary>?>(null) }
     var searching by remember { mutableStateOf(false) }
 
@@ -212,7 +213,7 @@ private fun CountryLibraryContent(
 
             if (topicDocuments.isNotEmpty()) {
                 item { SectionTitle("ملف الدولة الموسوعي", "الموضوعات الأساسية مرتبة للقراءة السريعة") }
-                items(topicDocuments.chunked(2)) { rowDocuments ->
+                items(topicDocuments.chunked(2), key = { row -> row.joinToString("|") { it.id } }) { rowDocuments ->
                     Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(11.dp)) {
                         rowDocuments.forEach { document ->
                             CountryTopicCard(
@@ -228,7 +229,7 @@ private fun CountryLibraryContent(
 
             if (groupedCategories.isNotEmpty()) {
                 item { SectionTitle("الأماكن والتقسيمات", "افتح القسم ثم اختر المدينة أو المحافظة أو الوحدة المحلية") }
-                items(groupedCategories.chunked(2)) { rowCategories ->
+                items(groupedCategories.chunked(2), key = { row -> row.joinToString("|") { it.key } }) { rowCategories ->
                     Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(11.dp)) {
                         rowCategories.forEach { category ->
                             CountryCategoryCard(
@@ -371,7 +372,7 @@ private fun GlobalLibraryScreen(
         }
     }.value
     when (state) {
-        LoadState.Loading -> LoadingPane(modifier)
+        LoadState.Loading -> SkeletonListPane(modifier)
         is LoadState.Failed -> ErrorPane(state.message, modifier)
         is LoadState.Ready -> GlobalLibraryContent(
             overview = state.value.first,
@@ -391,10 +392,10 @@ private fun GlobalLibraryContent(
     onOpenDocument: (String) -> Unit,
     modifier: Modifier,
 ) {
-    var query by remember { mutableStateOf("") }
-    var selectedCountry by remember { mutableStateOf<String?>(null) }
-    var selectedCollection by remember { mutableStateOf<String?>(null) }
-    var selectedCategory by remember { mutableStateOf<String?>(null) }
+    var query by rememberSaveable { mutableStateOf("") }
+    var selectedCountry by rememberSaveable { mutableStateOf<String?>(null) }
+    var selectedCollection by rememberSaveable { mutableStateOf<String?>(null) }
+    var selectedCategory by rememberSaveable { mutableStateOf<String?>(null) }
     var searchResults by remember { mutableStateOf<List<LibraryDocumentSummary>?>(null) }
     var searching by remember { mutableStateOf(false) }
 
