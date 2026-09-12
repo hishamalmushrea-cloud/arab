@@ -1,0 +1,279 @@
+{
+ "captured_at": "2026-08-17",
+ "country_code": "SY",
+ "dialect_profiles": [
+  {
+   "features": [
+    "القاف همزة: قال إلى آل",
+    "تفخيم خفيف للألف",
+    "النحت الدمشقي: شو بدك ومدري",
+    "أوزان التصغير: كنباية وشنطاية"
+   ],
+   "group": "الشامية الدمشقية",
+   "scope": "دمشق ووسط سوريا",
+   "subject": "ENT-SY-GOVERNORATE-01",
+   "words": [
+    {
+     "m": "يا أمي",
+     "w": "يامو"
+    },
+    {
+     "m": "إلى الأمام مباشرة",
+     "w": "دغري"
+    },
+    {
+     "m": "هذا هو",
+     "w": "شحو"
+    },
+    {
+     "m": "يا رجل",
+     "w": "يا زلمة"
+    }
+   ]
+  },
+  {
+   "features": [
+    "إمالة الألف إلى الياء: عامل إلى عيمل",
+    "قاف مفخمة خلافا للدمشقية",
+    "معجم مغاير يحتاج معجما خاصا"
+   ],
+   "group": "الحلبية",
+   "scope": "حلب وشمالها",
+   "subject": "ENT-SY-GOVERNORATE-02",
+   "words": [
+    {
+     "m": "يا أبي",
+     "w": "يوب"
+    },
+    {
+     "m": "اجلس",
+     "w": "بروك"
+    },
+    {
+     "m": "أبدا نهائيا",
+     "w": "طاول طاول"
+    },
+    {
+     "m": "إلى الأمام؛ مقابل دغري الدمشقية",
+     "w": "سيوي"
+    },
+    {
+     "m": "كوع",
+     "w": "عوجة"
+    }
+   ]
+  },
+  {
+   "features": [
+    "تفخيم تام للألف: عامل إلى عومل",
+    "ميل إلى الكسر في اللاذقية وجبلة"
+   ],
+   "group": "الساحلية",
+   "scope": "اللاذقية وجبلة وطرطوس وبانياس",
+   "subject": "ENT-SY-GOVERNORATE-07",
+   "words": [
+    {
+     "m": "انظر",
+     "w": "عين"
+    },
+    {
+     "m": "هذا هو",
+     "w": "ليكو"
+    },
+    {
+     "m": "ارفعها",
+     "w": "إبا"
+    }
+   ]
+  },
+  {
+   "features": [
+    "قريبة من بدوية الجنوب والأردن",
+    "هاظ هو بالتفخيم"
+   ],
+   "group": "الحورانية",
+   "scope": "درعا والسويداء وحوران",
+   "subject": "ENT-SY-GOVERNORATE-13",
+   "words": []
+  },
+  {
+   "features": [
+    "فراتية قريبة من لهجات غرب العراق",
+    "بدوية الجذور"
+   ],
+   "group": "الديرية",
+   "scope": "دير الزور والرقة والشرق",
+   "subject": "ENT-SY-GOVERNORATE-05",
+   "words": []
+  },
+  {
+   "features": [
+    "كلمات آرامية باقية في العربية الشامية"
+   ],
+   "group": "الجذر الآرامي المشترك",
+   "scope": "عموم الشام",
+   "subject": "ENT-SY-COUNTRY",
+   "words": [
+    {
+     "m": "حر شديد؛ آرامية",
+     "w": "شوب"
+    },
+    {
+     "m": "بشر أو نادى؛ آرامية",
+     "w": "كرز"
+    },
+    {
+     "m": "سكين كبيرة؛ آرامية",
+     "w": "ساطور"
+    },
+    {
+     "m": "نعل؛ آرامية",
+     "w": "تاسومة"
+    }
+   ]
+  }
+ ],
+ "dishes": [
+  {
+   "classification": "shared",
+   "desc": "عجينة برغل ولحم مدقوق تحشى باللحم والمكسرات؛ من أنواعها المقلية والنية واللبنية والسماقية والسفرجلية والمبرومة وحلب مشهورة بها خصوصا",
+   "name": "الكبة",
+   "note": "رمز شامي مشترك بين سوريا ولبنان والعراق — لا ملكية حصرية؛ الشهرة الحلبية مرسوة",
+   "occasion": "الولائم ورمضان",
+   "subject": "ENT-SY-GOVERNORATE-02"
+  },
+  {
+   "classification": "local",
+   "desc": "خبز محمص يسقى بمرق الحمص أو اللحم مع السمن والمكسرات؛ من أنواعها فتة المكدوس وفتة المقادم",
+   "name": "الفتة الشامية",
+   "note": "دمشقية",
+   "occasion": "فطور وعزائم",
+   "subject": "ENT-SY-GOVERNORATE-01"
+  },
+  {
+   "classification": "local",
+   "desc": "غميس الفلفل الحلبي المجفف بالجوز ودبس الرمان",
+   "name": "المحمرة",
+   "note": "حلبية أصيلة والفلفل الحلبي علامة مطبخها",
+   "occasion": "مقبلات",
+   "subject": "ENT-SY-GOVERNORATE-02"
+  },
+  {
+   "classification": "local",
+   "desc": "لحم غنم مطحون على السيخ بالفلفل الحلبي",
+   "name": "الكباب الحلبي",
+   "note": "حلب",
+   "occasion": "وليمة",
+   "subject": "ENT-SY-GOVERNORATE-02"
+  },
+  {
+   "classification": "local",
+   "desc": "الشاكرية لحم ضأن في الزبادي، وحراق أصبعه عدس وعجين بدبس الرمان",
+   "name": "الشاكرية وحراق أصبعه",
+   "note": "دمشق",
+   "occasion": "غداء وشتاء",
+   "subject": "ENT-SY-GOVERNORATE-01"
+  },
+  {
+   "classification": "national",
+   "desc": "باذنجان صغير محشو بالجوز والفلفل والثوم مخلل في زيت الزيتون",
+   "name": "المكدوس",
+   "note": "",
+   "occasion": "مؤونة الشتاء",
+   "subject": "ENT-SY-COUNTRY"
+  },
+  {
+   "classification": "shared",
+   "desc": "التبولة بقدونس وبرغل وطماطم وليمون، والفتوش سلطة بالخبز المقرمش ودبس الرمان",
+   "name": "التبولة والفتوش",
+   "note": "شامية مشتركة مع لبنان — لا حصرية",
+   "occasion": "مقبلات",
+   "subject": "ENT-SY-COUNTRY"
+  },
+  {
+   "classification": "shared",
+   "desc": "ورق العنب المحشو بالأرز واللحم",
+   "name": "اليبرق والمحاشي",
+   "note": "شامي عثماني مشترك",
+   "occasion": "مناسبات",
+   "subject": "ENT-SY-COUNTRY"
+  },
+  {
+   "classification": "shared",
+   "desc": "عدس وأرز أو برغل وبصل مقلي",
+   "name": "المجدرة",
+   "note": "مشترك شامي",
+   "occasion": "يومي وصيامي",
+   "subject": "ENT-SY-COUNTRY"
+  }
+ ],
+ "dress": [
+  {
+   "classification": "national",
+   "desc": "رداء طويل فضفاض؛ والصاية قمباز من قماش مزخرف كالإيكات الحلبي والبروكار الدمشقي",
+   "gender": "رجالي",
+   "name": "القمباز والصاية",
+   "subject": "ENT-SY-COUNTRY"
+  },
+  {
+   "classification": "local",
+   "desc": "حرير منسوج بخيوط ذهبية علامة دمشق النسيجية للمناسبات",
+   "gender": "نسائي",
+   "name": "البروكار الدمشقي",
+   "subject": "ENT-SY-GOVERNORATE-01"
+  },
+  {
+   "classification": "local",
+   "desc": "قماش متعدد الألوان بتطريز دقيق وبطانة مزخرفة من تراث حلب النسيجي",
+   "gender": "مشترك",
+   "name": "الإيكات الحلبي",
+   "subject": "ENT-SY-GOVERNORATE-02"
+  },
+  {
+   "classification": "historical",
+   "desc": "غطاء رأس أحمر من اللباد دخل مع العثمانيين وظل رمزا حضريا دمشقيا وحلبيا حتى القرن العشرين",
+   "gender": "رجالي",
+   "name": "الطربوش",
+   "subject": "ENT-SY-COUNTRY"
+  },
+  {
+   "classification": "regional",
+   "desc": "الشروال الفضفاض للساحل والريف، والزبون والشروال والزينار للزي الكردي في الحسكة وعفرين",
+   "gender": "رجالي",
+   "name": "الشروال الساحلي والزي الكردي",
+   "subject": "ENT-SY-GOVERNORATE-07"
+  }
+ ],
+ "non_arabic_languages": [
+  {
+   "desc": "لغة إيرانية غربية في الحسكة والقامشلي وعفرين وعين العرب",
+   "name": "الكردية (الكرمانجية)",
+   "status": "probable",
+   "subject": "ENT-SY-GOVERNORATE-09"
+  },
+  {
+   "desc": "لغة سامية حية في قرى الجزيرة كالمالكية ورأس العين ولغة طقسية للكنائس السريانية",
+   "name": "السريانية الآرامية",
+   "status": "probable",
+   "subject": "ENT-SY-GOVERNORATE-09"
+  },
+  {
+   "desc": "تركية أوغوزية في قرى تركمانية بحلب واللاذقية وحمص وحماة والرقة؛ حصرها الدقيق يحتاج مصدرا أكاديميا",
+   "name": "التركمانية",
+   "status": "local_reported",
+   "subject": "ENT-SY-GOVERNORATE-02"
+  },
+  {
+   "desc": "لغة الجالية الأرمنية التاريخية في حلب ودمشق والجزيرة",
+   "name": "الأرمنية",
+   "status": "probable",
+   "subject": "ENT-SY-GOVERNORATE-02"
+  }
+ ],
+ "note": "Syria depth cycle 1 under Maximum Arabic Knowledge Coverage: 4 language claims (3 probable, التركمانية local_reported), 6 dialect profiles incl. the Aramaic-substrate profile with glossed lexicon, 9 dishes (الكبة والتبولة واليبرق والمجدرة shared شاميا — never exclusive), 5 dress claims incl. البروكار الدمشقي والإيكات الحلبي. All unpublished, tier-E mirrors, explicit classification. Cultural claims sit on the legal governorate frame and never imply war-time control or conditions.",
+ "schema_version": "2.0.0",
+ "sources": {
+  "cuisine_dress_mirror": "https://ar.wikipedia.org/wiki/%D9%85%D8%B7%D8%A8%D8%AE_%D8%B3%D9%88%D8%B1%D9%8A",
+  "dialect_mirror": "https://ar.wikipedia.org/wiki/%D9%84%D9%87%D8%AC%D8%A7%D8%AA_%D8%B3%D9%88%D8%B1%D9%8A%D8%A9"
+ }
+}

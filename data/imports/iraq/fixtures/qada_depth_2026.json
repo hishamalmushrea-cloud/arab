@@ -1,0 +1,197 @@
+{
+ "attested_qada_count": 31,
+ "basra_census_qada_populations": {
+  "أبو الخصيب": 223675,
+  "البصرة": 1436253,
+  "الزبير": 511224
+ },
+ "captured_at": "2026-08-17",
+ "country_code": "IQ",
+ "governorates": [
+  {
+   "code": "02",
+   "name_ar": "نينوى",
+   "qadas": [
+    {
+     "name": "الموصل",
+     "note": "مركز المحافظة؛ أكبر الأقضية",
+     "status": "probable"
+    },
+    {
+     "name": "الحمدانية",
+     "note": "بغديدا؛ قلب المسيحية العراقية؛ ضمن المناطق المتنازع عليها إداريا",
+     "status": "probable"
+    },
+    {
+     "name": "تلكيف",
+     "note": "كلداني؛ ضمن المناطق المتنازع عليها إداريا",
+     "status": "probable"
+    },
+    {
+     "name": "سنجار",
+     "note": "شنكال؛ قلب الإيزيديين؛ ضمن المناطق المتنازع عليها إداريا",
+     "status": "probable"
+    },
+    {
+     "name": "تلعفر",
+     "note": "أغلبية تركمانية",
+     "status": "probable"
+    },
+    {
+     "name": "الحضر",
+     "note": "موقع الحضر الأثري المدرج عالميا",
+     "status": "probable"
+    },
+    {
+     "name": "البعاج",
+     "note": "حدودي مع سوريا",
+     "status": "probable"
+    },
+    {
+     "name": "مخمور",
+     "note": "إداريا لنينوى وتديره أربيل عمليا؛ يسجل الوضعان بلا حسم",
+     "status": "probable"
+    },
+    {
+     "name": "الشيخان",
+     "note": "مركز الإيزيدية الديني لالش؛ ضمن المناطق المتنازع عليها",
+     "status": "probable"
+    },
+    {
+     "name": "سميل",
+     "note": "يرد ضمن نينوى في قوائم وضمن دهوك في أخرى؛ خلاف تبعية مسجل",
+     "status": "unverified"
+    }
+   ]
+  },
+  {
+   "code": "08",
+   "name_ar": "بغداد",
+   "qadas": [
+    {
+     "name": "الرصافة",
+     "note": "مركز بغداد التاريخي شرق دجلة",
+     "status": "probable"
+    },
+    {
+     "name": "الأعظمية",
+     "note": "جانب الرصافة؛ جامع الإمام الأعظم",
+     "status": "probable"
+    },
+    {
+     "name": "الصدر الأولى",
+     "note": "جانب الرصافة",
+     "status": "probable"
+    },
+    {
+     "name": "الصدر الثانية",
+     "note": "جانب الرصافة",
+     "status": "probable"
+    },
+    {
+     "name": "الشعب",
+     "note": "يرد في بعض القوائم دون غيرها",
+     "status": "unverified"
+    },
+    {
+     "name": "المدائن",
+     "note": "جانب الرصافة؛ طاق كسرى",
+     "status": "probable"
+    },
+    {
+     "name": "الحسينية",
+     "note": "استحدث رسميا 2013",
+     "status": "probable"
+    },
+    {
+     "name": "الزوراء",
+     "note": "استحدث 2018؛ منطقة المعامل سابقا",
+     "status": "probable"
+    },
+    {
+     "name": "الكرخ",
+     "note": "غرب دجلة",
+     "status": "probable"
+    },
+    {
+     "name": "الكاظمية",
+     "note": "جانب الكرخ؛ مرقد الكاظمين",
+     "status": "probable"
+    },
+    {
+     "name": "المحمودية",
+     "note": "جانب الكرخ",
+     "status": "probable"
+    },
+    {
+     "name": "أبو غريب",
+     "note": "جانب الكرخ",
+     "status": "probable"
+    },
+    {
+     "name": "الطارمية",
+     "note": "جانب الكرخ",
+     "status": "probable"
+    },
+    {
+     "name": "الشعلة",
+     "note": "يرد في بعض القوائم دون غيرها",
+     "status": "unverified"
+    }
+   ]
+  },
+  {
+   "code": "18",
+   "name_ar": "البصرة",
+   "qadas": [
+    {
+     "name": "البصرة",
+     "note": "مركز المحافظة",
+     "status": "probable"
+    },
+    {
+     "name": "أبو الخصيب",
+     "note": "",
+     "status": "probable"
+    },
+    {
+     "name": "الزبير",
+     "note": "فيه ناحية أم قصر الميناء الرئيس",
+     "status": "probable"
+    },
+    {
+     "name": "شط العرب",
+     "note": "",
+     "status": "probable"
+    },
+    {
+     "name": "الفاو",
+     "note": "ميناء الفاو الكبير قيد الإنشاء",
+     "status": "probable"
+    },
+    {
+     "name": "القرنة",
+     "note": "ملتقى دجلة والفرات؛ ضمن أهوار تراث اليونسكو 2016",
+     "status": "probable"
+    },
+    {
+     "name": "المدينة",
+     "note": "",
+     "status": "probable"
+    }
+   ]
+  }
+ ],
+ "notes": {
+  "basra_quality": "Basra census hadar/rif table is arithmetically consistent (2,362,123+546,368=2,908,491); three complete qada sums enter as probable claims.",
+  "count_dispute": "National qada count: 121 (detailed subdistrict list), 120 (media rounding), 130+ (including post-2013 creations), ~103 (pre-2013 tables). Recorded, never averaged.",
+  "disputed_list_entries": "الشعب والشعلة (Baghdad) appear in some lists only — unverified; سميل appears under Nineveh in some lists and Dohuk in others — unverified with the affiliation dispute recorded.",
+  "no_control_inference": "Disputed-territories and de-facto-administration notes (Nineveh plain, مخمور) are recorded as notes, never as control/status inference on the legal frame.",
+  "scope": "Attested qada inventories for three documented governorates only (Baghdad 14, Nineveh 10, Basra 7); the national qada universe is contested (121 official vs 130+ with post-2013 creations) and stays denominator-open with both readings recorded."
+ },
+ "schema_version": "2.0.0",
+ "sources": {
+  "census_table": "https://ar.wikipedia.org/wiki/%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9_%D8%A7%D9%84%D8%A8%D8%B5%D8%B1%D8%A9",
+  "qada_mirror": "https://ar.wikipedia.org/wiki/%D8%A3%D9%82%D8%B6%D9%8A%D8%A9_%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82"
+ }
+}

@@ -135,13 +135,13 @@ def main() -> int:
         "cultural_site": 3,
         "natural_site": 1,
         "language": 1,
-        "language_variety": 2,
-        "lexical_form": 4,
+        "language_variety": 5,
+        "lexical_form": 19,
     }
     result.check("entity_counts", dict(counts) == expected_counts, f"actual={dict(sorted(counts.items()))}")
     result.check(
         "record_family_counts",
-        (len(entities), len(aliases), len(relationships), len(claims)) == (1708, 179, 1726, 1732),
+        (len(entities), len(aliases), len(relationships), len(claims)) == (1726, 179, 1762, 1758),
         f"entities/aliases/relationships/claims={len(entities)}/{len(aliases)}/{len(relationships)}/{len(claims)}",
     )
     parser_totals = summary.get("parser_totals", {})
@@ -264,7 +264,7 @@ def main() -> int:
     tier_counts = Counter(row["quality_tier"] for row in sa_sources.values())
     result.check(
         "atomic_source_registry",
-        len(sa_sources) == 34 and not source_errors and tier_counts == Counter({"A": 30, "B": 4}),
+        len(sa_sources) == 36 and not source_errors and tier_counts == Counter({"A": 30, "B": 4, "E": 2}),
         f"Saudi-specific sources={len(sa_sources)}, tiers={dict(tier_counts)}, metadata errors={sorted(set(source_errors))}",
     )
     trace_errors = [
@@ -272,7 +272,8 @@ def main() -> int:
         for row in claims
         if row.get("source_id") not in sources
         or not row.get("source_locator")
-        or row.get("verification_status") not in {"verified", "source_verified", "disputed"}
+        or (row.get("verification_status") not in {"verified", "source_verified", "disputed"}
+            and not (not row.get("published") and row.get("verification_status") in {"probable", "local_reported", "unverified", "folk_narrative"}))
     ]
     published = [row for row in claims if row.get("published")]
     ab_claims = [row for row in published if sources.get(row.get("source_id"), {}).get("quality_tier") in {"A", "B"}]
@@ -475,7 +476,7 @@ def main() -> int:
     ]
     result.check(
         "dialect_evidence_chain",
-        len(varieties) == 2 and len(lexical_forms) == 4 and not lexical_errors and not dialect_count_claims and not variety_parent_errors,
+        len(varieties) == 5 and len(lexical_forms) == 19 and not lexical_errors and not dialect_count_claims and not variety_parent_errors,
         f"varieties={len(varieties)}, forms={len(lexical_forms)}, chain errors={lexical_errors}, count claims={len(dialect_count_claims)}",
     )
 

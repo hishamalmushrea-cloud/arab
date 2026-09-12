@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:9161c613e5887bdf32e0ec66b8cb2fd5f475429cf1d3091b2db10fc27419ed57",
+  "country_codes": [
+    "LB"
+  ],
+  "id": "SRC-LB-CULTURE-MIRROR-2026",
+  "language": "ar",
+  "license": "Official Lebanon public/statistical material; factual extraction with attribution; reuse terms not stated",
+  "locator": "Dialect profiles incl. Aramaic substrate and cross-border kinships, three language notes, dish and dress entries",
+  "notes": "Depth-cycle weak/secondary mirror. Cultural claims stay probable/local_reported and unpublished; Levantine-shared dishes (التبولة والكبة والفتوش والمعمول) carry shared classification despite world-famous Lebanese association — never exclusive ownership. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "Encyclopedic mirror pages on Lebanese culture",
+  "quality_tier": "E",
+  "retrieved_at": "2026-08-16",
+  "schema_version": "2.0.0",
+  "source_type": "institutional_page",
+  "title": "Lebanese dialects, languages, cuisine, and dress — encyclopedic mirror pages",
+  "url": "https://ar.wikipedia.org/wiki/%D9%84%D9%87%D8%AC%D8%A9_%D9%84%D8%A8%D9%86%D8%A7%D9%86%D9%8A%D8%A9"
+}

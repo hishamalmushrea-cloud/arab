@@ -1,10 +1,18 @@
 {
   "country_code": "OM",
+  "reconciliation": {
+    "cultural_frame": "21 cultural claims: 6 non-Arabic languages (Kumzari/Bathari at local_reported), 5 regional dialect profiles, 7 dishes (4 shared Gulf), 3 dress claims; all unpublished."
+  },
   "records": [
     {
       "bytes": 9356,
       "path": "data/imports/oman/fixtures/legal_hierarchy_2022.json",
       "sha256": "6e1cf0acf6a62f4d58c6d303d8eaf15228fb3211273a20d00e9297ddbbc4d45e"
+    },
+    {
+      "path": "fixtures/cultural_depth_2026.json",
+      "record_count": 21,
+      "sha256": "85f0c4d5c07d2e4d80ebe34c56fcd200369f580a07d7c498458d06fd9f570309"
     }
   ],
   "schema_version": "2.0.0",

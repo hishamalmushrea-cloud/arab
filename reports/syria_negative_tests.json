@@ -1,6 +1,6 @@
 {
   "country_code": "SY",
-  "detected": 10,
+  "detected": 14,
   "mutations": [
     {
       "detected": true,
@@ -51,9 +51,29 @@
       "detected": true,
       "expected_code": "SY_COVERAGE_FRESHNESS",
       "mutation": "SY_STALE_COVERAGE"
+    },
+    {
+      "detected": true,
+      "expected_code": "SY_DEPTH_UNPUBLISHED",
+      "mutation": "SY_DEPTH_PUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "SY_SHARED_NOT_EXCLUSIVE",
+      "mutation": "SY_KIBBEH_EXCLUSIVE"
+    },
+    {
+      "detected": true,
+      "expected_code": "SY_DEPTH_LANGS",
+      "mutation": "SY_LANG_DROPPED"
+    },
+    {
+      "detected": true,
+      "expected_code": "SY_DEPTH_STATUS",
+      "mutation": "SY_DIALECT_PROMOTED"
     }
   ],
-  "required": 10,
+  "required": 14,
   "schema_version": "2.0.0",
   "status": "PASS"
 }

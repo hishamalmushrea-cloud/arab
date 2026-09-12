@@ -1,0 +1,22 @@
+{
+  "id": "SRC-SA-DRESS-CULTURE-MIRROR-2026",
+  "schema_version": "2.0.0",
+  "title": "Saudi traditional dress, performing arts, and historical markets — mirror pages",
+  "author": null,
+  "organization": "Encyclopedic mirror pages on Saudi dress and folk culture",
+  "publisher": "Encyclopedic mirror pages on Saudi dress and folk culture",
+  "source_type": "institutional_page",
+  "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B9%D8%B1%D8%B6%D8%A9_%D8%A7%D9%84%D9%86%D8%AC%D8%AF%D9%8A%D8%A9",
+  "archive_url": null,
+  "publication_date": null,
+  "retrieved_at": "2026-08-15",
+  "license": "Source copyright; factual extraction with attribution",
+  "language": "ar",
+  "country_codes": [
+    "SA"
+  ],
+  "locator": "dress and folk-culture sections",
+  "checksum": "sha256:c692fdb9487f40034a3721772b6104235e05bce2a263ccfdabe123b53d4099b0",
+  "quality_tier": "E",
+  "notes": "Depth-cycle weak/secondary mirror for dress, performing arts, and markets. Claims stay local_reported and unpublished with explicit classification. Publication date unavailable on the captured record."
+}

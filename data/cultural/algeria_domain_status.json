@@ -1,9 +1,17 @@
 {
   "country_code": "DZ",
   "domains": {
+    "cuisine": {
+      "claims": 8,
+      "status": "documented_local_reported_unpublished"
+    },
     "dialect": {
-      "claims": 0,
-      "status": "not_documented_in_cycle"
+      "claims": 7,
+      "status": "documented_local_reported_unpublished"
+    },
+    "dress": {
+      "claims": 4,
+      "status": "documented_local_reported_unpublished"
     },
     "world_heritage": {
       "status": "not_imported_in_micro_pilot"

@@ -1,0 +1,234 @@
+{
+ "captured_at": "2026-08-17",
+ "country_code": "TN",
+ "dialect_profiles": [
+  {
+   "features": [
+    "الأكثر تأثرا بالإيطالية والفرنسية",
+    "إنت للمذكر والمؤنث في المنادى"
+   ],
+   "group": "الشمال الشرقي",
+   "scope": "تونس الكبرى وبنزرت ونابل وزغوان",
+   "subject": "ENT-TN-GOVERNORATE-DB8D5C457676",
+   "words": [
+    {
+     "m": "قط؛ إيطالية gatto",
+     "w": "قطوس"
+    },
+    {
+     "m": "مطبخ؛ إيطالية",
+     "w": "كوجينة"
+    },
+    {
+     "m": "حسنا؛ إيطالية",
+     "w": "دكوردو"
+    }
+   ]
+  },
+  {
+   "features": [
+    "آني ضمير المتكلم بدل أنا — الميزة الأشهر"
+   ],
+   "group": "الساحل",
+   "scope": "سوسة والمنستير والمهدية",
+   "subject": "ENT-TN-GOVERNORATE-97D2B1489F90",
+   "words": [
+    {
+     "m": "أنا",
+     "w": "آني"
+    }
+   ]
+  },
+  {
+   "features": [
+    "من أقرب لهجات المغرب العربي إلى الفصحى"
+   ],
+   "group": "الجنوب الغربي",
+   "scope": "توزر وقبلي وقفصة",
+   "subject": "ENT-TN-GOVERNORATE-D7972CC63F7E",
+   "words": []
+  },
+  {
+   "features": [
+    "مفردات أمازيغية أصيلة باقية في الدارجة"
+   ],
+   "group": "الركيزة الأمازيغية في الدارجة",
+   "scope": "عموم تونس",
+   "subject": "ENT-TN-COUNTRY",
+   "words": [
+    {
+     "m": "التين؛ أمازيغية",
+     "w": "كرموس"
+    },
+    {
+     "m": "سلحفاة؛ أمازيغية",
+     "w": "فكرون"
+    },
+    {
+     "m": "أقرع؛ أمازيغية",
+     "w": "فرطاس"
+    },
+    {
+     "m": "أبكم؛ أمازيغية",
+     "w": "بكوش"
+    },
+    {
+     "m": "شارب؛ أمازيغية",
+     "w": "شلغوم"
+    }
+   ]
+  },
+  {
+   "features": [
+    "طبقات تركية وإيطالية وفرنسية تعكس التاريخ الحضاري",
+    "الدارجة تنطق الحروف الثمانية والعشرين جميعها",
+    "قرابة موثقة باللغة المالطية"
+   ],
+   "group": "الدخيل المتوسطي والعثماني",
+   "scope": "عموم تونس والشمال الشرقي خاصة",
+   "subject": "ENT-TN-COUNTRY",
+   "words": [
+    {
+     "m": "سفينة؛ تركية",
+     "w": "بابور"
+    },
+    {
+     "m": "كثير",
+     "w": "برشا"
+    },
+    {
+     "m": "جيد",
+     "w": "باهي"
+    },
+    {
+     "m": "شوكة؛ فرنسية",
+     "w": "فورشيطا"
+    }
+   ]
+  }
+ ],
+ "dishes": [
+  {
+   "classification": "shared",
+   "desc": "سميد يطهى على البخار في الكسكاس بمرق أحمر متبل؛ أوان تعود للملك النوميدي ماسينيسا؛ أصنافه المسفوف والمغموم وكسكسي المؤونة المجفف",
+   "name": "الكسكسي",
+   "note": "ملف اليونسكو الرباعي المشترك 2020 — لا حصرية؛ الفوارق الجهوية مرسوة: بالعلوش في الوسط وبالحوت في صفاقس وبالعصبان في الساحل",
+   "occasion": "جمعة وأعراس وأتراح ووعدة",
+   "subject": "ENT-TN-COUNTRY"
+  },
+  {
+   "classification": "national",
+   "desc": "صلصة الفلفل الأحمر الحار بالثوم والبهارات؛ بصمة تونس التي تميز مطبخها بقوة الحر عن جيرانها",
+   "name": "الهريسة",
+   "note": "مدرجة لدى اليونسكو 2022 باسم تونس",
+   "occasion": "روح المطبخ",
+   "subject": "ENT-TN-COUNTRY"
+  },
+  {
+   "classification": "shared",
+   "desc": "عجينة الملسوقة الشفافة تحشى بالبيض والتونة والبطاطا وتقلى",
+   "name": "البريك",
+   "note": "أندلسي الجذور ومشترك مغاربيا مع البوراك الجزائري — لا حصرية",
+   "occasion": "ملك مائدة رمضان",
+   "subject": "ENT-TN-COUNTRY"
+  },
+  {
+   "classification": "local",
+   "desc": "حمص مسلوق بالكمون والخبز والهريسة وعصير الليمون؛ والهرقمة نسخته باللحم",
+   "name": "اللبلابي والهرقمة",
+   "note": "",
+   "occasion": "شتاء المدن الشعبي",
+   "subject": "ENT-TN-GOVERNORATE-DB8D5C457676"
+  },
+  {
+   "classification": "local",
+   "desc": "الكسكسي بالسمك علامة صفاقس والساحل الشرقي",
+   "name": "كسكسي صفاقس بالحوت",
+   "note": "",
+   "occasion": "مائدة الساحل الشرقي",
+   "subject": "ENT-TN-GOVERNORATE-97D2B1489F90"
+  },
+  {
+   "classification": "regional",
+   "desc": "تمر دقلة النور من واحات الجريد بتوزر وقبلي؛ ركيزة اقتصاد الجنوب",
+   "name": "دقلة النور والتمور",
+   "note": "",
+   "occasion": "الواحات",
+   "subject": "ENT-TN-GOVERNORATE-D7972CC63F7E"
+  },
+  {
+   "classification": "national",
+   "desc": "نقانق تونسية متبلة ولحم مجفف للمؤونة",
+   "name": "المرقاز والقديد",
+   "note": "",
+   "occasion": "مؤونة وعيد",
+   "subject": "ENT-TN-COUNTRY"
+  },
+  {
+   "classification": "local",
+   "desc": "حلويات رمضان المقلية بالعسل؛ والمقروض القيرواني علامة القيروان الأولى",
+   "name": "الزلابية والمخارق",
+   "note": "المقروض القيرواني مرسو على مدينته",
+   "occasion": "رمضان",
+   "subject": "ENT-TN-GOVERNORATE-D28A09D558AD"
+  }
+ ],
+ "dress": [
+  {
+   "classification": "shared",
+   "desc": "لباس خارجي فضفاض بفتحة مطرزة عند الرقبة؛ زي العريس مع السروال العربي والبلغة والشاشية",
+   "gender": "رجالي",
+   "name": "الجبة التونسية",
+   "note": "أمازيغية الجذور مشتركة مغاربيا — لا حصرية",
+   "subject": "ENT-TN-COUNTRY"
+  },
+  {
+   "classification": "national",
+   "desc": "القبعة الحمراء العثمانية الجذور؛ سوق الشواشين بتونس العتيقة مركز صناعتها التاريخي",
+   "gender": "رجالي",
+   "name": "الشاشية الحمراء",
+   "subject": "ENT-TN-GOVERNORATE-DB8D5C457676"
+  },
+  {
+   "classification": "national",
+   "desc": "رداء نسائي حريري أو قطني يلف الجسد؛ بعض المصادر ترجعه إلى حضارة قرطاج وهذا يعرض كرواية",
+   "gender": "نسائي",
+   "name": "السفساري",
+   "note": "الإرجاع القرطاجي رواية محلية لا حقيقة",
+   "subject": "ENT-TN-COUNTRY"
+  },
+  {
+   "classification": "shared",
+   "desc": "المعطف الصوفي الشتوي بلا أكمام؛ أمازيغي مشترك مغاربيا",
+   "gender": "رجالي",
+   "name": "البرنوس والقشابية",
+   "note": "مشترك مع الجزائر والمغرب — لا حصرية",
+   "subject": "ENT-TN-COUNTRY"
+  }
+ ],
+ "non_arabic_languages": [
+  {
+   "desc": "لهجات أمازيغية حية لأقلية في الجنوب الشرقي بجربة ومطماطة وتسمى محليا الجبالي أو الشلحة؛ نحو واحد بالمئة رسميا وتقديرات غير رسمية أعلى",
+   "name": "أمازيغية جربة ومطماطة (الشلحة)",
+   "status": "probable",
+   "subject": "ENT-TN-GOVERNORATE-902616FE3988"
+  },
+  {
+   "desc": "لهجة أمازيغية منقرضة أو شبه منقرضة بفعل ضغط التعريب؛ توثيقها المتاح ثانوي",
+   "name": "لغة سند الأمازيغية",
+   "status": "local_reported",
+   "subject": "ENT-TN-GOVERNORATE-DF747014232C"
+  },
+  {
+   "desc": "لغة إدارية وتجارية وتعليمية راسخة منذ الحماية دون ترسيم دستوري",
+   "name": "الفرنسية",
+   "status": "probable",
+   "subject": "ENT-TN-COUNTRY"
+  }
+ ],
+ "note": "Tunisia depth cycle under Maximum Arabic Knowledge Coverage: 3 language claims (Djerba/Matmata Amazigh probable; extinct Sened local_reported), 5 dialect profiles incl. Amazigh-substrate and Mediterranean-loan lexicons with glosses, 8 dishes (couscous/brik/jebba/burnous shared مغاربيا؛ الهريسة national بملف يونسكو تونسي), 4 dress claims (السفساري بروايته القرطاجية المعروضة كرواية). All unpublished, tier-E mirror, explicit classification. The linguistic status debate (لهجة أم لغة) is recorded neutrally.",
+ "schema_version": "2.0.0",
+ "sources": {
+  "culture_mirror": "https://ar.wikipedia.org/wiki/%D9%84%D9%87%D8%AC%D8%A9_%D8%AA%D9%88%D9%86%D8%B3%D9%8A%D8%A9"
+ }
+}

@@ -10,7 +10,7 @@
       "sample_size": 1
     },
     "claims": {
-      "population": 14,
+      "population": 38,
       "record_ids": [
         "CLM-SY-123CE751865F507B",
         "CLM-SY-14FBE6F35B8B5D33",
@@ -25,10 +25,34 @@
         "CLM-SY-CD377C87984E5000",
         "CLM-SY-D811512A02875BF4",
         "CLM-SY-DDBF2ADE192B5F88",
+        "CLM-SY-DEPTH-00576FD83F9D5BC8",
+        "CLM-SY-DEPTH-031BE1A7845F5A29",
+        "CLM-SY-DEPTH-07BFBB31BD0D5EF2",
+        "CLM-SY-DEPTH-0CE5436587EC589B",
+        "CLM-SY-DEPTH-27C746450B055F82",
+        "CLM-SY-DEPTH-2DF7D8821700540D",
+        "CLM-SY-DEPTH-33D286A730BE562E",
+        "CLM-SY-DEPTH-374D81F5805A577E",
+        "CLM-SY-DEPTH-3BC0E7BECFB056BB",
+        "CLM-SY-DEPTH-50D675EF655C58AD",
+        "CLM-SY-DEPTH-533FB2089EE75040",
+        "CLM-SY-DEPTH-66BDD13C92A252F6",
+        "CLM-SY-DEPTH-6AB9965FD6815759",
+        "CLM-SY-DEPTH-729C25305E6452A8",
+        "CLM-SY-DEPTH-7A62ECBBF42550BB",
+        "CLM-SY-DEPTH-862D69E794E0576A",
+        "CLM-SY-DEPTH-8C1BB7B19EC9552A",
+        "CLM-SY-DEPTH-94B8892A57955E18",
+        "CLM-SY-DEPTH-A323BA1ED7F756C6",
+        "CLM-SY-DEPTH-AF715DD26F685965",
+        "CLM-SY-DEPTH-B6AA695F697B56D3",
+        "CLM-SY-DEPTH-C60E36451F80583B",
+        "CLM-SY-DEPTH-C820251DFC485D7F",
+        "CLM-SY-DEPTH-DD020FDAB9685F91",
         "CLM-SY-F1D7FCFDC0F65101"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 14
+      "sample_size": 38
     },
     "coverage": {
       "population": 6,
@@ -100,14 +124,15 @@
       "sample_size": 14
     },
     "sources": {
-      "population": 3,
+      "population": 4,
       "record_ids": [
         "SRC-SY-CBS-GOVERNORATES-2010",
+        "SRC-SY-CULTURE-MIRROR-2026",
         "SRC-SY-SANA-GOVERNORATE-NAV-2026",
         "SRC-SY-SIA-ADMIN-DIVISIONS-2026"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 3
+      "sample_size": 4
     }
   },
   "schema_version": "2.0.0"

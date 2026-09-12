@@ -21,6 +21,7 @@ AS_OF = "2026-08-15"
 IMPORT_DIR = ROOT / "data/imports/saudi"
 RAW_DIR = IMPORT_DIR / "raw" / AS_OF
 SNAPSHOT_MANIFEST = IMPORT_DIR / "snapshot_manifest.json"
+DEPTH_FIXTURE = ROOT / "data/imports/saudi/depth_cycle_2026.json"
 CULTURAL_FIXTURE = IMPORT_DIR / "cultural_content_2026.json"
 
 ENTITY_PATH = ROOT / "data/entities/entities.jsonl"
@@ -462,6 +463,50 @@ def materialize(parsed: dict[str, Any], cultural: dict[str, Any]) -> tuple[list[
         }
         claims.append(claim(fid, "lexical_attestation", value, form["source_id"], form["locator"], f"lexical|{form['variety_key']}|{form['form']}", classification="regional", tier="B", temporal=form["study_date"], lexical_context=context))
 
+
+    # Depth cycle 1 (Maximum Arabic Knowledge Coverage, 2026-08-17): lexicon expansion,
+    # dress, and performing-arts/markets from weak/secondary mirrors.
+    # Contract: tier-E sources, verification_status=local_reported (varieties: probable),
+    # published=False always; classification explicit; no new denominators.
+    depth = json.loads(DEPTH_FIXTURE.read_text(encoding="utf-8"))
+    DEPTH_DIAL = "SRC-SA-DIALECT-MIRROR-2026"
+    DEPTH_CULT = "SRC-SA-DRESS-CULTURE-MIRROR-2026"
+    for item in depth["new_varieties"]:
+        vid = f"ENT-SA-VARIETY-{item['key'].upper()}"
+        variety_ids[item["key"]] = vid
+        row = entity(vid, item["name_ar"], "language_variety", DEPTH_DIAL, f"Variety profile: {item['name_ar']}", notes="Depth-cycle variety from secondary mirrors; probable pending an academic corpus; features: " + "؛ ".join(item["features"]))
+        row["verification_status"] = "probable"; row["confidence"] = "medium"
+        entities.append(row)
+        r1 = relationship(vid, language_id, "variety_of", DEPTH_DIAL, f"Variety profile: {item['name_ar']}", f"depth-variety-of|{item['key']}")
+        r2 = relationship(vid, region_id(item["region"]), "associated_with", DEPTH_DIAL, f"Variety regional anchor: {item['name_ar']}", f"depth-variety-region|{item['key']}")
+        for r in (r1, r2):
+            r["verification_status"] = "probable"; r["confidence"] = "medium"
+            relationships.append(r)
+    for form in depth["lexical_expansion"]:
+        fid = digest_id("ENT-SA-LEXEME", f"depth|{form['variety']}|{form['form']}")
+        row = entity(fid, form["form"], "lexical_form", DEPTH_DIAL, f"Lexicon entry: {form['form']}", notes="Depth-cycle attested lexical form from secondary mirrors; not a place; local_reported.")
+        row["verification_status"] = "local_reported"; row["confidence"] = "low"
+        entities.append(row)
+        r1 = relationship(fid, variety_ids[form["variety"]], "form_of", DEPTH_DIAL, f"Lexicon entry: {form['form']}", f"depth-form-variety|{form['variety']}|{form['form']}")
+        r2 = relationship(fid, region_id(form["region"]), "attested_in", DEPTH_DIAL, f"Lexicon regional anchor: {form['form']}", f"depth-form-region|{form['variety']}|{form['form']}")
+        for r in (r1, r2):
+            r["verification_status"] = "local_reported"; r["confidence"] = "low"
+            relationships.append(r)
+        c = claim(fid, "lexical_attestation", f"meaning={form['meaning']}; register=secondary-mirror lexicon; study_date=2026-08-17", DEPTH_DIAL, f"Lexicon entry: {form['form']} = {form['meaning']}", f"depth-lexical|{form['variety']}|{form['form']}", classification="regional", temporal="2026-08-17", lexical_context={"form": form["form"], "meaning": form["meaning"], "place_id": region_id(form["region"]), "language": "Arabic", "dialect": form["variety"], "variety": form["variety"], "register": "secondary-mirror lexicon", "study_date": "2026-08-17", "speaker_or_study": "secondary mirror lexicon pages", "ipa": None})
+        c["published"] = False; c["verification_status"] = "local_reported"; c["confidence"] = "low"; c["status"] = "reported"
+        claims.append(c)
+    for item in depth["dress"]:
+        subject = region_id(item["subject_region"]) if item["subject_region"] else "ENT-SA-COUNTRY"
+        c = claim(subject, "clothing_item", f"{item['name']}: {item['desc']}", DEPTH_CULT, f"Dress entry: {item['name']}", f"depth-dress|{item['name']}", classification=item["classification"], temporal="2026-08-17")
+        c["published"] = False; c["verification_status"] = "local_reported"; c["confidence"] = "low"; c["status"] = "reported"
+        c["value"] = {"type": "json", "data": {"name": item["name"], "gender": item["gender"], "description": item["desc"]}}
+        claims.append(c)
+    for item in depth["cultural_items"]:
+        pred = "market_presence" if item["kind"] == "market" else "performing_art"
+        c = claim(region_id(item["subject_region"]), pred, item["desc"], DEPTH_CULT, f"Cultural entry: {item['name']}", f"depth-cult|{item['name']}", classification=item["classification"], temporal="2026-08-17")
+        c["published"] = False; c["verification_status"] = "local_reported"; c["confidence"] = "low"; c["status"] = "reported"
+        c["value"] = {"type": "json", "data": {"name": item["name"], "description": item["desc"]}}
+        claims.append(c)
     return entities, aliases, relationships, claims, governorate_ids, place_ids, site_ids
 
 

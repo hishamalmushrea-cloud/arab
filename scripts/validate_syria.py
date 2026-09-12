@@ -3,7 +3,7 @@ import json
 from model import ROOT,read_jsonl,write_json
 def L(p):return json.loads(p.read_text(encoding='utf8'))
 def data():
- e=[r for r in read_jsonl(ROOT/'data/entities/entities.jsonl') if r.get('country_code')=='SY'];ids={r['id'] for r in e};sids={'SRC-SY-SIA-ADMIN-DIVISIONS-2026','SRC-SY-SANA-GOVERNORATE-NAV-2026','SRC-SY-CBS-GOVERNORATES-2010'}
+ e=[r for r in read_jsonl(ROOT/'data/entities/entities.jsonl') if r.get('country_code')=='SY'];ids={r['id'] for r in e};sids={'SRC-SY-SIA-ADMIN-DIVISIONS-2026','SRC-SY-SANA-GOVERNORATE-NAV-2026','SRC-SY-CBS-GOVERNORATES-2010','SRC-SY-CULTURE-MIRROR-2026'}
  return {'entities':e,'aliases':[r for r in read_jsonl(ROOT/'data/aliases/aliases.jsonl') if r.get('entity_id') in ids],'relationships':[r for r in read_jsonl(ROOT/'data/relationships/relationships.jsonl') if r.get('child_id') in ids],'claims':[r for r in read_jsonl(ROOT/'data/claims/claims.jsonl') if r.get('subject_id') in ids],'sources':[L(p) for p in (ROOT/'data/sources').glob('*.json') if L(p).get('id') in sids],'denominators':[r for r in read_jsonl(ROOT/'data/coverage/denominators.jsonl') if r.get('country_code')=='SY'],'coverage':[r for r in read_jsonl(ROOT/'data/coverage/coverage.jsonl') if r.get('country_code')=='SY'],'manifest':L(ROOT/'manifests/SY.yml')}
 def validate(d):
  f=L(ROOT/'data/imports/syria/fixtures/governorates_2026.json');E={r['id']:r for r in d['entities']};C=d['claims'];err=[]
@@ -26,6 +26,15 @@ def validate(d):
  for i,n in [('COV-SY-DISTRICTS',68),('COV-SY-SUBDISTRICTS',227)]:
   r=cov.get(i,{})
   if r.get('matched')!=0 or r.get('unmatched')!=n or r.get('missing')!=n or r.get('complete') is not False:x('SY_OPEN_LOWER',i,'known denominator must remain open 0/n')
+ depth=[c for c in C if c.get('predicate') in {'language_presence','dialect_profile','food_dish','clothing_item'}]
+ if len(depth)!=24 or any(c.get('published') for c in depth):x('SY_DEPTH_UNPUBLISHED','claims','24 unpublished cultural depth claims')
+ langs=[c for c in depth if c['predicate']=='language_presence']
+ if len(langs)!=4 or any(c.get('verification_status') not in {'probable','local_reported'} for c in langs):x('SY_DEPTH_LANGS','claims','4 language claims at probable/local_reported')
+ rest=[c for c in depth if c['predicate']!='language_presence']
+ if any(c.get('verification_status')!='local_reported' or not c.get('classification') for c in rest):x('SY_DEPTH_STATUS','claims','dialect/dish/dress stay local_reported with explicit classification')
+ for nm in ['الكبة','التبولة والفتوش','اليبرق والمحاشي','المجدرة']:
+  q=next((c for c in depth if c['predicate']=='food_dish' and c['value']['data'].get('name')==nm),None)
+  if not q or q.get('classification')!='shared':x('SY_SHARED_NOT_EXCLUSIVE','claims',f'{nm} must stay shared')
  return err
 def main():
  d=data();e=validate(d);met={k:len(d[k]) for k in ['entities','aliases','relationships','claims','sources','denominators','coverage']};write_json(ROOT/'reports/syria_validation.json',{'schema_version':'2.0.0','country_code':'SY','status':'PASS' if not e else 'FAIL','p0':len(e),'critical_p1':0,'metrics':met,'errors':e});print(met);return 0 if not e else 1

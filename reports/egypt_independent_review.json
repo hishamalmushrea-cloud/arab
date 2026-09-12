@@ -10,46 +10,46 @@
     },
     "claims": {
       "failed": 0,
-      "passed": 27,
-      "sampled": 27,
+      "passed": 44,
+      "sampled": 44,
       "status": "PASS"
     },
     "coverage": {
       "failed": 0,
-      "passed": 4,
-      "sampled": 4,
+      "passed": 5,
+      "sampled": 5,
       "status": "PASS"
     },
     "denominators": {
       "failed": 0,
-      "passed": 4,
-      "sampled": 4,
+      "passed": 5,
+      "sampled": 5,
       "status": "PASS"
     },
     "entities": {
       "failed": 0,
-      "passed": 28,
-      "sampled": 28,
+      "passed": 83,
+      "sampled": 83,
       "status": "PASS"
     },
     "relationships": {
       "failed": 0,
-      "passed": 27,
-      "sampled": 27,
+      "passed": 82,
+      "sampled": 82,
       "status": "PASS"
     },
     "sources": {
       "failed": 0,
-      "passed": 3,
-      "sampled": 3,
+      "passed": 4,
+      "sampled": 4,
       "status": "PASS"
     }
   },
   "findings": [],
-  "method": "Independent full governorate/profile fixture comparison.",
+  "method": "Independent full governorate/profile fixture comparison plus the checksum-bound 55-markaz depth inventory, probable-status enforcement, and unpublished 2024 markaz populations.",
   "p0": 0,
   "schema_version": "2.0.0",
   "status": "PASS",
-  "total_passed": 120,
-  "total_sampled": 120
+  "total_passed": 250,
+  "total_sampled": 250
 }

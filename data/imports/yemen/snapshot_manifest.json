@@ -3,11 +3,35 @@
   "country_code": "YE",
   "reconciliation": {
     "added_by_law_31_2013": 1,
+    "cultural_frame": "19 local-knowledge cultural claims (12 dishes, 5 dialect profiles, 2 non-Arabic languages) at local_reported/probable status, unpublished; shared dishes carry shared classification, never exclusive ownership.",
     "current_scope": 22,
+    "district_frame": "333 districts attested across 22 first-level units; identities reconciled from the NIC catalogue mirror and the 2004 census frame; individual identities carry probable status pending an atomic official coded register.",
+    "dress_crafts_markets_frame": "14 local-knowledge claims (7 dress, 4 crafts, 3 markets) at local_reported status, unpublished, with explicit classification; regional dress names documented down to district level (Taiz rural costumes).",
+    "lane_frame": "Amanat 2004 frame: 791 lanes across 10 districts plus two suburb blocks; 104 lane identities attested for Old Sanaa (69) and Tahrir (35); remaining 687 lanes are a documented open frame, never fabricated.",
     "legacy_scope": 21,
     "socotra_effective_date_basis": "Law reported issued 2013-12-18; Yemen laws ordinarily state operation from issuance, but the complete official text locator remains a documented source-access limitation."
   },
   "records": [
+    {
+      "path": "fixtures/amanat_lanes_2026.json",
+      "record_count": 104,
+      "sha256": "442e31ebd30a5ac91bd7ea1a6c97888dc063bc4bd0b2d35380fd4960d52aeeae"
+    },
+    {
+      "path": "fixtures/cultural_claims_2026.json",
+      "record_count": 19,
+      "sha256": "78d52dcd062e7b0192e00b9b6b8f07b9fe82a2b5ae69599127ec9dbc489e394b"
+    },
+    {
+      "path": "fixtures/districts_2026.json",
+      "record_count": 333,
+      "sha256": "cc42cb274e9536d25c2d20d3424f1127d5cfbeb5c09e3ea46e65b0a00477d697"
+    },
+    {
+      "path": "fixtures/dress_crafts_markets_2026.json",
+      "record_count": 14,
+      "sha256": "3f782a281d3caad23c61218960bfb733e61a039b255fa911f70974fa84e15c11"
+    },
     {
       "path": "fixtures/first_level_2026.json",
       "record_count": 22,

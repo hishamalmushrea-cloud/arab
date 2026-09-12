@@ -18,7 +18,9 @@
     "disputed",
     "national",
     "emirate_specific",
-    "local"
+    "local",
+    "folk_narrative",
+    "local_reported"
   ],
   "claim_statuses": [
     "verified",
@@ -157,7 +159,8 @@
     "person",
     "language",
     "language_variety",
-    "lexical_form"
+    "lexical_form",
+    "ps_historical_qada"
   ],
   "forbidden_active_types": [
     "administrative_area_unspecified"
@@ -175,12 +178,13 @@
     "form_of",
     "attested_in"
   ],
-  "schema_version": "2.0.0",
+  "schema_version": "2.1.0",
   "source_quality_tiers": [
     "A",
     "B",
     "C",
-    "D"
+    "D",
+    "E"
   ],
   "source_types": [
     "official_dataset",
@@ -191,13 +195,25 @@
     "standard",
     "academic",
     "archive",
-    "project_audit"
+    "project_audit",
+    "local_book",
+    "local_press",
+    "local_website",
+    "blog",
+    "forum",
+    "oral_testimony",
+    "map",
+    "heritage_book"
   ],
   "verification_statuses": [
     "verified",
     "source_verified",
     "partial",
     "ambiguous",
-    "needs_review"
+    "needs_review",
+    "probable",
+    "local_reported",
+    "unverified",
+    "folk_narrative"
   ]
 }

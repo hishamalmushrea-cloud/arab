@@ -13,5 +13,9 @@ def main():
  r('LY_FAKE_MAHALLA',lambda d:d['entities'].append({**d['entities'][-1],'id':'ENT-LY-MAHALLA-X','entity_type':'ly_mahalla'}),'LY_PREMATURE_MAHALLA')
  r('LY_COVERAGE_93',lambda d:next(x for x in d['coverage'] if x['id']=='COV-LY-CURRENT-MUNICIPALITIES').update(matched=93),'LY_CURRENT_COVERAGE')
  r('LY_SOURCE_CHECKSUM',lambda d:next(x for x in d['sources'] if x['id']=='SRC-LY-MOLG-MUNICIPALITIES-2026').update(checksum='sha256:bad'),'LY_SOURCE_FRESHNESS')
- ok=all(x['detected'] for x in o);write_json(ROOT/'reports/libya_negative_tests.json',{'schema_version':'2.0.0','country_code':'LY','status':'PASS' if ok else 'FAIL','required':8,'detected':sum(x['detected'] for x in o),'mutations':o});print(o);return 0 if ok else 1
+ r('LY_DEPTH_PUBLISHED',lambda d:next(x for x in d['claims'] if x.get('predicate')=='food_dish').update(published=True),'LY_DEPTH_UNPUBLISHED')
+ r('LY_COUSCOUS_EXCLUSIVE',lambda d:next(x for x in d['claims'] if x.get('predicate')=='food_dish' and x['value']['data'].get('name')=='الكسكسي الليبي').update(classification='national'),'LY_SHARED_NOT_EXCLUSIVE')
+ r('LY_LANG_DROPPED',lambda d:d['claims'].__setitem__(slice(None),[x for x in d['claims'] if x.get('predicate')!='language_presence']),'LY_DEPTH_LANGS')
+ r('LY_DIALECT_PROMOTED',lambda d:next(x for x in d['claims'] if x.get('predicate')=='dialect_profile').update(verification_status='verified'),'LY_DEPTH_STATUS')
+ ok=all(x['detected'] for x in o);write_json(ROOT/'reports/libya_negative_tests.json',{'schema_version':'2.0.0','country_code':'LY','status':'PASS' if ok else 'FAIL','required':12,'detected':sum(x['detected'] for x in o),'mutations':o});print(o);return 0 if ok else 1
 if __name__=='__main__':raise SystemExit(main())

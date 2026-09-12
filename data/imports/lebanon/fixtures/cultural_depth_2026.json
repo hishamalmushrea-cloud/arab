@@ -1,0 +1,200 @@
+{
+ "captured_at": "2026-08-17",
+ "country_code": "LB",
+ "dialect_profiles": [
+  {
+   "features": [
+    "القاف همزة: قال إلى ئال",
+    "إيقاع غنائي وارتفاع نهايات الجمل",
+    "البسطاوية القديمة تكسر الفتحات: أنا إلى أني وباب إلى بيب",
+    "دخيل فرنسي: أوتو وميرسي وبونجور"
+   ],
+   "group": "البيروتية",
+   "scope": "العاصمة",
+   "subject": "ENT-LB-GOVERNORATE-BEIRUT",
+   "words": [
+    {
+     "m": "قال",
+     "w": "ئال"
+    },
+    {
+     "m": "شكرا؛ فرنسية",
+     "w": "ميرسي"
+    },
+    {
+     "m": "سيارة؛ فرنسية",
+     "w": "أوتو"
+    }
+   ]
+  },
+  {
+   "features": [
+    "قاف مفخمة خلافا لبيروت",
+    "نبرة جبلية قوية",
+    "إينا أبديش مثالا للتكسر الجبلي"
+   ],
+   "group": "الجبلية",
+   "scope": "عاليه والشوف والمتن وبعبدا",
+   "subject": "ENT-LB-GOVERNORATE-MOUNT-LEBANON",
+   "words": []
+  },
+  {
+   "features": [
+    "أقرب إلى لهجة حمص السورية بحكم الجوار",
+    "ضم ما قبل وسط الكلمة: كيف حالك إلى كيف حُالك",
+    "نقل حركة الحرف: نحمله إلى نحملو"
+   ],
+   "group": "الشمالية الطرابلسية",
+   "scope": "طرابلس وزغرتا والبترون وبشري",
+   "subject": "ENT-LB-GOVERNORATE-NORTH",
+   "words": []
+  },
+  {
+   "features": [
+    "أقرب إلى الفلسطينية بحكم جوار الجليل",
+    "إيقاع أهدأ"
+   ],
+   "group": "الجنوبية",
+   "scope": "صيدا وصور وبنت جبيل والنبطية",
+   "subject": "ENT-LB-GOVERNORATE-SOUTH",
+   "words": []
+  },
+  {
+   "features": [
+    "قرابة بلهجات ريف دمشق وحمص",
+    "سمات بدوية في الهرمل"
+   ],
+   "group": "البقاعية",
+   "scope": "زحلة وبعلبك والهرمل وراشيا",
+   "subject": "ENT-LB-GOVERNORATE-BEQAA",
+   "words": []
+  },
+  {
+   "features": [
+    "قلب الذال زايا: الكذاب إلى الكزاب",
+    "الثاء تاء: ثعلب إلى تعلب",
+    "حذف أن: بحب اشتغل",
+    "حذف همزة الأمر: ضرب بدل أضرب"
+   ],
+   "group": "الجذر الآرامي في اللبنانية",
+   "scope": "عموم لبنان",
+   "subject": "ENT-LB-COUNTRY",
+   "words": []
+  }
+ ],
+ "dishes": [
+  {
+   "classification": "shared",
+   "desc": "بقدونس مفروم ناعم ببرغل وطماطم ونعناع وليمون بنسبة بقدونس عالية، تغرف بأوراق الخس",
+   "name": "التبولة",
+   "note": "شهرتها اللبنانية عالمية والطبق شامي مشترك — لا ملكية حصرية",
+   "occasion": "مقبلات المازة",
+   "subject": "ENT-LB-COUNTRY"
+  },
+  {
+   "classification": "shared",
+   "desc": "برغل ولحم مدقوق بأنواع لبنانية مميزة: النية والزحلاوية وكبة الكشك الكفرمشكية والصاجية",
+   "name": "الكبة",
+   "note": "شامية مشتركة؛ الأنواع البلدية مرسوة على بلداتها",
+   "occasion": "الولائم",
+   "subject": "ENT-LB-COUNTRY"
+  },
+  {
+   "classification": "shared",
+   "desc": "الفتوش سلطة بالخبز المقرمش والسماق ودبس الرمان، والحمص بالطحينة ومنه البيروتي الخاص",
+   "name": "الفتوش والحمص",
+   "note": "شامي مشترك",
+   "occasion": "المازة",
+   "subject": "ENT-LB-COUNTRY"
+  },
+  {
+   "classification": "national",
+   "desc": "منظومة مقبلات متكاملة من الحمص والمتبل والتبولة والفتوش والكبة وورق العنب والمكدوس؛ أساس الضيافة اللبنانية",
+   "name": "المازة اللبنانية",
+   "note": "المنظومة كنمط ضيافة لبنانية الطابع وإن كانت مفرداتها شامية مشتركة",
+   "occasion": "كل مائدة احتفالية",
+   "subject": "ENT-LB-COUNTRY"
+  },
+  {
+   "classification": "local",
+   "desc": "نوعان بلديان: الزحلاوية من زحلة وكبة الكشك من كفر مشكي",
+   "name": "الكبة الزحلاوية وكبة الكشك",
+   "note": "",
+   "occasion": "موائد البقاع",
+   "subject": "ENT-LB-GOVERNORATE-BEQAA"
+  },
+  {
+   "classification": "national",
+   "desc": "مشروب عنبي مقطر باليانسون يوصف بأنه أصيل في لبنان",
+   "name": "العرق اللبناني",
+   "note": "يشترك المشرق في العرق عموما؛ الأصالة اللبنانية رواية محلية",
+   "occasion": "الموائد الاحتفالية",
+   "subject": "ENT-LB-COUNTRY"
+  },
+  {
+   "classification": "regional",
+   "desc": "كروم البقاع وبعلبك والكورة بصيت عالمي",
+   "name": "النبيذ اللبناني",
+   "note": "امتداد لتقاليد كروم قديمة في سهل البقاع",
+   "occasion": "صناعة عريقة",
+   "subject": "ENT-LB-GOVERNORATE-BAALBEK-HERMEL"
+  },
+  {
+   "classification": "shared",
+   "desc": "المعمول للأعياد والقطايف العصافيري الرمضانية وحلاوة الجبن",
+   "name": "المعمول والقطايف العصافيري",
+   "note": "حلويات شامية مشتركة",
+   "occasion": "الأعياد ورمضان",
+   "subject": "ENT-LB-COUNTRY"
+  }
+ ],
+ "dress": [
+  {
+   "classification": "regional",
+   "desc": "السروال الفضفاض التاريخي للجبل والريف مع القميص والزنار؛ بقي في الفلكلور والدبكة",
+   "gender": "رجالي",
+   "name": "الشروال الجبلي",
+   "subject": "ENT-LB-GOVERNORATE-MOUNT-LEBANON"
+  },
+  {
+   "classification": "historical",
+   "desc": "القمباز رداء المدن التاريخي والطربوش العثماني غطاء العلماء والمثقفين حتى منتصف القرن العشرين",
+   "gender": "رجالي",
+   "name": "القمباز والطربوش",
+   "subject": "ENT-LB-COUNTRY"
+  },
+  {
+   "classification": "national",
+   "desc": "أزياء غربية متوسطية بأثر فرنسي غلبت في المدن منذ الانتداب؛ التقليدي حاضر في الأعراس والفلكلور",
+   "gender": "مشترك",
+   "name": "لباس المدن الحديث",
+   "subject": "ENT-LB-GOVERNORATE-BEIRUT"
+  }
+ ],
+ "non_arabic_languages": [
+  {
+   "desc": "لغة ثانية واسعة الحضور في التعليم والإدارة إرثا للانتداب 1920-1943؛ مفرداتها راسخة في العامية كميرسي وبونجور وأوتو",
+   "name": "الفرنسية",
+   "status": "probable",
+   "subject": "ENT-LB-COUNTRY"
+  },
+  {
+   "desc": "لغة الجالية الأرمنية وخاصة في برج حمود وعنجر منذ لجوء ما بعد 1915",
+   "name": "الأرمنية",
+   "status": "probable",
+   "subject": "ENT-LB-GOVERNORATE-MOUNT-LEBANON"
+  },
+  {
+   "desc": "لغة طقسية للكنائس المارونية والسريانية؛ حضورها اليومي محدود وتوثيقه ثانوي",
+   "name": "السريانية الطقسية",
+   "status": "local_reported",
+   "subject": "ENT-LB-COUNTRY"
+  }
+ ],
+ "note": "Lebanon depth cycle 1 under Maximum Arabic Knowledge Coverage: 3 language claims (French/Armenian probable, liturgical Syriac local_reported), 6 dialect profiles incl. the Aramaic-substrate profile and cross-border kinships (Tripoli~Homs, South~Galilee), 8 dishes (التبولة والكبة والفتوش والمعمول shared شاميا رغم الشهرة اللبنانية العالمية — never exclusive), 3 dress claims. All unpublished, tier-E mirrors, explicit classification.",
+ "schema_version": "2.0.0",
+ "sources": {
+  "cuisine_dress_mirror": "https://ar.wikipedia.org/wiki/%D9%85%D8%B7%D8%A8%D8%AE_%D9%84%D8%A8%D9%86%D8%A7%D9%86%D9%8A",
+  "dialect_mirror": "https://ar.wikipedia.org/wiki/%D9%84%D9%87%D8%AC%D8%A9_%D9%84%D8%A8%D9%86%D8%A7%D9%86%D9%8A%D8%A9"
+ }
+}

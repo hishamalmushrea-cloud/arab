@@ -1,21 +1,32 @@
 # Next Country Decision
 
+## Policy baseline
+
+As of 2026-08-17 the project operates under **Maximum Arabic Knowledge Coverage** (`00_فلسفة_الموسوعة.md`, Schema 2.1.0). All 22 bounded first-layer country cycles remain accepted; the project is now in **depth-expansion mode**: proving places exist down to villages, neighborhoods, and lanes, then collecting the maximum useful local information (history, dialect, food, dress, crafts, markets, stories) with explicit confidence statuses instead of deletion.
+
 ## Current country
 
-None — all 22 bounded country cycles are accepted locally.
+**Yemen (YE) — depth-expansion cycle 1.**
 
-## Current result
+## Rationale (dependency / risk / available information)
 
-**Sudan PASS.** Exact release commit `08b13074b4fffdd9b2ed25178a8340da35d8c7a6`; full `make check` (466 checks), Push Action `31979921207`, and PR Action `31979923503` pass. The legal state layer closes 18/18, stale 17-state pages are rejected, and localities/administrative units remain denominator-unavailable.
+- Yemen has the largest documented first-to-second-level gap in the project: 22/22 first-level units accepted but only a fraction of the 333 districts (مديريات) recorded.
+- Rich available material already inside the repository: 535 legacy CSV rows, صنعاء القديمة lane inventory (104 documented lanes with classified sources for the remaining ~687), and extensive Markdown city files.
+- High availability of local sources (official CSO frame, heritage books, local press) fits the new tier-E policy.
+- Listed first in the user priority set: Yemen, Saudi Arabia, Egypt, Morocco, Algeria, Iraq, Palestine, Oman, Sudan.
 
-## Remaining countries
+## Scope of the Yemen depth cycle
 
-None.
+1. ✅ **District (مديرية) layer — DONE (2026-08-17):** 333/333 attested district identities entered across all 22 first-level units at `probable` status, anchored to the archived official CSO 333-district frame; `DEN-YE-DISTRICTS`/`COV-YE-DISTRICTS` closed at the frame; gate mutations forbid unattested additions and premature promotion to verified.
+2. ✅ **صنعاء lanes — cycle 2 DONE (2026-08-17):** 104/791 Amanat lane identities entered (Old Sanaa 69 probable, Tahrir 35 across 3 hays; Qa names-only unverified) with 33 unpublished 2004 population claims and 3 naming narratives at `local_reported`; 687 lanes remain a documented open frame. Next: per-district lane tables for the remaining 8 districts + 2 suburb blocks.
+3. ✅ **Cultural local knowledge — cycles 3–4 DONE (2026-08-17):** 33 classified claims entered unpublished — 12 dishes (المندي enforced `shared`), 5 dialect profiles, 2 languages (`probable`), 7 dress items (down to district-named Taiz costumes), 4 crafts, 3 markets anchored to attested district/lane entities. Remaining Yemen depth work: lane tables for the other 8 Amanat districts, field-dated lexical corpus, and the unverified-content backlog review.
+4. Previously dropped unverified Yemen material is staged in `data/backlog/unverified_content/` and re-evaluated in this cycle.
+5. Upgrade path: reconcile an atomic official coded district register to promote identities from `probable` to `verified`.
 
-## Release transition
+## Queue after Yemen
 
-The project enters maintenance and depth-expansion mode. The final release decision is recorded in `reports/FINAL_ARABIC_ENCYCLOPEDIA_RELEASE.md` as `COMPLETE WITH DOCUMENTED LIMITATIONS`.
+Saudi Arabia → Egypt → Morocco → Algeria → Iraq → Palestine → Oman → Sudan, then the remaining countries by available-information density. Order may only change on documented dependency/risk grounds.
 
-## Next action
+## Release status
 
-Maintain source freshness and expand documented lower administrative, populated-place, cultural, dialect, and dated conflict-status layers without changing the bounded-release decision or inventing overall completion percentages.
+The bounded first-layer release decision in `reports/FINAL_ARABIC_ENCYCLOPEDIA_RELEASE.md` (`COMPLETE WITH DOCUMENTED LIMITATIONS`) is unchanged; depth expansion is additive and never rewrites accepted layers.

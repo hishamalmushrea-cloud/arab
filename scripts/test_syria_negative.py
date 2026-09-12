@@ -15,5 +15,9 @@ def main():
  r('SY_FAKE_LOWER_COMPLETION',lambda d:next(x for x in d['coverage'] if x['id']=='COV-SY-DISTRICTS').update(matched=68,unmatched=0,missing=0,complete=True),'SY_OPEN_LOWER')
  r('SY_WRONG_PARENT',lambda d:next(x for x in d['relationships'] if x['child_id']=='ENT-SY-GOVERNORATE-14').update(parent_id='ENT-SY-GOVERNORATE-02'),'SY_PARENT')
  r('SY_STALE_COVERAGE',lambda d:next(x for x in d['coverage'] if x['id']=='COV-SY-GOVERNORATES').update(snapshot_date='2010-01-01'),'SY_COVERAGE_FRESHNESS')
+ r('SY_DEPTH_PUBLISHED',lambda d:next(x for x in d['claims'] if x.get('predicate')=='food_dish').update(published=True),'SY_DEPTH_UNPUBLISHED')
+ r('SY_KIBBEH_EXCLUSIVE',lambda d:next(x for x in d['claims'] if x.get('predicate')=='food_dish' and x['value']['data'].get('name')=='الكبة').update(classification='national'),'SY_SHARED_NOT_EXCLUSIVE')
+ r('SY_LANG_DROPPED',lambda d:d['claims'].__setitem__(slice(None),[x for x in d['claims'] if x.get('predicate')!='language_presence']),'SY_DEPTH_LANGS')
+ r('SY_DIALECT_PROMOTED',lambda d:next(x for x in d['claims'] if x.get('predicate')=='dialect_profile').update(verification_status='verified'),'SY_DEPTH_STATUS')
  ok=all(x['detected'] for x in o);write_json(ROOT/'reports/syria_negative_tests.json',{'schema_version':'2.0.0','country_code':'SY','status':'PASS' if ok else 'FAIL','required':len(o),'detected':sum(x['detected'] for x in o),'mutations':o});print(o);return 0 if ok else 1
 if __name__=='__main__':raise SystemExit(main())

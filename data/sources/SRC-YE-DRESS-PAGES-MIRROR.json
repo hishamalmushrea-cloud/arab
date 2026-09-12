@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e",
+  "country_codes": [
+    "YE"
+  ],
+  "id": "SRC-YE-DRESS-PAGES-MIRROR",
+  "language": "ar",
+  "license": "Factual extraction with attribution; publisher reuse terms not stated",
+  "locator": "Garment names, regional variants, wearing occasions, and gender attribution",
+  "notes": "Dress knowledge mirrored from weak/secondary pages; claims carry local_reported status, explicit classification, and remain unpublished. Regional variant names are attested, never invented. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "Embassy/press/encyclopedic mirror pages on Yemeni traditional dress",
+  "quality_tier": "E",
+  "retrieved_at": "2026-08-17",
+  "schema_version": "2.0.0",
+  "source_type": "institutional_page",
+  "title": "Yemeni traditional dress — embassy, press, and encyclopedic mirror pages",
+  "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B2%D9%8A_%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A"
+}

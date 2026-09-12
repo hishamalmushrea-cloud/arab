@@ -62,7 +62,7 @@ def main() -> int:
         payload = path.read_bytes() if path.is_file() else b""
         if len(payload) != row["bytes"] or hashlib.sha256(payload).hexdigest() != row["sha256"]:
             checksum_errors.append(row["path"])
-    result.check("checksum_bound_inputs", len(checksum_manifest["files"]) == 25 and not checksum_errors,
+    result.check("checksum_bound_inputs", len(checksum_manifest["files"]) == 27 and not checksum_errors,
                  f"files={len(checksum_manifest['files'])}, mismatches={checksum_errors}")
     jordan_files = [ROOT / "scripts/import_jordan_phase3.py", ROOT / "scripts/review_jordan.py", ROOT / "data/imports/jordan/hierarchy_2024.json"]
     no_tunisia_copy = all("import_tunisia" not in path.read_text(encoding="utf-8").casefold() and "data/imports/tunisia" not in path.read_text(encoding="utf-8").casefold() for path in jordan_files)
@@ -74,7 +74,13 @@ def main() -> int:
     expected_counts = {"country": 1, "jo_governorate": 12, "jo_liwa": 55, "jo_qada": 36,
                        "archaeological_site": 4, "cultural_site": 2, "natural_site": 2, "city": 1, "historical_place": 3}
     result.check("entity_counts", dict(counts) == expected_counts, f"actual={dict(sorted(counts.items()))}")
-    result.check("record_family_counts", (len(entities), len(aliases), len(relationships), len(claims)) == (116, 116, 119, 135),
+    depth = [row for row in claims if row.get("predicate") in {"language_presence", "dialect_profile", "food_dish", "clothing_item"}]
+    result.check("depth_unpublished", len(depth) == 16 and not any(row.get("published") for row in depth), f"depth claims={len(depth)}, published={sum(bool(row.get('published')) for row in depth)}")
+    shared_names = {"المقلوبة", "الكنافة النابلسية", "المسخن"}
+    shared_ok = all(row.get("classification") == "shared" for row in depth if row.get("predicate") == "food_dish" and row["value"]["data"].get("name") in shared_names)
+    thobe = next((row for row in depth if row.get("predicate") == "clothing_item" and row["value"]["data"].get("name") == "الثوب الأردني المطرز"), None)
+    result.check("depth_shared_not_exclusive", shared_ok and thobe is not None and thobe.get("classification") == "shared", "Levantine dishes and the embroidered thobe stay shared")
+    result.check("record_family_counts", (len(entities), len(aliases), len(relationships), len(claims)) == (116, 116, 119, 151),
                  f"entities/aliases/relationships/claims={len(entities)}/{len(aliases)}/{len(relationships)}/{len(claims)}")
 
     # Exact administrative closure and topology.
@@ -147,9 +153,9 @@ def main() -> int:
             source_errors.append(identifier)
         if row.get("publication_date") is None and "Publication" not in (row.get("notes") or ""):
             source_errors.append(identifier)
-    result.check("atomic_source_registry", len(jo_sources) == 21 and not source_errors,
+    result.check("atomic_source_registry", len(jo_sources) == 22 and not source_errors,
                  f"atomic Jordan records={len(jo_sources)}, metadata_errors={sorted(set(source_errors))}")
-    claim_ref_errors = [row["id"] for row in claims if row.get("source_id") not in sources or not row.get("source_locator") or row.get("verification_status") not in {"verified", "disputed"}]
+    claim_ref_errors = [row["id"] for row in claims if row.get("source_id") not in sources or not row.get("source_locator") or (row.get("verification_status") not in {"verified", "disputed"} and not (not row.get("published") and row.get("verification_status") in {"probable", "local_reported", "unverified", "folk_narrative"}))]
     published = [row for row in claims if row.get("published")]
     ab_claims = [row for row in published if sources[row["source_id"]]["quality_tier"] in {"A", "B"}]
     ratio = len(ab_claims) * 100 / len(published) if published else 0.0

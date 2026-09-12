@@ -1,0 +1,238 @@
+{
+ "captured_at": "2026-08-17",
+ "country_code": "YE",
+ "dialect_profiles": [
+  {
+   "features": [
+    "القاف تنطق g",
+    "الضاد تنطق ظاء",
+    "ترقيق الراء والحاء والخاء",
+    "إبدال الدال طاء في بعض الكلمات مثل صدم إلى صطم"
+   ],
+   "group": "الصنعانية",
+   "scope": "صنعاء والمرتفعات الوسطى",
+   "subject": "ENT-YE-GOVERNORATE-02",
+   "words": [
+    {
+     "m": "حينما هو",
+     "w": "حينهو"
+    },
+    {
+     "m": "كمل أو خلص",
+     "w": "معادبش"
+    },
+    {
+     "m": "لأجل",
+     "w": "على ميد"
+    }
+   ]
+  },
+  {
+   "features": [
+    "الثاء تنطق تاء مثل ثاني إلى تاني",
+    "الجيم تنطق g",
+    "نفي الماضي بإلحاق كاف وشين مثل ما عملكش"
+   ],
+   "group": "التعزية العدنية",
+   "scope": "تعز وعدن والجنوب الأدنى",
+   "subject": "ENT-YE-GOVERNORATE-05",
+   "words": [
+    {
+     "m": "لم أجد",
+     "w": "ما حصلتوش"
+    },
+    {
+     "m": "سأعمل وأرد لك مالك ولن أنكر ما أعطيتني",
+     "w": "شاشقي وشندي لك مو شنكرك"
+    }
+   ]
+  },
+  {
+   "features": [
+    "قلب الجيم ياء في بعض مدن الساحل مثل رجال إلى ريال",
+    "جيم معتشة في وادي دوعن",
+    "دمج الضاد والظاء في صوت واحد"
+   ],
+   "group": "الحضرمية",
+   "scope": "حضرموت مع مؤثرات هجرة شرق أفريقيا والهند",
+   "subject": "ENT-YE-GOVERNORATE-04",
+   "words": [
+    {
+     "m": "مرحبا",
+     "w": "حيابك"
+    },
+    {
+     "m": "سيكون لك؛ با بدل سوف",
+     "w": "بايقع لك"
+    },
+    {
+     "m": "سطح المنزل",
+     "w": "الريم"
+    },
+    {
+     "m": "ذهب",
+     "w": "دحق"
+    },
+    {
+     "m": "سيارة؛ أثر الهجرة",
+     "w": "موتر"
+    }
+   ]
+  },
+  {
+   "features": [
+    "القاف تنطق غينا مثل قال إلى غال",
+    "تاء الفاعل تستبدل بكاف مثل رحك ونمك وأكلك",
+    "نون النسوة يسبقها ياء ساكنة مثل سافرين"
+   ],
+   "group": "اليافعية",
+   "scope": "يافع في جبال لحج والضالع",
+   "subject": "ENT-YE-GOVERNORATE-10",
+   "words": [
+    {
+     "m": "لماذا",
+     "w": "لمه"
+    },
+    {
+     "m": "هل ذهبت إلى البلاد",
+     "w": "شي سرك البلاد"
+    },
+    {
+     "m": "تعب وملل",
+     "w": "عثق وضبح"
+    },
+    {
+     "m": "ضرب",
+     "w": "لبج"
+    }
+   ]
+  },
+  {
+   "features": [
+    "إيقاع أسرع",
+    "مفردات بحرية ومزارعية",
+    "روافد أفريقية تاريخية"
+   ],
+   "group": "التهامية",
+   "scope": "سهل تهامة من الحديدة إلى المخا",
+   "subject": "ENT-YE-GOVERNORATE-06",
+   "words": []
+  }
+ ],
+ "dishes": [
+  {
+   "classification": "national",
+   "desc": "مرق لحم مع حلبة مخفوقة وسحويق وبهارات، تقدم فائرة في إناء حجري يسمى المدرة أو المفحح وتؤكل بالخبز اليمني",
+   "name": "السلتة",
+   "note": "أصلها المرتفعات وصنعاء خاصة وانتشارها وطني؛ لا تنسب ملكية حصرية لمدينة واحدة",
+   "occasion": "غداء يومي شعبي وخاصة في رمضان",
+   "subject": "ENT-YE-GOVERNORATE-02"
+  },
+  {
+   "classification": "local",
+   "desc": "لحم عجل أو شاة يطبخ على حرارة عالية في أوان فخارية مع مرق وثوم وفلفل حار وبهارات ويقدم ساخنا مع خبز التنور",
+   "name": "الفحسة",
+   "note": "صنعانية الأصل",
+   "occasion": "غداء أساسي في صنعاء وحاضرة في المناسبات",
+   "subject": "ENT-YE-GOVERNORATE-02"
+  },
+  {
+   "classification": "shared",
+   "desc": "لحم أو دجاج يطهى مع الأرز في حفرة تنور تحت الأرض على جمر الفحم فيكتسب نكهة مدخنة، ويقدم مع السحويق والسلطة",
+   "name": "المندي",
+   "note": "حضرمي الأصل وانتشر إلى كل اليمن ثم الجزيرة العربية؛ التصنيف مشترك التزاما بعدم الملكية الحصرية",
+   "occasion": "الولائم الكبرى والأعراس",
+   "subject": "ENT-YE-GOVERNORATE-04"
+  },
+  {
+   "classification": "national",
+   "desc": "كالمندي لكن يدفن اللحم أو الدجاج مع الأرز في حفرة ويحاط بالفحم، ويقدم مع الزبادي وصلصة الطماطم الحارة",
+   "name": "المدفون",
+   "note": "منتشر يمنيا",
+   "occasion": "ولائم",
+   "subject": "ENT-YE-COUNTRY"
+  },
+  {
+   "classification": "national",
+   "desc": "فطيرة طبقات عجين مدهونة بالزبدة أو السمن تؤكل بالعسل وحبة البركة",
+   "name": "بنت الصحن",
+   "note": "تنسب إلى صنعاء وحضرموت معا؛ نسبة مزدوجة تسجل كما وردت",
+   "occasion": "فطور وحلوى ومناسبات",
+   "subject": "ENT-YE-COUNTRY"
+  },
+  {
+   "classification": "national",
+   "desc": "مزيج دقيق وماء وسمن يعجن كقبة يتوسطها تجويف يملأ بالمرق واللحم ويؤكل بإصبعين من اليد اليمنى",
+   "name": "العصيدة",
+   "note": "المرتفعات والجنوب",
+   "occasion": "رمضان والمناسبات",
+   "subject": "ENT-YE-COUNTRY"
+  },
+  {
+   "classification": "regional",
+   "desc": "خبز إسفنجي خفيف يشبه الإنجيرا الإثيوبية",
+   "name": "اللحوح",
+   "note": "تهامة والجنوب",
+   "occasion": "فطور رمضان",
+   "subject": "ENT-YE-GOVERNORATE-06"
+  },
+  {
+   "classification": "regional",
+   "desc": "أرز وسمك بتأثير بحري",
+   "name": "الصيادية",
+   "note": "الساحل: الحديدة وعدن",
+   "occasion": "غداء ساحلي",
+   "subject": "ENT-YE-GOVERNORATE-03"
+  },
+  {
+   "classification": "regional",
+   "desc": "خبز محشو بتأثير هندي وإندونيسي",
+   "name": "المطبق",
+   "note": "عدن وتهامة؛ أثر ميناء عدن الدولي",
+   "occasion": "فطور",
+   "subject": "ENT-YE-GOVERNORATE-03"
+  },
+  {
+   "classification": "local",
+   "desc": "معجنات محشوة بالتمر أو اللحم",
+   "name": "الذمول",
+   "note": "حضرموت",
+   "occasion": "فطور",
+   "subject": "ENT-YE-GOVERNORATE-04"
+  },
+  {
+   "classification": "regional",
+   "desc": "لحم مشوي على شبك فوق الجمر",
+   "name": "المظبي",
+   "note": "المرتفعات والبدو",
+   "occasion": "وليمة",
+   "subject": "ENT-YE-GOVERNORATE-11"
+  },
+  {
+   "classification": "local",
+   "desc": "حلويات حضرمية مرتبطة بعسل الوديان اليمني الشهير",
+   "name": "بنت الصحن الحضرمية والذمول الحلو وعسل الوديان",
+   "note": "حضرموت الداخلية: وديان زراعية وقوافل تجارية تاريخية",
+   "occasion": "ضيافة",
+   "subject": "ENT-YE-GOVERNORATE-04"
+  }
+ ],
+ "non_arabic_languages": [
+  {
+   "desc": "لغة سامية جنوبية مستقلة في أرخبيل سقطرى غير مفهومة لمتحدثي العربية",
+   "name": "السقطرية",
+   "subject": "ENT-YE-GOVERNORATE-22"
+  },
+  {
+   "desc": "لغة سامية جنوبية حية في المهرة وأطراف سقطرى",
+   "name": "المهرية",
+   "subject": "ENT-YE-GOVERNORATE-14"
+  }
+ ],
+ "note": "Local-knowledge cultural claims mirrored from press/encyclopedic pages previously collected in the legacy Markdown corpus. Dishes and dialect profiles carry local_reported status; the two non-Arabic languages are widely documented and carry probable status. Nothing is published as verified fact; shared dishes are never granted exclusive national ownership.",
+ "schema_version": "2.0.0",
+ "sources": {
+  "cuisine_mirror": "https://ar.wikipedia.org/wiki/%D9%85%D8%B7%D8%A8%D8%AE_%D9%8A%D9%85%D9%86%D9%8A",
+  "dialect_mirror": "https://ar.wikipedia.org/wiki/%D9%84%D9%87%D8%AC%D8%A9_%D9%8A%D9%85%D9%86%D9%8A%D8%A9"
+ }
+}

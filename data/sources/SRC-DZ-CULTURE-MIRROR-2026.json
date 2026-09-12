@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:9167ad3c0ba9ad4c73320708c6bb2c9d88e7b0a1bf05ab62b7cabf8d55efb0e7",
+  "country_codes": [
+    "DZ"
+  ],
+  "id": "SRC-DZ-CULTURE-MIRROR-2026",
+  "language": "ar",
+  "license": "Official Algeria legal/statistical material; factual extraction with attribution; reuse terms not stated",
+  "locator": "Darija profile, Amazigh variety scopes, dish and dress entries",
+  "notes": "Depth-cycle weak/secondary mirror. Cultural claims stay local_reported/probable and unpublished; couscous and bourek carry shared classification, never exclusive ownership. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "Encyclopedic mirror pages on Algerian culture",
+  "quality_tier": "E",
+  "retrieved_at": "2026-08-16",
+  "schema_version": "2.0.0",
+  "source_type": "institutional_page",
+  "title": "Algerian Darija, Amazigh varieties, cuisine, and dress — encyclopedic mirror pages",
+  "url": "https://ar.wikipedia.org/wiki/%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9_%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1%D9%8A%D8%A9"
+}

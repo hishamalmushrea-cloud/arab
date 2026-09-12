@@ -1,9 +1,17 @@
 {
   "country_code": "OM",
   "domains": {
+    "cuisine": {
+      "claims": 7,
+      "status": "documented_local_reported_unpublished"
+    },
     "dialect": {
-      "claims": 0,
-      "status": "not_documented_in_cycle"
+      "claims": 11,
+      "status": "documented_local_reported_unpublished"
+    },
+    "dress": {
+      "claims": 3,
+      "status": "documented_local_reported_unpublished"
     },
     "world_heritage": {
       "known_register_count": 5,

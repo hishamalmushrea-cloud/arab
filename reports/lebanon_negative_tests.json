@@ -1,6 +1,6 @@
 {
   "country_code": "LB",
-  "detected": 8,
+  "detected": 12,
   "mutations": [
     {
       "detected": true,
@@ -41,9 +41,29 @@
       "detected": true,
       "expected_code": "LB_PARENT_SET",
       "mutation": "LB_WRONG_DISTRICT_SET"
+    },
+    {
+      "detected": true,
+      "expected_code": "LB_DEPTH_UNPUBLISHED",
+      "mutation": "LB_DEPTH_PUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "LB_SHARED_NOT_EXCLUSIVE",
+      "mutation": "LB_TABBOULEH_EXCLUSIVE"
+    },
+    {
+      "detected": true,
+      "expected_code": "LB_DEPTH_LANGS",
+      "mutation": "LB_LANG_DROPPED"
+    },
+    {
+      "detected": true,
+      "expected_code": "LB_DEPTH_STATUS",
+      "mutation": "LB_DIALECT_PROMOTED"
     }
   ],
-  "required": 8,
+  "required": 12,
   "schema_version": "2.0.0",
   "status": "PASS"
 }
