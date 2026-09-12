@@ -1305,6 +1305,26 @@
   },
   {
     "archive_url": null,
+    "checksum": "sha256:9595d23c860c09c4413e0c61028c6e7f315bbe16284d410c7939fc3a85dc680a",
+    "country_codes": [
+      "LY"
+    ],
+    "id": "SRC-LY-CULTURE-MIRROR-2026",
+    "language": "ar",
+    "license": "License not stated on source page",
+    "locator": "Dialect profiles incl. the Mashriq-Maghreb hinge, five language notes, dish and dress entries",
+    "notes": "Depth-cycle weak/secondary mirror. Cultural claims stay probable/local_reported and unpublished; couscous/asida/osban carry shared classification, never exclusive ownership; claims sit on the legal municipality frame with no control inference. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Encyclopedic mirror pages on Libyan culture",
+    "quality_tier": "E",
+    "retrieved_at": "2026-08-17",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Libyan dialects, languages, cuisine, and dress — encyclopedic mirror pages",
+    "url": "https://ar.wikipedia.org/wiki/%D9%84%D9%87%D8%AC%D8%A9_%D9%84%D9%8A%D8%A8%D9%8A%D8%A9"
+  },
+  {
+    "archive_url": null,
     "checksum": null,
     "country_codes": [
       "LY"

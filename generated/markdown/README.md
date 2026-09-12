@@ -23,6 +23,6 @@
 | PS | فلسطين | 615 | 31 | [PS](countries/PS.md) |
 | QA | قطر | 10 | 10 | [QA](countries/QA.md) |
 | LB | لبنان | 36 | 33 | [LB](countries/LB.md) |
-| LY | ليبيا | 164 | 0 | [LY](countries/LY.md) |
+| LY | ليبيا | 164 | 20 | [LY](countries/LY.md) |
 | EG | مصر | 83 | 44 | [EG](countries/EG.md) |
 | MR | موريتانيا | 16 | 17 | [MR](countries/MR.md) |

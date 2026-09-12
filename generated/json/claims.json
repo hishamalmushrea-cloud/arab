@@ -12313,6 +12313,683 @@
     "verification_status": "verified"
   },
   {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-LY-DEPTH-0546A2617E735F49",
+    "lexical_context": null,
+    "notes": "Living local language anchored to its municipality; Awjili and Tedaga stay local_reported pending academic atomic sources; no control inference; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-LY-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: النفوسية الأمازيغية",
+    "status": "reported",
+    "subject_id": "ENT-LY-MUNICIPALITY-8A2464E3FAC0",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أمازيغية جبل نفوسة في الغرب الليبي وهي الأكثر تمسكا؛ دستور 2011 نص على حماية الأمازيغية دون ترسيمها",
+        "language": "النفوسية الأمازيغية"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-LY-DEPTH-072BEBC8171B5AC2",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Maghreb-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-LY-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: المبكبكة",
+    "status": "reported",
+    "subject_id": "ENT-LY-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "مكرونة تطهى في طبيخة حارة تلذع اللسان باللحم أو الدجاج أو البحري",
+        "name": "المبكبكة",
+        "note": "من أشهر أطباق ليبيا الحديثة",
+        "occasion": "وجبة شعبية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-LY-DEPTH-0AC5F27AA3F25FC0",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Maghreb-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-LY-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الرشدة والزميطة",
+    "status": "reported",
+    "subject_id": "ENT-LY-MUNICIPALITY-B4D457D3DD42",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "الرشدة عجين مقطع بالطبيخة، والزميطة شعير محمص بالتمر للسحور والسفر",
+        "name": "الرشدة والزميطة",
+        "note": "",
+        "occasion": "رمضان والسحور"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-LY-DEPTH-0B3E6B823E2A5B81",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; the ancient-origin story of the jard stays a documented narrative; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-LY-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الجرد (الحولي)",
+    "status": "reported",
+    "subject_id": "ENT-LY-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "قطعة صوف نحو ستة أمتار تلف حول الجسد وتترك الكتف الأيمن حرا وتثبت بحبة مشمش؛ الأبيض للأفراح والبني لليومي؛ النقوش المصرية القديمة تظهر الليبيين القدامى بأزياء مشابهة",
+        "gender": "رجالي",
+        "name": "الجرد (الحولي)"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-LY-DEPTH-1DADF1C9CDB757D7",
+    "lexical_context": null,
+    "notes": "Living local language anchored to its municipality; Awjili and Tedaga stay local_reported pending academic atomic sources; no control inference; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-LY-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: الزوارية الأمازيغية",
+    "status": "reported",
+    "subject_id": "ENT-LY-MUNICIPALITY-080FA16C04CC",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أمازيغية زوارة الساحلية الغربية",
+        "language": "الزوارية الأمازيغية"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-LY-DEPTH-415942DA30CE5151",
+    "lexical_context": null,
+    "notes": "Dialect profile from secondary mirrors incl. the Mashriq-Maghreb hinge and the optimistic-inversion feature; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-LY-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: البرقاوية الشرقاوية",
+    "status": "reported",
+    "subject_id": "ENT-LY-MUNICIPALITY-013733073F62",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "أقرب للهجات بدو الأردن والخليج مشرقية الطابع",
+          "الجيم جيم صريحة: رجاجيل",
+          "حلقة وصل المشرق والمغرب تنكسر هنا شرقا"
+        ],
+        "group": "البرقاوية الشرقاوية",
+        "sample_words": [
+          {
+            "m": "ما لك",
+            "w": "كنك"
+          },
+          {
+            "m": "البيت",
+            "w": "حوش"
+          },
+          {
+            "m": "استيقظ",
+            "w": "نوض"
+          },
+          {
+            "m": "كثير",
+            "w": "واجد"
+          }
+        ],
+        "scope": "بنغازي والمرج والبيضاء وطبرق ودرنة"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-LY-DEPTH-45F38A698418562E",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Maghreb-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-LY-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: العصيدة الليبية",
+    "status": "reported",
+    "subject_id": "ENT-LY-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "عجينة قمح تقدم بشراب التمر الرب والزبدة والسمن؛ فطور صباح العيد",
+        "name": "العصيدة الليبية",
+        "note": "صحراوية مشتركة عربيا — لا حصرية",
+        "occasion": "عيد الفطر والمولد"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-LY-DEPTH-4978AFC579FF5F19",
+    "lexical_context": null,
+    "notes": "Living local language anchored to its municipality; Awjili and Tedaga stay local_reported pending academic atomic sources; no control inference; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-LY-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: التداغا (لغة التبو)",
+    "status": "reported",
+    "subject_id": "ENT-LY-MUNICIPALITY-648E18A98114",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لغة التبو الصحراوية في مرزق والقطرون والكفرة؛ حصرها الدقيق يحتاج مصدرا أكاديميا",
+        "language": "التداغا (لغة التبو)"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-LY-DEPTH-54BF1CADF326520D",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Maghreb-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-LY-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: العصبان",
+    "status": "reported",
+    "subject_id": "ENT-LY-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أمعاء محشوة باللحم المفروم والأرز والبقدونس تطهى في الطبيخة",
+        "name": "العصبان",
+        "note": "مشترك مغاربي؛ حاضر في كسكسي الساحل التونسي أيضا",
+        "occasion": "مناسبات"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-LY-DEPTH-554BF9E8257550DC",
+    "lexical_context": null,
+    "notes": "Dialect profile from secondary mirrors incl. the Mashriq-Maghreb hinge and the optimistic-inversion feature; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-LY-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: الفزانية",
+    "status": "reported",
+    "subject_id": "ENT-LY-MUNICIPALITY-963437A7B495",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "خليط عربي أمازيغي صحراوي بأثر الطوارق والتبو"
+        ],
+        "group": "الفزانية",
+        "sample_words": [
+          {
+            "m": "عربة صغيرة",
+            "w": "دقانة"
+          },
+          {
+            "m": "انظر",
+            "w": "تيتوه"
+          }
+        ],
+        "scope": "سبها وأوباري ومرزق وغات"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-LY-DEPTH-55DB6B8BCEC35574",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; the ancient-origin story of the jard stays a documented narrative; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-LY-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: اللثام الطوارقي (تلغلموست)",
+    "status": "reported",
+    "subject_id": "ENT-LY-MUNICIPALITY-5D6A4BA52C7D",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "اللثام الأزرق الطوارقي في الجنوب الغربي مع حلي أنقار",
+        "gender": "رجالي",
+        "name": "اللثام الطوارقي (تلغلموست)"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-LY-DEPTH-5C5F26434EC9536A",
+    "lexical_context": null,
+    "notes": "Dialect profile from secondary mirrors incl. the Mashriq-Maghreb hinge and the optimistic-inversion feature; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-LY-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: الركيزة الأمازيغية في الليبية",
+    "status": "reported",
+    "subject_id": "ENT-LY-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "مفردات أمازيغية باقية في الدارجة"
+        ],
+        "group": "الركيزة الأمازيغية في الليبية",
+        "sample_words": [
+          {
+            "m": "بطيخ؛ أمازيغية",
+            "w": "دلاع"
+          },
+          {
+            "m": "فخ؛ أمازيغية",
+            "w": "منداف"
+          }
+        ],
+        "scope": "عموم ليبيا"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-LY-DEPTH-70BE17256ED85183",
+    "lexical_context": null,
+    "notes": "Dialect profile from secondary mirrors incl. the Mashriq-Maghreb hinge and the optimistic-inversion feature; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-LY-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: سمة القلب التفاؤلي",
+    "status": "reported",
+    "subject_id": "ENT-LY-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "قلب الأسماء لمعكوسها تفاؤلا: الفحم البياض والأعمى البصير والنار العافية — سمة ليبية بارزة"
+        ],
+        "group": "سمة القلب التفاؤلي",
+        "sample_words": [],
+        "scope": "عموم ليبيا"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "national",
+    "confidence": "low",
+    "id": "CLM-LY-DEPTH-8BF1B9C60FF252B0",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Maghreb-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-LY-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: البازين",
+    "status": "reported",
+    "subject_id": "ENT-LY-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "عجينة شعير تغلى وتشكل هرما وتغمر بالطبيخة من البطاطا والفول واللحم والبيض المسلوق؛ يؤكل بمعصدة خشب الزيتون من قصعة جماعية",
+        "name": "البازين",
+        "note": "بدوي صحراوي الجذور؛ الطبق الوطني الأبرز",
+        "occasion": "المناسبات والأرياف"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-LY-DEPTH-8D1076F4AA57570D",
+    "lexical_context": null,
+    "notes": "Culinary knowledge from weak/secondary mirrors; unpublished. Maghreb-shared dishes stay shared, never exclusive.",
+    "observed_at": "2026-08-17",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-LY-CULTURE-MIRROR-2026",
+    "source_locator": "Dish entry: الكسكسي الليبي",
+    "status": "reported",
+    "subject_id": "ENT-LY-MUNICIPALITY-B4D457D3DD42",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "سميد على البخار بطبيخة اللحم والبصل والحمص وسمن بلدي؛ ومنه بالبصلة وبالحوت",
+        "name": "الكسكسي الليبي",
+        "note": "مغاربي مشترك — لا حصرية؛ الغلبة الغربية الطرابلسية مرسوة",
+        "occasion": "يومي غربي وأعراس"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-LY-DEPTH-946574E0A8CE597F",
+    "lexical_context": null,
+    "notes": "Dialect profile from secondary mirrors incl. the Mashriq-Maghreb hinge and the optimistic-inversion feature; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-LY-CULTURE-MIRROR-2026",
+    "source_locator": "Dialect profile: الطرابلسية الغرباوية",
+    "status": "reported",
+    "subject_id": "ENT-LY-MUNICIPALITY-B4D457D3DD42",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": [
+          "أسرع نطقا وأقرب لشرق تونس",
+          "دخيل إيطالي بديل الفرنسية التونسية",
+          "إمالة شديدة للألف",
+          "قلب الجيم زايا أحيانا: زوز وزردة"
+        ],
+        "group": "الطرابلسية الغرباوية",
+        "sample_words": [
+          {
+            "m": "من",
+            "w": "اشكون"
+          },
+          {
+            "m": "لماذا",
+            "w": "علاش"
+          },
+          {
+            "m": "شارع",
+            "w": "زنقة"
+          },
+          {
+            "m": "تموين؛ إيطالية",
+            "w": "سبيزه"
+          },
+          {
+            "m": "مركز شرطة؛ إيطالية",
+            "w": "كازيرمه"
+          }
+        ],
+        "scope": "طرابلس والجفارة والزاوية ومصراتة والجبل الغربي"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "medium",
+    "id": "CLM-LY-DEPTH-D85C8645F6855CB8",
+    "lexical_context": null,
+    "notes": "Living local language anchored to its municipality; Awjili and Tedaga stay local_reported pending academic atomic sources; no control inference; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-LY-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: الطارقية (تماهق)",
+    "status": "reported",
+    "subject_id": "ENT-LY-MUNICIPALITY-5D6A4BA52C7D",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لغة الطوارق في غات وغدامس وأوباري بالجنوب الغربي",
+        "language": "الطارقية (تماهق)"
+      },
+      "type": "json"
+    },
+    "verification_status": "probable"
+  },
+  {
+    "classification": "shared",
+    "confidence": "low",
+    "id": "CLM-LY-DEPTH-DA5E2F0C209B56D4",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; the ancient-origin story of the jard stays a documented narrative; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-LY-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الفرملة والزبون",
+    "status": "reported",
+    "subject_id": "ENT-LY-MUNICIPALITY-B4D457D3DD42",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "سترة مطرزة بخيوط الفضة والذهب بالتليك تلبس فوق القميص السوري؛ عثمانية ليبية",
+        "gender": "رجالي",
+        "name": "الفرملة والزبون"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-LY-DEPTH-DBAD7884CAA35B40",
+    "lexical_context": null,
+    "notes": "Dress knowledge from weak/secondary mirrors; the ancient-origin story of the jard stays a documented narrative; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "clothing_item",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-LY-CULTURE-MIRROR-2026",
+    "source_locator": "Dress entry: الردا والحلي الأمازيغية",
+    "status": "reported",
+    "subject_id": "ENT-LY-MUNICIPALITY-8A2464E3FAC0",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "تلابا الجبل الغربي والحلي الفضية الأمازيغية",
+        "gender": "نسائي",
+        "name": "الردا والحلي الأمازيغية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-LY-DEPTH-FF55A1062AC450E4",
+    "lexical_context": null,
+    "notes": "Living local language anchored to its municipality; Awjili and Tedaga stay local_reported pending academic atomic sources; no control inference; unpublished.",
+    "observed_at": "2026-08-17",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-LY-CULTURE-MIRROR-2026",
+    "source_locator": "Language note: الأوجلية",
+    "status": "reported",
+    "subject_id": "ENT-LY-MUNICIPALITY-AC19BA540992",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "أمازيغية واحات أوجلة والجوف الشرقية؛ مهددة وتوثيقها ثانوي",
+        "language": "الأوجلية"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-MA-0749C8197D0D5D75",

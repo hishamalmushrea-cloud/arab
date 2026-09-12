@@ -15,10 +15,31 @@
       "sample_size": 6
     },
     "claims": {
-      "population": 0,
-      "record_ids": [],
+      "population": 20,
+      "record_ids": [
+        "CLM-LY-DEPTH-0546A2617E735F49",
+        "CLM-LY-DEPTH-072BEBC8171B5AC2",
+        "CLM-LY-DEPTH-0AC5F27AA3F25FC0",
+        "CLM-LY-DEPTH-0B3E6B823E2A5B81",
+        "CLM-LY-DEPTH-1DADF1C9CDB757D7",
+        "CLM-LY-DEPTH-415942DA30CE5151",
+        "CLM-LY-DEPTH-45F38A698418562E",
+        "CLM-LY-DEPTH-4978AFC579FF5F19",
+        "CLM-LY-DEPTH-54BF1CADF326520D",
+        "CLM-LY-DEPTH-554BF9E8257550DC",
+        "CLM-LY-DEPTH-55DB6B8BCEC35574",
+        "CLM-LY-DEPTH-5C5F26434EC9536A",
+        "CLM-LY-DEPTH-70BE17256ED85183",
+        "CLM-LY-DEPTH-8BF1B9C60FF252B0",
+        "CLM-LY-DEPTH-8D1076F4AA57570D",
+        "CLM-LY-DEPTH-946574E0A8CE597F",
+        "CLM-LY-DEPTH-D85C8645F6855CB8",
+        "CLM-LY-DEPTH-DA5E2F0C209B56D4",
+        "CLM-LY-DEPTH-DBAD7884CAA35B40",
+        "CLM-LY-DEPTH-FF55A1062AC450E4"
+      ],
       "sample_percentage": 100.0,
-      "sample_size": 0
+      "sample_size": 20
     },
     "coverage": {
       "population": 4,
@@ -384,14 +405,15 @@
       "sample_size": 163
     },
     "sources": {
-      "population": 3,
+      "population": 4,
       "record_ids": [
         "SRC-LY-BSC-CENSUS-2006",
+        "SRC-LY-CULTURE-MIRROR-2026",
         "SRC-LY-LAW-59-2012",
         "SRC-LY-MOLG-MUNICIPALITIES-2026"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 3
+      "sample_size": 4
     }
   },
   "schema_version": "2.0.0"

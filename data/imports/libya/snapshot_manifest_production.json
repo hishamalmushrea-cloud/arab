@@ -1,10 +1,18 @@
 {
   "country_code": "LY",
+  "reconciliation": {
+    "cultural_frame": "20 cultural claims: 5 languages anchored to municipalities (Awjili/Tedaga local_reported), 5 dialect profiles incl. the Mashriq-Maghreb hinge, 6 dishes (couscous/asida/osban shared), 4 dress claims; all unpublished."
+  },
   "records": [
     {
       "bytes": 11348,
       "path": "data/imports/libya/fixtures/current_municipalities_2026.json",
       "sha256": "2b3660ee62cfccd70927d5eea2ad490d67979f8b533b03b9423b6c0e73fb9a9c"
+    },
+    {
+      "path": "fixtures/cultural_depth_2026.json",
+      "record_count": 20,
+      "sha256": "9595d23c860c09c4413e0c61028c6e7f315bbe16284d410c7939fc3a85dc680a"
     }
   ],
   "schema_version": "2.0.0",

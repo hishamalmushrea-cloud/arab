@@ -122,7 +122,7 @@
   },
   {
     "captured_at": "2026-08-17",
-    "checksum": "sha256:f85a939de5136a5b49baca48533c0667d2f352c6df3ccdab219cd9bd47f4e4c5",
+    "checksum": "sha256:08bb4ec28f5482f39c16e28387ca3a45d92409a341ac3a9405f06f254192735f",
     "id": "SNP-LY-MUNICIPALITIES-2026-08-17",
     "method": "Exact rendered catalogue enumeration; no cross-authority union.",
     "notes": "Effective control, mahallas, and alternate-authority lists remain separate/unavailable.",
