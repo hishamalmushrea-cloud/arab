@@ -196,7 +196,7 @@ Third Gulf depth cycle, and the first where the authoritative spine contains **n
 - **Published spine:** 7 UNESCO ICH elements, all multi-State files, all `shared`; the validator rejects any promotion to `national`.
 - **Unpublished body:** 33 classified claims — 3 dialect profiles (41 glossed words), 20 dishes, 7 dress items, 2 crafts, 1 naming narrative; tier E throughout and never `published`.
 - **Deliberate zero:** no `language_presence` claim is accepted for Qatar without a source, and a mutation now enforces that.
-- **Places:** three firjan and one heritage **market** (سوق واقف, a new entity type in practice) with `located_in` to Doha municipality, no administrative parent, no population claim, no denominator.
+- **Places:** three firjan and one heritage **market** (سوق واقف, typed `market` like أسواق مدينة تونس المركزية, so no new type is invented) with `located_in` to Doha municipality, no administrative parent, no population claim, no denominator.
 - **New reusable guards:** ICH-must-stay-shared, ICH publication ban, place wrong-municipality ban, unsourced-language ban, source-tier inflation ban, unglossed dialect ban.
 
 ## Comoros depth cycle 1 — a one-element shared spine and a constitution-scoped claim (2026-09-20)

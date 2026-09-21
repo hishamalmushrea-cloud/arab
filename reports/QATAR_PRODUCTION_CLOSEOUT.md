@@ -67,7 +67,7 @@ Seven elements on which Qatar appears, entered as `verified` + `published` claim
 
 ## Old-Doha places — no denominator
 
-4 places entered as `quarter`/`market` with `located_in` only, inside Doha municipality: فريج الأصمخ (three development zones، قصر الدوحة، مدرسة آمنة بنت وهب، قصر الشيخ فهد، بيوت الجفيري، شارعا الأصمخ وعبدالعزيز بن أحمد)، فريج النجادة (17 بيتًا في قلب سوق واقف صارت مركز النجادة)، مشيرب، و**سوق واقف** — the first `market` entity in the project. No administrative parent, no population claim, no percentage.
+4 places entered as `quarter`/`market` with `located_in` only, inside Doha municipality: فريج الأصمخ (three development zones، قصر الدوحة، مدرسة آمنة بنت وهب، قصر الشيخ فهد، بيوت الجفيري، شارعا الأصمخ وعبدالعزيز بن أحمد)، فريج النجادة (17 بيتًا في قلب سوق واقف صارت مركز النجادة)، مشيرب، و**سوق واقف** — a heritage market entered as its own `market` place (the type already exists in the project from أسواق مدينة تونس المركزية, so no precedence is claimed). No administrative parent, no population claim, no percentage.
 
 ## Coverage and denominators
 
