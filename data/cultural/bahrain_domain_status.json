@@ -1,21 +1,45 @@
 {
   "country_code": "BH",
   "domains": {
+    "crafts": {
+      "claims": 3,
+      "status": "documented_local_reported_unpublished"
+    },
     "custom": {
-      "claims": 0,
-      "status": "not_documented_in_cycle"
+      "claims": 1,
+      "status": "documented_published_shared_via_unesco"
     },
     "dialect": {
-      "claims": 0,
-      "status": "not_documented_in_cycle"
+      "claims": 3,
+      "status": "documented_local_reported_unpublished"
     },
     "dress": {
-      "claims": 0,
-      "status": "not_documented_in_cycle"
+      "claims": 7,
+      "status": "documented_local_reported_unpublished"
     },
     "food": {
-      "claims": 0,
-      "status": "not_documented_in_cycle"
+      "claims": 23,
+      "status": "documented_local_reported_unpublished"
+    },
+    "heritage_places": {
+      "denominator": null,
+      "entities": 24,
+      "status": "documented_heritage_layer_no_denominator"
+    },
+    "intangible_cultural_heritage": {
+      "claims": 5,
+      "elements": [
+        "الفجري 2021 (01747)",
+        "الخط العربي 2021 (01718) مشترك",
+        "نخيل التمر 2022 (01902) مشترك",
+        "الحناء 2024 (02116) مشترك",
+        "البشت 2025 (02233) مشترك"
+      ],
+      "status": "documented_published_unesco"
+    },
+    "languages": {
+      "claims": 1,
+      "status": "documented_local_reported_unpublished"
     },
     "world_heritage": {
       "claims": 9,
@@ -23,7 +47,7 @@
       "status": "documented"
     }
   },
-  "notes": "Absence in this bounded cycle is not evidence that a cultural domain is absent in Bahrain. No template values were invented.",
+  "notes": "Depth cycle 1 opens the cultural domains that the bounded first cycle left undocumented: the UNESCO intangible-heritage list is the published spine, and everything from local mirrors, the folklore journal, press, and heritage blogs stays classified and unpublished. The Muharraq heritage layer carries no denominator and no percentage.",
   "schema_version": "2.0.0",
-  "snapshot_date": "2026-08-16"
+  "snapshot_date": "2026-09-20"
 }

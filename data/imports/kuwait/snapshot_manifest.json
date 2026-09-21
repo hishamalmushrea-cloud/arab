@@ -1,6 +1,6 @@
 {
   "country_code": "KW",
-  "method": "Bounded exact transcription of the CSB 2021 census governorate table plus UNESCO State Party inscribed/tentative counts; all inputs checksum-bound.",
+  "method": "Bounded exact transcription of the CSB 2021 census governorate table, the UNESCO State Party inscribed/tentative counts, and the Kuwait depth-cycle cultural and old-city-quarter fixtures; all inputs checksum-bound.",
   "records": [
     {
       "bytes": 1195,
@@ -11,6 +11,11 @@
       "bytes": 344,
       "path": "data/imports/kuwait/fixtures/world_heritage_scope_2026.json",
       "sha256": "09e9e58ae897e4136ed4eb45686223a7f93efabf3f5217cea4ffbf674b40f6ac"
+    },
+    {
+      "bytes": 18906,
+      "path": "data/imports/kuwait/fixtures/cultural_depth_2026.json",
+      "sha256": "e32bc038aefb2f6a25d5919c31e61c1f0927c57c9a492d18fd55f48e494d9411"
     }
   ],
   "schema_version": "2.0.0",

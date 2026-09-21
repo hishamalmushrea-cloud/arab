@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+  "country_codes": [
+    "KM"
+  ],
+  "id": "SRC-KM-ECONOMY-MIRROR-2015",
+  "language": "ar",
+  "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+  "locator": "الفانيليا والقرنفل وجوز الهند؛ اليلنغ يلانغ؛ ترتيب الإنتاج عالميًا",
+  "notes": "مرآة عربية لأوصاف الاقتصاد الزراعي؛ تُسجَّل وصفًا لا إحصاءً مؤرخًا.",
+  "publication_date": "2015-07-08",
+  "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-20",
+  "schema_version": "2.0.0",
+  "source_type": "local_website",
+  "title": "اقتصاد جزر القمر",
+  "url": "https://ar.wikipedia.org/wiki/اقتصاد_جزر_القمر"
+}

@@ -61,6 +61,306 @@
       "source_type": "institutional_page",
       "title": "The Medinas of the Historic Sultanates of the Comoros",
       "url": "https://whc.unesco.org/document/226095"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "country_codes": [
+        "KM"
+      ],
+      "id": "SRC-UNESCO-ICH-KM-ZAFFA-2025",
+      "language": "en",
+      "license": "UNESCO ICH element page; factual extraction with attribution",
+      "locator": "element 02283; inscribed 2025 (20.COM) on the Representative List; seven submitting States",
+      "notes": "Element page read 2026-09-20: description, year, and submitting States. Publication date unavailable on the element page. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "UNESCO Intangible Cultural Heritage",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "The zaffa in the traditional wedding",
+      "url": "https://ich.unesco.org/en/RL/the-zaffa-in-the-traditional-wedding-02283"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "country_codes": [
+        "KM"
+      ],
+      "id": "SRC-KM-CONSTITUTION-2018",
+      "language": "en",
+      "license": "Official Comoros material; factual extraction with attribution; reuse terms not stated",
+      "locator": "Article 6 territory; Article 9 official languages; Article 10 capital",
+      "notes": "Constitutional text as published by the Constitute Project. The page carries no publication date and the promulgation date is not asserted here. Publication date unavailable. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Constitute Project — Comparative Constitutions Project",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "law",
+      "title": "Comoros 2018 Constitution (as published by Constitute)",
+      "url": "https://www.constituteproject.org/constitution/Comoros_2018"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "country_codes": [
+        "KM"
+      ],
+      "id": "SRC-KM-ISO639-3-COMORIAN",
+      "language": "en",
+      "license": "Official Comoros material; factual extraction with attribution; reuse terms not stated",
+      "locator": "zdj Ngazidja; wni Ndzwani; swb Maore; wlc Mwali",
+      "notes": "Registration-authority code set recorded with the four variety codes. The registry page carries no publication date. Publication date unavailable. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "SIL International (ISO 639-3 registration authority)",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "standard",
+      "title": "ISO 639-3 code set for the Comorian varieties",
+      "url": "https://iso639-3.sil.org/code/zdj"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "country_codes": [
+        "KM"
+      ],
+      "id": "SRC-KM-MEDINAS-WIKI-2026",
+      "language": "ar",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "criteria (iii)(iv); reference 1768; Q65724639 parts: Moroni, N Tsoudjini, Itsandra, Iconi, Mutsamudu, Domoni",
+      "notes": "Mirror and Wikidata list of the six component medinas: the UNESCO description names six historic towns without enumerating them, so the names stay local_reported and unpublished. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "ويكيبيديا الإنجليزية / ويكي بيانات",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "local_website",
+      "title": "مدن الموقع المتسلسل 1768 — قائمة المكوّنات",
+      "url": "https://en.wikipedia.org/wiki/Moroni,_Comoros"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "country_codes": [
+        "KM"
+      ],
+      "id": "SRC-KM-LANGUAGES-MIRROR-2026",
+      "language": "ar",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "اللغات الرسمية الثلاث، واللهجات الأربع، واللغات الأقلية (الملغاشية والسواحيلية)",
+      "notes": "مرآة عربية: تصف اللغات الرسمية ولهجات الشيكوموري الأربع واللغات الأقلية محدودة الاستخدام. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "local_website",
+      "title": "لغات جزر القمر",
+      "url": "https://ar.wikipedia.org/wiki/لغات_جزر_القمر"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "country_codes": [
+        "KM"
+      ],
+      "id": "SRC-KM-COMORIAN-LANGS-WIKI-2026",
+      "language": "en",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "dialects Maore/Ngazidja/Mwali/Ndzwani; ISO codes; numerals 1-10; Sabaki/Bantu classification",
+      "notes": "Mirror page used for the language family classification, the two dialect groups, the code list, and the numeral table. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Wikipedia (English mirror)",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "local_website",
+      "title": "Comorian languages — codes, groupings and numerals",
+      "url": "https://en.wikipedia.org/wiki/Comorian_languages"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "country_codes": [
+        "KM"
+      ],
+      "id": "SRC-KM-CUISINE-MIRROR-2026",
+      "language": "ar",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "روتي يا هوما بامبا؛ متسولولا؛ الماتافا؛ الروجيل",
+      "notes": "مرآة عربية لأمثلة الأطباق القمرية ووصفها. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "local_website",
+      "title": "مطبخ قمري",
+      "url": "https://ar.wikipedia.org/wiki/مطبخ_قمري"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "country_codes": [
+        "KM"
+      ],
+      "id": "SRC-KM-FOOD-TRAVEL-2021",
+      "language": "ar",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "مكاترا فوترا؛ جراد البحر بالفانيليا؛ كاري الدجاج؛ أرز جزر القمر؛ شوربة البازلاء",
+      "notes": "مادة طعام محلية بمكونات كل طبق؛ تُستعمل غير منشورة.",
+      "publication_date": "2021-12-05",
+      "publisher": "موضوع مسافر",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "local_website",
+      "title": "أفضل أكلات جزر القمر: لا تفوت فرصة التعرف عليها",
+      "url": "https://travel.mawdoo3.com/s/2767"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "country_codes": [
+        "KM"
+      ],
+      "id": "SRC-KM-FOOD-YOUM7-2022",
+      "language": "ar",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "لانجوست آ لا فانيل؛ مكاترا فطرة؛ مشاكيكي؛ حساء البازلاء بالكاري",
+      "notes": "مادة صحفية محلية تسمّي الأطباق بمكوناتها، وتذكر تقديم مكاترا فطرة مع القهوة العربية المحلاة بالعسل.",
+      "publication_date": "2022-01-26",
+      "publisher": "اليوم السابع",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "local_press",
+      "title": "أشهر 7 أكلات شعبية في جزر القمر",
+      "url": "https://www.youm7.com/story/2022/1/26/5632646"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "country_codes": [
+        "KM"
+      ],
+      "id": "SRC-KM-CULTURE-RASEEF22-2023",
+      "language": "ar",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "الشيروميني؛ السارونج؛ تسولولا؛ ميتساميولي؛ مجلس الذكر",
+      "notes": "شهادة صحفية محلية تصف اللباس والطعام والعادات في ميتساميولي.",
+      "publication_date": "2023-05-05",
+      "publisher": "رصيف22",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "local_website",
+      "title": "ما لا يحدث إلا في جزر القمر... عن أغرب العادات في الأرخبيل المذهل",
+      "url": "https://raseef22.net/article/1093056"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "country_codes": [
+        "KM"
+      ],
+      "id": "SRC-KM-CUSTOM-JAZEERA-2025",
+      "language": "ar",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "مجلس الذكر؛ المهر 10-30 قطعة ذهبية؛ أوكومبي؛ النسب الأمومي والإقامة في بيت الزوجة",
+      "notes": "تقرير صحفي مفصّل عن الزواج الكبير في موروني؛ يُسجَّل بوصفه مصدرًا من الفئة B (وكالة/صحيفة كبرى) مع بقاء الدعوى مصنَّفة.",
+      "publication_date": "2025-08-07",
+      "publisher": "الجزيرة نت",
+      "quality_tier": "B",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "local_press",
+      "title": "السلطان و«الزواج الكبير» في جزر القمر.. إرث ثقافي يتوّج الهوية الاجتماعية",
+      "url": "https://www.aljazeera.net/culture/2025/8/7"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "country_codes": [
+        "KM"
+      ],
+      "id": "SRC-KM-CUSTOM-MIDAD-2016",
+      "language": "ar",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "زواج العفة مقابل الزواج الكبير؛ ما يُحجب عن غير المتزوج؛ مراسم مجلس الذكر والوفود والدف",
+      "notes": "مادة محلية تصف مراسم الزواج الكبير وما يرتبط به من مكانة؛ تُستعمل غير منشورة. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "مِداد",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "local_website",
+      "title": "في جزر القمر إما الزواج الكبير وإما الحرمان من هذه الأشياء",
+      "url": "https://midad.com/article/218038"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "country_codes": [
+        "KM"
+      ],
+      "id": "SRC-KM-ECONOMY-MIRROR-2015",
+      "language": "ar",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "الفانيليا والقرنفل وجوز الهند؛ اليلنغ يلانغ؛ ترتيب الإنتاج عالميًا",
+      "notes": "مرآة عربية لأوصاف الاقتصاد الزراعي؛ تُسجَّل وصفًا لا إحصاءً مؤرخًا.",
+      "publication_date": "2015-07-08",
+      "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "local_website",
+      "title": "اقتصاد جزر القمر",
+      "url": "https://ar.wikipedia.org/wiki/اقتصاد_جزر_القمر"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "country_codes": [
+        "KM"
+      ],
+      "id": "SRC-KM-VOCAB-QUIZLET-2016",
+      "language": "ar",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "عبارات أساسية بمعانيها الإنجليزية مثل Eledzina lahaho ndo? وNtsudjuwa",
+      "notes": "مجموعة تعليمية محلية لا تميّز اللهجات وتضمّ مفردات ذات أثر سواحيلي؛ تُستعمل لمفردات مصنَّفة غير منشورة فقط. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Quizlet (مجموعة تعلم محلية)",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "forum",
+      "title": "Shikomori — مجموعة تعليمية للمفردات والعبارات",
+      "url": "https://quizlet.com/84861856/shikomori-flash-cards/"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "country_codes": [
+        "KM"
+      ],
+      "id": "SRC-KM-CULTURE-ALAYYAM-2024",
+      "language": "ar",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "التشيروماني: قطعة قماش مطبوع تُلفّ حول الجسم في المناسبات",
+      "notes": "مادة صحفية محلية تصف التشيروماني ضمن اللباس النسائي في المناسبات.",
+      "publication_date": "2024-07-04",
+      "publisher": "صحيفة الأيام",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "local_press",
+      "title": "المسلمون في جزر القمر",
+      "url": "https://www.alayyam.info/news/9RQHMT5F-HEOPIO-839E"
     }
   ]
 }

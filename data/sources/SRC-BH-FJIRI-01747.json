@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:bfa1232e1b1849e7daac5430ff74f75d2b971b8751e7785e32b46ac8a735100d",
+  "country_codes": [
+    "BH"
+  ],
+  "id": "SRC-BH-FJIRI-01747",
+  "language": "en",
+  "license": "UNESCO ICH pages; factual extraction with attribution",
+  "locator": "inscription year 2021 on the Representative List; description of the circle performance, drums, finger chimes, jahl clay pot, durs, and the Muharraq pearling origin",
+  "notes": "Element description is the same UNESCO record used for the inscription claim. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "UNESCO Intangible Cultural Heritage",
+  "quality_tier": "A",
+  "retrieved_at": "2026-09-20",
+  "schema_version": "2.0.0",
+  "source_type": "institutional_page",
+  "title": "Fjiri",
+  "url": "https://ich.unesco.org/en/RL/fjiri-01747"
+}

@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:bfa1232e1b1849e7daac5430ff74f75d2b971b8751e7785e32b46ac8a735100d",
+  "country_codes": [
+    "BH"
+  ],
+  "id": "SRC-BH-CUISINE-MIRROR-2026",
+  "language": "ar",
+  "license": "CC BY-SA 4.0 for the mirror text",
+  "locator": "أقسام أطباق الأرز والوجبات البحرية والوجبات الخالية من الأرز والإفطار البحريني مع وصف كل طبق",
+  "notes": "Publication date unavailable on the live page. Depth-cycle tier-E material: claims stay local_reported and unpublished.",
+  "publication_date": null,
+  "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-20",
+  "schema_version": "2.0.0",
+  "source_type": "local_website",
+  "title": "مطبخ بحريني — موسوعة مرآة",
+  "url": "https://ar.wikipedia.org/wiki/مطبخ_بحريني"
+}

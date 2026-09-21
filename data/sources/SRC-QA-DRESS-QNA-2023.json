@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5",
+  "country_codes": [
+    "QA"
+  ],
+  "id": "SRC-QA-DRESS-QNA-2023",
+  "language": "ar",
+  "license": "Qatari state news agency report; factual extraction with attribution",
+  "locator": "البخنق وليلة النافلة والقرنقعوه، وأناقة ثوب النشل، والعباءة مع الشيلة المطرزة بالخرز",
+  "notes": "Report dated 2023-03-24. Tier-E press material: stays local_reported and unpublished.",
+  "publication_date": "2023-03-24",
+  "publisher": "وكالة الأنباء القطرية (قنا)",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-20",
+  "schema_version": "2.0.0",
+  "source_type": "local_press",
+  "title": "الأزياء النسائية التقليدية.. عادة تتشبث بها المرأة القطرية في شهر رمضان المبارك",
+  "url": "https://www.qna.org.qa/ar-QA/News-Area/News/2023-03/24/0030"
+}

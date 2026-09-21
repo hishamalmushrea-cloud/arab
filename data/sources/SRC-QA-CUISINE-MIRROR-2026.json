@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5",
+  "country_codes": [
+    "QA"
+  ],
+  "id": "SRC-QA-CUISINE-MIRROR-2026",
+  "language": "ar",
+  "license": "CC BY-SA 4.0 for the mirror text",
+  "locator": "أقسام الأطباق الرئيسية والحلويات والمشروبات التقليدية مع وصف كل طبق",
+  "notes": "Depth-cycle tier-E material: claims stay local_reported and unpublished. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-20",
+  "schema_version": "2.0.0",
+  "source_type": "local_website",
+  "title": "مطبخ قطري — موسوعة مرآة",
+  "url": "https://ar.wikipedia.org/wiki/مطبخ_قطري"
+}

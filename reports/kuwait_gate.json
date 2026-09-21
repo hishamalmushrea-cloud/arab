@@ -18,10 +18,10 @@
     },
     "general_validation": {
       "command": "python3 scripts/validate.py",
-      "returncode": 0,
-      "status": "pass",
-      "stderr": "",
-      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=19551\n[PASS] ids: global_ids=19551, duplicate_ids=0\n[PASS] entity_types: allowed_types=104, active_types=67\n[PASS] sources: atomic_files=174, sources=174, references=22240\n[PASS] parents: administrative_relationships=5639\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2545, sourced=2545\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=115, coverage_records=115, complete_layers=97\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
+      "returncode": 1,
+      "status": "fail",
+      "stderr": "6 validation error(s):\n- claims CLM-KM-DEPTH-08CABA1B39D95289: second source and second source locator must occur together\n- claims CLM-KM-DEPTH-7478CFBE197656C7: second source and second source locator must occur together\n- claims CLM-KM-DEPTH-B1FADCA321CC5CF6: second source and second source locator must occur together\n- claims CLM-KM-DEPTH-CE46475C34CC55E5: second source and second source locator must occur together\n- claims CLM-KM-DEPTH-DC6D90BCA2495E83: second source and second source locator must occur together\n- claims CLM-KM-DEPTH-FFC98C79BABD53F0: second source and second source locator must occur together",
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=19855\n[PASS] ids: global_ids=19855, duplicate_ids=0\n[PASS] entity_types: allowed_types=104, active_types=68\n[PASS] sources: atomic_files=217, sources=217, references=22511\n[PASS] parents: administrative_relationships=5639\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3265, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[FAIL] claims: claims=2700, sourced=2700\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=115, coverage_records=115, complete_layers=97\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0"
     },
     "generated_freshness": {
       "command": "python3 scripts/generate.py --check",
@@ -38,6 +38,10 @@
       "detail": "status=PASS, P0=0, critical P1=0",
       "status": "pass"
     },
+    "kuwait_full_review_threshold": {
+      "detail": "full review passed=118/118",
+      "status": "pass"
+    },
     "kuwait_import_idempotence": {
       "detail": "all 10 managed hashes unchanged=True",
       "status": "pass"
@@ -47,24 +51,24 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "Materialized 3 Kuwait atomic sources.\n{\"aliases_added\": 6, \"claims_added\": 6, \"coverage_added\": 2, \"denominators_added\": 2, \"entities_added\": 6, \"relationships_added\": 6, \"sources\": 3}"
+      "stdout": "Materialized 11 Kuwait atomic sources.\n{\"aliases\": 10, \"claims\": 44, \"coverage_added\": 2, \"denominators_added\": 2, \"depth_claims\": 38, \"entities\": 23, \"relationships\": 23, \"sources\": 11}"
     },
     "kuwait_independent_review": {
       "command": "python3 scripts/review_kuwait.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "[PASS] entities: 7/7\n[PASS] aliases: 6/6\n[PASS] relationships: 6/6\n[PASS] claims: 6/6\n[PASS] sources: 3/3\n[PASS] denominators: 3/3\n[PASS] coverage: 3/3"
+      "stdout": "[PASS] entities: 24/24\n[PASS] aliases: 10/10\n[PASS] relationships: 23/23\n[PASS] claims: 44/44\n[PASS] sources: 11/11\n[PASS] denominators: 3/3\n[PASS] coverage: 3/3"
     },
     "kuwait_negative_tests": {
       "command": "python3 scripts/test_kuwait_negative.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "[PASS] KW_WRONG_PARENT\n[PASS] KW_AREA_AS_GOVERNORATE\n[PASS] KW_BLOCK_AS_MUNICIPALITY\n[PASS] KW_FOREIGN_SOURCE\n[PASS] KW_POPULATION_TAMPER\n[PASS] KW_UNDATED_CENSUS\n[PASS] KW_TENTATIVE_AS_INSCRIBED\n[PASS] KW_CULTURAL_LEAKAGE\n[PASS] KW_ALIAS_AS_ENTITY"
+      "stdout": "[PASS] KW_WRONG_PARENT\n[PASS] KW_AREA_AS_GOVERNORATE\n[PASS] KW_BLOCK_AS_MUNICIPALITY\n[PASS] KW_FOREIGN_SOURCE\n[PASS] KW_POPULATION_TAMPER\n[PASS] KW_UNDATED_CENSUS\n[PASS] KW_TENTATIVE_AS_INSCRIBED\n[PASS] KW_CULTURAL_LEAKAGE\n[PASS] KW_ALIAS_AS_ENTITY\n[PASS] KW_SHARED_NOT_EXCLUSIVE\n[PASS] KW_DEPTH_PUBLISHED_FROM_WEAK\n[PASS] KW_DIALECT_PROMOTED\n[PASS] KW_FIRIJ_AS_CURRENT\n[PASS] KW_FIRIJ_ADMIN_PARENT\n[PASS] KW_ICH_UNPUBLISHED\n[PASS] KW_QUARTER_POPULATION"
     },
     "kuwait_required_mutations": {
-      "detail": "detected=9/9",
+      "detail": "detected=16/16",
       "status": "pass"
     },
     "kuwait_review_idempotence": {
@@ -80,21 +84,17 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "Kuwait full review sample 34"
-    },
-    "kuwait_review_threshold": {
-      "detail": "full review passed=34/34",
-      "status": "pass"
+      "stdout": "Kuwait full review sample 118"
     },
     "kuwait_semantic_validation": {
       "command": "python3 scripts/validate_kuwait.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "{\"ab_claims\": 6, \"aliases\": 6, \"claims\": 6, \"coverage_records\": 3, \"denominators\": 3, \"dialect_claims\": 0, \"entities\": 7, \"new_entities\": 6, \"relationships\": 6, \"sources\": 3}\nKuwait production semantic validation passed."
+      "stdout": "{\"ab_claims\": 14, \"aliases\": 10, \"claims\": 44, \"coverage_records\": 3, \"denominators\": 3, \"depth_claims\": 38, \"entities\": 24, \"historic_places\": 17, \"new_entities\": 23, \"relationships\": 23, \"sources\": 11}\nKuwait production semantic validation passed."
     },
     "kuwait_source_idempotence": {
-      "detail": "atomic sources=3/3, unchanged=True",
+      "detail": "atomic sources=11/11, unchanged=True",
       "status": "pass"
     },
     "kuwait_source_refresh": {
@@ -102,16 +102,18 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "Materialized 3 Kuwait atomic sources."
+      "stdout": "Materialized 11 Kuwait atomic sources."
     },
     "non_kuwait_preservation": {
-      "detail": "canonical non-Kuwait SHA-256 unchanged=6dfc679b77abd91b280bdd35ef8e05ff04429d0af10fb284de22b7d7f159d688",
+      "detail": "canonical non-Kuwait SHA-256 unchanged=13fdea6823b44daebb76034b4071da4a4cec28230bd565b628a6ac0a4b3f2bdf",
       "status": "pass"
     }
   },
   "country_code": "KW",
-  "errors": [],
+  "errors": [
+    "general_validation: exit 1"
+  ],
   "schema_version": "2.0.0",
   "snapshot_date": "2026-08-16",
-  "status": "pass"
+  "status": "fail"
 }

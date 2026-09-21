@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5",
+  "country_codes": [
+    "QA"
+  ],
+  "id": "SRC-QA-FIRJAN-PRESS-2024",
+  "language": "ar",
+  "license": "Local press report reproduced by two Qatari outlets; factual extraction with attribution",
+  "locator": "فريج الأصمخ وثلاث مناطق تطوير، وقصر الدوحة ومدرسة آمنة بنت وهب وقصر الشيخ فهد وبيوت الجفيري، وشارعا الأصمخ وعبدالعزيز بن أحمد، ومكونات البيت القطري: الحوش والليوان والمجلس المنفصل ودنجل وجريد النخل والجص، وسكك ودواعيس وبراحات",
+  "notes": "Report dated 2024-08-25. Tier-E press material: firjan and architecture terms stay local_reported with no administrative status.",
+  "publication_date": "2024-08-25",
+  "publisher": "جريدة الراية",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-20",
+  "schema_version": "2.0.0",
+  "source_type": "local_press",
+  "title": "يجسد تفاصيل فرجان الدوحة القديمة.. تواصل تأهيل وإحياء فريج الأصمخ",
+  "url": "https://www.raya.com/"
+}

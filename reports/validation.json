@@ -1,14 +1,14 @@
 {
   "checks": {
     "aliases": {
-      "aliases": 3261,
+      "aliases": 3265,
       "duplicate_aliases": 0,
       "status": "pass"
     },
     "claims": {
-      "claims": 2545,
-      "sourced": 2545,
-      "status": "pass"
+      "claims": 2700,
+      "sourced": 2700,
+      "status": "fail"
     },
     "coordinates": {
       "coordinate_records": 2746,
@@ -41,7 +41,7 @@
       "status": "pass"
     },
     "entity_types": {
-      "active_types": 67,
+      "active_types": 68,
       "allowed_types": 104,
       "status": "pass"
     },
@@ -51,7 +51,7 @@
     },
     "ids": {
       "duplicate_ids": 0,
-      "global_ids": 19551,
+      "global_ids": 19855,
       "status": "pass"
     },
     "independent_review": {
@@ -108,14 +108,14 @@
       "tunisia_published_claims": 69
     },
     "sources": {
-      "atomic_files": 174,
-      "references": 22240,
-      "sources": 174,
+      "atomic_files": 217,
+      "references": 22511,
+      "sources": 217,
       "status": "pass"
     },
     "structured_data": {
       "record_families": 8,
-      "records": 19551,
+      "records": 19855,
       "status": "pass"
     },
     "unicode": {
@@ -124,16 +124,47 @@
     }
   },
   "counts": {
-    "aliases": 3261,
-    "claims": 2545,
+    "aliases": 3265,
+    "claims": 2700,
     "coverage": 115,
     "denominators": 115,
-    "entities": 6453,
+    "entities": 6504,
     "manifests": 22,
-    "relationships": 6860,
+    "relationships": 6911,
     "snapshots": 28,
-    "sources": 174
+    "sources": 217
   },
-  "errors": [],
-  "status": "pass"
+  "errors": [
+    {
+      "check": "claims",
+      "location": "CLM-KM-DEPTH-08CABA1B39D95289",
+      "message": "second source and second source locator must occur together"
+    },
+    {
+      "check": "claims",
+      "location": "CLM-KM-DEPTH-7478CFBE197656C7",
+      "message": "second source and second source locator must occur together"
+    },
+    {
+      "check": "claims",
+      "location": "CLM-KM-DEPTH-B1FADCA321CC5CF6",
+      "message": "second source and second source locator must occur together"
+    },
+    {
+      "check": "claims",
+      "location": "CLM-KM-DEPTH-CE46475C34CC55E5",
+      "message": "second source and second source locator must occur together"
+    },
+    {
+      "check": "claims",
+      "location": "CLM-KM-DEPTH-DC6D90BCA2495E83",
+      "message": "second source and second source locator must occur together"
+    },
+    {
+      "check": "claims",
+      "location": "CLM-KM-DEPTH-FFC98C79BABD53F0",
+      "message": "second source and second source locator must occur together"
+    }
+  ],
+  "status": "fail"
 }

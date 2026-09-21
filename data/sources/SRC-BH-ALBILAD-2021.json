@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:bfa1232e1b1849e7daac5430ff74f75d2b971b8751e7785e32b46ac8a735100d",
+  "country_codes": [
+    "BH"
+  ],
+  "id": "SRC-BH-ALBILAD-2021",
+  "language": "ar",
+  "license": "Local press column; factual extraction with attribution; reuse terms not stated",
+  "locator": "عمود يقرر أن عمرانية الجزيرة تتشكل من مدينة المحرق ومن قرى وحالات وأحياء أو فرجان: القرى الدير وسماهيج وقلالي والحد والبسيتين وعراد بقلعتها البرتغالية (القرن 16م)، والحالات كحالة بوماهر والنعيم والسلطة، وفرجان المهن (البنائين والحياك والصاغة) وفرجان العوائل (الشيوخ والبنعلي والمناعي)، وبيوت تراثية: بيت الشيخ عيسى بن علي وبيت ومجلس سيادي وبيت الشيخ سلمان بن حمد",
+  "notes": "Column dated 2021-02-16. Tier-E press material: village/hala and farij names enter as local_reported places with located_in only.",
+  "publication_date": "2021-02-16",
+  "publisher": "جريدة البلاد",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-20",
+  "schema_version": "2.0.0",
+  "source_type": "local_press",
+  "title": "عمارة المحرق التقليدية وفرجانها",
+  "url": "https://albiladpress.com/news/2021/4508/columns/693672.html"
+}

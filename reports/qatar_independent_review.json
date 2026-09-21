@@ -6,20 +6,23 @@
       "failed": 0,
       "passed": 9,
       "population": 9,
+      "sample_percentage": 100.0,
       "sampled": 9,
       "status": "PASS"
     },
     "claims": {
       "failed": 0,
-      "passed": 10,
-      "population": 10,
-      "sampled": 10,
+      "passed": 50,
+      "population": 50,
+      "sample_percentage": 100.0,
+      "sampled": 50,
       "status": "PASS"
     },
     "coverage": {
       "failed": 0,
       "passed": 3,
       "population": 3,
+      "sample_percentage": 100.0,
       "sampled": 3,
       "status": "PASS"
     },
@@ -27,36 +30,41 @@
       "failed": 0,
       "passed": 3,
       "population": 3,
+      "sample_percentage": 100.0,
       "sampled": 3,
       "status": "PASS"
     },
     "entities": {
       "failed": 0,
-      "passed": 10,
-      "population": 10,
-      "sampled": 10,
+      "passed": 14,
+      "population": 14,
+      "sample_percentage": 100.0,
+      "sampled": 14,
       "status": "PASS"
     },
     "relationships": {
       "failed": 0,
-      "passed": 9,
-      "population": 9,
-      "sampled": 9,
+      "passed": 13,
+      "population": 13,
+      "sample_percentage": 100.0,
+      "sampled": 13,
       "status": "PASS"
     },
     "sources": {
       "failed": 0,
-      "passed": 3,
-      "population": 3,
-      "sampled": 3,
+      "passed": 13,
+      "population": 13,
+      "sample_percentage": 100.0,
+      "sampled": 13,
       "status": "PASS"
     }
   },
   "findings": [],
-  "method": "Independent full comparison to PSA fixture; importer/validator not imported.",
+  "method": "Independent full-population review against the checksum-bound PSA census, QNMP/UNESCO scope, and depth fixtures; importer and Qatar semantic validator are not imported.",
   "p0": 0,
   "schema_version": "2.0.0",
+  "snapshot_date": "2026-09-20",
   "status": "PASS",
-  "total_passed": 47,
-  "total_sampled": 47
+  "total_passed": 105,
+  "total_sampled": 105
 }

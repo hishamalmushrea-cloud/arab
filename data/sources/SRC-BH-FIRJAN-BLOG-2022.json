@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:bfa1232e1b1849e7daac5430ff74f75d2b971b8751e7785e32b46ac8a735100d",
+  "country_codes": [
+    "BH"
+  ],
+  "id": "SRC-BH-FIRJAN-BLOG-2022",
+  "language": "ar",
+  "license": "Self-published local heritage series; factual extraction with attribution; reuse terms not stated",
+  "locator": "الحلقة 3: معنى الفريج والداعوس والزرنوق، واعتبارات تسمية الفرجان (القبيلة، التاجر، علامة المكان) وأمثلة: فريج الشيوخ، فريج المحميد، فريج بن هندي، فريج الغاوي، فريج ستسيشن، فريج عين سمادو، وتشكل التسمية مع استيطان المحرق سنة 1796",
+  "notes": "Page dated 2022-06-09. Tier-E blog material used only for naming narratives at local_reported.",
+  "publication_date": "2022-06-09",
+  "publisher": "موقع الشيخ صلاح الجودر (سلسلة محلية)",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-20",
+  "schema_version": "2.0.0",
+  "source_type": "blog",
+  "title": "فرجان المحرق القديمة",
+  "url": "https://www.salahaljowder.com/2022/06/blog-post_9.html"
+}

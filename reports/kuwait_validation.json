@@ -3,19 +3,20 @@
   "critical_p1": 0,
   "errors": [],
   "metrics": {
-    "ab_claims": 6,
-    "aliases": 6,
-    "claims": 6,
+    "ab_claims": 14,
+    "aliases": 10,
+    "claims": 44,
     "coverage_records": 3,
     "denominators": 3,
-    "dialect_claims": 0,
-    "entities": 7,
-    "new_entities": 6,
-    "relationships": 6,
-    "sources": 3
+    "depth_claims": 38,
+    "entities": 24,
+    "historic_places": 17,
+    "new_entities": 23,
+    "relationships": 23,
+    "sources": 11
   },
   "p0": 0,
   "schema_version": "2.0.0",
-  "snapshot_date": "2026-08-16",
+  "snapshot_date": "2026-09-20",
   "status": "PASS"
 }

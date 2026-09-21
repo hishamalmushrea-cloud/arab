@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:e32bc038aefb2f6a25d5919c31e61c1f0927c57c9a492d18fd55f48e494d9411",
+  "country_codes": [
+    "KW"
+  ],
+  "id": "SRC-KW-CUISINE-MIRROR-2026",
+  "language": "ar",
+  "license": "CC BY-SA 4.0 for the mirror text",
+  "locator": "sections: أشهر الأكلات الكويتية وأشهر الحلويات الكويتية with the per-dish descriptions",
+  "notes": "Publication date unavailable on the mirror. Dish knowledge enters as local_reported and unpublished; Gulf-shared dishes keep classification shared.",
+  "publication_date": null,
+  "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-20",
+  "schema_version": "2.0.0",
+  "source_type": "local_website",
+  "title": "مطبخ كويتي — موسوعة مرآة",
+  "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B7%D8%A8%D8%AE_%D9%83%D9%88%D9%8A%D8%AA%D9%8A"
+}

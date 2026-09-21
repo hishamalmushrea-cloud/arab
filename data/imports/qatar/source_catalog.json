@@ -61,6 +61,206 @@
       "source_type": "institutional_page",
       "title": "Al Zubarah Archaeological Site",
       "url": "https://whc.unesco.org/en/list/1402"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5",
+      "country_codes": [
+        "QA"
+      ],
+      "id": "SRC-QA-UNESCO-ICH-2026",
+      "language": "en",
+      "license": "UNESCO ICH pages; factual extraction with attribution",
+      "locator": "inscribed elements: Majlis 2015 ref 01076, Falconry 2021 ref 01708, Date palm 2022 ref 01902, Arabic coffee 2024 ref 02111, Henna 2024 ref 02116, Al Sadu 2025 ref 02158, Bisht 2025 ref 02233",
+      "notes": "Publication date unavailable on the live State Party list page. Every element on which Qatar appears is a multi-State file: Qatar has no nationally exclusive element on the 2026 list. Only the meaning of each official title is asserted; no description beyond it was invented.",
+      "publication_date": null,
+      "publisher": "UNESCO Intangible Cultural Heritage",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_dataset",
+      "title": "Elements on the Lists — Qatar State Party",
+      "url": "https://ich.unesco.org/en/state/qatar-QA?info=elements-on-the-lists"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5",
+      "country_codes": [
+        "QA"
+      ],
+      "id": "SRC-QA-CUISINE-MIRROR-2026",
+      "language": "ar",
+      "license": "CC BY-SA 4.0 for the mirror text",
+      "locator": "أقسام الأطباق الرئيسية والحلويات والمشروبات التقليدية مع وصف كل طبق",
+      "notes": "Depth-cycle tier-E material: claims stay local_reported and unpublished. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "local_website",
+      "title": "مطبخ قطري — موسوعة مرآة",
+      "url": "https://ar.wikipedia.org/wiki/مطبخ_قطري"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5",
+      "country_codes": [
+        "QA"
+      ],
+      "id": "SRC-QA-DIALECT-DOHA24-2025",
+      "language": "ar",
+      "license": "Local Qatar page; factual extraction with attribution; reuse terms not stated",
+      "locator": "الملامح النطقية (تحوّل الجيم قرب «چ» في مخاطبة المؤنث) وقائمة كلمات شائعة بمعانيها",
+      "notes": "Page dated 2025-12-10. Tier-E local page: dialect material stays local_reported and unpublished.",
+      "publication_date": "2025-12-10",
+      "publisher": "دوحة 24",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "local_website",
+      "title": "اللهجة القطرية: أبرز كلمات وعبارات يجب أن يعرفها كل مقيم",
+      "url": "https://doha24.net/new/اللهجة-القطرية-أبرز-كلمات-وعبارات-يجب/"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5",
+      "country_codes": [
+        "QA"
+      ],
+      "id": "SRC-QA-DIALECT-FORUM-2010",
+      "language": "ar",
+      "license": "Local forum thread; factual extraction with attribution; reuse terms not stated",
+      "locator": "قائمة معجمية بمعنى كل كلمة عربية مقابلًا لها",
+      "notes": "Thread dated 2010. Tier-E forum material used only for graded vocabulary with explicit meanings.",
+      "publication_date": "2010-04-13",
+      "publisher": "منتدى محلي (خيط السمعة)",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "forum",
+      "title": "تعلم اللهجة القطرية في 3 أيام",
+      "url": "https://alsom3a.ahlamontada.com/t4115-topic"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5",
+      "country_codes": [
+        "QA"
+      ],
+      "id": "SRC-QA-DRESS-JAZEERA-2018",
+      "language": "ar",
+      "license": "Local press report; factual extraction with attribution; reuse terms not stated",
+      "locator": "ثوب النشل وخيوط البريم والدراعة والبخنق والثوب (الكندورة/الدشداشة) بالسيم والغولي والسفة والسنجاف وثوب ميرح",
+      "notes": "Report dated 2018-12-12. Dress details stay local_reported and unpublished; Gulf-shared items keep classification shared.",
+      "publication_date": "2018-12-12",
+      "publisher": "الجزيرة نت",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "local_press",
+      "title": "الأزياء التراثية الخليجية.. تطريز وألوان مبهجة وتصاميم محتشمة",
+      "url": "https://www.aljazeera.net/lifestyle/2018/12/12/"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5",
+      "country_codes": [
+        "QA"
+      ],
+      "id": "SRC-QA-DRESS-QNA-2023",
+      "language": "ar",
+      "license": "Qatari state news agency report; factual extraction with attribution",
+      "locator": "البخنق وليلة النافلة والقرنقعوه، وأناقة ثوب النشل، والعباءة مع الشيلة المطرزة بالخرز",
+      "notes": "Report dated 2023-03-24. Tier-E press material: stays local_reported and unpublished.",
+      "publication_date": "2023-03-24",
+      "publisher": "وكالة الأنباء القطرية (قنا)",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "local_press",
+      "title": "الأزياء النسائية التقليدية.. عادة تتشبث بها المرأة القطرية في شهر رمضان المبارك",
+      "url": "https://www.qna.org.qa/ar-QA/News-Area/News/2023-03/24/0030"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5",
+      "country_codes": [
+        "QA"
+      ],
+      "id": "SRC-QA-DRESS-KHALEEJ-2016",
+      "language": "ar",
+      "license": "Local press feature; factual extraction with attribution; reuse terms not stated",
+      "locator": "الزي الرجالي: الثوب الأبيض ذو الياقة والبشت المطرز والعقال بخيطين، والدقلة للشتاء؛ وعباية الرفع الحريرية مع شيلة خفيفة",
+      "notes": "Feature dated 2016-09-24. Tier-E press material: stays local_reported and unpublished.",
+      "publication_date": "2016-09-24",
+      "publisher": "صحيفة الخليج",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "local_press",
+      "title": "قطر .. بين الماضي والحاضر",
+      "url": "https://www.alkhaleej.ae/2016-09-24/"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5",
+      "country_codes": [
+        "QA"
+      ],
+      "id": "SRC-QA-FIRJAN-PRESS-2024",
+      "language": "ar",
+      "license": "Local press report reproduced by two Qatari outlets; factual extraction with attribution",
+      "locator": "فريج الأصمخ وثلاث مناطق تطوير، وقصر الدوحة ومدرسة آمنة بنت وهب وقصر الشيخ فهد وبيوت الجفيري، وشارعا الأصمخ وعبدالعزيز بن أحمد، ومكونات البيت القطري: الحوش والليوان والمجلس المنفصل ودنجل وجريد النخل والجص، وسكك ودواعيس وبراحات",
+      "notes": "Report dated 2024-08-25. Tier-E press material: firjan and architecture terms stay local_reported with no administrative status.",
+      "publication_date": "2024-08-25",
+      "publisher": "جريدة الراية",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "local_press",
+      "title": "يجسد تفاصيل فرجان الدوحة القديمة.. تواصل تأهيل وإحياء فريج الأصمخ",
+      "url": "https://www.raya.com/"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5",
+      "country_codes": [
+        "QA"
+      ],
+      "id": "SRC-QA-FIRJAN-NAJADA-2022",
+      "language": "ar",
+      "license": "Local press report; factual extraction with attribution",
+      "locator": "فريج النجادة القديم في قلب سوق واقف، و17 بيتًا كانت لأسر قطرية، وعمارة الليوان والحوش وغرف الطين والحجر",
+      "notes": "Report dated 2022-08-25. Tier-E press material: the farij and its craft center stay local_reported.",
+      "publication_date": "2022-08-25",
+      "publisher": "الجزيرة نت",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "local_press",
+      "title": "مبادرة النجادة.. مركز قطري يحتضن الحرف التقليدية التراثية",
+      "url": "https://www.aljazeera.net/misc/2022/8/25/"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5",
+      "country_codes": [
+        "QA"
+      ],
+      "id": "SRC-QA-SOUQ-WAQIF-2012",
+      "language": "ar",
+      "license": "Local press report; factual extraction with attribution; reuse terms not stated",
+      "locator": "موقع السوق بين منطقة الأسواق والكورنيش، ومواد بنائه، وحرفه (المشغولات اليدوية والسيوف والخناجر والتطريز والسجاد)، ورواية التسمية منسوبة إلى تاجر العطارة محمد جاسم الخزاعي، وإحياء السوق منذ 2004",
+      "notes": "Report dated 2012-11-18. Tier-E press material: the market and its naming narrative stay local_reported and unpublished.",
+      "publication_date": "2012-11-18",
+      "publisher": "صحيفة البيان",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "local_press",
+      "title": "سوق واقف ... عبق التراث القطري",
+      "url": "https://www.albayan.ae/editors-choice/asfar/2012-11-18-1.1769264"
     }
   ]
 }

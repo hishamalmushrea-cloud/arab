@@ -65,3 +65,37 @@ Schema 2.0.0 transfers without change. New controls cover Not Stated rows, zero 
 
 ## Recommended next country
 Qatar, Direct Structured Expansion: municipality first, with zone/district/fareej separation and no lower denominator inference.
+
+---
+
+# Depth cycle 1 — Maximum Arabic Knowledge Coverage (2026-09-20)
+
+The bounded first-layer release above is unchanged. This additive cycle opens Kuwait under `00_فلسفة_الموسوعة.md` with checksum-bound fixtures and no rewrite of any accepted layer.
+
+## New checksum-bound input
+
+`data/imports/kuwait/fixtures/cultural_depth_2026.json` (sha256 `e32bc038aefb2f6a25d5919c31e61c1f0927c57c9a492d18fd55f48e494d9411`) added as a third record in `data/imports/kuwait/snapshot_manifest.json`; `SNP-KW-PRODUCTION-20260816` now binds the manifest bytes, so any later fixture edit invalidates the cycle until it is re-run.
+
+## Intangible cultural heritage (published)
+
+7 UNESCO elements on which Kuwait appears, entered as `verified` + `published` claims on `ENT-KW-COUNTRY`: السدو 2025 (02158)، البشت 2025 (02233)، الديوانية 2025 (02281)، الحناء 2024 (02116)، نخيل التمر 2022 (01902)، برنامج السدو التعليمي 2022 (01905، Good Safeguarding)، الخط العربي 2021 (01718). Multi-State files carry `classification: shared` and are never asserted as exclusively Kuwaiti. Inscription year stays inside the claim value — it is not converted into an exact day.
+
+## Local knowledge (unpublished, classified)
+
+38 depth claims, no `published` flag anywhere: 2 language presences (لغة الإشارة الكويتية ISO `lbs`, probable; الفارسية/«العيمية» local_reported), 5 dialect profiles (الجبلة/شرق، فيلكا، الجهراء، الفنطاس/الدمنة، والمفردات الدخيلة بمعانيها: خوش، دروازة، قوطي، كندرة، سرسري، قفشة، قرطاس، طشت، كليجة، زولية، طربال، غرشة), 17 أطباق (مجبوس، مرقوق، هريس، جريش، تشريبة، القيمات وأخواتها `shared` للخليج؛ قبوط، محروق صبعه، مطبق زبيدي، مموش، ميدم، مربين، مشخول، حمسة، معدس، عصيدة، درابيل محلية), and 7 لباس (الدراعة وأنواعها، البخنق، النفنوف، البشت عبر اليونسكو). All weak-source material is tier E (`local_website`, `forum`, `heritage_book`) or tier B (كونا), capped at `local_reported`, and each claim carries an explicit `classification`.
+
+## Historic quarters of Kuwait City (no denominator)
+
+17 historical places entered as `quarter`/`lane`, never as administrative tiers: the four historic quarters (شرق، الوسط، جبلة، المرقاب) `located_in` العاصمة, 12 فرجان of المرقاب from حمد السعيدان and local heritage archives, and **سكة عنزة** — the first lane outside Sanaa in the project. Each carries exactly one `located_in` relation, no administrative parent, status `historical`, and no population claim: the whole layer is bounded heritage attestation with **no denominator and no percentage**.
+
+## Coverage and denominators
+
+Unchanged closed layers: governorates 6/6 (2021 census) and UNESCO inscribed properties 0/0. The intangible-heritage layer declares 7/7 inscribed elements without a coverage record (it *is* the inscription list). `kw_area`/`kw_block` remain `scope_status: unavailable`: CSB publishes only governorate-level tables, so the June 2026 PACI-derived area figures stay a candidate source and are **not** used to manufacture a denominator.
+
+## Independent review and negative tests
+
+Independent full review: **118/118** records (24 entities, 10 aliases, 23 relationships, 44 claims, 11 sources, 3 denominators, 3 coverage) reviewed against the checksum-bound fixtures without importing the importer or the semantic validator. Required mutations: **16/16**, including new guards for shared-dish exclusivity, weak-source publication, dialect promotion to verified, firij-as-current, firij administrative parent, UNESCO unpublishing, and invented quarter population.
+
+## Remaining limitations
+
+No dated official area/block topology or denominator; no populated-place, broad cultural, or dialect denominator; diaspora and Bedouin sub-varieties are documented as reported narratives only. Depth cycle 2 for Kuwait would require an official area register (with PACI/CSB reconciliation) plus an archived lexical corpus.

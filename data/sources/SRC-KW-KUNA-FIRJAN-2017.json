@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:e32bc038aefb2f6a25d5919c31e61c1f0927c57c9a492d18fd55f48e494d9411",
+  "country_codes": [
+    "KW"
+  ],
+  "id": "SRC-KW-KUNA-FIRJAN-2017",
+  "language": "ar",
+  "license": "State news agency report; factual extraction with attribution",
+  "locator": "the four historic quarters of Kuwait City, the فريج/سكة structure, فريج المطبة boundaries and neighbours, and the naming explanation attributed to Dr Abdullah Al-Ghunaim",
+  "notes": "State news agency reporting with named researchers and a cited book; historical quarters remain historical places, never current administrative units.",
+  "publication_date": "2017-04-27",
+  "publisher": "وكالة الأنباء الكويتية (كونا)",
+  "quality_tier": "B",
+  "retrieved_at": "2026-09-20",
+  "schema_version": "2.0.0",
+  "source_type": "local_press",
+  "title": "فريج المطبة.. أحد أشهر فرجان الكويت قديمًا",
+  "url": "https://www.kuna.net.kw/NewsAgenciesPublicSite/ArticleDetails.aspx?id=2607422"
+}

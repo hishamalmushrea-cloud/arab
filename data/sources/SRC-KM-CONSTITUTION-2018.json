@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+  "country_codes": [
+    "KM"
+  ],
+  "id": "SRC-KM-CONSTITUTION-2018",
+  "language": "en",
+  "license": "Official Comoros material; factual extraction with attribution; reuse terms not stated",
+  "locator": "Article 6 territory; Article 9 official languages; Article 10 capital",
+  "notes": "Constitutional text as published by the Constitute Project. The page carries no publication date and the promulgation date is not asserted here. Publication date unavailable. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "Constitute Project — Comparative Constitutions Project",
+  "quality_tier": "A",
+  "retrieved_at": "2026-09-20",
+  "schema_version": "2.0.0",
+  "source_type": "law",
+  "title": "Comoros 2018 Constitution (as published by Constitute)",
+  "url": "https://www.constituteproject.org/constitution/Comoros_2018"
+}

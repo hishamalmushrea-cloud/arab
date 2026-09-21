@@ -18,10 +18,10 @@
     },
     "general_validation": {
       "command": "python3 scripts/validate.py",
-      "returncode": 0,
-      "status": "pass",
-      "stderr": "",
-      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=19551\n[PASS] ids: global_ids=19551, duplicate_ids=0\n[PASS] entity_types: allowed_types=104, active_types=67\n[PASS] sources: atomic_files=174, sources=174, references=22240\n[PASS] parents: administrative_relationships=5639\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2545, sourced=2545\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=115, coverage_records=115, complete_layers=97\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
+      "returncode": 1,
+      "status": "fail",
+      "stderr": "6 validation error(s):\n- claims CLM-KM-DEPTH-08CABA1B39D95289: second source and second source locator must occur together\n- claims CLM-KM-DEPTH-7478CFBE197656C7: second source and second source locator must occur together\n- claims CLM-KM-DEPTH-B1FADCA321CC5CF6: second source and second source locator must occur together\n- claims CLM-KM-DEPTH-CE46475C34CC55E5: second source and second source locator must occur together\n- claims CLM-KM-DEPTH-DC6D90BCA2495E83: second source and second source locator must occur together\n- claims CLM-KM-DEPTH-FFC98C79BABD53F0: second source and second source locator must occur together",
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=19855\n[PASS] ids: global_ids=19855, duplicate_ids=0\n[PASS] entity_types: allowed_types=104, active_types=68\n[PASS] sources: atomic_files=217, sources=217, references=22511\n[PASS] parents: administrative_relationships=5639\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3265, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[FAIL] claims: claims=2700, sourced=2700\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=115, coverage_records=115, complete_layers=97\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0"
     },
     "generated_freshness": {
       "command": "python3 scripts/generate.py --check",
@@ -31,7 +31,7 @@
       "stdout": "generated output is current (64 files)"
     },
     "non_qatar_preservation": {
-      "detail": "canonical non-Qatar SHA-256 unchanged=c3a54ac91b960a73c2c4ef94bfc0daeabe1257eeafcc2fa558f6407d1553aa32",
+      "detail": "canonical non-Qatar SHA-256 unchanged=e80b5161ebee78c82e3d30d4a33f5f0bb14e23c243a1462b748b4bd6f5c835b1",
       "status": "pass"
     },
     "qatar_clean_worktree": {
@@ -40,6 +40,10 @@
     },
     "qatar_findings_closed": {
       "detail": "status=PASS, P0=0, critical P1=0",
+      "status": "pass"
+    },
+    "qatar_full_review_threshold": {
+      "detail": "full review passed=105/105",
       "status": "pass"
     },
     "qatar_import_idempotence": {
@@ -51,24 +55,24 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "{\"entities\": 9, \"aliases\": 9, \"relationships\": 9, \"claims\": 10, \"sources\": 3}"
+      "stdout": "{\"entities\": 13, \"aliases\": 9, \"relationships\": 13, \"claims\": 50, \"depth_claims\": 40, \"depth_places\": 4, \"sources\": 13}"
     },
     "qatar_independent_review": {
       "command": "python3 scripts/review_qatar.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "47"
+      "stdout": "[PASS] entities: 14/14\n[PASS] aliases: 9/9\n[PASS] relationships: 13/13\n[PASS] claims: 50/50\n[PASS] denominators: 3/3\n[PASS] coverage: 3/3\n[PASS] sources: 13/13"
     },
     "qatar_negative_tests": {
       "command": "python3 scripts/test_qatar_negative.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "[{'mutation': 'QA_WRONG_PARENT', 'expected_code': 'QA_WRONG_PARENT', 'detected': True}, {'mutation': 'QA_ZONE_AS_MUNICIPALITY', 'expected_code': 'QA_ENTITY_UNIVERSE', 'detected': True}, {'mutation': 'QA_HISTORICAL_TEN_CURRENT', 'expected_code': 'QA_ENTITY_UNIVERSE', 'detected': True}, {'mutation': 'QA_POPULATION_TAMPER', 'expected_code': 'QA_POPULATION', 'detected': True}, {'mutation': 'QA_UNDATED', 'expected_code': 'QA_POPULATION', 'detected': True}, {'mutation': 'QA_CITY_LEAKAGE', 'expected_code': 'QA_CITY_LEAKAGE', 'detected': True}, {'mutation': 'QA_DIALECT', 'expected_code': 'QA_DIALECT', 'detected': True}, {'mutation': 'QA_LOWER_DENOMINATOR', 'expected_code': 'QA_LOWER_LAYER', 'detected': True}]"
+      "stdout": "[PASS] QA_WRONG_PARENT -> QA_WRONG_PARENT\n[PASS] QA_ZONE_AS_MUNICIPALITY -> QA_ENTITY_UNIVERSE\n[PASS] QA_HISTORICAL_TEN_CURRENT -> QA_ENTITY_UNIVERSE\n[PASS] QA_POPULATION_TAMPER -> QA_POPULATION\n[PASS] QA_UNDATED -> QA_POPULATION\n[PASS] QA_CITY_LEAKAGE -> QA_CITY_LEAKAGE\n[PASS] QA_DIALECT_LEXICAL_PREDICATE -> QA_DIALECT\n[PASS] QA_LOWER_DENOMINATOR -> QA_LOWER_LAYER\n[PASS] QA_DEPTH_PUBLISHED_FROM_WEAK -> QA_DEPTH_PUBLISHED_FROM_WEAK\n[PASS] QA_DIALECT_PROMOTED -> QA_DEPTH_CONTRACT\n[PASS] QA_SHARED_NOT_EXCLUSIVE -> QA_SHARED_NOT_EXCLUSIVE\n[PASS] QA_ICH_UNPUBLISHED -> QA_ICH_CONTRACT\n[PASS] QA_ICH_NOT_SHARED -> QA_ICH_CONTRACT\n[PASS] QA_ICH_LAYER_DENOMINATOR -> QA_ICH_LAYER\n[PASS] QA_HERITAGE_LAYER_DENOMINATOR -> QA_HERITAGE_LAYER\n[PASS] QA_PLACE_AS_CURRENT -> QA_PLACE_CONTRACT\n[PASS] QA_PLACE_ADMIN_PARENT -> QA_PLACE_LOCATED_IN\n[PASS] QA_PLACE_WRONG_MUNICIPALITY -> QA_PLACE_LOCATED_IN\n[PASS] QA_PLACE_POPULATION -> QA_PLACE_POPULATION\n[PASS] QA_PLACE_SOURCE_UPGRADE -> QA_PLACE_CONTRACT\n[PASS] QA_UNSOURCED_LANGUAGE -> QA_LANGUAGE_UNSUPPORTED\n[PASS] QA_SOURCE_TIER_INFLATION -> QA_SOURCES\n[PASS] QA_DIALECT_WITHOUT_GLOSS -> QA_DIALECT_GLOSS"
     },
     "qatar_required_mutations": {
-      "detail": "detected=8/8",
+      "detail": "detected=23/23",
       "status": "pass"
     },
     "qatar_review_idempotence": {
@@ -84,21 +88,17 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "47"
-    },
-    "qatar_review_threshold": {
-      "detail": "full review passed=47/47",
-      "status": "pass"
+      "stdout": "[PASS] entities: 14/14\n[PASS] aliases: 9/9\n[PASS] relationships: 13/13\n[PASS] claims: 50/50\n[PASS] denominators: 3/3\n[PASS] coverage: 3/3\n[PASS] sources: 13/13"
     },
     "qatar_semantic_validation": {
       "command": "python3 scripts/validate_qatar.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "{'entities': 10, 'aliases': 9, 'relationships': 9, 'claims': 10, 'sources': 3, 'denominators': 3, 'coverage': 3}"
+      "stdout": "{\"entities\": 14, \"aliases\": 9, \"relationships\": 13, \"claims\": 50, \"sources\": 13, \"denominators\": 3, \"coverage\": 3, \"depth_claims\": 40, \"depth_places\": 4, \"published_claims\": 17}\nQatar production semantic validation passed."
     },
     "qatar_source_idempotence": {
-      "detail": "atomic sources=3/3, unchanged=True",
+      "detail": "atomic sources=13/13, unchanged=True",
       "status": "pass"
     },
     "qatar_source_refresh": {
@@ -106,12 +106,14 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "{\"entities\": 9, \"aliases\": 9, \"relationships\": 9, \"claims\": 10, \"sources\": 3}"
+      "stdout": "{\"entities\": 13, \"aliases\": 9, \"relationships\": 13, \"claims\": 50, \"depth_claims\": 40, \"depth_places\": 4, \"sources\": 13}"
     }
   },
   "country_code": "QA",
-  "errors": [],
+  "errors": [
+    "general_validation: exit 1"
+  ],
   "schema_version": "2.0.0",
-  "snapshot_date": "2026-08-16",
-  "status": "pass"
+  "snapshot_date": "2026-09-20",
+  "status": "fail"
 }

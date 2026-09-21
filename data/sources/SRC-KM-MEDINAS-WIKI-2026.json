@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+  "country_codes": [
+    "KM"
+  ],
+  "id": "SRC-KM-MEDINAS-WIKI-2026",
+  "language": "ar",
+  "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+  "locator": "criteria (iii)(iv); reference 1768; Q65724639 parts: Moroni, N Tsoudjini, Itsandra, Iconi, Mutsamudu, Domoni",
+  "notes": "Mirror and Wikidata list of the six component medinas: the UNESCO description names six historic towns without enumerating them, so the names stay local_reported and unpublished. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "ويكيبيديا الإنجليزية / ويكي بيانات",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-20",
+  "schema_version": "2.0.0",
+  "source_type": "local_website",
+  "title": "مدن الموقع المتسلسل 1768 — قائمة المكوّنات",
+  "url": "https://en.wikipedia.org/wiki/Moroni,_Comoros"
+}

@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5",
+  "country_codes": [
+    "QA"
+  ],
+  "id": "SRC-QA-SOUQ-WAQIF-2012",
+  "language": "ar",
+  "license": "Local press report; factual extraction with attribution; reuse terms not stated",
+  "locator": "موقع السوق بين منطقة الأسواق والكورنيش، ومواد بنائه، وحرفه (المشغولات اليدوية والسيوف والخناجر والتطريز والسجاد)، ورواية التسمية منسوبة إلى تاجر العطارة محمد جاسم الخزاعي، وإحياء السوق منذ 2004",
+  "notes": "Report dated 2012-11-18. Tier-E press material: the market and its naming narrative stay local_reported and unpublished.",
+  "publication_date": "2012-11-18",
+  "publisher": "صحيفة البيان",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-20",
+  "schema_version": "2.0.0",
+  "source_type": "local_press",
+  "title": "سوق واقف ... عبق التراث القطري",
+  "url": "https://www.albayan.ae/editors-choice/asfar/2012-11-18-1.1769264"
+}

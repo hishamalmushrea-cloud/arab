@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+  "country_codes": [
+    "KM"
+  ],
+  "id": "SRC-KM-CUSTOM-MIDAD-2016",
+  "language": "ar",
+  "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+  "locator": "زواج العفة مقابل الزواج الكبير؛ ما يُحجب عن غير المتزوج؛ مراسم مجلس الذكر والوفود والدف",
+  "notes": "مادة محلية تصف مراسم الزواج الكبير وما يرتبط به من مكانة؛ تُستعمل غير منشورة. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "مِداد",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-20",
+  "schema_version": "2.0.0",
+  "source_type": "local_website",
+  "title": "في جزر القمر إما الزواج الكبير وإما الحرمان من هذه الأشياء",
+  "url": "https://midad.com/article/218038"
+}

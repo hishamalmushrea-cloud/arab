@@ -250,6 +250,86 @@
         "SRC-UNESCO-WHC-KM-1768-2026"
       ],
       "special_cases": []
+    },
+    {
+      "authority_name": "UNESCO Intangible Cultural Heritage",
+      "coverage_record_id": null,
+      "denominator": 1,
+      "denominator_id": null,
+      "entity_types": [
+        "cultural_site"
+      ],
+      "layer": "unesco_intangible_heritage",
+      "license": "UNESCO ICH element page; factual extraction with attribution",
+      "local_names": [
+        "عنصر تراث غير مادي"
+      ],
+      "notes": "العنصر الوحيد المدرج لجزر القمر (زفّة العرس التقليدي 02283) ملف بتقديم سبع دول، وقائمته هي مقامه بلا سجل تغطية.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-09-20",
+      "source_ids": [
+        "SRC-UNESCO-ICH-KM-ZAFFA-2025"
+      ],
+      "special_cases": [
+        "كل عنصر قمري حالي ملف متعدد الدول: التصنيف يبقى shared ولا تُدَّعى حصرية."
+      ]
+    },
+    {
+      "authority_name": null,
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
+      "entity_types": [
+        "quarter"
+      ],
+      "layer": "world_heritage_medinas",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "مدينة تاريخية"
+      ],
+      "notes": "ست مدن تاريخية مدرجة في الموقع المتسلسل 1768 كأماكن بلا مقام، بلا أب إداري وبلا سكان وبلا نسبة.",
+      "scope_status": "open",
+      "snapshot_date": "2026-09-20",
+      "source_ids": [
+        "SRC-KM-MEDINAS-WIKI-2026"
+      ],
+      "special_cases": [
+        "لا يُنشأ كيان لكل مكوّن إداري، وتُربط المدن بالجزيرة فقط."
+      ]
+    },
+    {
+      "authority_name": null,
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
+      "entity_types": [
+        "cultural_site"
+      ],
+      "layer": "classified_local_knowledge",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "معرفة محلية مصنَّفة"
+      ],
+      "notes": "معرفة محلية مصنَّفة وغير منشورة: خمس دعاوى لغوية ولهجية، وعشرة أطباق، وثلاثة أزياء، وحرفة، وعرفان.",
+      "scope_status": "open",
+      "snapshot_date": "2026-09-20",
+      "source_ids": [
+        "SRC-KM-LANGUAGES-MIRROR-2026",
+        "SRC-KM-COMORIAN-LANGS-WIKI-2026",
+        "SRC-KM-CUISINE-MIRROR-2026",
+        "SRC-KM-FOOD-TRAVEL-2021",
+        "SRC-KM-FOOD-YOUM7-2022",
+        "SRC-KM-CULTURE-RASEEF22-2023",
+        "SRC-KM-CUSTOM-JAZEERA-2025",
+        "SRC-KM-CUSTOM-MIDAD-2016",
+        "SRC-KM-ECONOMY-MIRROR-2015",
+        "SRC-KM-VOCAB-QUIZLET-2016",
+        "SRC-KM-CULTURE-ALAYYAM-2024"
+      ],
+      "special_cases": [
+        "لا يُنشر أي ادعاء ضعيف المصدر ولا يُبنى عليه مقام.",
+        "لا تُسجَّل أرقام متحدثين ولا تُبنى نسب على المرآة."
+      ]
     }
   ],
   "schema_version": "2.0.0",

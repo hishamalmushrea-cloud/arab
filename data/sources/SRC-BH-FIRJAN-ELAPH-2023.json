@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:bfa1232e1b1849e7daac5430ff74f75d2b971b8751e7785e32b46ac8a735100d",
+  "country_codes": [
+    "BH"
+  ],
+  "id": "SRC-BH-FIRJAN-ELAPH-2023",
+  "language": "ar",
+  "license": "Local press column; factual extraction with attribution; reuse terms not stated",
+  "locator": "مقال عن فرجان المحرق والمنامة القديمة ودواعيسها وأسواقها ومقاهيها وبيوتها الطينية والحجرية وحضور أسماء الطواويش والنواخذة والبحارة في الذاكرة المحلية",
+  "notes": "Column dated 2023-12-03. Tier-E press material: memory and craft framing stays local_reported and unpublished.",
+  "publication_date": "2023-12-03",
+  "publisher": "إيلاف",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-20",
+  "schema_version": "2.0.0",
+  "source_type": "local_press",
+  "title": "الحنين إلى الماضي.. الفرجان القديمة جزء من الهوية",
+  "url": "https://elaph.com/Web/NewsPapers/2023/12/1521289.html"
+}

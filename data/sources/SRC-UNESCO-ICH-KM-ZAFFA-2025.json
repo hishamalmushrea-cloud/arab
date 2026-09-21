@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+  "country_codes": [
+    "KM"
+  ],
+  "id": "SRC-UNESCO-ICH-KM-ZAFFA-2025",
+  "language": "en",
+  "license": "UNESCO ICH element page; factual extraction with attribution",
+  "locator": "element 02283; inscribed 2025 (20.COM) on the Representative List; seven submitting States",
+  "notes": "Element page read 2026-09-20: description, year, and submitting States. Publication date unavailable on the element page. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "UNESCO Intangible Cultural Heritage",
+  "quality_tier": "A",
+  "retrieved_at": "2026-09-20",
+  "schema_version": "2.0.0",
+  "source_type": "institutional_page",
+  "title": "The zaffa in the traditional wedding",
+  "url": "https://ich.unesco.org/en/RL/the-zaffa-in-the-traditional-wedding-02283"
+}

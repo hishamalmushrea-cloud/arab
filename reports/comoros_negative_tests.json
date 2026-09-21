@@ -1,6 +1,6 @@
 {
   "country_code": "KM",
-  "detected": 8,
+  "detected": 34,
   "mutations": [
     {
       "detected": true,
@@ -41,9 +41,139 @@
       "detected": true,
       "expected_code": "KM_COUNTS",
       "mutation": "KM_DROP_COMMUNE"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_MAYOTTE_CURRENT",
+      "mutation": "KM_MAYOTTE_AS_COMMUNE"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_ICH_CONTRACT",
+      "mutation": "KM_ICH_UNPUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_ICH_CONTRACT",
+      "mutation": "KM_ICH_NOT_SHARED"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_ICH_CONTRACT",
+      "mutation": "KM_ICH_WRONG_YEAR"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_ICH_CONTRACT",
+      "mutation": "KM_ICH_TWO_STATES"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_CONSTITUTION_CONTRACT",
+      "mutation": "KM_CONSTITUTION_ARTICLE_LOST"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_MAYOTTE_CLAIM",
+      "mutation": "KM_MAYOTTE_CLAIM_SILENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_LANGUAGE_CONTRACT",
+      "mutation": "KM_OFFICIAL_LANGUAGE_UNPUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_LANGUAGE_CONTRACT",
+      "mutation": "KM_MINORITY_PUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_LANGUAGE_CONTRACT",
+      "mutation": "KM_ISO_CODE_LOST"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_NO_SPEAKER_NUMBERS",
+      "mutation": "KM_SPEAKER_SHARE"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_MEDINA_CONTRACT",
+      "mutation": "KM_MEDINA_AS_CURRENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_MEDINA_LOCATED_IN",
+      "mutation": "KM_MEDINA_ADMIN_PARENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_MEDINA_LOCATED_IN",
+      "mutation": "KM_MEDINA_WRONG_ISLAND"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_COUNTS",
+      "mutation": "KM_MEDINA_AS_CITY"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_MEDINA_CLAIMS",
+      "mutation": "KM_MEDINA_CLAIM_ATTACHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_MEDINA_CONTRACT",
+      "mutation": "KM_MEDINA_SOURCE_UPGRADE"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_WEAK_DEPTH_PUBLISHED",
+      "mutation": "KM_WEAK_DEPTH_PUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_WEAK_DEPTH_CAP",
+      "mutation": "KM_DIALECT_PROMOTED"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_DIALECT_GLOSS",
+      "mutation": "KM_DIALECT_WITHOUT_GLOSS"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_WHC_EXTRA",
+      "mutation": "KM_WHC_AREA_TAMPER"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_WHC_EXTRA",
+      "mutation": "KM_COMPONENT_NAMES_PUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_SOURCES",
+      "mutation": "KM_SOURCE_TIER_INFLATION"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_WEAK_DEPTH_CAP",
+      "mutation": "KM_SHARED_CUSTOM_AS_NATIONAL"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_ICH_LAYER",
+      "mutation": "KM_ICH_LAYER_DENOMINATOR"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_MEDINA_LAYER",
+      "mutation": "KM_MEDINA_LAYER_DENOMINATOR"
     }
   ],
-  "required": 8,
+  "required": 34,
   "schema_version": "2.0.0",
   "status": "PASS"
 }
