@@ -17,8 +17,8 @@
       "status": "pass"
     },
     "egypt_clean_worktree": {
-      "detail": "git worktree clean=True",
-      "status": "pass"
+      "detail": "git worktree clean=False",
+      "status": "fail"
     },
     "egypt_findings_closed": {
       "detail": "status=PASS, P0=0, critical P1=0",
@@ -92,10 +92,10 @@
     },
     "general_validation": {
       "command": "python3 scripts/validate.py",
-      "returncode": 1,
-      "status": "fail",
-      "stderr": "6 validation error(s):\n- claims CLM-KM-DEPTH-08CABA1B39D95289: second source and second source locator must occur together\n- claims CLM-KM-DEPTH-7478CFBE197656C7: second source and second source locator must occur together\n- claims CLM-KM-DEPTH-B1FADCA321CC5CF6: second source and second source locator must occur together\n- claims CLM-KM-DEPTH-CE46475C34CC55E5: second source and second source locator must occur together\n- claims CLM-KM-DEPTH-DC6D90BCA2495E83: second source and second source locator must occur together\n- claims CLM-KM-DEPTH-FFC98C79BABD53F0: second source and second source locator must occur together",
-      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=19855\n[PASS] ids: global_ids=19855, duplicate_ids=0\n[PASS] entity_types: allowed_types=104, active_types=68\n[PASS] sources: atomic_files=217, sources=217, references=22511\n[PASS] parents: administrative_relationships=5639\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3265, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[FAIL] claims: claims=2700, sourced=2700\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=115, coverage_records=115, complete_layers=97\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0"
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=19855\n[PASS] ids: global_ids=19855, duplicate_ids=0\n[PASS] entity_types: allowed_types=104, active_types=68\n[PASS] sources: atomic_files=217, sources=217, references=22511\n[PASS] parents: administrative_relationships=5639\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3265, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2700, sourced=2700\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=115, coverage_records=115, complete_layers=97\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
     },
     "generated_freshness": {
       "command": "python3 scripts/generate.py --check",
@@ -105,13 +105,13 @@
       "stdout": "generated output is current (64 files)"
     },
     "non_egypt_preservation": {
-      "detail": "canonical non-Egypt SHA-256 unchanged=e2713ecae90864aa8f04024591e6e64aa1ce5d93dd59f5c8aa0544b4719f2f7e",
+      "detail": "canonical non-Egypt SHA-256 unchanged=a57e82eabe9ca24e0c182cadd39e5eea31e443451a6116853acd51b7036f1df5",
       "status": "pass"
     }
   },
   "country_code": "EG",
   "errors": [
-    "general_validation: exit 1"
+    "egypt_clean_worktree: git worktree clean=False"
   ],
   "schema_version": "2.0.0",
   "snapshot_date": "2026-08-16",
