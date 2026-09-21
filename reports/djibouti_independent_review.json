@@ -4,8 +4,8 @@
   "families": {
     "claims": {
       "failed": 0,
-      "passed": 6,
-      "sampled": 6,
+      "passed": 46,
+      "sampled": 46,
       "status": "PASS"
     },
     "coverage": {
@@ -22,28 +22,28 @@
     },
     "entities": {
       "failed": 0,
-      "passed": 23,
-      "sampled": 23,
+      "passed": 35,
+      "sampled": 35,
       "status": "PASS"
     },
     "relationships": {
       "failed": 0,
-      "passed": 22,
-      "sampled": 22,
+      "passed": 34,
+      "sampled": 34,
       "status": "PASS"
     },
     "sources": {
       "failed": 0,
-      "passed": 5,
-      "sampled": 5,
+      "passed": 19,
+      "sampled": 19,
       "status": "PASS"
     }
   },
   "findings": [],
-  "method": "Independent full topology/population fixture comparison; importer and semantic validator not imported.",
+  "method": "Independent fixture and checksum comparison over the full Djibouti population; importer and semantic validator not imported.",
   "p0": 0,
   "schema_version": "2.0.0",
   "status": "PASS",
-  "total_passed": 66,
-  "total_sampled": 66
+  "total_passed": 144,
+  "total_sampled": 144
 }

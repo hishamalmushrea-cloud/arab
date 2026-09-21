@@ -208,3 +208,12 @@ Fourth depth cycle outside the Gulf arc, and the first built on a **single** UNE
 - **Deliberate absences:** no speaker counts anywhere; no heritage-place denominator; no commune parent inferred for medinas.
 - **Contract wording that transfers:** a claim may report a State's constitutional position and simultaneously record that the territory is outside the current administration accepted here.
 - **New reusable guards:** UNESCO-must-stay-shared, submitting-State list must match the element page, no-speaker-numbers, medina-located_in-only, medina-claims ban, classification exclusivity ban.
+
+## Djibouti — depth cycle 1 (2026-09-21)
+
+- **Topology untouched:** 5 regions · special-status Djibouti-Ville · 3 communes · 13 sub-prefectures, each keeping its RGPH-3 population and the national reconciliation to 1,066,809.
+- **Published spine (10):** Xeedho 02001 (2023, Urgent Safeguarding List, Djibouti the sole submitting State → the only `national` element), Xeer Ciise 02087 (2024, Ethiopia–Djibouti–Somalia, `shared`), the zaffa 02283 (2025, seven States, `shared`), the 30 August 2007 ratification, the 2026 Afar Madqa as a **pending nomination** (not an inscription), and articles 1–2 of the Constitution (official languages, state religion, capital).
+- **Unpublished body (30):** 8 language presences (Somali `som` and Afar `aar` with the ISO registry as a second source; a sign language with **no code claimed** because no registry entry could be verified), 1 dialect profile, 1 script profile, 1 language institution, 12 dishes, 3 dress items, 2 crafts, and 3 customs — one of them a declared **folk narrative**.
+- **Places:** 12 places inside the capital (10 quarters, 2 markets) with a single `located_in` to the city: no parent, no claim, no population, and no inference into the three accepted communes.
+- **Stated discrepancy:** the mirror's 35 city sub-prefectures are recorded as an unpublished note while the accepted roadmap value stays 13, with a mutation guarding the difference.
+- **New reusable guards:** element-reference-to-classification pinning (national vs shared vs seven-State), pending-nomination as a separate predicate, no-ISO-code-without-registry, no-counts-in-payload-or-notes, place-claims ban, and the second-source pairing rule (`second_source_id` ⇔ `second_source_locator`) inherited from the Comoros repair.

@@ -17,7 +17,7 @@
 | YE | اليمن | 463 | 92 | [YE](countries/YE.md) |
 | TN | تونس | 2743 | 89 | [TN](countries/TN.md) |
 | KM | جزر القمر | 81 | 40 | [KM](countries/KM.md) |
-| DJ | جيبوتي | 23 | 6 | [DJ](countries/DJ.md) |
+| DJ | جيبوتي | 35 | 46 | [DJ](countries/DJ.md) |
 | SY | سوريا | 15 | 38 | [SY](countries/SY.md) |
 | OM | عُمان | 75 | 32 | [OM](countries/OM.md) |
 | PS | فلسطين | 615 | 31 | [PS](countries/PS.md) |

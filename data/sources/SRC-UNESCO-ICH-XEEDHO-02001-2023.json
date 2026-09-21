@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+  "country_codes": [
+    "DJ"
+  ],
+  "id": "SRC-UNESCO-ICH-XEEDHO-02001-2023",
+  "language": "en",
+  "license": "UNESCO ICH element and State page; factual extraction with attribution; CC BY-SA 3.0 IGO for the descriptions",
+  "locator": "element 02001; inscribed 2023 (18.COM) on the List of Intangible Cultural Heritage in Need of Urgent Safeguarding; Djibouti is the only submitting State",
+  "notes": "Element page read 2026-09-21: full description of the dish, its container, its decoration and its transmission inside families. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "UNESCO Intangible Cultural Heritage",
+  "quality_tier": "A",
+  "retrieved_at": "2026-09-21",
+  "schema_version": "2.0.0",
+  "source_type": "institutional_page",
+  "title": "Xeedho",
+  "url": "https://ich.unesco.org/en/USL/xeedho-02001"
+}
