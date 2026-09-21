@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5",
+  "country_codes": [
+    "QA"
+  ],
+  "id": "SRC-QA-UNESCO-ICH-2026",
+  "language": "en",
+  "license": "UNESCO ICH pages; factual extraction with attribution",
+  "locator": "inscribed elements: Majlis 2015 ref 01076, Falconry 2021 ref 01708, Date palm 2022 ref 01902, Arabic coffee 2024 ref 02111, Henna 2024 ref 02116, Al Sadu 2025 ref 02158, Bisht 2025 ref 02233",
+  "notes": "Publication date unavailable on the live State Party list page. Every element on which Qatar appears is a multi-State file: Qatar has no nationally exclusive element on the 2026 list. Only the meaning of each official title is asserted; no description beyond it was invented.",
+  "publication_date": null,
+  "publisher": "UNESCO Intangible Cultural Heritage",
+  "quality_tier": "A",
+  "retrieved_at": "2026-09-20",
+  "schema_version": "2.0.0",
+  "source_type": "institutional_dataset",
+  "title": "Elements on the Lists — Qatar State Party",
+  "url": "https://ich.unesco.org/en/state/qatar-QA?info=elements-on-the-lists"
+}

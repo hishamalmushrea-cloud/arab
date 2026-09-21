@@ -17,7 +17,7 @@
       "status": "pass"
     },
     "atomic_source_registry": {
-      "detail": "atomic Jordan records=21, metadata_errors=[]",
+      "detail": "atomic Jordan records=22, metadata_errors=[]",
       "status": "pass"
     },
     "bounded_places": {
@@ -25,11 +25,11 @@
       "status": "pass"
     },
     "checksum_bound_inputs": {
-      "detail": "files=25, mismatches=[]",
+      "detail": "files=27, mismatches=[]",
       "status": "pass"
     },
     "claims_supported": {
-      "detail": "claims=135, unsupported=0",
+      "detail": "claims=151, unsupported=0",
       "status": "pass"
     },
     "coordinates_and_temporality": {
@@ -50,6 +50,14 @@
     },
     "denominator_closure": {
       "detail": "five declared layers; failed=[]; matched + excluded = denominator",
+      "status": "pass"
+    },
+    "depth_shared_not_exclusive": {
+      "detail": "Levantine dishes and the embroidered thobe stay shared",
+      "status": "pass"
+    },
+    "depth_unpublished": {
+      "detail": "depth claims=16, published=0",
       "status": "pass"
     },
     "entity_counts": {
@@ -85,7 +93,7 @@
       "status": "pass"
     },
     "record_family_counts": {
-      "detail": "entities/aliases/relationships/claims=116/116/119/135",
+      "detail": "entities/aliases/relationships/claims=116/116/119/151",
       "status": "pass"
     },
     "sensitive_claim_rule": {
@@ -98,8 +106,8 @@
   "metrics": {
     "ab_claim_ratio": 100.0,
     "aliases": 116,
-    "atomic_sources": 21,
-    "claims": 135,
+    "atomic_sources": 22,
+    "claims": 151,
     "critical_p1": 0,
     "entities": 116,
     "p0": 0,

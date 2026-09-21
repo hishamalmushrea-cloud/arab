@@ -4,46 +4,59 @@
   "families": {
     "claims": {
       "failed": 0,
-      "passed": 6,
-      "sampled": 6,
+      "passed": 40,
+      "population": 40,
+      "sample_percentage": 100.0,
+      "sampled": 40,
       "status": "PASS"
     },
     "coverage": {
       "failed": 0,
       "passed": 5,
+      "population": 5,
+      "sample_percentage": 100.0,
       "sampled": 5,
       "status": "PASS"
     },
     "denominators": {
       "failed": 0,
       "passed": 5,
+      "population": 5,
+      "sample_percentage": 100.0,
       "sampled": 5,
       "status": "PASS"
     },
     "entities": {
       "failed": 0,
-      "passed": 75,
-      "sampled": 75,
+      "passed": 81,
+      "population": 81,
+      "sample_percentage": 100.0,
+      "sampled": 81,
       "status": "PASS"
     },
     "relationships": {
       "failed": 0,
-      "passed": 74,
-      "sampled": 74,
+      "passed": 80,
+      "population": 80,
+      "sample_percentage": 100.0,
+      "sampled": 80,
       "status": "PASS"
     },
     "sources": {
       "failed": 0,
-      "passed": 3,
-      "sampled": 3,
+      "passed": 18,
+      "population": 18,
+      "sample_percentage": 100.0,
+      "sampled": 18,
       "status": "PASS"
     }
   },
   "findings": [],
-  "method": "Independent full current Union hierarchy fixture comparison.",
+  "method": "Independent full-population review against the checksum-bound law/INSEED hierarchy fixture and the depth fixture; neither the importer nor the Comoros semantic validator is imported.",
   "p0": 0,
   "schema_version": "2.0.0",
+  "snapshot_date": "2026-09-20",
   "status": "PASS",
-  "total_passed": 168,
-  "total_sampled": 168
+  "total_passed": 229,
+  "total_sampled": 229
 }

@@ -1,0 +1,450 @@
+{
+  "administrative_notes": [
+    {
+      "accepted_value": 13,
+      "mirror_value": 35,
+      "source": "city",
+      "summary": "صفحة مرآة عن مدينة جيبوتي تذكر أن للمدينة 35 مقاطعة فرعية، بينما المجموعة المقبولة في هذا المستودع (خريطة اللامركزية) تعدّ 13 مقاطعة فرعية على مستوى الجمهورية كلها. تُسجَّل المفارقة صريحة ولا يُبنى عليها أي مقام أو نسبة: العدد المقبول يبقى 13.",
+      "topic": "city_subprefecture_count"
+    }
+  ],
+  "constitution_provisions": [
+    {
+      "article": 1,
+      "note": null,
+      "summary": "تنص المادة 1 على أن اللغتين الرسميتين للدولة هما العربية والفرنسية، وأن الإسلام دين الدولة، وأن الشعار «وحدة - مساواة - سلام».",
+      "topic": "official_languages"
+    },
+    {
+      "article": 1,
+      "note": null,
+      "summary": "الإسلام دين الدولة، وتؤكد المادة 1 المساواة أمام القانون دون تمييز في اللغة أو الأصل أو الجنس أو الدين، واحترام كل المعتقدات.",
+      "topic": "state_religion"
+    },
+    {
+      "article": 2,
+      "note": null,
+      "summary": "تنص المادة 2 على أن عاصمة الدولة هي مدينة جيبوتي، وتحدد أن العلم أزرق وأخضر وأبيض يحمل نجمة حمراء خماسية.",
+      "topic": "capital"
+    }
+  ],
+  "country_code": "DJ",
+  "crafts": [
+    {
+      "classification": "local",
+      "desc": "نساء يصنعن الخوص/السلال في العاصمة أمام المتاجر؛ يُسجَّل حرفةً نسائية قائمة بلا أرقام.",
+      "name": "حياكة السلال (الفنّانين)",
+      "second": null,
+      "source": "city_history"
+    },
+    {
+      "classification": "local",
+      "desc": "بائعات حليّ يقمن كذلك بتحويل عملات دول الجوار في وسط المدينة؛ ممارسة تجارية نسائية محلية تُسجَّل وصفًا لا إحصاءً.",
+      "name": "الشرشارات: بيع الحلي وتحويل العملات",
+      "second": null,
+      "source": "city_history"
+    }
+  ],
+  "customs": [
+    {
+      "classification": "local",
+      "desc": "احتفالات صاخبة تستمر سبعة أيام ترقص فيها المدعوات وتقضين الوقت في الغناء والأكل والشرب، مع عناية مطوّلة بالشعر: جدائل رفيعة تُطيَّب وتُلمَّع وتبقى متماسكة نحو خمسة عشر يومًا ثم تُفكّ (بحسب تقرير صحافي مؤرخ 1999).",
+      "name": "ليالي الزفاف السبع",
+      "second": "city_history",
+      "second_locator": "وصف وسط المدينة ومقاهيه وأسواقه",
+      "source": "wedding_press"
+    },
+    {
+      "classification": "local",
+      "desc": "يقف والد العروس بعصا كبيرة ويدعو العريس إلى فتح غطاء الوعاء دون قطع الحبال المتشابكة، فيحلّ العقلة عقلة، وإن فشل ينهال عليه الضرب المازح وسط الضحك، ثم يتناوب أهل العريس واحدًا بعد آخر حتى ينجح أحدهم ويأكل الجميع؛ وتستمر المحاولة أحيانًا أسبوعًا.",
+      "name": "فتح صندوق الزفاف المعقود",
+      "second": "xeedho",
+      "second_locator": "عنصر الخيدو 02001: وعاء بحبال مربوطة بإحكام ومخفية بعناية",
+      "source": "wedding_press"
+    },
+    {
+      "classification": "local",
+      "desc": "رواية صحافية مؤرخة 1999 تفيد أن نساء البادية يستعملن مبردًا حديديًا لبرد أسنان القواطع الأمامية حتى تصير أطرافًا رفيعة حادة تعين على قطع اللحم؛ تُسجَّل رواية شعبية معلنة (folk_narrative) لا وصفًا مؤكدًا.",
+      "folk": true,
+      "name": "برد الأسنان الأمامية بالمبرد الحديدي",
+      "second": null,
+      "source": "wedding_press"
+    }
+  ],
+  "dialect_profiles": [
+    {
+      "features": "اللهجة الرئيسية المستعملة في البلاد بحسب المرآة، وهي نفسها السائدة في الصومال المجاور؛ لا تُنسب إلى مقام إداري.",
+      "group": "الصومالية (كوشية)",
+      "island": null,
+      "second": null,
+      "source": "languages",
+      "variety": "الصومالية الشمالية"
+    }
+  ],
+  "dishes": [
+    {
+      "classification": "regional",
+      "desc": "خبز يشبه الفطائر صغير رقيق من طعام الإفطار، يُقدَّم مع العسل والسمن أو مع الحساء، ويشبه الخبز الإثيوبي لكنه أصغر وأرق.",
+      "name": "لاهوه",
+      "second": null,
+      "source": "cuisine"
+    },
+    {
+      "classification": "regional",
+      "desc": "حساء جيبوتي التقليدي من لحم البقر المسلوق مع البهارات الحارة.",
+      "name": "الفه فاه",
+      "second": null,
+      "source": "cuisine"
+    },
+    {
+      "classification": "regional",
+      "desc": "حساء خضار مختلط حار، من الأطباق الحارة التي تعدّها المرآة إلى جانب الفه فاه.",
+      "name": "ييتاكلت الرطب",
+      "second": null,
+      "source": "cuisine"
+    },
+    {
+      "classification": "shared",
+      "desc": "حلوى من السكر ونشا الذرة ومسحوق الهيل وجوزة الطيب والسمن، ويُضاف الفول السوداني أحيانًا؛ تُؤكل في الأعياد والأعراس.",
+      "name": "الحلاوة الطحينية",
+      "second": null,
+      "source": "cuisine"
+    },
+    {
+      "classification": "shared",
+      "desc": "معجنات محشوة مقلية تظهر في المرآة بين أطباق المطبخ الجيبوتي.",
+      "name": "السمبوسة",
+      "second": null,
+      "source": "cuisine"
+    },
+    {
+      "classification": "regional",
+      "desc": "لحم جمل مشوي أو مقلي يُقدَّم في مطاعم جيبوتي، وهو من أطعمة اللحوم الشائعة.",
+      "name": "تيبس الإبل",
+      "second": null,
+      "source": "cuisine"
+    },
+    {
+      "classification": "regional",
+      "desc": "لحم ماعز من الأطباق الجانبية التي تذكرها المرآة مع الكبد ولحم البقر.",
+      "name": "حليب آري",
+      "second": null,
+      "source": "cuisine"
+    },
+    {
+      "classification": "regional",
+      "desc": "لحم مقدّد (مجفف) يُذكر في المرآة باسم أودكاش أو مقداد.",
+      "name": "أودكاش",
+      "second": null,
+      "source": "cuisine"
+    },
+    {
+      "classification": "shared",
+      "desc": "أرز يُقدَّم مع اللحم أو الموز على الجانب في وجبتَي الغداء والعشاء.",
+      "name": "الباري",
+      "second": null,
+      "source": "cuisine"
+    },
+    {
+      "classification": "regional",
+      "desc": "معكرونة تُقدَّم بحساء أثقل من صلصة المعكرونة الإيطالية، وتؤكل بالطريقة نفسها التي يؤكل بها الأرز؛ أثر إيطالي/فرنسي في المدينة.",
+      "name": "الباستو",
+      "second": null,
+      "source": "cuisine"
+    },
+    {
+      "classification": "local",
+      "desc": "شاي يُعدّ بالقرنفل والهيل وكثير من السكر ويُشرب في مقاهي وسط المدينة؛ من تفاصيل الحياة اليومية في العاصمة.",
+      "name": "الشاه الجيبوتي",
+      "second": null,
+      "source": "city_history"
+    },
+    {
+      "classification": "shared",
+      "desc": "القهوة التي يبدأ بها أهل جيبوتي يومهم إلى جانب الشاي، بحسب المرآة.",
+      "name": "البونا",
+      "second": null,
+      "source": "cuisine"
+    }
+  ],
+  "dress": [
+    {
+      "classification": "regional",
+      "desc": "ثوب/خمار ملوّن تشتريه النساء ويُخاط على مقاسهنّ؛ ويوم الخميس سوق «الديري» في العاصمة حيث يظهر موديل جديد كل أسبوع بألوان مختلفة، وتعرف النساء الموديل الأقدم من الأحدث بمجرد النظر.",
+      "gender": "نسائي",
+      "name": "الديري",
+      "second": null,
+      "source": "city_history"
+    },
+    {
+      "classification": "regional",
+      "desc": "تنّورة داخلية (جيبون) تُخاط بألوان يجب أن تتناسق مع ألوان الديري؛ تُذكر مع سوق الخميس في العاصمة.",
+      "gender": "نسائي",
+      "name": "الغوغارة",
+      "second": null,
+      "source": "city_history"
+    },
+    {
+      "classification": "regional",
+      "desc": "عطور وبخور تُنسب إليها مكانة في العناية بالملابس والجسم والبيت؛ تذكرها الصفحة التاريخية للمدينة بين مفردات الحياة اليومية.",
+      "gender": "عام",
+      "name": "عطور الـفوح والجااوي والمسقطي",
+      "second": null,
+      "source": "city_history"
+    }
+  ],
+  "ich_elements": [
+    {
+      "classification": "shared",
+      "co_states": [
+        "جيبوتي",
+        "جزر القمر",
+        "الإمارات العربية المتحدة",
+        "العراق",
+        "الأردن",
+        "موريتانيا",
+        "الصومال"
+      ],
+      "description": "عنصر مدرج في القائمة التمثيلية عام 2025 بترشيح مشترك من سبع دول؛ ملف متعدد الدول فلا يُنسب حصريًا إلى جيبوتي.",
+      "list": "القائمة التمثيلية",
+      "name": "زفّة العرس التقليدي",
+      "official_title": "The zaffa in the traditional wedding",
+      "official_title_ar": "الزفّة في العرس التقليدي",
+      "reference": "02283",
+      "url": "https://ich.unesco.org/en/RL/the-zaffa-in-the-traditional-wedding-02283",
+      "year": 2025
+    },
+    {
+      "classification": "shared",
+      "co_states": [
+        "إثيوبيا",
+        "جيبوتي",
+        "الصومال"
+      ],
+      "description": "أعراف شفهية للجماعات الصومالية العيسى في إثيوبيا وجيبوتي والصومال، مُدرجة عام 2024 بترشيح ثلاث دول؛ تتألف من ثلاثة عناصر: دستور سياسي يحدد توزيع السلطة والقرار، وقانون عقوبات يقوم على المصالحة والتعويض، ومدونة سلوك اجتماعي تحدد قيمًا ومبادئ جماعية وفردية. تُنقل شفهيًا بالحكايات والأمثال والألعاب والشعر وطقوس التنشئة، وبالتعليم النظامي والندوات ووسائل الإعلام.",
+      "list": "القائمة التمثيلية",
+      "name": "الزير عيسى: الأعراف الشفهية لقبائل الصوماليين العيسى",
+      "official_title": "Xeer Ciise: Oral customary laws of Somali-Issa communities in Ethiopia, Djibouti and Somalia",
+      "official_title_ar": "الزير عيسى",
+      "reference": "02087",
+      "url": "https://ich.unesco.org/en/RL/xeer-ciise-oral-customary-laws-of-somali-issa-communities-in-ethiopia-djibouti-and-somalia-02087",
+      "year": 2024
+    },
+    {
+      "classification": "national",
+      "co_states": [
+        "جيبوتي"
+      ],
+      "description": "طبق تُقدّمه الحماة لصهرها احتفاءً بأسبوع الزواج الأول: وعاء محفور من جذع شجرة يوضع فيه لحم إبل مجفف مقلي بالزبدة محفوظ في السمن، يُوضع داخل سلّة ويُلفّ بورق معدني ويُزيَّن بالجلد والأصداف، ثم يُغطّى بقماش ويوضع في كيس من أقمشة تمثل طقم ملابس نسائي، وتُربط حباله بإحكام وتُخفى بعناية. من صميم مراسم الزفاف في جيبوتي وموضوع ألغاز وشعر، ويُنقل داخل الأسر بمشاهدة الفتيات. الدولة الوحيدة المُدرِجة للعنصر.",
+      "list": "قائمة التراث الثقافي غير المادي الذي يحتاج إلى صون عاجل",
+      "name": "الخيدو",
+      "official_title": "Xeedho",
+      "official_title_ar": "الخيدو",
+      "reference": "02001",
+      "url": "https://ich.unesco.org/en/USL/xeedho-02001",
+      "year": 2023
+    }
+  ],
+  "language_institutions": [
+    {
+      "features": "مؤسسة حكومية دولية أُنشئت في يونيو 2013 في مدينة جيبوتي بحكومات جيبوتي والصومال وإثيوبيا، ومقرها مدينة جيبوتي، ومهمتها المعلنة صون اللغة الصومالية.",
+      "name": "الأكاديمية الإقليمية للغة الصومالية",
+      "second": null,
+      "source": "languages"
+    }
+  ],
+  "language_presence": [
+    {
+      "codes": [],
+      "level": "official_constitutional",
+      "name": "العربية",
+      "note": "لغة رسمية بنص المادة 1؛ لم يُتحقق رمز ISO 639-3 في هذه الدورة فلا يُسجَّل رمز. والمرآة تصف العربية الفصحى في الاستعمال الرسمي، والفصحى لغة التعليم إلى جانب الفرنسية.",
+      "official": true,
+      "second": null,
+      "source": "constitution"
+    },
+    {
+      "codes": [],
+      "level": "official_constitutional",
+      "name": "الفرنسية",
+      "note": "لغة رسمية بنص المادة 1 ولغة التعليم الأساسية بحسب المرآة، وورثت من مرحلة الاستعمار.",
+      "official": true,
+      "second": null,
+      "source": "constitution"
+    },
+    {
+      "codes": [
+        "som"
+      ],
+      "level": "national_indigenous",
+      "name": "الصومالية",
+      "note": "لغة السكان الأصليين الأوسع انتشارًا بحسب المرآة، واللهجة السائدة فيها هي الصومالية الشمالية؛ لا يُسجَّل عدد متحدثين.",
+      "official": false,
+      "second": "iso_som",
+      "source": "languages"
+    },
+    {
+      "codes": [
+        "aar"
+      ],
+      "level": "national_indigenous",
+      "name": "العفرية",
+      "note": "لغة أصلية ثانية، من الفرع الكوشي الشرقي للأسرة الأفروآسيوية؛ لا يُسجَّل عدد متحدثين.",
+      "official": false,
+      "second": "iso_aar",
+      "source": "languages"
+    },
+    {
+      "codes": [],
+      "level": "colloquial_local",
+      "name": "العربية التعزية-العدنية (العربية الجيبوتية)",
+      "note": "العربية المحكية المحلية بحسب المرآة؛ لا يُسجَّل عدد متحدثين.",
+      "official": false,
+      "second": null,
+      "source": "languages"
+    },
+    {
+      "codes": [],
+      "level": "immigrant",
+      "name": "العربية العُمانية",
+      "note": "من لغات الوافدين بحسب المرآة؛ لا يُسجَّل عدد متحدثين.",
+      "official": false,
+      "second": null,
+      "source": "languages"
+    },
+    {
+      "codes": [],
+      "level": "immigrant_group",
+      "name": "لغات وافدة أخرى",
+      "note": "المجموعة التي تعدّها المرآة: الأمهرية والأورومو واليونانية والهندية، مع الإنجليزية والإيطالية لغات أجنبية؛ تُسجَّل مجموعةً بلا أرقام.",
+      "official": false,
+      "second": null,
+      "source": "languages"
+    },
+    {
+      "codes": [],
+      "level": "signed",
+      "name": "لغة الإشارة",
+      "note": "المرآة الإنجليزية تذكر لغة إشارة صومالية لمجتمع الصم الصومالي في جيبوتي، ومركز لغات الإشارة الإفريقية يسمّي «لغة إشارة جيبوتي (DSC)»؛ لم يُتحقق من رمز ISO 639-3 لها في هذه الدورة، فلا يُسجَّل رمز.",
+      "official": false,
+      "second": null,
+      "source": "sign"
+    }
+  ],
+  "places": {
+    "markets": [
+      {
+        "latin": "Marché central / Les Caisses",
+        "name": "السوق المركزي (الكيسات)",
+        "note": "سوق وسط العاصمة عند المسجد الكبير وساحة محمود حربي؛ يُدخل ككيان market بلا مقام إداري وبلا نسبة.",
+        "source": "quartiers_guide",
+        "token": "CENTRAL-M"
+      },
+      {
+        "latin": "Place Mahmoud Harbi",
+        "name": "ساحة محمود حربي",
+        "note": "صُلب المدينة ومنطلق الحافلات الصغيرة، وكانت ساحة سوق الحطب ثم «ساحة رامبو» في العهد الاستعماري؛ تُدخل مكانًا بلا مقام.",
+        "source": "city_history",
+        "token": "MAHMOUD-HARBI-S"
+      }
+    ],
+    "quarters": [
+      {
+        "latin": "Quartier européen",
+        "name": "الحي الأوروبي (وسط المدينة التاريخي)",
+        "note": "الحي الأقدم: مبانٍ بأقواس وقماش شبكي من المرجان وقاعدة شوارع حول ساحة 27 يونيو (ساحة مينليك سابقًا)؛ يُدخل مكانًا بلا مقام إداري وبلا سكان.",
+        "source": "quartiers_guide",
+        "token": "EUROPEAN-Q"
+      },
+      {
+        "latin": "Quartier africain",
+        "name": "الحي الأفريقي",
+        "note": "الحي الأقدم الثاني حول السوق المركزي القديم (الكيسات والسوق) وساحة محمود حربي؛ يُدخل مكانًا بلا مقام.",
+        "source": "quartiers_guide",
+        "token": "AFRICAN-Q"
+      },
+      {
+        "latin": "Plateau central",
+        "name": "الهضبة الوسطى",
+        "note": "نواة المدينة حول القصر الرئاسي وساحة لاغارد والحي الإداري؛ صُهرت إليها هضبة الثعبان والمرابو والهيرون بعد أن كانت جزرًا منفصلة.",
+        "source": "city_history",
+        "token": "PLATEAU-Q"
+      },
+      {
+        "latin": "Balbala",
+        "name": "بلبلة",
+        "note": "الجزء الثاني المتنامي من المدينة شرقًا؛ يُدخل بلا مقام إداري وبلا سكان.",
+        "source": "city_history",
+        "token": "BALBALA-Q"
+      },
+      {
+        "latin": "Ambouli",
+        "name": "أمبولي",
+        "note": "حي واسع في نهاية الجزء الأول من المدينة على وادي يحمل الاسم نفسه، وفيه المطار؛ بلا مقام.",
+        "source": "city_history",
+        "token": "AMBOULI-Q"
+      },
+      {
+        "latin": "Boulaos",
+        "name": "بولاوس",
+        "note": "من أقدم الأحياء السكنية، واسمه يدل على الخيام المصنوعة من الحشائش (العشش)، وفيه الميناء السمكي ثم المنطقة الصناعية.",
+        "source": "city_history",
+        "token": "BOULAOS-Q"
+      },
+      {
+        "latin": "Le Marabout",
+        "name": "المرابو",
+        "note": "هضبة كانت جزيرة منفصلة ثم اتصلت بالمدينة؛ من الأحياء المؤسسية.",
+        "source": "city_history",
+        "token": "MARABOUT-Q"
+      },
+      {
+        "latin": "Le Héron",
+        "name": "الهيرون",
+        "note": "هضبة كانت جزيرة منفصلة ثم اتصلت بالمدينة، ويغلب عليها اليوم الطابع السكني الحديث.",
+        "source": "city_history",
+        "token": "HERON-Q"
+      },
+      {
+        "latin": "Einguéla",
+        "name": "إنجيلا",
+        "note": "حي غربي قام على الملّاحات المهجورة في مطلع الستينيات، واسمه يعني «أن تلتقي».",
+        "source": "city_history",
+        "token": "EINGUELA-Q"
+      },
+      {
+        "latin": "Arrhiba",
+        "name": "عريبة",
+        "note": "حي بُني أصلًا لعمال الميناء، واسمه يعني «الضيافة»، ويسكنه خصوصًا عفر وإثيوبيون؛ يُسجَّل وصفًا لا إحصاءً.",
+        "source": "city_history",
+        "token": "ARHIBA-Q"
+      }
+    ]
+  },
+  "schema_version": "2.0.0",
+  "script_profiles": [
+    {
+      "features": "الأبجدية اللاتينية هي الكتابة الأوسع استعمالًا وطنيًا: أبجدية صومالية معدّلة للصومالية، وأبجدية عفرية (قفر فيرا) صاغها مثقفان عفاريان هما ديميس وريدو في مطلع السبعينيات؛ وتُدوَّن الصومالية والعفرية كذلك بالحرف العربي.",
+      "name": "كتابة اللغات الوطنية",
+      "second": null,
+      "source": "languages"
+    }
+  ],
+  "snapshot_date": "2026-09-21",
+  "sources": {
+    "city": "https://en.wikipedia.org/wiki/Djibouti_City",
+    "city_history": "http://lutin84.chez.com/pages/djibouti/textedjib/djibouti.html",
+    "constitution": "https://www.constituteproject.org/constitution/Djibouti_2010",
+    "cuisine": "https://ar.wikipedia.org/wiki/مطبخ_جيبوتي",
+    "iso_aar": "https://iso639-3.sil.org/code/aar",
+    "iso_som": "https://iso639-3.sil.org/code/som",
+    "languages": "https://en.wikipedia.org/wiki/Languages_of_Djibouti",
+    "quartiers_guide": "https://www.petitfute.com/v51482-djibouti/decouvrir/d2014-quartiers/",
+    "sign": "https://africansignlanguagesresourcecenter.com/dijbouti/",
+    "state": "https://ich.unesco.org/en/state/djibouti-DJ",
+    "wedding_press": "https://www.al-jazirah.com/1999/19990604/wn1.htm",
+    "xeedho": "https://ich.unesco.org/en/USL/xeedho-02001",
+    "xeer": "https://ich.unesco.org/en/RL/xeer-ciise-oral-customary-laws-of-somali-issa-communities-in-ethiopia-djibouti-and-somalia-02087",
+    "zaffa": "https://ich.unesco.org/en/RL/the-zaffa-in-the-traditional-wedding-02283"
+  }
+}

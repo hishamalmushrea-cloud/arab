@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e",
+  "country_codes": [
+    "YE"
+  ],
+  "id": "SRC-YE-CENSUS-2004-LEGACY-FRAME",
+  "language": "ar",
+  "license": "Factual extraction with attribution; publisher reuse terms not stated",
+  "locator": "Archived capture, 30 September 2018, of the CSO administrative divisions page",
+  "notes": "Archived official page anchoring the 333-district national frame and the census-2004 district universe.",
+  "publication_date": "2018-09-30",
+  "publisher": "Central Statistical Organization Yemen via Internet Archive",
+  "quality_tier": "B",
+  "retrieved_at": "2026-08-17",
+  "schema_version": "2.0.0",
+  "source_type": "archive",
+  "title": "Census 2004 administrative frame — archived CSO administrative definitions",
+  "url": "https://web.archive.org/web/20180930200530/http://www.cso-yemen.org/content.php?lng=arabic&id=277"
+}

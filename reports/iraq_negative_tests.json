@@ -1,6 +1,6 @@
 {
   "country_code": "IQ",
-  "detected": 8,
+  "detected": 12,
   "mutations": [
     {
       "detected": true,
@@ -35,15 +35,35 @@
     {
       "detected": true,
       "expected_code": "IQ_PREMATURE_LOWER",
-      "mutation": "IQ_PREMATURE_DISTRICT"
+      "mutation": "IQ_PREMATURE_SUBDISTRICT"
     },
     {
       "detected": true,
       "expected_code": "IQ_HALABJA_LAW",
       "mutation": "IQ_REMOVE_LAW_CLAIM"
+    },
+    {
+      "detected": true,
+      "expected_code": "IQ_COUNTS",
+      "mutation": "IQ_FABRICATED_QADA"
+    },
+    {
+      "detected": true,
+      "expected_code": "IQ_QADA_FIXTURE",
+      "mutation": "IQ_QADA_PROMOTED"
+    },
+    {
+      "detected": true,
+      "expected_code": "IQ_QADA_FIXTURE",
+      "mutation": "IQ_DISPUTED_ENTRY_UPGRADED"
+    },
+    {
+      "detected": true,
+      "expected_code": "IQ_QADA_POP",
+      "mutation": "IQ_QADA_POP_PUBLISHED"
     }
   ],
-  "required": 8,
+  "required": 12,
   "schema_version": "2.0.0",
   "status": "PASS"
 }

@@ -4,8 +4,8 @@
   "families": {
     "claims": {
       "failed": 0,
-      "passed": 13,
-      "sampled": 13,
+      "passed": 33,
+      "sampled": 33,
       "status": "PASS"
     },
     "coverage": {
@@ -34,8 +34,8 @@
     },
     "sources": {
       "failed": 0,
-      "passed": 3,
-      "sampled": 3,
+      "passed": 4,
+      "sampled": 4,
       "status": "PASS"
     }
   },
@@ -44,6 +44,6 @@
   "p0": 0,
   "schema_version": "2.0.0",
   "status": "PASS",
-  "total_passed": 95,
-  "total_sampled": 95
+  "total_passed": 116,
+  "total_sampled": 116
 }

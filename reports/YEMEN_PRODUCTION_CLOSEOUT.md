@@ -40,3 +40,48 @@ No current district/uzla coded register accepted; no effective-control, disputed
 Schema 2.0.0 transfers without change. Parallel first-level types and legal/de-facto separation are preserved.
 ## Recommended next country
 Syria — Full Pilot, beginning with the 14 legal governorates and separately dated status overlays.
+
+## Depth-expansion cycle 1 — district layer (2026-08-17)
+
+First cycle executed under the **Maximum Arabic Knowledge Coverage** policy (`00_فلسفة_الموسوعة.md`).
+
+- **333/333 district identities** entered across all 22 first-level units, matching the archived official CSO 333-district national frame.
+- Identities are attested from the NIC district-catalogue encyclopedic mirror (tier C) anchored to the archived CSO administrative-definitions page (tier B, Internet Archive capture 2018-09-30).
+- Every district carries `verification_status: probable` — **not** verified — pending reconciliation with an atomic official coded register; the semantic gate rejects promotion to verified (`YE_DISTRICT_STATUS`) and any unattested addition (`YE_COUNTS`).
+- `DEN-YE-DISTRICTS` = 333 (official frame); `COV-YE-DISTRICTS` = 333 matched. Uzlas remain denominator-unavailable with zero fabricated records.
+- 12/12 negative mutations detected, including new district-frame mutations; independent review covers the full 752-record population.
+- No conflict, control, damage, or displacement inference; the legal/statistical frame stays separate from war overlays.
+
+## Depth-expansion cycle 2 — Amanat lane layer (2026-08-17)
+
+Second cycle under **Maximum Arabic Knowledge Coverage**: the lane (حارة) layer enters as **places**, not administrative tiers.
+
+- **Official frame:** NIC Amanat classification — 10 districts, 89 hays, **791 lanes** (census 2004). `DEN-YE-AMANAT-LANES` = 791.
+- **104 attested lane identities** (13.15% of the frame, `complete=false`, 687 documented missing — never fabricated):
+  - **Old Sanaa: 69 lanes** at `probable` (heritage-cited inventory; UNESCO World Heritage 1986, danger list 2015).
+  - **Tahrir: 35 lanes** across 3 hays — التحرير (20) and بير العزب (8) at `probable` with 2004 census homes/households/population tables; **القاع (7) at `unverified`** (names-only by subtraction; historical قاع اليهود whose community emigrated).
+- **33 lane population claims** (2004 census, `observed_at: 2004-12-16`) — `status: reported`, **unpublished**, never projected to the present.
+- **3 naming-origin narratives** (ياسر/غمدان/غرقة القليس) at `local_reported`, classification `historical`, unpublished — first use of the narrative-not-fact contract.
+- Orthographic near-duplicates (بير/بئر البهمة in one hay) are distinct census rows; identity keys carry the inventory sequence to avoid false merging.
+- Gate: 17/17 mutations (5 new: fabricated lane, lane promoted to verified, lane population published, narrative promoted to fact, coverage forced complete); independent review **1,004/1,004**.
+
+## Depth-expansion cycle 3 — cultural local knowledge (2026-08-17)
+
+Third cycle: dishes, dialect profiles, and language presence enter as **classified claims**, never as published facts.
+
+- **12 dish claims** (`food_dish`, tier-E mirror source, `local_reported`, unpublished): السلتة (national, أصلها صنعاني), الفحسة (local صنعاء), **المندي (shared — حضرمي الأصل انتشر للجزيرة؛ البوابة ترفض جعله حصريًا)**, المدفون, بنت الصحن, العصيدة, اللحوح (تهامة), الصيادية (الساحل), المطبق (عدن — أثر الميناء), الذمول والحلويات الحضرمية, المظبي.
+- **5 dialect profiles** (`dialect_profile`, `local_reported`, unpublished): الصنعانية والتعزية-العدنية والحضرمية واليافعية والتهامية — بخصائص النطق وعينات المفردات بمعانيها (حينهو، معادبش، حيابك، بايقع لك، رحك/نمك/أكلك، لمه...). upgrade path: مدونة لهجية ميدانية بتواريخ دراسة عبر `lexical_context`.
+- **2 language-presence claims** (`probable`): السقطرية (سقطرى) والمهرية (المهرة) — لغتان ساميتان جنوبيتان حيتان.
+- Every claim is anchored to its place entity (governorate/country), carries explicit classification (national/regional/local/shared), and stays unpublished pending stronger sourcing.
+- Gate: **21/21 mutations** (4 new: dish published from weak source, المندي claimed exclusive, dialect promoted to verified, language claim dropped); independent review **1,023/1,023**.
+
+## Depth-expansion cycle 4 — dress, crafts, and markets (2026-08-17)
+
+Fourth cycle: the remaining cultural domains enter as classified, unpublished claims.
+
+- **7 dress claims** (`clothing_item`, tier-E, `local_reported`, unpublished): المعوز (national, بأنواعه الستة المناطقية), الجنبية (national — رمز اجتماعي لا سلاح، بطرزها المناطقية), الزنة الصنعانية والعصبة (local صنعاء), الثوب الدوعني والثوب الشحري (local حضرموت), أزياء أرياف تعز المسماة (عرج النخلة/رجل الحمامة/المدرجات/سلاسل المطر — توثيق نادر على مستوى المديرية), الدرع التهامي (regional).
+- **4 craft claims** (`craft_custom`): صياغة الفضة والجنابي, النسيج التقليدي, الفخار والمدرة, العقيق اليمني.
+- **3 market claims** (`market_presence`): سوق الملح (يرسو على حارة موثقة ضمن الـ69), أسواق المخا التاريخية (`historical` — أصل اسم الموكا), أسواق تريم وسيئون (ترسو على مديريتين موثقتين).
+- Cross-layer anchoring: market claims reference places already attested in the district and lane layers — culture and geography reinforce each other.
+- The ~100 regional women's costume estimate remains a bounded note, never a fabricated denominator.
+- Gate: **24/24 mutations** (3 new: dress published from weak source, classification stripped, market promoted to verified); independent review **1,037/1,037**.

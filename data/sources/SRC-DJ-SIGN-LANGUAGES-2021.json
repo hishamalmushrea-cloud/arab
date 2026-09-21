@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+  "country_codes": [
+    "DJ"
+  ],
+  "id": "SRC-DJ-SIGN-LANGUAGES-2021",
+  "language": "en",
+  "license": "Mirror, guide and press material; factual extraction with attribution; reuse terms not stated",
+  "locator": "Djibouti Sign Language (DSC); Somali Sign Language; French and Standard Arabic as official languages",
+  "notes": "Sign-language reference page; used only to record that a sign language is reported for Djibouti, without any ISO code or count. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "African Sign Languages Resource Center",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-21",
+  "schema_version": "2.0.0",
+  "source_type": "local_website",
+  "title": "Djibouti — African Sign Languages Resource Center",
+  "url": "https://africansignlanguagesresourcecenter.com/dijbouti/"
+}

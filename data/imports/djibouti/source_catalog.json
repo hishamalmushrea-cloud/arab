@@ -101,6 +101,286 @@
       "source_type": "official_register",
       "title": "Administration territoriale — Préfectures",
       "url": "https://interieur.gouv.dj/service/administration-territoriale-2/"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+      "country_codes": [
+        "DJ"
+      ],
+      "id": "SRC-UNESCO-ICH-DJ-STATE-2026",
+      "language": "en",
+      "license": "UNESCO ICH element and State page; factual extraction with attribution; CC BY-SA 3.0 IGO for the descriptions",
+      "locator": "three inscribed elements (2023 USL, 2024 RL, 2025 RL); 2026 Madqa nomination pending; Convention ratified 30 August 2007",
+      "notes": "State page read 2026-09-21: element list, lists, years, ratification date and the pending 2026 nomination for the Madqa (Afar oral customary law). Publication date unavailable on the state page. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "UNESCO Intangible Cultural Heritage",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "Djibouti — UNESCO Intangible Cultural Heritage",
+      "url": "https://ich.unesco.org/en/state/djibouti-DJ"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+      "country_codes": [
+        "DJ"
+      ],
+      "id": "SRC-UNESCO-ICH-ZAFFA-02283-2025",
+      "language": "en",
+      "license": "UNESCO ICH element and State page; factual extraction with attribution; CC BY-SA 3.0 IGO for the descriptions",
+      "locator": "element 02283; inscribed 2025 (20.COM) on the Representative List; seven submitting States",
+      "notes": "Element page read 2026-09-20 in the Comoros cycle and reused here: Djibouti is one of the seven submitting States, so no exclusivity is claimed. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "UNESCO Intangible Cultural Heritage",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "The zaffa in the traditional wedding",
+      "url": "https://ich.unesco.org/en/RL/the-zaffa-in-the-traditional-wedding-02283"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+      "country_codes": [
+        "DJ"
+      ],
+      "id": "SRC-UNESCO-ICH-XEER-CIISE-02087-2024",
+      "language": "en",
+      "license": "UNESCO ICH element and State page; factual extraction with attribution; CC BY-SA 3.0 IGO for the descriptions",
+      "locator": "element 02087; inscribed 2024 (19.COM) on the Representative List; Ethiopia, Djibouti and Somalia",
+      "notes": "Element page read 2026-09-21: three components (political constitution, penal code, code of social conduct) and three submitting States. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "UNESCO Intangible Cultural Heritage",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "Xeer Ciise: Oral customary laws of Somali-Issa communities in Ethiopia, Djibouti and Somalia",
+      "url": "https://ich.unesco.org/en/RL/xeer-ciise-oral-customary-laws-of-somali-issa-communities-in-ethiopia-djibouti-and-somalia-02087"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+      "country_codes": [
+        "DJ"
+      ],
+      "id": "SRC-UNESCO-ICH-XEEDHO-02001-2023",
+      "language": "en",
+      "license": "UNESCO ICH element and State page; factual extraction with attribution; CC BY-SA 3.0 IGO for the descriptions",
+      "locator": "element 02001; inscribed 2023 (18.COM) on the List of Intangible Cultural Heritage in Need of Urgent Safeguarding; Djibouti is the only submitting State",
+      "notes": "Element page read 2026-09-21: full description of the dish, its container, its decoration and its transmission inside families. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "UNESCO Intangible Cultural Heritage",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "Xeedho",
+      "url": "https://ich.unesco.org/en/USL/xeedho-02001"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+      "country_codes": [
+        "DJ"
+      ],
+      "id": "SRC-DJ-CONSTITUTION-2010",
+      "language": "en",
+      "license": "Mirror, guide and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "Article 1 official languages, state religion and motto; Article 2 capital and flag",
+      "notes": "Constitutional text as published by the Constitute Project. The page carries no publication date and the promulgation date is not asserted here. Publication date unavailable. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Constitute Project — Comparative Constitutions Project",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "law",
+      "title": "Djibouti 1992 (rev. 2010) Constitution (as published by Constitute)",
+      "url": "https://www.constituteproject.org/constitution/Djibouti_2010"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+      "country_codes": [
+        "DJ"
+      ],
+      "id": "SRC-DJ-ISO639-3-AFAR",
+      "language": "en",
+      "license": "Mirror, guide and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "aar Afar; 639-2/639-3; 639-1 equivalent aa; individual, living",
+      "notes": "Registration-authority entry read 2026-09-21. The registry page carries no publication date. Publication date unavailable. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "SIL International (ISO 639-3 registration authority)",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "standard",
+      "title": "ISO 639-3 code registration — Afar",
+      "url": "https://iso639-3.sil.org/code/aar"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+      "country_codes": [
+        "DJ"
+      ],
+      "id": "SRC-DJ-ISO639-3-SOMALI",
+      "language": "en",
+      "license": "Mirror, guide and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "som Somali; 639-2/639-3; 639-1 equivalent so; individual, living",
+      "notes": "Registration-authority entry read 2026-09-21. The registry page carries no publication date. Publication date unavailable. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "SIL International (ISO 639-3 registration authority)",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "standard",
+      "title": "ISO 639-3 code registration — Somali",
+      "url": "https://iso639-3.sil.org/code/som"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+      "country_codes": [
+        "DJ"
+      ],
+      "id": "SRC-DJ-CUISINE-MIRROR-2026",
+      "language": "ar",
+      "license": "Mirror, guide and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "مزيج صومالي/عفاري/يمني/فرنسي؛ لاهوه؛ الفه فاه؛ ييتاكلت الرطب؛ الحلاوة الطحينية؛ السمبوسة؛ تيبس الإبل؛ الباري؛ الباستو",
+      "notes": "مرآة عربية تصف المطبخ الجيبوتي وأصوله وأطباقه؛ تُستعمل غير منشورة. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "local_website",
+      "title": "مطبخ جيبوتي",
+      "url": "https://ar.wikipedia.org/wiki/مطبخ_جيبوتي"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+      "country_codes": [
+        "DJ"
+      ],
+      "id": "SRC-DJ-LANGUAGES-MIRROR-2026",
+      "language": "en",
+      "license": "Mirror, guide and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "official Arabic/French; indigenous Afar/Somali; Northern Somali main dialect; ta'izzi-adeni and Omani Arabic, Amharic, Oromo, Greek, Hindi; Somali Sign Language; Latin and Arabic scripts; Qafar Feera; Regional Somali Language Academy 2013",
+      "notes": "Mirror page used for the language inventory, the scripts and the language academy. It also prints speaker counts, which this cycle does not record. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Wikipedia (English mirror)",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "local_website",
+      "title": "Languages of Djibouti",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Djibouti"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+      "country_codes": [
+        "DJ"
+      ],
+      "id": "SRC-DJ-CITY-MIRROR-2026",
+      "language": "en",
+      "license": "Mirror, guide and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "three communes Ras-Dika/Boulaos/Balbala; 35 sub-prefectures row; founded 1888; old section of souks; Place of 27 June; Théâtre des Salines 1965",
+      "notes": "Mirror page used only for the city-context cross-check and the count discrepancy note; not for any denominator. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Wikipedia (English mirror)",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "local_website",
+      "title": "Djibouti City",
+      "url": "https://en.wikipedia.org/wiki/Djibouti_City"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+      "country_codes": [
+        "DJ"
+      ],
+      "id": "SRC-DJ-QUARTIERS-GUIDE-2026",
+      "language": "fr",
+      "license": "Mirror, guide and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "quartier européen and quartier africain; place du 27-Juin; marché central and souk; place Mahmoud Harbi; rue des Afars; cités Engueila and Arhiba; Marabout; Héron; Haramous; Boulaos",
+      "notes": "Travel guide describing the central quarters; used only for the unpublished places layer. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Petit Futé (local guide)",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "local_website",
+      "title": "Découverte de Djibouti : Quartiers",
+      "url": "https://www.petitfute.com/v51482-djibouti/decouvrir/d2014-quartiers/"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+      "country_codes": [
+        "DJ"
+      ],
+      "id": "SRC-DJ-CITY-HISTORY-2026",
+      "language": "fr",
+      "license": "Mirror, guide and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "quartiers 1-7 and Gachamaleh/7bis/Gabode; Einguéla and Arrhiba meanings; Boulaos name; Ambouli; Balbala; place Mahmoud Harbi; rue des Mouches; sha with clove and cardamom; diri and gogara Thursday market; basketry, charcharis, fooh/jaawi/maskati",
+      "notes": "Local historical page on Djibouti City: quarter names, trade and dress details used in the classified body. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Page historique locale (lutin84.chez.com)",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "local_website",
+      "title": "La Ville de Djibouti",
+      "url": "http://lutin84.chez.com/pages/djibouti/textedjib/djibouti.html"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+      "country_codes": [
+        "DJ"
+      ],
+      "id": "SRC-DJ-SIGN-LANGUAGES-2021",
+      "language": "en",
+      "license": "Mirror, guide and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "Djibouti Sign Language (DSC); Somali Sign Language; French and Standard Arabic as official languages",
+      "notes": "Sign-language reference page; used only to record that a sign language is reported for Djibouti, without any ISO code or count. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "African Sign Languages Resource Center",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "local_website",
+      "title": "Djibouti — African Sign Languages Resource Center",
+      "url": "https://africansignlanguagesresourcecenter.com/dijbouti/"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+      "country_codes": [
+        "DJ"
+      ],
+      "id": "SRC-DJ-WEDDING-ALJAZIRAH-1999",
+      "language": "ar",
+      "license": "Mirror, guide and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "احتفالات سبعة أيام؛ الجدائل؛ فتح الوعاء المعقود بالعصا؛ برد الأسنان بالمبرد الحديدي",
+      "notes": "Press report dated 1999: used for one dated local narrative and one folk narrative, both unpublished.",
+      "publication_date": "1999-06-04",
+      "publisher": "جريدة الجزيرة",
+      "quality_tier": "B",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "local_press",
+      "title": "عادات وتقاليد الشعوب في ليلة الزفاف .. في جيبوتي",
+      "url": "https://www.al-jazirah.com/1999/19990604/wn1.htm"
     }
   ]
 }

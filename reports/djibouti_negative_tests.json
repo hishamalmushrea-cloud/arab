@@ -1,6 +1,6 @@
 {
   "country_code": "DJ",
-  "detected": 8,
+  "detected": 43,
   "mutations": [
     {
       "detected": true,
@@ -41,9 +41,184 @@
       "detected": true,
       "expected_code": "DJ_DENOMINATORS",
       "mutation": "DJ_FAKE_SUBPREF_COUNT"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_ICH_CONTRACT",
+      "mutation": "DJ_XEEDHO_NOT_NATIONAL"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_ICH_CONTRACT",
+      "mutation": "DJ_XEEDHO_UNPUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_ICH_CONTRACT",
+      "mutation": "DJ_XEER_AS_NATIONAL"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_ICH_CONTRACT",
+      "mutation": "DJ_ZAFFA_STATES_LOST"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_ICH_CONTRACT",
+      "mutation": "DJ_ICH_WRONG_YEAR"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_CONVENTION_CONTRACT",
+      "mutation": "DJ_CONVENTION_DATE_LOST"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_DEPTH_COUNTS",
+      "mutation": "DJ_PENDING_AS_INSCRIBED"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_PENDING_NOMINATION",
+      "mutation": "DJ_PENDING_UNPUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_CONSTITUTION_CONTRACT",
+      "mutation": "DJ_CONSTITUTION_ARTICLE_LOST"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_CONSTITUTION_CONTRACT",
+      "mutation": "DJ_CONSTITUTION_UNPUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_LANGUAGE_CONTRACT",
+      "mutation": "DJ_OFFICIAL_LANGUAGE_UNPUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_LANGUAGE_CONTRACT",
+      "mutation": "DJ_MINORITY_PUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_LANGUAGE_CONTRACT",
+      "mutation": "DJ_ISO_CODE_LOST"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_LANGUAGE_CONTRACT",
+      "mutation": "DJ_ISO_SOURCE_LOST"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_LANGUAGE_CONTRACT",
+      "mutation": "DJ_SIGN_LANGUAGE_ISO_CLAIMED"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_LANGUAGE_CONTRACT",
+      "mutation": "DJ_SIGN_LANGUAGE_PUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_NO_COUNTS",
+      "mutation": "DJ_SPEAKER_SHARE"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_NO_COUNTS",
+      "mutation": "DJ_POPULATION_FIELD_ON_DEPTH"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_SECOND_SOURCE_PAIR",
+      "mutation": "DJ_SECOND_SOURCE_LOCATOR_LOST"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_SECOND_SOURCE_PAIR",
+      "mutation": "DJ_SECOND_SOURCE_LOCATOR_ONLY"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_WEAK_DEPTH_PUBLISHED",
+      "mutation": "DJ_WEAK_DEPTH_PUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_FOLK_NARRATIVE",
+      "mutation": "DJ_FOLK_AS_FACT"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_FOLK_NARRATIVE",
+      "mutation": "DJ_FOLK_PUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_DISCREPANCY",
+      "mutation": "DJ_DISCREPANCY_ACCEPTED_BADLY"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_DISCREPANCY",
+      "mutation": "DJ_DISCREPANCY_PUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_PLACE_CONTRACT",
+      "mutation": "DJ_PLACE_AS_CURRENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_PLACE_LOCATED_IN",
+      "mutation": "DJ_PLACE_ADMIN_PARENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_PLACE_LOCATED_IN",
+      "mutation": "DJ_PLACE_WRONG_PARENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_PLACE_CLAIMS",
+      "mutation": "DJ_PLACE_CLAIM_ATTACHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_PLACE_CONTRACT",
+      "mutation": "DJ_PLACE_SOURCE_UPGRADE"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_PLACE_LOCATED_IN",
+      "mutation": "DJ_PLACE_CHILD_INFERRED"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_COUNTS",
+      "mutation": "DJ_MARKET_AS_QUARTER"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_SOURCES",
+      "mutation": "DJ_SOURCE_TIER_INFLATION"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_ICH_LAYER",
+      "mutation": "DJ_ICH_LAYER_DENOMINATOR"
+    },
+    {
+      "detected": true,
+      "expected_code": "DJ_PLACE_LAYER",
+      "mutation": "DJ_PLACE_LAYER_DENOMINATOR"
     }
   ],
-  "required": 8,
+  "required": 43,
   "schema_version": "2.0.0",
   "status": "PASS"
 }

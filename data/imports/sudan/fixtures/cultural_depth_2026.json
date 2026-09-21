@@ -1,0 +1,210 @@
+{
+ "captured_at": "2026-08-17",
+ "country_code": "SD",
+ "dialect_profiles": [
+  {
+   "features": [
+    "فصاحة وإمالة",
+    "حذف مثل ود بدل ولد",
+    "نبرة الشايقية الموسيقية"
+   ],
+   "group": "الجعلية",
+   "scope": "وسط وشمال السودان على النيل",
+   "subject": "ENT-SD-STATE-08",
+   "words": []
+  },
+  {
+   "features": [
+    "مزيج جعلي نوبي ريفي",
+    "الأوسع إعلاميا",
+    "مؤثرات مصرية وتركية وإنجليزية"
+   ],
+   "group": "الخرطومية",
+   "scope": "العاصمة والمدن",
+   "subject": "ENT-SD-STATE-07",
+   "words": [
+    {
+     "m": "شخص؛ نوبية الأصل",
+     "w": "زول"
+    },
+    {
+     "m": "جيد أو جميل",
+     "w": "سمح"
+    },
+    {
+     "m": "الآن",
+     "w": "هسي"
+    },
+    {
+     "m": "ماذا",
+     "w": "شنو"
+    },
+    {
+     "m": "أريد",
+     "w": "داير"
+    },
+    {
+     "m": "قطة؛ نوبية",
+     "w": "كديسة"
+    },
+    {
+     "m": "سرير الحبال؛ نوبية",
+     "w": "عنجريب"
+    }
+   ]
+  },
+  {
+   "features": [
+    "بدوية رعوية",
+    "إمالة: خمسة إلى خمسي وفاطمة إلى فاطني",
+    "قرابة باللهجات التشادية"
+   ],
+   "group": "لهجة البقارة",
+   "scope": "كردفان ودارفور الرعوية",
+   "subject": "ENT-SD-STATE-11",
+   "words": []
+  }
+ ],
+ "dishes": [
+  {
+   "classification": "national",
+   "desc": "رقائق رقيقة مخمرة من دقيق الذرة أو الدخن تخبز على الصاج وتؤكل مع الملاح",
+   "name": "الكسرة",
+   "note": "",
+   "occasion": "الخبز اليومي",
+   "subject": "ENT-SD-COUNTRY"
+  },
+  {
+   "classification": "national",
+   "desc": "عصيدة دقيق الذرة تقدم مع ملاح الويكة من البامية المجففة المطحونة",
+   "name": "العصيدة بالويكة",
+   "note": "",
+   "occasion": "رمضان والأعياد",
+   "subject": "ENT-SD-COUNTRY"
+  },
+  {
+   "classification": "national",
+   "desc": "عائلة الملاح السودانية: التقلية بالطماطم واللحم والثوم، والروب بالزبادي واللحم",
+   "name": "ملاح التقلية وملاح الروب",
+   "note": "الملاح جنس طهوي سوداني كامل لا طبق واحد",
+   "occasion": "يومي",
+   "subject": "ENT-SD-COUNTRY"
+  },
+  {
+   "classification": "local",
+   "desc": "لحم مشوي على أسياخ بتتبيلة الشطة والفول السوداني؛ شائع في الخرطوم",
+   "name": "الأقاشي",
+   "note": "",
+   "occasion": "مطاعم الشارع",
+   "subject": "ENT-SD-STATE-07"
+  },
+  {
+   "classification": "regional",
+   "desc": "طبق الكرش والكبد بالليمون شائع في الشمال",
+   "name": "أم فتفت",
+   "note": "",
+   "occasion": "وجبة شمالية",
+   "subject": "ENT-SD-STATE-09"
+  },
+  {
+   "classification": "shared",
+   "desc": "فول بالزيت والتوابل مع الطعمية",
+   "name": "الفول المدمس والطعمية",
+   "note": "مشترك مع مصر ووادي النيل — لا حصرية",
+   "occasion": "فطور المدن",
+   "subject": "ENT-SD-COUNTRY"
+  },
+  {
+   "classification": "national",
+   "desc": "قهوة تحضر في إبريق الجبنة الفخاري بالزنجبيل والقرنفل؛ طقس ضيافة سوداني",
+   "name": "قهوة الجبنة",
+   "note": "تشترك تسمية الجبنة مع القرن الأفريقي؛ الطقس السوداني موثق محليا",
+   "occasion": "الضيافة",
+   "subject": "ENT-SD-COUNTRY"
+  },
+  {
+   "classification": "national",
+   "desc": "مشروبات رمضانية مخمرة من الذرة بالتوابل",
+   "name": "الحلومر والآبري",
+   "note": "",
+   "occasion": "رمضان",
+   "subject": "ENT-SD-COUNTRY"
+  }
+ ],
+ "dress": [
+  {
+   "classification": "national",
+   "desc": "ثوب أبيض فضفاض بلا ياقة بأكمام واسعة، ومعه العمة القطنية البيضاء التي تعكس طريقة لفها الانتماء الاجتماعي والديني؛ ومن أنواعها جلابية الأنصارية بجيبيها وثوب السرتي الناصع بزيقه الأحمر للجرتق",
+   "gender": "رجالي",
+   "name": "الجلابية السودانية والعمة",
+   "subject": "ENT-SD-COUNTRY"
+  },
+  {
+   "classification": "national",
+   "desc": "قماش طويل يلف على كامل الجسد فوق الملابس؛ الزي القومي النسائي بأسماء تجارية وألوان تتجدد كل موسم",
+   "gender": "نسائي",
+   "name": "الثوب السوداني النسائي",
+   "subject": "ENT-SD-COUNTRY"
+  },
+  {
+   "classification": "regional",
+   "desc": "قميص بياقة وأزرار مع الصديري وسروال السربادوب الواسع في شرق السودان",
+   "gender": "رجالي",
+   "name": "القميص السواكني والسربادوب",
+   "note": "",
+   "subject": "ENT-SD-STATE-01"
+  },
+  {
+   "classification": "local",
+   "desc": "جلابية خضراء بحواف حمراء تلبسها الطرق الصوفية وخاصة الختمية",
+   "gender": "رجالي",
+   "name": "المرقعة الصوفية",
+   "note": "",
+   "subject": "ENT-SD-COUNTRY"
+  }
+ ],
+ "non_arabic_languages": [
+  {
+   "desc": "مجموعة لغوية نوبية حية في الولاية الشمالية على النيل شمالا",
+   "name": "لغات نوبية (الدنقلاوية والمحسية والكنزية والحلفاوية)",
+   "status": "probable",
+   "subject": "ENT-SD-STATE-09"
+  },
+  {
+   "desc": "لغة كوشية يتحدثها البجا في شرق السودان وتسمى محليا الهداريت",
+   "name": "البداويت (لغة البجا)",
+   "status": "probable",
+   "subject": "ENT-SD-STATE-01"
+  },
+  {
+   "desc": "لغة نيلية صحراوية يتحدثها الفور في دارفور وأعطت الإقليم اسمه",
+   "name": "الفور",
+   "status": "probable",
+   "subject": "ENT-SD-STATE-14"
+  },
+  {
+   "desc": "لغة صحراوية شرقية في شمال دارفور والحدود التشادية",
+   "name": "الزغاوية",
+   "status": "probable",
+   "subject": "ENT-SD-STATE-14"
+  },
+  {
+   "desc": "لغة مسلات في غرب دارفور؛ توثيقها المتاح ثانوي",
+   "name": "المساليت",
+   "status": "local_reported",
+   "subject": "ENT-SD-STATE-16"
+  },
+  {
+   "desc": "عشرات اللغات الكردفانية في جبال النوبة بجنوب كردفان؛ حصرها الدقيق يحتاج مصدرا أكاديميا ذريا",
+   "name": "لغات جبال النوبة (كاوليب وميري وغيرها)",
+   "status": "local_reported",
+   "subject": "ENT-SD-STATE-12"
+  }
+ ],
+ "note": "Sudan depth cycle 1 under Maximum Arabic Knowledge Coverage: 6 language claims (4 probable, 2 local_reported), 3 dialect profiles with Khartoum lexicon of Nubian-origin words, 8 dishes (الفول والطعمية shared with Egypt — never exclusive), 4 dress claims. All unpublished, tier-E mirrors, explicit classification. Cultural claims sit on the legal state frame and never imply anything about war-time control or conditions.",
+ "schema_version": "2.0.0",
+ "sources": {
+  "cuisine_dress_mirror": "https://ar.wikipedia.org/wiki/%D9%85%D8%B7%D8%A8%D8%AE_%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A",
+  "dialect_mirror": "https://ar.wikipedia.org/wiki/%D9%84%D9%87%D8%AC%D8%A9_%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A%D8%A9"
+ }
+}

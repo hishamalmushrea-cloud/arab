@@ -13,5 +13,9 @@ def main():
  r('LB_DENOM_8_CURRENT',lambda d:next(x for x in d['denominators'] if x['id']=='DEN-LB-GOVERNORATES-CURRENT').update(value=8),'LB_DENOMINATORS')
  r('LB_PREMATURE_MUNICIPALITY',lambda d:d['entities'].append({**d['entities'][-1],'id':'ENT-LB-MUNICIPALITY-X','entity_type':'lb_municipality'}),'LB_PREMATURE_MUNICIPALITY')
  r('LB_WRONG_DISTRICT_SET',lambda d:d['relationships'].pop(),'LB_PARENT_SET')
- ok=all(x['detected'] for x in o);write_json(ROOT/'reports/lebanon_negative_tests.json',{'schema_version':'2.0.0','country_code':'LB','status':'PASS' if ok else 'FAIL','required':8,'detected':sum(x['detected'] for x in o),'mutations':o});print(o);return 0 if ok else 1
+ r('LB_DEPTH_PUBLISHED',lambda d:next(x for x in d['claims'] if x.get('predicate')=='food_dish').update(published=True),'LB_DEPTH_UNPUBLISHED')
+ r('LB_TABBOULEH_EXCLUSIVE',lambda d:next(x for x in d['claims'] if x.get('predicate')=='food_dish' and x['value']['data'].get('name')=='التبولة').update(classification='national'),'LB_SHARED_NOT_EXCLUSIVE')
+ r('LB_LANG_DROPPED',lambda d:d['claims'].__setitem__(slice(None),[x for x in d['claims'] if x.get('predicate')!='language_presence']),'LB_DEPTH_LANGS')
+ r('LB_DIALECT_PROMOTED',lambda d:next(x for x in d['claims'] if x.get('predicate')=='dialect_profile').update(verification_status='verified'),'LB_DEPTH_STATUS')
+ ok=all(x['detected'] for x in o);write_json(ROOT/'reports/lebanon_negative_tests.json',{'schema_version':'2.0.0','country_code':'LB','status':'PASS' if ok else 'FAIL','required':12,'detected':sum(x['detected'] for x in o),'mutations':o});print(o);return 0 if ok else 1
 if __name__=='__main__':raise SystemExit(main())

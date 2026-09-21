@@ -1,0 +1,233 @@
+{
+ "captured_at": "2026-08-17",
+ "country_code": "LY",
+ "dialect_profiles": [
+  {
+   "features": [
+    "أسرع نطقا وأقرب لشرق تونس",
+    "دخيل إيطالي بديل الفرنسية التونسية",
+    "إمالة شديدة للألف",
+    "قلب الجيم زايا أحيانا: زوز وزردة"
+   ],
+   "group": "الطرابلسية الغرباوية",
+   "scope": "طرابلس والجفارة والزاوية ومصراتة والجبل الغربي",
+   "subject": "ENT-LY-MUNICIPALITY-B4D457D3DD42",
+   "words": [
+    {
+     "m": "من",
+     "w": "اشكون"
+    },
+    {
+     "m": "لماذا",
+     "w": "علاش"
+    },
+    {
+     "m": "شارع",
+     "w": "زنقة"
+    },
+    {
+     "m": "تموين؛ إيطالية",
+     "w": "سبيزه"
+    },
+    {
+     "m": "مركز شرطة؛ إيطالية",
+     "w": "كازيرمه"
+    }
+   ]
+  },
+  {
+   "features": [
+    "أقرب للهجات بدو الأردن والخليج مشرقية الطابع",
+    "الجيم جيم صريحة: رجاجيل",
+    "حلقة وصل المشرق والمغرب تنكسر هنا شرقا"
+   ],
+   "group": "البرقاوية الشرقاوية",
+   "scope": "بنغازي والمرج والبيضاء وطبرق ودرنة",
+   "subject": "ENT-LY-MUNICIPALITY-013733073F62",
+   "words": [
+    {
+     "m": "ما لك",
+     "w": "كنك"
+    },
+    {
+     "m": "البيت",
+     "w": "حوش"
+    },
+    {
+     "m": "استيقظ",
+     "w": "نوض"
+    },
+    {
+     "m": "كثير",
+     "w": "واجد"
+    }
+   ]
+  },
+  {
+   "features": [
+    "خليط عربي أمازيغي صحراوي بأثر الطوارق والتبو"
+   ],
+   "group": "الفزانية",
+   "scope": "سبها وأوباري ومرزق وغات",
+   "subject": "ENT-LY-MUNICIPALITY-963437A7B495",
+   "words": [
+    {
+     "m": "عربة صغيرة",
+     "w": "دقانة"
+    },
+    {
+     "m": "انظر",
+     "w": "تيتوه"
+    }
+   ]
+  },
+  {
+   "features": [
+    "قلب الأسماء لمعكوسها تفاؤلا: الفحم البياض والأعمى البصير والنار العافية — سمة ليبية بارزة"
+   ],
+   "group": "سمة القلب التفاؤلي",
+   "scope": "عموم ليبيا",
+   "subject": "ENT-LY-COUNTRY",
+   "words": []
+  },
+  {
+   "features": [
+    "مفردات أمازيغية باقية في الدارجة"
+   ],
+   "group": "الركيزة الأمازيغية في الليبية",
+   "scope": "عموم ليبيا",
+   "subject": "ENT-LY-COUNTRY",
+   "words": [
+    {
+     "m": "بطيخ؛ أمازيغية",
+     "w": "دلاع"
+    },
+    {
+     "m": "فخ؛ أمازيغية",
+     "w": "منداف"
+    }
+   ]
+  }
+ ],
+ "dishes": [
+  {
+   "classification": "national",
+   "desc": "عجينة شعير تغلى وتشكل هرما وتغمر بالطبيخة من البطاطا والفول واللحم والبيض المسلوق؛ يؤكل بمعصدة خشب الزيتون من قصعة جماعية",
+   "name": "البازين",
+   "note": "بدوي صحراوي الجذور؛ الطبق الوطني الأبرز",
+   "occasion": "المناسبات والأرياف",
+   "subject": "ENT-LY-COUNTRY"
+  },
+  {
+   "classification": "shared",
+   "desc": "سميد على البخار بطبيخة اللحم والبصل والحمص وسمن بلدي؛ ومنه بالبصلة وبالحوت",
+   "name": "الكسكسي الليبي",
+   "note": "مغاربي مشترك — لا حصرية؛ الغلبة الغربية الطرابلسية مرسوة",
+   "occasion": "يومي غربي وأعراس",
+   "subject": "ENT-LY-MUNICIPALITY-B4D457D3DD42"
+  },
+  {
+   "classification": "shared",
+   "desc": "عجينة قمح تقدم بشراب التمر الرب والزبدة والسمن؛ فطور صباح العيد",
+   "name": "العصيدة الليبية",
+   "note": "صحراوية مشتركة عربيا — لا حصرية",
+   "occasion": "عيد الفطر والمولد",
+   "subject": "ENT-LY-COUNTRY"
+  },
+  {
+   "classification": "national",
+   "desc": "مكرونة تطهى في طبيخة حارة تلذع اللسان باللحم أو الدجاج أو البحري",
+   "name": "المبكبكة",
+   "note": "من أشهر أطباق ليبيا الحديثة",
+   "occasion": "وجبة شعبية",
+   "subject": "ENT-LY-COUNTRY"
+  },
+  {
+   "classification": "shared",
+   "desc": "أمعاء محشوة باللحم المفروم والأرز والبقدونس تطهى في الطبيخة",
+   "name": "العصبان",
+   "note": "مشترك مغاربي؛ حاضر في كسكسي الساحل التونسي أيضا",
+   "occasion": "مناسبات",
+   "subject": "ENT-LY-COUNTRY"
+  },
+  {
+   "classification": "regional",
+   "desc": "الرشدة عجين مقطع بالطبيخة، والزميطة شعير محمص بالتمر للسحور والسفر",
+   "name": "الرشدة والزميطة",
+   "note": "",
+   "occasion": "رمضان والسحور",
+   "subject": "ENT-LY-MUNICIPALITY-B4D457D3DD42"
+  }
+ ],
+ "dress": [
+  {
+   "classification": "national",
+   "desc": "قطعة صوف نحو ستة أمتار تلف حول الجسد وتترك الكتف الأيمن حرا وتثبت بحبة مشمش؛ الأبيض للأفراح والبني لليومي؛ النقوش المصرية القديمة تظهر الليبيين القدامى بأزياء مشابهة",
+   "gender": "رجالي",
+   "name": "الجرد (الحولي)",
+   "note": "ليبي أصيل منذ العصور القديمة؛ الرواية الرومانية القديمة تعرض كتوثيق تاريخي",
+   "subject": "ENT-LY-COUNTRY"
+  },
+  {
+   "classification": "shared",
+   "desc": "سترة مطرزة بخيوط الفضة والذهب بالتليك تلبس فوق القميص السوري؛ عثمانية ليبية",
+   "gender": "رجالي",
+   "name": "الفرملة والزبون",
+   "note": "الفرملة عثمانية مشتركة متوسطية — لا حصرية",
+   "subject": "ENT-LY-MUNICIPALITY-B4D457D3DD42"
+  },
+  {
+   "classification": "regional",
+   "desc": "اللثام الأزرق الطوارقي في الجنوب الغربي مع حلي أنقار",
+   "gender": "رجالي",
+   "name": "اللثام الطوارقي (تلغلموست)",
+   "note": "مشترك صحراوي مع طوارق الجزائر والنيجر ومالي",
+   "subject": "ENT-LY-MUNICIPALITY-5D6A4BA52C7D"
+  },
+  {
+   "classification": "local",
+   "desc": "تلابا الجبل الغربي والحلي الفضية الأمازيغية",
+   "gender": "نسائي",
+   "name": "الردا والحلي الأمازيغية",
+   "note": "",
+   "subject": "ENT-LY-MUNICIPALITY-8A2464E3FAC0"
+  }
+ ],
+ "non_arabic_languages": [
+  {
+   "desc": "أمازيغية جبل نفوسة في الغرب الليبي وهي الأكثر تمسكا؛ دستور 2011 نص على حماية الأمازيغية دون ترسيمها",
+   "name": "النفوسية الأمازيغية",
+   "status": "probable",
+   "subject": "ENT-LY-MUNICIPALITY-8A2464E3FAC0"
+  },
+  {
+   "desc": "أمازيغية زوارة الساحلية الغربية",
+   "name": "الزوارية الأمازيغية",
+   "status": "probable",
+   "subject": "ENT-LY-MUNICIPALITY-080FA16C04CC"
+  },
+  {
+   "desc": "أمازيغية واحات أوجلة والجوف الشرقية؛ مهددة وتوثيقها ثانوي",
+   "name": "الأوجلية",
+   "status": "local_reported",
+   "subject": "ENT-LY-MUNICIPALITY-AC19BA540992"
+  },
+  {
+   "desc": "لغة الطوارق في غات وغدامس وأوباري بالجنوب الغربي",
+   "name": "الطارقية (تماهق)",
+   "status": "probable",
+   "subject": "ENT-LY-MUNICIPALITY-5D6A4BA52C7D"
+  },
+  {
+   "desc": "لغة التبو الصحراوية في مرزق والقطرون والكفرة؛ حصرها الدقيق يحتاج مصدرا أكاديميا",
+   "name": "التداغا (لغة التبو)",
+   "status": "local_reported",
+   "subject": "ENT-LY-MUNICIPALITY-648E18A98114"
+  }
+ ],
+ "note": "Libya depth cycle 1 under Maximum Arabic Knowledge Coverage: 5 language claims anchored to current municipalities (Nafusi/Zuwari/Tuareg probable; Awjili/Tedaga local_reported), 5 dialect profiles incl. the east-west Mashriq-Maghreb hinge (Tripolitanian~Tunis vs Cyrenaican~Jordan-Gulf bedouin) and the optimistic-inversion feature, 6 dishes (couscous/asida/osban shared — never exclusive), 4 dress claims (الجرد بروايته الرومانية القديمة). All unpublished, tier-E mirror, explicit classification. Cultural claims sit on the legal municipality frame and never imply control or conditions.",
+ "schema_version": "2.0.0",
+ "sources": {
+  "culture_mirror": "https://ar.wikipedia.org/wiki/%D9%84%D9%87%D8%AC%D8%A9_%D9%84%D9%8A%D8%A8%D9%8A%D8%A9"
+ }
+}

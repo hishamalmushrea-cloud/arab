@@ -12,10 +12,10 @@
     },
     "claims": {
       "failed": 0,
-      "passed": 13,
-      "population": 13,
+      "passed": 56,
+      "population": 56,
       "sample_percentage": 100.0,
-      "sampled": 13,
+      "sampled": 56,
       "status": "PASS"
     },
     "coverage": {
@@ -36,26 +36,26 @@
     },
     "entities": {
       "failed": 0,
-      "passed": 8,
-      "population": 8,
+      "passed": 32,
+      "population": 32,
       "sample_percentage": 100.0,
-      "sampled": 8,
+      "sampled": 32,
       "status": "PASS"
     },
     "relationships": {
       "failed": 0,
-      "passed": 7,
-      "population": 7,
+      "passed": 31,
+      "population": 31,
       "sample_percentage": 100.0,
-      "sampled": 7,
+      "sampled": 31,
       "status": "PASS"
     },
     "sources": {
       "failed": 0,
-      "passed": 7,
-      "population": 7,
+      "passed": 17,
+      "population": 17,
       "sample_percentage": 100.0,
-      "sampled": 7,
+      "sampled": 17,
       "status": "PASS"
     }
   },
@@ -63,8 +63,8 @@
   "method": "Independent full-population review against committed official API/UNESCO fixtures and checksums; importer and Bahrain semantic validator are not imported.",
   "p0": 0,
   "schema_version": "2.0.0",
-  "snapshot_date": "2026-08-16",
+  "snapshot_date": "2026-09-20",
   "status": "PASS",
-  "total_passed": 48,
-  "total_sampled": 48
+  "total_passed": 149,
+  "total_sampled": 149
 }

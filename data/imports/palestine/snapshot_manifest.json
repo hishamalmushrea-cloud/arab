@@ -1,10 +1,18 @@
 {
   "country_code": "PS",
+  "reconciliation": {
+    "depopulated_frame": "584 archive-attested 1948 sites across 8 compiled historical qadas at probable status; national count disputes (531/530/520/775-seized) recorded verbatim with no adopted national denominator; per-site condition never inferred; same-name sites in different qadas stay distinct."
+  },
   "records": [
     {
       "bytes": 3764,
       "path": "data/imports/palestine/fixtures/statistical_governorates_2026.json",
       "sha256": "b330d9d56d11fc8f426a4f46cc8ca5d17e50cdb62d9dfa3543d2a56bb8d85cf3"
+    },
+    {
+      "path": "fixtures/depopulated_1948_2026.json",
+      "record_count": 584,
+      "sha256": "db4dfd544fcaa8a4ef53f3de7d00ca9bc99aa0d59cbdab784119e5610cbedcb7"
     }
   ],
   "schema_version": "2.0.0",

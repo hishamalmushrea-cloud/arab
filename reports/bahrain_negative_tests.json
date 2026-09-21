@@ -1,6 +1,6 @@
 {
   "country_code": "BH",
-  "detected": 9,
+  "detected": 21,
   "mutations": [
     {
       "detected": true,
@@ -55,9 +55,81 @@
       "error_count": 1,
       "expected_code": "BH_AREA_VALUE",
       "mutation": "BH_AREA_VALUE_TAMPER"
+    },
+    {
+      "detected": true,
+      "error_count": 1,
+      "expected_code": "BH_DEPTH_PUBLISHED_FROM_WEAK",
+      "mutation": "BH_DEPTH_PUBLISHED_FROM_WEAK"
+    },
+    {
+      "detected": true,
+      "error_count": 1,
+      "expected_code": "BH_DEPTH_CONTRACT",
+      "mutation": "BH_DIALECT_PROMOTED_TO_VERIFIED"
+    },
+    {
+      "detected": true,
+      "error_count": 1,
+      "expected_code": "BH_SHARED_NOT_EXCLUSIVE",
+      "mutation": "BH_SHARED_NOT_EXCLUSIVE"
+    },
+    {
+      "detected": true,
+      "error_count": 1,
+      "expected_code": "BH_ICH_CONTRACT",
+      "mutation": "BH_ICH_UNPUBLISHED"
+    },
+    {
+      "detected": true,
+      "error_count": 1,
+      "expected_code": "BH_ICH_LAYER",
+      "mutation": "BH_ICH_LAYER_DENOMINATOR"
+    },
+    {
+      "detected": true,
+      "error_count": 1,
+      "expected_code": "BH_HERITAGE_LAYER_DENOMINATOR",
+      "mutation": "BH_HERITAGE_LAYER_DENOMINATOR"
+    },
+    {
+      "detected": true,
+      "error_count": 1,
+      "expected_code": "BH_PLACE_CONTRACT",
+      "mutation": "BH_FIRIJ_AS_CURRENT"
+    },
+    {
+      "detected": true,
+      "error_count": 3,
+      "expected_code": "BH_PLACE_ADMIN_PARENT",
+      "mutation": "BH_FIRIJ_ADMIN_PARENT"
+    },
+    {
+      "detected": true,
+      "error_count": 2,
+      "expected_code": "BH_PLACE_POPULATION",
+      "mutation": "BH_PLACE_POPULATION"
+    },
+    {
+      "detected": true,
+      "error_count": 1,
+      "expected_code": "BH_PLACE_CONTRACT",
+      "mutation": "BH_PLACE_SOURCE_UPGRADE"
+    },
+    {
+      "detected": true,
+      "error_count": 1,
+      "expected_code": "BH_SOURCE_CATALOG",
+      "mutation": "BH_SOURCE_TIER_INFLATION"
+    },
+    {
+      "detected": true,
+      "error_count": 1,
+      "expected_code": "BH_DIALECT_GLOSS",
+      "mutation": "BH_DIALECT_WITHOUT_GLOSS"
     }
   ],
-  "required": 9,
+  "required": 21,
   "schema_version": "2.0.0",
   "status": "PASS"
 }

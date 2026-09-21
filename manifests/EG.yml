@@ -2,7 +2,8 @@
   "caveats": [
     "Governorate is not city.",
     "Markaz/local-unit and qism/shiyakha paths are parallel.",
-    "No lower denominator accepted in this cycle."
+    "The markaz layer is a documented four-governorate subset at probable status; the national markaz universe has no accepted denominator.",
+    "Daqahliya markaz-count dispute (18/17/15) and village-count dispute (499/336) are recorded, never averaged."
   ],
   "country": {
     "entity_id": "ENT-EG-COUNTRY",
@@ -13,7 +14,8 @@
     "COV-EG-COUNTRY-SCOPE",
     "COV-EG-GOVERNORATES",
     "COV-EG-URBAN-PROFILES",
-    "COV-EG-MIXED-PROFILES"
+    "COV-EG-MIXED-PROFILES",
+    "COV-EG-MARKAZ-DOCUMENTED"
   ],
   "hierarchy": [
     {
@@ -79,23 +81,23 @@
       "allowed_parent_types": [
         "eg_governorate"
       ],
-      "authority_name": null,
+      "authority_name": "Encyclopedic mirror of 2024 official rows",
       "caveat": "المركز والقسم مساران ريفي/حضري متوازيان، والشياخة لا توضع تحت المركز تلقائيًا.",
-      "coverage_record_id": null,
-      "denominator": null,
-      "denominator_id": null,
+      "coverage_record_id": "COV-EG-MARKAZ-DOCUMENTED",
+      "denominator": 55,
+      "denominator_id": "DEN-EG-MARKAZ-DOCUMENTED",
       "entity_type": "eg_markaz",
       "level": 2,
-      "license": null,
+      "license": "Official Egypt statistical/government material; factual extraction with attribution; reuse terms not stated",
       "local_names": [
         "مركز"
       ],
-      "notes": "Lower topology not yet accepted.",
-      "scope_status": "unavailable",
-      "snapshot_date": null,
+      "notes": "Documented four-governorate subset at probable status; national universe open.",
+      "scope_status": "bounded",
+      "snapshot_date": "2026-08-16",
       "source_ids": [],
       "special_cases": [
-        "Do not cross rural/urban paths."
+        "Daqahliya count dispute recorded."
       ],
       "temporal_statuses": [
         "current",
@@ -109,7 +111,7 @@
         "transitional",
         "uncertain"
       ],
-      "verification_status": "pending"
+      "verification_status": "partial"
     },
     {
       "allowed_parent_types": [
@@ -220,7 +222,7 @@
       "verification_status": "pending"
     }
   ],
-  "next_action": "Maintain 27/profile closure; prove Cairo and Giza lower topology before national depth.",
+  "next_action": "Extend markaz inventories governorate by governorate toward a sourced national frame; prove Cairo qism/shiyakha topology; promote probable identities only via an atomic official coded register.",
   "official_authority": {
     "missing_reason": null,
     "name": "CAPMAS / Ministry of Local Development",

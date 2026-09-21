@@ -83,7 +83,7 @@
       "sample_size": 74
     },
     "claims": {
-      "population": 11,
+      "population": 32,
       "record_ids": [
         "CLM-OM-0A8F1406D594597C",
         "CLM-OM-2EB8D4B278BC5DE8",
@@ -95,10 +95,31 @@
         "CLM-OM-AA337F02973E5551",
         "CLM-OM-AC18B9BF672B5C24",
         "CLM-OM-CCAD876FB17D5774",
-        "CLM-OM-D1C6158D0B495B02"
+        "CLM-OM-D1C6158D0B495B02",
+        "CLM-OM-DEPTH-004E27B592825A01",
+        "CLM-OM-DEPTH-0097A3BB36CB5819",
+        "CLM-OM-DEPTH-2309A5C2E53A52CA",
+        "CLM-OM-DEPTH-23C207AC869D5671",
+        "CLM-OM-DEPTH-31CDAE9CEE225CED",
+        "CLM-OM-DEPTH-383E27CD025C5E0A",
+        "CLM-OM-DEPTH-3A9310AC657156D5",
+        "CLM-OM-DEPTH-74029FB91FC95D38",
+        "CLM-OM-DEPTH-7792186C7870554E",
+        "CLM-OM-DEPTH-83FD8E1961F75B36",
+        "CLM-OM-DEPTH-8A32E0B1F750592D",
+        "CLM-OM-DEPTH-92A597010F245F65",
+        "CLM-OM-DEPTH-9D23038F6BBC5620",
+        "CLM-OM-DEPTH-9ECAE06B71535B6C",
+        "CLM-OM-DEPTH-B3C538AACCDF54FA",
+        "CLM-OM-DEPTH-BBE4BB2574645FB7",
+        "CLM-OM-DEPTH-C9FBA6B29DE15D05",
+        "CLM-OM-DEPTH-CCE96FFF9AC451DD",
+        "CLM-OM-DEPTH-E0B2CC11C483573C",
+        "CLM-OM-DEPTH-E271AEA639805C13",
+        "CLM-OM-DEPTH-E3108C98D788581B"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 11
+      "sample_size": 32
     },
     "coverage": {
       "population": 3,
@@ -284,14 +305,15 @@
       "sample_size": 74
     },
     "sources": {
-      "population": 3,
+      "population": 4,
       "record_ids": [
+        "SRC-OM-CULTURE-MIRROR-2026",
         "SRC-OM-NCSI-ADMIN-CODES-2026",
         "SRC-OM-ONA-63-WILAYATS-2022",
         "SRC-OM-RD-36-2022-GOVERNORATES"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 3
+      "sample_size": 4
     }
   },
   "schema_version": "2.0.0"

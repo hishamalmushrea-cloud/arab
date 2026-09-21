@@ -14,7 +14,7 @@ MANAGED = [
     "data/entities/entities.jsonl", "data/aliases/aliases.jsonl", "data/relationships/relationships.jsonl",
     "data/claims/claims.jsonl", "data/coverage/denominators.jsonl", "data/coverage/coverage.jsonl",
     "data/snapshots/snapshots.jsonl", "manifests/MA.yml", "data/cultural/morocco_domain_status.json",
-    "data/imports/morocco/source_catalog.json",
+    "data/imports/morocco/source_catalog.json", "data/imports/morocco/fixtures/cultural_depth_2026.json",
 ]
 
 class Gate:
@@ -59,7 +59,7 @@ def main() -> int:
     before_sources = source_hashes()
     gate.command("morocco_source_refresh", [sys.executable, "scripts/build_morocco_sources.py"])
     after_sources = source_hashes()
-    gate.require(len(after_sources) == 3 and before_sources == after_sources, "morocco_source_idempotence", f"atomic sources={len(after_sources)}/3, unchanged={before_sources == after_sources}")
+    gate.require(len(after_sources) == 4 and before_sources == after_sources, "morocco_source_idempotence", f"atomic sources={len(after_sources)}/4, unchanged={before_sources == after_sources}")
     before_files, before_other = file_hashes(), non_morocco_hash()
     gate.command("morocco_import_refresh", [sys.executable, "scripts/import_morocco_production.py"])
     after_files, after_other = file_hashes(), non_morocco_hash()
@@ -80,8 +80,8 @@ def main() -> int:
     negatives = json.loads((ROOT / "reports/morocco_negative_tests.json").read_text(encoding="utf-8"))
     review = json.loads((ROOT / "reports/morocco_independent_review.json").read_text(encoding="utf-8"))
     gate.require(validation.get("status") == "PASS" and validation.get("p0") == 0 and validation.get("critical_p1") == 0, "morocco_findings_closed", f"status={validation.get('status')}, P0={validation.get('p0')}, critical P1={validation.get('critical_p1')}")
-    gate.require(negatives.get("status") == "PASS" and negatives.get("detected") == negatives.get("required") == 8, "morocco_required_mutations", f"detected={negatives.get('detected')}/{negatives.get('required')}")
-    gate.require(review.get("status") == "PASS" and review.get("total_sampled") == review.get("total_passed") == 198, "morocco_review_threshold", f"full review passed={review.get('total_passed')}/{review.get('total_sampled')}")
+    gate.require(negatives.get("status") == "PASS" and negatives.get("detected") == negatives.get("required") == 12, "morocco_required_mutations", f"detected={negatives.get('detected')}/{negatives.get('required')}")
+    gate.require(review.get("status") == "PASS" and review.get("total_sampled") == review.get("total_passed") == 216, "morocco_review_threshold", f"full review passed={review.get('total_passed')}/{review.get('total_sampled')}")
     for required in ["reports/MOROCCO_PRODUCTION_CLOSEOUT.md", "reports/LESSONS_LEARNED_MOROCCO.md", "reports/EXPANSION_LESSONS.md", "reports/NEXT_COUNTRY_DECISION.md"]:
         gate.require((ROOT / required).is_file(), "artifact_" + Path(required).stem.lower(), f"{required} exists")
     status = subprocess.run(["git", "status", "--porcelain"], cwd=ROOT, text=True, capture_output=True, check=True).stdout.strip()

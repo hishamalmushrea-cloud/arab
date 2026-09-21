@@ -1,10 +1,18 @@
 {
   "country_code": "IQ",
+  "reconciliation": {
+    "qada_frame": "31 attested qadas across three documented governorates (Baghdad 14 incl. 2 unverified list-dispute entries, Nineveh 10 incl. سميل affiliation dispute, Basra 7 with census-consistent populations); national frame contested (121 vs 130+), both readings recorded, denominator open."
+  },
   "records": [
     {
       "bytes": 3584,
       "path": "data/imports/iraq/fixtures/governorate_profiles_2025.json",
       "sha256": "73f7af809dde59393a61245d18846d94f2dc3fc82d8f68ba1636b43dbcbdd628"
+    },
+    {
+      "path": "fixtures/qada_depth_2026.json",
+      "record_count": 31,
+      "sha256": "c11b1af9e21ca2d694d0b3da2b614b70ab1d363935e9c46a89d63fbfa9eb8f78"
     }
   ],
   "schema_version": "2.0.0",

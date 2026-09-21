@@ -1,0 +1,151 @@
+{
+ "captured_at": "2026-08-17",
+ "country_code": "JO",
+ "dialect_profiles": [
+  {
+   "features": [
+    "قريبة جدا من لهجة حوران السورية بحكم الوحدة التاريخية",
+    "القاف g مفخمة"
+   ],
+   "group": "الشمالية الحورانية",
+   "scope": "إربد وجرش وعجلون",
+   "subject_key": "irbid",
+   "words": []
+  },
+  {
+   "features": [
+    "القاف همزة بأثر شامي فلسطيني: قال إلى آل",
+    "وسط بين البدوية والشامية مفهومة عربيا"
+   ],
+   "group": "المدنية العمانية",
+   "scope": "عمان",
+   "subject_key": "amman",
+   "words": []
+  },
+  {
+   "features": [
+    "التاء المربوطة ياء في النسبة: السياسية إلى السياسيي",
+    "نبرة ضخمة",
+    "معان ثلاث لهجات بدوية وفلاحية وحضرية"
+   ],
+   "group": "الجنوبية الكركية",
+   "scope": "الكرك والطفيلة ومعان",
+   "subject_key": "karak",
+   "words": []
+  },
+  {
+   "features": [
+    "القاف g أصيلة",
+    "لا باء مضارعة: ودي بدل بدي",
+    "لا شين نفي: ما بعرف لا بعرفش",
+    "أقرب للنجدية والحجازية"
+   ],
+   "group": "البدوية",
+   "scope": "البادية الوسطى والشرقية والجنوبية",
+   "subject_key": "mafraq",
+   "words": []
+  },
+  {
+   "features": [
+    "مزيج فريد بين المصرية والحجازية والغزاوية بحكم الموقع"
+   ],
+   "group": "العقباوية",
+   "scope": "العقبة",
+   "subject_key": "aqaba",
+   "words": []
+  }
+ ],
+ "dishes": [
+  {
+   "classification": "shared",
+   "desc": "أرز ولحم أو دجاج مع الباذنجان المقلي تقلب في صحن التقديم",
+   "name": "المقلوبة",
+   "note": "شامية مشتركة بين الأردن وفلسطين وسوريا — لا حصرية",
+   "occasion": "غداء العائلة",
+   "subject_key": "country"
+  },
+  {
+   "classification": "shared",
+   "desc": "عجين الكنافة بجبنة عكاوي وشراب السكر",
+   "name": "الكنافة النابلسية",
+   "note": "فلسطينية الأصل من نابلس وانتشرت أردنيا — النسب محفوظ",
+   "occasion": "رمضان والأفراح",
+   "subject_key": "country"
+  },
+  {
+   "classification": "shared",
+   "desc": "خبز ودجاج وبصل وسماق وزيت زيتون وصنوبر",
+   "name": "المسخن",
+   "note": "فلسطيني الأصل من الشمال — النسب محفوظ",
+   "occasion": "وليمة",
+   "subject_key": "country"
+  },
+  {
+   "classification": "regional",
+   "desc": "طبقات خبز ولحم وبصل بسمن بلدي تخبز في التنور",
+   "name": "المكمورة",
+   "note": "شمالية أردنية",
+   "occasion": "وليمة الشمال",
+   "subject_key": "ajloun"
+  },
+  {
+   "classification": "local",
+   "desc": "لبن مجفف مخمر يصنع في الكرك والبلقاء ويعد الكركي أجوده؛ روح المنسف",
+   "name": "الجميد الكركي",
+   "note": "الجميد الكركي علامة أصل مرسوة",
+   "occasion": "أساس المنسف",
+   "subject_key": "karak"
+  },
+  {
+   "classification": "regional",
+   "desc": "لحم يطهى في حفرة رملية مغلقة على الجمر؛ قرين الشوا العماني والمدفون",
+   "name": "الزرب البدوي",
+   "note": "تقنية بدوية مشتركة في البوادي العربية",
+   "occasion": "ولائم البادية",
+   "subject_key": "mafraq"
+  }
+ ],
+ "dress": [
+  {
+   "classification": "national",
+   "desc": "الشماغ بنقوشه الحمراء رمز وطني أردني مع العقال؛ والحطة البيضاء للمدن",
+   "gender": "رجالي",
+   "name": "الشماغ الأحمر والعقال",
+   "subject_key": "country"
+  },
+  {
+   "classification": "shared",
+   "desc": "الثوب النسائي بتطريزه موروث شامي فلسطيني بدوي مشترك؛ التطريز فنه الأبرز",
+   "gender": "نسائي",
+   "name": "الثوب الأردني المطرز",
+   "note": "مشترك مع فلسطين — لا حصرية",
+   "subject_key": "country"
+  },
+  {
+   "classification": "local",
+   "desc": "الخلقة الكركية الثوب الأسود الفضفاض المزدوج الطول من أعرق الأزياء الأردنية",
+   "gender": "نسائي",
+   "name": "ثوب الكرك ومادبا",
+   "subject_key": "karak"
+  }
+ ],
+ "non_arabic_languages": [
+  {
+   "desc": "لغة قوقازية غربية بين الشركس المهاجرين منذ 1878 في عمان ووادي السير وجرش",
+   "name": "الشركسية (الأديغية)",
+   "status": "probable",
+   "subject_key": "amman"
+  },
+  {
+   "desc": "لغة قوقازية شمالية شرقية بين الشيشان في الزرقاء والسخنة والأزرق",
+   "name": "الشيشانية",
+   "status": "probable",
+   "subject_key": "zarqa"
+  }
+ ],
+ "note": "Jordan depth cycle 1 under Maximum Arabic Knowledge Coverage: 2 Caucasian language claims (probable), 5 dialect profiles incl. cross-border kinships (Irbid~Hauran, Aqaba~Egypt/Hejaz/Gaza), 6 dishes (المقلوبة والكنافة والمسخن shared مع نسب الأصل الفلسطيني محفوظًا؛ الجميد الكركي مرسو), 3 dress claims (الثوب المطرز shared مع فلسطين). All unpublished, tier-E mirror, explicit classification. The existing verified المنسف UNESCO claim is untouched.",
+ "schema_version": "2.0.0",
+ "sources": {
+  "culture_mirror": "https://ar.wikipedia.org/wiki/%D9%84%D9%87%D8%AC%D8%A9_%D8%A3%D8%B1%D8%AF%D9%86%D9%8A%D8%A9"
+ }
+}

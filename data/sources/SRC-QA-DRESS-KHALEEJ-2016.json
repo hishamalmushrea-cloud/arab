@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5",
+  "country_codes": [
+    "QA"
+  ],
+  "id": "SRC-QA-DRESS-KHALEEJ-2016",
+  "language": "ar",
+  "license": "Local press feature; factual extraction with attribution; reuse terms not stated",
+  "locator": "الزي الرجالي: الثوب الأبيض ذو الياقة والبشت المطرز والعقال بخيطين، والدقلة للشتاء؛ وعباية الرفع الحريرية مع شيلة خفيفة",
+  "notes": "Feature dated 2016-09-24. Tier-E press material: stays local_reported and unpublished.",
+  "publication_date": "2016-09-24",
+  "publisher": "صحيفة الخليج",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-20",
+  "schema_version": "2.0.0",
+  "source_type": "local_press",
+  "title": "قطر .. بين الماضي والحاضر",
+  "url": "https://www.alkhaleej.ae/2016-09-24/"
+}

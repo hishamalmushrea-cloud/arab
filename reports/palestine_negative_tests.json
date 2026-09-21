@@ -1,6 +1,6 @@
 {
   "country_code": "PS",
-  "detected": 8,
+  "detected": 13,
   "mutations": [
     {
       "detected": true,
@@ -41,9 +41,34 @@
       "detected": true,
       "expected_code": "PS_PREMATURE_LOCAL",
       "mutation": "PS_FAKE_LOCAL_AUTHORITY"
+    },
+    {
+      "detected": true,
+      "expected_code": "PS_COUNTS",
+      "mutation": "PS_FABRICATED_SITE"
+    },
+    {
+      "detected": true,
+      "expected_code": "PS_HIST_FRAME",
+      "mutation": "PS_SITE_MARKED_DESTROYED"
+    },
+    {
+      "detected": true,
+      "expected_code": "PS_HIST_FRAME",
+      "mutation": "PS_SITE_PROMOTED_TO_VERIFIED"
+    },
+    {
+      "detected": true,
+      "expected_code": "PS_SITE_FIXTURE",
+      "mutation": "PS_SITE_ATTACHED_TO_CURRENT_TREE"
+    },
+    {
+      "detected": true,
+      "expected_code": "PS_NAKBA_CLAIMS",
+      "mutation": "PS_NAKBA_FRAME_PUBLISHED"
     }
   ],
-  "required": 8,
+  "required": 13,
   "schema_version": "2.0.0",
   "status": "PASS"
 }

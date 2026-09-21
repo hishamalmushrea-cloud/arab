@@ -10,6 +10,7 @@
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | country_scope | ISO country entity in the project's 22-country scope | 1 | 1 | 0 | 0 | 0 | 100% | 2026-08-15 | SNP-MIGRATION-2026-08-15 | SRC-ISO-3166-1-2020 | ISO copyright; reuse is subject to ISO terms of use | نعم | — |
 | eg_governorate | Exact eg_governorate profile denominator. | 27 | 27 | 0 | 0 | 0 | 100% | 2026-08-16 | SNP-EG-PRODUCTION-20260816 | SRC-EG-CAPMAS-27-GOVERNORATES-2021 | Official Egypt statistical/government material; factual extraction with attribution; reuse terms not stated | نعم | — |
+| eg_markaz_documented_subset | Documented markaz subset: 55 attested marakiz in four governorates (Daqahliya 18, Sharqia 13, Beheira 15, Minya 9); the national markaz universe remains open with no accepted atomic denominator. | 55 | 55 | 0 | 0 | 0 | 100% | 2026-08-16 | SNP-EG-PRODUCTION-20260816 | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Official Egypt statistical/government material; factual extraction with attribution; reuse terms not stated | نعم | — |
 | eg_governorate_mixed_profile | Exact eg_governorate_mixed_profile profile denominator. | 23 | 23 | 0 | 0 | 0 | 100% | 2026-08-16 | SNP-EG-PRODUCTION-20260816 | SRC-EG-CAPMAS-27-GOVERNORATES-2021 | Official Egypt statistical/government material; factual extraction with attribution; reuse terms not stated | نعم | — |
 | eg_governorate_urban_profile | Exact eg_governorate_urban_profile profile denominator. | 4 | 4 | 0 | 0 | 0 | 100% | 2026-08-16 | SNP-EG-PRODUCTION-20260816 | SRC-EG-CAPMAS-27-GOVERNORATES-2021 | Official Egypt statistical/government material; factual extraction with attribution; reuse terms not stated | نعم | — |
 
@@ -45,6 +46,61 @@
 | ENT-EG-GOVERNORATE-33 | مطروح | eg_governorate | current | SRC-EG-CAPMAS-27-GOVERNORATES-2021 | CAPMAS governorate code 33: مطروح / Matrouh; profile=mixed_urban_rural |
 | ENT-EG-GOVERNORATE-34 | شمال سيناء | eg_governorate | current | SRC-EG-CAPMAS-27-GOVERNORATES-2021 | CAPMAS governorate code 34: شمال سيناء / North Sinai; profile=mixed_urban_rural |
 | ENT-EG-GOVERNORATE-35 | جنوب سيناء | eg_governorate | current | SRC-EG-CAPMAS-27-GOVERNORATES-2021 | CAPMAS governorate code 35: جنوب سيناء / South Sinai; profile=mixed_urban_rural |
+| ENT-EG-MARKAZ-079FC6085A04 | دمنهور | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate البحيرة: دمنهور |
+| ENT-EG-MARKAZ-0F89A76D5772 | ميت غمر | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الدقهلية: ميت غمر |
+| ENT-EG-MARKAZ-1415CE6556F4 | سمالوط | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate المنيا: سمالوط |
+| ENT-EG-MARKAZ-1D2610C975E0 | الستاموني | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الدقهلية: الستاموني |
+| ENT-EG-MARKAZ-1D65C7E6011C | فاقوس | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الشرقية: فاقوس |
+| ENT-EG-MARKAZ-25CBE288EA01 | أبو المطامير | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate البحيرة: أبو المطامير |
+| ENT-EG-MARKAZ-2A1E4FD359DE | المنصورة | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الدقهلية: المنصورة |
+| ENT-EG-MARKAZ-2CD1FDEA7045 | الإبراهيمية | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الشرقية: الإبراهيمية |
+| ENT-EG-MARKAZ-391EA53995F0 | الرحمانية | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate البحيرة: الرحمانية |
+| ENT-EG-MARKAZ-3E7255651088 | العدوة | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate المنيا: العدوة |
+| ENT-EG-MARKAZ-3F6B8F84472F | بني مزار | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate المنيا: بني مزار |
+| ENT-EG-MARKAZ-47499CF8C4BD | مشتول السوق | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الشرقية: مشتول السوق |
+| ENT-EG-MARKAZ-47E6DE529EE2 | شبراخيت | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate البحيرة: شبراخيت |
+| ENT-EG-MARKAZ-480DA5AE313B | المطرية | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الدقهلية: المطرية |
+| ENT-EG-MARKAZ-487CDB20D865 | المحمودية | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate البحيرة: المحمودية |
+| ENT-EG-MARKAZ-4DAC6BD1B6E2 | بدر | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate البحيرة: بدر |
+| ENT-EG-MARKAZ-4E89B503255A | نبروه | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الدقهلية: نبروه |
+| ENT-EG-MARKAZ-536172057227 | كفر صقر | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الشرقية: كفر صقر |
+| ENT-EG-MARKAZ-59EBBFA4FF1C | أولاد صقر | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الشرقية: أولاد صقر |
+| ENT-EG-MARKAZ-5DBFABB1CECC | السنبلاوين | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الدقهلية: السنبلاوين |
+| ENT-EG-MARKAZ-5DC8C47F34FB | ههيا | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الشرقية: ههيا |
+| ENT-EG-MARKAZ-64BC431C83E3 | محلة دمنة | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الدقهلية: محلة دمنة |
+| ENT-EG-MARKAZ-755E08625245 | تمي الأمديد | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الدقهلية: تمي الأمديد |
+| ENT-EG-MARKAZ-785D0823A009 | أبو حمص | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate البحيرة: أبو حمص |
+| ENT-EG-MARKAZ-794A7F7A2581 | مطاي | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate المنيا: مطاي |
+| ENT-EG-MARKAZ-7E51008A6086 | طلخا | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الدقهلية: طلخا |
+| ENT-EG-MARKAZ-812108E483A0 | ملوي | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate المنيا: ملوي |
+| ENT-EG-MARKAZ-84EBAB2799D3 | بلقاس | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الدقهلية: بلقاس |
+| ENT-EG-MARKAZ-8CE9CFF21B25 | الزقازيق | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الشرقية: الزقازيق |
+| ENT-EG-MARKAZ-9A6B38CC493B | بني عبيد | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الدقهلية: بني عبيد |
+| ENT-EG-MARKAZ-A3A71A0BF4D1 | ديرب نجم | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الشرقية: ديرب نجم |
+| ENT-EG-MARKAZ-A5CC0F2B2ED1 | المنزلة | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الدقهلية: المنزلة |
+| ENT-EG-MARKAZ-AC63EB7298A2 | منية النصر | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الدقهلية: منية النصر |
+| ENT-EG-MARKAZ-AEA700EC7233 | دكرنس | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الدقهلية: دكرنس |
+| ENT-EG-MARKAZ-AFD18A9497FF | مغاغة | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate المنيا: مغاغة |
+| ENT-EG-MARKAZ-B0BB759F390E | إدكو | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate البحيرة: إدكو |
+| ENT-EG-MARKAZ-B514A84A78CA | إيتاي البارود | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate البحيرة: إيتاي البارود |
+| ENT-EG-MARKAZ-BCD51FD99F68 | أبو قرقاص | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate المنيا: أبو قرقاص |
+| ENT-EG-MARKAZ-BFC0D17A2F9A | المنيا | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate المنيا: المنيا |
+| ENT-EG-MARKAZ-C32DD2236903 | أبو حماد | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الشرقية: أبو حماد |
+| ENT-EG-MARKAZ-C3AF3A7FFF3B | ميت سلسيل | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الدقهلية: ميت سلسيل |
+| ENT-EG-MARKAZ-C5CB3C22818C | كوم حمادة | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate البحيرة: كوم حمادة |
+| ENT-EG-MARKAZ-C6774903D0C0 | كفر الدوار | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate البحيرة: كفر الدوار |
+| ENT-EG-MARKAZ-CB4CD8109E84 | حوش عيسى | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate البحيرة: حوش عيسى |
+| ENT-EG-MARKAZ-D1AFFDC3B89E | شربين | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الدقهلية: شربين |
+| ENT-EG-MARKAZ-D1CD047A4267 | الدلنجات | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate البحيرة: الدلنجات |
+| ENT-EG-MARKAZ-DAA46DBFF35A | دير مواس | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate المنيا: دير مواس |
+| ENT-EG-MARKAZ-DCB5B339047A | منيا القمح | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الشرقية: منيا القمح |
+| ENT-EG-MARKAZ-E73EB9541AAC | بلبيس | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الشرقية: بلبيس |
+| ENT-EG-MARKAZ-EA430E79C330 | وادي النطرون | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate البحيرة: وادي النطرون |
+| ENT-EG-MARKAZ-ED7471683E75 | الحسينية | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الشرقية: الحسينية |
+| ENT-EG-MARKAZ-EF5540E84226 | أبو كبير | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الشرقية: أبو كبير |
+| ENT-EG-MARKAZ-F3050001F668 | رشيد | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate البحيرة: رشيد |
+| ENT-EG-MARKAZ-F8AAC2E84A82 | الجمالية | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الدقهلية: الجمالية |
+| ENT-EG-MARKAZ-FEE34036123A | أجا | eg_markaz | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | Markaz table, governorate الدقهلية: أجا |
 
 ## الأسماء البديلة
 
@@ -109,6 +165,61 @@
 | REL-EG-DD208ECC5F315483 | ENT-EG-GOVERNORATE-12 | ENT-EG-COUNTRY | administrative_parent | current | SRC-EG-MLD-27-GOVERNORATES-2026 |
 | REL-EG-F74855FB08AE5614 | ENT-EG-GOVERNORATE-21 | ENT-EG-COUNTRY | administrative_parent | current | SRC-EG-MLD-27-GOVERNORATES-2026 |
 | REL-EG-FFAE8CA0D68B5A3D | ENT-EG-GOVERNORATE-29 | ENT-EG-COUNTRY | administrative_parent | current | SRC-EG-MLD-27-GOVERNORATES-2026 |
+| REL-EG-MARKAZ-0075CDB7F5BF5FB3 | ENT-EG-MARKAZ-DCB5B339047A | ENT-EG-GOVERNORATE-13 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-017573D01893585E | ENT-EG-MARKAZ-47499CF8C4BD | ENT-EG-GOVERNORATE-13 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-024AEC8F8E8B53E2 | ENT-EG-MARKAZ-D1CD047A4267 | ENT-EG-GOVERNORATE-18 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-0C43F6953B5A5B30 | ENT-EG-MARKAZ-E73EB9541AAC | ENT-EG-GOVERNORATE-13 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-0C6ADEF7BABA5E54 | ENT-EG-MARKAZ-8CE9CFF21B25 | ENT-EG-GOVERNORATE-13 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-0FBB89C196595349 | ENT-EG-MARKAZ-5DBFABB1CECC | ENT-EG-GOVERNORATE-12 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-15F9D1C9AE375C7A | ENT-EG-MARKAZ-480DA5AE313B | ENT-EG-GOVERNORATE-12 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-273066CDE0505963 | ENT-EG-MARKAZ-84EBAB2799D3 | ENT-EG-GOVERNORATE-12 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-29E5B52BB58657D2 | ENT-EG-MARKAZ-C5CB3C22818C | ENT-EG-GOVERNORATE-18 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-2BAFEE66D0C95F0E | ENT-EG-MARKAZ-2CD1FDEA7045 | ENT-EG-GOVERNORATE-13 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-35FB8B409C6E5557 | ENT-EG-MARKAZ-079FC6085A04 | ENT-EG-GOVERNORATE-18 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-3663001B65DF5BCE | ENT-EG-MARKAZ-C6774903D0C0 | ENT-EG-GOVERNORATE-18 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-386B8A894F005FA4 | ENT-EG-MARKAZ-AC63EB7298A2 | ENT-EG-GOVERNORATE-12 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-3912ECE715645E4C | ENT-EG-MARKAZ-ED7471683E75 | ENT-EG-GOVERNORATE-13 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-3928796E4C7A5488 | ENT-EG-MARKAZ-47E6DE529EE2 | ENT-EG-GOVERNORATE-18 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-395AC751375357F0 | ENT-EG-MARKAZ-536172057227 | ENT-EG-GOVERNORATE-13 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-3FAECB2B61FD5ABA | ENT-EG-MARKAZ-64BC431C83E3 | ENT-EG-GOVERNORATE-12 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-4AEE2FECA8BF5F22 | ENT-EG-MARKAZ-25CBE288EA01 | ENT-EG-GOVERNORATE-18 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-5BD7C7381EB95364 | ENT-EG-MARKAZ-4E89B503255A | ENT-EG-GOVERNORATE-12 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-5FDB006AB389508E | ENT-EG-MARKAZ-487CDB20D865 | ENT-EG-GOVERNORATE-18 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-6295DF3E52175ADD | ENT-EG-MARKAZ-794A7F7A2581 | ENT-EG-GOVERNORATE-24 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-70F2CE7263AF5979 | ENT-EG-MARKAZ-FEE34036123A | ENT-EG-GOVERNORATE-12 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-7B8648DDF01E5C3A | ENT-EG-MARKAZ-BFC0D17A2F9A | ENT-EG-GOVERNORATE-24 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-7CFC7DA3C5F65B6C | ENT-EG-MARKAZ-59EBBFA4FF1C | ENT-EG-GOVERNORATE-13 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-843392CE96BF541A | ENT-EG-MARKAZ-B514A84A78CA | ENT-EG-GOVERNORATE-18 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-8BF6920057865294 | ENT-EG-MARKAZ-1D2610C975E0 | ENT-EG-GOVERNORATE-12 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-95F9EC9381B55500 | ENT-EG-MARKAZ-7E51008A6086 | ENT-EG-GOVERNORATE-12 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-982CB014B97F56D4 | ENT-EG-MARKAZ-785D0823A009 | ENT-EG-GOVERNORATE-18 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-9E400DAFDDFD5417 | ENT-EG-MARKAZ-812108E483A0 | ENT-EG-GOVERNORATE-24 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-A80FB5A9FAE45542 | ENT-EG-MARKAZ-1415CE6556F4 | ENT-EG-GOVERNORATE-24 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-AD13B0882DE15368 | ENT-EG-MARKAZ-C3AF3A7FFF3B | ENT-EG-GOVERNORATE-12 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-B39F55449347586E | ENT-EG-MARKAZ-AEA700EC7233 | ENT-EG-GOVERNORATE-12 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-B5ED278F1EC658C8 | ENT-EG-MARKAZ-A3A71A0BF4D1 | ENT-EG-GOVERNORATE-13 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-BD464E210CF45028 | ENT-EG-MARKAZ-0F89A76D5772 | ENT-EG-GOVERNORATE-12 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-BE4C5AA5BC845381 | ENT-EG-MARKAZ-B0BB759F390E | ENT-EG-GOVERNORATE-18 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-C59D1DBD043D543C | ENT-EG-MARKAZ-3E7255651088 | ENT-EG-GOVERNORATE-24 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-CA8A05F6CB5B55B2 | ENT-EG-MARKAZ-F8AAC2E84A82 | ENT-EG-GOVERNORATE-12 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-CACA8AC5C4FB5DF7 | ENT-EG-MARKAZ-A5CC0F2B2ED1 | ENT-EG-GOVERNORATE-12 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-CCF47D173BDA55F1 | ENT-EG-MARKAZ-4DAC6BD1B6E2 | ENT-EG-GOVERNORATE-18 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-CCF613D688FC52A0 | ENT-EG-MARKAZ-2A1E4FD359DE | ENT-EG-GOVERNORATE-12 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-D0CB40B88AC75BB7 | ENT-EG-MARKAZ-EF5540E84226 | ENT-EG-GOVERNORATE-13 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-D7C8FCBEAF945F31 | ENT-EG-MARKAZ-3F6B8F84472F | ENT-EG-GOVERNORATE-24 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-DB1342ECEA5856EE | ENT-EG-MARKAZ-1D65C7E6011C | ENT-EG-GOVERNORATE-13 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-DCFAE85167EC5462 | ENT-EG-MARKAZ-755E08625245 | ENT-EG-GOVERNORATE-12 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-E02BFCCE6D7F5266 | ENT-EG-MARKAZ-5DC8C47F34FB | ENT-EG-GOVERNORATE-13 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-E03D4068D8555247 | ENT-EG-MARKAZ-D1AFFDC3B89E | ENT-EG-GOVERNORATE-12 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-E839580E36735348 | ENT-EG-MARKAZ-CB4CD8109E84 | ENT-EG-GOVERNORATE-18 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-E8E02CA4683F5822 | ENT-EG-MARKAZ-EA430E79C330 | ENT-EG-GOVERNORATE-18 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-EC4D3A09CCA35944 | ENT-EG-MARKAZ-DAA46DBFF35A | ENT-EG-GOVERNORATE-24 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-ED235261AD775AD2 | ENT-EG-MARKAZ-C32DD2236903 | ENT-EG-GOVERNORATE-13 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-F69D007C66B5565F | ENT-EG-MARKAZ-AFD18A9497FF | ENT-EG-GOVERNORATE-24 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-F7334BE150EC59AF | ENT-EG-MARKAZ-9A6B38CC493B | ENT-EG-GOVERNORATE-12 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-FAA25E054BC35FE8 | ENT-EG-MARKAZ-F3050001F668 | ENT-EG-GOVERNORATE-18 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-FAEF12DFA05D5690 | ENT-EG-MARKAZ-391EA53995F0 | ENT-EG-GOVERNORATE-18 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
+| REL-EG-MARKAZ-FE6C67F624045890 | ENT-EG-MARKAZ-BCD51FD99F68 | ENT-EG-GOVERNORATE-24 | administrative_parent | current | SRC-EG-MARKAZ-LISTS-MIRROR-2026 |
 
 ## الادعاءات
 
@@ -141,6 +252,23 @@
 | CLM-EG-EC1CBB6150425C3D | ENT-EG-GOVERNORATE-13 | administrative_profile | mixed_urban_rural | official | high | verified | SRC-EG-CAPMAS-27-GOVERNORATES-2021 | CAPMAS governorate code 13: الشرقية / Sharkia; profile=mixed_urban_rural |
 | CLM-EG-ED51AFE7AE5B5C2F | ENT-EG-GOVERNORATE-02 | administrative_profile | urban_only | official | high | verified | SRC-EG-CAPMAS-27-GOVERNORATES-2021 | CAPMAS governorate code 02: الإسكندرية / Alexandria; profile=urban_only |
 | CLM-EG-EF8D5264334E5A7B | ENT-EG-GOVERNORATE-28 | administrative_profile | mixed_urban_rural | official | high | verified | SRC-EG-CAPMAS-27-GOVERNORATES-2021 | CAPMAS governorate code 28: أسوان / Aswan; profile=mixed_urban_rural |
+| CLM-EG-MRKPOP-161090951A1B50DF | ENT-EG-MARKAZ-755E08625245 | population | 211782 | local | medium | reported | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | 2024 population row: تمي الأمديد |
+| CLM-EG-MRKPOP-1796D9EA1E915C61 | ENT-EG-MARKAZ-A5CC0F2B2ED1 | population | 393139 | local | medium | reported | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | 2024 population row: المنزلة |
+| CLM-EG-MRKPOP-2088E6BA03DF5504 | ENT-EG-MARKAZ-64BC431C83E3 | population | 68239 | local | medium | reported | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | 2024 population row: محلة دمنة |
+| CLM-EG-MRKPOP-39FCAF4F4308593D | ENT-EG-MARKAZ-FEE34036123A | population | 575127 | local | medium | reported | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | 2024 population row: أجا |
+| CLM-EG-MRKPOP-4C72581E90AC5897 | ENT-EG-MARKAZ-4E89B503255A | population | 305150 | local | medium | reported | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | 2024 population row: نبروه |
+| CLM-EG-MRKPOP-515E98B8B00F5CC7 | ENT-EG-MARKAZ-C3AF3A7FFF3B | population | 81875 | local | medium | reported | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | 2024 population row: ميت سلسيل |
+| CLM-EG-MRKPOP-5F8575C7F7BF5EDD | ENT-EG-MARKAZ-480DA5AE313B | population | 203140 | local | medium | reported | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | 2024 population row: المطرية |
+| CLM-EG-MRKPOP-6269087900B2548E | ENT-EG-MARKAZ-2A1E4FD359DE | population | 659238 | local | medium | reported | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | 2024 population row: المنصورة |
+| CLM-EG-MRKPOP-6CA19AE931735D17 | ENT-EG-MARKAZ-F8AAC2E84A82 | population | 154949 | local | medium | reported | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | 2024 population row: الجمالية |
+| CLM-EG-MRKPOP-911D00578C115415 | ENT-EG-MARKAZ-9A6B38CC493B | population | 143301 | local | medium | reported | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | 2024 population row: بني عبيد |
+| CLM-EG-MRKPOP-A0807F1A86C75E63 | ENT-EG-MARKAZ-D1AFFDC3B89E | population | 460193 | local | medium | reported | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | 2024 population row: شربين |
+| CLM-EG-MRKPOP-A5F381257ABD5618 | ENT-EG-MARKAZ-7E51008A6086 | population | 425606 | local | medium | reported | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | 2024 population row: طلخا |
+| CLM-EG-MRKPOP-ADE381B391A851E0 | ENT-EG-MARKAZ-0F89A76D5772 | population | 703717 | local | medium | reported | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | 2024 population row: ميت غمر |
+| CLM-EG-MRKPOP-C1A4E804E2115E0D | ENT-EG-MARKAZ-5DBFABB1CECC | population | 612345 | local | medium | reported | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | 2024 population row: السنبلاوين |
+| CLM-EG-MRKPOP-D396925CDF8656CB | ENT-EG-MARKAZ-AC63EB7298A2 | population | 290526 | local | medium | reported | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | 2024 population row: منية النصر |
+| CLM-EG-MRKPOP-E2109566C2C55979 | ENT-EG-MARKAZ-84EBAB2799D3 | population | 574876 | local | medium | reported | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | 2024 population row: بلقاس |
+| CLM-EG-MRKPOP-F88FFFE41FF8592C | ENT-EG-MARKAZ-AEA700EC7233 | population | 383717 | local | medium | reported | SRC-EG-MARKAZ-LISTS-MIRROR-2026 | 2024 population row: دكرنس |
 
 ## جودة مصادر الادعاءات المنشورة
 
@@ -151,6 +279,7 @@
 | المعرّف | الفئة | العنوان | الناشر | تاريخ النشر | تاريخ الاسترجاع | الترخيص | الرابط |
 |---|---|---|---|---|---|---|---|
 | SRC-EG-CAPMAS-27-GOVERNORATES-2021 | A | Egypt Family Health Survey 2021 — administrative geography | CAPMAS | — | 2026-08-16 | Official Egypt statistical/government material; factual extraction with attribution; reuse terms not stated | https://www.censusinfo.capmas.gov.eg/metadata-en-v4.2/index.php/catalog/665/download/1966 |
+| SRC-EG-MARKAZ-LISTS-MIRROR-2026 | C | Markaz lists of four documented governorates — encyclopedic mirror of 2024 official rows | Encyclopedic mirror pages citing official 2024 governorate tables | — | 2026-08-16 | Official Egypt statistical/government material; factual extraction with attribution; reuse terms not stated | https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D9%85%D8%B1%D8%A7%D9%83%D8%B2_%D9%85%D8%B5%D8%B1 |
 | SRC-EG-MLD-27-GOVERNORATES-2026 | A | Ministry of Local Development — 27 governorates | Ministry of Local Development | — | 2026-08-16 | Official Egypt statistical/government material; factual extraction with attribution; reuse terms not stated | https://www.mld.gov.eg/en/ |
 | SRC-ISO-3166-1-2020 | A | ISO 3166-1:2020 — Codes for the representation of names of countries and their subdivisions — Part 1: Country code | International Organization for Standardization (ISO) | 2020-08 | 2026-08-15 | ISO copyright; reuse is subject to ISO terms of use | https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:ed-4:v1:en |
 

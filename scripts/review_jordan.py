@@ -91,7 +91,7 @@ def issue_codes(state: dict[str, Any], expected: dict[str, Any]) -> set[str]:
     sources = state["sources"]
     entity_by_id = {row["id"]: row for row in entities}
 
-    if any(not row.get("source_id") or row.get("source_id") not in sources or not row.get("source_locator") or row.get("verification_status") not in {"verified", "disputed"} for row in claims):
+    if any(not row.get("source_id") or row.get("source_id") not in sources or not row.get("source_locator") or (row.get("verification_status") not in {"verified", "disputed"} and not (not row.get("published") and row.get("verification_status") in {"probable", "local_reported", "unverified", "folk_narrative"})) for row in claims):
         issues.add("unsupported_claim")
 
     admin_rels: dict[str, list[dict[str, Any]]] = defaultdict(list)

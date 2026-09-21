@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+  "country_codes": [
+    "DJ"
+  ],
+  "id": "SRC-DJ-LANGUAGES-MIRROR-2026",
+  "language": "en",
+  "license": "Mirror, guide and press material; factual extraction with attribution; reuse terms not stated",
+  "locator": "official Arabic/French; indigenous Afar/Somali; Northern Somali main dialect; ta'izzi-adeni and Omani Arabic, Amharic, Oromo, Greek, Hindi; Somali Sign Language; Latin and Arabic scripts; Qafar Feera; Regional Somali Language Academy 2013",
+  "notes": "Mirror page used for the language inventory, the scripts and the language academy. It also prints speaker counts, which this cycle does not record. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "Wikipedia (English mirror)",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-21",
+  "schema_version": "2.0.0",
+  "source_type": "local_website",
+  "title": "Languages of Djibouti",
+  "url": "https://en.wikipedia.org/wiki/Languages_of_Djibouti"
+}

@@ -260,7 +260,7 @@ def review() -> dict[str, Any]:
     if len(alias_keys) != len(set(alias_keys)): errors.append("sample duplicate aliases")
     for identifier in sample["claim_ids"]:
         row = by_family["claims"][identifier]
-        if row.get("subject_id") not in entity_by_id or row.get("source_id") not in state["sources"] or not row.get("source_locator") or row.get("verification_status") not in {"verified","source_verified"}:
+        if row.get("subject_id") not in entity_by_id or row.get("source_id") not in state["sources"] or not row.get("source_locator") or (row.get("verification_status") not in {"verified","source_verified"} and not (not row.get("published") and row.get("verification_status") in {"probable","local_reported","unverified","folk_narrative"})):
             errors.append(f"sample claim invalid: {identifier}")
     for identifier in sample["source_ids"]:
         row = state["sources"][identifier]

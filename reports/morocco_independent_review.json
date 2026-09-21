@@ -4,8 +4,8 @@
   "families": {
     "claims": {
       "failed": 0,
-      "passed": 12,
-      "sampled": 12,
+      "passed": 29,
+      "sampled": 29,
       "status": "PASS"
     },
     "coverage": {
@@ -34,16 +34,16 @@
     },
     "sources": {
       "failed": 0,
-      "passed": 3,
-      "sampled": 3,
+      "passed": 4,
+      "sampled": 4,
       "status": "PASS"
     }
   },
   "findings": [],
-  "method": "Independent full fixture hierarchy comparison.",
+  "method": "Independent full fixture hierarchy comparison plus the 17-claim cultural depth frame (unpublished, couscous shared, Amazigh probable).",
   "p0": 0,
   "schema_version": "2.0.0",
   "status": "PASS",
-  "total_passed": 198,
-  "total_sampled": 198
+  "total_passed": 216,
+  "total_sampled": 216
 }

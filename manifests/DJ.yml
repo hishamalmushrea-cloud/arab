@@ -287,6 +287,86 @@
         "SRC-DJ-DECENTRALISATION-ROADMAP-2020"
       ],
       "special_cases": []
+    },
+    {
+      "authority_name": "UNESCO Intangible Cultural Heritage",
+      "coverage_record_id": null,
+      "denominator": 3,
+      "denominator_id": null,
+      "entity_types": [
+        "cultural_site"
+      ],
+      "layer": "unesco_intangible_heritage",
+      "license": "UNESCO ICH element and State page; factual extraction with attribution; CC BY-SA 3.0 IGO for the descriptions",
+      "local_names": [
+        "عنصر تراث غير مادي"
+      ],
+      "notes": "ثلاثة عناصر مُدرجة لجيبوتي: عنصر وطني واحد على قائمة الصون العاجل (الخيدو 02001، 2023) وعنصران مشتركان (الزير عيسى 02087 بثلاث دول 2024، والزفّة 02283 بسبع دول 2025)، والترشيح العفاري (المدقة) قيد النظر 2026.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-09-21",
+      "source_ids": [
+        "SRC-UNESCO-ICH-DJ-STATE-2026",
+        "SRC-UNESCO-ICH-ZAFFA-02283-2025",
+        "SRC-UNESCO-ICH-XEER-CIISE-02087-2024",
+        "SRC-UNESCO-ICH-XEEDHO-02001-2023"
+      ],
+      "special_cases": [
+        "الملفات المشتركة تبقى shared ولا يُدَّعى فيها حصرية.",
+        "عنصر واحد بدولة مُدرِجة واحدة هو الوحيد الذي يجوز فيه classification = national."
+      ]
+    },
+    {
+      "authority_name": null,
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
+      "entity_types": [
+        "quarter",
+        "market"
+      ],
+      "layer": "world_heritage_medinas",
+      "license": "Mirror, guide and press material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "مكان داخل العاصمة"
+      ],
+      "notes": "اثنا عشر مكانًا داخل مدينة جيبوتي (عشرة أحياء وسوقان) بـlocated_in فقط: بلا أب إداري وبلا سكان وبلا نسبة.",
+      "scope_status": "open",
+      "snapshot_date": "2026-09-21",
+      "source_ids": [
+        "SRC-DJ-QUARTIERS-GUIDE-2026",
+        "SRC-DJ-CITY-HISTORY-2026"
+      ],
+      "special_cases": [
+        "لا يُستنتج قسم أدنى للأحياء من الأقسام الثلاثة."
+      ]
+    },
+    {
+      "authority_name": null,
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
+      "entity_types": [
+        "cultural_site"
+      ],
+      "layer": "classified_local_knowledge",
+      "license": "Mirror, guide and press material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "معرفة محلية مصنَّفة"
+      ],
+      "notes": "معرفة محلية مصنَّفة وغير منشورة: ثمانية ملفات لغوية، ولهجة وكتابة ومؤسسة لغوية، واثنا عشر طبقًا، وثلاثة أزياء، وحرفتان، وثلاثة أعراف.",
+      "scope_status": "open",
+      "snapshot_date": "2026-09-21",
+      "source_ids": [
+        "SRC-DJ-CUISINE-MIRROR-2026",
+        "SRC-DJ-LANGUAGES-MIRROR-2026",
+        "SRC-DJ-CITY-HISTORY-2026",
+        "SRC-DJ-SIGN-LANGUAGES-2021",
+        "SRC-DJ-WEDDING-ALJAZIRAH-1999"
+      ],
+      "special_cases": [
+        "لا يُنشر أي ادعاء ضعيف المصدر ولا يُبنى عليه مقام.",
+        "لا تُسجَّل أرقام متحدثين ولا أعداد سكان."
+      ]
     }
   ],
   "schema_version": "2.0.0",

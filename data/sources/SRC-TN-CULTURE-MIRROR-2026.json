@@ -1,0 +1,22 @@
+{
+  "archive_url": null,
+  "author": null,
+  "checksum": "sha256:c8b78e335657e5f82a73a0b8809b8d1c52bce66d03a8c5178db68a1c0e959a56",
+  "country_codes": [
+    "TN"
+  ],
+  "id": "SRC-TN-CULTURE-MIRROR-2026",
+  "language": "ar",
+  "license": "Factual extraction with attribution; publisher reuse terms not stated",
+  "locator": "Regional dialect profiles, Amazigh and Mediterranean-loan lexicons, dish and dress entries",
+  "notes": "Depth-cycle weak/secondary mirror. Cultural claims stay probable/local_reported and unpublished (so the published A/B>=95% Tunisia contract is untouched); couscous/brik/jebba/burnous carry shared classification مغاربيا — never exclusive; السفساري Carthage-origin story is a narrative, not fact. Publication date unavailable.",
+  "organization": "Encyclopedic mirror pages on Tunisian culture",
+  "publication_date": null,
+  "publisher": "Encyclopedic mirror pages on Tunisian culture",
+  "quality_tier": "E",
+  "retrieved_at": "2026-08-17",
+  "schema_version": "2.0.0",
+  "source_type": "institutional_page",
+  "title": "Tunisian Darija, Amazigh varieties, cuisine, and dress — encyclopedic mirror pages",
+  "url": "https://ar.wikipedia.org/wiki/%D9%84%D9%87%D8%AC%D8%A9_%D8%AA%D9%88%D9%86%D8%B3%D9%8A%D8%A9"
+}

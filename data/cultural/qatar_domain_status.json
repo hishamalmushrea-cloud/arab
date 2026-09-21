@@ -1,21 +1,45 @@
 {
   "country_code": "QA",
   "domains": {
-    "custom": {
-      "claims": 0,
-      "status": "not_documented_in_cycle"
+    "crafts": {
+      "claims": 2,
+      "status": "documented_local_reported_unpublished"
     },
     "dialect": {
-      "claims": 0,
-      "status": "not_documented_in_cycle"
+      "claims": 3,
+      "status": "documented_local_reported_unpublished"
     },
     "dress": {
-      "claims": 0,
-      "status": "not_documented_in_cycle"
+      "claims": 7,
+      "status": "documented_local_reported_unpublished"
     },
     "food": {
+      "claims": 20,
+      "status": "documented_local_reported_unpublished"
+    },
+    "intangible_cultural_heritage": {
+      "claims": 7,
+      "elements": [
+        "المجلس 2015 (01076)",
+        "الصقارة 2021 (01708)",
+        "نخيل التمر 2022 (01902)",
+        "القهوة العربية 2024 (02111)",
+        "الحناء 2024 (02116)",
+        "السدو 2025 (02158)",
+        "البشت 2025 (02233)"
+      ],
+      "note": "كل عناصر قطر الحالية ملفات متعددة الدول؛ لا عنصر وطني حصري",
+      "status": "documented_published_unesco"
+    },
+    "languages": {
       "claims": 0,
-      "status": "not_documented_in_cycle"
+      "note": "لا حضور لغوي غير عربي مسنود في هذه الدورة؛ الصفر مقصود لا إهمال",
+      "status": "not_asserted_in_cycle"
+    },
+    "old_doha_places": {
+      "denominator": null,
+      "entities": 4,
+      "status": "documented_heritage_layer_no_denominator"
     },
     "world_heritage": {
       "claims": 2,
@@ -23,6 +47,7 @@
       "status": "documented"
     }
   },
+  "notes": "دورة العمق الأولى تفتح المجالات التي تركتها دورة قطر الأولى غير موثقة: قائمة اليونسكو غير المادية هي العمود المنشور، وكل مادة اللهجة والطعام واللباس والحرف من مصادر محلية تبقى مصنّفة وغير منشورة، وطبقة فرجان الدوحة وسوق واقف بلا مقام وبلا نسبة.",
   "schema_version": "2.0.0",
-  "snapshot_date": "2026-08-16"
+  "snapshot_date": "2026-09-20"
 }

@@ -1,6 +1,6 @@
 {
   "country_code": "KW",
-  "detected": 9,
+  "detected": 16,
   "mutations": [
     {
       "detected": true,
@@ -39,16 +39,51 @@
     },
     {
       "detected": true,
-      "expected_code": "KW_CULTURAL_LEAKAGE",
+      "expected_code": "KW_DEPTH_CONTRACT",
       "mutation": "KW_CULTURAL_LEAKAGE"
     },
     {
       "detected": true,
       "expected_code": "KW_ENTITY_UNIVERSE",
       "mutation": "KW_ALIAS_AS_ENTITY"
+    },
+    {
+      "detected": true,
+      "expected_code": "KW_SHARED_NOT_EXCLUSIVE",
+      "mutation": "KW_SHARED_NOT_EXCLUSIVE"
+    },
+    {
+      "detected": true,
+      "expected_code": "KW_DEPTH_PUBLISHED_FROM_WEAK",
+      "mutation": "KW_DEPTH_PUBLISHED_FROM_WEAK"
+    },
+    {
+      "detected": true,
+      "expected_code": "KW_DEPTH_CONTRACT",
+      "mutation": "KW_DIALECT_PROMOTED"
+    },
+    {
+      "detected": true,
+      "expected_code": "KW_QUARTER_HISTORICAL",
+      "mutation": "KW_FIRIJ_AS_CURRENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "KW_QUARTER_PARENT",
+      "mutation": "KW_FIRIJ_ADMIN_PARENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "KW_ICH_CONTRACT",
+      "mutation": "KW_ICH_UNPUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "KW_QUARTER_POPULATION",
+      "mutation": "KW_QUARTER_POPULATION"
     }
   ],
-  "required": 9,
+  "required": 16,
   "schema_version": "2.0.0",
   "status": "PASS"
 }

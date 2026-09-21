@@ -428,6 +428,34 @@ def write_domain_status() -> None:
     })
 
 
+
+def build_depth_claims() -> list[dict]:
+    """Maximum Arabic Knowledge Coverage depth claims: unpublished, classified, tier-E source."""
+    depth = json.loads((IMPORT / "cultural_depth_2026.json").read_text(encoding="utf-8"))
+    CULT = "SRC-TN-CULTURE-MIRROR-2026"
+    rows = []
+    def dc(key, subj, pred, data, loc, vs, cls, note):
+        rows.append({
+            "id": record_id("CLM-TN-DEPTH", key), "schema_version": SCHEMA_VERSION,
+            "subject_id": subj, "predicate": pred, "value": {"type": "json", "data": data},
+            "unit": None, "status": "reported", "observed_at": "2026-08-17",
+            "valid_from": None, "valid_to": None, "source_id": CULT, "second_source_id": None,
+            "source_locator": loc, "second_source_locator": None, "sensitivity": "ordinary",
+            "notes": note, "verification_status": vs,
+            "confidence": "medium" if vs == "probable" else "low",
+            "classification": cls, "published": False, "lexical_context": None,
+        })
+    for q in depth["non_arabic_languages"]:
+        dc("lang|" + q["name"], q["subject"], "language_presence", {"language": q["name"], "description": q["desc"]}, f"Language note: {q['name']}", q["status"], "regional", "Amazigh/French presence from secondary mirrors; the extinct Sened variety stays local_reported; unpublished.")
+    for q in depth["dialect_profiles"]:
+        dc("dialect|" + q["group"], q["subject"], "dialect_profile", {"group": q["group"], "scope": q["scope"], "features": q["features"], "sample_words": q["words"]}, f"Dialect profile: {q['group']}", "local_reported", "regional", "Dialect profile from secondary mirrors incl. Amazigh-substrate and Mediterranean-loan lexicons; the dialect-vs-language debate is recorded neutrally; unpublished.")
+    for q in depth["dishes"]:
+        dc("dish|" + q["name"], q["subject"], "food_dish", {"name": q["name"], "description": q["desc"], "occasion": q["occasion"], "note": q.get("note", "")}, f"Dish entry: {q['name']}", "local_reported", q["classification"], "Culinary knowledge from weak/secondary mirrors; unpublished. Maghreb-shared dishes stay shared, never exclusive.")
+    for q in depth["dress"]:
+        dc("dress|" + q["name"], q["subject"], "clothing_item", {"name": q["name"], "gender": q["gender"], "description": q["desc"]}, f"Dress entry: {q['name']}", "local_reported", q["classification"], "Dress knowledge from weak/secondary mirrors; Carthage-origin stories stay narratives; unpublished.")
+    return rows
+
+
 def main() -> None:
     municipalities, admin, overlaps = verify_inputs()
     country_rows = [r for r in read_jsonl(ENTITY_PATH) if r["id"] == COUNTRY]
@@ -443,7 +471,7 @@ def main() -> None:
     non_tn_claims = [r for r in read_jsonl(CLAIM_PATH) if not r["subject_id"].startswith("ENT-TN-")]
     phase1_population = read_jsonl(IMPORT / "phase1_population_claims.jsonl")
     assert len(phase1_population) == 24 and all(r["predicate"] == "population" for r in phase1_population)
-    claims = non_tn_claims + phase1_population + pilot_c
+    claims = non_tn_claims + phase1_population + pilot_c + build_depth_claims()
 
     denoms, coverage, snapshots = coverage_records()
     mirror_coverage_fields(denoms, coverage, snapshots)

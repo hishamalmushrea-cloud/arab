@@ -2,7 +2,7 @@
   "baseline_issue_codes": [],
   "country_code": "JO",
   "errors": [],
-  "input_fingerprint_sha256": "0c88be3783e34811ed7ccda76ada74d57625e2568c279b9fa0cdcc8f39c17423",
+  "input_fingerprint_sha256": "b622466c1e8ef0c42335e2ac697684540b27b53b7d417e677270c57f445a4bde",
   "negative_test_outcomes": {
     "NEG-JO-COORDINATE-MISMATCH": "pass",
     "NEG-JO-CULTURAL-MISATTRIBUTION": "pass",
@@ -34,7 +34,7 @@
   "reviewer": "automated-independent-path",
   "sample_rates": {
     "aliases": 0.1478,
-    "claims": 0.2,
+    "claims": 0.1788,
     "coordinate_entities": 0.4167,
     "coverage": 1.0,
     "cultural_attribution": 1.0,
@@ -45,13 +45,13 @@
     "hierarchy": 0.1165,
     "populated_places": 1.0,
     "relationships": 0.1597,
-    "sources": 0.2857
+    "sources": 0.2727
   },
   "schema_version": "2.0.0",
   "snapshot_date": "2026-08-15",
   "totals": {
     "aliases": 115,
-    "claims": 135,
+    "claims": 151,
     "coordinate_entities": 12,
     "coverage": 5,
     "cultural_attribution": 4,
@@ -62,6 +62,6 @@
     "hierarchy": 103,
     "populated_places": 4,
     "relationships": 119,
-    "sources": 21
+    "sources": 22
   }
 }

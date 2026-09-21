@@ -3,14 +3,18 @@
   "critical_p1": 0,
   "errors": [],
   "metrics": {
-    "claims": 6,
+    "claims": 40,
     "coverage": 5,
     "denominators": 5,
-    "entities": 75,
-    "relationships": 74,
-    "sources": 3
+    "depth_claims": 34,
+    "entities": 81,
+    "medinas": 6,
+    "published_claims": 16,
+    "relationships": 80,
+    "sources": 18
   },
   "p0": 0,
   "schema_version": "2.0.0",
+  "snapshot_date": "2026-09-20",
   "status": "PASS"
 }

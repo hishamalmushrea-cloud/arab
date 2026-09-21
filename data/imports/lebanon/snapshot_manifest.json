@@ -1,10 +1,18 @@
 {
   "country_code": "LB",
+  "reconciliation": {
+    "cultural_frame": "20 cultural claims: 3 languages, 6 dialect profiles incl. Aramaic substrate and cross-border kinships, 8 dishes (tabbouleh/kibbeh/fattoush/maamoul shared), 3 dress claims; all unpublished."
+  },
   "records": [
     {
       "bytes": 3782,
       "path": "data/imports/lebanon/fixtures/current_hierarchy.json",
       "sha256": "6a7bef9bfad2a542f2ea7d1bb05b9bbd25db61bfd890d728dc59f1611b8a9f4c"
+    },
+    {
+      "path": "fixtures/cultural_depth_2026.json",
+      "record_count": 20,
+      "sha256": "9161c613e5887bdf32e0ec66b8cb2fd5f475429cf1d3091b2db10fc27419ed57"
     }
   ],
   "schema_version": "2.0.0",

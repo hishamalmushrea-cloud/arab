@@ -7,7 +7,15 @@
     "current_exact_name_source": "SANA current governorate navigation and 2026 presidency page",
     "historical_continuity_source": "Central Bureau of Statistics legacy enumeration"
   },
+  "reconciliation": {
+    "cultural_frame": "24 cultural claims: 4 languages (Turkmen local_reported), 6 dialect profiles incl. Aramaic substrate, 9 dishes (kibbeh/tabbouleh/yabraq/mujaddara shared), 5 dress claims; all unpublished; no war-condition inference."
+  },
   "records": [
+    {
+      "path": "fixtures/cultural_depth_2026.json",
+      "record_count": 24,
+      "sha256": "31da38a58e7199bbfda750aa7dda5fa6657d8767df38828f69104fd6c58b7500"
+    },
     {
       "path": "fixtures/governorates_2026.json",
       "record_count": 14,

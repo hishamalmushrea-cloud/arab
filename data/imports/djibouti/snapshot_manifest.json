@@ -1,6 +1,12 @@
 {
   "country_code": "DJ",
+  "method": "Checksum-bound presidency/law/roadmap/INSTAD topology, extended in depth cycle 1 with three UNESCO intangible-heritage elements, the 1992 (rev. 2010) Constitution as published by Constitute, the ISO 639-3 registry, Arabic/English mirror and French local material.",
   "records": [
+    {
+      "bytes": 23149,
+      "path": "data/imports/djibouti/fixtures/cultural_depth_2026.json",
+      "sha256": "a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70"
+    },
     {
       "bytes": 2619,
       "path": "data/imports/djibouti/fixtures/topology_2024.json",

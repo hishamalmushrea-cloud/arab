@@ -3,7 +3,9 @@
     "Production mode is recorded by the closeout; the current manifest status vocabulary retains pilot_migrated as its accepted-data state.",
     "Governorates are not areas, electoral constituencies, or blocks; those layers remain unavailable in this cycle.",
     "World Heritage properties may be serial; component parts are not split into unsupported place entities.",
-    "No national denominator is asserted for cities, villages, neighborhoods, culture generally, or dialect vocabulary."
+    "No national denominator is asserted for cities, villages, neighborhoods, culture generally, or dialect vocabulary.",
+    "Depth cycle 1 (2026-09-20): the five UNESCO intangible-heritage elements are published facts; language, dialect, food, dress, and craft material from local and press sources stays classified and unpublished.",
+    "Muharraq firjan, villages, and halat are places with located_in only: no administrative parent, no population claim, and no percentage, because no dated official lower denominator exists."
   ],
   "country": {
     "entity_id": "ENT-BH-COUNTRY",
@@ -147,7 +149,7 @@
       "verification_status": "pending"
     }
   ],
-  "next_action": "Maintain Bahrain as production-accepted; expand areas/blocks or populated places only after an official dated denominator and topology are checksum-bound.",
+  "next_action": "Maintain Bahrain as production-accepted with the depth cycle 1 heritage layer; expand areas, blocks, or populated places only after an official dated denominator and topology are checksum-bound.",
   "official_authority": {
     "missing_reason": null,
     "name": "Survey and Land Registration Bureau via Bahrain National Open Data Portal",
@@ -207,6 +209,89 @@
       "special_cases": [
         "Tentative-list sites excluded.",
         "Serial components are not separate entities in this cycle."
+      ]
+    },
+    {
+      "authority_name": "UNESCO Intangible Cultural Heritage",
+      "coverage_record_id": null,
+      "denominator": 5,
+      "denominator_id": null,
+      "entity_types": [
+        "cultural_site"
+      ],
+      "layer": "unesco_intangible_heritage",
+      "license": "UNESCO ICH pages; factual extraction with attribution",
+      "local_names": [
+        "عنصر تراث غير مادي"
+      ],
+      "notes": "Five inscribed elements on which Bahrain appears, recorded as claims on the country entity; no separate entity per element in this cycle and no coverage record because the layer itself is the inscription list.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-09-20",
+      "source_ids": [
+        "SRC-BH-UNESCO-ICH-2026",
+        "SRC-BH-FJIRI-01747"
+      ],
+      "special_cases": [
+        "Multi-State files carry classification shared and are never exclusive.",
+        "Inscription year stays inside the claim value and is not expanded into an exact day."
+      ]
+    },
+    {
+      "authority_name": null,
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
+      "entity_types": [
+        "city",
+        "quarter",
+        "village"
+      ],
+      "layer": "muharraq_heritage_places",
+      "license": "Local heritage mirror, press columns, and a self-published heritage series; factual extraction with attribution",
+      "local_names": [
+        "فريج",
+        "قرية",
+        "حالة"
+      ],
+      "notes": "Bounded heritage-attested set: Muharraq city, fourteen firjan, six villages, and three halat, entered as local_reported places with located_in only and no denominator.",
+      "scope_status": "open",
+      "snapshot_date": "2026-09-20",
+      "source_ids": [
+        "SRC-BH-MUHARRAQ-WIKI-2026",
+        "SRC-BH-ALBILAD-2021",
+        "SRC-BH-FIRJAN-BLOG-2022"
+      ],
+      "special_cases": [
+        "No administrative parent and no population claim for any place in this layer.",
+        "Historical firjan keep status historical; living villages and halat keep status current without any administrative meaning."
+      ]
+    },
+    {
+      "authority_name": null,
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
+      "entity_types": [
+        "cultural_site"
+      ],
+      "layer": "classified_local_knowledge",
+      "license": "Local mirror, folklore journal, press, and heritage-blog material; factual extraction with attribution",
+      "local_names": [
+        "معرفة محلية مصنّفة"
+      ],
+      "notes": "Thirty-four classified and unpublished claims: one language presence, three dialect profiles, twenty-three dishes, seven dress items, and three crafts; no coverage percentage is claimed.",
+      "scope_status": "open",
+      "snapshot_date": "2026-09-20",
+      "source_ids": [
+        "SRC-BH-DIALECT-MIRROR-2026",
+        "SRC-BH-CUISINE-MIRROR-2026",
+        "SRC-BH-FOLK-CLOTH-2022",
+        "SRC-BH-NASHIL-PRESS-2018",
+        "SRC-BH-FIRJAN-ELAPH-2023"
+      ],
+      "special_cases": [
+        "Every weak-source claim must declare classification and stay unpublished.",
+        "No speaker counts, no population figures, and no exclusive ownership of shared Gulf heritage."
       ]
     }
   ],

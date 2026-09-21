@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:bfa1232e1b1849e7daac5430ff74f75d2b971b8751e7785e32b46ac8a735100d",
+  "country_codes": [
+    "BH"
+  ],
+  "id": "SRC-BH-FOLK-CLOTH-2022",
+  "language": "ar",
+  "license": "Bahraini folklore journal article by خميس البنكي; factual extraction with attribution; reuse terms not stated",
+  "locator": "أسماء الأقمشة ومصطلحات التجارة والخياطة (خلق، طاقة، جفير، الكراخانة) وأسماء الزي الشعبي: العباءة، ثوب النشل، البخنق، النفنوف، الجلابية، ثوب النقدة، ومناطق النسيج: بني جمرة والجسرة والمحرق",
+  "notes": "Article page dated July 2022 in the journal index. Tier-E heritage journal material: claims stay local_reported and unpublished.",
+  "publication_date": "2022-07-01",
+  "publisher": "مجلة الثقافة الشعبية (البحرين) — العدد 58",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-20",
+  "schema_version": "2.0.0",
+  "source_type": "heritage_book",
+  "title": "القماش وتجارته في البحرين",
+  "url": "https://www.folkculturebh.org/ar/index.php?issue=58&page=article&id=1113"
+}

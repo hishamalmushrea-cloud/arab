@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:e32bc038aefb2f6a25d5919c31e61c1f0927c57c9a492d18fd55f48e494d9411",
+  "country_codes": [
+    "KW"
+  ],
+  "id": "SRC-KW-MIRQAB-HERITAGE-2026",
+  "language": "ar",
+  "license": "Local heritage archive article; factual extraction with attribution; reuse terms not stated",
+  "locator": "listing of المرقاب quarters quoted from حمد السعيدان «الموسوعة الكويتية المختصرة» and later local-history articles",
+  "notes": "Publication date unavailable in the archive view. Firjan of المرقاب enter as local_reported historical places.",
+  "publication_date": null,
+  "publisher": "تاريخ الكويت (أرشيف محلي)",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-20",
+  "schema_version": "2.0.0",
+  "source_type": "heritage_book",
+  "title": "صور من عبق أحياء المرقاب — تاريخ وشخصيات",
+  "url": "https://www.kuwait-history.net/vb/archive/index.php/t-13665.html"
+}

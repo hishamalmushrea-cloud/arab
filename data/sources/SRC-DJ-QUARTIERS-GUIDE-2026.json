@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+  "country_codes": [
+    "DJ"
+  ],
+  "id": "SRC-DJ-QUARTIERS-GUIDE-2026",
+  "language": "fr",
+  "license": "Mirror, guide and press material; factual extraction with attribution; reuse terms not stated",
+  "locator": "quartier européen and quartier africain; place du 27-Juin; marché central and souk; place Mahmoud Harbi; rue des Afars; cités Engueila and Arhiba; Marabout; Héron; Haramous; Boulaos",
+  "notes": "Travel guide describing the central quarters; used only for the unpublished places layer. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "Petit Futé (local guide)",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-21",
+  "schema_version": "2.0.0",
+  "source_type": "local_website",
+  "title": "Découverte de Djibouti : Quartiers",
+  "url": "https://www.petitfute.com/v51482-djibouti/decouvrir/d2014-quartiers/"
+}

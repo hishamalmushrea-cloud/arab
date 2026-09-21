@@ -86,7 +86,11 @@
         "source_verified",
         "partial",
         "ambiguous",
-        "needs_review"
+        "needs_review",
+        "probable",
+        "local_reported",
+        "unverified",
+        "folk_narrative"
       ]
     }
   },

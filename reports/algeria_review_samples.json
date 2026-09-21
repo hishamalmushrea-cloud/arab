@@ -2,14 +2,33 @@
   "country_code": "DZ",
   "families": {
     "claims": {
-      "population": 3,
+      "population": 22,
       "record_ids": [
         "CLM-DZ-5528D2A12F0351E6",
         "CLM-DZ-8E9102CF40A258B9",
-        "CLM-DZ-C31931A583D454B4"
+        "CLM-DZ-C31931A583D454B4",
+        "CLM-DZ-DEPTH-26EE693D93885137",
+        "CLM-DZ-DEPTH-2DFA2776E3CE5A7D",
+        "CLM-DZ-DEPTH-4C7E80F4CBF5565B",
+        "CLM-DZ-DEPTH-4DA8C36D9585562E",
+        "CLM-DZ-DEPTH-5BAA9FA052D555D9",
+        "CLM-DZ-DEPTH-68DED08E9340596F",
+        "CLM-DZ-DEPTH-77D65764D6D452BC",
+        "CLM-DZ-DEPTH-7D587500727A5E87",
+        "CLM-DZ-DEPTH-7D9D4A5BECA55FCE",
+        "CLM-DZ-DEPTH-7F102287385251E6",
+        "CLM-DZ-DEPTH-8E9F28663625504F",
+        "CLM-DZ-DEPTH-935A912281C85D99",
+        "CLM-DZ-DEPTH-96526D7823475807",
+        "CLM-DZ-DEPTH-9669BFE175F15207",
+        "CLM-DZ-DEPTH-ACC41498DC84509F",
+        "CLM-DZ-DEPTH-BCADDD051EFD5F9A",
+        "CLM-DZ-DEPTH-D48ABD7A990D5B12",
+        "CLM-DZ-DEPTH-DC0D165F81B057E2",
+        "CLM-DZ-DEPTH-F1012EAA5B3559B0"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 3
+      "sample_size": 22
     },
     "coverage": {
       "population": 3,
@@ -185,14 +204,15 @@
       "sample_size": 69
     },
     "sources": {
-      "population": 3,
+      "population": 4,
       "record_ids": [
+        "SRC-DZ-CULTURE-MIRROR-2026",
         "SRC-DZ-INTERIOR-58-WILAYAS",
         "SRC-DZ-INTERIOR-69-TRANSITION-2025",
         "SRC-DZ-ONS-CGN-2021"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 3
+      "sample_size": 4
     }
   },
   "schema_version": "2.0.0"

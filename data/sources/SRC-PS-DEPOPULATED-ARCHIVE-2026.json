@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:db4dfd544fcaa8a4ef53f3de7d00ca9bc99aa0d59cbdab784119e5610cbedcb7",
+  "country_codes": [
+    "PS"
+  ],
+  "id": "SRC-PS-DEPOPULATED-ARCHIVE-2026",
+  "language": "ar",
+  "license": "Official Palestine statistical/government material; factual extraction with attribution; reuse terms not stated",
+  "locator": "Per-qada site tables: Safad 95, Acre 73, Tiberias 31, Haifa 92, Jenin 100, Ramla 70, Jerusalem 30, Beersheba 93",
+  "notes": "Widely used documentary archive counting every inhabited locality (village, khirba, Bedouin camp, farm). Site identities carry probable status; per-site condition is never inferred; same-name sites in different qadas stay distinct. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "Palestine Remembered documentary archive via project qada compilations",
+  "quality_tier": "C",
+  "retrieved_at": "2026-08-17",
+  "schema_version": "2.0.0",
+  "source_type": "archive",
+  "title": "Depopulated 1948 localities — documentary archive compilation, eight qada files",
+  "url": "https://www.palestineremembered.com/"
+}

@@ -1,14 +1,46 @@
 {
   "country_code": "KM",
   "domains": {
+    "crafts": {
+      "claims": 1,
+      "status": "documented_local_reported_unpublished"
+    },
+    "custom": {
+      "claims": 2,
+      "status": "documented_local_reported_unpublished"
+    },
     "dialect": {
-      "claims": 0,
-      "status": "not_documented_in_cycle"
+      "claims": 5,
+      "status": "documented_local_reported_unpublished"
+    },
+    "dress": {
+      "claims": 3,
+      "status": "documented_local_reported_unpublished"
+    },
+    "food": {
+      "claims": 10,
+      "status": "documented_local_reported_unpublished"
+    },
+    "intangible_cultural_heritage": {
+      "claims": 1,
+      "elements": [
+        "زفّة العرس التقليدي 02283 (2025) ملف بتقديم سبع دول"
+      ],
+      "status": "documented_published_unesco"
+    },
+    "languages": {
+      "claims": 5,
+      "status": "documented_official_three"
     },
     "world_heritage": {
       "claims": 3,
       "denominator": 1,
       "status": "documented"
+    },
+    "world_heritage_medinas": {
+      "denominator": null,
+      "entities": 6,
+      "status": "documented_heritage_layer_no_denominator"
     }
   },
   "schema_version": "2.0.0",

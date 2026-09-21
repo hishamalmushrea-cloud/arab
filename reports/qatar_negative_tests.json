@@ -1,6 +1,6 @@
 {
   "country_code": "QA",
-  "detected": 8,
+  "detected": 23,
   "mutations": [
     {
       "detected": true,
@@ -35,15 +35,90 @@
     {
       "detected": true,
       "expected_code": "QA_DIALECT",
-      "mutation": "QA_DIALECT"
+      "mutation": "QA_DIALECT_LEXICAL_PREDICATE"
     },
     {
       "detected": true,
       "expected_code": "QA_LOWER_LAYER",
       "mutation": "QA_LOWER_DENOMINATOR"
+    },
+    {
+      "detected": true,
+      "expected_code": "QA_DEPTH_PUBLISHED_FROM_WEAK",
+      "mutation": "QA_DEPTH_PUBLISHED_FROM_WEAK"
+    },
+    {
+      "detected": true,
+      "expected_code": "QA_DEPTH_CONTRACT",
+      "mutation": "QA_DIALECT_PROMOTED"
+    },
+    {
+      "detected": true,
+      "expected_code": "QA_SHARED_NOT_EXCLUSIVE",
+      "mutation": "QA_SHARED_NOT_EXCLUSIVE"
+    },
+    {
+      "detected": true,
+      "expected_code": "QA_ICH_CONTRACT",
+      "mutation": "QA_ICH_UNPUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "QA_ICH_CONTRACT",
+      "mutation": "QA_ICH_NOT_SHARED"
+    },
+    {
+      "detected": true,
+      "expected_code": "QA_ICH_LAYER",
+      "mutation": "QA_ICH_LAYER_DENOMINATOR"
+    },
+    {
+      "detected": true,
+      "expected_code": "QA_HERITAGE_LAYER",
+      "mutation": "QA_HERITAGE_LAYER_DENOMINATOR"
+    },
+    {
+      "detected": true,
+      "expected_code": "QA_PLACE_CONTRACT",
+      "mutation": "QA_PLACE_AS_CURRENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "QA_PLACE_LOCATED_IN",
+      "mutation": "QA_PLACE_ADMIN_PARENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "QA_PLACE_LOCATED_IN",
+      "mutation": "QA_PLACE_WRONG_MUNICIPALITY"
+    },
+    {
+      "detected": true,
+      "expected_code": "QA_PLACE_POPULATION",
+      "mutation": "QA_PLACE_POPULATION"
+    },
+    {
+      "detected": true,
+      "expected_code": "QA_PLACE_CONTRACT",
+      "mutation": "QA_PLACE_SOURCE_UPGRADE"
+    },
+    {
+      "detected": true,
+      "expected_code": "QA_LANGUAGE_UNSUPPORTED",
+      "mutation": "QA_UNSOURCED_LANGUAGE"
+    },
+    {
+      "detected": true,
+      "expected_code": "QA_SOURCES",
+      "mutation": "QA_SOURCE_TIER_INFLATION"
+    },
+    {
+      "detected": true,
+      "expected_code": "QA_DIALECT_GLOSS",
+      "mutation": "QA_DIALECT_WITHOUT_GLOSS"
     }
   ],
-  "required": 8,
+  "required": 23,
   "schema_version": "2.0.0",
   "status": "PASS"
 }

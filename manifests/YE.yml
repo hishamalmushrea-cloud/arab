@@ -2,7 +2,9 @@
   "caveats": [
     "Current legal first-level universe is reconstructed from a legacy official 20-governorate-plus-capital frame and Law 31/2013 adding Socotra.",
     "The complete official-gazette copy and its effective-clause wording were not retrievable; no wording is inferred.",
-    "Legal identity is not effective control, destruction, displacement, or dispute status."
+    "Legal identity is not effective control, destruction, displacement, or dispute status.",
+    "District identities are attested from a mirror of the NIC catalogue anchored to the archived official 333-district frame; they carry probable status, not verified, until an atomic official coded register is reconciled.",
+    "Lanes are places, not administrative tiers: 104 Amanat lane identities are attested (69 Old Sanaa probable, 28 Tahrir censused probable, 7 Qa names-only unverified) against the official 791-lane 2004 frame; populations are 2004 figures, never projected."
   ],
   "country": {
     "entity_id": "ENT-YE-COUNTRY",
@@ -14,7 +16,9 @@
     "COV-YE-FIRST-LEVEL",
     "COV-YE-GOVERNORATES",
     "COV-YE-CAPITAL-MUNICIPALITY",
-    "COV-YE-LEGACY-FIRST-LEVEL"
+    "COV-YE-LEGACY-FIRST-LEVEL",
+    "COV-YE-DISTRICTS",
+    "COV-YE-AMANAT-LANES"
   ],
   "hierarchy": [
     {
@@ -120,23 +124,23 @@
         "ye_governorate",
         "ye_capital_municipality"
       ],
-      "authority_name": null,
+      "authority_name": "CSO archived frame / NIC catalogue mirror",
       "caveat": "أمانة العاصمة وضع خاص موازٍ للمحافظات؛ الحرب تفرض فصل القانوني والفعلي.",
-      "coverage_record_id": null,
-      "denominator": null,
-      "denominator_id": null,
+      "coverage_record_id": "COV-YE-DISTRICTS",
+      "denominator": 333,
+      "denominator_id": "DEN-YE-DISTRICTS",
       "entity_type": "ye_district",
-      "level": 3,
-      "license": null,
+      "level": 2,
+      "license": "Factual extraction with attribution; publisher reuse terms not stated",
       "local_names": [
         "مديرية"
       ],
-      "notes": "Current authoritative coded register not reconciled.",
-      "scope_status": "unavailable",
-      "snapshot_date": null,
+      "notes": "333 attested district identities; probable pending an atomic official coded register.",
+      "scope_status": "bounded",
+      "snapshot_date": "2026-08-17",
       "source_ids": [],
       "special_cases": [
-        "No lower records emitted."
+        "Identities from a tier-C mirror anchored to the archived official frame; no coded register yet."
       ],
       "temporal_statuses": [
         "current",
@@ -150,7 +154,7 @@
         "transitional",
         "uncertain"
       ],
-      "verification_status": "pending"
+      "verification_status": "partial"
     },
     {
       "allowed_parent_types": [
@@ -172,7 +176,7 @@
       "snapshot_date": null,
       "source_ids": [],
       "special_cases": [
-        "No lower records emitted."
+        "No uzla records emitted."
       ],
       "temporal_statuses": [
         "current",
@@ -189,7 +193,7 @@
       "verification_status": "pending"
     }
   ],
-  "next_action": "Maintain the 22 first-level legal identities; add districts/uzlas or conflict overlays only from dated authoritative registers.",
+  "next_action": "Deepen the district layer toward verified status via an atomic official coded register; collect populated places, lanes, and classified local knowledge under the Maximum Arabic Knowledge Coverage policy; add conflict overlays only from dated authoritative sources.",
   "official_authority": {
     "missing_reason": null,
     "name": "Central Statistical Organization / National Information Center / Republic of Yemen Law 31/2013",
@@ -286,6 +290,28 @@
       "snapshot_date": "2026-08-17",
       "source_ids": [
         "SRC-YE-CSO-ADMIN-DEFINITION-LEGACY"
+      ],
+      "special_cases": []
+    },
+    {
+      "authority_name": "CSO / NIC / Law 31/2013",
+      "coverage_record_id": "COV-YE-DISTRICTS",
+      "denominator": 333,
+      "denominator_id": "DEN-YE-DISTRICTS",
+      "entity_types": [
+        "ye_governorate",
+        "ye_capital_municipality"
+      ],
+      "layer": "ye_district_current",
+      "license": "Factual extraction with attribution; publisher reuse terms not stated",
+      "local_names": [
+        "first-level"
+      ],
+      "notes": "National 333-district frame from the archived official CSO administrative-definitions page; identities attested via the NIC catalogue mirror and carry probable status pending an atomic official coded register.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-08-17",
+      "source_ids": [
+        "SRC-YE-CENSUS-2004-LEGACY-FRAME"
       ],
       "special_cases": []
     }

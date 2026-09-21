@@ -61,6 +61,166 @@
       "source_type": "institutional_page",
       "title": "Report of Law 31/2013 establishing Socotra Archipelago Governorate",
       "url": "https://yafa-news.net/archives/82470"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e",
+      "country_codes": [
+        "YE"
+      ],
+      "id": "SRC-YE-NIC-DISTRICT-CATALOGUE-MIRROR",
+      "language": "ar",
+      "license": "Factual extraction with attribution; publisher reuse terms not stated",
+      "locator": "Per-governorate district lists; national total 333 cited to the CSO administrative-definitions page",
+      "notes": "Encyclopedic mirror used because the NIC origin is not directly retrievable; district identities from this source carry probable status pending an atomic official coded register. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Marefa encyclopedic mirror citing the National Information Center",
+      "quality_tier": "C",
+      "retrieved_at": "2026-08-17",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "District catalogue of the Republic of Yemen — encyclopedic mirror of the NIC frame",
+      "url": "https://www.marefa.org/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D9%85%D8%AF%D9%8A%D8%B1%D9%8A%D8%A7%D8%AA_%D8%A7%D9%84%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9_%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A%D8%A9"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e",
+      "country_codes": [
+        "YE"
+      ],
+      "id": "SRC-YE-CENSUS-2004-LEGACY-FRAME",
+      "language": "ar",
+      "license": "Factual extraction with attribution; publisher reuse terms not stated",
+      "locator": "Archived capture, 30 September 2018, of the CSO administrative divisions page",
+      "notes": "Archived official page anchoring the 333-district national frame and the census-2004 district universe.",
+      "publication_date": "2018-09-30",
+      "publisher": "Central Statistical Organization Yemen via Internet Archive",
+      "quality_tier": "B",
+      "retrieved_at": "2026-08-17",
+      "schema_version": "2.0.0",
+      "source_type": "archive",
+      "title": "Census 2004 administrative frame — archived CSO administrative definitions",
+      "url": "https://web.archive.org/web/20180930200530/http://www.cso-yemen.org/content.php?lng=arabic&id=277"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e",
+      "country_codes": [
+        "YE"
+      ],
+      "id": "SRC-YE-NIC-AMANAT-CENSUS-2004",
+      "language": "ar",
+      "license": "Factual extraction with attribution; publisher reuse terms not stated",
+      "locator": "Amanat classification page: 10 districts, 89 neighborhoods, 791 lanes; census 2004 district table",
+      "notes": "Official NIC frame anchoring the Amanat lane universe of 791 and district populations. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "National Information Center Yemen",
+      "quality_tier": "A",
+      "retrieved_at": "2026-08-17",
+      "schema_version": "2.0.0",
+      "source_type": "official_register",
+      "title": "Amanat Al Asimah administrative classification and census 2004 frame",
+      "url": "http://www.yemen-nic.info/gover/sanaacity/brife/"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e",
+      "country_codes": [
+        "YE"
+      ],
+      "id": "SRC-YE-LANE-PAGES-MIRROR",
+      "language": "ar",
+      "license": "Factual extraction with attribution; publisher reuse terms not stated",
+      "locator": "Old Sanaa 69-lane inventory; Tahrir hay tables with homes/households/population 2004",
+      "notes": "Lane identities and 2004 figures mirrored from census-citing pages; identities carry probable status, Qa names-only entries carry unverified status. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Encyclopedic mirror pages citing census 2004 and heritage documentation",
+      "quality_tier": "C",
+      "retrieved_at": "2026-08-17",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "Old Sanaa and Tahrir lane inventories — encyclopedic mirror pages",
+      "url": "https://ar.wikipedia.org/wiki/%D8%B5%D9%86%D8%B9%D8%A7%D8%A1_%D8%A7%D9%84%D9%82%D8%AF%D9%8A%D9%85%D8%A9"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e",
+      "country_codes": [
+        "YE"
+      ],
+      "id": "SRC-YE-CUISINE-PAGES-MIRROR",
+      "language": "ar",
+      "license": "Factual extraction with attribution; publisher reuse terms not stated",
+      "locator": "Dish descriptions, origins, occasions, and preparation notes",
+      "notes": "Dish knowledge mirrored from weak/secondary pages; claims carry local_reported status and are unpublished pending stronger sourcing. Shared dishes are classified shared, never exclusively national. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Encyclopedic mirror pages and Arabic press features on Yemeni cuisine",
+      "quality_tier": "E",
+      "retrieved_at": "2026-08-17",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "Yemeni cuisine — encyclopedic and press mirror pages",
+      "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B7%D8%A8%D8%AE_%D9%8A%D9%85%D9%86%D9%8A"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e",
+      "country_codes": [
+        "YE"
+      ],
+      "id": "SRC-YE-DIALECT-PAGES-MIRROR",
+      "language": "ar",
+      "license": "Factual extraction with attribution; publisher reuse terms not stated",
+      "locator": "Dialect group features, sample lexicon with glosses, and language notes",
+      "notes": "Dialect profiles and lexical samples mirrored from secondary pages; profiles carry local_reported status and are unpublished; the two non-Arabic languages are broadly documented and carry probable status. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Encyclopedic mirror pages on Yemeni dialect groups and lexicon",
+      "quality_tier": "E",
+      "retrieved_at": "2026-08-17",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "Yemeni dialect groups — encyclopedic mirror pages",
+      "url": "https://ar.wikipedia.org/wiki/%D9%84%D9%87%D8%AC%D8%A9_%D9%8A%D9%85%D9%86%D9%8A%D8%A9"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e",
+      "country_codes": [
+        "YE"
+      ],
+      "id": "SRC-YE-DRESS-PAGES-MIRROR",
+      "language": "ar",
+      "license": "Factual extraction with attribution; publisher reuse terms not stated",
+      "locator": "Garment names, regional variants, wearing occasions, and gender attribution",
+      "notes": "Dress knowledge mirrored from weak/secondary pages; claims carry local_reported status, explicit classification, and remain unpublished. Regional variant names are attested, never invented. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Embassy/press/encyclopedic mirror pages on Yemeni traditional dress",
+      "quality_tier": "E",
+      "retrieved_at": "2026-08-17",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "Yemeni traditional dress — embassy, press, and encyclopedic mirror pages",
+      "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B2%D9%8A_%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e",
+      "country_codes": [
+        "YE"
+      ],
+      "id": "SRC-YE-CRAFTS-MARKETS-MIRROR",
+      "language": "ar",
+      "license": "Factual extraction with attribution; publisher reuse terms not stated",
+      "locator": "Craft domains (silver, weaving, pottery, agate) and market inventories",
+      "notes": "Craft and market knowledge mirrored from secondary pages; local_reported, unpublished; market claims anchor to places already attested in the district/lane layers. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Encyclopedic mirror pages on Sanaa old-city markets and Yemeni crafts",
+      "quality_tier": "E",
+      "retrieved_at": "2026-08-17",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "Yemeni crafts and historical markets — encyclopedic mirror pages",
+      "url": "https://ar.wikipedia.org/wiki/%D8%B5%D9%86%D8%B9%D8%A7%D8%A1_%D8%A7%D9%84%D9%82%D8%AF%D9%8A%D9%85%D8%A9"
     }
   ]
 }

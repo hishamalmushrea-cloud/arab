@@ -2,7 +2,7 @@
   "country_code": "MA",
   "families": {
     "claims": {
-      "population": 12,
+      "population": 29,
       "record_ids": [
         "CLM-MA-0749C8197D0D5D75",
         "CLM-MA-34E6CD1896555239",
@@ -15,10 +15,27 @@
         "CLM-MA-A7658E71AF215A1A",
         "CLM-MA-B8C9EE242C025B9A",
         "CLM-MA-C7D1BB04AD505AA6",
+        "CLM-MA-DEPTH-0216D5C0822F528A",
+        "CLM-MA-DEPTH-1A748C831CA95A65",
+        "CLM-MA-DEPTH-36B064E42BCD53C9",
+        "CLM-MA-DEPTH-3BFECE1FDE5552E9",
+        "CLM-MA-DEPTH-40622FA7050A5566",
+        "CLM-MA-DEPTH-42104E80847057E3",
+        "CLM-MA-DEPTH-5AFC9A3E0D845962",
+        "CLM-MA-DEPTH-6DE4505638385080",
+        "CLM-MA-DEPTH-72628C0834185519",
+        "CLM-MA-DEPTH-84B817C1B6375035",
+        "CLM-MA-DEPTH-9E83A738D3355C38",
+        "CLM-MA-DEPTH-BBA2B95B2768511B",
+        "CLM-MA-DEPTH-DBE2704233885502",
+        "CLM-MA-DEPTH-F14D277873C4571C",
+        "CLM-MA-DEPTH-F4E03167A6B054DA",
+        "CLM-MA-DEPTH-F5EC19077FC45518",
+        "CLM-MA-DEPTH-F8B0061B5CFA571F",
         "CLM-MA-E9299D9819AA5299"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 12
+      "sample_size": 29
     },
     "coverage": {
       "population": 4,
@@ -232,14 +249,15 @@
       "sample_size": 87
     },
     "sources": {
-      "population": 3,
+      "population": 4,
       "record_ids": [
+        "SRC-MA-CULTURE-MIRROR-2026",
         "SRC-MA-DGCT-DECREE-2-15-10",
         "SRC-MA-DGCT-TERRITORIAL-COUNTS-2026",
         "SRC-MA-HCP-RGPH-2024"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 3
+      "sample_size": 4
     }
   },
   "schema_version": "2.0.0"
