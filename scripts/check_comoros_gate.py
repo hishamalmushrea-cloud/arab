@@ -80,7 +80,7 @@ def main() -> int:
     negatives = json.loads((ROOT / "reports/comoros_negative_tests.json").read_text(encoding="utf-8"))
     review = json.loads((ROOT / "reports/comoros_independent_review.json").read_text(encoding="utf-8"))
     gate.require(validation.get("status") == "PASS" and validation.get("p0") == 0 and validation.get("critical_p1") == 0, "comoros_findings_closed", f"status={validation.get('status')}, P0={validation.get('p0')}, critical P1={validation.get('critical_p1')}")
-    gate.require(negatives.get("status") == "PASS" and negatives.get("detected") == negatives.get("required") == 34, "comoros_required_mutations", f"detected={negatives.get('detected')}/{negatives.get('required')}")
+    gate.require(negatives.get("status") == "PASS" and negatives.get("detected") == negatives.get("required") == 36, "comoros_required_mutations", f"detected={negatives.get('detected')}/{negatives.get('required')}")
     gate.require(review.get("status") == "PASS" and review.get("total_sampled") == review.get("total_passed") == 229, "comoros_full_review_threshold", f"full review passed={review.get('total_passed')}/{review.get('total_sampled')}")
     for required in ["reports/COMOROS_PRODUCTION_CLOSEOUT.md", "reports/LESSONS_LEARNED_COMOROS.md", "reports/EXPANSION_LESSONS.md", "reports/NEXT_COUNTRY_DECISION.md"]:
         gate.require((ROOT / required).is_file(), "artifact_" + Path(required).stem.lower(), f"{required} exists")

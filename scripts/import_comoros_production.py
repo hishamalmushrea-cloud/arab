@@ -51,13 +51,13 @@ def depth_items(dd):
   if p.get('phrases'):payload['phrases']=p['phrases']
   C2.append(clm('dialect|'+p['variety'],'ENT-KM-COUNTRY','dialect_profile',payload,src,f"لهجة/معجم: {p['variety']} — {p['group']}",'regional' if p['island']!=None else 'local','وصف لهجي مصنَّف؛ التصنيف إلى مجموعتين شرقية وغربية من المرآة، والمفردات بمعانيها ولا تُنسب إلى مقام.',second=DS[p['vocabulary_source']] if p.get('vocabulary_source') else None,second_loc=('مجموعة تعليمية للعبارات بمعانيها' if p.get('vocabulary_source') else None)))
  for x in dd['dishes']:
-  C2.append(clm('dish|'+x['name'],'ENT-KM-COUNTRY','food_dish',{'name':x['name'],'description':x['desc']},DS[x['source']],f"طبق قمري: {x['name']}",x['classification'],'معرفة طعام محلية مصنَّفة وغير منشورة؛ تُفصل عن عنصر اليونسكو العام.',second=DS[x['second']] if x.get('second') else None))
+  C2.append(clm('dish|'+x['name'],'ENT-KM-COUNTRY','food_dish',{'name':x['name'],'description':x['desc']},DS[x['source']],f"طبق قمري: {x['name']}",x['classification'],'معرفة طعام محلية مصنَّفة وغير منشورة؛ تُفصل عن عنصر اليونسكو العام.',second=DS[x['second']] if x.get('second') else None,second_loc=x.get('second_locator')))
  for x in dd['dress']:
-  C2.append(clm('dress|'+x['name'],'ENT-KM-COUNTRY','clothing_item',{'name':x['name'],'gender':x['gender'],'description':x['desc']},DS[x['source']],f"زي قمري: {x['name']}",x['classification'],'وصف لباس محلي مصنَّف وغير منشور.',second=DS[x['second']] if x.get('second') else None))
+  C2.append(clm('dress|'+x['name'],'ENT-KM-COUNTRY','clothing_item',{'name':x['name'],'gender':x['gender'],'description':x['desc']},DS[x['source']],f"زي قمري: {x['name']}",x['classification'],'وصف لباس محلي مصنَّف وغير منشور.',second=DS[x['second']] if x.get('second') else None,second_loc=x.get('second_locator')))
  for x in dd['crafts']:
   C2.append(clm('craft|'+x['name'],'ENT-KM-COUNTRY','craft_custom',{'name':x['name'],'description':x['desc']},DS[x['source']],f"حرفة/اقتصاد ثقافي: {x['name']}",x['classification'],'حرفة واقتصاد ثقافي من مرآة محلية؛ يُعرض وصفًا لا إحصاءً مؤرخًا.'))
  for x in dd['customs']:
-  C2.append(clm('custom|'+x['name'],'ENT-KM-COUNTRY','custom_practice',{'name':x['name'],'description':x['desc']},DS[x['source']],f"عرف محلي: {x['name']}",x['classification'],'عرف اجتماعي محلي مصنَّف وغير منشور؛ يُفصل عن عنصر الزفّة المسجَّل عند اليونسكو ولا يُساوى به.',second=DS[x['second']] if x.get('second') else None))
+  C2.append(clm('custom|'+x['name'],'ENT-KM-COUNTRY','custom_practice',{'name':x['name'],'description':x['desc']},DS[x['source']],f"عرف محلي: {x['name']}",x['classification'],'عرف اجتماعي محلي مصنَّف وغير منشور؛ يُفصل عن عنصر الزفّة المسجَّل عند اليونسكو ولا يُساوى به.',second=DS[x['second']] if x.get('second') else None,second_loc=x.get('second_locator')))
  return E2,R2,C2
 def depth_layers():
  return [{'layer':'unesco_intangible_heritage','entity_types':['cultural_site'],'local_names':['عنصر تراث غير مادي'],'authority_name':'UNESCO Intangible Cultural Heritage','denominator':1,'denominator_id':None,'coverage_record_id':None,'snapshot_date':DDATE,'source_ids':[DS['ich']],'license':ILOC,'scope_status':'closed','notes':'العنصر الوحيد المدرج لجزر القمر (زفّة العرس التقليدي 02283) ملف بتقديم سبع دول، وقائمته هي مقامه بلا سجل تغطية.','special_cases':['كل عنصر قمري حالي ملف متعدد الدول: التصنيف يبقى shared ولا تُدَّعى حصرية.']},

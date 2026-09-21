@@ -1,6 +1,6 @@
 {
   "country_code": "KM",
-  "detected": 34,
+  "detected": 36,
   "mutations": [
     {
       "detected": true,
@@ -144,6 +144,16 @@
     },
     {
       "detected": true,
+      "expected_code": "KM_SECOND_SOURCE_PAIR",
+      "mutation": "KM_SECOND_SOURCE_LOCATOR_LOST"
+    },
+    {
+      "detected": true,
+      "expected_code": "KM_SECOND_SOURCE_PAIR",
+      "mutation": "KM_SECOND_SOURCE_LOCATOR_ONLY"
+    },
+    {
+      "detected": true,
       "expected_code": "KM_WHC_EXTRA",
       "mutation": "KM_WHC_AREA_TAMPER"
     },
@@ -173,7 +183,7 @@
       "mutation": "KM_MEDINA_LAYER_DENOMINATOR"
     }
   ],
-  "required": 34,
+  "required": 36,
   "schema_version": "2.0.0",
   "status": "PASS"
 }

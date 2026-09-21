@@ -8,7 +8,7 @@
     "claims": {
       "claims": 2700,
       "sourced": 2700,
-      "status": "fail"
+      "status": "pass"
     },
     "coordinates": {
       "coordinate_records": 2746,
@@ -134,37 +134,6 @@
     "snapshots": 28,
     "sources": 217
   },
-  "errors": [
-    {
-      "check": "claims",
-      "location": "CLM-KM-DEPTH-08CABA1B39D95289",
-      "message": "second source and second source locator must occur together"
-    },
-    {
-      "check": "claims",
-      "location": "CLM-KM-DEPTH-7478CFBE197656C7",
-      "message": "second source and second source locator must occur together"
-    },
-    {
-      "check": "claims",
-      "location": "CLM-KM-DEPTH-B1FADCA321CC5CF6",
-      "message": "second source and second source locator must occur together"
-    },
-    {
-      "check": "claims",
-      "location": "CLM-KM-DEPTH-CE46475C34CC55E5",
-      "message": "second source and second source locator must occur together"
-    },
-    {
-      "check": "claims",
-      "location": "CLM-KM-DEPTH-DC6D90BCA2495E83",
-      "message": "second source and second source locator must occur together"
-    },
-    {
-      "check": "claims",
-      "location": "CLM-KM-DEPTH-FFC98C79BABD53F0",
-      "message": "second source and second source locator must occur together"
-    }
-  ],
-  "status": "fail"
+  "errors": [],
+  "status": "pass"
 }

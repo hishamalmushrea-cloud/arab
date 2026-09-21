@@ -58288,7 +58288,7 @@
       "published": false,
       "schema_version": "2.0.0",
       "second_source_id": "SRC-KM-CULTURE-ALAYYAM-2024",
-      "second_source_locator": null,
+      "second_source_locator": "«المسلمون في جزر القمر»: التشيروماني قطعة قماش تُلفّ في المناسبات",
       "sensitivity": "ordinary",
       "source_id": "SRC-KM-CULTURE-RASEEF22-2023",
       "source_locator": "زي قمري: الشيروماني",
@@ -58606,7 +58606,7 @@
       "published": false,
       "schema_version": "2.0.0",
       "second_source_id": "SRC-KM-CUISINE-MIRROR-2026",
-      "second_source_locator": null,
+      "second_source_locator": "«مطبخ قمري»: متسولولا والماتافا",
       "sensitivity": "ordinary",
       "source_id": "SRC-KM-CULTURE-RASEEF22-2023",
       "source_locator": "طبق قمري: تسولولا",
@@ -58932,7 +58932,7 @@
       "published": false,
       "schema_version": "2.0.0",
       "second_source_id": "SRC-KM-CUSTOM-JAZEERA-2025",
-      "second_source_locator": null,
+      "second_source_locator": "«الزواج الكبير في جزر القمر»: مجلس الذكر والوفود والدف",
       "sensitivity": "ordinary",
       "source_id": "SRC-KM-CUSTOM-MIDAD-2016",
       "source_locator": "عرف محلي: مجلس الذكر في الأعراس والمناسبات",
@@ -59049,7 +59049,7 @@
       "published": false,
       "schema_version": "2.0.0",
       "second_source_id": "SRC-KM-FOOD-TRAVEL-2021",
-      "second_source_locator": null,
+      "second_source_locator": "«أفضل أكلات جزر القمر»: جراد البحر (اللانغوست) بالفانيليا",
       "sensitivity": "ordinary",
       "source_id": "SRC-KM-FOOD-YOUM7-2022",
       "source_locator": "طبق قمري: لانغوست بالفانيليا",
@@ -59109,7 +59109,7 @@
       "published": false,
       "schema_version": "2.0.0",
       "second_source_id": "SRC-KM-CULTURE-RASEEF22-2023",
-      "second_source_locator": null,
+      "second_source_locator": "«ما لا يحدث إلا في جزر القمر»: مجلس الذكر والمهر وأوكومبي",
       "sensitivity": "ordinary",
       "source_id": "SRC-KM-CUSTOM-JAZEERA-2025",
       "source_locator": "عرف محلي: الزواج الكبير (زواج العادة)",
@@ -59352,7 +59352,7 @@
       "published": false,
       "schema_version": "2.0.0",
       "second_source_id": "SRC-KM-FOOD-YOUM7-2022",
-      "second_source_locator": null,
+      "second_source_locator": "«أشهر 7 أكلات شعبية في جزر القمر»: مكاترا فطرة مع القهوة العربية",
       "sensitivity": "ordinary",
       "source_id": "SRC-KM-FOOD-TRAVEL-2021",
       "source_locator": "طبق قمري: مكاترا فوترا",
@@ -355687,7 +355687,7 @@
     },
     {
       "captured_at": "2026-08-17",
-      "checksum": "sha256:c09bf16b2ece815fdad4c32a73d3f2a995f9967e72e98bb9e922038ffa4a6ddb",
+      "checksum": "sha256:f787fe2d5aec59444e9d851fb2ce3babc044785478177fdfe86544874d57b39b",
       "id": "SNP-KM-PRODUCTION-20260817",
       "method": "Checksum-bound law/INSEED/UNESCO reconciliation.",
       "notes": "Mayotte excluded from current administration; claimed scope not modeled as current.",
@@ -357244,7 +357244,7 @@
     },
     {
       "archive_url": null,
-      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
       "country_codes": [
         "KM"
       ],
@@ -357264,7 +357264,7 @@
     },
     {
       "archive_url": null,
-      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
       "country_codes": [
         "KM"
       ],
@@ -357284,7 +357284,7 @@
     },
     {
       "archive_url": null,
-      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
       "country_codes": [
         "KM"
       ],
@@ -357304,7 +357304,7 @@
     },
     {
       "archive_url": null,
-      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
       "country_codes": [
         "KM"
       ],
@@ -357324,7 +357324,7 @@
     },
     {
       "archive_url": null,
-      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
       "country_codes": [
         "KM"
       ],
@@ -357344,7 +357344,7 @@
     },
     {
       "archive_url": null,
-      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
       "country_codes": [
         "KM"
       ],
@@ -357364,7 +357364,7 @@
     },
     {
       "archive_url": null,
-      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
       "country_codes": [
         "KM"
       ],
@@ -357384,7 +357384,7 @@
     },
     {
       "archive_url": null,
-      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
       "country_codes": [
         "KM"
       ],
@@ -357404,7 +357404,7 @@
     },
     {
       "archive_url": null,
-      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
       "country_codes": [
         "KM"
       ],
@@ -357424,7 +357424,7 @@
     },
     {
       "archive_url": null,
-      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
       "country_codes": [
         "KM"
       ],
@@ -357464,7 +357464,7 @@
     },
     {
       "archive_url": null,
-      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
       "country_codes": [
         "KM"
       ],
@@ -357484,7 +357484,7 @@
     },
     {
       "archive_url": null,
-      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
       "country_codes": [
         "KM"
       ],
@@ -357524,7 +357524,7 @@
     },
     {
       "archive_url": null,
-      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
       "country_codes": [
         "KM"
       ],
@@ -357544,7 +357544,7 @@
     },
     {
       "archive_url": null,
-      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
       "country_codes": [
         "KM"
       ],
@@ -359476,7 +359476,7 @@
     },
     {
       "archive_url": null,
-      "checksum": "sha256:b4c174d2d277569da05108b14544cea2731b692846a6988d285e25f31f49f7b4",
+      "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
       "country_codes": [
         "KM"
       ],

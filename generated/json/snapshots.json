@@ -78,7 +78,7 @@
   },
   {
     "captured_at": "2026-08-17",
-    "checksum": "sha256:c09bf16b2ece815fdad4c32a73d3f2a995f9967e72e98bb9e922038ffa4a6ddb",
+    "checksum": "sha256:f787fe2d5aec59444e9d851fb2ce3babc044785478177fdfe86544874d57b39b",
     "id": "SNP-KM-PRODUCTION-20260817",
     "method": "Checksum-bound law/INSEED/UNESCO reconciliation.",
     "notes": "Mayotte excluded from current administration; claimed scope not modeled as current.",

@@ -67,6 +67,8 @@ def main():
     r("KM_WEAK_DEPTH_PUBLISHED", lambda d: depth(d, "food_dish", name="مكاترا فوترا").update(published=True), "KM_WEAK_DEPTH_PUBLISHED")
     r("KM_DIALECT_PROMOTED", lambda d: depth(d, "dialect_profile", name="شينجازيجا").update(verification_status="verified"), "KM_WEAK_DEPTH_CAP")
     r("KM_DIALECT_WITHOUT_GLOSS", lambda d: depth(d, "dialect_profile", name="المفردات")["value"]["data"].__setitem__("phrases", [["Eledzina lahaho ndo?"]]), "KM_DIALECT_GLOSS")
+    r("KM_SECOND_SOURCE_LOCATOR_LOST", lambda d: depth(d, "food_dish", name="مكاترا فوترا").update(second_source_locator=None), "KM_SECOND_SOURCE_PAIR")
+    r("KM_SECOND_SOURCE_LOCATOR_ONLY", lambda d: depth(d, "custom_practice", name="الزواج الكبير").update(second_source_id=None), "KM_SECOND_SOURCE_PAIR")
     r("KM_WHC_AREA_TAMPER", lambda d: depth(d, "world_heritage_area_hectares").update(value={"type": "number", "data": 30.5}), "KM_WHC_EXTRA")
     r("KM_COMPONENT_NAMES_PUBLISHED", lambda d: depth(d, "serial_component_names").update(published=True, verification_status="verified"), "KM_WHC_EXTRA")
     r("KM_SOURCE_TIER_INFLATION", lambda d: next(x for x in d["sources"] if x["id"] == "SRC-KM-VOCAB-QUIZLET-2016").update(quality_tier="A"), "KM_SOURCES")

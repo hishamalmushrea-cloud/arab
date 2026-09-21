@@ -95,6 +95,8 @@ def validate(d):
     for c in C:
         if not c.get("source_id") or not c.get("source_locator"):
             x("KM_CLAIM_SOURCE", c["id"], "claim without source or locator")
+        if bool(c.get("second_source_id")) != bool(c.get("second_source_locator")):
+            x("KM_SECOND_SOURCE_PAIR", c["id"], "a second source must be cited with its own locator, and a locator never stands alone")
         if c.get("published") and tiers.get(c.get("source_id")) not in {"A", "B"}:
             x("KM_PUBLISHED_FROM_WEAK", c["id"], "published claim must rest on an A/B source")
         if c.get("published") and c.get("verification_status") not in {"verified", "source_verified"}:
