@@ -17,8 +17,8 @@
       "status": "pass"
     },
     "bahrain_clean_worktree": {
-      "detail": "git worktree clean=True",
-      "status": "pass"
+      "detail": "git worktree clean=False",
+      "status": "fail"
     },
     "bahrain_findings_closed": {
       "detail": "status=PASS, P0=0, critical P1=0",
@@ -110,8 +110,10 @@
     }
   },
   "country_code": "BH",
-  "errors": [],
+  "errors": [
+    "bahrain_clean_worktree: git worktree clean=False"
+  ],
   "schema_version": "2.0.0",
   "snapshot_date": "2026-08-16",
-  "status": "pass"
+  "status": "fail"
 }
