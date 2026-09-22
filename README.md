@@ -1,9 +1,15 @@
-# arab
+# 🌟 arab
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/hishamalmushrea-cloud/arab?style=social)](https://github.com/hishamalmushrea-cloud/arab)
-[![GitHub](https://img.shields.io/github/license/hishamalmushrea-cloud/arab)](https://github.com/hishamalmushrea-cloud/arab/blob/main/LICENSE)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html3&logoColor=white) ![Repo Size](https://img.shields.io/github/repo-size/hishamalmushrea-cloud/arab?style=for-the-badge) ![Issues](https://img.shields.io/github/issues/hishamalmushrea-cloud/arab?style=for-the-badge) ![Last Commit](https://img.shields.io/github/last-commit/hishamalmushrea-cloud/arab?style=for-the-badge) [![License](https://img.shields.io/github/license/hishamalmushrea-cloud/arab?style=for-the-badge)](https://github.com/hishamalmushrea-cloud/arab/blob/main/LICENSE)
+
+## 📖 About this Project
+Welcome to the arab repository!
+
+## 🚀 Tech Stack
+- **Primary Language:** HTML
+
+## 🔗 Connect & Support
 [![Trendshift](https://trendshift.io/api/badge/repositories/4119)](https://trendshift.io/)
-[![Docs Website](https://img.shields.io/badge/Docs-Website-blue?style=for-the-badge&logo=readthedocs)](https://github.com/hishamalmushrea-cloud/arab)
 [![Discord](https://img.shields.io/badge/Discord-Join%20Us-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/)
 [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/hishamalmushrea-cloud?style=social)](https://x.com/hishamalmushrea-cloud)
 
