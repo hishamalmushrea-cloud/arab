@@ -1,3 +1,14 @@
+# arab
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/hishamalmushrea-cloud/arab?style=social)](https://github.com/hishamalmushrea-cloud/arab)
+[![GitHub](https://img.shields.io/github/license/hishamalmushrea-cloud/arab)](https://github.com/hishamalmushrea-cloud/arab/blob/main/LICENSE)
+[![Trendshift](https://trendshift.io/api/badge/repositories/4119)](https://trendshift.io/)
+[![Docs Website](https://img.shields.io/badge/Docs-Website-blue?style=for-the-badge&logo=readthedocs)](https://github.com/hishamalmushrea-cloud/arab)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Us-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/)
+[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/hishamalmushrea-cloud?style=social)](https://x.com/hishamalmushrea-cloud)
+
+---
+
 # مشروع «العرب» — بيانات جغرافية وثقافية موثّقة
 
 هذا المستودع يجمع موادًا عربية عن 22 دولة، لكنه **ليس فهرسًا مكتملًا للأماكن**.
