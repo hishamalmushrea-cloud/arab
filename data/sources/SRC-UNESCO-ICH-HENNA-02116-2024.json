@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+  "country_codes": [
+    "MR"
+  ],
+  "id": "SRC-UNESCO-ICH-HENNA-02116-2024",
+  "language": "en",
+  "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+  "locator": "عنصر 02116؛ إدراج 2024 (19.COM)؛ ست عشرة دولة منها موريتانيا",
+  "notes": "صفحة العنصر قُرئت 2026-09-21: شجرة الحناء وعجينتها واستعمالاتها ومرافقاتها الشفهية. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "UNESCO Intangible Cultural Heritage",
+  "quality_tier": "A",
+  "retrieved_at": "2026-09-21",
+  "schema_version": "2.0.0",
+  "source_type": "institutional_page",
+  "title": "Henna: rituals, aesthetic and social practices",
+  "url": "https://ich.unesco.org/en/RL/henna-rituals-aesthetic-and-social-practices-02116"
+}

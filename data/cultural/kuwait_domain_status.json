@@ -1,21 +1,39 @@
 {
   "country_code": "KW",
   "domains": {
-    "custom": {
-      "claims": 0,
-      "status": "not_documented_in_cycle"
+    "cuisine": {
+      "claims": 17,
+      "status": "documented_local_reported_unpublished"
     },
     "dialect": {
-      "claims": 0,
-      "status": "not_documented_in_cycle"
+      "claims": 5,
+      "status": "documented_local_reported_unpublished"
     },
     "dress": {
-      "claims": 0,
-      "status": "not_documented_in_cycle"
+      "claims": 7,
+      "status": "documented_local_reported_unpublished"
     },
-    "food": {
-      "claims": 0,
-      "status": "not_documented_in_cycle"
+    "historic_city_quarters": {
+      "denominator": null,
+      "entities": 17,
+      "status": "documented_historical_places_no_denominator"
+    },
+    "intangible_cultural_heritage": {
+      "claims": 7,
+      "elements": [
+        "السدو",
+        "البشت",
+        "الديوانية",
+        "الحناء",
+        "نخيل التمر",
+        "الخط العربي",
+        "برنامج السدو التعليمي"
+      ],
+      "status": "documented_published_unesco"
+    },
+    "languages": {
+      "claims": 2,
+      "status": "documented_probable_and_local_reported_unpublished"
     },
     "world_heritage": {
       "claims": 0,
@@ -24,7 +42,7 @@
       "tentative_list_sites": 6
     }
   },
-  "notes": "Zero inscribed World Heritage properties is not cultural absence. No template claims invented.",
+  "notes": "UNESCO elements are published; weak-source cultural domains stay labelled and unpublished; the historic firjan layer is bounded and carries no percentage.",
   "schema_version": "2.0.0",
-  "snapshot_date": "2026-08-16"
+  "snapshot_date": "2026-09-20"
 }

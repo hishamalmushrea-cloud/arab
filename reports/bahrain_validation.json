@@ -3,23 +3,28 @@
   "critical_p1": 0,
   "errors": [],
   "metrics": {
-    "ab_claims": 13,
+    "ab_claims": 18,
     "aliases": 7,
-    "claims": 13,
+    "claims": 56,
     "coverage_records": 3,
     "denominators": 3,
+    "depth_claims": 43,
+    "depth_places": 24,
     "dialect_claims": 0,
-    "entities": 8,
+    "entities": 32,
     "entity_types": {
       "archaeological_site": 2,
       "bh_governorate": 4,
+      "city": 1,
       "country": 1,
-      "cultural_site": 1
+      "cultural_site": 1,
+      "quarter": 14,
+      "village": 9
     },
-    "new_entities": 7,
-    "published_claims": 13,
-    "relationships": 7,
-    "sources": 7
+    "new_entities": 31,
+    "published_claims": 18,
+    "relationships": 31,
+    "sources": 17
   },
   "p0": 0,
   "schema_version": "2.0.0",

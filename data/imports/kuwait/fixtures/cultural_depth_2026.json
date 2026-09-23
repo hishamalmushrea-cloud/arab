@@ -1,0 +1,506 @@
+{
+  "captured_at": "2026-09-20",
+  "country_code": "KW",
+  "dialect_profiles": [
+    {
+      "features": [
+        "تصنيف بحثي إلى ست لهجات محلية مرتبطة بالمواضع لا بتراتب إداري.",
+        "مفردات حضرية مميزة في الشارع الكويتي."
+      ],
+      "group": "الكويتية الحضرية",
+      "researcher": "خالد الرشيد — موسوعة اللهجة الكويتية",
+      "scope": "حضر مدينة الكويت والمناطق الحضرية",
+      "sub_varieties": [
+        "جبلة (أو قبلة)",
+        "شرق",
+        "فيلكا",
+        "الجهراء",
+        "الفنطاس",
+        "الدمنة (العوازم)"
+      ],
+      "words": [
+        [
+          "أبي",
+          "أريد"
+        ],
+        [
+          "أكو",
+          "يوجد"
+        ],
+        [
+          "ماكو",
+          "لا يوجد"
+        ],
+        [
+          "سيدة",
+          "إلى الأمام"
+        ],
+        [
+          "جدام",
+          "أمام"
+        ],
+        [
+          "صكر",
+          "أغلق"
+        ],
+        [
+          "بطّل",
+          "افتح"
+        ],
+        [
+          "فچ",
+          "افتح"
+        ],
+        [
+          "حدر",
+          "أسفل"
+        ],
+        [
+          "صج",
+          "حقًا"
+        ],
+        [
+          "حلو",
+          "جميل، رائع"
+        ],
+        [
+          "دقّوس",
+          "شطة"
+        ],
+        [
+          "هقوتي",
+          "أظن"
+        ]
+      ]
+    },
+    {
+      "features": [
+        "قاف منطوقة گ في كلام كثير من المتحدثين (گال، گمر).",
+        "معجم رعوي متميز عن الحضري."
+      ],
+      "group": "الكويتية البدوية",
+      "scope": "مجتمعات بادية الكويت",
+      "words": [
+        [
+          "نط",
+          "اقفز"
+        ],
+        [
+          "انقز",
+          "اقفز"
+        ],
+        [
+          "هقوتي",
+          "أظن"
+        ]
+      ]
+    },
+    {
+      "features": [
+        "معجم ملاحي ودخيل إنجليزي وهندي من أسفار الموانئ.",
+        "مرساة في مهن الغوص والملاحة لا في أحياء حضرية فقط."
+      ],
+      "group": "الكويتية البحرية",
+      "scope": "البحّارة والنواخذة وأحياء الساحل",
+      "words": [
+        [
+          "قلاص",
+          "كوب زجاجي (من الإنجليزية Glass)"
+        ]
+      ]
+    },
+    {
+      "features": [
+        "كاف إلى چ: فيلكا←فيلچه، سمك←سمچ، كلب←چلب.",
+        "قاف إلى گ أحيانًا: قهوة←گهوة، قال←گال، قمر←گمر.",
+        "قاف إلى ج أحيانًا: قبلة←جبلة، طريق←طريج."
+      ],
+      "group": "الظواهر الصوتية",
+      "scope": "فونولوجيا اللهجة الكويتية",
+      "words": []
+    },
+    {
+      "features": [
+        "فارسية وتركية وهندية وإنجليزية بفعل التجارة والجوار.",
+        "الدخيل يفسّر بمصدره لا بادعاء أصل عربي."
+      ],
+      "group": "المفردات الدخيلة",
+      "scope": "معجم الكويت الدخيل",
+      "words": [
+        [
+          "خوش",
+          "طيب، حسن (فارسية مشتركة مع التركية والكردية)"
+        ],
+        [
+          "دروازة",
+          "بوابة"
+        ],
+        [
+          "قوطي",
+          "علبة صفيح (تركية)"
+        ],
+        [
+          "كندرة",
+          "حذاء (تركية)"
+        ],
+        [
+          "سرسري",
+          "عاطل عن العمل (تركية)"
+        ],
+        [
+          "طشت",
+          "إناء الغسيل (فارسية)"
+        ],
+        [
+          "طربال",
+          "شراع (فارسية)"
+        ],
+        [
+          "غرشة",
+          "جرة ماء (فارسية)"
+        ],
+        [
+          "قفشة/خاشوقة",
+          "ملعقة"
+        ]
+      ]
+    }
+  ],
+  "dishes": [
+    {
+      "classification": "shared",
+      "desc": "الأرز المطبوخ مع اللحم أو الدجاج، وهو الاسم الخليجي الشرقي للمجبوس المعروف عربيًا بأسماء أخرى.",
+      "name": "مجبوس",
+      "occasion": "الغداء اليومي والولائم"
+    },
+    {
+      "classification": "shared",
+      "desc": "عجين مسلوق مع اللحم والخضار؛ طبق خليجي مشترك.",
+      "name": "مرقوق",
+      "occasion": "الغداء العائلي"
+    },
+    {
+      "classification": "shared",
+      "desc": "حب مقهور بالسمن مع اللحم، من أطباق المناسبات، ويتقاسمه الخليج العربي.",
+      "name": "هريس",
+      "occasion": "رمضان والمناسبات"
+    },
+    {
+      "classification": "shared",
+      "desc": "قمح منهش مطبوخ؛ طبق خليجي مشترك بصيغ محلية.",
+      "name": "جريش",
+      "occasion": "الغداء الشتوي"
+    },
+    {
+      "classification": "shared",
+      "desc": "خبز مفتّت بمرق اللحم؛ صيغة محلية لطبق التشريب المنتشر في المشرق والخليج.",
+      "name": "تشريبة",
+      "occasion": "الغداء اليومي"
+    },
+    {
+      "classification": "local",
+      "desc": "سمك زبيدي مطبوخ على شكل مطبق.",
+      "name": "مطبق زبيدي",
+      "occasion": "الغداء"
+    },
+    {
+      "classification": "local",
+      "desc": "عجين محشي بالبصل والفلفل الأسود، مطبوخ بالصلصة مع اللحم.",
+      "name": "قبوط",
+      "occasion": "الغداء"
+    },
+    {
+      "classification": "local",
+      "desc": "خبز مقطع صغيرًا، مطبوخ بالصلصة مع البطاط والباذنجان.",
+      "name": "محروق صبعه",
+      "occasion": "الغداء والعشاء"
+    },
+    {
+      "classification": "local",
+      "desc": "رز مطبوخ مع عدس أخضر (ماش).",
+      "name": "مموش",
+      "occasion": "الغداء"
+    },
+    {
+      "classification": "local",
+      "desc": "رز مطبوخ مع عدس أصفر.",
+      "name": "معدس",
+      "occasion": "الغداء"
+    },
+    {
+      "classification": "local",
+      "desc": "رز مع ربيان طازج أو يابس.",
+      "name": "مربين",
+      "occasion": "الغداء"
+    },
+    {
+      "classification": "local",
+      "desc": "رز مع سمك قرش صغير.",
+      "name": "ميدم",
+      "occasion": "الغداء"
+    },
+    {
+      "classification": "local",
+      "desc": "طبق كويتي من الأرز أو المعكرونة مع اللحم والخضار.",
+      "name": "حمسة",
+      "occasion": "الغداء"
+    },
+    {
+      "classification": "popular",
+      "desc": "طحين مطبوخ مع السمن والسكر.",
+      "name": "عصيدة",
+      "occasion": "حلويات وحلوى المناسبات"
+    },
+    {
+      "classification": "local",
+      "desc": "شعرية مطبوخة مع السكر والزعفران.",
+      "name": "بلاليط",
+      "occasion": "حلوى"
+    },
+    {
+      "classification": "local",
+      "desc": "حلوى كويتية من العجين المقلي المغطى بالسكر.",
+      "name": "درابيل",
+      "occasion": "رطب وحلوى"
+    },
+    {
+      "classification": "shared",
+      "desc": "كرات عجين مقلية بالسكر؛ حلوى رمضانية مشتركة.",
+      "name": "القيمات (لقيمات)",
+      "occasion": "رمضان"
+    }
+  ],
+  "dress": [
+    {
+      "classification": "national",
+      "desc": "ثوب طويل بأكمام، منه شتوي يسمى مقطع أو ألقاط، ويُلبس معه سروال قطني أبيض أحيانًا.",
+      "gender": "رجال",
+      "name": "الدشداشة"
+    },
+    {
+      "classification": "shared",
+      "desc": "غطاء الرأس الرجالي الخليجي بصوره اليومية.",
+      "gender": "رجال",
+      "name": "الغترة والعقال"
+    },
+    {
+      "classification": "national",
+      "desc": "الثوب الطويل بأكمام طويلة، الزي النسائي الكويتي الأساسي قبل النفنوف، بأنواع أسمتها الرواية المحلية: طرف وعصا، أم سعفة، مدسسة، مرقعة، مخورة، مزرية، زري.",
+      "gender": "نساء",
+      "name": "الدراعة"
+    },
+    {
+      "classification": "local",
+      "desc": "ثوب نسائي ظهر من أواخر الثلاثينيات، بأنواع مثل نفنوف زم وصدروكسرات وبوقايش وبوفرة وكلوش.",
+      "gender": "نساء",
+      "name": "النفنوف"
+    },
+    {
+      "classification": "local",
+      "desc": "غطاء رأس أسود خفيف يُطوى من منتصفه، بأنواع يومية (شاش، تور، كريب، جرجيس) وزخرفية (مرضوف تلي، صخيف، متيل، جز هندي، بخنق زري).",
+      "gender": "فتيات ونساء",
+      "name": "البخنق"
+    },
+    {
+      "classification": "local",
+      "desc": "قماش أسود خفيف تخفي به المرأة وجهها، منه بسيط بلا زخرفة (جرجيس عادية) ومنه مزخرف (تور، أم طبقتين، أم قيطان، أم زنجيل).",
+      "gender": "نساء",
+      "name": "البوشية"
+    }
+  ],
+  "ich_elements": [
+    {
+      "classification": "shared",
+      "description": "نسيج بدوي تقليدي بزخارف هندسية، مدرج باسم الكويت في القائمة التمثيلية في دورة 2025؛ عنصر خليجي مشترك لا حصرية لأي دولة.",
+      "list": "representative",
+      "name": "السدو",
+      "official_title": "Traditional weaving of Al Sadu",
+      "predicate": "craft_custom",
+      "reference": "02158",
+      "year": 2025
+    },
+    {
+      "classification": "shared",
+      "description": "مهارات وممارسات العباءة الرجالية (البشت)؛ ملف خليجي مشترك، والكويت من الدول المقدِّمة.",
+      "list": "representative",
+      "name": "البشت",
+      "official_title": "Bisht (men's Abaa): skills and practices",
+      "predicate": "clothing_item",
+      "reference": "02233",
+      "year": 2025
+    },
+    {
+      "classification": "national",
+      "description": "فضاء اجتماعي للالتقاء والحديث ومكانة محورية في نقل القيم؛ دخلت الديوانيات النسائية المجال حديثًا؛ عنصر مدرج باسم الكويت.",
+      "list": "representative",
+      "name": "الديوانية",
+      "official_title": "The Diwaniya, a unifying cultural practice in Kuwait",
+      "predicate": "intangible_cultural_practice",
+      "reference": "02281",
+      "year": 2025
+    },
+    {
+      "classification": "shared",
+      "description": "طقوس الحناء وممارساتها الجمالية والاجتماعية؛ عنصر مشترك بين دول عربية.",
+      "list": "representative",
+      "name": "الحناء",
+      "official_title": "Henna: rituals, aesthetic and social practices",
+      "predicate": "custom_practice",
+      "reference": "02116",
+      "year": 2024
+    },
+    {
+      "classification": "shared",
+      "description": "معارف ومهارات وتقاليد نخيل التمر؛ ملف عربي مشترك.",
+      "list": "representative",
+      "name": "نخيل التمر",
+      "official_title": "Date palm, knowledge, skills, traditions and practices",
+      "predicate": "intangible_cultural_practice",
+      "reference": "01902",
+      "year": 2022
+    },
+    {
+      "classification": "shared",
+      "description": "معارف ومهارات الخط العربي؛ ملف مشترك بين دول عربية.",
+      "list": "representative",
+      "name": "الخط العربي",
+      "official_title": "Arabic calligraphy: knowledge, skills and practices",
+      "predicate": "craft_custom",
+      "reference": "01718",
+      "year": 2021
+    },
+    {
+      "classification": "national",
+      "description": "برنامج وطني لنقل حرفة السدو وتدريب المدرّبين، مدرج في سجل الممارسات الجيدة في الصون.",
+      "list": "good_safeguarding_practice",
+      "name": "برنامج السدو التعليمي",
+      "official_title": "Al Sadu Educational Programme: Train the trainers in the art of weaving",
+      "predicate": "intangible_cultural_practice",
+      "reference": "01905",
+      "year": 2022
+    }
+  ],
+  "non_arabic_languages": [
+    {
+      "description": "لغة إشارة يستخدمها الصم في الكويت، متفرعة من أسرة لغة الإشارة العربية، ولها رمز ISO 639-3: lbs.",
+      "name": "لغة الإشارة الكويتية",
+      "status": "probable"
+    },
+    {
+      "description": "حضور لغوي مرتبط بمجتمع العيم في الكويت وله أثر معجمي موثق على اللهجة الكويتية؛ لا يتوفر عدد متحدثين رسمي منشور.",
+      "name": "الفارسية (العيمية)",
+      "status": "local_reported"
+    }
+  ],
+  "note": "Kuwait depth cycle 1 under Maximum Arabic Knowledge Coverage: UNESCO ICH elements published as verified (السدو، البشت، الديوانية، الحناء، النخيل، الخط العربي، برنامج السدو التعليمي); dialect, cuisine, dress, and old-city firjan enter as classified unpublished claims; the four historic quarters of Kuwait City and a bounded set of فرجان enter as historical places with located_in only, never as administrative tiers and never with an invented denominator.",
+  "quarters": {
+    "city_quarters": [
+      {
+        "name": "شرق",
+        "note": "أحد أحياء مدينة الكويت القديمة الأربعة في الرواية التراثية."
+      },
+      {
+        "name": "الوسط",
+        "note": "أحد أحياء مدينة الكويت القديمة الأربعة في الرواية التراثية."
+      },
+      {
+        "name": "جبلة",
+        "note": "أحد أحياء مدينة الكويت القديمة الأربعة؛ يُعرف كذلك بالقبلة."
+      },
+      {
+        "name": "المرقاب",
+        "note": "أحد أحياء مدينة الكويت القديمة الأربعة، وأوسعها مساحة في رواية الموسوعة الكويتية المختصرة."
+      }
+    ],
+    "firjan": [
+      {
+        "name": "فريج المطبة",
+        "note": "من أشهر فرجان الجانب الشرقي، ورجّح الدكتور عبدالله الغنيم تسميته إلى انخفاض أرضه (المطب).",
+        "quarter": "شرق",
+        "source": "quarters_kuna"
+      },
+      {
+        "name": "فريج بورسلي",
+        "quarter": "شرق",
+        "source": "quarters_kuna"
+      },
+      {
+        "name": "فريج القروية",
+        "quarter": "شرق",
+        "source": "quarters_kuna"
+      },
+      {
+        "name": "فريج الزهاميل",
+        "quarter": "شرق",
+        "source": "quarters_kuna"
+      },
+      {
+        "name": "فريج الشملان",
+        "note": "مثال على فريج سُمي نسبة إلى ساكنيه من العائلات الكويتية.",
+        "quarter": "شرق",
+        "source": "quarters_kuna"
+      },
+      {
+        "name": "فريج المطران",
+        "quarter": "المرقاب",
+        "source": "quarters_mirqab"
+      },
+      {
+        "name": "فريج العوازم",
+        "quarter": "المرقاب",
+        "source": "quarters_mirqab"
+      },
+      {
+        "name": "فريج الرشايدة",
+        "quarter": "المرقاب",
+        "source": "quarters_mirqab"
+      },
+      {
+        "name": "فريج بن حمود",
+        "quarter": "المرقاب",
+        "source": "quarters_mirqab"
+      },
+      {
+        "name": "فريج الريش",
+        "quarter": "المرقاب",
+        "source": "quarters_mirqab"
+      },
+      {
+        "name": "فريج الفضالة",
+        "quarter": "المرقاب",
+        "source": "quarters_mirqab"
+      },
+      {
+        "name": "فريج الناصرية",
+        "quarter": "المرقاب",
+        "source": "quarters_mirqab"
+      }
+    ],
+    "narrative": {
+      "classification": "historical",
+      "subject": "فريج المطبة",
+      "text": "رجّح الدكتور عبدالله الغنيم في «جولة في الأمكنة والأزمنة في الكويت قديمًا» أن التسمية مردها إلى انخفاض أرض الفريج فيقال «طبّ فيها»، ووافقه الباحث عبدالله محمد بن ناصر على أن الأرجح انخفاض الأرض."
+    },
+    "sikak": [
+      {
+        "firij": "فريج المطبة",
+        "name": "سكة عنزة",
+        "note": "من أشهر سكيك فريج المطبة؛ والسكة تعني الشارع الداخلي الضيق.",
+        "source": "quarters_kuna"
+      }
+    ],
+    "source": "quarters_kuna",
+    "structure_note": "مدينة الكويت القديمة كانت تنقسم إلى أربعة أحياء رئيسية هي شرق والوسط وجبلة والمرقاب، تتفرع إلى فرجان (مفردها فريج)، ومن الفرجان تتفرع السكيك (مفردها سكة)."
+  },
+  "schema_version": "2.0.0",
+  "sources": {
+    "cuisine_mirror": "https://ar.wikipedia.org/wiki/%D9%85%D8%B7%D8%A8%D8%AE_%D9%83%D9%88%D9%8A%D8%AA%D9%8A",
+    "dialect_loans": "https://www.kuwait-history.net/vb/archive/index.php/t-1909.html",
+    "dialect_mirror": "https://ar.wikipedia.org/wiki/%D9%84%D9%87%D8%AC%D8%A9_%D9%83%D9%88%D9%8A%D8%AA%D9%8A%D8%A9",
+    "dress_heritage": "https://www.kuwait-history.net/vb/archive/index.php/t-6051.html",
+    "quarters_kuna": "https://www.kuna.net.kw/NewsAgenciesPublicsite/ArticleDetails.aspx?id=2607422",
+    "quarters_mirqab": "https://www.kuwait-history.net/vb/archive/index.php/t-13665.html",
+    "sign_language": "https://ar.wikipedia.org/wiki/%D9%84%D8%BA%D8%A9_%D8%A7%D9%84%D8%A5%D8%B4%D8%A7%D8%B1%D8%A9_%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA%D9%8A%D8%A9",
+    "unesco_ich": "https://ich.unesco.org/en/state/kuwait-KW?info=elements-on-the-lists"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+  "country_codes": [
+    "MR"
+  ],
+  "id": "SRC-MR-LANGUAGES-MIRROR-2026",
+  "language": "en",
+  "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+  "locator": "العربية الرسمية؛ اللغات الوطنية: العربية والبولارية والسوننكية والولوفية؛ الحسانية اللغة الدارجة؛ الزناغة والبمبارا والطوارقية والسيريرية أقليات؛ لغة إشارة فرنكوفونية؛ الفرنسية لغة عمل بحكم الأمر الواقع",
+  "notes": "مرآة إنجليزية لخريطة اللغات؛ تُستعمل للتصنيف والحضور فقط، ولا تُسجَّل أعداد المتحدثين ولا نسبها المطبوعة في الصفحة. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "Wikipedia (English mirror)",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-21",
+  "schema_version": "2.0.0",
+  "source_type": "local_website",
+  "title": "Languages of Mauritania",
+  "url": "https://en.wikipedia.org/wiki/Languages_of_Mauritania"
+}

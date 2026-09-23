@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+  "country_codes": [
+    "MR"
+  ],
+  "id": "SRC-MR-NOUAKCHOTT-MIRROR-2026",
+  "language": "ar",
+  "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+  "locator": "اختيار الموقع 1957؛ وضع الحجر الأساس 5 مارس 1958؛ تحوّل من قرية صغيرة تفتقر لمياه جوفية صالحة للشرب؛ موقع 18°6′ شمالًا و15°57′ غربًا",
+  "notes": "مرآة عربية لسياق العاصمة؛ تطبع تقدير سكان 2013 لا يُسجَّل في أي دعوى. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-21",
+  "schema_version": "2.0.0",
+  "source_type": "local_website",
+  "title": "نواكشوط",
+  "url": "https://ar.wikipedia.org/wiki/نواكشوط"
+}

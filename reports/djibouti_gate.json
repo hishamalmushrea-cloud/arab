@@ -33,24 +33,24 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "{\"entities\": 22, \"relationships\": 22, \"claims\": 6, \"sources\": 5}"
+      "stdout": "{\"entities\": 34, \"relationships\": 34, \"claims\": 46, \"depth_claims\": 40, \"places\": 12, \"sources\": 19}"
     },
     "djibouti_independent_review": {
       "command": "python3 scripts/review_djibouti.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "66"
+      "stdout": "144"
     },
     "djibouti_negative_tests": {
       "command": "python3 scripts/test_djibouti_negative.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "[{'mutation': 'DJ_CITY_AS_REGION', 'expected_code': 'DJ_COUNTS', 'detected': True}, {'mutation': 'DJ_COMMUNE_UNDER_REGION', 'expected_code': 'DJ_COMMUNE_PATH', 'detected': True}, {'mutation': 'DJ_SUBPREF_UNDER_CITY', 'expected_code': 'DJ_SUBPREFECTURE_PATH', 'detected': True}, {'mutation': 'DJ_DROP_REGION', 'expected_code': 'DJ_COUNTS', 'detected': True}, {'mutation': 'DJ_POP_TAMPER', 'expected_code': 'DJ_POPULATION', 'detected': True}, {'mutation': 'DJ_POP_TOTAL', 'expected_code': 'DJ_POP_RECONCILIATION', 'detected': True}, {'mutation': 'DJ_FAKE_COMMUNE_COUNT', 'expected_code': 'DJ_DENOMINATORS', 'detected': True}, {'mutation': 'DJ_FAKE_SUBPREF_COUNT', 'expected_code': 'DJ_DENOMINATORS', 'detected': True}]"
+      "stdout": "[PASS] DJ_CITY_AS_REGION -> DJ_COUNTS\n[PASS] DJ_COMMUNE_UNDER_REGION -> DJ_COMMUNE_PATH\n[PASS] DJ_SUBPREF_UNDER_CITY -> DJ_SUBPREFECTURE_PATH\n[PASS] DJ_DROP_REGION -> DJ_COUNTS\n[PASS] DJ_POP_TAMPER -> DJ_POPULATION\n[PASS] DJ_POP_TOTAL -> DJ_POP_RECONCILIATION\n[PASS] DJ_FAKE_COMMUNE_COUNT -> DJ_DENOMINATORS\n[PASS] DJ_FAKE_SUBPREF_COUNT -> DJ_DENOMINATORS\n[PASS] DJ_XEEDHO_NOT_NATIONAL -> DJ_ICH_CONTRACT\n[PASS] DJ_XEEDHO_UNPUBLISHED -> DJ_ICH_CONTRACT\n[PASS] DJ_XEER_AS_NATIONAL -> DJ_ICH_CONTRACT\n[PASS] DJ_ZAFFA_STATES_LOST -> DJ_ICH_CONTRACT\n[PASS] DJ_ICH_WRONG_YEAR -> DJ_ICH_CONTRACT\n[PASS] DJ_CONVENTION_DATE_LOST -> DJ_CONVENTION_CONTRACT\n[PASS] DJ_PENDING_AS_INSCRIBED -> DJ_DEPTH_COUNTS\n[PASS] DJ_PENDING_UNPUBLISHED -> DJ_PENDING_NOMINATION\n[PASS] DJ_CONSTITUTION_ARTICLE_LOST -> DJ_CONSTITUTION_CONTRACT\n[PASS] DJ_CONSTITUTION_UNPUBLISHED -> DJ_CONSTITUTION_CONTRACT\n[PASS] DJ_OFFICIAL_LANGUAGE_UNPUBLISHED -> DJ_LANGUAGE_CONTRACT\n[PASS] DJ_MINORITY_PUBLISHED -> DJ_LANGUAGE_CONTRACT\n[PASS] DJ_ISO_CODE_LOST -> DJ_LANGUAGE_CONTRACT\n[PASS] DJ_ISO_SOURCE_LOST -> DJ_LANGUAGE_CONTRACT\n[PASS] DJ_SIGN_LANGUAGE_ISO_CLAIMED -> DJ_LANGUAGE_CONTRACT\n[PASS] DJ_SIGN_LANGUAGE_PUBLISHED -> DJ_LANGUAGE_CONTRACT\n[PASS] DJ_SPEAKER_SHARE -> DJ_NO_COUNTS\n[PASS] DJ_POPULATION_FIELD_ON_DEPTH -> DJ_NO_COUNTS\n[PASS] DJ_SECOND_SOURCE_LOCATOR_LOST -> DJ_SECOND_SOURCE_PAIR\n[PASS] DJ_SECOND_SOURCE_LOCATOR_ONLY -> DJ_SECOND_SOURCE_PAIR\n[PASS] DJ_WEAK_DEPTH_PUBLISHED -> DJ_WEAK_DEPTH_PUBLISHED\n[PASS] DJ_FOLK_AS_FACT -> DJ_FOLK_NARRATIVE\n[PASS] DJ_FOLK_PUBLISHED -> DJ_FOLK_NARRATIVE\n[PASS] DJ_DISCREPANCY_ACCEPTED_BADLY -> DJ_DISCREPANCY\n[PASS] DJ_DISCREPANCY_PUBLISHED -> DJ_DISCREPANCY\n[PASS] DJ_PLACE_AS_CURRENT -> DJ_PLACE_CONTRACT\n[PASS] DJ_PLACE_ADMIN_PARENT -> DJ_PLACE_LOCATED_IN\n[PASS] DJ_PLACE_WRONG_PARENT -> DJ_PLACE_LOCATED_IN\n[PASS] DJ_PLACE_CLAIM_ATTACHED -> DJ_PLACE_CLAIMS\n[PASS] DJ_PLACE_SOURCE_UPGRADE -> DJ_PLACE_CONTRACT\n[PASS] DJ_PLACE_CHILD_INFERRED -> DJ_PLACE_LOCATED_IN\n[PASS] DJ_MARKET_AS_QUARTER -> DJ_COUNTS\n[PASS] DJ_SOURCE_TIER_INFLATION -> DJ_SOURCES\n[PASS] DJ_ICH_LAYER_DENOMINATOR -> DJ_ICH_LAYER\n[PASS] DJ_PLACE_LAYER_DENOMINATOR -> DJ_PLACE_LAYER"
     },
     "djibouti_required_mutations": {
-      "detail": "detected=8/8",
+      "detail": "detected=43/43",
       "status": "pass"
     },
     "djibouti_review_idempotence": {
@@ -66,10 +66,10 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "66"
+      "stdout": "144"
     },
     "djibouti_review_threshold": {
-      "detail": "full review passed=66/66",
+      "detail": "full review passed=144/144",
       "status": "pass"
     },
     "djibouti_semantic_validation": {
@@ -77,10 +77,10 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "{'entities': 23, 'relationships': 22, 'claims': 6, 'sources': 5, 'denominators': 5, 'coverage': 5}"
+      "stdout": "{\"entities\": 35, \"relationships\": 34, \"claims\": 46, \"sources\": 19, \"denominators\": 5, \"coverage\": 5}\nDjibouti semantic validation passed."
     },
     "djibouti_source_idempotence": {
-      "detail": "atomic sources=5/5, unchanged=True",
+      "detail": "atomic sources=19/19, unchanged=True",
       "status": "pass"
     },
     "djibouti_source_refresh": {
@@ -88,14 +88,14 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "{\"entities\": 22, \"relationships\": 22, \"claims\": 6, \"sources\": 5}"
+      "stdout": "{\"entities\": 34, \"relationships\": 34, \"claims\": 46, \"depth_claims\": 40, \"places\": 12, \"sources\": 19}"
     },
     "general_validation": {
       "command": "python3 scripts/validate.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=19551\n[PASS] ids: global_ids=19551, duplicate_ids=0\n[PASS] entity_types: allowed_types=104, active_types=67\n[PASS] sources: atomic_files=174, sources=174, references=22240\n[PASS] parents: administrative_relationships=5639\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2545, sourced=2545\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=115, coverage_records=115, complete_layers=97\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=19933\n[PASS] ids: global_ids=19933, duplicate_ids=0\n[PASS] entity_types: allowed_types=104, active_types=68\n[PASS] sources: atomic_files=231, sources=231, references=22579\n[PASS] parents: administrative_relationships=5639\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3265, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2740, sourced=2740\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=115, coverage_records=115, complete_layers=97\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
     },
     "generated_freshness": {
       "command": "python3 scripts/generate.py --check",
@@ -105,13 +105,13 @@
       "stdout": "generated output is current (64 files)"
     },
     "non_djibouti_preservation": {
-      "detail": "canonical non-Djibouti SHA-256 unchanged=523ef31554515f48f5be443d74d514edde17cb4678ebfd90a4578de19a7431aa",
+      "detail": "canonical non-Djibouti SHA-256 unchanged=aa7d8f18e8bbc2538683d1eed187931614e33bd333ffecdffb025650c26dd3f7",
       "status": "pass"
     }
   },
   "country_code": "DJ",
   "errors": [],
   "schema_version": "2.0.0",
-  "snapshot_date": "2026-08-16",
+  "snapshot_date": "2026-09-21",
   "status": "pass"
 }

@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+  "country_codes": [
+    "MR"
+  ],
+  "id": "SRC-UNESCO-ICH-MR-ZAFFA-02283-2025",
+  "language": "en",
+  "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+  "locator": "عنصر 02283؛ إدراج 2025 (20.COM)؛ سبع دول منها موريتانيا",
+  "notes": "صفحة العنصر قُرئت في دورة جزر القمر 2026-09-20 وأُعيدت هنا لإكمال قائمة موريتانيا دون ادعاء حصرية. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "UNESCO Intangible Cultural Heritage",
+  "quality_tier": "A",
+  "retrieved_at": "2026-09-21",
+  "schema_version": "2.0.0",
+  "source_type": "institutional_page",
+  "title": "The zaffa in the traditional wedding",
+  "url": "https://ich.unesco.org/en/RL/the-zaffa-in-the-traditional-wedding-02283"
+}

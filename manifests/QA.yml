@@ -200,6 +200,85 @@
         "SRC-UNESCO-WHC-QA-1402"
       ],
       "special_cases": []
+    },
+    {
+      "authority_name": "UNESCO Intangible Cultural Heritage",
+      "coverage_record_id": null,
+      "denominator": 7,
+      "denominator_id": null,
+      "entity_types": [
+        "cultural_site"
+      ],
+      "layer": "unesco_intangible_heritage",
+      "license": "UNESCO ICH pages; factual extraction with attribution",
+      "local_names": [
+        "عنصر تراث غير مادي"
+      ],
+      "notes": "Seven inscribed elements on which Qatar appears, recorded as claims on the country entity; the inscription list is its own denominator and no coverage record is asserted.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-09-20",
+      "source_ids": [
+        "SRC-QA-UNESCO-ICH-2026"
+      ],
+      "special_cases": [
+        "Every current Qatari element is a multi-State file: classification stays shared and no exclusivity is claimed."
+      ]
+    },
+    {
+      "authority_name": null,
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
+      "entity_types": [
+        "quarter",
+        "market"
+      ],
+      "layer": "old_doha_places",
+      "license": "Qatari press and heritage reporting; factual extraction with attribution",
+      "local_names": [
+        "فريج",
+        "سوق"
+      ],
+      "notes": "Bounded heritage-attested set inside Doha municipality: three firjan and one heritage market, local_reported, located_in only, with no denominator and no percentage.",
+      "scope_status": "open",
+      "snapshot_date": "2026-09-20",
+      "source_ids": [
+        "SRC-QA-FIRJAN-PRESS-2024",
+        "SRC-QA-FIRJAN-NAJADA-2022",
+        "SRC-QA-SOUQ-WAQIF-2012"
+      ],
+      "special_cases": [
+        "No administrative parent and no population claim for any place in this layer."
+      ]
+    },
+    {
+      "authority_name": null,
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
+      "entity_types": [
+        "cultural_site"
+      ],
+      "layer": "classified_local_knowledge",
+      "license": "Local mirror and Qatari press material; factual extraction with attribution",
+      "local_names": [
+        "معرفة محلية مصنّفة"
+      ],
+      "notes": "Thirty-two classified and unpublished claims: three dialect profiles, twenty dishes, seven dress items, and two crafts; language presence is deliberately zero because no sourced non-Arabic presence was accepted in this cycle.",
+      "scope_status": "open",
+      "snapshot_date": "2026-09-20",
+      "source_ids": [
+        "SRC-QA-CUISINE-MIRROR-2026",
+        "SRC-QA-DIALECT-DOHA24-2025",
+        "SRC-QA-DIALECT-FORUM-2010",
+        "SRC-QA-DRESS-JAZEERA-2018",
+        "SRC-QA-DRESS-QNA-2023",
+        "SRC-QA-DRESS-KHALEEJ-2016"
+      ],
+      "special_cases": [
+        "Every weak-source claim must declare classification and stay unpublished.",
+        "No speaker counts and no exclusive ownership of shared Gulf heritage."
+      ]
     }
   ],
   "schema_version": "2.0.0",

@@ -4,8 +4,8 @@
   "families": {
     "claims": {
       "failed": 0,
-      "passed": 17,
-      "sampled": 17,
+      "passed": 73,
+      "sampled": 73,
       "status": "PASS"
     },
     "coverage": {
@@ -22,28 +22,28 @@
     },
     "entities": {
       "failed": 0,
-      "passed": 16,
-      "sampled": 16,
+      "passed": 23,
+      "sampled": 23,
       "status": "PASS"
     },
     "relationships": {
       "failed": 0,
-      "passed": 15,
-      "sampled": 15,
+      "passed": 22,
+      "sampled": 22,
       "status": "PASS"
     },
     "sources": {
       "failed": 0,
-      "passed": 3,
-      "sampled": 3,
+      "passed": 32,
+      "sampled": 32,
       "status": "PASS"
     }
   },
   "findings": [],
-  "method": "Independent full wilaya/profile fixture comparison.",
+  "method": "Independent fixture and checksum comparison over the full Mauritania population; importer and semantic validator not imported.",
   "p0": 0,
   "schema_version": "2.0.0",
   "status": "PASS",
-  "total_passed": 59,
-  "total_sampled": 59
+  "total_passed": 158,
+  "total_sampled": 158
 }

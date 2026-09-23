@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
+  "country_codes": [
+    "KM"
+  ],
+  "id": "SRC-KM-CUSTOM-JAZEERA-2025",
+  "language": "ar",
+  "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+  "locator": "مجلس الذكر؛ المهر 10-30 قطعة ذهبية؛ أوكومبي؛ النسب الأمومي والإقامة في بيت الزوجة",
+  "notes": "تقرير صحفي مفصّل عن الزواج الكبير في موروني؛ يُسجَّل بوصفه مصدرًا من الفئة B (وكالة/صحيفة كبرى) مع بقاء الدعوى مصنَّفة.",
+  "publication_date": "2025-08-07",
+  "publisher": "الجزيرة نت",
+  "quality_tier": "B",
+  "retrieved_at": "2026-09-20",
+  "schema_version": "2.0.0",
+  "source_type": "local_press",
+  "title": "السلطان و«الزواج الكبير» في جزر القمر.. إرث ثقافي يتوّج الهوية الاجتماعية",
+  "url": "https://www.aljazeera.net/culture/2025/8/7"
+}

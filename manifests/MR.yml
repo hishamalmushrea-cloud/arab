@@ -2,7 +2,8 @@
   "caveats": [
     "Nouakchott wilayas are not inferred neighborhoods.",
     "63 moughataas known but records deferred.",
-    "Commune denominator conflicted 219/220."
+    "Commune denominator conflicted 219/220.",
+    "Depth layers carry no denominator and no inherited population."
   ],
   "country": {
     "entity_id": "ENT-MR-COUNTRY",
@@ -146,7 +147,7 @@
       "verification_status": "pending"
     }
   ],
-  "next_action": "Import 63 moughataas from current register; resolve commune count before commune entities.",
+  "next_action": "Import 63 moughataas from current register; resolve commune count before commune entities; keep heritage places located_in-only.",
   "official_authority": {
     "missing_reason": null,
     "name": "DGAT / ANSADE",
@@ -223,6 +224,121 @@
         "SRC-MR-ANSADE-RGPH5-2024"
       ],
       "special_cases": []
+    },
+    {
+      "authority_name": "UNESCO Intangible Cultural Heritage",
+      "coverage_record_id": null,
+      "denominator": 9,
+      "denominator_id": null,
+      "entity_types": [
+        "cultural_site"
+      ],
+      "layer": "unesco_intangible_heritage",
+      "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+      "local_names": [
+        "عنصر تراث غير مادي"
+      ],
+      "notes": "تسعة عناصر مُدرجة لموريتانيا: ثلاثة وطنية (الملحمة الموريّة 00524 على قائمة الصون العاجل 2011، والمحضرة 01960 وملحمة سامبا غيلاديو 01692 على القائمة التمثيلية) وستة مشتركة، وثلاثة ترشيحات 2026 معلنة.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-09-21",
+      "source_ids": [
+        "SRC-UNESCO-ICH-MR-STATE-2026",
+        "SRC-UNESCO-ICH-THEYDINN-00524-2011",
+        "SRC-UNESCO-ICH-MAHADRA-01960-2023",
+        "SRC-UNESCO-ICH-SAMBA-GUELADIO-01692-2024",
+        "SRC-UNESCO-ICH-COUSCOUS-01602-2020",
+        "SRC-UNESCO-ICH-CALLIGRAPHY-01718-2021",
+        "SRC-UNESCO-ICH-DATE-PALM-01902-2022",
+        "SRC-UNESCO-ICH-ENGRAVING-01951-2023",
+        "SRC-UNESCO-ICH-HENNA-02116-2024",
+        "SRC-UNESCO-ICH-MR-ZAFFA-02283-2025"
+      ],
+      "special_cases": [
+        "الملفات المشتركة تبقى shared ولا يُدَّعى فيها حصرية.",
+        "تصنيف national محصور بالعناصر المُقدَّمة من موريتانيا وحدها.",
+        "الترشيح المعلن ليس إدراجًا."
+      ]
+    },
+    {
+      "authority_name": "UNESCO World Heritage Centre",
+      "coverage_record_id": null,
+      "denominator": 2,
+      "denominator_id": null,
+      "entity_types": [
+        "city",
+        "archaeological_site"
+      ],
+      "layer": "world_heritage_properties",
+      "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+      "local_names": [
+        "موقع تراث عالمي"
+      ],
+      "notes": "موقعان مُدرجان: قصور وادان وشنقيط وتشيت ووالاتا (ثقافي 1996، المعايير iii/iv/v) ومحمية بانك دارغان (طبيعي 1989)؛ وثلاثة مواقع في القائمة المؤقتة سنة 2001 تُسجَّل ولا تُعدّ إدراجًا.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-09-21",
+      "source_ids": [
+        "SRC-UNESCO-WH-MR-KSOUR-750-1996",
+        "SRC-UNESCO-WH-MR-STATE-2026"
+      ],
+      "special_cases": [
+        "لا يُوصف الموقع الطبيعي وصفًا ثقافيًا.",
+        "القائمة المؤقتة ليست إدراجًا."
+      ]
+    },
+    {
+      "authority_name": null,
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
+      "entity_types": [
+        "city",
+        "archaeological_site"
+      ],
+      "layer": "heritage_places",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "مكان بلا مقام"
+      ],
+      "notes": "سبعة أماكن بلا مقام: أربع مدن قصور بمستوى city وثلاثة مواقع أثرية، كلها بعلاقة located_in واحدة فقط: بلا أب إداري وبلا سكان وبلا نسبة وبلا دعاوى.",
+      "scope_status": "open",
+      "snapshot_date": "2026-09-21",
+      "source_ids": [
+        "SRC-MR-TOWNS-MIRROR-2026",
+        "SRC-MR-SITES-MIRROR-2026"
+      ],
+      "special_cases": [
+        "لا يُنشأ مستوى مقاطعة أو بلدية ولا يُستنتج للأماكن أب أدنى."
+      ]
+    },
+    {
+      "authority_name": null,
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
+      "entity_types": [
+        "cultural_site"
+      ],
+      "layer": "classified_local_knowledge",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "معرفة محلية مصنَّفة"
+      ],
+      "notes": "معرفة محلية مصنَّفة وغير منشورة: أحد عشر ملفًا لغويًا، ولهجة وكتابة، وحرفة مرشَّحة، وعرفان، ورواية شعبية ورواية تسمية وتأسيس العاصمة، واثنا عشر طبقًا، وزيّان.",
+      "scope_status": "open",
+      "snapshot_date": "2026-09-21",
+      "source_ids": [
+        "SRC-MR-LANGUAGES-MIRROR-2026",
+        "SRC-MR-HASSANIYA-MIRROR-2026",
+        "SRC-MR-CUISINE-MIRROR-2026",
+        "SRC-MR-DRESS-MIRROR-2026",
+        "SRC-MR-NOUAKCHOTT-MIRROR-2026",
+        "SRC-MR-NOUAKCHOTT-ALKHALEEJ-2010",
+        "SRC-UNESCO-ICH-MR-STATE-2026"
+      ],
+      "special_cases": [
+        "لا يُنشر أي ادعاء ضعيف المصدر ولا يُبنى عليه مقام.",
+        "لا تُسجَّل أعداد متحدثين ولا نسب ولا أعداد سكان."
+      ]
     }
   ],
   "schema_version": "2.0.0",

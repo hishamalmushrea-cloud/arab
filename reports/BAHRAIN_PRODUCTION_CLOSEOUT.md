@@ -90,3 +90,39 @@ The core Schema 2.0.0 model transfers without a schema change. Bahrain adds coun
 ## Recommended next country
 
 Kuwait, Direct Structured Expansion, subject to its own official governorate denominator and explicit separation of governorates from address areas/blocks. Bahrain work must be released and green before Kuwait data are added.
+
+---
+
+# Depth cycle 1 — Maximum Arabic Knowledge Coverage (2026-09-20)
+
+The bounded first-layer release above is unchanged. This additive cycle opens Bahrain under `00_فلسفة_الموسوعة.md` with a checksum-bound fixture and no rewrite of any accepted layer.
+
+## New checksum-bound input
+
+`data/imports/bahrain/fixtures/cultural_depth_2026.json` (25,490 bytes, sha256 `bfa1232e…100d`) added as the fifth record in `data/imports/bahrain/snapshot_manifest.json`; `SNP-BH-PRODUCTION-20260816` binds the manifest bytes, so any later fixture edit invalidates the cycle until it is re-run.
+
+## Published spine — UNESCO intangible heritage
+
+Five elements on which Bahrain appears, entered as `verified` + `published` claims on `ENT-BH-COUNTRY`: **الفجري 2021 (01747)** — the national element, a pearl-diving commemoration that originated in المحرق, performed in a circle with drums, finger chimes and the jahl clay pot inside the `دور`; الخط العربي 2021 (01718)، نخيل التمر 2022 (01902)، الحناء 2024 (02116)، البشت 2025 (02233) — shared multi-State files carrying `classification: shared`, never asserted as exclusively Bahraini.
+
+## Classified local knowledge (unpublished)
+
+38 further depth claims, none published: 1 language presence (الفارسية عبر جماعات العجم والهولة as `local_reported`, with no speaker count), 3 dialect profiles (اللهجات الثلاث البحرانية/المحرقية/الخليجية؛ معجم الأقمشة والخياطة والطعام بمعانيه؛ معجم العمران: فريج، داعوس، زرنوق، برايح), 23 dishes (المجبوس والقوزي والمموش والثريد والهريسة والمضروبة والكرك والسمبوسة `shared`؛ المحمر و«في قاعته» والمبلح والشيلاني والقباقب والخثاق والبلاليط وخبز المهياوة والتكة `local`؛ البرياني البحريني والشلة والباجة `regional` بإرجاع المصدر إلى الهند وفارس والعراق)، 7 dress items (ثوب النشل وأنواعه المفحح والمفرخ والمنبط والمنثور، البخنق، النفنوف، العباءة، الجلابية، ثوب النقدة، الدراعة), 3 crafts (النسيج في بني جمرة والجسرة والمحرق، مهن الغوص: الطواويش والنواخذة والبحارة، فرجان المهن في المحرق), and one naming narrative for فريج الشيوخ.
+
+All weak-source material is tier E (`local_website` mirror، `heritage_book` مجلة الثقافة الشعبية، `local_press`، `blog`), capped at `local_reported`, and every claim carries an explicit `classification`.
+
+## Heritage places — no denominator
+
+24 places entered as `city`/`quarter`/`village` with `located_in` only: مدينة المحرق (first city node in the Bahraini depth layer), 14 فرجان (الحياك، الصاغة، البنائين، السكران، الزياني، الصنقل، آل بن علي، البن هندي، المري، الزياينة، بن رشدان، البن خاطر، البوخميس، الشيوخ), and 9 مستوطنات (القرى: الدير، سماهيج، قلالي، الحد، البسيتين، عراد؛ الحالات: بوماهر، النعيم، السلطة). No administrative parent, no population claim, and **no denominator and no percentage** for the whole layer.
+
+## Coverage and denominators
+
+Unchanged closed layers: governorates 4/4 and World Heritage properties 3/3. The intangible-heritage layer declares **5/5 elements** with no coverage record (the inscription list is its own denominator). `bh_area`/`bh_block` remain `scope_status: unavailable`.
+
+## Independent review and negative tests
+
+Independent full review: **149/149** records (32 entities, 7 aliases, 31 relationships, 56 claims, 17 sources, 3 denominators, 3 coverage). Required mutations: **21/21**, adding guards for weak-source publication, dialect promotion to verified, shared-dish exclusivity, UNESCO unpublishing, ICH/heritage layer denominator inflation, firij-as-current, heritage administrative parent, invented place population, place source upgrade, source tier inflation, and unglossed dialect vocabulary.
+
+## Remaining limitations
+
+No dated official area/block topology or denominator; no populated-place or dialect denominator; the Farsi presence is recorded as a demographic report without counts. Depth cycle 2 for Bahrain would require an official area register (with the 2024 area dataset reconciled) plus an archived lexical corpus.

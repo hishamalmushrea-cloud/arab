@@ -1,6 +1,12 @@
 {
   "country_code": "MR",
+  "method": "Checksum-bound DGAT/ANSADE wilaya pilot, extended in depth cycle 1 with nine UNESCO intangible-heritage elements, the 1996/1989 World Heritage properties and the 2001 tentative list, the 1991 (rev. 2012) Constitution as published by Constitute, the ISO 639-3 registry, Arabic/English mirror material and one dated press report.",
   "records": [
+    {
+      "bytes": 31839,
+      "path": "data/imports/mauritania/fixtures/cultural_depth_2026.json",
+      "sha256": "9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34"
+    },
     {
       "bytes": 1987,
       "path": "data/imports/mauritania/fixtures/wilaya_profiles.json",

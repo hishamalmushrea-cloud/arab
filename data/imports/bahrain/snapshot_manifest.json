@@ -1,6 +1,6 @@
 {
   "country_code": "BH",
-  "method": "Bounded relevant-record/excerpt capture from Bahrain official data and cultural authority pages plus the UNESCO State Party register; all production inputs are checksum-bound.",
+  "method": "Bounded relevant-record/excerpt capture from Bahrain official data and cultural authority pages plus the UNESCO State Party register, extended in depth cycle 1 with the UNESCO intangible-heritage State Party list, the Bahraini folklore journal الثقافة الشعبية, local press and heritage blogs, and a Bahraini dialect mirror; all production inputs are checksum-bound.",
   "records": [
     {
       "bytes": 1047,
@@ -21,6 +21,11 @@
       "bytes": 676,
       "path": "data/imports/bahrain/raw/2026-08-16/pearling_baca.txt",
       "sha256": "e0041be843d2740095239eedde477ef787eff13ca953212ea1028c30b7decc96"
+    },
+    {
+      "bytes": 25490,
+      "path": "data/imports/bahrain/fixtures/cultural_depth_2026.json",
+      "sha256": "bfa1232e1b1849e7daac5430ff74f75d2b971b8751e7785e32b46ac8a735100d"
     }
   ],
   "schema_version": "2.0.0",

@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:bfa1232e1b1849e7daac5430ff74f75d2b971b8751e7785e32b46ac8a735100d",
+  "country_codes": [
+    "BH"
+  ],
+  "id": "SRC-BH-NASHIL-PRESS-2018",
+  "language": "ar",
+  "license": "Local press column; factual extraction with attribution; reuse terms not stated",
+  "locator": "تقرير عن ثوب النشل وأنواعه وطريقة لبسه، والبخنق الأسود للفتيات، والدراعة تحته، ومناسبات اللبس (الجلوه، اليلوه، ليلة الحناء، الناصفة، القرقيعان)",
+  "notes": "Report dated 2018-12-09. Tier-E press material: dress details stay local_reported and unpublished.",
+  "publication_date": "2018-12-09",
+  "publisher": "صحيفة الاتحاد",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-20",
+  "schema_version": "2.0.0",
+  "source_type": "local_press",
+  "title": "البحرين.. مملكة الموروث التراثي الثقافي",
+  "url": "https://www.aletihad.ae/article/78925/2018/"
+}

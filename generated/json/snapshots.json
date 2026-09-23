@@ -12,7 +12,7 @@
   },
   {
     "captured_at": "2026-08-16",
-    "checksum": "sha256:b30dfb38c7077265818a42b5ef2c52ca27f8a6440fd7876b129366ec2f45aa31",
+    "checksum": "sha256:a2fb00a10629c936b03a70c1ddb70cff57f607073efacc4a325f6cdc39f44c10",
     "id": "SNP-BH-PRODUCTION-20260816",
     "method": "Offline deterministic import from checksum-bound exact API records and bounded official/UNESCO extracts.",
     "notes": "Governorate data are year-2024 records retrieved 2026-08-16. Areas, blocks, populated places, food, dress, custom, and dialect layers remain unclosed without accepted denominators/evidence.",
@@ -23,7 +23,7 @@
   },
   {
     "captured_at": "2026-08-16",
-    "checksum": "sha256:ff79c41ea422271e5098c2f87fda166f2f6fb43c1bca4ebc32824553b0344ed4",
+    "checksum": "sha256:b41a793e8ca2b6a4675a4bc413c8f337e8b7c67eb768ecd436dde583b7fe5695",
     "id": "SNP-DJ-PRODUCTION-20260816",
     "method": "Checksum-bound official legal/statistical reconciliation.",
     "notes": "Arrondissements/zones and broad culture/dialect remain unclosed.",
@@ -78,7 +78,7 @@
   },
   {
     "captured_at": "2026-08-17",
-    "checksum": "sha256:dadf619c260081b0d51f0e8062354ba08f182e7e93d802274ef37c2197bec502",
+    "checksum": "sha256:f787fe2d5aec59444e9d851fb2ce3babc044785478177fdfe86544874d57b39b",
     "id": "SNP-KM-PRODUCTION-20260817",
     "method": "Checksum-bound law/INSEED/UNESCO reconciliation.",
     "notes": "Mayotte excluded from current administration; claimed scope not modeled as current.",
@@ -89,14 +89,14 @@
   },
   {
     "captured_at": "2026-08-16",
-    "checksum": "sha256:7ea4abafa0c04f995946201dc965ae470b572df18cd39ad736090449df303048",
+    "checksum": "sha256:b5bf8646741cfc64737e2121188f0f00d20023fe1fb0fdac2a9ad70aa56e62d9",
     "id": "SNP-KW-PRODUCTION-20260816",
-    "method": "Offline deterministic import from checksum-bound reconciled official census and UNESCO fixtures.",
-    "notes": "Population table uses census-year precision. Differing page widgets are not imported. Address areas, blocks, populated places, broad culture, and dialect remain unclosed.",
+    "method": "Offline deterministic import from checksum-bound reconciled official census, UNESCO, heritage, and mirror fixtures.",
+    "notes": "Population table uses census-year precision. Address areas and blocks remain unclosed with no denominator; historic quarters and firjan are places, never current administrative units.",
     "schema_version": "2.0.0",
-    "scope": "Six 2021 census governorates and the zero-property UNESCO inscribed scope",
+    "scope": "Six 2021 census governorates, the zero-property UNESCO inscribed scope, seven UNESCO intangible-heritage elements, and the historic quarters of Kuwait City",
     "source_id": "SRC-KW-CSB-CENSUS-GOVERNORATES-2021",
-    "title": "Kuwait production expansion — six governorates and World Heritage scope"
+    "title": "Kuwait production expansion — six governorates, World Heritage scope, and depth cycle 1"
   },
   {
     "captured_at": "2026-08-16",
@@ -155,14 +155,14 @@
   },
   {
     "captured_at": "2026-08-16",
-    "checksum": "sha256:0339962428eb15a7b337b0a20c59d0fa8dcf004eb03562221b823cb7a410bcb9",
+    "checksum": "sha256:286c597c4a4f3f9dcc03ac478a41a46b997e35c1f8be588edda34b47b604bec4",
     "id": "SNP-MR-PRODUCTION-20260816",
-    "method": "Checksum-bound DGAT/ANSADE reconciliation.",
-    "notes": "63 moughataas known/open; communes conflicted 219/220.",
+    "method": "Checksum-bound DGAT/ANSADE reconciliation plus UNESCO/Constitute/ISO registry depth cycle 1.",
+    "notes": "63 moughataas known/open; communes conflicted 219/220; depth layers carry no denominator.",
     "schema_version": "2.0.0",
-    "scope": "15 wilayas: three Nouakchott and twelve regional",
+    "scope": "15 wilayas: three Nouakchott and twelve regional, plus nine ICH elements, two World Heritage properties and seven places without rank",
     "source_id": "SRC-MR-DGAT-15-63-2026",
-    "title": "Mauritania 15-wilaya profile pilot"
+    "title": "Mauritania 15-wilaya profile pilot, extended with ICH/World Heritage and classified local knowledge"
   },
   {
     "captured_at": "2026-08-16",
@@ -188,7 +188,7 @@
   },
   {
     "captured_at": "2026-08-16",
-    "checksum": "sha256:f530c04ffb6825dc39dbb41f830cddc532ce02357a6fab43c9cf7432849e25b1",
+    "checksum": "sha256:35589a3c94fcc6b180cde1a128e06737de0ad312d8adf4287623bac351d24c6f",
     "id": "SNP-QA-PRODUCTION-20260816",
     "method": "Checksum-bound official fixtures.",
     "notes": "Zones, blocks, cities, fareej, broad culture and dialect remain unclosed.",

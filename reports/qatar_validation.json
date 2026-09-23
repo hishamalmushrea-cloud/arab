@@ -4,14 +4,18 @@
   "errors": [],
   "metrics": {
     "aliases": 9,
-    "claims": 10,
+    "claims": 50,
     "coverage": 3,
     "denominators": 3,
-    "entities": 10,
-    "relationships": 9,
-    "sources": 3
+    "depth_claims": 40,
+    "depth_places": 4,
+    "entities": 14,
+    "published_claims": 17,
+    "relationships": 13,
+    "sources": 13
   },
   "p0": 0,
   "schema_version": "2.0.0",
+  "snapshot_date": "2026-09-20",
   "status": "PASS"
 }

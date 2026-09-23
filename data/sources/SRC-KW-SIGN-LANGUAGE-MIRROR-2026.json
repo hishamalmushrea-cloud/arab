@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:e32bc038aefb2f6a25d5919c31e61c1f0927c57c9a492d18fd55f48e494d9411",
+  "country_codes": [
+    "KW"
+  ],
+  "id": "SRC-KW-SIGN-LANGUAGE-MIRROR-2026",
+  "language": "ar",
+  "license": "CC BY-SA 4.0 for the mirror text",
+  "locator": "infobox and lead: Kuwaiti Sign Language, ISO 639-3 lbs, Arabic sign-language family",
+  "notes": "Publication date unavailable on the mirror. Language presence stays probable and unpublished without an official speaker register.",
+  "publication_date": null,
+  "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-20",
+  "schema_version": "2.0.0",
+  "source_type": "local_website",
+  "title": "لغة الإشارة الكويتية — موسوعة مرآة",
+  "url": "https://ar.wikipedia.org/wiki/%D9%84%D8%BA%D8%A9_%D8%A7%D9%84%D8%A5%D8%B4%D8%A7%D8%B1%D8%A9_%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA%D9%8A%D8%A9"
+}

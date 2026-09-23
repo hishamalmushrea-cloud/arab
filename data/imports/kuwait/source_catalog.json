@@ -61,6 +61,166 @@
       "source_type": "institutional_dataset",
       "title": "World Heritage List — Kuwait State Party",
       "url": "https://whc.unesco.org/en/statesparties/kw"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:e32bc038aefb2f6a25d5919c31e61c1f0927c57c9a492d18fd55f48e494d9411",
+      "country_codes": [
+        "KW"
+      ],
+      "id": "SRC-KW-UNESCO-ICH-2026",
+      "language": "en",
+      "license": "UNESCO ICH pages; factual extraction with attribution",
+      "locator": "inscribed elements: Al Sadu 2025 ref 02158, Bisht 2025 ref 02233, The Diwaniya 2025 ref 02281, Henna 2024 ref 02116, Date palm 2022 ref 01902, Al Sadu Educational Programme 2022 ref 01905, Arabic calligraphy 2021 ref 01718",
+      "notes": "Publication date unavailable on the live State Party list page. Only elements on which Kuwait appears are imported; multi-State files stay shared and never exclusive. Element descriptions come from the same UNESCO element pages.",
+      "publication_date": null,
+      "publisher": "UNESCO Intangible Cultural Heritage",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_dataset",
+      "title": "Elements on the Lists — Kuwait State Party",
+      "url": "https://ich.unesco.org/en/state/kuwait-KW?info=elements-on-the-lists"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:e32bc038aefb2f6a25d5919c31e61c1f0927c57c9a492d18fd55f48e494d9411",
+      "country_codes": [
+        "KW"
+      ],
+      "id": "SRC-KW-DIALECT-MIRROR-2026",
+      "language": "ar",
+      "license": "CC BY-SA 4.0 for the mirror text",
+      "locator": "sections: تصنيف اللهجة إلى ست لهجات (جبلة/شرق/فيلكا/الجهراء/الفنطاس/الدمنة) والفونولوجيا وجدول المفردات بمعانيها",
+      "notes": "Publication date unavailable on the mirror. Depth-cycle tier-E mirror: dialect profiles and glossed words enter as local_reported and unpublished, never as verified facts.",
+      "publication_date": null,
+      "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "local_website",
+      "title": "لهجة كويتية — موسوعة مرآة",
+      "url": "https://ar.wikipedia.org/wiki/%D9%84%D9%87%D8%AC%D8%A9_%D9%83%D9%88%D9%8A%D8%AA%D9%8A%D8%A9"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:e32bc038aefb2f6a25d5919c31e61c1f0927c57c9a492d18fd55f48e494d9411",
+      "country_codes": [
+        "KW"
+      ],
+      "id": "SRC-KW-DIALECT-LOANS-2026",
+      "language": "ar",
+      "license": "Local heritage forum archive; factual extraction with attribution; reuse terms not stated",
+      "locator": "articles on replacement phenomena and the list of words of Persian, Turkish, Indian, and English origin",
+      "notes": "Publication date unavailable in the archive view. Tier-E local heritage material: loan etymologies stay local_reported and unpublished and are never stated as certain origins.",
+      "publication_date": null,
+      "publisher": "تاريخ الكويت (أرشيف محلي)",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "forum",
+      "title": "ظاهرة قلب الحروف وإبدالها في اللهجة الكويتية",
+      "url": "https://www.kuwait-history.net/vb/archive/index.php/t-1909.html"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:e32bc038aefb2f6a25d5919c31e61c1f0927c57c9a492d18fd55f48e494d9411",
+      "country_codes": [
+        "KW"
+      ],
+      "id": "SRC-KW-CUISINE-MIRROR-2026",
+      "language": "ar",
+      "license": "CC BY-SA 4.0 for the mirror text",
+      "locator": "sections: أشهر الأكلات الكويتية وأشهر الحلويات الكويتية with the per-dish descriptions",
+      "notes": "Publication date unavailable on the mirror. Dish knowledge enters as local_reported and unpublished; Gulf-shared dishes keep classification shared.",
+      "publication_date": null,
+      "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "local_website",
+      "title": "مطبخ كويتي — موسوعة مرآة",
+      "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B7%D8%A8%D8%AE_%D9%83%D9%88%D9%8A%D8%AA%D9%8A"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:e32bc038aefb2f6a25d5919c31e61c1f0927c57c9a492d18fd55f48e494d9411",
+      "country_codes": [
+        "KW"
+      ],
+      "id": "SRC-KW-DRESS-HERITAGE-2026",
+      "language": "ar",
+      "license": "Local heritage archive reproducing a Kuna report; factual extraction with attribution",
+      "locator": "Kuna report of 2008-09-14 quoting researchers on الدراعة والنفنوف والبخنق والبوشية والثوب وأنواعها",
+      "notes": "The archive copy carries the original Kuna date; dress entries stay local_reported and unpublished.",
+      "publication_date": "2008-09-14",
+      "publisher": "وكالة الأنباء الكويتية (كونا) عبر أرشيف تاريخ الكويت",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "local_press",
+      "title": "مسميات للملابس النسائية في الكويت قديمًا",
+      "url": "https://www.kuwait-history.net/vb/archive/index.php/t-6051.html"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:e32bc038aefb2f6a25d5919c31e61c1f0927c57c9a492d18fd55f48e494d9411",
+      "country_codes": [
+        "KW"
+      ],
+      "id": "SRC-KW-KUNA-FIRJAN-2017",
+      "language": "ar",
+      "license": "State news agency report; factual extraction with attribution",
+      "locator": "the four historic quarters of Kuwait City, the فريج/سكة structure, فريج المطبة boundaries and neighbours, and the naming explanation attributed to Dr Abdullah Al-Ghunaim",
+      "notes": "State news agency reporting with named researchers and a cited book; historical quarters remain historical places, never current administrative units.",
+      "publication_date": "2017-04-27",
+      "publisher": "وكالة الأنباء الكويتية (كونا)",
+      "quality_tier": "B",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "local_press",
+      "title": "فريج المطبة.. أحد أشهر فرجان الكويت قديمًا",
+      "url": "https://www.kuna.net.kw/NewsAgenciesPublicSite/ArticleDetails.aspx?id=2607422"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:e32bc038aefb2f6a25d5919c31e61c1f0927c57c9a492d18fd55f48e494d9411",
+      "country_codes": [
+        "KW"
+      ],
+      "id": "SRC-KW-MIRQAB-HERITAGE-2026",
+      "language": "ar",
+      "license": "Local heritage archive article; factual extraction with attribution; reuse terms not stated",
+      "locator": "listing of المرقاب quarters quoted from حمد السعيدان «الموسوعة الكويتية المختصرة» and later local-history articles",
+      "notes": "Publication date unavailable in the archive view. Firjan of المرقاب enter as local_reported historical places.",
+      "publication_date": null,
+      "publisher": "تاريخ الكويت (أرشيف محلي)",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "heritage_book",
+      "title": "صور من عبق أحياء المرقاب — تاريخ وشخصيات",
+      "url": "https://www.kuwait-history.net/vb/archive/index.php/t-13665.html"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:e32bc038aefb2f6a25d5919c31e61c1f0927c57c9a492d18fd55f48e494d9411",
+      "country_codes": [
+        "KW"
+      ],
+      "id": "SRC-KW-SIGN-LANGUAGE-MIRROR-2026",
+      "language": "ar",
+      "license": "CC BY-SA 4.0 for the mirror text",
+      "locator": "infobox and lead: Kuwaiti Sign Language, ISO 639-3 lbs, Arabic sign-language family",
+      "notes": "Publication date unavailable on the mirror. Language presence stays probable and unpublished without an official speaker register.",
+      "publication_date": null,
+      "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-20",
+      "schema_version": "2.0.0",
+      "source_type": "local_website",
+      "title": "لغة الإشارة الكويتية — موسوعة مرآة",
+      "url": "https://ar.wikipedia.org/wiki/%D9%84%D8%BA%D8%A9_%D8%A7%D9%84%D8%A5%D8%B4%D8%A7%D8%B1%D8%A9_%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA%D9%8A%D8%A9"
     }
   ]
 }

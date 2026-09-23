@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+  "country_codes": [
+    "MR"
+  ],
+  "id": "SRC-UNESCO-ICH-COUSCOUS-01602-2020",
+  "language": "en",
+  "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+  "locator": "عنصر 01602؛ إدراج 2020 (15.COM)؛ أربع دول: الجزائر وموريتانيا والمغرب وتونس",
+  "notes": "صفحة العنصر قُرئت 2026-09-21: عمليات الإعداد والأدوات والدلالات الاجتماعية. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "UNESCO Intangible Cultural Heritage",
+  "quality_tier": "A",
+  "retrieved_at": "2026-09-21",
+  "schema_version": "2.0.0",
+  "source_type": "institutional_page",
+  "title": "Knowledge, know-how and practices pertaining to the production and consumption of couscous",
+  "url": "https://ich.unesco.org/en/RL/knowledge-know-how-and-practices-pertaining-to-the-production-and-consumption-of-couscous-01602"
+}

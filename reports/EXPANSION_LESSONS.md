@@ -163,3 +163,67 @@ First Tunisia cycle under **Maximum Arabic Knowledge Coverage** (`00_فلسفة_
 - **8 dishes**: الكسكسي `shared` (الملف الرباعي) **مع رسو فوارقه الجهوية** (العلوش/الحوت/العصبان)؛ **الهريسة `national` بملفها اليونسكوي التونسي 2022** — التمييز الدقيق بين المشترك المغاربي والخاص التونسي؛ البريك `shared`؛ المقروض القيرواني مرسو.
 - **4 dress claims**: الجبة والبرنوس `shared` مغاربيا؛ الشاشية بسوق الشواشين؛ **السفساري بإرجاعه القرطاجي المعروض كرواية لا حقيقة**.
 - Contract note: all 20 depth claims are unpublished, so the Tunisia published-A/B>=95% pilot contract is untouched (still 100%).
+
+## Kuwait depth cycle 1 — UNESCO spine plus bounded heritage layer (2026-09-20)
+
+First no-depth country opened under Maximum Arabic Knowledge Coverage, and the first where the authoritative spine of a depth cycle is an **inscription list** rather than a census table:
+
+- **Published spine:** 7 UNESCO ICH elements on which Kuwait appears, `verified` + `published`, multi-State files `shared`. The inscription year lives inside the claim value; it is never expanded into an exact day.
+- **Unpublished body:** 38 classified claims (2 languages, 5 dialect profiles, 17 dishes, 6 local dress + البشت through the UNESCO claim, 1 naming narrative). Tier E (`local_website`, `forum`, `heritage_book`) and tier B (كونا) are capped at `local_reported`; the published-A/B pilot contract stays at 100%.
+- **Bounded heritage layer:** 4 historic quarters + 12 فرجان + 1 سكة (سكة عنزة — first lane outside Sanaa) as `quarter`/`lane`, `status: historical`, one `located_in` each, no administrative parent, no population claim, **no denominator and no percentage**.
+- **Zero-denominator discipline:** CSB publishes only governorate-level tables; the area/block layers stay `unavailable` and the PACI-derived 2026 area figures remain an unused candidate source rather than a manufactured denominator.
+- **New reusable guards:** shared-culture partition inside a dish/dress list; weak-source publication ban; dialect promotion ban; historical-place-as-current ban; heritage administrative-parent ban; UNESCO unpublishing ban; invented quarter-population ban.
+
+## Controls now required for subsequent countries
+
+7. When a depth cycle's spine is an inscription/heritage list rather than a census table, declare the layer denominator *as the list itself* and give it no coverage record.
+8. Shared regional culture must be partitioned record-by-record inside the same predicate, never by a blanket classification.
+
+## Bahrain depth cycle 1 — published UNESCO spine, unpublished local body (2026-09-20)
+
+Second Gulf depth cycle and the first where a country with zero documented cultural domains opens the full breadth in one pass:
+
+- **Published:** 5 UNESCO ICH elements on which Bahrain appears; الفجري is the national element (01747، المحرق وتراث الغوص), the other four are shared files.
+- **Unpublished:** 38 classified claims — 1 language presence, 3 dialect profiles, 23 dishes, 7 dress items, 3 crafts, 1 naming narrative; tier E everywhere and never `published`.
+- **Places without a denominator:** مدينة المحرق + 14 فريجًا + 6 قرى + 3 حالات as `city`/`quarter`/`village` with exactly one `located_in` and no administrative parent or population claim.
+- **Spine discipline:** an inscription list can serve as a layer denominator (5/5) with no coverage record, while the heritage-place layer declares `denominator: null` and stays open.
+- **New reusable guards:** weak-source publication ban, dialect promotion ban, shared-culture partition, ICH unpublishing ban, layer-denominator inflation ban, heritage-place current/admin/population bans, source-tier inflation ban, unglossed vocabulary ban.
+
+## Qatar depth cycle 1 — a shared-only UNESCO spine and a zero-language record (2026-09-20)
+
+Third Gulf depth cycle, and the first where the authoritative spine contains **no** nationally exclusive element:
+
+- **Published spine:** 7 UNESCO ICH elements, all multi-State files, all `shared`; the validator rejects any promotion to `national`.
+- **Unpublished body:** 33 classified claims — 3 dialect profiles (41 glossed words), 20 dishes, 7 dress items, 2 crafts, 1 naming narrative; tier E throughout and never `published`.
+- **Deliberate zero:** no `language_presence` claim is accepted for Qatar without a source, and a mutation now enforces that.
+- **Places:** three firjan and one heritage **market** (سوق واقف, typed `market` like أسواق مدينة تونس المركزية, so no new type is invented) with `located_in` to Doha municipality, no administrative parent, no population claim, no denominator.
+- **New reusable guards:** ICH-must-stay-shared, ICH publication ban, place wrong-municipality ban, unsourced-language ban, source-tier inflation ban, unglossed dialect ban.
+
+## Comoros depth cycle 1 — a one-element shared spine and a constitution-scoped claim (2026-09-20)
+
+Fourth depth cycle outside the Gulf arc, and the first built on a **single** UNESCO element that is nonetheless a seven-State file:
+
+- **Published spine:** زفّة العرس التقليدي 02283 (2025, RL, Djibouti · Comoros · UAE · Iraq · Jordan · Mauritania · Somalia) as `shared`, plus constitutional Articles 6/9/10 and the property's criteria and areas (30.47 ha + 131.68 ha buffer).
+- **Unpublished body:** 30 classified claims — languages, 5 dialect profiles (with a glossed numeral table and phrase list), 10 dishes, 3 dress items, 1 craft/economy claim, 2 customs (الزواج الكبير، مجلس الذكر), and the six component names.
+- **Deliberate absences:** no speaker counts anywhere; no heritage-place denominator; no commune parent inferred for medinas.
+- **Contract wording that transfers:** a claim may report a State's constitutional position and simultaneously record that the territory is outside the current administration accepted here.
+- **New reusable guards:** UNESCO-must-stay-shared, submitting-State list must match the element page, no-speaker-numbers, medina-located_in-only, medina-claims ban, classification exclusivity ban.
+
+## Djibouti — depth cycle 1 (2026-09-21)
+
+- **Topology untouched:** 5 regions · special-status Djibouti-Ville · 3 communes · 13 sub-prefectures, each keeping its RGPH-3 population and the national reconciliation to 1,066,809.
+- **Published spine (10):** Xeedho 02001 (2023, Urgent Safeguarding List, Djibouti the sole submitting State → the only `national` element), Xeer Ciise 02087 (2024, Ethiopia–Djibouti–Somalia, `shared`), the zaffa 02283 (2025, seven States, `shared`), the 30 August 2007 ratification, the 2026 Afar Madqa as a **pending nomination** (not an inscription), and articles 1–2 of the Constitution (official languages, state religion, capital).
+- **Unpublished body (30):** 8 language presences (Somali `som` and Afar `aar` with the ISO registry as a second source; a sign language with **no code claimed** because no registry entry could be verified), 1 dialect profile, 1 script profile, 1 language institution, 12 dishes, 3 dress items, 2 crafts, and 3 customs — one of them a declared **folk narrative**.
+- **Places:** 12 places inside the capital (10 quarters, 2 markets) with a single `located_in` to the city: no parent, no claim, no population, and no inference into the three accepted communes.
+- **Stated discrepancy:** the mirror's 35 city sub-prefectures are recorded as an unpublished note while the accepted roadmap value stays 13, with a mutation guarding the difference.
+- **New reusable guards:** element-reference-to-classification pinning (national vs shared vs seven-State), pending-nomination as a separate predicate, no-ISO-code-without-registry, no-counts-in-payload-or-notes, place-claims ban, and the second-source pairing rule (`second_source_id` ⇔ `second_source_locator`) inherited from the Comoros repair.
+
+## Mauritania — depth cycle 1 (2026-09-21)
+
+- **Accepted layer untouched:** 15 wilayas (three Nouakchott + twelve regional), 63 moughataas kept as a known **open** count with no records and no denominator, and the commune register conflict (219/220) kept as a published **disputed** claim.
+- **Published spine (27):** nine inscribed UNESCO elements — تْحِيدِن 00524 (2011, Urgent Safeguarding List, sole submission → `national`), المحضرة 01960 and سامبا غيلاديو 01692 (sole submissions → `national`), and six shared files asserted exactly as published (الكسكس 01602 · الخط العربي 01718 · النخلة 01902 · النقش على المعادن 01951 · الحناء 02116 · الزفّة 02283) — plus the 2006-11-15 ratification, the three declared **2026 nominations as pending nominations**, both World Heritage properties, the 2001 tentative list, five constitutional articles and four language rows.
+- **Unpublished body (29):** 7 language rows, a Hassaniya dialect profile, a script profile, 1 craft, 2 customs, 12 dishes, 2 dress items, the capital-founding account and two narratives (one declared **folk narrative** from a dated 2010 press report, one naming narrative).
+- **Deliberate empty field:** the natural property's criteria were **not read** from the source, so they are recorded empty and no cultural description is built on it — an unread field is left empty rather than filled from a mirror.
+- **No numbers:** the mirrors print a speaker table and a 2013 estimate; both are excluded, every unpublished language row states the no-count rule **inside the record**, and the guards also scan claim notes so a count cannot hide outside the value payload.
+- **Places:** seven heritage places (four ksour cities, three archaeological sites) with one `located_in` each, no administrative parent, no claim, no coordinates — and **two confidence levels side by side**: UNESCO-sourced places stay `source_verified`, mirror-sourced places stay `local_reported`.
+- **New reusable guards:** pending-nomination-is-not-inscription, tentative-list-is-not-inscription, natural-property-carries-no-criteria, sole-submission-pins-`national`, second-source-pairing on language rows, count-in-notes ban, and unverifiable-wilaya-goes-to-country-level.

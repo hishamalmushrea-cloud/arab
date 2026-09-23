@@ -2,17 +2,51 @@
   "country_code": "KM",
   "families": {
     "claims": {
-      "population": 6,
+      "population": 40,
       "record_ids": [
         "CLM-KM-3099C46B3A7F597D",
         "CLM-KM-4DE8248B6B7D53CD",
         "CLM-KM-8902A78311785AAE",
         "CLM-KM-B0A3BC277D895C43",
         "CLM-KM-CEC38116EC9A5DD6",
+        "CLM-KM-DEPTH-0026C7E75FCD55DE",
+        "CLM-KM-DEPTH-08CABA1B39D95289",
+        "CLM-KM-DEPTH-0ADDC09909A65582",
+        "CLM-KM-DEPTH-0DB04CB8C8AC5F44",
+        "CLM-KM-DEPTH-12674A9406465DC3",
+        "CLM-KM-DEPTH-17704E024D0D522F",
+        "CLM-KM-DEPTH-2D25A78484655301",
+        "CLM-KM-DEPTH-2F88F0B1AF9D5F3E",
+        "CLM-KM-DEPTH-45CBAD481E02510F",
+        "CLM-KM-DEPTH-5B403EF938A058DE",
+        "CLM-KM-DEPTH-67B8DF12B81E57AE",
+        "CLM-KM-DEPTH-69F821B9414A5C0F",
+        "CLM-KM-DEPTH-7478CFBE197656C7",
+        "CLM-KM-DEPTH-872749C1C17E5A0E",
+        "CLM-KM-DEPTH-9B8F4DAD6E1B50E3",
+        "CLM-KM-DEPTH-A3AA550113605D19",
+        "CLM-KM-DEPTH-A5B9DDAD277C5BDF",
+        "CLM-KM-DEPTH-A895491C5DD250BB",
+        "CLM-KM-DEPTH-ACC6E1A800745DCD",
+        "CLM-KM-DEPTH-AE5394D5A7CD50F3",
+        "CLM-KM-DEPTH-B1FADCA321CC5CF6",
+        "CLM-KM-DEPTH-BCFB0DDACBD9513C",
+        "CLM-KM-DEPTH-C2250C85084B56E8",
+        "CLM-KM-DEPTH-CE46475C34CC55E5",
+        "CLM-KM-DEPTH-D4F5B3FFB3CA52E3",
+        "CLM-KM-DEPTH-DC6D90BCA2495E83",
+        "CLM-KM-DEPTH-E06B28FD50CF5914",
+        "CLM-KM-DEPTH-E5E92CC4299F5A8F",
+        "CLM-KM-DEPTH-E9B4AA0044815CDB",
+        "CLM-KM-DEPTH-F09FAD626BAE5F8F",
+        "CLM-KM-DEPTH-F0D42CE52C4652A3",
+        "CLM-KM-DEPTH-F8D42412C4555BF4",
+        "CLM-KM-DEPTH-FEC103E44C2B55E9",
+        "CLM-KM-DEPTH-FFC98C79BABD53F0",
         "CLM-KM-ECFA35681A6056E2"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 6
+      "sample_size": 40
     },
     "coverage": {
       "population": 5,
@@ -39,7 +73,7 @@
       "sample_size": 5
     },
     "entities": {
-      "population": 75,
+      "population": 81,
       "record_ids": [
         "ENT-KM-COMMUNE-ADDA",
         "ENT-KM-COMMUNE-BAMBAO-MSTANGA",
@@ -100,6 +134,12 @@
         "ENT-KM-ISLAND-MWALI",
         "ENT-KM-ISLAND-NDZUWANI",
         "ENT-KM-ISLAND-NGAZIDJA",
+        "ENT-KM-MEDINA-DOMONI",
+        "ENT-KM-MEDINA-IKONI",
+        "ENT-KM-MEDINA-ITSANDRA",
+        "ENT-KM-MEDINA-MORONI",
+        "ENT-KM-MEDINA-MUTSAMUDU",
+        "ENT-KM-MEDINA-NTSOUDJINI",
         "ENT-KM-PREFECTURE-DJANDO",
         "ENT-KM-PREFECTURE-DOMONI",
         "ENT-KM-PREFECTURE-FOMBONI",
@@ -118,10 +158,10 @@
         "ENT-KM-PREFECTURE-SIMA"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 75
+      "sample_size": 81
     },
     "relationships": {
-      "population": 74,
+      "population": 80,
       "record_ids": [
         "REL-KM-0038AE3548905680",
         "REL-KM-0A0146A0E5C15FE1",
@@ -196,21 +236,44 @@
         "REL-KM-F68F684A085C5B6F",
         "REL-KM-F89BE51954DE51C5",
         "REL-KM-FB85B5143A82514D",
-        "REL-KM-FCA64AEEDB3557E0"
+        "REL-KM-FCA64AEEDB3557E0",
+        "REL-KM-LOCATED-6776CA531A7F58BB",
+        "REL-KM-LOCATED-9025F7E8D4C65492",
+        "REL-KM-LOCATED-B09DDEE7D0475C17",
+        "REL-KM-LOCATED-D213B8424313585C",
+        "REL-KM-LOCATED-E8C77ECF5E8A58C8",
+        "REL-KM-LOCATED-EA8BC549326C53BD"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 74
+      "sample_size": 80
     },
     "sources": {
-      "population": 3,
+      "population": 18,
       "record_ids": [
+        "SRC-KM-COMORIAN-LANGS-WIKI-2026",
+        "SRC-KM-CONSTITUTION-2018",
+        "SRC-KM-CUISINE-MIRROR-2026",
+        "SRC-KM-CULTURE-ALAYYAM-2024",
+        "SRC-KM-CULTURE-RASEEF22-2023",
+        "SRC-KM-CUSTOM-JAZEERA-2025",
+        "SRC-KM-CUSTOM-MIDAD-2016",
+        "SRC-KM-ECONOMY-MIRROR-2015",
+        "SRC-KM-FOOD-TRAVEL-2021",
+        "SRC-KM-FOOD-YOUM7-2022",
         "SRC-KM-INSEED-RGPH17-ADMIN",
+        "SRC-KM-ISO639-3-COMORIAN",
+        "SRC-KM-LANGUAGES-MIRROR-2026",
         "SRC-KM-LAW-11-006-AU-2011",
+        "SRC-KM-MEDINAS-WIKI-2026",
+        "SRC-KM-VOCAB-QUIZLET-2016",
+        "SRC-UNESCO-ICH-KM-ZAFFA-2025",
         "SRC-UNESCO-WHC-KM-1768-2026"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 3
+      "sample_size": 18
     }
   },
-  "schema_version": "2.0.0"
+  "schema_version": "2.0.0",
+  "selection_method": "Full review of every Comoros record because each family is small; sorted stable IDs.",
+  "snapshot_date": "2026-09-20"
 }

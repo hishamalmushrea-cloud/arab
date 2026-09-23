@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+  "country_codes": [
+    "MR"
+  ],
+  "id": "SRC-UNESCO-ICH-ENGRAVING-01951-2023",
+  "language": "en",
+  "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+  "locator": "عنصر 01951؛ إدراج 2023 (18.COM)؛ عشر دول منها موريتانيا",
+  "notes": "صفحة العنصر قُرئت 2026-09-21: النقش اليدوي على المعادن وأدواته وأنماط نقله. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "UNESCO Intangible Cultural Heritage",
+  "quality_tier": "A",
+  "retrieved_at": "2026-09-21",
+  "schema_version": "2.0.0",
+  "source_type": "institutional_page",
+  "title": "Arts, skills and practices associated with engraving on metals (gold, silver and copper)",
+  "url": "https://ich.unesco.org/en/RL/arts-skills-and-practices-associated-with-engraving-on-metals-gold-silver-and-copper-01951"
+}

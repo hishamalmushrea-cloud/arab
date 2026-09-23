@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5",
+  "country_codes": [
+    "QA"
+  ],
+  "id": "SRC-QA-DIALECT-DOHA24-2025",
+  "language": "ar",
+  "license": "Local Qatar page; factual extraction with attribution; reuse terms not stated",
+  "locator": "الملامح النطقية (تحوّل الجيم قرب «چ» في مخاطبة المؤنث) وقائمة كلمات شائعة بمعانيها",
+  "notes": "Page dated 2025-12-10. Tier-E local page: dialect material stays local_reported and unpublished.",
+  "publication_date": "2025-12-10",
+  "publisher": "دوحة 24",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-20",
+  "schema_version": "2.0.0",
+  "source_type": "local_website",
+  "title": "اللهجة القطرية: أبرز كلمات وعبارات يجب أن يعرفها كل مقيم",
+  "url": "https://doha24.net/new/اللهجة-القطرية-أبرز-كلمات-وعبارات-يجب/"
+}

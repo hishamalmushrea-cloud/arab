@@ -1,9 +1,51 @@
 {
   "country_code": "DJ",
   "domains": {
+    "capital_places": {
+      "denominator": null,
+      "entities": 12,
+      "status": "documented_places_no_denominator"
+    },
+    "crafts": {
+      "claims": 2,
+      "status": "documented_local_reported_unpublished"
+    },
+    "custom": {
+      "claims": 3,
+      "status": "documented_local_reported_unpublished"
+    },
     "dialect": {
-      "claims": 0,
-      "status": "not_documented_in_cycle"
+      "claims": 1,
+      "status": "documented_local_reported_unpublished"
+    },
+    "dress": {
+      "claims": 3,
+      "status": "documented_local_reported_unpublished"
+    },
+    "food": {
+      "claims": 12,
+      "status": "documented_local_reported_unpublished"
+    },
+    "intangible_cultural_heritage": {
+      "elements": [
+        "الخيدو 02001 (2023، قائمة الصون العاجل، جيبوتي وحدها)",
+        "الزير عيسى 02087 (2024، ثلاث دول)",
+        "الزفّة 02283 (2025، سبع دول)"
+      ],
+      "pending_nomination": "المدقة العفارية (2026)",
+      "status": "documented_three_elements_one_national"
+    },
+    "language_institutions": {
+      "claims": 1,
+      "status": "documented_local_reported_unpublished"
+    },
+    "languages": {
+      "claims": 8,
+      "status": "documented_two_official_two_national_unpublished"
+    },
+    "script": {
+      "claims": 1,
+      "status": "documented_local_reported_unpublished"
     },
     "world_heritage": {
       "denominator": 0,

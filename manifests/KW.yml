@@ -4,6 +4,7 @@
     "Areas and blocks are address/statistical units and are not automatically municipalities.",
     "The 4,578 Not Stated census population is retained in source reconciliation but is not a geographic entity.",
     "Tentative UNESCO sites are not inscribed properties.",
+    "Historic quarters and firjan of Kuwait City are historical places with located_in only; they carry no denominator and no current administrative status.",
     "No national denominator is asserted for populated places, broad culture, or dialect."
   ],
   "country": {
@@ -148,7 +149,7 @@
       "verification_status": "pending"
     }
   ],
-  "next_action": "Maintain six-governorate production scope; add areas/blocks only after a dated official topology and denominator.",
+  "next_action": "Maintain the closed six-governorate layer; extend depth with dated official area topology, and keep the historic firjan layer bounded and unpublished.",
   "official_authority": {
     "missing_reason": null,
     "name": "Central Statistical Bureau / Public Authority for Civil Information",
@@ -204,6 +205,56 @@
       ],
       "special_cases": [
         "Six tentative-list sites excluded."
+      ]
+    },
+    {
+      "authority_name": "UNESCO Intangible Cultural Heritage",
+      "coverage_record_id": null,
+      "denominator": 7,
+      "denominator_id": null,
+      "entity_types": [
+        "cultural_site"
+      ],
+      "layer": "unesco_intangible_heritage",
+      "license": "UNESCO ICH pages; factual extraction with attribution",
+      "local_names": [
+        "عنصر تراث غير مادي"
+      ],
+      "notes": "Seven inscribed elements on which Kuwait appears; shared elements are never exclusive. No coverage record is asserted because the layer itself is the inscription list.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-09-20",
+      "source_ids": [
+        "SRC-KW-UNESCO-ICH-2026"
+      ],
+      "special_cases": [
+        "Shared multi-State files carry classification shared."
+      ]
+    },
+    {
+      "authority_name": null,
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
+      "entity_types": [
+        "quarter",
+        "lane"
+      ],
+      "layer": "historic_city_quarters",
+      "license": "Historic narratives from state news agency and local heritage archives; reuse terms not stated",
+      "local_names": [
+        "فريج",
+        "سكة",
+        "حي قديم"
+      ],
+      "notes": "Bounded heritage-attested set of the four historic quarters, twelve firjan, and one sikka; no complete register exists and no percentage is claimed.",
+      "scope_status": "open",
+      "snapshot_date": "2026-09-20",
+      "source_ids": [
+        "SRC-KW-KUNA-FIRJAN-2017",
+        "SRC-KW-MIRQAB-HERITAGE-2026"
+      ],
+      "special_cases": [
+        "Historical places only: located_in relationships, no administrative parent, no population claims."
       ]
     }
   ],

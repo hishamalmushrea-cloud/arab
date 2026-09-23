@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+  "country_codes": [
+    "MR"
+  ],
+  "id": "SRC-MR-ISO639-3-BAMBARA",
+  "language": "en",
+  "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+  "locator": "bam = Bambara؛ 639-1: bm؛ فردية، حيّة",
+  "notes": "صفحة السجل قُرئت 2026-09-21. Publication date unavailable. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "SIL International (ISO 639-3 registration authority)",
+  "quality_tier": "A",
+  "retrieved_at": "2026-09-21",
+  "schema_version": "2.0.0",
+  "source_type": "standard",
+  "title": "ISO 639-3 code registration — Bambara",
+  "url": "https://iso639-3.sil.org/code/bam"
+}

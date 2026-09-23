@@ -3,12 +3,11 @@
   "critical_p1": 0,
   "errors": [],
   "metrics": {
-    "claims": 17,
-    "coverage": 4,
+    "claims": 73,
     "denominators": 4,
-    "entities": 16,
-    "relationships": 15,
-    "sources": 3
+    "entities": 23,
+    "relationships": 22,
+    "sources": 32
   },
   "p0": 0,
   "schema_version": "2.0.0",

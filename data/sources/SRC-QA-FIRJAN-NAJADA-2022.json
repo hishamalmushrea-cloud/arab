@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5",
+  "country_codes": [
+    "QA"
+  ],
+  "id": "SRC-QA-FIRJAN-NAJADA-2022",
+  "language": "ar",
+  "license": "Local press report; factual extraction with attribution",
+  "locator": "فريج النجادة القديم في قلب سوق واقف، و17 بيتًا كانت لأسر قطرية، وعمارة الليوان والحوش وغرف الطين والحجر",
+  "notes": "Report dated 2022-08-25. Tier-E press material: the farij and its craft center stay local_reported.",
+  "publication_date": "2022-08-25",
+  "publisher": "الجزيرة نت",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-20",
+  "schema_version": "2.0.0",
+  "source_type": "local_press",
+  "title": "مبادرة النجادة.. مركز قطري يحتضن الحرف التقليدية التراثية",
+  "url": "https://www.aljazeera.net/misc/2022/8/25/"
+}

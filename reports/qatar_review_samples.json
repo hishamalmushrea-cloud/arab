@@ -18,7 +18,7 @@
       "sample_size": 9
     },
     "claims": {
-      "population": 10,
+      "population": 50,
       "record_ids": [
         "CLM-QA-1959ECEEA7BE5FC0",
         "CLM-QA-74B9B7CB2FB559ED",
@@ -29,10 +29,50 @@
         "CLM-QA-BF2FCF9C09B35146",
         "CLM-QA-C438257FCC6155BF",
         "CLM-QA-CBE42CBC252E5A05",
+        "CLM-QA-DEPTH-0219CC4DCEC45229",
+        "CLM-QA-DEPTH-15686F6A9D2A554B",
+        "CLM-QA-DEPTH-1DD7D75FCF0A59C6",
+        "CLM-QA-DEPTH-2367AC4619785A06",
+        "CLM-QA-DEPTH-25D72A30AD225985",
+        "CLM-QA-DEPTH-368FA512D6EE5D54",
+        "CLM-QA-DEPTH-3874D13AB1FC555B",
+        "CLM-QA-DEPTH-3F02184BEB6B5A1E",
+        "CLM-QA-DEPTH-3F0EB21A48845DB7",
+        "CLM-QA-DEPTH-46C001025AB851A4",
+        "CLM-QA-DEPTH-57263C1250885B2C",
+        "CLM-QA-DEPTH-5763D8CE157259A8",
+        "CLM-QA-DEPTH-69C47B57A11B59C1",
+        "CLM-QA-DEPTH-70F2B0E7128C5817",
+        "CLM-QA-DEPTH-96A6BE581D585805",
+        "CLM-QA-DEPTH-9C25934A9B2D52E8",
+        "CLM-QA-DEPTH-9E23700778AC59D1",
+        "CLM-QA-DEPTH-9F5E015B5AA55980",
+        "CLM-QA-DEPTH-A8649E8E602356BD",
+        "CLM-QA-DEPTH-B239DE3406AD5CF9",
+        "CLM-QA-DEPTH-B5FEE28F47F652E6",
+        "CLM-QA-DEPTH-BA1443817A4C593D",
+        "CLM-QA-DEPTH-BA7F4CE6504E5460",
+        "CLM-QA-DEPTH-BEE395E8D06B51B4",
+        "CLM-QA-DEPTH-C5F9DDEFFC195F98",
+        "CLM-QA-DEPTH-C6920AA20F685B56",
+        "CLM-QA-DEPTH-CB6C24073F1E520A",
+        "CLM-QA-DEPTH-D37A97018C28561B",
+        "CLM-QA-DEPTH-D526BA62D36B5998",
+        "CLM-QA-DEPTH-D76753C659B45D82",
+        "CLM-QA-DEPTH-E00B97DEBF7C5ACC",
+        "CLM-QA-DEPTH-E10D21D671AA57EE",
+        "CLM-QA-DEPTH-E6349E7045765260",
+        "CLM-QA-DEPTH-E73A57B15A155350",
+        "CLM-QA-DEPTH-EA106D8154DD5FC1",
+        "CLM-QA-DEPTH-EDEF5DA04B635EBB",
+        "CLM-QA-DEPTH-F12B13FDD440553B",
+        "CLM-QA-DEPTH-F37E883F07625153",
+        "CLM-QA-DEPTH-F7B5361425075987",
+        "CLM-QA-DEPTH-FB84B50DF6CD5F16",
         "CLM-QA-DFCE11B7B84355D0"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 10
+      "sample_size": 50
     },
     "coverage": {
       "population": 3,
@@ -55,10 +95,13 @@
       "sample_size": 3
     },
     "entities": {
-      "population": 10,
+      "population": 14,
       "record_ids": [
         "ENT-QA-ARCHAEOLOGICAL-SITE-AL-ZUBARAH",
         "ENT-QA-COUNTRY",
+        "ENT-QA-FIRIJ-B3D2011DA0895AC5",
+        "ENT-QA-FIRIJ-D02AA28A9A7E54F4",
+        "ENT-QA-FIRIJ-EC668E00F1E7586F",
         "ENT-QA-MUNICIPALITY-AL-DAAYEN",
         "ENT-QA-MUNICIPALITY-AL-KHOR-AL-THAKHIRA",
         "ENT-QA-MUNICIPALITY-AL-RAYYAN",
@@ -66,13 +109,14 @@
         "ENT-QA-MUNICIPALITY-AL-SHEEHANIYA",
         "ENT-QA-MUNICIPALITY-AL-WAKRA",
         "ENT-QA-MUNICIPALITY-DOHA",
-        "ENT-QA-MUNICIPALITY-UMM-SLAL"
+        "ENT-QA-MUNICIPALITY-UMM-SLAL",
+        "ENT-QA-SOUQ-FF72FAA1AF2B530B"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 10
+      "sample_size": 14
     },
     "relationships": {
-      "population": 9,
+      "population": 13,
       "record_ids": [
         "REL-QA-1E65D833B5CA5329",
         "REL-QA-2203A0E5AA0C5136",
@@ -82,21 +126,36 @@
         "REL-QA-A1D99487D6FD59CD",
         "REL-QA-A5B7D5A651255B5B",
         "REL-QA-B399353A78D25E12",
-        "REL-QA-E656E6E35BFF574C"
+        "REL-QA-E656E6E35BFF574C",
+        "REL-QA-LOCATED-5887180776D35027",
+        "REL-QA-LOCATED-81949F18EC8A5B55",
+        "REL-QA-LOCATED-97F728AF3D29570B",
+        "REL-QA-LOCATED-DD21338A93D75811"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 9
+      "sample_size": 13
     },
     "sources": {
-      "population": 3,
+      "population": 13,
       "record_ids": [
+        "SRC-QA-CUISINE-MIRROR-2026",
+        "SRC-QA-DIALECT-DOHA24-2025",
+        "SRC-QA-DIALECT-FORUM-2010",
+        "SRC-QA-DRESS-JAZEERA-2018",
+        "SRC-QA-DRESS-KHALEEJ-2016",
+        "SRC-QA-DRESS-QNA-2023",
+        "SRC-QA-FIRJAN-NAJADA-2022",
+        "SRC-QA-FIRJAN-PRESS-2024",
         "SRC-QA-PSA-CENSUS-MUNICIPALITIES-2020",
         "SRC-QA-QNMP-EIGHT-MUNICIPALITIES-2026",
+        "SRC-QA-SOUQ-WAQIF-2012",
+        "SRC-QA-UNESCO-ICH-2026",
         "SRC-UNESCO-WHC-QA-1402"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 3
+      "sample_size": 13
     }
   },
-  "schema_version": "2.0.0"
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-09-20"
 }

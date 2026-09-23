@@ -61,6 +61,586 @@
       "source_type": "official_report",
       "title": "Revue par les pairs du système statistique national",
       "url": "https://admin.ansade.mr/wp-content/uploads/2026/06/Rapport-de-la-Revue-par-les-Pairs-du-SSN-2024.pdf"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-UNESCO-ICH-MR-STATE-2026",
+      "language": "en",
+      "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+      "locator": "تسعة عناصر مُدرجة (2011 قائمة الصون العاجل و2011-2025 القائمة التمثيلية)؛ التصديق 15 نوفمبر 2006؛ عضو لجنة 2022-2026؛ ثلاثة ترشيحات 2026 معلنة",
+      "notes": "صفحة الدولة قُرئت 2026-09-21: قائمة العناصر وسنواتها وقوائمها وتاريخ التصديق والترشيحات الجارية. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "UNESCO Intangible Cultural Heritage",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "Mauritania — UNESCO Intangible Cultural Heritage",
+      "url": "https://ich.unesco.org/en/state/mauritania-MR"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-UNESCO-ICH-THEYDINN-00524-2011",
+      "language": "en",
+      "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+      "locator": "عنصر 00524؛ إدراج 2011 (6.COM) على قائمة الصون العاجل؛ موريتانيا الدولة المُقدِّمة الوحيدة",
+      "notes": "صفحة العنصر قُرئت 2026-09-21: وصف الملحمة والمديّاحين والآلات وتراجع الأداء. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "UNESCO Intangible Cultural Heritage",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "Moorish epic T’heydinn",
+      "url": "https://ich.unesco.org/en/USL/moorish-epic-t-heydinn-00524"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-UNESCO-ICH-MAHADRA-01960-2023",
+      "language": "en",
+      "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+      "locator": "عنصر 01960؛ إدراج 2023 (18.COM) على القائمة التمثيلية؛ موريتانيا وحدها",
+      "notes": "صفحة العنصر قُرئت 2026-09-21: وصف «جامعة الصحراء» والخيمة والموادّ المنقولة. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "UNESCO Intangible Cultural Heritage",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "Mahadra, a community system for transmission of traditional knowledge and oral expressions",
+      "url": "https://ich.unesco.org/en/RL/mahadra-a-community-system-for-transmission-of-traditional-knowledge-and-oral-expressions-01960"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-UNESCO-ICH-SAMBA-GUELADIO-01692-2024",
+      "language": "en",
+      "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+      "locator": "عنصر 01692؛ إدراج 2024 (19.COM) على القائمة التمثيلية؛ موريتانيا وحدها",
+      "notes": "صفحة العنصر قُرئت 2026-09-21: حكاية البطل وتحالفاته وقيم الملحمة. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "UNESCO Intangible Cultural Heritage",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "The Epic of Samba Gueladio",
+      "url": "https://ich.unesco.org/en/RL/the-epic-of-samba-gueladio-01692"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-UNESCO-ICH-COUSCOUS-01602-2020",
+      "language": "en",
+      "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+      "locator": "عنصر 01602؛ إدراج 2020 (15.COM)؛ أربع دول: الجزائر وموريتانيا والمغرب وتونس",
+      "notes": "صفحة العنصر قُرئت 2026-09-21: عمليات الإعداد والأدوات والدلالات الاجتماعية. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "UNESCO Intangible Cultural Heritage",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "Knowledge, know-how and practices pertaining to the production and consumption of couscous",
+      "url": "https://ich.unesco.org/en/RL/knowledge-know-how-and-practices-pertaining-to-the-production-and-consumption-of-couscous-01602"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-UNESCO-ICH-CALLIGRAPHY-01718-2021",
+      "language": "en",
+      "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+      "locator": "عنصر 01718؛ إدراج 2021 (16.COM)؛ ست عشرة دولة منها موريتانيا",
+      "notes": "صفحة العنصر قُرئت 2026-09-21: الحروف والأدوات والمواد والانتقال إلى الوسائط الحديثة. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "UNESCO Intangible Cultural Heritage",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "Arabic calligraphy: knowledge, skills and practices",
+      "url": "https://ich.unesco.org/en/RL/arabic-calligraphy-knowledge-skills-and-practices-01718"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-UNESCO-ICH-DATE-PALM-01902-2022",
+      "language": "en",
+      "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+      "locator": "عنصر 01902؛ إدراج 2022 (17.COM)؛ خمس عشرة دولة منها موريتانيا",
+      "notes": "صفحة العنصر قُرئت 2026-09-21: النخلة في الواحات والاستعمالات والحضور في الشعر. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "UNESCO Intangible Cultural Heritage",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "Date palm, knowledge, skills, traditions and practices",
+      "url": "https://ich.unesco.org/en/RL/date-palm-knowledge-skills-traditions-and-practices-01902"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-UNESCO-ICH-ENGRAVING-01951-2023",
+      "language": "en",
+      "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+      "locator": "عنصر 01951؛ إدراج 2023 (18.COM)؛ عشر دول منها موريتانيا",
+      "notes": "صفحة العنصر قُرئت 2026-09-21: النقش اليدوي على المعادن وأدواته وأنماط نقله. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "UNESCO Intangible Cultural Heritage",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "Arts, skills and practices associated with engraving on metals (gold, silver and copper)",
+      "url": "https://ich.unesco.org/en/RL/arts-skills-and-practices-associated-with-engraving-on-metals-gold-silver-and-copper-01951"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-UNESCO-ICH-HENNA-02116-2024",
+      "language": "en",
+      "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+      "locator": "عنصر 02116؛ إدراج 2024 (19.COM)؛ ست عشرة دولة منها موريتانيا",
+      "notes": "صفحة العنصر قُرئت 2026-09-21: شجرة الحناء وعجينتها واستعمالاتها ومرافقاتها الشفهية. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "UNESCO Intangible Cultural Heritage",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "Henna: rituals, aesthetic and social practices",
+      "url": "https://ich.unesco.org/en/RL/henna-rituals-aesthetic-and-social-practices-02116"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-UNESCO-ICH-MR-ZAFFA-02283-2025",
+      "language": "en",
+      "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+      "locator": "عنصر 02283؛ إدراج 2025 (20.COM)؛ سبع دول منها موريتانيا",
+      "notes": "صفحة العنصر قُرئت في دورة جزر القمر 2026-09-20 وأُعيدت هنا لإكمال قائمة موريتانيا دون ادعاء حصرية. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "UNESCO Intangible Cultural Heritage",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "The zaffa in the traditional wedding",
+      "url": "https://ich.unesco.org/en/RL/the-zaffa-in-the-traditional-wedding-02283"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-UNESCO-WH-MR-KSOUR-750-1996",
+      "language": "ar",
+      "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+      "locator": "موقع 750؛ إدراج 1996؛ المعايير (iii) و(iv) و(v)؛ الوصف الرسمي بالعربية",
+      "notes": "صفحة الموقع قُرئت 2026-09-21: الوصف الرسمي العربي والمعايير وملاحظات الإدارة والحماية (قانون 46-2005). Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "UNESCO World Heritage Centre",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "Ancient Ksour of Ouadane, Chinguetti, Tichitt and Oualata",
+      "url": "https://whc.unesco.org/en/list/750/"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-UNESCO-WH-MR-STATE-2026",
+      "language": "en",
+      "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+      "locator": "موقعان مُدرجان (قصور 750 الثقافي 1996، وبانك دارغان 506 الطبيعي 1989)؛ ثلاث مواقع في القائمة المؤقتة (2001)؛ التصديق 2 مارس 1981",
+      "notes": "صفحة الدولة قُرئت 2026-09-21: قائمتا الإدراج والقائمة المؤقتة وتاريخ التصديق وتقارير حالة الحفظ. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "UNESCO World Heritage Centre",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "Mauritania — UNESCO World Heritage Convention",
+      "url": "https://whc.unesco.org/en/statesparties/mr"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-MR-CONSTITUTION-2012",
+      "language": "en",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "المواد 1 و5 و6 و7 و9؛ الديباجة: العربية الرسمية واللغات الوطنية ثروة مشتركة",
+      "notes": "نصّ دستوري منشور على مشروع «Constitute»؛ لا يُنسب تاريخ إصدار إلى الصفحة. Publication date unavailable. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Constitute Project — Comparative Constitutions Project",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "law",
+      "title": "Mauritania 1991 (rev. 2012) Constitution (as published by Constitute)",
+      "url": "https://www.constituteproject.org/constitution/Mauritania_2012"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-MR-ISO639-3-HASSANIYA",
+      "language": "en",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "mey = Hassaniyya؛ 639-3؛ فردية، حيّة",
+      "notes": "صفحة السجل قُرئت 2026-09-21. Publication date unavailable. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "SIL International (ISO 639-3 registration authority)",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "standard",
+      "title": "ISO 639-3 code registration — Hassaniyya",
+      "url": "https://iso639-3.sil.org/code/mey"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-MR-ISO639-3-PULAAR",
+      "language": "en",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "fuc = Pulaar؛ عضو في لغة أم فالاful (ful)؛ فردية، حيّة",
+      "notes": "صفحة السجل قُرئت 2026-09-21. Publication date unavailable. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "SIL International (ISO 639-3 registration authority)",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "standard",
+      "title": "ISO 639-3 code registration — Pulaar",
+      "url": "https://iso639-3.sil.org/code/fuc"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-MR-ISO639-3-SONINKE",
+      "language": "en",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "snk = Soninke؛ 639-2/639-3؛ فردية، حيّة",
+      "notes": "صفحة السجل قُرئت 2026-09-21. Publication date unavailable. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "SIL International (ISO 639-3 registration authority)",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "standard",
+      "title": "ISO 639-3 code registration — Soninke",
+      "url": "https://iso639-3.sil.org/code/snk"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-MR-ISO639-3-WOLOF",
+      "language": "en",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "wol = Wolof؛ 639-1: wo؛ فردية، حيّة",
+      "notes": "صفحة السجل قُرئت 2026-09-21. Publication date unavailable. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "SIL International (ISO 639-3 registration authority)",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "standard",
+      "title": "ISO 639-3 code registration — Wolof",
+      "url": "https://iso639-3.sil.org/code/wol"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-MR-ISO639-3-ZENAGA",
+      "language": "en",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "zen = Zenaga؛ 639-2/639-3؛ فردية، حيّة",
+      "notes": "صفحة السجل قُرئت 2026-09-21. Publication date unavailable. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "SIL International (ISO 639-3 registration authority)",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "standard",
+      "title": "ISO 639-3 code registration — Zenaga",
+      "url": "https://iso639-3.sil.org/code/zen"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-MR-ISO639-3-BAMBARA",
+      "language": "en",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "bam = Bambara؛ 639-1: bm؛ فردية، حيّة",
+      "notes": "صفحة السجل قُرئت 2026-09-21. Publication date unavailable. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "SIL International (ISO 639-3 registration authority)",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "standard",
+      "title": "ISO 639-3 code registration — Bambara",
+      "url": "https://iso639-3.sil.org/code/bam"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-MR-ISO639-3-TAMASHEQ",
+      "language": "en",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "taq = Tamasheq؛ عضو في لغة أم تماشق (tmh) مع thv وthz وttq؛ فردية، حيّة",
+      "notes": "صفحة السجل قُرئت 2026-09-21. Publication date unavailable. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "SIL International (ISO 639-3 registration authority)",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "standard",
+      "title": "ISO 639-3 code registration — Tamasheq",
+      "url": "https://iso639-3.sil.org/code/taq"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-MR-ISO639-3-SERER",
+      "language": "en",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "srr = Serer؛ 639-2/639-3؛ فردية، حيّة",
+      "notes": "صفحة السجل قُرئت 2026-09-21. Publication date unavailable. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "SIL International (ISO 639-3 registration authority)",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "standard",
+      "title": "ISO 639-3 code registration — Serer",
+      "url": "https://iso639-3.sil.org/code/srr"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-MR-LANGUAGES-MIRROR-2026",
+      "language": "en",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "العربية الرسمية؛ اللغات الوطنية: العربية والبولارية والسوننكية والولوفية؛ الحسانية اللغة الدارجة؛ الزناغة والبمبارا والطوارقية والسيريرية أقليات؛ لغة إشارة فرنكوفونية؛ الفرنسية لغة عمل بحكم الأمر الواقع",
+      "notes": "مرآة إنجليزية لخريطة اللغات؛ تُستعمل للتصنيف والحضور فقط، ولا تُسجَّل أعداد المتحدثين ولا نسبها المطبوعة في الصفحة. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Wikipedia (English mirror)",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "local_website",
+      "title": "Languages of Mauritania",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Mauritania"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-MR-HASSANIYA-MIRROR-2026",
+      "language": "ar",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "لهجة بدوية من لهجات بني حسان؛ أقرب اللهجات: الليبية وجنوب تونس ووادي سوف؛ لهجات نمادية وإمراغوية؛ كتابة عربية ورومانية في السنغال؛ رمز mey",
+      "notes": "مرآة عربية لوصف اللهجة وأصلها ولهجاتها الفرعية؛ تطبع عدد متحدثين لا يُسجَّل هنا. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "local_website",
+      "title": "لهجة حسانية",
+      "url": "https://ar.wikipedia.org/wiki/لهجة_حسانية"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-MR-CUISINE-MIRROR-2026",
+      "language": "ar",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "تأثيرات مغاربية وسنغالية وفرنسية؛ اثنا عشر طبقًا ومشروبًا؛ الشاي الأخضر بالنعناع يُصب من علٍ لإحداث الرغوة",
+      "notes": "مرآة عربية تصف المطبخ؛ الصفحة تحمل قالب نقص مصادر، فتُسجَّل كل مادة منها غير منشورة. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "local_website",
+      "title": "مطبخ موريتاني",
+      "url": "https://ar.wikipedia.org/wiki/مطبخ_موريتاني"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-MR-DRESS-MIRROR-2026",
+      "language": "ar",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "الملحفة للنساء والدراعة للرجال؛ العقدتان «الخلالين»؛ أربعة أمتار في متر ونصف؛ أنواع: الشَّكَّة وكنيبة وسَاغَامْبُو وكاز وكونتر وشيفون وتُوبِيتْ وصافانا وملاحف الشرق بالنيلة والشنظورة؛ دلالات شعبية للحب والغيرة",
+      "notes": "مرآة عربية للزي الموريتاني؛ لا يُستشهد بمقالة «دراعة» العباسية المنفصلة. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "local_website",
+      "title": "ملحفة",
+      "url": "https://ar.wikipedia.org/wiki/ملحفة"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-MR-NOUAKCHOTT-MIRROR-2026",
+      "language": "ar",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "اختيار الموقع 1957؛ وضع الحجر الأساس 5 مارس 1958؛ تحوّل من قرية صغيرة تفتقر لمياه جوفية صالحة للشرب؛ موقع 18°6′ شمالًا و15°57′ غربًا",
+      "notes": "مرآة عربية لسياق العاصمة؛ تطبع تقدير سكان 2013 لا يُسجَّل في أي دعوى. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "local_website",
+      "title": "نواكشوط",
+      "url": "https://ar.wikipedia.org/wiki/نواكشوط"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-MR-NOUAKCHOTT-ALKHALEEJ-2010",
+      "language": "ar",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "رواية كبار السن عن العالم وبئر نواكشوط؛ روايتا التسمية «نوق الشط» و«نوكشوظ» أي بئر المحار؛ أسماء أحياء ومقاطعات",
+      "notes": "تقرير صحافي مؤرخ 25 مارس 2010: يُستعمل لرواية شعبية معلنة ورواية تسمية فقط.",
+      "publication_date": "2010-03-25",
+      "publisher": "صحيفة الخليج",
+      "quality_tier": "B",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "local_press",
+      "title": "نواكشوط أول عاصمة عربية مهددة بالغرق",
+      "url": "https://www.alkhaleej.ae/ملحق/نواكشوط-أول-عاصمة-عربية-مهددة-بالغرق"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-MR-TOWNS-MIRROR-2026",
+      "language": "ar",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "شنقيط ووادان بولاية أدرار؛ تيشيت بولاية تكانت؛ ولاتة بولاية الحوض الشرقي",
+      "notes": "ملخصات صفحات المدن الأربع (نقطة نهاية الملخص في واجهة ويكيبيديا) لتثبيت الولاية، والعلاقة المكانية تُسجَّل local_reported. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "local_website",
+      "title": "مدن القصور الأربع — ملخصات مرآة",
+      "url": "https://ar.wikipedia.org/wiki/شنقيط"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+      "country_codes": [
+        "MR"
+      ],
+      "id": "SRC-MR-SITES-MIRROR-2026",
+      "language": "ar-en",
+      "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+      "locator": "أزوكي على هضبة آدرار؛ كمبي صالح جنوب شرق البلاد 60 كم جنوب تمبدغة؛ تگداوست في ولاية الحوض الغربي",
+      "notes": "ملخصات صفحات المواقع الثلاثة لتثبيت الموضع، بلا سكان وبلا نسبة وبلا دعاوى. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "ويكيبيديا (عربية وإنجليزية، نسخ مرآة)",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-21",
+      "schema_version": "2.0.0",
+      "source_type": "local_website",
+      "title": "مواقع أثرية موريتانية — ملخصات مرآة",
+      "url": "https://en.wikipedia.org/wiki/Azougui"
     }
   ]
 }

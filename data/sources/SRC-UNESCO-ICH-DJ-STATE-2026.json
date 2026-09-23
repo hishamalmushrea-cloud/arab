@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+  "country_codes": [
+    "DJ"
+  ],
+  "id": "SRC-UNESCO-ICH-DJ-STATE-2026",
+  "language": "en",
+  "license": "UNESCO ICH element and State page; factual extraction with attribution; CC BY-SA 3.0 IGO for the descriptions",
+  "locator": "three inscribed elements (2023 USL, 2024 RL, 2025 RL); 2026 Madqa nomination pending; Convention ratified 30 August 2007",
+  "notes": "State page read 2026-09-21: element list, lists, years, ratification date and the pending 2026 nomination for the Madqa (Afar oral customary law). Publication date unavailable on the state page. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "UNESCO Intangible Cultural Heritage",
+  "quality_tier": "A",
+  "retrieved_at": "2026-09-21",
+  "schema_version": "2.0.0",
+  "source_type": "institutional_page",
+  "title": "Djibouti — UNESCO Intangible Cultural Heritage",
+  "url": "https://ich.unesco.org/en/state/djibouti-DJ"
+}

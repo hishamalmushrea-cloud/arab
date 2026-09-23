@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+  "country_codes": [
+    "MR"
+  ],
+  "id": "SRC-UNESCO-WH-MR-STATE-2026",
+  "language": "en",
+  "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+  "locator": "موقعان مُدرجان (قصور 750 الثقافي 1996، وبانك دارغان 506 الطبيعي 1989)؛ ثلاث مواقع في القائمة المؤقتة (2001)؛ التصديق 2 مارس 1981",
+  "notes": "صفحة الدولة قُرئت 2026-09-21: قائمتا الإدراج والقائمة المؤقتة وتاريخ التصديق وتقارير حالة الحفظ. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "UNESCO World Heritage Centre",
+  "quality_tier": "A",
+  "retrieved_at": "2026-09-21",
+  "schema_version": "2.0.0",
+  "source_type": "institutional_page",
+  "title": "Mauritania — UNESCO World Heritage Convention",
+  "url": "https://whc.unesco.org/en/statesparties/mr"
+}

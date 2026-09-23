@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+  "country_codes": [
+    "MR"
+  ],
+  "id": "SRC-MR-CUISINE-MIRROR-2026",
+  "language": "ar",
+  "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+  "locator": "تأثيرات مغاربية وسنغالية وفرنسية؛ اثنا عشر طبقًا ومشروبًا؛ الشاي الأخضر بالنعناع يُصب من علٍ لإحداث الرغوة",
+  "notes": "مرآة عربية تصف المطبخ؛ الصفحة تحمل قالب نقص مصادر، فتُسجَّل كل مادة منها غير منشورة. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-21",
+  "schema_version": "2.0.0",
+  "source_type": "local_website",
+  "title": "مطبخ موريتاني",
+  "url": "https://ar.wikipedia.org/wiki/مطبخ_موريتاني"
+}

@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:e32bc038aefb2f6a25d5919c31e61c1f0927c57c9a492d18fd55f48e494d9411",
+  "country_codes": [
+    "KW"
+  ],
+  "id": "SRC-KW-DRESS-HERITAGE-2026",
+  "language": "ar",
+  "license": "Local heritage archive reproducing a Kuna report; factual extraction with attribution",
+  "locator": "Kuna report of 2008-09-14 quoting researchers on الدراعة والنفنوف والبخنق والبوشية والثوب وأنواعها",
+  "notes": "The archive copy carries the original Kuna date; dress entries stay local_reported and unpublished.",
+  "publication_date": "2008-09-14",
+  "publisher": "وكالة الأنباء الكويتية (كونا) عبر أرشيف تاريخ الكويت",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-20",
+  "schema_version": "2.0.0",
+  "source_type": "local_press",
+  "title": "مسميات للملابس النسائية في الكويت قديمًا",
+  "url": "https://www.kuwait-history.net/vb/archive/index.php/t-6051.html"
+}

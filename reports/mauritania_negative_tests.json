@@ -1,36 +1,26 @@
 {
   "country_code": "MR",
-  "detected": 8,
+  "detected": 78,
   "mutations": [
     {
       "detected": true,
       "expected_code": "MR_COUNTS",
-      "mutation": "MR_NOUAKCHOTT_AS_NEIGHBORHOOD"
+      "mutation": "MR_WILAYA_LOST"
     },
     {
       "detected": true,
-      "expected_code": "MR_PROFILE",
+      "expected_code": "MR_COUNTS",
+      "mutation": "MR_COUNTRY_LOST"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_ACCEPTED",
       "mutation": "MR_WRONG_PROFILE"
     },
     {
       "detected": true,
-      "expected_code": "MR_COUNTS_CLAIMS",
+      "expected_code": "MR_MOUGHATAA_SCOPE",
       "mutation": "MR_MOUGHATAA_57"
-    },
-    {
-      "detected": true,
-      "expected_code": "MR_COMMUNE_CONFLICT",
-      "mutation": "MR_COMMUNE_220_DEFAULT"
-    },
-    {
-      "detected": true,
-      "expected_code": "MR_COMMUNE_CONFLICT",
-      "mutation": "MR_COMMUNE_219_DEFAULT"
-    },
-    {
-      "detected": true,
-      "expected_code": "MR_PREMATURE_LOWER",
-      "mutation": "MR_PREMATURE_MOUGHATAA"
     },
     {
       "detected": true,
@@ -39,11 +29,371 @@
     },
     {
       "detected": true,
+      "expected_code": "MR_LOWER",
+      "mutation": "MR_PREMATURE_MOUGHATAA"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_LOWER",
+      "mutation": "MR_PREMATURE_COMMUNE"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_ICH_CONTRACT",
+      "mutation": "MR_ICH_WRONG_YEAR"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_ICH_CONTRACT",
+      "mutation": "MR_ICH_COSTATE_LOST"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_ICH_CONTRACT",
+      "mutation": "MR_ICH_SHARED_AS_NATIONAL"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_ICH_CONTRACT",
+      "mutation": "MR_ICH_NATIONAL_AS_SHARED"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_ICH_CONTRACT",
+      "mutation": "MR_ICH_UNPUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_ICH_CONTRACT",
+      "mutation": "MR_ICH_WEAK_SOURCE"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_ICH_CONTRACT",
+      "mutation": "MR_ICH_EXTRA_ELEMENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_DEPTH_COUNTS",
+      "mutation": "MR_DEPTH_PREDICATE_LOST"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_DEPTH_COUNTS",
+      "mutation": "MR_DEPTH_CLAIM_DROPPED"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_PENDING_NOMINATION",
+      "mutation": "MR_PENDING_AS_INSCRIBED"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_PENDING_NOMINATION",
+      "mutation": "MR_PENDING_UNPUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_PENDING_NOMINATION",
+      "mutation": "MR_PENDING_STATUS_UPGRADED"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_PENDING_NOMINATION",
+      "mutation": "MR_PENDING_ELEMENT_INSCRIBED"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_PENDING_NOMINATION",
+      "mutation": "MR_PENDING_ELEMENT_NAMED_AS_INSCRIBED"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_CONVENTION_CONTRACT",
+      "mutation": "MR_CONVENTION_DATE_LOST"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_CONVENTION_CONTRACT",
+      "mutation": "MR_CONVENTION_WRONG_DATE"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_CONSTITUTION_CONTRACT",
+      "mutation": "MR_CONSTITUTION_ARTICLE_LOST"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_CONSTITUTION_CONTRACT",
+      "mutation": "MR_CONSTITUTION_UNPUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_CONSTITUTION_CONTRACT",
+      "mutation": "MR_CONSTITUTION_OFFICIAL_LANGUAGE_LOST"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_WH_CONTRACT",
+      "mutation": "MR_WH_NATURAL_CRITERIA"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_WH_CONTRACT",
+      "mutation": "MR_WH_KSOUR_CRITERIA_LOST"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_WH_CONTRACT",
+      "mutation": "MR_WH_CATEGORY_SWAPPED"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_WH_CONTRACT",
+      "mutation": "MR_WH_UNPUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_TENTATIVE_CONTRACT",
+      "mutation": "MR_TENTATIVE_AS_INSCRIBED"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_TENTATIVE_CONTRACT",
+      "mutation": "MR_TENTATIVE_UNPUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_TENTATIVE_CONTRACT",
+      "mutation": "MR_TENTATIVE_REFERENCE_LOST"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_LANGUAGE_CONTRACT",
+      "mutation": "MR_OFFICIAL_LANGUAGE_UNPUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_LANGUAGE_CONTRACT",
+      "mutation": "MR_NATIONAL_LANGUAGE_AS_OFFICIAL"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_LANGUAGE_CONTRACT",
+      "mutation": "MR_NATIONAL_LANGUAGE_UNPUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_LANGUAGE_CONTRACT",
+      "mutation": "MR_NATIONAL_SOURCE_WEAKENED"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_LANGUAGE_CONTRACT",
+      "mutation": "MR_ISO_CODE_LOST"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_LANGUAGE_CONTRACT",
+      "mutation": "MR_ISO_SOURCE_LOST"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_LANGUAGE_CONTRACT",
+      "mutation": "MR_WEAK_LANGUAGE_PUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_LANGUAGE_CONTRACT",
+      "mutation": "MR_SIGN_LANGUAGE_ISO_CLAIMED"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_LANGUAGE_CONTRACT",
+      "mutation": "MR_EXTRA_LANGUAGE"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_SECOND_SOURCE_PAIR",
+      "mutation": "MR_SECOND_SOURCE_LOCATOR_LOST"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_SECOND_SOURCE_PAIR",
+      "mutation": "MR_SECOND_SOURCE_ID_ONLY"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_NO_COUNTS",
+      "mutation": "MR_SPEAKER_SHARE"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_NO_COUNTS",
+      "mutation": "MR_SPEAKER_COUNT"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_NO_COUNTS",
+      "mutation": "MR_POPULATION_FIELD_ON_DEPTH"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_NO_COUNTS",
+      "mutation": "MR_PERCENT_FIELD_ON_DEPTH"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_WEAK_DEPTH_PUBLISHED",
+      "mutation": "MR_WEAK_DEPTH_PUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_WEAK_DEPTH_PUBLISHED",
+      "mutation": "MR_PRESS_DEPTH_PUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_FOLK_NARRATIVE",
+      "mutation": "MR_FOLK_AS_FACT"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_FOLK_NARRATIVE",
+      "mutation": "MR_FOLK_PUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_FOLK_NARRATIVE",
+      "mutation": "MR_NAMING_NARRATIVE_PUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_DISCREPANCY",
+      "mutation": "MR_DISCREPANCY_SINGLE_VALUE"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_DISCREPANCY",
+      "mutation": "MR_DISCREPANCY_PUBLISHED_AS_FACT"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_COMMUNE_CONFLICT",
+      "mutation": "MR_COMMUNE_220_DEFAULT"
+    },
+    {
+      "detected": true,
       "expected_code": "MR_MOUGHATAA_SCOPE",
       "mutation": "MR_CLOSE_MOUGHATAA_NO_RECORDS"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_PLACE_LOCATED_IN",
+      "mutation": "MR_PLACE_ADMIN_PARENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_PLACE_LOCATED_IN",
+      "mutation": "MR_PLACE_WRONG_PARENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_PLACE_LOCATED_IN",
+      "mutation": "MR_PLACE_LOCATION_LOST"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_PLACE_LOCATED_IN",
+      "mutation": "MR_PLACE_CHILD_INFERRED"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_PLACE_CLAIMS",
+      "mutation": "MR_PLACE_CLAIM_ATTACHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_PLACE_CONTRACT",
+      "mutation": "MR_PLACE_COORDINATES"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_PLACE_CONTRACT",
+      "mutation": "MR_MIRROR_PLACE_UPGRADED"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_PLACE_CONTRACT",
+      "mutation": "MR_UNESCO_PLACE_DOWNGRADED"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_PLACE_CONTRACT",
+      "mutation": "MR_PLACE_AS_CURRENT_CITY"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_SOURCES",
+      "mutation": "MR_SOURCE_TIER_INFLATION"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_SOURCES",
+      "mutation": "MR_PRESS_TIER_INFLATION"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_SOURCES",
+      "mutation": "MR_SOURCE_LICENSE_LOST"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_ICH_LAYER",
+      "mutation": "MR_ICH_LAYER_DENOMINATOR"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_PLACE_LAYER",
+      "mutation": "MR_ICH_LAYER_CAVEAT_LOST"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_PLACE_LAYER",
+      "mutation": "MR_PLACE_LAYER_DENOMINATOR"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_PLACE_LAYER",
+      "mutation": "MR_KNOWLEDGE_LAYER_DENOMINATOR"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_WH_CONTRACT",
+      "mutation": "MR_WH_LAYER_DENOMINATOR"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_ICH_LAYER",
+      "mutation": "MR_LAYER_LOST"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_PUBLISH",
+      "mutation": "MR_WEAK_CLAIM_PUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_SOURCES",
+      "mutation": "MR_MIRROR_TIER_UPGRADE"
+    },
+    {
+      "detected": true,
+      "expected_code": "MR_WEAK_DEPTH_PUBLISHED",
+      "mutation": "MR_PRESS_CLAIM_PUBLISHED"
     }
   ],
-  "required": 8,
+  "required": 78,
   "schema_version": "2.0.0",
   "status": "PASS"
 }

@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:e32bc038aefb2f6a25d5919c31e61c1f0927c57c9a492d18fd55f48e494d9411",
+  "country_codes": [
+    "KW"
+  ],
+  "id": "SRC-KW-DIALECT-MIRROR-2026",
+  "language": "ar",
+  "license": "CC BY-SA 4.0 for the mirror text",
+  "locator": "sections: تصنيف اللهجة إلى ست لهجات (جبلة/شرق/فيلكا/الجهراء/الفنطاس/الدمنة) والفونولوجيا وجدول المفردات بمعانيها",
+  "notes": "Publication date unavailable on the mirror. Depth-cycle tier-E mirror: dialect profiles and glossed words enter as local_reported and unpublished, never as verified facts.",
+  "publication_date": null,
+  "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-20",
+  "schema_version": "2.0.0",
+  "source_type": "local_website",
+  "title": "لهجة كويتية — موسوعة مرآة",
+  "url": "https://ar.wikipedia.org/wiki/%D9%84%D9%87%D8%AC%D8%A9_%D9%83%D9%88%D9%8A%D8%AA%D9%8A%D8%A9"
+}

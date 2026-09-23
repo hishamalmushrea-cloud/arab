@@ -1,5 +1,6 @@
 {
   "country_code": "QA",
+  "method": "Checksum-bound official census and scope captures, extended in depth cycle 1 with the UNESCO intangible-heritage State Party list, Qatari press and heritage reporting, a Qatari dialect page, and a local dialect list.",
   "records": [
     {
       "bytes": 998,
@@ -10,6 +11,11 @@
       "bytes": 684,
       "path": "data/imports/qatar/fixtures/official_scope_2026.json",
       "sha256": "64c9c816c6aafe333baa63cea034e0c35d38ac90f083319b0b896eb4c8e15713"
+    },
+    {
+      "bytes": 22641,
+      "path": "data/imports/qatar/fixtures/cultural_depth_2026.json",
+      "sha256": "1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5"
     }
   ],
   "schema_version": "2.0.0",

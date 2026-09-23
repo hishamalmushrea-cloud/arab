@@ -19,6 +19,15 @@ Schema 2.0.0 represented a compact four-governorate system and serial cultural p
 
 The Bahrain validator and nine mutations now enforce: exact four-governorate identity, country parents, official areas, exclusion of Central as current, serial-property association, no cultural leakage to governorates, no unsupported dialect Claim, no foreign source, no denominator inflation, and no Alias-as-Entity promotion.
 
+## Depth cycle 1 lessons (2026-09-20)
+
+14. A country whose first layer had zero cultural domains can open depth with a **published spine and an unpublished body** in one cycle: the UNESCO intangible-heritage list is authoritative and publishable, while everything from mirrors, the folklore journal, press, and blogs stays classified and unpublished in the same file.
+15. The folklore journal of the country itself (مجلة الثقافة الشعبية) is a better dress/lexicon source than generic encyclopedic mirrors: it supplies names, local terms (خلق، طاقة، جفير، الكراخانة), and regional craft geography (بني جمرة، الجسرة، المحرق) without inventing anything.
+16. A national element and shared files must be split inside the same predicate: الفجري carries `national`, while الخط العربي والنخلة والحناء والبشت carry `shared`. A blanket classification is a review failure.
+17. Villages and حالات can enter as `current` places while فرجان enter as `historical`, provided both carry only `located_in` and no administrative parent; currentness is a settlement fact from a local source, not an administrative claim.
+18. A locally documented non-Arabic presence (الفارسية via العجم والهولة) must be recorded without a speaker count: the mirror's 1995 figure was deliberately not used.
+19. Press and blog sources for naming narratives are usable at tier E when the narrator is named (الشيخ صلاح الجودر) and the claim stays `local_reported`.
+
 ## Next-country implication
 
 Kuwait should reuse the discipline, not Bahrain's hierarchy: establish its own governorate authority and denominator, then explicitly prevent address areas and blocks from being modeled as municipalities or governorates.

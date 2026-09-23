@@ -1,14 +1,68 @@
 {
   "country_code": "MR",
   "domains": {
+    "capital_history": {
+      "claims": 1,
+      "status": "documented_local_reported_unpublished"
+    },
+    "crafts": {
+      "claims": 1,
+      "status": "documented_local_reported_unpublished"
+    },
+    "custom": {
+      "claims": 2,
+      "status": "documented_local_reported_unpublished"
+    },
     "dialect": {
+      "claims": 1,
+      "status": "documented_local_reported_unpublished"
+    },
+    "dress": {
+      "claims": 2,
+      "status": "documented_local_reported_unpublished"
+    },
+    "food": {
+      "claims": 12,
+      "status": "documented_local_reported_unpublished"
+    },
+    "heritage_places": {
+      "denominator": null,
+      "entities": 7,
+      "status": "documented_places_no_denominator"
+    },
+    "intangible_cultural_heritage": {
+      "elements": 9,
+      "national": 3,
+      "pending_nomination": "العود · السعفيات وألياف النباتات · الحناء (2026)",
+      "shared": 6,
+      "status": "documented_nine_elements_three_national"
+    },
+    "language_institutions": {
       "claims": 0,
       "status": "not_documented_in_cycle"
     },
+    "languages": {
+      "claims": 11,
+      "status": "documented_one_official_four_national_published_rest_unpublished"
+    },
+    "narratives": {
+      "claims": 2,
+      "status": "documented_folk_and_naming_narratives_unpublished"
+    },
+    "script": {
+      "claims": 1,
+      "status": "documented_local_reported_unpublished"
+    },
     "world_heritage": {
-      "status": "not_imported_in_micro_pilot"
+      "properties": [
+        "قصور وادان وشنقيط وتشيت ووالاتا (ثقافي 1996، ref 750)",
+        "محمية بانك دارغان الوطنية (طبيعي 1989، ref 506)"
+      ],
+      "status": "documented_two_inscribed_one_natural",
+      "tentative_list_sites": 3
     }
   },
+  "notes": "Nine inscribed elements, one of them on the Urgent Safeguarding List; no speaker counts, no population figures and no lower administrative levels in this cycle.",
   "schema_version": "2.0.0",
-  "snapshot_date": "2026-08-16"
+  "snapshot_date": "2026-09-21"
 }

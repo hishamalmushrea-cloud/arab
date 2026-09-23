@@ -24,6 +24,10 @@
       "detail": "status=PASS, P0=0, critical P1=0",
       "status": "pass"
     },
+    "bahrain_full_review_threshold": {
+      "detail": "full review passed=149/149",
+      "status": "pass"
+    },
     "bahrain_import_idempotence": {
       "detail": "all 10 managed hashes unchanged=True",
       "status": "pass"
@@ -33,24 +37,24 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "Materialized 7 Bahrain atomic sources.\n{\"aliases_added\": 7, \"claims_added\": 13, \"coverage_added\": 2, \"denominators_added\": 2, \"entities_added\": 7, \"relationships_added\": 7, \"sources\": 7}"
+      "stdout": "Materialized 17 Bahrain atomic sources.\n{\"aliases_added\": 7, \"claims_added\": 56, \"coverage_added\": 2, \"denominators_added\": 2, \"depth_claims\": 43, \"depth_places\": 24, \"entities_added\": 31, \"relationships_added\": 31, \"sources\": 17}"
     },
     "bahrain_independent_review": {
       "command": "python3 scripts/review_bahrain.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "[PASS] entities: 8/8\n[PASS] aliases: 7/7\n[PASS] relationships: 7/7\n[PASS] claims: 13/13\n[PASS] denominators: 3/3\n[PASS] coverage: 3/3\n[PASS] sources: 7/7"
+      "stdout": "[PASS] entities: 32/32\n[PASS] aliases: 7/7\n[PASS] relationships: 31/31\n[PASS] claims: 56/56\n[PASS] denominators: 3/3\n[PASS] coverage: 3/3\n[PASS] sources: 17/17"
     },
     "bahrain_negative_tests": {
       "command": "python3 scripts/test_bahrain_negative.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "[PASS] BH_WRONG_GOVERNORATE_PARENT -> BH_WRONG_PARENT\n[PASS] BH_WRONG_GOVERNORATE_TYPE -> BH_GOVERNORATE_IDENTITY\n[PASS] BH_HISTORICAL_CENTRAL_AS_CURRENT -> BH_HISTORICAL_AS_CURRENT\n[PASS] BH_CULTURAL_LEAKAGE_TO_GOVERNORATE -> BH_CULTURAL_LEAKAGE\n[PASS] BH_UNSUPPORTED_DIALECT_CLAIM -> BH_UNSUPPORTED_DIALECT\n[PASS] BH_FOREIGN_SOURCE -> BH_CLAIM_SOURCE\n[PASS] BH_WHC_DENOMINATOR_INFLATION -> BH_DENOMINATORS\n[PASS] BH_ALIAS_AS_ENTITY -> BH_ENTITY_UNIVERSE\n[PASS] BH_AREA_VALUE_TAMPER -> BH_AREA_VALUE"
+      "stdout": "[PASS] BH_WRONG_GOVERNORATE_PARENT -> BH_WRONG_PARENT\n[PASS] BH_WRONG_GOVERNORATE_TYPE -> BH_GOVERNORATE_IDENTITY\n[PASS] BH_HISTORICAL_CENTRAL_AS_CURRENT -> BH_HISTORICAL_AS_CURRENT\n[PASS] BH_CULTURAL_LEAKAGE_TO_GOVERNORATE -> BH_CULTURAL_LEAKAGE\n[PASS] BH_UNSUPPORTED_DIALECT_CLAIM -> BH_UNSUPPORTED_DIALECT\n[PASS] BH_FOREIGN_SOURCE -> BH_CLAIM_SOURCE\n[PASS] BH_WHC_DENOMINATOR_INFLATION -> BH_DENOMINATORS\n[PASS] BH_ALIAS_AS_ENTITY -> BH_ENTITY_UNIVERSE\n[PASS] BH_AREA_VALUE_TAMPER -> BH_AREA_VALUE\n[PASS] BH_DEPTH_PUBLISHED_FROM_WEAK -> BH_DEPTH_PUBLISHED_FROM_WEAK\n[PASS] BH_DIALECT_PROMOTED_TO_VERIFIED -> BH_DEPTH_CONTRACT\n[PASS] BH_SHARED_NOT_EXCLUSIVE -> BH_SHARED_NOT_EXCLUSIVE\n[PASS] BH_ICH_UNPUBLISHED -> BH_ICH_CONTRACT\n[PASS] BH_ICH_LAYER_DENOMINATOR -> BH_ICH_LAYER\n[PASS] BH_HERITAGE_LAYER_DENOMINATOR -> BH_HERITAGE_LAYER_DENOMINATOR\n[PASS] BH_FIRIJ_AS_CURRENT -> BH_PLACE_CONTRACT\n[PASS] BH_FIRIJ_ADMIN_PARENT -> BH_PLACE_ADMIN_PARENT\n[PASS] BH_PLACE_POPULATION -> BH_PLACE_POPULATION\n[PASS] BH_PLACE_SOURCE_UPGRADE -> BH_PLACE_CONTRACT\n[PASS] BH_SOURCE_TIER_INFLATION -> BH_SOURCE_CATALOG\n[PASS] BH_DIALECT_WITHOUT_GLOSS -> BH_DIALECT_GLOSS"
     },
     "bahrain_required_mutations": {
-      "detail": "detected=9/9",
+      "detail": "detected=21/21",
       "status": "pass"
     },
     "bahrain_review_idempotence": {
@@ -66,21 +70,17 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "Built full Bahrain review selection: 48 records across 7 families."
-    },
-    "bahrain_review_threshold": {
-      "detail": "full review passed=48/48",
-      "status": "pass"
+      "stdout": "Built full Bahrain review selection: 149 records across 7 families."
     },
     "bahrain_semantic_validation": {
       "command": "python3 scripts/validate_bahrain.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "[PASS] entities: 8\n[PASS] new_entities: 7\n[PASS] entity_types: {'archaeological_site': 2, 'bh_governorate': 4, 'country': 1, 'cultural_site': 1}\n[PASS] aliases: 7\n[PASS] relationships: 7\n[PASS] claims: 13\n[PASS] sources: 7\n[PASS] denominators: 3\n[PASS] coverage_records: 3\n[PASS] published_claims: 13\n[PASS] ab_claims: 13\n[PASS] dialect_claims: 0\nBahrain production semantic validation passed."
+      "stdout": "[PASS] entities: 32\n[PASS] new_entities: 31\n[PASS] entity_types: {'archaeological_site': 2, 'bh_governorate': 4, 'city': 1, 'country': 1, 'cultural_site': 1, 'quarter': 14, 'village': 9}\n[PASS] aliases: 7\n[PASS] relationships: 31\n[PASS] claims: 56\n[PASS] sources: 17\n[PASS] denominators: 3\n[PASS] coverage_records: 3\n[PASS] published_claims: 18\n[PASS] ab_claims: 18\n[PASS] dialect_claims: 0\n[PASS] depth_claims: 43\n[PASS] depth_places: 24\nBahrain production semantic validation passed."
     },
     "bahrain_source_idempotence": {
-      "detail": "atomic sources=7/7, unchanged=True",
+      "detail": "atomic sources=17/17, unchanged=True",
       "status": "pass"
     },
     "bahrain_source_refresh": {
@@ -88,14 +88,14 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "Materialized 7 Bahrain atomic sources."
+      "stdout": "Materialized 17 Bahrain atomic sources."
     },
     "general_validation": {
       "command": "python3 scripts/validate.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=19551\n[PASS] ids: global_ids=19551, duplicate_ids=0\n[PASS] entity_types: allowed_types=104, active_types=67\n[PASS] sources: atomic_files=174, sources=174, references=22240\n[PASS] parents: administrative_relationships=5639\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3261, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2545, sourced=2545\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=115, coverage_records=115, complete_layers=97\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=19933\n[PASS] ids: global_ids=19933, duplicate_ids=0\n[PASS] entity_types: allowed_types=104, active_types=68\n[PASS] sources: atomic_files=231, sources=231, references=22579\n[PASS] parents: administrative_relationships=5639\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3265, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2740, sourced=2740\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=115, coverage_records=115, complete_layers=97\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
     },
     "generated_freshness": {
       "command": "python3 scripts/generate.py --check",
@@ -105,7 +105,7 @@
       "stdout": "generated output is current (64 files)"
     },
     "non_bahrain_preservation": {
-      "detail": "canonical non-Bahrain SHA-256 unchanged=6714f5b57ac0c9cc59d25e4c0197d1ba44e46eca5885b42ff63271c3605e4e80",
+      "detail": "canonical non-Bahrain SHA-256 unchanged=220230bbf5eefc75745ce49e3ef4ddcfd4be185b129391805e74b1453ac90f9d",
       "status": "pass"
     }
   },

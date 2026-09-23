@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+  "country_codes": [
+    "MR"
+  ],
+  "id": "SRC-MR-SITES-MIRROR-2026",
+  "language": "ar-en",
+  "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+  "locator": "أزوكي على هضبة آدرار؛ كمبي صالح جنوب شرق البلاد 60 كم جنوب تمبدغة؛ تگداوست في ولاية الحوض الغربي",
+  "notes": "ملخصات صفحات المواقع الثلاثة لتثبيت الموضع، بلا سكان وبلا نسبة وبلا دعاوى. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "ويكيبيديا (عربية وإنجليزية، نسخ مرآة)",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-21",
+  "schema_version": "2.0.0",
+  "source_type": "local_website",
+  "title": "مواقع أثرية موريتانية — ملخصات مرآة",
+  "url": "https://en.wikipedia.org/wiki/Azougui"
+}

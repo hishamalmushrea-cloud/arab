@@ -4,18 +4,18 @@
   "families": {
     "aliases": {
       "failed": 0,
-      "passed": 6,
-      "population": 6,
+      "passed": 10,
+      "population": 10,
       "sample_percentage": 100.0,
-      "sampled": 6,
+      "sampled": 10,
       "status": "PASS"
     },
     "claims": {
       "failed": 0,
-      "passed": 6,
-      "population": 6,
+      "passed": 44,
+      "population": 44,
       "sample_percentage": 100.0,
-      "sampled": 6,
+      "sampled": 44,
       "status": "PASS"
     },
     "coverage": {
@@ -36,35 +36,35 @@
     },
     "entities": {
       "failed": 0,
-      "passed": 7,
-      "population": 7,
+      "passed": 24,
+      "population": 24,
       "sample_percentage": 100.0,
-      "sampled": 7,
+      "sampled": 24,
       "status": "PASS"
     },
     "relationships": {
       "failed": 0,
-      "passed": 6,
-      "population": 6,
+      "passed": 23,
+      "population": 23,
       "sample_percentage": 100.0,
-      "sampled": 6,
+      "sampled": 23,
       "status": "PASS"
     },
     "sources": {
       "failed": 0,
-      "passed": 3,
-      "population": 3,
+      "passed": 11,
+      "population": 11,
       "sample_percentage": 100.0,
-      "sampled": 3,
+      "sampled": 11,
       "status": "PASS"
     }
   },
   "findings": [],
-  "method": "Independent full review against checksum-bound CSB/UNESCO fixtures; importer and semantic validator not imported.",
+  "method": "Independent full review against checksum-bound CSB/UNESCO/heritage fixtures; importer and semantic validator not imported.",
   "p0": 0,
   "schema_version": "2.0.0",
-  "snapshot_date": "2026-08-16",
+  "snapshot_date": "2026-09-20",
   "status": "PASS",
-  "total_passed": 34,
-  "total_sampled": 34
+  "total_passed": 118,
+  "total_sampled": 118
 }

@@ -59,7 +59,7 @@ def main() -> int:
     before_sources = source_hashes()
     gate.command("qatar_source_refresh", [sys.executable, "scripts/build_qatar_sources.py"])
     after_sources = source_hashes()
-    gate.require(len(after_sources) == 3 and before_sources == after_sources, "qatar_source_idempotence", f"atomic sources={len(after_sources)}/3, unchanged={before_sources == after_sources}")
+    gate.require(len(after_sources) == 13 and before_sources == after_sources, "qatar_source_idempotence", f"atomic sources={len(after_sources)}/13, unchanged={before_sources == after_sources}")
     before_files, before_other = file_hashes(), non_qatar_hash()
     gate.command("qatar_import_refresh", [sys.executable, "scripts/import_qatar_production.py"])
     after_files, after_other = file_hashes(), non_qatar_hash()
@@ -80,13 +80,13 @@ def main() -> int:
     negatives = json.loads((ROOT / "reports/qatar_negative_tests.json").read_text(encoding="utf-8"))
     review = json.loads((ROOT / "reports/qatar_independent_review.json").read_text(encoding="utf-8"))
     gate.require(validation.get("status") == "PASS" and validation.get("p0") == 0 and validation.get("critical_p1") == 0, "qatar_findings_closed", f"status={validation.get('status')}, P0={validation.get('p0')}, critical P1={validation.get('critical_p1')}")
-    gate.require(negatives.get("status") == "PASS" and negatives.get("detected") == negatives.get("required") == 8, "qatar_required_mutations", f"detected={negatives.get('detected')}/{negatives.get('required')}")
-    gate.require(review.get("status") == "PASS" and review.get("total_sampled") == review.get("total_passed") == 47, "qatar_review_threshold", f"full review passed={review.get('total_passed')}/{review.get('total_sampled')}")
+    gate.require(negatives.get("status") == "PASS" and negatives.get("detected") == negatives.get("required") == 23, "qatar_required_mutations", f"detected={negatives.get('detected')}/{negatives.get('required')}")
+    gate.require(review.get("status") == "PASS" and review.get("total_sampled") == review.get("total_passed") == 105, "qatar_full_review_threshold", f"full review passed={review.get('total_passed')}/{review.get('total_sampled')}")
     for required in ["reports/QATAR_PRODUCTION_CLOSEOUT.md", "reports/LESSONS_LEARNED_QATAR.md", "reports/EXPANSION_LESSONS.md", "reports/NEXT_COUNTRY_DECISION.md"]:
         gate.require((ROOT / required).is_file(), "artifact_" + Path(required).stem.lower(), f"{required} exists")
     status = subprocess.run(["git", "status", "--porcelain"], cwd=ROOT, text=True, capture_output=True, check=True).stdout.strip()
     gate.require(not status, "qatar_clean_worktree", f"git worktree clean={not status}")
-    report = {"schema_version": "2.0.0", "country_code": "QA", "snapshot_date": "2026-08-16", "status": "pass" if not gate.errors else "fail", "checks": gate.checks, "errors": gate.errors}
+    report = {"schema_version": "2.0.0", "country_code": "QA", "snapshot_date": "2026-09-20", "status": "pass" if not gate.errors else "fail", "checks": gate.checks, "errors": gate.errors}
     write_json(ROOT / "reports/qatar_gate.json", report)
     for name, result in gate.checks.items(): print(f"[{'PASS' if result['status']=='pass' else 'FAIL'}] {name}: {result.get('detail', result.get('command',''))}")
     if gate.errors:

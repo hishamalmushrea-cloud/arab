@@ -1,10 +1,16 @@
 {
   "country_code": "KM",
+  "method": "Checksum-bound law/INSEED/UNESCO reconciliation, extended in depth cycle 1 with the UNESCO intangible-heritage element, the 2018 Constitution as published by Constitute, the ISO 639-3 registry, and Arabic/English mirror and press material.",
   "records": [
     {
       "bytes": 8556,
       "path": "data/imports/comoros/fixtures/current_hierarchy_2026.json",
       "sha256": "94421611d2de1fce249c5c6ac3e3d65cafac63b8f7ba782081a49b75a695ebde"
+    },
+    {
+      "bytes": 19533,
+      "path": "data/imports/comoros/fixtures/cultural_depth_2026.json",
+      "sha256": "f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d"
     }
   ],
   "schema_version": "2.0.0",

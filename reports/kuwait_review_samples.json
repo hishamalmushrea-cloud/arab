@@ -2,9 +2,13 @@
   "country_code": "KW",
   "families": {
     "aliases": {
-      "population": 6,
+      "population": 10,
       "record_ids": [
+        "ALS-KW-2C5A7AE3EC1B5452",
+        "ALS-KW-3B28B14DDCDF5746",
         "ALS-KW-61E9AF0EA2985661",
+        "ALS-KW-67406DD393C75FCB",
+        "ALS-KW-A56B57CD24B557E6",
         "ALS-KW-B44EE9DB5D2A500F",
         "ALS-KW-D30D6C7467DB5549",
         "ALS-KW-E85279B2E4B25E08",
@@ -12,20 +16,58 @@
         "ALS-KW-F977092B11F8594B"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 6
+      "sample_size": 10
     },
     "claims": {
-      "population": 6,
+      "population": 44,
       "record_ids": [
         "CLM-KW-0101789BB4D55DDD",
         "CLM-KW-206F0FEA5A3F555B",
         "CLM-KW-49BA618406F55A03",
         "CLM-KW-B96FAA39512251D6",
         "CLM-KW-D5399D0A15C751C0",
+        "CLM-KW-DEPTH-00E58CDAFE835474",
+        "CLM-KW-DEPTH-0422E4F3588652A9",
+        "CLM-KW-DEPTH-0A72D2BD57E35596",
+        "CLM-KW-DEPTH-154D0C61C7285544",
+        "CLM-KW-DEPTH-1905011F82EE5F53",
+        "CLM-KW-DEPTH-1AEB1571BEEF5F8F",
+        "CLM-KW-DEPTH-1D6D81F2269B5C0B",
+        "CLM-KW-DEPTH-293822176F2152A6",
+        "CLM-KW-DEPTH-2D2C8222A2CC5C06",
+        "CLM-KW-DEPTH-3494B63C87FF5674",
+        "CLM-KW-DEPTH-35436BEF32935DA4",
+        "CLM-KW-DEPTH-3A3F2FC8DBF85BE2",
+        "CLM-KW-DEPTH-4833B9D37D79518A",
+        "CLM-KW-DEPTH-4AF48ACF8A8A5797",
+        "CLM-KW-DEPTH-61449F5274F05EF0",
+        "CLM-KW-DEPTH-6664628796BC5C03",
+        "CLM-KW-DEPTH-668FE5813B5B5AEC",
+        "CLM-KW-DEPTH-74DB35F68B1752C1",
+        "CLM-KW-DEPTH-8182DD24C2845814",
+        "CLM-KW-DEPTH-88A70A55608A5B30",
+        "CLM-KW-DEPTH-95E606D9BE045154",
+        "CLM-KW-DEPTH-A075A9861B7F584A",
+        "CLM-KW-DEPTH-ADC519F9359D5A83",
+        "CLM-KW-DEPTH-B61979CC4D0F5D50",
+        "CLM-KW-DEPTH-B8DCC21629585B37",
+        "CLM-KW-DEPTH-C6AF6E3E5EF45CB8",
+        "CLM-KW-DEPTH-C72EC1663C5D5463",
+        "CLM-KW-DEPTH-CFFFA7B0303C5186",
+        "CLM-KW-DEPTH-D9507D60ABE75930",
+        "CLM-KW-DEPTH-DB5382BDABCA5DE3",
+        "CLM-KW-DEPTH-DBF137D74D165C41",
+        "CLM-KW-DEPTH-DDF9435CD62F5273",
+        "CLM-KW-DEPTH-E118762CC07250AF",
+        "CLM-KW-DEPTH-E38998D2E5C25DA1",
+        "CLM-KW-DEPTH-E6412CFEC6025283",
+        "CLM-KW-DEPTH-E9D4D168E97E57BF",
+        "CLM-KW-DEPTH-EEB7597217615FF6",
+        "CLM-KW-DEPTH-FCA198E544735FA3",
         "CLM-KW-E8FD297081805484"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 6
+      "sample_size": 44
     },
     "coverage": {
       "population": 3,
@@ -48,44 +90,86 @@
       "sample_size": 3
     },
     "entities": {
-      "population": 7,
+      "population": 24,
       "record_ids": [
         "ENT-KW-COUNTRY",
+        "ENT-KW-FIRIJ-25DB84C0C45C5D4C",
+        "ENT-KW-FIRIJ-2670093B86A05AFD",
+        "ENT-KW-FIRIJ-2E14E9EBB0F65DCE",
+        "ENT-KW-FIRIJ-31FD5D43E8565E53",
+        "ENT-KW-FIRIJ-574990D360C85C95",
+        "ENT-KW-FIRIJ-59CB23AA36F65482",
+        "ENT-KW-FIRIJ-5D5AC56899BF5BAA",
+        "ENT-KW-FIRIJ-64AEC94E1E4553F8",
+        "ENT-KW-FIRIJ-8343BC47CC475EE9",
+        "ENT-KW-FIRIJ-9303EA5D00F353A7",
+        "ENT-KW-FIRIJ-B192A35CD13C5232",
+        "ENT-KW-FIRIJ-FE73D463D9B656E4",
         "ENT-KW-GOVERNORATE-AL-AHMADI",
         "ENT-KW-GOVERNORATE-AL-FARWANIYA",
         "ENT-KW-GOVERNORATE-AL-JAHRA",
         "ENT-KW-GOVERNORATE-CAPITAL",
         "ENT-KW-GOVERNORATE-HAWALLI",
-        "ENT-KW-GOVERNORATE-MUBARAK-AL-KABEER"
+        "ENT-KW-GOVERNORATE-MUBARAK-AL-KABEER",
+        "ENT-KW-LANE-F7670F663D54581F",
+        "ENT-KW-QUARTER-02FF298F1A9052CF",
+        "ENT-KW-QUARTER-A003D018EE425C83",
+        "ENT-KW-QUARTER-E2B1EEB62C8157E2",
+        "ENT-KW-QUARTER-FCD88575EBA65CBE"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 7
+      "sample_size": 24
     },
     "relationships": {
-      "population": 6,
+      "population": 23,
       "record_ids": [
         "REL-KW-34B31553E7585BEB",
         "REL-KW-38324C62A8C9503E",
         "REL-KW-7DD4F721AED65D74",
         "REL-KW-85A2A5D262EE51A5",
         "REL-KW-D5A1B0CD06525DCA",
-        "REL-KW-EA735DA3C1B85DBC"
+        "REL-KW-EA735DA3C1B85DBC",
+        "REL-KW-LOCATED-0CB3204FF3A85519",
+        "REL-KW-LOCATED-0D435E16D46B526C",
+        "REL-KW-LOCATED-1A64B60E24325BB3",
+        "REL-KW-LOCATED-1FE51DCD9C035A89",
+        "REL-KW-LOCATED-31DB020F428155E7",
+        "REL-KW-LOCATED-3320DF850D4D59EF",
+        "REL-KW-LOCATED-41C8B2D82F515ADB",
+        "REL-KW-LOCATED-4461A9FFAD99567D",
+        "REL-KW-LOCATED-453291B7849057F6",
+        "REL-KW-LOCATED-599E16A505595024",
+        "REL-KW-LOCATED-842D941D2B1D5B89",
+        "REL-KW-LOCATED-94BD64BD30385615",
+        "REL-KW-LOCATED-B51DF5D17CF15901",
+        "REL-KW-LOCATED-B6A11718469A5193",
+        "REL-KW-LOCATED-BCF21F3B1A905C2D",
+        "REL-KW-LOCATED-D9085CD184B15BF6",
+        "REL-KW-LOCATED-D9DA2FAF989E51CC"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 6
+      "sample_size": 23
     },
     "sources": {
-      "population": 3,
+      "population": 11,
       "record_ids": [
         "SRC-KW-CSB-CENSUS-GOVERNORATES-2021",
         "SRC-KW-CSB-CENSUS-METHODOLOGY-2021",
+        "SRC-KW-CUISINE-MIRROR-2026",
+        "SRC-KW-DIALECT-LOANS-2026",
+        "SRC-KW-DIALECT-MIRROR-2026",
+        "SRC-KW-DRESS-HERITAGE-2026",
+        "SRC-KW-KUNA-FIRJAN-2017",
+        "SRC-KW-MIRQAB-HERITAGE-2026",
+        "SRC-KW-SIGN-LANGUAGE-MIRROR-2026",
+        "SRC-KW-UNESCO-ICH-2026",
         "SRC-UNESCO-WHC-KW-2026"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 3
+      "sample_size": 11
     }
   },
   "schema_version": "2.0.0",
   "selection_method": "Full review of small Kuwait production population; stable sorted IDs.",
-  "snapshot_date": "2026-08-16"
+  "snapshot_date": "2026-09-20"
 }

@@ -444,6 +444,26 @@
   },
   {
     "archive_url": null,
+    "checksum": "sha256:bfa1232e1b1849e7daac5430ff74f75d2b971b8751e7785e32b46ac8a735100d",
+    "country_codes": [
+      "BH"
+    ],
+    "id": "SRC-BH-ALBILAD-2021",
+    "language": "ar",
+    "license": "Local press column; factual extraction with attribution; reuse terms not stated",
+    "locator": "عمود يقرر أن عمرانية الجزيرة تتشكل من مدينة المحرق ومن قرى وحالات وأحياء أو فرجان: القرى الدير وسماهيج وقلالي والحد والبسيتين وعراد بقلعتها البرتغالية (القرن 16م)، والحالات كحالة بوماهر والنعيم والسلطة، وفرجان المهن (البنائين والحياك والصاغة) وفرجان العوائل (الشيوخ والبنعلي والمناعي)، وبيوت تراثية: بيت الشيخ عيسى بن علي وبيت ومجلس سيادي وبيت الشيخ سلمان بن حمد",
+    "notes": "Column dated 2021-02-16. Tier-E press material: village/hala and farij names enter as local_reported places with located_in only.",
+    "publication_date": "2021-02-16",
+    "publisher": "جريدة البلاد",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_press",
+    "title": "عمارة المحرق التقليدية وفرجانها",
+    "url": "https://albiladpress.com/news/2021/4508/columns/693672.html"
+  },
+  {
+    "archive_url": null,
     "checksum": "sha256:e0041be843d2740095239eedde477ef787eff13ca953212ea1028c30b7decc96",
     "country_codes": [
       "BH"
@@ -461,6 +481,166 @@
     "source_type": "institutional_page",
     "title": "طريق اللؤلؤ",
     "url": "https://www.culture.gov.bh/ar/authority/infra_projects/Name,14932,ar.php"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:bfa1232e1b1849e7daac5430ff74f75d2b971b8751e7785e32b46ac8a735100d",
+    "country_codes": [
+      "BH"
+    ],
+    "id": "SRC-BH-CUISINE-MIRROR-2026",
+    "language": "ar",
+    "license": "CC BY-SA 4.0 for the mirror text",
+    "locator": "أقسام أطباق الأرز والوجبات البحرية والوجبات الخالية من الأرز والإفطار البحريني مع وصف كل طبق",
+    "notes": "Publication date unavailable on the live page. Depth-cycle tier-E material: claims stay local_reported and unpublished.",
+    "publication_date": null,
+    "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "مطبخ بحريني — موسوعة مرآة",
+    "url": "https://ar.wikipedia.org/wiki/مطبخ_بحريني"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:bfa1232e1b1849e7daac5430ff74f75d2b971b8751e7785e32b46ac8a735100d",
+    "country_codes": [
+      "BH"
+    ],
+    "id": "SRC-BH-DIALECT-MIRROR-2026",
+    "language": "ar",
+    "license": "CC BY-SA 4.0 for the mirror text",
+    "locator": "تصنيف لهجات البحرين الثلاث (البحرانية، المحرقية، الخليجية) وقول المصدر صراحةً إنه لا توجد لهجة بحرينية واحدة",
+    "notes": "Publication date unavailable on the live page. Depth-cycle tier-E material: claims stay local_reported and unpublished.",
+    "publication_date": null,
+    "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "لهجة بحرينية — موسوعة مرآة",
+    "url": "https://ar.wikipedia.org/wiki/لهجة_بحرينية"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:bfa1232e1b1849e7daac5430ff74f75d2b971b8751e7785e32b46ac8a735100d",
+    "country_codes": [
+      "BH"
+    ],
+    "id": "SRC-BH-FIRJAN-BLOG-2022",
+    "language": "ar",
+    "license": "Self-published local heritage series; factual extraction with attribution; reuse terms not stated",
+    "locator": "الحلقة 3: معنى الفريج والداعوس والزرنوق، واعتبارات تسمية الفرجان (القبيلة، التاجر، علامة المكان) وأمثلة: فريج الشيوخ، فريج المحميد، فريج بن هندي، فريج الغاوي، فريج ستسيشن، فريج عين سمادو، وتشكل التسمية مع استيطان المحرق سنة 1796",
+    "notes": "Page dated 2022-06-09. Tier-E blog material used only for naming narratives at local_reported.",
+    "publication_date": "2022-06-09",
+    "publisher": "موقع الشيخ صلاح الجودر (سلسلة محلية)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "blog",
+    "title": "فرجان المحرق القديمة",
+    "url": "https://www.salahaljowder.com/2022/06/blog-post_9.html"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:bfa1232e1b1849e7daac5430ff74f75d2b971b8751e7785e32b46ac8a735100d",
+    "country_codes": [
+      "BH"
+    ],
+    "id": "SRC-BH-FIRJAN-ELAPH-2023",
+    "language": "ar",
+    "license": "Local press column; factual extraction with attribution; reuse terms not stated",
+    "locator": "مقال عن فرجان المحرق والمنامة القديمة ودواعيسها وأسواقها ومقاهيها وبيوتها الطينية والحجرية وحضور أسماء الطواويش والنواخذة والبحارة في الذاكرة المحلية",
+    "notes": "Column dated 2023-12-03. Tier-E press material: memory and craft framing stays local_reported and unpublished.",
+    "publication_date": "2023-12-03",
+    "publisher": "إيلاف",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_press",
+    "title": "الحنين إلى الماضي.. الفرجان القديمة جزء من الهوية",
+    "url": "https://elaph.com/Web/NewsPapers/2023/12/1521289.html"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:bfa1232e1b1849e7daac5430ff74f75d2b971b8751e7785e32b46ac8a735100d",
+    "country_codes": [
+      "BH"
+    ],
+    "id": "SRC-BH-FJIRI-01747",
+    "language": "en",
+    "license": "UNESCO ICH pages; factual extraction with attribution",
+    "locator": "inscription year 2021 on the Representative List; description of the circle performance, drums, finger chimes, jahl clay pot, durs, and the Muharraq pearling origin",
+    "notes": "Element description is the same UNESCO record used for the inscription claim. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "UNESCO Intangible Cultural Heritage",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Fjiri",
+    "url": "https://ich.unesco.org/en/RL/fjiri-01747"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:bfa1232e1b1849e7daac5430ff74f75d2b971b8751e7785e32b46ac8a735100d",
+    "country_codes": [
+      "BH"
+    ],
+    "id": "SRC-BH-FOLK-CLOTH-2022",
+    "language": "ar",
+    "license": "Bahraini folklore journal article by خميس البنكي; factual extraction with attribution; reuse terms not stated",
+    "locator": "أسماء الأقمشة ومصطلحات التجارة والخياطة (خلق، طاقة، جفير، الكراخانة) وأسماء الزي الشعبي: العباءة، ثوب النشل، البخنق، النفنوف، الجلابية، ثوب النقدة، ومناطق النسيج: بني جمرة والجسرة والمحرق",
+    "notes": "Article page dated July 2022 in the journal index. Tier-E heritage journal material: claims stay local_reported and unpublished.",
+    "publication_date": "2022-07-01",
+    "publisher": "مجلة الثقافة الشعبية (البحرين) — العدد 58",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "heritage_book",
+    "title": "القماش وتجارته في البحرين",
+    "url": "https://www.folkculturebh.org/ar/index.php?issue=58&page=article&id=1113"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:bfa1232e1b1849e7daac5430ff74f75d2b971b8751e7785e32b46ac8a735100d",
+    "country_codes": [
+      "BH"
+    ],
+    "id": "SRC-BH-MUHARRAQ-WIKI-2026",
+    "language": "ar",
+    "license": "CC BY-SA 4.0 for the mirror text",
+    "locator": "قسم مناطق المحرق: أسماء الفرجان (الحياك، الصاغة، السكران، البنائين، الزياني، الصنقل، آل بن علي، البن هندي، المري، الزياينة، بن رشدان، البن خاطر، البوخميس) ومصطلحا الداعوس والزرنوق، وتكوين السكان: قبائل عربية سنية وهولة وبستكية وعجم وبحارنة",
+    "notes": "Publication date unavailable on the live page. Depth-cycle tier-E material: claims stay local_reported and unpublished.",
+    "publication_date": null,
+    "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "المحرق (مدينة) — موسوعة مرآة",
+    "url": "https://ar.wikipedia.org/wiki/المحرق_(مدينة)"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:bfa1232e1b1849e7daac5430ff74f75d2b971b8751e7785e32b46ac8a735100d",
+    "country_codes": [
+      "BH"
+    ],
+    "id": "SRC-BH-NASHIL-PRESS-2018",
+    "language": "ar",
+    "license": "Local press column; factual extraction with attribution; reuse terms not stated",
+    "locator": "تقرير عن ثوب النشل وأنواعه وطريقة لبسه، والبخنق الأسود للفتيات، والدراعة تحته، ومناسبات اللبس (الجلوه، اليلوه، ليلة الحناء، الناصفة، القرقيعان)",
+    "notes": "Report dated 2018-12-09. Tier-E press material: dress details stay local_reported and unpublished.",
+    "publication_date": "2018-12-09",
+    "publisher": "صحيفة الاتحاد",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_press",
+    "title": "البحرين.. مملكة الموروث التراثي الثقافي",
+    "url": "https://www.aletihad.ae/article/78925/2018/"
   },
   {
     "archive_url": null,
@@ -501,6 +681,106 @@
     "source_type": "official_dataset",
     "title": "Area by Governorate — 2024 records",
     "url": "https://www.data.gov.bh/explore/dataset/02-area-by-governorate-2023/"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:bfa1232e1b1849e7daac5430ff74f75d2b971b8751e7785e32b46ac8a735100d",
+    "country_codes": [
+      "BH"
+    ],
+    "id": "SRC-BH-UNESCO-ICH-2026",
+    "language": "en",
+    "license": "UNESCO ICH pages; factual extraction with attribution",
+    "locator": "inscribed elements: Fjiri 2021 ref 01747, Arabic calligraphy 2021 ref 01718, Date palm 2022 ref 01902, Henna 2024 ref 02116, Bisht 2025 ref 02233",
+    "notes": "Publication date unavailable on the live State Party list page. Only elements on which Bahrain appears are imported; multi-State files stay shared and are never asserted as exclusively Bahraini.",
+    "publication_date": null,
+    "publisher": "UNESCO Intangible Cultural Heritage",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_dataset",
+    "title": "Elements on the Lists — Bahrain State Party",
+    "url": "https://ich.unesco.org/en/state/bahrain-BH?info=elements-on-the-lists"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+    "country_codes": [
+      "DJ"
+    ],
+    "id": "SRC-DJ-CITY-HISTORY-2026",
+    "language": "fr",
+    "license": "Mirror, guide and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "quartiers 1-7 and Gachamaleh/7bis/Gabode; Einguéla and Arrhiba meanings; Boulaos name; Ambouli; Balbala; place Mahmoud Harbi; rue des Mouches; sha with clove and cardamom; diri and gogara Thursday market; basketry, charcharis, fooh/jaawi/maskati",
+    "notes": "Local historical page on Djibouti City: quarter names, trade and dress details used in the classified body. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Page historique locale (lutin84.chez.com)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "La Ville de Djibouti",
+    "url": "http://lutin84.chez.com/pages/djibouti/textedjib/djibouti.html"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+    "country_codes": [
+      "DJ"
+    ],
+    "id": "SRC-DJ-CITY-MIRROR-2026",
+    "language": "en",
+    "license": "Mirror, guide and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "three communes Ras-Dika/Boulaos/Balbala; 35 sub-prefectures row; founded 1888; old section of souks; Place of 27 June; Théâtre des Salines 1965",
+    "notes": "Mirror page used only for the city-context cross-check and the count discrepancy note; not for any denominator. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Wikipedia (English mirror)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "Djibouti City",
+    "url": "https://en.wikipedia.org/wiki/Djibouti_City"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+    "country_codes": [
+      "DJ"
+    ],
+    "id": "SRC-DJ-CONSTITUTION-2010",
+    "language": "en",
+    "license": "Mirror, guide and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "Article 1 official languages, state religion and motto; Article 2 capital and flag",
+    "notes": "Constitutional text as published by the Constitute Project. The page carries no publication date and the promulgation date is not asserted here. Publication date unavailable. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Constitute Project — Comparative Constitutions Project",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "law",
+    "title": "Djibouti 1992 (rev. 2010) Constitution (as published by Constitute)",
+    "url": "https://www.constituteproject.org/constitution/Djibouti_2010"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+    "country_codes": [
+      "DJ"
+    ],
+    "id": "SRC-DJ-CUISINE-MIRROR-2026",
+    "language": "ar",
+    "license": "Mirror, guide and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "مزيج صومالي/عفاري/يمني/فرنسي؛ لاهوه؛ الفه فاه؛ ييتاكلت الرطب؛ الحلاوة الطحينية؛ السمبوسة؛ تيبس الإبل؛ الباري؛ الباستو",
+    "notes": "مرآة عربية تصف المطبخ الجيبوتي وأصوله وأطباقه؛ تُستعمل غير منشورة. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "مطبخ جيبوتي",
+    "url": "https://ar.wikipedia.org/wiki/مطبخ_جيبوتي"
   },
   {
     "archive_url": null,
@@ -564,6 +844,66 @@
   },
   {
     "archive_url": null,
+    "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+    "country_codes": [
+      "DJ"
+    ],
+    "id": "SRC-DJ-ISO639-3-AFAR",
+    "language": "en",
+    "license": "Mirror, guide and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "aar Afar; 639-2/639-3; 639-1 equivalent aa; individual, living",
+    "notes": "Registration-authority entry read 2026-09-21. The registry page carries no publication date. Publication date unavailable. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "SIL International (ISO 639-3 registration authority)",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "standard",
+    "title": "ISO 639-3 code registration — Afar",
+    "url": "https://iso639-3.sil.org/code/aar"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+    "country_codes": [
+      "DJ"
+    ],
+    "id": "SRC-DJ-ISO639-3-SOMALI",
+    "language": "en",
+    "license": "Mirror, guide and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "som Somali; 639-2/639-3; 639-1 equivalent so; individual, living",
+    "notes": "Registration-authority entry read 2026-09-21. The registry page carries no publication date. Publication date unavailable. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "SIL International (ISO 639-3 registration authority)",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "standard",
+    "title": "ISO 639-3 code registration — Somali",
+    "url": "https://iso639-3.sil.org/code/som"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+    "country_codes": [
+      "DJ"
+    ],
+    "id": "SRC-DJ-LANGUAGES-MIRROR-2026",
+    "language": "en",
+    "license": "Mirror, guide and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "official Arabic/French; indigenous Afar/Somali; Northern Somali main dialect; ta'izzi-adeni and Omani Arabic, Amharic, Oromo, Greek, Hindi; Somali Sign Language; Latin and Arabic scripts; Qafar Feera; Regional Somali Language Academy 2013",
+    "notes": "Mirror page used for the language inventory, the scripts and the language academy. It also prints speaker counts, which this cycle does not record. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Wikipedia (English mirror)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "Languages of Djibouti",
+    "url": "https://en.wikipedia.org/wiki/Languages_of_Djibouti"
+  },
+  {
+    "archive_url": null,
     "checksum": "sha256:032f053c98ff55c66e06d486622c7299be15fe9ad98dd7e9b5cd4d51eacb90fb",
     "country_codes": [
       "DJ"
@@ -601,6 +941,66 @@
     "source_type": "official_register",
     "title": "Régions de la République de Djibouti",
     "url": "https://www.presidence.dj/page/regions"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+    "country_codes": [
+      "DJ"
+    ],
+    "id": "SRC-DJ-QUARTIERS-GUIDE-2026",
+    "language": "fr",
+    "license": "Mirror, guide and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "quartier européen and quartier africain; place du 27-Juin; marché central and souk; place Mahmoud Harbi; rue des Afars; cités Engueila and Arhiba; Marabout; Héron; Haramous; Boulaos",
+    "notes": "Travel guide describing the central quarters; used only for the unpublished places layer. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Petit Futé (local guide)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "Découverte de Djibouti : Quartiers",
+    "url": "https://www.petitfute.com/v51482-djibouti/decouvrir/d2014-quartiers/"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+    "country_codes": [
+      "DJ"
+    ],
+    "id": "SRC-DJ-SIGN-LANGUAGES-2021",
+    "language": "en",
+    "license": "Mirror, guide and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "Djibouti Sign Language (DSC); Somali Sign Language; French and Standard Arabic as official languages",
+    "notes": "Sign-language reference page; used only to record that a sign language is reported for Djibouti, without any ISO code or count. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "African Sign Languages Resource Center",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "Djibouti — African Sign Languages Resource Center",
+    "url": "https://africansignlanguagesresourcecenter.com/dijbouti/"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+    "country_codes": [
+      "DJ"
+    ],
+    "id": "SRC-DJ-WEDDING-ALJAZIRAH-1999",
+    "language": "ar",
+    "license": "Mirror, guide and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "احتفالات سبعة أيام؛ الجدائل؛ فتح الوعاء المعقود بالعصا؛ برد الأسنان بالمبرد الحديدي",
+    "notes": "Press report dated 1999: used for one dated local narrative and one folk narrative, both unpublished.",
+    "publication_date": "1999-06-04",
+    "publisher": "جريدة الجزيرة",
+    "quality_tier": "B",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "local_press",
+    "title": "عادات وتقاليد الشعوب في ليلة الزفاف .. في جيبوتي",
+    "url": "https://www.al-jazirah.com/1999/19990604/wn1.htm"
   },
   {
     "archive_url": null,
@@ -1125,6 +1525,206 @@
   },
   {
     "archive_url": null,
+    "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
+    "country_codes": [
+      "KM"
+    ],
+    "id": "SRC-KM-COMORIAN-LANGS-WIKI-2026",
+    "language": "en",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "dialects Maore/Ngazidja/Mwali/Ndzwani; ISO codes; numerals 1-10; Sabaki/Bantu classification",
+    "notes": "Mirror page used for the language family classification, the two dialect groups, the code list, and the numeral table. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Wikipedia (English mirror)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "Comorian languages — codes, groupings and numerals",
+    "url": "https://en.wikipedia.org/wiki/Comorian_languages"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
+    "country_codes": [
+      "KM"
+    ],
+    "id": "SRC-KM-CONSTITUTION-2018",
+    "language": "en",
+    "license": "Official Comoros material; factual extraction with attribution; reuse terms not stated",
+    "locator": "Article 6 territory; Article 9 official languages; Article 10 capital",
+    "notes": "Constitutional text as published by the Constitute Project. The page carries no publication date and the promulgation date is not asserted here. Publication date unavailable. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Constitute Project — Comparative Constitutions Project",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "law",
+    "title": "Comoros 2018 Constitution (as published by Constitute)",
+    "url": "https://www.constituteproject.org/constitution/Comoros_2018"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
+    "country_codes": [
+      "KM"
+    ],
+    "id": "SRC-KM-CUISINE-MIRROR-2026",
+    "language": "ar",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "روتي يا هوما بامبا؛ متسولولا؛ الماتافا؛ الروجيل",
+    "notes": "مرآة عربية لأمثلة الأطباق القمرية ووصفها. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "مطبخ قمري",
+    "url": "https://ar.wikipedia.org/wiki/مطبخ_قمري"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
+    "country_codes": [
+      "KM"
+    ],
+    "id": "SRC-KM-CULTURE-ALAYYAM-2024",
+    "language": "ar",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "التشيروماني: قطعة قماش مطبوع تُلفّ حول الجسم في المناسبات",
+    "notes": "مادة صحفية محلية تصف التشيروماني ضمن اللباس النسائي في المناسبات.",
+    "publication_date": "2024-07-04",
+    "publisher": "صحيفة الأيام",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_press",
+    "title": "المسلمون في جزر القمر",
+    "url": "https://www.alayyam.info/news/9RQHMT5F-HEOPIO-839E"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
+    "country_codes": [
+      "KM"
+    ],
+    "id": "SRC-KM-CULTURE-RASEEF22-2023",
+    "language": "ar",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "الشيروميني؛ السارونج؛ تسولولا؛ ميتساميولي؛ مجلس الذكر",
+    "notes": "شهادة صحفية محلية تصف اللباس والطعام والعادات في ميتساميولي.",
+    "publication_date": "2023-05-05",
+    "publisher": "رصيف22",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "ما لا يحدث إلا في جزر القمر... عن أغرب العادات في الأرخبيل المذهل",
+    "url": "https://raseef22.net/article/1093056"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
+    "country_codes": [
+      "KM"
+    ],
+    "id": "SRC-KM-CUSTOM-JAZEERA-2025",
+    "language": "ar",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "مجلس الذكر؛ المهر 10-30 قطعة ذهبية؛ أوكومبي؛ النسب الأمومي والإقامة في بيت الزوجة",
+    "notes": "تقرير صحفي مفصّل عن الزواج الكبير في موروني؛ يُسجَّل بوصفه مصدرًا من الفئة B (وكالة/صحيفة كبرى) مع بقاء الدعوى مصنَّفة.",
+    "publication_date": "2025-08-07",
+    "publisher": "الجزيرة نت",
+    "quality_tier": "B",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_press",
+    "title": "السلطان و«الزواج الكبير» في جزر القمر.. إرث ثقافي يتوّج الهوية الاجتماعية",
+    "url": "https://www.aljazeera.net/culture/2025/8/7"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
+    "country_codes": [
+      "KM"
+    ],
+    "id": "SRC-KM-CUSTOM-MIDAD-2016",
+    "language": "ar",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "زواج العفة مقابل الزواج الكبير؛ ما يُحجب عن غير المتزوج؛ مراسم مجلس الذكر والوفود والدف",
+    "notes": "مادة محلية تصف مراسم الزواج الكبير وما يرتبط به من مكانة؛ تُستعمل غير منشورة. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "مِداد",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "في جزر القمر إما الزواج الكبير وإما الحرمان من هذه الأشياء",
+    "url": "https://midad.com/article/218038"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
+    "country_codes": [
+      "KM"
+    ],
+    "id": "SRC-KM-ECONOMY-MIRROR-2015",
+    "language": "ar",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "الفانيليا والقرنفل وجوز الهند؛ اليلنغ يلانغ؛ ترتيب الإنتاج عالميًا",
+    "notes": "مرآة عربية لأوصاف الاقتصاد الزراعي؛ تُسجَّل وصفًا لا إحصاءً مؤرخًا.",
+    "publication_date": "2015-07-08",
+    "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "اقتصاد جزر القمر",
+    "url": "https://ar.wikipedia.org/wiki/اقتصاد_جزر_القمر"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
+    "country_codes": [
+      "KM"
+    ],
+    "id": "SRC-KM-FOOD-TRAVEL-2021",
+    "language": "ar",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "مكاترا فوترا؛ جراد البحر بالفانيليا؛ كاري الدجاج؛ أرز جزر القمر؛ شوربة البازلاء",
+    "notes": "مادة طعام محلية بمكونات كل طبق؛ تُستعمل غير منشورة.",
+    "publication_date": "2021-12-05",
+    "publisher": "موضوع مسافر",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "أفضل أكلات جزر القمر: لا تفوت فرصة التعرف عليها",
+    "url": "https://travel.mawdoo3.com/s/2767"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
+    "country_codes": [
+      "KM"
+    ],
+    "id": "SRC-KM-FOOD-YOUM7-2022",
+    "language": "ar",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "لانجوست آ لا فانيل؛ مكاترا فطرة؛ مشاكيكي؛ حساء البازلاء بالكاري",
+    "notes": "مادة صحفية محلية تسمّي الأطباق بمكوناتها، وتذكر تقديم مكاترا فطرة مع القهوة العربية المحلاة بالعسل.",
+    "publication_date": "2022-01-26",
+    "publisher": "اليوم السابع",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_press",
+    "title": "أشهر 7 أكلات شعبية في جزر القمر",
+    "url": "https://www.youm7.com/story/2022/1/26/5632646"
+  },
+  {
+    "archive_url": null,
     "checksum": "sha256:94421611d2de1fce249c5c6ac3e3d65cafac63b8f7ba782081a49b75a695ebde",
     "country_codes": [
       "KM"
@@ -1145,6 +1745,46 @@
   },
   {
     "archive_url": null,
+    "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
+    "country_codes": [
+      "KM"
+    ],
+    "id": "SRC-KM-ISO639-3-COMORIAN",
+    "language": "en",
+    "license": "Official Comoros material; factual extraction with attribution; reuse terms not stated",
+    "locator": "zdj Ngazidja; wni Ndzwani; swb Maore; wlc Mwali",
+    "notes": "Registration-authority code set recorded with the four variety codes. The registry page carries no publication date. Publication date unavailable. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "SIL International (ISO 639-3 registration authority)",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "standard",
+    "title": "ISO 639-3 code set for the Comorian varieties",
+    "url": "https://iso639-3.sil.org/code/zdj"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
+    "country_codes": [
+      "KM"
+    ],
+    "id": "SRC-KM-LANGUAGES-MIRROR-2026",
+    "language": "ar",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "اللغات الرسمية الثلاث، واللهجات الأربع، واللغات الأقلية (الملغاشية والسواحيلية)",
+    "notes": "مرآة عربية: تصف اللغات الرسمية ولهجات الشيكوموري الأربع واللغات الأقلية محدودة الاستخدام. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "لغات جزر القمر",
+    "url": "https://ar.wikipedia.org/wiki/لغات_جزر_القمر"
+  },
+  {
+    "archive_url": null,
     "checksum": "sha256:94421611d2de1fce249c5c6ac3e3d65cafac63b8f7ba782081a49b75a695ebde",
     "country_codes": [
       "KM"
@@ -1162,6 +1802,46 @@
     "source_type": "law",
     "title": "Loi 11-006/AU — organisation territoriale",
     "url": "https://justice.gouv.km/texte/loi-n11-006-au-du-02-mai-2011-portant-organisation-territoriale-de-lunion-des-comores/"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
+    "country_codes": [
+      "KM"
+    ],
+    "id": "SRC-KM-MEDINAS-WIKI-2026",
+    "language": "ar",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "criteria (iii)(iv); reference 1768; Q65724639 parts: Moroni, N Tsoudjini, Itsandra, Iconi, Mutsamudu, Domoni",
+    "notes": "Mirror and Wikidata list of the six component medinas: the UNESCO description names six historic towns without enumerating them, so the names stay local_reported and unpublished. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "ويكيبيديا الإنجليزية / ويكي بيانات",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "مدن الموقع المتسلسل 1768 — قائمة المكوّنات",
+    "url": "https://en.wikipedia.org/wiki/Moroni,_Comoros"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
+    "country_codes": [
+      "KM"
+    ],
+    "id": "SRC-KM-VOCAB-QUIZLET-2016",
+    "language": "ar",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "عبارات أساسية بمعانيها الإنجليزية مثل Eledzina lahaho ndo? وNtsudjuwa",
+    "notes": "مجموعة تعليمية محلية لا تميّز اللهجات وتضمّ مفردات ذات أثر سواحيلي؛ تُستعمل لمفردات مصنَّفة غير منشورة فقط. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Quizlet (مجموعة تعلم محلية)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "forum",
+    "title": "Shikomori — مجموعة تعليمية للمفردات والعبارات",
+    "url": "https://quizlet.com/84861856/shikomori-flash-cards/"
   },
   {
     "archive_url": null,
@@ -1202,6 +1882,166 @@
     "source_type": "official_report",
     "title": "Kuwait Registration Census 2021",
     "url": "https://census.csb.gov.kw/index"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:e32bc038aefb2f6a25d5919c31e61c1f0927c57c9a492d18fd55f48e494d9411",
+    "country_codes": [
+      "KW"
+    ],
+    "id": "SRC-KW-CUISINE-MIRROR-2026",
+    "language": "ar",
+    "license": "CC BY-SA 4.0 for the mirror text",
+    "locator": "sections: أشهر الأكلات الكويتية وأشهر الحلويات الكويتية with the per-dish descriptions",
+    "notes": "Publication date unavailable on the mirror. Dish knowledge enters as local_reported and unpublished; Gulf-shared dishes keep classification shared.",
+    "publication_date": null,
+    "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "مطبخ كويتي — موسوعة مرآة",
+    "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B7%D8%A8%D8%AE_%D9%83%D9%88%D9%8A%D8%AA%D9%8A"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:e32bc038aefb2f6a25d5919c31e61c1f0927c57c9a492d18fd55f48e494d9411",
+    "country_codes": [
+      "KW"
+    ],
+    "id": "SRC-KW-DIALECT-LOANS-2026",
+    "language": "ar",
+    "license": "Local heritage forum archive; factual extraction with attribution; reuse terms not stated",
+    "locator": "articles on replacement phenomena and the list of words of Persian, Turkish, Indian, and English origin",
+    "notes": "Publication date unavailable in the archive view. Tier-E local heritage material: loan etymologies stay local_reported and unpublished and are never stated as certain origins.",
+    "publication_date": null,
+    "publisher": "تاريخ الكويت (أرشيف محلي)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "forum",
+    "title": "ظاهرة قلب الحروف وإبدالها في اللهجة الكويتية",
+    "url": "https://www.kuwait-history.net/vb/archive/index.php/t-1909.html"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:e32bc038aefb2f6a25d5919c31e61c1f0927c57c9a492d18fd55f48e494d9411",
+    "country_codes": [
+      "KW"
+    ],
+    "id": "SRC-KW-DIALECT-MIRROR-2026",
+    "language": "ar",
+    "license": "CC BY-SA 4.0 for the mirror text",
+    "locator": "sections: تصنيف اللهجة إلى ست لهجات (جبلة/شرق/فيلكا/الجهراء/الفنطاس/الدمنة) والفونولوجيا وجدول المفردات بمعانيها",
+    "notes": "Publication date unavailable on the mirror. Depth-cycle tier-E mirror: dialect profiles and glossed words enter as local_reported and unpublished, never as verified facts.",
+    "publication_date": null,
+    "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "لهجة كويتية — موسوعة مرآة",
+    "url": "https://ar.wikipedia.org/wiki/%D9%84%D9%87%D8%AC%D8%A9_%D9%83%D9%88%D9%8A%D8%AA%D9%8A%D8%A9"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:e32bc038aefb2f6a25d5919c31e61c1f0927c57c9a492d18fd55f48e494d9411",
+    "country_codes": [
+      "KW"
+    ],
+    "id": "SRC-KW-DRESS-HERITAGE-2026",
+    "language": "ar",
+    "license": "Local heritage archive reproducing a Kuna report; factual extraction with attribution",
+    "locator": "Kuna report of 2008-09-14 quoting researchers on الدراعة والنفنوف والبخنق والبوشية والثوب وأنواعها",
+    "notes": "The archive copy carries the original Kuna date; dress entries stay local_reported and unpublished.",
+    "publication_date": "2008-09-14",
+    "publisher": "وكالة الأنباء الكويتية (كونا) عبر أرشيف تاريخ الكويت",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_press",
+    "title": "مسميات للملابس النسائية في الكويت قديمًا",
+    "url": "https://www.kuwait-history.net/vb/archive/index.php/t-6051.html"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:e32bc038aefb2f6a25d5919c31e61c1f0927c57c9a492d18fd55f48e494d9411",
+    "country_codes": [
+      "KW"
+    ],
+    "id": "SRC-KW-KUNA-FIRJAN-2017",
+    "language": "ar",
+    "license": "State news agency report; factual extraction with attribution",
+    "locator": "the four historic quarters of Kuwait City, the فريج/سكة structure, فريج المطبة boundaries and neighbours, and the naming explanation attributed to Dr Abdullah Al-Ghunaim",
+    "notes": "State news agency reporting with named researchers and a cited book; historical quarters remain historical places, never current administrative units.",
+    "publication_date": "2017-04-27",
+    "publisher": "وكالة الأنباء الكويتية (كونا)",
+    "quality_tier": "B",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_press",
+    "title": "فريج المطبة.. أحد أشهر فرجان الكويت قديمًا",
+    "url": "https://www.kuna.net.kw/NewsAgenciesPublicSite/ArticleDetails.aspx?id=2607422"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:e32bc038aefb2f6a25d5919c31e61c1f0927c57c9a492d18fd55f48e494d9411",
+    "country_codes": [
+      "KW"
+    ],
+    "id": "SRC-KW-MIRQAB-HERITAGE-2026",
+    "language": "ar",
+    "license": "Local heritage archive article; factual extraction with attribution; reuse terms not stated",
+    "locator": "listing of المرقاب quarters quoted from حمد السعيدان «الموسوعة الكويتية المختصرة» and later local-history articles",
+    "notes": "Publication date unavailable in the archive view. Firjan of المرقاب enter as local_reported historical places.",
+    "publication_date": null,
+    "publisher": "تاريخ الكويت (أرشيف محلي)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "heritage_book",
+    "title": "صور من عبق أحياء المرقاب — تاريخ وشخصيات",
+    "url": "https://www.kuwait-history.net/vb/archive/index.php/t-13665.html"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:e32bc038aefb2f6a25d5919c31e61c1f0927c57c9a492d18fd55f48e494d9411",
+    "country_codes": [
+      "KW"
+    ],
+    "id": "SRC-KW-SIGN-LANGUAGE-MIRROR-2026",
+    "language": "ar",
+    "license": "CC BY-SA 4.0 for the mirror text",
+    "locator": "infobox and lead: Kuwaiti Sign Language, ISO 639-3 lbs, Arabic sign-language family",
+    "notes": "Publication date unavailable on the mirror. Language presence stays probable and unpublished without an official speaker register.",
+    "publication_date": null,
+    "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "لغة الإشارة الكويتية — موسوعة مرآة",
+    "url": "https://ar.wikipedia.org/wiki/%D9%84%D8%BA%D8%A9_%D8%A7%D9%84%D8%A5%D8%B4%D8%A7%D8%B1%D8%A9_%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA%D9%8A%D8%A9"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:e32bc038aefb2f6a25d5919c31e61c1f0927c57c9a492d18fd55f48e494d9411",
+    "country_codes": [
+      "KW"
+    ],
+    "id": "SRC-KW-UNESCO-ICH-2026",
+    "language": "en",
+    "license": "UNESCO ICH pages; factual extraction with attribution",
+    "locator": "inscribed elements: Al Sadu 2025 ref 02158, Bisht 2025 ref 02233, The Diwaniya 2025 ref 02281, Henna 2024 ref 02116, Date palm 2022 ref 01902, Al Sadu Educational Programme 2022 ref 01905, Arabic calligraphy 2021 ref 01718",
+    "notes": "Publication date unavailable on the live State Party list page. Only elements on which Kuwait appears are imported; multi-State files stay shared and never exclusive. Element descriptions come from the same UNESCO element pages.",
+    "publication_date": null,
+    "publisher": "UNESCO Intangible Cultural Heritage",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_dataset",
+    "title": "Elements on the Lists — Kuwait State Party",
+    "url": "https://ich.unesco.org/en/state/kuwait-KW?info=elements-on-the-lists"
   },
   {
     "archive_url": null,
@@ -1485,6 +2325,46 @@
   },
   {
     "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-MR-CONSTITUTION-2012",
+    "language": "en",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "المواد 1 و5 و6 و7 و9؛ الديباجة: العربية الرسمية واللغات الوطنية ثروة مشتركة",
+    "notes": "نصّ دستوري منشور على مشروع «Constitute»؛ لا يُنسب تاريخ إصدار إلى الصفحة. Publication date unavailable. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Constitute Project — Comparative Constitutions Project",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "law",
+    "title": "Mauritania 1991 (rev. 2012) Constitution (as published by Constitute)",
+    "url": "https://www.constituteproject.org/constitution/Mauritania_2012"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-MR-CUISINE-MIRROR-2026",
+    "language": "ar",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "تأثيرات مغاربية وسنغالية وفرنسية؛ اثنا عشر طبقًا ومشروبًا؛ الشاي الأخضر بالنعناع يُصب من علٍ لإحداث الرغوة",
+    "notes": "مرآة عربية تصف المطبخ؛ الصفحة تحمل قالب نقص مصادر، فتُسجَّل كل مادة منها غير منشورة. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "مطبخ موريتاني",
+    "url": "https://ar.wikipedia.org/wiki/مطبخ_موريتاني"
+  },
+  {
+    "archive_url": null,
     "checksum": "sha256:43a2bc89a5808e7bcc1fe03ab5fc663e781b146499118f4dbcb8f518ebdfb20b",
     "country_codes": [
       "MR"
@@ -1502,6 +2382,306 @@
     "source_type": "official_register",
     "title": "Découpage administratif de Mauritanie",
     "url": "https://dgat.interieur.gov.mr/"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-MR-DRESS-MIRROR-2026",
+    "language": "ar",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "الملحفة للنساء والدراعة للرجال؛ العقدتان «الخلالين»؛ أربعة أمتار في متر ونصف؛ أنواع: الشَّكَّة وكنيبة وسَاغَامْبُو وكاز وكونتر وشيفون وتُوبِيتْ وصافانا وملاحف الشرق بالنيلة والشنظورة؛ دلالات شعبية للحب والغيرة",
+    "notes": "مرآة عربية للزي الموريتاني؛ لا يُستشهد بمقالة «دراعة» العباسية المنفصلة. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "ملحفة",
+    "url": "https://ar.wikipedia.org/wiki/ملحفة"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-MR-HASSANIYA-MIRROR-2026",
+    "language": "ar",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "لهجة بدوية من لهجات بني حسان؛ أقرب اللهجات: الليبية وجنوب تونس ووادي سوف؛ لهجات نمادية وإمراغوية؛ كتابة عربية ورومانية في السنغال؛ رمز mey",
+    "notes": "مرآة عربية لوصف اللهجة وأصلها ولهجاتها الفرعية؛ تطبع عدد متحدثين لا يُسجَّل هنا. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "لهجة حسانية",
+    "url": "https://ar.wikipedia.org/wiki/لهجة_حسانية"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-MR-ISO639-3-BAMBARA",
+    "language": "en",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "bam = Bambara؛ 639-1: bm؛ فردية، حيّة",
+    "notes": "صفحة السجل قُرئت 2026-09-21. Publication date unavailable. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "SIL International (ISO 639-3 registration authority)",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "standard",
+    "title": "ISO 639-3 code registration — Bambara",
+    "url": "https://iso639-3.sil.org/code/bam"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-MR-ISO639-3-HASSANIYA",
+    "language": "en",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "mey = Hassaniyya؛ 639-3؛ فردية، حيّة",
+    "notes": "صفحة السجل قُرئت 2026-09-21. Publication date unavailable. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "SIL International (ISO 639-3 registration authority)",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "standard",
+    "title": "ISO 639-3 code registration — Hassaniyya",
+    "url": "https://iso639-3.sil.org/code/mey"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-MR-ISO639-3-PULAAR",
+    "language": "en",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "fuc = Pulaar؛ عضو في لغة أم فالاful (ful)؛ فردية، حيّة",
+    "notes": "صفحة السجل قُرئت 2026-09-21. Publication date unavailable. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "SIL International (ISO 639-3 registration authority)",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "standard",
+    "title": "ISO 639-3 code registration — Pulaar",
+    "url": "https://iso639-3.sil.org/code/fuc"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-MR-ISO639-3-SERER",
+    "language": "en",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "srr = Serer؛ 639-2/639-3؛ فردية، حيّة",
+    "notes": "صفحة السجل قُرئت 2026-09-21. Publication date unavailable. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "SIL International (ISO 639-3 registration authority)",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "standard",
+    "title": "ISO 639-3 code registration — Serer",
+    "url": "https://iso639-3.sil.org/code/srr"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-MR-ISO639-3-SONINKE",
+    "language": "en",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "snk = Soninke؛ 639-2/639-3؛ فردية، حيّة",
+    "notes": "صفحة السجل قُرئت 2026-09-21. Publication date unavailable. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "SIL International (ISO 639-3 registration authority)",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "standard",
+    "title": "ISO 639-3 code registration — Soninke",
+    "url": "https://iso639-3.sil.org/code/snk"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-MR-ISO639-3-TAMASHEQ",
+    "language": "en",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "taq = Tamasheq؛ عضو في لغة أم تماشق (tmh) مع thv وthz وttq؛ فردية، حيّة",
+    "notes": "صفحة السجل قُرئت 2026-09-21. Publication date unavailable. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "SIL International (ISO 639-3 registration authority)",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "standard",
+    "title": "ISO 639-3 code registration — Tamasheq",
+    "url": "https://iso639-3.sil.org/code/taq"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-MR-ISO639-3-WOLOF",
+    "language": "en",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "wol = Wolof؛ 639-1: wo؛ فردية، حيّة",
+    "notes": "صفحة السجل قُرئت 2026-09-21. Publication date unavailable. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "SIL International (ISO 639-3 registration authority)",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "standard",
+    "title": "ISO 639-3 code registration — Wolof",
+    "url": "https://iso639-3.sil.org/code/wol"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-MR-ISO639-3-ZENAGA",
+    "language": "en",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "zen = Zenaga؛ 639-2/639-3؛ فردية، حيّة",
+    "notes": "صفحة السجل قُرئت 2026-09-21. Publication date unavailable. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "SIL International (ISO 639-3 registration authority)",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "standard",
+    "title": "ISO 639-3 code registration — Zenaga",
+    "url": "https://iso639-3.sil.org/code/zen"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-MR-LANGUAGES-MIRROR-2026",
+    "language": "en",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "العربية الرسمية؛ اللغات الوطنية: العربية والبولارية والسوننكية والولوفية؛ الحسانية اللغة الدارجة؛ الزناغة والبمبارا والطوارقية والسيريرية أقليات؛ لغة إشارة فرنكوفونية؛ الفرنسية لغة عمل بحكم الأمر الواقع",
+    "notes": "مرآة إنجليزية لخريطة اللغات؛ تُستعمل للتصنيف والحضور فقط، ولا تُسجَّل أعداد المتحدثين ولا نسبها المطبوعة في الصفحة. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Wikipedia (English mirror)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "Languages of Mauritania",
+    "url": "https://en.wikipedia.org/wiki/Languages_of_Mauritania"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-MR-NOUAKCHOTT-ALKHALEEJ-2010",
+    "language": "ar",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "رواية كبار السن عن العالم وبئر نواكشوط؛ روايتا التسمية «نوق الشط» و«نوكشوظ» أي بئر المحار؛ أسماء أحياء ومقاطعات",
+    "notes": "تقرير صحافي مؤرخ 25 مارس 2010: يُستعمل لرواية شعبية معلنة ورواية تسمية فقط.",
+    "publication_date": "2010-03-25",
+    "publisher": "صحيفة الخليج",
+    "quality_tier": "B",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "local_press",
+    "title": "نواكشوط أول عاصمة عربية مهددة بالغرق",
+    "url": "https://www.alkhaleej.ae/ملحق/نواكشوط-أول-عاصمة-عربية-مهددة-بالغرق"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-MR-NOUAKCHOTT-MIRROR-2026",
+    "language": "ar",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "اختيار الموقع 1957؛ وضع الحجر الأساس 5 مارس 1958؛ تحوّل من قرية صغيرة تفتقر لمياه جوفية صالحة للشرب؛ موقع 18°6′ شمالًا و15°57′ غربًا",
+    "notes": "مرآة عربية لسياق العاصمة؛ تطبع تقدير سكان 2013 لا يُسجَّل في أي دعوى. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "نواكشوط",
+    "url": "https://ar.wikipedia.org/wiki/نواكشوط"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-MR-SITES-MIRROR-2026",
+    "language": "ar-en",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "أزوكي على هضبة آدرار؛ كمبي صالح جنوب شرق البلاد 60 كم جنوب تمبدغة؛ تگداوست في ولاية الحوض الغربي",
+    "notes": "ملخصات صفحات المواقع الثلاثة لتثبيت الموضع، بلا سكان وبلا نسبة وبلا دعاوى. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "ويكيبيديا (عربية وإنجليزية، نسخ مرآة)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "مواقع أثرية موريتانية — ملخصات مرآة",
+    "url": "https://en.wikipedia.org/wiki/Azougui"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-MR-TOWNS-MIRROR-2026",
+    "language": "ar",
+    "license": "Mirror and press material; factual extraction with attribution; reuse terms not stated",
+    "locator": "شنقيط ووادان بولاية أدرار؛ تيشيت بولاية تكانت؛ ولاتة بولاية الحوض الشرقي",
+    "notes": "ملخصات صفحات المدن الأربع (نقطة نهاية الملخص في واجهة ويكيبيديا) لتثبيت الولاية، والعلاقة المكانية تُسجَّل local_reported. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "مدن القصور الأربع — ملخصات مرآة",
+    "url": "https://ar.wikipedia.org/wiki/شنقيط"
   },
   {
     "archive_url": null,
@@ -1665,6 +2845,166 @@
   },
   {
     "archive_url": null,
+    "checksum": "sha256:1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5",
+    "country_codes": [
+      "QA"
+    ],
+    "id": "SRC-QA-CUISINE-MIRROR-2026",
+    "language": "ar",
+    "license": "CC BY-SA 4.0 for the mirror text",
+    "locator": "أقسام الأطباق الرئيسية والحلويات والمشروبات التقليدية مع وصف كل طبق",
+    "notes": "Depth-cycle tier-E material: claims stay local_reported and unpublished. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "ويكيبيديا العربية (نسخة مرآة)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "مطبخ قطري — موسوعة مرآة",
+    "url": "https://ar.wikipedia.org/wiki/مطبخ_قطري"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5",
+    "country_codes": [
+      "QA"
+    ],
+    "id": "SRC-QA-DIALECT-DOHA24-2025",
+    "language": "ar",
+    "license": "Local Qatar page; factual extraction with attribution; reuse terms not stated",
+    "locator": "الملامح النطقية (تحوّل الجيم قرب «چ» في مخاطبة المؤنث) وقائمة كلمات شائعة بمعانيها",
+    "notes": "Page dated 2025-12-10. Tier-E local page: dialect material stays local_reported and unpublished.",
+    "publication_date": "2025-12-10",
+    "publisher": "دوحة 24",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "اللهجة القطرية: أبرز كلمات وعبارات يجب أن يعرفها كل مقيم",
+    "url": "https://doha24.net/new/اللهجة-القطرية-أبرز-كلمات-وعبارات-يجب/"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5",
+    "country_codes": [
+      "QA"
+    ],
+    "id": "SRC-QA-DIALECT-FORUM-2010",
+    "language": "ar",
+    "license": "Local forum thread; factual extraction with attribution; reuse terms not stated",
+    "locator": "قائمة معجمية بمعنى كل كلمة عربية مقابلًا لها",
+    "notes": "Thread dated 2010. Tier-E forum material used only for graded vocabulary with explicit meanings.",
+    "publication_date": "2010-04-13",
+    "publisher": "منتدى محلي (خيط السمعة)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "forum",
+    "title": "تعلم اللهجة القطرية في 3 أيام",
+    "url": "https://alsom3a.ahlamontada.com/t4115-topic"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5",
+    "country_codes": [
+      "QA"
+    ],
+    "id": "SRC-QA-DRESS-JAZEERA-2018",
+    "language": "ar",
+    "license": "Local press report; factual extraction with attribution; reuse terms not stated",
+    "locator": "ثوب النشل وخيوط البريم والدراعة والبخنق والثوب (الكندورة/الدشداشة) بالسيم والغولي والسفة والسنجاف وثوب ميرح",
+    "notes": "Report dated 2018-12-12. Dress details stay local_reported and unpublished; Gulf-shared items keep classification shared.",
+    "publication_date": "2018-12-12",
+    "publisher": "الجزيرة نت",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_press",
+    "title": "الأزياء التراثية الخليجية.. تطريز وألوان مبهجة وتصاميم محتشمة",
+    "url": "https://www.aljazeera.net/lifestyle/2018/12/12/"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5",
+    "country_codes": [
+      "QA"
+    ],
+    "id": "SRC-QA-DRESS-KHALEEJ-2016",
+    "language": "ar",
+    "license": "Local press feature; factual extraction with attribution; reuse terms not stated",
+    "locator": "الزي الرجالي: الثوب الأبيض ذو الياقة والبشت المطرز والعقال بخيطين، والدقلة للشتاء؛ وعباية الرفع الحريرية مع شيلة خفيفة",
+    "notes": "Feature dated 2016-09-24. Tier-E press material: stays local_reported and unpublished.",
+    "publication_date": "2016-09-24",
+    "publisher": "صحيفة الخليج",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_press",
+    "title": "قطر .. بين الماضي والحاضر",
+    "url": "https://www.alkhaleej.ae/2016-09-24/"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5",
+    "country_codes": [
+      "QA"
+    ],
+    "id": "SRC-QA-DRESS-QNA-2023",
+    "language": "ar",
+    "license": "Qatari state news agency report; factual extraction with attribution",
+    "locator": "البخنق وليلة النافلة والقرنقعوه، وأناقة ثوب النشل، والعباءة مع الشيلة المطرزة بالخرز",
+    "notes": "Report dated 2023-03-24. Tier-E press material: stays local_reported and unpublished.",
+    "publication_date": "2023-03-24",
+    "publisher": "وكالة الأنباء القطرية (قنا)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_press",
+    "title": "الأزياء النسائية التقليدية.. عادة تتشبث بها المرأة القطرية في شهر رمضان المبارك",
+    "url": "https://www.qna.org.qa/ar-QA/News-Area/News/2023-03/24/0030"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5",
+    "country_codes": [
+      "QA"
+    ],
+    "id": "SRC-QA-FIRJAN-NAJADA-2022",
+    "language": "ar",
+    "license": "Local press report; factual extraction with attribution",
+    "locator": "فريج النجادة القديم في قلب سوق واقف، و17 بيتًا كانت لأسر قطرية، وعمارة الليوان والحوش وغرف الطين والحجر",
+    "notes": "Report dated 2022-08-25. Tier-E press material: the farij and its craft center stay local_reported.",
+    "publication_date": "2022-08-25",
+    "publisher": "الجزيرة نت",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_press",
+    "title": "مبادرة النجادة.. مركز قطري يحتضن الحرف التقليدية التراثية",
+    "url": "https://www.aljazeera.net/misc/2022/8/25/"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5",
+    "country_codes": [
+      "QA"
+    ],
+    "id": "SRC-QA-FIRJAN-PRESS-2024",
+    "language": "ar",
+    "license": "Local press report reproduced by two Qatari outlets; factual extraction with attribution",
+    "locator": "فريج الأصمخ وثلاث مناطق تطوير، وقصر الدوحة ومدرسة آمنة بنت وهب وقصر الشيخ فهد وبيوت الجفيري، وشارعا الأصمخ وعبدالعزيز بن أحمد، ومكونات البيت القطري: الحوش والليوان والمجلس المنفصل ودنجل وجريد النخل والجص، وسكك ودواعيس وبراحات",
+    "notes": "Report dated 2024-08-25. Tier-E press material: firjan and architecture terms stay local_reported with no administrative status.",
+    "publication_date": "2024-08-25",
+    "publisher": "جريدة الراية",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_press",
+    "title": "يجسد تفاصيل فرجان الدوحة القديمة.. تواصل تأهيل وإحياء فريج الأصمخ",
+    "url": "https://www.raya.com/"
+  },
+  {
+    "archive_url": null,
     "checksum": "sha256:284c78ce66e4e1c167b48593f24f73cc8475c8bb9f5a68d9d69c3c1940108de5",
     "country_codes": [
       "QA"
@@ -1702,6 +3042,46 @@
     "source_type": "official_report",
     "title": "Municipality Spatial Development Plans — eight municipalities",
     "url": "https://www.mme.gov.qa/QatarMasterPlan/English/MSDP-Municipalities.aspx?panel=about"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5",
+    "country_codes": [
+      "QA"
+    ],
+    "id": "SRC-QA-SOUQ-WAQIF-2012",
+    "language": "ar",
+    "license": "Local press report; factual extraction with attribution; reuse terms not stated",
+    "locator": "موقع السوق بين منطقة الأسواق والكورنيش، ومواد بنائه، وحرفه (المشغولات اليدوية والسيوف والخناجر والتطريز والسجاد)، ورواية التسمية منسوبة إلى تاجر العطارة محمد جاسم الخزاعي، وإحياء السوق منذ 2004",
+    "notes": "Report dated 2012-11-18. Tier-E press material: the market and its naming narrative stay local_reported and unpublished.",
+    "publication_date": "2012-11-18",
+    "publisher": "صحيفة البيان",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "local_press",
+    "title": "سوق واقف ... عبق التراث القطري",
+    "url": "https://www.albayan.ae/editors-choice/asfar/2012-11-18-1.1769264"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:1b982465be2788d49f7912bfe8b4da54d94c9b5e87da856b01a9512fc8bfc5d5",
+    "country_codes": [
+      "QA"
+    ],
+    "id": "SRC-QA-UNESCO-ICH-2026",
+    "language": "en",
+    "license": "UNESCO ICH pages; factual extraction with attribution",
+    "locator": "inscribed elements: Majlis 2015 ref 01076, Falconry 2021 ref 01708, Date palm 2022 ref 01902, Arabic coffee 2024 ref 02111, Henna 2024 ref 02116, Al Sadu 2025 ref 02158, Bisht 2025 ref 02233",
+    "notes": "Publication date unavailable on the live State Party list page. Every element on which Qatar appears is a multi-State file: Qatar has no nationally exclusive element on the 2026 list. Only the meaning of each official title is asserted; no description beyond it was invented.",
+    "publication_date": null,
+    "publisher": "UNESCO Intangible Cultural Heritage",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_dataset",
+    "title": "Elements on the Lists — Qatar State Party",
+    "url": "https://ich.unesco.org/en/state/qatar-QA?info=elements-on-the-lists"
   },
   {
     "archive_url": null,
@@ -2651,6 +4031,126 @@
   },
   {
     "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-UNESCO-ICH-CALLIGRAPHY-01718-2021",
+    "language": "en",
+    "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+    "locator": "عنصر 01718؛ إدراج 2021 (16.COM)؛ ست عشرة دولة منها موريتانيا",
+    "notes": "صفحة العنصر قُرئت 2026-09-21: الحروف والأدوات والمواد والانتقال إلى الوسائط الحديثة. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "UNESCO Intangible Cultural Heritage",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Arabic calligraphy: knowledge, skills and practices",
+    "url": "https://ich.unesco.org/en/RL/arabic-calligraphy-knowledge-skills-and-practices-01718"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-UNESCO-ICH-COUSCOUS-01602-2020",
+    "language": "en",
+    "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+    "locator": "عنصر 01602؛ إدراج 2020 (15.COM)؛ أربع دول: الجزائر وموريتانيا والمغرب وتونس",
+    "notes": "صفحة العنصر قُرئت 2026-09-21: عمليات الإعداد والأدوات والدلالات الاجتماعية. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "UNESCO Intangible Cultural Heritage",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Knowledge, know-how and practices pertaining to the production and consumption of couscous",
+    "url": "https://ich.unesco.org/en/RL/knowledge-know-how-and-practices-pertaining-to-the-production-and-consumption-of-couscous-01602"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-UNESCO-ICH-DATE-PALM-01902-2022",
+    "language": "en",
+    "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+    "locator": "عنصر 01902؛ إدراج 2022 (17.COM)؛ خمس عشرة دولة منها موريتانيا",
+    "notes": "صفحة العنصر قُرئت 2026-09-21: النخلة في الواحات والاستعمالات والحضور في الشعر. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "UNESCO Intangible Cultural Heritage",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Date palm, knowledge, skills, traditions and practices",
+    "url": "https://ich.unesco.org/en/RL/date-palm-knowledge-skills-traditions-and-practices-01902"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+    "country_codes": [
+      "DJ"
+    ],
+    "id": "SRC-UNESCO-ICH-DJ-STATE-2026",
+    "language": "en",
+    "license": "UNESCO ICH element and State page; factual extraction with attribution; CC BY-SA 3.0 IGO for the descriptions",
+    "locator": "three inscribed elements (2023 USL, 2024 RL, 2025 RL); 2026 Madqa nomination pending; Convention ratified 30 August 2007",
+    "notes": "State page read 2026-09-21: element list, lists, years, ratification date and the pending 2026 nomination for the Madqa (Afar oral customary law). Publication date unavailable on the state page. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "UNESCO Intangible Cultural Heritage",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Djibouti — UNESCO Intangible Cultural Heritage",
+    "url": "https://ich.unesco.org/en/state/djibouti-DJ"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-UNESCO-ICH-ENGRAVING-01951-2023",
+    "language": "en",
+    "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+    "locator": "عنصر 01951؛ إدراج 2023 (18.COM)؛ عشر دول منها موريتانيا",
+    "notes": "صفحة العنصر قُرئت 2026-09-21: النقش اليدوي على المعادن وأدواته وأنماط نقله. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "UNESCO Intangible Cultural Heritage",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Arts, skills and practices associated with engraving on metals (gold, silver and copper)",
+    "url": "https://ich.unesco.org/en/RL/arts-skills-and-practices-associated-with-engraving-on-metals-gold-silver-and-copper-01951"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-UNESCO-ICH-HENNA-02116-2024",
+    "language": "en",
+    "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+    "locator": "عنصر 02116؛ إدراج 2024 (19.COM)؛ ست عشرة دولة منها موريتانيا",
+    "notes": "صفحة العنصر قُرئت 2026-09-21: شجرة الحناء وعجينتها واستعمالاتها ومرافقاتها الشفهية. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "UNESCO Intangible Cultural Heritage",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Henna: rituals, aesthetic and social practices",
+    "url": "https://ich.unesco.org/en/RL/henna-rituals-aesthetic-and-social-practices-02116"
+  },
+  {
+    "archive_url": null,
     "author": null,
     "checksum": null,
     "country_codes": [
@@ -2714,6 +4214,86 @@
     "source_type": "institutional_page",
     "title": "Al-Mansaf in Jordan, a festive banquet and its social and cultural meanings",
     "url": "https://ich.unesco.org/en/RL/mansaf-in-jordan-a-festive-banquet-and-its-social-and-cultural-meanings-01849"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:f6f54f3dfeca54999dde45ec3fd972cbb57425c277a7e32b4cdca376073f572d",
+    "country_codes": [
+      "KM"
+    ],
+    "id": "SRC-UNESCO-ICH-KM-ZAFFA-2025",
+    "language": "en",
+    "license": "UNESCO ICH element page; factual extraction with attribution",
+    "locator": "element 02283; inscribed 2025 (20.COM) on the Representative List; seven submitting States",
+    "notes": "Element page read 2026-09-20: description, year, and submitting States. Publication date unavailable on the element page. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "UNESCO Intangible Cultural Heritage",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-20",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "The zaffa in the traditional wedding",
+    "url": "https://ich.unesco.org/en/RL/the-zaffa-in-the-traditional-wedding-02283"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-UNESCO-ICH-MAHADRA-01960-2023",
+    "language": "en",
+    "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+    "locator": "عنصر 01960؛ إدراج 2023 (18.COM) على القائمة التمثيلية؛ موريتانيا وحدها",
+    "notes": "صفحة العنصر قُرئت 2026-09-21: وصف «جامعة الصحراء» والخيمة والموادّ المنقولة. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "UNESCO Intangible Cultural Heritage",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Mahadra, a community system for transmission of traditional knowledge and oral expressions",
+    "url": "https://ich.unesco.org/en/RL/mahadra-a-community-system-for-transmission-of-traditional-knowledge-and-oral-expressions-01960"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-UNESCO-ICH-MR-STATE-2026",
+    "language": "en",
+    "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+    "locator": "تسعة عناصر مُدرجة (2011 قائمة الصون العاجل و2011-2025 القائمة التمثيلية)؛ التصديق 15 نوفمبر 2006؛ عضو لجنة 2022-2026؛ ثلاثة ترشيحات 2026 معلنة",
+    "notes": "صفحة الدولة قُرئت 2026-09-21: قائمة العناصر وسنواتها وقوائمها وتاريخ التصديق والترشيحات الجارية. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "UNESCO Intangible Cultural Heritage",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Mauritania — UNESCO Intangible Cultural Heritage",
+    "url": "https://ich.unesco.org/en/state/mauritania-MR"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-UNESCO-ICH-MR-ZAFFA-02283-2025",
+    "language": "en",
+    "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+    "locator": "عنصر 02283؛ إدراج 2025 (20.COM)؛ سبع دول منها موريتانيا",
+    "notes": "صفحة العنصر قُرئت في دورة جزر القمر 2026-09-20 وأُعيدت هنا لإكمال قائمة موريتانيا دون ادعاء حصرية. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "UNESCO Intangible Cultural Heritage",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "The zaffa in the traditional wedding",
+    "url": "https://ich.unesco.org/en/RL/the-zaffa-in-the-traditional-wedding-02283"
   },
   {
     "archive_url": null,
@@ -2805,6 +4385,46 @@
   },
   {
     "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-UNESCO-ICH-SAMBA-GUELADIO-01692-2024",
+    "language": "en",
+    "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+    "locator": "عنصر 01692؛ إدراج 2024 (19.COM) على القائمة التمثيلية؛ موريتانيا وحدها",
+    "notes": "صفحة العنصر قُرئت 2026-09-21: حكاية البطل وتحالفاته وقيم الملحمة. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "UNESCO Intangible Cultural Heritage",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "The Epic of Samba Gueladio",
+    "url": "https://ich.unesco.org/en/RL/the-epic-of-samba-gueladio-01692"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-UNESCO-ICH-THEYDINN-00524-2011",
+    "language": "en",
+    "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+    "locator": "عنصر 00524؛ إدراج 2011 (6.COM) على قائمة الصون العاجل؛ موريتانيا الدولة المُقدِّمة الوحيدة",
+    "notes": "صفحة العنصر قُرئت 2026-09-21: وصف الملحمة والمديّاحين والآلات وتراجع الأداء. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "UNESCO Intangible Cultural Heritage",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Moorish epic T’heydinn",
+    "url": "https://ich.unesco.org/en/USL/moorish-epic-t-heydinn-00524"
+  },
+  {
+    "archive_url": null,
     "checksum": null,
     "country_codes": [
       "TN"
@@ -2822,6 +4442,106 @@
     "source_type": "institutional_dataset",
     "title": "Intangible Cultural Heritage — Tunisia elements",
     "url": "https://ich.unesco.org/en/state/tunisia-TN"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+    "country_codes": [
+      "DJ"
+    ],
+    "id": "SRC-UNESCO-ICH-XEEDHO-02001-2023",
+    "language": "en",
+    "license": "UNESCO ICH element and State page; factual extraction with attribution; CC BY-SA 3.0 IGO for the descriptions",
+    "locator": "element 02001; inscribed 2023 (18.COM) on the List of Intangible Cultural Heritage in Need of Urgent Safeguarding; Djibouti is the only submitting State",
+    "notes": "Element page read 2026-09-21: full description of the dish, its container, its decoration and its transmission inside families. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "UNESCO Intangible Cultural Heritage",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Xeedho",
+    "url": "https://ich.unesco.org/en/USL/xeedho-02001"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+    "country_codes": [
+      "DJ"
+    ],
+    "id": "SRC-UNESCO-ICH-XEER-CIISE-02087-2024",
+    "language": "en",
+    "license": "UNESCO ICH element and State page; factual extraction with attribution; CC BY-SA 3.0 IGO for the descriptions",
+    "locator": "element 02087; inscribed 2024 (19.COM) on the Representative List; Ethiopia, Djibouti and Somalia",
+    "notes": "Element page read 2026-09-21: three components (political constitution, penal code, code of social conduct) and three submitting States. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "UNESCO Intangible Cultural Heritage",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Xeer Ciise: Oral customary laws of Somali-Issa communities in Ethiopia, Djibouti and Somalia",
+    "url": "https://ich.unesco.org/en/RL/xeer-ciise-oral-customary-laws-of-somali-issa-communities-in-ethiopia-djibouti-and-somalia-02087"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:a8163ca8ddc54a74a1c722d35f3e062e82d41cf4146a7ea90aa4b7677e053a70",
+    "country_codes": [
+      "DJ"
+    ],
+    "id": "SRC-UNESCO-ICH-ZAFFA-02283-2025",
+    "language": "en",
+    "license": "UNESCO ICH element and State page; factual extraction with attribution; CC BY-SA 3.0 IGO for the descriptions",
+    "locator": "element 02283; inscribed 2025 (20.COM) on the Representative List; seven submitting States",
+    "notes": "Element page read 2026-09-20 in the Comoros cycle and reused here: Djibouti is one of the seven submitting States, so no exclusivity is claimed. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "UNESCO Intangible Cultural Heritage",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "The zaffa in the traditional wedding",
+    "url": "https://ich.unesco.org/en/RL/the-zaffa-in-the-traditional-wedding-02283"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-UNESCO-WH-MR-KSOUR-750-1996",
+    "language": "ar",
+    "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+    "locator": "موقع 750؛ إدراج 1996؛ المعايير (iii) و(iv) و(v)؛ الوصف الرسمي بالعربية",
+    "notes": "صفحة الموقع قُرئت 2026-09-21: الوصف الرسمي العربي والمعايير وملاحظات الإدارة والحماية (قانون 46-2005). Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "UNESCO World Heritage Centre",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Ancient Ksour of Ouadane, Chinguetti, Tichitt and Oualata",
+    "url": "https://whc.unesco.org/en/list/750/"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
+    "country_codes": [
+      "MR"
+    ],
+    "id": "SRC-UNESCO-WH-MR-STATE-2026",
+    "language": "en",
+    "license": "UNESCO ICH and World Heritage pages and the Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+    "locator": "موقعان مُدرجان (قصور 750 الثقافي 1996، وبانك دارغان 506 الطبيعي 1989)؛ ثلاث مواقع في القائمة المؤقتة (2001)؛ التصديق 2 مارس 1981",
+    "notes": "صفحة الدولة قُرئت 2026-09-21: قائمتا الإدراج والقائمة المؤقتة وتاريخ التصديق وتقارير حالة الحفظ. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "UNESCO World Heritage Centre",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-21",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Mauritania — UNESCO World Heritage Convention",
+    "url": "https://whc.unesco.org/en/statesparties/mr"
   },
   {
     "archive_url": null,
