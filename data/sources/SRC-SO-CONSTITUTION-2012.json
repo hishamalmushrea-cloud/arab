@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:e893e90adba6c35cc8f109fefb5adc07023fae6e9ee6614b930e3c50cfcc3243",
+  "country_codes": [
+    "SO"
+  ],
+  "id": "SRC-SO-CONSTITUTION-2012",
+  "language": "en",
+  "license": "Official Somalia federal material; factual extraction with attribution; reuse terms not stated",
+  "locator": "المواد 1 و2 و5 و6 و7 و9 و15",
+  "notes": "نصّ دستوري منشور على مشروع Constitute قُرئ 2026-09-23: الدولة والدين واللغات والقواعد والإقليم والعاصمة والسلامة الشخصية؛ لا يُنسب تاريخ إصدار إلى الصفحة. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "Constitute Project — Comparative Constitutions Project",
+  "quality_tier": "A",
+  "retrieved_at": "2026-09-23",
+  "schema_version": "2.0.0",
+  "source_type": "law",
+  "title": "Somalia 2012 Provisional Constitution (as published by Constitute)",
+  "url": "https://constituteproject.org/constitution/Somalia_2012"
+}

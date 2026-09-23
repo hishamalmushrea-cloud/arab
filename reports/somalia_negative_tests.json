@@ -1,6 +1,6 @@
 {
   "country_code": "SO",
-  "detected": 10,
+  "detected": 23,
   "mutations": [
     {
       "detected": true,
@@ -51,9 +51,74 @@
       "detected": true,
       "expected_code": "SO_PARENT",
       "mutation": "SO_WRONG_PARENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "SO_DEPTH_PLACE_SHAPE",
+      "mutation": "SO_DEPTH_PLACE_COORDINATES"
+    },
+    {
+      "detected": true,
+      "expected_code": "SO_DEPTH_PLACE_CLAIMLESS",
+      "mutation": "SO_DEPTH_PLACE_CLAIM"
+    },
+    {
+      "detected": true,
+      "expected_code": "SO_DEPTH_PLACE_PARENT",
+      "mutation": "SO_DEPTH_PLACE_SECOND_PARENT"
+    },
+    {
+      "detected": true,
+      "expected_code": "SO_SHARED_NOT_NATIONAL",
+      "mutation": "SO_DEPTH_SHARED_AS_NATIONAL"
+    },
+    {
+      "detected": true,
+      "expected_code": "SO_NO_COUNTS",
+      "mutation": "SO_DEPTH_SPEAKER_NUMBER"
+    },
+    {
+      "detected": true,
+      "expected_code": "SO_WH_ZERO_INSCRIBED",
+      "mutation": "SO_DEPTH_TENTATIVE_AS_INSCRIBED"
+    },
+    {
+      "detected": true,
+      "expected_code": "SO_CAPITAL_DEFERRED",
+      "mutation": "SO_DEPTH_CAPITAL_INVENTION"
+    },
+    {
+      "detected": true,
+      "expected_code": "SO_DEPTH_PUBLISHED_TIER",
+      "mutation": "SO_DEPTH_WEAK_PUBLISHED"
+    },
+    {
+      "detected": true,
+      "expected_code": "SO_CONSTITUTION_ARTICLES",
+      "mutation": "SO_DEPTH_MISSING_ARTICLE"
+    },
+    {
+      "detected": true,
+      "expected_code": "SO_LANGUAGE_OFFICIAL",
+      "mutation": "SO_DEPTH_DROP_OFFICIAL_LANGUAGE"
+    },
+    {
+      "detected": true,
+      "expected_code": "SO_DEPTH_SOURCE_REFS",
+      "mutation": "SO_DEPTH_BAD_SOURCE_REF"
+    },
+    {
+      "detected": true,
+      "expected_code": "SO_DEPTH_SOURCE_REFS",
+      "mutation": "SO_DEPTH_MISSING_SOURCE_FILE"
+    },
+    {
+      "detected": true,
+      "expected_code": "SO_DOMAIN_STATUS",
+      "mutation": "SO_DEPTH_DOMAIN_REGRESSION"
     }
   ],
-  "required": 10,
+  "required": 23,
   "schema_version": "2.0.0",
   "status": "PASS"
 }

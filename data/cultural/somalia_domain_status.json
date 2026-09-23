@@ -1,17 +1,59 @@
 {
   "country_code": "SO",
   "domains": {
+    "crafts": {
+      "claims": 3,
+      "status": "documented_local_reported_unpublished"
+    },
+    "custom": {
+      "claims": 3,
+      "status": "documented_local_reported_unpublished"
+    },
     "dialect": {
+      "claims": 3,
+      "status": "documented_local_reported_unpublished"
+    },
+    "dress": {
       "claims": 0,
       "status": "not_documented_in_cycle"
+    },
+    "food": {
+      "claims": 12,
+      "status": "documented_local_reported_unpublished"
+    },
+    "heritage_places": {
+      "denominator": null,
+      "entities": 4,
+      "status": "documented_places_no_denominator"
+    },
+    "intangible_cultural_heritage": {
+      "elements": 2,
+      "national": 0,
+      "shared": 2,
+      "status": "documented_two_shared_elements_no_national"
+    },
+    "language_institutions": {
+      "claims": 1,
+      "status": "documented_local_reported_unpublished"
+    },
+    "languages": {
+      "claims": 14,
+      "status": "documented_two_published_rest_unpublished"
+    },
+    "narratives": {
+      "claims": 1,
+      "status": "documented_naming_narrative_unpublished"
     },
     "territorial_control": {
       "status": "requires_separate_dated_overlay"
     },
     "world_heritage": {
-      "status": "not_imported_in_full_pilot_stage1"
+      "inscribed": 0,
+      "status": "no_inscribed_properties_three_tentative_sites",
+      "tentative_list_sites": 3
     }
   },
+  "notes": "عنصران يونسكويان مشتركان بلا عنصر وطني، وصفر مواقع مُدرجة وثلاثة في القائمة المؤقتة، وسبع مواد دستورية، ولا يُسجَّل أي عدد متحدثين أو سكان أو نسبة في أي دعوى.",
   "schema_version": "2.0.0",
-  "snapshot_date": "2026-08-17"
+  "snapshot_date": "2026-09-23"
 }

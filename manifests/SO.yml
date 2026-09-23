@@ -2,7 +2,8 @@
   "caveats": [
     "Seven-FMS denominator is explicitly the current Ministry of Planning frame, not a neutral sovereignty/control adjudication.",
     "Banadir is a parallel regional administration.",
-    "Somaliland and North East records preserve FGS-attributed narratives; overlapping claims/control are not inferred."
+    "Somaliland and North East records preserve FGS-attributed narratives; overlapping claims/control are not inferred.",
+    "Depth layers carry no denominator and no inherited population; the inscribed-property count is a deliberate zero."
   ],
   "country": {
     "entity_id": "ENT-SO-COUNTRY",
@@ -160,7 +161,7 @@
       "verification_status": "pending"
     }
   ],
-  "next_action": "Maintain authority-specific federal frames; add regions/districts or claim/control overlays only after multi-authority reconciliation.",
+  "next_action": "Extend regions/districts only after multi-authority reconciliation; keep heritage places located_in-only; add a dated territorial-control overlay separately; clothing remains unsourced.",
   "official_authority": {
     "missing_reason": null,
     "name": "Federal Ministries of Planning and Interior / SONNA / Upper House",
@@ -217,6 +218,143 @@
         "SRC-SO-MOP-FMS-2026"
       ],
       "special_cases": []
+    },
+    {
+      "authority_name": "UNESCO Intangible Cultural Heritage",
+      "coverage_record_id": null,
+      "denominator": 2,
+      "denominator_id": null,
+      "entity_types": [
+        "cultural_site"
+      ],
+      "layer": "unesco_intangible_heritage",
+      "license": "UNESCO ICH and World Heritage pages and the 2012 Provisional Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+      "local_names": [
+        "عنصر تراث غير مادي"
+      ],
+      "notes": "عنصران مُدرجان على صفحة الدولة، وكلاهما ملف مشترك.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-09-23",
+      "source_ids": [
+        "SRC-UNESCO-ICH-SO-STATE-2026",
+        "SRC-UNESCO-ICH-SO-XEER-CIISE-02087-2024",
+        "SRC-UNESCO-ICH-SO-ZAFFA-02283-2025"
+      ],
+      "special_cases": [
+        "الملفات المشتركة تبقى shared ولا يُدَّعى فيها حصرية.",
+        "الملف المعلن ليس إدراجًا، ولا عنصر وطني حصري في هذه الدورة.",
+        "لا يُسجَّل عدد متحدثين ولا نسبة في أي دعوى ثقافية."
+      ]
+    },
+    {
+      "authority_name": "UNESCO World Heritage Centre",
+      "coverage_record_id": null,
+      "denominator": 0,
+      "denominator_id": null,
+      "entity_types": [
+        "cultural_site",
+        "natural_site"
+      ],
+      "layer": "world_heritage_inscribed",
+      "license": "UNESCO ICH and World Heritage pages and the 2012 Provisional Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+      "local_names": [
+        "موقع تراث عالمي"
+      ],
+      "notes": "صفر موقع مُدرج مقروء من صفحة الدولة.",
+      "scope_status": "closed",
+      "snapshot_date": "2026-09-23",
+      "source_ids": [
+        "SRC-UNESCO-WH-SO-STATE-2026"
+      ],
+      "special_cases": [
+        "الصفر مقصود ومعلن من المصدر، ولا يُحوَّل إلى تقدير ولا يُقارن بقوائم إقليمية."
+      ]
+    },
+    {
+      "authority_name": "UNESCO World Heritage Centre",
+      "coverage_record_id": null,
+      "denominator": 3,
+      "denominator_id": null,
+      "entity_types": [
+        "natural_site",
+        "cultural_site"
+      ],
+      "layer": "world_heritage_tentative_list",
+      "license": "UNESCO ICH and World Heritage pages and the 2012 Provisional Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+      "local_names": [
+        "القائمة المؤقتة"
+      ],
+      "notes": "ثلاثة مواقع في القائمة المؤقتة (2024-2025).",
+      "scope_status": "closed",
+      "snapshot_date": "2026-09-23",
+      "source_ids": [
+        "SRC-UNESCO-WH-SO-STATE-2026",
+        "SRC-UNESCO-WH-SO-BUSHBUSHLE-6752-2024",
+        "SRC-UNESCO-WH-SO-HOBYO-6753-2024",
+        "SRC-UNESCO-WH-SO-LIGHTHOUSE-6754-2025"
+      ],
+      "special_cases": [
+        "القائمة المؤقتة ليست إدراجًا.",
+        "المعايير المسجَّلة معايير مقترحة في الملف لا معايير إدراج.",
+        "إحداثيات ملف بوشبوشلي مشوَّشة في هذه القراءة فلا تُسجَّل."
+      ]
+    },
+    {
+      "authority_name": "UNESCO World Heritage Centre",
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
+      "entity_types": [
+        "natural_site",
+        "cultural_site",
+        "quarter"
+      ],
+      "layer": "heritage_places",
+      "license": "UNESCO ICH and World Heritage pages and the 2012 Provisional Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+      "local_names": [
+        "موقع أو نطاق تراثي"
+      ],
+      "notes": "أربعة أماكن: ثلاثة مواقع في القائمة المؤقتة ونطاق عمراني قديم.",
+      "scope_status": "open",
+      "snapshot_date": "2026-09-23",
+      "source_ids": [
+        "SRC-UNESCO-WH-SO-BUSHBUSHLE-6752-2024",
+        "SRC-UNESCO-WH-SO-HOBYO-6753-2024",
+        "SRC-UNESCO-WH-SO-LIGHTHOUSE-6754-2025"
+      ],
+      "special_cases": [
+        "الأماكن بـlocated_in فقط: بلا أب إداري وبلا دعوى سكان وبلا نسبة.",
+        "لا تُنسب المواقع الطبيعية إلى ولايات غير مقبولة في الطبقة المقبولة.",
+        "النطاق العمراني «حمر» نطاق لا حي إداري."
+      ]
+    },
+    {
+      "authority_name": "Wikimedia mirrors (Arabic/English)",
+      "coverage_record_id": null,
+      "denominator": null,
+      "denominator_id": null,
+      "entity_types": [
+        "cultural_site"
+      ],
+      "layer": "classified_local_knowledge",
+      "license": "Official Somalia federal material; factual extraction with attribution; reuse terms not stated",
+      "local_names": [
+        "معرفة محلية مصنَّفة"
+      ],
+      "notes": "جسم لغوي وأطباق وحرف وأعراف ورواية تسمية، كله غير منشور.",
+      "scope_status": "open",
+      "snapshot_date": "2026-09-23",
+      "source_ids": [
+        "SRC-SO-LANGUAGES-MIRROR-2026",
+        "SRC-SO-CUISINE-MIRROR-2026",
+        "SRC-SO-CULTURE-MIRROR-2026",
+        "SRC-SO-MOGADISHU-MIRROR-2026"
+      ],
+      "special_cases": [
+        "لا يُنشر أي ادّعاء ضعيف المصدر ولا يُبنى عليه مقام.",
+        "لا تُسجَّل أعداد متحدثين ولا نسب ولا أعداد سكان.",
+        "الرمز اللغوي لا يُسجَّل إلا متحقَّقًا من سجل ISO 639-3."
+      ]
     }
   ],
   "schema_version": "2.0.0",

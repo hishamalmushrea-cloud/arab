@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:e893e90adba6c35cc8f109fefb5adc07023fae6e9ee6614b930e3c50cfcc3243",
+  "country_codes": [
+    "SO"
+  ],
+  "id": "SRC-UNESCO-WH-SO-STATE-2026",
+  "language": "en",
+  "license": "UNESCO ICH and World Heritage pages and the 2012 Provisional Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+  "locator": "صفر موقع مُدرج؛ ثلاثة مواقع في القائمة المؤقتة (6752 و6753 سنة 2024، و6754 سنة 2025)؛ التصديق 23 يوليو 2020",
+  "notes": "صفحة الدولة قُرئت 2026-09-23: قائمة الإدراج الفارغة والقائمة المؤقتة وتاريخ التصديق والمساعدة الدولية. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "UNESCO World Heritage Centre",
+  "quality_tier": "A",
+  "retrieved_at": "2026-09-23",
+  "schema_version": "2.0.0",
+  "source_type": "institutional_page",
+  "title": "Somalia — UNESCO World Heritage Convention",
+  "url": "https://whc.unesco.org/en/statesparties/so"
+}

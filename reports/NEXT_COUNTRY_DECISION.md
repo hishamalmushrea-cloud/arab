@@ -30,29 +30,30 @@ Depth expansion is additive: it never rewrites an accepted layer, and `published
 | Comoros | 1 | 1 published UNESCO ICH element (زفّة العرس 02283، ملف بسبع دول) + 3 أحكام دستورية + معالم الموقع (30.47 هكتار) + 30 دعوى مصنّفة + 6 مدن تاريخية (no denominator) | ✅ 2026-09-20 |
 | Djibouti | 1 | 3 published UNESCO ICH elements (الخيدو 02001 USL وطني وحيد الدولة · الزير عيسى 02087 بثلاث دول · الزفّة 02283 بسبع دول) + الدستور (اللغات الرسمية والدين والعاصمة) + التصديق وترشيح 2026 + 30 دعوى مصنّفة + 12 مكانًا داخل العاصمة (no denominator) | ✅ 2026-09-21 |
 | **Mauritania** | **1** | **9 published UNESCO ICH elements (تْحِيدِن 00524 USL وطني وحيد الدولة · المحضرة 01960 وطني · سامبا غيلاديو 01692 وطني · ستة ملفات مشتركة) + موقعا التراث العالمي (القصور 750 ثقافي · بانك دارغان 506 طبيعي) + القائمة المؤقتة 2001 + 5 مواد دستورية + 29 دعوى مصنّفة + 7 أماكن بلا مقام (no denominator)** | ✅ **2026-09-21** |
+| **Somalia** | **1** | **عنصران يونسكويان مدرجان وكلاهما ملف مشترك (لا عنصر وطني): الزير عيسى 02087 (إثيوبيا · جيبوتي · الصومال) والزفّة 02283 (سبع دول) + صفر مواقع تراث عالمي مُدرجة وثلاثة ملفات قائمة مؤقتة 6752/6753/6754 + سبع مواد دستورية (والمادة 9 لا تسمّي عاصمة) + 35 دعوى مصنّفة + 4 أماكن بلا مقام (no denominator)** | ✅ **2026-09-23** |
 
 ## Current country
 
-**Somalia (SO) — depth-expansion cycle 1.**
+**United Arab Emirates (AE) — depth-expansion cycle 1.**
 
 ## Rationale (dependency / risk / available information)
 
-- Mauritania is closed with three sole-submission elements (one of them on the Urgent Safeguarding List) and six shared files, so both sides of the ICH contract — exclusive and shared — are proven before Somalia.
-- Somalia is the last country of the Gulf/Indian-Ocean group without depth after Djibouti, and it already appears as a co-submitting State in the zaffa 02283 file, so the shared-element contract transfers without a new exclusivity claim.
-- Somalia's accepted layer is bounded (its own fixtures, manifest and gate `scripts/check_somalia_gate.py`), so the cycle verifies the accepted denominators first and then builds the classified body (Somali and Maay, dialects, poetry, dishes, dress, crafts, customs) with no speaker counts and no inherited denominators.
-- Risk to record rather than resolve: where a State page cannot be read for a list (as the natural property's criteria could not be read for Mauritania), the field stays explicitly empty instead of being filled from a mirror.
+- Somalia is closed with both of its inscribed elements shared and none exclusive, so the *shared-only* case is now proven end to end alongside the exclusive case (Djibouti's Xeedho, Mauritania's three sole submissions).
+- The UAE is the last country of the Gulf/Indian-Ocean group without a cultural depth cycle: it already appears as a co-submitting State on common files (الزفّة 02283، الحناء، الخط العربي، النخلة، البشت) and its accepted layer is bounded by its own fixture, manifest, denominators and scripts.
+- The accepted UAE layer is unusually honest about what it does **not** know: nine closed denominators (seven emirates, Abu Dhabi 3، Dubai 9 قطاعات، Sharjah 9، Ajman 3، أم القيوين 2، رأس الخيمة 5، الفجيرة 2) and **three explicitly unavailable ones** (مجتمعات دبي، الأماكن المأهولة، الأحياء) — so the cycle verifies these first and refuses to fill the unavailable three by inference.
+- Risk to record rather than resolve: where a State page cannot be read for a list, the field stays explicitly empty instead of being filled from a mirror (as with Mauritania's natural-property criteria and Somalia's garbled coordinate string).
 
-## Scope of the Mauritania depth cycle (completed 2026-09-21)
+## Scope of the UAE depth cycle (opened 2026-09-23)
 
-1. **Verify first:** re-confirm the 15 wilayas (three Nouakchott + twelve regional) from the checksum-bound fixture; keep the 63 moughataas known/open and the commune conflict (219/220) disputed with no denominator.
-2. **Published spine:** nine inscribed UNESCO elements with the submitting-State list asserted exactly as published, the 2006-11-15 ratification, the three declared 2026 nominations as pending nominations, the two World Heritage properties, the 2001 tentative list and the constitutional articles.
-3. **Heritage places:** the four ksour cities and three archaeological sites as places with `located_in` only — no administrative parent, no population claim, no percentage, no coordinates.
-4. **Classified local knowledge:** Hassaniya and its dialect profile, the script profile, dishes, dress, crafts and customs — all classified, tier-capped and unpublished unless an authoritative list publishes them.
-5. **Deliberate zeros are recorded as zeros:** the natural property's criteria are recorded empty because they were not read, and every unpublished language row states the no-count rule in the record itself.
+1. **Verify first:** re-confirm the seven emirates and the nine closed denominators from the checksum-bound fixture, and keep `DEN-AE-DUBAI-PLANNING-COMMUNITIES`، `DEN-AE-POPULATED-PLACES`، `DEN-AE-NEIGHBORHOODS` **unavailable** with no percentage and no inferred entity.
+2. **Published spine:** the UNESCO ICH elements on which the UAE appears — including the shared files الزفّة 02283، الحناء 02116، الخط العربي 01718، النخلة 01902، النقش على المعادن 01951 والبشت — each asserted exactly as published and stayed `shared`، plus the World Heritage properties and tentative list as read from the World Heritage State page, the ratification dates, and the constitutional articles that speak to language, religion and the union.
+3. **Heritage places:** sites and quarters that carry a real listing as places with `located_in` only — no administrative parent, no population claim, no percentage, no invented coordinates.
+4. **Classified local knowledge:** العربية and الإنجليزية واللغات الأخرى as classified rows, an Emirati dialect profile, dishes, dress, crafts, customs and markets — all classified, tier-capped and unpublished unless an authoritative list publishes them.
+5. **Deliberate absences:** no speaker counts, no population, no share, no unread field filled from a mirror, and a published **zero** recorded as zero where the source says zero.
 
 ## Queue after the current country
 
-Somalia → UAE (completing the no-depth group), then a second-order depth cycle in the philosophy order: Yemen (remaining 8 Amanat districts + 687 lanes) → Saudi Arabia → Egypt → Morocco → Algeria → Iraq → Palestine → Oman → Sudan. Order may only change on documented dependency/risk grounds.
+الإمارات → الدورات من الدرجة الثانية بترتيب الفلسفة §12: اليمن (المتبقي 8 مديريات أمانة العاصمة + 687 زقاقًا) → السعودية → مصر → المغرب → الجزائر → العراق → فلسطين → عُمان → السودان. لا يتغيّر الترتيب إلا بسبب موثَّق متعلق بالاعتماد أو الخطر.
 
 ## Standing depth gaps carried forward
 

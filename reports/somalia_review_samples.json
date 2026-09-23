@@ -10,7 +10,7 @@
       "sample_size": 1
     },
     "claims": {
-      "population": 9,
+      "population": 61,
       "record_ids": [
         "CLM-SO-073A90765B755ACB",
         "CLM-SO-5EC6ABC9D87655DE",
@@ -20,10 +20,62 @@
         "CLM-SO-BCD9733CE79055A9",
         "CLM-SO-CB16E4AF0EBC5BA3",
         "CLM-SO-D002B800321F5B6C",
+        "CLM-SO-DEPTH-0A120B02ECAB5345",
+        "CLM-SO-DEPTH-0E324C28B776573D",
+        "CLM-SO-DEPTH-10D311CE19025789",
+        "CLM-SO-DEPTH-13A712F738A355B5",
+        "CLM-SO-DEPTH-16852B50E1D95B35",
+        "CLM-SO-DEPTH-19CECBE5BEEE5DB7",
+        "CLM-SO-DEPTH-1FCEA96E65425CE0",
+        "CLM-SO-DEPTH-2440252C2AA95F85",
+        "CLM-SO-DEPTH-29918DD91BD25887",
+        "CLM-SO-DEPTH-2B806999D6795878",
+        "CLM-SO-DEPTH-2C4E1B68A0D65F18",
+        "CLM-SO-DEPTH-338E1066D5F15F6F",
+        "CLM-SO-DEPTH-3499D4EF049A5B70",
+        "CLM-SO-DEPTH-36172A498D0B5C73",
+        "CLM-SO-DEPTH-3882921249D657DE",
+        "CLM-SO-DEPTH-406D3C7E65615B85",
+        "CLM-SO-DEPTH-437A159F25E05BD0",
+        "CLM-SO-DEPTH-496246824B795ACA",
+        "CLM-SO-DEPTH-4AF9AFE65A395B2F",
+        "CLM-SO-DEPTH-4DADA645F7FC59D0",
+        "CLM-SO-DEPTH-573E3FB430A35639",
+        "CLM-SO-DEPTH-57BDFFC4A6BA5437",
+        "CLM-SO-DEPTH-5CD7DEE8EC6557DD",
+        "CLM-SO-DEPTH-624ECBE4B7A85908",
+        "CLM-SO-DEPTH-67730E1F1620517F",
+        "CLM-SO-DEPTH-6905761982BC5BCE",
+        "CLM-SO-DEPTH-6BC4CD7E85CA545D",
+        "CLM-SO-DEPTH-6E32A28E8EE45BB2",
+        "CLM-SO-DEPTH-6F48D72B1E6F5EE4",
+        "CLM-SO-DEPTH-710907C0E9FA5F0D",
+        "CLM-SO-DEPTH-7227A2A8C4C05AA3",
+        "CLM-SO-DEPTH-791B01D203975C44",
+        "CLM-SO-DEPTH-7E31DA19F7095E6F",
+        "CLM-SO-DEPTH-88A6A22A6D385B8C",
+        "CLM-SO-DEPTH-9248718F05405142",
+        "CLM-SO-DEPTH-95A84B0C14955BA1",
+        "CLM-SO-DEPTH-97E9DC1230965F27",
+        "CLM-SO-DEPTH-A7DDCB96580B57BB",
+        "CLM-SO-DEPTH-B70DC0C34F5A5C6C",
+        "CLM-SO-DEPTH-C5AF674B204F51B6",
+        "CLM-SO-DEPTH-C69C49D1100E5B77",
+        "CLM-SO-DEPTH-C7A743EBC0CE5BEC",
+        "CLM-SO-DEPTH-CB09C6FEB7CE5E7A",
+        "CLM-SO-DEPTH-CE09EBF225245391",
+        "CLM-SO-DEPTH-D524BF1EFB825BAF",
+        "CLM-SO-DEPTH-D7B9EE8318395B61",
+        "CLM-SO-DEPTH-DE1BFBDCB6235B7D",
+        "CLM-SO-DEPTH-E0065ACD0AC351A0",
+        "CLM-SO-DEPTH-E2E6E3E620F25F0F",
+        "CLM-SO-DEPTH-ED46EA306DC35EA5",
+        "CLM-SO-DEPTH-FD0D3CDF2A24517A",
+        "CLM-SO-DEPTH-FEAF5FB75D3D52C2",
         "CLM-SO-FD512D683B8F50A5"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 9
+      "sample_size": 61
     },
     "coverage": {
       "population": 8,
@@ -56,7 +108,7 @@
       "sample_size": 8
     },
     "entities": {
-      "population": 9,
+      "population": 13,
       "record_ids": [
         "ENT-SO-COUNTRY",
         "ENT-SO-FMS-01",
@@ -66,37 +118,58 @@
         "ENT-SO-FMS-05",
         "ENT-SO-FMS-06",
         "ENT-SO-FMS-07",
-        "ENT-SO-REGION-BRA"
+        "ENT-SO-QUARTER-HAMAR",
+        "ENT-SO-REGION-BRA",
+        "ENT-SO-SITE-BUSHBUSHLE",
+        "ENT-SO-SITE-HOBYO",
+        "ENT-SO-SITE-LIGHTHOUSE"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 9
+      "sample_size": 13
     },
     "relationships": {
-      "population": 8,
+      "population": 12,
       "record_ids": [
         "REL-SO-15F856D41BDD5F2D",
         "REL-SO-22BAC8ECCEDF521B",
+        "REL-SO-2A076D971CB955C9",
+        "REL-SO-4458BFA863A45DE6",
         "REL-SO-8064C67EA10C5C05",
         "REL-SO-902245AF6C4756C1",
+        "REL-SO-A06E9089BA7A541B",
         "REL-SO-B07E206503BD5430",
+        "REL-SO-B99FE919C8E551EA",
         "REL-SO-DDFE7F2FD3935B5D",
         "REL-SO-E8FE1103BF2B55A1",
         "REL-SO-FA7D0F6A0D3B5F85"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 8
+      "sample_size": 12
     },
     "sources": {
-      "population": 5,
+      "population": 18,
       "record_ids": [
+        "SRC-SO-CONSTITUTION-2012",
+        "SRC-SO-CUISINE-MIRROR-2026",
+        "SRC-SO-CULTURE-MIRROR-2026",
+        "SRC-SO-ISO639-3-SOMALI",
+        "SRC-SO-LANGUAGES-MIRROR-2026",
+        "SRC-SO-MOGADISHU-MIRROR-2026",
         "SRC-SO-MOIFAR-NORTHEAST-2026",
         "SRC-SO-MOP-FMS-2026",
         "SRC-SO-MPWR-FIVE-FMS-2025",
         "SRC-SO-SENATE-CONSTITUENCY",
-        "SRC-SO-SONNA-NORTHEAST-DECLARATION-2026"
+        "SRC-SO-SONNA-NORTHEAST-DECLARATION-2026",
+        "SRC-UNESCO-ICH-SO-STATE-2026",
+        "SRC-UNESCO-ICH-SO-XEER-CIISE-02087-2024",
+        "SRC-UNESCO-ICH-SO-ZAFFA-02283-2025",
+        "SRC-UNESCO-WH-SO-BUSHBUSHLE-6752-2024",
+        "SRC-UNESCO-WH-SO-HOBYO-6753-2024",
+        "SRC-UNESCO-WH-SO-LIGHTHOUSE-6754-2025",
+        "SRC-UNESCO-WH-SO-STATE-2026"
       ],
       "sample_percentage": 100.0,
-      "sample_size": 5
+      "sample_size": 18
     }
   },
   "schema_version": "2.0.0"

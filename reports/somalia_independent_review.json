@@ -10,8 +10,8 @@
     },
     "claims": {
       "failed": 0,
-      "passed": 9,
-      "sampled": 9,
+      "passed": 61,
+      "sampled": 61,
       "status": "PASS"
     },
     "coverage": {
@@ -28,28 +28,28 @@
     },
     "entities": {
       "failed": 0,
-      "passed": 9,
-      "sampled": 9,
+      "passed": 13,
+      "sampled": 13,
       "status": "PASS"
     },
     "relationships": {
       "failed": 0,
-      "passed": 8,
-      "sampled": 8,
+      "passed": 12,
+      "sampled": 12,
       "status": "PASS"
     },
     "sources": {
       "failed": 0,
-      "passed": 5,
-      "sampled": 5,
+      "passed": 18,
+      "sampled": 18,
       "status": "PASS"
     }
   },
   "findings": [],
-  "method": "Independent full-population authority-frame review: 7 MOP entries, Banadir parallel path, Somaliland narrative, North East transition, unavailable lower universes.",
+  "method": "Independent full-population authority-frame review: 7 MOP entries, Banadir parallel path, Somaliland narrative, North East transition, unavailable lower universes, two shared ICH elements, three tentative-list submissions, seven constitution articles, fourteen language rows, and four places without rank.",
   "p0": 0,
   "schema_version": "2.0.0",
   "status": "PASS",
-  "total_passed": 48,
-  "total_sampled": 48
+  "total_passed": 121,
+  "total_sampled": 121
 }

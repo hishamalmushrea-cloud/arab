@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:e893e90adba6c35cc8f109fefb5adc07023fae6e9ee6614b930e3c50cfcc3243",
+  "country_codes": [
+    "SO"
+  ],
+  "id": "SRC-SO-ISO639-3-SOMALI",
+  "language": "en",
+  "license": "Official Somalia federal material; factual extraction with attribution; reuse terms not stated",
+  "locator": "som = Somali؛ 639-1: so؛ مجموعتا 639-2 و639-3؛ فردية، حيّة",
+  "notes": "صفحة السجل قُرئت 2026-09-23. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "SIL International (ISO 639-3 registration authority)",
+  "quality_tier": "A",
+  "retrieved_at": "2026-09-23",
+  "schema_version": "2.0.0",
+  "source_type": "standard",
+  "title": "ISO 639-3 code registration — Somali",
+  "url": "https://iso639-3.sil.org/code/som"
+}

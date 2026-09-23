@@ -1,9 +1,16 @@
 {
   "captured_at": "2026-08-17",
   "country_code": "SO",
+  "method": "Checksum-bound FGS planning frame, extended in depth cycle 1 with the two UNESCO ICH elements on which Somalia appears, the 2020 ratification of both conventions, the three 2024-2025 tentative-list submissions, seven articles of the 2012 Provisional Constitution, the ISO 639-3 registration for Somali, and Arabic/English mirror material for language presence, cuisine and culture.",
   "records": [
     {
-      "path": "fixtures/federal_frames_2026.json",
+      "bytes": 25227,
+      "path": "data/imports/somalia/fixtures/cultural_depth_2026.json",
+      "sha256": "e893e90adba6c35cc8f109fefb5adc07023fae6e9ee6614b930e3c50cfcc3243"
+    },
+    {
+      "bytes": 2357,
+      "path": "data/imports/somalia/fixtures/federal_frames_2026.json",
       "record_count": 8,
       "sha256": "d19d602db96af00e9a5f5017bdb295d63b21b5996fb11f372d753cd0a97346f9"
     }

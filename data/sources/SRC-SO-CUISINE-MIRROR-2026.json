@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:e893e90adba6c35cc8f109fefb5adc07023fae6e9ee6614b930e3c50cfcc3243",
+  "country_codes": [
+    "SO"
+  ],
+  "id": "SRC-SO-CUISINE-MIRROR-2026",
+  "language": "en",
+  "license": "Official Somalia federal material; factual extraction with attribution; reuse terms not stated",
+  "locator": "مطبخ الصومال: الكنغيرو/اللحوح، الساباياد/الكميس، المووفو، المشاري، السقار، الأوقاك/المقماد، فه فه، الباستو، شاي كاديس، القهوة، حليب الإبل",
+  "notes": "مرآة إنجليزية تصف المطبخ؛ تُسجَّل كل مادة منها غير منشورة. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "Wikipedia (English mirror)",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-23",
+  "schema_version": "2.0.0",
+  "source_type": "local_website",
+  "title": "Somali cuisine",
+  "url": "https://en.wikipedia.org/wiki/Somali_cuisine"
+}
