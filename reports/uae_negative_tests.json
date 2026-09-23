@@ -1,7 +1,8 @@
 {
   "baseline_status": "PASS",
   "country_code": "AE",
-  "detected": 8,
+  "depth_snapshot_date": "2026-09-23",
+  "detected": 27,
   "mutations": [
     {
       "detected": true,
@@ -74,9 +75,170 @@
       "observed_error_codes": [
         "UAE_FOREIGN_SOURCE"
       ]
+    },
+    {
+      "detected": true,
+      "expected_error_code": "UAE_DEPTH_ELEMENT_SCOPE",
+      "mutation": "UAE_DEPTH_SHARED_AS_NATIONAL",
+      "observed_error_codes": [
+        "UAE_DEPTH_ELEMENT_SCOPE"
+      ]
+    },
+    {
+      "detected": true,
+      "expected_error_code": "UAE_DEPTH_ELEMENT_SCOPE",
+      "mutation": "UAE_DEPTH_DEFERRED_SCOPE_INVENTED",
+      "observed_error_codes": [
+        "UAE_DEPTH_ELEMENT_SCOPE"
+      ]
+    },
+    {
+      "detected": true,
+      "expected_error_code": "UAE_DEPTH_ELEMENT_SCOPE",
+      "mutation": "UAE_DEPTH_DEFERRED_PUBLISHED",
+      "observed_error_codes": [
+        "UAE_DEPTH_CLAIMS",
+        "UAE_DEPTH_ELEMENT_SCOPE"
+      ]
+    },
+    {
+      "detected": true,
+      "expected_error_code": "UAE_DEPTH_ELEMENT_SCOPE",
+      "mutation": "UAE_DEPTH_REGISTER_AS_ELEMENT",
+      "observed_error_codes": [
+        "UAE_DEPTH_ELEMENT_SCOPE"
+      ]
+    },
+    {
+      "detected": true,
+      "expected_error_code": "UAE_DEPTH_ELEMENT_SCOPE",
+      "mutation": "UAE_DEPTH_PENDING_DROPPED",
+      "observed_error_codes": [
+        "UAE_DEPTH_CLAIMS",
+        "UAE_DEPTH_ELEMENT_SCOPE"
+      ]
+    },
+    {
+      "detected": true,
+      "expected_error_code": "UAE_DEPTH_CLAIMS",
+      "mutation": "UAE_DEPTH_CLAIM_DROPPED",
+      "observed_error_codes": [
+        "UAE_DEPTH_CLAIMS"
+      ]
+    },
+    {
+      "detected": true,
+      "expected_error_code": "UAE_DEPTH_WH",
+      "mutation": "UAE_DEPTH_CRITERIA_FILLED",
+      "observed_error_codes": [
+        "UAE_DEPTH_WH"
+      ]
+    },
+    {
+      "detected": true,
+      "expected_error_code": "UAE_DEPTH_WH",
+      "mutation": "UAE_DEPTH_TENTATIVE_DUPLICATED",
+      "observed_error_codes": [
+        "UAE_DEPTH_WH"
+      ]
+    },
+    {
+      "detected": true,
+      "expected_error_code": "UAE_DEPTH_WH",
+      "mutation": "UAE_DEPTH_INSCRIBED_COUNT",
+      "observed_error_codes": [
+        "UAE_DEPTH_CLAIMS",
+        "UAE_DEPTH_WH"
+      ]
+    },
+    {
+      "detected": true,
+      "expected_error_code": "UAE_DEPTH_NO_COUNTS",
+      "mutation": "UAE_DEPTH_DISH_NUMBER",
+      "observed_error_codes": [
+        "UAE_DEPTH_NO_COUNTS"
+      ]
+    },
+    {
+      "detected": true,
+      "expected_error_code": "UAE_DEPTH_PUBLICATION",
+      "mutation": "UAE_DEPTH_WEAK_PUBLISHED",
+      "observed_error_codes": [
+        "UAE_DEPTH_CLAIMS",
+        "UAE_DEPTH_PUBLICATION"
+      ]
+    },
+    {
+      "detected": true,
+      "expected_error_code": "UAE_DEPTH_PLACE_SHAPE",
+      "mutation": "UAE_DEPTH_PLACE_COORDINATES",
+      "observed_error_codes": [
+        "UAE_DEPTH_PLACE_SHAPE"
+      ]
+    },
+    {
+      "detected": true,
+      "expected_error_code": "UAE_DEPTH_PLACE_SHAPE",
+      "mutation": "UAE_DEPTH_PLACE_SECOND_PARENT",
+      "observed_error_codes": [
+        "UAE_DEPTH_PLACE_SHAPE"
+      ]
+    },
+    {
+      "detected": true,
+      "expected_error_code": "UAE_DEPTH_PLACE_SHAPE",
+      "mutation": "UAE_DEPTH_PLACE_CLAIM",
+      "observed_error_codes": [
+        "UAE_DEPTH_CLAIMS",
+        "UAE_DEPTH_PLACE_SHAPE"
+      ]
+    },
+    {
+      "detected": true,
+      "expected_error_code": "UAE_DEPTH_PLACE_SHAPE",
+      "mutation": "UAE_DEPTH_PLACE_RETYPED",
+      "observed_error_codes": [
+        "UAE_DEPTH_PLACE_SHAPE",
+        "UAE_ENTITY_COUNTS"
+      ]
+    },
+    {
+      "detected": true,
+      "expected_error_code": "UAE_DEPTH_SNAPSHOT",
+      "mutation": "UAE_DEPTH_PILOT_SNAPSHOT_MERGED",
+      "observed_error_codes": [
+        "UAE_DEPTH_SNAPSHOT"
+      ]
+    },
+    {
+      "detected": true,
+      "expected_error_code": "UAE_DEPTH_SOURCES",
+      "mutation": "UAE_DEPTH_SOURCE_DOWNGRADED",
+      "observed_error_codes": [
+        "UAE_DEPTH_PUBLICATION",
+        "UAE_DEPTH_SOURCES",
+        "UAE_SOURCE_QUALITY"
+      ]
+    },
+    {
+      "detected": true,
+      "expected_error_code": "UAE_DEPTH_LAYERS",
+      "mutation": "UAE_DEPTH_LAYER_DENOMINATOR",
+      "observed_error_codes": [
+        "UAE_COVERAGE",
+        "UAE_DEPTH_LAYERS"
+      ]
+    },
+    {
+      "detected": true,
+      "expected_error_code": "UAE_DEPTH_LAYERS",
+      "mutation": "UAE_DEPTH_LAYER_TOTAL",
+      "observed_error_codes": [
+        "UAE_DEPTH_LAYERS"
+      ]
     }
   ],
-  "required": 8,
+  "required": 27,
   "schema_version": "2.0.0",
   "snapshot_date": "2026-08-15",
   "status": "PASS"

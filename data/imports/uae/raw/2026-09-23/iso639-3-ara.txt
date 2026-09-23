@@ -1,0 +1,1 @@
+ISO 639-3 identifier documentation: Arabic [ara]. Status: Active. Code Sets: 639-2, 639-3. Equivalent(s): 639-1: ar. Scope: Macrolanguage. Language Type: Living. Individual language listed under the macrolanguage: afb Gulf Arabic (Active).

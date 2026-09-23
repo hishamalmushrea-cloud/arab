@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the exact 22-section UAE pilot report from structured records and reports."""
+"""Generate the exact 23-section UAE pilot report from structured records and reports."""
 
 from __future__ import annotations
 
@@ -33,6 +33,7 @@ HEADINGS = [
     "Cultural Sample",
     "Food, Dress, and Scope",
     "Dialect Sample",
+    "UNESCO Depth Cycle",
     "Independent Review and Negative Tests",
     "Final Gate",
 ]
@@ -66,6 +67,7 @@ def render() -> str:
     validation = load(ROOT / "reports/uae_validation.json")
     review = load(ROOT / "reports/uae_independent_review.json")
     negatives = load(ROOT / "reports/uae_negative_tests.json")
+    depth = load(ROOT / "data/imports/uae/fixtures/cultural_depth_2026.json")
 
     entities = [row for row in read_jsonl(ROOT / "data/entities/entities.jsonl") if row.get("country_code") == "AE"]
     entity_ids = {row["id"] for row in entities}
@@ -90,12 +92,14 @@ def render() -> str:
         "No fifth country is authorized or started."
     )
     sections["Scope"] = (
-        f"The canonical UAE subset contains **{len(entities)} Entities** (country, seven emirates, and 33 contextual local records), **{len(aliases)} Aliases**, "
+        f"The canonical UAE subset contains **{len(entities)} Entities** (country, seven emirates, {len(entities) - 8 - len(depth['places'])} contextual local records, "
+        f"and {len(depth['places'])} UNESCO heritage places), **{len(aliases)} Aliases**, "
         f"**{len(relationships)} Relationships**, and **{len(claims)} Claims**. This is a semantic transferability test, not a volume expansion. "
         "Structured JSON/JSONL and `manifests/AE.yml` are authoritative; this Markdown is generated."
     )
     sections["Snapshot"] = (
-        "Snapshot `SNP-AE-PILOT-20260815` is dated **2026-08-15**. Its checksum covers the administrative, cultural, source-catalog, and evidence-manifest fixtures. "
+        "Snapshot `SNP-AE-PILOT-20260815` is dated **2026-08-15** and its checksum covers the administrative, cultural, source-catalog, and evidence-manifest fixtures. "
+        f"The depth cycle is carried by its own dated snapshot `{manifest.get('depth_snapshot', {}).get('snapshot_id')}` on **{manifest.get('depth_snapshot', {}).get('as_of')}**. "
         "The import is offline and deterministic. Retrieval dates are not treated as legal commencement dates."
     )
     source_metrics = validation["checks"]["sources"]
@@ -165,6 +169,43 @@ def render() -> str:
         "The sample is limited to three forms from Ribeiro Daquila (2020). `وايد` and `شو` remain `regional` because the source explicitly locates them beyond uniquely Emirati use; `ربع` is documented in an Emirati translation without an exclusivity claim.\n\n"
         + "\n".join(dialect_lines)
     )
+    ich = depth["intangible_heritage"]
+    whc = depth["world_heritage"]
+    national = [row for row in ich["published_elements"] if row["classification"] == "national"]
+    shared = [row for row in ich["published_elements"] if row["classification"] == "shared"]
+    element_lines = [
+        f"| {row['name']} | {row['reference']} | {row['year']} | {'قائمة الصون العاجل' if row['list'] == 'USL' else 'القائمة التمثيلية'} | `{row['classification']}` |"
+        for row in sorted(ich["published_elements"], key=lambda item: item["reference"])
+    ]
+    deferred_lines = [
+        f"{row['name']} (`{row['reference']}`, {row['year']}, `{row['list']}`, submitting-State list unread)"
+        for row in sorted(ich["deferred_elements"], key=lambda item: item["reference"])
+    ]
+    property_lines = [
+        f"| {row['name']} | {row['reference']} | {row['year']} | {row['category']} | criteria unread |"
+        for row in sorted(whc["inscribed"], key=lambda item: item["reference"])
+    ]
+    depth_claims = [row for row in claims if str(row.get("id", "")).startswith("CLM-AE-DEPTH")]
+    published_depth = [row for row in depth_claims if row.get("published")]
+    unpublished_depth = [row for row in depth_claims if not row.get("published")]
+    sections["UNESCO Depth Cycle"] = (
+        f"Depth cycle 1 adds the UNESCO state pages, the Al Azi element page and the ISO 639-3 registration, and imports **{len(depth_claims)} depth Claims** "
+        f"({len(published_depth)} published from tier A and {len(unpublished_depth)} declared weak and unpublished). "
+        f"Of **{ich['inscribed_total']}** ICH inscriptions on the state page, **{len(ich['published_elements'])}** files are classified here: "
+        f"**{len(national)}** sole-submitter national element (`العزي 01268`, USL 2017) and **{len(shared)}** shared files that are never promoted to national; "
+        f"the other **{len(ich['deferred_elements'])}** element files are recorded with their reference, year and list but **without any scope label**, because their submitting-State list was not read in this cycle. "
+        f"The Article 18 register entry `02473` stays a safeguarding programme, and the **{len(ich['pending_2026'])}** 2026 nominations stay announced, never inscribed."
+        + "\n\n| Element | Ref | Year | List | Scope |\n| --- | --- | --- | --- | --- |\n" + "\n".join(element_lines)
+        + "\n\nDeferred element files (scope deliberately unrecorded):\n\n- " + "\n- ".join(deferred_lines)
+        + f"\n\nWorld Heritage: accession **{whc['accession']}**, **{len(whc['inscribed'])}** inscribed properties, approved assistance requests **{whc['assistance_requests_approved']}** (a published zero), "
+        f"and **{whc['tentative_total']}** tentative-list files that are never styled as inscribed. Criteria and the emirate of each property stay empty because they were not read."
+        + "\n\n| Property | Ref | Year | Category | Criteria |\n| --- | --- | --- | --- | --- |\n" + "\n".join(property_lines)
+        + f"\n\nLanguages: the state-wide mirror lists Arabic as official and English as widely spoken, with expatriate languages recorded without counts; "
+        f"the Emirati dialect is tied to ISO 639-3 `{depth['dialects'][0]['iso']}` Gulf Arabic. "
+        f"Classified but unpublished local knowledge: **{len(depth['dishes'])}** dishes, **{len(depth['crafts'])}** crafts and symbols, **{len(depth['customs'])}** customs, "
+        f"**{len(depth['narratives'])}** published narratives and **{len(depth['places'])}** heritage places with `located_in` only, no coordinates and no population. "
+        "No speaker, population or share number is recorded anywhere in this cycle."
+    )
     review_families = ", ".join(f"{name} {detail['sampled']}/{detail['population']}" for name, detail in sorted(review["families"].items()))
     sections["Independent Review and Negative Tests"] = (
         f"Independent review is **{review['status']}**: {review['total_passed']}/{review['total_sampled']} sampled checks passed, with every required family at least 10% (`{review_families}`). "
@@ -182,7 +223,7 @@ def render() -> str:
     body.append("")
     text = "\n".join(body)
     actual = [line[3:] for line in text.splitlines() if line.startswith("## ")]
-    if actual != HEADINGS or len(actual) != 22:
+    if actual != HEADINGS or len(actual) != 23:
         raise RuntimeError(f"UAE report headings differ: {actual}")
     return text
 
@@ -197,10 +238,10 @@ def main() -> int:
         if actual != expected:
             print(f"Generated UAE report is stale: {OUTPUT.relative_to(ROOT)}")
             return 1
-        print("Generated UAE report is current and has exactly 22 sections.")
+        print("Generated UAE report is current and has exactly 23 sections.")
         return 0
     OUTPUT.write_text(expected, encoding="utf-8")
-    print("Generated reports/UAE_PILOT_FINAL.md with exactly 22 sections.")
+    print("Generated reports/UAE_PILOT_FINAL.md with exactly 23 sections.")
     return 0
 
 

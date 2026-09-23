@@ -381,8 +381,10 @@ def phase5_import_hashes() -> tuple[dict[str, str], str]:
 
 def uae_source_hashes() -> dict[str, str]:
     hashes = {}
-    for path in sorted((ROOT / "data/sources").glob("SRC-AE-*.json")):
-        hashes[str(path.relative_to(ROOT))] = hashlib.sha256(path.read_bytes()).hexdigest()
+    for path in sorted((ROOT / "data/sources").glob("*.json")):
+        record = json.loads(path.read_text(encoding="utf-8"))
+        if "AE" in (record.get("country_codes") or []):
+            hashes[str(path.relative_to(ROOT))] = hashlib.sha256(path.read_bytes()).hexdigest()
     return hashes
 
 
@@ -393,9 +395,9 @@ def phase5(gate: Gate) -> None:
     gate.command("uae_source_refresh", [sys.executable, "scripts/build_uae_sources.py"])
     after_sources = uae_source_hashes()
     gate.require(
-        len(after_sources) == 19 and before_sources == after_sources,
+        len(after_sources) == 27 and before_sources == after_sources,
         "uae_source_idempotence",
-        f"UAE atomic sources={len(after_sources)}/19, hashes unchanged={before_sources == after_sources}",
+        f"AE-scoped atomic sources={len(after_sources)}/27, hashes unchanged={before_sources == after_sources}",
     )
 
     before_files, before_non_ae = phase5_import_hashes()
@@ -437,24 +439,31 @@ def phase5(gate: Gate) -> None:
     )
     review_families = review.get("families", {})
     gate.require(
-        review.get("status") == "PASS" and len(review_families) == 9 and all(row.get("sampled", 0) >= row.get("minimum_required", 1) and row.get("status") == "PASS" for row in review_families.values()),
+        review.get("status") == "PASS" and len(review_families) == 10 and all(row.get("sampled", 0) >= row.get("minimum_required", 1) and row.get("status") == "PASS" for row in review_families.values()),
         "uae_review_threshold",
-        f"families={len(review_families)}/9, passed={review.get('total_passed')}/{review.get('total_sampled')}, minimum 10% met for every family",
+        f"families={len(review_families)}/10, passed={review.get('total_passed')}/{review.get('total_sampled')}, minimum 10% met for every family",
     )
     expected_mutations = {
         "UAE_WRONG_EMIRATE_PARENT", "UAE_WRONG_LOCAL_TYPE", "UAE_ALIAS_AS_ENTITY",
         "UAE_SHARED_FOOD_AS_EXCLUSIVE", "UAE_NATIONAL_CLAIM_AS_LOCAL",
         "UAE_HISTORIC_AS_CURRENT", "UAE_SAME_NAME_DIFFERENT_PARENT", "UAE_FOREIGN_SOURCE",
+        "UAE_DEPTH_SHARED_AS_NATIONAL", "UAE_DEPTH_DEFERRED_SCOPE_INVENTED", "UAE_DEPTH_DEFERRED_PUBLISHED",
+        "UAE_DEPTH_REGISTER_AS_ELEMENT", "UAE_DEPTH_PENDING_DROPPED", "UAE_DEPTH_CLAIM_DROPPED",
+        "UAE_DEPTH_CRITERIA_FILLED", "UAE_DEPTH_TENTATIVE_DUPLICATED", "UAE_DEPTH_INSCRIBED_COUNT",
+        "UAE_DEPTH_DISH_NUMBER", "UAE_DEPTH_WEAK_PUBLISHED", "UAE_DEPTH_PLACE_COORDINATES",
+        "UAE_DEPTH_PLACE_SECOND_PARENT", "UAE_DEPTH_PLACE_CLAIM", "UAE_DEPTH_PLACE_RETYPED",
+        "UAE_DEPTH_PILOT_SNAPSHOT_MERGED", "UAE_DEPTH_SOURCE_DOWNGRADED",
+        "UAE_DEPTH_LAYER_DENOMINATOR", "UAE_DEPTH_LAYER_TOTAL",
     }
     observed_mutations = {row.get("mutation") for row in negatives.get("mutations", []) if row.get("detected")}
     gate.require(
         negatives.get("status") == "PASS" and observed_mutations == expected_mutations,
         "uae_required_mutations",
-        f"detected={len(observed_mutations)}/8, exact required set={observed_mutations == expected_mutations}",
+        f"detected={len(observed_mutations)}/27, exact required set={observed_mutations == expected_mutations}",
     )
     headings = [line[3:] for line in (ROOT / "reports/UAE_PILOT_FINAL.md").read_text(encoding="utf-8").splitlines() if line.startswith("## ")]
     gate.require(
-        len(headings) == 22 and headings[0] == "Decision" and headings[-1] == "Final Gate",
+        len(headings) == 23 and headings[0] == "Decision" and headings[-1] == "Final Gate",
         "uae_final_report",
         f"exact section count={len(headings)}, first={headings[0] if headings else None}, last={headings[-1] if headings else None}",
     )

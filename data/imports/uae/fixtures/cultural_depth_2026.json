@@ -1,0 +1,207 @@
+{
+  "country_code": "AE",
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-09-23",
+  "method": "United Arab Emirates depth cycle 1: the UNESCO ICH state page and the Al Azi element page, the World Heritage state page, the ISO 639-3 registration for Arabic, and Arabic/English mirror pages for language presence, cuisine and culture. No population, speaker or share number is recorded, and an element whose submitting-State list was not read in this cycle is stored as a deferred record rather than labelled national or shared.",
+  "sources": {
+    "ich_state": "SRC-UNESCO-ICH-AE-STATE-2026",
+    "ich_al_azi": "SRC-UNESCO-ICH-AE-AL-AZI-01268-2017",
+    "whc_state": "SRC-UNESCO-WH-AE-STATE-2026",
+    "iso_ara": "SRC-AE-ISO639-3-ARABIC",
+    "cuisine": "SRC-AE-CUISINE-MIRROR-2026",
+    "culture": "SRC-AE-CULTURE-MIRROR-2026"
+  },
+  "intangible_heritage": {
+    "ratification": "2005-05-02",
+    "inscribed_total": 21,
+    "committee": "2024-2028",
+    "published_elements": [
+      {
+        "reference": "01268",
+        "name": "العزي: فن أداء شعر المدح والفخر والثبات",
+        "official_title": "Al Azi, art of performing praise, pride and fortitude poetry",
+        "year": 2017,
+        "list": "USL",
+        "classification": "national",
+        "co_states": ["الإمارات العربية المتحدة"],
+        "note": "صفحة العنصر تُظهر دولة مقدِّمة واحدة (الإمارات) وهو العنصر الوحيد الذي يجوز فيه التصنيف الوطني في هذه الدورة. إنشاد شعري جماعي بلا إيقاع ولا آلات، قصيدة كاملة القافية تُداخل فيها الأمثال والحكم، وحاملوه الشاعر والمؤدّون والكورس والجمهور.",
+        "source": "ich_al_azi"
+      },
+      {
+        "reference": "00744",
+        "name": "التغرودة: شعر بدوي مُنشَد",
+        "official_title": "Al-Taghrooda, traditional Bedouin chanted poetry in the United Arab Emirates and the Sultanate of Oman",
+        "year": 2012,
+        "list": "RL",
+        "classification": "shared",
+        "co_states": ["الإمارات العربية المتحدة", "عُمان"],
+        "note": "عنوان الملف على صفحة الدولة يسمّي الدولتين، فيُسجَّل مشتركًا بلا ادّعاء حصرية.",
+        "source": "ich_state"
+      },
+      {
+        "reference": "01012",
+        "name": "العيالة: فن أدائي تقليدي",
+        "official_title": "Al-Ayyala, a traditional performing art of the Sultanate of Oman and the United Arab Emirates",
+        "year": 2014,
+        "list": "RL",
+        "classification": "shared",
+        "co_states": ["عُمان", "الإمارات العربية المتحدة"],
+        "note": "عنوان الملف يسمّي الدولتين؛ يُسجَّل مشتركًا.",
+        "source": "ich_state"
+      },
+      {
+        "reference": "01718",
+        "name": "الخط العربي: المعرفة والمهارات والممارسات",
+        "official_title": "Arabic calligraphy: knowledge, skills and practices",
+        "year": 2021,
+        "list": "RL",
+        "classification": "shared",
+        "co_states": ["السعودية", "الجزائر", "البحرين", "مصر", "العراق", "الأردن", "الكويت", "لبنان", "موريتانيا", "المغرب", "عُمان", "فلسطين", "السودان", "تونس", "الإمارات", "اليمن"],
+        "note": "ملف مشترك واسع؛ قائمة الدول مسجَّلة كما قُرئت من صفحة العنصر في دورة موريتانيا وتشمل الإمارات.",
+        "source": "ich_state"
+      },
+      {
+        "reference": "01902",
+        "name": "النخلة: المعرفة والمهارات والتقاليد والممارسات",
+        "official_title": "Date palm, knowledge, skills, traditions and practices",
+        "year": 2022,
+        "list": "RL",
+        "classification": "shared",
+        "co_states": ["الإمارات", "البحرين", "مصر", "العراق", "الأردن", "الكويت", "موريتانيا", "المغرب", "عُمان", "فلسطين", "قطر", "السعودية", "السودان", "تونس", "اليمن"],
+        "note": "ملف مشترك واسع؛ قائمة الدول مسجَّلة كما قُرئت من صفحة العنصر في دورة موريتانيا.",
+        "source": "ich_state"
+      },
+      {
+        "reference": "02116",
+        "name": "الحناء: الشعائر والممارسات الجمالية والاجتماعية",
+        "official_title": "Henna: rituals, aesthetic and social practices",
+        "year": 2024,
+        "list": "RL",
+        "classification": "shared",
+        "co_states": ["الإمارات", "الجزائر", "البحرين", "مصر", "العراق", "الأردن", "الكويت", "موريتانيا", "المغرب", "عُمان", "فلسطين", "قطر", "السعودية", "السودان", "تونس", "اليمن"],
+        "note": "ملف مشترك واسع؛ يُسجَّل مشتركًا بلا ادّعاء حصرية.",
+        "source": "ich_state"
+      },
+      {
+        "reference": "02283",
+        "name": "الزفّة في العرس التقليدي",
+        "official_title": "The zaffa in the traditional wedding",
+        "year": 2025,
+        "list": "RL",
+        "classification": "shared",
+        "co_states": ["Djibouti", "Comoros", "United Arab Emirates", "Iraq", "Jordan", "Mauritania", "Somalia"],
+        "note": "ملف مشترك بسبع دول يظهر في دورات جزر القمر وجيبوتي وموريتانيا والصومال، ويأخذ هنا معرّف مصدر خاصًا بالإمارات.",
+        "source": "ich_state"
+      }
+    ],
+    "register_entry": {
+      "reference": "02473",
+      "year": 2025,
+      "name": "برنامج صون السدو: مهارات النسج التقليدي في الإمارات",
+      "official_title": "Safeguarding programme for Al Sadu, traditional weaving skills in the United Arab Emirates",
+      "note": "سجل الممارسات الجيدة (المادة 18) لا قائمة تمثيلية: يُسجَّل بوصفه برنامج صون ولا يُخلط بأي عنصر مُدرج."
+    },
+    "deferred_elements": [
+      {"reference": "01076", "year": 2015, "list": "RL", "name": "المجلس: فضاء ثقافي واجتماعي"},
+      {"reference": "01078", "year": 2015, "list": "RL", "name": "الرزفة: فن أدائي تقليدي"},
+      {"reference": "01576", "year": 2020, "list": "RL", "name": "سباق الهجن: ممارسة اجتماعية وتراث احتفالي"},
+      {"reference": "01577", "year": 2020, "list": "RL", "name": "الأفلاج: شبكة الريّ التقليدي في الإمارات"},
+      {"reference": "01708", "year": 2021, "list": "RL", "name": "الصقارة: تراث إنساني حيّ"},
+      {"reference": "01712", "year": 2022, "list": "RL", "name": "التلي: مهارات التطريز التقليدي في الإمارات"},
+      {"reference": "01717", "year": 2022, "list": "RL", "name": "الهدهدة: التقاليد الشفهية لمناداة الإبل"},
+      {"reference": "01744", "year": 2023, "list": "RL", "name": "الهريس: المعرفة والمهارات والممارسات"},
+      {"reference": "02111", "year": 2024, "list": "RL", "name": "القهوة العربية رمز الكرم"},
+      {"reference": "02223", "year": 2025, "list": "RL", "name": "السدو: مهارات النسج التقليدي في الإمارات"},
+      {"reference": "02233", "year": 2025, "list": "RL", "name": "البشت (العباءة الرجالية): المهارات والممارسات"},
+      {"reference": "02261", "year": 2025, "list": "RL", "name": "الكحل العربي"},
+      {"reference": "02279", "year": 2025, "list": "RL", "name": "الأحلّة: فن أدائي حيّ في الإمارات"}
+    ],
+    "deferred_reason": "العنصر مُدرج مُثبَتًا بمرجعه وسنته وقائمته من صفحة الدولة، لكن قائمة الدول المقدِّمة لم تُقرأ في هذه الدورة، فيُؤجَّل تصنيفه الوطني/المشترك إلى الدورة الثانية بدل تخمينه.",
+    "pending_2026": [
+      {"name": "آلة العود: الممارسات والمهارات والفنون الأدائية", "year": 2026, "status": "معلن لا مُدرج"},
+      {"name": "السعافيات والألياف النباتية: الحرفة والتقاليد الاجتماعية", "year": 2026, "status": "معلن لا مُدرج"},
+      {"name": "الهريس: المعرفة والمهارات والممارسات", "year": 2026, "status": "معلن لا مُدرج"},
+      {"name": "الحناء: الشعائر والممارسات الجمالية والاجتماعية", "year": 2026, "status": "معلن لا مُدرج"}
+    ]
+  },
+  "world_heritage": {
+    "accession": "2001-05-11",
+    "assistance_requests_approved": 0,
+    "mandate": "2009-2013",
+    "inscribed": [
+      {"reference": "1343", "year": 2011, "category": "ثقافي", "kind": "cultural_site", "name": "المواقع الثقافية في العين (حفيت وهِلي وبدع بنت سعود ومناطق الواحات)", "official_title": "Cultural Sites of Al Ain (Hafit, Hili, Bidaa Bint Saud and Oases Areas)", "criteria": null},
+      {"reference": "1735", "year": 2025, "category": "ثقافي", "kind": "cultural_site", "name": "فايا: مشهد أرضي قديم (Faya Palaeolandscape)", "official_title": "Faya Palaeolandscape", "criteria": null},
+      {"reference": "1724", "year": 2026, "category": "طبيعي", "kind": "natural_site", "name": "وادي وُرَيّة", "official_title": "Wadi Wurayah", "criteria": null}
+    ],
+    "criteria_note": "المعايير لم تُقرأ من صفحات المواقع في هذه الدورة فتُسجَّل فارغة بدل تعبئتها من مرآة — النقص معلن لا مخفي.",
+    "tentative_total": 15,
+    "tentative": [
+      {"reference": "5660", "year": 2012, "name": "مستوطنة ومقبرة جزيرة أم النار"},
+      {"reference": "5661", "year": 2012, "name": "جزيرة صير بونعير"},
+      {"reference": "5662", "year": 2012, "name": "خور دبي"},
+      {"reference": "5663", "year": 2012, "name": "موقع الدُّور"},
+      {"reference": "5665", "year": 2012, "name": "مسجد البدية"},
+      {"reference": "5941", "year": 2014, "name": "الشارقة: بوابة الإمارات المتصالحة"},
+      {"reference": "6352", "year": 2018, "name": "سبخة أبوظبي"},
+      {"reference": "6464", "year": 2020, "name": "مدينة صيد اللؤلؤ في جزيرة الحمراء"},
+      {"reference": "6465", "year": 2020, "name": "مدينة جلفار التجارية"},
+      {"reference": "6641", "year": 2023, "name": "وادي الحلو: شهادة على إنتاج النحاس في العصر البرونزي"},
+      {"reference": "6642", "year": 2023, "name": "النقوش الصخرية في إمارة الشارقة"},
+      {"reference": "6643", "year": 2023, "name": "مليحة: مركز متأخر قبل الإسلام لمملكة في جنوب شرق الجزيرة"},
+      {"reference": "6664", "year": 2023, "name": "مشهد حتا الأثري (إمارة دبي)"},
+      {"reference": "7039", "year": 2026, "name": "شبكة الحصون الساحلية في جنوب شرق الجزيرة العربية"},
+      {"reference": "7041", "year": 2026, "name": "مقابر ومستوطنات شمال ورأس الخيمة من العصر البرونزي"}
+    ]
+  },
+  "languages": [
+    {"name": "العربية", "level": "official", "official": true, "iso_codes": ["ara"], "second_source": "iso_ara",
+     "note": "المرآة تسجّل العربية لغة رسمية للإمارات؛ والرمز `ara` من سجل ISO 639-3 كمصدر ثانٍ. المادة الدستورية لم تُقرأ في هذه الدورة فلا يُنشر الصف، ولا يُسجَّل عدد متحدثين ولا نسبة."},
+    {"name": "الإنجليزية", "level": "widely_spoken", "official": false, "iso_codes": [], "second_source": null,
+     "note": "واسعة الانتشار بحكم التنوع السكاني والعولمة الاقتصادية بحسب المرآة؛ لا يُسجَّل عدد متحدثين ولا نسبة."},
+    {"name": "الفارسية والهندية والأردية والبنغالية والصينية (الماندرين)", "level": "expatriate", "official": false, "iso_codes": [], "second_source": null,
+     "note": "لغات أجنبية واسعة بين المقيمين بحسب المرآة؛ تُسجَّل غير منشورة بلا رموز ISO وبلا أي عدد."}
+  ],
+  "dialects": [
+    {"name": "اللهجة الإماراتية (الخليجية)", "group": "العربية الخليجية", "iso": "afb",
+     "features": {"role": "لهجة المواطنين الإماراتيين", "family": "عربية خليجية قريبة من لهجات دول الخليج والعراق", "note": "وصف لهجي مصنَّف من مرآة؛ لا يُنشر."},
+     "note": "الرمز `afb` (Gulf Arabic) مُثبت من سجل ISO 639-3، والوصف من مرآة الثقافة."}
+  ],
+  "dishes": [
+    {"name": "الهريس", "desc": "طبق قمح ولحم يُطبخ طويلًا حتى يتماسك، من أشهر أطباق الإمارات."},
+    {"name": "المجبوس", "desc": "أرز بالبهارات مع اللحم أو الدجاج أو السمك."},
+    {"name": "المقلوبة", "desc": "أرز وخضار ولحم تُقلب القدر عند التقديم."},
+    {"name": "فريسة", "desc": "طبق يُطبخ في قدر واحد ويُقدَّم للجماعة."},
+    {"name": "فريد", "desc": "طبق بيتي من مكوّنات محلية يُطبخ في قدر واحد."},
+    {"name": "جشيد", "desc": "طبق سمك من صيد الخليج على الطريقة المحلية."},
+    {"name": "مشوي", "desc": "لحم أو سمك مشوي، من الأطباق الشائعة."},
+    {"name": "رقاق", "desc": "خبز رقيق يُصنع على سطح معدني محدَّب ويُقدَّم مع الجبن أو دبس التمر أو البيض."},
+    {"name": "خمير", "desc": "خبز خفيف يُقدَّم في الإفطار مع الجبن أو دبس التمر."},
+    {"name": "جباب", "desc": "خبز حلوى محلي يُقدَّم في الإفطار."},
+    {"name": "بلاليط", "desc": "طبق معكرونة بالبيض دخلت مع التجار."},
+    {"name": "لقيمات", "desc": "كرات عجين مقلية تُغلَّف بالسمسم وتُرشّ بدبس التمر وتُقدَّم مع القهوة العربية."}
+  ],
+  "crafts": [
+    {"name": "الدلّة", "desc": "دلّة القهوة العربية التقليدية، رمز ثقافي إماراتي يظهر على عملة الدرهم بحسب المرآة."},
+    {"name": "السدو (النسج التقليدي)", "desc": "مهارات النسج التقليدي في الإمارات: عنصر مُدرج 02223 وبرنامج صون مسجَّل 02473 بحسب صفحة الدولة."},
+    {"name": "التلي (التطريز التقليدي)", "desc": "مهارات التطريز التقليدي في الإمارات: عنصر مُدرج 01712 بحسب صفحة الدولة."}
+  ],
+  "customs": [
+    {"name": "أسماء النسب: «بن» و«بنت»", "desc": "يُتبع الاسم الأول بـ«بن» للابن أو «بنت» للابنة ثم اسم الأب ثم اسم الأسرة بحسب المرآة."},
+    {"name": "احتفاظ المرأة باسم أسرتها", "desc": "بعد الزواج تحتفظ المرأة باسم أسرتها ويأخذ الأبناء اسم الأب بحسب المرآة."},
+    {"name": "ضيافة القهوة العربية والدلّة", "desc": "الدلّة رمز ثقافي إماراتي، والقهوة العربية عنصر مُدرج 02111 تُقدَّم في المجلس بوصفه فضاءً ثقافيًا واجتماعيًا مُدرجًا 01076."}
+  ],
+  "narratives": [
+    {"kind": "historical_naming_narrative", "name": "الإمارات المتصالحة (Trucial States)",
+     "desc": "المنطقة التي قامت فيها الإمارات عُرفت قبل الاتحاد باسم الإمارات المتصالحة بحسب المرآة؛ تُسجَّل روايةً تاريخية معلنة بلا حسم سياسي."},
+    {"kind": "cultural_recognition_narrative", "name": "الشارقة عاصمة ثقافية",
+     "desc": "الشارقة اختيرت «عاصمة الثقافة العربية» من اليونسكو سنة 1998 و«عاصمة الثقافة الإسلامية» من منظمة التعاون الإسلامي سنة 2014 بحسب المرآة."}
+  ],
+  "places": [
+    {"id": "ENT-AE-SITE-AL-AIN", "name": "المواقع الثقافية في العين (حفيت وهِلي وبدع بنت سعود ومناطق الواحات)", "kind": "cultural_site", "reference": "1343", "parent": "ENT-AE-COUNTRY",
+     "note": "موقع مُدرج (1343، 2011، ثقافي) من صفحة الدولة؛ الإمارة الحاضنة لم تُقرأ في هذه الدورة فيُترك الأب عند الدولة بلا استنتاج، وبلا دعوى وبلا إحداثيات."},
+    {"id": "ENT-AE-SITE-FAYA", "name": "فايا: مشهد أرضي قديم (Faya Palaeolandscape)", "kind": "cultural_site", "reference": "1735", "parent": "ENT-AE-COUNTRY",
+     "note": "موقع مُدرج (1735، 2025، ثقافي) من صفحة الدولة؛ المعايير والإمارة لم تُقرأ فتُترك فارغة، وبلا دعوى وبلا إحداثيات."},
+    {"id": "ENT-AE-SITE-WURAYAH", "name": "وادي وُرَيّة", "kind": "natural_site", "reference": "1724", "parent": "ENT-AE-COUNTRY",
+     "note": "موقع مُدرج (1724، 2026، طبيعي) من صفحة الدولة؛ الطبيعة لا تُبنى عليها أوصاف ثقافية، وبلا دعوى وبلا إحداثيات."}
+  ]
+}

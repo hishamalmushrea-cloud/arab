@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Any
@@ -34,6 +35,30 @@ EXPECTED_TYPE_COUNTS = {
     "ae_uaq_municipal_authority": 2,
     "ae_rak_administrative_area": 5,
     "ae_fujairah_municipal_authority": 2,
+    "cultural_site": 2,
+    "natural_site": 1,
+}
+DEPTH_PLACE_TYPES = {
+    "ENT-AE-SITE-AL-AIN": "cultural_site",
+    "ENT-AE-SITE-FAYA": "cultural_site",
+    "ENT-AE-SITE-WURAYAH": "natural_site",
+}
+DEPTH_LAYERS = {"unesco_intangible_heritage", "world_heritage_inscribed", "world_heritage_tentative_list", "heritage_places", "classified_local_knowledge"}
+DEPTH_SNAPSHOT_ID = "SNP-AE-DEPTH-20260923"
+DEPTH_SOURCES = {
+    "SRC-UNESCO-ICH-AE-STATE-2026": "A",
+    "SRC-UNESCO-ICH-AE-AL-AZI-01268-2017": "A",
+    "SRC-UNESCO-WH-AE-STATE-2026": "A",
+    "SRC-AE-ISO639-3-ARABIC": "A",
+    "SRC-AE-CUISINE-MIRROR-2026": "E",
+    "SRC-AE-CULTURE-MIRROR-2026": "E",
+}
+DEPTH_ELEMENT_PREDICATE = "intangible_cultural_practice"
+COUNT_KEYS = {"speakers", "speaker_count", "speaker_share", "population", "pop", "count", "number", "qty", "percentage", "share", "ratio", "total"}
+COUNT_WORDS = "عدد|نسبة|سكان|متحدث|متحدثون|مليون|ألف|نسمة|إحصاء|تعداد|population|speakers?|inhabitants|percent"
+DEPTH_NO_COUNT_PREDICATES = {
+    "language_presence", "dialect_profile", "food_dish", "craft_custom", "custom_practice",
+    "naming_narrative", "unesco_element_deferred_file", "unesco_pending_nomination",
 }
 REQUIRED_CONTEXT_WORDS = {
     "coastal": ("coast", "creek", "beach", "mangrove"),
@@ -119,7 +144,7 @@ def validate_bundle(bundle: dict[str, Any]) -> dict[str, Any]:
                     error("UAE_IDENTITY_COLLAPSE", f"{child_id} appears in multiple emirate/layer profiles")
                 expected_by_id[child_id] = layer
                 expected_parent[child_id] = eid
-    if set(expected_by_id) != (set(entity_by_id) - {"ENT-AE-COUNTRY"}):
+    if set(expected_by_id) != (set(entity_by_id) - {"ENT-AE-COUNTRY"} - set(DEPTH_PLACE_TYPES)):
         missing = sorted(set(expected_by_id) - set(entity_by_id))
         extra = sorted((set(entity_by_id) - {"ENT-AE-COUNTRY"}) - set(expected_by_id))
         error("UAE_PROFILE_MEMBERSHIP", f"manifest/entity mismatch missing={missing}, extra={extra}")
@@ -256,14 +281,14 @@ def validate_bundle(bundle: dict[str, Any]) -> dict[str, Any]:
         payload = path.read_bytes() if path.exists() else b""
         if len(payload) != capture.get("bytes") or hashlib.sha256(payload).hexdigest() != capture.get("sha256"):
             error("UAE_SOURCE_CHECKSUM", f"capture mismatch: {capture.get('path')}", "P0")
-    if len(raw_manifest.get("records", [])) != 19:
-        error("UAE_SOURCE_CHECKSUM", "expected 19 persisted UAE evidence extracts", "P0")
+    if len(raw_manifest.get("records", [])) != 25:
+        error("UAE_SOURCE_CHECKSUM", "expected 25 persisted UAE evidence extracts", "P0")
     check("sources", referenced=len(source_refs), pilot_specific=sum(sid.startswith("SRC-AE-") for sid in source_refs), ab_claims=len(ab), published_claims=len(published), ab_ratio=ab_ratio, evidence_extracts=len(raw_manifest.get("records", [])))
 
     den_by_id = {row["id"]: row for row in denominators}
     cov_by_id = {row["id"]: row for row in coverage}
-    if len(den_by_id) != 12 or len(cov_by_id) != 12:
-        error("UAE_COVERAGE", f"expected 12 denominator/coverage pairs, got {len(den_by_id)}/{len(cov_by_id)}")
+    if len(den_by_id) != 17 or len(cov_by_id) != 17:
+        error("UAE_COVERAGE", f"expected 17 denominator/coverage pairs, got {len(den_by_id)}/{len(cov_by_id)}")
     closed = unavailable = 0
     for layer in manifest.get("pilot_layers", []):
         den = den_by_id.get(layer.get("denominator_id"))
@@ -289,6 +314,176 @@ def validate_bundle(bundle: dict[str, Any]) -> dict[str, Any]:
         error("UAE_COVERAGE", f"bounded denominator mismatch: {actual_denominators}")
     check("coverage", denominators=len(denominators), coverage_records=len(coverage), closed_layers=closed, unavailable_layers=unavailable, bounded_denominators=expected_denominators)
 
+    depth_claims = [row for row in claims if str(row.get("id", "")).startswith("CLM-AE-DEPTH")]
+    depth_published = [row for row in depth_claims if row.get("published")]
+    depth_unpublished = [row for row in depth_claims if not row.get("published")]
+    if len(depth_claims) != 70 or len(depth_published) != 33 or len(depth_unpublished) != 37:
+        error("UAE_DEPTH_CLAIMS", f"expected 70/33/37 depth claims, got {len(depth_claims)}/{len(depth_published)}/{len(depth_unpublished)}")
+
+    # The five depth layers and the dated depth snapshot that carries them.
+    depth_layers = {row.get("layer"): row for row in manifest.get("pilot_layers", []) if row.get("layer") in DEPTH_LAYERS}
+    if set(depth_layers) != DEPTH_LAYERS:
+        error("UAE_DEPTH_LAYERS", f"missing depth layers {sorted(DEPTH_LAYERS - set(depth_layers))}")
+    documented_totals = {"unesco_intangible_heritage": 21, "world_heritage_inscribed": 3, "world_heritage_tentative_list": 15,
+                         "heritage_places": None, "classified_local_knowledge": None}
+    for layer in depth_layers.values():
+        den = next((row for row in denominators if row.get("id") == layer.get("denominator_id")), None)
+        cov = next((row for row in coverage if row.get("id") == layer.get("coverage_record_id")), None)
+        if not den or not cov:
+            error("UAE_DEPTH_LAYERS", f"depth layer {layer.get('layer')} has no unavailable denominator/coverage pair")
+        else:
+            if den.get("denominator") is not None or den.get("status") != "unavailable" or not den.get("missing_reason"):
+                error("UAE_DEPTH_LAYERS", f"depth layer {layer.get('layer')} denominator must stay unavailable with an explicit reason")
+            if cov.get("coverage_percentage") is not None or cov.get("complete") or cov.get("denominator") is not None:
+                error("UAE_DEPTH_LAYERS", f"depth layer {layer.get('layer')} coverage must publish no percentage and no completeness")
+        if layer.get("denominator") != documented_totals[layer["layer"]]:
+            error("UAE_DEPTH_LAYERS", f"depth layer {layer.get('layer')} documented total is not the number read from its state page")
+        if layer.get("snapshot_date") != "2026-09-23":
+            error("UAE_DEPTH_LAYERS", f"depth layer {layer.get('layer')} snapshot date is not the depth cycle date")
+    snapshot_ids = {row.get("id") for row in bundle["snapshots"]}
+    if DEPTH_SNAPSHOT_ID not in snapshot_ids:
+        error("UAE_DEPTH_SNAPSHOT", f"{DEPTH_SNAPSHOT_ID} missing from snapshots")
+    else:
+        depth_snapshot = next(row for row in bundle["snapshots"] if row.get("id") == DEPTH_SNAPSHOT_ID)
+        if depth_snapshot.get("captured_at") != "2026-09-23" or not str(depth_snapshot.get("checksum", "")).startswith("sha256:"):
+            error("UAE_DEPTH_SNAPSHOT", "depth snapshot date or checksum is not the depth cycle contract")
+    if not any(str(row.get("id", "")).startswith("SNP-AE-PILOT-") for row in bundle["snapshots"]):
+        error("UAE_DEPTH_SNAPSHOT", "pilot snapshot was replaced by the depth snapshot instead of being kept")
+    for row in coverage:
+        if str(row.get("id", "")).startswith("COV-AE-") and row.get("layer") in DEPTH_LAYERS and row.get("snapshot_id") != DEPTH_SNAPSHOT_ID:
+            error("UAE_DEPTH_SNAPSHOT", f"{row.get('id')} does not reference {DEPTH_SNAPSHOT_ID}")
+
+    # Intangible heritage: one sole-submitter national element, shared files never promoted.
+    elements = [row for row in depth_published if row.get("predicate") == DEPTH_ELEMENT_PREDICATE]
+    if len(elements) != 7:
+        error("UAE_DEPTH_ELEMENT_SCOPE", f"expected 7 classified element files, got {len(elements)}")
+    national = [row for row in elements if row.get("classification") == "national"]
+    if len(national) != 1 or (national[0].get("value", {}).get("data") or {}).get("reference") != "01268":
+        error("UAE_DEPTH_ELEMENT_SCOPE", "the only national element must be the sole-submitter USL file 01268")
+    for row in elements:
+        data = row.get("value", {}).get("data") or {}
+        if row.get("classification") not in {"national", "shared"}:
+            error("UAE_DEPTH_ELEMENT_SCOPE", f"{row.get('id')} classification is outside national/shared")
+        if not all(data.get(field) for field in ("name", "reference", "year", "list", "co_states")):
+            error("UAE_DEPTH_ELEMENT_SCOPE", f"{row.get('id')} is missing element identity fields")
+        if len(data.get("co_states", [])) > 1 and row.get("classification") == "national":
+            error("UAE_DEPTH_ELEMENT_SCOPE", f"{row.get('id')} claims national scope for a shared file")
+    deferred = [row for row in depth_claims if row.get("predicate") == "unesco_element_deferred_file"]
+    if len(deferred) != 13 or any(row.get("published") for row in deferred):
+        error("UAE_DEPTH_ELEMENT_SCOPE", f"expected 13 unpublished deferred files, got {len(deferred)}")
+    if any(row.get("classification") in {"national", "shared"} for row in deferred):
+        error("UAE_DEPTH_ELEMENT_SCOPE", "a deferred element file was given a national/shared scope without reading its State list")
+    classified_refs = {(row.get("value", {}).get("data") or {}).get("reference") for row in elements}
+    deferred_refs = {(row.get("value", {}).get("data") or {}).get("reference") for row in deferred}
+    if classified_refs & deferred_refs or not classified_refs or not deferred_refs:
+        error("UAE_DEPTH_ELEMENT_SCOPE", "element files are duplicated or missing between the classified and deferred sets")
+    register = [row for row in depth_published if row.get("predicate") == "unesco_safeguarding_programme"]
+    if len(register) != 1 or (register[0].get("value", {}).get("data") or {}).get("reference") != "02473":
+        error("UAE_DEPTH_ELEMENT_SCOPE", "the Article 18 register entry must be one programme, not an element")
+    nominations = [row for row in depth_published if row.get("predicate") == "unesco_pending_nomination"]
+    if len(nominations) != 4 or any((row.get("value", {}).get("data") or {}).get("year") != 2026 for row in nominations):
+        error("UAE_DEPTH_ELEMENT_SCOPE", "the four 2026 nominations must stay announced, never inscribed")
+
+    # World Heritage: three inscribed properties, an explicit zero of assistance, fifteen tentative files.
+    properties = [row for row in depth_published if row.get("predicate") == "world_heritage_property"]
+    refs = sorted((row.get("value", {}).get("data") or {}).get("reference") for row in properties)
+    if refs != ["1343", "1724", "1735"]:
+        error("UAE_DEPTH_WH", f"inscribed property references are {refs}")
+    if any((row.get("value", {}).get("data") or {}).get("criteria") is not None for row in properties):
+        error("UAE_DEPTH_WH", "unread World Heritage criteria were filled in")
+    assistance = [row for row in depth_published if row.get("predicate") == "world_heritage_assistance_requests"]
+    if len(assistance) != 1 or (assistance[0].get("value", {}).get("data")) != 0:
+        error("UAE_DEPTH_WH", "the published approved-assistance zero is missing or non-zero")
+    tentative = [row for row in depth_published if row.get("predicate") == "unesco_tentative_listing"]
+    tentative_refs = {str((row.get("value", {}).get("data") or {}).get("reference")) for row in tentative}
+    if len(tentative) != 15 or len(tentative_refs) != 15:
+        error("UAE_DEPTH_WH", f"expected 15 distinct tentative files, got {len(tentative)}/{len(tentative_refs)}")
+    if any(row.get("predicate") in {"world_heritage_inscribed_count", "world_heritage_inscription"} for row in claims):
+        error("UAE_DEPTH_WH", "an inscription count/assertion predicate duplicates the property claims")
+
+    # No population, speaker or share number may appear in the knowledge layers.
+    def count_leak(blob: str) -> bool:
+        if re.search(r"[0-9\u0660-\u0669]\s*[%\u066a]", blob):
+            return True
+        if re.search("(?:" + COUNT_WORDS + r")[^،.؛]{0,14}[0-9\u0660-\u0669]", blob):
+            return True
+        if re.search(r"[0-9\u0660-\u0669][^،.؛]{0,14}(?:" + COUNT_WORDS + ")", blob):
+            return True
+
+        def walk(payload: Any) -> bool:
+            if isinstance(payload, dict):
+                return any(str(key).lower() in COUNT_KEYS or walk(value) for key, value in payload.items())
+            if isinstance(payload, list):
+                return any(walk(item) for item in payload)
+            return False
+
+        return walk(json.loads(blob))
+
+    for row in depth_claims:
+        if row.get("predicate") not in DEPTH_NO_COUNT_PREDICATES:
+            continue
+        if count_leak(json.dumps(row.get("value", {}).get("data"), ensure_ascii=False)):
+            error("UAE_DEPTH_NO_COUNTS", f"{row.get('id')} carries a speaker, population or share number")
+
+    # publication contract of the depth cycle
+    for row in depth_published:
+        if row.get("verification_status") not in {"verified", "source_verified"} or row.get("status") not in {"verified", "reported"}:
+            error("UAE_DEPTH_PUBLICATION", f"{row.get('id')} is published without a verified status")
+        if sources.get(row.get("source_id"), {}).get("quality_tier") not in {"A", "B"}:
+            error("UAE_DEPTH_PUBLICATION", f"{row.get('id')} is published from a weak source tier")
+    for row in depth_unpublished:
+        if row.get("confidence") not in {"low", "medium"} or row.get("verification_status") != "local_reported":
+            error("UAE_DEPTH_PUBLICATION", f"{row.get('id')} is a weak record presented above its confidence")
+
+    # heritage places stay located_in-only, source-verified places without rank
+    place_rows = [row for row in entities if row.get("id") in DEPTH_PLACE_TYPES]
+    if {row.get("id") for row in place_rows} != set(DEPTH_PLACE_TYPES):
+        error("UAE_DEPTH_PLACE_SHAPE", "the three inscribed properties are not present as places")
+    place_rel = [row for row in relationships if row.get("child_id") in DEPTH_PLACE_TYPES]
+    if len(place_rel) != 3:
+        error("UAE_DEPTH_PLACE_SHAPE", f"expected exactly three place relationships, got {len(place_rel)}")
+    for row in place_rows:
+        if row.get("entity_type") != DEPTH_PLACE_TYPES[row["id"]]:
+            error("UAE_DEPTH_PLACE_SHAPE", f"{row['id']} type is not the declared place type")
+        if row.get("coordinates") is not None or row.get("canonical_source_id") != "SRC-UNESCO-WH-AE-STATE-2026":
+            error("UAE_DEPTH_PLACE_SHAPE", f"{row['id']} carries coordinates or a foreign canonical source")
+        if not row.get("source_locator"):
+            error("UAE_DEPTH_PLACE_SHAPE", f"{row['id']} has no source locator")
+    for row in place_rel:
+        if row.get("relationship_type") != "located_in" or row.get("parent_id") != "ENT-AE-COUNTRY":
+            error("UAE_DEPTH_PLACE_SHAPE", f"{row.get('id')} is not a country-level located_in relationship")
+        if row.get("source_id") != "SRC-UNESCO-WH-AE-STATE-2026" or not row.get("source_locator"):
+            error("UAE_DEPTH_PLACE_SHAPE", f"{row.get('id')} lacks place evidence")
+    if [row for row in aliases if row.get("entity_id") in DEPTH_PLACE_TYPES]:
+        error("UAE_DEPTH_PLACE_SHAPE", "a heritage place was given an administrative alias")
+    if [row for row in claims if row.get("subject_id") in DEPTH_PLACE_TYPES]:
+        error("UAE_DEPTH_PLACE_SHAPE", "a heritage place became the subject of a population-bearing claim")
+
+    # the six new evidence sources must be present, tiered and referenced
+    for sid, tier in DEPTH_SOURCES.items():
+        source_row = sources.get(sid)
+        if not source_row:
+            error("UAE_DEPTH_SOURCES", f"missing depth source {sid}")
+            continue
+        if source_row.get("quality_tier") != tier:
+            error("UAE_DEPTH_SOURCES", f"{sid} tier is {source_row.get('quality_tier')} instead of {tier}")
+        if "AE" not in source_row.get("country_codes", []):
+            error("UAE_DEPTH_SOURCES", f"{sid} is not an Emirati-scope source")
+    referenced = {row.get("source_id") for row in depth_claims} | {row.get("second_source_id") for row in depth_claims}
+    unreferenced = sorted(set(DEPTH_SOURCES) - referenced)
+    if len(unreferenced) > 1 or "SRC-UNESCO-ICH-AE-STATE-2026" in unreferenced:
+        error("UAE_DEPTH_SOURCES", f"depth sources without a claim: {unreferenced}")
+    check("depth", claims=len(depth_claims), published=len(depth_published), unpublished=len(depth_unpublished), elements=len(elements),
+          national_elements=len(national), deferred_files=len(deferred), tentative_files=len(tentative), places=len(place_rows))
+
+    depth_fixture = load_json(ROOT / "data/imports/uae/fixtures/cultural_depth_2026.json")
+    fixture_elements = depth_fixture.get("intangible_heritage", {}).get("published_elements", [])
+    fixture_national = [row for row in fixture_elements if row.get("classification") == "national"]
+    if len(fixture_elements) != 7 or len(fixture_national) != 1 or fixture_national[0].get("reference") != "01268":
+        error("UAE_DEPTH_ELEMENT_SCOPE", "the depth fixture must keep one sole-submitter national element and six shared files")
+    if len(depth_fixture.get("intangible_heritage", {}).get("deferred_elements", [])) != 13 or len(depth_fixture.get("places", [])) != 3:
+        error("UAE_DEPTH_ELEMENT_SCOPE", "the depth fixture must keep thirteen deferred files and three places")
+
     # Additive schema contract.
     vocab = load_json(ROOT / "schema/vocabularies.json")
     if not CONTEXTUAL_TYPES <= set(vocab.get("entity_types", [])):
@@ -308,6 +503,8 @@ def validate_bundle(bundle: dict[str, Any]) -> dict[str, Any]:
         "relationships": {"UAE_PARENT_PROFILE", "UAE_IDENTITY_COLLAPSE"},
         "aliases": {"UAE_ALIAS_POLICY", "UAE_ALIAS_ENTITY", "UAE_TEMPORAL_STATUS"},
         "claims": {"UAE_SEMANTICS", "UAE_EXCLUSIVITY", "UAE_NATIONAL_SCOPE", "UAE_SENSITIVE_SOURCE", "UAE_CULTURAL_SAMPLE", "UAE_DIALECT"},
+        "depth": {"UAE_DEPTH_CLAIMS", "UAE_DEPTH_LAYERS", "UAE_DEPTH_SNAPSHOT", "UAE_DEPTH_ELEMENT_SCOPE", "UAE_DEPTH_WH",
+                  "UAE_DEPTH_NO_COUNTS", "UAE_DEPTH_PUBLICATION", "UAE_DEPTH_PLACE_SHAPE", "UAE_DEPTH_SOURCES"},
         "sources": {"UAE_SOURCE_MISSING", "UAE_FOREIGN_SOURCE", "UAE_SOURCE_QUALITY", "UAE_SOURCE_CHECKSUM"},
         "coverage": {"UAE_COVERAGE"},
         "schema": {"UAE_SCHEMA"},
@@ -323,6 +520,7 @@ def validate_bundle(bundle: dict[str, Any]) -> dict[str, Any]:
         "schema_version": "2.0.0",
         "country_code": "AE",
         "snapshot_date": "2026-08-15",
+        "depth_snapshot_date": "2026-09-23",
         "status": "PASS" if not errors else "FAIL",
         "checks": checks,
         "errors": errors,

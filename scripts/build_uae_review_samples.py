@@ -55,13 +55,16 @@ def main() -> None:
         source_ids.update(row.get("source_ids", []))
     source_ids.discard(None)
 
-    culture = [row for row in claims if row.get("predicate") != "jurisdiction_semantics"]
-    dialect = [row for row in claims if row.get("predicate") == "lexical_form"]
+    published = [row for row in claims if row.get("published")]
+    culture = [row for row in published if row.get("predicate") != "jurisdiction_semantics"]
+    dialect = [row for row in published if row.get("predicate") == "lexical_form"]
+    deferred = [row for row in claims if not row.get("published")]
     families = {
         "entities": [row["id"] for row in entities],
         "aliases": [row["id"] for row in aliases],
         "relationships": [row["id"] for row in relationships],
-        "claims": [row["id"] for row in claims],
+        "claims": [row["id"] for row in published],
+        "deferred_claims": [row["id"] for row in deferred],
         "sources": sorted(source_ids),
         "denominators": [row["id"] for row in denominators],
         "coverage": [row["id"] for row in coverage],
@@ -73,6 +76,7 @@ def main() -> None:
         "schema_version": "2.0.0",
         "country_code": "AE",
         "snapshot_date": "2026-08-15",
+        "depth_snapshot_date": "2026-09-23",
         "selection_method": "Sort each record ID by SHA-256(seed|family|ID), then select ceil(10%); no UAE importer module is called or imported.",
         "seed": SEED,
         "families": samples,

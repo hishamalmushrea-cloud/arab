@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:8da9ac88d19409cc0de734ff98fc9aa5886b395366ca5d73fb2b04f8f5431a07",
+  "country_codes": [
+    "AE"
+  ],
+  "id": "SRC-AE-CUISINE-MIRROR-2026",
+  "language": "en",
+  "license": "Wikipedia text, CC BY-SA 4.0; used for classification only",
+  "locator": "Dish inventory; no counts recorded.",
+  "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-09-23/cuisine-mirror.txt. Checksum binds that extract (882 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "Wikipedia (English mirror)",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-23",
+  "schema_version": "2.0.0",
+  "source_type": "local_website",
+  "title": "Emirati cuisine",
+  "url": "https://en.wikipedia.org/wiki/Emirati_cuisine"
+}

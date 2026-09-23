@@ -1,5 +1,6 @@
 {
   "country_code": "AE",
+  "depth_snapshot_date": "2026-09-23",
   "families": {
     "aliases": {
       "minimum_required": 5,
@@ -15,51 +16,69 @@
       "sample_size": 5
     },
     "claims": {
-      "minimum_required": 8,
-      "population": 76,
+      "minimum_required": 11,
+      "population": 109,
       "record_ids": [
         "CLM-AE-29F20BE3C0F15027",
         "CLM-AE-336D285F12CE53BB",
         "CLM-AE-767423FD7EBC535A",
         "CLM-AE-C3A03D993D815373",
+        "CLM-AE-DEPTH-9D35389A773D59AF",
+        "CLM-AE-DEPTH-677655BDDDED553A",
+        "CLM-AE-DEPTH-D64E495C17D2592A",
+        "CLM-AE-DEPTH-189FCD04553153F8",
         "CLM-AE-79E4328FD25C54CF",
         "CLM-AE-17A5A043922D58DC",
-        "CLM-AE-1F5B55B0929C522E",
-        "CLM-AE-A3026F14F9CB5E86"
+        "CLM-AE-1F5B55B0929C522E"
       ],
-      "sample_percentage": 10.53,
-      "sample_size": 8
+      "sample_percentage": 10.09,
+      "sample_size": 11
     },
     "coverage": {
       "minimum_required": 2,
-      "population": 12,
+      "population": 17,
       "record_ids": [
         "COV-AE-AJMAN-CONSTITUENTS",
-        "COV-AE-FUJAIRAH-MUNICIPAL-AUTHORITIES"
+        "COV-AE-WH-INSCRIBED"
       ],
-      "sample_percentage": 16.67,
+      "sample_percentage": 11.76,
       "sample_size": 2
     },
     "cultural_claims": {
-      "minimum_required": 4,
-      "population": 36,
+      "minimum_required": 7,
+      "population": 69,
       "record_ids": [
+        "CLM-AE-DEPTH-2EF61542045E5159",
         "CLM-AE-0264BB0D1BAC5FD2",
         "CLM-AE-DDB4327EDA6B5066",
+        "CLM-AE-DEPTH-309EB5BB59A058AA",
         "CLM-AE-A35E8CD684425FC0",
-        "CLM-AE-A9B0ECD4AAD95E6C"
+        "CLM-AE-A9B0ECD4AAD95E6C",
+        "CLM-AE-DEPTH-F2D14CC6FEC05830"
       ],
-      "sample_percentage": 11.11,
+      "sample_percentage": 10.14,
+      "sample_size": 7
+    },
+    "deferred_claims": {
+      "minimum_required": 4,
+      "population": 37,
+      "record_ids": [
+        "CLM-AE-DEPTH-BDE5303D5A3F5AD9",
+        "CLM-AE-DEPTH-4979FB4F4C965D05",
+        "CLM-AE-DEPTH-1348631BE2E6571E",
+        "CLM-AE-DEPTH-BCA21EBC9FE85650"
+      ],
+      "sample_percentage": 10.81,
       "sample_size": 4
     },
     "denominators": {
       "minimum_required": 2,
-      "population": 12,
+      "population": 17,
       "record_ids": [
         "DEN-AE-FUJAIRAH-MUNICIPAL-AUTHORITIES",
         "DEN-AE-ABU-DHABI-MUNICIPALITY-JURISDICTIONS"
       ],
-      "sample_percentage": 16.67,
+      "sample_percentage": 11.76,
       "sample_size": 2
     },
     "dialect_claims": {
@@ -73,38 +92,40 @@
     },
     "entities": {
       "minimum_required": 5,
-      "population": 41,
+      "population": 44,
       "record_ids": [
         "ENT-AE-AL-HAMRIYAH-MUNICIPALITY",
         "ENT-AE-AL-BATAYEH-MUNICIPALITY",
         "ENT-AE-EMIRATE-AJMAN",
         "ENT-AE-RAK-AREA-1",
-        "ENT-AE-RAK-AREA-2"
+        "ENT-AE-SITE-AL-AIN"
       ],
-      "sample_percentage": 12.2,
+      "sample_percentage": 11.36,
       "sample_size": 5
     },
     "relationships": {
-      "minimum_required": 4,
-      "population": 40,
+      "minimum_required": 5,
+      "population": 43,
       "record_ids": [
         "REL-AE-E6BFFC4E639E5A57",
+        "REL-AE-DEPTH-E9DEF750706E5302",
         "REL-AE-E30D6BF112985862",
         "REL-AE-1E801B732D485BA1",
         "REL-AE-32F55E06CFEF5190"
       ],
-      "sample_percentage": 10.0,
-      "sample_size": 4
+      "sample_percentage": 11.63,
+      "sample_size": 5
     },
     "sources": {
-      "minimum_required": 2,
-      "population": 20,
+      "minimum_required": 3,
+      "population": 26,
       "record_ids": [
         "SRC-AE-SGMB-MUNICIPALITIES-2023",
+        "SRC-AE-ISO639-3-ARABIC",
         "SRC-AE-AJMAN-ABOUT-2026"
       ],
-      "sample_percentage": 10.0,
-      "sample_size": 2
+      "sample_percentage": 11.54,
+      "sample_size": 3
     }
   },
   "schema_version": "2.0.0",
@@ -112,5 +133,5 @@
   "selection_method": "Sort each record ID by SHA-256(seed|family|ID), then select ceil(10%); no UAE importer module is called or imported.",
   "snapshot_date": "2026-08-15",
   "status": "PASS",
-  "total_sampled": 33
+  "total_sampled": 45
 }

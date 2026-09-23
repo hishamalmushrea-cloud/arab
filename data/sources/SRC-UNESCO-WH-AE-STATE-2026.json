@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:3948353fc952a3f4e1e10aaeca789e0b0122621bf366f4b097be5c2f52f9aa39",
+  "country_codes": [
+    "AE"
+  ],
+  "id": "SRC-UNESCO-WH-AE-STATE-2026",
+  "language": "en",
+  "license": "UNESCO World Heritage state page; factual extraction with attribution",
+  "locator": "Three inscribed properties and fifteen tentative-list entries read 2026-09-23.",
+  "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-09-23/whc-state-uae.txt. Checksum binds that extract (1115 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "UNESCO World Heritage Centre",
+  "quality_tier": "A",
+  "retrieved_at": "2026-09-23",
+  "schema_version": "2.0.0",
+  "source_type": "institutional_page",
+  "title": "United Arab Emirates — UNESCO World Heritage Convention",
+  "url": "https://whc.unesco.org/en/statesparties/ae"
+}

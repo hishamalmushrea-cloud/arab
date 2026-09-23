@@ -1,7 +1,18 @@
 [
   {
+    "captured_at": "2026-09-23",
+    "checksum": "sha256:18b07cb7c10bc3e322aa4ce53403d6fbb4286cc18e3a4115b2cbb16dd09b5f06",
+    "id": "SNP-AE-DEPTH-20260923",
+    "method": "Offline deterministic import from a checksum-bound depth fixture; depth layers carry no denominator, no percentage and no inherited population, and unread fields stay empty rather than inferred.",
+    "notes": "Unread and left empty: World Heritage criteria, the emirate of each inscribed property, and the submitting-State list of the thirteen deferred element files. The pilot snapshot stays bound to its four 2026-08-15 fixtures.",
+    "schema_version": "2.0.0",
+    "scope": "7 classified ICH element files, 13 deferred element files, 4 pending nominations, 3 inscribed properties, 15 tentative-list files, 3 language rows and one dialect row",
+    "source_id": "SRC-UNESCO-ICH-AE-STATE-2026",
+    "title": "United Arab Emirates UNESCO depth cycle 1: ICH state page, Al Azi, World Heritage state page and ISO 639-3"
+  },
+  {
     "captured_at": "2026-08-15",
-    "checksum": "sha256:36bb74ddad5af21e21262c76cde5b87419572e3d670cbd82f2b8627c9e8e03f7",
+    "checksum": "sha256:dc8eec0a6cd5bcbb05acfa57e71a6a406b9569487d5fda776341cae3357823b4",
     "id": "SNP-AE-PILOT-20260815",
     "method": "Offline deterministic import from checksum-bound relevant-text extracts and structured fixtures; official layer denominators remain separate and unavailable registries have no percentage.",
     "notes": "Dubai communities, all-UAE populated places, and neighborhoods remain denominator_unavailable. No fifth country is started.",

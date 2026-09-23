@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:fa7ee24f993f61847138d2a174634673cc2f582d29ed1b435cefdf1e9c7a467c",
+  "country_codes": [
+    "AE"
+  ],
+  "id": "SRC-AE-ISO639-3-ARABIC",
+  "language": "en",
+  "license": "ISO 639-3 registry entry; reuse subject to ISO terms",
+  "locator": "Arabic macrolanguage with Gulf Arabic afb listed.",
+  "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-09-23/iso639-3-ara.txt. Checksum binds that extract (240 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "SIL International (ISO 639-3 registration authority)",
+  "quality_tier": "A",
+  "retrieved_at": "2026-09-23",
+  "schema_version": "2.0.0",
+  "source_type": "standard",
+  "title": "ISO 639-3 code registration — Arabic",
+  "url": "https://iso639-3.sil.org/code/ara"
+}

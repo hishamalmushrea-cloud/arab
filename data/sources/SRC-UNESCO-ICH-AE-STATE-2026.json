@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:5e32a970035089d0632a1d6f3676800ed3a10b41a3172119668e2136ac4e24bb",
+  "country_codes": [
+    "AE"
+  ],
+  "id": "SRC-UNESCO-ICH-AE-STATE-2026",
+  "language": "en",
+  "license": "UNESCO ICH state page; factual extraction with attribution; CC BY-SA 3.0 IGO for the descriptions",
+  "locator": "21 inscribed entries, four 2026 nominations, 2005-05-02 ratification.",
+  "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-09-23/ich-state-uae.txt. Checksum binds that extract (1976 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "UNESCO Intangible Cultural Heritage",
+  "quality_tier": "A",
+  "retrieved_at": "2026-09-23",
+  "schema_version": "2.0.0",
+  "source_type": "institutional_page",
+  "title": "United Arab Emirates — UNESCO Intangible Cultural Heritage",
+  "url": "https://ich.unesco.org/en/state/united-arab-emirates-AE"
+}

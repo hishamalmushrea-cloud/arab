@@ -362,6 +362,126 @@
       "source_type": "institutional_page",
       "title": "Fujairah",
       "url": "https://u.ae/en/about-the-uae/the-seven-emirates/fujairah"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:5e32a970035089d0632a1d6f3676800ed3a10b41a3172119668e2136ac4e24bb",
+      "country_codes": [
+        "AE"
+      ],
+      "id": "SRC-UNESCO-ICH-AE-STATE-2026",
+      "language": "en",
+      "license": "UNESCO ICH state page; factual extraction with attribution; CC BY-SA 3.0 IGO for the descriptions",
+      "locator": "21 inscribed entries, four 2026 nominations, 2005-05-02 ratification.",
+      "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-09-23/ich-state-uae.txt. Checksum binds that extract (1976 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "UNESCO Intangible Cultural Heritage",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-23",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "United Arab Emirates — UNESCO Intangible Cultural Heritage",
+      "url": "https://ich.unesco.org/en/state/united-arab-emirates-AE"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:1b7b4b9db769b90ee33d11171006d9d036f1a5e2ece3082660a5f35d410b39f2",
+      "country_codes": [
+        "AE"
+      ],
+      "id": "SRC-UNESCO-ICH-AE-AL-AZI-01268-2017",
+      "language": "en",
+      "license": "UNESCO ICH element page; factual extraction with attribution; CC BY-SA 3.0 IGO for the descriptions",
+      "locator": "Single submitting State read from the element page.",
+      "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-09-23/ich-al-azi-01268.txt. Checksum binds that extract (595 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "UNESCO Intangible Cultural Heritage",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-23",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "Al Azi, art of performing praise, pride and fortitude poetry",
+      "url": "https://ich.unesco.org/en/USL/al-azi-art-of-performing-praise-pride-and-fortitude-poetry-01268"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:3948353fc952a3f4e1e10aaeca789e0b0122621bf366f4b097be5c2f52f9aa39",
+      "country_codes": [
+        "AE"
+      ],
+      "id": "SRC-UNESCO-WH-AE-STATE-2026",
+      "language": "en",
+      "license": "UNESCO World Heritage state page; factual extraction with attribution",
+      "locator": "Three inscribed properties and fifteen tentative-list entries read 2026-09-23.",
+      "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-09-23/whc-state-uae.txt. Checksum binds that extract (1115 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "UNESCO World Heritage Centre",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-23",
+      "schema_version": "2.0.0",
+      "source_type": "institutional_page",
+      "title": "United Arab Emirates — UNESCO World Heritage Convention",
+      "url": "https://whc.unesco.org/en/statesparties/ae"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:fa7ee24f993f61847138d2a174634673cc2f582d29ed1b435cefdf1e9c7a467c",
+      "country_codes": [
+        "AE"
+      ],
+      "id": "SRC-AE-ISO639-3-ARABIC",
+      "language": "en",
+      "license": "ISO 639-3 registry entry; reuse subject to ISO terms",
+      "locator": "Arabic macrolanguage with Gulf Arabic afb listed.",
+      "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-09-23/iso639-3-ara.txt. Checksum binds that extract (240 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "SIL International (ISO 639-3 registration authority)",
+      "quality_tier": "A",
+      "retrieved_at": "2026-09-23",
+      "schema_version": "2.0.0",
+      "source_type": "standard",
+      "title": "ISO 639-3 code registration — Arabic",
+      "url": "https://iso639-3.sil.org/code/ara"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:8da9ac88d19409cc0de734ff98fc9aa5886b395366ca5d73fb2b04f8f5431a07",
+      "country_codes": [
+        "AE"
+      ],
+      "id": "SRC-AE-CUISINE-MIRROR-2026",
+      "language": "en",
+      "license": "Wikipedia text, CC BY-SA 4.0; used for classification only",
+      "locator": "Dish inventory; no counts recorded.",
+      "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-09-23/cuisine-mirror.txt. Checksum binds that extract (882 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Wikipedia (English mirror)",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-23",
+      "schema_version": "2.0.0",
+      "source_type": "local_website",
+      "title": "Emirati cuisine",
+      "url": "https://en.wikipedia.org/wiki/Emirati_cuisine"
+    },
+    {
+      "archive_url": null,
+      "checksum": "sha256:0784c94de5958afd795d08c668a042de5ed1f11ce653b27ba80da0890f552de7",
+      "country_codes": [
+        "AE"
+      ],
+      "id": "SRC-AE-CULTURE-MIRROR-2026",
+      "language": "en",
+      "license": "Wikipedia text, CC BY-SA 4.0; used for classification only",
+      "locator": "Language presence, naming custom, dallah symbol; no counts recorded.",
+      "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-09-23/culture-mirror.txt. Checksum binds that extract (1096 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. Publication date unavailable.",
+      "publication_date": null,
+      "publisher": "Wikipedia (English mirror)",
+      "quality_tier": "E",
+      "retrieved_at": "2026-09-23",
+      "schema_version": "2.0.0",
+      "source_type": "local_website",
+      "title": "Culture of the United Arab Emirates",
+      "url": "https://en.wikipedia.org/wiki/Culture_of_the_United_Arab_Emirates"
     }
   ]
 }

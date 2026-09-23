@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:0784c94de5958afd795d08c668a042de5ed1f11ce653b27ba80da0890f552de7",
+  "country_codes": [
+    "AE"
+  ],
+  "id": "SRC-AE-CULTURE-MIRROR-2026",
+  "language": "en",
+  "license": "Wikipedia text, CC BY-SA 4.0; used for classification only",
+  "locator": "Language presence, naming custom, dallah symbol; no counts recorded.",
+  "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-09-23/culture-mirror.txt. Checksum binds that extract (1096 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "Wikipedia (English mirror)",
+  "quality_tier": "E",
+  "retrieved_at": "2026-09-23",
+  "schema_version": "2.0.0",
+  "source_type": "local_website",
+  "title": "Culture of the United Arab Emirates",
+  "url": "https://en.wikipedia.org/wiki/Culture_of_the_United_Arab_Emirates"
+}

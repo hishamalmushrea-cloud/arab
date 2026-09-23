@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:1b7b4b9db769b90ee33d11171006d9d036f1a5e2ece3082660a5f35d410b39f2",
+  "country_codes": [
+    "AE"
+  ],
+  "id": "SRC-UNESCO-ICH-AE-AL-AZI-01268-2017",
+  "language": "en",
+  "license": "UNESCO ICH element page; factual extraction with attribution; CC BY-SA 3.0 IGO for the descriptions",
+  "locator": "Single submitting State read from the element page.",
+  "notes": "Persisted bounded relevant-text extract: data/imports/uae/raw/2026-09-23/ich-al-azi-01268.txt. Checksum binds that extract (595 bytes), not a full-page HTTP archive. Capture scope: relevant_exact_excerpt. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "UNESCO Intangible Cultural Heritage",
+  "quality_tier": "A",
+  "retrieved_at": "2026-09-23",
+  "schema_version": "2.0.0",
+  "source_type": "institutional_page",
+  "title": "Al Azi, art of performing praise, pride and fortitude poetry",
+  "url": "https://ich.unesco.org/en/USL/al-azi-art-of-performing-praise-pride-and-fortitude-poetry-01268"
+}

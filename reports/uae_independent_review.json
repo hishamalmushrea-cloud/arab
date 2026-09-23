@@ -1,6 +1,7 @@
 {
   "country_code": "AE",
   "critical_p1": 0,
+  "depth_snapshot_date": "2026-09-23",
   "families": {
     "aliases": {
       "failed": 0,
@@ -13,28 +14,37 @@
     },
     "claims": {
       "failed": 0,
-      "minimum_required": 8,
-      "passed": 8,
-      "population": 76,
-      "sample_percentage": 10.53,
-      "sampled": 8,
+      "minimum_required": 11,
+      "passed": 11,
+      "population": 109,
+      "sample_percentage": 10.09,
+      "sampled": 11,
       "status": "PASS"
     },
     "coverage": {
       "failed": 0,
       "minimum_required": 2,
       "passed": 2,
-      "population": 12,
-      "sample_percentage": 16.67,
+      "population": 17,
+      "sample_percentage": 11.76,
       "sampled": 2,
       "status": "PASS"
     },
     "cultural_claims": {
       "failed": 0,
+      "minimum_required": 7,
+      "passed": 7,
+      "population": 69,
+      "sample_percentage": 10.14,
+      "sampled": 7,
+      "status": "PASS"
+    },
+    "deferred_claims": {
+      "failed": 0,
       "minimum_required": 4,
       "passed": 4,
-      "population": 36,
-      "sample_percentage": 11.11,
+      "population": 37,
+      "sample_percentage": 10.81,
       "sampled": 4,
       "status": "PASS"
     },
@@ -42,8 +52,8 @@
       "failed": 0,
       "minimum_required": 2,
       "passed": 2,
-      "population": 12,
-      "sample_percentage": 16.67,
+      "population": 17,
+      "sample_percentage": 11.76,
       "sampled": 2,
       "status": "PASS"
     },
@@ -60,27 +70,27 @@
       "failed": 0,
       "minimum_required": 5,
       "passed": 5,
-      "population": 41,
-      "sample_percentage": 12.2,
+      "population": 44,
+      "sample_percentage": 11.36,
       "sampled": 5,
       "status": "PASS"
     },
     "relationships": {
       "failed": 0,
-      "minimum_required": 4,
-      "passed": 4,
-      "population": 40,
-      "sample_percentage": 10.0,
-      "sampled": 4,
+      "minimum_required": 5,
+      "passed": 5,
+      "population": 43,
+      "sample_percentage": 11.63,
+      "sampled": 5,
       "status": "PASS"
     },
     "sources": {
       "failed": 0,
-      "minimum_required": 2,
-      "passed": 2,
-      "population": 20,
-      "sample_percentage": 10.0,
-      "sampled": 2,
+      "minimum_required": 3,
+      "passed": 3,
+      "population": 26,
+      "sample_percentage": 11.54,
+      "sampled": 3,
       "status": "PASS"
     }
   },
@@ -90,6 +100,6 @@
   "schema_version": "2.0.0",
   "snapshot_date": "2026-08-15",
   "status": "PASS",
-  "total_passed": 33,
-  "total_sampled": 33
+  "total_passed": 45,
+  "total_sampled": 45
 }

@@ -171,6 +171,60 @@
       "sha256": "7c7c5f3630366cc38cd173746f4f31d7b2cf97e148b3ab445831c571a2f99034",
       "source_id": "SRC-AE-UAE-FUJAIRAH-2025",
       "url": "https://u.ae/en/about-the-uae/the-seven-emirates/fujairah"
+    },
+    {
+      "bytes": 1976,
+      "capture_scope": "relevant_exact_excerpt",
+      "path": "raw/2026-09-23/ich-state-uae.txt",
+      "retrieved_at": "2026-09-23",
+      "sha256": "5e32a970035089d0632a1d6f3676800ed3a10b41a3172119668e2136ac4e24bb",
+      "source_id": "SRC-UNESCO-ICH-AE-STATE-2026",
+      "url": "https://ich.unesco.org/en/state/united-arab-emirates-AE"
+    },
+    {
+      "bytes": 595,
+      "capture_scope": "relevant_exact_excerpt",
+      "path": "raw/2026-09-23/ich-al-azi-01268.txt",
+      "retrieved_at": "2026-09-23",
+      "sha256": "1b7b4b9db769b90ee33d11171006d9d036f1a5e2ece3082660a5f35d410b39f2",
+      "source_id": "SRC-UNESCO-ICH-AE-AL-AZI-01268-2017",
+      "url": "https://ich.unesco.org/en/USL/al-azi-art-of-performing-praise-pride-and-fortitude-poetry-01268"
+    },
+    {
+      "bytes": 1115,
+      "capture_scope": "relevant_exact_excerpt",
+      "path": "raw/2026-09-23/whc-state-uae.txt",
+      "retrieved_at": "2026-09-23",
+      "sha256": "3948353fc952a3f4e1e10aaeca789e0b0122621bf366f4b097be5c2f52f9aa39",
+      "source_id": "SRC-UNESCO-WH-AE-STATE-2026",
+      "url": "https://whc.unesco.org/en/statesparties/ae"
+    },
+    {
+      "bytes": 240,
+      "capture_scope": "relevant_exact_excerpt",
+      "path": "raw/2026-09-23/iso639-3-ara.txt",
+      "retrieved_at": "2026-09-23",
+      "sha256": "fa7ee24f993f61847138d2a174634673cc2f582d29ed1b435cefdf1e9c7a467c",
+      "source_id": "SRC-AE-ISO639-3-ARABIC",
+      "url": "https://iso639-3.sil.org/code/ara"
+    },
+    {
+      "bytes": 882,
+      "capture_scope": "relevant_exact_excerpt",
+      "path": "raw/2026-09-23/cuisine-mirror.txt",
+      "retrieved_at": "2026-09-23",
+      "sha256": "8da9ac88d19409cc0de734ff98fc9aa5886b395366ca5d73fb2b04f8f5431a07",
+      "source_id": "SRC-AE-CUISINE-MIRROR-2026",
+      "url": "https://en.wikipedia.org/wiki/Emirati_cuisine"
+    },
+    {
+      "bytes": 1096,
+      "capture_scope": "relevant_exact_excerpt",
+      "path": "raw/2026-09-23/culture-mirror.txt",
+      "retrieved_at": "2026-09-23",
+      "sha256": "0784c94de5958afd795d08c668a042de5ed1f11ce653b27ba80da0890f552de7",
+      "source_id": "SRC-AE-CULTURE-MIRROR-2026",
+      "url": "https://en.wikipedia.org/wiki/Culture_of_the_United_Arab_Emirates"
     }
   ],
   "schema_version": "2.0.0",

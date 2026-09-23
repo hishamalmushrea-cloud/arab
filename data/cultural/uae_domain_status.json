@@ -1,0 +1,63 @@
+{
+  "country_code": "AE",
+  "domains": {
+    "crafts": {
+      "claims": 3,
+      "status": "documented_local_reported_unpublished"
+    },
+    "custom": {
+      "claims": 3,
+      "status": "documented_local_reported_unpublished"
+    },
+    "dialect": {
+      "claims": 1,
+      "status": "documented_local_reported_unpublished"
+    },
+    "dress": {
+      "claims": 0,
+      "status": "not_documented_in_cycle"
+    },
+    "food": {
+      "claims": 12,
+      "status": "documented_local_reported_unpublished"
+    },
+    "heritage_places": {
+      "denominator": null,
+      "entities": 3,
+      "status": "documented_places_no_denominator"
+    },
+    "intangible_cultural_heritage": {
+      "classified": 7,
+      "deferred": 13,
+      "inscribed_total": 21,
+      "national": 1,
+      "register_entries": 1,
+      "status": "documented_seven_classified_one_national_thirteen_deferred"
+    },
+    "languages": {
+      "claims": 3,
+      "status": "documented_unpublished_pending_constitution"
+    },
+    "narratives": {
+      "claims": 2,
+      "status": "documented_narratives_unpublished"
+    },
+    "neighborhoods": {
+      "denominator": null,
+      "status": "unavailable_in_accepted_layer"
+    },
+    "populated_places": {
+      "denominator": null,
+      "status": "unavailable_in_accepted_layer"
+    },
+    "world_heritage": {
+      "criteria_read": false,
+      "inscribed": 3,
+      "status": "documented_three_inscribed_criteria_unread",
+      "tentative_list_sites": 15
+    }
+  },
+  "notes": "سبعة عناصر يونسكوية مصنَّفة (واحد وطني وحيد الدولة: العزي على قائمة الصون العاجل) وثلاثة عشر ملفًا مؤجَّلًا لقائمة الدول المقدِّمة، وثلاثة مواقع مُدرجة بمعايير غير مقروءة، وخمسة عشر ملفًا مؤقتًا، ولا يُسجَّل أي عدد سكان أو متحدثين أو نسبة، والصفوف اللغوية تنتظر قراءة الدستور.",
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-09-23"
+}

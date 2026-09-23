@@ -5,7 +5,7 @@
 | ISO | الدولة | الكيانات | الادعاءات | الصفحة |
 |---|---|---:|---:|---|
 | JO | الأردن | 116 | 151 | [JO](countries/JO.md) |
-| AE | الإمارات | 41 | 76 | [AE](countries/AE.md) |
+| AE | الإمارات | 44 | 146 | [AE](countries/AE.md) |
 | BH | البحرين | 32 | 56 | [BH](countries/BH.md) |
 | DZ | الجزائر | 70 | 22 | [DZ](countries/DZ.md) |
 | SA | السعودية | 1726 | 1758 | [SA](countries/SA.md) |

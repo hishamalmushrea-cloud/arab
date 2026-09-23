@@ -6,7 +6,7 @@
       "status": "PASS"
     },
     "claims": {
-      "claims": 76,
+      "claims": 146,
       "contexts": {
         "coastal": true,
         "desert": true,
@@ -15,7 +15,7 @@
         "oasis": true,
         "urban": true
       },
-      "cultural": 36,
+      "cultural": 106,
       "dialect": 3,
       "semantics": 40,
       "sensitive": 0,
@@ -33,10 +33,21 @@
         "uaq_municipal_authorities": 2
       },
       "closed_layers": 9,
-      "coverage_records": 12,
-      "denominators": 12,
+      "coverage_records": 17,
+      "denominators": 17,
       "status": "PASS",
-      "unavailable_layers": 3
+      "unavailable_layers": 8
+    },
+    "depth": {
+      "claims": 70,
+      "deferred_files": 13,
+      "elements": 7,
+      "national_elements": 1,
+      "places": 3,
+      "published": 33,
+      "status": "PASS",
+      "tentative_files": 15,
+      "unpublished": 37
     },
     "emirate_profiles": {
       "profiled_entities": 40,
@@ -45,7 +56,7 @@
     },
     "entities": {
       "contextual_types": 8,
-      "entities": 41,
+      "entities": 44,
       "status": "PASS",
       "type_counts": {
         "ae_abu_dhabi_municipality_jurisdiction": 3,
@@ -56,13 +67,15 @@
         "ae_rak_administrative_area": 5,
         "ae_sharjah_municipality_jurisdiction": 9,
         "ae_uaq_municipal_authority": 2,
-        "country": 1
+        "country": 1,
+        "cultural_site": 2,
+        "natural_site": 1
       }
     },
     "relationships": {
       "administrative_parents": 40,
       "orphans": 0,
-      "relationships": 40,
+      "relationships": 43,
       "status": "PASS"
     },
     "schema": {
@@ -79,17 +92,18 @@
       "status": "PASS"
     },
     "sources": {
-      "ab_claims": 76,
+      "ab_claims": 109,
       "ab_ratio": 100.0,
-      "evidence_extracts": 19,
-      "pilot_specific": 19,
-      "published_claims": 76,
-      "referenced": 20,
+      "evidence_extracts": 25,
+      "pilot_specific": 22,
+      "published_claims": 109,
+      "referenced": 26,
       "status": "PASS"
     }
   },
   "country_code": "AE",
   "critical_p1": 0,
+  "depth_snapshot_date": "2026-09-23",
   "errors": [],
   "p0": 0,
   "schema_version": "2.0.0",

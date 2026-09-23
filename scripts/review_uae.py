@@ -33,6 +33,8 @@ def main() -> int:
         "coverage": {row["id"]: row for row in read_jsonl(ROOT / "data/coverage/coverage.jsonl") if row.get("country_code") == "AE"},
         "sources": sources,
     }
+    families["deferred_claims"] = {rid: row for rid, row in families["claims"].items() if not row.get("published")}
+    families["claims"] = {rid: row for rid, row in families["claims"].items() if row.get("published")}
     families["cultural_claims"] = {rid: row for rid, row in families["claims"].items() if row.get("predicate") != "jurisdiction_semantics"}
     families["dialect_claims"] = {rid: row for rid, row in families["claims"].items() if row.get("predicate") == "lexical_form"}
 
@@ -45,7 +47,13 @@ def main() -> int:
             for eid in layer.get("entity_ids", []):
                 expected_type[eid] = layer["entity_type"]
                 expected_parent[eid] = profile["emirate_id"]
+    depth_place_types = {"ENT-AE-SITE-AL-AIN": "cultural_site", "ENT-AE-SITE-FAYA": "cultural_site", "ENT-AE-SITE-WURAYAH": "natural_site"}
+    for place_id, place_type in depth_place_types.items():
+        expected_type[place_id] = place_type
+        expected_parent[place_id] = "ENT-AE-COUNTRY"
     actual_parent = {row["child_id"]: row["parent_id"] for row in families["relationships"].values() if row.get("relationship_type") == "administrative_parent"}
+    actual_parent.update({row["child_id"]: row["parent_id"] for row in families["relationships"].values()
+                          if row.get("relationship_type") == "located_in" and row.get("child_id") in depth_place_types})
     den_by_id = families["denominators"]
 
     findings: list[dict[str, str]] = []
@@ -71,7 +79,15 @@ def main() -> int:
         elif family == "relationships":
             if row.get("child_id") not in entity_ids or row.get("parent_id") not in entity_ids:
                 issues.append("relationship endpoint missing")
-            if row.get("relationship_type") != "administrative_parent" or expected_parent.get(row.get("child_id")) != row.get("parent_id"):
+            kind = row.get("relationship_type")
+            if kind == "administrative_parent":
+                if expected_parent.get(row.get("child_id")) != row.get("parent_id"):
+                    issues.append("relationship profile mismatch")
+            elif kind == "located_in":
+                child = families["entities"].get(row.get("child_id"), {})
+                if child.get("entity_type") not in {"cultural_site", "natural_site"} or row.get("parent_id") != "ENT-AE-COUNTRY":
+                    issues.append("depth place relationship is not a country-level located_in")
+            else:
                 issues.append("relationship profile mismatch")
             if row.get("source_id") not in sources or not row.get("source_locator"):
                 issues.append("relationship evidence missing")
@@ -91,6 +107,16 @@ def main() -> int:
                     issues.append("dialect context incomplete")
                 if row.get("value", {}).get("data") in {"وايد", "شو"} and row.get("classification") != "regional":
                     issues.append("shared Gulf/Levantine form mislabeled")
+        elif family == "deferred_claims":
+            if row.get("published") or row.get("confidence") not in {"low", "medium"} or row.get("verification_status") != "local_reported":
+                issues.append("weak depth record is published or presented above its confidence")
+            if row.get("sensitivity") == "sensitive" or not row.get("notes"):
+                issues.append("weak depth record lacks an explicit status note or claims sensitivity")
+            if row.get("source_id") not in sources or not row.get("source_locator") or not row.get("classification"):
+                issues.append("weak depth record lacks classified evidence")
+            if row.get("predicate") not in {"food_dish", "craft_custom", "custom_practice", "dialect_profile", "language_presence",
+                                            "language_institution", "naming_narrative", "unesco_element_deferred_file"}:
+                issues.append("weak depth record uses an unexpected predicate")
         elif family == "sources":
             required = ("title", "publisher", "url", "retrieved_at", "license", "language", "locator", "checksum", "quality_tier")
             if not all(row.get(field) for field in required):
@@ -145,6 +171,7 @@ def main() -> int:
         "schema_version": "2.0.0",
         "country_code": "AE",
         "snapshot_date": "2026-08-15",
+        "depth_snapshot_date": "2026-09-23",
         "method": "Independent deterministic ID samples reviewed directly against canonical records, manifest profiles, sources, and coverage; this reviewer does not import or call scripts/import_uae_phase5.py.",
         "status": "PASS" if not findings else "FAIL",
         "families": family_results,

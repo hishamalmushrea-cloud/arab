@@ -6,8 +6,8 @@
       "status": "pass"
     },
     "claims": {
-      "claims": 2848,
-      "sourced": 2848,
+      "claims": 2918,
+      "sourced": 2918,
       "status": "pass"
     },
     "coordinates": {
@@ -20,8 +20,8 @@
     },
     "coverage": {
       "complete_layers": 97,
-      "coverage_records": 115,
-      "denominators": 115,
+      "coverage_records": 120,
+      "denominators": 120,
       "status": "pass"
     },
     "csv": {
@@ -51,7 +51,7 @@
     },
     "ids": {
       "duplicate_ids": 0,
-      "global_ids": 20105,
+      "global_ids": 20198,
       "status": "pass"
     },
     "independent_review": {
@@ -68,7 +68,7 @@
       "countries": 22,
       "manifests": 22,
       "pilot_migrated": 22,
-      "status": "pass"
+      "status": "fail"
     },
     "migration": {
       "duplicate_id_repairs": 58,
@@ -108,14 +108,14 @@
       "tunisia_published_claims": 69
     },
     "sources": {
-      "atomic_files": 273,
-      "references": 22718,
-      "sources": 273,
+      "atomic_files": 279,
+      "references": 22807,
+      "sources": 279,
       "status": "pass"
     },
     "structured_data": {
       "record_families": 8,
-      "records": 20105,
+      "records": 20198,
       "status": "pass"
     },
     "unicode": {
@@ -125,15 +125,31 @@
   },
   "counts": {
     "aliases": 3265,
-    "claims": 2848,
-    "coverage": 115,
-    "denominators": 115,
-    "entities": 6527,
+    "claims": 2918,
+    "coverage": 120,
+    "denominators": 120,
+    "entities": 6530,
     "manifests": 22,
-    "relationships": 6934,
-    "snapshots": 28,
-    "sources": 273
+    "relationships": 6937,
+    "snapshots": 29,
+    "sources": 279
   },
-  "errors": [],
-  "status": "pass"
+  "errors": [
+    {
+      "check": "manifests",
+      "location": "manifests/AE.yml.depth_snapshot",
+      "message": "additional property is not allowed"
+    },
+    {
+      "check": "manifests",
+      "location": "manifests/AE.yml.depth_snapshot_id",
+      "message": "additional property is not allowed"
+    },
+    {
+      "check": "manifests",
+      "location": "manifests/AE.yml.depth_status",
+      "message": "additional property is not allowed"
+    }
+  ],
+  "status": "fail"
 }

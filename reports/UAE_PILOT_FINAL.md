@@ -8,15 +8,15 @@ Generated from Schema v2.0.0 structured records; do not edit figures manually.
 
 ## Scope
 
-The canonical UAE subset contains **41 Entities** (country, seven emirates, and 33 contextual local records), **42 Aliases**, **40 Relationships**, and **76 Claims**. This is a semantic transferability test, not a volume expansion. Structured JSON/JSONL and `manifests/AE.yml` are authoritative; this Markdown is generated.
+The canonical UAE subset contains **44 Entities** (country, seven emirates, 33 contextual local records, and 3 UNESCO heritage places), **42 Aliases**, **43 Relationships**, and **146 Claims**. This is a semantic transferability test, not a volume expansion. Structured JSON/JSONL and `manifests/AE.yml` are authoritative; this Markdown is generated.
 
 ## Snapshot
 
-Snapshot `SNP-AE-PILOT-20260815` is dated **2026-08-15**. Its checksum covers the administrative, cultural, source-catalog, and evidence-manifest fixtures. The import is offline and deterministic. Retrieval dates are not treated as legal commencement dates.
+Snapshot `SNP-AE-PILOT-20260815` is dated **2026-08-15** and its checksum covers the administrative, cultural, source-catalog, and evidence-manifest fixtures. The depth cycle is carried by its own dated snapshot `SNP-AE-DEPTH-20260923` on **2026-09-23**. The import is offline and deterministic. Retrieval dates are not treated as legal commencement dates.
 
 ## Source Evidence
 
-The pilot references **20 atomic Sources**: 19 UAE pilot sources plus the existing ISO country source. There are **19 checksum-bound persisted relevant-text extracts**. Published Claims have **100.0% A/B sourcing** (76/76). Dubai community download failures are recorded in the persisted metadata extract; an unavailable file is not represented as a successful archive.
+The pilot references **26 atomic Sources**: 22 UAE pilot sources plus the existing ISO country source. There are **25 checksum-bound persisted relevant-text extracts**. Published Claims have **100.0% A/B sourcing** (109/109). Dubai community download failures are recorded in the persisted metadata extract; an unavailable file is not represented as a successful archive.
 
 ## Schema Changes
 
@@ -85,7 +85,7 @@ The federal denominator is **7**, matched **7**, excluded **0**, unmatched **0**
 
 ## Entity Resolution
 
-English canonical names and Arabic official forms resolve to one parent-scoped Entity through Aliases. Same-name records under different parents are not automatically deduplicated. The independent identity rules distinguish Dibba Municipality in Fujairah from Dibba Al Hisn City Municipality in Sharjah, and distinguish numbered sectors, areas, constituents, and authorities. Validation reports zero duplicate IDs, orphans, cycles, or country mismatches; type counts are `{'ae_abu_dhabi_municipality_jurisdiction': 3, 'ae_ajman_constituent': 3, 'ae_dubai_planning_sector': 9, 'ae_emirate': 7, 'ae_fujairah_municipal_authority': 2, 'ae_rak_administrative_area': 5, 'ae_sharjah_municipality_jurisdiction': 9, 'ae_uaq_municipal_authority': 2, 'country': 1}`.
+English canonical names and Arabic official forms resolve to one parent-scoped Entity through Aliases. Same-name records under different parents are not automatically deduplicated. The independent identity rules distinguish Dibba Municipality in Fujairah from Dibba Al Hisn City Municipality in Sharjah, and distinguish numbered sectors, areas, constituents, and authorities. Validation reports zero duplicate IDs, orphans, cycles, or country mismatches; type counts are `{'ae_abu_dhabi_municipality_jurisdiction': 3, 'ae_ajman_constituent': 3, 'ae_dubai_planning_sector': 9, 'ae_emirate': 7, 'ae_fujairah_municipal_authority': 2, 'ae_rak_administrative_area': 5, 'ae_sharjah_municipality_jurisdiction': 9, 'ae_uaq_municipal_authority': 2, 'country': 1, 'cultural_site': 2, 'natural_site': 1}`.
 
 ## Temporal Status
 
@@ -97,26 +97,31 @@ No populated-place Entity was added. The pilot found no dated enumerable UAE-wid
 
 ## Denominators and Coverage
 
-There are **12 Denominators** and 12 paired Coverage records: **9 closed** and **3 unavailable**. Every closed layer satisfies `matched + excluded = denominator`; every unavailable layer has a reason and no percentage.
+There are **17 Denominators** and 17 paired Coverage records: **9 closed** and **8 unavailable**. Every closed layer satisfies `matched + excluded = denominator`; every unavailable layer has a reason and no percentage.
 
 | Layer | Denominator | Matched | Excluded | Unmatched | Coverage | Missing reason |
 |---|---:|---:|---:|---:|---:|---|
 | `abu_dhabi_municipality_jurisdictions` | 3 | 3 | 0 | 0 | 100.0% | — |
 | `ajman_constituents` | 3 | 3 | 0 | 0 | 100.0% | — |
+| `classified_local_knowledge` | unavailable | 0 | 0 | 0 | — | knowledge/list layer: no spatial denominator is asserted and no percentage is calculated |
 | `country_scope` | 1 | 1 | 0 | 0 | 100.0% | — |
 | `dubai_planning_communities` | unavailable | 0 | 0 | 0 | — | denominator_unavailable: official Community.kml metadata was found, but the file could not be retrieved or enumerated; no web list or selected statistical rows were treated as a denominator |
 | `dubai_planning_sectors` | 9 | 9 | 0 | 0 | 100.0% | — |
 | `emirates` | 7 | 7 | 0 | 0 | 100.0% | — |
 | `fujairah_municipal_authorities` | 2 | 2 | 0 | 0 | 100.0% | — |
+| `heritage_places` | unavailable | 0 | 0 | 0 | — | knowledge/list layer: no spatial denominator is asserted and no percentage is calculated |
 | `neighborhoods` | unavailable | 0 | 0 | 0 | — | denominator_unavailable: no dated enumerable official cross-emirate neighborhood registry was established; no percentage is calculated |
 | `populated_places` | unavailable | 0 | 0 | 0 | — | denominator_unavailable: no dated enumerable official UAE-wide registry of cities, towns, villages, or settlements was established; contextual page mentions are not a denominator |
 | `rak_administrative_areas` | 5 | 5 | 0 | 0 | 100.0% | — |
 | `sharjah_municipality_jurisdictions` | 9 | 9 | 0 | 0 | 100.0% | — |
 | `uaq_municipal_authorities` | 2 | 2 | 0 | 0 | 100.0% | — |
+| `unesco_intangible_heritage` | unavailable | 0 | 0 | 0 | — | knowledge/list layer: no spatial denominator is asserted and no percentage is calculated |
+| `world_heritage_inscribed` | unavailable | 0 | 0 | 0 | — | knowledge/list layer: no spatial denominator is asserted and no percentage is calculated |
+| `world_heritage_tentative_list` | unavailable | 0 | 0 | 0 | — | knowledge/list layer: no spatial denominator is asserted and no percentage is calculated |
 
 ## Cultural Sample
 
-The sourced sample represents all seven emirates and the required coastal, desert, mountain, oasis, urban, and historical contexts. Environmental, heritage, livelihood, craft, and custom material is attached as scoped Claims to the country or emirate identity; unsupported fields are not filled. Cultural classifications are `{'emirate_specific': 14, 'historical': 3, 'local': 7, 'national': 5, 'popular': 2, 'regional': 2, 'shared': 3}`.
+The sourced sample represents all seven emirates and the required coastal, desert, mountain, oasis, urban, and historical contexts. Environmental, heritage, livelihood, craft, and custom material is attached as scoped Claims to the country or emirate identity; unsupported fields are not filled. Cultural classifications are `{'emirate_specific': 14, 'historical': 5, 'local': 22, 'local_reported': 15, 'national': 6, 'official': 27, 'popular': 5, 'regional': 3, 'shared': 9}`.
 
 ## Food, Dress, and Scope
 
@@ -132,9 +137,49 @@ The sample is limited to three forms from Ribeiro Daquila (2020). `وايد` and
 | شو | what | Emirati Arabic sample as used in the study | `ENT-AE-COUNTRY` | colloquial | 2020-12-18 | `regional` |
 | وايد | very much; a lot | Emirati Arabic sample as used in the study | `ENT-AE-COUNTRY` | colloquial | 2020-12-18 | `regional` |
 
+## UNESCO Depth Cycle
+
+Depth cycle 1 adds the UNESCO state pages, the Al Azi element page and the ISO 639-3 registration, and imports **70 depth Claims** (33 published from tier A and 37 declared weak and unpublished). Of **21** ICH inscriptions on the state page, **7** files are classified here: **1** sole-submitter national element (`العزي 01268`, USL 2017) and **6** shared files that are never promoted to national; the other **13** element files are recorded with their reference, year and list but **without any scope label**, because their submitting-State list was not read in this cycle. The Article 18 register entry `02473` stays a safeguarding programme, and the **4** 2026 nominations stay announced, never inscribed.
+
+| Element | Ref | Year | List | Scope |
+| --- | --- | --- | --- | --- |
+| التغرودة: شعر بدوي مُنشَد | 00744 | 2012 | القائمة التمثيلية | `shared` |
+| العيالة: فن أدائي تقليدي | 01012 | 2014 | القائمة التمثيلية | `shared` |
+| العزي: فن أداء شعر المدح والفخر والثبات | 01268 | 2017 | قائمة الصون العاجل | `national` |
+| الخط العربي: المعرفة والمهارات والممارسات | 01718 | 2021 | القائمة التمثيلية | `shared` |
+| النخلة: المعرفة والمهارات والتقاليد والممارسات | 01902 | 2022 | القائمة التمثيلية | `shared` |
+| الحناء: الشعائر والممارسات الجمالية والاجتماعية | 02116 | 2024 | القائمة التمثيلية | `shared` |
+| الزفّة في العرس التقليدي | 02283 | 2025 | القائمة التمثيلية | `shared` |
+
+Deferred element files (scope deliberately unrecorded):
+
+- المجلس: فضاء ثقافي واجتماعي (`01076`, 2015, `RL`, submitting-State list unread)
+- الرزفة: فن أدائي تقليدي (`01078`, 2015, `RL`, submitting-State list unread)
+- سباق الهجن: ممارسة اجتماعية وتراث احتفالي (`01576`, 2020, `RL`, submitting-State list unread)
+- الأفلاج: شبكة الريّ التقليدي في الإمارات (`01577`, 2020, `RL`, submitting-State list unread)
+- الصقارة: تراث إنساني حيّ (`01708`, 2021, `RL`, submitting-State list unread)
+- التلي: مهارات التطريز التقليدي في الإمارات (`01712`, 2022, `RL`, submitting-State list unread)
+- الهدهدة: التقاليد الشفهية لمناداة الإبل (`01717`, 2022, `RL`, submitting-State list unread)
+- الهريس: المعرفة والمهارات والممارسات (`01744`, 2023, `RL`, submitting-State list unread)
+- القهوة العربية رمز الكرم (`02111`, 2024, `RL`, submitting-State list unread)
+- السدو: مهارات النسج التقليدي في الإمارات (`02223`, 2025, `RL`, submitting-State list unread)
+- البشت (العباءة الرجالية): المهارات والممارسات (`02233`, 2025, `RL`, submitting-State list unread)
+- الكحل العربي (`02261`, 2025, `RL`, submitting-State list unread)
+- الأحلّة: فن أدائي حيّ في الإمارات (`02279`, 2025, `RL`, submitting-State list unread)
+
+World Heritage: accession **2001-05-11**, **3** inscribed properties, approved assistance requests **0** (a published zero), and **15** tentative-list files that are never styled as inscribed. Criteria and the emirate of each property stay empty because they were not read.
+
+| Property | Ref | Year | Category | Criteria |
+| --- | --- | --- | --- | --- |
+| المواقع الثقافية في العين (حفيت وهِلي وبدع بنت سعود ومناطق الواحات) | 1343 | 2011 | ثقافي | criteria unread |
+| وادي وُرَيّة | 1724 | 2026 | طبيعي | criteria unread |
+| فايا: مشهد أرضي قديم (Faya Palaeolandscape) | 1735 | 2025 | ثقافي | criteria unread |
+
+Languages: the state-wide mirror lists Arabic as official and English as widely spoken, with expatriate languages recorded without counts; the Emirati dialect is tied to ISO 639-3 `afb` Gulf Arabic. Classified but unpublished local knowledge: **12** dishes, **3** crafts and symbols, **3** customs, **2** published narratives and **3** heritage places with `located_in` only, no coordinates and no population. No speaker, population or share number is recorded anywhere in this cycle.
+
 ## Independent Review and Negative Tests
 
-Independent review is **PASS**: 33/33 sampled checks passed, with every required family at least 10% (`aliases 5/42, claims 8/76, coverage 2/12, cultural_claims 4/36, denominators 2/12, dialect_claims 1/3, entities 5/41, relationships 4/40, sources 2/20`). It does not import or call the UAE importer. Negative testing is **PASS**: 8/8 required mutations detected. P0=0; critical P1=0.
+Independent review is **PASS**: 45/45 sampled checks passed, with every required family at least 10% (`aliases 5/42, claims 11/109, coverage 2/17, cultural_claims 7/69, deferred_claims 4/37, denominators 2/17, dialect_claims 1/3, entities 5/44, relationships 5/43, sources 3/26`). It does not import or call the UAE importer. Negative testing is **PASS**: 27/27 required mutations detected. P0=0; critical P1=0.
 
 ## Final Gate
 

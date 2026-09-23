@@ -5,7 +5,7 @@
       "status": "pass"
     },
     "atomic_sources": {
-      "detail": "atomic source files=273",
+      "detail": "atomic source files=279",
       "status": "pass"
     },
     "boundary_overlap_model": {
@@ -25,8 +25,8 @@
       "status": "pass"
     },
     "clean_worktree": {
-      "detail": "git worktree clean=True",
-      "status": "pass"
+      "detail": "git worktree clean=False",
+      "status": "fail"
     },
     "completion_claims": {
       "detail": "README declares incomplete local coverage and constrains 100%",
@@ -54,31 +54,31 @@
     },
     "generated_freshness": {
       "command": "python3 scripts/generate.py --check",
-      "returncode": 0,
-      "status": "pass",
-      "stderr": "",
-      "stdout": "generated output is current (64 files)"
+      "returncode": 1,
+      "status": "fail",
+      "stderr": "generated output is stale: changed/missing=['json/entities.json', 'csv/entities.csv', 'json/relationships.json', 'csv/relationships.csv', 'json/claims.json', 'csv/claims.csv', 'json/snapshots.json', 'csv/snapshots.csv', 'json/sources.json', 'csv/sources.csv', 'json/canonical_bundle.json', 'markdown/countries/AE.md', 'html/countries/AE.html', 'markdown/README.md', 'html/index.html', 'metadata.json'], extra=[]",
+      "stdout": ""
     },
     "generated_freshness_after_jordan": {
       "command": "python3 scripts/generate.py --check",
-      "returncode": 0,
-      "status": "pass",
-      "stderr": "",
-      "stdout": "generated output is current (64 files)"
+      "returncode": 1,
+      "status": "fail",
+      "stderr": "generated output is stale: changed/missing=['json/entities.json', 'csv/entities.csv', 'json/relationships.json', 'csv/relationships.csv', 'json/claims.json', 'csv/claims.csv', 'json/snapshots.json', 'csv/snapshots.csv', 'json/sources.json', 'csv/sources.csv', 'json/canonical_bundle.json', 'markdown/countries/AE.md', 'html/countries/AE.html', 'markdown/README.md', 'html/index.html', 'metadata.json'], extra=[]",
+      "stdout": ""
     },
     "generated_freshness_after_saudi": {
       "command": "python3 scripts/generate.py --check",
-      "returncode": 0,
-      "status": "pass",
-      "stderr": "",
-      "stdout": "generated output is current (64 files)"
+      "returncode": 1,
+      "status": "fail",
+      "stderr": "generated output is stale: changed/missing=['json/entities.json', 'csv/entities.csv', 'json/relationships.json', 'csv/relationships.csv', 'json/claims.json', 'csv/claims.csv', 'json/snapshots.json', 'csv/snapshots.csv', 'json/sources.json', 'csv/sources.csv', 'json/canonical_bundle.json', 'markdown/countries/AE.md', 'html/countries/AE.html', 'markdown/README.md', 'html/index.html', 'metadata.json'], extra=[]",
+      "stdout": ""
     },
     "generated_freshness_after_uae": {
       "command": "python3 scripts/generate.py --check",
-      "returncode": 0,
-      "status": "pass",
-      "stderr": "",
-      "stdout": "generated output is current (64 files)"
+      "returncode": 1,
+      "status": "fail",
+      "stderr": "generated output is stale: changed/missing=['json/entities.json', 'csv/entities.csv', 'json/relationships.json', 'csv/relationships.csv', 'json/claims.json', 'csv/claims.csv', 'json/snapshots.json', 'csv/snapshots.csv', 'json/sources.json', 'csv/sources.csv', 'json/canonical_bundle.json', 'markdown/countries/AE.md', 'html/countries/AE.html', 'markdown/README.md', 'html/index.html', 'metadata.json'], extra=[]",
+      "stdout": ""
     },
     "independent_review": {
       "detail": "sample={'claim': 7, 'entity': 275, 'hierarchy': 313, 'source': 3}, outcomes={'correct': 598}",
@@ -164,24 +164,24 @@
       "status": "pass"
     },
     "non_jordan_preservation": {
-      "detail": "canonical non-Jordan SHA-256 unchanged=e5ef3dad3080b86efcd6ef188eafbb8590adbffcc90f77303203ed2cdfc37358",
+      "detail": "canonical non-Jordan SHA-256 unchanged=bcc8e10ea883664139892d4c8f619429c8f79521f83afdbdb622d50590c4dbb7",
       "status": "pass"
     },
     "non_saudi_preservation": {
-      "detail": "canonical non-Saudi SHA-256 unchanged=e5e803dd00f2bce8dd42e19fb9e1e6a3b65c89a27b947069b0ab055cb492dbc5",
+      "detail": "canonical non-Saudi SHA-256 unchanged=1d872cb509bce9630142bd15b2f3e0bcb17cd342a0ed6f11602a85658aa12423",
       "status": "pass"
     },
     "non_tunisia_preservation": {
-      "detail": "canonical non-Tunisia SHA-256 unchanged=423b685c4487f673d4b7aa624f29c1b839466dfab1b8943ede3a94930746255f",
+      "detail": "canonical non-Tunisia SHA-256 unchanged=d9eb4878ed605e3acbbba8dd01733e62dee147eb7460aefb02e1bec076c1fe23",
       "status": "pass"
     },
     "non_uae_preservation": {
-      "detail": "canonical non-UAE SHA-256 unchanged=30d0656f29854c845dcb984343b5faff757f10445f51d7499c3e772b167cfdde",
+      "detail": "canonical non-UAE SHA-256 unchanged=ea176bc0930de3dfaea4afdec734e9ddf0668b27b1a3586e9dad4dc51eb86fb0",
       "status": "pass"
     },
     "p0_clear": {
       "detail": "all structural and Phase 2 acceptance checks are clear",
-      "status": "pass"
+      "status": "fail"
     },
     "phase2_core_counts": {
       "detail": "24/264/350/2084 actual=24/264/350/2084",
@@ -196,8 +196,8 @@
       "status": "pass"
     },
     "saudi_clean_worktree": {
-      "detail": "git worktree clean=True",
-      "status": "pass"
+      "detail": "git worktree clean=False",
+      "status": "fail"
     },
     "saudi_final_report": {
       "detail": "20-section Saudi final report exists; overall PASS also requires a separately recorded green remote run",
@@ -268,10 +268,10 @@
     },
     "schema_migration_tests": {
       "command": "python3 scripts/test_schema_migration.py",
-      "returncode": 0,
-      "status": "pass",
-      "stderr": "",
-      "stdout": "Schema migration tests PASS: 9/9; semantic_loss=false; idempotent; deterministic; negative=6/6"
+      "returncode": 1,
+      "status": "fail",
+      "stderr": "Traceback (most recent call last):\n  File \"/home/user/arab/scripts/test_schema_migration.py\", line 150, in <module>\n    raise SystemExit(main())\n                     ^^^^^^\n  File \"/home/user/arab/scripts/test_schema_migration.py\", line 113, in main\n    assert not validation.errors, f\"repository validator has {len(validation.errors)} errors\"\nAssertionError: repository validator has 6 errors",
+      "stdout": ""
     },
     "sensitive_claims": {
       "detail": "non-disputed sensitive claims without two independent sources=0",
@@ -282,11 +282,11 @@
       "status": "pass"
     },
     "sourced_claims": {
-      "detail": "source-backed claims=2848",
+      "detail": "source-backed claims=2918",
       "status": "pass"
     },
     "sourced_entities": {
-      "detail": "source-backed entities=6527",
+      "detail": "source-backed entities=6530",
       "status": "pass"
     },
     "tunisia_core": {
@@ -313,12 +313,12 @@
       "status": "pass"
     },
     "uae_clean_worktree": {
-      "detail": "git worktree clean=True",
-      "status": "pass"
+      "detail": "git worktree clean=False",
+      "status": "fail"
     },
     "uae_evidence_idempotence": {
-      "detail": "validation, mutation, sample, and review hashes unchanged=True",
-      "status": "pass"
+      "detail": "validation, mutation, sample, and review hashes unchanged=False",
+      "status": "fail"
     },
     "uae_final_report": {
       "detail": "exact section count=22, first=Decision, last=Final Gate",
@@ -326,39 +326,39 @@
     },
     "uae_final_report_freshness": {
       "command": "python3 scripts/generate_uae_report.py --check",
-      "returncode": 0,
-      "status": "pass",
+      "returncode": 1,
+      "status": "fail",
       "stderr": "",
-      "stdout": "Generated UAE report is current and has exactly 22 sections."
+      "stdout": "Generated UAE report is stale: reports/UAE_PILOT_FINAL.md"
     },
     "uae_findings_closed": {
-      "detail": "status=PASS, P0=0, critical P1=0",
-      "status": "pass"
+      "detail": "status=FAIL, P0=1, critical P1=12",
+      "status": "fail"
     },
     "uae_import_idempotence": {
-      "detail": "all 8 importer-managed hashes unchanged=True",
-      "status": "pass"
+      "detail": "all 8 importer-managed hashes unchanged=False",
+      "status": "fail"
     },
     "uae_import_refresh": {
       "command": "python3 scripts/import_uae_phase5.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "Materialized 19 UAE source records from checksum-bound extracts.\nUAE import complete: 41 entities including country, 42 aliases including country, 40 relationships, 76 claims, 12 denominators."
+      "stdout": "Materialized 25 UAE source records from checksum-bound extracts.\nUAE import complete: 44 entities including country, 42 aliases including country, 43 relationships, 146 claims, 12 denominators."
     },
     "uae_independent_review": {
       "command": "python3 scripts/review_uae.py",
-      "returncode": 0,
-      "status": "pass",
+      "returncode": 1,
+      "status": "fail",
       "stderr": "",
-      "stdout": "[PASS] aliases: 5/5 sampled records passed\n[PASS] claims: 8/8 sampled records passed\n[PASS] coverage: 2/2 sampled records passed\n[PASS] cultural_claims: 4/4 sampled records passed\n[PASS] denominators: 2/2 sampled records passed\n[PASS] dialect_claims: 1/1 sampled records passed\n[PASS] entities: 5/5 sampled records passed\n[PASS] relationships: 4/4 sampled records passed\n[PASS] sources: 2/2 sampled records passed\nIndependent UAE review: 33/33 passed; P0=0; critical P1=0."
+      "stdout": "[PASS] aliases: 5/5 sampled records passed\n[FAIL] claims: 11/15 sampled records passed\n[PASS] coverage: 2/2 sampled records passed\n[FAIL] cultural_claims: 9/11 sampled records passed\n[PASS] denominators: 2/2 sampled records passed\n[PASS] dialect_claims: 1/1 sampled records passed\n[FAIL] entities: 4/5 sampled records passed\n[FAIL] relationships: 4/5 sampled records passed\n[PASS] sources: 3/3 sampled records passed\nIndependent UAE review: 41/49 passed; P0=0; critical P1=8."
     },
     "uae_negative_tests": {
       "command": "python3 scripts/test_uae_negative.py",
-      "returncode": 0,
-      "status": "pass",
-      "stderr": "",
-      "stdout": "[PASS] UAE_WRONG_EMIRATE_PARENT: expected UAE_PARENT_PROFILE; observed ['UAE_PARENT_PROFILE']\n[PASS] UAE_WRONG_LOCAL_TYPE: expected UAE_LOCAL_TYPE; observed ['UAE_ENTITY_COUNTS', 'UAE_LOCAL_TYPE']\n[PASS] UAE_ALIAS_AS_ENTITY: expected UAE_ALIAS_ENTITY; observed ['UAE_ALIAS_ENTITY', 'UAE_ENTITY_COUNTS', 'UAE_PROFILE_MEMBERSHIP']\n[PASS] UAE_SHARED_FOOD_AS_EXCLUSIVE: expected UAE_EXCLUSIVITY; observed ['UAE_EXCLUSIVITY']\n[PASS] UAE_NATIONAL_CLAIM_AS_LOCAL: expected UAE_NATIONAL_SCOPE; observed ['UAE_NATIONAL_SCOPE']\n[PASS] UAE_HISTORIC_AS_CURRENT: expected UAE_TEMPORAL_STATUS; observed ['UAE_TEMPORAL_STATUS']\n[PASS] UAE_SAME_NAME_DIFFERENT_PARENT: expected UAE_IDENTITY_COLLAPSE; observed ['UAE_ALIAS_POLICY', 'UAE_ENTITY_COUNTS', 'UAE_IDENTITY_COLLAPSE', 'UAE_PARENT_PROFILE', 'UAE_PROFILE_MEMBERSHIP', 'UAE_SEMANTICS']\n[PASS] UAE_FOREIGN_SOURCE: expected UAE_FOREIGN_SOURCE; observed ['UAE_FOREIGN_SOURCE']\nUAE negative tests: 8/8 required mutations detected."
+      "returncode": 1,
+      "status": "fail",
+      "stderr": "baseline UAE data must pass before mutation testing",
+      "stdout": ""
     },
     "uae_required_mutations": {
       "detail": "detected=8/8, exact required set=True",
@@ -369,77 +369,101 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "[PASS] entities: 5/41 (12.2%)\n[PASS] aliases: 5/42 (11.9%)\n[PASS] relationships: 4/40 (10.0%)\n[PASS] claims: 8/76 (10.53%)\n[PASS] sources: 2/20 (10.0%)\n[PASS] denominators: 2/12 (16.67%)\n[PASS] coverage: 2/12 (16.67%)\n[PASS] cultural_claims: 4/36 (11.11%)\n[PASS] dialect_claims: 1/3 (33.33%)\nBuilt 33 deterministic UAE review selections across 9 required families."
+      "stdout": "[PASS] entities: 5/44 (11.36%)\n[PASS] aliases: 5/42 (11.9%)\n[PASS] relationships: 5/43 (11.63%)\n[PASS] claims: 15/146 (10.27%)\n[PASS] sources: 3/26 (11.54%)\n[PASS] denominators: 2/12 (16.67%)\n[PASS] coverage: 2/12 (16.67%)\n[PASS] cultural_claims: 11/106 (10.38%)\n[PASS] dialect_claims: 1/3 (33.33%)\nBuilt 49 deterministic UAE review selections across 9 required families."
     },
     "uae_review_threshold": {
-      "detail": "families=9/9, passed=33/33, minimum 10% met for every family",
-      "status": "pass"
+      "detail": "families=9/9, passed=41/49, minimum 10% met for every family",
+      "status": "fail"
     },
     "uae_semantic_validation": {
       "command": "python3 scripts/validate_uae.py",
-      "returncode": 0,
-      "status": "pass",
+      "returncode": 1,
+      "status": "fail",
       "stderr": "",
-      "stdout": "[PASS] entities: entities=41, contextual_types=8, type_counts={'ae_abu_dhabi_municipality_jurisdiction': 3, 'ae_ajman_constituent': 3, 'ae_dubai_planning_sector': 9, 'ae_emirate': 7, 'ae_fujairah_municipal_authority': 2, 'ae_rak_administrative_area': 5, 'ae_sharjah_municipality_jurisdiction': 9, 'ae_uaq_municipal_authority': 2, 'country': 1}\n[PASS] emirate_profiles: profiles=7, profiled_entities=40\n[PASS] relationships: relationships=40, administrative_parents=40, orphans=0\n[PASS] aliases: aliases=42, historical_aliases=1\n[PASS] claims: claims=76, semantics=40, cultural=36, dialect=3, sensitive=0, contexts={'coastal': True, 'desert': True, 'mountain': True, 'oasis': True, 'urban': True, 'historical': True}\n[PASS] sources: referenced=20, pilot_specific=19, ab_claims=76, published_claims=76, ab_ratio=100.0, evidence_extracts=19\n[PASS] coverage: denominators=12, coverage_records=12, closed_layers=9, unavailable_layers=3, bounded_denominators={'emirates': 7, 'abu_dhabi_municipality_jurisdictions': 3, 'dubai_planning_sectors': 9, 'sharjah_municipality_jurisdictions': 9, 'ajman_constituents': 3, 'uaq_municipal_authorities': 2, 'rak_administrative_areas': 5, 'fujairah_municipal_authorities': 2}\n[PASS] schema: schema_version=2.0.0, additive_entity_types=8, additive_entity_statuses=3, additive_claim_classifications=1, optional_manifest_properties=1, deprecated_generic_types_retained=['ae_district', 'ae_municipal_region', 'ae_sector']\nUAE semantic validation passed with zero P0/critical P1 findings."
+      "stdout": "[FAIL] entities: entities=44, contextual_types=8, type_counts={'ae_abu_dhabi_municipality_jurisdiction': 3, 'ae_ajman_constituent': 3, 'ae_dubai_planning_sector': 9, 'ae_emirate': 7, 'ae_fujairah_municipal_authority': 2, 'ae_rak_administrative_area': 5, 'ae_sharjah_municipality_jurisdiction': 9, 'ae_uaq_municipal_authority': 2, 'country': 1, 'cultural_site': 2, 'natural_site': 1}\n[FAIL] emirate_profiles: profiles=7, profiled_entities=40\n[PASS] relationships: relationships=43, administrative_parents=40, orphans=0\n[PASS] aliases: aliases=42, historical_aliases=1\n[PASS] claims: claims=146, semantics=40, cultural=106, dialect=3, sensitive=0, contexts={'coastal': True, 'desert': True, 'mountain': True, 'oasis': True, 'urban': True, 'historical': True}\n[FAIL] sources: referenced=26, pilot_specific=22, ab_claims=109, published_claims=109, ab_ratio=100.0, evidence_extracts=25\n[FAIL] coverage: denominators=12, coverage_records=12, closed_layers=9, unavailable_layers=3, bounded_denominators={'emirates': 7, 'abu_dhabi_municipality_jurisdictions': 3, 'dubai_planning_sectors': 9, 'sharjah_municipality_jurisdictions': 9, 'ajman_constituents': 3, 'uaq_municipal_authorities': 2, 'rak_administrative_areas': 5, 'fujairah_municipal_authorities': 2}\n[PASS] schema: schema_version=2.0.0, additive_entity_types=8, additive_entity_statuses=3, additive_claim_classifications=1, optional_manifest_properties=1, deprecated_generic_types_retained=['ae_district', 'ae_municipal_region', 'ae_sector']\nUAE semantic validation failed with 13 error(s).\n- P1 UAE_ENTITY_COUNTS: expected {'country': 1, 'ae_emirate': 7, 'ae_abu_dhabi_municipality_jurisdiction': 3, 'ae_dubai_planning_sector': 9, 'ae_sharjah_municipality_jurisdiction': 9, 'ae_ajman_constituent': 3, 'ae_uaq_municipal_authority': 2, 'ae_rak_administrative_area': 5, 'ae_fujairah_municipal_authority': 2}, got {'ae_abu_dhabi_municipality_jurisdiction': 3, 'ae_ajman_constituent': 3, 'ae_sharjah_municipality_jurisdiction': 9, 'country': 1, 'ae_fujairah_municipal_authority': 2, 'ae_dubai_planning_sector': 9, 'ae_emirate': 7, 'ae_uaq_municipal_authority': 2, 'ae_rak_administrative_area': 5, 'cultural_site': 2, 'natural_site': 1}\n- P1 UAE_PROFILE_MEMBERSHIP: manifest/entity mismatch missing=[], extra=['ENT-AE-SITE-AL-AIN', 'ENT-AE-SITE-FAYA', 'ENT-AE-SITE-WURAYAH']\n- P0 UAE_SOURCE_CHECKSUM: expected 19 persisted UAE evidence extracts\n- P1 UAE_COVERAGE: missing records for manifest layer unesco_intangible_heritage\n- P1 UAE_COVERAGE: missing records for manifest layer world_heritage_inscribed\n- P1 UAE_COVERAGE: missing records for manifest layer world_heritage_tentative_list\n- P1 UAE_COVERAGE: missing records for manifest layer heritage_places\n- P1 UAE_COVERAGE: missing records for manifest layer classified_local_knowledge\n- P1 UAE_COVERAGE: missing records for manifest layer unesco_intangible_heritage\n- P1 UAE_COVERAGE: missing records for manifest layer world_heritage_inscribed\n- P1 UAE_COVERAGE: missing records for manifest layer world_heritage_tentative_list\n- P1 UAE_COVERAGE: missing records for manifest layer heritage_places\n- P1 UAE_COVERAGE: missing records for manifest layer classified_local_knowledge"
     },
     "uae_source_idempotence": {
-      "detail": "UAE atomic sources=19/19, hashes unchanged=True",
-      "status": "pass"
+      "detail": "UAE atomic sources=22/19, hashes unchanged=True",
+      "status": "fail"
     },
     "uae_source_refresh": {
       "command": "python3 scripts/build_uae_sources.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "Materialized 19 UAE source records from checksum-bound extracts."
+      "stdout": "Materialized 25 UAE source records from checksum-bound extracts."
     },
     "uae_source_threshold": {
-      "detail": "A/B published claims=76/76 (100.0%)",
+      "detail": "A/B published claims=109/109 (100.0%)",
       "status": "pass"
     },
     "validation": {
       "command": "python3 scripts/validate.py",
-      "returncode": 0,
-      "status": "pass",
-      "stderr": "",
-      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=20105\n[PASS] ids: global_ids=20105, duplicate_ids=0\n[PASS] entity_types: allowed_types=104, active_types=68\n[PASS] sources: atomic_files=273, sources=273, references=22718\n[PASS] parents: administrative_relationships=5639\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3265, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2848, sourced=2848\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=115, coverage_records=115, complete_layers=97\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
+      "returncode": 1,
+      "status": "fail",
+      "stderr": "6 validation error(s):\n- sources SRC-AE-CUISINE-MIRROR-2026: unavailable publication_date requires an explicit reason in notes\n- sources SRC-AE-CULTURE-MIRROR-2026: unavailable publication_date requires an explicit reason in notes\n- sources SRC-AE-ISO639-3-ARABIC: unavailable publication_date requires an explicit reason in notes\n- sources SRC-UNESCO-ICH-AE-AL-AZI-01268-2017: unavailable publication_date requires an explicit reason in notes\n- sources SRC-UNESCO-ICH-AE-STATE-2026: unavailable publication_date requires an explicit reason in notes\n- sources SRC-UNESCO-WH-AE-STATE-2026: unavailable publication_date requires an explicit reason in notes",
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=20187\n[PASS] ids: global_ids=20187, duplicate_ids=0\n[PASS] entity_types: allowed_types=104, active_types=68\n[FAIL] sources: atomic_files=279, sources=279, references=22796\n[PASS] parents: administrative_relationships=5639\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3265, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2918, sourced=2918\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=115, coverage_records=115, complete_layers=97\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0"
     },
     "validation_after_jordan": {
       "command": "python3 scripts/validate.py",
-      "returncode": 0,
-      "status": "pass",
-      "stderr": "",
-      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=20105\n[PASS] ids: global_ids=20105, duplicate_ids=0\n[PASS] entity_types: allowed_types=104, active_types=68\n[PASS] sources: atomic_files=273, sources=273, references=22718\n[PASS] parents: administrative_relationships=5639\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3265, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2848, sourced=2848\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=115, coverage_records=115, complete_layers=97\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
+      "returncode": 1,
+      "status": "fail",
+      "stderr": "6 validation error(s):\n- sources SRC-AE-CUISINE-MIRROR-2026: unavailable publication_date requires an explicit reason in notes\n- sources SRC-AE-CULTURE-MIRROR-2026: unavailable publication_date requires an explicit reason in notes\n- sources SRC-AE-ISO639-3-ARABIC: unavailable publication_date requires an explicit reason in notes\n- sources SRC-UNESCO-ICH-AE-AL-AZI-01268-2017: unavailable publication_date requires an explicit reason in notes\n- sources SRC-UNESCO-ICH-AE-STATE-2026: unavailable publication_date requires an explicit reason in notes\n- sources SRC-UNESCO-WH-AE-STATE-2026: unavailable publication_date requires an explicit reason in notes",
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=20187\n[PASS] ids: global_ids=20187, duplicate_ids=0\n[PASS] entity_types: allowed_types=104, active_types=68\n[FAIL] sources: atomic_files=279, sources=279, references=22796\n[PASS] parents: administrative_relationships=5639\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3265, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2918, sourced=2918\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=115, coverage_records=115, complete_layers=97\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0"
     },
     "validation_after_review": {
       "command": "python3 scripts/validate.py",
-      "returncode": 0,
-      "status": "pass",
-      "stderr": "",
-      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=20105\n[PASS] ids: global_ids=20105, duplicate_ids=0\n[PASS] entity_types: allowed_types=104, active_types=68\n[PASS] sources: atomic_files=273, sources=273, references=22718\n[PASS] parents: administrative_relationships=5639\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3265, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2848, sourced=2848\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=115, coverage_records=115, complete_layers=97\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
+      "returncode": 1,
+      "status": "fail",
+      "stderr": "6 validation error(s):\n- sources SRC-AE-CUISINE-MIRROR-2026: unavailable publication_date requires an explicit reason in notes\n- sources SRC-AE-CULTURE-MIRROR-2026: unavailable publication_date requires an explicit reason in notes\n- sources SRC-AE-ISO639-3-ARABIC: unavailable publication_date requires an explicit reason in notes\n- sources SRC-UNESCO-ICH-AE-AL-AZI-01268-2017: unavailable publication_date requires an explicit reason in notes\n- sources SRC-UNESCO-ICH-AE-STATE-2026: unavailable publication_date requires an explicit reason in notes\n- sources SRC-UNESCO-WH-AE-STATE-2026: unavailable publication_date requires an explicit reason in notes",
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=20187\n[PASS] ids: global_ids=20187, duplicate_ids=0\n[PASS] entity_types: allowed_types=104, active_types=68\n[FAIL] sources: atomic_files=279, sources=279, references=22796\n[PASS] parents: administrative_relationships=5639\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3265, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2918, sourced=2918\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=115, coverage_records=115, complete_layers=97\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0"
     },
     "validation_after_saudi": {
       "command": "python3 scripts/validate.py",
-      "returncode": 0,
-      "status": "pass",
-      "stderr": "",
-      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=20105\n[PASS] ids: global_ids=20105, duplicate_ids=0\n[PASS] entity_types: allowed_types=104, active_types=68\n[PASS] sources: atomic_files=273, sources=273, references=22718\n[PASS] parents: administrative_relationships=5639\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3265, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2848, sourced=2848\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=115, coverage_records=115, complete_layers=97\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
+      "returncode": 1,
+      "status": "fail",
+      "stderr": "6 validation error(s):\n- sources SRC-AE-CUISINE-MIRROR-2026: unavailable publication_date requires an explicit reason in notes\n- sources SRC-AE-CULTURE-MIRROR-2026: unavailable publication_date requires an explicit reason in notes\n- sources SRC-AE-ISO639-3-ARABIC: unavailable publication_date requires an explicit reason in notes\n- sources SRC-UNESCO-ICH-AE-AL-AZI-01268-2017: unavailable publication_date requires an explicit reason in notes\n- sources SRC-UNESCO-ICH-AE-STATE-2026: unavailable publication_date requires an explicit reason in notes\n- sources SRC-UNESCO-WH-AE-STATE-2026: unavailable publication_date requires an explicit reason in notes",
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=20187\n[PASS] ids: global_ids=20187, duplicate_ids=0\n[PASS] entity_types: allowed_types=104, active_types=68\n[FAIL] sources: atomic_files=279, sources=279, references=22796\n[PASS] parents: administrative_relationships=5639\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3265, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2918, sourced=2918\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=115, coverage_records=115, complete_layers=97\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0"
     },
     "validation_after_uae": {
       "command": "python3 scripts/validate.py",
-      "returncode": 0,
-      "status": "pass",
-      "stderr": "",
-      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=20105\n[PASS] ids: global_ids=20105, duplicate_ids=0\n[PASS] entity_types: allowed_types=104, active_types=68\n[PASS] sources: atomic_files=273, sources=273, references=22718\n[PASS] parents: administrative_relationships=5639\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3265, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2848, sourced=2848\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=115, coverage_records=115, complete_layers=97\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
+      "returncode": 1,
+      "status": "fail",
+      "stderr": "6 validation error(s):\n- sources SRC-AE-CUISINE-MIRROR-2026: unavailable publication_date requires an explicit reason in notes\n- sources SRC-AE-CULTURE-MIRROR-2026: unavailable publication_date requires an explicit reason in notes\n- sources SRC-AE-ISO639-3-ARABIC: unavailable publication_date requires an explicit reason in notes\n- sources SRC-UNESCO-ICH-AE-AL-AZI-01268-2017: unavailable publication_date requires an explicit reason in notes\n- sources SRC-UNESCO-ICH-AE-STATE-2026: unavailable publication_date requires an explicit reason in notes\n- sources SRC-UNESCO-WH-AE-STATE-2026: unavailable publication_date requires an explicit reason in notes",
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=20187\n[PASS] ids: global_ids=20187, duplicate_ids=0\n[PASS] entity_types: allowed_types=104, active_types=68\n[FAIL] sources: atomic_files=279, sources=279, references=22796\n[PASS] parents: administrative_relationships=5639\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3265, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2918, sourced=2918\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=115, coverage_records=115, complete_layers=97\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0"
     },
     "validator": {
       "detail": "dependency-free validator exists",
       "status": "pass"
     }
   },
-  "errors": [],
+  "errors": [
+    "schema_migration_tests: command failed with exit 1",
+    "validation: command failed with exit 1",
+    "generated_freshness: command failed with exit 1",
+    "validation_after_review: command failed with exit 1",
+    "p0_clear: all structural and Phase 2 acceptance checks are clear",
+    "validation_after_jordan: command failed with exit 1",
+    "generated_freshness_after_jordan: command failed with exit 1",
+    "clean_worktree: git worktree clean=False",
+    "validation_after_saudi: command failed with exit 1",
+    "generated_freshness_after_saudi: command failed with exit 1",
+    "saudi_clean_worktree: git worktree clean=False",
+    "uae_source_idempotence: UAE atomic sources=22/19, hashes unchanged=True",
+    "uae_import_idempotence: all 8 importer-managed hashes unchanged=False",
+    "validation_after_uae: command failed with exit 1",
+    "uae_semantic_validation: command failed with exit 1",
+    "uae_negative_tests: command failed with exit 1",
+    "uae_independent_review: command failed with exit 1",
+    "uae_evidence_idempotence: validation, mutation, sample, and review hashes unchanged=False",
+    "generated_freshness_after_uae: command failed with exit 1",
+    "uae_final_report_freshness: command failed with exit 1",
+    "uae_findings_closed: status=FAIL, P0=1, critical P1=12",
+    "uae_review_threshold: families=9/9, passed=41/49, minimum 10% met for every family",
+    "uae_clean_worktree: git worktree clean=False"
+  ],
   "phase": "phase5",
   "schema_version": "2.0.0",
-  "semantic_hash": "sha256:ae162e417ce5baf6c6fe101227fb308d4784d0e733d7ec39ee4273270106d57e",
-  "status": "pass"
+  "semantic_hash": "sha256:46158a8b77a3a4cdda2afcccfbc44fce444d0540aff86c0054ecc2ea801e147f",
+  "status": "fail"
 }
