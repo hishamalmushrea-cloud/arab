@@ -35,8 +35,8 @@
       "status": "pass"
     },
     "yemen_clean_worktree": {
-      "detail": "git worktree clean=False",
-      "status": "fail"
+      "detail": "git worktree clean=True",
+      "status": "pass"
     },
     "yemen_findings_closed": {
       "detail": "status=PASS, P0=0, critical P1=0",
@@ -110,10 +110,8 @@
     }
   },
   "country_code": "YE",
-  "errors": [
-    "yemen_clean_worktree: git worktree clean=False"
-  ],
+  "errors": [],
   "schema_version": "2.0.0",
   "snapshot_date": "2026-08-17",
-  "status": "fail"
+  "status": "pass"
 }
