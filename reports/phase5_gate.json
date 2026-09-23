@@ -54,31 +54,31 @@
     },
     "generated_freshness": {
       "command": "python3 scripts/generate.py --check",
-      "returncode": 1,
-      "status": "fail",
-      "stderr": "generated output is stale: changed/missing=['json/denominators.json', 'csv/denominators.csv', 'json/coverage.json', 'csv/coverage.csv', 'json/canonical_bundle.json', 'markdown/countries/AE.md', 'html/countries/AE.html', 'metadata.json'], extra=[]",
-      "stdout": ""
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "generated output is current (64 files)"
     },
     "generated_freshness_after_jordan": {
       "command": "python3 scripts/generate.py --check",
-      "returncode": 1,
-      "status": "fail",
-      "stderr": "generated output is stale: changed/missing=['json/denominators.json', 'csv/denominators.csv', 'json/coverage.json', 'csv/coverage.csv', 'json/canonical_bundle.json', 'markdown/countries/AE.md', 'html/countries/AE.html', 'metadata.json'], extra=[]",
-      "stdout": ""
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "generated output is current (64 files)"
     },
     "generated_freshness_after_saudi": {
       "command": "python3 scripts/generate.py --check",
-      "returncode": 1,
-      "status": "fail",
-      "stderr": "generated output is stale: changed/missing=['json/denominators.json', 'csv/denominators.csv', 'json/coverage.json', 'csv/coverage.csv', 'json/canonical_bundle.json', 'markdown/countries/AE.md', 'html/countries/AE.html', 'metadata.json'], extra=[]",
-      "stdout": ""
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "generated output is current (64 files)"
     },
     "generated_freshness_after_uae": {
       "command": "python3 scripts/generate.py --check",
-      "returncode": 1,
-      "status": "fail",
-      "stderr": "generated output is stale: changed/missing=['json/denominators.json', 'csv/denominators.csv', 'json/coverage.json', 'csv/coverage.csv', 'json/canonical_bundle.json', 'markdown/countries/AE.md', 'html/countries/AE.html', 'metadata.json'], extra=[]",
-      "stdout": ""
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "generated output is current (64 files)"
     },
     "independent_review": {
       "detail": "sample={'claim': 7, 'entity': 275, 'hierarchy': 313, 'source': 3}, outcomes={'correct': 598}",
@@ -181,7 +181,7 @@
     },
     "p0_clear": {
       "detail": "all structural and Phase 2 acceptance checks are clear",
-      "status": "fail"
+      "status": "pass"
     },
     "phase2_core_counts": {
       "detail": "24/264/350/2084 actual=24/264/350/2084",
@@ -438,13 +438,8 @@
     }
   },
   "errors": [
-    "generated_freshness: command failed with exit 1",
-    "p0_clear: all structural and Phase 2 acceptance checks are clear",
-    "generated_freshness_after_jordan: command failed with exit 1",
     "clean_worktree: git worktree clean=False",
-    "generated_freshness_after_saudi: command failed with exit 1",
     "saudi_clean_worktree: git worktree clean=False",
-    "generated_freshness_after_uae: command failed with exit 1",
     "uae_clean_worktree: git worktree clean=False"
   ],
   "phase": "phase5",
