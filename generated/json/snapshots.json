@@ -221,14 +221,14 @@
   },
   {
     "captured_at": "2026-08-17",
-    "checksum": "sha256:1a80082d785bd8b49d3e92739a1148ec3a7929575abaaac07165847a72f1fca3",
+    "checksum": "sha256:2af6af5ec37977dc0c09060ddff948fd560e6a694219a210d632d779207ef05c",
     "id": "SNP-SO-PRODUCTION-20260817",
-    "method": "Checksum-bound authority/date-specific reconciliation; no territorial union or control map.",
-    "notes": "Region/district denominators and territorial/effective-control overlays unavailable.",
+    "method": "Checksum-bound authority/date-specific reconciliation; no territorial union or control map; depth cycle 1 read the UNESCO ICH and World Heritage pages, the 2012 Provisional Constitution as published by Constitute, and the ISO 639-3 registration for Somali.",
+    "notes": "Region/district denominators and territorial/effective-control overlays unavailable; depth layers carry no denominator and no inherited population.",
     "schema_version": "2.0.0",
-    "scope": "Seven MOP FMS, one parallel Banadir administration, five-FMS baseline, Somaliland and North East narratives",
+    "scope": "Seven MOP FMS, one parallel Banadir administration, five-FMS baseline, Somaliland and North East narratives, two shared ICH elements, three tentative-list sites and four places without rank",
     "source_id": "SRC-SO-MOP-FMS-2026",
-    "title": "Somalia authority-specific federal planning frames"
+    "title": "Somalia authority-specific federal planning frames, extended with UNESCO ICH/World Heritage, constitution articles and classified local knowledge"
   },
   {
     "captured_at": "2026-08-17",

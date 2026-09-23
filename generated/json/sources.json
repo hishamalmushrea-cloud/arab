@@ -3649,6 +3649,126 @@
   },
   {
     "archive_url": null,
+    "checksum": "sha256:e893e90adba6c35cc8f109fefb5adc07023fae6e9ee6614b930e3c50cfcc3243",
+    "country_codes": [
+      "SO"
+    ],
+    "id": "SRC-SO-CONSTITUTION-2012",
+    "language": "en",
+    "license": "Official Somalia federal material; factual extraction with attribution; reuse terms not stated",
+    "locator": "المواد 1 و2 و5 و6 و7 و9 و15",
+    "notes": "نصّ دستوري منشور على مشروع Constitute قُرئ 2026-09-23: الدولة والدين واللغات والقواعد والإقليم والعاصمة والسلامة الشخصية؛ لا يُنسب تاريخ إصدار إلى الصفحة. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Constitute Project — Comparative Constitutions Project",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-23",
+    "schema_version": "2.0.0",
+    "source_type": "law",
+    "title": "Somalia 2012 Provisional Constitution (as published by Constitute)",
+    "url": "https://constituteproject.org/constitution/Somalia_2012"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:e893e90adba6c35cc8f109fefb5adc07023fae6e9ee6614b930e3c50cfcc3243",
+    "country_codes": [
+      "SO"
+    ],
+    "id": "SRC-SO-CUISINE-MIRROR-2026",
+    "language": "en",
+    "license": "Official Somalia federal material; factual extraction with attribution; reuse terms not stated",
+    "locator": "مطبخ الصومال: الكنغيرو/اللحوح، الساباياد/الكميس، المووفو، المشاري، السقار، الأوقاك/المقماد، فه فه، الباستو، شاي كاديس، القهوة، حليب الإبل",
+    "notes": "مرآة إنجليزية تصف المطبخ؛ تُسجَّل كل مادة منها غير منشورة. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Wikipedia (English mirror)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-23",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "Somali cuisine",
+    "url": "https://en.wikipedia.org/wiki/Somali_cuisine"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:e893e90adba6c35cc8f109fefb5adc07023fae6e9ee6614b930e3c50cfcc3243",
+    "country_codes": [
+      "SO"
+    ],
+    "id": "SRC-SO-CULTURE-MIRROR-2026",
+    "language": "en",
+    "license": "Official Somalia federal material; factual extraction with attribution; reuse terms not stated",
+    "locator": "تراث شفهي شعري («أمة الشعراء»)، رقص دهانتو، لعبة غوغالايسي، مبخرة دبقاد، فنون: فخار وحفر خشب",
+    "notes": "مرآة إنجليزية تصف الثقافة؛ تُستعمل للتصنيف فقط، ولا تُسجَّل أي أعداد. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Wikipedia (English mirror)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-23",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "Culture of Somalia",
+    "url": "https://en.wikipedia.org/wiki/Culture_of_Somalia"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:e893e90adba6c35cc8f109fefb5adc07023fae6e9ee6614b930e3c50cfcc3243",
+    "country_codes": [
+      "SO"
+    ],
+    "id": "SRC-SO-ISO639-3-SOMALI",
+    "language": "en",
+    "license": "Official Somalia federal material; factual extraction with attribution; reuse terms not stated",
+    "locator": "som = Somali؛ 639-1: so؛ مجموعتا 639-2 و639-3؛ فردية، حيّة",
+    "notes": "صفحة السجل قُرئت 2026-09-23. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "SIL International (ISO 639-3 registration authority)",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-23",
+    "schema_version": "2.0.0",
+    "source_type": "standard",
+    "title": "ISO 639-3 code registration — Somali",
+    "url": "https://iso639-3.sil.org/code/som"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:e893e90adba6c35cc8f109fefb5adc07023fae6e9ee6614b930e3c50cfcc3243",
+    "country_codes": [
+      "SO"
+    ],
+    "id": "SRC-SO-LANGUAGES-MIRROR-2026",
+    "language": "en",
+    "license": "Official Somalia federal material; factual extraction with attribution; reuse terms not stated",
+    "locator": "الرسمية: الصومالية؛ شبه الرسمية: العربية؛ أقليات: باجونية وبرافانية وبونية ودبارية وغرّية وجيدوية وموشونغولية وتونية؛ أجنبية: الإنجليزية والإيطالية والسواحيلية؛ لغة إشارة صومالية",
+    "notes": "مرآة إنجليزية لخريطة اللغات؛ تُستعمل للتصنيف والحضور فقط، ولا تُسجَّل أعداد المتحدثين ولا نسبها المطبوعة. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Wikipedia (English mirror)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-23",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "Languages of Somalia",
+    "url": "https://en.wikipedia.org/wiki/Languages_of_Somalia"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:e893e90adba6c35cc8f109fefb5adc07023fae6e9ee6614b930e3c50cfcc3243",
+    "country_codes": [
+      "SO"
+    ],
+    "id": "SRC-SO-MOGADISHU-MIRROR-2026",
+    "language": "en",
+    "license": "Official Somalia federal material; factual extraction with attribution; reuse terms not stated",
+    "locator": "مقديشو (مقديشو/حمر)، بنادر، موقع ساحلي في المحيط الهندي",
+    "notes": "مرآة إنجليزية للعاصمة؛ لا تُسجَّل أعداد سكان ولا إحداثيات. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "Wikipedia (English mirror)",
+    "quality_tier": "E",
+    "retrieved_at": "2026-09-23",
+    "schema_version": "2.0.0",
+    "source_type": "local_website",
+    "title": "Mogadishu",
+    "url": "https://en.wikipedia.org/wiki/Mogadishu"
+  },
+  {
+    "archive_url": null,
     "checksum": "sha256:d19d602db96af00e9a5f5017bdb295d63b21b5996fb11f372d753cd0a97346f9",
     "country_codes": [
       "SO"
@@ -4405,6 +4525,66 @@
   },
   {
     "archive_url": null,
+    "checksum": "sha256:e893e90adba6c35cc8f109fefb5adc07023fae6e9ee6614b930e3c50cfcc3243",
+    "country_codes": [
+      "SO"
+    ],
+    "id": "SRC-UNESCO-ICH-SO-STATE-2026",
+    "language": "en",
+    "license": "UNESCO ICH and World Heritage pages and the 2012 Provisional Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+    "locator": "عنصران مُدرجان على القائمة التمثيلية (02087 سنة 2024 و02283 سنة 2025)؛ التصديق 23 يوليو 2020؛ تقرير الدورية 15 ديسمبر 2023",
+    "notes": "صفحة الدولة قُرئت 2026-09-23: قائمة العناصر وسنواتها وقوائمها وتاريخ التصديق. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "UNESCO Intangible Cultural Heritage",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-23",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Somalia — UNESCO Intangible Cultural Heritage",
+    "url": "https://ich.unesco.org/en/state/somalia-SO"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:e893e90adba6c35cc8f109fefb5adc07023fae6e9ee6614b930e3c50cfcc3243",
+    "country_codes": [
+      "SO"
+    ],
+    "id": "SRC-UNESCO-ICH-SO-XEER-CIISE-02087-2024",
+    "language": "en",
+    "license": "UNESCO ICH and World Heritage pages and the 2012 Provisional Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+    "locator": "عنصر 02087؛ إدراج 2024 (19.COM) على القائمة التمثيلية؛ إثيوبيا وجيبوتي والصومال",
+    "notes": "صفحة العنصر قُرئت 2026-09-23: المكوّنات الثلاثة ووسائل النقل الشفهي والقيم. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "UNESCO Intangible Cultural Heritage",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-23",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Xeer Ciise: Oral customary laws of Somali-Issa communities in Ethiopia, Djibouti and Somalia",
+    "url": "https://ich.unesco.org/en/RL/xeer-ciise-oral-customary-laws-of-somali-issa-communities-in-ethiopia-djibouti-and-somalia-02087"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:e893e90adba6c35cc8f109fefb5adc07023fae6e9ee6614b930e3c50cfcc3243",
+    "country_codes": [
+      "SO"
+    ],
+    "id": "SRC-UNESCO-ICH-SO-ZAFFA-02283-2025",
+    "language": "en",
+    "license": "UNESCO ICH and World Heritage pages and the 2012 Provisional Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+    "locator": "عنصر 02283؛ إدراج 2025 (20.COM)؛ سبع دول منها الصومال",
+    "notes": "صفحة العنصر قُرئت في دورة الصومال 2026-09-23 لإكمال قائمة الصومال دون ادّعاء حصرية؛ ومعرّف المصدر خاص بالصومال. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "UNESCO Intangible Cultural Heritage",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-23",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "The zaffa in the traditional wedding",
+    "url": "https://ich.unesco.org/en/RL/the-zaffa-in-the-traditional-wedding-02283"
+  },
+  {
+    "archive_url": null,
     "checksum": "sha256:9775e49a5e0968e4cfaa99f6a29bfc162b9864e28b7ca9b03723099b1966ea34",
     "country_codes": [
       "MR"
@@ -4542,6 +4722,86 @@
     "source_type": "institutional_page",
     "title": "Mauritania — UNESCO World Heritage Convention",
     "url": "https://whc.unesco.org/en/statesparties/mr"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:e893e90adba6c35cc8f109fefb5adc07023fae6e9ee6614b930e3c50cfcc3243",
+    "country_codes": [
+      "SO"
+    ],
+    "id": "SRC-UNESCO-WH-SO-BUSHBUSHLE-6752-2024",
+    "language": "en",
+    "license": "UNESCO ICH and World Heritage pages and the 2012 Provisional Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+    "locator": "ملف 6752؛ إيداع 20 مارس 2024؛ طبيعي؛ المعايير المقترحة (ix)(x)",
+    "notes": "صفحة الملف قُرئت 2026-09-23: النطاق والوصف والمعايير المقترحة. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "UNESCO World Heritage Centre",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-23",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Bushbushle National Park — Tentative List",
+    "url": "https://whc.unesco.org/en/tentativelists/6752/"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:e893e90adba6c35cc8f109fefb5adc07023fae6e9ee6614b930e3c50cfcc3243",
+    "country_codes": [
+      "SO"
+    ],
+    "id": "SRC-UNESCO-WH-SO-HOBYO-6753-2024",
+    "language": "en",
+    "license": "UNESCO ICH and World Heritage pages and the 2012 Provisional Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+    "locator": "ملف 6753؛ إيداع 20 فبراير 2024؛ طبيعي؛ المعايير المقترحة (ix)(x)",
+    "notes": "صفحة الملف قُرئت 2026-09-23: الكثبان والمراعي والأنواع المتوطنة. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "UNESCO World Heritage Centre",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-23",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "The Hobyo grass and Shrubland — Tentative List",
+    "url": "https://whc.unesco.org/en/tentativelists/6753/"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:e893e90adba6c35cc8f109fefb5adc07023fae6e9ee6614b930e3c50cfcc3243",
+    "country_codes": [
+      "SO"
+    ],
+    "id": "SRC-UNESCO-WH-SO-LIGHTHOUSE-6754-2025",
+    "language": "en",
+    "license": "UNESCO ICH and World Heritage pages and the 2012 Provisional Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+    "locator": "ملف 6754؛ إيداع 22 يناير 2025؛ ثقافي؛ المعايير المقترحة (i)(ii)(iii)(iv)؛ مدينة مقديشو، بنادر",
+    "notes": "صفحة الملف قُرئت 2026-09-23: المنارة والمدينة القديمة «حمر» والمسجد العتيق. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "UNESCO World Heritage Centre",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-23",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Mogadishu Secondo-Lido Lighthouse — Tentative List",
+    "url": "https://whc.unesco.org/en/tentativelists/6754/"
+  },
+  {
+    "archive_url": null,
+    "checksum": "sha256:e893e90adba6c35cc8f109fefb5adc07023fae6e9ee6614b930e3c50cfcc3243",
+    "country_codes": [
+      "SO"
+    ],
+    "id": "SRC-UNESCO-WH-SO-STATE-2026",
+    "language": "en",
+    "license": "UNESCO ICH and World Heritage pages and the 2012 Provisional Constitution as published by Constitute; factual extraction with attribution; CC BY-SA 3.0 IGO for the UNESCO descriptions",
+    "locator": "صفر موقع مُدرج؛ ثلاثة مواقع في القائمة المؤقتة (6752 و6753 سنة 2024، و6754 سنة 2025)؛ التصديق 23 يوليو 2020",
+    "notes": "صفحة الدولة قُرئت 2026-09-23: قائمة الإدراج الفارغة والقائمة المؤقتة وتاريخ التصديق والمساعدة الدولية. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "UNESCO World Heritage Centre",
+    "quality_tier": "A",
+    "retrieved_at": "2026-09-23",
+    "schema_version": "2.0.0",
+    "source_type": "institutional_page",
+    "title": "Somalia — UNESCO World Heritage Convention",
+    "url": "https://whc.unesco.org/en/statesparties/so"
   },
   {
     "archive_url": null,

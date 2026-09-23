@@ -72040,6 +72040,1634 @@
     "verification_status": "verified"
   },
   {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-0A120B02ECAB5345",
+    "lexical_context": null,
+    "notes": "حرفة أو فن من مرآة؛ يُسجَّل مصنَّفًا غير منشور.",
+    "observed_at": "2026-09-23",
+    "predicate": "craft_custom",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-CULTURE-MIRROR-2026",
+    "source_locator": "ثقافة الصومال: مبخرة الدبقاد",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "مبخرة تقليدية للبخور في المنازل، تُعرض في صورة المصدر بوصفها مبخرة تقليدية.",
+        "name": "مبخرة الدبقاد"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local_reported",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-0E324C28B776573D",
+    "lexical_context": null,
+    "notes": "المرآة تسجّل لغة إشارة صومالية دون رمز؛ ولا يُسجَّل رمز ISO لأن لا رمز متحقَّق في السجل لهذه الدورة، ولا يُسجَّل عدد متحدثين.",
+    "observed_at": "2026-09-23",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-LANGUAGES-MIRROR-2026",
+    "source_locator": "مرآة اللغات: لغة الإشارة الصومالية",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "iso_codes": [],
+        "level": "signed",
+        "name": "لغة الإشارة الصومالية",
+        "note": "المرآة تسجّل لغة إشارة صومالية دون رمز؛ ولا يُسجَّل رمز ISO لأن لا رمز متحقَّق في السجل لهذه الدورة، ولا يُسجَّل عدد متحدثين.",
+        "official": false
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-10D311CE19025789",
+    "lexical_context": null,
+    "notes": "حرفة أو فن من مرآة؛ يُسجَّل مصنَّفًا غير منشور.",
+    "observed_at": "2026-09-23",
+    "predicate": "craft_custom",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-CULTURE-MIRROR-2026",
+    "source_locator": "ثقافة الصومال: حفر الخشب",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "من الفنون الصومالية كما يسرد المصدر: الحفر على الخشب إلى جانب الفخار والعمارة والموسيقى.",
+        "name": "حفر الخشب"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-13A712F738A355B5",
+    "lexical_context": null,
+    "notes": "طبق محلي من مرآة؛ يُسجَّل مصنَّفًا غير منشور ولا يُنسب إلى إحصاء.",
+    "observed_at": "2026-09-23",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-CUISINE-MIRROR-2026",
+    "source_locator": "المطبخ الصومالي: فه فه",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "شوربة لحم وخضار تقليدية في شمال الصومال وجيبوتي.",
+        "name": "فه فه"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-16852B50E1D95B35",
+    "lexical_context": null,
+    "notes": "طبق محلي من مرآة؛ يُسجَّل مصنَّفًا غير منشور ولا يُنسب إلى إحصاء.",
+    "observed_at": "2026-09-23",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-CUISINE-MIRROR-2026",
+    "source_locator": "المطبخ الصومالي: القهوة",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "قهوة تُشرب في الإفطار إلى جانب الشاي.",
+        "name": "القهوة"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local_reported",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-19CECBE5BEEE5DB7",
+    "lexical_context": null,
+    "notes": "لهجة صومالية رئيسة عند ديجل ومريفل في الجنوب الغربي بحسب المرآة؛ لا يُسجَّل رمز ISO غير متحقَّق في السجل، ولا يُسجَّل عدد متحدثين ولا نسبة.",
+    "observed_at": "2026-09-23",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-LANGUAGES-MIRROR-2026",
+    "source_locator": "مرآة اللغات: الماي (ماي ماي)",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "iso_codes": [],
+        "level": "vernacular",
+        "name": "الماي (ماي ماي)",
+        "note": "لهجة صومالية رئيسة عند ديجل ومريفل في الجنوب الغربي بحسب المرآة؛ لا يُسجَّل رمز ISO غير متحقَّق في السجل، ولا يُسجَّل عدد متحدثين ولا نسبة.",
+        "official": false
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-1FCEA96E65425CE0",
+    "lexical_context": null,
+    "notes": "حرفة أو فن من مرآة؛ يُسجَّل مصنَّفًا غير منشور.",
+    "observed_at": "2026-09-23",
+    "predicate": "craft_custom",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-CULTURE-MIRROR-2026",
+    "source_locator": "ثقافة الصومال: الفخار",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "من الفنون الصومالية كما يسرد المصدر، ويسِمُ الفن الصومالي عمومًا بعدم التصوير.",
+        "name": "الفخار"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "shared",
+    "confidence": "high",
+    "id": "CLM-SO-DEPTH-2440252C2AA95F85",
+    "lexical_context": null,
+    "notes": "عنصر مُدرج في قوائم اليونسكو؛ يُنشر بوصفه عنصرًا رسميًا، وملفه مشترك فلا يُدّعى فيه حصرية.",
+    "observed_at": "2026-09-23",
+    "predicate": "intangible_cultural_practice",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-UNESCO-ICH-SO-ZAFFA-02283-2025",
+    "source_locator": "عنصر 02283؛ إدراج 2025 على القائمة التمثيلية",
+    "status": "verified",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "co_states": [
+          "جيبوتي",
+          "جزر القمر",
+          "الإمارات",
+          "العراق",
+          "الأردن",
+          "موريتانيا",
+          "الصومال"
+        ],
+        "description": "عنصر احتفالي مرتبط بالعرس التقليدي يجمع الغناء والرقص والزيّ والمواكب الاحتفالية، أُدرج في القائمة التمثيلية سنة 2025 بملف مشترك قدّمته سبع دول منها الصومال؛ يُسجَّل بوصفه ملفًا مشتركًا دون ادّعاء حصرية لأي دولة.",
+        "list": "RL",
+        "name": "الزفّة في العرس التقليدي",
+        "official_title": "The zaffa in the traditional wedding",
+        "reference": "02283",
+        "year": 2025
+      },
+      "type": "json"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-29918DD91BD25887",
+    "lexical_context": null,
+    "notes": "طبق محلي من مرآة؛ يُسجَّل مصنَّفًا غير منشور ولا يُنسب إلى إحصاء.",
+    "observed_at": "2026-09-23",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-CUISINE-MIRROR-2026",
+    "source_locator": "المطبخ الصومالي: الكنغيرو (لحوح)",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "خبز إسفنجي رقيق يُؤكل بالإفطار مع العسل والسمن أو يُفتَّت بالشاي والسمن والسكر.",
+        "name": "الكنغيرو (لحوح)"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "official",
+    "confidence": "high",
+    "id": "CLM-SO-DEPTH-2B806999D6795878",
+    "lexical_context": null,
+    "notes": "المادة 5: العربية هي اللغة الثانية. لا يُسجَّل رمز ISO لهذه الدعوى في هذه الدورة، ولا يُسجَّل عدد متحدثين ولا نسبة.",
+    "observed_at": "2026-09-23",
+    "predicate": "language_presence",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-CONSTITUTION-2012",
+    "source_locator": "العربية",
+    "status": "verified",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "iso_codes": [],
+        "level": "second_language",
+        "name": "العربية",
+        "note": "المادة 5: العربية هي اللغة الثانية. لا يُسجَّل رمز ISO لهذه الدعوى في هذه الدورة، ولا يُسجَّل عدد متحدثين ولا نسبة.",
+        "official": false
+      },
+      "type": "json"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "shared",
+    "confidence": "high",
+    "id": "CLM-SO-DEPTH-2C4E1B68A0D65F18",
+    "lexical_context": null,
+    "notes": "عنصر مُدرج في قوائم اليونسكو؛ يُنشر بوصفه عنصرًا رسميًا، وملفه مشترك فلا يُدّعى فيه حصرية.",
+    "observed_at": "2026-09-23",
+    "predicate": "intangible_cultural_practice",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-UNESCO-ICH-SO-XEER-CIISE-02087-2024",
+    "source_locator": "عنصر 02087؛ إدراج 2024 على القائمة التمثيلية",
+    "status": "verified",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "co_states": [
+          "إثيوبيا",
+          "جيبوتي",
+          "الصومال"
+        ],
+        "description": "نظام حكم ديمقراطي منظَّم بثلاثة مكوّنات: دستور سياسي يوزّع السلطة ويحدّد القرار، وقانون جزائي يقوم على الصلح والتعويض، ومدوّنة سلوك اجتماعي تحدّد مبادئ وقيمًا جماعية وفردية. يُنقل شفهيًا بالحكايات والأمثال والألعاب والشعر وطقوس التنشئة، وبالمقررات التعليمية والندوات والإعلام، ويرسي حلّ النزاع سلميًا وحقوق النساء والأطفال وحماية البيئة والتعاون المتبادل.",
+        "list": "RL",
+        "name": "الزير عيسى: القوانين العرفية الشفهية لمجتمعات الصوماليين والعيسى",
+        "official_title": "Xeer Ciise: Oral customary laws of Somali-Issa communities in Ethiopia, Djibouti and Somalia",
+        "reference": "02087",
+        "year": 2024
+      },
+      "type": "json"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "official",
+    "confidence": "high",
+    "id": "CLM-SO-DEPTH-338E1066D5F15F6F",
+    "lexical_context": null,
+    "notes": "نصّ دستوري من مصدر من الفئة A؛ يُسجَّل كما ورد ولا يُحوَّل إلى مقارنة سلطة فعلية.",
+    "observed_at": "2026-09-23",
+    "predicate": "constitutional_provision",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-CONSTITUTION-2012",
+    "source_locator": "الدستور المؤقت 2012: المادة 1 (شكل الدولة)",
+    "status": "verified",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "article": "1",
+        "summary": "الصومال جمهورية اتحادية ذات سيادة وديمقراطية قائمة على تمثيل شامل للشعب ونظام متعدد الأحزاب وعدالة اجتماعية، والسيادة للشعب بعد الله وتُمارَس وفق الدستور والقانون.",
+        "topic": "شكل الدولة"
+      },
+      "type": "json"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "local_reported",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-3499D4EF049A5B70",
+    "lexical_context": null,
+    "notes": "من لغات الأقليات كما وردت في المرآة؛ لا يُسجَّل رمز ISO غير متحقَّق، ولا يُسجَّل عدد متحدثين ولا نسبة.",
+    "observed_at": "2026-09-23",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-LANGUAGES-MIRROR-2026",
+    "source_locator": "مرآة اللغات: التونية",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "iso_codes": [],
+        "level": "minority",
+        "name": "التونية",
+        "note": "من لغات الأقليات كما وردت في المرآة؛ لا يُسجَّل رمز ISO غير متحقَّق، ولا يُسجَّل عدد متحدثين ولا نسبة.",
+        "official": false
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-36172A498D0B5C73",
+    "lexical_context": null,
+    "notes": "وصف لهجي مصنَّف من مرآة؛ لا يُنشر ولا يُبنى عليه مقام.",
+    "observed_at": "2026-09-23",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-LANGUAGES-MIRROR-2026",
+    "source_locator": "مرآة اللغات: الماي",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": {
+          "note": "وصف لهجي مصنَّف من مرآة؛ لا يُنشر.",
+          "official_use": "يُستعمل رسميًا في ولاية الجنوب الغربي إلى جانب الأف-ماكسا-تيري",
+          "role": "لهجة ثالثة مستقلة في التقسيم الثلاثي",
+          "speakers_area": "ديجل ومريفل (رحانوين) في الجنوب الغربي"
+        },
+        "group": "ماي",
+        "name": "الماي"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "official",
+    "confidence": "high",
+    "id": "CLM-SO-DEPTH-3882921249D657DE",
+    "lexical_context": null,
+    "notes": "صفر مقصود مقروء من صفحة الدولة؛ يُنشر ليمنع أي تقدير بديل، ولا يُقارن بقوائم إقليمية.",
+    "observed_at": "2026-09-23",
+    "predicate": "world_heritage_inscribed_count",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-UNESCO-WH-SO-STATE-2026",
+    "source_locator": "صفحة الدولة: Properties inscribed on the World Heritage List = 0",
+    "status": "verified",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": 0,
+      "type": "integer"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "local_reported",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-406D3C7E65615B85",
+    "lexical_context": null,
+    "notes": "من لغات الأقليات كما وردت في المرآة؛ لا يُسجَّل رمز ISO غير متحقَّق، ولا يُسجَّل عدد متحدثين ولا نسبة.",
+    "observed_at": "2026-09-23",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-LANGUAGES-MIRROR-2026",
+    "source_locator": "مرآة اللغات: الباجونية",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "iso_codes": [],
+        "level": "minority",
+        "name": "الباجونية",
+        "note": "من لغات الأقليات كما وردت في المرآة؛ لا يُسجَّل رمز ISO غير متحقَّق، ولا يُسجَّل عدد متحدثين ولا نسبة.",
+        "official": false
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "official",
+    "confidence": "high",
+    "id": "CLM-SO-DEPTH-437A159F25E05BD0",
+    "lexical_context": null,
+    "notes": "المادة 5: اللغة الرسمية هي الصومالية (الماي والماكسا-تيري)؛ الرمز من سجل ISO 639-3 كمصدر ثانٍ. لا يُسجَّل عدد متحدثين ولا نسبة.",
+    "observed_at": "2026-09-23",
+    "predicate": "language_presence",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": "SRC-SO-ISO639-3-SOMALI",
+    "second_source_locator": "سجل ISO 639-3: som = Somali",
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-CONSTITUTION-2012",
+    "source_locator": "الصومالية",
+    "status": "verified",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "iso_codes": [
+          "som"
+        ],
+        "level": "official",
+        "name": "الصومالية",
+        "note": "المادة 5: اللغة الرسمية هي الصومالية (الماي والماكسا-تيري)؛ الرمز من سجل ISO 639-3 كمصدر ثانٍ. لا يُسجَّل عدد متحدثين ولا نسبة.",
+        "official": true
+      },
+      "type": "json"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "official",
+    "confidence": "high",
+    "id": "CLM-SO-DEPTH-496246824B795ACA",
+    "lexical_context": null,
+    "notes": "نصّ دستوري يُسجَّل كما ورد؛ السجل وصف قانوني لا وصف ممارسة جارية.",
+    "observed_at": "2026-09-23",
+    "predicate": "constitutional_provision",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-CONSTITUTION-2012",
+    "source_locator": "الدستور المؤقت 2012: المادة 15 (السلامة الشخصية)",
+    "status": "verified",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "article": "15",
+        "summary": "لكل شخص الحق في السلامة الشخصية وتُصان بمنع الاحتجاز غير القانوني والعنف والتعذيب، وتُعدّ ختان الإناث ممارسة عرفية قاسية ومهينة وتعادل التعذيب وهي محظورة.",
+        "topic": "السلامة الشخصية"
+      },
+      "type": "json"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "local_reported",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-4AF9AFE65A395B2F",
+    "lexical_context": null,
+    "notes": "من لغات الأقليات كما وردت في المرآة؛ لا يُسجَّل رمز ISO غير متحقَّق، ولا يُسجَّل عدد متحدثين ولا نسبة.",
+    "observed_at": "2026-09-23",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-LANGUAGES-MIRROR-2026",
+    "source_locator": "مرآة اللغات: البرافانية (شيمويني)",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "iso_codes": [],
+        "level": "minority",
+        "name": "البرافانية (شيمويني)",
+        "note": "من لغات الأقليات كما وردت في المرآة؛ لا يُسجَّل رمز ISO غير متحقَّق، ولا يُسجَّل عدد متحدثين ولا نسبة.",
+        "official": false
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "official",
+    "confidence": "high",
+    "id": "CLM-SO-DEPTH-4DADA645F7FC59D0",
+    "lexical_context": null,
+    "notes": "شريط ساحلي من الكثبان والمراعي الدائمة وسط الصومال، داخل مركز توطّن نباتي إقليمي؛ المعايير مقترحة لا مُدرجة.",
+    "observed_at": "2026-09-23",
+    "predicate": "unesco_tentative_listing",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-UNESCO-WH-SO-HOBYO-6753-2024",
+    "source_locator": "ملف القائمة المؤقتة 6753؛ إيداع 2024-02-20",
+    "status": "verified",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "category": "طبيعي",
+        "criteria_submitted": [
+          "ix",
+          "x"
+        ],
+        "name": "مراعي هوبيو والشجيرات",
+        "reference": "6753",
+        "region": "ولاية غلمدغ، مدغ",
+        "status": "القائمة المؤقتة",
+        "submitted_by": "البعثة الدائمة للصومال لدى اليونسكو",
+        "submitted_on": "2024-02-20",
+        "year": 2024
+      },
+      "type": "json"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "official",
+    "confidence": "high",
+    "id": "CLM-SO-DEPTH-573E3FB430A35639",
+    "lexical_context": null,
+    "notes": "نصّ دستوري حرفي؛ لا يُبنى عليه وصف سكاني ولا نسبة.",
+    "observed_at": "2026-09-23",
+    "predicate": "constitutional_provision",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-CONSTITUTION-2012",
+    "source_locator": "الدستور المؤقت 2012: المادة 2 (الدين)",
+    "status": "verified",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "article": "2",
+        "summary": "الإسلام دين الدولة، ولا يُنشر في البلاد دين غيره، ولا يُسنّ قانون غير متوافق مع المبادئ العامة للشريعة.",
+        "topic": "الدين"
+      },
+      "type": "json"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "local_reported",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-57BDFFC4A6BA5437",
+    "lexical_context": null,
+    "notes": "من لغات الأقليات كما وردت في المرآة؛ لا يُسجَّل رمز ISO غير متحقَّق، ولا يُسجَّل عدد متحدثين ولا نسبة.",
+    "observed_at": "2026-09-23",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-LANGUAGES-MIRROR-2026",
+    "source_locator": "مرآة اللغات: الدبارية",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "iso_codes": [],
+        "level": "minority",
+        "name": "الدبارية",
+        "note": "من لغات الأقليات كما وردت في المرآة؛ لا يُسجَّل رمز ISO غير متحقَّق، ولا يُسجَّل عدد متحدثين ولا نسبة.",
+        "official": false
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-5CD7DEE8EC6557DD",
+    "lexical_context": null,
+    "notes": "طبق محلي من مرآة؛ يُسجَّل مصنَّفًا غير منشور ولا يُنسب إلى إحصاء.",
+    "observed_at": "2026-09-23",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-CUISINE-MIRROR-2026",
+    "source_locator": "المطبخ الصومالي: الساباياد (كميس)",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "خبز مسطّح يُؤكل عند الغداء مع الكاري أو الشوربة أو المرقة.",
+        "name": "الساباياد (كميس)"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-624ECBE4B7A85908",
+    "lexical_context": null,
+    "notes": "طبق محلي من مرآة؛ يُسجَّل مصنَّفًا غير منشور ولا يُنسب إلى إحصاء.",
+    "observed_at": "2026-09-23",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-CUISINE-MIRROR-2026",
+    "source_locator": "المطبخ الصومالي: السقار",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لحم مقطّع يُطبخ في مرق مع الخضار؛ يُقدَّم إلى جانب الخبز.",
+        "name": "السقار"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local_reported",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-67730E1F1620517F",
+    "lexical_context": null,
+    "notes": "لهجة ساحلية تُعرف أيضًا بالصومالية الساحلية على ساحل بنادر؛ لا يُسجَّل عدد متحدثين ولا نسبة.",
+    "observed_at": "2026-09-23",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-LANGUAGES-MIRROR-2026",
+    "source_locator": "مرآة اللغات: البنادرية",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "iso_codes": [],
+        "level": "regional",
+        "name": "البنادرية",
+        "note": "لهجة ساحلية تُعرف أيضًا بالصومالية الساحلية على ساحل بنادر؛ لا يُسجَّل عدد متحدثين ولا نسبة.",
+        "official": false
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "popular",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-6905761982BC5BCE",
+    "lexical_context": null,
+    "notes": "عرف أو ممارسة من مرآة؛ يُسجَّل مصنَّفًا غير منشور ولا يُقدَّم وصفًا قانونيًا.",
+    "observed_at": "2026-09-23",
+    "predicate": "custom_practice",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-CULTURE-MIRROR-2026",
+    "source_locator": "ثقافة الصومال: الرقص الشعبي دهانتو",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "رقص شعبي يُؤدَّى في المناسبات بحسب وصف المصدر وصورته.",
+        "name": "الرقص الشعبي دهانتو"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local_reported",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-6BC4CD7E85CA545D",
+    "lexical_context": null,
+    "notes": "من لغات الأقليات كما وردت في المرآة؛ لا يُسجَّل رمز ISO غير متحقَّق، ولا يُسجَّل عدد متحدثين ولا نسبة.",
+    "observed_at": "2026-09-23",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-LANGUAGES-MIRROR-2026",
+    "source_locator": "مرآة اللغات: الجيدوية",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "iso_codes": [],
+        "level": "minority",
+        "name": "الجيدوية",
+        "note": "من لغات الأقليات كما وردت في المرآة؛ لا يُسجَّل رمز ISO غير متحقَّق، ولا يُسجَّل عدد متحدثين ولا نسبة.",
+        "official": false
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-6E32A28E8EE45BB2",
+    "lexical_context": null,
+    "notes": "طبق محلي من مرآة؛ يُسجَّل مصنَّفًا غير منشور ولا يُنسب إلى إحصاء.",
+    "observed_at": "2026-09-23",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-CUISINE-MIRROR-2026",
+    "source_locator": "المطبخ الصومالي: الباستو",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "معكرونة بصلصة اللحم، انتشرت من الحقبة الاستعمارية الإيطالية.",
+        "name": "الباستو"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "official",
+    "confidence": "high",
+    "id": "CLM-SO-DEPTH-6F48D72B1E6F5EE4",
+    "lexical_context": null,
+    "notes": "منارة من الحقبة الاستعمارية الإيطالية في مطلع القرن العشرين على رصيف الميناء، محاطة بعمارة تاريخية؛ المعايير مقترحة في الملف لا مُدرجة.",
+    "observed_at": "2026-09-23",
+    "predicate": "unesco_tentative_listing",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-UNESCO-WH-SO-LIGHTHOUSE-6754-2025",
+    "source_locator": "ملف القائمة المؤقتة 6754؛ إيداع 2025-01-22",
+    "status": "verified",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "category": "ثقافي",
+        "criteria_submitted": [
+          "i",
+          "ii",
+          "iii",
+          "iv"
+        ],
+        "name": "منارة مقديشو سيكوندو-ليدو",
+        "reference": "6754",
+        "region": "مدينة مقديشو، بنادر",
+        "status": "القائمة المؤقتة",
+        "submitted_by": "الأكاديمية الصومالية للعلوم والثقافة والفنون",
+        "submitted_on": "2025-01-22",
+        "year": 2025
+      },
+      "type": "json"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "official",
+    "confidence": "high",
+    "id": "CLM-SO-DEPTH-710907C0E9FA5F0D",
+    "lexical_context": null,
+    "notes": "متنزه ساحلي في مقاطعة بدهاضة غني بالتنوع الحيوي؛ المعايير المذكورة معايير مقترحة في ملف القائمة المؤقتة لا معايير إدراج.",
+    "observed_at": "2026-09-23",
+    "predicate": "unesco_tentative_listing",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-UNESCO-WH-SO-BUSHBUSHLE-6752-2024",
+    "source_locator": "ملف القائمة المؤقتة 6752؛ إيداع 2024-03-20",
+    "status": "verified",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "category": "طبيعي",
+        "criteria_submitted": [
+          "ix",
+          "x"
+        ],
+        "name": "متنزه بوشبوشلي الوطني",
+        "reference": "6752",
+        "region": "ولاية جوبالاند، جوبا السفلى",
+        "status": "القائمة المؤقتة",
+        "submitted_by": "البعثة الدائمة للصومال لدى اليونسكو",
+        "submitted_on": "2024-03-20",
+        "year": 2024
+      },
+      "type": "json"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-7227A2A8C4C05AA3",
+    "lexical_context": null,
+    "notes": "تُسجَّل من مرآة اللغة الصومالية خاصة بالصومال؛ وفي دورة جيبوتي سُجّلت المؤسسة نفسها من مصدر جيبوتي مستقل، ولا يُدمج السجلان.",
+    "observed_at": "2026-09-23",
+    "predicate": "language_institution",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-LANGUAGES-MIRROR-2026",
+    "source_locator": "مرآة اللغات: الأكاديمية الإقليمية للغة الصومالية",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "founded": "2013-06",
+        "mandate": "مؤسسة حكومية دولية أنشأتها حكومات جيبوتي والصومال وإثيوبيا في يونيو 2013، ومهمتها الرسمية صون اللغة الصومالية.",
+        "name": "الأكاديمية الإقليمية للغة الصومالية",
+        "states": [
+          "جيبوتي",
+          "الصومال",
+          "إثيوبيا"
+        ]
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "official",
+    "confidence": "high",
+    "id": "CLM-SO-DEPTH-791B01D203975C44",
+    "lexical_context": null,
+    "notes": "تاريخ تصديق من صفحة الدولة؛ يُنشر مرة واحدة ولا يُوسَّع إلى سرد.",
+    "observed_at": "2026-09-23",
+    "predicate": "world_heritage_convention_ratification",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-UNESCO-WH-SO-STATE-2026",
+    "source_locator": "تصديق 2020-07-23",
+    "status": "verified",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "اتفاقية التراث العالمي (1972)",
+      "type": "json"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "popular",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-7E31DA19F7095E6F",
+    "lexical_context": null,
+    "notes": "عرف أو ممارسة من مرآة؛ يُسجَّل مصنَّفًا غير منشور ولا يُقدَّم وصفًا قانونيًا.",
+    "observed_at": "2026-09-23",
+    "predicate": "custom_practice",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-CULTURE-MIRROR-2026",
+    "source_locator": "ثقافة الصومال: الشعر وصناعة الشعراء",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "التراث الشفهي الصومالي شعرٌ وغنٌّ وأمثال، والمرآة تصف الصومال بـ«أمة الشعراء»؛ يُسجَّل الوصف كما ورد.",
+        "name": "الشعر وصناعة الشعراء"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-88A6A22A6D385B8C",
+    "lexical_context": null,
+    "notes": "وصف لهجي مصنَّف من مرآة؛ لا يُنشر ولا يُبنى عليه مقام.",
+    "observed_at": "2026-09-23",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-LANGUAGES-MIRROR-2026",
+    "source_locator": "مرآة اللغات: الصومالية الشمالية القياسية (ماكسا-تيري)",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": {
+          "area": "الشمال والجنوب معًا بحسب المرآة",
+          "family": "كوشية من الأسرة الأفروآسيوية، وأقرب أقاربها العفرية والساهو",
+          "note": "وصف لهجي مصنَّف من مرآة؛ لا يُنشر ولا يُبنى عليه مقام.",
+          "role": "أساس الصومالية القياسية"
+        },
+        "group": "ماكسا-تيري",
+        "name": "الصومالية الشمالية القياسية (ماكسا-تيري)"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local_reported",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-9248718F05405142",
+    "lexical_context": null,
+    "notes": "لغات أجنبية كما وردت في المرآة (الإنجليزية والإيطالية والسواحيلية)؛ تُسجَّل غير منشورة بلا رمز وبلا أي عدد متحدثين أو نسبة.",
+    "observed_at": "2026-09-23",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-LANGUAGES-MIRROR-2026",
+    "source_locator": "مرآة اللغات: الإنجليزية والإيطالية والسواحيلية",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "iso_codes": [],
+        "level": "foreign",
+        "name": "الإنجليزية والإيطالية والسواحيلية",
+        "note": "لغات أجنبية كما وردت في المرآة (الإنجليزية والإيطالية والسواحيلية)؛ تُسجَّل غير منشورة بلا رمز وبلا أي عدد متحدثين أو نسبة.",
+        "official": false
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local_reported",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-95A84B0C14955BA1",
+    "lexical_context": null,
+    "notes": "من لغات الأقليات كما وردت في المرآة؛ لا يُسجَّل رمز ISO غير متحقَّق، ولا يُسجَّل عدد متحدثين ولا نسبة.",
+    "observed_at": "2026-09-23",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-LANGUAGES-MIRROR-2026",
+    "source_locator": "مرآة اللغات: الغرّية",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "iso_codes": [],
+        "level": "minority",
+        "name": "الغرّية",
+        "note": "من لغات الأقليات كما وردت في المرآة؛ لا يُسجَّل رمز ISO غير متحقَّق، ولا يُسجَّل عدد متحدثين ولا نسبة.",
+        "official": false
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-97E9DC1230965F27",
+    "lexical_context": null,
+    "notes": "طبق محلي من مرآة؛ يُسجَّل مصنَّفًا غير منشور ولا يُنسب إلى إحصاء.",
+    "observed_at": "2026-09-23",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-CUISINE-MIRROR-2026",
+    "source_locator": "المطبخ الصومالي: الأوكاك (مقماد)",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "قطع صغيرة من لحم البقر أو الغنم أو الإبل تُجفَّف وتُغلى بالسمن وتُخزَّن للترحال.",
+        "name": "الأوكاك (مقماد)"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local_reported",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-A7DDCB96580B57BB",
+    "lexical_context": null,
+    "notes": "من لغات الأقليات كما وردت في المرآة؛ لا يُسجَّل رمز ISO غير متحقَّق، ولا يُسجَّل عدد متحدثين ولا نسبة.",
+    "observed_at": "2026-09-23",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-LANGUAGES-MIRROR-2026",
+    "source_locator": "مرآة اللغات: البونية",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "iso_codes": [],
+        "level": "minority",
+        "name": "البونية",
+        "note": "من لغات الأقليات كما وردت في المرآة؛ لا يُسجَّل رمز ISO غير متحقَّق، ولا يُسجَّل عدد متحدثين ولا نسبة.",
+        "official": false
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "official",
+    "confidence": "high",
+    "id": "CLM-SO-DEPTH-B70DC0C34F5A5C6C",
+    "lexical_context": null,
+    "notes": "النصّ يسمّي الماي والماكسا-تيري داخل اللغة الرسمية؛ يُسجَّل كما ورد دون ترجمة إلى تعداد سكاني.",
+    "observed_at": "2026-09-23",
+    "predicate": "constitutional_provision",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-CONSTITUTION-2012",
+    "source_locator": "الدستور المؤقت 2012: المادة 5 (اللغات الرسمية)",
+    "status": "verified",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "article": "5",
+        "summary": "اللغة الرسمية لجمهورية الصومال الفيدرالية هي الصومالية (الماي والماكسا-تيري)، والعربية هي اللغة الثانية.",
+        "topic": "اللغات الرسمية"
+      },
+      "type": "json"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "official",
+    "confidence": "high",
+    "id": "CLM-SO-DEPTH-C5AF674B204F51B6",
+    "lexical_context": null,
+    "notes": "المادة لا تسمّي مدينة بعينها؛ تُسجَّل حرفيًا ولا يُنشر اسم عاصمة من هذا المصدر، والمادة 9 غياب مقصود لا نقص.",
+    "observed_at": "2026-09-23",
+    "predicate": "constitutional_provision",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-CONSTITUTION-2012",
+    "source_locator": "الدستور المؤقت 2012: المادة 9 (العاصمة)",
+    "status": "verified",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "article": "9",
+        "summary": "تُحدَّد مكانة العاصمة في عملية مراجعة الدستور، ويُسنّ قانون خاص من مجلسي البرلمان الاتحادي في هذا الشأن.",
+        "topic": "العاصمة"
+      },
+      "type": "json"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-C69C49D1100E5B77",
+    "lexical_context": null,
+    "notes": "طبق محلي من مرآة؛ يُسجَّل مصنَّفًا غير منشور ولا يُنسب إلى إحصاء.",
+    "observed_at": "2026-09-23",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-CUISINE-MIRROR-2026",
+    "source_locator": "المطبخ الصومالي: الموفو",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "خبز مسطّح سميك منفوش من جنوب الصومال، يُؤكل مع المرق أو بالعسل والسمن.",
+        "name": "الموفو"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local_reported",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-C7A743EBC0CE5BEC",
+    "lexical_context": null,
+    "notes": "من لغات الأقليات كما وردت في المرآة؛ لا يُسجَّل رمز ISO غير متحقَّق، ولا يُسجَّل عدد متحدثين ولا نسبة.",
+    "observed_at": "2026-09-23",
+    "predicate": "language_presence",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-LANGUAGES-MIRROR-2026",
+    "source_locator": "مرآة اللغات: الموشونغولية",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "iso_codes": [],
+        "level": "minority",
+        "name": "الموشونغولية",
+        "note": "من لغات الأقليات كما وردت في المرآة؛ لا يُسجَّل رمز ISO غير متحقَّق، ولا يُسجَّل عدد متحدثين ولا نسبة.",
+        "official": false
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-CB09C6FEB7CE5E7A",
+    "lexical_context": null,
+    "notes": "طبق محلي من مرآة؛ يُسجَّل مصنَّفًا غير منشور ولا يُنسب إلى إحصاء.",
+    "observed_at": "2026-09-23",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-CUISINE-MIRROR-2026",
+    "source_locator": "المطبخ الصومالي: لحم الغنم المقطّع",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "اللحم الأكثر استهلاكًا بحسب المرآة، يُقدَّم مقطعًا مع الخبز.",
+        "name": "لحم الغنم المقطّع"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-CE09EBF225245391",
+    "lexical_context": null,
+    "notes": "طبق محلي من مرآة؛ يُسجَّل مصنَّفًا غير منشور ولا يُنسب إلى إحصاء.",
+    "observed_at": "2026-09-23",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-CUISINE-MIRROR-2026",
+    "source_locator": "المطبخ الصومالي: المشاري (بوراش)",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "عصيدة من الحبوب تُؤكل في الإفطار.",
+        "name": "المشاري (بوراش)"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "official",
+    "confidence": "high",
+    "id": "CLM-SO-DEPTH-D524BF1EFB825BAF",
+    "lexical_context": null,
+    "notes": "وصف رموز الدولة كما ورد؛ لا تُسجَّل تفاصيل غير مقروءة من الشعار.",
+    "observed_at": "2026-09-23",
+    "predicate": "constitutional_provision",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-CONSTITUTION-2012",
+    "source_locator": "الدستور المؤقت 2012: المادة 6 (العلم والرموز الوطنية)",
+    "status": "verified",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "article": "6",
+        "summary": "العلم مستطيل أزرق فاتح في وسطه نجمة بيضاء خماسية، والإمارة درع أزرق بإطار ذهبي، والنشيد الوطني «Qolobaa Calankeed»، وللدول الأعضاء أعلامها ورموزها.",
+        "topic": "العلم والرموز الوطنية"
+      },
+      "type": "json"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "popular",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-D7B9EE8318395B61",
+    "lexical_context": null,
+    "notes": "عرف أو ممارسة من مرآة؛ يُسجَّل مصنَّفًا غير منشور ولا يُقدَّم وصفًا قانونيًا.",
+    "observed_at": "2026-09-23",
+    "predicate": "custom_practice",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-CULTURE-MIRROR-2026",
+    "source_locator": "ثقافة الصومال: لعبة غوغالايسي",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "لعبة تقليدية تتطلّب فطنة وروحًا فكاهية وجرأة بدنية، وغرضها الترفيه ونقل المعرفة العملية بحسب المصدر.",
+        "name": "لعبة غوغالايسي"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "regional",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-DE1BFBDCB6235B7D",
+    "lexical_context": null,
+    "notes": "وصف لهجي مصنَّف من مرآة؛ لا يُنشر ولا يُبنى عليه مقام.",
+    "observed_at": "2026-09-23",
+    "predicate": "dialect_profile",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-LANGUAGES-MIRROR-2026",
+    "source_locator": "مرآة اللغات: البنادرية (الساحلية)",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "features": {
+          "area": "ساحل بنادر من عدالي إلى جنوب مركة مع مقديشو والظهير القريب",
+          "note": "وصف لهجي مصنَّف من مرآة؛ لا يُنشر.",
+          "phonemes": "للهجات الساحلية فونيمات إضافية غير موجودة في الصومالية القياسية",
+          "role": "لهجة ساحلية من مجموعة ماكسا-تيري"
+        },
+        "group": "ماكسا-تيري",
+        "name": "البنادرية (الساحلية)"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-E0065ACD0AC351A0",
+    "lexical_context": null,
+    "notes": "طبق محلي من مرآة؛ يُسجَّل مصنَّفًا غير منشور ولا يُنسب إلى إحصاء.",
+    "observed_at": "2026-09-23",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-CUISINE-MIRROR-2026",
+    "source_locator": "المطبخ الصومالي: حليب الإبل",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "حليب الإبل طعام تقليدي عند الرعاة بحسب المرآة.",
+        "name": "حليب الإبل"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "local_reported",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-E2E6E3E620F25F0F",
+    "lexical_context": null,
+    "notes": "تسميات وروايات مكانية معلنة من مصدر رسمي؛ تُسجَّل روايةً ولا يُحسم أصل الاسم.",
+    "observed_at": "2026-09-23",
+    "predicate": "place_name_narrative",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-MOGADISHU-MIRROR-2026",
+    "source_locator": "ملف القائمة المؤقتة 6754: المدينة القديمة «حمر»",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "تُسمّى مدينة مقديشو في الصومالية «مقديشو» و«حمر»، وفي ملف القائمة المؤقتة تُسمّى المدينة القديمة «حمر» ويعود وصف عمارتها إلى القرن الثالث عشر وما بعده والمسجد العتيق الذي صلّى فيه ابن بطوطة سنة 1331. تُسجَّل تسميات وروايات مكانية معلنة من مصدر رسمي، ولا يُحسم أصل الاسم.",
+        "name": "أسماء المدينة القديمة"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
+    "classification": "official",
+    "confidence": "high",
+    "id": "CLM-SO-DEPTH-ED46EA306DC35EA5",
+    "lexical_context": null,
+    "notes": "يُسجَّل النصّ الدستوري وحده؛ لا تُستنتج خرائط سيطرة فعلية ولا حدود متنازع عليها في هذه الدورة.",
+    "observed_at": "2026-09-23",
+    "predicate": "constitutional_provision",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-CONSTITUTION-2012",
+    "source_locator": "الدستور المؤقت 2012: المادة 7 (الإقليم والحدود)",
+    "status": "verified",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "article": "7",
+        "summary": "تمتدّ السيادة على الأرض والبحر الإقليمي والجزر وباطن الأرض والفضاء والجرف القاري، والإقليم غير قابل للتصرف ولا التجزئة، وحدوده خليج عدن شمالًا وجيبوتي شمال غرب وإثيوبيا غربًا وكينيا جنوب غرب والمحيط الهندي شرقًا، وفق دستور 1960.",
+        "topic": "الإقليم والحدود"
+      },
+      "type": "json"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "official",
+    "confidence": "high",
+    "id": "CLM-SO-DEPTH-FD0D3CDF2A24517A",
+    "lexical_context": null,
+    "notes": "تاريخ تصديق من صفحة الدولة؛ يُنشر مرة واحدة ولا يُوسَّع إلى سرد.",
+    "observed_at": "2026-09-23",
+    "predicate": "convention_ratification_date",
+    "published": true,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-UNESCO-ICH-SO-STATE-2026",
+    "source_locator": "تصديق 2020-07-23",
+    "status": "verified",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": "اتفاقية صون التراث الثقافي غير المادي (2003)",
+      "type": "json"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "classification": "local",
+    "confidence": "low",
+    "id": "CLM-SO-DEPTH-FEAF5FB75D3D52C2",
+    "lexical_context": null,
+    "notes": "طبق محلي من مرآة؛ يُسجَّل مصنَّفًا غير منشور ولا يُنسب إلى إحصاء.",
+    "observed_at": "2026-09-23",
+    "predicate": "food_dish",
+    "published": false,
+    "schema_version": "2.0.0",
+    "second_source_id": null,
+    "second_source_locator": null,
+    "sensitivity": "ordinary",
+    "source_id": "SRC-SO-CUISINE-MIRROR-2026",
+    "source_locator": "المطبخ الصومالي: شاي الصومال (شاه كاديس)",
+    "status": "reported",
+    "subject_id": "ENT-SO-COUNTRY",
+    "unit": null,
+    "valid_from": null,
+    "valid_to": null,
+    "value": {
+      "data": {
+        "description": "شاي أسود بالبهارات (زنجبيل وهيل وقرفة بلا فلفل أسود)، يُضاف الحليب بعد الغلي لا أثناءه.",
+        "name": "شاي الصومال (شاه كاديس)"
+      },
+      "type": "json"
+    },
+    "verification_status": "local_reported"
+  },
+  {
     "classification": "official",
     "confidence": "high",
     "id": "CLM-SO-FD512D683B8F50A5",
