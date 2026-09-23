@@ -51,3 +51,7 @@ The accepted federal frame is untouched — seven FMS in the Ministry of Plannin
 **A real collision caught and fixed.** Xeer Ciise 02087 is shared with Djibouti; the first import overwrote Djibouti's country-scoped source file. The cycle re-issued the element under `SRC-UNESCO-ICH-SO-XEER-CIISE-02087-2024` (as the zaffa page already does), restored Djibouti's file, and the validator now audits every source reference and each source's country scope — a mutation fails if a claim points at another country's source.
 
 **Cycle verification.** `reports/somalia_validation.json` PASS (0 P0 · 0 critical P1; 13 entities · 12 relationships · 61 claims · 18 sources · 8 denominators · 8 coverage · 26 published), `reports/somalia_negative_tests.json` **23/23** mutations detected, `reports/somalia_independent_review.json` **121/121** full population, and `reports/somalia_gate.json` with the thresholds raised from the pre-depth **5/10/48** to **18/23/121**.
+
+## Release status after depth cycle 1
+
+`make check` = **466 checks, 0 failures, clean worktree** (Phase 5 88/88 + eighteen country gates × 21), `python3 scripts/validate.py` passes 20,105 records across 273 atomic sources, and `python3 scripts/generate.py --check` reports the generated bundle current (64 files). The depth thresholds in `scripts/check_somalia_gate.py` are now **18 sources / 23 mutations / 121 review records**, replacing the pre-depth 5/10/48.
