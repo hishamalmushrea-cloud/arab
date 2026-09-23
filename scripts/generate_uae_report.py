@@ -68,6 +68,7 @@ def render() -> str:
     review = load(ROOT / "reports/uae_independent_review.json")
     negatives = load(ROOT / "reports/uae_negative_tests.json")
     depth = load(ROOT / "data/imports/uae/fixtures/cultural_depth_2026.json")
+    depth_snapshot = next(row for row in read_jsonl(ROOT / "data/snapshots/snapshots.jsonl") if str(row.get("id", "")).startswith("SNP-AE-DEPTH"))
 
     entities = [row for row in read_jsonl(ROOT / "data/entities/entities.jsonl") if row.get("country_code") == "AE"]
     entity_ids = {row["id"] for row in entities}
@@ -99,7 +100,7 @@ def render() -> str:
     )
     sections["Snapshot"] = (
         "Snapshot `SNP-AE-PILOT-20260815` is dated **2026-08-15** and its checksum covers the administrative, cultural, source-catalog, and evidence-manifest fixtures. "
-        f"The depth cycle is carried by its own dated snapshot `{manifest.get('depth_snapshot', {}).get('snapshot_id')}` on **{manifest.get('depth_snapshot', {}).get('as_of')}**. "
+        f"The depth cycle is carried by its own dated snapshot `{depth_snapshot['id']}` on **{depth_snapshot['captured_at']}**. "
         "The import is offline and deterministic. Retrieval dates are not treated as legal commencement dates."
     )
     source_metrics = validation["checks"]["sources"]

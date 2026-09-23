@@ -34,14 +34,6 @@
     "COV-AE-PLACES",
     "COV-AE-LOCAL"
   ],
-  "depth_snapshot": {
-    "as_of": "2026-09-23",
-    "note": "The accepted pilot snapshot SNP-AE-PILOT-20260815 stays bound to its four 2026-08-15 fixtures; this depth cycle carries its own dated snapshot.",
-    "snapshot_id": "SNP-AE-DEPTH-20260923",
-    "status": "verified"
-  },
-  "depth_snapshot_id": "SNP-AE-DEPTH-20260923",
-  "depth_status": "depth_cycle_1",
   "emirate_profiles": [
     {
       "competent_authorities": [

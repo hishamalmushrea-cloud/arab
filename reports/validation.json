@@ -68,7 +68,7 @@
       "countries": 22,
       "manifests": 22,
       "pilot_migrated": 22,
-      "status": "fail"
+      "status": "pass"
     },
     "migration": {
       "duplicate_id_repairs": 58,
@@ -134,22 +134,6 @@
     "snapshots": 29,
     "sources": 279
   },
-  "errors": [
-    {
-      "check": "manifests",
-      "location": "manifests/AE.yml.depth_snapshot",
-      "message": "additional property is not allowed"
-    },
-    {
-      "check": "manifests",
-      "location": "manifests/AE.yml.depth_snapshot_id",
-      "message": "additional property is not allowed"
-    },
-    {
-      "check": "manifests",
-      "location": "manifests/AE.yml.depth_status",
-      "message": "additional property is not allowed"
-    }
-  ],
-  "status": "fail"
+  "errors": [],
+  "status": "pass"
 }

@@ -1,0 +1,124 @@
+{
+  "checks": {
+    "artifact_next_country_decision": {
+      "detail": "reports/NEXT_COUNTRY_DECISION.md exists",
+      "status": "pass"
+    },
+    "artifact_uae_depth_closeout": {
+      "detail": "reports/UAE_DEPTH_CLOSEOUT.md exists",
+      "status": "pass"
+    },
+    "artifact_uae_pilot_final": {
+      "detail": "reports/UAE_PILOT_FINAL.md exists",
+      "status": "pass"
+    },
+    "general_validation": {
+      "command": "python3 scripts/validate.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=20198\n[PASS] ids: global_ids=20198, duplicate_ids=0\n[PASS] entity_types: allowed_types=104, active_types=68\n[PASS] sources: atomic_files=279, sources=279, references=22807\n[PASS] parents: administrative_relationships=5639\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3265, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2918, sourced=2918\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=120, coverage_records=120, complete_layers=97\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
+    },
+    "generated_freshness": {
+      "command": "python3 scripts/generate.py --check",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "generated output is current (64 files)"
+    },
+    "non_uae_preservation": {
+      "detail": "canonical non-UAE SHA-256 unchanged=86244666ba44981471f595889277b786a0761b6698863bfba3ec014d02951077",
+      "status": "pass"
+    },
+    "uae_clean_worktree": {
+      "detail": "git worktree clean=False",
+      "status": "fail"
+    },
+    "uae_depth_cycle_shape": {
+      "detail": "depth claims=70 published=33 national=1 deferred=13 tentative=15 places=3",
+      "status": "pass"
+    },
+    "uae_depth_layers_declared": {
+      "detail": "layers=17, pilot=SNP-AE-PILOT-20260815, snapshots=['SNP-AE-DEPTH-20260923', 'SNP-AE-PILOT-20260815']",
+      "status": "pass"
+    },
+    "uae_findings_closed": {
+      "detail": "status=PASS, P0=0, critical P1=0",
+      "status": "pass"
+    },
+    "uae_import_idempotence": {
+      "detail": "all 14 managed hashes unchanged=True",
+      "status": "pass"
+    },
+    "uae_import_refresh": {
+      "command": "python3 scripts/import_uae_phase5.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "Materialized 25 UAE source records from checksum-bound extracts.\nUAE import complete: 44 entities including country, 42 aliases including country, 43 relationships, 146 claims (70 depth claims), 17 denominators, 5 depth layers, snapshots SNP-AE-PILOT-20260815 and SNP-AE-DEPTH-20260923."
+    },
+    "uae_independent_review": {
+      "command": "python3 scripts/review_uae.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "[PASS] aliases: 5/5 sampled records passed\n[PASS] claims: 11/11 sampled records passed\n[PASS] coverage: 2/2 sampled records passed\n[PASS] cultural_claims: 7/7 sampled records passed\n[PASS] deferred_claims: 4/4 sampled records passed\n[PASS] denominators: 2/2 sampled records passed\n[PASS] dialect_claims: 1/1 sampled records passed\n[PASS] entities: 5/5 sampled records passed\n[PASS] relationships: 5/5 sampled records passed\n[PASS] sources: 3/3 sampled records passed\nIndependent UAE review: 45/45 passed; P0=0; critical P1=0."
+    },
+    "uae_negative_tests": {
+      "command": "python3 scripts/test_uae_negative.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "[PASS] UAE_WRONG_EMIRATE_PARENT: expected UAE_PARENT_PROFILE; observed ['UAE_PARENT_PROFILE']\n[PASS] UAE_WRONG_LOCAL_TYPE: expected UAE_LOCAL_TYPE; observed ['UAE_ENTITY_COUNTS', 'UAE_LOCAL_TYPE']\n[PASS] UAE_ALIAS_AS_ENTITY: expected UAE_ALIAS_ENTITY; observed ['UAE_ALIAS_ENTITY', 'UAE_ENTITY_COUNTS', 'UAE_PROFILE_MEMBERSHIP']\n[PASS] UAE_SHARED_FOOD_AS_EXCLUSIVE: expected UAE_EXCLUSIVITY; observed ['UAE_EXCLUSIVITY']\n[PASS] UAE_NATIONAL_CLAIM_AS_LOCAL: expected UAE_NATIONAL_SCOPE; observed ['UAE_NATIONAL_SCOPE']\n[PASS] UAE_HISTORIC_AS_CURRENT: expected UAE_TEMPORAL_STATUS; observed ['UAE_TEMPORAL_STATUS']\n[PASS] UAE_SAME_NAME_DIFFERENT_PARENT: expected UAE_IDENTITY_COLLAPSE; observed ['UAE_ALIAS_POLICY', 'UAE_ENTITY_COUNTS', 'UAE_IDENTITY_COLLAPSE', 'UAE_PARENT_PROFILE', 'UAE_PROFILE_MEMBERSHIP', 'UAE_SEMANTICS']\n[PASS] UAE_FOREIGN_SOURCE: expected UAE_FOREIGN_SOURCE; observed ['UAE_FOREIGN_SOURCE']\n[PASS] UAE_DEPTH_SHARED_AS_NATIONAL: expected UAE_DEPTH_ELEMENT_SCOPE; observed ['UAE_DEPTH_ELEMENT_SCOPE']\n[PASS] UAE_DEPTH_DEFERRED_SCOPE_INVENTED: expected UAE_DEPTH_ELEMENT_SCOPE; observed ['UAE_DEPTH_ELEMENT_SCOPE']\n[PASS] UAE_DEPTH_DEFERRED_PUBLISHED: expected UAE_DEPTH_ELEMENT_SCOPE; observed ['UAE_DEPTH_CLAIMS', 'UAE_DEPTH_ELEMENT_SCOPE']\n[PASS] UAE_DEPTH_REGISTER_AS_ELEMENT: expected UAE_DEPTH_ELEMENT_SCOPE; observed ['UAE_DEPTH_ELEMENT_SCOPE']\n[PASS] UAE_DEPTH_PENDING_DROPPED: expected UAE_DEPTH_ELEMENT_SCOPE; observed ['UAE_DEPTH_CLAIMS', 'UAE_DEPTH_ELEMENT_SCOPE']\n[PASS] UAE_DEPTH_CLAIM_DROPPED: expected UAE_DEPTH_CLAIMS; observed ['UAE_DEPTH_CLAIMS']\n[PASS] UAE_DEPTH_CRITERIA_FILLED: expected UAE_DEPTH_WH; observed ['UAE_DEPTH_WH']\n[PASS] UAE_DEPTH_TENTATIVE_DUPLICATED: expected UAE_DEPTH_WH; observed ['UAE_DEPTH_WH']\n[PASS] UAE_DEPTH_INSCRIBED_COUNT: expected UAE_DEPTH_WH; observed ['UAE_DEPTH_CLAIMS', 'UAE_DEPTH_WH']\n[PASS] UAE_DEPTH_DISH_NUMBER: expected UAE_DEPTH_NO_COUNTS; observed ['UAE_DEPTH_NO_COUNTS']\n[PASS] UAE_DEPTH_WEAK_PUBLISHED: expected UAE_DEPTH_PUBLICATION; observed ['UAE_DEPTH_CLAIMS', 'UAE_DEPTH_PUBLICATION']\n[PASS] UAE_DEPTH_PLACE_COORDINATES: expected UAE_DEPTH_PLACE_SHAPE; observed ['UAE_DEPTH_PLACE_SHAPE']\n[PASS] UAE_DEPTH_PLACE_SECOND_PARENT: expected UAE_DEPTH_PLACE_SHAPE; observed ['UAE_DEPTH_PLACE_SHAPE']\n[PASS] UAE_DEPTH_PLACE_CLAIM: expected UAE_DEPTH_PLACE_SHAPE; observed ['UAE_DEPTH_CLAIMS', 'UAE_DEPTH_PLACE_SHAPE']\n[PASS] UAE_DEPTH_PLACE_RETYPED: expected UAE_DEPTH_PLACE_SHAPE; observed ['UAE_DEPTH_PLACE_SHAPE', 'UAE_ENTITY_COUNTS']\n[PASS] UAE_DEPTH_PILOT_SNAPSHOT_MERGED: expected UAE_DEPTH_SNAPSHOT; observed ['UAE_DEPTH_SNAPSHOT']\n[PASS] UAE_DEPTH_SOURCE_DOWNGRADED: expected UAE_DEPTH_SOURCES; observed ['UAE_DEPTH_PUBLICATION', 'UAE_DEPTH_SOURCES', 'UAE_SOURCE_QUALITY']\n[PASS] UAE_DEPTH_LAYER_DENOMINATOR: expected UAE_DEPTH_LAYERS; observed ['UAE_COVERAGE', 'UAE_DEPTH_LAYERS']\n[PASS] UAE_DEPTH_LAYER_TOTAL: expected UAE_DEPTH_LAYERS; observed ['UAE_DEPTH_LAYERS']\nUAE negative tests: 27/27 required mutations detected."
+    },
+    "uae_required_mutations": {
+      "detail": "detected=27/27",
+      "status": "pass"
+    },
+    "uae_review_idempotence": {
+      "detail": "independent review unchanged=True",
+      "status": "pass"
+    },
+    "uae_review_sample_idempotence": {
+      "detail": "full-population sample unchanged=True",
+      "status": "pass"
+    },
+    "uae_review_sample_refresh": {
+      "command": "python3 scripts/build_uae_review_samples.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "[PASS] entities: 5/44 (11.36%)\n[PASS] aliases: 5/42 (11.9%)\n[PASS] relationships: 5/43 (11.63%)\n[PASS] claims: 11/109 (10.09%)\n[PASS] deferred_claims: 4/37 (10.81%)\n[PASS] sources: 3/26 (11.54%)\n[PASS] denominators: 2/17 (11.76%)\n[PASS] coverage: 2/17 (11.76%)\n[PASS] cultural_claims: 7/69 (10.14%)\n[PASS] dialect_claims: 1/3 (33.33%)\nBuilt 45 deterministic UAE review selections across 10 required families."
+    },
+    "uae_review_threshold": {
+      "detail": "full review passed=45/45",
+      "status": "pass"
+    },
+    "uae_semantic_validation": {
+      "command": "python3 scripts/validate_uae.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "[PASS] entities: entities=44, contextual_types=8, type_counts={'ae_abu_dhabi_municipality_jurisdiction': 3, 'ae_ajman_constituent': 3, 'ae_dubai_planning_sector': 9, 'ae_emirate': 7, 'ae_fujairah_municipal_authority': 2, 'ae_rak_administrative_area': 5, 'ae_sharjah_municipality_jurisdiction': 9, 'ae_uaq_municipal_authority': 2, 'country': 1, 'cultural_site': 2, 'natural_site': 1}\n[PASS] emirate_profiles: profiles=7, profiled_entities=40\n[PASS] relationships: relationships=43, administrative_parents=40, orphans=0\n[PASS] aliases: aliases=42, historical_aliases=1\n[PASS] claims: claims=146, semantics=40, cultural=106, dialect=3, sensitive=0, contexts={'coastal': True, 'desert': True, 'mountain': True, 'oasis': True, 'urban': True, 'historical': True}\n[PASS] sources: referenced=26, pilot_specific=22, ab_claims=109, published_claims=109, ab_ratio=100.0, evidence_extracts=25\n[PASS] coverage: denominators=17, coverage_records=17, closed_layers=9, unavailable_layers=8, bounded_denominators={'emirates': 7, 'abu_dhabi_municipality_jurisdictions': 3, 'dubai_planning_sectors': 9, 'sharjah_municipality_jurisdictions': 9, 'ajman_constituents': 3, 'uaq_municipal_authorities': 2, 'rak_administrative_areas': 5, 'fujairah_municipal_authorities': 2}\n[PASS] depth: claims=70, published=33, unpublished=37, elements=7, national_elements=1, deferred_files=13, tentative_files=15, places=3\n[PASS] schema: schema_version=2.0.0, additive_entity_types=8, additive_entity_statuses=3, additive_claim_classifications=1, optional_manifest_properties=1, deprecated_generic_types_retained=['ae_district', 'ae_municipal_region', 'ae_sector']\nUAE semantic validation passed with zero P0/critical P1 findings."
+    },
+    "uae_source_idempotence": {
+      "detail": "AE-scoped atomic sources=27/27, unchanged=True",
+      "status": "pass"
+    },
+    "uae_source_refresh": {
+      "command": "python3 scripts/build_uae_sources.py",
+      "returncode": 0,
+      "status": "pass",
+      "stderr": "",
+      "stdout": "Materialized 25 UAE source records from checksum-bound extracts."
+    }
+  },
+  "country_code": "AE",
+  "depth_snapshot_date": "2026-09-23",
+  "errors": [
+    "uae_clean_worktree: git worktree clean=False"
+  ],
+  "schema_version": "2.0.0",
+  "snapshot_date": "2026-08-15",
+  "status": "fail"
+}

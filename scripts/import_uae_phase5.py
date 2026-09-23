@@ -495,13 +495,11 @@ def main() -> None:
     manifest["next_action"] = ("Read the element pages of the thirteen deferred files, the three property pages, and the constitution before extending; keep heritage places located_in-only "
                                "and the three unavailable registries without a percentage.")
     manifest["snapshot"] = {"as_of": SNAPSHOT_DATE, "snapshot_id": SNAPSHOT_ID, "status": "verified"}
-    manifest["depth_status"] = "depth_cycle_1"
-    manifest["depth_snapshot"] = {"as_of": SNAPSHOT_DATE_DEPTH, "snapshot_id": DEPTH_SNAPSHOT_ID, "status": "verified",
-                                  "note": "The accepted pilot snapshot SNP-AE-PILOT-20260815 stays bound to its four 2026-08-15 fixtures; this depth cycle carries its own dated snapshot."}
     depth_coverage_ids = [f"COV-AE-{tag}" for tag in DEPTH_TAGS.values()]
     stale_coverage_ids = {f"COV-AE-{tag}" for tag in DEPTH_TAGS} | set(depth_coverage_ids)
+    for schema_forbidden_key in ("depth_status", "depth_snapshot", "depth_snapshot_id"):
+        manifest.pop(schema_forbidden_key, None)
     manifest["coverage_record_ids"] = [cov_id for cov_id in manifest.get("coverage_record_ids", []) if cov_id not in stale_coverage_ids] + depth_coverage_ids
-    manifest["depth_snapshot_id"] = DEPTH_SNAPSHOT_ID
     authority = manifest.get("official_authority", {})
     authority["source_ids"] = sorted(set(authority.get("source_ids", [])) | {
         "SRC-UNESCO-ICH-AE-STATE-2026", "SRC-UNESCO-WH-AE-STATE-2026", "SRC-AE-ISO639-3-ARABIC"})
