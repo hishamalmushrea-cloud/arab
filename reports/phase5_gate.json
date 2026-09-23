@@ -25,8 +25,8 @@
       "status": "pass"
     },
     "clean_worktree": {
-      "detail": "git worktree clean=True",
-      "status": "pass"
+      "detail": "git worktree clean=False",
+      "status": "fail"
     },
     "completion_claims": {
       "detail": "README declares incomplete local coverage and constrains 100%",
@@ -196,8 +196,8 @@
       "status": "pass"
     },
     "saudi_clean_worktree": {
-      "detail": "git worktree clean=True",
-      "status": "pass"
+      "detail": "git worktree clean=False",
+      "status": "fail"
     },
     "saudi_final_report": {
       "detail": "20-section Saudi final report exists; overall PASS also requires a separately recorded green remote run",
@@ -313,8 +313,8 @@
       "status": "pass"
     },
     "uae_clean_worktree": {
-      "detail": "git worktree clean=True",
-      "status": "pass"
+      "detail": "git worktree clean=False",
+      "status": "fail"
     },
     "uae_evidence_idempotence": {
       "detail": "validation, mutation, sample, and review hashes unchanged=True",
@@ -437,9 +437,13 @@
       "status": "pass"
     }
   },
-  "errors": [],
+  "errors": [
+    "clean_worktree: git worktree clean=False",
+    "saudi_clean_worktree: git worktree clean=False",
+    "uae_clean_worktree: git worktree clean=False"
+  ],
   "phase": "phase5",
   "schema_version": "2.0.0",
   "semantic_hash": "sha256:f28665657d74e7fede08d06fe3e1ca1232f3fe79ccabb030695a4565a2728897",
-  "status": "pass"
+  "status": "fail"
 }
