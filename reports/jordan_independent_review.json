@@ -2,7 +2,7 @@
   "baseline_issue_codes": [],
   "country_code": "JO",
   "errors": [],
-  "input_fingerprint_sha256": "3acd2738a222f280d07a561ab3721ce7782b88f3752583f5d602f422b48d031d",
+  "input_fingerprint_sha256": "0f04b5130d24c19f0a9c8b8bea9bb1e22d117aaef83a0bb7ea471c4b56ebd85d",
   "negative_test_outcomes": {
     "NEG-JO-COORDINATE-MISMATCH": "pass",
     "NEG-JO-CULTURAL-MISATTRIBUTION": "pass",

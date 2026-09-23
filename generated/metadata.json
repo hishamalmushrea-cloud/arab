@@ -13,8 +13,8 @@
   "inputs": {
     "data/aliases/aliases.jsonl": "sha256:73dc66726bf43cca7252ca7720325411b74c5d40913bb8d03ebc8908cdf519a3",
     "data/claims/claims.jsonl": "sha256:8631091e3dcd69c04cbad29c70a95e98a4ab2b9ef22b5386c80f66df9975395d",
-    "data/coverage/coverage.jsonl": "sha256:2756578a5d5d6ebe9585ecd8a2e2d41905e903824aac1c8f985c469482ceeeeb",
-    "data/coverage/denominators.jsonl": "sha256:a98334c9dd7eefe0b2682a72f14047b4cb0ace4e3c687d93582d6d0e362ab434",
+    "data/coverage/coverage.jsonl": "sha256:de4f91c704d50ad790cb323f4ef4570349ef11330a6136e86584882906bac494",
+    "data/coverage/denominators.jsonl": "sha256:512ce2de50c5fbe9ec98ece81da79bd69e72e268b707877a5950a3696f7dccd1",
     "data/entities/entities.jsonl": "sha256:db17a5d75c10d33d5699b12307fbb2a5c0ae332cf017c488e8b5b623e2fee39a",
     "data/relationships/relationships.jsonl": "sha256:f2891c2ca62ded4f58a6fbdd05a8234ae4f460dd0eda84a287060ecf9fb654df",
     "data/snapshots/snapshots.jsonl": "sha256:adb66c1f9ce609a39f93934305db7c44424b0ee5bd0fedb6e499ab69c747bb00",

@@ -469,18 +469,22 @@ def main() -> None:
         },
         "notes": "سبعة عناصر يونسكوية مصنَّفة (واحد وطني وحيد الدولة: العزي على قائمة الصون العاجل) وثلاثة عشر ملفًا مؤجَّلًا لقائمة الدول المقدِّمة، وثلاثة مواقع مُدرجة بمعايير غير مقروءة، وخمسة عشر ملفًا مؤقتًا، ولا يُسجَّل أي عدد سكان أو متحدثين أو نسبة، والصفوف اللغوية تنتظر قراءة الدستور.",
     }
+    # The accepted Phase-2 import backfills coverage licenses from the source registry, so the depth
+    # layers copy the same source license here instead of inventing a layer-local string.
+    source_license_by_id = {row["id"]: row["license"] for row in load_json(SOURCE_FIXTURE_PATH)["sources"]}
     for layer, tag in DEPTH_TAGS.items():
         reason = "knowledge/list layer: no spatial denominator is asserted and no percentage is calculated"
         layer_source = next(layer_row["source_ids"][0] for layer_row in DEPTH_LAYERS if layer_row["layer"] == layer)
+        layer_license = source_license_by_id[layer_source]
         denominators.append({"id": f"DEN-AE-{tag}", "schema_version": SCHEMA_VERSION, "country_code": "AE", "layer": layer,
                              "definition": f"{layer} depth layer", "value": None, "as_of": SNAPSHOT_DATE_DEPTH, "status": "unavailable",
                              "source_id": layer_source,
-                             "source_locator": f"{layer} depth layer", "license": "Depth layer: no denominator asserted",
+                             "source_locator": f"{layer} depth layer", "license": layer_license,
                              "missing_reason": reason, "notes": reason, "denominator": None, "snapshot_date": SNAPSHOT_DATE_DEPTH})
         coverage.append({"id": f"COV-AE-{tag}", "schema_version": SCHEMA_VERSION, "country_code": "AE", "layer": layer, "snapshot_id": DEPTH_SNAPSHOT_ID,
                          "denominator_id": f"DEN-AE-{tag}", "source_id": layer_source,
                          "matched": 0, "unmatched": 0, "excluded": 0, "missing": None, "complete": False, "missing_reason": reason,
-                         "notes": reason, "denominator": None, "snapshot_date": SNAPSHOT_DATE_DEPTH, "license": "Depth layer: no percentage",
+                         "notes": reason, "denominator": None, "snapshot_date": SNAPSHOT_DATE_DEPTH, "license": layer_license,
                          "coverage_percentage": None, "exclusion_reasons": []})
 
     write_json(DOMAIN_STATUS_PATH, domain_status)
