@@ -35,11 +35,7 @@
       "status": "fail"
     },
     "uae_depth_cycle_shape": {
-      "detail": "depth claims=70 published=33 national=1 deferred=13 tentative=15 places=3",
-      "status": "pass"
-    },
-    "uae_depth_layers_declared": {
-      "detail": "layers=17, pilot=SNP-AE-PILOT-20260815, snapshots=['SNP-AE-DEPTH-20260923', 'SNP-AE-PILOT-20260815']",
+      "detail": "claims=70/33 published, national=1, deferred=13, tentative=15, places=3, layers=17, snapshots=['SNP-AE-DEPTH-20260923', 'SNP-AE-PILOT-20260815']",
       "status": "pass"
     },
     "uae_findings_closed": {
