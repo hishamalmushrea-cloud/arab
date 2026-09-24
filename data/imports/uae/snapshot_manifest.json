@@ -1,5 +1,5 @@
 {
-  "method": "Bounded exact relevant-text extraction from official and peer-reviewed pages; local checksums bind persisted excerpts, not unretained full HTTP responses.",
+  "method": "Bounded exact relevant-text extraction from official and peer-reviewed pages; local checksums bind persisted excerpts, not unretained full HTTP responses. The accepted 2026-08-15 records and the 2026-09-23 depth records are separated by each record's retrieved_at.",
   "records": [
     {
       "bytes": 360,
@@ -173,29 +173,29 @@
       "url": "https://u.ae/en/about-the-uae/the-seven-emirates/fujairah"
     },
     {
-      "bytes": 1976,
+      "bytes": 2681,
       "capture_scope": "relevant_exact_excerpt",
       "path": "raw/2026-09-23/ich-state-uae.txt",
       "retrieved_at": "2026-09-23",
-      "sha256": "5e32a970035089d0632a1d6f3676800ed3a10b41a3172119668e2136ac4e24bb",
+      "sha256": "148f19a15291166c3b0588a52afcb8c35b642a0d5c6774c2ba9067ae563b3b10",
       "source_id": "SRC-UNESCO-ICH-AE-STATE-2026",
       "url": "https://ich.unesco.org/en/state/united-arab-emirates-AE"
     },
     {
-      "bytes": 595,
+      "bytes": 723,
       "capture_scope": "relevant_exact_excerpt",
       "path": "raw/2026-09-23/ich-al-azi-01268.txt",
       "retrieved_at": "2026-09-23",
-      "sha256": "1b7b4b9db769b90ee33d11171006d9d036f1a5e2ece3082660a5f35d410b39f2",
+      "sha256": "3265c0120770750aa714c7521622c73f7074778e313293f11960bf0cd22a339c",
       "source_id": "SRC-UNESCO-ICH-AE-AL-AZI-01268-2017",
       "url": "https://ich.unesco.org/en/USL/al-azi-art-of-performing-praise-pride-and-fortitude-poetry-01268"
     },
     {
-      "bytes": 1115,
+      "bytes": 1864,
       "capture_scope": "relevant_exact_excerpt",
       "path": "raw/2026-09-23/whc-state-uae.txt",
       "retrieved_at": "2026-09-23",
-      "sha256": "3948353fc952a3f4e1e10aaeca789e0b0122621bf366f4b097be5c2f52f9aa39",
+      "sha256": "c2b9bca1616c510f7b1b916ea38e07b0e8cac00d5ea79af90d2ac7bd84840d88",
       "source_id": "SRC-UNESCO-WH-AE-STATE-2026",
       "url": "https://whc.unesco.org/en/statesparties/ae"
     },

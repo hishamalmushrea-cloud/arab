@@ -179,6 +179,11 @@ def depth_layer_total_shifted(bundle: dict[str, Any]) -> None:
     layer["denominator"] = 20
 
 
+def element_reference_unbacked(bundle: dict[str, Any]) -> None:
+    claim = next(row for row in bundle["claims"] if row.get("predicate") == "intangible_cultural_practice" and row.get("classification") == "shared")
+    claim["value"]["data"]["reference"] = "99999"
+
+
 def natural_place_retyped(bundle: dict[str, Any]) -> None:
     next(row for row in bundle["entities"] if row["id"] == "ENT-AE-SITE-WURAYAH")["entity_type"] = "cultural_site"
 
@@ -207,6 +212,7 @@ MUTATIONS: list[tuple[str, str, Mutation]] = [
     ("UAE_DEPTH_PLACE_SECOND_PARENT", "UAE_DEPTH_PLACE_SHAPE", place_second_parent),
     ("UAE_DEPTH_PLACE_CLAIM", "UAE_DEPTH_PLACE_SHAPE", place_bearing_claim),
     ("UAE_DEPTH_PLACE_RETYPED", "UAE_DEPTH_PLACE_SHAPE", natural_place_retyped),
+    ("UAE_DEPTH_REFERENCE_UNBACKED", "UAE_DEPTH_EVIDENCE_TRACE", element_reference_unbacked),
     ("UAE_DEPTH_PILOT_SNAPSHOT_MERGED", "UAE_DEPTH_SNAPSHOT", pilot_snapshot_merged),
     ("UAE_DEPTH_SOURCE_DOWNGRADED", "UAE_DEPTH_SOURCES", depth_source_downgraded),
     ("UAE_DEPTH_LAYER_DENOMINATOR", "UAE_DEPTH_LAYERS", depth_layer_denominator_removed),

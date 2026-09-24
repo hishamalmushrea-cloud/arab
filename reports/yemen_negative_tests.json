@@ -1,6 +1,6 @@
 {
   "country_code": "YE",
-  "detected": 24,
+  "detected": 33,
   "mutations": [
     {
       "detected": true,
@@ -121,9 +121,54 @@
       "detected": true,
       "expected_code": "YE_SOCOTRA_LAW",
       "mutation": "YE_EFFECTIVE_CLAUSE_FABRICATED"
+    },
+    {
+      "detected": true,
+      "expected_code": "YE_SECTION_STATUS",
+      "mutation": "YE_SECTION_COORDINATED"
+    },
+    {
+      "detected": true,
+      "expected_code": "YE_SECTION_STATUS",
+      "mutation": "YE_SECTION_PROMOTED_TO_VERIFIED"
+    },
+    {
+      "detected": true,
+      "expected_code": "YE_SECTION_CONTEXT",
+      "mutation": "YE_SECTION_RENAMED"
+    },
+    {
+      "detected": true,
+      "expected_code": "YE_SECTION_COUNTS",
+      "mutation": "YE_SECTION_DROPPED"
+    },
+    {
+      "detected": true,
+      "expected_code": "YE_SECTION_CONTEXT",
+      "mutation": "YE_SECTION_REPARENTED"
+    },
+    {
+      "detected": true,
+      "expected_code": "YE_SECTION_CLAIMLESS",
+      "mutation": "YE_SECTION_POPULATED"
+    },
+    {
+      "detected": true,
+      "expected_code": "YE_OPEN_DISTRICTS",
+      "mutation": "YE_OPEN_DISTRICT_ESTIMATED"
+    },
+    {
+      "detected": true,
+      "expected_code": "YE_SECTION_COVERAGE",
+      "mutation": "YE_URBAN_COVERAGE_INFLATED"
+    },
+    {
+      "detected": true,
+      "expected_code": "YE_URBAN_SNAPSHOT",
+      "mutation": "YE_URBAN_SNAPSHOT_MERGED"
     }
   ],
-  "required": 24,
+  "required": 33,
   "schema_version": "2.0.0",
   "status": "PASS"
 }

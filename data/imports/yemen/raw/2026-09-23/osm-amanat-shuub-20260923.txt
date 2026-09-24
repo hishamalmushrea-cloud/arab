@@ -1,0 +1,49 @@
+OSM Overpass API — Amanat Al Asimah named urban sections — district: شعوب
+Data: © OpenStreetMap contributors, ODbL 1.0 (https://www.openstreetmap.org/copyright)
+Query: [out:json][timeout:120];area["name"="مديرية شعوب"]["boundary"="administrative"]->.a;(nwr["place"~"^(neighbourhood|quarter|suburb|city_block)$"]["name"](area.a););out tags center;
+Retrieved: 2026-09-23 by the project depth cycle; OSM base timestamp: 2026-09-23T22:03:14Z; named place features returned: 44
+Fields: name|place|osm_type/osm_id|GNS gazetteer id (- = none)|name source tag
+هبرة|suburb|node/1222644490|10643847|GNS
+حي المروت|neighbourhood|node/4326075200|-|OSM (name tag Almarawn)
+حارة الفاروق الجنوبية|neighbourhood|node/5499307323|-|OSM (name:ar حارة الدجاح)
+المضلاع|neighbourhood|node/6462235387|-|OSM
+عرهب|suburb|node/6936968120|10643855|GNS
+سد شعوب|suburb|node/7294927766|14853856|GNS
+بير زيد|neighbourhood|node/7294927767|14853855|GNS
+بير الغشم|suburb|node/7294927775|14853846|GNS
+قبة جباري|suburb|node/7294933921|14853809|GNS
+الفاروق|suburb|node/7294950035|14853910|GNS
+بلقيس|suburb|node/7294950156|14853906|GNS
+بير الدفعي|suburb|node/7294951107|14853805|GNS
+الصياح|suburb|node/7294951108|14853802|GNS
+بير السنيدار|suburb|node/7294951109|14853801|GNS
+بئر التبان|suburb|node/7294951110|14853797|GNS
+جامع الرضوان|suburb|node/7294951111|14853796|GNS
+شيراتون|suburb|node/7294951113|14853792|GNS
+الغوارس|suburb|node/7294951114|14853791|GNS
+الفرقان|suburb|node/7294951116|14853800|GNS
+المحاريق|suburb|node/7294951118|14853785|GNS
+الحرقان الداخلي|suburb|node/7294951164|14853729|GNS
+التبان|suburb|node/7294951340|14853899|GNS
+جامعة الرضوان|suburb|node/7294951343|14853898|GNS
+سعوان|suburb|node/7294951344|14853897|GNS
+فروة|suburb|node/7294958839|14853845|GNS
+بئر القحوم|suburb|node/7294960703|14853909|GNS
+الخرابة|suburb|node/7294960704|14853908|GNS
+الوشاح|suburb|node/7294960705|14853907|GNS
+بئر السبيدار|suburb|node/7294963886|14853905|GNS
+بئر السنيدار|suburb|node/7294968764|14853904|GNS
+وادي جميل|suburb|node/7294968768|14853901|GNS
+مسيك الوسطى|suburb|node/7294969420|14853788|GNS
+مسيك الشرقية المحاريق|suburb|node/7294969433|14853881|GNS
+مسيك الشرقية|suburb|node/7294969434|14853787|GNS
+بير الربوعي|suburb|node/7294969778|14853808|GNS
+حارة الخرابة|suburb|node/7294969788|14853804|GNS
+مدينة الضباط|suburb|node/7294969789|14853794|GNS
+الوحدة|suburb|node/7294969869|14853793|GNS
+مسيك والمزرعة|suburb|node/7294970375|14853789|GNS
+حي سبأ|neighbourhood|way/602874922|-|OSM (wikidata Q12209595)
+حي ظهر حمير|quarter|way/608547263|-|OSM
+الصياح|neighbourhood|way/608558430|-|OSM
+الحفا|quarter|way/608593544|-|OSM
+الحشيشية|neighbourhood|way/608593550|-|OSM (name:ar الحشيشة)

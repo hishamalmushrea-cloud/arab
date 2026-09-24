@@ -35,3 +35,13 @@
 - District-level dress names (Taiz rural costumes) show the local-depth principle: named variants beat generic national descriptions.
 - Estimates (~100 costumes) stay inside claim notes as bounded text; they never become denominators without an atomic source.
 - Classification stripping is now a detected mutation: an unclassified cultural claim is as dangerous as an unverified published one.
+
+## Depth cycle 5 — named urban sections from a dated map snapshot (2026-09-23)
+
+- A mirror is only as good as the fields it keeps: the extract text carries the query, the OSM base timestamp and one line per feature, so `YE_SECTION_EVIDENCE` can fail the build when a section in the fixture is absent from its own extract.
+- A gazetteer tag is a confidence source: `source:name=GNS` raises a name to `probable`; a community-mapped name stays `unverified`. The rule is mechanical, not editorial.
+- Two different units must never share one percentage: 791 lanes and 64 named sections are different things, so each district row carries its own denominator and stays incomplete.
+- A retrieval failure is data: six districts returned a dispatcher timeout on every retry, and recording that in `open_districts` with a reason is worth more than any estimate.
+- Importing a centre point is a temptation, not a requirement — coordinates stay null and the gate fails the build when one appears.
+- Places without claims stay useful: 64 sections give the next cycle real anchors for markets, crafts and dialect, with zero risk of publishing an unverified fact.
+

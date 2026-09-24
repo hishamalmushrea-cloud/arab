@@ -1,5 +1,7 @@
 {
   "country_code": "YE",
+  "depth_cycle": 2,
+  "depth_snapshot_date": "2026-09-23",
   "domains": {
     "crafts_markets": {
       "claims": 7,
@@ -16,6 +18,14 @@
     "dress": {
       "claims": 7,
       "status": "documented_local_reported_unpublished"
+    },
+    "urban_sections": {
+      "districts_completed": 2,
+      "districts_open": 6,
+      "probable": 55,
+      "sections": 64,
+      "status": "enumerated_partially_unpublished",
+      "unverified": 9
     },
     "world_heritage": {
       "status": "not_imported_in_full_pilot_stage1"

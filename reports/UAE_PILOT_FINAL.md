@@ -179,7 +179,7 @@ Languages: the state-wide mirror lists Arabic as official and English as widely 
 
 ## Independent Review and Negative Tests
 
-Independent review is **PASS**: 45/45 sampled checks passed, with every required family at least 10% (`aliases 5/42, claims 11/109, coverage 2/17, cultural_claims 7/69, deferred_claims 4/37, denominators 2/17, dialect_claims 1/3, entities 5/44, relationships 5/43, sources 3/26`). It does not import or call the UAE importer. Negative testing is **PASS**: 27/27 required mutations detected. P0=0; critical P1=0.
+Independent review is **PASS**: 45/45 sampled checks passed, with every required family at least 10% (`aliases 5/42, claims 11/109, coverage 2/17, cultural_claims 7/69, deferred_claims 4/37, denominators 2/17, dialect_claims 1/3, entities 5/44, relationships 5/43, sources 3/26`). It does not import or call the UAE importer. Negative testing is **PASS**: 28/28 required mutations detected. P0=0; critical P1=0.
 
 ## Final Gate
 

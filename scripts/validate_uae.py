@@ -425,6 +425,17 @@ def validate_bundle(bundle: dict[str, Any]) -> dict[str, Any]:
         if count_leak(json.dumps(row.get("value", {}).get("data"), ensure_ascii=False)):
             error("UAE_DEPTH_NO_COUNTS", f"{row.get('id')} carries a speaker, population or share number")
 
+    # Every published depth reference must appear in its own checksum-bound extract.
+    captures = {row.get("source_id"): ROOT / "data/imports/uae" / row.get("path", "") for row in bundle["raw_manifest"].get("records", [])}
+    extract_text = {sid: path.read_text(encoding="utf-8", errors="ignore") for sid, path in captures.items() if path.exists()}
+    for row in depth_published:
+        data = row.get("value", {}).get("data")
+        reference = data.get("reference") if isinstance(data, dict) else None
+        if reference is None:
+            continue
+        if str(reference) not in extract_text.get(row.get("source_id"), ""):
+            error("UAE_DEPTH_EVIDENCE_TRACE", f"{row.get('id')} reference {reference} is absent from its checksum-bound extract")
+
     # publication contract of the depth cycle
     for row in depth_published:
         if row.get("verification_status") not in {"verified", "source_verified"} or row.get("status") not in {"verified", "reported"}:
@@ -504,7 +515,7 @@ def validate_bundle(bundle: dict[str, Any]) -> dict[str, Any]:
         "aliases": {"UAE_ALIAS_POLICY", "UAE_ALIAS_ENTITY", "UAE_TEMPORAL_STATUS"},
         "claims": {"UAE_SEMANTICS", "UAE_EXCLUSIVITY", "UAE_NATIONAL_SCOPE", "UAE_SENSITIVE_SOURCE", "UAE_CULTURAL_SAMPLE", "UAE_DIALECT"},
         "depth": {"UAE_DEPTH_CLAIMS", "UAE_DEPTH_LAYERS", "UAE_DEPTH_SNAPSHOT", "UAE_DEPTH_ELEMENT_SCOPE", "UAE_DEPTH_WH",
-                  "UAE_DEPTH_NO_COUNTS", "UAE_DEPTH_PUBLICATION", "UAE_DEPTH_PLACE_SHAPE", "UAE_DEPTH_SOURCES"},
+                  "UAE_DEPTH_NO_COUNTS", "UAE_DEPTH_PUBLICATION", "UAE_DEPTH_PLACE_SHAPE", "UAE_DEPTH_SOURCES", "UAE_DEPTH_EVIDENCE_TRACE"},
         "sources": {"UAE_SOURCE_MISSING", "UAE_FOREIGN_SOURCE", "UAE_SOURCE_QUALITY", "UAE_SOURCE_CHECKSUM"},
         "coverage": {"UAE_COVERAGE"},
         "schema": {"UAE_SCHEMA"},

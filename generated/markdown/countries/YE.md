@@ -15,6 +15,8 @@
 | ye_first_level_current | Reconciled legal universe: legacy 21 plus Socotra under Law 31/2013. | 22 | 22 | 0 | 0 | 0 | 100% | 2026-08-17 | SNP-YE-PRODUCTION-20260817 | SRC-YE-LAW-31-SOCOTRA-REPORT-2013 | Factual extraction with attribution; publisher reuse terms not stated | نعم | — |
 | ye_governorate_current | Twenty legacy governorates plus Socotra; excludes Amanat Al Asimah. | 21 | 21 | 0 | 0 | 0 | 100% | 2026-08-17 | SNP-YE-PRODUCTION-20260817 | SRC-YE-LAW-31-SOCOTRA-REPORT-2013 | Factual extraction with attribution; publisher reuse terms not stated | نعم | — |
 | ye_first_level_legacy_pre_socotra | Historical source frame: 20 governorates plus Capital Municipality; Socotra absent. | 21 | 21 | 0 | 0 | 0 | 100% | 2026-08-17 | SNP-YE-PRODUCTION-20260817 | SRC-YE-CSO-ADMIN-DEFINITION-LEGACY | Factual extraction with attribution; publisher reuse terms not stated | نعم | — |
+| ye_amanat_urban_sections_2026 | Bounded denominator from the NIC census-2004 Amanat frame: 34 lanes and 6 neighborhoods in أزال district. The dated OSM snapshot attests 20 named urban sections there; the lane frame and the named-section unit are not identical, so the figure is a bounded indicator and is never extrapolated to any other district. | 34 | 20 | 14 | 0 | 14 | 58.82% | 2026-09-23 | SNP-YE-URBAN-SECTIONS-20260923 | SRC-OSM-AMANAT-SECTIONS-2026 | ODbL 1.0 — © OpenStreetMap contributors (https://www.openstreetmap.org/copyright) | لا | urban_section_names_partially_enumerated: 20 of the district frame are attested by name in the dated snapshot; districts not retrieved stay open and are never estimated: الصافية, السبعين, الوحدة, معين, الثورة, بني الحارث |
+| ye_amanat_urban_sections_2026 | Bounded denominator from the NIC census-2004 Amanat frame: 101 lanes and 12 neighborhoods in شعوب district. The dated OSM snapshot attests 44 named urban sections there; the lane frame and the named-section unit are not identical, so the figure is a bounded indicator and is never extrapolated to any other district. | 101 | 44 | 57 | 0 | 57 | 43.56% | 2026-09-23 | SNP-YE-URBAN-SECTIONS-20260923 | SRC-OSM-AMANAT-SECTIONS-2026 | ODbL 1.0 — © OpenStreetMap contributors (https://www.openstreetmap.org/copyright) | لا | urban_section_names_partially_enumerated: 44 of the district frame are attested by name in the dated snapshot; districts not retrieved stay open and are never estimated: الصافية, السبعين, الوحدة, معين, الثورة, بني الحارث |
 
 ## الكيانات
 
@@ -480,9 +482,73 @@
 | ENT-YE-LANE-F30FD711EB83 | باب اليمن | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 38: باب اليمن |
 | ENT-YE-LANE-F644D5A656DC | بئر خيران | lane | current | SRC-YE-LANE-PAGES-MIRROR | Tahrir التحرير lane table, seq 9: بئر خيران |
 | ENT-YE-LANE-FFC3D64F3CCD | سوق الملح | lane | current | SRC-YE-LANE-PAGES-MIRROR | Old Sanaa 69-lane inventory, seq 51: سوق الملح |
+| ENT-YE-NEIGHBORHOOD-025E120D41EF | مسيك | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-azal-20260923.txt, node/7294966699, GNS 14853781, OSM base 2026-09-23T22:05:19Z |
+| ENT-YE-NEIGHBORHOOD-0260710D0EF9 | مسيك الوسطى | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294969420, GNS 14853788, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-04BAF6D70293 | شيراتون | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294951113, GNS 14853792, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-06EAE30F8F6B | بلقيس | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294950156, GNS 14853906, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-0A2A25B00977 | قبة جباري | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294933921, GNS 14853809, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-0F5E08DAA584 | الوشاح | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294960705, GNS 14853907, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-1024D8C8225D | فروة | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294958839, GNS 14853845, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-104A2DA4374F | سد شعوب | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294927766, GNS 14853856, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-106B86E1589E | ماجل الأمير | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-azal-20260923.txt, node/7294951120, GNS 14853783, OSM base 2026-09-23T22:05:19Z |
+| ENT-YE-NEIGHBORHOOD-119856FED152 | المضلاع | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/6462235387, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-131042C63DDB | الفوز | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-azal-20260923.txt, node/7294951125, GNS 14853777, OSM base 2026-09-23T22:05:19Z |
+| ENT-YE-NEIGHBORHOOD-13E28BD9DFA5 | الحرقان الداخلي | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294951164, GNS 14853729, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-154EEFF9C1ED | التعان | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-azal-20260923.txt, node/7294951134, GNS 14853763, OSM base 2026-09-23T22:05:19Z |
+| ENT-YE-NEIGHBORHOOD-19532537B6D9 | الوحدة | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294969869, GNS 14853793, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-1A6121D0076C | ظهر حمير الفوز | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-azal-20260923.txt, node/7294951123, GNS 14853779, OSM base 2026-09-23T22:05:19Z |
 | ENT-YE-NEIGHBORHOOD-1BEE27CD8482 | القاع | neighborhood | current | SRC-YE-NIC-AMANAT-CENSUS-2004 | Tahrir district hay: القاع |
+| ENT-YE-NEIGHBORHOOD-255DBC49DC8D | حي سبأ | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, way/602874922, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-29F94122B466 | وادي جميل | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294968768, GNS 14853901, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-35753046A35B | الفرقان | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294951116, GNS 14853800, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-39F229148213 | سعوان | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294951344, GNS 14853897, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-4219B5062C8E | بئر التبان | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294951110, GNS 14853797, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-427CA80C0AF3 | مدينة الضباط | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294969789, GNS 14853794, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-456111736A5E | الغوارس | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294951114, GNS 14853791, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-4678FB461B3C | حي ظهر حمير | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, way/608547263, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-47A1E9CEFB86 | الحشيشية | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, way/608593550, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-494ABDF46E01 | هبرة | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/1222644490, GNS 10643847, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-50B16B6D61CC | الصياح | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294951108, GNS 14853802, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-5697D1DE065B | المحاريق | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294951118, GNS 14853785, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-58124317EFB1 | الخرابة | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294960704, GNS 14853908, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-58DB3E0A01C0 | بير السنيدار | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294951109, GNS 14853801, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-59AFE0AEC9AA | حمير | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-azal-20260923.txt, node/7294951124, GNS 14853778, OSM base 2026-09-23T22:05:19Z |
+| ENT-YE-NEIGHBORHOOD-59F03490330D | جامعة الرضوان | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294951343, GNS 14853898, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-5B8CEAAEF227 | بئر القحوم | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294960703, GNS 14853909, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-5CB9A86F972F | الفاروق | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294950035, GNS 14853910, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-66FED186CE6E | حارة الخرابة | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294969788, GNS 14853804, OSM base 2026-09-23T22:03:14Z |
 | ENT-YE-NEIGHBORHOOD-680F16A2B6E5 | بير العزب | neighborhood | current | SRC-YE-NIC-AMANAT-CENSUS-2004 | Tahrir district hay: بير العزب |
+| ENT-YE-NEIGHBORHOOD-6968AC2BA52C | بير الغشم | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294927775, GNS 14853846, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-7A0DE53D2FEA | حي المروت | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/4326075200, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-7F7B367953DE | الحفا | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, way/608593544, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-876542487D68 | مسيك الشرقية المحاريق | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294969433, GNS 14853881, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-89D54175614B | بير زيد | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294927767, GNS 14853855, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-8A4F99953892 | حارة الفاروق الجنوبية | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/5499307323, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-8B6DC9950D75 | بير الربوعي | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294969778, GNS 14853808, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-8DC857A12E33 | مسيك والمزرعة | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294970375, GNS 14853789, OSM base 2026-09-23T22:03:14Z |
 | ENT-YE-NEIGHBORHOOD-9C76154F62EC | التحرير | neighborhood | current | SRC-YE-NIC-AMANAT-CENSUS-2004 | Tahrir district hay: التحرير |
+| ENT-YE-NEIGHBORHOOD-9D49D29F2F16 | حارة السد | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-azal-20260923.txt, node/6029109275, OSM base 2026-09-23T22:05:19Z |
+| ENT-YE-NEIGHBORHOOD-9E7018D8A2F0 | عين الفقيه | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-azal-20260923.txt, node/7294927772, GNS 14853852, OSM base 2026-09-23T22:05:19Z |
+| ENT-YE-NEIGHBORHOOD-9EA7FFFCE2A9 | ظهر حمير الجنوبية | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-azal-20260923.txt, node/7294951144, GNS 14853752, OSM base 2026-09-23T22:05:19Z |
+| ENT-YE-NEIGHBORHOOD-A9D719E550C2 | غول البلس | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-azal-20260923.txt, node/7294965817, GNS 14853753, OSM base 2026-09-23T22:05:19Z |
+| ENT-YE-NEIGHBORHOOD-AC396E1A727D | الشريف | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-azal-20260923.txt, node/7294950963, GNS 14853771, OSM base 2026-09-23T22:05:19Z |
+| ENT-YE-NEIGHBORHOOD-B9C3371E9EBC | الفلاح | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-azal-20260923.txt, node/7294951127, GNS 14853775, OSM base 2026-09-23T22:05:19Z |
+| ENT-YE-NEIGHBORHOOD-BC70FE609ED4 | عرهب | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/6936968120, GNS 10643855, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-CE89E17CC6BC | ظهر حمير الشرقية | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-azal-20260923.txt, node/7294951119, GNS 14853784, OSM base 2026-09-23T22:05:19Z |
+| ENT-YE-NEIGHBORHOOD-D025526183DC | الصياح | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, way/608558430, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-D1277FF13A4F | بير الدفعي | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294951107, GNS 14853805, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-D2FC7DB3B5FF | أكمة الزبيب | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-azal-20260923.txt, node/7294970268, GNS 14853764, OSM base 2026-09-23T22:05:19Z |
+| ENT-YE-NEIGHBORHOOD-D385FFDB8DC5 | ظهر حمير | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-azal-20260923.txt, node/7294951121, GNS 14853782, OSM base 2026-09-23T22:05:19Z |
+| ENT-YE-NEIGHBORHOOD-D3A0B73CE964 | بئر السبيدار | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294963886, GNS 14853905, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-D3DA9CE5E21B | التبان | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294951340, GNS 14853899, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-D97152D32A96 | التعاون | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-azal-20260923.txt, node/7294927770, GNS 14853851, OSM base 2026-09-23T22:05:19Z |
+| ENT-YE-NEIGHBORHOOD-D9A27B4651A1 | جامع الرضوان | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294951111, GNS 14853796, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-DBA7B195C06E | حارة الشريف | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-azal-20260923.txt, node/7294950964, GNS 14853770, OSM base 2026-09-23T22:05:19Z |
+| ENT-YE-NEIGHBORHOOD-E44248B82182 | المشهد | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-azal-20260923.txt, node/7294951126, GNS 14853776, OSM base 2026-09-23T22:05:19Z |
+| ENT-YE-NEIGHBORHOOD-EA046A173FFB | التعاون | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-azal-20260923.txt, node/7294927768, GNS 14853854, OSM base 2026-09-23T22:05:19Z |
+| ENT-YE-NEIGHBORHOOD-EB65ECDF5620 | بئر السنيدار | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294968764, GNS 14853904, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-F1E4F9AF57C4 | مسيك الشرقية | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-shuub-20260923.txt, node/7294969434, GNS 14853787, OSM base 2026-09-23T22:03:14Z |
+| ENT-YE-NEIGHBORHOOD-F3383C9AE374 | وادي القصر | neighborhood | current | SRC-OSM-AMANAT-SECTIONS-2026 | OSM Overpass extract raw/2026-09-23/osm-amanat-azal-20260923.txt, node/7294950962, GNS 14853772, OSM base 2026-09-23T22:05:19Z |
 
 ## الأسماء البديلة
 
@@ -956,6 +1022,70 @@
 | REL-YE-LANE-FA4432A196D151FC | ENT-YE-LANE-9FC91519B497 | ENT-YE-NEIGHBORHOOD-680F16A2B6E5 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
 | REL-YE-LANE-FB19EB0B83365BF4 | ENT-YE-LANE-6F713DAD95E5 | ENT-YE-NEIGHBORHOOD-9C76154F62EC | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
 | REL-YE-LANE-FCDA48BF813F58BF | ENT-YE-LANE-6E6377B84F49 | ENT-YE-DISTRICT-0D0A5492DA68 | located_in | current | SRC-YE-LANE-PAGES-MIRROR |
+| REL-YE-SECTION-00DEB419419C5D90 | ENT-YE-NEIGHBORHOOD-8A4F99953892 | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-02BDCAD4FA4A55E4 | ENT-YE-NEIGHBORHOOD-50B16B6D61CC | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-06917B3D6C4451AB | ENT-YE-NEIGHBORHOOD-BC70FE609ED4 | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-06E54F8D1B855B09 | ENT-YE-NEIGHBORHOOD-06EAE30F8F6B | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-16385AC694975217 | ENT-YE-NEIGHBORHOOD-A9D719E550C2 | ENT-YE-DISTRICT-14DB253EFEEC | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-1BB8EA0C5EE05F69 | ENT-YE-NEIGHBORHOOD-106B86E1589E | ENT-YE-DISTRICT-14DB253EFEEC | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-1D27CD6917D5514D | ENT-YE-NEIGHBORHOOD-66FED186CE6E | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-1E358524698256D5 | ENT-YE-NEIGHBORHOOD-5697D1DE065B | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-229ACDF5E0AA515F | ENT-YE-NEIGHBORHOOD-8DC857A12E33 | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-238DB27493EA52B3 | ENT-YE-NEIGHBORHOOD-D1277FF13A4F | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-29BEE69F031D576A | ENT-YE-NEIGHBORHOOD-4219B5062C8E | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-3456CAA276685D1F | ENT-YE-NEIGHBORHOOD-EB65ECDF5620 | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-355ABF79B2135CCE | ENT-YE-NEIGHBORHOOD-D97152D32A96 | ENT-YE-DISTRICT-14DB253EFEEC | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-37338ECB59F152CC | ENT-YE-NEIGHBORHOOD-D3DA9CE5E21B | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-3CDA30AB0C3D59C1 | ENT-YE-NEIGHBORHOOD-59AFE0AEC9AA | ENT-YE-DISTRICT-14DB253EFEEC | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-3DAFB9355C465777 | ENT-YE-NEIGHBORHOOD-456111736A5E | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-3F59A1CE4AFD5A30 | ENT-YE-NEIGHBORHOOD-29F94122B466 | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-3F5D4B7B781D52FF | ENT-YE-NEIGHBORHOOD-DBA7B195C06E | ENT-YE-DISTRICT-14DB253EFEEC | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-428352E65B095670 | ENT-YE-NEIGHBORHOOD-1024D8C8225D | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-492E3CF192FB53FA | ENT-YE-NEIGHBORHOOD-4678FB461B3C | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-4EA86EFDC0AC5545 | ENT-YE-NEIGHBORHOOD-9EA7FFFCE2A9 | ENT-YE-DISTRICT-14DB253EFEEC | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-4F6103909A915758 | ENT-YE-NEIGHBORHOOD-CE89E17CC6BC | ENT-YE-DISTRICT-14DB253EFEEC | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-59B6621FB7D95916 | ENT-YE-NEIGHBORHOOD-5CB9A86F972F | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-5D1C1816529458E5 | ENT-YE-NEIGHBORHOOD-D025526183DC | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-65185E225EC35C9C | ENT-YE-NEIGHBORHOOD-D3A0B73CE964 | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-6F8C8B77D3815D2C | ENT-YE-NEIGHBORHOOD-255DBC49DC8D | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-71F4F2E8CFFB516A | ENT-YE-NEIGHBORHOOD-6968AC2BA52C | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-72348524C2EF5E5D | ENT-YE-NEIGHBORHOOD-5B8CEAAEF227 | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-7741D64D39645027 | ENT-YE-NEIGHBORHOOD-0A2A25B00977 | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-7753535191C05C35 | ENT-YE-NEIGHBORHOOD-1A6121D0076C | ENT-YE-DISTRICT-14DB253EFEEC | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-7857E8B8DDD854A2 | ENT-YE-NEIGHBORHOOD-04BAF6D70293 | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-7A25D1D3981054B8 | ENT-YE-NEIGHBORHOOD-131042C63DDB | ENT-YE-DISTRICT-14DB253EFEEC | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-7E3771629DA75D84 | ENT-YE-NEIGHBORHOOD-9E7018D8A2F0 | ENT-YE-DISTRICT-14DB253EFEEC | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-80B41FD1F1405B90 | ENT-YE-NEIGHBORHOOD-59F03490330D | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-8134CF8C6C855E44 | ENT-YE-NEIGHBORHOOD-13E28BD9DFA5 | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-84FDE60F488F5237 | ENT-YE-NEIGHBORHOOD-19532537B6D9 | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-8992BB740D6E5B5F | ENT-YE-NEIGHBORHOOD-89D54175614B | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-977A8A0A0E185221 | ENT-YE-NEIGHBORHOOD-494ABDF46E01 | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-A0BA6EB5EBE35CE6 | ENT-YE-NEIGHBORHOOD-025E120D41EF | ENT-YE-DISTRICT-14DB253EFEEC | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-A1971F0145685621 | ENT-YE-NEIGHBORHOOD-EA046A173FFB | ENT-YE-DISTRICT-14DB253EFEEC | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-AABE70554BF953A8 | ENT-YE-NEIGHBORHOOD-8B6DC9950D75 | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-AB98CBD8E6BA5317 | ENT-YE-NEIGHBORHOOD-AC396E1A727D | ENT-YE-DISTRICT-14DB253EFEEC | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-B1E87C209A2E5A29 | ENT-YE-NEIGHBORHOOD-58124317EFB1 | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-B722C5AFE2195AEB | ENT-YE-NEIGHBORHOOD-D2FC7DB3B5FF | ENT-YE-DISTRICT-14DB253EFEEC | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-B8C37263392D5DB0 | ENT-YE-NEIGHBORHOOD-119856FED152 | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-BFBAF1EC1BB452CE | ENT-YE-NEIGHBORHOOD-D385FFDB8DC5 | ENT-YE-DISTRICT-14DB253EFEEC | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-C2BEA57C5DF25624 | ENT-YE-NEIGHBORHOOD-58DB3E0A01C0 | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-C47CA8CF5CF3512B | ENT-YE-NEIGHBORHOOD-35753046A35B | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-CFBB7E11B0BA524A | ENT-YE-NEIGHBORHOOD-B9C3371E9EBC | ENT-YE-DISTRICT-14DB253EFEEC | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-CFE298E081DE5D23 | ENT-YE-NEIGHBORHOOD-E44248B82182 | ENT-YE-DISTRICT-14DB253EFEEC | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-D017C7B8E5CE517C | ENT-YE-NEIGHBORHOOD-7F7B367953DE | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-D119DC3491835F82 | ENT-YE-NEIGHBORHOOD-9D49D29F2F16 | ENT-YE-DISTRICT-14DB253EFEEC | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-D33FDD0881F050D0 | ENT-YE-NEIGHBORHOOD-104A2DA4374F | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-D5B55A9C85EA5D5D | ENT-YE-NEIGHBORHOOD-F1E4F9AF57C4 | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-DEBC868D05F550F1 | ENT-YE-NEIGHBORHOOD-7A0DE53D2FEA | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-DEC05203AD855FB1 | ENT-YE-NEIGHBORHOOD-39F229148213 | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-DEE0D4018CD753CF | ENT-YE-NEIGHBORHOOD-427CA80C0AF3 | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-EABD7405DE4852AD | ENT-YE-NEIGHBORHOOD-876542487D68 | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-EBEB09CB755454EA | ENT-YE-NEIGHBORHOOD-0260710D0EF9 | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-EDEB832EA47351C5 | ENT-YE-NEIGHBORHOOD-154EEFF9C1ED | ENT-YE-DISTRICT-14DB253EFEEC | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-F0C07AACD7805AF5 | ENT-YE-NEIGHBORHOOD-D9A27B4651A1 | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-F767EF17C27B5834 | ENT-YE-NEIGHBORHOOD-F3383C9AE374 | ENT-YE-DISTRICT-14DB253EFEEC | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-FA19733963D6528D | ENT-YE-NEIGHBORHOOD-47A1E9CEFB86 | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
+| REL-YE-SECTION-FCC0FA8452625A33 | ENT-YE-NEIGHBORHOOD-0F5E08DAA584 | ENT-YE-DISTRICT-CD3ABA2FB17C | located_in | current | SRC-OSM-AMANAT-SECTIONS-2026 |
 
 ## الادعاءات
 
@@ -1063,6 +1193,7 @@
 | المعرّف | الفئة | العنوان | الناشر | تاريخ النشر | تاريخ الاسترجاع | الترخيص | الرابط |
 |---|---|---|---|---|---|---|---|
 | SRC-ISO-3166-1-2020 | A | ISO 3166-1:2020 — Codes for the representation of names of countries and their subdivisions — Part 1: Country code | International Organization for Standardization (ISO) | 2020-08 | 2026-08-15 | ISO copyright; reuse is subject to ISO terms of use | https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:ed-4:v1:en |
+| SRC-OSM-AMANAT-SECTIONS-2026 | C | Amanat Al Asimah named urban sections — dated OpenStreetMap snapshot | OpenStreetMap contributors (Overpass API), with NGA GEOnet Names Server ids where tagged | — | 2026-09-23 | ODbL 1.0 — © OpenStreetMap contributors (https://www.openstreetmap.org/copyright) | https://overpass-api.de/api/interpreter |
 | SRC-YE-CENSUS-2004-LEGACY-FRAME | B | Census 2004 administrative frame — archived CSO administrative definitions | Central Statistical Organization Yemen via Internet Archive | 2018-09-30 | 2026-08-17 | Factual extraction with attribution; publisher reuse terms not stated | https://web.archive.org/web/20180930200530/http://www.cso-yemen.org/content.php?lng=arabic&id=277 |
 | SRC-YE-CRAFTS-MARKETS-MIRROR | E | Yemeni crafts and historical markets — encyclopedic mirror pages | Encyclopedic mirror pages on Sanaa old-city markets and Yemeni crafts | — | 2026-08-17 | Factual extraction with attribution; publisher reuse terms not stated | https://ar.wikipedia.org/wiki/%D8%B5%D9%86%D8%B9%D8%A7%D8%A1_%D8%A7%D9%84%D9%82%D8%AF%D9%8A%D9%85%D8%A9 |
 | SRC-YE-CSO-ADMIN-DEFINITION-LEGACY | A | Administrative divisions definition: 20 governorates plus Capital Municipality | Central Statistical Organization Yemen | — | 2026-08-17 | Factual extraction with attribution; publisher reuse terms not stated | https://www.cso-yemen.com/content.php?lng=arabic&id=277 |

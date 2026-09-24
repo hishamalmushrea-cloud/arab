@@ -2825,6 +2825,26 @@
   },
   {
     "archive_url": null,
+    "checksum": "sha256:761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e",
+    "country_codes": [
+      "YE"
+    ],
+    "id": "SRC-OSM-AMANAT-SECTIONS-2026",
+    "language": "ar",
+    "license": "ODbL 1.0 — © OpenStreetMap contributors (https://www.openstreetmap.org/copyright)",
+    "locator": "the Arabic value wins; when both name and name:ar are Arabic and differ, the name tag is canonical and the other rendering is recorded in the extract line. Query per district: شعوب: [out:json][timeout:120];area[\"name\"=\"مديرية شعوب\"][\"boundary\"=\"administrative\"]->.a;(nwr[\"place\"~\"^(neighbourhood|quarter|suburb|city_block)$\"][\"name\"](area.a););out tags center; | أزال: [out:json][timeout:60];area[\"name\"=\"مديرية أزال\"][\"boundary\"=\"administrative\"]->.a;node[\"place\"][\"name\"](area.a);out tags;",
+    "notes": "Community-mapped named urban sections enumerated per district inside its administrative area; features tagged source:name=GNS carry the public-domain NGA gazetteer id (PPLX = section of populated place), the rest carry unverified status. Coordinates, populations and shares are deliberately not imported. Publication date unavailable.",
+    "publication_date": null,
+    "publisher": "OpenStreetMap contributors (Overpass API), with NGA GEOnet Names Server ids where tagged",
+    "quality_tier": "C",
+    "retrieved_at": "2026-09-23",
+    "schema_version": "2.0.0",
+    "source_type": "map",
+    "title": "Amanat Al Asimah named urban sections — dated OpenStreetMap snapshot",
+    "url": "https://overpass-api.de/api/interpreter"
+  },
+  {
+    "archive_url": null,
     "checksum": "sha256:db4dfd544fcaa8a4ef53f3de7d00ca9bc99aa0d59cbdab784119e5610cbedcb7",
     "country_codes": [
       "PS"
@@ -4211,7 +4231,7 @@
   },
   {
     "archive_url": null,
-    "checksum": "sha256:1b7b4b9db769b90ee33d11171006d9d036f1a5e2ece3082660a5f35d410b39f2",
+    "checksum": "sha256:3265c0120770750aa714c7521622c73f7074778e313293f11960bf0cd22a339c",
     "country_codes": [
       "AE"
     ],
@@ -4231,7 +4251,7 @@
   },
   {
     "archive_url": null,
-    "checksum": "sha256:5e32a970035089d0632a1d6f3676800ed3a10b41a3172119668e2136ac4e24bb",
+    "checksum": "sha256:148f19a15291166c3b0588a52afcb8c35b642a0d5c6774c2ba9067ae563b3b10",
     "country_codes": [
       "AE"
     ],
@@ -4785,7 +4805,7 @@
   },
   {
     "archive_url": null,
-    "checksum": "sha256:3948353fc952a3f4e1e10aaeca789e0b0122621bf366f4b097be5c2f52f9aa39",
+    "checksum": "sha256:c2b9bca1616c510f7b1b916ea38e07b0e8cac00d5ea79af90d2ac7bd84840d88",
     "country_codes": [
       "AE"
     ],

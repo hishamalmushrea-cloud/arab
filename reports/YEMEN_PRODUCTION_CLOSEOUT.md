@@ -85,3 +85,16 @@ Fourth cycle: the remaining cultural domains enter as classified, unpublished cl
 - Cross-layer anchoring: market claims reference places already attested in the district and lane layers — culture and geography reinforce each other.
 - The ~100 regional women's costume estimate remains a bounded note, never a fabricated denominator.
 - Gate: **24/24 mutations** (3 new: dress published from weak source, classification stripped, market promoted to verified); independent review **1,037/1,037**.
+
+## Depth-expansion cycle 5 — named urban sections of Amanat Al Asimah (2026-09-23)
+
+Fifth cycle: the place layer moves one level down, from census lanes to *named* urban sections, without inventing a single name.
+
+- **64 named urban sections** enter as places: 44 in شعوب (101-lane 2004 frame) and 20 in أزال (34-lane frame) from a dated OpenStreetMap snapshot, mirrored as checksum-bound extracts under `data/imports/yemen/raw/2026-09-23/`.
+- **Status comes from the source**: 43 sections tagged `source:name=GNS` (public-domain NGA gazetteer ids, `PPLX` = section of populated place) carry `probable`; 21 community-mapped names carry `unverified`. Nothing here is `verified` or `published`.
+- **Places, not tiers**: one `located_in` relationship each, `coordinates: null`, and **zero claims** — no population, no share, no naming narrative attaches to a section in this cycle.
+- **Unit honesty**: the 2004 frame counts *lanes*, the snapshot counts *named sections*; each district row is a bounded indicator on its own denominator (شعوب 43.56%, أزال 58.82%), incomplete by construction.
+- **Six districts stay open with a recorded reason** (الصافية · السبعين · الوحدة · معين · الثورة · بني الحارث): every 2026-09-23 Overpass retry returned a read timeout, so no name was borrowed or estimated; the two districts already accepted in cycle 1 (صنعاء القديمة، التحرير) were not re-imported.
+- **Second dated snapshot**: `SNP-YE-URBAN-SECTIONS-20260923` is separate from `SNP-YE-PRODUCTION-20260817`, so a later reading never re-dates the accepted layer.
+- Gate: **33/33 mutations** (9 new: coordinates, verified promotion, rename, drop, re-parent, section population claim, open-district estimate, inflated coverage, merged snapshot); independent review **1,170/1,170**; `make yemen` 21/21.
+- Full report: `reports/YEMEN_AMANAT_URBAN_SECTIONS_2026.md`.

@@ -4,7 +4,9 @@
     "The complete official-gazette copy and its effective-clause wording were not retrievable; no wording is inferred.",
     "Legal identity is not effective control, destruction, displacement, or dispute status.",
     "District identities are attested from a mirror of the NIC catalogue anchored to the archived official 333-district frame; they carry probable status, not verified, until an atomic official coded register is reconciled.",
-    "Lanes are places, not administrative tiers: 104 Amanat lane identities are attested (69 Old Sanaa probable, 28 Tahrir censused probable, 7 Qa names-only unverified) against the official 791-lane 2004 frame; populations are 2004 figures, never projected."
+    "Lanes are places, not administrative tiers: 104 Amanat lane identities are attested (69 Old Sanaa probable, 28 Tahrir censused probable, 7 Qa names-only unverified) against the official 791-lane 2004 frame; populations are 2004 figures, never projected.",
+    "Depth cycle 2 (2026-09-23): the named urban sections of the completed Amanat districts come from a dated OpenStreetMap snapshot mirrored as checksum-bound extracts; features tagged source:name=GNS carry a public-domain NGA gazetteer id and stay probable, community-mapped names stay unverified, and no coordinate, population or share is imported.",
+    "The 2004 lane frame and the 2026 named-section snapshot are different units: each district row is a bounded indicator on its own denominator, districts whose extracts were not retrieved stay open, and nothing is extrapolated to them."
   ],
   "country": {
     "entity_id": "ENT-YE-COUNTRY",
@@ -18,7 +20,9 @@
     "COV-YE-CAPITAL-MUNICIPALITY",
     "COV-YE-LEGACY-FIRST-LEVEL",
     "COV-YE-DISTRICTS",
-    "COV-YE-AMANAT-LANES"
+    "COV-YE-AMANAT-LANES",
+    "COV-YE-URBAN-SECTIONS-SHUUB",
+    "COV-YE-URBAN-SECTIONS-AZAL"
   ],
   "hierarchy": [
     {
@@ -193,7 +197,7 @@
       "verification_status": "pending"
     }
   ],
-  "next_action": "Deepen the district layer toward verified status via an atomic official coded register; collect populated places, lanes, and classified local knowledge under the Maximum Arabic Knowledge Coverage policy; add conflict overlays only from dated authoritative sources.",
+  "next_action": "Retrieve the remaining six Amanat district extracts, then deepen the district layer toward verified status via an atomic official coded register; collect populated places, lanes, and classified local knowledge under the Maximum Arabic Knowledge Coverage policy; add conflict overlays only from dated authoritative sources.",
   "official_authority": {
     "missing_reason": null,
     "name": "Central Statistical Organization / National Information Center / Republic of Yemen Law 31/2013",

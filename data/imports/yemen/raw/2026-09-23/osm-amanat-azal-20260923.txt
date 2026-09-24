@@ -1,0 +1,26 @@
+OSM Overpass API — Amanat Al Asimah named urban sections — district: أزال
+Data: © OpenStreetMap contributors, ODbL 1.0 (https://www.openstreetmap.org/copyright)
+Query: [out:json][timeout:60];area["name"="مديرية أزال"]["boundary"="administrative"]->.a;node["place"]["name"](area.a);out tags;
+Retrieved: 2026-09-23 by the project depth cycle; OSM base timestamp: 2026-09-23T22:05:19Z; place nodes returned: 21 (1 district node + 20 urban sections)
+Fields: name|place|osm_type/osm_id|GNS gazetteer id (- = none)|name source tag
+District node (re-confirmation only): مديرية أزال|district|node/1222642512|10618615|GNS|population 115054 (2004-12-17, YCSO2004:13-3)
+حارة السد|neighbourhood|node/6029109275|-|OSM
+التعاون|suburb|node/7294927768|14853854|GNS (name:ar التعون)
+التعاون|suburb|node/7294927770|14853851|GNS
+عين الفقيه|suburb|node/7294927772|14853852|GNS
+وادي القصر|suburb|node/7294950962|14853772|GNS
+الشريف|suburb|node/7294950963|14853771|GNS
+حارة الشريف|suburb|node/7294950964|14853770|GNS
+ظهر حمير الشرقية|suburb|node/7294951119|14853784|GNS
+ماجل الأمير|suburb|node/7294951120|14853783|GNS
+ظهر حمير|suburb|node/7294951121|14853782|GNS
+ظهر حمير الفوز|suburb|node/7294951123|14853779|GNS
+حمير|suburb|node/7294951124|14853778|GNS
+الفوز|suburb|node/7294951125|14853777|GNS
+المشهد|suburb|node/7294951126|14853776|GNS
+الفلاح|suburb|node/7294951127|14853775|GNS
+التعان|suburb|node/7294951134|14853763|GNS
+ظهر حمير الجنوبية|suburb|node/7294951144|14853752|GNS
+غول البلس|suburb|node/7294965817|14853753|GNS
+مسيك|suburb|node/7294966699|14853781|GNS
+أكمة الزبيب|suburb|node/7294970268|14853764|GNS

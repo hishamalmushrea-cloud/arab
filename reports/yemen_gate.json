@@ -12,6 +12,10 @@
       "detail": "reports/NEXT_COUNTRY_DECISION.md exists",
       "status": "pass"
     },
+    "artifact_yemen_amanat_urban_sections_2026": {
+      "detail": "reports/YEMEN_AMANAT_URBAN_SECTIONS_2026.md exists",
+      "status": "pass"
+    },
     "artifact_yemen_production_closeout": {
       "detail": "reports/YEMEN_PRODUCTION_CLOSEOUT.md exists",
       "status": "pass"
@@ -21,7 +25,7 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=20198\n[PASS] ids: global_ids=20198, duplicate_ids=0\n[PASS] entity_types: allowed_types=104, active_types=68\n[PASS] sources: atomic_files=279, sources=279, references=22807\n[PASS] parents: administrative_relationships=5639\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3265, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2918, sourced=2918\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=120, coverage_records=120, complete_layers=97\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
+      "stdout": "[PASS] schemas: executable_schemas=9\n[PASS] structured_data: record_families=8, records=20332\n[PASS] ids: global_ids=20332, duplicate_ids=0\n[PASS] entity_types: allowed_types=104, active_types=68\n[PASS] sources: atomic_files=280, sources=280, references=22940\n[PASS] parents: administrative_relationships=5639\n[PASS] orphans: orphan_count=0\n[PASS] cycles: cycle_count=0\n[PASS] country_mismatch: mismatch_count=0\n[PASS] hierarchy: declared_pairs=100\n[PASS] aliases: aliases=3265, duplicate_aliases=0\n[PASS] source_quality: tunisia_published_claims=69, ab_claims=69, ab_ratio=100.0\n[PASS] duplicates: entity_candidates=0, duplicate_claims=0\n[PASS] independent_review: sampled=598, passed=True\n[PASS] phase2_tunisia: tn_governorate=24, tn_delegation=264, tn_municipality=350, tn_imada=2084, populated_place_types=3, sites=13, persons=1, boundary_intersections=388\n[PASS] claims: claims=2918, sourced=2918\n[PASS] coordinates: coordinate_records=2746\n[PASS] coverage: denominators=122, coverage_records=122, complete_layers=97\n[PASS] manifests: manifests=22, countries=22, pilot_migrated=22\n[PASS] csv: files=24, rows=5254, duplicate_ids=0, malformed_rows=0\n[PASS] unicode: checked=active JSON, source JSON, and legacy CSV\n[PASS] migration: ledger_rows=5254, legacy_rows=5254, malformed_repairs=2, duplicate_id_repairs=58, link_repairs=25\n[PASS] links: checked_links=954, broken_links=0\n\nSchema 2.0.0 validation passed with zero errors."
     },
     "generated_freshness": {
       "command": "python3 scripts/generate.py --check",
@@ -31,7 +35,7 @@
       "stdout": "generated output is current (64 files)"
     },
     "non_yemen_preservation": {
-      "detail": "canonical non-Yemen SHA-256 unchanged=9ea0f21ba92784835b94761921008569c3aafe8aac1939f7ce7d527a25cb7b1e",
+      "detail": "canonical non-Yemen SHA-256 unchanged=389a12d0103a902bdef954ecbb1c0e8957629424d14c2b2a3f5eee4a896dc537",
       "status": "pass"
     },
     "yemen_clean_worktree": {
@@ -43,7 +47,7 @@
       "status": "pass"
     },
     "yemen_import_idempotence": {
-      "detail": "all 14 managed hashes unchanged=True",
+      "detail": "all 16 managed hashes unchanged=True",
       "status": "pass"
     },
     "yemen_import_refresh": {
@@ -51,24 +55,24 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "{\"entities\": 462, \"relationships\": 462, \"claims\": 92, \"sources\": 11, \"denominators\": 6, \"coverage\": 6}"
+      "stdout": "{\"entities\": 527, \"relationships\": 526, \"claims\": 92, \"sources\": 12, \"denominators\": 8, \"coverage\": 8, \"urban_sections\": 64, \"districts_open\": 6}"
     },
     "yemen_independent_review": {
       "command": "python3 scripts/review_yemen.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "1037"
+      "stdout": "1170"
     },
     "yemen_negative_tests": {
       "command": "python3 scripts/test_yemen_negative.py",
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "[{'mutation': 'YE_AMANAT_AS_GOVERNORATE_ALIAS', 'expected_code': 'YE_AMANAT_ALIAS', 'detected': True}, {'mutation': 'YE_SOCOTRA_REMOVED_FROM_CURRENT', 'expected_code': 'YE_COUNTS', 'detected': True}, {'mutation': 'YE_LEGACY_DENOMINATOR_AS_CURRENT', 'expected_code': 'YE_DENOMINATORS', 'detected': True}, {'mutation': 'YE_LEGAL_LIST_AS_DE_FACTO', 'expected_code': 'YE_UNSUPPORTED_OVERLAY', 'detected': True}, {'mutation': 'YE_DESTROYED_WITHOUT_DATED_SOURCE', 'expected_code': 'YE_UNSUPPORTED_OVERLAY', 'detected': True}, {'mutation': 'YE_UNATTESTED_DISTRICT_ADDED', 'expected_code': 'YE_COUNTS', 'detected': True}, {'mutation': 'YE_PREMATURE_UZLA', 'expected_code': 'YE_PREMATURE_LOWER', 'detected': True}, {'mutation': 'YE_DISTRICT_PROMOTED_TO_VERIFIED', 'expected_code': 'YE_DISTRICT_STATUS', 'detected': True}, {'mutation': 'YE_DISTRICT_FRAME_SHRUNK', 'expected_code': 'YE_DENOMINATORS', 'detected': True}, {'mutation': 'YE_FABRICATED_LANE_ADDED', 'expected_code': 'YE_COUNTS', 'detected': True}, {'mutation': 'YE_LANE_PROMOTED_TO_VERIFIED', 'expected_code': 'YE_LANE_STATUS', 'detected': True}, {'mutation': 'YE_LANE_POP_PUBLISHED_AS_CURRENT', 'expected_code': 'YE_LANE_POP', 'detected': True}, {'mutation': 'YE_NARRATIVE_PROMOTED_TO_FACT', 'expected_code': 'YE_LANE_NARRATIVE', 'detected': True}, {'mutation': 'YE_LANE_COVERAGE_FORCED_COMPLETE', 'expected_code': 'YE_LANE_COVERAGE', 'detected': True}, {'mutation': 'YE_DISH_PUBLISHED_FROM_WEAK_SOURCE', 'expected_code': 'YE_CULTURE_DISHES', 'detected': True}, {'mutation': 'YE_MANDI_CLAIMED_EXCLUSIVE', 'expected_code': 'YE_SHARED_NOT_EXCLUSIVE', 'detected': True}, {'mutation': 'YE_DIALECT_PROMOTED_TO_VERIFIED', 'expected_code': 'YE_CULTURE_DIALECTS', 'detected': True}, {'mutation': 'YE_LANGUAGE_CLAIM_DROPPED', 'expected_code': 'YE_CULTURE_LANGUAGES', 'detected': True}, {'mutation': 'YE_DRESS_PUBLISHED_FROM_WEAK_SOURCE', 'expected_code': 'YE_CULTURE_DRESS', 'detected': True}, {'mutation': 'YE_DRESS_CLASSIFICATION_STRIPPED', 'expected_code': 'YE_CULTURE_DRESS', 'detected': True}, {'mutation': 'YE_MARKET_PROMOTED_TO_VERIFIED', 'expected_code': 'YE_CULTURE_CRAFTS_MARKETS', 'detected': True}, {'mutation': 'YE_WRONG_PARENT', 'expected_code': 'YE_PARENT', 'detected': True}, {'mutation': 'YE_STALE_COVERAGE', 'expected_code': 'YE_COVERAGE_FRESHNESS', 'detected': True}, {'mutation': 'YE_EFFECTIVE_CLAUSE_FABRICATED', 'expected_code': 'YE_SOCOTRA_LAW', 'detected': True}]"
+      "stdout": "[{'mutation': 'YE_AMANAT_AS_GOVERNORATE_ALIAS', 'expected_code': 'YE_AMANAT_ALIAS', 'detected': True}, {'mutation': 'YE_SOCOTRA_REMOVED_FROM_CURRENT', 'expected_code': 'YE_COUNTS', 'detected': True}, {'mutation': 'YE_LEGACY_DENOMINATOR_AS_CURRENT', 'expected_code': 'YE_DENOMINATORS', 'detected': True}, {'mutation': 'YE_LEGAL_LIST_AS_DE_FACTO', 'expected_code': 'YE_UNSUPPORTED_OVERLAY', 'detected': True}, {'mutation': 'YE_DESTROYED_WITHOUT_DATED_SOURCE', 'expected_code': 'YE_UNSUPPORTED_OVERLAY', 'detected': True}, {'mutation': 'YE_UNATTESTED_DISTRICT_ADDED', 'expected_code': 'YE_COUNTS', 'detected': True}, {'mutation': 'YE_PREMATURE_UZLA', 'expected_code': 'YE_PREMATURE_LOWER', 'detected': True}, {'mutation': 'YE_DISTRICT_PROMOTED_TO_VERIFIED', 'expected_code': 'YE_DISTRICT_STATUS', 'detected': True}, {'mutation': 'YE_DISTRICT_FRAME_SHRUNK', 'expected_code': 'YE_DENOMINATORS', 'detected': True}, {'mutation': 'YE_FABRICATED_LANE_ADDED', 'expected_code': 'YE_COUNTS', 'detected': True}, {'mutation': 'YE_LANE_PROMOTED_TO_VERIFIED', 'expected_code': 'YE_LANE_STATUS', 'detected': True}, {'mutation': 'YE_LANE_POP_PUBLISHED_AS_CURRENT', 'expected_code': 'YE_LANE_POP', 'detected': True}, {'mutation': 'YE_NARRATIVE_PROMOTED_TO_FACT', 'expected_code': 'YE_LANE_NARRATIVE', 'detected': True}, {'mutation': 'YE_LANE_COVERAGE_FORCED_COMPLETE', 'expected_code': 'YE_LANE_COVERAGE', 'detected': True}, {'mutation': 'YE_DISH_PUBLISHED_FROM_WEAK_SOURCE', 'expected_code': 'YE_CULTURE_DISHES', 'detected': True}, {'mutation': 'YE_MANDI_CLAIMED_EXCLUSIVE', 'expected_code': 'YE_SHARED_NOT_EXCLUSIVE', 'detected': True}, {'mutation': 'YE_DIALECT_PROMOTED_TO_VERIFIED', 'expected_code': 'YE_CULTURE_DIALECTS', 'detected': True}, {'mutation': 'YE_LANGUAGE_CLAIM_DROPPED', 'expected_code': 'YE_CULTURE_LANGUAGES', 'detected': True}, {'mutation': 'YE_DRESS_PUBLISHED_FROM_WEAK_SOURCE', 'expected_code': 'YE_CULTURE_DRESS', 'detected': True}, {'mutation': 'YE_DRESS_CLASSIFICATION_STRIPPED', 'expected_code': 'YE_CULTURE_DRESS', 'detected': True}, {'mutation': 'YE_MARKET_PROMOTED_TO_VERIFIED', 'expected_code': 'YE_CULTURE_CRAFTS_MARKETS', 'detected': True}, {'mutation': 'YE_WRONG_PARENT', 'expected_code': 'YE_PARENT', 'detected': True}, {'mutation': 'YE_STALE_COVERAGE', 'expected_code': 'YE_COVERAGE_FRESHNESS', 'detected': True}, {'mutation': 'YE_EFFECTIVE_CLAUSE_FABRICATED', 'expected_code': 'YE_SOCOTRA_LAW', 'detected': True}, {'mutation': 'YE_SECTION_COORDINATED', 'expected_code': 'YE_SECTION_STATUS', 'detected': True}, {'mutation': 'YE_SECTION_PROMOTED_TO_VERIFIED', 'expected_code': 'YE_SECTION_STATUS', 'detected': True}, {'mutation': 'YE_SECTION_RENAMED', 'expected_code': 'YE_SECTION_CONTEXT', 'detected': True}, {'mutation': 'YE_SECTION_DROPPED', 'expected_code': 'YE_SECTION_COUNTS', 'detected': True}, {'mutation': 'YE_SECTION_REPARENTED', 'expected_code': 'YE_SECTION_CONTEXT', 'detected': True}, {'mutation': 'YE_SECTION_POPULATED', 'expected_code': 'YE_SECTION_CLAIMLESS', 'detected': True}, {'mutation': 'YE_OPEN_DISTRICT_ESTIMATED', 'expected_code': 'YE_OPEN_DISTRICTS', 'detected': True}, {'mutation': 'YE_URBAN_COVERAGE_INFLATED', 'expected_code': 'YE_SECTION_COVERAGE', 'detected': True}, {'mutation': 'YE_URBAN_SNAPSHOT_MERGED', 'expected_code': 'YE_URBAN_SNAPSHOT', 'detected': True}]"
     },
     "yemen_required_mutations": {
-      "detail": "detected=24/24",
+      "detail": "detected=33/33",
       "status": "pass"
     },
     "yemen_review_idempotence": {
@@ -84,10 +88,10 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "1037"
+      "stdout": "1170"
     },
     "yemen_review_threshold": {
-      "detail": "full review passed=1037/1037",
+      "detail": "full review passed=1170/1170",
       "status": "pass"
     },
     "yemen_semantic_validation": {
@@ -95,10 +99,10 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "{'entities': 463, 'aliases': 1, 'relationships': 462, 'claims': 92, 'sources': 11, 'denominators': 7, 'coverage': 7}"
+      "stdout": "{'entities': 527, 'aliases': 1, 'relationships': 526, 'claims': 92, 'sources': 12, 'denominators': 9, 'coverage': 9}"
     },
     "yemen_source_idempotence": {
-      "detail": "atomic sources=11/11, unchanged=True",
+      "detail": "atomic sources=12/12, unchanged=True",
       "status": "pass"
     },
     "yemen_source_refresh": {
@@ -106,7 +110,7 @@
       "returncode": 0,
       "status": "pass",
       "stderr": "",
-      "stdout": "{\"entities\": 462, \"relationships\": 462, \"claims\": 92, \"sources\": 11, \"denominators\": 6, \"coverage\": 6}"
+      "stdout": "{\"entities\": 527, \"relationships\": 526, \"claims\": 92, \"sources\": 12, \"denominators\": 8, \"coverage\": 8, \"urban_sections\": 64, \"districts_open\": 6}"
     }
   },
   "country_code": "YE",

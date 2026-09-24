@@ -9,13 +9,21 @@
     "dress_crafts_markets_frame": "14 local-knowledge claims (7 dress, 4 crafts, 3 markets) at local_reported status, unpublished, with explicit classification; regional dress names documented down to district level (Taiz rural costumes).",
     "lane_frame": "Amanat 2004 frame: 791 lanes across 10 districts plus two suburb blocks; 104 lane identities attested for Old Sanaa (69) and Tahrir (35); remaining 687 lanes are a documented open frame, never fabricated.",
     "legacy_scope": 21,
-    "socotra_effective_date_basis": "Law reported issued 2013-12-18; Yemen laws ordinarily state operation from issuance, but the complete official text locator remains a documented source-access limitation."
+    "socotra_effective_date_basis": "Law reported issued 2013-12-18; Yemen laws ordinarily state operation from issuance, but the complete official text locator remains a documented source-access limitation.",
+    "urban_sections_frame": "Depth cycle 2: named urban sections of Amanat Al Asimah districts enumerated from a dated OpenStreetMap snapshot (2026-09-23) and mirrored as checksum-bound extracts; GNS-tagged sections carry probable status, community-mapped names stay unverified, and the still-open districts are recorded with the retrieval failure instead of being estimated."
   },
   "records": [
     {
       "path": "fixtures/amanat_lanes_2026.json",
       "record_count": 104,
       "sha256": "442e31ebd30a5ac91bd7ea1a6c97888dc063bc4bd0b2d35380fd4960d52aeeae"
+    },
+    {
+      "captured_at": "2026-09-23",
+      "layer": "ye_amanat_urban_sections_2026",
+      "path": "fixtures/amanat_urban_sections_2026.json",
+      "record_count": 64,
+      "sha256": "53085df4639e0909b9b96032666d8f7c88a811d61ea7ebf34689b461886a3705"
     },
     {
       "path": "fixtures/cultural_claims_2026.json",
@@ -36,6 +44,30 @@
       "path": "fixtures/first_level_2026.json",
       "record_count": 22,
       "sha256": "761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e"
+    },
+    {
+      "bytes": 1791,
+      "capture_scope": "relevant_exact_excerpt",
+      "license": "ODbL 1.0 — © OpenStreetMap contributors (https://www.openstreetmap.org/copyright)",
+      "osm_base_timestamp": "2026-09-23T22:05:19Z",
+      "path": "raw/2026-09-23/osm-amanat-azal-20260923.txt",
+      "query": "[out:json][timeout:60];area[\"name\"=\"مديرية أزال\"][\"boundary\"=\"administrative\"]->.a;node[\"place\"][\"name\"](area.a);out tags;",
+      "record_count": 20,
+      "retrieved_at": "2026-09-23",
+      "sha256": "77148eddffa278daf4e304ea70c3434c24d4865955f802ab9e2bebb9d78d07a6",
+      "url": "https://overpass-api.de/api/interpreter"
+    },
+    {
+      "bytes": 3056,
+      "capture_scope": "relevant_exact_excerpt",
+      "license": "ODbL 1.0 — © OpenStreetMap contributors (https://www.openstreetmap.org/copyright)",
+      "osm_base_timestamp": "2026-09-23T22:03:14Z",
+      "path": "raw/2026-09-23/osm-amanat-shuub-20260923.txt",
+      "query": "[out:json][timeout:120];area[\"name\"=\"مديرية شعوب\"][\"boundary\"=\"administrative\"]->.a;(nwr[\"place\"~\"^(neighbourhood|quarter|suburb|city_block)$\"][\"name\"](area.a););out tags center;",
+      "record_count": 44,
+      "retrieved_at": "2026-09-23",
+      "sha256": "4f32c11e46ee1d75731ed58fbb33dc48e6e8e938e59806efbbbc325c9777c21d",
+      "url": "https://overpass-api.de/api/interpreter"
     }
   ],
   "schema_version": "2.0.0"

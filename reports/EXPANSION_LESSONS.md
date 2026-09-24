@@ -249,4 +249,13 @@ Fourth depth cycle outside the Gulf arc, and the first built on a **single** UNE
 - **World Heritage criteria can stay empty.** Three properties (1343 · 1735 · 1724) and fifteen tentative files are published by reference and year; criteria are deliberately `null`, and a mutation that injects a criterion fails. A third property added by the 2026 session was read from the same state page, so the cycle recorded three, not two.
 - **Coverage licences must follow the source registry.** Country importers that run before the UAE step backfill every coverage licence from its source record; writing a layer-local licence string made the earlier importer rewrite the rows and broke import idempotence — the fix is to copy the source licence in the depth layers, and the same rule applies to any future depth cycle.
 - **`make repair` is not a safe general command in this repository.** `scripts/migrate_legacy.py` rebuilds every manifest from the legacy CSV template, so running it overwrote the UAE pilot manifest (emirate profiles, pilot layers) and destroyed accepted structure; recovery is `git reset --hard` plus the validator schema that had already caught the damage. Prefer the per-country importers plus `make check`.
+- **A checksum-bound extract must contain every value the record asserts.** The first pass transcribed element titles, years and lists but left the numeric UNESCO references out of the extracts while the claims asserted them; the fix was to re-read both state pages, transcribe the references as their links publish them, re-checksum the extracts together with the evidence manifest and the source catalog, and add the `UAE_DEPTH_EVIDENCE_TRACE` guard plus a mutation — a record's evidence is only as good as the extract that binds it.
 - **Convergence is a commit loop, not a single run.** Each country gate rewrites its own report with the clean-worktree flag it observed, so one `make check` after a data change is expected to fail on the next gate; committing the rewritten report and re-running converges in one iteration per country until 487 checks pass with zero failures.
+
+## Yemen — Amanat Al Asimah named urban sections (2026-09-23)
+
+- Depth can come from a dated community map when the contract is explicit: extract text bound by checksum, confidence taken from the source's own gazetteer tag, no coordinate, no claim, no publication.
+- Mirroring the query and the snapshot timestamp inside each extract turned a volatile API into auditable evidence.
+- Recording a failed retrieval as an open district with its reason kept the frame honest and the next cycle aimed.
+- Coverage rows for the new layer count only what the snapshot attested, per district, on the 2004 frame — never a national figure and never a completed layer.
+

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import copy
+from model import read_jsonl
 from model import ROOT,write_json
 from validate_yemen import data,validate
 def main():
@@ -30,5 +31,15 @@ def main():
  r('YE_WRONG_PARENT',lambda d:next(x for x in d['relationships'] if x['child_id']=='ENT-YE-GOVERNORATE-22').update(parent_id='ENT-YE-GOVERNORATE-04'),'YE_PARENT')
  r('YE_STALE_COVERAGE',lambda d:next(x for x in d['coverage'] if x['id']=='COV-YE-FIRST-LEVEL').update(snapshot_date='2013-12-18'),'YE_COVERAGE_FRESHNESS')
  r('YE_EFFECTIVE_CLAUSE_FABRICATED',lambda d:next(x for x in d['claims'] if x.get('predicate')=='establishment_instrument')['value']['data'].update(effective_clause_verified=True),'YE_SOCOTRA_LAW')
+ r('YE_SECTION_COORDINATED',lambda d:next(x for x in d['entities'] if x.get('canonical_source_id')=='SRC-OSM-AMANAT-SECTIONS-2026').update(coordinates={'lat':15.3,'lon':44.2}),'YE_SECTION_STATUS')
+ r('YE_SECTION_PROMOTED_TO_VERIFIED',lambda d:next(x for x in d['entities'] if x.get('canonical_source_id')=='SRC-OSM-AMANAT-SECTIONS-2026').update(verification_status='verified'),'YE_SECTION_STATUS')
+ r('YE_SECTION_RENAMED',lambda d:next(x for x in d['entities'] if x.get('canonical_source_id')=='SRC-OSM-AMANAT-SECTIONS-2026').update(canonical_name='حارة مختلقة'),'YE_SECTION_CONTEXT')
+ r('YE_SECTION_DROPPED',lambda d:d['entities'].__setitem__(slice(None),[x for x in d['entities'] if not (x.get('canonical_source_id')=='SRC-OSM-AMANAT-SECTIONS-2026' and x['canonical_name']=='هبرة')]),'YE_SECTION_COUNTS')
+ sec=lambda d:next(x['id'] for x in d['entities'] if x.get('canonical_source_id')=='SRC-OSM-AMANAT-SECTIONS-2026')
+ r('YE_SECTION_REPARENTED',lambda d:next(x for x in d['relationships'] if x['child_id']==sec(d) and x['relationship_type']=='located_in').update(parent_id='ENT-YE-DISTRICT-CD3ABA2FB17C'),'YE_SECTION_CONTEXT')
+ r('YE_SECTION_POPULATED',lambda d:d['claims'].append({**d['claims'][0],'id':'CLM-YE-SECTIONPOP-X','subject_id':next(x['id'] for x in d['entities'] if x.get('canonical_source_id')=='SRC-OSM-AMANAT-SECTIONS-2026'),'predicate':'population'}),'YE_SECTION_CLAIMLESS')
+ r('YE_OPEN_DISTRICT_ESTIMATED',lambda d:d['entities'].append({**next(x for x in d['entities'] if x.get('canonical_source_id')=='SRC-OSM-AMANAT-SECTIONS-2026'),'id':'ENT-YE-NEIGHBORHOOD-X','canonical_name':'حارة الصافية المزعومة','source_locator':'district الصافية estimate'}),'YE_OPEN_DISTRICTS')
+ r('YE_URBAN_COVERAGE_INFLATED',lambda d:next(x for x in d['coverage'] if x['id']=='COV-YE-URBAN-SECTIONS-SHUUB').update(matched=101,missing=0,complete=True,coverage_percentage=100.0),'YE_SECTION_COVERAGE')
+ r('YE_URBAN_SNAPSHOT_MERGED',lambda d:next(x for x in d['snapshots'] if x['id']=='SNP-YE-URBAN-SECTIONS-20260923').update(captured_at='2026-08-17'),'YE_URBAN_SNAPSHOT')
  ok=all(x['detected'] for x in o); write_json(ROOT/'reports/yemen_negative_tests.json',{'schema_version':'2.0.0','country_code':'YE','status':'PASS' if ok else 'FAIL','required':len(o),'detected':sum(x['detected'] for x in o),'mutations':o}); print(o); return 0 if ok else 1
 if __name__=='__main__': raise SystemExit(main())

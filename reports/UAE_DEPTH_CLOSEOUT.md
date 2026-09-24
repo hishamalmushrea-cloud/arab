@@ -61,10 +61,16 @@ The three inscribed properties enter as places with **one `located_in` relations
 | --- | --- |
 | `python3 scripts/validate.py` | PASS (global, zero errors) |
 | `python3 scripts/validate_uae.py` | PASS; P0 = 0, critical P1 = 0 |
-| `python3 scripts/test_uae_negative.py` | **27/27** required mutations detected (8 pilot + 19 depth) |
+| `python3 scripts/test_uae_negative.py` | **28/28** required mutations detected (8 pilot + 20 depth) |
 | `python3 scripts/review_uae.py` | **45/45** independent samples passed across 10 families, each ≥ 10% |
 | `python3 scripts/generate_uae_report.py --check` | current, exactly 23 sections |
 | `make uae` | 21 checks on a clean tree |
+
+## Evidence upgrade and the trace guard
+
+The first pass of this cycle wrote six extracts that carried element titles, years and lists but **not** the numeric UNESCO references, while the depth claims asserted references such as `01268`, `5660` and `1343`. Every value came from the state pages that were read in the cycle, and the committed recon file `data/imports/uae/research/depth_research_2026-09-23.json` recorded them with their page URLs — but the checksum-bound extracts did not. Both state pages were therefore re-read on 2026-09-23 and transcribed again with the references as the pages publish them in their links (`.../al-ahalla-a-living-performing-art-in-the-united-arab-emirates-02279`, `whc.unesco.org/en/tentativelists/5660/`), and the extracts, the evidence manifest and the source catalog were re-checksummed together.
+
+A new guard, `UAE_DEPTH_EVIDENCE_TRACE`, now resolves each published depth claim's `source_id` to its checksum-bound extract and fails the build if that claim's reference is absent from the extract text. It caught exactly one remaining case on its first run — the Al Azi element page extract, which quoted the element's 2017 inscription without its code — and that extract was completed as well. A matching negative mutation rewrites an element reference to an unbacked value and must fail, which is how the trace rule stays enforced rather than promised.
 
 Every depth error code has its own mutation: shared-as-national, invented scope for a deferred file, publishing a deferred file, register-as-element, dropped pending nomination, dropped depth claim, filled criteria, duplicated tentative reference, duplicate inscription count, injected dish number, published weak source, place coordinates, second parent, place-bearing claim, re-typed natural site, merged pilot snapshot, downgraded source tier, removed layer denominator and shifted documented total.
 

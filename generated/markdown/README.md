@@ -14,7 +14,7 @@
 | IQ | العراق | 51 | 23 | [IQ](countries/IQ.md) |
 | KW | الكويت | 24 | 44 | [KW](countries/KW.md) |
 | MA | المغرب | 88 | 29 | [MA](countries/MA.md) |
-| YE | اليمن | 463 | 92 | [YE](countries/YE.md) |
+| YE | اليمن | 527 | 92 | [YE](countries/YE.md) |
 | TN | تونس | 2743 | 89 | [TN](countries/TN.md) |
 | KM | جزر القمر | 81 | 40 | [KM](countries/KM.md) |
 | DJ | جيبوتي | 35 | 46 | [DJ](countries/DJ.md) |

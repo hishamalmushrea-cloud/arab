@@ -453,13 +453,13 @@ def phase5(gate: Gate) -> None:
         "UAE_DEPTH_DISH_NUMBER", "UAE_DEPTH_WEAK_PUBLISHED", "UAE_DEPTH_PLACE_COORDINATES",
         "UAE_DEPTH_PLACE_SECOND_PARENT", "UAE_DEPTH_PLACE_CLAIM", "UAE_DEPTH_PLACE_RETYPED",
         "UAE_DEPTH_PILOT_SNAPSHOT_MERGED", "UAE_DEPTH_SOURCE_DOWNGRADED",
-        "UAE_DEPTH_LAYER_DENOMINATOR", "UAE_DEPTH_LAYER_TOTAL",
+        "UAE_DEPTH_LAYER_DENOMINATOR", "UAE_DEPTH_LAYER_TOTAL", "UAE_DEPTH_REFERENCE_UNBACKED",
     }
     observed_mutations = {row.get("mutation") for row in negatives.get("mutations", []) if row.get("detected")}
     gate.require(
         negatives.get("status") == "PASS" and observed_mutations == expected_mutations,
         "uae_required_mutations",
-        f"detected={len(observed_mutations)}/27, exact required set={observed_mutations == expected_mutations}",
+        f"detected={len(observed_mutations)}/28, exact required set={observed_mutations == expected_mutations}",
     )
     headings = [line[3:] for line in (ROOT / "reports/UAE_PILOT_FINAL.md").read_text(encoding="utf-8").splitlines() if line.startswith("## ")]
     gate.require(

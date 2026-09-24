@@ -1,0 +1,20 @@
+{
+  "archive_url": null,
+  "checksum": "sha256:761526ad2c9b592c3ac2e70df79ee9b14419b6e215851d167f7c8be3d3b8164e",
+  "country_codes": [
+    "YE"
+  ],
+  "id": "SRC-OSM-AMANAT-SECTIONS-2026",
+  "language": "ar",
+  "license": "ODbL 1.0 — © OpenStreetMap contributors (https://www.openstreetmap.org/copyright)",
+  "locator": "the Arabic value wins; when both name and name:ar are Arabic and differ, the name tag is canonical and the other rendering is recorded in the extract line. Query per district: شعوب: [out:json][timeout:120];area[\"name\"=\"مديرية شعوب\"][\"boundary\"=\"administrative\"]->.a;(nwr[\"place\"~\"^(neighbourhood|quarter|suburb|city_block)$\"][\"name\"](area.a););out tags center; | أزال: [out:json][timeout:60];area[\"name\"=\"مديرية أزال\"][\"boundary\"=\"administrative\"]->.a;node[\"place\"][\"name\"](area.a);out tags;",
+  "notes": "Community-mapped named urban sections enumerated per district inside its administrative area; features tagged source:name=GNS carry the public-domain NGA gazetteer id (PPLX = section of populated place), the rest carry unverified status. Coordinates, populations and shares are deliberately not imported. Publication date unavailable.",
+  "publication_date": null,
+  "publisher": "OpenStreetMap contributors (Overpass API), with NGA GEOnet Names Server ids where tagged",
+  "quality_tier": "C",
+  "retrieved_at": "2026-09-23",
+  "schema_version": "2.0.0",
+  "source_type": "map",
+  "title": "Amanat Al Asimah named urban sections — dated OpenStreetMap snapshot",
+  "url": "https://overpass-api.de/api/interpreter"
+}

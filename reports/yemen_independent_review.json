@@ -16,40 +16,40 @@
     },
     "coverage": {
       "failed": 0,
-      "passed": 7,
-      "sampled": 7,
+      "passed": 9,
+      "sampled": 9,
       "status": "PASS"
     },
     "denominators": {
       "failed": 0,
-      "passed": 7,
-      "sampled": 7,
+      "passed": 9,
+      "sampled": 9,
       "status": "PASS"
     },
     "entities": {
       "failed": 0,
-      "passed": 463,
-      "sampled": 463,
+      "passed": 527,
+      "sampled": 527,
       "status": "PASS"
     },
     "relationships": {
       "failed": 0,
-      "passed": 462,
-      "sampled": 462,
+      "passed": 526,
+      "sampled": 526,
       "status": "PASS"
     },
     "sources": {
       "failed": 0,
-      "passed": 5,
-      "sampled": 5,
+      "passed": 6,
+      "sampled": 6,
       "status": "PASS"
     }
   },
   "findings": [],
-  "method": "Independent full-population comparison against the checksum-bound 22-unit fixture, the 333-district inventory, the 104-lane Amanat inventory, the 19-claim cultural frame, and the 14-claim dress/crafts/markets frame, including status enforcement (probable/unverified/local_reported), unpublished weak-source content, and shared-dish non-exclusivity.",
+  "method": "Independent full-population comparison against the checksum-bound 22-unit fixture, the 333-district inventory, the 104-lane Amanat inventory, the named-urban-section snapshot fixture of depth cycle 2, the 19-claim cultural frame, and the 14-claim dress/crafts/markets frame, including status enforcement (probable/unverified/local_reported), coordinate and claim absence on section places, per-district bounded coverage, dated snapshots, unpublished weak-source content, and shared-dish non-exclusivity.",
   "p0": 0,
   "schema_version": "2.0.0",
   "status": "PASS",
-  "total_passed": 1037,
-  "total_sampled": 1037
+  "total_passed": 1170,
+  "total_sampled": 1170
 }

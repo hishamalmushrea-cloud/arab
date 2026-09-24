@@ -1,0 +1,567 @@
+{
+  "absences": [
+    "لا إحداثيات: المصدر يقدّم مركز كل عنصر لكن الطبقة تُبقي الإحداثيات فارغة مثل سابقتها.",
+    "لا سكان ولا أعداد: أرقام 2004 تبقى كما هي في الطبقة المقبولة ولا تُسحب من هذه اللقطة.",
+    "لا نسبة مُستنتَجة: التغطية تُحسب فقط لكل مديرية على حِدة مقابل إطار 2004، ولا تُعمّم على المديريات غير المسترجَعة.",
+    "لا وسوم نطاق: عناصر يونسكو أو التراث العالمي ليست في هذه الطبقة.",
+    "لا تصنيف للطبقة الريفية: القرى والنجوع والمزارع مستبعدة صراحةً ولم تُدرَج باسم حيّ."
+  ],
+  "accepted_districts": {
+    "التحرير": "Tahrir 35-lane hay tables (accepted depth level 1)",
+    "صنعاء القديمة": "Old Sanaa 69-lane inventory (accepted depth level 1)"
+  },
+  "captured_at": "2026-09-23",
+  "country_code": "YE",
+  "cycle": "second_degree_depth_cycle_2",
+  "districts": [
+    {
+      "classes": {
+        "neighbourhood": 7,
+        "quarter": 2,
+        "suburb": 35
+      },
+      "code": "SHUUB",
+      "district": "شعوب",
+      "district_id": "ENT-YE-DISTRICT-CD3ABA2FB17C",
+      "extract": "raw/2026-09-23/osm-amanat-shuub-20260923.txt",
+      "extract_query": "[out:json][timeout:120];area[\"name\"=\"مديرية شعوب\"][\"boundary\"=\"administrative\"]->.a;(nwr[\"place\"~\"^(neighbourhood|quarter|suburb|city_block)$\"][\"name\"](area.a););out tags center;",
+      "frame_lanes_2004": 101,
+      "frame_neighborhoods_2004": 12,
+      "osm_base_timestamp": "2026-09-23T22:03:14Z",
+      "sections": [
+        {
+          "gns": "10643847",
+          "name": "هبرة",
+          "name_source": "GNS",
+          "object": "node/1222644490",
+          "place": "suburb"
+        },
+        {
+          "gns": null,
+          "name": "حي المروت",
+          "name_source": "OSM (name tag Almarawn)",
+          "object": "node/4326075200",
+          "place": "neighbourhood"
+        },
+        {
+          "gns": null,
+          "name": "حارة الفاروق الجنوبية",
+          "name_source": "OSM (name:ar حارة الدجاح)",
+          "object": "node/5499307323",
+          "place": "neighbourhood"
+        },
+        {
+          "gns": null,
+          "name": "المضلاع",
+          "name_source": "OSM",
+          "object": "node/6462235387",
+          "place": "neighbourhood"
+        },
+        {
+          "gns": "10643855",
+          "name": "عرهب",
+          "name_source": "GNS",
+          "object": "node/6936968120",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853856",
+          "name": "سد شعوب",
+          "name_source": "GNS",
+          "object": "node/7294927766",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853855",
+          "name": "بير زيد",
+          "name_source": "GNS",
+          "object": "node/7294927767",
+          "place": "neighbourhood"
+        },
+        {
+          "gns": "14853846",
+          "name": "بير الغشم",
+          "name_source": "GNS",
+          "object": "node/7294927775",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853809",
+          "name": "قبة جباري",
+          "name_source": "GNS",
+          "object": "node/7294933921",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853910",
+          "name": "الفاروق",
+          "name_source": "GNS",
+          "object": "node/7294950035",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853906",
+          "name": "بلقيس",
+          "name_source": "GNS",
+          "object": "node/7294950156",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853805",
+          "name": "بير الدفعي",
+          "name_source": "GNS",
+          "object": "node/7294951107",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853802",
+          "name": "الصياح",
+          "name_source": "GNS",
+          "object": "node/7294951108",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853801",
+          "name": "بير السنيدار",
+          "name_source": "GNS",
+          "object": "node/7294951109",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853797",
+          "name": "بئر التبان",
+          "name_source": "GNS",
+          "object": "node/7294951110",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853796",
+          "name": "جامع الرضوان",
+          "name_source": "GNS",
+          "object": "node/7294951111",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853792",
+          "name": "شيراتون",
+          "name_source": "GNS",
+          "object": "node/7294951113",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853791",
+          "name": "الغوارس",
+          "name_source": "GNS",
+          "object": "node/7294951114",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853800",
+          "name": "الفرقان",
+          "name_source": "GNS",
+          "object": "node/7294951116",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853785",
+          "name": "المحاريق",
+          "name_source": "GNS",
+          "object": "node/7294951118",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853729",
+          "name": "الحرقان الداخلي",
+          "name_source": "GNS",
+          "object": "node/7294951164",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853899",
+          "name": "التبان",
+          "name_source": "GNS",
+          "object": "node/7294951340",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853898",
+          "name": "جامعة الرضوان",
+          "name_source": "GNS",
+          "object": "node/7294951343",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853897",
+          "name": "سعوان",
+          "name_source": "GNS",
+          "object": "node/7294951344",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853845",
+          "name": "فروة",
+          "name_source": "GNS",
+          "object": "node/7294958839",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853909",
+          "name": "بئر القحوم",
+          "name_source": "GNS",
+          "object": "node/7294960703",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853908",
+          "name": "الخرابة",
+          "name_source": "GNS",
+          "object": "node/7294960704",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853907",
+          "name": "الوشاح",
+          "name_source": "GNS",
+          "object": "node/7294960705",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853905",
+          "name": "بئر السبيدار",
+          "name_source": "GNS",
+          "object": "node/7294963886",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853904",
+          "name": "بئر السنيدار",
+          "name_source": "GNS",
+          "object": "node/7294968764",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853901",
+          "name": "وادي جميل",
+          "name_source": "GNS",
+          "object": "node/7294968768",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853788",
+          "name": "مسيك الوسطى",
+          "name_source": "GNS",
+          "object": "node/7294969420",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853881",
+          "name": "مسيك الشرقية المحاريق",
+          "name_source": "GNS",
+          "object": "node/7294969433",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853787",
+          "name": "مسيك الشرقية",
+          "name_source": "GNS",
+          "object": "node/7294969434",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853808",
+          "name": "بير الربوعي",
+          "name_source": "GNS",
+          "object": "node/7294969778",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853804",
+          "name": "حارة الخرابة",
+          "name_source": "GNS",
+          "object": "node/7294969788",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853794",
+          "name": "مدينة الضباط",
+          "name_source": "GNS",
+          "object": "node/7294969789",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853793",
+          "name": "الوحدة",
+          "name_source": "GNS",
+          "object": "node/7294969869",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853789",
+          "name": "مسيك والمزرعة",
+          "name_source": "GNS",
+          "object": "node/7294970375",
+          "place": "suburb"
+        },
+        {
+          "gns": null,
+          "name": "حي سبأ",
+          "name_source": "OSM (wikidata Q12209595)",
+          "object": "way/602874922",
+          "place": "neighbourhood"
+        },
+        {
+          "gns": null,
+          "name": "حي ظهر حمير",
+          "name_source": "OSM",
+          "object": "way/608547263",
+          "place": "quarter"
+        },
+        {
+          "gns": null,
+          "name": "الصياح",
+          "name_source": "OSM",
+          "object": "way/608558430",
+          "place": "neighbourhood"
+        },
+        {
+          "gns": null,
+          "name": "الحفا",
+          "name_source": "OSM",
+          "object": "way/608593544",
+          "place": "quarter"
+        },
+        {
+          "gns": null,
+          "name": "الحشيشية",
+          "name_source": "OSM (name:ar الحشيشة)",
+          "object": "way/608593550",
+          "place": "neighbourhood"
+        }
+      ]
+    },
+    {
+      "classes": {
+        "neighbourhood": 1,
+        "suburb": 19
+      },
+      "code": "AZAL",
+      "district": "أزال",
+      "district_id": "ENT-YE-DISTRICT-14DB253EFEEC",
+      "extract": "raw/2026-09-23/osm-amanat-azal-20260923.txt",
+      "extract_query": "[out:json][timeout:60];area[\"name\"=\"مديرية أزال\"][\"boundary\"=\"administrative\"]->.a;node[\"place\"][\"name\"](area.a);out tags;",
+      "frame_lanes_2004": 34,
+      "frame_neighborhoods_2004": 6,
+      "osm_base_timestamp": "2026-09-23T22:05:19Z",
+      "sections": [
+        {
+          "gns": null,
+          "name": "حارة السد",
+          "name_source": "OSM",
+          "object": "node/6029109275",
+          "place": "neighbourhood"
+        },
+        {
+          "gns": "14853854",
+          "name": "التعاون",
+          "name_source": "GNS (name:ar التعون)",
+          "object": "node/7294927768",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853851",
+          "name": "التعاون",
+          "name_source": "GNS",
+          "object": "node/7294927770",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853852",
+          "name": "عين الفقيه",
+          "name_source": "GNS",
+          "object": "node/7294927772",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853772",
+          "name": "وادي القصر",
+          "name_source": "GNS",
+          "object": "node/7294950962",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853771",
+          "name": "الشريف",
+          "name_source": "GNS",
+          "object": "node/7294950963",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853770",
+          "name": "حارة الشريف",
+          "name_source": "GNS",
+          "object": "node/7294950964",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853784",
+          "name": "ظهر حمير الشرقية",
+          "name_source": "GNS",
+          "object": "node/7294951119",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853783",
+          "name": "ماجل الأمير",
+          "name_source": "GNS",
+          "object": "node/7294951120",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853782",
+          "name": "ظهر حمير",
+          "name_source": "GNS",
+          "object": "node/7294951121",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853779",
+          "name": "ظهر حمير الفوز",
+          "name_source": "GNS",
+          "object": "node/7294951123",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853778",
+          "name": "حمير",
+          "name_source": "GNS",
+          "object": "node/7294951124",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853777",
+          "name": "الفوز",
+          "name_source": "GNS",
+          "object": "node/7294951125",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853776",
+          "name": "المشهد",
+          "name_source": "GNS",
+          "object": "node/7294951126",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853775",
+          "name": "الفلاح",
+          "name_source": "GNS",
+          "object": "node/7294951127",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853763",
+          "name": "التعان",
+          "name_source": "GNS",
+          "object": "node/7294951134",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853752",
+          "name": "ظهر حمير الجنوبية",
+          "name_source": "GNS",
+          "object": "node/7294951144",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853753",
+          "name": "غول البلس",
+          "name_source": "GNS",
+          "object": "node/7294965817",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853781",
+          "name": "مسيك",
+          "name_source": "GNS",
+          "object": "node/7294966699",
+          "place": "suburb"
+        },
+        {
+          "gns": "14853764",
+          "name": "أكمة الزبيب",
+          "name_source": "GNS",
+          "object": "node/7294970268",
+          "place": "suburb"
+        }
+      ]
+    }
+  ],
+  "layer": "ye_amanat_urban_sections_2026",
+  "method": "Named urban sections (حي / حارة / محلة) enumerated per Amanat Al Asimah district from a dated OpenStreetMap Overpass snapshot; every extract is mirrored under raw/2026-09-23/ and bound by checksum in the snapshot manifest. Rural place classes (village, hamlet, farm, locality, isolated_dwelling) are excluded and left to a later settlement layer; no coordinate, population or share is imported from this source.",
+  "open_districts": [
+    {
+      "code": "SAFIYA",
+      "district": "الصافية",
+      "frame_lanes_2004": 20,
+      "frame_neighborhoods_2004": 1,
+      "reason": "Overpass API returned a runtime read timeout on every 2026-09-23 retry for this district area; no name is fabricated and the frame count stays the denominator.",
+      "status": "not_retrieved"
+    },
+    {
+      "code": "SABEEN",
+      "district": "السبعين",
+      "frame_lanes_2004": 78,
+      "frame_neighborhoods_2004": 15,
+      "reason": "Overpass API returned a runtime read timeout on every 2026-09-23 retry for this district area; no name is fabricated and the frame count stays the denominator.",
+      "status": "not_retrieved"
+    },
+    {
+      "code": "WAHDA",
+      "district": "الوحدة",
+      "frame_lanes_2004": 34,
+      "frame_neighborhoods_2004": 9,
+      "reason": "Overpass API returned a runtime read timeout on every 2026-09-23 retry for this district area; no name is fabricated and the frame count stays the denominator.",
+      "status": "not_retrieved"
+    },
+    {
+      "code": "MAEEN",
+      "district": "معين",
+      "frame_lanes_2004": 97,
+      "frame_neighborhoods_2004": 3,
+      "reason": "Overpass API returned a runtime read timeout on every 2026-09-23 retry for this district area; no name is fabricated and the frame count stays the denominator.",
+      "status": "not_retrieved"
+    },
+    {
+      "code": "THAWRA",
+      "district": "الثورة",
+      "frame_lanes_2004": 48,
+      "frame_neighborhoods_2004": 8,
+      "reason": "Overpass API returned a runtime read timeout on every 2026-09-23 retry for this district area; no name is fabricated and the frame count stays the denominator.",
+      "status": "not_retrieved"
+    },
+    {
+      "code": "BANI-HARITH",
+      "district": "بني الحارث",
+      "frame_lanes_2004": 153,
+      "frame_neighborhoods_2004": 8,
+      "reason": "Overpass API returned a runtime read timeout on every 2026-09-23 retry for this district area; no name is fabricated and the frame count stays the denominator.",
+      "status": "not_retrieved"
+    }
+  ],
+  "schema_version": "2.0.0",
+  "source": {
+    "canonical_name_rule": "the Arabic value wins; when both name and name:ar are Arabic and differ, the name tag is canonical and the other rendering is recorded in the extract line.",
+    "endpoint": "https://overpass-api.de/api/interpreter",
+    "gazetteer": "Features tagged source:name=GNS carry the public-domain NGA GEOnet Names Server id; the GNS tag 'PPLX' means 'section of populated place'. Features without that tag are community-mapped and stay unverified.",
+    "license": "ODbL 1.0 — © OpenStreetMap contributors (https://www.openstreetmap.org/copyright)"
+  },
+  "summary": {
+    "districts_completed": 2,
+    "districts_open": 6,
+    "sections": 64,
+    "sections_per_district": {
+      "أزال": 20,
+      "شعوب": 44
+    }
+  }
+}
